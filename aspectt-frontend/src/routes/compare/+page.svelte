@@ -108,7 +108,7 @@
 						<a href="/occupation/{occ.uk_soc_2020}" class="comp-code">{occ.uk_soc_2020}</a>
 						<h3>{occ.title}</h3>
 						{#if occ.riasec_code}<span class="badge">{occ.riasec_code}</span>{/if}
-						{#if occ.job_zone}<span class="jz-badge">Job Zone {occ.job_zone}</span>{/if}
+						{#if occ.job_zone}<span class="jz-badge">Job Zone {occ.job_zone <= 2 ? '1–2' : occ.job_zone}</span>{/if}
 					</div>
 				{/each}
 			</div>

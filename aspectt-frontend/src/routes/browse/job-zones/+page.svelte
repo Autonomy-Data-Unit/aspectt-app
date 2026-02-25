@@ -13,8 +13,7 @@
 	});
 
 	const zoneDescriptions: Record<number, string> = {
-		1: 'These occupations need little or no preparation. A high school diploma or GED may be required. Little or no previous work-related skill, knowledge, or experience is needed.',
-		2: 'These occupations usually need some previous work-related skill, knowledge, or experience. They usually require a secondary education and some vocational training.',
+		2: 'These occupations need little to some preparation. They may require a secondary education or some vocational training. Little or some previous work-related skill, knowledge, or experience may be needed.',
 		3: 'These occupations usually need training in vocational schools, on-the-job experience, or an associate\'s degree. Previous work-related skill, knowledge, or experience is required.',
 		4: 'Most of these occupations require a four-year bachelor\'s degree, but some do not. Employees in these occupations usually need several years of work-related experience.',
 		5: 'These occupations often require graduate school. Extensive skill, knowledge, and experience are needed. Many require more than five years of experience.',
@@ -27,7 +26,7 @@
 	<h1 class="page-title">Browse by job zone</h1>
 	<p class="page-desc">
 		Job zones group occupations by the level of education, experience and training required.
-		There are five zones, from little preparation (zone 1) to extensive preparation (zone 5).
+		There are four zones, from little preparation (zone 1–2) to extensive preparation (zone 5).
 	</p>
 
 	{#if loading}
@@ -37,7 +36,7 @@
 			{#each zones as zone}
 				<div class="zone-card card">
 					<button class="zone-header" onclick={() => expandedZone = expandedZone === zone.zone ? null : zone.zone}>
-						<div class="zone-badge">Zone {zone.zone}</div>
+						<div class="zone-badge">Zone {zone.label ?? zone.zone}</div>
 						<div class="zone-info">
 							<h2>{zone.name}</h2>
 							<p class="zone-count">{zone.occupation_count} occupations</p>

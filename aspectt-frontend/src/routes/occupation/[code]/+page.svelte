@@ -78,13 +78,17 @@
 
 	function jobZoneLabel(jz: number): string {
 		const labels: Record<number, string> = {
-			1: 'Little or no preparation needed',
-			2: 'Some preparation needed',
+			1: 'Little to some preparation needed',
+			2: 'Little to some preparation needed',
 			3: 'Medium preparation needed',
 			4: 'Considerable preparation needed',
 			5: 'Extensive preparation needed',
 		};
 		return labels[jz] || `Zone ${jz}`;
+	}
+
+	function jobZoneDisplay(jz: number): string {
+		return jz <= 2 ? '1–2' : String(jz);
 	}
 
 	function getRiasecCode(): string {
@@ -123,7 +127,7 @@
 				<p class="occ-desc">{occ.description}</p>
 				<div class="header-tags">
 					{#if occ.job_zone}
-						<span class="header-tag jz">Job Zone {occ.job_zone}</span>
+						<span class="header-tag jz">Job Zone {jobZoneDisplay(occ.job_zone)}</span>
 					{/if}
 					{#if getRiasecCode()}
 						<span class="header-tag riasec">{getRiasecCode()}</span>
@@ -156,7 +160,7 @@
 						<h2>Overview</h2>
 						{#if occ.job_zone}
 							<div class="job-zone">
-								<strong>Job Zone {occ.job_zone}:</strong> {jobZoneLabel(occ.job_zone)}
+								<strong>Job Zone {jobZoneDisplay(occ.job_zone)}:</strong> {jobZoneLabel(occ.job_zone)}
 							</div>
 						{/if}
 						{#if occ.alternate_titles?.length}
@@ -410,7 +414,7 @@
 						<h2>Education and training</h2>
 						{#if occ.job_zone}
 							<div class="job-zone">
-								<strong>Job Zone {occ.job_zone}:</strong> {jobZoneLabel(occ.job_zone)}
+								<strong>Job Zone {jobZoneDisplay(occ.job_zone)}:</strong> {jobZoneLabel(occ.job_zone)}
 							</div>
 						{/if}
 						{#if occ.education?.length}

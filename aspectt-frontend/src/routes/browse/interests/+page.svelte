@@ -100,7 +100,7 @@
 					<div class="action-row">
 						<select bind:value={jobZoneFilter} onchange={search} class="jz-select">
 							<option value={undefined}>All job zones</option>
-							<option value={2}>Zone 2 - Some Preparation</option>
+							<option value={2}>Zone 1–2 - Little to Some</option>
 							<option value={3}>Zone 3 - Medium</option>
 							<option value={4}>Zone 4 - Considerable</option>
 							<option value={5}>Zone 5 - Extensive</option>
@@ -128,7 +128,7 @@
 								<span class="riasec-tag">{occ.riasec_code}</span>
 							{/if}
 							{#if occ.job_zone}
-								<span class="jz-tag">JZ{occ.job_zone}</span>
+								<span class="jz-tag">JZ{occ.job_zone <= 2 ? '1–2' : occ.job_zone}</span>
 							{/if}
 						</a>
 					{/each}

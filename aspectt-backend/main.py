@@ -518,23 +518,25 @@ def browse_major_groups():
 
 @app.get("/api/browse/job-zones")
 def browse_job_zones():
-    """Get occupations grouped by job zone (preparation level)."""
+    """Get occupations grouped by job zone (preparation level).
+    Zones 1 and 2 are merged following O*NET Online convention."""
     zone_names = {
-        1: "Little or No Preparation Needed",
-        2: "Some Preparation Needed",
+        2: "Little to Some Preparation Needed",
         3: "Medium Preparation Needed",
         4: "Considerable Preparation Needed",
         5: "Extensive Preparation Needed",
     }
 
-    zones: dict[int, list[dict]] = {z: [] for z in range(1, 6)}
+    zones: dict[int, list[dict]] = {z: [] for z in (2, 3, 4, 5)}
     for code, occ in _occupations.items():
         jz = occ.get("job_zone")
+        if jz == 1:
+            jz = 2  # merge zone 1 into zone 2
         if jz and jz in zones:
             zones[jz].append({"uk_soc_2020": code, "title": occ["title"]})
 
     result = [
-        {"zone": z, "name": zone_names[z], "occupation_count": len(occs), "occupations": occs}
+        {"zone": z, "name": zone_names[z], "label": "1–2" if z == 2 else str(z), "occupation_count": len(occs), "occupations": occs}
         for z, occs in sorted(zones.items())
     ]
     return {"job_zones": result}

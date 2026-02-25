@@ -101,6 +101,7 @@ export interface MajorGroup {
 export interface JobZone {
 	zone: number;
 	name: string;
+	label?: string;
 	occupation_count: number;
 	occupations: Occupation[];
 }

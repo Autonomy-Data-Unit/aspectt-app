@@ -68,7 +68,7 @@
 			</select>
 			<select bind:value={jobZoneFilter} onchange={() => currentPage = 0} class="filter-select">
 				<option value={undefined}>All job zones</option>
-				<option value={2}>Zone 2</option>
+				<option value={2}>Zone 1–2</option>
 				<option value={3}>Zone 3</option>
 				<option value={4}>Zone 4</option>
 				<option value={5}>Zone 5</option>
