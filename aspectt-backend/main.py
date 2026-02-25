@@ -1,13 +1,17 @@
 """ASPECTT Backend - FastAPI server for UK O*NET equivalent data."""
 
+import os
 from pathlib import Path
 import json
 import math
 from collections import defaultdict
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
-DATA_DIR = Path(__file__).parent.parent / "aspectt-pipeline" / "data" / "uk_onet"
+DATA_DIR = Path(os.environ.get("ASPECTT_DATA_DIR", Path(__file__).parent.parent / "aspectt-pipeline" / "data" / "uk_onet"))
+STATIC_DIR = Path(os.environ.get("ASPECTT_STATIC_DIR", ""))  # Set in Docker to serve frontend
 
 app = FastAPI(
     title="ASPECTT API",
@@ -664,6 +668,18 @@ def get_stats():
             "tasks", "technology_skills", "education", "related_occupations",
         ],
     }
+
+
+# --- Static file serving (production) ---
+
+if STATIC_DIR and STATIC_DIR.is_dir():
+    @app.get("/{full_path:path}")
+    async def serve_spa(full_path: str):
+        """Serve the SvelteKit SPA. Tries the exact file first, falls back to index.html."""
+        file_path = STATIC_DIR / full_path
+        if file_path.is_file():
+            return FileResponse(file_path)
+        return FileResponse(STATIC_DIR / "index.html")
 
 
 if __name__ == "__main__":

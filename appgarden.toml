@@ -1,0 +1,14 @@
+[app]
+name = "aspectt"
+method = "dockerfile"
+container_port = 8000
+source = "."
+created_at = "2026-02-25"
+server = "adu-apps"
+
+[environments.production]
+subdomain = "aspectt"
+
+[app.meta]
+title = "ASPECTT - UK Occupation Information System"
+description = "UK equivalent of O*NET Online based on UK SOC 2020"
