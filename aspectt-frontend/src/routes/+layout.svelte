@@ -27,6 +27,7 @@
 	<div class="container header-inner">
 		<a href="/" class="logo" onclick={closeMenus}>
 			ASPECTT
+			<span class="logo-sub">by the Autonomy Institute</span>
 		</a>
 		<button class="mobile-toggle" onclick={() => (menuOpen = !menuOpen)}>
 			{menuOpen ? '\u2715' : '\u2630'}
@@ -142,6 +143,15 @@
 	.logo:hover {
 		text-decoration: none;
 		color: var(--color-accent-bright);
+	}
+
+	.logo-sub {
+		font-size: 0.55rem;
+		font-weight: 400;
+		letter-spacing: 0.02em;
+		opacity: 0.7;
+		display: block;
+		margin-top: -0.15rem;
 	}
 
 	nav {
