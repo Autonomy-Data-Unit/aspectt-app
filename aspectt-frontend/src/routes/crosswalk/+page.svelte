@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getCrosswalk, searchOccupations, type Occupation } from '$lib/api/client';
+	import { getCrosswalk, searchOccupations, searchOnetOccupations, type Occupation, type OnetOccupation } from '$lib/api/client';
 
 	let ukSocFilter = $state('');
 	let onetSocFilter = $state('');
@@ -11,6 +11,9 @@
 
 	let ukSuggestions = $state<Occupation[]>([]);
 	let ukSearchTimeout: ReturnType<typeof setTimeout>;
+
+	let onetSuggestions = $state<OnetOccupation[]>([]);
+	let onetSearchTimeout: ReturnType<typeof setTimeout>;
 
 	function onUkSocInput() {
 		clearTimeout(ukSearchTimeout);
@@ -35,8 +38,31 @@
 		ukSuggestions = [];
 	}
 
+	function onOnetSocInput() {
+		clearTimeout(onetSearchTimeout);
+		if (onetSocFilter.trim().length < 1) { onetSuggestions = []; return; }
+		onetSearchTimeout = setTimeout(async () => {
+			const data = await searchOnetOccupations(onetSocFilter, 8);
+			onetSuggestions = data.occupations;
+		}, 200);
+	}
+
+	function onOnetSocKeydown(e: KeyboardEvent) {
+		if (e.key === 'Escape') onetSuggestions = [];
+	}
+
+	function onOnetSocBlur() {
+		setTimeout(() => { onetSuggestions = []; }, 150);
+	}
+
+	function selectOnetSoc(occ: OnetOccupation) {
+		onetSocFilter = occ.onet_soc;
+		onetSuggestions = [];
+	}
+
 	async function search() {
 		ukSuggestions = [];
+		onetSuggestions = [];
 		loading = true;
 		currentPage = 0;
 		await load();
@@ -62,6 +88,7 @@
 		total = 0;
 		currentPage = 0;
 		ukSuggestions = [];
+		onetSuggestions = [];
 	}
 </script>
 
@@ -90,9 +117,18 @@
 					</div>
 				{/if}
 			</div>
-			<div class="filter-group">
+			<div class="filter-group filter-group-suggest">
 				<label for="onet-soc-input">O*NET SOC code</label>
-				<input id="onet-soc-input" type="text" class="search-input filter-input" placeholder="e.g. 15-1252.00" bind:value={onetSocFilter} />
+				<input id="onet-soc-input" type="text" class="search-input filter-input" placeholder="e.g. 15-1252.00 or title..." bind:value={onetSocFilter} oninput={onOnetSocInput} onkeydown={onOnetSocKeydown} onblur={onOnetSocBlur} />
+				{#if onetSuggestions.length > 0}
+					<div class="suggest-dropdown">
+						{#each onetSuggestions as occ}
+							<button class="suggest-item" onclick={() => selectOnetSoc(occ)}>
+								<span class="suggest-code">{occ.onet_soc}</span> {occ.title}
+							</button>
+						{/each}
+					</div>
+				{/if}
 			</div>
 			<div class="filter-actions">
 				<button class="btn btn-primary" onclick={search}>Search</button>

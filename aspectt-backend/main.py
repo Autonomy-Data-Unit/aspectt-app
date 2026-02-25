@@ -132,6 +132,17 @@ for _occ_info in _occupation_index:
 
 _crosswalk = load_crosswalk()
 
+# Build unique O*NET occupation list for autocomplete
+_onet_occupations: list[dict] = []
+_onet_seen: set[str] = set()
+for _xw in _crosswalk:
+    _onet_code = _xw.get("onet_soc", "")
+    if _onet_code and _onet_code not in _onet_seen:
+        _onet_seen.add(_onet_code)
+        _onet_occupations.append({"onet_soc": _onet_code, "title": _xw.get("onet_title", "")})
+_onet_occupations.sort(key=lambda x: x["onet_soc"])
+del _onet_seen
+
 # Build search indices
 _alt_title_index: dict[int, list[str]] = {}  # soc -> lowercase alt titles
 _task_index: list[tuple[int, str, str]] = []  # (soc, task_text, task_type)
@@ -691,6 +702,19 @@ def browse_technology_skills(
 
 
 # --- Crosswalk ---
+
+@app.get("/api/onet-occupations")
+def search_onet_occupations(
+    q: str = Query(default="", description="Search O*NET occupations by SOC code or title"),
+    limit: int = Query(default=10, ge=1, le=100),
+):
+    """Search unique O*NET occupations from the crosswalk for autocomplete."""
+    if not q.strip():
+        return {"total": len(_onet_occupations), "occupations": _onet_occupations[:limit]}
+    q_lower = q.lower().strip()
+    matches = [o for o in _onet_occupations if q_lower in o["onet_soc"].lower() or q_lower in o["title"].lower()]
+    return {"total": len(matches), "occupations": matches[:limit]}
+
 
 @app.get("/api/crosswalk")
 def get_crosswalk(

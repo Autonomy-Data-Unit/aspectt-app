@@ -292,6 +292,17 @@ export async function compareOccupations(codes: number[]) {
 
 // --- Crosswalk ---
 
+export interface OnetOccupation {
+	onet_soc: string;
+	title: string;
+}
+
+export async function searchOnetOccupations(q: string, limit = 10) {
+	return fetchJson<{ total: number; occupations: OnetOccupation[] }>(
+		`/onet-occupations?q=${encodeURIComponent(q)}&limit=${limit}`
+	);
+}
+
 export async function getCrosswalk(params: {
 	ukSoc?: number;
 	onetSoc?: string;
