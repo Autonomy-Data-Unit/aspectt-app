@@ -54,11 +54,11 @@
 <svelte:head><title>Compare Occupations - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Compare Occupations</h1>
-	<p class="page-desc">Select 2 to 4 occupations to compare side by side.</p>
+	<h1 class="page-title">Compare occupations</h1>
+	<p class="page-desc">Select two to four occupations to compare side by side.</p>
 
 	<div class="card">
-		<h2>Select Occupations</h2>
+		<h2>Select occupations</h2>
 		<div class="search-area">
 			<input
 				class="search-input"
@@ -93,7 +93,7 @@
 				{/each}
 			</div>
 			<button class="btn btn-primary" onclick={doCompare} disabled={selectedCodes.length < 2 || loading}>
-				{loading ? 'Comparing...' : `Compare ${selectedCodes.length} Occupations`}
+				{loading ? 'Comparing...' : `Compare ${selectedCodes.length} occupations`}
 			</button>
 		{/if}
 	</div>
@@ -121,9 +121,9 @@
 				{/each}
 			</div>
 
-			<!-- Top Skills -->
+			<!-- Top skills -->
 			<div class="compare-section">
-				<div class="section-label">Top Skills</div>
+				<div class="section-label">Top skills</div>
 				{#each comparison as occ}
 					<div class="compare-cell">
 						{#each occ.top_skills.slice(0, 5) as skill}
@@ -137,9 +137,9 @@
 				{/each}
 			</div>
 
-			<!-- Top Knowledge -->
+			<!-- Top knowledge -->
 			<div class="compare-section">
-				<div class="section-label">Top Knowledge</div>
+				<div class="section-label">Top knowledge</div>
 				{#each comparison as occ}
 					<div class="compare-cell">
 						{#each occ.top_knowledge.slice(0, 5) as k}
@@ -153,9 +153,9 @@
 				{/each}
 			</div>
 
-			<!-- Top Abilities -->
+			<!-- Top abilities -->
 			<div class="compare-section">
-				<div class="section-label">Top Abilities</div>
+				<div class="section-label">Top abilities</div>
 				{#each comparison as occ}
 					<div class="compare-cell">
 						{#each occ.top_abilities.slice(0, 5) as a}
@@ -169,9 +169,9 @@
 				{/each}
 			</div>
 
-			<!-- Top Technology -->
+			<!-- Top technology -->
 			<div class="compare-section">
-				<div class="section-label">Top Tech Skills</div>
+				<div class="section-label">Top technology</div>
 				{#each comparison as occ}
 					<div class="compare-cell">
 						<div class="tech-tags">
@@ -198,29 +198,30 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
-	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-
 	.search-area { position: relative; margin-bottom: 1rem; }
 	.search-dropdown {
 		position: absolute; top: 100%; left: 0; right: 0; z-index: 10;
 		background: var(--color-surface); border: 1px solid var(--color-border);
-		border-radius: var(--radius); box-shadow: var(--shadow-md); max-height: 300px; overflow-y: auto;
+		border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); max-height: 300px; overflow-y: auto;
+		margin-top: 0.375rem; animation: fade-in 0.15s ease-out;
 	}
+	@keyframes fade-in { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
 	.dropdown-item {
-		display: block; width: 100%; padding: 0.6rem 1rem; background: none; border: none;
-		text-align: left; font-size: 0.9rem; cursor: pointer;
+		display: block; width: 100%; padding: 0.625rem 1.125rem; background: none; border: none;
+		text-align: left; font-size: 0.875rem; cursor: pointer; font-family: var(--font);
+		transition: background var(--transition);
 	}
 	.dropdown-item:hover { background: var(--color-bg); }
-	.dd-code { font-family: monospace; font-weight: 600; color: var(--color-accent); margin-right: 0.5rem; }
+	.dd-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; color: var(--color-accent); margin-right: 0.625rem; font-size: 0.8125rem; }
 
 	.selected-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
 	.selected-tag {
 		display: flex; align-items: center; gap: 0.5rem;
-		padding: 0.4rem 0.75rem; background: #ebf4ff; border-radius: 20px; font-size: 0.85rem;
+		padding: 0.4375rem 0.875rem; background: var(--color-accent-subtle); border: 1px solid rgba(61, 90, 128, 0.12); border-radius: 20px; font-size: 0.8125rem;
+		transition: all var(--transition);
 	}
 	.tag-num { font-weight: 700; color: var(--color-accent); }
-	.tag-remove { background: none; border: none; cursor: pointer; font-size: 1.1rem; color: var(--color-text-secondary); padding: 0 0.25rem; }
+	.tag-remove { background: none; border: none; cursor: pointer; font-size: 1.1rem; color: var(--color-text-secondary); padding: 0 0.25rem; transition: color var(--transition); }
 	.tag-remove:hover { color: #e53e3e; }
 
 	.compare-grid { margin-top: 1.5rem; }
@@ -237,7 +238,7 @@
 	}
 	.header-cell { text-align: center; }
 	.header-cell h3 { font-size: 0.95rem; color: var(--color-primary); margin: 0.25rem 0; }
-	.comp-code { font-family: monospace; font-weight: 700; font-size: 1.1rem; }
+	.comp-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 700; font-size: 1.1rem; }
 	.jz-badge { font-size: 0.7rem; padding: 0.15rem 0.5rem; background: var(--color-bg); border-radius: 12px; display: inline-block; margin-top: 0.25rem; }
 	.desc-text { font-size: 0.8rem; color: var(--color-text-secondary); line-height: 1.4; }
 

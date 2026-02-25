@@ -15,12 +15,12 @@
 		{ id: 'skills', label: 'Skills' },
 		{ id: 'abilities', label: 'Abilities' },
 		{ id: 'knowledge', label: 'Knowledge' },
-		{ id: 'technology', label: 'Technology Skills' },
-		{ id: 'activities', label: 'Work Activities' },
-		{ id: 'context', label: 'Work Context' },
-		{ id: 'styles', label: 'Work Styles' },
+		{ id: 'technology', label: 'Technology' },
+		{ id: 'activities', label: 'Work activities' },
+		{ id: 'context', label: 'Work context' },
+		{ id: 'styles', label: 'Work styles' },
 		{ id: 'interests', label: 'Interests' },
-		{ id: 'values', label: 'Work Values' },
+		{ id: 'values', label: 'Work values' },
 		{ id: 'education', label: 'Education' },
 		{ id: 'related', label: 'Related' },
 		{ id: 'sources', label: 'Sources' },
@@ -40,11 +40,11 @@
 
 	function jobZoneLabel(jz: number): string {
 		const labels: Record<number, string> = {
-			1: 'Little or No Preparation Needed',
-			2: 'Some Preparation Needed',
-			3: 'Medium Preparation Needed',
-			4: 'Considerable Preparation Needed',
-			5: 'Extensive Preparation Needed',
+			1: 'Little or no preparation needed',
+			2: 'Some preparation needed',
+			3: 'Medium preparation needed',
+			4: 'Considerable preparation needed',
+			5: 'Extensive preparation needed',
 		};
 		return labels[jz] || `Zone ${jz}`;
 	}
@@ -136,7 +136,7 @@
 					{#if occ.skills?.length}
 						<div class="card">
 							<div class="card-header">
-								<h2>Top Skills</h2>
+								<h2>Top skills</h2>
 								<button class="show-more-btn" onclick={() => activeSection = 'skills'}>View all &rarr;</button>
 							</div>
 							<RatedBars items={sortedByImportance(occ.skills, 5)} />
@@ -146,7 +146,7 @@
 					{#if occ.knowledge?.length}
 						<div class="card">
 							<div class="card-header">
-								<h2>Top Knowledge</h2>
+								<h2>Top knowledge</h2>
 								<button class="show-more-btn" onclick={() => activeSection = 'knowledge'}>View all &rarr;</button>
 							</div>
 							<RatedBars items={sortedByImportance(occ.knowledge, 5)} />
@@ -156,7 +156,7 @@
 					{#if occ.tasks?.length}
 						<div class="card">
 							<div class="card-header">
-								<h2>Core Tasks</h2>
+								<h2>Core tasks</h2>
 								<button class="show-more-btn" onclick={() => activeSection = 'tasks'}>View all &rarr;</button>
 							</div>
 							<ul class="task-list">
@@ -170,7 +170,7 @@
 					{#if occ.technology_skills?.length}
 						<div class="card">
 							<div class="card-header">
-								<h2>Top Technology Skills</h2>
+								<h2>Top technology</h2>
 								<button class="show-more-btn" onclick={() => activeSection = 'technology'}>View all &rarr;</button>
 							</div>
 							<div class="tech-grid">
@@ -184,7 +184,7 @@
 					{#if occ.source_occupations?.length}
 						<div class="card">
 							<div class="card-header">
-								<h2>Source Occupations</h2>
+								<h2>Source occupations</h2>
 								<button class="show-more-btn" onclick={() => activeSection = 'sources'}>View all &rarr;</button>
 							</div>
 							<p class="muted">Based on {occ.source_occupations.length} US O*NET occupations</p>
@@ -277,7 +277,7 @@
 
 				{:else if activeSection === 'technology'}
 					<div class="card">
-						<h2>Technology Skills ({occ.technology_skills?.length ?? 0})</h2>
+						<h2>Technology ({occ.technology_skills?.length ?? 0})</h2>
 						{#if occ.technology_skills?.length}
 							{@const items = getTopItems(occ.technology_skills, 40)}
 							<div class="tech-grid">
@@ -295,7 +295,7 @@
 
 				{:else if activeSection === 'activities'}
 					<div class="card">
-						<h2>Work Activities ({occ.work_activities?.length ?? 0})</h2>
+						<h2>Work activities ({occ.work_activities?.length ?? 0})</h2>
 						{#if occ.work_activities?.length}
 							{@const items = viewMode === 'summary' ? sortedByImportance(occ.work_activities, 10) : sortedByImportance(occ.work_activities)}
 							<RatedBars {items} />
@@ -307,7 +307,7 @@
 
 				{:else if activeSection === 'context'}
 					<div class="card">
-						<h2>Work Context ({occ.work_context?.length ?? 0})</h2>
+						<h2>Work context ({occ.work_context?.length ?? 0})</h2>
 						{#if occ.work_context?.length}
 							{@const items = viewMode === 'summary' ? occ.work_context.slice(0, 10) : occ.work_context}
 							<RatedBars {items} />
@@ -319,7 +319,7 @@
 
 				{:else if activeSection === 'styles'}
 					<div class="card">
-						<h2>Work Styles ({occ.work_styles?.length ?? 0})</h2>
+						<h2>Work styles ({occ.work_styles?.length ?? 0})</h2>
 						{#if occ.work_styles?.length}
 							<RatedBars items={occ.work_styles} />
 						{:else}<p class="muted">No work styles data available</p>{/if}
@@ -349,7 +349,7 @@
 
 				{:else if activeSection === 'values'}
 					<div class="card">
-						<h2>Work Values</h2>
+						<h2>Work values</h2>
 						{#if occ.work_values?.length}
 							{@const valueItems = occ.work_values.filter(v => !v.element_name.includes('High Point'))}
 							<div class="interest-bars">
@@ -369,7 +369,7 @@
 
 				{:else if activeSection === 'education'}
 					<div class="card">
-						<h2>Education & Training</h2>
+						<h2>Education and training</h2>
 						{#if occ.job_zone}
 							<div class="job-zone">
 								<strong>Job Zone {occ.job_zone}:</strong> {jobZoneLabel(occ.job_zone)}
@@ -392,7 +392,7 @@
 
 				{:else if activeSection === 'related'}
 					<div class="card">
-						<h2>Related Occupations ({occ.related_occupations?.length ?? 0})</h2>
+						<h2>Related occupations ({occ.related_occupations?.length ?? 0})</h2>
 						{#if occ.related_occupations?.length}
 							<div class="related-list">
 								{#each occ.related_occupations as rel}
@@ -407,7 +407,7 @@
 
 				{:else if activeSection === 'sources'}
 					<div class="card">
-						<h2>Source Occupations ({occ.source_occupations?.length ?? 0})</h2>
+						<h2>Source occupations ({occ.source_occupations?.length ?? 0})</h2>
 						{#if occ.source_occupations?.length}
 							<p class="muted source-intro">The US O*NET occupations whose data contributes to this UK occupation. Click any row to view it on O*NET Online.</p>
 							<div class="source-list">
@@ -435,43 +435,47 @@
 
 <style>
 	.occ-header {
-		display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1rem;
-		background: var(--color-surface); padding: 1.5rem; border-radius: var(--radius); box-shadow: var(--shadow);
+		display: flex; gap: 1.75rem; align-items: flex-start; margin-bottom: 1.25rem;
+		background: var(--color-surface); padding: 1.75rem; border-radius: var(--radius-lg); border: 1px solid var(--color-border);
+		box-shadow: var(--shadow-xs);
 	}
 	.occ-code {
-		font-size: 2rem; font-weight: 800; color: var(--color-accent); font-family: monospace;
-		flex: 0 0 auto; padding: 0.5rem 1rem; background: #ebf4ff; border-radius: var(--radius);
+		font-size: 1.75rem; font-weight: 700; color: var(--color-accent-bright); font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
+		flex: 0 0 auto; padding: 0.625rem 1.125rem; background: var(--color-accent-subtle); border-radius: var(--radius);
+		border: 1px solid rgba(61, 90, 128, 0.12); letter-spacing: -0.02em;
 	}
 	.occ-info { flex: 1; }
-	h1 { font-size: 1.5rem; color: var(--color-primary); margin-bottom: 0.5rem; }
-	.occ-desc { color: var(--color-text-secondary); font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.5rem; }
+	h1 { font-size: 1.5rem; font-weight: 700; color: var(--color-text); margin-bottom: 0.5rem; letter-spacing: -0.02em; line-height: 1.3; }
+	.occ-desc { color: var(--color-text-secondary); font-size: 0.875rem; line-height: 1.6; margin-bottom: 0.625rem; }
 	.header-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
 	.header-tag {
-		font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 600; border: none;
+		font-size: 0.6875rem; padding: 0.25rem 0.625rem; border-radius: 5px; font-weight: 600; border: none; font-family: var(--font);
+		letter-spacing: 0.02em;
 	}
-	.header-tag.jz { background: var(--color-accent); color: white; }
-	.header-tag.riasec { background: #805ad5; color: white; font-family: monospace; letter-spacing: 1px; }
-	.header-tag.source { background: var(--color-bg); color: var(--color-text-secondary); cursor: pointer; }
-	.header-tag.source:hover { background: var(--color-border); }
+	.header-tag.jz { background: var(--color-primary); color: white; }
+	.header-tag.riasec { background: #805ad5; color: white; font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; letter-spacing: 1px; }
+	.header-tag.source { background: var(--color-bg); color: var(--color-text-secondary); cursor: pointer; border: 1px solid var(--color-border); transition: all var(--transition); }
+	.header-tag.source:hover { border-color: var(--color-border-hover); background: var(--color-border); }
 
-	.view-toggle { display: flex; gap: 2px; margin-bottom: 1rem; background: var(--color-border); border-radius: var(--radius); overflow: hidden; width: fit-content; }
+	.view-toggle { display: flex; gap: 1px; margin-bottom: 1.25rem; background: var(--color-border); border-radius: var(--radius); overflow: hidden; width: fit-content; }
 	.toggle-btn {
-		padding: 0.4rem 1rem; border: none; background: var(--color-surface); cursor: pointer;
-		font-size: 0.85rem; font-weight: 500; color: var(--color-text-secondary); transition: all 0.15s;
+		padding: 0.4375rem 1rem; border: none; background: var(--color-surface); cursor: pointer;
+		font-size: 0.8125rem; font-weight: 500; color: var(--color-text-secondary); transition: all var(--transition); font-family: var(--font);
 	}
-	.toggle-btn.active { background: var(--color-accent); color: white; }
+	.toggle-btn.active { background: var(--color-primary); color: white; }
 	.toggle-btn:hover:not(.active) { background: var(--color-bg); }
 
-	.layout { display: grid; grid-template-columns: 180px 1fr; gap: 1.5rem; }
-	.sidebar { display: flex; flex-direction: column; gap: 0.2rem; position: sticky; top: 5rem; align-self: start; }
+	.layout { display: grid; grid-template-columns: 175px 1fr; gap: 1.75rem; }
+	.sidebar { display: flex; flex-direction: column; gap: 0.125rem; position: sticky; top: 4.5rem; align-self: start; }
 
 	.nav-item {
 		display: block; padding: 0.45rem 0.75rem; background: none; border: none;
-		border-left: 3px solid transparent; text-align: left; font-size: 0.84rem;
-		color: var(--color-text-secondary); cursor: pointer; border-radius: 0 var(--radius) var(--radius) 0; transition: all 0.1s;
+		border-left: 3px solid transparent; text-align: left; font-size: 0.8125rem;
+		color: var(--color-text-secondary); cursor: pointer; border-radius: 0 var(--radius) var(--radius) 0; transition: all var(--transition);
+		font-family: var(--font);
 	}
 	.nav-item:hover { background: var(--color-bg); color: var(--color-text); text-decoration: none; }
-	.nav-item.active { border-left-color: var(--color-accent); background: #ebf4ff; color: var(--color-accent); font-weight: 600; }
+	.nav-item.active { border-left-color: var(--color-accent); background: var(--color-accent-subtle); color: var(--color-text); font-weight: 600; }
 	.nav-divider { border: none; border-top: 1px solid var(--color-border); margin: 0.25rem 0; }
 	.compare-link { color: var(--color-accent); font-size: 0.8rem; }
 
@@ -492,7 +496,7 @@
 	.job-zone { margin-bottom: 1rem; padding: 0.5rem 0.75rem; background: var(--color-bg); border-radius: var(--radius); font-size: 0.9rem; }
 	.alt-titles { margin-bottom: 1rem; font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.8; }
 
-	.mono { font-family: monospace; font-weight: 600; }
+	.mono { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; font-size: 0.8125rem; }
 	.muted { color: var(--color-text-secondary); font-size: 0.85rem; }
 
 	/* Source occupations - preview on summary tab */
@@ -510,10 +514,11 @@
 	.source-intro { margin-bottom: 0.75rem; }
 	.source-list { display: flex; flex-direction: column; gap: 0.5rem; }
 	.source-card {
-		display: block; padding: 0.75rem; border: 1px solid var(--color-border);
-		border-radius: var(--radius); color: var(--color-text); transition: all 0.15s;
+		display: block; padding: 0.875rem; border: 1px solid var(--color-border);
+		border-radius: var(--radius); color: var(--color-text); transition: all var(--transition);
+		box-shadow: var(--shadow-xs);
 	}
-	.source-card:hover { border-color: var(--color-accent); background: #ebf4ff; text-decoration: none; }
+	.source-card:hover { border-color: var(--color-border-hover); box-shadow: var(--shadow); text-decoration: none; }
 	.source-card-top { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.4rem; }
 	.source-code { color: var(--color-accent); flex: 0 0 auto; }
 	.source-card .source-title { flex: 1; font-size: 0.9rem; }
@@ -531,20 +536,24 @@
 	.relevance-track { height: 3px; background: var(--color-border); border-radius: 2px; overflow: hidden; margin-top: 0.35rem; }
 	.relevance-fill { height: 100%; background: var(--color-accent); border-radius: 2px; opacity: 0.6; }
 
-	.tech-grid { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-	.tech-tag { padding: 0.25rem 0.6rem; background: var(--color-bg); border: 1px solid var(--color-border); border-radius: 16px; font-size: 0.8rem; }
+	.tech-grid { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+	.tech-tag {
+		padding: 0.3rem 0.75rem; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 20px; font-size: 0.8rem;
+		transition: all var(--transition); box-shadow: var(--shadow-xs);
+	}
+	.tech-tag:hover { border-color: var(--color-border-hover); }
 
 	/* Interest/RIASEC bars */
 	.interest-bars { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem; }
 	.interest-row { display: flex; align-items: center; gap: 0.75rem; }
 	.interest-code {
 		flex: 0 0 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-		border-radius: 50%; background: var(--color-accent); color: white; font-weight: 800; font-size: 0.85rem;
+		border-radius: 50%; background: var(--color-accent-bright); color: white; font-weight: 800; font-size: 0.85rem;
 	}
 	.interest-name { flex: 0 0 120px; font-size: 0.85rem; }
 	.wv-name { flex: 0 0 160px; }
-	.interest-bar-track { flex: 1; height: 16px; background: var(--color-border); border-radius: 4px; overflow: hidden; }
-	.interest-bar-fill { height: 100%; background: #805ad5; border-radius: 4px; transition: width 0.3s; }
+	.interest-bar-track { flex: 1; height: 18px; background: var(--color-bg); border: 1px solid rgba(0, 0, 0, 0.04); border-radius: 4px; overflow: hidden; }
+	.interest-bar-fill { height: 100%; background: #805ad5; border-radius: 3px; transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 	.wv-fill { background: var(--color-success); }
 	.interest-val { flex: 0 0 35px; font-size: 0.85rem; color: var(--color-text-secondary); text-align: right; }
 	.riasec-label { margin-top: 0.75rem; font-size: 0.9rem; }
@@ -557,7 +566,7 @@
 	.related-item { display: flex; gap: 0.75rem; padding: 0.5rem 0; border-bottom: 1px solid var(--color-border); color: var(--color-text); }
 	.related-item:last-child { border-bottom: none; }
 	.related-item:hover { color: var(--color-accent); text-decoration: none; }
-	.related-code { font-family: monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; }
+	.related-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; font-size: 0.8125rem; }
 
 	.error { color: #e53e3e; text-align: center; padding: 1rem; }
 

@@ -24,11 +24,11 @@
 	}
 </script>
 
-<svelte:head><title>Technology Skills Search - ASPECTT</title></svelte:head>
+<svelte:head><title>Technology search - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Technology Skills Search</h1>
-	<p class="page-desc">Search for occupations that use specific software, tools, or technologies.</p>
+	<h1 class="page-title">Technology search</h1>
+	<p class="page-desc">Find occupations that use specific software, tools or technologies.</p>
 
 	<div class="card">
 		<div class="search-row">
@@ -83,10 +83,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
-	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-
-	.search-row { display: flex; gap: 0.75rem; }
+	.search-row { display: flex; gap: 0.625rem; }
 	.search-row .search-input { flex: 1; }
 
 	.matching-techs { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--color-border); }
@@ -98,10 +95,10 @@
 	.result-item:last-child { border-bottom: none; }
 	.result-item:hover { text-decoration: none; }
 	.result-header { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.35rem; }
-	.occ-code { font-family: monospace; font-weight: 700; color: var(--color-accent); }
+	.occ-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 700; color: var(--color-accent); font-size: 0.8125rem; }
 	.occ-title { flex: 1; font-weight: 500; }
 	.match-count { font-size: 0.75rem; color: var(--color-text-secondary); background: var(--color-bg); padding: 0.15rem 0.5rem; border-radius: 12px; }
 	.matching-list { display: flex; flex-wrap: wrap; gap: 0.3rem; }
-	.match-tag { padding: 0.15rem 0.4rem; background: #ebf4ff; border-radius: 8px; font-size: 0.7rem; color: var(--color-accent); }
+	.match-tag { padding: 0.15rem 0.4rem; background: var(--color-accent-subtle); border-radius: 8px; font-size: 0.7rem; color: var(--color-accent); }
 	.no-results { color: var(--color-text-secondary); text-align: center; padding: 2rem; }
 </style>

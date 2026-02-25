@@ -36,7 +36,7 @@
 </script>
 
 <div class="container">
-	<h1 class="page-title">Search Occupations</h1>
+	<h1 class="page-title">Search occupations</h1>
 
 	<form class="search-form" onsubmit={handleSubmit}>
 		<input
@@ -80,16 +80,10 @@
 </div>
 
 <style>
-	.page-title {
-		font-size: 1.75rem;
-		color: var(--color-primary);
-		margin-bottom: 1rem;
-	}
-
 	.search-form {
 		display: flex;
-		gap: 0.5rem;
-		margin-bottom: 1.5rem;
+		gap: 0.625rem;
+		margin-bottom: 1.75rem;
 	}
 
 	.search-form .search-input {
@@ -98,24 +92,25 @@
 
 	.result-count {
 		color: var(--color-text-secondary);
-		margin-bottom: 0.75rem;
-		font-size: 0.9rem;
+		margin-bottom: 0.875rem;
+		font-size: 0.875rem;
 	}
 
 	.results {
 		background: var(--color-surface);
-		border-radius: var(--radius);
-		box-shadow: var(--shadow);
+		border-radius: var(--radius-lg);
+		border: 1px solid var(--color-border);
 		overflow: hidden;
+		box-shadow: var(--shadow-xs);
 	}
 
 	.result-row {
 		display: flex;
 		gap: 1rem;
-		padding: 0.75rem 1rem;
+		padding: 0.75rem 1.125rem;
 		border-bottom: 1px solid var(--color-border);
 		color: var(--color-text);
-		transition: background 0.1s;
+		transition: background var(--transition);
 	}
 
 	.result-row:last-child {
@@ -128,8 +123,9 @@
 	}
 
 	.result-code {
-		font-family: monospace;
+		font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
 		font-weight: 600;
+		font-size: 0.8125rem;
 		color: var(--color-accent);
 		flex: 0 0 55px;
 	}
@@ -143,7 +139,7 @@
 		align-items: center;
 		justify-content: center;
 		gap: 1rem;
-		margin-top: 1.5rem;
+		margin-top: 1.75rem;
 	}
 
 	.page-info {
@@ -154,6 +150,7 @@
 	.no-results {
 		text-align: center;
 		color: var(--color-text-secondary);
-		padding: 2rem;
+		padding: 3rem;
+		font-size: 0.9375rem;
 	}
 </style>

@@ -24,7 +24,7 @@
 </script>
 
 <div class="container">
-	<h1 class="page-title">Browse Occupations</h1>
+	<h1 class="page-title">Browse occupations</h1>
 	<p class="page-desc">UK SOC 2020 occupations grouped by major group. Select a group to see its occupations.</p>
 
 	{#if loading}
@@ -68,53 +68,48 @@
 </div>
 
 <style>
-	.page-title {
-		font-size: 1.75rem;
-		color: var(--color-primary);
-		margin-bottom: 0.25rem;
-	}
-
-	.page-desc {
-		color: var(--color-text-secondary);
-		margin-bottom: 1.5rem;
-	}
-
 	.groups {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-		gap: 0.75rem;
-		margin-bottom: 1.5rem;
+		gap: 0.875rem;
+		margin-bottom: 1.75rem;
 	}
 
 	.group-card {
 		display: flex;
 		align-items: center;
-		gap: 0.75rem;
-		padding: 1rem;
+		gap: 0.875rem;
+		padding: 1.125rem 1.25rem;
 		background: var(--color-surface);
-		border: 2px solid var(--color-border);
-		border-radius: var(--radius);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius-lg);
 		cursor: pointer;
-		transition: all 0.15s;
+		transition: all var(--transition);
 		text-align: left;
 		font-size: 0.9rem;
+		font-family: var(--font);
+		box-shadow: var(--shadow-xs);
 	}
 
 	.group-card:hover {
-		border-color: var(--color-accent);
+		border-color: var(--color-border-hover);
+		box-shadow: var(--shadow-hover);
+		transform: translateY(-2px);
 	}
 
 	.group-card.active {
 		border-color: var(--color-accent);
-		background: #ebf4ff;
+		background: var(--color-accent-subtle);
+		box-shadow: var(--shadow-md);
 	}
 
 	.group-code {
 		font-size: 1.5rem;
-		font-weight: 800;
+		font-weight: 700;
 		color: var(--color-accent);
 		flex: 0 0 2.5rem;
 		text-align: center;
+		letter-spacing: -0.02em;
 	}
 
 	.group-title {
@@ -135,9 +130,10 @@
 	.occ-item {
 		display: flex;
 		gap: 0.75rem;
-		padding: 0.5rem 0;
+		padding: 0.5625rem 0;
 		border-bottom: 1px solid var(--color-border);
 		color: var(--color-text);
+		transition: color var(--transition);
 	}
 
 	.occ-item:last-child {
@@ -150,9 +146,10 @@
 	}
 
 	.occ-code {
-		font-family: monospace;
+		font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
 		font-weight: 600;
 		color: var(--color-accent);
 		flex: 0 0 50px;
+		font-size: 0.8125rem;
 	}
 </style>

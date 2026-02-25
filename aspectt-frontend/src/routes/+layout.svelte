@@ -26,7 +26,7 @@
 <header>
 	<div class="container header-inner">
 		<a href="/" class="logo" onclick={closeMenus}>
-			<span class="logo-mark">A</span>SPECTT
+			ASPECTT
 		</a>
 		<button class="mobile-toggle" onclick={() => (menuOpen = !menuOpen)}>
 			{menuOpen ? '\u2715' : '\u2630'}
@@ -35,25 +35,25 @@
 			<a href="/" onclick={closeMenus}>Home</a>
 			<div class="dropdown">
 				<button class="nav-link" onclick={() => { browseOpen = !browseOpen; searchOpen = false; }}>
-					Find Occupations
+					Browse
 					<span class="caret">{browseOpen ? '\u25B4' : '\u25BE'}</span>
 				</button>
 				{#if browseOpen}
 					<div class="dropdown-menu">
 						<div class="dropdown-section">
-							<span class="dropdown-heading">Browse by</span>
-							<a href="/browse" onclick={closeMenus}>Major Groups</a>
-							<a href="/browse/job-zones" onclick={closeMenus}>Job Zones</a>
+							<span class="dropdown-heading">By group</span>
+							<a href="/browse" onclick={closeMenus}>Major groups</a>
+							<a href="/browse/job-zones" onclick={closeMenus}>Job zones</a>
 							<a href="/browse/interests" onclick={closeMenus}>Interests (RIASEC)</a>
-							<a href="/browse/all" onclick={closeMenus}>All Occupations</a>
+							<a href="/browse/all" onclick={closeMenus}>All occupations</a>
 						</div>
 						<div class="dropdown-section">
-							<span class="dropdown-heading">By Descriptor</span>
+							<span class="dropdown-heading">By descriptor</span>
 							<a href="/browse/descriptors/skills" onclick={closeMenus}>Skills</a>
 							<a href="/browse/descriptors/abilities" onclick={closeMenus}>Abilities</a>
 							<a href="/browse/descriptors/knowledge" onclick={closeMenus}>Knowledge</a>
-							<a href="/browse/descriptors/work_activities" onclick={closeMenus}>Work Activities</a>
-							<a href="/browse/descriptors/work_styles" onclick={closeMenus}>Work Styles</a>
+							<a href="/browse/descriptors/work_activities" onclick={closeMenus}>Work activities</a>
+							<a href="/browse/descriptors/work_styles" onclick={closeMenus}>Work styles</a>
 						</div>
 					</div>
 				{/if}
@@ -65,10 +65,10 @@
 				</button>
 				{#if searchOpen}
 					<div class="dropdown-menu">
-						<a href="/search" onclick={closeMenus}>Occupation Search</a>
-						<a href="/search/tasks" onclick={closeMenus}>Job Duties Search</a>
-						<a href="/search/technology" onclick={closeMenus}>Technology Skills</a>
-						<a href="/search/skills" onclick={closeMenus}>Skills Search</a>
+						<a href="/search" onclick={closeMenus}>Occupations</a>
+						<a href="/search/tasks" onclick={closeMenus}>Job duties</a>
+						<a href="/search/technology" onclick={closeMenus}>Technology</a>
+						<a href="/search/skills" onclick={closeMenus}>Skills</a>
 					</div>
 				{/if}
 			</div>
@@ -86,8 +86,30 @@
 
 <footer>
 	<div class="container footer-inner">
-		<p>ASPECTT &mdash; UK occupational information, classified under SOC 2020</p>
-		<p class="footer-sub">Data derived from US O*NET v30.2 via an ISCO-08 crosswalk. 412 occupations across 9 major groups.</p>
+		<div class="footer-content">
+			<div class="footer-brand">
+				<span class="footer-logo">ASPECTT</span>
+				<p>UK occupational information, classified under SOC 2020.</p>
+				<p class="footer-data">Data derived from US O*NET v30.2 via an ISCO-08 crosswalk. 412 occupations across 9 major groups.</p>
+			</div>
+			<div class="footer-nav">
+				<span class="footer-nav-heading">Explore</span>
+				<a href="/browse">Browse occupations</a>
+				<a href="/search">Search</a>
+				<a href="/compare">Compare</a>
+				<a href="/crosswalk">Crosswalk</a>
+			</div>
+			<div class="footer-nav">
+				<span class="footer-nav-heading">Resources</span>
+				<a href="/api">Public API</a>
+				<a href="/about">About ASPECTT</a>
+				<a href="https://autonomy.work/adu/" target="_blank" rel="noopener">Autonomy Data Unit</a>
+				<a href="https://autonomy.work/" target="_blank" rel="noopener">The Autonomy Institute</a>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; {new Date().getFullYear()} The Autonomy Institute</p>
+		</div>
 	</div>
 </footer>
 
@@ -95,71 +117,63 @@
 	header {
 		background: var(--color-primary);
 		color: white;
-		padding: 0.75rem 0;
-		box-shadow: var(--shadow-md);
+		padding: 0;
 		position: sticky;
 		top: 0;
 		z-index: 100;
+		border-bottom: 2px solid var(--color-accent-bright);
 	}
 
 	.header-inner {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		height: 56px;
 	}
 
 	.logo {
-		font-size: 1.5rem;
-		font-weight: 800;
+		font-size: 1.1rem;
+		font-weight: 700;
 		color: white;
-		letter-spacing: 2px;
+		letter-spacing: 0.14em;
 		flex-shrink: 0;
 	}
 
 	.logo:hover {
 		text-decoration: none;
-	}
-
-	.logo-mark {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		width: 2rem;
-		height: 2rem;
-		background: var(--color-accent);
-		border-radius: 6px;
-		margin-right: 0.25rem;
-		font-size: 1.25rem;
+		color: var(--color-accent-bright);
 	}
 
 	nav {
 		display: flex;
 		align-items: center;
-		gap: 0.25rem;
+		gap: 0.125rem;
 	}
 
 	nav > a, .nav-link {
-		color: rgba(255, 255, 255, 0.85);
-		font-size: 0.875rem;
-		font-weight: 500;
-		transition: color 0.15s;
-		padding: 0.4rem 0.65rem;
-		border-radius: 6px;
+		color: rgba(255, 255, 255, 0.65);
+		font-size: 0.8125rem;
+		font-weight: 450;
+		transition: color var(--transition);
+		padding: 0.375rem 0.625rem;
+		border-radius: 4px;
 		background: none;
 		border: none;
 		cursor: pointer;
 		white-space: nowrap;
+		font-family: var(--font);
+		letter-spacing: 0.01em;
 	}
 
 	nav > a:hover, .nav-link:hover {
 		color: white;
-		background: rgba(255, 255, 255, 0.1);
 		text-decoration: none;
 	}
 
 	.caret {
-		font-size: 0.65rem;
-		margin-left: 0.15rem;
+		font-size: 0.6rem;
+		margin-left: 0.125rem;
+		opacity: 0.6;
 	}
 
 	.dropdown {
@@ -168,23 +182,30 @@
 
 	.dropdown-menu {
 		position: absolute;
-		top: calc(100% + 0.5rem);
+		top: calc(100% + 0.75rem);
 		left: 0;
 		background: var(--color-surface);
-		border-radius: var(--radius);
-		box-shadow: var(--shadow-md), 0 8px 24px rgba(0,0,0,0.12);
-		min-width: 200px;
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-lg);
+		min-width: 180px;
 		padding: 0.5rem 0;
 		z-index: 200;
 		display: flex;
 		gap: 0;
+		animation: dropdown-in 0.15s ease-out;
+	}
+
+	@keyframes dropdown-in {
+		from { opacity: 0; transform: translateY(-4px); }
+		to { opacity: 1; transform: translateY(0); }
 	}
 
 	.dropdown-section {
 		display: flex;
 		flex-direction: column;
 		padding: 0 0.25rem;
-		min-width: 180px;
+		min-width: 170px;
 	}
 
 	.dropdown-section + .dropdown-section {
@@ -192,27 +213,28 @@
 	}
 
 	.dropdown-heading {
-		font-size: 0.7rem;
-		font-weight: 700;
+		font-size: 0.65rem;
+		font-weight: 600;
 		text-transform: uppercase;
-		letter-spacing: 0.05em;
+		letter-spacing: 0.08em;
 		color: var(--color-text-secondary);
-		padding: 0.5rem 1rem 0.25rem;
+		padding: 0.5rem 0.875rem 0.375rem;
 	}
 
 	.dropdown-menu a {
 		display: block;
-		padding: 0.4rem 1rem;
-		font-size: 0.85rem;
+		padding: 0.375rem 0.875rem;
+		font-size: 0.8125rem;
 		color: var(--color-text);
 		border-radius: 4px;
 		margin: 0 0.25rem;
+		font-weight: 450;
 	}
 
 	.dropdown-menu a:hover {
 		background: var(--color-bg);
 		text-decoration: none;
-		color: var(--color-accent);
+		color: var(--color-text);
 	}
 
 	.overlay {
@@ -226,27 +248,82 @@
 		background: none;
 		border: none;
 		color: white;
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		cursor: pointer;
 		padding: 0.25rem;
 	}
 
 	main {
-		min-height: calc(100vh - 160px);
-		padding: 2rem 0;
+		min-height: calc(100vh - 180px);
+		padding: 2.5rem 0;
 	}
 
 	footer {
 		background: var(--color-primary);
-		color: rgba(255, 255, 255, 0.7);
-		padding: 1.5rem 0;
-		text-align: center;
+		color: rgba(255, 255, 255, 0.5);
+		padding: 3rem 0 1.5rem;
+		font-size: 0.8125rem;
+		line-height: 1.7;
+		margin-top: auto;
 	}
 
-	.footer-sub {
-		font-size: 0.8rem;
-		margin-top: 0.25rem;
-		opacity: 0.6;
+	footer a {
+		color: rgba(255, 255, 255, 0.65);
+		transition: color var(--transition);
+	}
+
+	footer a:hover {
+		color: var(--color-accent-bright);
+		text-decoration: none;
+	}
+
+	.footer-content {
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr;
+		gap: 3rem;
+		padding-bottom: 2rem;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+	}
+
+	.footer-brand {
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+	}
+
+	.footer-data {
+		margin-top: 0.375rem;
+		font-size: 0.75rem;
+		opacity: 0.7;
+	}
+
+	.footer-logo {
+		font-weight: 700;
+		font-size: 0.9rem;
+		letter-spacing: 0.12em;
+		color: rgba(255, 255, 255, 0.85);
+	}
+
+	.footer-nav {
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+	}
+
+	.footer-nav-heading {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: rgba(255, 255, 255, 0.35);
+		margin-bottom: 0.25rem;
+	}
+
+	.footer-bottom {
+		padding-top: 1.25rem;
+		text-align: center;
+		font-size: 0.75rem;
+		opacity: 0.5;
 	}
 
 	@media (max-width: 768px) {
@@ -262,9 +339,10 @@
 			right: 0;
 			background: var(--color-primary);
 			flex-direction: column;
-			padding: 0.5rem 1rem 1rem;
+			padding: 0.5rem 1.25rem 1rem;
 			align-items: stretch;
 			gap: 0;
+			border-top: 1px solid rgba(255, 255, 255, 0.06);
 		}
 
 		nav.open {
@@ -274,7 +352,8 @@
 		.dropdown-menu {
 			position: static;
 			box-shadow: none;
-			background: rgba(255,255,255,0.05);
+			border: none;
+			background: rgba(255, 255, 255, 0.04);
 			border-radius: 4px;
 			margin: 0.25rem 0;
 			flex-direction: column;
@@ -282,20 +361,29 @@
 
 		.dropdown-section + .dropdown-section {
 			border-left: none;
-			border-top: 1px solid rgba(255,255,255,0.1);
+			border-top: 1px solid rgba(255, 255, 255, 0.06);
 		}
 
 		.dropdown-heading {
-			color: rgba(255,255,255,0.5);
+			color: rgba(255, 255, 255, 0.4);
 		}
 
 		.dropdown-menu a {
-			color: rgba(255,255,255,0.85);
+			color: rgba(255, 255, 255, 0.75);
 		}
 
 		.dropdown-menu a:hover {
-			background: rgba(255,255,255,0.1);
+			background: rgba(255, 255, 255, 0.06);
 			color: white;
+		}
+
+		.footer-content {
+			grid-template-columns: 1fr;
+			gap: 1.75rem;
+		}
+
+		.footer-nav {
+			gap: 0.25rem;
 		}
 	}
 </style>

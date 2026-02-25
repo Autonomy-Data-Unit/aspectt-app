@@ -50,10 +50,10 @@
 	}
 </script>
 
-<svelte:head><title>All Occupations - ASPECTT</title></svelte:head>
+<svelte:head><title>All occupations - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">All Occupations</h1>
+	<h1 class="page-title">All occupations</h1>
 	<p class="page-desc">Browse all {total} UK SOC 2020 occupations with filtering options.</p>
 
 	<div class="card filters">
@@ -61,13 +61,13 @@
 			<input class="search-input filter-search" type="text" placeholder="Filter by title or code..."
 				bind:value={query} oninput={() => currentPage = 0} />
 			<select bind:value={majorGroupFilter} onchange={() => currentPage = 0} class="filter-select">
-				<option value={undefined}>All Major Groups</option>
+				<option value={undefined}>All major groups</option>
 				{#each Object.entries(majorGroups) as [code, name]}
 					<option value={Number(code)}>{code} - {name}</option>
 				{/each}
 			</select>
 			<select bind:value={jobZoneFilter} onchange={() => currentPage = 0} class="filter-select">
-				<option value={undefined}>All Job Zones</option>
+				<option value={undefined}>All job zones</option>
 				<option value={2}>Zone 2</option>
 				<option value={3}>Zone 3</option>
 				<option value={4}>Zone 4</option>
@@ -109,23 +109,21 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
-	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-
 	.filters { margin-bottom: 1rem; }
 	.filter-row { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
-	.filter-search { flex: 1; min-width: 200px; padding: 0.5rem 0.75rem; font-size: 0.9rem; }
-	.filter-select { padding: 0.5rem; border: 2px solid var(--color-border); border-radius: var(--radius); font-size: 0.85rem; }
-	.result-count { font-size: 0.85rem; color: var(--color-text-secondary); margin-top: 0.5rem; }
+	.filter-search { flex: 1; min-width: 200px; }
+	.filter-select { padding: 0.5rem; border: 1px solid var(--color-border); border-radius: var(--radius); font-size: 0.85rem; font-family: var(--font); transition: border-color var(--transition); }
+	.filter-select:focus { border-color: var(--color-accent); outline: none; }
+	.result-count { font-size: 0.8125rem; color: var(--color-text-secondary); margin-top: 0.5rem; }
 
 	.occ-table { display: flex; flex-direction: column; }
-	.table-header { display: flex; gap: 1rem; padding: 0.5rem 0; border-bottom: 2px solid var(--color-border); font-weight: 700; font-size: 0.85rem; color: var(--color-text-secondary); }
-	.table-row { display: flex; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid var(--color-border); color: var(--color-text); font-size: 0.9rem; }
+	.table-header { display: flex; gap: 1rem; padding: 0.5rem 0; border-bottom: 2px solid var(--color-border); font-weight: 600; font-size: 0.75rem; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.04em; }
+	.table-row { display: flex; gap: 1rem; padding: 0.5625rem 0; border-bottom: 1px solid var(--color-border); color: var(--color-text); font-size: 0.875rem; transition: background var(--transition); }
 	.table-row:hover { background: var(--color-bg); color: var(--color-accent); text-decoration: none; }
-	.col-code { flex: 0 0 80px; font-family: monospace; font-weight: 600; }
+	.col-code { flex: 0 0 80px; font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; font-size: 0.8125rem; }
 	.table-row .col-code { color: var(--color-accent); }
 	.col-title { flex: 1; }
 
-	.pagination { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--color-border); }
-	.page-info { font-size: 0.85rem; color: var(--color-text-secondary); }
+	.pagination { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--color-border); }
+	.page-info { font-size: 0.8125rem; color: var(--color-text-secondary); }
 </style>

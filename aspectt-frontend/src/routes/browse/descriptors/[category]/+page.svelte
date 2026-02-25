@@ -14,9 +14,9 @@
 		skills: 'Skills',
 		abilities: 'Abilities',
 		knowledge: 'Knowledge',
-		work_activities: 'Work Activities',
-		work_context: 'Work Context',
-		work_styles: 'Work Styles',
+		work_activities: 'Work activities',
+		work_context: 'Work context',
+		work_styles: 'Work styles',
 	};
 
 	const categoryDescriptions: Record<string, string> = {
@@ -51,7 +51,7 @@
 <svelte:head><title>{categoryLabels[category] ?? category} - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Browse by {categoryLabels[category] ?? category}</h1>
+	<h1 class="page-title">Browse by {(categoryLabels[category] ?? category).toLowerCase()}</h1>
 	<p class="page-desc">{categoryDescriptions[category] ?? ''} Select an element to see which occupations score highest.</p>
 
 	<div class="nav-pills">
@@ -113,16 +113,14 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
-	.page-desc { color: var(--color-text-secondary); margin-bottom: 1rem; }
-
 	.nav-pills { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
 	.pill {
-		padding: 0.35rem 0.75rem; border-radius: 20px; font-size: 0.85rem;
+		padding: 0.375rem 0.875rem; border-radius: 20px; font-size: 0.8125rem;
 		background: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text);
+		transition: all var(--transition); box-shadow: var(--shadow-xs);
 	}
-	.pill:hover { border-color: var(--color-accent); text-decoration: none; }
-	.pill.active { background: var(--color-accent); color: white; border-color: var(--color-accent); }
+	.pill:hover { border-color: var(--color-border-hover); text-decoration: none; }
+	.pill.active { background: var(--color-primary); color: white; border-color: var(--color-primary); box-shadow: 0 1px 3px rgba(30, 30, 46, 0.2); }
 
 	.layout { display: grid; grid-template-columns: 350px 1fr; gap: 1.5rem; }
 
@@ -135,7 +133,7 @@
 		cursor: pointer; border-radius: 4px; text-align: left; font-size: 0.85rem;
 	}
 	.element-item:hover { background: var(--color-bg); }
-	.element-item.active { background: #ebf4ff; color: var(--color-accent); font-weight: 600; }
+	.element-item.active { background: var(--color-accent-subtle); color: var(--color-accent); font-weight: 600; }
 	.el-meta { font-size: 0.75rem; color: var(--color-text-secondary); }
 
 	.detail-meta { font-size: 0.9rem; color: var(--color-text-secondary); margin-bottom: 1rem; }
@@ -147,7 +145,7 @@
 	}
 	.occ-row:last-child { border-bottom: none; }
 	.occ-row:hover { color: var(--color-accent); text-decoration: none; }
-	.occ-code { flex: 0 0 50px; font-family: monospace; font-weight: 600; color: var(--color-accent); }
+	.occ-code { flex: 0 0 50px; font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; color: var(--color-accent); font-size: 0.8125rem; }
 	.occ-title { flex: 1; }
 	.importance-bar-wrap { flex: 0 0 80px; height: 8px; background: var(--color-border); border-radius: 4px; overflow: hidden; }
 	.importance-bar { height: 100%; background: var(--color-accent); border-radius: 4px; }

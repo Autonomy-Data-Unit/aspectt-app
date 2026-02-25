@@ -30,11 +30,11 @@
 	}
 </script>
 
-<svelte:head><title>Job Duties Search - ASPECTT</title></svelte:head>
+<svelte:head><title>Job duties search - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Job Duties Search</h1>
-	<p class="page-desc">Search across task statements for all occupations to find jobs matching specific duties.</p>
+	<h1 class="page-title">Job duties search</h1>
+	<p class="page-desc">Search across task statements for all occupations.</p>
 
 	<div class="card">
 		<div class="search-row">
@@ -80,21 +80,18 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
-	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-
-	.search-row { display: flex; gap: 0.75rem; }
+	.search-row { display: flex; gap: 0.625rem; }
 	.search-row .search-input { flex: 1; }
 
 	.results { display: flex; flex-direction: column; gap: 0.75rem; }
 	.result-item { padding: 0.75rem 0; border-bottom: 1px solid var(--color-border); }
 	.result-item:last-child { border-bottom: none; }
 	.result-occ { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.25rem; }
-	.occ-code { font-family: monospace; font-weight: 700; color: var(--color-accent); }
-	.occ-title { font-weight: 600; font-size: 0.9rem; }
-	.task-text { font-size: 0.85rem; color: var(--color-text-secondary); line-height: 1.5; }
-	.no-results { color: var(--color-text-secondary); text-align: center; padding: 2rem; }
+	.occ-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 700; color: var(--color-accent); font-size: 0.8125rem; }
+	.occ-title { font-weight: 600; font-size: 0.875rem; }
+	.task-text { font-size: 0.8125rem; color: var(--color-text-secondary); line-height: 1.6; }
+	.no-results { color: var(--color-text-secondary); text-align: center; padding: 3rem; font-size: 0.9375rem; }
 
-	.pagination { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--color-border); }
-	.page-info { font-size: 0.85rem; color: var(--color-text-secondary); }
+	.pagination { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--color-border); }
+	.page-info { font-size: 0.8125rem; color: var(--color-text-secondary); }
 </style>

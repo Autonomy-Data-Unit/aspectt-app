@@ -30,11 +30,11 @@
 	}
 </script>
 
-<svelte:head><title>Skills Search - ASPECTT</title></svelte:head>
+<svelte:head><title>Skills search - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Skills Search</h1>
-	<p class="page-desc">Find occupations that require a specific skill, ranked by importance.</p>
+	<h1 class="page-title">Skills search</h1>
+	<p class="page-desc">Find occupations that require a given skill, ranked by importance.</p>
 
 	<div class="card">
 		<div class="search-row">
@@ -79,10 +79,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
-	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-
-	.search-row { display: flex; gap: 0.75rem; }
+	.search-row { display: flex; gap: 0.625rem; }
 	.search-row .search-input { flex: 1; }
 
 	.results { display: flex; flex-direction: column; }
@@ -92,7 +89,7 @@
 	}
 	.result-row:last-child { border-bottom: none; }
 	.result-row:hover { text-decoration: none; background: var(--color-bg); }
-	.occ-code { flex: 0 0 50px; font-family: monospace; font-weight: 600; color: var(--color-accent); }
+	.occ-code { flex: 0 0 50px; font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; color: var(--color-accent); font-size: 0.8125rem; }
 	.occ-title { flex: 1; }
 	.skill-name { flex: 0 0 150px; color: var(--color-text-secondary); font-size: 0.8rem; }
 	.bar-wrap { flex: 0 0 80px; height: 8px; background: var(--color-border); border-radius: 4px; overflow: hidden; }
