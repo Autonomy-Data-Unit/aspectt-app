@@ -68,17 +68,17 @@
 <svelte:head><title>SOC Crosswalk - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">US O*NET to UK SOC Crosswalk</h1>
+	<h1 class="page-title">US O*NET to UK SOC crosswalk</h1>
 	<p class="page-desc">
 		The mapping between US O*NET SOC codes and UK SOC 2020 codes.
 		Each UK occupation may draw on several US O*NET occupations, weighted by relevance.
 	</p>
 
 	<div class="card">
-		<h2>Search Crosswalk</h2>
+		<h2>Search crosswalk</h2>
 		<div class="filter-row">
 			<div class="filter-group filter-group-suggest">
-				<label for="uk-soc-input">UK SOC 2020 Code</label>
+				<label for="uk-soc-input">UK SOC 2020 code</label>
 				<input id="uk-soc-input" type="text" class="search-input filter-input" placeholder="e.g. 2134 or title..." bind:value={ukSocFilter} oninput={onUkSocInput} onkeydown={onUkSocKeydown} onblur={onUkSocBlur} />
 				{#if ukSuggestions.length > 0}
 					<div class="suggest-dropdown">
@@ -91,7 +91,7 @@
 				{/if}
 			</div>
 			<div class="filter-group">
-				<label for="onet-soc-input">O*NET SOC Code</label>
+				<label for="onet-soc-input">O*NET SOC code</label>
 				<input id="onet-soc-input" type="text" class="search-input filter-input" placeholder="e.g. 15-1252.00" bind:value={onetSocFilter} />
 			</div>
 			<div class="filter-actions">
@@ -137,7 +137,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
+	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
 	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; max-width: 700px; }
 
 	.filter-row { display: flex; gap: 1rem; flex-wrap: wrap; align-items: flex-end; }

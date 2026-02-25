@@ -39,7 +39,7 @@
 <div class="hero">
 	<div class="container">
 		<h1>ASPECTT</h1>
-		<p class="subtitle">UK Occupation Information System</p>
+		<p class="tagline">UK occupational information system</p>
 		<p class="desc">
 			Skills, tasks, abilities, knowledge and technology data for {stats?.total_occupations ?? '...'} UK occupations, classified under SOC 2020.
 		</p>
@@ -48,7 +48,7 @@
 			<input
 				class="search-input search-hero"
 				type="text"
-				placeholder="Search occupations by title, alternate title, or SOC code..."
+				placeholder="Search by title, alternate title or SOC code"
 				bind:value={query}
 				oninput={handleInput}
 				onkeydown={handleKeydown}
@@ -75,131 +75,295 @@
 </div>
 
 <div class="container">
-	<h2 class="section-heading">Find Occupations</h2>
-	<div class="features">
-		<a href="/browse" class="feature-card">
-			<div class="card-icon">&#x1f3e2;</div>
-			<h3>Major Groups</h3>
-			<p>Browse the 9 SOC 2020 major groups.</p>
-		</a>
-		<a href="/browse/job-zones" class="feature-card">
-			<div class="card-icon">&#x1f393;</div>
-			<h3>Job Zones</h3>
-			<p>Filter occupations by the preparation and education level they require.</p>
-		</a>
-		<a href="/browse/interests" class="feature-card">
-			<div class="card-icon">&#x2728;</div>
-			<h3>Interests (RIASEC)</h3>
-			<p>Look up occupations by Holland (RIASEC) interest codes.</p>
-		</a>
-		<a href="/browse/all" class="feature-card">
-			<div class="card-icon">&#x1f4cb;</div>
-			<h3>All Occupations</h3>
-			<p>The full list of {stats?.total_occupations ?? '412'} occupations, with filters.</p>
-		</a>
-	</div>
+	<section class="section">
+		<h2 class="section-heading">Browse occupations</h2>
+		<div class="grid grid-4">
+			<a href="/browse" class="nav-card">
+				<h3>Major groups</h3>
+				<p>The 9 SOC 2020 major groups and their occupations.</p>
+			</a>
+			<a href="/browse/job-zones" class="nav-card">
+				<h3>Job zones</h3>
+				<p>Occupations grouped by the preparation and education they typically require.</p>
+			</a>
+			<a href="/browse/interests" class="nav-card">
+				<h3>Interests (RIASEC)</h3>
+				<p>Occupations grouped by Holland interest codes.</p>
+			</a>
+			<a href="/browse/all" class="nav-card">
+				<h3>All occupations</h3>
+				<p>The full list of {stats?.total_occupations ?? '412'} occupations, with filters.</p>
+			</a>
+		</div>
+	</section>
 
-	<h2 class="section-heading">Advanced Search</h2>
-	<div class="features">
-		<a href="/search/tasks" class="feature-card">
-			<div class="card-icon">&#x1f4dd;</div>
-			<h3>Job Duties</h3>
-			<p>Search {stats?.total_tasks ? stats.total_tasks.toLocaleString() : '...'} task statements across all occupations.</p>
-		</a>
-		<a href="/search/technology" class="feature-card">
-			<div class="card-icon">&#x1f4bb;</div>
-			<h3>Technology Skills</h3>
-			<p>Look up occupations by the software, tools and technologies they use.</p>
-		</a>
-		<a href="/search/skills" class="feature-card">
-			<div class="card-icon">&#x1f9e0;</div>
-			<h3>Skills Search</h3>
-			<p>Search for occupations by skill name, ranked by importance.</p>
-		</a>
-		<a href="/compare" class="feature-card">
-			<div class="card-icon">&#x2696;</div>
-			<h3>Compare</h3>
-			<p>Place 2 to 4 occupations side by side to compare their data.</p>
-		</a>
-	</div>
+	<section class="section">
+		<h2 class="section-heading">Search</h2>
+		<div class="grid grid-4">
+			<a href="/search/tasks" class="nav-card">
+				<h3>Job duties</h3>
+				<p>Search across {stats?.total_tasks ? stats.total_tasks.toLocaleString() : '...'} task statements.</p>
+			</a>
+			<a href="/search/technology" class="nav-card">
+				<h3>Technology</h3>
+				<p>Find occupations by the software, tools and technologies they use.</p>
+			</a>
+			<a href="/search/skills" class="nav-card">
+				<h3>Skills</h3>
+				<p>Occupations ranked by a given skill's importance.</p>
+			</a>
+			<a href="/compare" class="nav-card">
+				<h3>Compare</h3>
+				<p>Place two to four occupations side by side.</p>
+			</a>
+		</div>
+	</section>
 
-	<h2 class="section-heading">Browse by Descriptor</h2>
-	<div class="descriptor-grid">
-		<a href="/browse/descriptors/skills" class="desc-card">Skills<span class="desc-arrow">&rarr;</span></a>
-		<a href="/browse/descriptors/abilities" class="desc-card">Abilities<span class="desc-arrow">&rarr;</span></a>
-		<a href="/browse/descriptors/knowledge" class="desc-card">Knowledge<span class="desc-arrow">&rarr;</span></a>
-		<a href="/browse/descriptors/work_activities" class="desc-card">Work Activities<span class="desc-arrow">&rarr;</span></a>
-		<a href="/browse/descriptors/work_context" class="desc-card">Work Context<span class="desc-arrow">&rarr;</span></a>
-		<a href="/browse/descriptors/work_styles" class="desc-card">Work Styles<span class="desc-arrow">&rarr;</span></a>
-	</div>
+	<section class="section">
+		<h2 class="section-heading">Browse by descriptor</h2>
+		<div class="descriptor-grid">
+			<a href="/browse/descriptors/skills" class="desc-link">Skills</a>
+			<a href="/browse/descriptors/abilities" class="desc-link">Abilities</a>
+			<a href="/browse/descriptors/knowledge" class="desc-link">Knowledge</a>
+			<a href="/browse/descriptors/work_activities" class="desc-link">Work activities</a>
+			<a href="/browse/descriptors/work_context" class="desc-link">Work context</a>
+			<a href="/browse/descriptors/work_styles" class="desc-link">Work styles</a>
+		</div>
+	</section>
 
-	<div class="bottom-row">
-		<a href="/crosswalk" class="feature-card">
-			<div class="card-icon">&#x1f517;</div>
-			<h3>SOC Crosswalk</h3>
-			<p>View the mapping between US O*NET SOC codes and UK SOC 2020.</p>
-		</a>
-		<a href="/api" class="feature-card">
-			<div class="card-icon">&#x2699;</div>
-			<h3>Public API</h3>
-			<p>Access all occupation data programmatically through the REST API.</p>
-		</a>
-	</div>
+	<section class="section">
+		<div class="grid grid-2">
+			<a href="/crosswalk" class="nav-card">
+				<h3>SOC crosswalk</h3>
+				<p>The mapping between US O*NET SOC codes and UK SOC 2020.</p>
+			</a>
+			<a href="/api" class="nav-card">
+				<h3>Public API</h3>
+				<p>Access occupation data programmatically via the REST API.</p>
+			</a>
+		</div>
+	</section>
 </div>
 
 <style>
 	.hero {
-		background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+		background: var(--color-primary);
 		color: white;
-		padding: 3rem 0 4rem;
-		margin: -2rem 0 2rem;
+		padding: 3.5rem 0 4rem;
+		margin: -2.5rem 0 2.5rem;
 		text-align: center;
 		position: relative;
 	}
 
-	h1 { font-size: 3rem; letter-spacing: 6px; font-weight: 800; margin-bottom: 0.25rem; }
-	.subtitle { font-size: 1.2rem; opacity: 0.85; margin-bottom: 0.75rem; }
-	.desc { max-width: 600px; margin: 0 auto 1.5rem; opacity: 0.75; font-size: 0.95rem; }
+	h1 {
+		font-size: 2.25rem;
+		letter-spacing: 0.12em;
+		font-weight: 700;
+		margin-bottom: 0.375rem;
+	}
 
-	.search-box { display: flex; gap: 0.5rem; max-width: 600px; margin: 0 auto; position: relative; }
-	.search-hero { flex: 1; border: none; box-shadow: var(--shadow-md); }
-	.search-btn { padding: 0.75rem 1.5rem; font-size: 1rem; }
+	.tagline {
+		font-size: 1rem;
+		opacity: 0.6;
+		margin-bottom: 0.75rem;
+		font-weight: 400;
+		letter-spacing: 0.02em;
+	}
+
+	.desc {
+		max-width: 520px;
+		margin: 0 auto 1.75rem;
+		opacity: 0.5;
+		font-size: 0.875rem;
+		line-height: 1.6;
+	}
+
+	.search-box {
+		display: flex;
+		gap: 0.5rem;
+		max-width: 560px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.search-hero {
+		flex: 1;
+		border: none;
+		box-shadow: none;
+		font-size: 0.9rem;
+		padding: 0.7rem 1rem;
+	}
+
+	.search-btn {
+		padding: 0.7rem 1.25rem;
+		font-size: 0.875rem;
+		background: var(--color-accent);
+		border-color: var(--color-accent);
+		color: var(--color-primary);
+		font-weight: 600;
+	}
+
+	.search-btn:hover {
+		background: var(--color-accent-light);
+		border-color: var(--color-accent-light);
+	}
 
 	.results-dropdown {
-		position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
-		width: 100%; max-width: 700px; background: white;
-		border-radius: var(--radius); box-shadow: var(--shadow-md);
-		z-index: 50; margin-top: 0.25rem; overflow: hidden;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+		max-width: 640px;
+		background: white;
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-lg);
+		z-index: 50;
+		margin-top: 0.375rem;
+		overflow: hidden;
 	}
-	.result-item { display: flex; gap: 0.75rem; padding: 0.6rem 1rem; color: var(--color-text); white-space: nowrap; }
-	.result-item:hover { background: var(--color-bg); text-decoration: none; }
-	.result-code { font-family: monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; }
-	.result-title { flex: 1; text-align: left; overflow: hidden; text-overflow: ellipsis; }
-	.result-more { display: block; padding: 0.5rem 1rem; text-align: center; background: var(--color-bg); font-size: 0.875rem; font-weight: 500; }
 
-	.section-heading { font-size: 1.25rem; color: var(--color-primary); margin-bottom: 1rem; margin-top: 0.5rem; }
-
-	.features { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
-
-	.feature-card {
-		background: var(--color-surface); border-radius: var(--radius); padding: 1.25rem;
-		box-shadow: var(--shadow); color: var(--color-text); transition: transform 0.15s, box-shadow 0.15s;
-		border: 1px solid transparent;
+	.result-item {
+		display: flex;
+		gap: 0.75rem;
+		padding: 0.5rem 1rem;
+		color: var(--color-text);
+		font-size: 0.875rem;
+		white-space: nowrap;
 	}
-	.feature-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); text-decoration: none; border-color: var(--color-accent-light); }
-	.feature-card h3 { color: var(--color-primary); margin-bottom: 0.35rem; font-size: 1rem; }
-	.feature-card p { color: var(--color-text-secondary); font-size: 0.85rem; line-height: 1.5; }
-	.card-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
 
-	.descriptor-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; margin-bottom: 2rem; }
-	.desc-card {
-		display: flex; justify-content: space-between; align-items: center;
-		padding: 0.75rem 1rem; background: var(--color-surface); border-radius: var(--radius);
-		box-shadow: var(--shadow); color: var(--color-primary); font-weight: 600; font-size: 0.9rem;
-		border: 1px solid transparent;
+	.result-item:hover {
+		background: var(--color-bg);
+		text-decoration: none;
 	}
-	.desc-card:hover { text-decoration: none; border-color: var(--color-accent); color: var(--color-accent); }
-	.desc-arrow { color: var(--color-text-secondary); }
 
-	.bottom-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+	.result-code {
+		font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
+		font-weight: 600;
+		color: var(--color-accent);
+		flex: 0 0 50px;
+		font-size: 0.8125rem;
+	}
+
+	.result-title {
+		flex: 1;
+		text-align: left;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.result-more {
+		display: block;
+		padding: 0.5rem 1rem;
+		text-align: center;
+		background: var(--color-bg);
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: var(--color-text-secondary);
+	}
+
+	.result-more:hover {
+		color: var(--color-text);
+		text-decoration: none;
+	}
+
+	.section {
+		margin-bottom: 2.25rem;
+	}
+
+	.section-heading {
+		font-size: 0.8125rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: var(--color-text-secondary);
+		margin-bottom: 0.875rem;
+	}
+
+	.grid {
+		display: grid;
+		gap: 0.875rem;
+	}
+
+	.grid-4 {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.grid-2 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.nav-card {
+		background: var(--color-surface);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius-lg);
+		padding: 1.25rem;
+		color: var(--color-text);
+		transition: border-color 0.15s;
+	}
+
+	.nav-card:hover {
+		border-color: var(--color-accent);
+		text-decoration: none;
+	}
+
+	.nav-card h3 {
+		font-size: 0.9375rem;
+		font-weight: 600;
+		margin-bottom: 0.3rem;
+		letter-spacing: -0.01em;
+	}
+
+	.nav-card p {
+		color: var(--color-text-secondary);
+		font-size: 0.8125rem;
+		line-height: 1.5;
+	}
+
+	.descriptor-grid {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		gap: 0.5rem;
+	}
+
+	.desc-link {
+		display: block;
+		padding: 0.625rem 0.875rem;
+		background: var(--color-surface);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius);
+		color: var(--color-text);
+		font-weight: 500;
+		font-size: 0.8125rem;
+		text-align: center;
+		transition: border-color 0.15s;
+	}
+
+	.desc-link:hover {
+		text-decoration: none;
+		border-color: var(--color-accent);
+		color: var(--color-accent);
+	}
+
+	@media (max-width: 900px) {
+		.grid-4 {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		.descriptor-grid {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	@media (max-width: 600px) {
+		.grid-4, .grid-2 {
+			grid-template-columns: 1fr;
+		}
+		.descriptor-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		h1 {
+			font-size: 1.75rem;
+		}
+	}
 </style>

@@ -50,10 +50,10 @@
 	}
 </script>
 
-<svelte:head><title>All Occupations - ASPECTT</title></svelte:head>
+<svelte:head><title>All occupations - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">All Occupations</h1>
+	<h1 class="page-title">All occupations</h1>
 	<p class="page-desc">Browse all {total} UK SOC 2020 occupations with filtering options.</p>
 
 	<div class="card filters">
@@ -61,13 +61,13 @@
 			<input class="search-input filter-search" type="text" placeholder="Filter by title or code..."
 				bind:value={query} oninput={() => currentPage = 0} />
 			<select bind:value={majorGroupFilter} onchange={() => currentPage = 0} class="filter-select">
-				<option value={undefined}>All Major Groups</option>
+				<option value={undefined}>All major groups</option>
 				{#each Object.entries(majorGroups) as [code, name]}
 					<option value={Number(code)}>{code} - {name}</option>
 				{/each}
 			</select>
 			<select bind:value={jobZoneFilter} onchange={() => currentPage = 0} class="filter-select">
-				<option value={undefined}>All Job Zones</option>
+				<option value={undefined}>All job zones</option>
 				<option value={2}>Zone 2</option>
 				<option value={3}>Zone 3</option>
 				<option value={4}>Zone 4</option>
@@ -109,7 +109,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
+	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
 	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
 
 	.filters { margin-bottom: 1rem; }

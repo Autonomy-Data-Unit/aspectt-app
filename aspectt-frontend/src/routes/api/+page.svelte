@@ -115,13 +115,13 @@
 </script>
 
 <div class="container">
-	<h1 class="page-title">ASPECTT Public API</h1>
+	<h1 class="page-title">ASPECTT public API</h1>
 	<p class="page-desc">
 		All endpoints return JSON. Base URL: <code>{baseUrl}</code>
 	</p>
 
 	<div class="card">
-		<h2>Interactive Documentation</h2>
+		<h2>Interactive documentation</h2>
 		<p>
 			Visit <a href="{origin}/docs" target="_blank">{origin}/docs</a>
 			for the auto-generated Swagger UI with try-it-out functionality.
@@ -159,7 +159,7 @@ curl "{baseUrl}/occupations/2134/skills"</code></pre>
 <style>
 	.page-title {
 		font-size: 1.75rem;
-		color: var(--color-primary);
+		color: var(--color-text);
 		margin-bottom: 0.25rem;
 	}
 

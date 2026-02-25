@@ -30,11 +30,11 @@
 	}
 </script>
 
-<svelte:head><title>Job Duties Search - ASPECTT</title></svelte:head>
+<svelte:head><title>Job duties search - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Job Duties Search</h1>
-	<p class="page-desc">Search across task statements for all occupations to find jobs matching specific duties.</p>
+	<h1 class="page-title">Job duties search</h1>
+	<p class="page-desc">Search across task statements for all occupations.</p>
 
 	<div class="card">
 		<div class="search-row">
@@ -80,7 +80,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
+	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
 	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
 
 	.search-row { display: flex; gap: 0.75rem; }

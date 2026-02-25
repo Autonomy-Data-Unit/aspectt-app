@@ -54,11 +54,11 @@
 <svelte:head><title>Compare Occupations - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Compare Occupations</h1>
-	<p class="page-desc">Select 2 to 4 occupations to compare side by side.</p>
+	<h1 class="page-title">Compare occupations</h1>
+	<p class="page-desc">Select two to four occupations to compare side by side.</p>
 
 	<div class="card">
-		<h2>Select Occupations</h2>
+		<h2>Select occupations</h2>
 		<div class="search-area">
 			<input
 				class="search-input"
@@ -93,7 +93,7 @@
 				{/each}
 			</div>
 			<button class="btn btn-primary" onclick={doCompare} disabled={selectedCodes.length < 2 || loading}>
-				{loading ? 'Comparing...' : `Compare ${selectedCodes.length} Occupations`}
+				{loading ? 'Comparing...' : `Compare ${selectedCodes.length} occupations`}
 			</button>
 		{/if}
 	</div>
@@ -121,9 +121,9 @@
 				{/each}
 			</div>
 
-			<!-- Top Skills -->
+			<!-- Top skills -->
 			<div class="compare-section">
-				<div class="section-label">Top Skills</div>
+				<div class="section-label">Top skills</div>
 				{#each comparison as occ}
 					<div class="compare-cell">
 						{#each occ.top_skills.slice(0, 5) as skill}
@@ -137,9 +137,9 @@
 				{/each}
 			</div>
 
-			<!-- Top Knowledge -->
+			<!-- Top knowledge -->
 			<div class="compare-section">
-				<div class="section-label">Top Knowledge</div>
+				<div class="section-label">Top knowledge</div>
 				{#each comparison as occ}
 					<div class="compare-cell">
 						{#each occ.top_knowledge.slice(0, 5) as k}
@@ -153,9 +153,9 @@
 				{/each}
 			</div>
 
-			<!-- Top Abilities -->
+			<!-- Top abilities -->
 			<div class="compare-section">
-				<div class="section-label">Top Abilities</div>
+				<div class="section-label">Top abilities</div>
 				{#each comparison as occ}
 					<div class="compare-cell">
 						{#each occ.top_abilities.slice(0, 5) as a}
@@ -169,9 +169,9 @@
 				{/each}
 			</div>
 
-			<!-- Top Technology -->
+			<!-- Top technology -->
 			<div class="compare-section">
-				<div class="section-label">Top Tech Skills</div>
+				<div class="section-label">Top technology</div>
 				{#each comparison as occ}
 					<div class="compare-cell">
 						<div class="tech-tags">
@@ -198,7 +198,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
+	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
 	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
 
 	.search-area { position: relative; margin-bottom: 1rem; }
@@ -217,7 +217,7 @@
 	.selected-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
 	.selected-tag {
 		display: flex; align-items: center; gap: 0.5rem;
-		padding: 0.4rem 0.75rem; background: #ebf4ff; border-radius: 20px; font-size: 0.85rem;
+		padding: 0.4rem 0.75rem; background: var(--color-accent-subtle); border-radius: 20px; font-size: 0.85rem;
 	}
 	.tag-num { font-weight: 700; color: var(--color-accent); }
 	.tag-remove { background: none; border: none; cursor: pointer; font-size: 1.1rem; color: var(--color-text-secondary); padding: 0 0.25rem; }

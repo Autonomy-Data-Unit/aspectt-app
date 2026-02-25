@@ -24,7 +24,7 @@
 </script>
 
 <div class="container">
-	<h1 class="page-title">Browse Occupations</h1>
+	<h1 class="page-title">Browse occupations</h1>
 	<p class="page-desc">UK SOC 2020 occupations grouped by major group. Select a group to see its occupations.</p>
 
 	{#if loading}
@@ -70,7 +70,7 @@
 <style>
 	.page-title {
 		font-size: 1.75rem;
-		color: var(--color-primary);
+		color: var(--color-text);
 		margin-bottom: 0.25rem;
 	}
 
@@ -106,7 +106,7 @@
 
 	.group-card.active {
 		border-color: var(--color-accent);
-		background: #ebf4ff;
+		background: var(--color-accent-subtle);
 	}
 
 	.group-code {

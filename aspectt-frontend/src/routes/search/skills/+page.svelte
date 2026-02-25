@@ -30,11 +30,11 @@
 	}
 </script>
 
-<svelte:head><title>Skills Search - ASPECTT</title></svelte:head>
+<svelte:head><title>Skills search - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Skills Search</h1>
-	<p class="page-desc">Find occupations that require a specific skill, ranked by importance.</p>
+	<h1 class="page-title">Skills search</h1>
+	<p class="page-desc">Find occupations that require a given skill, ranked by importance.</p>
 
 	<div class="card">
 		<div class="search-row">
@@ -79,7 +79,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
+	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
 	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
 
 	.search-row { display: flex; gap: 0.75rem; }

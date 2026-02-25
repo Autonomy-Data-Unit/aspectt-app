@@ -14,9 +14,9 @@
 		skills: 'Skills',
 		abilities: 'Abilities',
 		knowledge: 'Knowledge',
-		work_activities: 'Work Activities',
-		work_context: 'Work Context',
-		work_styles: 'Work Styles',
+		work_activities: 'Work activities',
+		work_context: 'Work context',
+		work_styles: 'Work styles',
 	};
 
 	const categoryDescriptions: Record<string, string> = {
@@ -51,7 +51,7 @@
 <svelte:head><title>{categoryLabels[category] ?? category} - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Browse by {categoryLabels[category] ?? category}</h1>
+	<h1 class="page-title">Browse by {(categoryLabels[category] ?? category).toLowerCase()}</h1>
 	<p class="page-desc">{categoryDescriptions[category] ?? ''} Select an element to see which occupations score highest.</p>
 
 	<div class="nav-pills">
@@ -113,7 +113,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
+	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
 	.page-desc { color: var(--color-text-secondary); margin-bottom: 1rem; }
 
 	.nav-pills { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }

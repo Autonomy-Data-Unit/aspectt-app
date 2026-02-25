@@ -36,7 +36,7 @@
 </script>
 
 <div class="container">
-	<h1 class="page-title">Search Occupations</h1>
+	<h1 class="page-title">Search occupations</h1>
 
 	<form class="search-form" onsubmit={handleSubmit}>
 		<input
@@ -82,7 +82,7 @@
 <style>
 	.page-title {
 		font-size: 1.75rem;
-		color: var(--color-primary);
+		color: var(--color-text);
 		margin-bottom: 1rem;
 	}
 
@@ -104,8 +104,8 @@
 
 	.results {
 		background: var(--color-surface);
-		border-radius: var(--radius);
-		box-shadow: var(--shadow);
+		border-radius: var(--radius-lg);
+		border: 1px solid var(--color-border);
 		overflow: hidden;
 	}
 
@@ -128,8 +128,9 @@
 	}
 
 	.result-code {
-		font-family: monospace;
+		font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
 		font-weight: 600;
+		font-size: 0.8125rem;
 		color: var(--color-accent);
 		flex: 0 0 55px;
 	}

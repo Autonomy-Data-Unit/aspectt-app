@@ -54,10 +54,10 @@
 	}
 </script>
 
-<svelte:head><title>Browse by Interests - ASPECTT</title></svelte:head>
+<svelte:head><title>Browse by interests - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Browse by Interests (RIASEC)</h1>
+	<h1 class="page-title">Browse by interests (RIASEC)</h1>
 	<p class="page-desc">
 		Holland's RIASEC model classifies occupations into six interest types. Select up to three to filter occupations.
 	</p>
@@ -99,7 +99,7 @@
 					</div>
 					<div class="action-row">
 						<select bind:value={jobZoneFilter} onchange={search} class="jz-select">
-							<option value={undefined}>All Job Zones</option>
+							<option value={undefined}>All job zones</option>
 							<option value={2}>Zone 2 - Some Preparation</option>
 							<option value={3}>Zone 3 - Medium</option>
 							<option value={4}>Zone 4 - Considerable</option>
@@ -141,7 +141,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
+	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
 	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; max-width: 700px; }
 
 	.interest-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 0.75rem; margin-bottom: 1.5rem; }

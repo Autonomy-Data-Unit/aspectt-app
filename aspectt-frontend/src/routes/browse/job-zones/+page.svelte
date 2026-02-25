@@ -21,13 +21,13 @@
 	};
 </script>
 
-<svelte:head><title>Browse by Job Zone - ASPECTT</title></svelte:head>
+<svelte:head><title>Browse by job zone - ASPECTT</title></svelte:head>
 
 <div class="container">
-	<h1 class="page-title">Browse by Job Zone</h1>
+	<h1 class="page-title">Browse by job zone</h1>
 	<p class="page-desc">
-		Job Zones group occupations by the level of education, experience, and training required.
-		There are five Job Zones, from little preparation (Zone 1) to extensive preparation (Zone 5).
+		Job zones group occupations by the level of education, experience and training required.
+		There are five zones, from little preparation (zone 1) to extensive preparation (zone 5).
 	</p>
 
 	{#if loading}
@@ -64,7 +64,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.25rem; }
+	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
 	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
 
 	.zones { display: flex; flex-direction: column; gap: 0.75rem; }
