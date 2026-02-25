@@ -26,8 +26,11 @@
 <header>
 	<div class="container header-inner">
 		<a href="/" class="logo" onclick={closeMenus}>
-			ASPECTT
-			<span class="logo-sub">by the Autonomy Institute</span>
+			<span class="logo-mark">A</span>
+			<span class="logo-text">
+				ASPECTT
+				<span class="logo-sub">by the Autonomy Institute</span>
+			</span>
 		</a>
 		<button class="mobile-toggle" onclick={() => (menuOpen = !menuOpen)}>
 			{menuOpen ? '\u2715' : '\u2630'}
@@ -133,27 +136,51 @@
 	}
 
 	.logo {
-		font-size: 1.35rem;
-		font-weight: 700;
+		display: flex;
+		align-items: center;
+		gap: 0.65rem;
 		color: white;
-		letter-spacing: 0.14em;
 		flex-shrink: 0;
-		border-left: 3px solid var(--color-accent-bright);
-		padding-left: 0.65rem;
 	}
 
 	.logo:hover {
 		text-decoration: none;
-		color: var(--color-accent-bright);
+	}
+
+	.logo:hover .logo-mark {
+		background: var(--color-accent-bright);
+	}
+
+	.logo-mark {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 38px;
+		height: 38px;
+		background: rgba(255, 255, 255, 0.12);
+		border: 1.5px solid rgba(255, 255, 255, 0.2);
+		border-radius: 9px;
+		font-size: 1.2rem;
+		font-weight: 800;
+		letter-spacing: 0;
+		color: white;
+		transition: background 0.2s;
+	}
+
+	.logo-text {
+		display: flex;
+		flex-direction: column;
+		font-size: 1.25rem;
+		font-weight: 700;
+		letter-spacing: 0.12em;
+		line-height: 1.15;
 	}
 
 	.logo-sub {
-		font-size: 0.65rem;
+		font-size: 0.6rem;
 		font-weight: 400;
-		letter-spacing: 0.02em;
-		opacity: 0.7;
-		display: block;
-		margin-top: -0.1rem;
+		letter-spacing: 0.01em;
+		opacity: 0.55;
 	}
 
 	nav {
