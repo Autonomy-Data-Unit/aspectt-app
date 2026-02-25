@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getCrosswalk } from '$lib/api/client';
+	import { getCrosswalk, searchOccupations, type Occupation } from '$lib/api/client';
 
 	let ukSocFilter = $state('');
 	let onetSocFilter = $state('');
@@ -9,7 +9,34 @@
 	let currentPage = $state(0);
 	const perPage = 50;
 
+	let ukSuggestions = $state<Occupation[]>([]);
+	let ukSearchTimeout: ReturnType<typeof setTimeout>;
+
+	function onUkSocInput() {
+		clearTimeout(ukSearchTimeout);
+		if (ukSocFilter.trim().length < 1) { ukSuggestions = []; return; }
+		ukSearchTimeout = setTimeout(async () => {
+			const data = await searchOccupations(ukSocFilter, 8);
+			ukSuggestions = data.occupations;
+		}, 200);
+	}
+
+	function onUkSocKeydown(e: KeyboardEvent) {
+		if (e.key === 'Escape') ukSuggestions = [];
+	}
+
+	function onUkSocBlur() {
+		// Delay to allow click on suggestion to fire first
+		setTimeout(() => { ukSuggestions = []; }, 150);
+	}
+
+	function selectUkSoc(occ: Occupation) {
+		ukSocFilter = String(occ.uk_soc_2020);
+		ukSuggestions = [];
+	}
+
 	async function search() {
+		ukSuggestions = [];
 		loading = true;
 		currentPage = 0;
 		await load();
@@ -34,6 +61,7 @@
 		results = [];
 		total = 0;
 		currentPage = 0;
+		ukSuggestions = [];
 	}
 </script>
 
@@ -42,20 +70,29 @@
 <div class="container">
 	<h1 class="page-title">US O*NET to UK SOC Crosswalk</h1>
 	<p class="page-desc">
-		Explore the mapping between US O*NET SOC codes and UK SOC 2020 codes.
-		Each UK occupation may combine data from multiple US O*NET occupations (weighted by relevance).
+		The mapping between US O*NET SOC codes and UK SOC 2020 codes.
+		Each UK occupation may draw on several US O*NET occupations, weighted by relevance.
 	</p>
 
 	<div class="card">
 		<h2>Search Crosswalk</h2>
 		<div class="filter-row">
-			<div class="filter-group">
-				<label>UK SOC 2020 Code</label>
-				<input type="text" class="search-input filter-input" placeholder="e.g. 2134" bind:value={ukSocFilter} />
+			<div class="filter-group filter-group-suggest">
+				<label for="uk-soc-input">UK SOC 2020 Code</label>
+				<input id="uk-soc-input" type="text" class="search-input filter-input" placeholder="e.g. 2134 or title..." bind:value={ukSocFilter} oninput={onUkSocInput} onkeydown={onUkSocKeydown} onblur={onUkSocBlur} />
+				{#if ukSuggestions.length > 0}
+					<div class="suggest-dropdown">
+						{#each ukSuggestions as occ}
+							<button class="suggest-item" onclick={() => selectUkSoc(occ)}>
+								<span class="suggest-code">{occ.uk_soc_2020}</span> {occ.title}
+							</button>
+						{/each}
+					</div>
+				{/if}
 			</div>
 			<div class="filter-group">
-				<label>O*NET SOC Code</label>
-				<input type="text" class="search-input filter-input" placeholder="e.g. 15-1252.00" bind:value={onetSocFilter} />
+				<label for="onet-soc-input">O*NET SOC Code</label>
+				<input id="onet-soc-input" type="text" class="search-input filter-input" placeholder="e.g. 15-1252.00" bind:value={onetSocFilter} />
 			</div>
 			<div class="filter-actions">
 				<button class="btn btn-primary" onclick={search}>Search</button>
@@ -105,9 +142,23 @@
 
 	.filter-row { display: flex; gap: 1rem; flex-wrap: wrap; align-items: flex-end; }
 	.filter-group { display: flex; flex-direction: column; gap: 0.25rem; }
+	.filter-group-suggest { position: relative; }
 	.filter-group label { font-size: 0.8rem; font-weight: 600; color: var(--color-text-secondary); }
-	.filter-input { width: 200px; padding: 0.5rem 0.75rem; font-size: 0.9rem; }
+	.filter-input { width: 260px; padding: 0.5rem 0.75rem; font-size: 0.9rem; }
 	.filter-actions { display: flex; gap: 0.5rem; align-items: flex-end; padding-bottom: 1px; }
+
+	.suggest-dropdown {
+		position: absolute; top: 100%; left: 0; z-index: 10;
+		background: var(--color-surface); border: 1px solid var(--color-border);
+		border-radius: var(--radius); box-shadow: var(--shadow-md); max-height: 260px; overflow-y: auto;
+		min-width: 260px; width: max-content; max-width: 450px;
+	}
+	.suggest-item {
+		display: block; width: 100%; padding: 0.5rem 0.75rem; background: none; border: none;
+		text-align: left; font-size: 0.85rem; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+	}
+	.suggest-item:hover { background: var(--color-bg); }
+	.suggest-code { font-family: monospace; font-weight: 600; color: var(--color-accent); margin-right: 0.5rem; }
 
 	.xw-table { font-size: 0.85rem; }
 	.xw-header { display: flex; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 2px solid var(--color-border); font-weight: 700; color: var(--color-text-secondary); font-size: 0.8rem; }

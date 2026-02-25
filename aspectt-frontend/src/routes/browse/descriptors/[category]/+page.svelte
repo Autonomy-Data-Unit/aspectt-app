@@ -52,7 +52,7 @@
 
 <div class="container">
 	<h1 class="page-title">Browse by {categoryLabels[category] ?? category}</h1>
-	<p class="page-desc">{categoryDescriptions[category] ?? ''} Click an element to see which occupations score highest.</p>
+	<p class="page-desc">{categoryDescriptions[category] ?? ''} Select an element to see which occupations score highest.</p>
 
 	<div class="nav-pills">
 		{#each Object.entries(categoryLabels) as [key, label]}

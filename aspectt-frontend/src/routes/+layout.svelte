@@ -75,6 +75,7 @@
 			<a href="/compare" onclick={closeMenus}>Compare</a>
 			<a href="/crosswalk" onclick={closeMenus}>Crosswalk</a>
 			<a href="/api" onclick={closeMenus}>API</a>
+			<a href="/about" onclick={closeMenus}>About</a>
 		</nav>
 	</div>
 </header>
@@ -85,8 +86,8 @@
 
 <footer>
 	<div class="container footer-inner">
-		<p>ASPECTT &mdash; UK Occupational Information based on SOC 2020</p>
-		<p class="footer-sub">Data derived from US O*NET v30.2 via ISCO-08 crosswalk. 412 occupations across 9 major groups.</p>
+		<p>ASPECTT &mdash; UK occupational information, classified under SOC 2020</p>
+		<p class="footer-sub">Data derived from US O*NET v30.2 via an ISCO-08 crosswalk. 412 occupations across 9 major groups.</p>
 	</div>
 </footer>
 

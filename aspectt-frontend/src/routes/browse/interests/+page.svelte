@@ -59,8 +59,7 @@
 <div class="container">
 	<h1 class="page-title">Browse by Interests (RIASEC)</h1>
 	<p class="page-desc">
-		Holland's RIASEC model groups occupations by six interest types. Select up to 3 interest areas
-		to find matching occupations.
+		Holland's RIASEC model classifies occupations into six interest types. Select up to three to filter occupations.
 	</p>
 
 	{#if loading}

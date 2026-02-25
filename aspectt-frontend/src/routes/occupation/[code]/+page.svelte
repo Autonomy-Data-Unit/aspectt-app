@@ -209,14 +209,24 @@
 						<h2>Tasks ({occ.tasks?.length ?? 0})</h2>
 						{#if occ.tasks?.length}
 							{@const tasks = getTopItems(occ.tasks, 30)}
-							<ul class="task-list">
+							<div class="task-items">
 								{#each tasks as task}
-									<li>
-										{task.task}
-										{#if task.task_type === 'Core'}<span class="badge">Core</span>{/if}
-									</li>
+									<div class="task-item">
+										<div class="task-content">
+											<span class="task-text">{task.task}</span>
+											<span class="task-badges">
+												{#if task.task_type === 'Core'}<span class="badge">Core</span>{/if}
+												{#if task.relevance != null}<span class="relevance-label">{(task.relevance * 100).toFixed(0)}%</span>{/if}
+											</span>
+										</div>
+										{#if task.relevance != null}
+											<div class="relevance-track">
+												<div class="relevance-fill" style="width: {task.relevance * 100}%"></div>
+											</div>
+										{/if}
+									</div>
 								{/each}
-							</ul>
+							</div>
 							{#if viewMode === 'summary' && occ.tasks.length > 30}
 								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
 									Show all {occ.tasks.length} tasks
@@ -399,7 +409,7 @@
 					<div class="card">
 						<h2>Source Occupations ({occ.source_occupations?.length ?? 0})</h2>
 						{#if occ.source_occupations?.length}
-							<p class="muted source-intro">This UK occupation is derived from the following US O*NET occupations. Click any row to view the original on O*NET Online.</p>
+							<p class="muted source-intro">The US O*NET occupations whose data contributes to this UK occupation. Click any row to view it on O*NET Online.</p>
 							<div class="source-list">
 								{#each occ.source_occupations as src}
 									{@const pct = src.weight * 100}
@@ -511,8 +521,15 @@
 	.source-bar-track { height: 6px; background: var(--color-border); border-radius: 3px; overflow: hidden; }
 	.source-bar-fill { height: 100%; background: var(--color-accent); border-radius: 3px; transition: width 0.3s; }
 
-	.task-list { padding-left: 1.25rem; }
-	.task-list li { margin-bottom: 0.5rem; font-size: 0.9rem; line-height: 1.5; }
+	.task-items { display: flex; flex-direction: column; gap: 0.5rem; }
+	.task-item { padding: 0.5rem 0; border-bottom: 1px solid var(--color-border); }
+	.task-item:last-child { border-bottom: none; }
+	.task-content { display: flex; gap: 0.5rem; align-items: flex-start; }
+	.task-text { flex: 1; font-size: 0.9rem; line-height: 1.5; overflow-wrap: break-word; }
+	.task-badges { flex: 0 0 auto; display: flex; gap: 0.35rem; align-items: center; }
+	.relevance-label { font-size: 0.75rem; color: var(--color-text-secondary); font-weight: 500; white-space: nowrap; }
+	.relevance-track { height: 3px; background: var(--color-border); border-radius: 2px; overflow: hidden; margin-top: 0.35rem; }
+	.relevance-fill { height: 100%; background: var(--color-accent); border-radius: 2px; opacity: 0.6; }
 
 	.tech-grid { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 	.tech-tag { padding: 0.25rem 0.6rem; background: var(--color-bg); border: 1px solid var(--color-border); border-radius: 16px; font-size: 0.8rem; }

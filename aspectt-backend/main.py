@@ -1,14 +1,15 @@
 """ASPECTT Backend - FastAPI server for UK O*NET equivalent data."""
 
 import os
+import time
 from pathlib import Path
 import json
 import math
 from collections import defaultdict
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 
 DATA_DIR = Path(os.environ.get("ASPECTT_DATA_DIR", Path(__file__).parent.parent / "aspectt-pipeline" / "data" / "uk_onet"))
 STATIC_DIR = Path(os.environ.get("ASPECTT_STATIC_DIR", ""))  # Set in Docker to serve frontend
@@ -22,10 +23,57 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+# --- Rate Limiting ---
+
+RATE_LIMIT_REQUESTS = int(os.environ.get("RATE_LIMIT_REQUESTS", "60"))
+RATE_LIMIT_WINDOW = int(os.environ.get("RATE_LIMIT_WINDOW", "60"))  # seconds
+
+_rate_limit_store: dict[str, list[float]] = {}
+_rate_limit_last_cleanup: float = 0.0
+
+
+@app.middleware("http")
+async def rate_limit_middleware(request: Request, call_next):
+    """Simple in-memory rate limiter by client IP. Only applies to /api/ routes."""
+    global _rate_limit_last_cleanup
+
+    path = request.url.path
+    if not path.startswith("/api/"):
+        return await call_next(request)
+
+    client_ip = request.client.host if request.client else "unknown"
+    now = time.monotonic()
+    window_start = now - RATE_LIMIT_WINDOW
+
+    # Periodically clean up stale IPs (every 5 minutes)
+    if now - _rate_limit_last_cleanup > 300:
+        stale_ips = [ip for ip, ts in _rate_limit_store.items() if not ts or ts[-1] < window_start]
+        for ip in stale_ips:
+            del _rate_limit_store[ip]
+        _rate_limit_last_cleanup = now
+
+    # Clean old entries and check limit
+    timestamps = _rate_limit_store.get(client_ip, [])
+    timestamps = [t for t in timestamps if t > window_start]
+    if len(timestamps) >= RATE_LIMIT_REQUESTS:
+        return JSONResponse(
+            status_code=429,
+            content={"detail": "Rate limit exceeded. Try again later."},
+            headers={"Retry-After": str(RATE_LIMIT_WINDOW)},
+        )
+    timestamps.append(now)
+    _rate_limit_store[client_ip] = timestamps
+
+    response = await call_next(request)
+    response.headers["X-RateLimit-Limit"] = str(RATE_LIMIT_REQUESTS)
+    response.headers["X-RateLimit-Remaining"] = str(max(0, RATE_LIMIT_REQUESTS - len(timestamps)))
+    return response
 
 
 # --- Data Loading & Preloading ---
@@ -270,7 +318,10 @@ def compare_occupations(
     codes: str = Query(description="Comma-separated UK SOC codes to compare (2-4)"),
 ):
     """Compare 2-4 occupations side-by-side."""
-    code_list = [int(c.strip()) for c in codes.split(",") if c.strip()]
+    try:
+        code_list = [int(c.strip()) for c in codes.split(",") if c.strip()]
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid SOC code format - must be integers")
     if len(code_list) < 2 or len(code_list) > 4:
         raise HTTPException(status_code=400, detail="Provide 2-4 SOC codes")
 
@@ -533,6 +584,7 @@ def browse_interests(
 def browse_descriptors(
     category: str,
     limit: int = Query(default=50, ge=1, le=200),
+    offset: int = Query(default=0, ge=0),
 ):
     """Browse descriptor elements for a data category (skills, abilities, knowledge, work_activities, work_context, work_styles).
     Returns all unique element names with their average importance across occupations."""
@@ -552,10 +604,13 @@ def browse_descriptors(
         })
 
     result.sort(key=lambda x: x["average_importance"], reverse=True)
+    total = len(result)
     return {
         "category": category,
-        "total": len(result),
-        "elements": result[:limit],
+        "total": total,
+        "offset": offset,
+        "limit": limit,
+        "elements": result[offset:offset + limit],
     }
 
 

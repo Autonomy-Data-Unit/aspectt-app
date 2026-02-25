@@ -117,8 +117,7 @@
 <div class="container">
 	<h1 class="page-title">ASPECTT Public API</h1>
 	<p class="page-desc">
-		Access UK occupation data programmatically. All endpoints return JSON. Base URL:
-		<code>{baseUrl}</code>
+		All endpoints return JSON. Base URL: <code>{baseUrl}</code>
 	</p>
 
 	<div class="card">
@@ -149,11 +148,11 @@
 
 	<div class="card">
 		<h2>Example</h2>
-		<pre><code>curl {baseUrl}/occupations?q=software&limit=5
+		<pre><code>curl "{baseUrl}/occupations?q=software&limit=5"
 
-curl {baseUrl}/occupations/2134
+curl "{baseUrl}/occupations/2134"
 
-curl {baseUrl}/occupations/2134/skills</code></pre>
+curl "{baseUrl}/occupations/2134/skills"</code></pre>
 	</div>
 </div>
 

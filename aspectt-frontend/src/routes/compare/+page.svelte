@@ -13,13 +13,21 @@
 
 	function onSearchInput() {
 		clearTimeout(searchTimeout);
-		if (searchQuery.length < 2) { searchResults = []; return; }
+		if (searchQuery.trim().length < 1) { searchResults = []; return; }
 		searchTimeout = setTimeout(async () => {
 			searching = true;
 			const data = await searchOccupations(searchQuery, 10);
 			searchResults = data.occupations.filter(o => !selectedCodes.includes(o.uk_soc_2020));
 			searching = false;
-		}, 300);
+		}, 200);
+	}
+
+	function onSearchKeydown(e: KeyboardEvent) {
+		if (e.key === 'Escape') searchResults = [];
+	}
+
+	function onSearchBlur() {
+		setTimeout(() => { searchResults = []; }, 150);
 	}
 
 	function addOccupation(occ: Occupation) {
@@ -47,7 +55,7 @@
 
 <div class="container">
 	<h1 class="page-title">Compare Occupations</h1>
-	<p class="page-desc">Select 2-4 occupations to compare their skills, abilities, knowledge, and more side by side.</p>
+	<p class="page-desc">Select 2 to 4 occupations to compare side by side.</p>
 
 	<div class="card">
 		<h2>Select Occupations</h2>
@@ -58,6 +66,8 @@
 				placeholder="Search for an occupation to add..."
 				bind:value={searchQuery}
 				oninput={onSearchInput}
+				onkeydown={onSearchKeydown}
+				onblur={onSearchBlur}
 				disabled={selectedCodes.length >= 4}
 			/>
 			{#if searchResults.length > 0}

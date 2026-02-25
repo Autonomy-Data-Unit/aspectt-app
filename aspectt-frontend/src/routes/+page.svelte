@@ -26,6 +26,10 @@
 		}, 200);
 	}
 
+	function handleKeydown(e: KeyboardEvent) {
+		if (e.key === 'Escape') { results = []; total = 0; }
+	}
+
 	function handleSubmit(e: Event) {
 		e.preventDefault();
 		if (query.trim()) goto(`/search?q=${encodeURIComponent(query.trim())}`);
@@ -37,8 +41,7 @@
 		<h1>ASPECTT</h1>
 		<p class="subtitle">UK Occupation Information System</p>
 		<p class="desc">
-			Explore detailed data on {stats?.total_occupations ?? '...'} UK occupations including
-			skills, abilities, knowledge, tasks, and more — based on UK SOC 2020.
+			Skills, tasks, abilities, knowledge and technology data for {stats?.total_occupations ?? '...'} UK occupations, classified under SOC 2020.
 		</p>
 
 		<form class="search-box" onsubmit={handleSubmit}>
@@ -48,6 +51,7 @@
 				placeholder="Search occupations by title, alternate title, or SOC code..."
 				bind:value={query}
 				oninput={handleInput}
+				onkeydown={handleKeydown}
 			/>
 			<button class="btn btn-primary search-btn" type="submit">Search</button>
 		</form>
@@ -76,22 +80,22 @@
 		<a href="/browse" class="feature-card">
 			<div class="card-icon">&#x1f3e2;</div>
 			<h3>Major Groups</h3>
-			<p>Browse 9 SOC major groups covering all sectors of the UK economy.</p>
+			<p>Browse the 9 SOC 2020 major groups.</p>
 		</a>
 		<a href="/browse/job-zones" class="feature-card">
 			<div class="card-icon">&#x1f393;</div>
 			<h3>Job Zones</h3>
-			<p>Find occupations by education and preparation level required.</p>
+			<p>Filter occupations by the preparation and education level they require.</p>
 		</a>
 		<a href="/browse/interests" class="feature-card">
 			<div class="card-icon">&#x2728;</div>
 			<h3>Interests (RIASEC)</h3>
-			<p>Explore occupations matching Holland interest codes.</p>
+			<p>Look up occupations by Holland (RIASEC) interest codes.</p>
 		</a>
 		<a href="/browse/all" class="feature-card">
 			<div class="card-icon">&#x1f4cb;</div>
 			<h3>All Occupations</h3>
-			<p>View and filter the complete list of {stats?.total_occupations ?? '412'} occupations.</p>
+			<p>The full list of {stats?.total_occupations ?? '412'} occupations, with filters.</p>
 		</a>
 	</div>
 
@@ -100,22 +104,22 @@
 		<a href="/search/tasks" class="feature-card">
 			<div class="card-icon">&#x1f4dd;</div>
 			<h3>Job Duties</h3>
-			<p>Search across {stats?.total_tasks ? stats.total_tasks.toLocaleString() : '...'} task statements to find occupations by specific duties.</p>
+			<p>Search {stats?.total_tasks ? stats.total_tasks.toLocaleString() : '...'} task statements across all occupations.</p>
 		</a>
 		<a href="/search/technology" class="feature-card">
 			<div class="card-icon">&#x1f4bb;</div>
 			<h3>Technology Skills</h3>
-			<p>Find occupations that use specific software, tools, and technologies.</p>
+			<p>Look up occupations by the software, tools and technologies they use.</p>
 		</a>
 		<a href="/search/skills" class="feature-card">
 			<div class="card-icon">&#x1f9e0;</div>
 			<h3>Skills Search</h3>
-			<p>Find occupations requiring specific skills, ranked by importance.</p>
+			<p>Search for occupations by skill name, ranked by importance.</p>
 		</a>
 		<a href="/compare" class="feature-card">
 			<div class="card-icon">&#x2696;</div>
 			<h3>Compare</h3>
-			<p>Compare 2-4 occupations side by side across all data categories.</p>
+			<p>Place 2 to 4 occupations side by side to compare their data.</p>
 		</a>
 	</div>
 
@@ -133,12 +137,12 @@
 		<a href="/crosswalk" class="feature-card">
 			<div class="card-icon">&#x1f517;</div>
 			<h3>SOC Crosswalk</h3>
-			<p>Explore the mapping between US O*NET SOC codes and UK SOC 2020.</p>
+			<p>View the mapping between US O*NET SOC codes and UK SOC 2020.</p>
 		</a>
 		<a href="/api" class="feature-card">
 			<div class="card-icon">&#x2699;</div>
 			<h3>Public API</h3>
-			<p>Access all occupation data programmatically via our REST API.</p>
+			<p>Access all occupation data programmatically through the REST API.</p>
 		</a>
 	</div>
 </div>
@@ -163,14 +167,14 @@
 
 	.results-dropdown {
 		position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
-		width: 100%; max-width: 600px; background: white;
+		width: 100%; max-width: 700px; background: white;
 		border-radius: var(--radius); box-shadow: var(--shadow-md);
 		z-index: 50; margin-top: 0.25rem; overflow: hidden;
 	}
-	.result-item { display: flex; gap: 0.75rem; padding: 0.6rem 1rem; color: var(--color-text); }
+	.result-item { display: flex; gap: 0.75rem; padding: 0.6rem 1rem; color: var(--color-text); white-space: nowrap; }
 	.result-item:hover { background: var(--color-bg); text-decoration: none; }
 	.result-code { font-family: monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; }
-	.result-title { flex: 1; text-align: left; }
+	.result-title { flex: 1; text-align: left; overflow: hidden; text-overflow: ellipsis; }
 	.result-more { display: block; padding: 0.5rem 1rem; text-align: center; background: var(--color-bg); font-size: 0.875rem; font-weight: 500; }
 
 	.section-heading { font-size: 1.25rem; color: var(--color-primary); margin-bottom: 1rem; margin-top: 0.5rem; }

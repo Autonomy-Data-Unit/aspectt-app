@@ -25,7 +25,7 @@
 
 <div class="container">
 	<h1 class="page-title">Browse Occupations</h1>
-	<p class="page-desc">Explore UK SOC 2020 occupations by major group.</p>
+	<p class="page-desc">UK SOC 2020 occupations grouped by major group. Select a group to see its occupations.</p>
 
 	{#if loading}
 		<div class="loading"><div class="spinner"></div></div>
