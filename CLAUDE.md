@@ -43,3 +43,14 @@ The `aspectt-pipeline` package uses nblite for literate programming:
 US O*NET SOC → US SOC 2018 → US SOC 2010 → ISCO-08 → UK SOC 2020
 
 Each UK SOC code is a "superposition" of contributing US O*NET codes, with data averaged/combined using uniform weights.
+
+## Deployment
+
+The app is deployed via **AppGarden** using a Dockerfile. Config is in `appgarden.toml`.
+
+- **Production URL:** https://aspectt.apps.autonomy.work
+- **Server:** `adu-apps`
+- **Deploy command:** `appgarden deploy production`
+- **Method:** Dockerfile (builds backend + frontend into a single container on port 8000)
+
+After making frontend or backend changes, rebuild the frontend (`cd aspectt-frontend && npm run build`) then deploy.
