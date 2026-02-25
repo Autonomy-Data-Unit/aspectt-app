@@ -148,7 +148,7 @@
 <style>
 	.hero {
 		background: var(--color-primary);
-		background-image: radial-gradient(ellipse at 50% 120%, rgba(135, 107, 36, 0.08) 0%, transparent 60%);
+		background-image: radial-gradient(ellipse at 50% 120%, rgba(61, 90, 128, 0.1) 0%, transparent 60%);
 		color: white;
 		padding: 4.5rem 0 5rem;
 		margin: -2.5rem 0 2.75rem;
@@ -197,7 +197,7 @@
 	}
 
 	.search-hero:focus {
-		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15), 0 0 0 3px rgba(201, 168, 76, 0.2);
+		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15), 0 0 0 3px rgba(91, 140, 181, 0.25);
 	}
 
 	.search-btn {
@@ -205,16 +205,16 @@
 		font-size: 0.875rem;
 		background: var(--color-accent-bright);
 		border-color: var(--color-accent-bright);
-		color: var(--color-primary);
+		color: white;
 		font-weight: 600;
-		box-shadow: 0 2px 8px rgba(201, 168, 76, 0.25);
+		box-shadow: 0 2px 8px rgba(61, 90, 128, 0.3);
 		letter-spacing: 0.01em;
 	}
 
 	.search-btn:hover {
-		background: #d4b968;
-		border-color: #d4b968;
-		box-shadow: 0 4px 12px rgba(201, 168, 76, 0.3);
+		background: var(--color-accent-light);
+		border-color: var(--color-accent-light);
+		box-shadow: 0 4px 12px rgba(61, 90, 128, 0.35);
 	}
 
 	.results-dropdown {

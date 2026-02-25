@@ -442,7 +442,7 @@
 	.occ-code {
 		font-size: 1.75rem; font-weight: 700; color: var(--color-accent-bright); font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
 		flex: 0 0 auto; padding: 0.625rem 1.125rem; background: var(--color-accent-subtle); border-radius: var(--radius);
-		border: 1px solid rgba(135, 107, 36, 0.1); letter-spacing: -0.02em;
+		border: 1px solid rgba(61, 90, 128, 0.12); letter-spacing: -0.02em;
 	}
 	.occ-info { flex: 1; }
 	h1 { font-size: 1.5rem; font-weight: 700; color: var(--color-text); margin-bottom: 0.5rem; letter-spacing: -0.02em; line-height: 1.3; }
