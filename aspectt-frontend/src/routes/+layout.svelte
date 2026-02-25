@@ -138,6 +138,8 @@
 		color: white;
 		letter-spacing: 0.14em;
 		flex-shrink: 0;
+		border-left: 3px solid var(--color-accent-bright);
+		padding-left: 0.65rem;
 	}
 
 	.logo:hover {
