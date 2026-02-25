@@ -90,14 +90,21 @@
 			<div class="footer-brand">
 				<span class="footer-logo">ASPECTT</span>
 				<p>UK occupational information, classified under SOC 2020.</p>
+				<p class="footer-data">Data derived from US O*NET v30.2 via an ISCO-08 crosswalk. 412 occupations across 9 major groups.</p>
 			</div>
-			<div class="footer-meta">
-				<p>Data derived from US O*NET v30.2 via an ISCO-08 crosswalk.</p>
-				<p>412 occupations across 9 major groups.</p>
+			<div class="footer-nav">
+				<span class="footer-nav-heading">Explore</span>
+				<a href="/browse">Browse occupations</a>
+				<a href="/search">Search</a>
+				<a href="/compare">Compare</a>
+				<a href="/crosswalk">Crosswalk</a>
 			</div>
-			<div class="footer-org">
-				<p>A project of the <a href="https://autonomy.work/adu/" target="_blank" rel="noopener">Autonomy Data Unit</a></p>
-				<p><a href="https://autonomy.work/" target="_blank" rel="noopener">The Autonomy Institute</a></p>
+			<div class="footer-nav">
+				<span class="footer-nav-heading">Resources</span>
+				<a href="/api">Public API</a>
+				<a href="/about">About ASPECTT</a>
+				<a href="https://autonomy.work/adu/" target="_blank" rel="noopener">Autonomy Data Unit</a>
+				<a href="https://autonomy.work/" target="_blank" rel="noopener">The Autonomy Institute</a>
 			</div>
 		</div>
 		<div class="footer-bottom">
@@ -114,7 +121,7 @@
 		position: sticky;
 		top: 0;
 		z-index: 100;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+		border-bottom: 2px solid var(--color-accent-bright);
 	}
 
 	.header-inner {
@@ -128,13 +135,13 @@
 		font-size: 1.1rem;
 		font-weight: 700;
 		color: white;
-		letter-spacing: 0.12em;
+		letter-spacing: 0.14em;
 		flex-shrink: 0;
 	}
 
 	.logo:hover {
 		text-decoration: none;
-		color: var(--color-accent);
+		color: var(--color-accent-bright);
 	}
 
 	nav {
@@ -144,10 +151,10 @@
 	}
 
 	nav > a, .nav-link {
-		color: rgba(255, 255, 255, 0.7);
+		color: rgba(255, 255, 255, 0.65);
 		font-size: 0.8125rem;
-		font-weight: 500;
-		transition: color 0.15s;
+		font-weight: 450;
+		transition: color var(--transition);
 		padding: 0.375rem 0.625rem;
 		border-radius: 4px;
 		background: none;
@@ -186,6 +193,12 @@
 		z-index: 200;
 		display: flex;
 		gap: 0;
+		animation: dropdown-in 0.15s ease-out;
+	}
+
+	@keyframes dropdown-in {
+		from { opacity: 0; transform: translateY(-4px); }
+		to { opacity: 1; transform: translateY(0); }
 	}
 
 	.dropdown-section {
@@ -247,27 +260,29 @@
 
 	footer {
 		background: var(--color-primary);
-		color: rgba(255, 255, 255, 0.55);
-		padding: 2.5rem 0 1.5rem;
+		color: rgba(255, 255, 255, 0.5);
+		padding: 3rem 0 1.5rem;
 		font-size: 0.8125rem;
-		line-height: 1.6;
+		line-height: 1.7;
+		margin-top: auto;
 	}
 
 	footer a {
-		color: rgba(255, 255, 255, 0.75);
-		transition: color 0.15s;
+		color: rgba(255, 255, 255, 0.65);
+		transition: color var(--transition);
 	}
 
 	footer a:hover {
-		color: var(--color-accent);
+		color: var(--color-accent-bright);
+		text-decoration: none;
 	}
 
 	.footer-content {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		gap: 2rem;
-		padding-bottom: 1.5rem;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+		grid-template-columns: 2fr 1fr 1fr;
+		gap: 3rem;
+		padding-bottom: 2rem;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 	}
 
 	.footer-brand {
@@ -276,22 +291,39 @@
 		gap: 0.375rem;
 	}
 
+	.footer-data {
+		margin-top: 0.375rem;
+		font-size: 0.75rem;
+		opacity: 0.7;
+	}
+
 	.footer-logo {
 		font-weight: 700;
 		font-size: 0.9rem;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.12em;
 		color: rgba(255, 255, 255, 0.85);
 	}
 
-	.footer-meta p, .footer-org p {
+	.footer-nav {
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+	}
+
+	.footer-nav-heading {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: rgba(255, 255, 255, 0.35);
 		margin-bottom: 0.25rem;
 	}
 
 	.footer-bottom {
-		padding-top: 1rem;
+		padding-top: 1.25rem;
 		text-align: center;
 		font-size: 0.75rem;
-		opacity: 0.6;
+		opacity: 0.5;
 	}
 
 	@media (max-width: 768px) {
@@ -347,7 +379,11 @@
 
 		.footer-content {
 			grid-template-columns: 1fr;
-			gap: 1.5rem;
+			gap: 1.75rem;
+		}
+
+		.footer-nav {
+			gap: 0.25rem;
 		}
 	}
 </style>

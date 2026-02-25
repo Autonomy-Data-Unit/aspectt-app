@@ -1,9 +1,9 @@
 ---
 active: true
 iteration: 1
-max_iterations: 50
+max_iterations: 10
 completion_promise: "DONE"
-started_at: "2026-02-25T14:01:10Z"
+started_at: "2026-02-25T14:35:28Z"
 ---
 
-Use puppeteer to screenshot https://aspectt.apps.autonomy.work and its various other pages, and iterate on its design. It should look like a professional and production-grade website that is ready for public consumption. It should also be of a style concordant with the other autonomy sites like https://autonomy.work and https://www.autonomyconsultancy.work. You should also remove all emojis from the current page. Deploy using appgarden regularly so you can see your changes, and iterate on them. Commit regularly as well.
+Iterate on the design until it looks fully production ready. I want it to look expensive. Deploy regularly and use puppeteer to take screenshots of the site to see what it looks like.

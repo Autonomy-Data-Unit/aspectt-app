@@ -64,16 +64,14 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
-	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-
-	.zones { display: flex; flex-direction: column; gap: 0.75rem; }
+	.zones { display: flex; flex-direction: column; gap: 0.875rem; }
 
 	.zone-card { padding: 0; overflow: hidden; }
 
 	.zone-header {
 		display: flex; align-items: center; gap: 1rem; padding: 1.25rem 1.5rem;
 		background: none; border: none; width: 100%; cursor: pointer; text-align: left;
+		font-family: var(--font); transition: background var(--transition);
 	}
 
 	.zone-header:hover { background: var(--color-bg); }
@@ -87,18 +85,19 @@
 
 	.zone-info { flex: 1; }
 	.zone-info h2 { font-size: 1.1rem; color: var(--color-primary); border: none; margin: 0; padding: 0; }
-	.zone-count { font-size: 0.85rem; color: var(--color-text-secondary); }
+	.zone-count { font-size: 0.8125rem; color: var(--color-text-secondary); }
 	.expand-icon { font-size: 0.75rem; color: var(--color-text-secondary); }
 
 	.zone-detail { padding: 0 1.5rem 1.5rem; border-top: 1px solid var(--color-border); }
-	.zone-desc { font-size: 0.9rem; color: var(--color-text-secondary); margin: 1rem 0; line-height: 1.6; }
+	.zone-desc { font-size: 0.875rem; color: var(--color-text-secondary); margin: 1rem 0; line-height: 1.6; }
 
 	.occ-list { display: flex; flex-direction: column; }
 	.occ-item {
-		display: flex; gap: 0.75rem; padding: 0.4rem 0;
-		border-bottom: 1px solid var(--color-border); color: var(--color-text); font-size: 0.9rem;
+		display: flex; gap: 0.75rem; padding: 0.4375rem 0;
+		border-bottom: 1px solid var(--color-border); color: var(--color-text); font-size: 0.875rem;
+		transition: color var(--transition);
 	}
 	.occ-item:last-child { border-bottom: none; }
 	.occ-item:hover { color: var(--color-accent); text-decoration: none; }
-	.occ-code { font-family: monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; }
+	.occ-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; font-size: 0.8125rem; }
 </style>

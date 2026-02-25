@@ -83,10 +83,7 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
-	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-
-	.search-row { display: flex; gap: 0.75rem; }
+	.search-row { display: flex; gap: 0.625rem; }
 	.search-row .search-input { flex: 1; }
 
 	.matching-techs { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--color-border); }
@@ -98,7 +95,7 @@
 	.result-item:last-child { border-bottom: none; }
 	.result-item:hover { text-decoration: none; }
 	.result-header { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.35rem; }
-	.occ-code { font-family: monospace; font-weight: 700; color: var(--color-accent); }
+	.occ-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 700; color: var(--color-accent); font-size: 0.8125rem; }
 	.occ-title { flex: 1; font-weight: 500; }
 	.match-count { font-size: 0.75rem; color: var(--color-text-secondary); background: var(--color-bg); padding: 0.15rem 0.5rem; border-radius: 12px; }
 	.matching-list { display: flex; flex-wrap: wrap; gap: 0.3rem; }

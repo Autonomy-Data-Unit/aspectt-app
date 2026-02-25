@@ -157,22 +157,13 @@ curl "{baseUrl}/occupations/2134/skills"</code></pre>
 </div>
 
 <style>
-	.page-title {
-		font-size: 1.75rem;
-		color: var(--color-text);
-		margin-bottom: 0.25rem;
-	}
-
-	.page-desc {
-		color: var(--color-text-secondary);
-		margin-bottom: 1.5rem;
-	}
-
 	.page-desc code {
 		background: var(--color-bg);
-		padding: 0.15rem 0.4rem;
-		border-radius: 4px;
-		font-size: 0.85rem;
+		padding: 0.2rem 0.5rem;
+		border-radius: 5px;
+		font-size: 0.8125rem;
+		font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
+		border: 1px solid var(--color-border);
 	}
 
 	.endpoints {
@@ -182,34 +173,41 @@ curl "{baseUrl}/occupations/2134/skills"</code></pre>
 	}
 
 	.endpoint {
-		padding: 0.75rem;
+		padding: 0.875rem 1rem;
 		border: 1px solid var(--color-border);
 		border-radius: var(--radius);
+		transition: border-color var(--transition);
+	}
+
+	.endpoint:hover {
+		border-color: var(--color-border-hover);
 	}
 
 	.ep-header {
 		display: flex;
 		align-items: center;
 		gap: 0.75rem;
-		margin-bottom: 0.25rem;
+		margin-bottom: 0.3rem;
 	}
 
 	.method {
-		font-size: 0.75rem;
+		font-size: 0.6875rem;
 		font-weight: 700;
-		padding: 0.15rem 0.5rem;
+		padding: 0.2rem 0.5rem;
 		background: var(--color-success);
 		color: white;
 		border-radius: 4px;
+		letter-spacing: 0.03em;
 	}
 
 	.path {
-		font-size: 0.9rem;
+		font-size: 0.875rem;
 		font-weight: 500;
+		font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
 	}
 
 	.ep-desc {
-		font-size: 0.85rem;
+		font-size: 0.8125rem;
 		color: var(--color-text-secondary);
 	}
 
@@ -222,10 +220,12 @@ curl "{baseUrl}/occupations/2134/skills"</code></pre>
 	pre {
 		background: var(--color-primary);
 		color: #a0d2db;
-		padding: 1rem;
-		border-radius: var(--radius);
+		padding: 1.25rem;
+		border-radius: var(--radius-lg);
 		overflow-x: auto;
-		font-size: 0.85rem;
-		line-height: 1.6;
+		font-size: 0.8125rem;
+		line-height: 1.7;
+		font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
+		border: 1px solid rgba(255, 255, 255, 0.06);
 	}
 </style>

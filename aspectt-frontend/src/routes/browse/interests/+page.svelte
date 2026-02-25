@@ -141,15 +141,15 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
-	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; max-width: 700px; }
+	.page-desc { max-width: 700px; }
 
-	.interest-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 0.75rem; margin-bottom: 1.5rem; }
+	.interest-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 0.875rem; margin-bottom: 1.75rem; }
 
 	.interest-card {
-		display: flex; gap: 1rem; padding: 1rem; background: var(--color-surface);
-		border: 2px solid var(--color-border); border-radius: var(--radius);
-		cursor: pointer; text-align: left; transition: all 0.15s;
+		display: flex; gap: 1rem; padding: 1.125rem; background: var(--color-surface);
+		border: 1px solid var(--color-border); border-radius: var(--radius-lg);
+		cursor: pointer; text-align: left; transition: all var(--transition);
+		box-shadow: var(--shadow-xs); font-family: var(--font);
 	}
 	.interest-card:hover { border-color: var(--interest-color); }
 	.interest-card.selected { border-color: var(--interest-color); background: color-mix(in srgb, var(--interest-color) 5%, white); }
@@ -179,8 +179,8 @@
 	}
 	.result-item:last-child { border-bottom: none; }
 	.result-item:hover { color: var(--color-accent); text-decoration: none; }
-	.occ-code { font-family: monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; }
+	.occ-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; font-size: 0.8125rem; }
 	.occ-title { flex: 1; }
-	.riasec-tag { font-size: 0.75rem; font-weight: 700; color: var(--color-accent); font-family: monospace; }
+	.riasec-tag { font-size: 0.75rem; font-weight: 700; color: var(--color-accent); font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; }
 	.jz-tag { font-size: 0.7rem; padding: 0.1rem 0.4rem; background: var(--color-bg); border-radius: 4px; color: var(--color-text-secondary); }
 </style>

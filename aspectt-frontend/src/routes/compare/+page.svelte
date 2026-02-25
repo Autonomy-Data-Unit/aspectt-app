@@ -198,29 +198,30 @@
 </div>
 
 <style>
-	.page-title { font-size: 1.75rem; color: var(--color-text); margin-bottom: 0.25rem; }
-	.page-desc { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-
 	.search-area { position: relative; margin-bottom: 1rem; }
 	.search-dropdown {
 		position: absolute; top: 100%; left: 0; right: 0; z-index: 10;
 		background: var(--color-surface); border: 1px solid var(--color-border);
-		border-radius: var(--radius); box-shadow: var(--shadow-md); max-height: 300px; overflow-y: auto;
+		border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); max-height: 300px; overflow-y: auto;
+		margin-top: 0.375rem; animation: fade-in 0.15s ease-out;
 	}
+	@keyframes fade-in { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
 	.dropdown-item {
-		display: block; width: 100%; padding: 0.6rem 1rem; background: none; border: none;
-		text-align: left; font-size: 0.9rem; cursor: pointer;
+		display: block; width: 100%; padding: 0.625rem 1.125rem; background: none; border: none;
+		text-align: left; font-size: 0.875rem; cursor: pointer; font-family: var(--font);
+		transition: background var(--transition);
 	}
 	.dropdown-item:hover { background: var(--color-bg); }
-	.dd-code { font-family: monospace; font-weight: 600; color: var(--color-accent); margin-right: 0.5rem; }
+	.dd-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; color: var(--color-accent); margin-right: 0.625rem; font-size: 0.8125rem; }
 
 	.selected-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
 	.selected-tag {
 		display: flex; align-items: center; gap: 0.5rem;
-		padding: 0.4rem 0.75rem; background: var(--color-accent-subtle); border-radius: 20px; font-size: 0.85rem;
+		padding: 0.4375rem 0.875rem; background: var(--color-accent-subtle); border: 1px solid rgba(135, 107, 36, 0.1); border-radius: 20px; font-size: 0.8125rem;
+		transition: all var(--transition);
 	}
 	.tag-num { font-weight: 700; color: var(--color-accent); }
-	.tag-remove { background: none; border: none; cursor: pointer; font-size: 1.1rem; color: var(--color-text-secondary); padding: 0 0.25rem; }
+	.tag-remove { background: none; border: none; cursor: pointer; font-size: 1.1rem; color: var(--color-text-secondary); padding: 0 0.25rem; transition: color var(--transition); }
 	.tag-remove:hover { color: #e53e3e; }
 
 	.compare-grid { margin-top: 1.5rem; }
