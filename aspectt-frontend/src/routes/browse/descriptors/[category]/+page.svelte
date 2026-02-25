@@ -4,7 +4,7 @@
 
 	let elements = $state<DescriptorElement[]>([]);
 	let loading = $state(true);
-	let category = $derived(page.params.category);
+	let category = $derived(page.params.category ?? 'skills');
 	let selectedElement = $state<string | null>(null);
 	let elementOccupations = $state<DescriptorOccupation[]>([]);
 	let elementTotal = $state(0);

@@ -7,6 +7,7 @@
 	let loading = $state(true);
 	let error = $state('');
 	let activeSection = $state('summary');
+	let viewMode = $state<'summary' | 'details'>('summary');
 
 	const sections = [
 		{ id: 'summary', label: 'Summary' },
@@ -21,22 +22,19 @@
 		{ id: 'interests', label: 'Interests' },
 		{ id: 'values', label: 'Work Values' },
 		{ id: 'education', label: 'Education' },
-		{ id: 'related', label: 'Related Occupations' },
+		{ id: 'related', label: 'Related' },
 	];
+
+	const RIASEC_NAMES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional'];
 
 	$effect(() => {
 		const code = Number(page.params.code);
 		loading = true;
 		error = '';
+		activeSection = 'summary';
 		getOccupation(code)
-			.then((data) => {
-				occ = data;
-				loading = false;
-			})
-			.catch((e) => {
-				error = e.message;
-				loading = false;
-			});
+			.then((data) => { occ = data; loading = false; })
+			.catch((e) => { error = e.message; loading = false; });
 	});
 
 	function jobZoneLabel(jz: number): string {
@@ -49,12 +47,28 @@
 		};
 		return labels[jz] || `Zone ${jz}`;
 	}
+
+	function getRiasecCode(): string {
+		if (!occ?.interests) return '';
+		const sorted = [...occ.interests]
+			.filter(i => RIASEC_NAMES.includes(i.element_name))
+			.sort((a, b) => ((b as any).value_OI ?? 0) - ((a as any).value_OI ?? 0));
+		return sorted.slice(0, 3).map(i => i.element_name[0]).join('');
+	}
+
+	function sortedByImportance(items: any[], limit?: number) {
+		const sorted = [...items].sort((a, b) => (b.value_IM ?? 0) - (a.value_IM ?? 0));
+		return limit ? sorted.slice(0, limit) : sorted;
+	}
+
+	function getTopItems<T>(items: T[] | undefined, limit: number): T[] {
+		if (!items) return [];
+		return viewMode === 'summary' ? items.slice(0, limit) : items;
+	}
 </script>
 
 <svelte:head>
-	{#if occ}
-		<title>{occ.title} - ASPECTT</title>
-	{/if}
+	{#if occ}<title>{occ.title} - ASPECTT</title>{/if}
 </svelte:head>
 
 <div class="container">
@@ -65,44 +79,109 @@
 	{:else if occ}
 		<div class="occ-header">
 			<div class="occ-code">{occ.uk_soc_2020}</div>
-			<div>
+			<div class="occ-info">
 				<h1>{occ.title}</h1>
 				<p class="occ-desc">{occ.description}</p>
+				<div class="header-tags">
+					{#if occ.job_zone}
+						<span class="header-tag jz">Job Zone {occ.job_zone}</span>
+					{/if}
+					{#if getRiasecCode()}
+						<span class="header-tag riasec">{getRiasecCode()}</span>
+					{/if}
+					<span class="header-tag source">{occ.source_occupations?.length ?? 0} source occupations</span>
+				</div>
 			</div>
+		</div>
+
+		<div class="view-toggle">
+			<button class="toggle-btn" class:active={viewMode === 'summary'} onclick={() => viewMode = 'summary'}>Summary</button>
+			<button class="toggle-btn" class:active={viewMode === 'details'} onclick={() => viewMode = 'details'}>Details</button>
 		</div>
 
 		<div class="layout">
 			<nav class="sidebar">
 				{#each sections as sec}
-					<button
-						class="nav-item"
-						class:active={activeSection === sec.id}
-						onclick={() => (activeSection = sec.id)}
-					>
+					<button class="nav-item" class:active={activeSection === sec.id}
+						onclick={() => (activeSection = sec.id)}>
 						{sec.label}
 					</button>
 				{/each}
+				<hr class="nav-divider" />
+				<a href="/compare?code={occ.uk_soc_2020}" class="nav-item compare-link">Compare...</a>
 			</nav>
 
 			<div class="content">
 				{#if activeSection === 'summary'}
 					<div class="card">
-						<h2>Summary</h2>
+						<h2>Overview</h2>
 						{#if occ.job_zone}
-							<p class="job-zone">
-								<strong>Job Zone:</strong> {occ.job_zone} — {jobZoneLabel(occ.job_zone)}
-							</p>
+							<div class="job-zone">
+								<strong>Job Zone {occ.job_zone}:</strong> {jobZoneLabel(occ.job_zone)}
+							</div>
 						{/if}
 						{#if occ.alternate_titles?.length}
 							<div class="alt-titles">
 								<strong>Also known as:</strong>
-								{occ.alternate_titles.slice(0, 20).join(', ')}
-								{#if occ.alternate_titles.length > 20}
-									<span class="muted">and {occ.alternate_titles.length - 20} more</span>
+								{occ.alternate_titles.slice(0, viewMode === 'summary' ? 15 : 50).join(', ')}
+								{#if occ.alternate_titles.length > (viewMode === 'summary' ? 15 : 50)}
+									<span class="muted">and {occ.alternate_titles.length - (viewMode === 'summary' ? 15 : 50)} more</span>
 								{/if}
 							</div>
 						{/if}
-						{#if occ.source_occupations?.length}
+					</div>
+
+					<!-- Quick glance sections in summary mode -->
+					{#if occ.skills?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Top Skills</h2>
+								<button class="show-more-btn" onclick={() => activeSection = 'skills'}>View all &rarr;</button>
+							</div>
+							<RatedBars items={sortedByImportance(occ.skills, 5)} />
+						</div>
+					{/if}
+
+					{#if occ.knowledge?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Top Knowledge</h2>
+								<button class="show-more-btn" onclick={() => activeSection = 'knowledge'}>View all &rarr;</button>
+							</div>
+							<RatedBars items={sortedByImportance(occ.knowledge, 5)} />
+						</div>
+					{/if}
+
+					{#if occ.tasks?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Core Tasks</h2>
+								<button class="show-more-btn" onclick={() => activeSection = 'tasks'}>View all &rarr;</button>
+							</div>
+							<ul class="task-list">
+								{#each occ.tasks.filter(t => t.task_type === 'Core').slice(0, 5) as task}
+									<li>{task.task}</li>
+								{/each}
+							</ul>
+						</div>
+					{/if}
+
+					{#if occ.technology_skills?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Top Technology Skills</h2>
+								<button class="show-more-btn" onclick={() => activeSection = 'technology'}>View all &rarr;</button>
+							</div>
+							<div class="tech-grid">
+								{#each occ.technology_skills.slice(0, 12) as tech}
+									<span class="tech-tag">{tech.name}</span>
+								{/each}
+							</div>
+						</div>
+					{/if}
+
+					{#if occ.source_occupations?.length}
+						<div class="card">
 							<details class="source-details">
 								<summary>Based on {occ.source_occupations.length} US O*NET occupations</summary>
 								<ul>
@@ -114,25 +193,26 @@
 									{/each}
 								</ul>
 							</details>
-						{/if}
-					</div>
+						</div>
+					{/if}
 
 				{:else if activeSection === 'tasks'}
 					<div class="card">
 						<h2>Tasks ({occ.tasks?.length ?? 0})</h2>
 						{#if occ.tasks?.length}
+							{@const tasks = getTopItems(occ.tasks, 30)}
 							<ul class="task-list">
-								{#each occ.tasks.slice(0, 50) as task}
+								{#each tasks as task}
 									<li>
 										{task.task}
-										{#if task.task_type === 'Core'}
-											<span class="badge">Core</span>
-										{/if}
+										{#if task.task_type === 'Core'}<span class="badge">Core</span>{/if}
 									</li>
 								{/each}
 							</ul>
-							{#if occ.tasks.length > 50}
-								<p class="muted">Showing 50 of {occ.tasks.length} tasks</p>
+							{#if viewMode === 'summary' && occ.tasks.length > 30}
+								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
+									Show all {occ.tasks.length} tasks
+								</button>
 							{/if}
 						{:else}
 							<p class="muted">No task data available</p>
@@ -141,108 +221,141 @@
 
 				{:else if activeSection === 'skills'}
 					<div class="card">
-						<h2>Skills</h2>
+						<h2>Skills ({occ.skills?.length ?? 0})</h2>
 						{#if occ.skills?.length}
-							<RatedBars items={occ.skills} />
-						{:else}
-							<p class="muted">No skills data available</p>
-						{/if}
+							{@const items = viewMode === 'summary' ? sortedByImportance(occ.skills, 10) : sortedByImportance(occ.skills)}
+							<RatedBars {items} />
+							{#if viewMode === 'summary' && occ.skills.length > 10}
+								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
+									Show all {occ.skills.length} skills
+								</button>
+							{/if}
+						{:else}<p class="muted">No skills data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'abilities'}
 					<div class="card">
-						<h2>Abilities</h2>
+						<h2>Abilities ({occ.abilities?.length ?? 0})</h2>
 						{#if occ.abilities?.length}
-							<RatedBars items={occ.abilities} />
-						{:else}
-							<p class="muted">No abilities data available</p>
-						{/if}
+							{@const items = viewMode === 'summary' ? sortedByImportance(occ.abilities, 10) : sortedByImportance(occ.abilities)}
+							<RatedBars {items} />
+							{#if viewMode === 'summary' && occ.abilities.length > 10}
+								<button class="show-all-btn" onclick={() => viewMode = 'details'}>Show all {occ.abilities.length} abilities</button>
+							{/if}
+						{:else}<p class="muted">No abilities data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'knowledge'}
 					<div class="card">
-						<h2>Knowledge</h2>
+						<h2>Knowledge ({occ.knowledge?.length ?? 0})</h2>
 						{#if occ.knowledge?.length}
-							<RatedBars items={occ.knowledge} />
-						{:else}
-							<p class="muted">No knowledge data available</p>
-						{/if}
+							{@const items = viewMode === 'summary' ? sortedByImportance(occ.knowledge, 10) : sortedByImportance(occ.knowledge)}
+							<RatedBars {items} />
+							{#if viewMode === 'summary' && occ.knowledge.length > 10}
+								<button class="show-all-btn" onclick={() => viewMode = 'details'}>Show all {occ.knowledge.length} knowledge areas</button>
+							{/if}
+						{:else}<p class="muted">No knowledge data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'technology'}
 					<div class="card">
 						<h2>Technology Skills ({occ.technology_skills?.length ?? 0})</h2>
 						{#if occ.technology_skills?.length}
+							{@const items = getTopItems(occ.technology_skills, 40)}
 							<div class="tech-grid">
-								{#each occ.technology_skills.slice(0, 60) as tech}
+								{#each items as tech}
 									<span class="tech-tag">{tech.name}</span>
 								{/each}
 							</div>
-							{#if occ.technology_skills.length > 60}
-								<p class="muted mt">Showing 60 of {occ.technology_skills.length} technology skills</p>
+							{#if viewMode === 'summary' && occ.technology_skills.length > 40}
+								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
+									Show all {occ.technology_skills.length} technology skills
+								</button>
 							{/if}
-						{:else}
-							<p class="muted">No technology skills data available</p>
-						{/if}
+						{:else}<p class="muted">No technology skills data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'activities'}
 					<div class="card">
-						<h2>Work Activities</h2>
+						<h2>Work Activities ({occ.work_activities?.length ?? 0})</h2>
 						{#if occ.work_activities?.length}
-							<RatedBars items={occ.work_activities} />
-						{:else}
-							<p class="muted">No work activities data available</p>
-						{/if}
+							{@const items = viewMode === 'summary' ? sortedByImportance(occ.work_activities, 10) : sortedByImportance(occ.work_activities)}
+							<RatedBars {items} />
+							{#if viewMode === 'summary' && occ.work_activities.length > 10}
+								<button class="show-all-btn" onclick={() => viewMode = 'details'}>Show all {occ.work_activities.length} activities</button>
+							{/if}
+						{:else}<p class="muted">No work activities data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'context'}
 					<div class="card">
-						<h2>Work Context</h2>
+						<h2>Work Context ({occ.work_context?.length ?? 0})</h2>
 						{#if occ.work_context?.length}
-							<RatedBars items={occ.work_context} />
-						{:else}
-							<p class="muted">No work context data available</p>
-						{/if}
+							{@const items = viewMode === 'summary' ? occ.work_context.slice(0, 10) : occ.work_context}
+							<RatedBars {items} />
+							{#if viewMode === 'summary' && occ.work_context.length > 10}
+								<button class="show-all-btn" onclick={() => viewMode = 'details'}>Show all {occ.work_context.length} context factors</button>
+							{/if}
+						{:else}<p class="muted">No work context data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'styles'}
 					<div class="card">
-						<h2>Work Styles</h2>
+						<h2>Work Styles ({occ.work_styles?.length ?? 0})</h2>
 						{#if occ.work_styles?.length}
 							<RatedBars items={occ.work_styles} />
-						{:else}
-							<p class="muted">No work styles data available</p>
-						{/if}
+						{:else}<p class="muted">No work styles data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'interests'}
 					<div class="card">
 						<h2>Interests</h2>
 						{#if occ.interests?.length}
-							<RatedBars items={occ.interests} maxValue={7} showLevel={false} />
-						{:else}
-							<p class="muted">No interests data available</p>
-						{/if}
+							{@const riasecItems = occ.interests.filter(i => RIASEC_NAMES.includes(i.element_name))}
+							<div class="interest-bars">
+								{#each riasecItems.sort((a, b) => ((b as any).value_OI ?? 0) - ((a as any).value_OI ?? 0)) as interest}
+									{@const val = (interest as any).value_OI ?? 0}
+									<div class="interest-row">
+										<span class="interest-code" title={interest.element_name}>{interest.element_name[0]}</span>
+										<span class="interest-name">{interest.element_name}</span>
+										<div class="interest-bar-track">
+											<div class="interest-bar-fill" style="width: {(val / 7) * 100}%"></div>
+										</div>
+										<span class="interest-val">{val.toFixed(1)}</span>
+									</div>
+								{/each}
+							</div>
+							<p class="riasec-label">RIASEC Code: <strong>{getRiasecCode()}</strong></p>
+						{:else}<p class="muted">No interests data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'values'}
 					<div class="card">
 						<h2>Work Values</h2>
 						{#if occ.work_values?.length}
-							<RatedBars items={occ.work_values} maxValue={7} showLevel={false} />
-						{:else}
-							<p class="muted">No work values data available</p>
-						{/if}
+							{@const valueItems = occ.work_values.filter(v => !v.element_name.includes('High Point'))}
+							<div class="interest-bars">
+								{#each valueItems.sort((a, b) => ((b as any).value_EX ?? 0) - ((a as any).value_EX ?? 0)) as wv}
+									{@const val = (wv as any).value_EX ?? 0}
+									<div class="interest-row">
+										<span class="interest-name wv-name">{wv.element_name}</span>
+										<div class="interest-bar-track">
+											<div class="interest-bar-fill wv-fill" style="width: {(val / 7) * 100}%"></div>
+										</div>
+										<span class="interest-val">{val.toFixed(1)}</span>
+									</div>
+								{/each}
+							</div>
+						{:else}<p class="muted">No work values data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'education'}
 					<div class="card">
 						<h2>Education & Training</h2>
 						{#if occ.job_zone}
-							<p class="job-zone">
-								<strong>Job Zone:</strong> {occ.job_zone} — {jobZoneLabel(occ.job_zone)}
-							</p>
+							<div class="job-zone">
+								<strong>Job Zone {occ.job_zone}:</strong> {jobZoneLabel(occ.job_zone)}
+							</div>
 						{/if}
 						{#if occ.education?.length}
 							<div class="edu-list">
@@ -250,23 +363,18 @@
 									<div class="edu-row">
 										<span class="edu-label">{edu.Element_Name} (Cat. {edu.Category})</span>
 										<div class="bar-track">
-											<div
-												class="bar-fill importance"
-												style="width: {Math.min(edu['Data Value'] * 10, 100)}%"
-											></div>
+											<div class="bar-fill importance" style="width: {Math.min(edu['Data Value'] * 10, 100)}%"></div>
 										</div>
 										<span class="bar-value">{edu['Data Value'].toFixed(1)}%</span>
 									</div>
 								{/each}
 							</div>
-						{:else}
-							<p class="muted">No education data available</p>
-						{/if}
+						{:else}<p class="muted">No education data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'related'}
 					<div class="card">
-						<h2>Related Occupations</h2>
+						<h2>Related Occupations ({occ.related_occupations?.length ?? 0})</h2>
 						{#if occ.related_occupations?.length}
 							<div class="related-list">
 								{#each occ.related_occupations as rel}
@@ -276,9 +384,7 @@
 									</a>
 								{/each}
 							</div>
-						{:else}
-							<p class="muted">No related occupations data available</p>
-						{/if}
+						{:else}<p class="muted">No related occupations data available</p>{/if}
 					</div>
 				{/if}
 			</div>
@@ -288,233 +394,109 @@
 
 <style>
 	.occ-header {
-		display: flex;
-		gap: 1.5rem;
-		align-items: flex-start;
-		margin-bottom: 1.5rem;
-		background: var(--color-surface);
-		padding: 1.5rem;
-		border-radius: var(--radius);
-		box-shadow: var(--shadow);
+		display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1rem;
+		background: var(--color-surface); padding: 1.5rem; border-radius: var(--radius); box-shadow: var(--shadow);
 	}
-
 	.occ-code {
-		font-size: 2rem;
-		font-weight: 800;
-		color: var(--color-accent);
-		font-family: monospace;
-		flex: 0 0 auto;
-		padding: 0.5rem 1rem;
-		background: #ebf4ff;
-		border-radius: var(--radius);
+		font-size: 2rem; font-weight: 800; color: var(--color-accent); font-family: monospace;
+		flex: 0 0 auto; padding: 0.5rem 1rem; background: #ebf4ff; border-radius: var(--radius);
 	}
+	.occ-info { flex: 1; }
+	h1 { font-size: 1.5rem; color: var(--color-primary); margin-bottom: 0.5rem; }
+	.occ-desc { color: var(--color-text-secondary); font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.5rem; }
+	.header-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+	.header-tag {
+		font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 600;
+	}
+	.header-tag.jz { background: var(--color-accent); color: white; }
+	.header-tag.riasec { background: #805ad5; color: white; font-family: monospace; letter-spacing: 1px; }
+	.header-tag.source { background: var(--color-bg); color: var(--color-text-secondary); }
 
-	h1 {
-		font-size: 1.5rem;
-		color: var(--color-primary);
-		margin-bottom: 0.5rem;
+	.view-toggle { display: flex; gap: 2px; margin-bottom: 1rem; background: var(--color-border); border-radius: var(--radius); overflow: hidden; width: fit-content; }
+	.toggle-btn {
+		padding: 0.4rem 1rem; border: none; background: var(--color-surface); cursor: pointer;
+		font-size: 0.85rem; font-weight: 500; color: var(--color-text-secondary); transition: all 0.15s;
 	}
+	.toggle-btn.active { background: var(--color-accent); color: white; }
+	.toggle-btn:hover:not(.active) { background: var(--color-bg); }
 
-	.occ-desc {
-		color: var(--color-text-secondary);
-		font-size: 0.9rem;
-		line-height: 1.5;
-	}
-
-	.layout {
-		display: grid;
-		grid-template-columns: 200px 1fr;
-		gap: 1.5rem;
-	}
-
-	.sidebar {
-		display: flex;
-		flex-direction: column;
-		gap: 0.25rem;
-		position: sticky;
-		top: 5rem;
-		align-self: start;
-	}
+	.layout { display: grid; grid-template-columns: 180px 1fr; gap: 1.5rem; }
+	.sidebar { display: flex; flex-direction: column; gap: 0.2rem; position: sticky; top: 5rem; align-self: start; }
 
 	.nav-item {
-		display: block;
-		padding: 0.5rem 0.75rem;
-		background: none;
-		border: none;
-		border-left: 3px solid transparent;
-		text-align: left;
-		font-size: 0.875rem;
-		color: var(--color-text-secondary);
-		cursor: pointer;
-		border-radius: 0 var(--radius) var(--radius) 0;
-		transition: all 0.1s;
+		display: block; padding: 0.45rem 0.75rem; background: none; border: none;
+		border-left: 3px solid transparent; text-align: left; font-size: 0.84rem;
+		color: var(--color-text-secondary); cursor: pointer; border-radius: 0 var(--radius) var(--radius) 0; transition: all 0.1s;
 	}
+	.nav-item:hover { background: var(--color-bg); color: var(--color-text); text-decoration: none; }
+	.nav-item.active { border-left-color: var(--color-accent); background: #ebf4ff; color: var(--color-accent); font-weight: 600; }
+	.nav-divider { border: none; border-top: 1px solid var(--color-border); margin: 0.25rem 0; }
+	.compare-link { color: var(--color-accent); font-size: 0.8rem; }
 
-	.nav-item:hover {
-		background: var(--color-bg);
-		color: var(--color-text);
+	.card-header { display: flex; justify-content: space-between; align-items: center; }
+	.card-header h2 { flex: 1; }
+	.show-more-btn {
+		background: none; border: none; color: var(--color-accent); cursor: pointer;
+		font-size: 0.85rem; font-weight: 500; padding: 0.25rem 0.5rem;
 	}
+	.show-more-btn:hover { text-decoration: underline; }
+	.show-all-btn {
+		display: block; width: 100%; text-align: center; padding: 0.6rem;
+		margin-top: 0.75rem; background: var(--color-bg); border: 1px solid var(--color-border);
+		border-radius: var(--radius); cursor: pointer; font-size: 0.85rem; color: var(--color-accent);
+	}
+	.show-all-btn:hover { border-color: var(--color-accent); }
 
-	.nav-item.active {
-		border-left-color: var(--color-accent);
-		background: #ebf4ff;
-		color: var(--color-accent);
-		font-weight: 600;
-	}
+	.job-zone { margin-bottom: 1rem; padding: 0.5rem 0.75rem; background: var(--color-bg); border-radius: var(--radius); font-size: 0.9rem; }
+	.alt-titles { margin-bottom: 1rem; font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.8; }
 
-	.job-zone {
-		margin-bottom: 1rem;
-		padding: 0.5rem 0.75rem;
-		background: var(--color-bg);
-		border-radius: var(--radius);
-		font-size: 0.9rem;
-	}
+	.source-details { font-size: 0.85rem; }
+	.source-details summary { cursor: pointer; color: var(--color-accent); font-weight: 500; }
+	.source-details ul { margin-top: 0.5rem; padding-left: 1.5rem; }
+	.source-details li { margin-bottom: 0.25rem; }
+	.mono { font-family: monospace; font-weight: 600; }
+	.muted { color: var(--color-text-secondary); font-size: 0.85rem; }
 
-	.alt-titles {
-		margin-bottom: 1rem;
-		font-size: 0.9rem;
-		color: var(--color-text-secondary);
-		line-height: 1.8;
-	}
+	.task-list { padding-left: 1.25rem; }
+	.task-list li { margin-bottom: 0.5rem; font-size: 0.9rem; line-height: 1.5; }
 
-	.source-details {
-		margin-top: 1rem;
-		font-size: 0.85rem;
-	}
+	.tech-grid { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+	.tech-tag { padding: 0.25rem 0.6rem; background: var(--color-bg); border: 1px solid var(--color-border); border-radius: 16px; font-size: 0.8rem; }
 
-	.source-details summary {
-		cursor: pointer;
-		color: var(--color-accent);
-		font-weight: 500;
+	/* Interest/RIASEC bars */
+	.interest-bars { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem; }
+	.interest-row { display: flex; align-items: center; gap: 0.75rem; }
+	.interest-code {
+		flex: 0 0 28px; height: 28px; display: flex; align-items: center; justify-content: center;
+		border-radius: 50%; background: var(--color-accent); color: white; font-weight: 800; font-size: 0.85rem;
 	}
+	.interest-name { flex: 0 0 120px; font-size: 0.85rem; }
+	.wv-name { flex: 0 0 160px; }
+	.interest-bar-track { flex: 1; height: 16px; background: var(--color-border); border-radius: 4px; overflow: hidden; }
+	.interest-bar-fill { height: 100%; background: #805ad5; border-radius: 4px; transition: width 0.3s; }
+	.wv-fill { background: var(--color-success); }
+	.interest-val { flex: 0 0 35px; font-size: 0.85rem; color: var(--color-text-secondary); text-align: right; }
+	.riasec-label { margin-top: 0.75rem; font-size: 0.9rem; }
 
-	.source-details ul {
-		margin-top: 0.5rem;
-		padding-left: 1.5rem;
-	}
+	.edu-list { display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.5rem; }
+	.edu-row { display: flex; align-items: center; gap: 0.75rem; }
+	.edu-label { flex: 0 0 220px; font-size: 0.85rem; text-align: right; color: var(--color-text-secondary); }
 
-	.source-details li {
-		margin-bottom: 0.25rem;
-	}
+	.related-list { display: flex; flex-direction: column; }
+	.related-item { display: flex; gap: 0.75rem; padding: 0.5rem 0; border-bottom: 1px solid var(--color-border); color: var(--color-text); }
+	.related-item:last-child { border-bottom: none; }
+	.related-item:hover { color: var(--color-accent); text-decoration: none; }
+	.related-code { font-family: monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; }
 
-	.mono {
-		font-family: monospace;
-		font-weight: 600;
-	}
-
-	.muted {
-		color: var(--color-text-secondary);
-		font-size: 0.85rem;
-	}
-
-	.mt {
-		margin-top: 0.75rem;
-	}
-
-	.task-list {
-		padding-left: 1.25rem;
-	}
-
-	.task-list li {
-		margin-bottom: 0.5rem;
-		font-size: 0.9rem;
-		line-height: 1.5;
-	}
-
-	.tech-grid {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.4rem;
-	}
-
-	.tech-tag {
-		padding: 0.25rem 0.6rem;
-		background: var(--color-bg);
-		border: 1px solid var(--color-border);
-		border-radius: 16px;
-		font-size: 0.8rem;
-	}
-
-	.edu-list {
-		display: flex;
-		flex-direction: column;
-		gap: 0.3rem;
-		margin-top: 0.5rem;
-	}
-
-	.edu-row {
-		display: flex;
-		align-items: center;
-		gap: 0.75rem;
-	}
-
-	.edu-label {
-		flex: 0 0 220px;
-		font-size: 0.85rem;
-		text-align: right;
-		color: var(--color-text-secondary);
-	}
-
-	.related-list {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.related-item {
-		display: flex;
-		gap: 0.75rem;
-		padding: 0.5rem 0;
-		border-bottom: 1px solid var(--color-border);
-		color: var(--color-text);
-	}
-
-	.related-item:last-child {
-		border-bottom: none;
-	}
-
-	.related-item:hover {
-		color: var(--color-accent);
-		text-decoration: none;
-	}
-
-	.related-code {
-		font-family: monospace;
-		font-weight: 600;
-		color: var(--color-accent);
-		flex: 0 0 50px;
-	}
-
-	.error {
-		color: #e53e3e;
-		text-align: center;
-		padding: 1rem;
-	}
+	.error { color: #e53e3e; text-align: center; padding: 1rem; }
 
 	@media (max-width: 768px) {
-		.layout {
-			grid-template-columns: 1fr;
-		}
-
-		.sidebar {
-			flex-direction: row;
-			flex-wrap: wrap;
-			position: static;
-		}
-
-		.nav-item {
-			border-left: none;
-			border-bottom: 2px solid transparent;
-			border-radius: var(--radius);
-			padding: 0.4rem 0.6rem;
-			font-size: 0.8rem;
-		}
-
-		.nav-item.active {
-			border-bottom-color: var(--color-accent);
-		}
-
-		.occ-header {
-			flex-direction: column;
-		}
+		.layout { grid-template-columns: 1fr; }
+		.sidebar { flex-direction: row; flex-wrap: wrap; position: static; }
+		.nav-item { border-left: none; border-bottom: 2px solid transparent; border-radius: var(--radius); padding: 0.4rem 0.6rem; font-size: 0.8rem; }
+		.nav-item.active { border-bottom-color: var(--color-accent); }
+		.occ-header { flex-direction: column; }
+		.interest-name { flex: 0 0 90px; }
+		.edu-label { flex: 0 0 140px; font-size: 0.8rem; }
 	}
 </style>

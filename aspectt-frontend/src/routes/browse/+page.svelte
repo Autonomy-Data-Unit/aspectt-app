@@ -17,7 +17,7 @@
 	async function selectGroup(code: number) {
 		selectedGroup = code;
 		loadingOccs = true;
-		const data = await listOccupations(code, 500);
+		const data = await listOccupations({ majorGroup: code, limit: 500 });
 		occupations = data.occupations;
 		loadingOccs = false;
 	}
