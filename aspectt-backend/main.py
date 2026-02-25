@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import json
+import math
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -29,12 +30,26 @@ def load_occupation_index() -> list[dict]:
         return json.load(f)
 
 
+def _clean_nans(obj):
+    """Recursively replace NaN/Inf float values with None."""
+    if isinstance(obj, float):
+        if math.isnan(obj) or math.isinf(obj):
+            return None
+        return obj
+    if isinstance(obj, dict):
+        return {k: _clean_nans(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_clean_nans(v) for v in obj]
+    return obj
+
+
 def load_occupation(soc_code: int) -> dict:
     path = DATA_DIR / "occupations" / f"{soc_code}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Occupation {soc_code} not found")
     with open(path) as f:
-        return json.load(f)
+        data = json.loads(f.read().replace(': NaN', ': null'))
+    return _clean_nans(data)
 
 
 def load_crosswalk() -> list[dict]:

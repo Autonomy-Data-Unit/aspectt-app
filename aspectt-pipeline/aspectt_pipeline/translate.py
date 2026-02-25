@@ -434,22 +434,51 @@ def build_uk_dataset(
     occ_dir.mkdir(exist_ok=True)
     for occ in dataset['occupations']:
         with open(occ_dir / f"{occ['uk_soc_2020']}.json", 'w') as f:
-            json.dump(occ, f, indent=2, default=_json_default)
+            sanitized = _sanitize_nans(occ)
+            text = json.dumps(sanitized, indent=2, default=_json_default, allow_nan=False)
+            f.write(text)
 
     # Save crosswalk
     with open(output_dir / 'crosswalk.json', 'w') as f:
-        json.dump(dataset['crosswalk'], f, indent=2, default=_json_default)
+        sanitized_xw = _sanitize_nans(dataset['crosswalk'])
+        text = json.dumps(sanitized_xw, indent=2, default=_json_default, allow_nan=False)
+        f.write(text)
 
     print(f"Done! {len(dataset['occupations'])} occupations saved.")
     return dataset
 
 # %% nbs/translate.ipynb 14
+def _sanitize_nans(obj):
+    """Recursively replace NaN/Inf float values with None in nested structures."""
+    if isinstance(obj, float):
+        if np.isnan(obj) or np.isinf(obj):
+            return None
+        return obj
+    if isinstance(obj, (np.floating,)):
+        val = float(obj)
+        if np.isnan(val) or np.isinf(val):
+            return None
+        return val
+    if isinstance(obj, dict):
+        return {k: _sanitize_nans(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize_nans(v) for v in obj]
+    return obj
+
+
 def _json_default(obj):
-    """JSON serializer for numpy types."""
+    """JSON serializer for numpy types, replacing NaN with None."""
     if isinstance(obj, (np.integer,)):
         return int(obj)
     if isinstance(obj, (np.floating,)):
-        return float(obj)
+        val = float(obj)
+        if np.isnan(val) or np.isinf(val):
+            return None
+        return val
+    if isinstance(obj, float):
+        if np.isnan(obj) or np.isinf(obj):
+            return None
+        return obj
     if isinstance(obj, np.ndarray):
         return obj.tolist()
     raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
@@ -493,6 +522,8 @@ def _rated_to_dict(df: pd.DataFrame) -> list[dict]:
                 'element_name': row['Element Name'],
             }
         scale = row['Scale ID']
-        elements[eid][f'value_{scale}'] = round(float(row['Data Value']), 2)
+        val = float(row['Data Value'])
+        if not (np.isnan(val) or np.isinf(val)):
+            elements[eid][f'value_{scale}'] = round(val, 2)
 
     return sorted(elements.values(), key=lambda x: x.get('value_IM', x.get('value_LV', 0)), reverse=True)
