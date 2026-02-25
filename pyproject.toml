@@ -1,0 +1,17 @@
+[project]
+name = "aspectt"
+version = "0.1.0"
+description = "ASPECTT - UK equivalent of O*NET Online"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "xlrd>=2.0",
+    "requests>=2.31",
+    "nblite>=0.4",
+    "tqdm>=4.66",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
