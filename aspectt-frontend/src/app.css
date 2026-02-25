@@ -3,16 +3,17 @@
 :root {
 	--color-primary: #1e1e2e;
 	--color-primary-light: #2a2a3e;
-	--color-accent: #c9a84c;
-	--color-accent-light: #d4b968;
-	--color-accent-subtle: rgba(201, 168, 76, 0.08);
+	--color-accent: #876b24;
+	--color-accent-light: #a08030;
+	--color-accent-bright: #c9a84c;
+	--color-accent-subtle: rgba(135, 107, 36, 0.07);
 	--color-bg: #fafafa;
 	--color-surface: #ffffff;
 	--color-text: #1e1e2e;
 	--color-text-secondary: #6b6b80;
 	--color-border: #e5e5ea;
 	--color-success: #3a8a6e;
-	--color-warning: #c9a84c;
+	--color-warning: #a08030;
 	--radius: 6px;
 	--radius-lg: 10px;
 	--shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
@@ -45,6 +46,7 @@ a {
 
 a:hover {
 	color: var(--color-accent-light);
+	text-decoration: underline;
 }
 
 .container {

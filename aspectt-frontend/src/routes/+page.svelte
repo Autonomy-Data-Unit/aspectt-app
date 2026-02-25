@@ -197,15 +197,15 @@
 	.search-btn {
 		padding: 0.7rem 1.25rem;
 		font-size: 0.875rem;
-		background: var(--color-accent);
-		border-color: var(--color-accent);
+		background: var(--color-accent-bright);
+		border-color: var(--color-accent-bright);
 		color: var(--color-primary);
 		font-weight: 600;
 	}
 
 	.search-btn:hover {
-		background: var(--color-accent-light);
-		border-color: var(--color-accent-light);
+		background: #d4b968;
+		border-color: #d4b968;
 	}
 
 	.results-dropdown {

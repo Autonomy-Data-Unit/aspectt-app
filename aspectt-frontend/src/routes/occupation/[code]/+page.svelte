@@ -439,7 +439,7 @@
 		background: var(--color-surface); padding: 1.5rem; border-radius: var(--radius-lg); border: 1px solid var(--color-border);
 	}
 	.occ-code {
-		font-size: 1.75rem; font-weight: 800; color: var(--color-accent); font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
+		font-size: 1.75rem; font-weight: 800; color: var(--color-accent-bright); font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
 		flex: 0 0 auto; padding: 0.5rem 1rem; background: var(--color-accent-subtle); border-radius: var(--radius);
 	}
 	.occ-info { flex: 1; }
@@ -539,7 +539,7 @@
 	.interest-row { display: flex; align-items: center; gap: 0.75rem; }
 	.interest-code {
 		flex: 0 0 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-		border-radius: 50%; background: var(--color-accent); color: white; font-weight: 800; font-size: 0.85rem;
+		border-radius: 50%; background: var(--color-accent-bright); color: white; font-weight: 800; font-size: 0.85rem;
 	}
 	.interest-name { flex: 0 0 120px; font-size: 0.85rem; }
 	.wv-name { flex: 0 0 160px; }
