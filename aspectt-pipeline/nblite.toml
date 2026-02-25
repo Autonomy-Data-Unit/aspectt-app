@@ -1,0 +1,17 @@
+# nblite configuration
+export_pipeline = """
+nbs -> pts
+nbs -> lib
+"""
+
+[cl.nbs]
+path = "nbs"
+format = "ipynb"
+
+[cl.pts]
+path = "pts"
+format = "percent"
+
+[cl.lib]
+path = "aspectt_pipeline"
+format = "module"

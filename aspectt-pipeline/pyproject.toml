@@ -1,0 +1,20 @@
+[project]
+name = "aspectt-pipeline"
+version = "0.1.0"
+description = "Data pipeline for ASPECTT - UK O*NET equivalent built from US O*NET data"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "requests>=2.31",
+    "nblite>=0.4",
+    "tqdm>=4.66",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aspectt_pipeline*"]
