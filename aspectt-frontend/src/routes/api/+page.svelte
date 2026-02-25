@@ -1,5 +1,6 @@
 <script lang="ts">
-	const baseUrl = 'http://localhost:8000/api';
+	const origin = (typeof window !== 'undefined') ? window.location.origin : 'https://aspectt.apps.autonomy.work';
+	const baseUrl = `${origin}/api`;
 
 	const endpoints = [
 		{
@@ -123,7 +124,7 @@
 	<div class="card">
 		<h2>Interactive Documentation</h2>
 		<p>
-			Visit <a href="http://localhost:8000/docs" target="_blank">http://localhost:8000/docs</a>
+			Visit <a href="{origin}/docs" target="_blank">{origin}/docs</a>
 			for the auto-generated Swagger UI with try-it-out functionality.
 		</p>
 	</div>

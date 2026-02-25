@@ -23,6 +23,7 @@
 		{ id: 'values', label: 'Work Values' },
 		{ id: 'education', label: 'Education' },
 		{ id: 'related', label: 'Related' },
+		{ id: 'sources', label: 'Sources' },
 	];
 
 	const RIASEC_NAMES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional'];
@@ -89,7 +90,7 @@
 					{#if getRiasecCode()}
 						<span class="header-tag riasec">{getRiasecCode()}</span>
 					{/if}
-					<span class="header-tag source">{occ.source_occupations?.length ?? 0} source occupations</span>
+					<button class="header-tag source" onclick={() => activeSection = 'sources'}>{occ.source_occupations?.length ?? 0} source occupations</button>
 				</div>
 			</div>
 		</div>
@@ -182,17 +183,24 @@
 
 					{#if occ.source_occupations?.length}
 						<div class="card">
-							<details class="source-details">
-								<summary>Based on {occ.source_occupations.length} US O*NET occupations</summary>
-								<ul>
-									{#each occ.source_occupations as src}
-										<li>
-											<span class="mono">{src.onet_soc}</span> {src.onet_title}
-											<span class="muted">(weight: {src.weight.toFixed(3)})</span>
-										</li>
-									{/each}
-								</ul>
-							</details>
+							<div class="card-header">
+								<h2>Source Occupations</h2>
+								<button class="show-more-btn" onclick={() => activeSection = 'sources'}>View all &rarr;</button>
+							</div>
+							<p class="muted">Based on {occ.source_occupations.length} US O*NET occupations</p>
+							<div class="source-preview">
+								{#each occ.source_occupations.slice(0, 3) as src}
+									<a class="source-row" href="https://www.onetonline.org/link/summary/{src.onet_soc}" target="_blank" rel="noopener">
+										<span class="mono">{src.onet_soc}</span>
+										<span class="source-title">{src.onet_title}</span>
+									</a>
+								{/each}
+								{#if occ.source_occupations.length > 3}
+									<button class="show-all-btn" onclick={() => activeSection = 'sources'}>
+										Show all {occ.source_occupations.length} sources
+									</button>
+								{/if}
+							</div>
 						</div>
 					{/if}
 
@@ -386,6 +394,29 @@
 							</div>
 						{:else}<p class="muted">No related occupations data available</p>{/if}
 					</div>
+
+				{:else if activeSection === 'sources'}
+					<div class="card">
+						<h2>Source Occupations ({occ.source_occupations?.length ?? 0})</h2>
+						{#if occ.source_occupations?.length}
+							<p class="muted source-intro">This UK occupation is derived from the following US O*NET occupations. Click any row to view the original on O*NET Online.</p>
+							<div class="source-list">
+								{#each occ.source_occupations as src}
+									{@const pct = src.weight * 100}
+									<a class="source-card" href="https://www.onetonline.org/link/summary/{src.onet_soc}" target="_blank" rel="noopener">
+										<div class="source-card-top">
+											<span class="mono source-code">{src.onet_soc}</span>
+											<span class="source-title">{src.onet_title}</span>
+											<span class="source-weight">{pct.toFixed(1)}%</span>
+										</div>
+										<div class="source-bar-track">
+											<div class="source-bar-fill" style="width: {pct}%"></div>
+										</div>
+									</a>
+								{/each}
+							</div>
+						{:else}<p class="muted">No source occupation data available</p>{/if}
+					</div>
 				{/if}
 			</div>
 		</div>
@@ -404,13 +435,14 @@
 	.occ-info { flex: 1; }
 	h1 { font-size: 1.5rem; color: var(--color-primary); margin-bottom: 0.5rem; }
 	.occ-desc { color: var(--color-text-secondary); font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.5rem; }
-	.header-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+	.header-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
 	.header-tag {
-		font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 600;
+		font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 600; border: none;
 	}
 	.header-tag.jz { background: var(--color-accent); color: white; }
 	.header-tag.riasec { background: #805ad5; color: white; font-family: monospace; letter-spacing: 1px; }
-	.header-tag.source { background: var(--color-bg); color: var(--color-text-secondary); }
+	.header-tag.source { background: var(--color-bg); color: var(--color-text-secondary); cursor: pointer; }
+	.header-tag.source:hover { background: var(--color-border); }
 
 	.view-toggle { display: flex; gap: 2px; margin-bottom: 1rem; background: var(--color-border); border-radius: var(--radius); overflow: hidden; width: fit-content; }
 	.toggle-btn {
@@ -450,12 +482,34 @@
 	.job-zone { margin-bottom: 1rem; padding: 0.5rem 0.75rem; background: var(--color-bg); border-radius: var(--radius); font-size: 0.9rem; }
 	.alt-titles { margin-bottom: 1rem; font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.8; }
 
-	.source-details { font-size: 0.85rem; }
-	.source-details summary { cursor: pointer; color: var(--color-accent); font-weight: 500; }
-	.source-details ul { margin-top: 0.5rem; padding-left: 1.5rem; }
-	.source-details li { margin-bottom: 0.25rem; }
 	.mono { font-family: monospace; font-weight: 600; }
 	.muted { color: var(--color-text-secondary); font-size: 0.85rem; }
+
+	/* Source occupations - preview on summary tab */
+	.source-preview { display: flex; flex-direction: column; margin-top: 0.5rem; }
+	.source-row {
+		display: flex; gap: 0.75rem; padding: 0.4rem 0; border-bottom: 1px solid var(--color-border);
+		color: var(--color-text); font-size: 0.9rem; align-items: center;
+	}
+	.source-row:last-child { border-bottom: none; }
+	.source-row:hover { color: var(--color-accent); text-decoration: none; }
+	.source-row .mono { color: var(--color-accent); flex: 0 0 auto; }
+	.source-row .source-title { flex: 1; }
+
+	/* Source occupations - full section */
+	.source-intro { margin-bottom: 0.75rem; }
+	.source-list { display: flex; flex-direction: column; gap: 0.5rem; }
+	.source-card {
+		display: block; padding: 0.75rem; border: 1px solid var(--color-border);
+		border-radius: var(--radius); color: var(--color-text); transition: all 0.15s;
+	}
+	.source-card:hover { border-color: var(--color-accent); background: #ebf4ff; text-decoration: none; }
+	.source-card-top { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.4rem; }
+	.source-code { color: var(--color-accent); flex: 0 0 auto; }
+	.source-card .source-title { flex: 1; font-size: 0.9rem; }
+	.source-weight { flex: 0 0 auto; font-size: 0.85rem; font-weight: 600; color: var(--color-text-secondary); }
+	.source-bar-track { height: 6px; background: var(--color-border); border-radius: 3px; overflow: hidden; }
+	.source-bar-fill { height: 100%; background: var(--color-accent); border-radius: 3px; transition: width 0.3s; }
 
 	.task-list { padding-left: 1.25rem; }
 	.task-list li { margin-bottom: 0.5rem; font-size: 0.9rem; line-height: 1.5; }
