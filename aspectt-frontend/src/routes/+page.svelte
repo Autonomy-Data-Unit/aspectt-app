@@ -157,6 +157,7 @@
 	}
 
 	h1 {
+		font-family: var(--font);
 		font-size: 2.75rem;
 		letter-spacing: 0.16em;
 		font-weight: 700;
