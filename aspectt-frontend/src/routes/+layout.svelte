@@ -129,11 +129,11 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		height: 56px;
+		height: 68px;
 	}
 
 	.logo {
-		font-size: 1.1rem;
+		font-size: 1.35rem;
 		font-weight: 700;
 		color: white;
 		letter-spacing: 0.14em;
@@ -146,12 +146,12 @@
 	}
 
 	.logo-sub {
-		font-size: 0.55rem;
+		font-size: 0.65rem;
 		font-weight: 400;
 		letter-spacing: 0.02em;
 		opacity: 0.7;
 		display: block;
-		margin-top: -0.15rem;
+		margin-top: -0.1rem;
 	}
 
 	nav {
