@@ -28,6 +28,44 @@
 
 	const RIASEC_NAMES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional'];
 
+	const EDU_CATEGORY_LABELS: Record<string, Record<number, string>> = {
+		RL: {
+			1: 'Less than High School', 2: 'High School Diploma', 3: 'Post-Secondary Certificate',
+			4: 'Some College', 5: "Associate's Degree", 6: "Bachelor's Degree",
+			7: 'Post-Baccalaureate Certificate', 8: "Master's Degree", 9: "Post-Master's Certificate",
+			10: 'First Professional Degree', 11: 'Doctoral Degree', 12: 'Post-Doctoral Training',
+		},
+		RW: {
+			1: 'None', 2: 'Up to 1 month', 3: '1–3 months', 4: '3–6 months',
+			5: '6 months – 1 year', 6: '1–2 years', 7: '2–4 years',
+			8: '4–6 years', 9: '6–8 years', 10: '8–10 years', 11: 'Over 10 years',
+		},
+		PT: {
+			1: 'None', 2: 'Up to 1 month', 3: '1–3 months', 4: '3–6 months',
+			5: '6 months – 1 year', 6: '1–2 years', 7: '2–4 years',
+			8: '4–6 years', 9: 'Over 6 years',
+		},
+		OJ: {
+			1: 'None', 2: 'Up to 1 month', 3: '1–3 months', 4: '3–6 months',
+			5: '6 months – 1 year', 6: '1–2 years', 7: '2–4 years',
+			8: '4–6 years', 9: 'Over 6 years',
+		},
+	};
+
+	function groupEducation(education: any[]): { name: string; scaleId: string; items: { label: string; value: number }[] }[] {
+		const groups = new Map<string, { name: string; scaleId: string; items: { label: string; value: number }[] }>();
+		for (const edu of education) {
+			const name = edu['Element Name'] ?? edu.Element_Name ?? '';
+			const scaleId = edu['Scale ID'] ?? edu.Scale_ID ?? '';
+			const cat = Math.round(edu.Category ?? 0);
+			const val = edu['Data Value'] ?? 0;
+			if (!groups.has(name)) groups.set(name, { name, scaleId, items: [] });
+			const labels = EDU_CATEGORY_LABELS[scaleId] ?? {};
+			groups.get(name)!.items.push({ label: labels[cat] ?? `Category ${cat}`, value: val });
+		}
+		return [...groups.values()];
+	}
+
 	$effect(() => {
 		const code = Number(page.params.code);
 		loading = true;
@@ -310,7 +348,7 @@
 						<h2>Work context ({occ.work_context?.length ?? 0})</h2>
 						{#if occ.work_context?.length}
 							{@const items = viewMode === 'summary' ? occ.work_context.slice(0, 10) : occ.work_context}
-							<RatedBars {items} />
+							<RatedBars {items} showLevel={false} />
 							{#if viewMode === 'summary' && occ.work_context.length > 10}
 								<button class="show-all-btn" onclick={() => viewMode = 'details'}>Show all {occ.work_context.length} context factors</button>
 							{/if}
@@ -321,7 +359,7 @@
 					<div class="card">
 						<h2>Work styles ({occ.work_styles?.length ?? 0})</h2>
 						{#if occ.work_styles?.length}
-							<RatedBars items={occ.work_styles} />
+							<RatedBars items={occ.work_styles} showLevel={false} />
 						{:else}<p class="muted">No work styles data available</p>{/if}
 					</div>
 
@@ -351,7 +389,7 @@
 					<div class="card">
 						<h2>Work values</h2>
 						{#if occ.work_values?.length}
-							{@const valueItems = occ.work_values.filter(v => !v.element_name.includes('High Point'))}
+							{@const valueItems = occ.work_values.filter(v => !v.element_name.includes('High-Point'))}
 							<div class="interest-bars">
 								{#each valueItems.sort((a, b) => ((b as any).value_EX ?? 0) - ((a as any).value_EX ?? 0)) as wv}
 									{@const val = (wv as any).value_EX ?? 0}
@@ -376,17 +414,21 @@
 							</div>
 						{/if}
 						{#if occ.education?.length}
-							<div class="edu-list">
-								{#each occ.education as edu}
-									<div class="edu-row">
-										<span class="edu-label">{edu.Element_Name} (Cat. {edu.Category})</span>
-										<div class="bar-track">
-											<div class="bar-fill importance" style="width: {Math.min(edu['Data Value'] * 10, 100)}%"></div>
+							{@const groups = groupEducation(occ.education)}
+							{#each groups as group}
+								<h3 class="edu-group-title">{group.name}</h3>
+								<div class="edu-list">
+									{#each group.items as item}
+										<div class="edu-row">
+											<span class="edu-label">{item.label}</span>
+											<div class="bar-track">
+												<div class="bar-fill importance" style="width: {Math.min(item.value, 100)}%"></div>
+											</div>
+											<span class="bar-value">{item.value.toFixed(1)}%</span>
 										</div>
-										<span class="bar-value">{edu['Data Value'].toFixed(1)}%</span>
-									</div>
-								{/each}
-							</div>
+									{/each}
+								</div>
+							{/each}
 						{:else}<p class="muted">No education data available</p>{/if}
 					</div>
 
@@ -558,6 +600,8 @@
 	.interest-val { flex: 0 0 35px; font-size: 0.85rem; color: var(--color-text-secondary); text-align: right; }
 	.riasec-label { margin-top: 0.75rem; font-size: 0.9rem; }
 
+	.edu-group-title { font-size: 0.95rem; color: var(--color-primary); margin: 1rem 0 0.25rem; font-weight: 600; }
+	.edu-group-title:first-of-type { margin-top: 0; }
 	.edu-list { display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.5rem; }
 	.edu-row { display: flex; align-items: center; gap: 0.75rem; }
 	.edu-label { flex: 0 0 220px; font-size: 0.85rem; text-align: right; color: var(--color-text-secondary); }

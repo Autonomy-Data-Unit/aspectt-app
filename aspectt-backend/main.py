@@ -97,7 +97,16 @@ def _load_occupation_file(soc_code: int) -> dict:
         return {}
     with open(path) as f:
         data = json.loads(f.read().replace(': NaN', ': null'))
-    return _clean_nans(data)
+    data = _clean_nans(data)
+    # Normalize value fields so the frontend RatedBars component can display them uniformly.
+    # Work context uses value_CX, work styles use value_DR — map both to value_IM.
+    for item in data.get("work_context", []):
+        if "value_IM" not in item and "value_CX" in item:
+            item["value_IM"] = item["value_CX"]
+    for item in data.get("work_styles", []):
+        if "value_IM" not in item:
+            item["value_IM"] = item.get("value_DR") or item.get("value_WI") or 0
+    return data
 
 
 def load_occupation_index() -> list[dict]:

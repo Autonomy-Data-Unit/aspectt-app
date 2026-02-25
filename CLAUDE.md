@@ -54,3 +54,14 @@ The app is deployed via **AppGarden** using a Dockerfile. Config is in `appgarde
 - **Method:** Dockerfile (builds backend + frontend into a single container on port 8000)
 
 After making frontend or backend changes, rebuild the frontend (`cd aspectt-frontend && npm run build`) then deploy.
+
+## Retrieving GitHub Issue Images
+
+GitHub issue images (user-attachments URLs) require authentication. To download and view them:
+
+```bash
+# Download image via authenticated gh API
+gh api -H "Accept: application/octet-stream" "https://github.com/user-attachments/assets/<asset-id>" > /tmp/image.png
+
+# Then use the Read tool to view the image
+```

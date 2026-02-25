@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
+	import { untrack } from 'svelte';
 	import { searchOccupations, type Occupation } from '$lib/api/client';
 
 	let query = $state(page.url.searchParams.get('q') || '');
@@ -14,7 +15,7 @@
 		const q = page.url.searchParams.get('q');
 		if (q) {
 			query = q;
-			doSearch();
+			untrack(() => doSearch());
 		}
 	});
 
