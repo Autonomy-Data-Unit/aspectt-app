@@ -1,0 +1,13 @@
+[project]
+name = "aspectt-backend"
+version = "0.1.0"
+description = "FastAPI backend for ASPECTT - UK O*NET equivalent"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.104",
+    "uvicorn[standard]>=0.24",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
