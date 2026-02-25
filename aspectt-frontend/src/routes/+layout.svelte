@@ -148,7 +148,7 @@
 	}
 
 	.logo:hover .logo-mark {
-		background: var(--color-accent-bright);
+		background: var(--color-accent-light);
 	}
 
 	.logo-mark {
@@ -157,8 +157,8 @@
 		justify-content: center;
 		width: 38px;
 		height: 38px;
-		background: rgba(255, 255, 255, 0.12);
-		border: 1.5px solid rgba(255, 255, 255, 0.2);
+		background: var(--color-accent-bright);
+		border: none;
 		border-radius: 9px;
 		font-size: 1.2rem;
 		font-weight: 800;
