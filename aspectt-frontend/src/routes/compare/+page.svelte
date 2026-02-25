@@ -238,7 +238,7 @@
 	}
 	.header-cell { text-align: center; }
 	.header-cell h3 { font-size: 0.95rem; color: var(--color-primary); margin: 0.25rem 0; }
-	.comp-code { font-family: monospace; font-weight: 700; font-size: 1.1rem; }
+	.comp-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 700; font-size: 1.1rem; }
 	.jz-badge { font-size: 0.7rem; padding: 0.15rem 0.5rem; background: var(--color-bg); border-radius: 12px; display: inline-block; margin-top: 0.25rem; }
 	.desc-text { font-size: 0.8rem; color: var(--color-text-secondary); line-height: 1.4; }
 

@@ -496,7 +496,7 @@
 	.job-zone { margin-bottom: 1rem; padding: 0.5rem 0.75rem; background: var(--color-bg); border-radius: var(--radius); font-size: 0.9rem; }
 	.alt-titles { margin-bottom: 1rem; font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.8; }
 
-	.mono { font-family: monospace; font-weight: 600; }
+	.mono { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; font-size: 0.8125rem; }
 	.muted { color: var(--color-text-secondary); font-size: 0.85rem; }
 
 	/* Source occupations - preview on summary tab */
@@ -566,7 +566,7 @@
 	.related-item { display: flex; gap: 0.75rem; padding: 0.5rem 0; border-bottom: 1px solid var(--color-border); color: var(--color-text); }
 	.related-item:last-child { border-bottom: none; }
 	.related-item:hover { color: var(--color-accent); text-decoration: none; }
-	.related-code { font-family: monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; }
+	.related-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; font-size: 0.8125rem; }
 
 	.error { color: #e53e3e; text-align: center; padding: 1rem; }
 
