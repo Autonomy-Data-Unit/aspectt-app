@@ -113,6 +113,10 @@
 		</div>
 		<div class="footer-bottom">
 			<p>&copy; {new Date().getFullYear()} The Autonomy Institute</p>
+			<p class="footer-license">
+				This work is licensed under a
+				<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+			</p>
 		</div>
 	</div>
 </footer>
@@ -355,6 +359,14 @@
 		text-align: center;
 		font-size: 0.75rem;
 		opacity: 0.5;
+	}
+
+	.footer-license {
+		margin-top: 0.375rem;
+	}
+
+	.footer-license a {
+		text-decoration: underline;
 	}
 
 	@media (max-width: 768px) {
