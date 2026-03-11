@@ -271,6 +271,8 @@ def build_uk_dataset(
     data_dir: Path = DATA_DIR,
     onet_dir: Path = ONET_DIR,
     output_dir: Path | None = None,
+    refine: bool = True,
+    refine_model: str = "gpt-4o-mini",
 ) -> dict:
     """
     Build the full UK O*NET-equivalent dataset.
@@ -420,6 +422,12 @@ def build_uk_dataset(
         ].to_dict('records')
 
         dataset['occupations'].append(occ_data)
+
+    # Optional LLM refinement of tasks and technology skills
+    if refine:
+        from .refine import refine_dataset
+        print("Refining tasks and technology skills with LLM...")
+        dataset['occupations'] = refine_dataset(dataset['occupations'], model=refine_model)
 
     # Save full dataset
     print(f"Saving dataset to {output_dir}...")

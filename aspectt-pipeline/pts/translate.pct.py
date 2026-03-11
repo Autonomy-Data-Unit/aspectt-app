@@ -12,6 +12,8 @@
 
 
 
+
+
 # %% [markdown]
 # # Translate O*NET Data to UK Context
 #
@@ -19,8 +21,6 @@
 # equivalents using the crosswalk. Each UK SOC code is a "superposition"
 # of its contributing US O*NET codes - numeric values are averaged (weighted),
 # and categorical/text data is combined.
-#
-#
 # 
 
 # %%
@@ -41,11 +41,15 @@ from aspectt_pipeline.crosswalk import (
 
 
 
+
+
 # %%
 #|export
 def load_onet_table(filename: str, onet_dir: Path = ONET_DIR) -> pd.DataFrame:
     """Load an O*NET data table (tab-separated text file)."""
     return pd.read_csv(onet_dir / filename, sep='\t')
+
+
 
 
 
@@ -100,6 +104,8 @@ def translate_rated_data(
 
 
 
+
+
 # %%
 #|export
 def translate_task_statements(
@@ -143,6 +149,8 @@ def translate_task_statements(
 
 
 
+
+
 # %%
 #|export
 def translate_technology_skills(
@@ -173,6 +181,8 @@ def translate_technology_skills(
 
 
 
+
+
 # %%
 #|export
 def translate_interests(
@@ -190,6 +200,8 @@ def translate_interests(
 
 
 
+
+
 # %%
 #|export
 def translate_work_values(
@@ -202,6 +214,8 @@ def translate_work_values(
         value_col='Data Value',
         group_cols=['Element ID', 'Element Name', 'Scale ID'],
     )
+
+
 
 
 
@@ -239,6 +253,8 @@ def translate_education(
 
 
 
+
+
 # %%
 #|export
 def translate_job_zones(
@@ -268,6 +284,8 @@ def translate_job_zones(
 
 
 
+
+
 # %%
 #|export
 def translate_alternate_titles(
@@ -290,6 +308,8 @@ def translate_alternate_titles(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
+
 
 
 
@@ -341,12 +361,16 @@ def translate_related_occupations(
 
 
 
+
+
 # %%
 #|export
 def build_uk_dataset(
     data_dir: Path = DATA_DIR,
     onet_dir: Path = ONET_DIR,
     output_dir: Path | None = None,
+    refine: bool = True,
+    refine_model: str = "gpt-4o-mini",
 ) -> dict:
     """
     Build the full UK O*NET-equivalent dataset.
@@ -497,6 +521,12 @@ def build_uk_dataset(
 
         dataset['occupations'].append(occ_data)
 
+    # Optional LLM refinement of tasks and technology skills
+    if refine:
+        from aspectt_pipeline.refine import refine_dataset
+        print("Refining tasks and technology skills with LLM...")
+        dataset['occupations'] = refine_dataset(dataset['occupations'], model=refine_model)
+
     # Save full dataset
     print(f"Saving dataset to {output_dir}...")
 
@@ -522,6 +552,8 @@ def build_uk_dataset(
 
     print(f"Done! {len(dataset['occupations'])} occupations saved.")
     return dataset
+
+
 
 
 
@@ -568,6 +600,8 @@ def _json_default(obj):
 
 
 
+
+
 # %%
 #|export
 def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataFrame) -> str:
@@ -595,6 +629,8 @@ def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataF
         return " ".join(unique_descs)
     else:
         return " ".join(unique_descs[:3]) + f" (Based on {len(unique_descs)} related US occupations.)"
+
+
 
 
 
