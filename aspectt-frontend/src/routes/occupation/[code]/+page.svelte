@@ -84,15 +84,13 @@
 			.catch((e) => { error = e.message; loading = false; });
 	});
 
-	// Keep URL hash in sync when user switches tabs
-	$effect(() => {
-		if (typeof window === 'undefined') return;
-		const hash = activeSection === 'summary' ? '' : `#${activeSection}`;
-		const url = new URL(window.location.href);
-		if (url.hash !== hash) {
-			history.replaceState(null, '', `${url.pathname}${hash}`);
+	function setSection(id: string) {
+		activeSection = id;
+		if (typeof window !== 'undefined') {
+			const hash = id === 'summary' ? '' : `#${id}`;
+			history.replaceState(null, '', `${window.location.pathname}${hash}`);
 		}
-	});
+	}
 
 	function jobZoneLabel(jz: number): string {
 		const labels: Record<number, string> = {
@@ -150,7 +148,7 @@
 					{#if getRiasecCode()}
 						<span class="header-tag riasec">{getRiasecCode()}</span>
 					{/if}
-					<button class="header-tag source" onclick={() => activeSection = 'sources'}>{occ.source_occupations?.length ?? 0} source occupations</button>
+					<button class="header-tag source" onclick={() => setSection('sources')}>{occ.source_occupations?.length ?? 0} source occupations</button>
 				</div>
 			</div>
 		</div>
@@ -164,7 +162,7 @@
 			<nav class="sidebar">
 				{#each sections as sec}
 					<button class="nav-item" class:active={activeSection === sec.id}
-						onclick={() => (activeSection = sec.id)}>
+						onclick={() => setSection(sec.id)}>
 						{sec.label}
 					</button>
 				{/each}
@@ -197,7 +195,7 @@
 						<div class="card">
 							<div class="card-header">
 								<h2>Top skills</h2>
-								<button class="show-more-btn" onclick={() => activeSection = 'skills'}>View all &rarr;</button>
+								<button class="show-more-btn" onclick={() => setSection('skills')}>View all &rarr;</button>
 							</div>
 							<RatedBars items={sortedByImportance(occ.skills, 5)} />
 						</div>
@@ -207,7 +205,7 @@
 						<div class="card">
 							<div class="card-header">
 								<h2>Top knowledge</h2>
-								<button class="show-more-btn" onclick={() => activeSection = 'knowledge'}>View all &rarr;</button>
+								<button class="show-more-btn" onclick={() => setSection('knowledge')}>View all &rarr;</button>
 							</div>
 							<RatedBars items={sortedByImportance(occ.knowledge, 5)} />
 						</div>
@@ -217,7 +215,7 @@
 						<div class="card">
 							<div class="card-header">
 								<h2>Core tasks</h2>
-								<button class="show-more-btn" onclick={() => activeSection = 'tasks'}>View all &rarr;</button>
+								<button class="show-more-btn" onclick={() => setSection('tasks')}>View all &rarr;</button>
 							</div>
 							<ul class="task-list">
 								{#each occ.tasks.filter(t => t.task_type === 'Core').slice(0, 5) as task}
@@ -231,7 +229,7 @@
 						<div class="card">
 							<div class="card-header">
 								<h2>Top technology</h2>
-								<button class="show-more-btn" onclick={() => activeSection = 'technology'}>View all &rarr;</button>
+								<button class="show-more-btn" onclick={() => setSection('technology')}>View all &rarr;</button>
 							</div>
 							<div class="tech-grid">
 								{#each occ.technology_skills.slice(0, 12) as tech}
@@ -245,7 +243,7 @@
 						<div class="card">
 							<div class="card-header">
 								<h2>Source occupations</h2>
-								<button class="show-more-btn" onclick={() => activeSection = 'sources'}>View all &rarr;</button>
+								<button class="show-more-btn" onclick={() => setSection('sources')}>View all &rarr;</button>
 							</div>
 							<p class="muted">Based on {occ.source_occupations.length} US O*NET occupations</p>
 							<div class="source-preview">
@@ -256,7 +254,7 @@
 									</a>
 								{/each}
 								{#if occ.source_occupations.length > 3}
-									<button class="show-all-btn" onclick={() => activeSection = 'sources'}>
+									<button class="show-all-btn" onclick={() => setSection('sources')}>
 										Show all {occ.source_occupations.length} sources
 									</button>
 								{/if}
