@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>ASPECTT - UK Occupation Information</title>
+	<title>ASPECTT - The UK's multidimensional occupations database</title>
 </svelte:head>
 
 <!-- svelte-ignore a11y_click_events_have_key_events -->
@@ -93,7 +93,7 @@
 		<div class="footer-content">
 			<div class="footer-brand">
 				<span class="footer-logo">ASPECTT</span>
-				<p>UK occupational information, classified under SOC 2020.</p>
+				<p>The UK's multidimensional occupations database.</p>
 				<p class="footer-data">Data derived from US O*NET v30.2 via an ISCO-08 crosswalk. 412 occupations across 9 major groups.</p>
 			</div>
 			<div class="footer-nav">

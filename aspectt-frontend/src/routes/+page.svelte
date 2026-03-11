@@ -39,7 +39,7 @@
 <div class="hero">
 	<div class="container">
 		<h1>ASPECTT</h1>
-		<p class="tagline">UK occupational information system</p>
+		<p class="tagline">The UK's multidimensional occupations database</p>
 		<p class="desc">
 			Skills, tasks, abilities, knowledge and technology data for {stats?.total_occupations ?? '...'} UK occupations, classified under SOC 2020.
 		</p>
