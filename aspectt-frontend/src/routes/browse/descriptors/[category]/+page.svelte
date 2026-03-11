@@ -25,7 +25,7 @@
 		knowledge: 'Organised sets of principles and facts applying in general domains.',
 		work_activities: 'General types of job behaviours occurring on multiple jobs.',
 		work_context: 'Physical and social factors that influence the nature of work.',
-		work_styles: 'Personal characteristics that can affect how well someone performs a job.',
+		work_styles: 'Personal characteristics that can affect how well someone performs a job. Data on preferred work styles are sourced from interviews with US workers and do not reflect UK workers\' perspectives, although there may of course be overlap.',
 	};
 
 	$effect(() => {
