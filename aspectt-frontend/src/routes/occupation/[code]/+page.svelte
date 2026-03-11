@@ -66,14 +66,32 @@
 		return [...groups.values()];
 	}
 
+	const sectionIds = sections.map(s => s.id);
+
+	function sectionFromHash(): string {
+		if (typeof window === 'undefined') return 'summary';
+		const hash = window.location.hash.replace('#', '');
+		return sectionIds.includes(hash) ? hash : 'summary';
+	}
+
 	$effect(() => {
 		const code = Number(page.params.code);
 		loading = true;
 		error = '';
-		activeSection = 'summary';
+		activeSection = sectionFromHash();
 		getOccupation(code)
 			.then((data) => { occ = data; loading = false; })
 			.catch((e) => { error = e.message; loading = false; });
+	});
+
+	// Keep URL hash in sync when user switches tabs
+	$effect(() => {
+		if (typeof window === 'undefined') return;
+		const hash = activeSection === 'summary' ? '' : `#${activeSection}`;
+		const url = new URL(window.location.href);
+		if (url.hash !== hash) {
+			history.replaceState(null, '', `${url.pathname}${hash}`);
+		}
 	});
 
 	function jobZoneLabel(jz: number): string {
