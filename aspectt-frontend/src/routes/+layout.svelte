@@ -26,7 +26,7 @@
 <header>
 	<div class="container header-inner">
 		<a href="/" class="logo" onclick={closeMenus}>
-			<span class="logo-mark">A</span>
+			<img src="/autonomy-logo.png" alt="Autonomy" class="logo-mark" />
 			<span class="logo-text">
 				ASPECTT
 				<span class="logo-sub">by the Autonomy Institute</span>
@@ -148,23 +148,15 @@
 	}
 
 	.logo:hover .logo-mark {
-		background: var(--color-accent-light);
+		opacity: 0.8;
 	}
 
 	.logo-mark {
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		width: 38px;
 		height: 38px;
-		background: var(--color-accent-bright);
-		border: none;
-		border-radius: 9px;
-		font-size: 1.2rem;
-		font-weight: 800;
-		letter-spacing: 0;
-		color: white;
-		transition: background 0.2s;
+		object-fit: contain;
+		filter: brightness(0) invert(1);
+		transition: opacity 0.2s;
 	}
 
 	.logo-text {
