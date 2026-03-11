@@ -1545,113 +1545,83 @@
   "tasks": [
     {
       "task": "Advise clients concerning business transactions, claim liability, advisability of prosecuting or defending lawsuits, or legal rights and obligations.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Interpret laws, rulings and regulations for individuals and businesses.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Prepare, draft, and review legal documents, such as wills, deeds, patent applications, mortgages, leases, and contracts.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Help develop federal and state programs, draft and interpret laws and legislation, and establish enforcement procedures.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Probate wills and represent and advise executors and administrators of estates.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Act as agent, trustee, guardian, or executor for businesses or individuals.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Perform administrative and management functions related to the practice of law.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Supervise legal assistants.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Search for and examine public and other legal records to write opinions or establish ownership.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Confer with colleagues with specialties in appropriate areas of legal issue to establish and verify bases for legal proceedings.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Negotiate settlements of civil disputes.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Prepare legal briefs and opinions, and file appeals in state and federal courts of appeal.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Study Constitution, statutes, decisions, regulations, and ordinances of quasi-judicial bodies to determine ramifications for cases.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Present evidence to defend clients or prosecute defendants in criminal or civil litigation.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Select jurors, argue motions, meet with judges, and question witnesses during the course of a trial.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Examine legal data to determine advisability of defending or prosecuting lawsuit.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
-      "task": "Represent clients in court or before government agencies.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task": "Represent clients in court or before government agencies, present evidence to defend clients or prosecute defendants in criminal or civil litigation, select jurors, argue motions, meet with judges, and question witnesses during the course of a trial.",
+      "task_type": "Core"
     },
     {
-      "task": "Gather evidence to formulate defense or to initiate legal actions by such means as interviewing clients and witnesses to ascertain the facts of a case.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task": "Gather evidence to formulate defense or to initiate legal actions by interviewing clients and witnesses to ascertain the facts of a case.",
+      "task_type": "Core"
     },
     {
       "task": "Evaluate findings and develop strategies and arguments in preparation for presentation of cases.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Present and summarize cases to judges and juries.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Analyze the probable outcomes of cases, using knowledge of legal precedents.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Core"
     },
     {
       "task": "Negotiate contractual agreements.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Core"
+    },
+    {
+      "task": "Help develop federal and state programs, draft and interpret laws and legislation, and establish enforcement procedures.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Probate wills and represent and advise executors and administrators of estates.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Act as agent, trustee, guardian, or executor for businesses or individuals.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Prepare legal briefs and opinions, and file appeals in state and federal courts of appeal.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Present and summarize cases to judges and juries.",
+      "task_type": "Supplemental"
     }
   ],
   "technology_skills": [
@@ -1853,10 +1823,6 @@
     },
     {
       "name": "Genlex CaseAce",
-      "weight": 0.25
-    },
-    {
-      "name": "Google Analytics",
       "weight": 0.25
     },
     {
@@ -2163,6 +2129,160 @@
       "name": "inData TrialDirector",
       "weight": 0.25
     }
+  ],
+  "tools_used": [
+    {
+      "name": "Computer data input scanners",
+      "weight": 0.25
+    },
+    {
+      "name": "Desktop computers",
+      "weight": 0.25
+    },
+    {
+      "name": "Digital photocopiers",
+      "weight": 0.25
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 0.25
+    },
+    {
+      "name": "Liquid crystal display LCD projectors",
+      "weight": 0.25
+    },
+    {
+      "name": "Optical character readers",
+      "weight": 0.25
+    },
+    {
+      "name": "Personal computers",
+      "weight": 0.25
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.25
+    },
+    {
+      "name": "Universal serial bus USB flash drives",
+      "weight": 0.25
+    }
+  ],
+  "detailed_work_activities": [
+    {
+      "dwa_id": "4.A.4.a.3.I01.D02",
+      "title": "Represent the interests of clients in legal proceedings.",
+      "element_id": "4.A.4.a.3",
+      "weight": 1.5
+    },
+    {
+      "dwa_id": "4.A.2.a.4.I08.D01",
+      "title": "Identify implications for cases from legal precedents or other legal information.",
+      "element_id": "4.A.2.a.4",
+      "weight": 1.0
+    },
+    {
+      "dwa_id": "4.A.4.b.6.I08.D01",
+      "title": "Provide legal advice to clients.",
+      "element_id": "4.A.4.b.6",
+      "weight": 0.75
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I05.D02",
+      "title": "Research relevant legal materials to aid decision making.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I23.D07",
+      "title": "Interview claimants to get information related to legal proceedings.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I14.D09",
+      "title": "Prepare legal documents.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I12.D01",
+      "title": "Meet with individuals involved in legal processes to provide information and clarify issues.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I05.D01",
+      "title": "Evaluate information related to legal matters in public or personal records.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.2.b.4.I02.D01",
+      "title": "Draft legislation or regulations.",
+      "element_id": "4.A.2.b.4",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I02.D02",
+      "title": "Prepare documentation of legal proceedings.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.7.I01.D02",
+      "title": "Arbitrate disputes between parties to resolve legal conflicts.",
+      "element_id": "4.A.4.a.7",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.7.I02.D05",
+      "title": "Negotiate purchases or contracts.",
+      "element_id": "4.A.4.a.7",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.7.I02.D10",
+      "title": "Negotiate contracts with clients or service providers.",
+      "element_id": "4.A.4.a.7",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I01.D09",
+      "title": "Supervise activities of other legal personnel.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I12.D12",
+      "title": "Manage operations, research, or logistics projects.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I12.D39",
+      "title": "Direct organizational operations, projects, or services.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I01.D10",
+      "title": "Perform administrative or clerical tasks.",
+      "element_id": "4.A.4.c.1",
+      "weight": 0.25
+    }
+  ],
+  "reported_job_titles": [
+    "Attorney",
+    "Attorney General",
+    "Attorney at Law",
+    "Counsel",
+    "County Attorney",
+    "District Attorney",
+    "General Counsel",
+    "Lawyer",
+    "Prosecuting Attorney",
+    "Prosecutor"
   ],
   "education": [
     {

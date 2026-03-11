@@ -1544,140 +1544,295 @@
   ],
   "tasks": [
     {
-      "task": "Service, clean, or supply restrooms.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Clean and polish furniture and fixtures.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Mow or trim lawns or shrubbery, using mowers or hand or power trimmers, and clear debris from grounds.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
-    },
-    {
-      "task": "Monitor building security and safety by performing tasks such as locking doors after operating hours or checking electrical appliance use to ensure that hazards are not created.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Clean chimneys, flues, and connecting pipes, using power or hand tools.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
-    },
-    {
-      "task": "Make adjustments or minor repairs to heating, cooling, ventilating, plumbing, or electrical systems.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
-    },
-    {
-      "task": "Spray insecticides or fumigants to prevent insect or rodent infestation.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
-    },
-    {
-      "task": "Remove snow from sidewalks, driveways, or parking areas, using snowplows, snow blowers, or snow shovels, or spread snow-melting chemicals.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
+      "task": "Service, clean, or supply restrooms, clean and polish furniture and fixtures, dust furniture, walls, machines, or equipment, clean windows, glass partitions, or mirrors using soapy water or other cleaners, sponges, or squeegees, gather and empty trash, and clean building floors by sweeping, mopping, scrubbing, or vacuuming.",
+      "task_type": "Core"
     },
     {
       "task": "Move heavy furniture, equipment, or supplies, either manually or with hand trucks.",
-      "task_type": "Core",
-      "relevance": 0.1
+      "task_type": "Core"
     },
     {
-      "task": "Dust furniture, walls, machines, or equipment.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Set up, arrange, or remove decorations, tables, chairs, ladders, or scaffolding to prepare facilities for events, such as banquets or meetings.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
-    },
-    {
-      "task": "Gather and empty trash.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Steam-clean or shampoo carpets.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
-    },
-    {
-      "task": "Clean windows, glass partitions, or mirrors, using soapy water or other cleaners, sponges, or squeegees.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Requisition supplies or equipment needed for cleaning and maintenance duties.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Notify managers concerning the need for major repairs or additions to building operating systems.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Strip, seal, finish, and polish floors.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
-    },
-    {
-      "task": "Mix water and detergents or acids in containers to prepare cleaning solutions, according to specifications.",
-      "task_type": "Core",
-      "relevance": 0.1
+      "task": "Requisition supplies or equipment needed for cleaning and maintenance duties, notify managers concerning the need for major repairs or additions to building operating systems, and mix water and detergents or acids in containers to prepare cleaning solutions, according to specifications.",
+      "task_type": "Core"
     },
     {
       "task": "Follow procedures for the use of chemical cleaners and power equipment to prevent damage to floors and fixtures.",
-      "task_type": "Core",
-      "relevance": 0.1
+      "task_type": "Core"
     },
     {
-      "task": "Clean building floors by sweeping, mopping, scrubbing, or vacuuming.",
-      "task_type": "Core",
-      "relevance": 0.1
+      "task": "Remove snow from sidewalks, driveways, or parking areas, using snowplows, snow blowers, or snow shovels, or spread snow-melting chemicals.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Clean chimneys, flues, and connecting pipes, using power or hand tools, and steam-clean or shampoo carpets.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Make adjustments or minor repairs to heating, cooling, ventilating, plumbing, or electrical systems, and spray insecticides or fumigants to prevent insect or rodent infestation.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Monitor building security and safety by performing tasks such as locking doors after operating hours or checking electrical appliance use to ensure that hazards are not created.",
+      "task_type": "Core"
     },
     {
       "task": "Drive vans, industrial trucks, or other vehicles required to travel to, or to perform, cleaning work.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Set up, arrange, or remove decorations, tables, chairs, ladders, or scaffolding to prepare facilities for events, such as banquets or meetings.",
+      "task_type": "Supplemental"
     }
   ],
   "technology_skills": [
     {
-      "name": "Eko",
-      "weight": 0.1
-    },
-    {
-      "name": "Microsoft Excel",
-      "weight": 0.1
-    },
-    {
       "name": "Microsoft Office software",
-      "weight": 0.1
-    },
-    {
-      "name": "Microsoft Outlook",
-      "weight": 0.1
-    },
-    {
-      "name": "Microsoft Word",
-      "weight": 0.1
-    },
-    {
-      "name": "Operating system software",
       "weight": 0.1
     },
     {
       "name": "Squeegee",
       "weight": 0.1
     }
+  ],
+  "tools_used": [
+    {
+      "name": "Adjustable hand wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.1
+    },
+    {
+      "name": "Aerial manlifts",
+      "weight": 0.1
+    },
+    {
+      "name": "Carpet shampooers",
+      "weight": 0.1
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.1
+    },
+    {
+      "name": "Dry mops",
+      "weight": 0.1
+    },
+    {
+      "name": "Equipment dollies",
+      "weight": 0.1
+    },
+    {
+      "name": "Extension ladders",
+      "weight": 0.1
+    },
+    {
+      "name": "Floor buffers",
+      "weight": 0.1
+    },
+    {
+      "name": "Floor strippers",
+      "weight": 0.1
+    },
+    {
+      "name": "Floor waxers",
+      "weight": 0.1
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.1
+    },
+    {
+      "name": "Industrial vacuums",
+      "weight": 0.1
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.1
+    },
+    {
+      "name": "Portable scaffolding",
+      "weight": 0.1
+    },
+    {
+      "name": "Power floor scrubbers",
+      "weight": 0.1
+    },
+    {
+      "name": "Protective ear plugs",
+      "weight": 0.1
+    },
+    {
+      "name": "Push brooms",
+      "weight": 0.1
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Ride-on industrial vacuum cleaners",
+      "weight": 0.1
+    },
+    {
+      "name": "Safety glasses",
+      "weight": 0.1
+    },
+    {
+      "name": "Safety gloves",
+      "weight": 0.1
+    },
+    {
+      "name": "Scissor lifts",
+      "weight": 0.1
+    },
+    {
+      "name": "Snow shovels",
+      "weight": 0.1
+    },
+    {
+      "name": "Steam cleaning equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Step ladders",
+      "weight": 0.1
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.1
+    },
+    {
+      "name": "Wet mops",
+      "weight": 0.1
+    },
+    {
+      "name": "Window squeegees",
+      "weight": 0.1
+    }
+  ],
+  "detailed_work_activities": [
+    {
+      "dwa_id": "4.A.3.a.1.I03.D11",
+      "title": "Clean building walls or flooring.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.4
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I03.D03",
+      "title": "Clean furniture or fixtures.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.30000000000000004
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I01.D05",
+      "title": "Prepare chemicals for work application.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.2
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I03.D12",
+      "title": "Clean facilities or sites.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.2
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I10.D08",
+      "title": "Move furniture.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.2
+    },
+    {
+      "dwa_id": "4.A.3.a.4.I01.D12",
+      "title": "Drive trucks or other vehicles to or at work sites.",
+      "element_id": "4.A.3.a.4",
+      "weight": 0.2
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I07.D03",
+      "title": "Monitor building premises to ensure occupant or visitor safety.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.2.b.1.I10.D04",
+      "title": "Select equipment, materials, or supplies for cleaning or maintenance activities.",
+      "element_id": "4.A.2.b.1",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I03.D04",
+      "title": "Clean equipment or supplies.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I03.D24",
+      "title": "Remove snow.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I05.D03",
+      "title": "Remove debris from work sites.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I05.D07",
+      "title": "Dispose of trash or waste materials.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I08.D04",
+      "title": "Decorate indoor or outdoor spaces.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I14.D02",
+      "title": "Trim trees or other vegetation.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I33.D01",
+      "title": "Treat facilities to eliminate pests.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.3.a.3.I11.D03",
+      "title": "Operate grounds maintenance equipment.",
+      "element_id": "4.A.3.a.3",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.3.b.4.I02.D03",
+      "title": "Maintain equipment or systems to ensure proper functioning.",
+      "element_id": "4.A.3.b.4",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I03.D03",
+      "title": "Confer with coworkers to coordinate maintenance or cleaning activities.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.1
+    }
+  ],
+  "reported_job_titles": [
+    "Building Custodian",
+    "Building Services Technician (Building Services Tech)",
+    "Building Services Worker",
+    "Cleaner",
+    "Custodial Worker",
+    "Custodian",
+    "Facilities Worker",
+    "Heavy Duty Custodian",
+    "Janitor",
+    "School Custodian"
   ],
   "education": [
     {

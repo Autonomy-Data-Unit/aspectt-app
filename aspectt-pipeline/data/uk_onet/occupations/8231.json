@@ -1544,984 +1544,116 @@
   ],
   "tasks": [
     {
-      "task": "Inspect vehicles and check gas, oil, and water levels prior to departure.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Inspect vehicles, including checking gas, oil, water levels, tire condition, and safety equipment, prior to departure. Inspect locomotives after runs to detect damaged or defective equipment and ensure adequate supplies such as fuel, sand, and water. Conduct brake examination tests and report any malfunctions, delays, accidents, or traffic situations using radios.",
+      "task_type": "Core"
     },
     {
-      "task": "Check to ensure that brake examination tests are conducted at shunting stations.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Report delays, accidents, or other traffic and transportation situations, and prepare reports regarding problems encountered, such as signaling issues or delays.",
+      "task_type": "Core"
     },
     {
-      "task": "Report delays, accidents, or other traffic and transportation situations, using telephones or mobile two-way radios.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Operate locomotives to transport freight or passengers between stations and for assembly or disassembly of trains within rail yards, following railway rules and signals. Drive rail-guided public transportation, such as trams, to transport passengers.",
+      "task_type": "Core"
     },
     {
-      "task": "Report delinquent student behaviors to school administration.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Monitor and check loading procedures to ensure materials are loaded or unloaded without damage; stop gathering arms when cars are full and observe and respond to hand signals from other crew members.",
+      "task_type": "Core"
     },
     {
-      "task": "Monitor train loading procedures to ensure that freight or rolling stock are loaded or unloaded without damage.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
+      "task": "Signal crew members for movement of engines or trains, using various communication methods like hand signals or radios, and provide assistance in aligning drawbars and coupling and uncoupling cars using specialized equipment.",
+      "task_type": "Core"
     },
     {
-      "task": "Inspect locomotives after runs to detect damaged or defective equipment.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Inspect tracks, locomotives and equipment for defects and determine service needs, sending engines and cars for repairs as necessary. Monitor oil, temperature, and pressure gauges, and devices indicating obstructions.",
+      "task_type": "Core"
     },
     {
-      "task": "Check to ensure that documentation, such as procedure manuals or logbooks, are in the driver's cab and available for staff use.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Confer with conductors or traffic control center personnel via radios to issue or receive information concerning stops, delays, or oncoming trains, following safety regulations and emergency procedures as needed.",
+      "task_type": "Core"
     },
     {
-      "task": "Prepare reports regarding any problems encountered, such as accidents, signaling problems, unscheduled stops, or delays.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Maintain knowledge of first-aid procedures and respond to emergencies, including directing emergency evacuations and handling passenger disruptions safely.",
+      "task_type": "Core"
     },
     {
-      "task": "Inspect locomotives to verify adequate fuel, sand, water, or other supplies before each run or to check for mechanical problems.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Perform routine maintenance on the locomotives, including cleaning, fueling, lubricating, and making minor repairs to ensure safe operation.",
+      "task_type": "Core"
     },
     {
-      "task": "Call out train signals to assistants to verify meanings.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Provide passenger assistance, including helping those with disabilities enter and exit trains and answering questions about schedules and routes.",
+      "task_type": "Core"
     },
     {
-      "task": "Respond to emergency conditions or breakdowns, following applicable safety procedures and rules.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Regulate heating, lighting, and ventilation systems for student comfort.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Operate locomotives to transport freight or passengers between stations or to assemble or disassemble trains within rail yards.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Check for compliance with traffic regulations during vehicle operation, and ensure that passengers follow safety protocols during boarding and exits, as well as monitoring passenger comfort conditions.",
+      "task_type": "Core"
     },
     {
       "task": "Check the condition of a vehicle's tires, brakes, windshield wipers, lights, oil, fuel, water, and safety equipment to ensure that everything is in working order.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Receive starting signals from conductors and use controls such as throttles or air brakes to drive electric, diesel-electric, steam, or gas turbine-electric locomotives.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Interpret train orders, signals, or railroad rules and regulations that govern the operation of locomotives.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Observe tracks to detect obstructions.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Monitor gauges or meters that measure speed, amperage, battery charge, or air pressure in brake lines or in main reservoirs.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Provide assistance in the installation or repair of rails and ties.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Operate flatcars equipped with derricks or railcars to transport personnel or equipment.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Report any bus malfunctions or needed repairs.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Drive vehicles over specified routes or to specified destinations according to time schedules, complying with traffic regulations to ensure that passengers have a smooth and safe ride.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Record numbers of cars available, numbers of cars sent to repair stations, and types of service needed.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Pick up and drop off students at regularly scheduled neighborhood locations, following strict time schedules.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Drive gasoline, diesel, or electrically powered multi-passenger vehicles to transport students between neighborhoods, schools, and school activities.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Escort small children across roads and highways.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Follow safety rules as students board and exit buses or cross streets near bus stops.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Park vehicles at loading areas so that passengers can board.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Keep bus interiors clean for students.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Maintain knowledge of first-aid procedures.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Maintain order among students during trips to ensure safety.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Make minor repairs to vehicles.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Prepare and submit reports that may include the number of students or trips, hours worked, mileage, or fuel consumption.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Assist passengers, such as elderly or individuals with disabilities, on and off bus, ensure they are seated properly, help carry baggage, and answer questions about bus schedules or routes.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Read maps and follow written and verbal geographic directions.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Read maps to plan bus routes.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Announce stops to passengers.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Record bus routes.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Maintain cleanliness of bus or motor coach.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Collect tickets or cash fares from passengers.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Record information, such as cash receipts and ticket fares, and maintain log book.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Handle passenger emergencies or disruptions.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Perform routine repair and maintenance duties.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Confer with conductors or traffic control center personnel via radiophones to issue or receive information concerning stops, delays, or oncoming trains.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Drive locomotives to and from various stations in roundhouses to have locomotives cleaned, serviced, repaired, or supplied.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Apply and release hand brakes.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Report delays or accidents.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Advise passengers to be seated and orderly while on vehicles.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Regulate heating, lighting, and ventilating systems for passenger comfort.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Load and unload baggage in baggage compartments.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Confer with conductors and other workers via radiotelephones or computers to exchange switching information.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Signal crew members for movement of engines or trains, using lanterns, hand signals, radios, or telephones.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Provide assistance in aligning drawbars, using available equipment to lift, pull, or push on the drawbars.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Observe and respond to wayside and cab signals, including color light signals, position signals, torpedoes, flags, and hot box detectors.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Drive engines within railroad yards or other establishments to couple, uncouple, or switch railroad cars.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Inspect engines before and after use to ensure proper operation.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Comply with traffic regulations to operate vehicles in a safe and courteous manner.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Read switching instructions and daily car schedules to determine work to be performed, or receive orders from yard conductors.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Pull knuckles to open them for coupling.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Inspect the condition of stationary trains, rolling stock, and equipment.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Operate track switches, derails, automatic switches, and retarders to change routing of train or cars.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Ride on moving cars by holding onto grab irons and standing on ladder steps.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Receive, relay, and act upon instructions and inquiries from train operations and customer service center personnel.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Couple and uncouple air hoses and electrical connections between cars.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Inspect track for defects such as broken rails and switch malfunctions.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Report arrival and departure times, train delays, work order completion, and time on duty.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Spot cars for loading and unloading at customer locations.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Observe water levels and oil, air, and steam pressure gauges to ensure proper operation of equipment.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Report delays, mechanical problems, and emergencies to supervisors or dispatchers, using radios.",
-      "task_type": "Core",
-      "relevance": 0.2
-    },
-    {
-      "task": "Complete reports, including shift summaries and incident or accident reports.",
-      "task_type": "Core",
-      "relevance": 0.2
-    },
-    {
-      "task": "Greet passengers, provide information, and answer questions concerning fares, schedules, transfers, and routings.",
-      "task_type": "Core",
-      "relevance": 0.2
-    },
-    {
-      "task": "Attend meetings on driver and passenger safety to learn ways in which job performance might be affected.",
-      "task_type": "Core",
-      "relevance": 0.2
-    },
-    {
-      "task": "Regulate vehicle speed and the time spent at each stop to maintain schedules.",
-      "task_type": "Core",
-      "relevance": 0.2
-    },
-    {
-      "task": "Direct emergency evacuation procedures.",
-      "task_type": "Core",
-      "relevance": 0.2
-    },
-    {
-      "task": "Monitor lights indicating obstructions or other trains ahead and watch for car and truck traffic at crossings to stay alert to potential hazards.",
-      "task_type": "Core",
-      "relevance": 0.2
-    },
-    {
-      "task": "Drive and control rail-guided public transportation, such as subways, elevated trains, and electric-powered streetcars, trams, or trolleys, to transport passengers.",
-      "task_type": "Core",
-      "relevance": 0.2
-    },
-    {
-      "task": "Make announcements to passengers, such as notifications of upcoming stops or schedule delays.",
-      "task_type": "Core",
-      "relevance": 0.2
-    },
-    {
-      "task": "Operate controls to open and close transit vehicle doors.",
-      "task_type": "Core",
-      "relevance": 0.2
-    },
-    {
-      "task": "Operate and drive locomotives, diesel switch engines, dinkey engines, flatcars, and railcars in train yards and at industrial sites.",
-      "task_type": "Supplemental",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Start diesel engines to warm engines before runs.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Make minor repairs to couplings, air hoses, and journal boxes, using hand tools.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Connect air hoses to cars, using wrenches.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Record numbers of cars available, numbers of cars sent to repair stations, and types of service needed.",
-      "task_type": "Supplemental",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Refuel and lubricate engines.",
-      "task_type": "Supplemental",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Ride atop cars that have been shunted, and turn handwheels to control speeds or stop cars at specified positions.",
-      "task_type": "Supplemental",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Provide passengers with assistance entering and exiting trains.",
-      "task_type": "Supplemental",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Set flares, flags, lanterns, or torpedoes in front and at rear of trains during emergency stops to warn oncoming trains.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Inspect tracks, cars, and engines for defects and to determine service needs, sending engines and cars for repairs as necessary.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Operate locomotives in emergency situations.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Monitor oil, temperature, and pressure gauges on dashboards to determine if engines are operating safely and efficiently.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Check to see that trains are equipped with supplies such as fuel, water, and sand.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Signal other workers to set brakes and to throw track switches when switching cars from trains to way stations.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Inspect locomotives to detect damaged or worn parts.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Receive oral or written instructions from yardmasters or yard conductors indicating track assignments and cars to be switched.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Climb ladders to tops of cars to set brakes.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Raise levers to couple and uncouple cars for makeup and breakup of trains.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Observe train signals along routes and verify their meanings for engineers.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Signal locomotive engineers to start or stop trains when coupling or uncoupling cars, using hand signals, lanterns, or radio communication.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Pull or push track switches to reroute cars.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Observe signals from other crew members so that work activities can be coordinated.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Inspect couplings, air hoses, journal boxes, and handbrakes to ensure that they are securely fastened and functioning properly.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Observe tracks from left sides of locomotives to detect obstructions on tracks.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Monitor trains as they go around curves to detect dragging equipment and smoking journal boxes.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Conduct brake tests to determine the condition of brakes on trains.",
-      "task_type": null,
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Read written instructions or confer with supervisors about schedules and materials to be moved.",
-      "task_type": "Supplemental",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Observe and record car numbers, carriers, customers, tonnages, and grades and conditions of material.",
-      "task_type": "Supplemental",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Monitor loading processes to ensure that materials are loaded according to specifications.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Measure, weigh, or verify levels of rock, gravel, or other excavated material to prevent equipment overloads.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Handle high voltage sources and hang electrical cables.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Guide and stop cars by switching, applying brakes, or placing scotches, or wooden wedges, between wheels and rails.",
-      "task_type": "Supplemental",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Examine roadway and clear obstructions from the path of travel.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Drive loaded shuttle cars to ramps and move controls to discharge loads into mine cars or onto conveyors.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Direct other workers to move stakes, place blocks, position anchors or cables, or move materials.",
-      "task_type": "Supplemental",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Control conveyors that run the entire length of shuttle cars to distribute loads as loading progresses.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Clean, fuel, service, and perform safety checks on all equipment, and repair and replace parts as necessary.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Signal workers to move loaded cars.",
-      "task_type": "Supplemental",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Observe hand signals, grade stakes, or other markings when operating machines.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Advance machines to gather material and convey it into cars.",
-      "task_type": "Supplemental",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Stop gathering arms when cars are full.",
-      "task_type": "Supplemental",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Replace hydraulic hoses, headlight bulbs, and gathering-arm teeth.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Oil, lubricate, and adjust conveyors, crushers, and other equipment, using hand tools and lubricating equipment.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Clean hoppers, and clean spillage from tracks, walks, driveways, and conveyor decking.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Operate levers to move conveyor booms or shovels so that mine contents such as coal, rock, and ore can be placed into cars or onto conveyors.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Drive machines into piles of material blasted from working faces.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Move trailing electrical cables clear of obstructions, using rubber safety gloves.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Pry off loose material from roofs and move it into the paths of machines, using crowbars.",
-      "task_type": "Core",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Move mine cars into position for loading and unloading, using pinchbars inserted under car wheels to position cars under loading spouts.",
-      "task_type": "Supplemental",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Maintain records of materials moved.",
-      "task_type": "Supplemental",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Push or ride cars down slopes, or hook cars to cables and control cable drum brakes, to ease cars down inclines.",
-      "task_type": "Supplemental",
-      "relevance": 0.1111111111111111
-    },
-    {
-      "task": "Comply with traffic regulations to operate vehicles in a safe and courteous manner.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Maintain knowledge of first-aid procedures.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Notify dispatchers or company mechanics of vehicle problems.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Operate vehicles with specialized equipment, such as wheelchair lifts, to transport and secure passengers with special needs.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Perform errands for customers or employers, such as delivering or picking up mail and packages.",
-      "task_type": "Supplemental",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Perform minor vehicle repairs, such as cleaning spark plugs, or take vehicles to mechanics for servicing.",
-      "task_type": "Supplemental",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Perform routine vehicle maintenance, such as regulating tire pressure and adding gasoline, oil, and water.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Pick up and drop off passengers at regularly scheduled neighborhood locations, following strict time schedules.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Pick up or meet passengers according to requests, appointments, or schedules.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Prepare and submit reports that may include the number of passengers or trips, hours worked, mileage driven fuel consumed, or fares received.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Provide passengers with assistance entering and exiting vehicles, and help them with any luggage.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Read maps and follow written and verbal geographic directions.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Record vehicle routes.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Regulate heating, lighting, and ventilation systems for passenger comfort.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Report any vehicle malfunctions or needed repairs.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Report delays, accidents, or other traffic and transportation situations, using telephones or mobile two-way radios.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Test vehicle equipment, such as lights, brakes, horns, or windshield wipers, to ensure proper operation.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Vacuum and clean interiors, and wash and polish exteriors of automobiles.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Follow relevant safety regulations and state laws governing vehicle operation, and ensure that passengers follow safety regulations.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Provide passengers with information or advice about the local area, points of interest, hotels, or restaurants.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Complete accident reports when necessary.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Check the condition of a vehicle's tires, brakes, windshield wipers, lights, oil, fuel, water, and safety equipment to ensure that everything is in working order.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Arrange to pick up particular customers or groups on a regular schedule.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Drive shuttle busses, limousines, company cars, or privately owned vehicles to transport passengers.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Collect fares or vouchers from passengers, and make change or issue receipts as necessary.",
-      "task_type": "Supplemental",
-      "relevance": 0.09090909090909091
-    },
-    {
-      "task": "Communicate with dispatchers by radio, telephone, or computer to exchange information and receive requests for passenger service.",
-      "task_type": "Core",
-      "relevance": 0.09090909090909091
+      "task_type": "Core"
     },
     {
       "task": "Drive vehicles or operate machines or equipment to complete work assignments or to assist workers.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
+      "task_type": "Core"
     },
     {
-      "task": "Plan and establish schedules.",
-      "task_type": null,
-      "relevance": 0.024390243902439025
+      "task": "Collect fares or vouchers from passengers, and make change or issue receipts as necessary.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Examine, measure, or weigh cargo or materials to determine specific handling requirements.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Assist workers in tasks, such as loading vehicles.",
-      "task_type": null,
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Perform or schedule repairs or preventive maintenance of vehicles or other equipment.",
-      "task_type": "Supplemental",
-      "relevance": 0.024390243902439025
+      "task": "Communicate with dispatchers by radio, telephone, or computer to exchange information and receive requests for passenger service.",
+      "task_type": "Core"
     },
     {
       "task": "Dispatch personnel and vehicles in response to telephone or radio reports of emergencies.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Compute or estimate cash, payroll, transportation, personnel, or storage requirements.",
-      "task_type": "Supplemental",
-      "relevance": 0.024390243902439025
+      "task_type": "Core"
     },
     {
       "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Recommend or implement personnel actions, such as employee selection, evaluation, rewards, or disciplinary actions.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
+      "task_type": "Core"
     },
     {
       "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Interpret transportation or tariff regulations, shipping orders, safety regulations, or company policies and procedures for workers.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Maintain or verify records of time, materials, expenditures, or crew activities.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Review orders, production schedules, blueprints, or shipping or receiving notices to determine work sequences and material shipping dates, types, volumes, or destinations.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Monitor field work to ensure proper performance and use of materials.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
-    },
-    {
-      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
+      "task_type": "Core"
     },
     {
       "task": "Plan work assignments and equipment allocations to meet transportation, operations or production goals.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
+      "task_type": "Core"
     },
     {
       "task": "Enforce safety rules and regulations.",
-      "task_type": "Core",
-      "relevance": 0.024390243902439025
+      "task_type": "Core"
     },
     {
-      "task": "Direct workers in transportation or related services, such as pumping, moving, storing, or loading or unloading of materials.",
-      "task_type": null,
-      "relevance": 0.024390243902439025
+      "task": "Monitor field work to ensure proper performance and use of materials.",
+      "task_type": "Core"
     },
     {
-      "task": "Analyze and record personnel or operational data and write related activity reports.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Apply customer feedback to service improvement efforts.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core"
     },
     {
       "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Enforce safety rules and regulations.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
+      "task_type": "Core"
     },
     {
       "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
+      "task_type": "Core"
     },
     {
-      "task": "Inform workers about interests or special needs of specific groups.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
+      "task": "Maintain or verify records of time, materials, expenditures, or crew activities.",
+      "task_type": "Core"
     },
     {
-      "task": "Inspect materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Review orders, production schedules, blueprints, or shipping or receiving notices to determine work sequences and material shipping dates, types, volumes, or destinations.",
+      "task_type": "Core"
     },
     {
       "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Train workers in proper operational procedures and functions and explain company policies.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Recommend and implement measures to improve worker motivation, work methods, or customer services.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Recruit and hire staff members.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Requisition necessary supplies, equipment, or services.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Resolve customer complaints regarding worker performance or services rendered.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Take disciplinary action to address performance problems.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Direct or coordinate the activities of workers, such as flight or car attendants.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
+      "task_type": "nan"
     }
   ],
   "technology_skills": [
@@ -2532,10 +1664,6 @@
     {
       "name": "Microsoft Windows",
       "weight": 0.8686868686868686
-    },
-    {
-      "name": "AOL MapQuest",
-      "weight": 0.7575757575757576
     },
     {
       "name": "Microsoft Excel",
@@ -2550,20 +1678,12 @@
       "weight": 0.47619047619047616
     },
     {
-      "name": "Time tracking software",
-      "weight": 0.47619047619047616
-    },
-    {
       "name": "Microsoft Office software",
       "weight": 0.473307992820188
     },
     {
       "name": "Microsoft Word",
       "weight": 0.3728750923872875
-    },
-    {
-      "name": "Microsoft MapPoint",
-      "weight": 0.3333333333333333
     },
     {
       "name": "Positive train control PTC systems",
@@ -2590,10 +1710,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Softrail AEI Rail & Road Manager",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Microsoft Outlook",
       "weight": 0.29351001302220814
     },
@@ -2602,79 +1718,15 @@
       "weight": 0.2
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.1506528701650653
-    },
-    {
       "name": "Electronic train management system software",
       "weight": 0.14285714285714285
-    },
-    {
-      "name": "Google Android",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Inventory management systems",
-      "weight": 0.12626262626262624
-    },
-    {
-      "name": "Actsoft Comet Tracker",
-      "weight": 0.11529933481152993
-    },
-    {
-      "name": "Automated systems software",
-      "weight": 0.1111111111111111
     },
     {
       "name": "Maintenance management software",
       "weight": 0.1111111111111111
     },
     {
-      "name": "Mine maintenance software",
-      "weight": 0.1111111111111111
-    },
-    {
-      "name": "Work time accounting software",
-      "weight": 0.1111111111111111
-    },
-    {
-      "name": "Digital Dispatch",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Easy Dispatch",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "EventHelix WebTaxi",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Facebook",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "GPC Autocab",
-      "weight": 0.09090909090909091
-    },
-    {
       "name": "Global positioning system GPS software",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Mobile Knowledge Cabmate",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "PC Dispatch",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Penchant Software dispatchOffice",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Piccolo Software PiccoloTaxi",
       "weight": 0.09090909090909091
     },
     {
@@ -2682,133 +1734,909 @@
       "weight": 0.09090909090909091
     },
     {
-      "name": "TranWare Enterprise Suite",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Accellos Real Dispatch",
-      "weight": 0.03954175905395418
-    },
-    {
-      "name": "Commercial vehicle operations CVO software",
-      "weight": 0.03954175905395418
-    },
-    {
-      "name": "Enterprise resource planning ERP software",
-      "weight": 0.03954175905395418
-    },
-    {
-      "name": "General ledger software",
-      "weight": 0.03954175905395418
-    },
-    {
-      "name": "Microsoft Access",
-      "weight": 0.03954175905395418
-    },
-    {
-      "name": "SAP software",
-      "weight": 0.03954175905395418
-    },
-    {
       "name": "Scheduling software",
       "weight": 0.03954175905395418
-    },
-    {
-      "name": "@Road GeoManager",
-      "weight": 0.024390243902439025
-    },
-    {
-      "name": "Barcode software",
-      "weight": 0.024390243902439025
-    },
-    {
-      "name": "Bill of lading software",
-      "weight": 0.024390243902439025
-    },
-    {
-      "name": "CAPE Systems CAPE PACK",
-      "weight": 0.024390243902439025
-    },
-    {
-      "name": "CAPE Systems TRUCKFILL",
-      "weight": 0.024390243902439025
-    },
-    {
-      "name": "Coptimal Logics AutoLoad Pro",
-      "weight": 0.024390243902439025
-    },
-    {
-      "name": "Creative Systems Corporation Freight-Link System",
-      "weight": 0.024390243902439025
     },
     {
       "name": "Fleet management systems",
       "weight": 0.024390243902439025
     },
     {
-      "name": "JDA Manugistics",
-      "weight": 0.024390243902439025
-    },
-    {
-      "name": "Load optimization software",
-      "weight": 0.024390243902439025
-    },
-    {
-      "name": "MagicLogic Optimization Cube-IQ",
-      "weight": 0.024390243902439025
-    },
-    {
       "name": "Mapping software",
       "weight": 0.024390243902439025
+    }
+  ],
+  "tools_used": [
+    {
+      "name": "Two way radios",
+      "weight": 1.130450849963045
     },
     {
-      "name": "Optimum Logistics LoadPlanner",
-      "weight": 0.024390243902439025
+      "name": "Portable fire extinguishers",
+      "weight": 0.8686868686868686
     },
     {
-      "name": "Proof of delivery POD software",
-      "weight": 0.024390243902439025
+      "name": "Cell phones",
+      "weight": 0.7575757575757576
     },
     {
-      "name": "Softtruck CargoWiz",
-      "weight": 0.024390243902439025
+      "name": "Digital surveillance camera systems",
+      "weight": 0.7575757575757576
     },
     {
-      "name": "Starre Enterprises Star Bill of Lading",
-      "weight": 0.024390243902439025
+      "name": "Emergency first-aid kits",
+      "weight": 0.7575757575757576
     },
     {
-      "name": "Strategic Business Systems Proof of Delivery",
-      "weight": 0.024390243902439025
+      "name": "Personal computers",
+      "weight": 0.7062084257206208
     },
     {
-      "name": "TOPS Engineering MaxLoad Pro",
-      "weight": 0.024390243902439025
+      "name": "Track switches",
+      "weight": 0.6761904761904762
     },
     {
-      "name": "UPS Logistics Technologies Roadnet Transportation Suite",
-      "weight": 0.024390243902439025
+      "name": "Mobile radios",
+      "weight": 0.5873015873015872
     },
     {
-      "name": "Warehouse management system WMS",
-      "weight": 0.024390243902439025
+      "name": "Protective glasses",
+      "weight": 0.5873015873015872
     },
     {
-      "name": "XATA XATANET",
-      "weight": 0.024390243902439025
+      "name": "Desktop computers",
+      "weight": 0.5157322352444303
     },
     {
-      "name": "Point of sale POS software",
-      "weight": 0.015151515151515152
+      "name": "Automatic track switching systems",
+      "weight": 0.47619047619047616
     },
     {
-      "name": "Timekeeping software",
-      "weight": 0.015151515151515152
+      "name": "Diesel freight engines",
+      "weight": 0.47619047619047616
     },
     {
-      "name": "Work scheduling software",
+      "name": "Dinkey engines",
+      "weight": 0.47619047619047616
+    },
+    {
+      "name": "Electric freight engines",
+      "weight": 0.47619047619047616
+    },
+    {
+      "name": "Hand brakes",
+      "weight": 0.47619047619047616
+    },
+    {
+      "name": "Manual rail switches",
+      "weight": 0.47619047619047616
+    },
+    {
+      "name": "Hearing protection plugs",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Steel-toed boots",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.4242424242424242
+    },
+    {
+      "name": "On-board data input terminals",
+      "weight": 0.4242424242424242
+    },
+    {
+      "name": "Tablet computers",
+      "weight": 0.4242424242424242
+    },
+    {
+      "name": "Air brake hoses",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Automatic switches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cab signals",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Car coupling devices",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Diesel passenger engines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electric passenger engines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hard hats",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Locomotive air brakes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "On-board computers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Position signals",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Public address PA systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Steam engines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Switching diesel engines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Switching locomotives",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Two-way end of train devices",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Reflective vests",
+      "weight": 0.25396825396825395
+    },
+    {
+      "name": "Safety gloves",
+      "weight": 0.25396825396825395
+    },
+    {
+      "name": "Customer-to-operator two-way communication systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Deadman pedals",
+      "weight": 0.2
+    },
+    {
+      "name": "Diesel powered train engines",
+      "weight": 0.2
+    },
+    {
+      "name": "Door opening controls",
+      "weight": 0.2
+    },
+    {
+      "name": "Electric train engines",
+      "weight": 0.2
+    },
+    {
+      "name": "In-train public address systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Multipurpose fire extinguishers",
+      "weight": 0.2
+    },
+    {
+      "name": "Portable two way radios",
+      "weight": 0.2
+    },
+    {
+      "name": "Diesel powered freight engines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Diesel switch engines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Diesel-electric freight engines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Dry chemical fire extinguishers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Electric powered freight engines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ground throw switches",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Locomotive airbrakes",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Rail cargo cars",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Railroad track switches",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Remote control locomotives",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Steel toe boots",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Steel-toes boots",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Switch handles",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Track switching systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Bucket belt conveyors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Cable drawn scrapers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Conveyor belt systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electric switch controls",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Mining conveyor systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Power shovels",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Underground mining loaders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Laptop computers",
       "weight": 0.015151515151515152
     }
+  ],
+  "detailed_work_activities": [
+    {
+      "dwa_id": "4.A.3.a.4.I01.D13",
+      "title": "Operate locomotives or other rail vehicles.",
+      "element_id": "4.A.3.a.4",
+      "weight": 2.6825396825396823
+    },
+    {
+      "dwa_id": "4.A.3.a.4.I01.D14",
+      "title": "Drive passenger vehicles.",
+      "element_id": "4.A.3.a.4",
+      "weight": 2.206060606060606
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I03.D19",
+      "title": "Receive information or instructions for performing work assignments.",
+      "element_id": "4.A.4.a.2",
+      "weight": 1.9004329004329004
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I04.D04",
+      "title": "Inspect locomotives or other railroad equipment.",
+      "element_id": "4.A.1.b.2",
+      "weight": 1.7619047619047619
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I03.D12",
+      "title": "Provide transportation information to passengers or customers.",
+      "element_id": "4.A.4.a.3",
+      "weight": 1.490909090909091
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I10.D01",
+      "title": "Signal others to coordinate vehicle movement.",
+      "element_id": "4.A.4.a.2",
+      "weight": 1.4603174603174602
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I08.D03",
+      "title": "Record operational or production data.",
+      "element_id": "4.A.3.b.6",
+      "weight": 1.413859852884243
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I08.D07",
+      "title": "Notify others of emergencies, problems, or hazards.",
+      "element_id": "4.A.4.a.2",
+      "weight": 1.2909090909090908
+    },
+    {
+      "dwa_id": "4.A.3.a.4.I01.D04",
+      "title": "Follow safety procedures for vehicle operation.",
+      "element_id": "4.A.3.a.4",
+      "weight": 1.1818181818181817
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I03.D06",
+      "title": "Communicate with others to coordinate vehicle movement.",
+      "element_id": "4.A.4.a.2",
+      "weight": 1.0909090909090908
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I08.D19",
+      "title": "Record operational details of travel.",
+      "element_id": "4.A.3.b.6",
+      "weight": 1.0484848484848484
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I22.D10",
+      "title": "Position material handling equipment.",
+      "element_id": "4.A.3.a.2",
+      "weight": 1.0
+    },
+    {
+      "dwa_id": "4.A.3.b.4.I08.D04",
+      "title": "Maintain locomotives or other rail equipment in good working condition.",
+      "element_id": "4.A.3.b.4",
+      "weight": 0.9523809523809523
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I04.D01",
+      "title": "Inspect motor vehicles.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.8728750923872874
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I03.D25",
+      "title": "Clean vehicles or vehicle components.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.8484848484848484
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I07.D01",
+      "title": "Monitor availability of equipment or supplies.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.8095238095238095
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I02.D02",
+      "title": "Read maps to determine routes.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.7575757575757576
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I10.D03",
+      "title": "Assist customers to ensure comfort or safety.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.7575757575757576
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I08.D05",
+      "title": "Report vehicle or equipment malfunctions.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.7151515151515151
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I04.D01",
+      "title": "Monitor traffic signals.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.6761904761904762
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I07.D11",
+      "title": "Monitor surroundings to detect potential hazards.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.6761904761904762
+    },
+    {
+      "dwa_id": "4.A.1.b.3.I01.D17",
+      "title": "Measure the level or depth of water or other liquids.",
+      "element_id": "4.A.1.b.3",
+      "weight": 0.6666666666666666
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I15.D03",
+      "title": "Prepare accident or incident reports.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.6486326681448633
+    },
+    {
+      "dwa_id": "4.A.2.b.3.I01.D16",
+      "title": "Maintain professional knowledge or certifications.",
+      "element_id": "4.A.2.b.3",
+      "weight": 0.6393939393939394
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I10.D06",
+      "title": "Assist passengers during vehicle boarding.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5670995670995671
+    },
+    {
+      "dwa_id": "4.A.3.b.4.I08.D02",
+      "title": "Maintain vehicles in good working condition.",
+      "element_id": "4.A.3.b.4",
+      "weight": 0.5395417590539542
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I02.D07",
+      "title": "Monitor vehicle movement or location.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.5333333333333333
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I01.D13",
+      "title": "Monitor equipment gauges or displays to ensure proper operation.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.47619047619047616
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I14.D01",
+      "title": "Climb ladders or vehicles to perform duties.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.47619047619047616
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I34.D01",
+      "title": "Connect hoses to equipment or machinery.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.47619047619047616
+    },
+    {
+      "dwa_id": "4.A.3.a.4.I01.D08",
+      "title": "Control equipment that regulates vehicle traffic.",
+      "element_id": "4.A.3.a.4",
+      "weight": 0.47619047619047616
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I08.D22",
+      "title": "Record service or repair activities.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.47619047619047616
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I02.D10",
+      "title": "Review work orders or schedules to determine operations or procedures.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.46883468834688347
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I02.D12",
+      "title": "Monitor loading processes to ensure they are performed properly.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.4444444444444444
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I34.D09",
+      "title": "Connect cables or electrical lines.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.4444444444444444
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I04.D02",
+      "title": "Collect fares or payment from customers.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.4242424242424242
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I06.D01",
+      "title": "Load shipments, belongings, or materials.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.35772357723577236
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I02.D03",
+      "title": "Monitor operational quality or safety.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I06.D07",
+      "title": "Monitor student behavior, social development, or health.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I11.D05",
+      "title": "Maintain public order or security.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.3.a.3.I06.D09",
+      "title": "Operate conveyors or other industrial material moving equipment.",
+      "element_id": "4.A.3.a.3",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I10.D01",
+      "title": "Record sales or transactions data.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I03.D08",
+      "title": "Provide customers with general information or assistance.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I05.D03",
+      "title": "Respond to transportation emergencies.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I05.D04",
+      "title": "Assist others during emergencies.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I10.D01",
+      "title": "Assist motorists or pedestrians.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I15.D01",
+      "title": "Direct emergency management activities.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.22439024390243903
+    },
+    {
+      "dwa_id": "4.A.3.a.3.I03.D04",
+      "title": "Operate excavation equipment.",
+      "element_id": "4.A.3.a.3",
+      "weight": 0.2222222222222222
+    },
+    {
+      "dwa_id": "4.A.3.b.4.I08.D06",
+      "title": "Maintain material moving equipment in good working condition.",
+      "element_id": "4.A.3.b.4",
+      "weight": 0.2222222222222222
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I10.D04",
+      "title": "Move materials, equipment, or supplies.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.20202020202020202
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I12.D31",
+      "title": "Direct material handling or moving activities.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.1750431140675043
+    },
+    {
+      "dwa_id": "4.A.2.b.5.I02.D02",
+      "title": "Arrange maintenance activities.",
+      "element_id": "4.A.2.b.5",
+      "weight": 0.16724738675958187
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I01.D03",
+      "title": "Monitor engine operation or functioning.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I01.D06",
+      "title": "Observe equipment in operation to detect potential problems.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I12.D07",
+      "title": "Test mechanical systems to ensure proper functioning.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I04.D01",
+      "title": "Install parts, assemblies, or attachments in transportation or material handling equipment.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.1.b.3.I01.D04",
+      "title": "Measure product or material dimensions.",
+      "element_id": "4.A.1.b.3",
+      "weight": 0.13550135501355012
+    },
+    {
+      "dwa_id": "4.A.1.b.3.I01.D14",
+      "title": "Weigh materials to ensure compliance with specifications.",
+      "element_id": "4.A.1.b.3",
+      "weight": 0.13550135501355012
+    },
+    {
+      "dwa_id": "4.A.2.a.2.I01.D02",
+      "title": "Verify information or specifications.",
+      "element_id": "4.A.2.a.2",
+      "weight": 0.13550135501355012
+    },
+    {
+      "dwa_id": "4.A.3.a.4.I01.D06",
+      "title": "Operate vehicles or material-moving equipment.",
+      "element_id": "4.A.3.a.4",
+      "weight": 0.13550135501355012
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I07.D04",
+      "title": "Inspect equipment or facilities to determine condition or maintenance needs.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.1111111111111111
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I03.D04",
+      "title": "Clean equipment or supplies.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.1111111111111111
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I03.D14",
+      "title": "Clean machinery or equipment.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.1111111111111111
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I05.D03",
+      "title": "Remove debris from work sites.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.1111111111111111
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I05.D09",
+      "title": "Remove debris or damaged materials.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.1111111111111111
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I20.D01",
+      "title": "Install electrical components, equipment, or systems.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.1111111111111111
+    },
+    {
+      "dwa_id": "4.A.3.b.4.I02.D13",
+      "title": "Perform manual service or maintenance tasks.",
+      "element_id": "4.A.3.b.4",
+      "weight": 0.1111111111111111
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I03.D16",
+      "title": "Communicate with others to coordinate material handling or movement.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.1111111111111111
+    },
+    {
+      "dwa_id": "4.A.4.a.1.I02.D04",
+      "title": "Explain regulations, policies, or procedures.",
+      "element_id": "4.A.4.a.1",
+      "weight": 0.0942350332594235
+    },
+    {
+      "dwa_id": "4.A.2.b.5.I02.D07",
+      "title": "Schedule operational activities.",
+      "element_id": "4.A.2.b.5",
+      "weight": 0.09090909090909091
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I10.D02",
+      "title": "Greet customers, patrons, or visitors.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.09090909090909091
+    },
+    {
+      "dwa_id": "4.A.4.b.6.I05.D03",
+      "title": "Recommend personnel decisions or human resources activities.",
+      "element_id": "4.A.4.b.6",
+      "weight": 0.0639320029563932
+    },
+    {
+      "dwa_id": "4.A.2.b.1.I08.D05",
+      "title": "Determine resource needs.",
+      "element_id": "4.A.2.b.1",
+      "weight": 0.03954175905395418
+    },
+    {
+      "dwa_id": "4.A.4.a.7.I03.D04",
+      "title": "Resolve issues affecting transportation operations.",
+      "element_id": "4.A.4.a.7",
+      "weight": 0.03954175905395418
+    },
+    {
+      "dwa_id": "4.A.2.a.1.I04.D04",
+      "title": "Evaluate employee performance.",
+      "element_id": "4.A.2.a.1",
+      "weight": 0.030303030303030304
+    },
+    {
+      "dwa_id": "4.A.4.a.8.I03.D05",
+      "title": "Resolve customer complaints or problems.",
+      "element_id": "4.A.4.a.8",
+      "weight": 0.030303030303030304
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I07.D13",
+      "title": "Monitor work environment to ensure safety or adherence to specifications.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.024390243902439025
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I03.D01",
+      "title": "Test materials, solutions, or samples.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.024390243902439025
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I05.D11",
+      "title": "Inspect facilities to ensure compliance with safety, quality, or service standards.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.024390243902439025
+    },
+    {
+      "dwa_id": "4.A.2.b.5.I02.D01",
+      "title": "Schedule product or material transportation.",
+      "element_id": "4.A.2.b.5",
+      "weight": 0.024390243902439025
+    },
+    {
+      "dwa_id": "4.A.2.b.6.I02.D03",
+      "title": "Plan work operations.",
+      "element_id": "4.A.2.b.6",
+      "weight": 0.024390243902439025
+    },
+    {
+      "dwa_id": "4.A.4.a.7.I03.D03",
+      "title": "Resolve personnel problems.",
+      "element_id": "4.A.4.a.7",
+      "weight": 0.024390243902439025
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I12.D30",
+      "title": "Direct passenger or freight transport activities.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.024390243902439025
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I05.D08",
+      "title": "Acquire supplies or equipment.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.024390243902439025
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I05.D03",
+      "title": "Inspect facilities, equipment or supplies to ensure conformance to standards.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I05.D07",
+      "title": "Inspect facilities.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I07.D18",
+      "title": "Inspect equipment to ensure proper functioning.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.2.b.3.I01.D17",
+      "title": "Maintain knowledge of business operations.",
+      "element_id": "4.A.2.b.3",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I15.D01",
+      "title": "Prepare operational reports or records.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I04.D20",
+      "title": "Train service staff.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I01.D04",
+      "title": "Supervise service workers.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.4.b.5.I02.D05",
+      "title": "Support the professional development of others.",
+      "element_id": "4.A.4.b.5",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.4.c.2.I02.D01",
+      "title": "Perform human resources activities.",
+      "element_id": "4.A.4.c.2",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I05.D01",
+      "title": "Order materials, supplies, or equipment.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.015151515151515152
+    }
+  ],
+  "reported_job_titles": [
+    "Bus Driver",
+    "Railroad Engineer",
+    "Transit Operator",
+    "Carman",
+    "Motor Coach Driver",
+    "Shuttle Bus Driver",
+    "Trainmaster",
+    "Bus Drive Coordinator",
+    "Bus Operator",
+    "CDL Bus Driver (Commercial Driver's License Bus Driver)",
+    "Charter Bus Driver",
+    "Coach Operator",
+    "Engineer",
+    "Hostler",
+    "Locomotive Engineer",
+    "Motor Coach Operator",
+    "Passenger Locomotive Engineer",
+    "Public School Bus Driver",
+    "Rail Yard Engineer",
+    "Railcar Switcher",
+    "SPED Bus Driver (Special Education Bus Driver)",
+    "SPED School Bus Driver (Special Education School Bus Driver)",
+    "School Bus Driver",
+    "School Van Driver",
+    "Student Driver",
+    "Switchman",
+    "Through Freight Engineer",
+    "Train Engineer",
+    "Transit Bus Driver",
+    "Transit Coach Operator",
+    "Transit Driver",
+    "Transportation Specialist",
+    "Yard Engineer",
+    "Combined Rail Operator",
+    "Light Rail Operator",
+    "Light Rail Train Operator",
+    "Light Rail Vehicle Operator (LRV Operator)",
+    "Rail Operator",
+    "Rapid Transit Operator (RTO)",
+    "Streetcar Operator",
+    "Train Operator",
+    "Trolley Operator",
+    "Brakeman",
+    "Fireman",
+    "Locomotive Switch Operator",
+    "Railroad Brakeman",
+    "Railroad Switchman",
+    "Terminal Carman",
+    "Trainman",
+    "Coal Hauler Operator"
   ],
   "education": [
     {

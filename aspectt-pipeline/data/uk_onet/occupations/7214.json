@@ -1544,84 +1544,40 @@
   ],
   "tasks": [
     {
-      "task": "Ask questions in accordance with instructions to obtain various specified information, such as person's name, address, age, religious preference, or state of residency.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task": "Ask questions in accordance with instructions to obtain specified information, such as person's name, address, age, religious preference, or state of residency, and assist individuals in filling out applications or questionnaires.",
+      "task_type": "Core"
     },
     {
-      "task": "Identify and resolve inconsistencies in interviewees' responses by means of appropriate questioning or explanation.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task": "Identify and resolve inconsistencies in interviewees' responses through appropriate questioning or explanation, and identify and report problems in obtaining valid data.",
+      "task_type": "Core"
     },
     {
-      "task": "Compile, record, and code results or data from interview or survey, using computer or specified form.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task": "Compile, record, and code results or data from interviews or surveys using a computer or specified form, and review data obtained from interviews for completeness and accuracy.",
+      "task_type": "Core"
     },
     {
-      "task": "Review data obtained from interview for completeness and accuracy.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task": "Contact individuals to be interviewed at home, place of business, or field location, by telephone, mail, or in person, and explain survey objectives and procedures to interviewees to help their comprehension.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Contact individuals to be interviewed at home, place of business, or field location, by telephone, mail, or in person.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Assist individuals in filling out applications or questionnaires.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Ensure payment for services by verifying benefits with the person's insurance provider or working out financing options.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Identify and report problems in obtaining valid data.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Explain survey objectives and procedures to interviewees and interpret survey questions to help interviewees' comprehension.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Perform patient services, such as answering the telephone or assisting patients with financial or medical questions.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task": "Meet with supervisor daily to submit completed assignments and discuss progress, and supervise or train other staff members.",
+      "task_type": "Core"
     },
     {
       "task": "Prepare reports to provide answers in response to specific problems.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Core"
+    },
+    {
+      "task": "Perform office duties, such as telemarketing or customer service inquiries, maintaining staff records, or receiving payments.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Collect and analyze data, such as studying old records or participating in population surveys as a Census Enumerator.",
+      "task_type": "Supplemental"
     },
     {
       "task": "Locate and list addresses and households.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Meet with supervisor daily to submit completed assignments and discuss progress.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Collect and analyze data, such as studying old records, tallying the number of outpatients entering each day or week, or participating in federal, state, or local population surveys as a Census Enumerator.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Supervise or train other staff members.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Perform office duties, such as telemarketing or customer service inquiries, maintaining staff records, billing patients, or receiving payments.",
-      "task_type": "Core",
-      "relevance": 0.25
+      "task_type": "Supplemental"
     }
   ],
   "technology_skills": [
@@ -1630,35 +1586,11 @@
       "weight": 0.25
     },
     {
-      "name": "Electronic health record EHR software",
-      "weight": 0.25
-    },
-    {
       "name": "FileMaker Pro",
       "weight": 0.25
     },
     {
       "name": "FluidSurveys",
-      "weight": 0.25
-    },
-    {
-      "name": "Jenzabar EX",
-      "weight": 0.25
-    },
-    {
-      "name": "MEDITECH software",
-      "weight": 0.25
-    },
-    {
-      "name": "Medical condition coding software",
-      "weight": 0.25
-    },
-    {
-      "name": "Medical procedure coding software",
-      "weight": 0.25
-    },
-    {
-      "name": "Microsoft Dynamics",
       "weight": 0.25
     },
     {
@@ -1686,19 +1618,11 @@
       "weight": 0.25
     },
     {
-      "name": "Oracle PeopleSoft",
-      "weight": 0.25
-    },
-    {
       "name": "Qualtrics Insight",
       "weight": 0.25
     },
     {
       "name": "RIVS automated interview software",
-      "weight": 0.25
-    },
-    {
-      "name": "SAP Business Objects",
       "weight": 0.25
     },
     {
@@ -1710,10 +1634,6 @@
       "weight": 0.25
     },
     {
-      "name": "Student information systems SIS software",
-      "weight": 0.25
-    },
-    {
       "name": "Web browser software",
       "weight": 0.25
     },
@@ -1721,6 +1641,150 @@
       "name": "Zoom",
       "weight": 0.25
     }
+  ],
+  "tools_used": [
+    {
+      "name": "Computer data input scanners",
+      "weight": 0.25
+    },
+    {
+      "name": "Computer inkjet printers",
+      "weight": 0.25
+    },
+    {
+      "name": "Copy machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 0.25
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Multiline telephone systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Personal computers",
+      "weight": 0.25
+    },
+    {
+      "name": "Telephone headsets",
+      "weight": 0.25
+    }
+  ],
+  "detailed_work_activities": [
+    {
+      "dwa_id": "4.A.1.a.1.I23.D01",
+      "title": "Interview employees, customers, or others to collect information.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.75
+    },
+    {
+      "dwa_id": "4.A.2.a.2.I03.D03",
+      "title": "Compile data or documentation.",
+      "element_id": "4.A.2.a.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I14.D03",
+      "title": "Obtain personal or financial information about customers or applicants.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.2.a.2.I01.D08",
+      "title": "Check data for recording errors.",
+      "element_id": "4.A.2.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.2.a.2.I01.D09",
+      "title": "Verify accuracy of financial or transactional data.",
+      "element_id": "4.A.2.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.2.a.4.I07.D02",
+      "title": "Analyze operational or research data.",
+      "element_id": "4.A.2.a.4",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.3.b.1.I06.D08",
+      "title": "Code data or other information.",
+      "element_id": "4.A.3.b.1",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I03.D02",
+      "title": "Prepare research or technical reports.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.1.I02.D04",
+      "title": "Explain regulations, policies, or procedures.",
+      "element_id": "4.A.4.a.1",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I03.D15",
+      "title": "Confer with coworkers to coordinate work activities.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I03.D11",
+      "title": "Answer telephones to direct calls or provide information.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I08.D01",
+      "title": "Assist individuals with paperwork.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.7.I02.D06",
+      "title": "Negotiate financial arrangements.",
+      "element_id": "4.A.4.a.7",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.7.I03.D02",
+      "title": "Resolve operational performance problems.",
+      "element_id": "4.A.4.a.7",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I01.D08",
+      "title": "Supervise clerical or administrative personnel.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I04.D01",
+      "title": "Collect deposits, payments or fees.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.25
+    }
+  ],
+  "reported_job_titles": [
+    "Admissions Clerk",
+    "Admissions Representative",
+    "Admitting Representative",
+    "Data Collection Assistant",
+    "Interviewer",
+    "Market Research Interviewer",
+    "Registration Clerk",
+    "Research Interviewer",
+    "Survey Interviewer",
+    "Telephone Interviewer"
   ],
   "education": [
     {

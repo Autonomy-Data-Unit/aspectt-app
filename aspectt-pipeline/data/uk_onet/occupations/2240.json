@@ -1544,109 +1544,48 @@
   ],
   "tasks": [
     {
-      "task": "Examine animals to detect and determine the nature of diseases or injuries.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Examine animals to detect and determine the nature of diseases or injuries, and treat sick or injured animals by prescribing medication, setting bones, dressing wounds, or performing surgery.",
+      "task_type": "Core"
     },
     {
-      "task": "Direct the overall operations of animal hospitals, clinics, or mobile services to farms.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
+      "task": "Direct the overall operations of animal hospitals, clinics, or mobile services to farms and perform administrative or business management tasks, such as scheduling appointments, accepting payments from clients, budgeting, or maintaining business records.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Perform administrative or business management tasks, such as scheduling appointments, accepting payments from clients, budgeting, or maintaining business records.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Attend lectures, conferences, or continuing education courses to stay updated on veterinary practices.",
+      "task_type": "Core"
     },
     {
-      "task": "Attend lectures, conferences, or continuing education courses.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Advise animal owners regarding sanitary measures, feeding, general care, medical conditions, or treatment options, and educate the public about diseases that can be spread from animals to humans.",
+      "task_type": "Core"
     },
     {
-      "task": "Advise animal owners regarding sanitary measures, feeding, general care, medical conditions, or treatment options.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Determine the effects of drug therapies, antibiotics, or new surgical techniques by testing them on animals and conduct postmortem studies and analyses to determine the causes of animals' deaths.",
+      "task_type": "Core"
     },
     {
-      "task": "Determine the effects of drug therapies, antibiotics, or new surgical techniques by testing them on animals.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
+      "task": "Research diseases to which animals could be susceptible and specialize in a particular type of treatment, such as dentistry, pathology, nutrition, surgery, microbiology, or internal medicine.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Research diseases to which animals could be susceptible.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
+      "task": "Plan or execute animal nutrition or reproduction programs, and provide care to a wide range of animals or specialize in a particular species, such as horses or exotic birds.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Plan or execute animal nutrition or reproduction programs.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Inspect and test horses, sheep, poultry, or other animals to detect the presence of communicable diseases and establish or conduct quarantine or testing procedures that prevent the spread of diseases to other animals or to humans and comply with applicable government regulations.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Inspect and test horses, sheep, poultry, or other animals to detect the presence of communicable diseases.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
+      "task": "Euthanize animals and counsel clients about the deaths of their pets or about euthanasia decisions for their pets.",
+      "task_type": "Core"
     },
     {
-      "task": "Specialize in a particular type of treatment, such as dentistry, pathology, nutrition, surgery, microbiology, or internal medicine.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
+      "task": "Train or supervise workers who handle or care for animals, and operate diagnostic equipment, such as radiographic or ultrasound equipment, and interpret the resulting images.",
+      "task_type": "Core"
     },
     {
-      "task": "Conduct postmortem studies and analyses to determine the causes of animals' deaths.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Treat sick or injured animals by prescribing medication, setting bones, dressing wounds, or performing surgery.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Establish or conduct quarantine or testing procedures that prevent the spread of diseases to other animals or to humans and that comply with applicable government regulations.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
-    },
-    {
-      "task": "Euthanize animals.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Provide care to a wide range of animals or specialize in a particular species, such as horses or exotic birds.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
-    },
-    {
-      "task": "Train or supervise workers who handle or care for animals.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Educate the public about diseases that can be spread from animals to humans.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Operate diagnostic equipment, such as radiographic or ultrasound equipment, and interpret the resulting images.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Collect body tissue, feces, blood, urine, or other body fluids for examination and analysis.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Inoculate animals against various diseases, such as rabies or distemper.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Counsel clients about the deaths of their pets or about euthanasia decisions for their pets.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Collect body tissue, feces, blood, urine, or other body fluids for examination and analysis, and inoculate animals against various diseases, such as rabies or distemper.",
+      "task_type": "Core"
     }
   ],
   "technology_skills": [
@@ -1730,6 +1669,652 @@
       "name": "Web browser software",
       "weight": 0.5
     }
+  ],
+  "tools_used": [
+    {
+      "name": "Ambu bags",
+      "weight": 0.5
+    },
+    {
+      "name": "Animal catching poles",
+      "weight": 0.5
+    },
+    {
+      "name": "Animal electrocardiograph ECG units",
+      "weight": 0.5
+    },
+    {
+      "name": "Animal snares",
+      "weight": 0.5
+    },
+    {
+      "name": "Arthroscopic surgical equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Automated chemistry analyzers",
+      "weight": 0.5
+    },
+    {
+      "name": "Automated microbial identification systems",
+      "weight": 0.5
+    },
+    {
+      "name": "Avian restrainers",
+      "weight": 0.5
+    },
+    {
+      "name": "Bandage scissors",
+      "weight": 0.5
+    },
+    {
+      "name": "Battery-operated orthopedic drills",
+      "weight": 0.5
+    },
+    {
+      "name": "Benchtop centrifuges",
+      "weight": 0.5
+    },
+    {
+      "name": "Biopsy punches",
+      "weight": 0.5
+    },
+    {
+      "name": "Blood collection syringes",
+      "weight": 0.5
+    },
+    {
+      "name": "Blood gas analyzers",
+      "weight": 0.5
+    },
+    {
+      "name": "Capture rifles",
+      "weight": 0.5
+    },
+    {
+      "name": "Cardiac monitors",
+      "weight": 0.5
+    },
+    {
+      "name": "Cast cutting saws",
+      "weight": 0.5
+    },
+    {
+      "name": "Castrating knives",
+      "weight": 0.5
+    },
+    {
+      "name": "Cattle chutes",
+      "weight": 0.5
+    },
+    {
+      "name": "Coagulation analyzers",
+      "weight": 0.5
+    },
+    {
+      "name": "Computed tomography CT scanners",
+      "weight": 0.5
+    },
+    {
+      "name": "Cryosurgery units",
+      "weight": 0.5
+    },
+    {
+      "name": "Dart guns",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental amalgam carriers",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental burs",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental carvers",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental cord packers",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental elevators",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental examination mirrors",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental explorers",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental files",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental material pluggers",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental probes or explorers",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental reamers",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental root tip picks",
+      "weight": 0.5
+    },
+    {
+      "name": "Dental spreaders",
+      "weight": 0.5
+    },
+    {
+      "name": "Differential cell counters",
+      "weight": 0.5
+    },
+    {
+      "name": "Digital cameras",
+      "weight": 0.5
+    },
+    {
+      "name": "Digital veterinary thermometers",
+      "weight": 0.5
+    },
+    {
+      "name": "Digital x ray equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Dressing forceps",
+      "weight": 0.5
+    },
+    {
+      "name": "Echocardiogram equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Electric animal clippers",
+      "weight": 0.5
+    },
+    {
+      "name": "Electronic animal scales",
+      "weight": 0.5
+    },
+    {
+      "name": "Electrosurgery units",
+      "weight": 0.5
+    },
+    {
+      "name": "Endotracheal ET tubes",
+      "weight": 0.5
+    },
+    {
+      "name": "Evacuated blood collection tubes",
+      "weight": 0.5
+    },
+    {
+      "name": "Extraction forceps",
+      "weight": 0.5
+    },
+    {
+      "name": "Fiberoptic endoscopes",
+      "weight": 0.5
+    },
+    {
+      "name": "Fluoroscopy units",
+      "weight": 0.5
+    },
+    {
+      "name": "Glucometers",
+      "weight": 0.5
+    },
+    {
+      "name": "Hand scalers",
+      "weight": 0.5
+    },
+    {
+      "name": "Hematology analyzers",
+      "weight": 0.5
+    },
+    {
+      "name": "Hemostats",
+      "weight": 0.5
+    },
+    {
+      "name": "High-speed dental handpieces",
+      "weight": 0.5
+    },
+    {
+      "name": "Hoof knives",
+      "weight": 0.5
+    },
+    {
+      "name": "Hoof picks",
+      "weight": 0.5
+    },
+    {
+      "name": "Hoof testers",
+      "weight": 0.5
+    },
+    {
+      "name": "Hoof trimmers",
+      "weight": 0.5
+    },
+    {
+      "name": "Intravenous IV administration sets",
+      "weight": 0.5
+    },
+    {
+      "name": "Intravenous syringe pumps",
+      "weight": 0.5
+    },
+    {
+      "name": "Kelly forceps",
+      "weight": 0.5
+    },
+    {
+      "name": "Laboratory scales",
+      "weight": 0.5
+    },
+    {
+      "name": "Laparoscopic equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Laryngoscopes",
+      "weight": 0.5
+    },
+    {
+      "name": "Laser surgery units",
+      "weight": 0.5
+    },
+    {
+      "name": "Lip retractors",
+      "weight": 0.5
+    },
+    {
+      "name": "Low speed dental handpieces",
+      "weight": 0.5
+    },
+    {
+      "name": "Magnetic resonance imaging MRI systems",
+      "weight": 0.5
+    },
+    {
+      "name": "Mayo scissors",
+      "weight": 0.5
+    },
+    {
+      "name": "Mechanical stethoscopes",
+      "weight": 0.5
+    },
+    {
+      "name": "Microhematocrit centrifuges",
+      "weight": 0.5
+    },
+    {
+      "name": "Mobile multiparameter monitors",
+      "weight": 0.5
+    },
+    {
+      "name": "Mosquito forceps",
+      "weight": 0.5
+    },
+    {
+      "name": "Muzzles",
+      "weight": 0.5
+    },
+    {
+      "name": "Nail trimmers",
+      "weight": 0.5
+    },
+    {
+      "name": "Needle holders",
+      "weight": 0.5
+    },
+    {
+      "name": "Operating microscopes",
+      "weight": 0.5
+    },
+    {
+      "name": "Ophthalmic surgical blades",
+      "weight": 0.5
+    },
+    {
+      "name": "Ophthalmic tonometers",
+      "weight": 0.5
+    },
+    {
+      "name": "Ophthalmoscopes",
+      "weight": 0.5
+    },
+    {
+      "name": "Orthopedic drills",
+      "weight": 0.5
+    },
+    {
+      "name": "Otoscopes",
+      "weight": 0.5
+    },
+    {
+      "name": "Oxygen administration equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Protective face shields",
+      "weight": 0.5
+    },
+    {
+      "name": "Pulse oximeters",
+      "weight": 0.5
+    },
+    {
+      "name": "Respiration monitors",
+      "weight": 0.5
+    },
+    {
+      "name": "Safety gloves",
+      "weight": 0.5
+    },
+    {
+      "name": "Safety goggles",
+      "weight": 0.5
+    },
+    {
+      "name": "Single dose syringes",
+      "weight": 0.5
+    },
+    {
+      "name": "Specimen collection containers",
+      "weight": 0.5
+    },
+    {
+      "name": "Sponge forceps",
+      "weight": 0.5
+    },
+    {
+      "name": "Staple removal forceps",
+      "weight": 0.5
+    },
+    {
+      "name": "Stationary x ray equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Steam autoclaves",
+      "weight": 0.5
+    },
+    {
+      "name": "Surgical bone saws",
+      "weight": 0.5
+    },
+    {
+      "name": "Surgical calipers",
+      "weight": 0.5
+    },
+    {
+      "name": "Surgical gloves",
+      "weight": 0.5
+    },
+    {
+      "name": "Surgical magnifiers",
+      "weight": 0.5
+    },
+    {
+      "name": "Surgical masks",
+      "weight": 0.5
+    },
+    {
+      "name": "Surgical retractors",
+      "weight": 0.5
+    },
+    {
+      "name": "Surgical scalpels",
+      "weight": 0.5
+    },
+    {
+      "name": "Suture needles",
+      "weight": 0.5
+    },
+    {
+      "name": "Tattoo equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Tissue forceps",
+      "weight": 0.5
+    },
+    {
+      "name": "Tourniquets",
+      "weight": 0.5
+    },
+    {
+      "name": "Towel clamps",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary anesthesia machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary dental impression trays",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary dental mouth props",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary dental x ray equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary immersion hydrotherapy equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary obstetrical forceps",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary oral specula",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary orthopedic splints",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary patient warming systems",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary suction equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary surgical mouth gags",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary ultrasound equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Veterinary vaginal specula",
+      "weight": 0.5
+    }
+  ],
+  "detailed_work_activities": [
+    {
+      "dwa_id": "4.A.1.a.1.I19.D01",
+      "title": "Conduct research to increase knowledge about medical issues.",
+      "element_id": "4.A.1.a.1",
+      "weight": 1.0
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I09.D03",
+      "title": "Examine patients to assess general physical condition.",
+      "element_id": "4.A.1.b.2",
+      "weight": 1.0
+    },
+    {
+      "dwa_id": "4.A.2.b.3.I01.D12",
+      "title": "Maintain medical or professional knowledge.",
+      "element_id": "4.A.2.b.3",
+      "weight": 1.0
+    },
+    {
+      "dwa_id": "4.A.2.a.4.I06.D03",
+      "title": "Analyze test data or images to inform diagnosis or treatment.",
+      "element_id": "4.A.2.a.4",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.2.a.4.I06.D04",
+      "title": "Analyze medical data to determine cause of death.",
+      "element_id": "4.A.2.a.4",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.2.b.1.I04.D11",
+      "title": "Determine protocols for medical procedures.",
+      "element_id": "4.A.2.b.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.2.b.2.I01.D02",
+      "title": "Develop medical treatment plans.",
+      "element_id": "4.A.2.b.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.2.b.3.I01.D16",
+      "title": "Maintain professional knowledge or certifications.",
+      "element_id": "4.A.2.b.3",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.2.b.5.I03.D02",
+      "title": "Schedule patient procedures or appointments.",
+      "element_id": "4.A.2.b.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I38.D01",
+      "title": "Collect biological specimens from patients.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.a.3.I04.D04",
+      "title": "Operate diagnostic imaging equipment.",
+      "element_id": "4.A.3.a.3",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I11.D02",
+      "title": "Maintain medical facility records.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I02.D01",
+      "title": "Communicate health and wellness information to the public.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I03.D07",
+      "title": "Immunize patients.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I04.D04",
+      "title": "Provide care for animals.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I12.D02",
+      "title": "Treat acute illnesses, infections, or injuries.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I12.D03",
+      "title": "Operate on patients to treat conditions.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I12.D05",
+      "title": "Treat animal injuries or illnesses.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I06.D08",
+      "title": "Train medical providers.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I01.D11",
+      "title": "Supervise medical support personnel.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I12.D38",
+      "title": "Manage healthcare operations.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.b.6.I01.D01",
+      "title": "Provide health and wellness advice to patients, program participants, or caregivers.",
+      "element_id": "4.A.4.b.6",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.b.6.I10.D05",
+      "title": "Counsel family members of clients or patients.",
+      "element_id": "4.A.4.b.6",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I01.D06",
+      "title": "Perform clerical work in medical settings.",
+      "element_id": "4.A.4.c.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I06.D03",
+      "title": "Prescribe medications.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.5
+    }
+  ],
+  "reported_job_titles": [
+    "Companion Animal Practitioner",
+    "Doctor of Veterinary Medicine (DVM)",
+    "Emergency Veterinarian (Emergency Vet)",
+    "Large Animal Veterinarian (Large Animal Vet)",
+    "Mixed Animal Veterinarian (Mixed Animal Vet)",
+    "Small Animal Veterinarian (Small Animal Vet)",
+    "Veterinary Medicine Doctor (DVM)",
+    "Veterinary Surgeon (Vet Surgeon)",
+    "Veterinary Surgical Specialist (Vet Surgical Specialist)",
+    "Zoo Veterinarian (Zoo Vet)"
   ],
   "education": [
     {

@@ -1544,109 +1544,48 @@
   ],
   "tasks": [
     {
-      "task": "Receive written prescription or refill requests and verify that information is complete and accurate.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Receive written prescription or refill requests, verify that information is complete and accurate, and enter prescription information into computer databases.",
+      "task_type": "Core"
     },
     {
-      "task": "Mix pharmaceutical preparations, according to written prescriptions.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Mix pharmaceutical preparations according to written prescriptions and transfer medication from vials to the appropriate number of sterile, disposable syringes using aseptic techniques.",
+      "task_type": "Core"
     },
     {
-      "task": "Restock intravenous (IV) supplies and add measured drugs or nutrients to IV solutions under sterile conditions to prepare IV packs for various uses, such as chemotherapy medication.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
+      "task": "Restock intravenous (IV) supplies and add measured drugs or nutrients to IV solutions under sterile conditions to prepare IV packs for various uses such as chemotherapy medication.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Receive and store incoming supplies, verify quantities against invoices, check for outdated medications in current inventory, and inform supervisors of stock needs and shortages.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Receive and store incoming supplies, verify quantities against invoices, check for outdated medications in current inventory, order, label, and count stock of medications, chemicals, or supplies, and inform supervisors of stock needs and shortages.",
+      "task_type": "Core"
     },
     {
-      "task": "Prepack bulk medicines, fill bottles with prescribed medications, and type and affix labels.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Maintain and merchandise home healthcare products or services.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
-    },
-    {
-      "task": "Price stock and mark items for sale.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
+      "task": "Prepack bulk medicines, fill bottles with prescribed medications, and type and affix labels, as well as price and file prescriptions that have been filled.",
+      "task_type": "Core"
     },
     {
       "task": "Deliver medications or pharmaceutical supplies to patients, nursing stations, or surgery.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
+      "task_type": "Supplemental"
     },
     {
-      "task": "Compute charges for medication or equipment dispensed to hospital patients and enter data in computer.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
+      "task": "Maintain proper storage and security conditions for drugs and help clean and maintain equipment or work areas and sterilize glassware according to prescribed methods.",
+      "task_type": "Core"
     },
     {
-      "task": "Operate cash registers to accept payment from customers.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Create and maintain patient profiles, including lists of medications taken by individual patients; assist customers by answering simple questions, locating items, or referring them to the pharmacist for medication information; and answer telephones, responding to questions or requests.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Operate cash registers to accept payment from customers and compute charges for medication or equipment dispensed to hospital patients, entering data in computer.",
+      "task_type": "Supplemental"
     },
     {
       "task": "Prepare and process medical insurance claim forms and records.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
+      "task_type": "Supplemental"
     },
     {
-      "task": "Maintain proper storage and security conditions for drugs.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Supply and monitor robotic machines that dispense medicine into containers and label the containers.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
-    },
-    {
-      "task": "Transfer medication from vials to the appropriate number of sterile, disposable syringes, using aseptic techniques.",
-      "task_type": "Supplemental",
-      "relevance": 0.5
-    },
-    {
-      "task": "Order, label, and count stock of medications, chemicals, or supplies and enter inventory data into computer.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Establish or maintain patient profiles, including lists of medications taken by individual patients.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Clean and help maintain equipment or work areas and sterilize glassware, according to prescribed methods.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Price and file prescriptions that have been filled.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Assist customers by answering simple questions, locating items, or referring them to the pharmacist for medication information.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Answer telephones, responding to questions or requests.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Enter prescription information into computer databases.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Supply and monitor robotic machines that dispense medicine into containers and label the containers; maintain and merchandise home healthcare products or services; and price stock and mark items for sale.",
+      "task_type": "Supplemental"
     }
   ],
   "technology_skills": [
@@ -1738,6 +1677,312 @@
       "name": "Pyxis MedStation software",
       "weight": 0.5
     }
+  ],
+  "tools_used": [
+    {
+      "name": "Agar slides",
+      "weight": 0.5
+    },
+    {
+      "name": "Autoclaves",
+      "weight": 0.5
+    },
+    {
+      "name": "Automatic bottle filling machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Automatic unit dose strip packaging machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Benchtop colloid mills",
+      "weight": 0.5
+    },
+    {
+      "name": "Blending/agitating machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Bunsen burners",
+      "weight": 0.5
+    },
+    {
+      "name": "Centrifuges",
+      "weight": 0.5
+    },
+    {
+      "name": "Colloid mills",
+      "weight": 0.5
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.5
+    },
+    {
+      "name": "Computer-based dispensing equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Data input scanners",
+      "weight": 0.5
+    },
+    {
+      "name": "Desktop computers",
+      "weight": 0.5
+    },
+    {
+      "name": "Double-beam balances",
+      "weight": 0.5
+    },
+    {
+      "name": "Electronic signature capture equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Equal-arm balances",
+      "weight": 0.5
+    },
+    {
+      "name": "Filtering devices",
+      "weight": 0.5
+    },
+    {
+      "name": "Graduated cylinders",
+      "weight": 0.5
+    },
+    {
+      "name": "Grinding and shearing colloid mills",
+      "weight": 0.5
+    },
+    {
+      "name": "Horizontal and vertical flow hoods",
+      "weight": 0.5
+    },
+    {
+      "name": "Incubators",
+      "weight": 0.5
+    },
+    {
+      "name": "Intravenous IV infusion pumps",
+      "weight": 0.5
+    },
+    {
+      "name": "Intravenous IV supplies",
+      "weight": 0.5
+    },
+    {
+      "name": "Label printers",
+      "weight": 0.5
+    },
+    {
+      "name": "Laboratory vacuum pumps",
+      "weight": 0.5
+    },
+    {
+      "name": "Laminar flow hoods",
+      "weight": 0.5
+    },
+    {
+      "name": "Notebook computers",
+      "weight": 0.5
+    },
+    {
+      "name": "Personal computers",
+      "weight": 0.5
+    },
+    {
+      "name": "Petri dishes",
+      "weight": 0.5
+    },
+    {
+      "name": "Robotic dispensing systems",
+      "weight": 0.5
+    },
+    {
+      "name": "Semiautomatic sterile solution transferring devices",
+      "weight": 0.5
+    },
+    {
+      "name": "Single-beam balances",
+      "weight": 0.5
+    },
+    {
+      "name": "Specific gravity testing equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Sterilizing equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Syringes",
+      "weight": 0.5
+    },
+    {
+      "name": "Tablet counting machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Test tubes",
+      "weight": 0.5
+    },
+    {
+      "name": "Torsion balances",
+      "weight": 0.5
+    },
+    {
+      "name": "Total parenteral nutrition TPN compounders",
+      "weight": 0.5
+    },
+    {
+      "name": "Tube filling and crimping machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Unequal-arm balances",
+      "weight": 0.5
+    },
+    {
+      "name": "Water distillation equipment",
+      "weight": 0.5
+    }
+  ],
+  "detailed_work_activities": [
+    {
+      "dwa_id": "4.A.3.a.1.I01.D07",
+      "title": "Prepare medications or medical solutions.",
+      "element_id": "4.A.3.a.1",
+      "weight": 2.0
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I01.D02",
+      "title": "Maintain inventory of medical supplies or equipment.",
+      "element_id": "4.A.4.c.3",
+      "weight": 2.0
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I01.D06",
+      "title": "Perform clerical work in medical settings.",
+      "element_id": "4.A.4.c.1",
+      "weight": 1.5
+    },
+    {
+      "dwa_id": "4.A.3.b.1.I06.D03",
+      "title": "Enter patient or treatment data into computers.",
+      "element_id": "4.A.3.b.1",
+      "weight": 1.0
+    },
+    {
+      "dwa_id": "4.A.4.a.6.I02.D01",
+      "title": "Merchandise healthcare products or services.",
+      "element_id": "4.A.4.a.6",
+      "weight": 1.0
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I03.D03",
+      "title": "Process medical billing information.",
+      "element_id": "4.A.4.c.1",
+      "weight": 1.0
+    },
+    {
+      "dwa_id": "4.A.2.a.2.I05.D04",
+      "title": "Verify accuracy of patient information.",
+      "element_id": "4.A.2.a.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I09.D01",
+      "title": "Sterilize medical equipment or instruments.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I09.D03",
+      "title": "Clean medical equipment or facilities.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I10.D05",
+      "title": "Deliver items.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.b.1.I06.D06",
+      "title": "Enter information into databases or software programs.",
+      "element_id": "4.A.3.b.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.b.1.I06.D10",
+      "title": "Enter codes or other information into computers.",
+      "element_id": "4.A.3.b.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.b.4.I09.D01",
+      "title": "Maintain medical equipment or instruments.",
+      "element_id": "4.A.3.b.4",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I11.D04",
+      "title": "Record patient medical histories.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I02.D08",
+      "title": "Provide information to the general public.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I03.D08",
+      "title": "Provide customers with general information or assistance.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I12.D29",
+      "title": "Arrange delivery of goods or services.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I03.D01",
+      "title": "Operate cash registers.",
+      "element_id": "4.A.4.c.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I03.D11",
+      "title": "Process sales or other transactions.",
+      "element_id": "4.A.4.c.1",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I01.D04",
+      "title": "Maintain supply or equipment inventories.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I07.D01",
+      "title": "Monitor availability of equipment or supplies.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.5
+    }
+  ],
+  "reported_job_titles": [
+    "Accredited Pharmacy Technician",
+    "Certified Pharmacy Technician (CPhT)",
+    "Chemotherapy Pharmacy Technician (Chemo Pharmacy Technician)",
+    "Compounding Technician",
+    "OR Pharmacy Tech (Operating Room Pharmacy Tech)",
+    "RPhT (Registered Pharmacy Technician)"
   ],
   "education": [
     {

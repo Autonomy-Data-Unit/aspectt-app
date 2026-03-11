@@ -1544,54 +1544,36 @@
   ],
   "tasks": [
     {
-      "task": "Examine eyes, using observation, instruments, and pharmaceutical agents, to determine visual acuity and perception, focus, and coordination and to diagnose diseases and other abnormalities, such as glaucoma or color blindness.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Examine eyes using observation, instruments, and pharmaceutical agents to determine visual acuity, perception, focus, coordination, and to diagnose diseases and other abnormalities, such as glaucoma or color blindness.",
+      "task_type": "Core"
     },
     {
       "task": "Analyze test results and develop a treatment plan.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task_type": "Core"
     },
     {
-      "task": "Prescribe, supply, fit and adjust eyeglasses, contact lenses, and other vision aids.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Prescribe medications to treat eye diseases if state laws permit.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Prescribe, supply, fit and adjust eyeglasses, contact lenses, and other vision aids, and prescribe medications to treat eye diseases if state laws permit.",
+      "task_type": "Core"
     },
     {
       "task": "Educate and counsel patients on contact lens care, visual hygiene, lighting arrangements, and safety factors.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task_type": "Core"
     },
     {
-      "task": "Consult with and refer patients to ophthalmologist or other health care practitioner if additional medical treatment is determined necessary.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Consult with and refer patients to ophthalmologists or other health care practitioners if additional medical treatment is determined necessary.",
+      "task_type": "Core"
     },
     {
       "task": "Remove foreign bodies from the eye.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task_type": "Core"
     },
     {
-      "task": "Provide patients undergoing eye surgeries, such as cataract and laser vision correction, with pre- and post-operative care.",
-      "task_type": "Core",
-      "relevance": 0.5
-    },
-    {
-      "task": "Prescribe therapeutic procedures to correct or conserve vision.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task": "Provide patients undergoing eye surgeries, such as cataract and laser vision correction, with pre- and post-operative care and prescribe therapeutic procedures to correct or conserve vision.",
+      "task_type": "Core"
     },
     {
       "task": "Provide vision therapy and low-vision rehabilitation.",
-      "task_type": "Core",
-      "relevance": 0.5
+      "task_type": "Core"
     }
   ],
   "technology_skills": [
@@ -1636,19 +1618,7 @@
       "weight": 0.5
     },
     {
-      "name": "Intuit QuickBooks",
-      "weight": 0.5
-    },
-    {
-      "name": "MAX Systems Max-Gold7",
-      "weight": 0.5
-    },
-    {
       "name": "MediNotes Charting Plus",
-      "weight": 0.5
-    },
-    {
-      "name": "Microsoft Access",
       "weight": 0.5
     },
     {
@@ -1657,10 +1627,6 @@
     },
     {
       "name": "Microsoft Excel",
-      "weight": 0.5
-    },
-    {
-      "name": "Microsoft SQL Server",
       "weight": 0.5
     },
     {
@@ -1677,10 +1643,6 @@
     },
     {
       "name": "OfficeMate Software Solutions OfficeMate",
-      "weight": 0.5
-    },
-    {
-      "name": "Operational Data Store ODS software",
       "weight": 0.5
     },
     {
@@ -1703,6 +1665,305 @@
       "name": "Web browser software",
       "weight": 0.5
     }
+  ],
+  "tools_used": [
+    {
+      "name": "4-well lens holders",
+      "weight": 0.5
+    },
+    {
+      "name": "8-well lens flippers",
+      "weight": 0.5
+    },
+    {
+      "name": "Adult fixation targets",
+      "weight": 0.5
+    },
+    {
+      "name": "Amsler grids",
+      "weight": 0.5
+    },
+    {
+      "name": "Autorefractors",
+      "weight": 0.5
+    },
+    {
+      "name": "Binocular indirect ophthalmoscopes",
+      "weight": 0.5
+    },
+    {
+      "name": "Biomicroscopes",
+      "weight": 0.5
+    },
+    {
+      "name": "Broken wheel visual acuity cards",
+      "weight": 0.5
+    },
+    {
+      "name": "Child fixation targets",
+      "weight": 0.5
+    },
+    {
+      "name": "Clear 20 diopter condensing lenses",
+      "weight": 0.5
+    },
+    {
+      "name": "Clear 78 diopter condensing lenses",
+      "weight": 0.5
+    },
+    {
+      "name": "Color vision testing devices",
+      "weight": 0.5
+    },
+    {
+      "name": "Combined cover paddle occluders",
+      "weight": 0.5
+    },
+    {
+      "name": "Contact lens loupes",
+      "weight": 0.5
+    },
+    {
+      "name": "Corneal pachymeters",
+      "weight": 0.5
+    },
+    {
+      "name": "Corneal topographers",
+      "weight": 0.5
+    },
+    {
+      "name": "Desktop computers",
+      "weight": 0.5
+    },
+    {
+      "name": "Fixation cards",
+      "weight": 0.5
+    },
+    {
+      "name": "Fundus cameras",
+      "weight": 0.5
+    },
+    {
+      "name": "Gonioscopy lenses",
+      "weight": 0.5
+    },
+    {
+      "name": "HRR Hardy-Rand-Rittler plates",
+      "weight": 0.5
+    },
+    {
+      "name": "Horizontal prism bars",
+      "weight": 0.5
+    },
+    {
+      "name": "Hruby lenses",
+      "weight": 0.5
+    },
+    {
+      "name": "Ishihara plates",
+      "weight": 0.5
+    },
+    {
+      "name": "Keratometers",
+      "weight": 0.5
+    },
+    {
+      "name": "Lachrymal cannulae",
+      "weight": 0.5
+    },
+    {
+      "name": "Lachrymal dilators",
+      "weight": 0.5
+    },
+    {
+      "name": "Lea symbols near vision cards",
+      "weight": 0.5
+    },
+    {
+      "name": "Lens calipers",
+      "weight": 0.5
+    },
+    {
+      "name": "Lens clocks",
+      "weight": 0.5
+    },
+    {
+      "name": "Lensometers",
+      "weight": 0.5
+    },
+    {
+      "name": "Loose prisms",
+      "weight": 0.5
+    },
+    {
+      "name": "Multiple pin hole occluders",
+      "weight": 0.5
+    },
+    {
+      "name": "Multiple pinhole mask occluders",
+      "weight": 0.5
+    },
+    {
+      "name": "Non-contact handheld fundus lenses",
+      "weight": 0.5
+    },
+    {
+      "name": "Notebook computers",
+      "weight": 0.5
+    },
+    {
+      "name": "Ophthalmic transilluminators",
+      "weight": 0.5
+    },
+    {
+      "name": "Ophthalmoscopes",
+      "weight": 0.5
+    },
+    {
+      "name": "Pediatric near point cards",
+      "weight": 0.5
+    },
+    {
+      "name": "Personal computers",
+      "weight": 0.5
+    },
+    {
+      "name": "Phoroptors",
+      "weight": 0.5
+    },
+    {
+      "name": "Pupil diameter PD rules",
+      "weight": 0.5
+    },
+    {
+      "name": "Randot stereo tests",
+      "weight": 0.5
+    },
+    {
+      "name": "Retinal cameras",
+      "weight": 0.5
+    },
+    {
+      "name": "Retinoscopes",
+      "weight": 0.5
+    },
+    {
+      "name": "Scleral depressors",
+      "weight": 0.5
+    },
+    {
+      "name": "Single Lea symbol books",
+      "weight": 0.5
+    },
+    {
+      "name": "Skiascopic lens rack",
+      "weight": 0.5
+    },
+    {
+      "name": "Snellen eye charts",
+      "weight": 0.5
+    },
+    {
+      "name": "Tonometers",
+      "weight": 0.5
+    },
+    {
+      "name": "Trial lens sets",
+      "weight": 0.5
+    },
+    {
+      "name": "Worth 4-dot tests",
+      "weight": 0.5
+    },
+    {
+      "name": "Yellow condensing lenses",
+      "weight": 0.5
+    }
+  ],
+  "detailed_work_activities": [
+    {
+      "dwa_id": "4.A.1.a.2.I05.D03",
+      "title": "Monitor patients following surgeries or other treatments.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I01.D04",
+      "title": "Test patient vision.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.2.a.4.I06.D03",
+      "title": "Analyze test data or images to inform diagnosis or treatment.",
+      "element_id": "4.A.2.a.4",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.2.b.2.I01.D02",
+      "title": "Develop medical treatment plans.",
+      "element_id": "4.A.2.b.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I05.D05",
+      "title": "Collaborate with healthcare professionals to plan or provide treatment.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I01.D02",
+      "title": "Refer patients to other healthcare practitioners or health resources.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I06.D01",
+      "title": "Fit eyeglasses, contact lenses, or other vision aids.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I12.D02",
+      "title": "Treat acute illnesses, infections, or injuries.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I12.D07",
+      "title": "Treat chronic diseases or disorders.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I06.D05",
+      "title": "Train patients, family members, or caregivers in techniques for managing disabilities or illnesses.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I06.D01",
+      "title": "Prescribe treatments or therapies.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I06.D03",
+      "title": "Prescribe medications.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I06.D04",
+      "title": "Prescribe assistive medical devices or related treatments.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.5
+    }
+  ],
+  "reported_job_titles": [
+    "Optometrist",
+    "Optometry Doctor (OD)",
+    "Therapeutic Optometrist"
   ],
   "education": [
     {

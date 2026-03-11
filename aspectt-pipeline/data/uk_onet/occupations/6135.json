@@ -1544,1704 +1544,76 @@
   ],
   "tasks": [
     {
-      "task": "Stock or issue medical supplies, such as dressing packs or treatment trays.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
+      "task": "Assist patients with daily living activities, including feeding, bathing, grooming, dressing, toileting, and ambulation, as well as serving meals or feeding patients who need assistance or persuasion.",
+      "task_type": "Core"
     },
     {
-      "task": "Feed patients or assist patients to eat or drink.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Monitor patient health by recording vital signs, such as temperature, blood pressure, pulse, and respiration rate, and document observations related to patient behavior, progress, and symptoms.",
+      "task_type": "Core"
     },
     {
-      "task": "Answer patient call signals, signal lights, bells, or intercom systems to determine patients' needs.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Clean and sanitize patient areas, including patient rooms and bathrooms, and change bed linens to maintain a safe and orderly environment.",
+      "task_type": "Core"
     },
     {
-      "task": "Apply clean dressings, slings, stockings, or support bandages, under direction of nurse or physician.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
+      "task": "Communicate with patients to assess their feelings and need for assistance, and provide emotional support and encouragement, especially for those with cognitive or psychological disabilities.",
+      "task_type": "Core"
     },
     {
-      "task": "Assist nurses or physicians in the operation of medical equipment or provision of patient care.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Assist nurses and physicians by providing support for patient care, including changing dressings, applying bandages, and operating medical equipment under their direction.",
+      "task_type": "Core"
     },
     {
-      "task": "Change bed linens or make beds.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Provide transportation to patients for medical treatments, testing, or recreational outings, using wheelchairs or moveable beds as necessary.",
+      "task_type": "Core"
     },
     {
-      "task": "Clean and sanitize patient rooms, bathrooms, examination rooms, or other patient areas.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Maintain patient hygiene by washing, grooming, and dressing patients who are unable to do so for themselves, including ensuring their personal hygiene needs are met.",
+      "task_type": "Core"
     },
     {
-      "task": "Collect specimens, such as urine, feces, or sputum.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Collect specimens such as urine or feces for testing and transport these specimens to laboratories, ensuring proper documentation and handling.",
+      "task_type": "Core"
     },
     {
-      "task": "Communicate with patients to ascertain feelings or need for assistance or social and emotional support.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Provide assistance with personal care tasks, such as helping patients adjust to hospital routines, and encouraging participation in social, educational, or recreational activities.",
+      "task_type": "Core"
     },
     {
-      "task": "Transport specimens, laboratory items, or pharmacy items, ensuring proper documentation and delivery to authorized personnel.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
+      "task": "Provide personal care and assistance to clients, including help with daily living activities such as bathing, dressing, grooming, toilet use, mobility, and meal preparation.",
+      "task_type": "Core"
     },
     {
-      "task": "Provide information, such as directions, visiting hours, or patient status information to visitors or callers.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Monitor clients' health status, including checking vital signs such as pulse, temperature, and respiration, and report any changes or concerns to supervisors.",
+      "task_type": "Core"
     },
     {
-      "task": "Lift or assist others to lift patients to move them on or off beds, examination tables, surgical tables, or stretchers.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Transport clients to medical appointments, social outings, or shopping, providing companionship and assistance as needed.",
+      "task_type": "Core"
     },
     {
-      "task": "Explain medical instructions to patients or family members.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
+      "task": "Provide emotional support to clients and their families, assisting with lifestyle adjustments during periods of transition or health challenges.",
+      "task_type": "Core"
     },
     {
-      "task": "Exercise patients who are comatose, paralyzed, or have restricted mobility.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Maintain records of client care, progress, and services performed, and communicate with supervisors about any issues or changes in client conditions.",
+      "task_type": "Core"
     },
     {
-      "task": "Wash, groom, shave, or drape patients to prepare them for surgery, treatment, or examination.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Perform light housekeeping tasks related to client care, including laundry, cleaning, and cooking.",
+      "task_type": "Core"
     },
     {
-      "task": "Undress, wash, and dress patients who are unable to do so for themselves.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Assist clients in obtaining community resources or benefits, and provide guidance on issues such as nutrition and hygiene.",
+      "task_type": "Core"
     },
     {
-      "task": "Turn or reposition bedridden patients.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
+      "task": "Transport and accompany clients to various locations and provide assistance with appointments or errands as necessary.",
+      "task_type": "Core"
     },
     {
-      "task": "Transport patients to treatment units, testing units, operating rooms, or other areas, using wheelchairs, stretchers, or moveable beds.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Supply, collect, or empty bedpans.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Document or otherwise report observations of patient behavior, complaints, or physical symptoms to nurses.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Set up treating or testing equipment, such as oxygen tents, portable radiograph (x-ray) equipment, or overhead irrigation bottles, as directed by a physician or nurse.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Review patients' dietary restrictions, food allergies, and preferences to ensure patient receives appropriate diet.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Restock patient rooms with personal hygiene items, such as towels, washcloths, soap, or toilet paper.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Remind patients to take medications or nutritional supplements.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Record vital signs, such as temperature, blood pressure, pulse, or respiration rate, as directed by medical or nursing staff.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Record height or weight of patients.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Provide physical support to assist patients to perform daily living activities, such as getting out of bed, bathing, dressing, using the toilet, standing, walking, or exercising.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Prepare or serve food trays.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Position or hold patients in position for surgical preparation.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Observe or examine patients to detect symptoms that may require medical attention, such as bruises, open wounds, or blood in urine.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Measure and record food and liquid intake or urinary and fecal output, reporting changes to medical or nursing staff.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Administer medications or treatments, such as catheterizations, suppositories, irrigations, enemas, massages, or douches, as directed by a physician or nurse.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Gather information from caregivers, nurses, or physicians about patient condition, treatment plans, or appropriate activities.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Aid patients in becoming accustomed to hospital routines.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Provide patients with assistance in bathing, dressing, or grooming, demonstrating these skills as necessary.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Restrain or aid patients as necessary to prevent injury.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Serve meals or feed patients needing assistance or persuasion.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Perform nursing duties, such as administering medications, measuring vital signs, collecting specimens, or drawing blood samples.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Organize, supervise, or encourage patient participation in social, educational, or recreational activities.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Participate in recreational activities with patients, including card games, sports, or television viewing.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Work as part of a team that may include psychiatrists, psychologists, psychiatric nurses, or social workers.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Provide patients with cognitive, intellectual, or developmental disabilities with routine physical, emotional, psychological, or rehabilitation care under the direction of nursing or medical staff.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Maintain patients' restrictions to assigned areas.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Accompany patients to and from wards for medical or dental treatments, shopping trips, or religious or recreational events.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Clean and disinfect rooms and furnishings to maintain a safe and orderly environment.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Complete administrative tasks, such as entering orders into computer, answering telephone calls, or maintaining medical or facility information.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Record and maintain patient information, such as vital signs, eating habits, behavior, progress notes, treatments, or discharge plans.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Complete physical checks and monitor patients to detect unusual or harmful behavior and report observations to professional staff.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Listen and provide emotional support and encouragement to psychiatric patients.",
-      "task_type": "Core",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Interview patients upon admission and record information.",
-      "task_type": "Supplemental",
-      "relevance": 0.3333333333333333
-    },
-    {
-      "task": "Demonstrate therapy techniques, such as manual and creative arts and games.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Perform clerical, administrative, and secretarial duties, such as answering phones, restocking and ordering supplies, filling out paperwork, and scheduling appointments.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Assist occupational therapists in planning, implementing, and administering therapy programs to restore, reinforce, and enhance performance, using selected activities and special equipment.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Instruct patients and families in work, social, and living skills, the care and use of adaptive equipment, and other skills to facilitate home and work adjustment to disability.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Prepare and maintain work area, materials, and equipment and maintain inventory of treatment and educational supplies.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Manage intradepartmental infection control and equipment security.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Observe patients' attendance, progress, attitudes, and accomplishments and record and maintain information in client records.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Transport patients to and from the occupational therapy work area.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Adjust and repair assistive devices and make adaptive changes to other equipment and to environments.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Assist educational specialists or clinical psychologists in administering situational or diagnostic tests to measure client's abilities or progress.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Accompany patients on outings, providing transportation when necessary.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Receive, store, and inventory pharmaceutical supplies or medications, check for out-of-date medications, and notify pharmacist when inventory levels are low.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Maintain records of inventory or equipment usage and order medical instruments or supplies when inventory is low.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Stock crash carts or other medical supplies.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Schedule patient appointments with physical therapists and coordinate therapists' schedules.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Clean and organize work area and disinfect equipment after treatment.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Observe patients during treatment to compile and evaluate data on patients' responses and progress and report to physical therapist.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Instruct, motivate, safeguard, or assist patients practicing exercises or functional activities, under direction of medical staff.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Secure patients into or onto therapy equipment.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Report to supervisors or therapists, verbally or in writing, on patients' progress, attitudes, attendance, and accomplishments.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Encourage patients and attend to their physical needs to facilitate the attainment of therapeutic goals.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Assist hospital staff with patient care duties, such as providing transportation or setting up traction.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Deliver equipment to specified hospital locations or to patients' residences.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Purge wastes from equipment by connecting equipment to water sources and flushing water through systems.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Attend hospital in-service programs related to areas of work specialization.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Check sterile supplies to ensure that they are not outdated.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Report defective equipment to appropriate supervisors or staff.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Examine equipment to detect leaks, worn or loose parts, or other indications of disrepair.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Start equipment and observe gauges and equipment operation to detect malfunctions and to ensure equipment is operating to prescribed standards.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Disinfect and sterilize equipment, such as respirators, hospital beds, or oxygen or dialysis equipment, using sterilizers, aerators, or washers.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Record sterilizer test results.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Operate and maintain steam autoclaves, keeping records of loads completed, items in loads, and maintenance procedures performed.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Clean instruments to prepare them for sterilization.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Evaluate the living skills and capacities of clients with physical, developmental, or mental health disabilities.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Administer traction to relieve neck or back pain, using intermittent or static traction equipment.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Participate in patient care tasks, such as assisting with passing food trays, feeding residents, or bathing residents on bed rest.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Fit patients for orthopedic braces, prostheses, or supportive devices, adjusting fit as needed.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Train patients to use orthopedic braces, prostheses, or supportive devices.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Measure patient's range-of-joint motion, body parts, or vital signs to determine effects of treatments or for patient evaluations.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Assist patients to dress, undress, or put on and remove supportive devices, such as braces, splints, or slings.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Arrange treatment supplies to keep them in order.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Change linens, such as bed sheets and pillow cases.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Administer active or passive manual therapeutic exercises, therapeutic massage, or heat, light, sound, water, or electrical modality treatments, such as ultrasound.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Maintain equipment or furniture to keep it in good working condition, including performing the assembly or disassembly of equipment or accessories.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Perform clerical duties, such as taking inventory, ordering supplies, answering telephone, taking messages, or filling out forms.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Record treatment given and equipment used.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Confer with physical therapy staff or others to discuss and evaluate patient information for planning, modifying, or coordinating treatment.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Transport patients to and from treatment areas, using wheelchairs or providing standing support.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Organize and assemble routine or specialty surgical instrument trays or other sterilized supplies, filling special requests as needed.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Supervise patients in choosing and completing work assignments or arts and crafts projects.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Organize or clean blood-drawing trays, ensuring that all instruments are sterile and all needles, syringes, or related items are of first-time use.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Perform clerical tasks, such as filing, compiling and maintaining prescription records, or composing letters.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Draw blood from veins by vacuum tube, syringe, or butterfly venipuncture methods.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Explain fluid or tissue collection procedures to patients.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Match laboratory requisition forms to specimen tubes.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Answer patient call signals, signal lights, bells, or intercom systems to determine patients' needs.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Administer subcutaneous or intramuscular injects, in accordance with licensing restrictions.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Calibrate or maintain machines, such as those used for plasma collection.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Collect specimens at specific time intervals for tests, such as those assessing therapeutic drug levels.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Conduct hemoglobin tests to ensure donor iron levels are normal.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Deliver medication to treatment areas, living units, residences, or clinics, using various means of transportation.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Compound, package, and label pharmaceutical products, under direction of pharmacist.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Process medical insurance claims, posting bill amounts and calculating copayments.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Prepare, maintain, and record records of inventories, receipts, purchases, or deliveries, using a variety of computer screen formats.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Maintain and clean equipment, work areas, or shelves.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Restock storage areas, replenishing items on shelves.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Process blood or other fluid samples for further analysis by other medical professionals.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Operate cash register to process cash or credit sales.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Prepare prescription labels by typing or operating a computer and printer.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Unpack, sort, count, and label incoming merchandise, including items requiring special handling or refrigeration.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Transport specimens or fluid samples from collection sites to laboratories.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Greet customers and help them locate merchandise.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Answer telephone inquiries, referring callers to pharmacist when necessary.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Accept prescriptions for filling, gathering and processing necessary information.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Conduct standards tests, such as blood alcohol, blood culture, oral glucose tolerance, glucose screening, blood smears, or peak and trough drug levels tests.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Determine donor suitability, according to interview results, vital signs, and medical history.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Enter patient, specimen, insurance, or billing information into computer.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Monitor blood or plasma donors during and after procedures to ensure health, safety, and comfort.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Train other medical personnel in phlebotomy or laboratory techniques.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Serve refreshments to donors to ensure absorption of sugar into their systems.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Draw blood from capillaries by dermal puncture, such as heel or finger stick methods.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Draw blood from arteries, using arterial collection techniques.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Document route of specimens from collection to laboratory analysis and diagnosis.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Serve or collect food trays.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Carry messages or documents between departments.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Change soiled linens, such as bed linens, drapes, or cubicle curtains.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Clean and sanitize patient rooms, bathrooms, examination rooms, or other patient areas.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Clean equipment, such as wheelchairs, hospital beds, or portable medical equipment, documenting needed repairs or maintenance.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Collect and transport infectious or hazardous waste in closed containers for sterilization or disposal, in accordance with applicable law, standards, or policies.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Collect soiled linen or trash.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Disinfect or sterilize equipment or supplies, using germicides or sterilizing equipment.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Lift or assist others to lift patients to move them on or off beds, examination tables, surgical tables, or stretchers.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Position or hold patients in position for surgical preparation.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Dispose of contaminated sharps, in accordance with applicable laws, standards, and policies.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Restrain patients to prevent violence or injury or to assist physicians or nurses to administer treatments.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Respond to emergency situations, such as emergency medical calls, security calls, or fire alarms.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Stock or issue medical supplies, such as dressing packs or treatment trays.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Stock utility rooms, nonmedical storage rooms, or cleaning carts with supplies.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Transport bodies to the morgue.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Transport patients to treatment units, testing units, operating rooms, or other areas, using wheelchairs, stretchers, or moveable beds.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Transport portable medical equipment or medical supplies between rooms or departments.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Transport specimens, laboratory items, or pharmacy items, ensuring proper documentation and delivery to authorized personnel.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Turn or reposition bedridden patients, alone or with assistance, to prevent bedsores.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Provide physical support to patients to assist them to perform daily living activities, such as getting out of bed, bathing, dressing, using the toilet, standing, walking, or exercising.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Separate collected materials for disposal, recycling, or reuse, in accordance with environmental policies.",
-      "task_type": "Supplemental",
-      "relevance": 0.25
-    },
-    {
-      "task": "Collect fluid or tissue samples, using appropriate collection procedures.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Dispose of blood or other biohazard fluids or tissue, in accordance with applicable laws, standards, or policies.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Provide sample analysis results to physicians to assist diagnosis.",
-      "task_type": "Core",
-      "relevance": 0.25
-    },
-    {
-      "task": "Bathe patients.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Administer prescribed oral medications, under the written direction of physician or as directed by home care nurse or aide, and ensure patients take their medicine.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Care for patients by changing bed linens, washing and ironing laundry, cleaning, or assisting with their personal care.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Shop for groceries, clothing, and other items needed for children's care.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Order and monitor dental supplies and equipment inventory.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Maintain a safe play environment.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Communicate with children's parents or guardians about daily activities, behaviors, and related issues.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Assist in preparing food and serving meals and refreshments to children.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Create developmentally appropriate lesson plans.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Regulate children's rest periods.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Perform general administrative tasks, such as taking attendance, editing internal paperwork, and making phone calls.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Organize and participate in recreational activities and outings, such as games and field trips.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Provide care for children with physical, developmental, or mental health disabilities.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Perform general personnel functions, such as supervision, training, and scheduling.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Fabricate and fit orthodontic appliances and materials for patients, such as retainers, wires, or bands.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Prepare patient, sterilize or disinfect instruments, set up instrument trays, prepare materials, or assist dentist during dental procedures.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Entertain, converse with, or read aloud to patients to keep them mentally healthy and alert.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Accompany children to and from school, on outings, and to medical appointments.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Regulate children's rest periods and nap schedules.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Meet regularly with parents to discuss children's activities and development.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Help prepare and serve nutritionally balanced meals and snacks for children.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Massage patients or apply preparations or treatments, such as liniment, alcohol rubs, or heat-lamp stimulation.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Care for children with disabilities or who have sick parents or parents with disabilities.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Accompany clients to doctors' offices or on other trips outside the home, providing transportation, assistance, and companionship.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Perform a variety of duties as requested by client, such as obtaining household supplies or running errands.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Change dressings.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Check patients' pulse, temperature, and respiration.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Direct patients in simple prescribed exercises or in the use of braces or artificial limbs.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Plan, purchase, prepare, or serve meals to patients or other family members, according to prescribed diets.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Organize and conduct age-appropriate recreational activities, such as games, arts and crafts, sports, walks, and play dates.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Provide patients and families with emotional support and instruction in areas such as caring for infants, preparing healthy meals, living independently, or adapting to disability or illness.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Provide patients with help moving in and out of beds, baths, wheelchairs, or automobiles and with dressing and grooming.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Maintain records of patient care, condition, progress, or problems to report and discuss observations with supervisor or case manager.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Instruct children in safe behavior, such as seeking adult assistance when crossing the street and avoiding contact with unsafe objects.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Remove hazards and develop appropriate boundaries and rules to create a safe environment for children.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Teach and perform age-appropriate activities, such as lap play, reading, and arts and crafts, to encourage intellectual development of children.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Keep records of play, meal schedules, and bill payment.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Instruct and assist children in the development of health and personal habits, such as eating, resting, and toilet behavior.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Perform housekeeping and cleaning duties related to children's care.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Transport children to schools, social outings, and medical appointments.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Assign appropriate chores and praise targeted behaviors to encourage development of self-control, self-confidence, and responsibility.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Supervise and assist with homework.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Help develop or monitor family schedule.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Work with parents to develop and implement discipline programs to promote desirable child behavior.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Model appropriate social behaviors and encourage concern for others to cultivate development of interpersonal relationships and communication skills.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Perform first aid or cardiopulmonary resuscitation (CPR) when required.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Observe children's behavior for irregularities, take temperature, transport children to doctor, or administer medications, as directed, to maintain children's health.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Perform housekeeping duties, such as laundry, cleaning, dish washing, and changing of linens.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Support children's emotional and social development, encouraging understanding of others and positive self-concepts.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Apply protective coating of fluoride to teeth.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Help children with homework and school work.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Clean teeth, using dental instruments.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Clean and polish removable appliances.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Make preliminary impressions for study casts and occlusal registrations for mounting study casts.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Instruct patients in oral hygiene and plaque control programs.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Pour, trim, and polish study casts.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Assist dentist in management of medical or dental emergencies.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Provide postoperative instructions prescribed by dentist.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Record treatment information in patient records.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Fabricate temporary restorations or custom impressions from preliminary impressions.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Schedule appointments, prepare bills and receive payment for dental services, complete insurance forms, and maintain records, manually or using computer.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Take and record medical and dental histories and vital signs of patients.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Care for children in institutional setting, such as group homes, nursery schools, private businesses, or schools for people with disabilities.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Keep records on individual children, including daily observations and information about activities, meals served, and medications administered.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Dress children and change diapers.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Sterilize bottles and prepare formulas.",
-      "task_type": "Supplemental",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Sanitize toys and play equipment.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Read to children and teach them simple painting, drawing, handicrafts, and songs.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Instruct children in health and personal habits, such as eating, resting, and toilet habits.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Expose dental diagnostic x-rays.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Organize and store toys and materials to ensure order in activity areas.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Observe and monitor children's play activities.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Identify signs of emotional or developmental problems in children and bring them to parents' or guardians' attention.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Discipline children and recommend or initiate other measures to control behavior, such as caring for own clothing and picking up toys and books.",
-      "task_type": "Core",
-      "relevance": 0.16666666666666666
-    },
-    {
-      "task": "Care for individuals or families during periods of incapacitation, family disruption, or convalescence, providing companionship, personal care, or help in adjusting to new lifestyles.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Perform healthcare-related tasks, such as monitoring vital signs and medication, under the direction of registered nurses or physiotherapists.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Administer bedside or personal care, such as ambulation or personal hygiene assistance.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Prepare and maintain records of client progress and services performed, reporting changes in client condition to manager or supervisor.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Perform housekeeping duties, such as cooking, cleaning, washing clothes or dishes, or running errands.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Provide clients with communication assistance, typing their correspondence or obtaining information for them.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Train family members to provide bedside care.",
-      "task_type": "Supplemental",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Transport clients to locations outside the home, such as to physicians' offices or on outings, using a motor vehicle.",
-      "task_type": "Supplemental",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Participate in case reviews, consulting with the team caring for the client, to evaluate the client's needs and plan for continuing services.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Plan, shop for, or prepare nutritious meals or assist families in planning, shopping for, or preparing nutritious meals.",
-      "task_type": "Supplemental",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Instruct or advise clients on issues, such as household cleanliness, utilities, hygiene, nutrition, or infant care.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Assess clients' cognitive abilities and physical and emotional needs to determine appropriate interventions.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Develop and implement behavioral management and care plans for clients.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Oversee day-to-day group activities of residents in institution.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Keep records or prepare reports for owner or management concerning visits with clients.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Visit individuals in homes or attend group meetings to provide information on agency services, requirements, or procedures.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Advise clients regarding food stamps, child care, food, money management, sanitation, or housekeeping.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Submit reports and review reports or problems with superior.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Interview individuals or family members to compile information on social, educational, criminal, institutional, or drug history.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Transport and accompany clients to shopping areas or to appointments, using automobile.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Explain rules established by owner or management, such as sanitation or maintenance requirements or parking regulations.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Observe and discuss meal preparation and suggest alternate methods of food preparation.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Demonstrate use and care of equipment for tenant use.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Consult with supervisor concerning programs for individual families.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Observe clients' food selections and recommend alternate economical and nutritional food choices.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Inform tenants of facilities, such as laundries or playgrounds.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Assist in locating housing for displaced individuals.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Assist clients with preparation of forms, such as tax or rent forms.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Assist in planning food budgets, using charts or sample budgets.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Provide information or refer individuals to public or private agencies or community services for assistance.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Perform safety checks to verify proper equipment functioning.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Prepare suites or rooms according to endoscopic procedure requirements.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Place devices, such as blood pressure cuffs, pulse oximeter sensors, nasal cannulas, surgical cautery pads, and cardiac monitoring electrodes, on patients to monitor vital signs.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Assist speech-language pathologists in the conduct of speech-language research projects.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
-    },
-    {
-      "task": "Document clients' progress toward meeting established treatment objectives.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Collect and compile data to document clients' performance or assess program quality.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Assist speech-language pathologists in the remediation or development of speech and language skills.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Implement treatment plans or protocols as directed by speech-language pathologists.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Assist speech-language pathologists in the conduct of client screenings or assessments of language, voice, fluency, articulation, or hearing.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Read current literature, talk with colleagues, or participate in professional organizations or conferences to keep abreast of developments in endoscopy.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Perform support duties, such as preparing materials, keeping records, maintaining supplies, and scheduling activities.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Conduct in-service training sessions to disseminate information regarding equipment or instruments.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Collect specimens from patients, using standard medical procedures.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Attend in-service training to validate or refresh basic professional skills.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Assist physicians or registered nurses in the conduct of endoscopic procedures.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Position or transport patients in accordance with instructions from medical personnel.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Maintain or repair endoscopic equipment.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Conduct in-service training sessions, or family and community education programs.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
-    },
-    {
-      "task": "Test or maintain equipment to ensure correct performance.",
-      "task_type": "Supplemental",
-      "relevance": 0.1
-    },
-    {
-      "task": "Prepare charts, graphs, or other visual displays to communicate clients' performance information.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Maintain inventories of endoscopic equipment and supplies.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Clean, disinfect, or calibrate scopes or other endoscopic instruments according to manufacturer recommendations and facility standards.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Select or prepare speech-language instructional materials.",
-      "task_type": "Core",
-      "relevance": 0.1
-    },
-    {
-      "task": "Plan, direct, or supervise recreational and entertainment activities led by staff, such as sports, aquatics, games, or performing arts.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Meet with managers or other supervisors to stay informed of changes affecting workers or operations.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Investigate employee complaints and resolve problems following management rules and regulations.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Inform management about problems, such as employee disputes.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Direct or coordinate the activities of workers, such as hotel staff or hair stylists.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Train workers in proper operational procedures and functions and explain company policies.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Arrange worker breaks to ensure services are adequately staffed throughout each shift.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Take disciplinary action to address performance problems.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Serve as a point of contact between managerial staff and leaders of recreational or entertainment activities.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Resolve customer complaints regarding worker performance or services rendered.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Requisition supplies and equipment necessary for workers to facilitate recreational or entertainment activities, such as safety harnesses, flash lights, or first aid kits.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Recruit and hire staff members.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Provide staff with assistance in performing difficult or complicated duties.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Furnish customers with information on events or activities.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Inform workers about interests or special needs of specific groups.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Direct marketing, advertising, or other customer recruitment efforts.",
-      "task_type": "Supplemental",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Direct or coordinate the activities of entertainment and recreation related workers.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Requisition necessary supplies, equipment, or services.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Collaborate with staff members to plan or develop programs of events or schedules of activities.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Train workers in proper operational procedures and functions and explain company policies.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Inform workers about interests or special needs of specific groups.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Resolve customer complaints regarding worker performance or services rendered.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Take disciplinary action to address performance problems.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Recruit and hire staff members.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Apply customer feedback to service improvement efforts.",
-      "task_type": "Core",
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Analyze and record personnel or operational data and write related activity reports.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Apply customer feedback to service improvement efforts.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
-      "task_type": null,
-      "relevance": 0.03571428571428571
-    },
-    {
-      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Take disciplinary action to address performance problems.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Resolve customer complaints regarding worker performance or services rendered.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Requisition necessary supplies, equipment, or services.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Recruit and hire staff members.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Recommend and implement measures to improve worker motivation, work methods, or customer services.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Apply customer feedback to service improvement efforts.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Inspect materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Inform workers about interests or special needs of specific groups.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Enforce safety rules and regulations.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Direct or coordinate the activities of workers, such as flight or car attendants.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Analyze and record personnel or operational data and write related activity reports.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
-    },
-    {
-      "task": "Train workers in proper operational procedures and functions and explain company policies.",
-      "task_type": null,
-      "relevance": 0.015151515151515152
+      "task": "Provide assistance with tasks such as preparing meals, doing light housekeeping, and laundry, as well as personal care activities like feeding, bathing, dressing, grooming, toileting, and ambulation to support individuals with disabilities or illness.",
+      "task_type": "Core"
     }
   ],
   "technology_skills": [
@@ -3306,10 +1678,6 @@
       "weight": 0.6428571428571428
     },
     {
-      "name": "Database software",
-      "weight": 0.625
-    },
-    {
       "name": "Billing software",
       "weight": 0.5833333333333333
     },
@@ -3326,31 +1694,11 @@
       "weight": 0.5833333333333333
     },
     {
-      "name": "Microsoft Access",
-      "weight": 0.5568181818181818
-    },
-    {
       "name": "PointClickCare healthcare software",
       "weight": 0.4583333333333333
     },
     {
-      "name": "Microsoft SharePoint",
-      "weight": 0.41666666666666663
-    },
-    {
-      "name": "Apache Spark",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Educational software",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Health information database software",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Medical condition coding software",
       "weight": 0.3333333333333333
     },
     {
@@ -3358,35 +1706,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Telemetry software",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "YouTube",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Calendar software",
-      "weight": 0.25
-    },
-    {
-      "name": "Donor management system software",
-      "weight": 0.25
-    },
-    {
-      "name": "Iatric Systems MobiLab",
-      "weight": 0.25
-    },
-    {
-      "name": "Inventory tracking software",
-      "weight": 0.25
-    },
-    {
-      "name": "JavaScript",
-      "weight": 0.25
-    },
-    {
-      "name": "Kronos Workforce Timekeeper",
       "weight": 0.25
     },
     {
@@ -3402,22 +1722,6 @@
       "weight": 0.25
     },
     {
-      "name": "MEDITECH Supply Chain Management",
-      "weight": 0.25
-    },
-    {
-      "name": "McKesson ANSOS One-Staff",
-      "weight": 0.25
-    },
-    {
-      "name": "Microsoft SharePoint Server",
-      "weight": 0.25
-    },
-    {
-      "name": "Patient record maintenance software",
-      "weight": 0.25
-    },
-    {
       "name": "Pyxis MedStation software",
       "weight": 0.25
     },
@@ -3426,193 +1730,2597 @@
       "weight": 0.25
     },
     {
-      "name": "Enterprise resource planning ERP software",
-      "weight": 0.18181818181818182
-    },
-    {
-      "name": "SAP software",
-      "weight": 0.18181818181818182
-    },
-    {
-      "name": "AIGHD OASIS",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Google Classroom",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Henry Schein Dentrix",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Kodak Dental Systems Kodak SOFTDENT Practice management software PMS",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Linux",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Mi-Co software",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Microsoft Exchange",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Nearpod",
+      "name": "Patient electronic medical record EMR software",
+      "weight": 0.1
+    }
+  ],
+  "tools_used": [
+    {
+      "name": "Personal computers",
+      "weight": 2.9711038961038962
+    },
+    {
+      "name": "Desktop computers",
+      "weight": 2.4115800865800865
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 1.7282467532467531
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 1.5782467532467532
+    },
+    {
+      "name": "Specimen collection containers",
+      "weight": 1.1595238095238094
+    },
+    {
+      "name": "Crutches",
+      "weight": 1.1428571428571428
+    },
+    {
+      "name": "Wheelchairs",
+      "weight": 1.1428571428571428
+    },
+    {
+      "name": "Hydraulic patient lifts",
+      "weight": 0.9166666666666666
+    },
+    {
+      "name": "Safety razors",
+      "weight": 0.9166666666666666
+    },
+    {
+      "name": "Medical examination protective gloves",
+      "weight": 0.8333333333333333
+    },
+    {
+      "name": "Urinalysis test strips",
+      "weight": 0.8333333333333333
+    },
+    {
+      "name": "Mechanical stethoscopes",
+      "weight": 0.8261904761904761
+    },
+    {
+      "name": "Canes",
+      "weight": 0.8095238095238095
+    },
+    {
+      "name": "Anti-embolism elastic stockings",
+      "weight": 0.75
+    },
+    {
+      "name": "Gait belts",
+      "weight": 0.75
+    },
+    {
+      "name": "Oxygen tanks",
+      "weight": 0.75
+    },
+    {
+      "name": "Electronic patient thermometers",
+      "weight": 0.7261904761904762
+    },
+    {
+      "name": "Shower chairs",
+      "weight": 0.7261904761904762
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.7115800865800865
+    },
+    {
+      "name": "Automated blood pressure cuffs",
+      "weight": 0.6833333333333333
+    },
+    {
+      "name": "Medical scales",
+      "weight": 0.6833333333333333
+    },
+    {
+      "name": "Patient transport wheelchairs",
+      "weight": 0.6833333333333333
+    },
+    {
+      "name": "Automated external defibrillators AED",
+      "weight": 0.6190476190476191
+    },
+    {
+      "name": "Enema equipment",
+      "weight": 0.6
+    },
+    {
+      "name": "Pulse oximeters",
+      "weight": 0.6
+    },
+    {
+      "name": "Adjustable hospital beds",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Blood collection syringes",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Manual blood pressure equipment",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Medical gurneys",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Orthopedic splint sets",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Oxygen tents",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Oxygen therapy equipment",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Patient bed scales",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Patient limb restraints",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Patient transfer boards",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Protective patient restraints",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Therapeutic cold packs",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Therapeutic hot packs",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Walkers",
+      "weight": 0.5595238095238095
+    },
+    {
+      "name": "Bed cradles",
+      "weight": 0.5
+    },
+    {
+      "name": "Foot boards",
+      "weight": 0.5
+    },
+    {
+      "name": "Steam sterilizers",
+      "weight": 0.5
+    },
+    {
+      "name": "Bedpans",
+      "weight": 0.47619047619047616
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.475
+    },
+    {
+      "name": "Digital patient thermometers",
+      "weight": 0.43333333333333335
+    },
+    {
+      "name": "Evacuated blood collection tubes",
+      "weight": 0.43333333333333335
+    },
+    {
+      "name": "Manual blood pressure cuffs",
+      "weight": 0.43333333333333335
+    },
+    {
+      "name": "Lower extremity prosthetic devices",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Notebook computers",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Sterilizers",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Upper extremity prosthetic devices",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Blood pressure cuffs",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Blood drawing syringes",
+      "weight": 0.35
+    },
+    {
+      "name": "Intravenous IV administration equipment",
+      "weight": 0.35
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.34848484848484845
+    },
+    {
+      "name": "Automatic blood pressure cuffs",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Baby bottles",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Bladder ultrasounds",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Blood glucometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Child car safety seats",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Clinical trapeze traction bars",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dryers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electronic stethoscopes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Emergency first aid kits",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hospital bedpans",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hospital intercom equipment",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Incentive spirometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Intubation suctioning kits",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Kitchen stoves",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Medicine dosing syringes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microwave ovens",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oral thermometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oxygen delivery masks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oxygen masks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oxygen nasal cannulas",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Passenger cars",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Patient arm slings",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Patient restraints",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Patient walkers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Rectal thermometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tympanic thermometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Urinals",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Urinary catheters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Vacuum cleaners",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Walking canes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Washing machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Glucometers",
+      "weight": 0.30952380952380953
+    },
+    {
+      "name": "Hoyer lifts",
+      "weight": 0.30952380952380953
+    },
+    {
+      "name": "Walking braces",
+      "weight": 0.30952380952380953
+    },
+    {
+      "name": "Adaptive cutlery",
+      "weight": 0.25
+    },
+    {
+      "name": "Aerators",
+      "weight": 0.25
+    },
+    {
+      "name": "Aliquot tubes",
+      "weight": 0.25
+    },
+    {
+      "name": "Augmentative communication systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Automatic dryers",
+      "weight": 0.25
+    },
+    {
+      "name": "Automatic unit dose strip packaging machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Bar code scanners",
+      "weight": 0.25
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.25
+    },
+    {
+      "name": "Beading needles",
+      "weight": 0.25
+    },
+    {
+      "name": "Biohazard spill kits",
+      "weight": 0.25
+    },
+    {
+      "name": "Blood culture bottles",
+      "weight": 0.25
+    },
+    {
+      "name": "Blood culture incubators",
+      "weight": 0.25
+    },
+    {
+      "name": "Blood gas kits",
+      "weight": 0.25
+    },
+    {
+      "name": "Blood glucose monitoring equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Blood lancets",
+      "weight": 0.25
+    },
+    {
+      "name": "Blood specimen refrigerators",
+      "weight": 0.25
+    },
+    {
+      "name": "Bowie Dick test packs",
+      "weight": 0.25
+    },
+    {
+      "name": "Braille writers",
+      "weight": 0.25
+    },
+    {
+      "name": "Capillary tubes",
+      "weight": 0.25
+    },
+    {
+      "name": "Capsule counting machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Cash registers",
+      "weight": 0.25
+    },
+    {
+      "name": "Chemical sterilization indicators",
+      "weight": 0.25
+    },
+    {
+      "name": "Cleaning or sterilizing scrubbing brushes",
+      "weight": 0.25
+    },
+    {
+      "name": "Cold packs",
+      "weight": 0.25
+    },
+    {
+      "name": "Communication boards",
+      "weight": 0.25
+    },
+    {
+      "name": "Computerized scope washers",
+      "weight": 0.25
+    },
+    {
+      "name": "Credit card processing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Crochet hooks",
+      "weight": 0.25
+    },
+    {
+      "name": "Culture plates",
+      "weight": 0.25
+    },
+    {
+      "name": "Digital timers",
+      "weight": 0.25
+    },
+    {
+      "name": "Dressing sticks",
+      "weight": 0.25
+    },
+    {
+      "name": "Electrical stimulation equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Electronic blood pressure units",
+      "weight": 0.25
+    },
+    {
+      "name": "Equipment bar code readers",
+      "weight": 0.25
+    },
+    {
+      "name": "Erythrocyte sedimentation rate (ESR) pipettes",
+      "weight": 0.25
+    },
+    {
+      "name": "Ethylene oxide gas sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Gas sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "HEPA filtered biosafety cabinets",
+      "weight": 0.25
+    },
+    {
+      "name": "Hand weights",
+      "weight": 0.25
+    },
+    {
+      "name": "Heat-sealer machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Hot air sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Hot packs",
+      "weight": 0.25
+    },
+    {
+      "name": "Hydraulic lifts",
+      "weight": 0.25
+    },
+    {
+      "name": "Hydrotherapy immersion baths",
+      "weight": 0.25
+    },
+    {
+      "name": "Knitting needles",
+      "weight": 0.25
+    },
+    {
+      "name": "Label printing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Laboratory blending or mixing equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Laboratory centrifuges",
+      "weight": 0.25
+    },
+    {
+      "name": "Laboratory glass flasks",
+      "weight": 0.25
+    },
+    {
+      "name": "Lacing needles",
+      "weight": 0.25
+    },
+    {
+      "name": "Laminar flow hoods",
+      "weight": 0.25
+    },
+    {
+      "name": "Laser printers",
+      "weight": 0.25
+    },
+    {
+      "name": "Latch hooks",
+      "weight": 0.25
+    },
+    {
+      "name": "Leather scissors",
+      "weight": 0.25
+    },
+    {
+      "name": "Liquid dose packaging machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Medical face masks",
+      "weight": 0.25
+    },
+    {
+      "name": "Microcapillary hematocrit tubes",
+      "weight": 0.25
+    },
+    {
+      "name": "Microhematocrit tubes",
+      "weight": 0.25
+    },
+    {
+      "name": "Mobile barcode printers",
+      "weight": 0.25
+    },
+    {
+      "name": "Multi-purpose saw sets",
+      "weight": 0.25
+    },
+    {
+      "name": "Multi-sample blood collection needles",
+      "weight": 0.25
+    },
+    {
+      "name": "Occult blood kits",
+      "weight": 0.25
+    },
+    {
+      "name": "Orthopedic splints",
+      "weight": 0.25
+    },
+    {
+      "name": "Orthotic devices",
+      "weight": 0.25
+    },
+    {
+      "name": "Ozone sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Padded gloves",
+      "weight": 0.25
+    },
+    {
+      "name": "Paracetic acid sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Parallel bars",
+      "weight": 0.25
+    },
+    {
+      "name": "Phlebotomy carts",
+      "weight": 0.25
+    },
+    {
+      "name": "Phlebotomy chairs",
+      "weight": 0.25
+    },
+    {
+      "name": "Phlebotomy practice arms",
+      "weight": 0.25
+    },
+    {
+      "name": "Phlebotomy practice blocks",
+      "weight": 0.25
+    },
+    {
+      "name": "Phlebotomy practice heels",
+      "weight": 0.25
+    },
+    {
+      "name": "Phlebotomy transport bags",
+      "weight": 0.25
+    },
+    {
+      "name": "Phlebotomy trays",
+      "weight": 0.25
+    },
+    {
+      "name": "Photocopiers",
+      "weight": 0.25
+    },
+    {
+      "name": "Plasma gas sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Portable x ray machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Power hand sanders",
+      "weight": 0.25
+    },
+    {
+      "name": "Pressure regulation monitors",
+      "weight": 0.25
+    },
+    {
+      "name": "Pressure steam autoclaves",
+      "weight": 0.25
+    },
+    {
+      "name": "Prevacuum sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective aprons",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective caps",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective ear plugs",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective gowns",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective masks",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective medical aprons",
+      "weight": 0.25
+    },
+    {
+      "name": "Punching awls",
+      "weight": 0.25
+    },
+    {
+      "name": "Rasps",
+      "weight": 0.25
+    },
+    {
+      "name": "Rawhide mallets",
+      "weight": 0.25
+    },
+    {
+      "name": "Reachers",
+      "weight": 0.25
+    },
+    {
+      "name": "Rehabilitation training ramps",
+      "weight": 0.25
+    },
+    {
+      "name": "Rivet setters",
+      "weight": 0.25
+    },
+    {
+      "name": "Rotary punches",
+      "weight": 0.25
+    },
+    {
+      "name": "Safety needles",
+      "weight": 0.25
+    },
+    {
+      "name": "Scooter boards",
+      "weight": 0.25
+    },
+    {
+      "name": "Sewing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Sewing needles",
+      "weight": 0.25
+    },
+    {
+      "name": "Sharps disposal containers",
+      "weight": 0.25
+    },
+    {
+      "name": "Solid unit dose packaging machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Specimen tube holders",
+      "weight": 0.25
+    },
+    {
+      "name": "Spore strips",
+      "weight": 0.25
+    },
+    {
+      "name": "Sputum cups",
+      "weight": 0.25
+    },
+    {
+      "name": "Steam gravity sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Steam high vacuum sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Sterile screw-cap glass tubes",
+      "weight": 0.25
+    },
+    {
+      "name": "Sterile screw-cap plastic tubes",
+      "weight": 0.25
+    },
+    {
+      "name": "Tablet counting machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Temperature monitors",
+      "weight": 0.25
+    },
+    {
+      "name": "Temperature tracing and recording thermometers",
+      "weight": 0.25
+    },
+    {
+      "name": "Therapeutic balls",
+      "weight": 0.25
+    },
+    {
+      "name": "Therapeutic ultrasound equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Transfer belts",
+      "weight": 0.25
+    },
+    {
+      "name": "Transfer pipettes",
+      "weight": 0.25
+    },
+    {
+      "name": "Ultrasonic cleaners",
+      "weight": 0.25
+    },
+    {
+      "name": "Unopette equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Urine analysis equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Vein finding devices",
+      "weight": 0.25
+    },
+    {
+      "name": "Venipuncture butterfly needles",
+      "weight": 0.25
+    },
+    {
+      "name": "Venipuncture needle holders",
+      "weight": 0.25
+    },
+    {
+      "name": "Venipuncture needles",
+      "weight": 0.25
+    },
+    {
+      "name": "Venipuncture tourniquets",
+      "weight": 0.25
+    },
+    {
+      "name": "Washer sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Wheeled walkers",
+      "weight": 0.25
+    },
+    {
+      "name": "Wood chisels",
+      "weight": 0.25
+    },
+    {
+      "name": "Speech synthesizers",
+      "weight": 0.24285714285714285
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.2115800865800866
+    },
+    {
+      "name": "Abdominal binders",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Open Dental",
+      "name": "Air abrasion units",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Oracle Database",
+      "name": "Air compressors",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Patterson Dental Supply Patterson EagleSoft",
+      "name": "Air/water syringes",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Python",
+      "name": "Alarms",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Quicken",
+      "name": "Amalgam carriers",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Salesforce software",
+      "name": "Amalgamators",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Schoology",
+      "name": "Apex locators",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Seesaw",
+      "name": "Articulators",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Tadpoles",
+      "name": "Aspirating syringes",
       "weight": 0.16666666666666666
     },
     {
-      "name": "The Systems Workplace TDOCS",
+      "name": "Autoclaves",
       "weight": 0.16666666666666666
     },
     {
-      "name": "UNIX",
+      "name": "Band seating pliers",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Appletree",
+      "name": "Bathtub seats",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bench lathes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bite blocks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bitewing film holders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Burs",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Caries detection aids",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cartridge syringes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Chemiclaves",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Climbing structures",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Collar scissors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computerized pressure/vacuum casting systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Contouring orthodontic pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cotton forceps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Crown scissors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental chairs",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental crimping pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental cutting instruments",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental explorers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental furniture units",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental handpieces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental laser systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental retainers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental scalers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental spatulas",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental tweezers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental wedges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental x ray film processors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dental x ray machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Denture model presses",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Denture, acrylic and porcelain polishing kits",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital medical thermometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Domestic dishwashers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Double-ended probes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Educational toys",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electric endodontic handpieces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electric general dentistry handpieces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electric surgical handpieces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electronic blood pressure cuffs",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electronic blood pressure devices",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electronic calculus detectors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electrosurgery units",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Evacuator systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Extracting forceps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Filling instruments",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Fire extingushers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Gingival retraction cords",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Gracey curettes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Headgear",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Heat lamps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hemostatic forceps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "High-intensity lights",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "High-speed handpieces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "High-velocity evacuators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Home care ventilators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ice caps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ice collars",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Impression trays",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Instrument sharpening devices",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Intraoral detailing pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Intraoral x ray equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Irons",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Knee braces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Lead aprons",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Light curing units",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Matrix bands",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mobile telephones",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Model trimmers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Molar clamps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Needle holders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Needles",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Offset utility pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Orthodontic band pushers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Orthodontic band slitters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Orthodontic brackets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Orthodontic pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Orthodontic separators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ostomy bags",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oxygen equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Panoramic x ray equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Patient lifters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Posterior matrices",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power vacuum mixers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Prophylaxis angles",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Protective shielding equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pulp testers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Radiation dosimeters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Restraints",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Root elevators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rotary handpieces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rubber dam clamp forceps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rubber dam punches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rubber dams",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Saliva ejectors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Security alarm systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Single-ended periodontal probes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Slow-speed dental handpieces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Splinter forceps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Steam cleaning equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Straight utility pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Strollers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Thermal disinfectors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Thyroid collars",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tongue forceps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Torqueing pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Toy block sets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Transcutaneous electric nerve stimulation TENS equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ultrasonic sterilization units",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Universal curettes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vacuum formers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Water tables",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wet mops",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "X ray machine cones",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adjustable widemouth pliers",
       "weight": 0.14285714285714285
     },
     {
-      "name": "August Systems Visit Wizard",
+      "name": "Adjustable wrenches",
       "weight": 0.14285714285714285
     },
     {
-      "name": "Computer reading software",
+      "name": "Alarm systems",
       "weight": 0.14285714285714285
     },
     {
-      "name": "Mi-Co Mi-Forms",
+      "name": "Automatic blood pressure machines",
       "weight": 0.14285714285714285
     },
     {
-      "name": "Voltage SecureMail",
+      "name": "Back braces",
       "weight": 0.14285714285714285
     },
     {
-      "name": "Nuance Dragon NaturallySpeaking",
+      "name": "Bed scales",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Braille printing software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Digital cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Digital video cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hammers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hearing aid devices",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hydraulic tub seats",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Lower-body prosthetic devices",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mechanical patient lifts",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mechanical vibrating massage devices",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oxygen delivery equipment",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Paging systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Patient lifting devices",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tablet computers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Telecommunication devices TDD",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Teletypewriters TTY",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Therapeutic elastic stockings",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Transfer boards",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Upper-body prosthetic devices",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "10-key calculators",
       "weight": 0.125
     },
     {
-      "name": "Adobe Audition",
+      "name": "Amplified telephones",
+      "weight": 0.125
+    },
+    {
+      "name": "Hearing impaired telephones",
+      "weight": 0.125
+    },
+    {
+      "name": "Passenger vehicles",
+      "weight": 0.125
+    },
+    {
+      "name": "Airflow measurement devices",
       "weight": 0.1
     },
     {
-      "name": "Biofeedback software",
+      "name": "Alternative computer keyboards",
       "weight": 0.1
     },
     {
-      "name": "Bungalow Software Aphasia Tutor",
+      "name": "Automated endoscope washers",
       "weight": 0.1
     },
     {
-      "name": "ELR Software eLr Extra Language Resources",
+      "name": "Bronchoscopes",
       "weight": 0.1
     },
     {
-      "name": "KayPENTAX Multi-Speech",
+      "name": "Cardiac monitoring equipment",
       "weight": 0.1
     },
     {
-      "name": "Language analysis software",
+      "name": "Circumaural headphones",
       "weight": 0.1
     },
     {
-      "name": "Learning Fundamentals Speech Visualization",
+      "name": "Closed circuit television CCTV surveillance systems",
       "weight": 0.1
     },
     {
-      "name": "Micro Video Video Voice Speech Training System",
+      "name": "Communications boards",
       "weight": 0.1
     },
     {
-      "name": "Patient electronic medical record EMR software",
+      "name": "Compact disk CD players",
       "weight": 0.1
     },
     {
-      "name": "Propeller Multimedia React2",
+      "name": "Compact stereo systems",
       "weight": 0.1
     },
     {
-      "name": "Signal analysis software",
+      "name": "Computer inkjet printers",
       "weight": 0.1
     },
     {
-      "name": "Speech analysis software",
+      "name": "Copy machines",
       "weight": 0.1
     },
     {
-      "name": "Text to speech software",
+      "name": "Diagnostic stroboscopes",
       "weight": 0.1
     },
     {
-      "name": "Inventory management systems",
+      "name": "Digital audio recorders",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital audiometers",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital still cameras",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital video stroboscopy systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Dynamic display devices",
+      "weight": 0.1
+    },
+    {
+      "name": "Electrocardiography EKG machines",
+      "weight": 0.1
+    },
+    {
+      "name": "Electroglottographs EGG",
+      "weight": 0.1
+    },
+    {
+      "name": "Electromyographs EMG",
+      "weight": 0.1
+    },
+    {
+      "name": "Endoscopic electrocautery equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Endoscopic image printers",
+      "weight": 0.1
+    },
+    {
+      "name": "Endoscopic image recording systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Endoscopic inflation equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Endoscopic procedure sets",
+      "weight": 0.1
+    },
+    {
+      "name": "Endoscopic snares",
+      "weight": 0.1
+    },
+    {
+      "name": "Endoscopic suction pumps",
+      "weight": 0.1
+    },
+    {
+      "name": "Medical safety gloves",
+      "weight": 0.1
+    },
+    {
+      "name": "Medical safety masks",
+      "weight": 0.1
+    },
+    {
+      "name": "Patient transport stretchers",
+      "weight": 0.1
+    },
+    {
+      "name": "Safety goggles",
+      "weight": 0.1
+    }
+  ],
+  "detailed_work_activities": [
+    {
+      "dwa_id": "4.A.4.a.5.I09.D09",
+      "title": "Assist patients with daily activities.",
+      "element_id": "4.A.4.a.5",
+      "weight": 3.083333333333333
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I09.D02",
+      "title": "Clean medical equipment.",
+      "element_id": "4.A.3.a.1",
+      "weight": 2.683333333333333
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I11.D03",
+      "title": "Record vital statistics or other health information.",
+      "element_id": "4.A.3.b.6",
+      "weight": 2.6666666666666665
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I11.D05",
+      "title": "Maintain medical records.",
+      "element_id": "4.A.3.b.6",
+      "weight": 2.3666666666666667
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I10.D01",
+      "title": "Transport biological or other medical materials.",
+      "element_id": "4.A.3.a.1",
+      "weight": 2.0833333333333335
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I38.D01",
+      "title": "Collect biological specimens from patients.",
+      "element_id": "4.A.3.a.2",
+      "weight": 2.0166666666666666
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I07.D03",
+      "title": "Inventory medical supplies or equipment.",
+      "element_id": "4.A.4.c.3",
+      "weight": 2.0166666666666666
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I03.D07",
+      "title": "Clean patient rooms or patient treatment rooms.",
+      "element_id": "4.A.3.a.1",
+      "weight": 2.0
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I37.D02",
+      "title": "Stock medical or patient care supplies.",
+      "element_id": "4.A.3.a.2",
+      "weight": 1.9166666666666665
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I11.D03",
+      "title": "Adjust positions of patients on beds or tables.",
+      "element_id": "4.A.4.a.5",
+      "weight": 1.8499999999999999
+    },
+    {
+      "dwa_id": "4.A.3.b.4.I09.D01",
+      "title": "Maintain medical equipment or instruments.",
+      "element_id": "4.A.3.b.4",
+      "weight": 1.7
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I01.D06",
+      "title": "Perform clerical work in medical settings.",
+      "element_id": "4.A.4.c.1",
+      "weight": 1.6833333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I09.D01",
+      "title": "Feed patients.",
+      "element_id": "4.A.4.a.5",
+      "weight": 1.6666666666666665
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I11.D02",
+      "title": "Prepare medical instruments or equipment for use.",
+      "element_id": "4.A.3.a.2",
+      "weight": 1.6
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I05.D01",
+      "title": "Dispose of biomedical waste in accordance with standards.",
+      "element_id": "4.A.3.a.1",
+      "weight": 1.5833333333333333
+    },
+    {
+      "dwa_id": "4.A.2.a.1.I06.D01",
+      "title": "Assess physical conditions of patients to aid in diagnosis or treatment.",
+      "element_id": "4.A.2.a.1",
+      "weight": 1.4166666666666665
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I11.D02",
+      "title": "Hold patients to ensure proper positioning or safety.",
+      "element_id": "4.A.4.a.5",
+      "weight": 1.4166666666666665
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I03.D02",
+      "title": "Administer basic health care or medical treatments.",
+      "element_id": "4.A.4.a.5",
+      "weight": 1.369047619047619
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I01.D03",
+      "title": "Teach daily living skills or behaviors.",
+      "element_id": "4.A.4.b.3",
+      "weight": 1.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I13.D02",
+      "title": "Move patients to or from treatment areas.",
+      "element_id": "4.A.3.a.1",
+      "weight": 1.1833333333333333
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I06.D02",
+      "title": "Engage patients in exercises or activities.",
+      "element_id": "4.A.4.b.3",
+      "weight": 1.1666666666666665
+    },
+    {
+      "dwa_id": "4.A.4.b.5.I02.D01",
+      "title": "Encourage patients during therapeutic activities.",
+      "element_id": "4.A.4.b.5",
+      "weight": 1.1666666666666665
+    },
+    {
+      "dwa_id": "4.A.3.a.3.I04.D05",
+      "title": "Operate medical equipment.",
+      "element_id": "4.A.3.a.3",
+      "weight": 1.1
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I03.D01",
+      "title": "Give medications or immunizations.",
+      "element_id": "4.A.4.a.5",
+      "weight": 1.0833333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I03.D09",
+      "title": "Provide basic information to guests, visitors, or clients.",
+      "element_id": "4.A.4.a.3",
+      "weight": 1.0416666666666665
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I11.D01",
+      "title": "Assist practitioners to perform medical procedures.",
+      "element_id": "4.A.4.a.5",
+      "weight": 1.0166666666666666
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I01.D02",
+      "title": "Monitor medical equipment to ensure proper functioning.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.95
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I05.D06",
+      "title": "Monitor patients to detect health problems.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.9166666666666666
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I12.D04",
+      "title": "Accompany patients or clients on outings to provide assistance.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.9166666666666666
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I23.D06",
+      "title": "Interview patients to gather medical information.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.8333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I03.D11",
+      "title": "Answer telephones to direct calls or provide information.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.8333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.1.I05.D04",
+      "title": "Explain technical medical information to patients.",
+      "element_id": "4.A.4.a.1",
+      "weight": 0.75
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I02.D03",
+      "title": "Administer therapy treatments to patients using hands or physical treatment aids.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.75
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I06.D10",
+      "title": "Teach medical procedures to healthcare personnel.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.7
+    },
+    {
+      "dwa_id": "4.A.2.b.5.I03.D02",
+      "title": "Schedule patient procedures or appointments.",
+      "element_id": "4.A.2.b.5",
+      "weight": 0.6666666666666666
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I17.D02",
+      "title": "Make patient-assistive devices or device models.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.6666666666666666
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I06.D04",
+      "title": "Teach medical procedures or medical equipment use to patients.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.6666666666666666
+    },
+    {
+      "dwa_id": "4.A.4.b.6.I07.D03",
+      "title": "Discuss child development and behavior with parents or guardians.",
+      "element_id": "4.A.4.b.6",
+      "weight": 0.6666666666666666
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I01.D05",
+      "title": "Conduct diagnostic tests to determine patient health.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.625
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I03.D11",
+      "title": "Prepare foods or meals.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.6190476190476191
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I06.D07",
+      "title": "Teach health or hygiene practices.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.6190476190476191
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I01.D02",
+      "title": "Administer screening tests to determine abilities or treatment needs.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.6
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I12.D02",
+      "title": "Collect medical information from patients, family members, or other medical professionals.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.5833333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I05.D02",
+      "title": "Confer with other professionals to plan patient care.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.5833333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I09.D03",
+      "title": "Assist clients in handling details of daily life.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5833333333333333
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I05.D01",
+      "title": "Monitor patient progress or responses to treatments.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I47.D02",
+      "title": "Prepare biological specimens for laboratory analysis.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I47.D03",
+      "title": "Prepare biological samples for testing or analysis.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I03.D11",
+      "title": "Apply bandages, dressings, or splints.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I09.D04",
+      "title": "Develop daily schedules for children or families.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I12.D01",
+      "title": "Care for patients with mental illnesses.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.5
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I05.D05",
+      "title": "Monitor health or behavior of people or animals.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.47619047619047616
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I03.D18",
+      "title": "Perform housekeeping duties.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.47619047619047616
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I08.D06",
+      "title": "Maintain client information or service records.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.47619047619047616
+    },
+    {
+      "dwa_id": "4.A.2.b.3.I01.D19",
+      "title": "Attend educational events to update medical knowledge.",
+      "element_id": "4.A.2.b.3",
+      "weight": 0.45
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I06.D03",
+      "title": "Prepare medical reports or documents.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.45
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I02.D02",
+      "title": "Implement therapeutic programs to improve patient functioning.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.45
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I06.D02",
+      "title": "Fit patients for assistive devices.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.41666666666666663
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I01.D01",
+      "title": "Teach basic living or other adaptive skills to patients or caregivers.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.41666666666666663
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I03.D03",
+      "title": "Process medical billing information.",
+      "element_id": "4.A.4.c.1",
+      "weight": 0.41666666666666663
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I11.D01",
+      "title": "Organize recreational activities or events.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.369047619047619
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I11.D03",
+      "title": "Prepare patient treatment areas for use.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.35
+    },
+    {
+      "dwa_id": "4.A.2.a.3.I04.D02",
+      "title": "Follow protocols or regulations for healthcare activities.",
+      "element_id": "4.A.2.a.3",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.2.a.4.I06.D02",
+      "title": "Analyze patient data to determine patient needs or treatment goals.",
+      "element_id": "4.A.2.a.4",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I03.D15",
+      "title": "Clean tools or equipment.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I09.D02",
+      "title": "Assist patients with hygiene or daily living activities.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I09.D08",
+      "title": "Provide for basic needs of children.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.b.6.I01.D05",
+      "title": "Advise patients on healthcare system processes.",
+      "element_id": "4.A.4.b.6",
+      "weight": 0.3333333333333333
+    },
+    {
+      "dwa_id": "4.A.4.a.1.I02.D04",
+      "title": "Explain regulations, policies, or procedures.",
+      "element_id": "4.A.4.a.1",
+      "weight": 0.3133116883116883
+    },
+    {
+      "dwa_id": "4.A.3.a.4.I01.D09",
+      "title": "Drive vehicles to transport patrons.",
+      "element_id": "4.A.3.a.4",
+      "weight": 0.30952380952380953
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I09.D07",
+      "title": "Assist individuals with special needs.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.30952380952380953
+    },
+    {
+      "dwa_id": "4.A.4.b.6.I10.D03",
+      "title": "Provide counsel, comfort, or encouragement to individuals or families.",
+      "element_id": "4.A.4.b.6",
+      "weight": 0.30952380952380953
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I06.D06",
+      "title": "Monitor activities of individuals to ensure safety or compliance with rules.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.29166666666666663
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I04.D20",
+      "title": "Train service staff.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.2532467532467532
+    },
+    {
+      "dwa_id": "4.A.4.c.2.I02.D01",
+      "title": "Perform human resources activities.",
+      "element_id": "4.A.4.c.2",
+      "weight": 0.2532467532467532
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I05.D08",
+      "title": "Monitor nutrition related activities of individuals or groups.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I07.D09",
+      "title": "Monitor work areas or procedures to ensure compliance with safety procedures.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.1.b.1.I01.D01",
+      "title": "Apply identification labels or tags.",
+      "element_id": "4.A.1.b.1",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.2.a.1.I01.D03",
+      "title": "Evaluate characteristics of individuals to determine needs or eligibility.",
+      "element_id": "4.A.2.a.1",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.2.a.2.I03.D03",
+      "title": "Compile data or documentation.",
+      "element_id": "4.A.2.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I10.D05",
+      "title": "Deliver items.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I42.D05",
+      "title": "Package materials or products.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I03.D06",
+      "title": "Write reports or evaluations.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I06.D01",
+      "title": "Prepare official health documents or records.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I03.D02",
+      "title": "Provide information to coworkers.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I03.D11",
+      "title": "Relay information between personnel.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I05.D01",
+      "title": "Inform medical professionals regarding patient conditions and care.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I05.D04",
+      "title": "Communicate test or assessment results to medical professionals.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I05.D06",
+      "title": "Communicate patient status to other health practitioners.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I11.D10",
+      "title": "Collaborate with law enforcement or security agencies to respond to incidents.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I03.D05",
+      "title": "Provide customer service to clients or users.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I05.D02",
+      "title": "Respond to emergencies to provide assistance.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I10.D02",
+      "title": "Greet customers, patrons, or visitors.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I11.D05",
+      "title": "Assist healthcare practitioners during examinations or treatments.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.8.I03.D02",
+      "title": "Respond to customer inquiries.",
+      "element_id": "4.A.4.a.8",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I08.D03",
+      "title": "Manage control system activities in organizations.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.b.6.I06.D03",
+      "title": "Advise clients or community groups on health issues.",
+      "element_id": "4.A.4.b.6",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I06.D02",
+      "title": "Control prescription refills or authorizations.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I13.D06",
+      "title": "Assign duties or work schedules to employees.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.23809523809523808
+    },
+    {
+      "dwa_id": "4.A.2.b.2.I27.D03",
+      "title": "Develop plans for programs or services.",
+      "element_id": "4.A.2.b.2",
+      "weight": 0.17857142857142855
+    },
+    {
+      "dwa_id": "4.A.2.a.1.I04.D04",
+      "title": "Evaluate employee performance.",
+      "element_id": "4.A.2.a.1",
+      "weight": 0.17316017316017315
+    },
+    {
+      "dwa_id": "4.A.4.a.8.I03.D05",
+      "title": "Resolve customer complaints or problems.",
+      "element_id": "4.A.4.a.8",
+      "weight": 0.17316017316017315
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I07.D01",
+      "title": "Monitor environment to ensure safety.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.16666666666666666
+    },
+    {
+      "dwa_id": "4.A.2.b.2.I15.D09",
+      "title": "Develop educational or training programs.",
+      "element_id": "4.A.2.b.2",
+      "weight": 0.16666666666666666
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I12.D02",
+      "title": "Provide escort or transportation.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.16666666666666666
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I12.D06",
+      "title": "Accompany individuals or groups to activities.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.16666666666666666
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I08.D05",
+      "title": "Arrange items for use or display.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.16666666666666666
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I32.D02",
+      "title": "Arrange childcare or educational settings to ensure physical safety of children.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.16666666666666666
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I07.D02",
+      "title": "Administer first aid.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.16666666666666666
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I01.D10",
+      "title": "Perform administrative or clerical tasks.",
+      "element_id": "4.A.4.c.1",
+      "weight": 0.16666666666666666
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I05.D06",
+      "title": "Purchase products or services.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.16666666666666666
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I06.D02",
+      "title": "Document client health or progress.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I23.D08",
+      "title": "Interview clients to gather information about their backgrounds, needs, or progress.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I09.D03",
+      "title": "Examine patients to assess general physical condition.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.2.b.2.I01.D01",
+      "title": "Develop treatment plans for patients or clients.",
+      "element_id": "4.A.2.b.2",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I13.D01",
+      "title": "Transport clients to appointments.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I08.D23",
+      "title": "Maintain social services program records.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I05.D03",
+      "title": "Collaborate with other professionals to assess client needs or plan treatments.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I02.D09",
+      "title": "Present social services program information to the public.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I01.D03",
+      "title": "Help clients get needed services or resources.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I01.D06",
+      "title": "Refer clients to community or social service programs.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I01.D02",
+      "title": "Teach life skills or strategies to clients or their families.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I05.D06",
+      "title": "Demonstrate activity techniques or equipment use.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.b.5.I02.D02",
+      "title": "Visit individuals in their homes to provide support or information.",
+      "element_id": "4.A.4.b.5",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.2.b.2.I01.D04",
+      "title": "Develop patient therapy programs.",
+      "element_id": "4.A.2.b.2",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I02.D01",
+      "title": "Collaborate on research activities with scientists or technical specialists.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I02.D03",
+      "title": "Assist engineers or scientists with research.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.1
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I05.D07",
+      "title": "Inspect facilities.",
+      "element_id": "4.A.1.b.2",
       "weight": 0.08658008658008658
     },
     {
-      "name": "Point of sale POS software",
+      "dwa_id": "4.A.1.b.2.I07.D18",
+      "title": "Inspect equipment to ensure proper functioning.",
+      "element_id": "4.A.1.b.2",
       "weight": 0.08658008658008658
     },
     {
-      "name": "Timekeeping software",
+      "dwa_id": "4.A.2.b.3.I01.D16",
+      "title": "Maintain professional knowledge or certifications.",
+      "element_id": "4.A.2.b.3",
       "weight": 0.08658008658008658
     },
     {
-      "name": "Work scheduling software",
+      "dwa_id": "4.A.2.b.3.I01.D17",
+      "title": "Maintain knowledge of business operations.",
+      "element_id": "4.A.2.b.3",
       "weight": 0.08658008658008658
     },
     {
-      "name": "Accellos Real Dispatch",
+      "dwa_id": "4.A.4.b.4.I01.D04",
+      "title": "Supervise service workers.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.08658008658008658
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I05.D01",
+      "title": "Order materials, supplies, or equipment.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.08658008658008658
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I12.D18",
+      "title": "Manage operations of artistic or entertainment departments or organizations.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.07142857142857142
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I15.D01",
+      "title": "Prepare operational reports or records.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.050865800865800864
+    },
+    {
+      "dwa_id": "4.A.4.b.5.I02.D05",
+      "title": "Support the professional development of others.",
+      "element_id": "4.A.4.b.5",
+      "weight": 0.050865800865800864
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I22.D02",
+      "title": "Investigate work related complaints to determine corrective actions.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.03571428571428571
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I03.D10",
+      "title": "Report information to managers or other personnel.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.03571428571428571
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I03.D14",
+      "title": "Confer with organizational members to accomplish work activities.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.03571428571428571
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I03.D03",
+      "title": "Provide attraction or event information to patrons.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.03571428571428571
+    },
+    {
+      "dwa_id": "4.A.4.a.6.I03.D12",
+      "title": "Promote products, services, or programs.",
+      "element_id": "4.A.4.a.6",
+      "weight": 0.03571428571428571
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I13.D04",
+      "title": "Prepare employee work schedules.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.03571428571428571
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I05.D03",
+      "title": "Inspect facilities, equipment or supplies to ensure conformance to standards.",
+      "element_id": "4.A.1.b.2",
       "weight": 0.015151515151515152
     },
     {
-      "name": "Commercial vehicle operations CVO software",
+      "dwa_id": "4.A.2.b.1.I08.D05",
+      "title": "Determine resource needs.",
+      "element_id": "4.A.2.b.1",
       "weight": 0.015151515151515152
     },
     {
-      "name": "General ledger software",
+      "dwa_id": "4.A.4.a.7.I03.D04",
+      "title": "Resolve issues affecting transportation operations.",
+      "element_id": "4.A.4.a.7",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I12.D31",
+      "title": "Direct material handling or moving activities.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.015151515151515152
+    },
+    {
+      "dwa_id": "4.A.4.b.6.I05.D03",
+      "title": "Recommend personnel decisions or human resources activities.",
+      "element_id": "4.A.4.b.6",
       "weight": 0.015151515151515152
     }
+  ],
+  "emerging_tasks": [
+    {
+      "task": "Confirm the identities of patients by verifying their personal information.",
+      "category": "New"
+    },
+    {
+      "task": "Order medical supplies for healthcare facilities or laboratories.",
+      "category": "New"
+    },
+    {
+      "task": "Sanitize equipment.",
+      "category": "New"
+    },
+    {
+      "task": "Assist patients with toileting and incontinent care.",
+      "category": "New"
+    },
+    {
+      "task": "Feed patients.",
+      "category": "New"
+    },
+    {
+      "task": "Administer bedside or personal care, such as assistance with ambulation, dressing, feeding, or personal hygiene.",
+      "category": "Revision"
+    },
+    {
+      "task": "Teach parenting techniques to family members.",
+      "category": "New"
+    }
+  ],
+  "reported_job_titles": [
+    "Patient Care Assistant (PCA)",
+    "Certified Nurses Aide (CNA)",
+    "Caregiver",
+    "Certified Medication Aide (CMA)",
+    "Certified Nurse Aide (CNA)",
+    "Certified Nursing Assistant (CNA)",
+    "Developmental Aide",
+    "Licensed Nursing Assistant (LNA)",
+    "Mental Health Aide (MHA)",
+    "Mental Health Worker (MHW)",
+    "Nurses' Aide",
+    "Nursing Aide",
+    "Nursing Assistant",
+    "Psychiatric Aide",
+    "Psychiatric Assistant",
+    "Psychiatric Nursing Aide",
+    "Qualified Medication Aide (QMA)",
+    "Resident Care Technician (Resident Care Tech)",
+    "Residential Care Tech (Residential Care Technician)",
+    "State Tested Nursing Assistant (STNA)",
+    "Therapeutic Program Worker (TPW)",
+    "Home Care Aide",
+    "Attendant",
+    "Central Processing Technician (CPT)",
+    "Central Service Technician (CST)",
+    "Central Sterile Supply Technician (CSS Technician)",
+    "Certified Occupational Rehabilitation Aide (CORA)",
+    "Certified Pharmacist Assistant",
+    "Certified Registered Central Service Technician (CRCST)",
+    "Direct Service Professional (DSP)",
+    "Direct Support Professional (DSP)",
+    "Drug Purchaser",
+    "Front Counter Clerk",
+    "Instrument Technician",
+    "Lab Liaison Technician",
+    "Mobile Examiner",
+    "Occupational Rehabilitation Aide",
+    "Occupational Therapist Aide (OT Aide)",
+    "Occupational Therapy Aide (OT Aide)",
+    "Operating Room Assistant",
+    "Orderly",
+    "PT Attendant (Physical Therapy Attendant)",
+    "PT Tech (Physical Therapist Technician)",
+    "PT Tech (Physical Therapy Technician)",
+    "Patient Care Technician (PCT)",
+    "Patient Escort",
+    "Patient Service Technician (PST)",
+    "Patient Transporter",
+    "Pharmacist Assistant",
+    "Pharmacy Aide"
   ],
   "education": [
     {

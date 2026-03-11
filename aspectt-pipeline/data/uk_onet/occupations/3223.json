@@ -1544,99 +1544,44 @@
   ],
   "tasks": [
     {
-      "task": "Provide information or refer individuals to public or private agencies or community services for assistance.",
-      "task_type": "Core",
-      "relevance": 0.125
+      "task": "Provide information or refer individuals to public or private agencies or community services for assistance, and visit individuals in homes or attend group meetings to provide information on agency services, requirements, or procedures.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Assess clients' cognitive abilities and physical and emotional needs to determine appropriate interventions, and interview individuals or family members to compile information on social, educational, criminal, institutional, or drug history.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Keep records or prepare reports for owner or management concerning visits with clients, and submit reports and review reports or problems with superior.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Advise clients regarding food stamps, child care, food, money management, sanitation, or housekeeping, and assist clients with preparation of forms, such as tax or rent forms.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Assist in locating housing for displaced individuals, and transport and accompany clients to shopping areas or to appointments, using automobile.",
+      "task_type": "Supplemental"
     },
     {
       "task": "Demonstrate use and care of equipment for tenant use.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Assess clients' cognitive abilities and physical and emotional needs to determine appropriate interventions.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Assist in planning food budgets, using charts or sample budgets.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Assist clients with preparation of forms, such as tax or rent forms.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Assist in locating housing for displaced individuals.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
+      "task_type": "Supplemental"
     },
     {
       "task": "Inform tenants of facilities, such as laundries or playgrounds.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
+      "task_type": "Supplemental"
     },
     {
-      "task": "Observe clients' food selections and recommend alternate economical and nutritional food choices.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
+      "task": "Observe clients' food selections and recommend alternate economical and nutritional food choices, and observe and discuss meal preparation and suggest alternate methods of food preparation.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Consult with supervisor concerning programs for individual families.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Observe and discuss meal preparation and suggest alternate methods of food preparation.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Keep records or prepare reports for owner or management concerning visits with clients.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Explain rules established by owner or management, such as sanitation or maintenance requirements or parking regulations.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Transport and accompany clients to shopping areas or to appointments, using automobile.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Interview individuals or family members to compile information on social, educational, criminal, institutional, or drug history.",
-      "task_type": "Core",
-      "relevance": 0.125
+      "task": "Assist in planning food budgets, using charts or sample budgets, and consult with supervisor concerning programs for individual families.",
+      "task_type": "Supplemental"
     },
     {
       "task": "Oversee day-to-day group activities of residents in institution.",
-      "task_type": "Supplemental",
-      "relevance": 0.125
-    },
-    {
-      "task": "Submit reports and review reports or problems with superior.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Advise clients regarding food stamps, child care, food, money management, sanitation, or housekeeping.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Visit individuals in homes or attend group meetings to provide information on agency services, requirements, or procedures.",
-      "task_type": "Core",
-      "relevance": 0.125
-    },
-    {
-      "task": "Develop and implement behavioral management and care plans for clients.",
-      "task_type": "Core",
-      "relevance": 0.125
+      "task_type": "Supplemental"
     }
   ],
   "technology_skills": [
@@ -1692,6 +1637,191 @@
       "name": "Word processing software",
       "weight": 0.125
     }
+  ],
+  "tools_used": [
+    {
+      "name": "10-key calculators",
+      "weight": 0.125
+    },
+    {
+      "name": "Amplified telephones",
+      "weight": 0.125
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.125
+    },
+    {
+      "name": "Desktop computers",
+      "weight": 0.125
+    },
+    {
+      "name": "Hearing impaired telephones",
+      "weight": 0.125
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 0.125
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.125
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Passenger vehicles",
+      "weight": 0.125
+    },
+    {
+      "name": "Personal computers",
+      "weight": 0.125
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.125
+    }
+  ],
+  "detailed_work_activities": [
+    {
+      "dwa_id": "4.A.1.a.2.I05.D08",
+      "title": "Monitor nutrition related activities of individuals or groups.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I03.D06",
+      "title": "Write reports or evaluations.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I09.D03",
+      "title": "Assist clients in handling details of daily life.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.4.b.6.I06.D03",
+      "title": "Advise clients or community groups on health issues.",
+      "element_id": "4.A.4.b.6",
+      "weight": 0.25
+    },
+    {
+      "dwa_id": "4.A.1.a.1.I23.D08",
+      "title": "Interview clients to gather information about their backgrounds, needs, or progress.",
+      "element_id": "4.A.1.a.1",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.1.a.2.I06.D06",
+      "title": "Monitor activities of individuals to ensure safety or compliance with rules.",
+      "element_id": "4.A.1.a.2",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I01.D05",
+      "title": "Conduct diagnostic tests to determine patient health.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.1.b.2.I09.D03",
+      "title": "Examine patients to assess general physical condition.",
+      "element_id": "4.A.1.b.2",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.2.b.2.I01.D01",
+      "title": "Develop treatment plans for patients or clients.",
+      "element_id": "4.A.2.b.2",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.3.a.1.I13.D01",
+      "title": "Transport clients to appointments.",
+      "element_id": "4.A.3.a.1",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.3.b.6.I08.D23",
+      "title": "Maintain social services program records.",
+      "element_id": "4.A.3.b.6",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.a.1.I02.D04",
+      "title": "Explain regulations, policies, or procedures.",
+      "element_id": "4.A.4.a.1",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.a.2.I05.D03",
+      "title": "Collaborate with other professionals to assess client needs or plan treatments.",
+      "element_id": "4.A.4.a.2",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I02.D09",
+      "title": "Present social services program information to the public.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.a.3.I03.D09",
+      "title": "Provide basic information to guests, visitors, or clients.",
+      "element_id": "4.A.4.a.3",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I01.D03",
+      "title": "Help clients get needed services or resources.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.a.5.I01.D06",
+      "title": "Refer clients to community or social service programs.",
+      "element_id": "4.A.4.a.5",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I01.D02",
+      "title": "Teach life skills or strategies to clients or their families.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.b.3.I05.D06",
+      "title": "Demonstrate activity techniques or equipment use.",
+      "element_id": "4.A.4.b.3",
+      "weight": 0.125
+    },
+    {
+      "dwa_id": "4.A.4.b.5.I02.D02",
+      "title": "Visit individuals in their homes to provide support or information.",
+      "element_id": "4.A.4.b.5",
+      "weight": 0.125
+    }
+  ],
+  "emerging_tasks": [
+    {
+      "task": "Teach parenting techniques to family members.",
+      "category": "New"
+    }
+  ],
+  "reported_job_titles": [
+    "Addictions Counselor Assistant",
+    "Advocate",
+    "Clinical Assistant",
+    "Residential Care Assistant",
+    "Social Services Aide",
+    "Social Services Assistant",
+    "Social Work Assistant",
+    "Social Work Associate",
+    "Social Worker Assistant"
   ],
   "education": [
     {

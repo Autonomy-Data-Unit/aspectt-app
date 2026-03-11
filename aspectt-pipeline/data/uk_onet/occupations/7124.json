@@ -1544,64 +1544,40 @@
   ],
   "tasks": [
     {
-      "task": "Deliver merchandise and collect payment.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
+      "task": "Deliver merchandise, collect payment, and persuade customers to purchase merchandise or services.",
+      "task_type": "Core"
     },
     {
       "task": "Write and record orders for merchandise or enter orders into computers.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
+      "task_type": "Core"
     },
     {
-      "task": "Explain products or services and prices and demonstrate use of products.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
+      "task": "Explain products or services, prices, and demonstrate use of products while answering questions about product features and benefits.",
+      "task_type": "Core"
     },
     {
-      "task": "Arrange buying parties and solicit sponsorship of such parties to sell merchandise.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Answer questions about product features and benefits.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
+      "task": "Arrange buying parties and solicit sponsorship for selling merchandise.",
+      "task_type": "Core"
     },
     {
       "task": "Circulate among potential customers or travel by foot, truck, automobile, or bicycle to deliver or sell merchandise or services.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
+      "task_type": "Core"
     },
     {
-      "task": "Develop prospect lists.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Distribute product samples or literature that details products or services.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
+      "task": "Develop prospect lists and distribute product samples or literature detailing products or services.",
+      "task_type": "Core"
     },
     {
       "task": "Order or purchase supplies.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
+      "task_type": "Core"
     },
     {
       "task": "Set up and display sample merchandise at parties or stands.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
+      "task_type": "Core"
     },
     {
       "task": "Stock carts or stands.",
-      "task_type": "Supplemental",
-      "relevance": 0.14285714285714285
-    },
-    {
-      "task": "Persuade customers to purchase merchandise or services.",
-      "task_type": "Core",
-      "relevance": 0.14285714285714285
+      "task_type": "Supplemental"
     }
   ],
   "technology_skills": [
@@ -1629,6 +1605,142 @@
       "name": "Web browser software",
       "weight": 0.14285714285714285
     }
+  ],
+  "tools_used": [
+    {
+      "name": "Desktop computers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Passenger vehicles",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Personal computers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tape measures",
+      "weight": 0.14285714285714285
+    }
+  ],
+  "detailed_work_activities": [
+    {
+      "dwa_id": "4.A.4.a.6.I02.D05",
+      "title": "Sell products or services.",
+      "element_id": "4.A.4.a.6",
+      "weight": 0.2857142857142857
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I12.D29",
+      "title": "Arrange delivery of goods or services.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.2857142857142857
+    },
+    {
+      "dwa_id": "4.A.1.b.1.I02.D02",
+      "title": "Identify potential customers.",
+      "element_id": "4.A.1.b.1",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I08.D02",
+      "title": "Set up merchandise displays.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.3.a.2.I37.D01",
+      "title": "Stock products or parts.",
+      "element_id": "4.A.3.a.2",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.4.a.1.I01.D05",
+      "title": "Explain technical product or service information to customers.",
+      "element_id": "4.A.4.a.1",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.4.a.6.I03.D02",
+      "title": "Demonstrate products to consumers.",
+      "element_id": "4.A.4.a.6",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.4.a.6.I03.D05",
+      "title": "Contact current or potential customers to promote products or services.",
+      "element_id": "4.A.4.a.6",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.4.a.6.I03.D09",
+      "title": "Distribute promotional literature or samples to customers.",
+      "element_id": "4.A.4.a.6",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.4.a.8.I03.D03",
+      "title": "Answer customer questions about goods or services.",
+      "element_id": "4.A.4.a.8",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.4.b.4.I12.D05",
+      "title": "Coordinate sales campaigns.",
+      "element_id": "4.A.4.b.4",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I03.D10",
+      "title": "Take product orders from customers.",
+      "element_id": "4.A.4.c.1",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.4.c.1.I03.D11",
+      "title": "Process sales or other transactions.",
+      "element_id": "4.A.4.c.1",
+      "weight": 0.14285714285714285
+    },
+    {
+      "dwa_id": "4.A.4.c.3.I05.D04",
+      "title": "Purchase stocks of merchandise or supplies.",
+      "element_id": "4.A.4.c.3",
+      "weight": 0.14285714285714285
+    }
+  ],
+  "emerging_tasks": [
+    {
+      "task": "Contact customers to ensure their satisfaction with products or services.",
+      "category": "New"
+    },
+    {
+      "task": "Train new recruits or other employees.",
+      "category": "New"
+    }
+  ],
+  "reported_job_titles": [
+    "Direct Sales Coach",
+    "Door-to-Door Sales Trainer",
+    "Independent Beauty Consultant",
+    "Independent Distributor",
+    "Independent Sales Associate",
+    "Independent Sales Representative",
+    "Sales Representative (Sales Rep)",
+    "Street Vendor"
   ],
   "education": [
     {
