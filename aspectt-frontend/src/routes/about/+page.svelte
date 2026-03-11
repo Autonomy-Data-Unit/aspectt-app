@@ -6,9 +6,8 @@
 	<div class="card">
 		<h2>What is ASPECTT?</h2>
 		<p>
-			ASPECTT (A System for Predicting and Evaluating Competencies, Tasks and Technologies)
-			is a multidimensional occupational database for the UK. It covers the skills, tasks,
-			abilities, knowledge, technologies and work characteristics of 412 UK occupations,
+			ASPECTT is a multidimensional occupational database for the UK. It covers the skills,
+			tasks, abilities, knowledge, technologies and work characteristics of 412 UK occupations,
 			classified under SOC 2020.
 		</p>
 		<p>
