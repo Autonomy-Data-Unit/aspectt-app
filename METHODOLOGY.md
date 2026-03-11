@@ -51,7 +51,7 @@ Education and job zone data are also averaged using the same weighted scheme.
 
 ### Discrete (Categorical/Text) Data
 
-For data that cannot be meaningfully averaged — tasks, technology skills, alternate titles — we **collect all unique items** from all contributing O\*NET occupations. Items are sorted by their contribution weight (sum of source weights).
+For data that cannot be meaningfully averaged — tasks, technology skills, tools used, detailed work activities, emerging tasks, reported job titles, alternate titles — we **collect all unique items** from all contributing O\*NET occupations. Items are sorted by their contribution weight (sum of source weights).
 
 This is where the many-to-one mapping introduces noise: a UK occupation inherits *everything* from all its source occupations. For example, UK SOC 5313 (Bricklayers) maps from 10 US occupations including Hazardous Materials Removal Workers, Solar Photovoltaic Installers, and Weatherization Installers, inheriting their technology skills and task statements even when they are clearly irrelevant to bricklaying.
 
@@ -68,6 +68,7 @@ To address the crosswalk noise in discrete data, an optional LLM refinement step
 | Category | Operation | Rationale |
 |----------|-----------|-----------|
 | Technology skills | Filter irrelevant items | Crosswalk noise is most visible here (e.g. Jenkins CI, Salesforce for Bricklayers) |
+| Tools used | Filter irrelevant items | Same crosswalk noise as technology skills — physical tools from unrelated source occupations |
 | Tasks | Merge near-duplicates + filter irrelevant | Multiple O\*NET sources contribute overlapping or unrelated task statements |
 
 **Rated data is NOT refined.** Weighted averaging already handles crosswalk noise smoothly for continuous numeric scores — the irrelevant sources are naturally diluted by the relevant ones.
@@ -76,9 +77,9 @@ To address the crosswalk noise in discrete data, an optional LLM refinement step
 
 The LLM is instructed to be **conservative**: only remove items that are *clearly* irrelevant. Generic tools (Microsoft Office, email, web browsers) are kept for almost all occupations. When in doubt, items are preserved. This prevents the LLM from over-filtering legitimate but uncommon technology associations.
 
-### Technology Skill Filtering
+### Technology Skill and Tools Used Filtering
 
-The LLM receives the occupation title, description, source US occupations, and a numbered list of technology skills. It returns a verdict (relevant/irrelevant) for each item. Items with no verdict are kept (fail-safe conservative default).
+The LLM receives the occupation title, description, source US occupations, and a numbered list of technology skills (or tools/equipment). It returns a verdict (relevant/irrelevant) for each item. Items with no verdict are kept (fail-safe conservative default). The same approach is used for both technology skills (software) and tools used (physical equipment).
 
 ### Task Refinement
 
@@ -118,11 +119,21 @@ The pipeline produces per-occupation JSON files in `data/uk_onet/occupations/{so
   "interests": [...],
   "work_values": [...],
   "tasks": [
-    {"task": "Write, analyse, review, and rewrite programs...", "task_type": "Core"}
+    {"task": "Write, analyse, review, and rewrite programs...", "task_type": "Core", "relevance": 0.1, "importance": 3.85}
   ],
   "technology_skills": [
     {"name": "Python", "weight": 2.5}
   ],
+  "tools_used": [
+    {"name": "Desktop computers", "weight": 3.0}
+  ],
+  "detailed_work_activities": [
+    {"dwa_id": "4.A.2.a.4.I09.D03", "title": "Monitor organizational compliance...", "element_id": "4.A.2.a.4", "weight": 1.5}
+  ],
+  "emerging_tasks": [
+    {"task": "Coach staff on sales tactics.", "category": "New"}
+  ],
+  "reported_job_titles": ["Software Developer", "Web Developer", ...],
   "education": [...],
   "job_zone": 4,
   "alternate_titles": ["Software Developer", "Systems Programmer", ...],
@@ -147,8 +158,12 @@ The pipeline produces per-occupation JSON files in `data/uk_onet/occupations/{so
 | Work Styles | Rated | IM | Personal characteristics for job performance |
 | Interests | Rated | OI (occupational interest) | Holland/RIASEC interest profiles |
 | Work Values | Rated | EX (extent) | Work aspects valued by workers |
-| Tasks | Discrete | — | Specific work activities performed |
-| Technology Skills | Discrete | weight | Software, tools, and technologies used |
+| Tasks | Discrete | relevance, importance | Specific work activities performed (importance: 1–5 IM scale) |
+| Technology Skills | Discrete | weight | Software and technologies used |
+| Tools Used | Discrete | weight | Physical tools and equipment used |
+| Detailed Work Activities | Discrete | weight | Fine-grained activity statements (DWAs) |
+| Emerging Tasks | Discrete | — | Newly identified or revised task statements |
+| Reported Job Titles | Discrete | — | Sample of job titles reported by workers |
 | Education | Rated | — | Education, training, and experience requirements |
 | Job Zone | Numeric | 1–5 | Preparation level (1=little, 5=extensive) |
 

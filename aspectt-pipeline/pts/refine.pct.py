@@ -14,6 +14,7 @@
 
 
 
+
 # %% [markdown]
 # # LLM Refinement of Translated Data
 #
@@ -25,7 +26,8 @@
 #
 # This module uses an LLM to:
 # 1. **Filter irrelevant technology skills** from each occupation
-# 2. **Merge near-duplicate tasks** and remove irrelevant ones
+# 2. **Filter irrelevant tools used** from each occupation
+# 3. **Merge near-duplicate tasks** and remove irrelevant ones
 #
 # Rated data (skills, abilities, knowledge, etc.) is NOT refined -- weighted
 # averaging already handles the crosswalk noise smoothly for continuous scores.
@@ -94,6 +96,18 @@ almost all occupations.
 Return a verdict for EVERY item in the list. Do not skip any."""
 
 
+TOOL_SYSTEM_PROMPT = """\
+You are an expert on UK occupations. You will receive a list of physical tools \
+and equipment mapped to a UK occupation via a crosswalk from US O*NET data.
+
+Assess whether each tool or piece of equipment is plausibly used by workers in \
+this occupation. Be CONSERVATIVE: only mark items as irrelevant if they clearly \
+do not belong. Generic items (desktop computers, laptops, telephones, and basic \
+hand tools) are relevant to many occupations.
+
+Return a verdict for EVERY item in the list. Do not skip any."""
+
+
 TASK_SYSTEM_PROMPT = """\
 You are an expert on UK occupations. You will receive task statements mapped \
 from multiple US occupations to a single UK occupation via a crosswalk.
@@ -141,6 +155,30 @@ def _build_tech_prompt(
     return "\n".join(lines)
 
 
+def _build_tool_prompt(
+    code: int,
+    title: str,
+    description: str,
+    sources: list[dict],
+    tools: list[dict],
+) -> str:
+    """Build user prompt for tools used filtering."""
+    source_str = ", ".join(
+        f"{s.get('onet_title', s.get('onet_soc', '?'))}" for s in sources
+    )
+    lines = [
+        f"UK Occupation: {title} (SOC {code})",
+        f"Description: {description}",
+        f"Source US occupations: {source_str}",
+        "",
+        "Tools and Equipment:",
+    ]
+    for i, tool in enumerate(tools):
+        name = tool.get('name', tool.get('Example', ''))
+        lines.append(f"{i}. {name}")
+    return "\n".join(lines)
+
+
 def _build_task_prompt(
     code: int,
     title: str,
@@ -171,6 +209,7 @@ def _build_task_prompt(
 # %%
 #|export
 TECH_CHUNK_SIZE = 400
+TOOL_CHUNK_SIZE = 400
 TASK_CHUNK_SIZE = 150
 JACCARD_DEDUP_THRESHOLD = 0.85
 
@@ -274,6 +313,61 @@ async def _refine_tech(
     return results
 
 
+async def _refine_tool_chunk(
+    code: int,
+    title: str,
+    description: str,
+    sources: list[dict],
+    tools: list[dict],
+    model: str,
+) -> list[dict]:
+    """Filter a chunk of tools used via LLM."""
+    prompt = _build_tool_prompt(code, title, description, sources, tools)
+
+    response, cache_hit, call_log = await async_single(
+        prompt=prompt,
+        model=model,
+        system=TOOL_SYSTEM_PROMPT,
+        response_format=TechFilterResponse,
+    )
+
+    result = TechFilterResponse.model_validate_json(response)
+
+    # Build set of relevant indices
+    relevant_indices = {v.index for v in result.verdicts if v.relevant}
+
+    # Keep items marked as relevant; if the LLM missed an index, keep it (conservative)
+    kept = []
+    for i, tool in enumerate(tools):
+        if i in relevant_indices or not any(v.index == i for v in result.verdicts):
+            kept.append(tool)
+
+    return kept
+
+
+async def _refine_tools(
+    code: int,
+    title: str,
+    description: str,
+    sources: list[dict],
+    tools: list[dict],
+    model: str,
+) -> list[dict]:
+    """Filter tools used, chunking if needed."""
+    if not tools:
+        return tools
+
+    chunks = _chunk_list(tools, TOOL_CHUNK_SIZE)
+    if len(chunks) == 1:
+        return await _refine_tool_chunk(code, title, description, sources, tools, model)
+
+    results = []
+    for chunk in chunks:
+        kept = await _refine_tool_chunk(code, title, description, sources, chunk, model)
+        results.extend(kept)
+    return results
+
+
 async def _refine_task_chunk(
     code: int,
     title: str,
@@ -339,7 +433,7 @@ async def _refine_tasks(
 # %%
 #|export
 async def refine_occupation(occ: dict, model: str) -> dict:
-    """Refine a single occupation's tasks and tech skills."""
+    """Refine a single occupation's tasks, tech skills, and tools used."""
     title = occ.get('title', '')
     description = occ.get('description', '')
     code = occ.get('uk_soc_2020', 0)
@@ -349,6 +443,11 @@ async def refine_occupation(occ: dict, model: str) -> dict:
         if occ.get('technology_skills'):
             occ['technology_skills'] = await _refine_tech(
                 code, title, description, sources, occ['technology_skills'], model
+            )
+
+        if occ.get('tools_used'):
+            occ['tools_used'] = await _refine_tools(
+                code, title, description, sources, occ['tools_used'], model
             )
 
         if occ.get('tasks'):
@@ -381,7 +480,7 @@ def refine_dataset(
     concurrency_limit: int = CONCURRENCY_LIMIT,
 ) -> list[dict]:
     """
-    Refine all occupations' tasks and technology skills using an LLM.
+    Refine all occupations' tasks, technology skills, and tools used using an LLM.
 
     This is the main entry point, called from build_uk_dataset().
     Runs async batch processing under the hood.
@@ -402,6 +501,7 @@ def refine_dataset(
 
     # Capture before-counts (occupations are mutated in place)
     total_tech_before = sum(len(occ.get('technology_skills', [])) for occ in occupations)
+    total_tools_before = sum(len(occ.get('tools_used', [])) for occ in occupations)
     total_tasks_before = sum(len(occ.get('tasks', [])) for occ in occupations)
 
     async def _run():
@@ -413,7 +513,7 @@ def refine_dataset(
 
         to_refine = [
             occ for occ in occupations
-            if occ.get('technology_skills') or occ.get('tasks')
+            if occ.get('technology_skills') or occ.get('tools_used') or occ.get('tasks')
         ]
 
         if not to_refine:
@@ -428,11 +528,14 @@ def refine_dataset(
     asyncio.run(_run())
 
     total_tech_after = sum(len(occ.get('technology_skills', [])) for occ in occupations)
+    total_tools_after = sum(len(occ.get('tools_used', [])) for occ in occupations)
     total_tasks_after = sum(len(occ.get('tasks', [])) for occ in occupations)
     print(
         f"Refinement complete: "
         f"tech {total_tech_before} -> {total_tech_after} "
         f"({total_tech_before - total_tech_after} removed), "
+        f"tools {total_tools_before} -> {total_tools_after} "
+        f"({total_tools_before - total_tools_after} removed), "
         f"tasks {total_tasks_before} -> {total_tasks_after} "
         f"({total_tasks_before - total_tasks_after} removed/merged)"
     )
