@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import { replaceState } from '$app/navigation';
 	import { getOccupation, type OccupationDetail } from '$lib/api/client';
 	import RatedBars from '$lib/components/RatedBars.svelte';
 
@@ -88,7 +89,7 @@
 		activeSection = id;
 		if (typeof window !== 'undefined') {
 			const hash = id === 'summary' ? '' : `#${id}`;
-			history.replaceState(null, '', `${window.location.pathname}${hash}`);
+			replaceState(`${window.location.pathname}${hash}`, {});
 		}
 	}
 
