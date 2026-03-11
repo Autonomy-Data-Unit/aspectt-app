@@ -132,7 +132,7 @@
 	</section>
 
 	<section class="section">
-		<div class="grid grid-2">
+		<div class="grid grid-3">
 			<a href="/crosswalk" class="nav-card">
 				<h3>SOC crosswalk</h3>
 				<p>The mapping between US O*NET SOC codes and UK SOC 2020.</p>
@@ -140,6 +140,10 @@
 			<a href="/api" class="nav-card">
 				<h3>Public API</h3>
 				<p>Access occupation data programmatically via the REST API.</p>
+			</a>
+			<a href="/about#use-cases" class="nav-card">
+				<h3>Who is ASPECTT for?</h3>
+				<p>How policymakers, researchers, unions and others use the database.</p>
 			</a>
 		</div>
 	</section>
@@ -312,6 +316,10 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 
+	.grid-3 {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
 	.nav-card {
 		background: var(--color-surface);
 		border: 1px solid var(--color-border);
@@ -381,6 +389,12 @@
 		}
 		.descriptor-grid {
 			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	@media (max-width: 900px) {
+		.grid-3 {
+			grid-template-columns: 1fr;
 		}
 	}
 

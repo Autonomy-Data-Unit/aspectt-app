@@ -18,6 +18,36 @@
 		</p>
 	</div>
 
+	<div class="card" id="use-cases">
+		<h2>Using ASPECTT</h2>
+		<div class="use-case-grid">
+			<div class="use-case">
+				<h3>National or local government</h3>
+				<p>ASPECTT will help design fair and efficient transition plans for workforces, as we make the shift from carbon-intensive industries to sustainable sectors. By giving a high-resolution image of the possible pipelines between jobs, policymakers can move from speculation to action-planning. ASPECTT can also give insight into the changing trajectory of skills, tasks and abilities in the labour market over time.</p>
+			</div>
+			<div class="use-case">
+				<h3>Trade unions</h3>
+				<p>ASPECTT will help trade unions plan for the future for their members. By unpacking the occupational elements of a sector, ASPECTT allows trade unions to see the value of certain skills/expertise and the possible avenues for role adaptions in light of the changing nature of our economy and climate. ASPECTT also allows for forecasting the threat of automation with regards to certain tasks on the job, so trade unions can craft policy and campaigns accordingly.</p>
+			</div>
+			<div class="use-case">
+				<h3>NGOs and campaign groups</h3>
+				<p>ASPECTT will give you the highest resolution image of what a just or green transition could look like at the level of jobs and industries. With this knowledge, your campaigns and your reports will be best equipped to confront the obstacles to change as we strive to move towards a sustainable economic model.</p>
+			</div>
+			<div class="use-case">
+				<h3>Business leaders</h3>
+				<p>ASPECTT will help you understand the task, skill, expertise and educational composition of your workforce and the sector you are in. It will help plot possible avenues for transition away from unsustainable working practices and towards sustainable job roles for your enterprise.</p>
+			</div>
+			<div class="use-case">
+				<h3>Universities</h3>
+				<p>ASPECTT will help you understand the skills composition of the UK labour market currently and over the past few decades. Its high-resolution data will show the wage value of certain skills and educational qualifications, allowing for the more precise planning of courses and modules. Which abilities and skills are scarce in the labour market today? Which skills and abilities receive the highest remuneration and which undergraduate and graduate courses might best fit these occupations?</p>
+			</div>
+			<div class="use-case">
+				<h3>Academics and researchers</h3>
+				<p>ASPECTT will contribute greatly to studies across a number of disciplines. If you work in economics, sociology, public policy, environmental studies, climate science and others, ASPECTT will be able to augment your research questions with robust, detailed data on occupational characteristics unavailable elsewhere. Tailoring the database to your research questions, Autonomy can act as an industry partner as part of your research project to deliver results.</p>
+			</div>
+		</div>
+	</div>
+
 	<div class="card">
 		<h2>Methodology</h2>
 		<p>
@@ -149,5 +179,32 @@
 	.link-list li {
 		font-size: 0.875rem;
 		line-height: 1.8;
+	}
+
+	.use-case-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.25rem;
+		margin-top: 0.75rem;
+	}
+
+	.use-case h3 {
+		font-size: 0.9rem;
+		font-weight: 600;
+		margin-bottom: 0.375rem;
+		color: var(--color-primary);
+	}
+
+	.use-case p {
+		font-size: 0.8125rem;
+		line-height: 1.6;
+	}
+
+	@media (max-width: 900px) {
+		.use-case-grid { grid-template-columns: repeat(2, 1fr); }
+	}
+
+	@media (max-width: 600px) {
+		.use-case-grid { grid-template-columns: 1fr; }
 	}
 </style>
