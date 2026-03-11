@@ -120,6 +120,20 @@
 		All endpoints return JSON. Base URL: <code>{baseUrl}</code>
 	</p>
 
+	<div class="card license-card">
+		<h2>License</h2>
+		<p>
+			<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener license">
+				<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
+			</a>
+		</p>
+		<p>
+			ASPECTT data is licensed under a
+			<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+			You are free to share and adapt the data for non-commercial purposes, provided you give appropriate credit.
+		</p>
+	</div>
+
 	<div class="card">
 		<h2>Interactive documentation</h2>
 		<p>
@@ -144,20 +158,6 @@
 				</div>
 			{/each}
 		</div>
-	</div>
-
-	<div class="card license-card">
-		<h2>License</h2>
-		<p>
-			<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener license">
-				<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
-			</a>
-		</p>
-		<p>
-			ASPECTT data is licensed under a
-			<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-			You are free to share and adapt the data for non-commercial purposes, provided you give appropriate credit.
-		</p>
 	</div>
 
 	<div class="card">
