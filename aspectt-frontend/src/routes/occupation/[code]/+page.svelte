@@ -3,6 +3,7 @@
 	import { replaceState } from '$app/navigation';
 	import { getOccupation, getElementDescriptions, type OccupationDetail } from '$lib/api/client';
 	import RatedBars from '$lib/components/RatedBars.svelte';
+	import Tooltip from '$lib/components/Tooltip.svelte';
 
 	let occ = $state<OccupationDetail | null>(null);
 	let descriptions = $state<Record<string, string>>({});
@@ -317,8 +318,11 @@
 									{@const val = (interest as any).value_OI ?? 0}
 									<div class="interest-row">
 										<span class="interest-code" title={interest.element_name}>{interest.element_name[0]}</span>
-										<span class="interest-name" class:has-desc={!!descriptions[interest.element_id]}
-										title={descriptions[interest.element_id] || ''}>{interest.element_name}</span>
+										{#if descriptions[interest.element_id]}
+										<span class="interest-name"><Tooltip text={descriptions[interest.element_id]}>{interest.element_name}</Tooltip></span>
+									{:else}
+										<span class="interest-name">{interest.element_name}</span>
+									{/if}
 										<div class="interest-bar-track">
 											<div class="interest-bar-fill" style="width: {(val / 7) * 100}%"></div>
 										</div>
@@ -339,8 +343,11 @@
 								{#each valueItems.sort((a, b) => ((b as any).value_EX ?? 0) - ((a as any).value_EX ?? 0)) as wv}
 									{@const val = (wv as any).value_EX ?? 0}
 									<div class="interest-row">
-										<span class="interest-name wv-name" class:has-desc={!!descriptions[wv.element_id]}
-									title={descriptions[wv.element_id] || ''}>{wv.element_name}</span>
+										{#if descriptions[wv.element_id]}
+										<span class="interest-name wv-name"><Tooltip text={descriptions[wv.element_id]}>{wv.element_name}</Tooltip></span>
+									{:else}
+										<span class="interest-name wv-name">{wv.element_name}</span>
+									{/if}
 										<div class="interest-bar-track">
 											<div class="interest-bar-fill wv-fill" style="width: {(val / 7) * 100}%"></div>
 										</div>
@@ -540,12 +547,6 @@
 	.related-item:last-child { border-bottom: none; }
 	.related-item:hover { color: var(--color-accent); text-decoration: none; }
 	.related-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; font-size: 0.8125rem; }
-
-	.has-desc {
-		text-decoration: underline dotted var(--color-border-hover);
-		text-underline-offset: 2px;
-		cursor: help;
-	}
 
 	.error { color: #e53e3e; text-align: center; padding: 1rem; }
 

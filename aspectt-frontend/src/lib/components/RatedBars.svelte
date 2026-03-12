@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { RatedElement } from '$lib/api/client';
+	import Tooltip from './Tooltip.svelte';
 
 	let { items, maxValue = 5, showLevel = true, descriptions = {} }: {
 		items: RatedElement[];
@@ -12,8 +13,15 @@
 <div class="rated-list">
 	{#each items as item}
 		<div class="bar-row">
-			<span class="bar-label" class:has-desc={!!descriptions[item.element_id]}
-				title={descriptions[item.element_id] || item.element_id}>{item.element_name}</span>
+			{#if descriptions[item.element_id]}
+				<span class="bar-label">
+					<Tooltip text={descriptions[item.element_id]}>
+						{item.element_name}
+					</Tooltip>
+				</span>
+			{:else}
+				<span class="bar-label">{item.element_name}</span>
+			{/if}
 			<div class="bar-track">
 				{#if item.value_IM !== undefined}
 					<div
@@ -80,11 +88,5 @@
 
 	.swatch.level {
 		background: var(--color-success);
-	}
-
-	.bar-label.has-desc {
-		text-decoration: underline dotted var(--color-border-hover);
-		text-underline-offset: 2px;
-		cursor: help;
 	}
 </style>
