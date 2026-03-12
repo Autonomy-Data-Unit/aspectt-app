@@ -91,7 +91,7 @@
 				<tbody>
 					<tr><td>Technology skills</td><td>Filter irrelevant items</td><td>Crosswalk noise is most visible here (e.g. Jenkins CI, Salesforce for Bricklayers)</td></tr>
 					<tr><td>Tools used</td><td>Filter irrelevant items</td><td>Same crosswalk noise as technology skills &ndash; physical tools from unrelated source occupations</td></tr>
-					<tr><td>Tasks</td><td>Merge near-duplicates + filter irrelevant</td><td>Multiple O*NET sources contribute overlapping or unrelated task statements</td></tr>
+					<tr><td>Tasks</td><td>Deduplicate + filter irrelevant</td><td>Multiple O*NET sources contribute overlapping or unrelated task statements</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -104,18 +104,18 @@
 		<p>The LLM receives the occupation title, description, source US occupations, and a numbered list of technology skills (or tools/equipment). It returns a verdict (relevant/irrelevant) for each item. Items with no verdict are kept (fail-safe conservative default). The same approach is used for both technology skills (software) and tools used (physical equipment).</p>
 
 		<h3>Task refinement</h3>
-		<p>The LLM receives task statements (with Core/Supplemental type labels) and is asked to:</p>
+		<p>The LLM receives task statements (with Core/Supplemental/Unclassified type labels) and is asked to:</p>
 		<ol>
-			<li><strong>Merge near-duplicate tasks</strong> into single clear statements, keeping wording close to originals</li>
+			<li><strong>Deduplicate near-identical tasks</strong> by grouping them and selecting the best original phrasing</li>
 			<li><strong>Remove clearly irrelevant tasks</strong> that do not belong to this occupation</li>
 		</ol>
-		<p>Every original task must appear in exactly one merged group or in the removal list &ndash; no task is silently dropped.</p>
+		<p>No LLM-generated text appears in the final dataset &ndash; the model only selects among and filters original O*NET task statements. Every original task must appear exactly once: as a selected representative, in a duplicate group, or in the removal list.</p>
 
 		<h3>Chunking and deduplication</h3>
 		<p>For occupations with very large item lists (&gt;400 tech skills or &gt;150 tasks), input is split into chunks processed independently. After task chunking, a deterministic post-processing pass merges any cross-chunk duplicates using Jaccard word-overlap (threshold: 0.85).</p>
 
-		<h3>Model and cost</h3>
-		<p>The default model is <code>gpt-4o-mini</code>. At ~1,500 API calls across 343 occupations with data (~5M input tokens, ~2.5M output tokens), a full run costs approximately $2.25. All responses are cached, so re-runs are free.</p>
+		<h3>Models</h3>
+		<p>Each refinement task uses an independently configurable model. Technology and tool filtering (simple relevance judgements) use <code>gpt-5-mini</code>. Task deduplication and filtering, which requires semantic similarity understanding, also uses <code>gpt-5-mini</code> by default but can be upgraded to a stronger model if needed. At ~2,860 API calls across 410 occupations, a full run costs under $5. All responses are cached, so re-runs are free.</p>
 	</div>
 
 	<div class="card">

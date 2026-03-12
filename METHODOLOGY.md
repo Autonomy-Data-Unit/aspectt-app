@@ -69,7 +69,7 @@ To address the crosswalk noise in discrete data, an optional LLM refinement step
 |----------|-----------|-----------|
 | Technology skills | Filter irrelevant items | Crosswalk noise is most visible here (e.g. Jenkins CI, Salesforce for Bricklayers) |
 | Tools used | Filter irrelevant items | Same crosswalk noise as technology skills — physical tools from unrelated source occupations |
-| Tasks | Merge near-duplicates + filter irrelevant | Multiple O\*NET sources contribute overlapping or unrelated task statements |
+| Tasks | Deduplicate + filter irrelevant | Multiple O\*NET sources contribute overlapping or unrelated task statements |
 
 **Rated data is NOT refined.** Weighted averaging already handles crosswalk noise smoothly for continuous numeric scores — the irrelevant sources are naturally diluted by the relevant ones.
 
@@ -83,19 +83,27 @@ The LLM receives the occupation title, description, source US occupations, and a
 
 ### Task Refinement
 
-The LLM receives task statements (with Core/Supplemental type labels) and is asked to:
-1. **Merge near-duplicate tasks** into single clear statements, keeping wording close to originals
+The LLM receives task statements (with Core/Supplemental/Unclassified type labels) and is asked to:
+1. **Deduplicate near-identical tasks** by grouping them and selecting the best original phrasing
 2. **Remove clearly irrelevant tasks** that do not belong to this occupation
 
-Every original task must appear in exactly one merged group or in the removal list — no task is silently dropped.
+No LLM-generated text appears in the final dataset — the model only selects among and filters original O\*NET task statements. Every original task must appear exactly once: as a selected representative, in a duplicate group, or in the removal list.
 
 ### Chunking and Deduplication
 
 For occupations with very large item lists (>400 tech skills or >150 tasks), input is split into chunks processed independently. After task chunking, a deterministic post-processing pass merges any cross-chunk duplicates using Jaccard word-overlap (threshold: 0.85).
 
-### Model and Cost
+### Models
 
-The default model is `gpt-4o-mini`. At ~1,500 API calls across 343 occupations with data (~5M input tokens, ~2.5M output tokens), a full run costs approximately $2.25. All responses are cached with `adulib`, so re-runs are free.
+Each refinement task uses an independently configurable model. The defaults (set in `const.pct.py`) are:
+
+| Task | Model | Rationale |
+|------|-------|-----------|
+| Technology skill filtering | `gpt-5-mini` | Simple relevance judgement |
+| Tool/equipment filtering | `gpt-5-mini` | Simple relevance judgement |
+| Task deduplication and filtering | `gpt-5-mini` | Requires semantic similarity understanding |
+
+At ~2,860 API calls across 410 occupations with data (~8M input tokens, ~4M output tokens), a full run costs under $5 with `gpt-5-mini`. All responses are cached with `adulib`, so re-runs are free.
 
 ## 5. Output Format
 
@@ -198,4 +206,4 @@ dataset = build_uk_dataset(refine=True)
 "
 ```
 
-Set `refine=False` (the default) to skip the LLM refinement step and produce raw translated data.
+Set `refine=False` to skip the LLM refinement step and produce raw translated data.
