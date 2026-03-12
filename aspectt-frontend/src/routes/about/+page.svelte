@@ -126,6 +126,15 @@
 			<li><a href="/api">ASPECTT public API</a></li>
 		</ul>
 	</div>
+
+	<div class="card" id="contact">
+		<h2>Contact</h2>
+		<p>
+			For general inquiries about ASPECTT, or if you are interested in commissioning
+			bespoke occupational analysis using the ASPECTT data, please get in touch at
+			<a href="mailto:aspectt@autonomy.work">aspectt@autonomy.work</a>.
+		</p>
+	</div>
 </div>
 
 <style>
