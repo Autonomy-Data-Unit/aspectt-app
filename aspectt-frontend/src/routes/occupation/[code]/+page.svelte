@@ -178,6 +178,10 @@
 					{#if occ.emerging_tasks?.length}
 						<div class="card emerging-card">
 							<h2>Emerging tasks ({occ.emerging_tasks.length})</h2>
+							<div class="task-legend">
+								<span class="task-legend-item"><span class="badge emerging-new">New</span> Recently identified task not in the original taxonomy</span>
+								<span class="task-legend-item"><span class="badge emerging-revision">Revision</span> Existing task updated to reflect current practice</span>
+							</div>
 							<div class="task-items">
 								{#each occ.emerging_tasks as et}
 									<div class="task-item">
@@ -198,6 +202,7 @@
 						<div class="task-legend">
 							<span class="task-legend-item"><span class="badge">Core</span> Essential duties performed by most workers in this occupation</span>
 							<span class="task-legend-item"><span class="badge supplemental">Supplemental</span> Duties performed by some, but not all, workers</span>
+							<span class="task-legend-item"><span class="badge unclassified">Unclassified</span> Not yet categorised as core or supplemental</span>
 						</div>
 						{#if occ.tasks?.length}
 							<div class="task-items">
