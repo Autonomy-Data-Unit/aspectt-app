@@ -195,6 +195,10 @@
 
 					<div class="card">
 						<h2>Tasks ({occ.tasks?.length ?? 0})</h2>
+						<div class="task-legend">
+							<span class="task-legend-item"><span class="badge">Core</span> Essential duties performed by most workers in this occupation</span>
+							<span class="task-legend-item"><span class="badge supplemental">Supplemental</span> Duties performed by some, but not all, workers</span>
+						</div>
 						{#if occ.tasks?.length}
 							<div class="task-items">
 								{#each occ.tasks as task}
@@ -488,6 +492,8 @@
 	.source-bar-track { height: 6px; background: var(--color-border); border-radius: 3px; overflow: hidden; }
 	.source-bar-fill { height: 100%; background: var(--color-accent); border-radius: 3px; transition: width 0.3s; }
 
+	.task-legend { display: flex; flex-direction: column; gap: 0.35rem; margin-bottom: 0.75rem; font-size: 0.8rem; color: var(--color-text-secondary); }
+	.task-legend-item { display: flex; align-items: center; gap: 0.5rem; }
 	.task-items { display: flex; flex-direction: column; gap: 0.5rem; }
 	.task-item { padding: 0.5rem 0; border-bottom: 1px solid var(--color-border); }
 	.task-item:last-child { border-bottom: none; }
