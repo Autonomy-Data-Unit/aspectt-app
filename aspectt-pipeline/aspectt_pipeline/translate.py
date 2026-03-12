@@ -9,7 +9,10 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
-from .const import DATA_DIR, ONET_DIR, OUTPUT_DIR, DEFAULT_MODEL
+from .const import (
+    DATA_DIR, ONET_DIR, OUTPUT_DIR,
+    TECH_FILTER_MODEL, TOOL_FILTER_MODEL, TASK_REFINE_MODEL,
+)
 from .crosswalk import (
     build_crosswalk,
     load_uk_soc_framework,
@@ -400,7 +403,6 @@ def build_uk_dataset(
     onet_dir: Path = ONET_DIR,
     output_dir: Path = OUTPUT_DIR,
     refine: bool = True,
-    refine_model: str = DEFAULT_MODEL,
 ) -> dict:
     """
     Build the full UK O*NET-equivalent dataset.
@@ -614,7 +616,7 @@ def build_uk_dataset(
         unrefined_occupations = copy.deepcopy(dataset['occupations'])
 
         print("Refining tasks, technology skills, and tools used with LLM...")
-        dataset['occupations'] = refine_dataset(dataset['occupations'], model=refine_model)
+        dataset['occupations'] = refine_dataset(dataset['occupations'])
 
         print("Post-processing refined data...")
         dataset['occupations'] = postprocess_dataset(dataset['occupations'], unrefined_occupations)

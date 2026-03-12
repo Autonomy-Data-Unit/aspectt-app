@@ -20,6 +20,7 @@
 
 
 
+
 # %% [markdown]
 # # LLM Refinement of Translated Data
 #
@@ -36,6 +37,7 @@
 #
 # Rated data (skills, abilities, knowledge, etc.) is NOT refined -- weighted
 # averaging already handles the crosswalk noise smoothly for continuous scores.
+# 
 
 # %%
 #|export
@@ -48,7 +50,8 @@ from pydantic import BaseModel
 from adulib.caching import set_default_cache_path
 from adulib.llm.completions import async_single
 from aspectt_pipeline.const import (
-    DEFAULT_MODEL, CONCURRENCY_LIMIT,
+    TECH_FILTER_MODEL, TOOL_FILTER_MODEL, TASK_REFINE_MODEL,
+    CONCURRENCY_LIMIT,
     TECH_CHUNK_SIZE, TOOL_CHUNK_SIZE, TASK_CHUNK_SIZE,
     JACCARD_DEDUP_THRESHOLD, VALID_TASK_TYPES,
 )
@@ -65,8 +68,10 @@ logger = logging.getLogger(__name__)
 
 
 
+
 # %% [markdown]
 # ## Pydantic Response Models
+# 
 
 # %%
 #|export
@@ -98,8 +103,10 @@ class TaskRefineResponse(BaseModel):
 
 
 
+
 # %% [markdown]
 # ## System Prompts
+# 
 
 # %%
 #|export
@@ -160,8 +167,10 @@ preferred_index, in a duplicate_indices list, or in removed_indices."""
 
 
 
+
 # %% [markdown]
 # ## Prompt Builders
+# 
 
 # %%
 #|export
@@ -252,8 +261,10 @@ def _build_task_prompt(
 
 
 
+
 # %% [markdown]
 # ## Chunking Helpers
+# 
 
 # %%
 #|export
@@ -301,8 +312,10 @@ def _dedup_tasks_by_jaccard(tasks: list[dict], threshold: float = JACCARD_DEDUP_
 
 
 
+
 # %% [markdown]
 # ## Core Refinement Functions
+# 
 
 # %%
 #|export
@@ -485,12 +498,19 @@ async def _refine_tasks(
 
 
 
+
 # %% [markdown]
 # ## Per-Occupation Refinement
+# 
 
 # %%
 #|export
-async def refine_occupation(occ: dict, model: str) -> dict:
+async def refine_occupation(
+    occ: dict,
+    tech_model: str = TECH_FILTER_MODEL,
+    tool_model: str = TOOL_FILTER_MODEL,
+    task_model: str = TASK_REFINE_MODEL,
+) -> dict:
     """Refine a single occupation's tasks, tech skills, and tools used."""
     title = occ.get('title', '')
     description = occ.get('description', '')
@@ -500,17 +520,17 @@ async def refine_occupation(occ: dict, model: str) -> dict:
     try:
         if occ.get('technology_skills'):
             occ['technology_skills'] = await _refine_tech(
-                code, title, description, sources, occ['technology_skills'], model
+                code, title, description, sources, occ['technology_skills'], tech_model
             )
 
         if occ.get('tools_used'):
             occ['tools_used'] = await _refine_tools(
-                code, title, description, sources, occ['tools_used'], model
+                code, title, description, sources, occ['tools_used'], tool_model
             )
 
         if occ.get('tasks'):
             occ['tasks'] = await _refine_tasks(
-                code, title, description, sources, occ['tasks'], model
+                code, title, description, sources, occ['tasks'], task_model
             )
     except Exception as e:
         logger.warning(f"Refinement failed for SOC {code} ({title}): {e}. Keeping original data.")
@@ -527,26 +547,32 @@ async def refine_occupation(occ: dict, model: str) -> dict:
 
 
 
+
 # %% [markdown]
 # ## Dataset-Level Entry Point
+# 
 
 # %%
 #|export
 def refine_dataset(
     occupations: list[dict],
-    model: str = DEFAULT_MODEL,
+    tech_model: str = TECH_FILTER_MODEL,
+    tool_model: str = TOOL_FILTER_MODEL,
+    task_model: str = TASK_REFINE_MODEL,
     cache_dir: Path | None = None,
     concurrency_limit: int = CONCURRENCY_LIMIT,
 ) -> list[dict]:
     """
-    Refine all occupations' tasks, technology skills, and tools used using an LLM.
+    Refine all occupations' tasks, technology skills, and tools used using LLMs.
 
     This is the main entry point, called from build_uk_dataset().
     Runs async batch processing under the hood.
 
     Args:
         occupations: List of occupation dicts (mutated in place and returned).
-        model: LLM model identifier (default: gpt-4o-mini).
+        tech_model: Model for technology skill filtering.
+        tool_model: Model for tool/equipment filtering.
+        task_model: Model for task deduplication and filtering.
         cache_dir: Path for LLM response cache (default: .cache in pipeline dir).
         concurrency_limit: Max concurrent LLM calls.
 
@@ -558,6 +584,8 @@ def refine_dataset(
     cache_dir.mkdir(parents=True, exist_ok=True)
     set_default_cache_path(cache_dir)
 
+    print(f"Models: tech={tech_model}, tools={tool_model}, tasks={task_model}")
+
     # Capture before-counts (occupations are mutated in place)
     total_tech_before = sum(len(occ.get('technology_skills', [])) for occ in occupations)
     total_tools_before = sum(len(occ.get('tools_used', [])) for occ in occupations)
@@ -568,7 +596,7 @@ def refine_dataset(
 
         async def _bounded(occ):
             async with semaphore:
-                return await refine_occupation(occ, model)
+                return await refine_occupation(occ, tech_model, tool_model, task_model)
 
         to_refine = [
             occ for occ in occupations

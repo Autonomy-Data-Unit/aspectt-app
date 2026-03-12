@@ -17,6 +17,7 @@
 
 
 
+
 # %% [markdown]
 # # Translate O*NET Data to UK Context
 #
@@ -24,6 +25,7 @@
 # equivalents using the crosswalk. Each UK SOC code is a "superposition"
 # of its contributing US O*NET codes - numeric values are averaged (weighted),
 # and categorical/text data is combined.
+# 
 
 # %%
 #|export
@@ -33,7 +35,10 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
-from aspectt_pipeline.const import DATA_DIR, ONET_DIR, OUTPUT_DIR, DEFAULT_MODEL
+from aspectt_pipeline.const import (
+    DATA_DIR, ONET_DIR, OUTPUT_DIR,
+    TECH_FILTER_MODEL, TOOL_FILTER_MODEL, TASK_REFINE_MODEL,
+)
 from aspectt_pipeline.crosswalk import (
     build_crosswalk,
     load_uk_soc_framework,
@@ -48,11 +53,13 @@ from aspectt_pipeline.crosswalk import (
 
 
 
+
 # %%
 #|export
 def load_onet_table(filename: str, onet_dir: Path = ONET_DIR) -> pd.DataFrame:
     """Load an O*NET data table (tab-separated text file)."""
     return pd.read_csv(onet_dir / filename, sep='\t')
+
 
 
 
@@ -106,6 +113,7 @@ def translate_rated_data(
     result = result.drop(columns=['Data_Value', 'Weight_Sum'])
 
     return result
+
 
 
 
@@ -190,6 +198,7 @@ def translate_task_statements(
 
 
 
+
 # %%
 #|export
 def translate_technology_skills(
@@ -224,6 +233,7 @@ def translate_technology_skills(
 
 
 
+
 # %%
 #|export
 def translate_tools_used(
@@ -247,6 +257,7 @@ def translate_tools_used(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -298,6 +309,7 @@ def translate_detailed_work_activities(
 
 
 
+
 # %%
 #|export
 def translate_emerging_tasks(
@@ -320,6 +332,7 @@ def translate_emerging_tasks(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -360,6 +373,7 @@ def translate_reported_titles(
 
 
 
+
 # %%
 #|export
 def translate_interests(
@@ -381,6 +395,7 @@ def translate_interests(
 
 
 
+
 # %%
 #|export
 def translate_work_values(
@@ -393,6 +408,7 @@ def translate_work_values(
         value_col='Data Value',
         group_cols=['Element ID', 'Element Name', 'Scale ID'],
     )
+
 
 
 
@@ -438,6 +454,7 @@ def translate_education(
 
 
 
+
 # %%
 #|export
 def translate_job_zones(
@@ -471,6 +488,7 @@ def translate_job_zones(
 
 
 
+
 # %%
 #|export
 def translate_alternate_titles(
@@ -493,6 +511,7 @@ def translate_alternate_titles(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -552,6 +571,7 @@ def translate_related_occupations(
 
 
 
+
 # %%
 #|export
 def build_uk_dataset(
@@ -559,7 +579,6 @@ def build_uk_dataset(
     onet_dir: Path = ONET_DIR,
     output_dir: Path = OUTPUT_DIR,
     refine: bool = True,
-    refine_model: str = DEFAULT_MODEL,
 ) -> dict:
     """
     Build the full UK O*NET-equivalent dataset.
@@ -773,7 +792,7 @@ def build_uk_dataset(
         unrefined_occupations = copy.deepcopy(dataset['occupations'])
 
         print("Refining tasks, technology skills, and tools used with LLM...")
-        dataset['occupations'] = refine_dataset(dataset['occupations'], model=refine_model)
+        dataset['occupations'] = refine_dataset(dataset['occupations'])
 
         print("Post-processing refined data...")
         dataset['occupations'] = postprocess_dataset(dataset['occupations'], unrefined_occupations)
@@ -806,6 +825,7 @@ def build_uk_dataset(
 
     print(f"Done! {len(dataset['occupations'])} occupations saved.")
     return dataset
+
 
 
 
@@ -860,6 +880,7 @@ def _json_default(obj):
 
 
 
+
 # %%
 #|export
 def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataFrame) -> str:
@@ -887,6 +908,7 @@ def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataF
         return " ".join(unique_descs)
     else:
         return " ".join(unique_descs[:3]) + f" (Based on {len(unique_descs)} related US occupations.)"
+
 
 
 
