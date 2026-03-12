@@ -13,6 +13,7 @@
 
 
 
+
 # %% [markdown]
 # # Post-Processing of Refined Data
 #
@@ -20,6 +21,7 @@
 # Addresses known issues: nan task types, LLM artifacts in text,
 # US-specific terminology, wrong-domain tasks, and essential tech
 # skills wrongly removed.
+#
 # 
 
 # %%
@@ -33,8 +35,10 @@ logger = logging.getLogger(__name__)
 
 
 
+
 # %% [markdown]
 # ## 1.1 Fix "nan" task_type
+#
 # 
 
 # %%
@@ -53,8 +57,10 @@ def _fix_nan_task_types(occ: dict) -> int:
 
 
 
+
 # %% [markdown]
 # ## 1.2 Remove LLM Artifacts from Task Text
+#
 # 
 
 # %%
@@ -107,8 +113,10 @@ def _remove_llm_artifacts(occ: dict) -> int:
 
 
 
+
 # %% [markdown]
 # ## 1.3 Generic Tech Skill Whitelist
+#
 # 
 
 # %%
@@ -143,8 +151,10 @@ def _restore_generic_tech(occ: dict, unrefined_occ: dict) -> int:
 
 
 
+
 # %% [markdown]
 # ## 1.4 US to UK Terminology Substitution
+#
 # 
 
 # %%
@@ -210,8 +220,10 @@ def _substitute_us_uk_terms(occ: dict) -> int:
 
 
 
+
 # %% [markdown]
 # ## 1.5 Remove Wrong-Domain Tasks
+#
 # 
 
 # %%
@@ -266,8 +278,43 @@ def _remove_wrong_domain_tasks(occ: dict) -> int:
 
 
 
+
+# %% [markdown]
+# ## 1.6 Auto-detect Partial Profile Occupations
+# 
+
+# %%
+#|export
+_KEY_CATEGORIES = ('skills', 'abilities', 'knowledge')
+
+
+def _flag_partial_profiles(occ: dict) -> bool:
+    """Flag occupations missing all key data categories (skills, abilities, knowledge).
+
+    These correspond to O*NET occupations with only a partial profile available.
+    Returns True if flag was set.
+    """
+    # Don't overwrite an existing flag (e.g. from manual overrides)
+    if occ.get('insufficient_source_data'):
+        return False
+
+    missing = [cat for cat in _KEY_CATEGORIES if not occ.get(cat)]
+    if len(missing) == len(_KEY_CATEGORIES):
+        occ['insufficient_source_data'] = (
+            'Source O*NET occupation(s) have only a partial profile — '
+            'skills, abilities, and knowledge data are not available'
+        )
+        return True
+    return False
+
+
+
+
+
+
 # %% [markdown]
 # ## Manual Overrides
+#
 # 
 
 # %%
@@ -352,8 +399,10 @@ def apply_manual_overrides(
 
 
 
+
 # %% [markdown]
 # ## Dataset-Level Entry Point
+#
 # 
 
 # %%
@@ -384,6 +433,7 @@ def postprocess_dataset(
     total_tech_restored = 0
     total_us_uk = 0
     total_wrong_domain = 0
+    total_partial = 0
 
     for occ in occupations:
         code = occ.get('uk_soc_2020', 0)
@@ -405,13 +455,18 @@ def postprocess_dataset(
         # 1.5 Wrong-domain tasks
         total_wrong_domain += _remove_wrong_domain_tasks(occ)
 
+        # 1.6 Flag partial profiles
+        if _flag_partial_profiles(occ):
+            total_partial += 1
+
     print(
         f"Post-processing complete: "
         f"{total_nan_fixes} nan task_types fixed, "
         f"{total_artifacts} LLM artifacts removed, "
         f"{total_tech_restored} generic tech skills restored, "
         f"{total_us_uk} US->UK substitutions, "
-        f"{total_wrong_domain} wrong-domain tasks removed"
+        f"{total_wrong_domain} wrong-domain tasks removed, "
+        f"{total_partial} partial profiles flagged"
     )
 
     return occupations
