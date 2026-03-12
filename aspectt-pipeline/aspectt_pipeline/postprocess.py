@@ -9,26 +9,41 @@ import re
 logger = logging.getLogger(__name__)
 
 # %% nbs/postprocess.ipynb 4
-def _fix_nan_task_types(occ: dict) -> int:
-    """Replace nan/None/missing task_type with 'Unclassified'. Returns count of fixes."""
+_VALID_TASK_TYPES = {'Core', 'Supplemental', 'Unclassified'}
+
+
+def _normalise_task_types(occ: dict) -> int:
+    """Normalise task_type to one of Core/Supplemental/Unclassified. Returns count of fixes."""
     fixes = 0
     for task in occ.get('tasks', []):
         tt = task.get('task_type')
-        if tt is None or (isinstance(tt, str) and tt.lower() == 'nan'):
-            task['task_type'] = 'Unclassified'
-            fixes += 1
+        if tt not in _VALID_TASK_TYPES:
+            # Try case-insensitive match
+            if isinstance(tt, str):
+                for valid in _VALID_TASK_TYPES:
+                    if tt.lower() == valid.lower():
+                        task['task_type'] = valid
+                        fixes += 1
+                        break
+                else:
+                    task['task_type'] = 'Unclassified'
+                    fixes += 1
+            else:
+                task['task_type'] = 'Unclassified'
+                fixes += 1
     return fixes
 
 # %% nbs/postprocess.ipynb 6
-_LLM_ARTIFACT_PATTERNS = [
+_PLACEHOLDER_PATTERNS = [
     re.compile(r'^Remove (irrelevant |tasks)', re.IGNORECASE),
     re.compile(r'\[REMOVED\]', re.IGNORECASE),
     re.compile(r'\[REDACTED\]', re.IGNORECASE),
+    re.compile(r'^Not relevant\.?$', re.IGNORECASE),
 ]
 
 
-def _remove_llm_artifacts(occ: dict) -> int:
-    """Remove tasks that contain LLM refinement artifacts. Returns count removed."""
+def _remove_placeholder_tasks(occ: dict) -> int:
+    """Remove tasks with empty or placeholder text. Returns count removed."""
     tasks = occ.get('tasks', [])
     if not tasks:
         return 0
@@ -37,25 +52,14 @@ def _remove_llm_artifacts(occ: dict) -> int:
     removed = 0
     for task in tasks:
         text = task.get('task', '').strip()
-        task_type = task.get('task_type', '')
 
-        # Remove empty/placeholder tasks
-        if not text or text == 'Not relevant.':
+        # Remove empty tasks
+        if not text:
             removed += 1
             continue
 
-        # Remove tasks with [nan] prefix
-        if text.startswith('[nan]'):
-            removed += 1
-            continue
-
-        # Remove tasks with task_type "Irrelevant"
-        if isinstance(task_type, str) and task_type.lower() == 'irrelevant':
-            removed += 1
-            continue
-
-        # Remove tasks matching LLM artifact patterns
-        if any(p.search(text) for p in _LLM_ARTIFACT_PATTERNS):
+        # Remove placeholder/artifact text
+        if any(p.search(text) for p in _PLACEHOLDER_PATTERNS):
             removed += 1
             continue
 
@@ -318,8 +322,8 @@ def postprocess_dataset(
         for occ in unrefined_occupations:
             unrefined_lookup[occ['uk_soc_2020']] = occ
 
-    total_nan_fixes = 0
-    total_artifacts = 0
+    total_type_fixes = 0
+    total_placeholders = 0
     total_tech_restored = 0
     total_us_uk = 0
     total_wrong_domain = 0
@@ -328,11 +332,11 @@ def postprocess_dataset(
     for occ in occupations:
         code = occ.get('uk_soc_2020', 0)
 
-        # 1.1 Fix nan task_types
-        total_nan_fixes += _fix_nan_task_types(occ)
+        # 1.1 Normalise task_types
+        total_type_fixes += _normalise_task_types(occ)
 
-        # 1.2 Remove LLM artifacts
-        total_artifacts += _remove_llm_artifacts(occ)
+        # 1.2 Remove placeholder tasks
+        total_placeholders += _remove_placeholder_tasks(occ)
 
         # 1.3 Restore generic tech skills
         unrefined = unrefined_lookup.get(code)
@@ -351,8 +355,8 @@ def postprocess_dataset(
 
     print(
         f"Post-processing complete: "
-        f"{total_nan_fixes} nan task_types fixed, "
-        f"{total_artifacts} LLM artifacts removed, "
+        f"{total_type_fixes} task_types normalised, "
+        f"{total_placeholders} placeholder tasks removed, "
         f"{total_tech_restored} generic tech skills restored, "
         f"{total_us_uk} US->UK substitutions, "
         f"{total_wrong_domain} wrong-domain tasks removed, "

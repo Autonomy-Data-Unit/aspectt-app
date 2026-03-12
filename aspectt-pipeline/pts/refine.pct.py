@@ -16,6 +16,9 @@
 
 
 
+
+
+
 # %% [markdown]
 # # LLM Refinement of Translated Data
 #
@@ -28,10 +31,13 @@
 # This module uses an LLM to:
 # 1. **Filter irrelevant technology skills** from each occupation
 # 2. **Filter irrelevant tools used** from each occupation
-# 3. **Merge near-duplicate tasks** and remove irrelevant ones
+# 3. **Deduplicate near-identical tasks** and remove irrelevant ones
 #
 # Rated data (skills, abilities, knowledge, etc.) is NOT refined -- weighted
 # averaging already handles the crosswalk noise smoothly for continuous scores.
+#
+#
+#
 # 
 
 # %%
@@ -53,8 +59,14 @@ logger = logging.getLogger(__name__)
 
 
 
+
+
+
 # %% [markdown]
 # ## Pydantic Response Models
+#
+#
+#
 # 
 
 # %%
@@ -68,15 +80,17 @@ class TechFilterResponse(BaseModel):
     verdicts: list[TechSkillVerdict]
 
 
-class MergedTask(BaseModel):
-    task: str
-    task_type: str
-    source_indices: list[int]
+class TaskGroup(BaseModel):
+    preferred_index: int
+    duplicate_indices: list[int]
 
 
 class TaskRefineResponse(BaseModel):
-    tasks: list[MergedTask]
+    kept: list[TaskGroup]
     removed_indices: list[int]
+
+
+
 
 
 
@@ -86,6 +100,9 @@ class TaskRefineResponse(BaseModel):
 
 # %% [markdown]
 # ## System Prompts
+#
+#
+#
 # 
 
 # %%
@@ -119,21 +136,26 @@ You are an expert on UK occupations. You will receive task statements mapped \
 from multiple US occupations to a single UK occupation via a crosswalk.
 
 Your job:
-1. Merge near-duplicate tasks into a single clear statement. Keep wording \
-close to the originals. Prefer the clearer/more general phrasing.
+1. Deduplicate near-identical tasks. Group duplicates together and pick the \
+best original (preferred_index) -- the clearest and most general phrasing. \
+List the other indices in duplicate_indices.
 2. Mark tasks clearly irrelevant to this occupation for removal. Be \
-CONSERVATIVE -- when in doubt, keep the task.
+CONSERVATIVE -- when in doubt, keep the task. Put their indices in \
+removed_indices.
 
 IMPORTANT constraints:
-- Each merged task MUST be a single, clear sentence -- never a paragraph.
-- A merged task should combine at most 3 very similar original tasks.
-- Do NOT merge tasks just because they relate to the same broad topic area.
-- No task in your output should exceed 200 characters.
+- Do NOT rewrite or generate any task text. You are only selecting and \
+filtering original tasks.
+- Only group tasks as duplicates if they say essentially the same thing. \
+Do NOT group tasks just because they relate to the same broad topic.
 - For occupations with many input tasks, aim to retain at least 10 distinct \
 tasks in the output.
 
-Every original task index must appear in exactly one merged task's \
-source_indices OR in removed_indices. Do not leave any index unaccounted for."""
+Every original task index must appear exactly once: either as a \
+preferred_index, in a duplicate_indices list, or in removed_indices."""
+
+
+
 
 
 
@@ -143,6 +165,9 @@ source_indices OR in removed_indices. Do not leave any index unaccounted for."""
 
 # %% [markdown]
 # ## Prompt Builders
+#
+#
+#
 # 
 
 # %%
@@ -195,6 +220,18 @@ def _build_tool_prompt(
     return "\n".join(lines)
 
 
+def _normalise_task_type(raw: str | None) -> str:
+    """Normalise a task_type value to one of Core/Supplemental/Unclassified."""
+    if raw is None:
+        return 'Unclassified'
+    val = raw.strip()
+    if val.lower() in ('core',):
+        return 'Core'
+    if val.lower() in ('supplemental',):
+        return 'Supplemental'
+    return 'Unclassified'
+
+
 def _build_task_prompt(
     code: int,
     title: str,
@@ -209,7 +246,7 @@ def _build_task_prompt(
         "Tasks:",
     ]
     for i, t in enumerate(tasks):
-        task_type = t.get('task_type', 'Core')
+        task_type = _normalise_task_type(t.get('task_type'))
         task_text = t.get('task', '')
         lines.append(f"{i}. [{task_type}] {task_text}")
     return "\n".join(lines)
@@ -220,8 +257,14 @@ def _build_task_prompt(
 
 
 
+
+
+
 # %% [markdown]
 # ## Chunking Helpers
+#
+#
+#
 # 
 
 # %%
@@ -272,8 +315,14 @@ def _dedup_tasks_by_jaccard(tasks: list[dict], threshold: float = JACCARD_DEDUP_
 
 
 
+
+
+
 # %% [markdown]
 # ## Core Refinement Functions
+#
+#
+#
 # 
 
 # %%
@@ -395,7 +444,7 @@ async def _refine_task_chunk(
     tasks: list[dict],
     model: str,
 ) -> list[dict]:
-    """Refine a chunk of tasks via LLM (merge duplicates + filter irrelevant)."""
+    """Deduplicate and filter a chunk of tasks via LLM. Only original text is kept."""
     prompt = _build_task_prompt(code, title, description, tasks)
 
     response, cache_hit, call_log = await async_single(
@@ -407,26 +456,18 @@ async def _refine_task_chunk(
 
     result = TaskRefineResponse.model_validate_json(response)
 
-    # Build refined task list, splitting mega-merged blobs back to originals
+    # Keep only the preferred original task from each group
     refined = []
-    for mt in result.tasks:
-        if len(mt.task) > 300:
-            # Mega-merged blob detected — keep original individual tasks instead
-            logger.warning(
-                f"SOC {code}: merged task too long ({len(mt.task)} chars), "
-                f"keeping {len(mt.source_indices)} original tasks"
-            )
-            for idx in mt.source_indices:
-                if 0 <= idx < len(tasks):
-                    refined.append({
-                        'task': tasks[idx].get('task', ''),
-                        'task_type': tasks[idx].get('task_type', mt.task_type),
-                    })
-        else:
+    for group in result.kept:
+        idx = group.preferred_index
+        if 0 <= idx < len(tasks):
+            task = tasks[idx]
             refined.append({
-                'task': mt.task,
-                'task_type': mt.task_type,
+                'task': task.get('task', ''),
+                'task_type': _normalise_task_type(task.get('task_type')),
             })
+        else:
+            logger.warning(f"SOC {code}: preferred_index {idx} out of range (0-{len(tasks)-1})")
 
     return refined
 
@@ -461,8 +502,14 @@ async def _refine_tasks(
 
 
 
+
+
+
 # %% [markdown]
 # ## Per-Occupation Refinement
+#
+#
+#
 # 
 
 # %%
@@ -500,8 +547,14 @@ async def refine_occupation(occ: dict, model: str) -> dict:
 
 
 
+
+
+
 # %% [markdown]
 # ## Dataset-Level Entry Point
+#
+#
+#
 # 
 
 # %%
