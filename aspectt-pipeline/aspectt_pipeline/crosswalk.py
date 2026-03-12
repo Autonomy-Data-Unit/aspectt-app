@@ -9,7 +9,7 @@ import openpyxl
 
 from .const import DATA_DIR, ONET_DIR
 
-# %% nbs/crosswalk.ipynb 3
+# %% nbs/crosswalk.ipynb 4
 def load_uk_soc_framework(data_dir: Path = DATA_DIR) -> dict[int, str]:
     """Load UK SOC 2020 unit group codes and titles from the ONS coding index."""
     xlsx_path = data_dir / "soc2020volume2thecodingindexexcel03122025.xlsx"
@@ -22,7 +22,7 @@ def load_uk_soc_framework(data_dir: Path = DATA_DIR) -> dict[int, str]:
     wb.close()
     return groups
 
-# %% nbs/crosswalk.ipynb 5
+# %% nbs/crosswalk.ipynb 7
 def load_isco_to_uk_soc(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     """Extract ISCO-08 → UK SOC 2020 mapping from the ONS coding index."""
     xlsx_path = data_dir / "soc2020volume2thecodingindexexcel03122025.xlsx"
@@ -43,7 +43,7 @@ def load_isco_to_uk_soc(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     wb.close()
     return pd.DataFrame(pairs).drop_duplicates()
 
-# %% nbs/crosswalk.ipynb 7
+# %% nbs/crosswalk.ipynb 10
 def load_isco_soc_crosswalk(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     """Load BLS ISCO-08 ↔ US SOC 2010 crosswalk."""
     df = pd.read_excel(data_dir / "ISCO_SOC_Crosswalk.xls", header=5)
@@ -53,7 +53,7 @@ def load_isco_soc_crosswalk(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     df['soc_2010'] = df['soc_2010'].astype(str).str.strip()
     return df[['isco_08', 'soc_2010']].drop_duplicates()
 
-# %% nbs/crosswalk.ipynb 9
+# %% nbs/crosswalk.ipynb 13
 def load_soc_2010_to_2018(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     """Load BLS SOC 2010 → SOC 2018 crosswalk."""
     df = pd.read_excel(data_dir / "soc_2010_to_2018_crosswalk.xlsx", header=7)
@@ -63,7 +63,7 @@ def load_soc_2010_to_2018(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     df['soc_2018'] = df['soc_2018'].astype(str).str.strip()
     return df[['soc_2010', 'soc_2018']].drop_duplicates()
 
-# %% nbs/crosswalk.ipynb 11
+# %% nbs/crosswalk.ipynb 16
 def load_onet_occupations(onet_dir: Path = ONET_DIR) -> pd.DataFrame:
     """Load O*NET occupation codes and titles."""
     df = pd.read_csv(onet_dir / "Occupation Data.txt", sep='\t')
@@ -71,7 +71,7 @@ def load_onet_occupations(onet_dir: Path = ONET_DIR) -> pd.DataFrame:
     df['base_soc'] = df['onet_soc'].str[:7]
     return df[['onet_soc', 'onet_title', 'base_soc', 'Description']]
 
-# %% nbs/crosswalk.ipynb 13
+# %% nbs/crosswalk.ipynb 19
 def build_crosswalk(data_dir: Path = DATA_DIR, onet_dir: Path = ONET_DIR) -> pd.DataFrame:
     """
     Build the full O*NET SOC → UK SOC 2020 crosswalk.
@@ -124,7 +124,7 @@ def build_crosswalk(data_dir: Path = DATA_DIR, onet_dir: Path = ONET_DIR) -> pd.
 
     return xw.sort_values(['uk_soc_2020', 'onet_soc']).reset_index(drop=True)
 
-# %% nbs/crosswalk.ipynb 16
+# %% nbs/crosswalk.ipynb 23
 def build_uk_to_onet_mapping(crosswalk: pd.DataFrame) -> dict[int, list[dict]]:
     """
     Build a reverse mapping: UK SOC → list of contributing O*NET codes with weights.

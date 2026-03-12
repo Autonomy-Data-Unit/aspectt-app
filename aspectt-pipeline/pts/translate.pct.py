@@ -18,6 +18,7 @@
 
 
 
+
 # %% [markdown]
 # # Translate O*NET Data to UK Context
 #
@@ -25,6 +26,7 @@
 # equivalents using the crosswalk. Each UK SOC code is a "superposition"
 # of its contributing US O*NET codes - numeric values are averaged (weighted),
 # and categorical/text data is combined.
+#
 # 
 
 # %%
@@ -54,6 +56,14 @@ from aspectt_pipeline.crosswalk import (
 
 
 
+
+# %% [markdown]
+# ## Data Loading
+#
+# O*NET distributes its data as tab-separated text files — one per category.
+# This helper loads any of them by filename.
+# 
+
 # %%
 #|export
 def load_onet_table(filename: str, onet_dir: Path = ONET_DIR) -> pd.DataFrame:
@@ -68,6 +78,18 @@ def load_onet_table(filename: str, onet_dir: Path = ONET_DIR) -> pd.DataFrame:
 
 
 
+
+
+# %% [markdown]
+# ## Rated Data Translation
+#
+# Rated (continuous) data — abilities, skills, knowledge, work activities,
+# work context, work styles — have numeric scores on Importance (IM) and
+# Level (LV) scales. We translate these by computing **weighted averages**
+# across all contributing O*NET occupations, using the crosswalk weights.
+# This produces smooth values even when many sources contribute: irrelevant
+# sources are naturally diluted by the relevant ones.
+# 
 
 # %%
 #|export
@@ -122,6 +144,19 @@ def translate_rated_data(
 
 
 
+
+
+# %% [markdown]
+# ## Task Statement Translation
+#
+# Tasks are text-based and cannot be meaningfully averaged. Instead, we
+# collect all unique task statements from all contributing O*NET occupations.
+# Each task retains its Core/Supplemental type and gets a relevance score
+# (the crosswalk weight) plus a weighted-average importance rating from the
+# O*NET task ratings. This is where crosswalk noise is most problematic —
+# a UK occupation inherits every task from every source, including irrelevant
+# ones. The LLM refinement step (refine module) addresses this downstream.
+# 
 
 # %%
 #|export
@@ -199,6 +234,18 @@ def translate_task_statements(
 
 
 
+
+# %% [markdown]
+# ## Technology Skills and Tools Used
+#
+# Technology skills (software) and tools used (physical equipment) are both
+# discrete lists. We collect all unique items from contributing O*NET
+# occupations, aggregating their crosswalk weights. Higher weight means
+# more source occupations contributed that item. Like tasks, these lists
+# inherit crosswalk noise (e.g. Jenkins CI for Bricklayers) which is
+# cleaned up by the LLM refinement step.
+# 
+
 # %%
 #|export
 def translate_technology_skills(
@@ -224,6 +271,7 @@ def translate_technology_skills(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -266,6 +314,15 @@ def translate_tools_used(
 
 
 
+
+
+# %% [markdown]
+# ## Detailed Work Activities
+#
+# DWAs are fine-grained activity statements linked to tasks. We join the
+# task-to-DWA mapping with the DWA reference table, then aggregate through
+# the crosswalk like other discrete data.
+# 
 
 # %%
 #|export
@@ -310,6 +367,16 @@ def translate_detailed_work_activities(
 
 
 
+
+# %% [markdown]
+# ## Emerging Tasks, Reported Titles, and Alternate Titles
+#
+# These are simple discrete lists collected from contributing O*NET
+# occupations. Emerging tasks are newly identified or revised task
+# statements. Reported titles and alternate titles are samples of
+# job titles associated with each occupation.
+# 
+
 # %%
 #|export
 def translate_emerging_tasks(
@@ -332,6 +399,7 @@ def translate_emerging_tasks(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -374,6 +442,15 @@ def translate_reported_titles(
 
 
 
+
+# %% [markdown]
+# ## Interests and Work Values
+#
+# Both are rated data using the same weighted-averaging approach. Interests
+# use the Holland/RIASEC model (6 dimensions). Work values measure the
+# extent to which different work aspects are valued by workers.
+# 
+
 # %%
 #|export
 def translate_interests(
@@ -386,6 +463,7 @@ def translate_interests(
         value_col='Data Value',
         group_cols=['Element ID', 'Element Name', 'Scale ID'],
     )
+
 
 
 
@@ -418,6 +496,16 @@ def translate_work_values(
 
 
 
+
+# %% [markdown]
+# ## Education, Job Zones, and Related Occupations
+#
+# Education data is weighted-averaged like other rated data. Job zones
+# (1–5 preparation levels) are also averaged and rounded to integers.
+# Related occupations are re-mapped through the crosswalk so the final
+# dataset has UK SOC-to-UK SOC relationships; self-references are removed.
+# 
+
 # %%
 #|export
 def translate_education(
@@ -445,6 +533,7 @@ def translate_education(
     result['Data Value'] = result['Data_Value'] / result['Weight_Sum']
     result = result.drop(columns=['Data_Value', 'Weight_Sum'])
     return result
+
 
 
 
@@ -489,6 +578,7 @@ def translate_job_zones(
 
 
 
+
 # %%
 #|export
 def translate_alternate_titles(
@@ -511,6 +601,7 @@ def translate_alternate_titles(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -571,6 +662,17 @@ def translate_related_occupations(
 
 
 
+
+
+# %% [markdown]
+# ## Build Full UK Dataset
+#
+# The main entry point. Translates all O*NET data tables to UK SOC 2020,
+# assembles per-occupation JSON objects, optionally runs LLM refinement
+# and deterministic post-processing, then saves everything to disk.
+# The output is a collection of JSON files: one per occupation, plus an
+# index and crosswalk file.
+# 
 
 # %%
 #|export
@@ -835,6 +937,15 @@ def build_uk_dataset(
 
 
 
+
+# %% [markdown]
+# ## JSON Serialisation Helpers
+#
+# NumPy types and NaN/Inf values can't be serialised to JSON directly.
+# These helpers recursively sanitise the data structures before writing,
+# replacing NaN/Inf with `None` and converting numpy types to native Python.
+# 
+
 # %%
 #|export
 def _sanitize_nans(obj):
@@ -881,6 +992,17 @@ def _json_default(obj):
 
 
 
+
+# %% [markdown]
+# ## Per-Occupation Assembly Helpers
+#
+# `_build_description` combines the text descriptions from contributing
+# O*NET occupations into a single description for each UK SOC code.
+# `_rated_to_dict` pivots the rated data DataFrame into the element-level
+# dict format used in the output JSON (one dict per element with
+# `value_IM` and `value_LV` fields).
+# 
+
 # %%
 #|export
 def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataFrame) -> str:
@@ -908,6 +1030,7 @@ def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataF
         return " ".join(unique_descs)
     else:
         return " ".join(unique_descs[:3]) + f" (Based on {len(unique_descs)} related US occupations.)"
+
 
 
 

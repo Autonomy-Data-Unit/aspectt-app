@@ -11,6 +11,7 @@
 
 
 
+
 # %% [markdown]
 # # Crosswalk: US O*NET SOC → UK SOC 2020
 #
@@ -18,6 +19,7 @@
 # using ISCO-08 as a bridge:
 #
 # **O*NET SOC → US SOC 2018 → US SOC 2010 → ISCO-08 → UK SOC 2020**
+# 
 
 # %%
 #|export
@@ -28,6 +30,16 @@ import openpyxl
 from aspectt_pipeline.const import DATA_DIR, ONET_DIR
 
 
+
+
+# %% [markdown]
+# ## Load UK SOC 2020 Framework
+#
+# The ONS SOC 2020 coding index Excel file contains a "SOC2020 framework" sheet
+# with all 412 unit groups (4-digit codes) and their titles. This serves as the
+# target classification system — every occupation in the final dataset corresponds
+# to one of these unit groups.
+# 
 
 # %%
 #|export
@@ -45,6 +57,7 @@ def load_uk_soc_framework(data_dir: Path = DATA_DIR) -> dict[int, str]:
 
 
 
+
 # %%
 # Test
 uk_groups = load_uk_soc_framework()
@@ -52,6 +65,16 @@ print(f"UK SOC 2020 unit groups: {len(uk_groups)}")
 assert len(uk_groups) == 412
 
 
+
+
+# %% [markdown]
+# ## Load ISCO-08 → UK SOC 2020 Mapping
+#
+# The ONS coding index also contains ISCO-08 codes for each entry. We extract
+# unique (ISCO-08, UK SOC 2020) pairs from the "SOC2020 coding index" sheet.
+# This is the final leg of the crosswalk chain — it bridges the international
+# standard to the UK-specific classification.
+# 
 
 # %%
 #|export
@@ -77,12 +100,22 @@ def load_isco_to_uk_soc(data_dir: Path = DATA_DIR) -> pd.DataFrame:
 
 
 
+
 # %%
 isco_uk = load_isco_to_uk_soc()
 print(f"ISCO → UK SOC unique pairs: {len(isco_uk)}")
 print(f"Unique ISCO codes: {isco_uk['isco_08'].nunique()}")
 
 
+
+
+# %% [markdown]
+# ## Load BLS ISCO-08 ↔ US SOC 2010 Crosswalk
+#
+# The Bureau of Labor Statistics provides a crosswalk between ISCO-08 and
+# US SOC 2010. We use the SOC 2010 → ISCO-08 direction to bridge from the
+# US classification to the international standard.
+# 
 
 # %%
 #|export
@@ -97,11 +130,22 @@ def load_isco_soc_crosswalk(data_dir: Path = DATA_DIR) -> pd.DataFrame:
 
 
 
+
 # %%
 isco_soc = load_isco_soc_crosswalk()
 print(f"ISCO ↔ SOC 2010: {len(isco_soc)} pairs")
 
 
+
+
+# %% [markdown]
+# ## Load BLS SOC 2010 ↔ SOC 2018 Crosswalk
+#
+# O*NET uses the SOC 2018 system, but the ISCO crosswalk is only available
+# against SOC 2010. This BLS crosswalk bridges the two US SOC editions.
+# It is a many-to-many mapping because occupations were split and merged
+# between the 2010 and 2018 revisions.
+# 
 
 # %%
 #|export
@@ -116,11 +160,21 @@ def load_soc_2010_to_2018(data_dir: Path = DATA_DIR) -> pd.DataFrame:
 
 
 
+
 # %%
 soc_xwalk = load_soc_2010_to_2018()
 print(f"SOC 2010 → 2018: {len(soc_xwalk)} pairs")
 
 
+
+
+# %% [markdown]
+# ## Load O*NET Occupations
+#
+# Load all 923 O*NET-SOC occupation codes and their titles. We also extract
+# the 6-digit `base_soc` code (truncating the 2-digit suffix), which maps
+# directly to the US SOC 2018 system — this is Step 1 of the crosswalk chain.
+# 
 
 # %%
 #|export
@@ -133,11 +187,22 @@ def load_onet_occupations(onet_dir: Path = ONET_DIR) -> pd.DataFrame:
 
 
 
+
 # %%
 onet_occ = load_onet_occupations()
 print(f"O*NET occupations: {len(onet_occ)}")
 
 
+
+
+# %% [markdown]
+# ## Build the Full Crosswalk
+#
+# Chains all four steps together: O*NET SOC → US SOC 2018 → US SOC 2010 →
+# ISCO-08 → UK SOC 2020. The result is a table of (O*NET code, UK SOC code)
+# pairs with uniform contribution weights: if an O*NET code maps to N
+# distinct UK SOC codes, each receives weight 1/N.
+# 
 
 # %%
 #|export
@@ -195,11 +260,13 @@ def build_crosswalk(data_dir: Path = DATA_DIR, onet_dir: Path = ONET_DIR) -> pd.
 
 
 
+
 # %%
 crosswalk = build_crosswalk()
 print(f"Crosswalk rows: {len(crosswalk)}")
 print(f"O*NET codes covered: {crosswalk['onet_soc'].nunique()}")
 print(f"UK SOC codes covered: {crosswalk['uk_soc_2020'].nunique()}")
+
 
 
 
@@ -213,6 +280,15 @@ for _, row in subset.iterrows():
     print(f"  {row['onet_soc']} ({row['onet_title']}) - weight: {row['weight']:.3f}")
 
 
+
+
+# %% [markdown]
+# ## Reverse Mapping: UK SOC → O*NET Sources
+#
+# Inverts the crosswalk to get, for each UK SOC code, the list of contributing
+# O*NET occupations and their weights. Used by the translation step to look up
+# which US occupations feed into each UK occupation.
+# 
 
 # %%
 #|export

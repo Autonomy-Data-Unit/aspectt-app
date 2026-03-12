@@ -44,6 +44,11 @@ CONCURRENCY_LIMIT = 10
 
 # %% [markdown]
 # ## Refinement tuning
+#
+# Large item lists are split into chunks before being sent to the LLM.
+# These sizes balance context-window utilisation against response quality.
+# After chunked task refinement, a deterministic Jaccard word-overlap pass
+# merges any cross-chunk duplicates that the LLM couldn't see together.
 
 # %%
 #|export
@@ -54,6 +59,10 @@ JACCARD_DEDUP_THRESHOLD = 0.85
 
 # %% [markdown]
 # ## Valid task types
+#
+# O*NET classifies tasks as Core, Supplemental, or (rarely) leaves them
+# unclassified. We normalise any missing or unexpected values to one of
+# these three canonical strings throughout the pipeline.
 
 # %%
 #|export

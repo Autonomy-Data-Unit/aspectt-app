@@ -17,6 +17,7 @@
 
 
 
+
 # %% [markdown]
 # # Post-Processing of Refined Data
 #
@@ -24,7 +25,6 @@
 # Addresses known issues: nan task types, LLM artifacts in text,
 # US-specific terminology, wrong-domain tasks, and essential tech
 # skills wrongly removed.
-#
 # 
 
 # %%
@@ -44,13 +44,13 @@ logger = logging.getLogger(__name__)
 
 
 
+
 # %% [markdown]
 # ## 1.1 Normalise task_type values
 #
 # The LLM refinement step now constrains task_type to a Literal enum,
 # but we still normalise as a safety net for any values that slip through
 # (e.g. from unrefined data or cached old LLM responses).
-#
 # 
 
 # %%
@@ -84,13 +84,13 @@ def _normalise_task_types(occ: dict) -> int:
 
 
 
+
 # %% [markdown]
 # ## 1.2 Remove empty or placeholder tasks
 #
 # Safety net: remove tasks with empty text or obvious placeholder content.
 # With the Literal-constrained task_type and improved prompts, most LLM
 # artifacts should no longer occur, but we still clean up any stragglers.
-#
 # 
 
 # %%
@@ -137,9 +137,14 @@ def _remove_placeholder_tasks(occ: dict) -> int:
 
 
 
+
 # %% [markdown]
 # ## 1.3 Generic Tech Skill Whitelist
 #
+# The LLM occasionally removes ubiquitous technologies (Microsoft Office, email,
+# web browsers) that are genuinely relevant to almost all occupations. As a
+# safety net, we check the unrefined data for these whitelisted items and
+# re-add any that were wrongly removed.
 # 
 
 # %%
@@ -178,9 +183,14 @@ def _restore_generic_tech(occ: dict, unrefined_occ: dict) -> int:
 
 
 
+
 # %% [markdown]
 # ## 1.4 US to UK Terminology Substitution
 #
+# All task text originates from US O*NET, so it contains US-specific terms
+# (federal, Medicare, OSHA, etc.). We apply deterministic string substitutions
+# to replace the most common US terms with UK equivalents. We also remove
+# technology skills for US-only government systems (FRESA, SEVIS, USDA).
 # 
 
 # %%
@@ -250,9 +260,14 @@ def _substitute_us_uk_terms(occ: dict) -> int:
 
 
 
+
 # %% [markdown]
 # ## 1.5 Remove Wrong-Domain Tasks
 #
+# Crosswalk noise sometimes maps occupations from entirely different domains.
+# The LLM misses some of these because the tasks sound plausible in isolation.
+# Here we apply targeted keyword rules: gambling-related tasks are removed
+# from non-gambling occupations, and firefighting tasks from non-fire occupations.
 # 
 
 # %%
@@ -311,9 +326,14 @@ def _remove_wrong_domain_tasks(occ: dict) -> int:
 
 
 
+
 # %% [markdown]
 # ## 1.6 Auto-detect Partial Profile Occupations
 #
+# Some O*NET occupations have only a partial profile (no skills, abilities,
+# or knowledge data). When a UK SOC code maps exclusively to such occupations,
+# the resulting profile is empty in these key categories. We flag these so the
+# frontend can display a notice rather than an empty page.
 # 
 
 # %%
@@ -348,9 +368,15 @@ def _flag_partial_profiles(occ: dict) -> bool:
 
 
 
+
 # %% [markdown]
 # ## Manual Overrides
 #
+# A JSON file (`manual_overrides.json`) allows targeted corrections that are
+# too specific for general rules. Supported actions include removing tasks by
+# regex pattern, removing named tech skills, and setting flags on specific
+# occupations. This is the escape hatch for edge cases that neither the LLM
+# nor the deterministic rules handle well.
 # 
 
 # %%
@@ -439,9 +465,14 @@ def apply_manual_overrides(
 
 
 
+
 # %% [markdown]
 # ## Dataset-Level Entry Point
 #
+# Runs all post-processing steps over the full dataset in order. Steps are
+# applied sequentially per occupation: normalise task types, remove placeholders,
+# restore whitelisted tech, substitute US→UK terms, remove wrong-domain tasks,
+# and flag partial profiles. Prints a summary of all changes made.
 # 
 
 # %%

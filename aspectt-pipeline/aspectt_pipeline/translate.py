@@ -19,12 +19,12 @@ from .crosswalk import (
     load_onet_occupations,
 )
 
-# %% nbs/translate.ipynb 3
+# %% nbs/translate.ipynb 4
 def load_onet_table(filename: str, onet_dir: Path = ONET_DIR) -> pd.DataFrame:
     """Load an O*NET data table (tab-separated text file)."""
     return pd.read_csv(onet_dir / filename, sep='\t')
 
-# %% nbs/translate.ipynb 4
+# %% nbs/translate.ipynb 6
 def translate_rated_data(
     onet_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -68,7 +68,7 @@ def translate_rated_data(
 
     return result
 
-# %% nbs/translate.ipynb 5
+# %% nbs/translate.ipynb 8
 def translate_task_statements(
     tasks_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -134,7 +134,7 @@ def translate_task_statements(
 
     return pd.DataFrame(result)
 
-# %% nbs/translate.ipynb 6
+# %% nbs/translate.ipynb 10
 def translate_technology_skills(
     tech_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -159,7 +159,7 @@ def translate_technology_skills(
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
 
-# %% nbs/translate.ipynb 7
+# %% nbs/translate.ipynb 11
 def translate_tools_used(
     tools_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -182,7 +182,7 @@ def translate_tools_used(
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
 
-# %% nbs/translate.ipynb 8
+# %% nbs/translate.ipynb 13
 def translate_detailed_work_activities(
     tasks_to_dwas_df: pd.DataFrame,
     dwa_ref_df: pd.DataFrame,
@@ -215,7 +215,7 @@ def translate_detailed_work_activities(
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
 
-# %% nbs/translate.ipynb 9
+# %% nbs/translate.ipynb 15
 def translate_emerging_tasks(
     emerging_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -237,7 +237,7 @@ def translate_emerging_tasks(
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
 
-# %% nbs/translate.ipynb 10
+# %% nbs/translate.ipynb 16
 def translate_reported_titles(
     titles_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -259,7 +259,7 @@ def translate_reported_titles(
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
 
-# %% nbs/translate.ipynb 11
+# %% nbs/translate.ipynb 18
 def translate_interests(
     interests_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -271,7 +271,7 @@ def translate_interests(
         group_cols=['Element ID', 'Element Name', 'Scale ID'],
     )
 
-# %% nbs/translate.ipynb 12
+# %% nbs/translate.ipynb 19
 def translate_work_values(
     values_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -283,7 +283,7 @@ def translate_work_values(
         group_cols=['Element ID', 'Element Name', 'Scale ID'],
     )
 
-# %% nbs/translate.ipynb 13
+# %% nbs/translate.ipynb 21
 def translate_education(
     edu_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -310,7 +310,7 @@ def translate_education(
     result = result.drop(columns=['Data_Value', 'Weight_Sum'])
     return result
 
-# %% nbs/translate.ipynb 14
+# %% nbs/translate.ipynb 22
 def translate_job_zones(
     jz_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -334,7 +334,7 @@ def translate_job_zones(
     result = result.drop(columns=['job_zone_raw', 'weight_sum'])
     return result
 
-# %% nbs/translate.ipynb 15
+# %% nbs/translate.ipynb 23
 def translate_alternate_titles(
     titles_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -356,7 +356,7 @@ def translate_alternate_titles(
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
 
-# %% nbs/translate.ipynb 16
+# %% nbs/translate.ipynb 24
 def translate_related_occupations(
     related_df: pd.DataFrame,
     crosswalk: pd.DataFrame,
@@ -397,7 +397,7 @@ def translate_related_occupations(
     result = result.sort_values(['uk_soc_2020', 'link_count'], ascending=[True, False])
     return result
 
-# %% nbs/translate.ipynb 17
+# %% nbs/translate.ipynb 26
 def build_uk_dataset(
     data_dir: Path = DATA_DIR,
     onet_dir: Path = ONET_DIR,
@@ -650,7 +650,7 @@ def build_uk_dataset(
     print(f"Done! {len(dataset['occupations'])} occupations saved.")
     return dataset
 
-# %% nbs/translate.ipynb 18
+# %% nbs/translate.ipynb 28
 def _sanitize_nans(obj):
     """Recursively replace NaN/Inf float values with None in nested structures."""
     if isinstance(obj, float):
@@ -686,7 +686,7 @@ def _json_default(obj):
         return obj.tolist()
     raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
 
-# %% nbs/translate.ipynb 19
+# %% nbs/translate.ipynb 30
 def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataFrame) -> str:
     """Build a combined description for a UK SOC code from contributing O*NET occupations."""
     sources = crosswalk[crosswalk['uk_soc_2020'] == uk_code]
@@ -713,7 +713,7 @@ def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataF
     else:
         return " ".join(unique_descs[:3]) + f" (Based on {len(unique_descs)} related US occupations.)"
 
-# %% nbs/translate.ipynb 20
+# %% nbs/translate.ipynb 31
 def _rated_to_dict(df: pd.DataFrame) -> list[dict]:
     """Convert rated data DataFrame to a list of element dicts with IM/LV values."""
     elements = {}
