@@ -7,11 +7,9 @@
 	let occ = $state<OccupationDetail | null>(null);
 	let loading = $state(true);
 	let error = $state('');
-	let activeSection = $state('summary');
-	let viewMode = $state<'summary' | 'details'>('summary');
+	let activeSection = $state('tasks');
 
 	const sections = [
-		{ id: 'summary', label: 'Summary' },
 		{ id: 'tasks', label: 'Tasks' },
 		{ id: 'skills', label: 'Skills' },
 		{ id: 'abilities', label: 'Abilities' },
@@ -72,9 +70,9 @@
 	const sectionIds = sections.map(s => s.id);
 
 	function sectionFromHash(): string {
-		if (typeof window === 'undefined') return 'summary';
+		if (typeof window === 'undefined') return 'tasks';
 		const hash = window.location.hash.replace('#', '');
-		return sectionIds.includes(hash) ? hash : 'summary';
+		return sectionIds.includes(hash) ? hash : 'tasks';
 	}
 
 	$effect(() => {
@@ -90,8 +88,7 @@
 	function setSection(id: string) {
 		activeSection = id;
 		if (typeof window !== 'undefined') {
-			const hash = id === 'summary' ? '' : `#${id}`;
-			replaceState(`${window.location.pathname}${hash}`, {});
+			replaceState(`${window.location.pathname}#${id}`, {});
 		}
 	}
 
@@ -123,10 +120,6 @@
 		return limit ? sorted.slice(0, limit) : sorted;
 	}
 
-	function getTopItems<T>(items: T[] | undefined, limit: number): T[] {
-		if (!items) return [];
-		return viewMode === 'summary' ? items.slice(0, limit) : items;
-	}
 </script>
 
 <svelte:head>
@@ -162,11 +155,6 @@
 			</div>
 		{/if}
 
-		<div class="view-toggle">
-			<button class="toggle-btn" class:active={viewMode === 'summary'} onclick={() => viewMode = 'summary'}>Summary</button>
-			<button class="toggle-btn" class:active={viewMode === 'details'} onclick={() => viewMode = 'details'}>Details</button>
-		</div>
-
 		<div class="layout">
 			<nav class="sidebar">
 				{#each sections as sec}
@@ -180,121 +168,7 @@
 			</nav>
 
 			<div class="content">
-				{#if activeSection === 'summary'}
-					<div class="card">
-						<h2>Overview</h2>
-						{#if occ.job_zone}
-							<div class="job-zone">
-								<strong>Job Zone {jobZoneDisplay(occ.job_zone)}:</strong> {jobZoneLabel(occ.job_zone)}
-							</div>
-						{/if}
-						{#if occ.alternate_titles?.length}
-							<div class="alt-titles">
-								<strong>Also known as:</strong>
-								{occ.alternate_titles.slice(0, viewMode === 'summary' ? 15 : 50).join(', ')}
-								{#if occ.alternate_titles.length > (viewMode === 'summary' ? 15 : 50)}
-									<span class="muted">and {occ.alternate_titles.length - (viewMode === 'summary' ? 15 : 50)} more</span>
-								{/if}
-							</div>
-						{/if}
-						{#if occ.reported_job_titles?.length}
-							<div class="alt-titles">
-								<strong>Reported job titles:</strong>
-								{occ.reported_job_titles.slice(0, viewMode === 'summary' ? 15 : 50).join(', ')}
-								{#if occ.reported_job_titles.length > (viewMode === 'summary' ? 15 : 50)}
-									<span class="muted">and {occ.reported_job_titles.length - (viewMode === 'summary' ? 15 : 50)} more</span>
-								{/if}
-							</div>
-						{/if}
-					</div>
-
-					<!-- Quick glance sections in summary mode -->
-					{#if occ.skills?.length}
-						<div class="card">
-							<div class="card-header">
-								<h2>Top skills</h2>
-								<button class="show-more-btn" onclick={() => setSection('skills')}>View all &rarr;</button>
-							</div>
-							<RatedBars items={sortedByImportance(occ.skills, 5)} />
-						</div>
-					{/if}
-
-					{#if occ.knowledge?.length}
-						<div class="card">
-							<div class="card-header">
-								<h2>Top knowledge</h2>
-								<button class="show-more-btn" onclick={() => setSection('knowledge')}>View all &rarr;</button>
-							</div>
-							<RatedBars items={sortedByImportance(occ.knowledge, 5)} />
-						</div>
-					{/if}
-
-					{#if occ.tasks?.length}
-						<div class="card">
-							<div class="card-header">
-								<h2>Key tasks</h2>
-								<button class="show-more-btn" onclick={() => setSection('tasks')}>View all &rarr;</button>
-							</div>
-							<ul class="task-list">
-								{#each occ.tasks.filter(t => t.task_type !== 'Supplemental').slice(0, 5) as task}
-									<li>{task.task}</li>
-								{/each}
-							</ul>
-						</div>
-					{/if}
-
-					{#if occ.technology_skills?.length}
-						<div class="card">
-							<div class="card-header">
-								<h2>Top technology</h2>
-								<button class="show-more-btn" onclick={() => setSection('technology')}>View all &rarr;</button>
-							</div>
-							<div class="tech-grid">
-								{#each occ.technology_skills.slice(0, 12) as tech}
-									<span class="tech-tag">{tech.name}</span>
-								{/each}
-							</div>
-						</div>
-					{/if}
-
-					{#if occ.tools_used?.length}
-						<div class="card">
-							<div class="card-header">
-								<h2>Top tools</h2>
-								<button class="show-more-btn" onclick={() => setSection('tools')}>View all &rarr;</button>
-							</div>
-							<div class="tech-grid">
-								{#each occ.tools_used.slice(0, 12) as tool}
-									<span class="tech-tag">{tool.name}</span>
-								{/each}
-							</div>
-						</div>
-					{/if}
-
-					{#if occ.source_occupations?.length}
-						<div class="card">
-							<div class="card-header">
-								<h2>Source occupations</h2>
-								<button class="show-more-btn" onclick={() => setSection('sources')}>View all &rarr;</button>
-							</div>
-							<p class="muted">Based on {occ.source_occupations.length} US O*NET occupations</p>
-							<div class="source-preview">
-								{#each occ.source_occupations.slice(0, 3) as src}
-									<a class="source-row" href="https://www.onetonline.org/link/summary/{src.onet_soc}" target="_blank" rel="noopener">
-										<span class="mono">{src.onet_soc}</span>
-										<span class="source-title">{src.onet_title}</span>
-									</a>
-								{/each}
-								{#if occ.source_occupations.length > 3}
-									<button class="show-all-btn" onclick={() => setSection('sources')}>
-										Show all {occ.source_occupations.length} sources
-									</button>
-								{/if}
-							</div>
-						</div>
-					{/if}
-
-				{:else if activeSection === 'tasks'}
+				{#if activeSection === 'tasks'}
 					{#if occ.emerging_tasks?.length}
 						<div class="card emerging-card">
 							<h2>Emerging tasks ({occ.emerging_tasks.length})</h2>
@@ -316,9 +190,8 @@
 					<div class="card">
 						<h2>Tasks ({occ.tasks?.length ?? 0})</h2>
 						{#if occ.tasks?.length}
-							{@const tasks = getTopItems(occ.tasks, 30)}
 							<div class="task-items">
-								{#each tasks as task}
+								{#each occ.tasks as task}
 									<div class="task-item">
 										<div class="task-content">
 											<span class="task-text">{task.task}</span>
@@ -332,11 +205,6 @@
 									</div>
 								{/each}
 							</div>
-							{#if viewMode === 'summary' && occ.tasks.length > 30}
-								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
-									Show all {occ.tasks.length} tasks
-								</button>
-							{/if}
 						{:else}
 							<p class="muted">No task data available</p>
 						{/if}
@@ -346,13 +214,7 @@
 					<div class="card">
 						<h2>Skills ({occ.skills?.length ?? 0})</h2>
 						{#if occ.skills?.length}
-							{@const items = viewMode === 'summary' ? sortedByImportance(occ.skills, 10) : sortedByImportance(occ.skills)}
-							<RatedBars {items} />
-							{#if viewMode === 'summary' && occ.skills.length > 10}
-								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
-									Show all {occ.skills.length} skills
-								</button>
-							{/if}
+							<RatedBars items={sortedByImportance(occ.skills)} />
 						{:else}<p class="muted">No skills data available</p>{/if}
 					</div>
 
@@ -360,11 +222,7 @@
 					<div class="card">
 						<h2>Abilities ({occ.abilities?.length ?? 0})</h2>
 						{#if occ.abilities?.length}
-							{@const items = viewMode === 'summary' ? sortedByImportance(occ.abilities, 10) : sortedByImportance(occ.abilities)}
-							<RatedBars {items} />
-							{#if viewMode === 'summary' && occ.abilities.length > 10}
-								<button class="show-all-btn" onclick={() => viewMode = 'details'}>Show all {occ.abilities.length} abilities</button>
-							{/if}
+							<RatedBars items={sortedByImportance(occ.abilities)} />
 						{:else}<p class="muted">No abilities data available</p>{/if}
 					</div>
 
@@ -372,11 +230,7 @@
 					<div class="card">
 						<h2>Knowledge ({occ.knowledge?.length ?? 0})</h2>
 						{#if occ.knowledge?.length}
-							{@const items = viewMode === 'summary' ? sortedByImportance(occ.knowledge, 10) : sortedByImportance(occ.knowledge)}
-							<RatedBars {items} />
-							{#if viewMode === 'summary' && occ.knowledge.length > 10}
-								<button class="show-all-btn" onclick={() => viewMode = 'details'}>Show all {occ.knowledge.length} knowledge areas</button>
-							{/if}
+							<RatedBars items={sortedByImportance(occ.knowledge)} />
 						{:else}<p class="muted">No knowledge data available</p>{/if}
 					</div>
 
@@ -384,17 +238,11 @@
 					<div class="card">
 						<h2>Technology ({occ.technology_skills?.length ?? 0})</h2>
 						{#if occ.technology_skills?.length}
-							{@const items = getTopItems(occ.technology_skills, 40)}
 							<div class="tech-grid">
-								{#each items as tech}
+								{#each occ.technology_skills as tech}
 									<span class="tech-tag">{tech.name}</span>
 								{/each}
 							</div>
-							{#if viewMode === 'summary' && occ.technology_skills.length > 40}
-								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
-									Show all {occ.technology_skills.length} technology skills
-								</button>
-							{/if}
 						{:else}<p class="muted">No technology skills data available</p>{/if}
 					</div>
 
@@ -402,17 +250,11 @@
 					<div class="card">
 						<h2>Tools and equipment ({occ.tools_used?.length ?? 0})</h2>
 						{#if occ.tools_used?.length}
-							{@const items = getTopItems(occ.tools_used, 40)}
 							<div class="tech-grid">
-								{#each items as tool}
+								{#each occ.tools_used as tool}
 									<span class="tech-tag">{tool.name}</span>
 								{/each}
 							</div>
-							{#if viewMode === 'summary' && occ.tools_used.length > 40}
-								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
-									Show all {occ.tools_used.length} tools
-								</button>
-							{/if}
 						{:else}<p class="muted">No tools data available</p>{/if}
 					</div>
 
@@ -420,11 +262,7 @@
 					<div class="card">
 						<h2>Work activities ({occ.work_activities?.length ?? 0})</h2>
 						{#if occ.work_activities?.length}
-							{@const items = viewMode === 'summary' ? sortedByImportance(occ.work_activities, 10) : sortedByImportance(occ.work_activities)}
-							<RatedBars {items} />
-							{#if viewMode === 'summary' && occ.work_activities.length > 10}
-								<button class="show-all-btn" onclick={() => viewMode = 'details'}>Show all {occ.work_activities.length} activities</button>
-							{/if}
+							<RatedBars items={sortedByImportance(occ.work_activities)} />
 						{:else}<p class="muted">No work activities data available</p>{/if}
 					</div>
 
@@ -433,10 +271,9 @@
 						<h2>Detailed work activities ({occ.detailed_work_activities?.length ?? 0})</h2>
 						{#if occ.detailed_work_activities?.length}
 							{@const sorted = [...occ.detailed_work_activities].sort((a, b) => b.weight - a.weight)}
-							{@const items = viewMode === 'summary' ? sorted.slice(0, 30) : sorted}
 							{@const maxWeight = sorted[0]?.weight ?? 1}
 							<div class="dwa-list">
-								{#each items as dwa}
+								{#each sorted as dwa}
 									<div class="dwa-row">
 										<span class="dwa-label">{dwa.title}</span>
 										<div class="dwa-bar-track">
@@ -446,11 +283,6 @@
 									</div>
 								{/each}
 							</div>
-							{#if viewMode === 'summary' && occ.detailed_work_activities.length > 30}
-								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
-									Show all {occ.detailed_work_activities.length} detailed activities
-								</button>
-							{/if}
 						{:else}<p class="muted">No detailed work activities data available</p>{/if}
 					</div>
 
@@ -458,11 +290,7 @@
 					<div class="card">
 						<h2>Work context ({occ.work_context?.length ?? 0})</h2>
 						{#if occ.work_context?.length}
-							{@const items = viewMode === 'summary' ? occ.work_context.slice(0, 10) : occ.work_context}
-							<RatedBars {items} showLevel={false} />
-							{#if viewMode === 'summary' && occ.work_context.length > 10}
-								<button class="show-all-btn" onclick={() => viewMode = 'details'}>Show all {occ.work_context.length} context factors</button>
-							{/if}
+							<RatedBars items={occ.work_context} showLevel={false} />
 						{:else}<p class="muted">No work context data available</p>{/if}
 					</div>
 
@@ -610,14 +438,6 @@
 	.header-tag.source { background: var(--color-bg); color: var(--color-text-secondary); cursor: pointer; border: 1px solid var(--color-border); transition: all var(--transition); }
 	.header-tag.source:hover { border-color: var(--color-border-hover); background: var(--color-border); }
 
-	.view-toggle { display: flex; gap: 1px; margin-bottom: 1.25rem; background: var(--color-border); border-radius: var(--radius); overflow: hidden; width: fit-content; }
-	.toggle-btn {
-		padding: 0.4375rem 1rem; border: none; background: var(--color-surface); cursor: pointer;
-		font-size: 0.8125rem; font-weight: 500; color: var(--color-text-secondary); transition: all var(--transition); font-family: var(--font);
-	}
-	.toggle-btn.active { background: var(--color-primary); color: white; }
-	.toggle-btn:hover:not(.active) { background: var(--color-bg); }
-
 	.layout { display: grid; grid-template-columns: 175px 1fr; gap: 1.75rem; }
 	.sidebar { display: flex; flex-direction: column; gap: 0.125rem; position: sticky; top: 4.5rem; align-self: start; }
 
@@ -632,38 +452,13 @@
 	.nav-divider { border: none; border-top: 1px solid var(--color-border); margin: 0.25rem 0; }
 	.compare-link { color: var(--color-accent); font-size: 0.8rem; }
 
-	.card-header { display: flex; justify-content: space-between; align-items: center; }
-	.card-header h2 { flex: 1; }
-	.show-more-btn {
-		background: none; border: none; color: var(--color-accent); cursor: pointer;
-		font-size: 0.85rem; font-weight: 500; padding: 0.25rem 0.5rem;
-	}
-	.show-more-btn:hover { text-decoration: underline; }
-	.show-all-btn {
-		display: block; width: 100%; text-align: center; padding: 0.6rem;
-		margin-top: 0.75rem; background: var(--color-bg); border: 1px solid var(--color-border);
-		border-radius: var(--radius); cursor: pointer; font-size: 0.85rem; color: var(--color-accent);
-	}
-	.show-all-btn:hover { border-color: var(--color-accent); }
-
 	.job-zone { margin-bottom: 1rem; padding: 0.5rem 0.75rem; background: var(--color-bg); border-radius: var(--radius); font-size: 0.9rem; }
 	.alt-titles { margin-bottom: 1rem; font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.8; }
 
 	.mono { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; font-size: 0.8125rem; }
 	.muted { color: var(--color-text-secondary); font-size: 0.85rem; }
 
-	/* Source occupations - preview on summary tab */
-	.source-preview { display: flex; flex-direction: column; margin-top: 0.5rem; }
-	.source-row {
-		display: flex; gap: 0.75rem; padding: 0.4rem 0; border-bottom: 1px solid var(--color-border);
-		color: var(--color-text); font-size: 0.9rem; align-items: center;
-	}
-	.source-row:last-child { border-bottom: none; }
-	.source-row:hover { color: var(--color-accent); text-decoration: none; }
-	.source-row .mono { color: var(--color-accent); flex: 0 0 auto; }
-	.source-row .source-title { flex: 1; }
-
-	/* Source occupations - full section */
+	/* Source occupations */
 	.source-intro { margin-bottom: 0.75rem; }
 	.source-list { display: flex; flex-direction: column; gap: 0.5rem; }
 	.source-card {
