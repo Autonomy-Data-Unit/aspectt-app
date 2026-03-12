@@ -60,7 +60,10 @@
 								<span class="occ-title">{r.title}</span>
 							</a>
 							<p class="task-text">
-								{#if r.task_type === 'Core'}<span class="badge">Core</span>{/if}
+								{#if r.task_type === 'Core'}<span class="badge">Core</span>
+								{:else if r.task_type === 'Supplemental'}<span class="badge supplemental">Supplemental</span>
+								{:else if r.task_type === 'Unclassified'}<span class="badge unclassified">Unclassified</span>
+								{/if}
 								{r.task}
 							</p>
 						</div>
@@ -90,6 +93,8 @@
 	.occ-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 700; color: var(--color-accent); font-size: 0.8125rem; }
 	.occ-title { font-weight: 600; font-size: 0.875rem; }
 	.task-text { font-size: 0.8125rem; color: var(--color-text-secondary); line-height: 1.6; }
+	.badge.supplemental { background: var(--color-text-secondary); }
+	.badge.unclassified { background: #9ca3af; }
 	.no-results { color: var(--color-text-secondary); text-align: center; padding: 3rem; font-size: 0.9375rem; }
 
 	.pagination { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--color-border); }

@@ -147,6 +147,7 @@ del _onet_seen
 _alt_title_index: dict[int, list[str]] = {}  # soc -> lowercase alt titles
 _task_index: list[tuple[int, str, str]] = []  # (soc, task_text, task_type)
 _tech_index: dict[str, list[int]] = defaultdict(list)  # tech_name_lower -> [soc_codes]
+_tool_index: dict[str, list[int]] = defaultdict(list)  # tool_name_lower -> [soc_codes]
 _element_index: dict[str, dict[str, list[tuple[int, float]]]] = defaultdict(lambda: defaultdict(list))
 # category -> element_name -> [(soc, importance)]
 
@@ -162,6 +163,10 @@ for _code, _occ in _occupations.items():
     for _ts in _occ.get("technology_skills", []):
         _tech_index[_ts["name"].lower()].append(_code)
 
+    # Tools used
+    for _tu in _occ.get("tools_used", []):
+        _tool_index[_tu["name"].lower()].append(_code)
+
     # Rated elements (for descriptor browsing)
     for _cat in ("skills", "abilities", "knowledge", "work_activities",
                  "work_context", "work_styles"):
@@ -176,6 +181,13 @@ _all_tech_skills = sorted(set(
     ts["name"]
     for occ in _occupations.values()
     for ts in occ.get("technology_skills", [])
+))
+
+# Build unique tool names for browsing
+_all_tools = sorted(set(
+    tu["name"]
+    for occ in _occupations.values()
+    for tu in occ.get("tools_used", [])
 ))
 
 # Build RIASEC profiles for interest browsing
@@ -280,6 +292,12 @@ def get_occupation_tech_skills(soc_code: int):
     return {"uk_soc_2020": soc_code, "title": occ["title"], "technology_skills": occ.get("technology_skills", [])}
 
 
+@app.get("/api/occupations/{soc_code}/tools-used")
+def get_occupation_tools_used(soc_code: int):
+    occ = get_occupation(soc_code)
+    return {"uk_soc_2020": soc_code, "title": occ["title"], "tools_used": occ.get("tools_used", [])}
+
+
 @app.get("/api/occupations/{soc_code}/work-activities")
 def get_occupation_work_activities(soc_code: int):
     occ = get_occupation(soc_code)
@@ -354,6 +372,7 @@ def compare_occupations(
         top_knowledge = sorted(occ.get("knowledge", []), key=lambda x: x.get("value_IM", 0), reverse=True)[:10]
         top_activities = sorted(occ.get("work_activities", []), key=lambda x: x.get("value_IM", 0), reverse=True)[:10]
         top_tech = sorted(occ.get("technology_skills", []), key=lambda x: x.get("weight", 0), reverse=True)[:10]
+        top_tools = sorted(occ.get("tools_used", []), key=lambda x: x.get("weight", 0), reverse=True)[:10]
 
         # Get RIASEC code
         interests = occ.get("interests", [])
@@ -379,6 +398,8 @@ def compare_occupations(
             "work_values": occ.get("work_values", []),
             "task_count": len(occ.get("tasks", [])),
             "tech_skill_count": len(occ.get("technology_skills", [])),
+            "top_tools_used": top_tools,
+            "tool_count": len(occ.get("tools_used", [])),
         })
 
     return {"occupations": result}
@@ -487,6 +508,49 @@ def search_by_skill(
         "total": total,
         "offset": offset,
         "limit": limit,
+        "results": results[offset:offset + limit],
+    }
+
+
+@app.get("/api/search/tools-used")
+def search_tools_used(
+    q: str = Query(description="Search query for tool/equipment names"),
+    limit: int = Query(default=50, ge=1, le=200),
+    offset: int = Query(default=0, ge=0),
+):
+    """Search occupations by tool/equipment name."""
+    q_lower = q.lower().strip()
+
+    # Find matching tool names
+    matching_tools = [name for name in _all_tools if q_lower in name.lower()]
+
+    # Collect occupations that use matching tools
+    occ_scores: dict[int, list[str]] = defaultdict(list)
+    for tool_name in matching_tools:
+        for soc_code in _tool_index.get(tool_name.lower(), []):
+            if tool_name not in occ_scores[soc_code]:
+                occ_scores[soc_code].append(tool_name)
+
+    results = sorted(
+        [
+            {
+                "uk_soc_2020": code,
+                "title": _soc_lookup.get(code, ""),
+                "matching_tools": tools,
+                "match_count": len(tools),
+            }
+            for code, tools in occ_scores.items()
+        ],
+        key=lambda x: x["match_count"],
+        reverse=True,
+    )
+
+    total = len(results)
+    return {
+        "total": total,
+        "offset": offset,
+        "limit": limit,
+        "matching_tool_names": matching_tools[:20],
         "results": results[offset:offset + limit],
     }
 
@@ -703,6 +767,32 @@ def browse_technology_skills(
     }
 
 
+@app.get("/api/browse/tools-used")
+def browse_tools_used(
+    q: str = Query(default="", description="Filter tool names"),
+    limit: int = Query(default=100, ge=1, le=500),
+    offset: int = Query(default=0, ge=0),
+):
+    """Browse all tool/equipment names across all occupations."""
+    results = _all_tools
+    if q:
+        q_lower = q.lower()
+        results = [t for t in results if q_lower in t.lower()]
+
+    total = len(results)
+    items = []
+    for name in results[offset:offset + limit]:
+        count = len(_tool_index.get(name.lower(), []))
+        items.append({"name": name, "occupation_count": count})
+
+    return {
+        "total": total,
+        "offset": offset,
+        "limit": limit,
+        "tools_used": items,
+    }
+
+
 # --- Crosswalk ---
 
 @app.get("/api/onet-occupations")
@@ -746,16 +836,19 @@ def get_stats():
     """Get dataset statistics."""
     total_tasks = sum(len(occ.get("tasks", [])) for occ in _occupations.values())
     total_tech = len(_all_tech_skills)
+    total_tools = len(_all_tools)
     return {
         "total_occupations": len(_occupation_index),
         "total_tasks": total_tasks,
         "total_technology_skills": total_tech,
+        "total_tools_used": total_tools,
         "soc_version": "UK SOC 2020",
         "source": "O*NET v30.2 (translated via ISCO-08 crosswalk)",
         "data_categories": [
             "abilities", "skills", "knowledge", "work_activities",
             "work_context", "work_styles", "interests", "work_values",
-            "tasks", "technology_skills", "education", "related_occupations",
+            "tasks", "technology_skills", "tools_used", "detailed_work_activities",
+            "emerging_tasks", "reported_job_titles", "education", "related_occupations",
         ],
     }
 

@@ -72,6 +72,7 @@
 						<a href="/search" onclick={closeMenus}>Occupations</a>
 						<a href="/search/tasks" onclick={closeMenus}>Job duties</a>
 						<a href="/search/technology" onclick={closeMenus}>Technology</a>
+						<a href="/search/tools" onclick={closeMenus}>Tools</a>
 						<a href="/search/skills" onclick={closeMenus}>Skills</a>
 					</div>
 				{/if}

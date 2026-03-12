@@ -34,6 +34,11 @@ export interface OccupationDetail {
 	work_values: WorkValueElement[];
 	tasks: Task[];
 	technology_skills: TechSkill[];
+	tools_used: ToolUsed[];
+	detailed_work_activities: DetailedWorkActivity[];
+	emerging_tasks: EmergingTask[];
+	reported_job_titles: string[];
+	insufficient_source_data?: string;
 	education: EducationEntry[];
 	job_zone: number;
 	related_occupations: RelatedOccupation[];
@@ -65,12 +70,35 @@ export interface WorkValueElement {
 export interface Task {
 	task: string;
 	task_type: string;
-	relevance: number;
 }
 
 export interface TechSkill {
 	name: string;
 	weight: number;
+}
+
+export interface ToolUsed {
+	name: string;
+	weight: number;
+}
+
+export interface DetailedWorkActivity {
+	dwa_id: string;
+	title: string;
+	element_id: string;
+	weight: number;
+}
+
+export interface EmergingTask {
+	task: string;
+	category: string;
+}
+
+export interface ToolSearchResult {
+	uk_soc_2020: number;
+	title: string;
+	matching_tools: string[];
+	match_count: number;
 }
 
 export interface EducationEntry {
@@ -140,6 +168,8 @@ export interface CompareOccupation {
 	work_values: WorkValueElement[];
 	task_count: number;
 	tech_skill_count: number;
+	top_tools_used: ToolUsed[];
+	tool_count: number;
 }
 
 export interface TaskResult {
@@ -165,6 +195,7 @@ export interface Stats {
 	total_occupations: number;
 	total_tasks: number;
 	total_technology_skills: number;
+	total_tools_used: number;
 	soc_version: string;
 	source: string;
 	data_categories: string[];
@@ -268,6 +299,14 @@ export async function searchTechSkills(q: string, limit = 50, offset = 0) {
 		matching_technology_names: string[];
 		results: TechSearchResult[];
 	}>(`/search/technology-skills?q=${encodeURIComponent(q)}&limit=${limit}&offset=${offset}`);
+}
+
+export async function searchTools(q: string, limit = 50, offset = 0) {
+	return fetchJson<{
+		total: number;
+		matching_tool_names: string[];
+		results: ToolSearchResult[];
+	}>(`/search/tools-used?q=${encodeURIComponent(q)}&limit=${limit}&offset=${offset}`);
 }
 
 export async function searchBySkill(q: string, limit = 50, offset = 0) {

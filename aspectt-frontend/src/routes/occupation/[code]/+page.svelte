@@ -17,7 +17,9 @@
 		{ id: 'abilities', label: 'Abilities' },
 		{ id: 'knowledge', label: 'Knowledge' },
 		{ id: 'technology', label: 'Technology' },
+		{ id: 'tools', label: 'Tools' },
 		{ id: 'activities', label: 'Work activities' },
+		{ id: 'detailed-activities', label: 'Detailed activities' },
 		{ id: 'context', label: 'Work context' },
 		{ id: 'styles', label: 'Work styles' },
 		{ id: 'interests', label: 'Interests' },
@@ -154,6 +156,12 @@
 			</div>
 		</div>
 
+		{#if occ.insufficient_source_data}
+			<div class="data-warning">
+				<strong>Data quality notice:</strong> {occ.insufficient_source_data}
+			</div>
+		{/if}
+
 		<div class="view-toggle">
 			<button class="toggle-btn" class:active={viewMode === 'summary'} onclick={() => viewMode = 'summary'}>Summary</button>
 			<button class="toggle-btn" class:active={viewMode === 'details'} onclick={() => viewMode = 'details'}>Details</button>
@@ -189,6 +197,15 @@
 								{/if}
 							</div>
 						{/if}
+						{#if occ.reported_job_titles?.length}
+							<div class="alt-titles">
+								<strong>Reported job titles:</strong>
+								{occ.reported_job_titles.slice(0, viewMode === 'summary' ? 15 : 50).join(', ')}
+								{#if occ.reported_job_titles.length > (viewMode === 'summary' ? 15 : 50)}
+									<span class="muted">and {occ.reported_job_titles.length - (viewMode === 'summary' ? 15 : 50)} more</span>
+								{/if}
+							</div>
+						{/if}
 					</div>
 
 					<!-- Quick glance sections in summary mode -->
@@ -215,11 +232,11 @@
 					{#if occ.tasks?.length}
 						<div class="card">
 							<div class="card-header">
-								<h2>Core tasks</h2>
+								<h2>Key tasks</h2>
 								<button class="show-more-btn" onclick={() => setSection('tasks')}>View all &rarr;</button>
 							</div>
 							<ul class="task-list">
-								{#each occ.tasks.filter(t => t.task_type === 'Core').slice(0, 5) as task}
+								{#each occ.tasks.filter(t => t.task_type !== 'Supplemental').slice(0, 5) as task}
 									<li>{task.task}</li>
 								{/each}
 							</ul>
@@ -235,6 +252,20 @@
 							<div class="tech-grid">
 								{#each occ.technology_skills.slice(0, 12) as tech}
 									<span class="tech-tag">{tech.name}</span>
+								{/each}
+							</div>
+						</div>
+					{/if}
+
+					{#if occ.tools_used?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Top tools</h2>
+								<button class="show-more-btn" onclick={() => setSection('tools')}>View all &rarr;</button>
+							</div>
+							<div class="tech-grid">
+								{#each occ.tools_used.slice(0, 12) as tool}
+									<span class="tech-tag">{tool.name}</span>
 								{/each}
 							</div>
 						</div>
@@ -264,6 +295,24 @@
 					{/if}
 
 				{:else if activeSection === 'tasks'}
+					{#if occ.emerging_tasks?.length}
+						<div class="card emerging-card">
+							<h2>Emerging tasks ({occ.emerging_tasks.length})</h2>
+							<div class="task-items">
+								{#each occ.emerging_tasks as et}
+									<div class="task-item">
+										<div class="task-content">
+											<span class="task-text">{et.task}</span>
+											<span class="task-badges">
+												<span class="badge emerging-{et.category.toLowerCase()}">{et.category}</span>
+											</span>
+										</div>
+									</div>
+								{/each}
+							</div>
+						</div>
+					{/if}
+
 					<div class="card">
 						<h2>Tasks ({occ.tasks?.length ?? 0})</h2>
 						{#if occ.tasks?.length}
@@ -274,15 +323,12 @@
 										<div class="task-content">
 											<span class="task-text">{task.task}</span>
 											<span class="task-badges">
-												{#if task.task_type === 'Core'}<span class="badge">Core</span>{/if}
-												{#if task.relevance != null}<span class="relevance-label">{(task.relevance * 100).toFixed(0)}%</span>{/if}
+												{#if task.task_type === 'Core'}<span class="badge">Core</span>
+												{:else if task.task_type === 'Supplemental'}<span class="badge supplemental">Supplemental</span>
+												{:else if task.task_type === 'Unclassified'}<span class="badge unclassified">Unclassified</span>
+												{/if}
 											</span>
 										</div>
-										{#if task.relevance != null}
-											<div class="relevance-track">
-												<div class="relevance-fill" style="width: {task.relevance * 100}%"></div>
-											</div>
-										{/if}
 									</div>
 								{/each}
 							</div>
@@ -352,6 +398,24 @@
 						{:else}<p class="muted">No technology skills data available</p>{/if}
 					</div>
 
+				{:else if activeSection === 'tools'}
+					<div class="card">
+						<h2>Tools and equipment ({occ.tools_used?.length ?? 0})</h2>
+						{#if occ.tools_used?.length}
+							{@const items = getTopItems(occ.tools_used, 40)}
+							<div class="tech-grid">
+								{#each items as tool}
+									<span class="tech-tag">{tool.name}</span>
+								{/each}
+							</div>
+							{#if viewMode === 'summary' && occ.tools_used.length > 40}
+								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
+									Show all {occ.tools_used.length} tools
+								</button>
+							{/if}
+						{:else}<p class="muted">No tools data available</p>{/if}
+					</div>
+
 				{:else if activeSection === 'activities'}
 					<div class="card">
 						<h2>Work activities ({occ.work_activities?.length ?? 0})</h2>
@@ -362,6 +426,32 @@
 								<button class="show-all-btn" onclick={() => viewMode = 'details'}>Show all {occ.work_activities.length} activities</button>
 							{/if}
 						{:else}<p class="muted">No work activities data available</p>{/if}
+					</div>
+
+				{:else if activeSection === 'detailed-activities'}
+					<div class="card">
+						<h2>Detailed work activities ({occ.detailed_work_activities?.length ?? 0})</h2>
+						{#if occ.detailed_work_activities?.length}
+							{@const sorted = [...occ.detailed_work_activities].sort((a, b) => b.weight - a.weight)}
+							{@const items = viewMode === 'summary' ? sorted.slice(0, 30) : sorted}
+							{@const maxWeight = sorted[0]?.weight ?? 1}
+							<div class="dwa-list">
+								{#each items as dwa}
+									<div class="dwa-row">
+										<span class="dwa-label">{dwa.title}</span>
+										<div class="dwa-bar-track">
+											<div class="dwa-bar-fill" style="width: {(dwa.weight / maxWeight) * 100}%"></div>
+										</div>
+										<span class="dwa-val">{dwa.weight.toFixed(1)}</span>
+									</div>
+								{/each}
+							</div>
+							{#if viewMode === 'summary' && occ.detailed_work_activities.length > 30}
+								<button class="show-all-btn" onclick={() => viewMode = 'details'}>
+									Show all {occ.detailed_work_activities.length} detailed activities
+								</button>
+							{/if}
+						{:else}<p class="muted">No detailed work activities data available</p>{/if}
 					</div>
 
 				{:else if activeSection === 'context'}
@@ -595,9 +685,25 @@
 	.task-content { display: flex; gap: 0.5rem; align-items: flex-start; }
 	.task-text { flex: 1; font-size: 0.9rem; line-height: 1.5; overflow-wrap: break-word; }
 	.task-badges { flex: 0 0 auto; display: flex; gap: 0.35rem; align-items: center; }
-	.relevance-label { font-size: 0.75rem; color: var(--color-text-secondary); font-weight: 500; white-space: nowrap; }
-	.relevance-track { height: 3px; background: var(--color-border); border-radius: 2px; overflow: hidden; margin-top: 0.35rem; }
-	.relevance-fill { height: 100%; background: var(--color-accent); border-radius: 2px; opacity: 0.6; }
+	.badge.supplemental { background: var(--color-text-secondary); }
+	.badge.unclassified { background: #9ca3af; }
+	.badge.emerging-new { background: var(--color-success); }
+	.badge.emerging-revision { background: goldenrod; }
+
+	.data-warning {
+		padding: 0.75rem 1rem; margin-bottom: 1.25rem; border-radius: var(--radius);
+		background: rgba(218, 165, 32, 0.08); border: 1px solid goldenrod;
+		font-size: 0.875rem; color: var(--color-text); line-height: 1.5;
+	}
+
+	.emerging-card { border-left: 3px solid var(--color-success); }
+
+	.dwa-list { display: flex; flex-direction: column; gap: 0.3rem; }
+	.dwa-row { display: flex; align-items: center; gap: 0.75rem; }
+	.dwa-label { flex: 0 0 300px; font-size: 0.8rem; text-align: right; color: var(--color-text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+	.dwa-bar-track { flex: 1; height: 10px; background: var(--color-border); border-radius: 4px; overflow: hidden; }
+	.dwa-bar-fill { height: 100%; background: var(--color-accent); border-radius: 4px; transition: width 0.3s; }
+	.dwa-val { flex: 0 0 35px; font-size: 0.8rem; color: var(--color-text-secondary); text-align: right; }
 
 	.tech-grid { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 	.tech-tag {
@@ -643,5 +749,6 @@
 		.occ-header { flex-direction: column; }
 		.interest-name { flex: 0 0 90px; }
 		.edu-label { flex: 0 0 140px; font-size: 0.8rem; }
+		.dwa-label { flex: 0 0 160px; font-size: 0.75rem; }
 	}
 </style>

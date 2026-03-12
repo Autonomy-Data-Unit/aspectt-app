@@ -184,6 +184,21 @@
 				{/each}
 			</div>
 
+			<!-- Top tools -->
+			<div class="compare-section">
+				<div class="section-label">Top tools</div>
+				{#each comparison as occ}
+					<div class="compare-cell">
+						<div class="tech-tags">
+							{#each (occ.top_tools_used ?? []).slice(0, 8) as tool}
+								<span class="tech-tag">{tool.name}</span>
+							{/each}
+						</div>
+						<p class="cell-note">{occ.tool_count ?? 0} total</p>
+					</div>
+				{/each}
+			</div>
+
 			<!-- Tasks -->
 			<div class="compare-section">
 				<div class="section-label">Tasks</div>

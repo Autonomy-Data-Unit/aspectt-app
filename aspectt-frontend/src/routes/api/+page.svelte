@@ -89,6 +89,24 @@
 		},
 		{
 			method: 'GET',
+			path: '/api/occupations/{soc_code}/tools-used',
+			desc: 'Get tools and equipment for an occupation',
+			params: '',
+		},
+		{
+			method: 'GET',
+			path: '/api/search/tools-used',
+			desc: 'Search occupations by tool/equipment name',
+			params: 'q (search query), limit, offset',
+		},
+		{
+			method: 'GET',
+			path: '/api/browse/tools-used',
+			desc: 'Browse all tool/equipment names across occupations',
+			params: 'q (filter), limit, offset',
+		},
+		{
+			method: 'GET',
 			path: '/api/crosswalk',
 			desc: 'Get the US O*NET → UK SOC crosswalk',
 			params: 'uk_soc, onet_soc, limit, offset',
