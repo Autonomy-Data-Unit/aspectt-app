@@ -9,10 +9,7 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
-from .const import (
-    DATA_DIR, ONET_DIR, OUTPUT_DIR,
-    TECH_FILTER_MODEL, TOOL_FILTER_MODEL, TASK_REFINE_MODEL,
-)
+from .const import DATA_DIR, ONET_DIR, OUTPUT_DIR
 from .crosswalk import (
     build_crosswalk,
     load_uk_soc_framework,
@@ -110,6 +107,7 @@ def translate_task_statements(
         }
         if task_ratings_df is not None:
             # Weighted average of importance across contributing sources
+            group = group.copy()
             group['weighted_importance'] = group['importance_raw'] * group['weight']
             agg_dict['wi_sum'] = ('weighted_importance', 'sum')
             agg_dict['w_sum'] = ('weight', 'sum')
@@ -607,10 +605,10 @@ def build_uk_dataset(
         dataset['occupations'].append(occ_data)
 
     # Optional LLM refinement of tasks, technology skills, and tools used
+    unrefined_occupations = None
     if refine:
         import copy
         from .refine import refine_dataset
-        from .postprocess import postprocess_dataset
 
         # Keep unrefined copy for post-processing (tech skill whitelist restoration)
         unrefined_occupations = copy.deepcopy(dataset['occupations'])
@@ -618,11 +616,12 @@ def build_uk_dataset(
         print("Refining tasks, technology skills, and tools used with LLM...")
         dataset['occupations'] = refine_dataset(dataset['occupations'])
 
-        print("Post-processing refined data...")
-        dataset['occupations'] = postprocess_dataset(dataset['occupations'], unrefined_occupations)
+    # Deterministic post-processing runs regardless of LLM refinement
+    from .postprocess import postprocess_dataset, apply_manual_overrides
 
-        from .postprocess import apply_manual_overrides
-        dataset['occupations'] = apply_manual_overrides(dataset['occupations'])
+    print("Post-processing data...")
+    dataset['occupations'] = postprocess_dataset(dataset['occupations'], unrefined_occupations)
+    dataset['occupations'] = apply_manual_overrides(dataset['occupations'])
 
     # Save full dataset
     print(f"Saving dataset to {output_dir}...")

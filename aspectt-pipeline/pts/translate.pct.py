@@ -19,6 +19,7 @@
 
 
 
+
 # %% [markdown]
 # # Translate O*NET Data to UK Context
 #
@@ -26,6 +27,7 @@
 # equivalents using the crosswalk. Each UK SOC code is a "superposition"
 # of its contributing US O*NET codes - numeric values are averaged (weighted),
 # and categorical/text data is combined.
+#
 #
 # 
 
@@ -37,10 +39,7 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
-from aspectt_pipeline.const import (
-    DATA_DIR, ONET_DIR, OUTPUT_DIR,
-    TECH_FILTER_MODEL, TOOL_FILTER_MODEL, TASK_REFINE_MODEL,
-)
+from aspectt_pipeline.const import DATA_DIR, ONET_DIR, OUTPUT_DIR
 from aspectt_pipeline.crosswalk import (
     build_crosswalk,
     load_uk_soc_framework,
@@ -57,11 +56,13 @@ from aspectt_pipeline.crosswalk import (
 
 
 
+
 # %% [markdown]
 # ## Data Loading
 #
 # O*NET distributes its data as tab-separated text files — one per category.
 # This helper loads any of them by filename.
+#
 # 
 
 # %%
@@ -69,6 +70,7 @@ from aspectt_pipeline.crosswalk import (
 def load_onet_table(filename: str, onet_dir: Path = ONET_DIR) -> pd.DataFrame:
     """Load an O*NET data table (tab-separated text file)."""
     return pd.read_csv(onet_dir / filename, sep='\t')
+
 
 
 
@@ -89,6 +91,7 @@ def load_onet_table(filename: str, onet_dir: Path = ONET_DIR) -> pd.DataFrame:
 # across all contributing O*NET occupations, using the crosswalk weights.
 # This produces smooth values even when many sources contribute: irrelevant
 # sources are naturally diluted by the relevant ones.
+#
 # 
 
 # %%
@@ -146,6 +149,7 @@ def translate_rated_data(
 
 
 
+
 # %% [markdown]
 # ## Task Statement Translation
 #
@@ -156,6 +160,7 @@ def translate_rated_data(
 # O*NET task ratings. This is where crosswalk noise is most problematic —
 # a UK occupation inherits every task from every source, including irrelevant
 # ones. The LLM refinement step (refine module) addresses this downstream.
+#
 # 
 
 # %%
@@ -201,6 +206,7 @@ def translate_task_statements(
         }
         if task_ratings_df is not None:
             # Weighted average of importance across contributing sources
+            group = group.copy()
             group['weighted_importance'] = group['importance_raw'] * group['weight']
             agg_dict['wi_sum'] = ('weighted_importance', 'sum')
             agg_dict['w_sum'] = ('weight', 'sum')
@@ -235,6 +241,7 @@ def translate_task_statements(
 
 
 
+
 # %% [markdown]
 # ## Technology Skills and Tools Used
 #
@@ -244,6 +251,7 @@ def translate_task_statements(
 # more source occupations contributed that item. Like tasks, these lists
 # inherit crosswalk noise (e.g. Jenkins CI for Bricklayers) which is
 # cleaned up by the LLM refinement step.
+#
 # 
 
 # %%
@@ -271,6 +279,7 @@ def translate_technology_skills(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -316,12 +325,14 @@ def translate_tools_used(
 
 
 
+
 # %% [markdown]
 # ## Detailed Work Activities
 #
 # DWAs are fine-grained activity statements linked to tasks. We join the
 # task-to-DWA mapping with the DWA reference table, then aggregate through
 # the crosswalk like other discrete data.
+#
 # 
 
 # %%
@@ -368,6 +379,7 @@ def translate_detailed_work_activities(
 
 
 
+
 # %% [markdown]
 # ## Emerging Tasks, Reported Titles, and Alternate Titles
 #
@@ -375,6 +387,7 @@ def translate_detailed_work_activities(
 # occupations. Emerging tasks are newly identified or revised task
 # statements. Reported titles and alternate titles are samples of
 # job titles associated with each occupation.
+#
 # 
 
 # %%
@@ -399,6 +412,7 @@ def translate_emerging_tasks(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -443,12 +457,14 @@ def translate_reported_titles(
 
 
 
+
 # %% [markdown]
 # ## Interests and Work Values
 #
 # Both are rated data using the same weighted-averaging approach. Interests
 # use the Holland/RIASEC model (6 dimensions). Work values measure the
 # extent to which different work aspects are valued by workers.
+#
 # 
 
 # %%
@@ -463,6 +479,7 @@ def translate_interests(
         value_col='Data Value',
         group_cols=['Element ID', 'Element Name', 'Scale ID'],
     )
+
 
 
 
@@ -497,6 +514,7 @@ def translate_work_values(
 
 
 
+
 # %% [markdown]
 # ## Education, Job Zones, and Related Occupations
 #
@@ -504,6 +522,7 @@ def translate_work_values(
 # (1–5 preparation levels) are also averaged and rounded to integers.
 # Related occupations are re-mapped through the crosswalk so the final
 # dataset has UK SOC-to-UK SOC relationships; self-references are removed.
+#
 # 
 
 # %%
@@ -533,6 +552,7 @@ def translate_education(
     result['Data Value'] = result['Data_Value'] / result['Weight_Sum']
     result = result.drop(columns=['Data_Value', 'Weight_Sum'])
     return result
+
 
 
 
@@ -579,6 +599,7 @@ def translate_job_zones(
 
 
 
+
 # %%
 #|export
 def translate_alternate_titles(
@@ -601,6 +622,7 @@ def translate_alternate_titles(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -664,6 +686,7 @@ def translate_related_occupations(
 
 
 
+
 # %% [markdown]
 # ## Build Full UK Dataset
 #
@@ -672,6 +695,7 @@ def translate_related_occupations(
 # and deterministic post-processing, then saves everything to disk.
 # The output is a collection of JSON files: one per occupation, plus an
 # index and crosswalk file.
+#
 # 
 
 # %%
@@ -885,10 +909,10 @@ def build_uk_dataset(
         dataset['occupations'].append(occ_data)
 
     # Optional LLM refinement of tasks, technology skills, and tools used
+    unrefined_occupations = None
     if refine:
         import copy
         from aspectt_pipeline.refine import refine_dataset
-        from aspectt_pipeline.postprocess import postprocess_dataset
 
         # Keep unrefined copy for post-processing (tech skill whitelist restoration)
         unrefined_occupations = copy.deepcopy(dataset['occupations'])
@@ -896,11 +920,12 @@ def build_uk_dataset(
         print("Refining tasks, technology skills, and tools used with LLM...")
         dataset['occupations'] = refine_dataset(dataset['occupations'])
 
-        print("Post-processing refined data...")
-        dataset['occupations'] = postprocess_dataset(dataset['occupations'], unrefined_occupations)
+    # Deterministic post-processing runs regardless of LLM refinement
+    from aspectt_pipeline.postprocess import postprocess_dataset, apply_manual_overrides
 
-        from aspectt_pipeline.postprocess import apply_manual_overrides
-        dataset['occupations'] = apply_manual_overrides(dataset['occupations'])
+    print("Post-processing data...")
+    dataset['occupations'] = postprocess_dataset(dataset['occupations'], unrefined_occupations)
+    dataset['occupations'] = apply_manual_overrides(dataset['occupations'])
 
     # Save full dataset
     print(f"Saving dataset to {output_dir}...")
@@ -938,12 +963,14 @@ def build_uk_dataset(
 
 
 
+
 # %% [markdown]
 # ## JSON Serialisation Helpers
 #
 # NumPy types and NaN/Inf values can't be serialised to JSON directly.
 # These helpers recursively sanitise the data structures before writing,
 # replacing NaN/Inf with `None` and converting numpy types to native Python.
+#
 # 
 
 # %%
@@ -993,6 +1020,7 @@ def _json_default(obj):
 
 
 
+
 # %% [markdown]
 # ## Per-Occupation Assembly Helpers
 #
@@ -1001,6 +1029,7 @@ def _json_default(obj):
 # `_rated_to_dict` pivots the rated data DataFrame into the element-level
 # dict format used in the output JSON (one dict per element with
 # `value_IM` and `value_LV` fields).
+#
 # 
 
 # %%
@@ -1030,6 +1059,7 @@ def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataF
         return " ".join(unique_descs)
     else:
         return " ".join(unique_descs[:3]) + f" (Based on {len(unique_descs)} related US occupations.)"
+
 
 
 

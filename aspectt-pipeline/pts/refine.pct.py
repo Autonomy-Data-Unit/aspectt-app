@@ -22,6 +22,7 @@
 
 
 
+
 # %% [markdown]
 # # LLM Refinement of Translated Data
 #
@@ -38,6 +39,7 @@
 #
 # Rated data (skills, abilities, knowledge, etc.) is NOT refined -- weighted
 # averaging already handles the crosswalk noise smoothly for continuous scores.
+#
 #
 # 
 
@@ -72,12 +74,14 @@ logger = logging.getLogger(__name__)
 
 
 
+
 # %% [markdown]
 # ## Pydantic Response Models
 #
 # These models define the structured output format the LLM must return.
 # Using `response_format=` with Pydantic models ensures type-safe, parseable
 # responses and prevents the LLM from generating free-form text.
+#
 #
 # 
 
@@ -113,6 +117,7 @@ class TaskRefineResponse(BaseModel):
 
 
 
+
 # %% [markdown]
 # ## System Prompts
 #
@@ -120,6 +125,7 @@ class TaskRefineResponse(BaseModel):
 # UK occupation expert. All prompts emphasise a **conservative** stance:
 # only remove items that are clearly irrelevant, keep generic items, and
 # never generate new text — the LLM may only select among originals.
+#
 #
 # 
 
@@ -184,6 +190,7 @@ preferred_index, in a duplicate_indices list, or in removed_indices."""
 
 
 
+
 # %% [markdown]
 # ## Prompt Builders
 #
@@ -192,6 +199,7 @@ preferred_index, in a duplicate_indices list, or in removed_indices."""
 # (for context), and a numbered list of items. Numbering is critical — the
 # LLM's structured response references items by index, so the indices must
 # be stable and contiguous.
+#
 #
 # 
 
@@ -286,6 +294,7 @@ def _build_task_prompt(
 
 
 
+
 # %% [markdown]
 # ## Chunking Helpers
 #
@@ -293,6 +302,7 @@ def _build_task_prompt(
 # within context-window limits, large lists are split into chunks processed
 # independently. After chunked task refinement, a deterministic Jaccard
 # word-overlap pass catches any cross-chunk duplicates the LLM couldn't see.
+#
 #
 # 
 
@@ -344,6 +354,7 @@ def _dedup_tasks_by_jaccard(tasks: list[dict], threshold: float = JACCARD_DEDUP_
 
 
 
+
 # %% [markdown]
 # ## Core Refinement Functions
 #
@@ -353,6 +364,7 @@ def _dedup_tasks_by_jaccard(tasks: list[dict], threshold: float = JACCARD_DEDUP_
 # relevant/irrelevant verdicts. Task refinement is more complex: the LLM
 # groups near-duplicates and picks the best original phrasing from each group.
 # No LLM-generated text enters the dataset — only original O*NET text is kept.
+#
 #
 # 
 
@@ -378,14 +390,9 @@ async def _refine_tech_chunk(
 
     result = TechFilterResponse.model_validate_json(response)
 
-    # Build set of relevant indices
-    relevant_indices = {v.index for v in result.verdicts if v.relevant}
-
-    # Keep items marked as relevant; if the LLM missed an index, keep it (conservative)
-    kept = []
-    for i, tech in enumerate(tech_skills):
-        if i in relevant_indices or not any(v.index == i for v in result.verdicts):
-            kept.append(tech)
+    # Items explicitly marked irrelevant are removed; missed indices are kept (conservative)
+    irrelevant_indices = {v.index for v in result.verdicts if not v.relevant}
+    kept = [tech for i, tech in enumerate(tech_skills) if i not in irrelevant_indices]
 
     return kept
 
@@ -433,14 +440,9 @@ async def _refine_tool_chunk(
 
     result = TechFilterResponse.model_validate_json(response)
 
-    # Build set of relevant indices
-    relevant_indices = {v.index for v in result.verdicts if v.relevant}
-
-    # Keep items marked as relevant; if the LLM missed an index, keep it (conservative)
-    kept = []
-    for i, tool in enumerate(tools):
-        if i in relevant_indices or not any(v.index == i for v in result.verdicts):
-            kept.append(tool)
+    # Items explicitly marked irrelevant are removed; missed indices are kept (conservative)
+    irrelevant_indices = {v.index for v in result.verdicts if not v.relevant}
+    kept = [tool for i, tool in enumerate(tools) if i not in irrelevant_indices]
 
     return kept
 
@@ -487,16 +489,14 @@ async def _refine_task_chunk(
 
     result = TaskRefineResponse.model_validate_json(response)
 
-    # Keep only the preferred original task from each group
+    # Keep only the preferred original task from each group, preserving all fields
     refined = []
     for group in result.kept:
         idx = group.preferred_index
         if 0 <= idx < len(tasks):
-            task = tasks[idx]
-            refined.append({
-                'task': task.get('task', ''),
-                'task_type': _normalise_task_type(task.get('task_type')),
-            })
+            task = dict(tasks[idx])  # shallow copy to avoid mutating input
+            task['task_type'] = _normalise_task_type(task.get('task_type'))
+            refined.append(task)
         else:
             logger.warning(f"SOC {code}: preferred_index {idx} out of range (0-{len(tasks)-1})")
 
@@ -539,12 +539,14 @@ async def _refine_tasks(
 
 
 
+
 # %% [markdown]
 # ## Per-Occupation Refinement
 #
 # Orchestrates the three refinement tasks (tech skills, tools used, tasks)
 # for a single occupation. If any refinement fails, the original unrefined
 # data is preserved — the pipeline never loses data due to LLM errors.
+#
 #
 # 
 
@@ -562,25 +564,32 @@ async def refine_occupation(
     code = occ.get('uk_soc_2020', 0)
     sources = occ.get('source_occupations', [])
 
-    try:
-        if occ.get('technology_skills'):
+    if occ.get('technology_skills'):
+        try:
             occ['technology_skills'] = await _refine_tech(
                 code, title, description, sources, occ['technology_skills'], tech_model
             )
+        except Exception as e:
+            logger.warning(f"Tech refinement failed for SOC {code} ({title}): {e}. Keeping original.")
 
-        if occ.get('tools_used'):
+    if occ.get('tools_used'):
+        try:
             occ['tools_used'] = await _refine_tools(
                 code, title, description, sources, occ['tools_used'], tool_model
             )
+        except Exception as e:
+            logger.warning(f"Tool refinement failed for SOC {code} ({title}): {e}. Keeping original.")
 
-        if occ.get('tasks'):
+    if occ.get('tasks'):
+        try:
             occ['tasks'] = await _refine_tasks(
                 code, title, description, sources, occ['tasks'], task_model
             )
-    except Exception as e:
-        logger.warning(f"Refinement failed for SOC {code} ({title}): {e}. Keeping original data.")
+        except Exception as e:
+            logger.warning(f"Task refinement failed for SOC {code} ({title}): {e}. Keeping original.")
 
     return occ
+
 
 
 
@@ -600,6 +609,7 @@ async def refine_occupation(
 # Processes all occupations concurrently (bounded by a semaphore) and
 # prints before/after counts so you can see the impact of refinement.
 # All LLM responses are cached via `adulib`, so re-runs are instant.
+#
 # 
 
 # %%

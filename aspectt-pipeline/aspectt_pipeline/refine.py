@@ -221,14 +221,9 @@ async def _refine_tech_chunk(
 
     result = TechFilterResponse.model_validate_json(response)
 
-    # Build set of relevant indices
-    relevant_indices = {v.index for v in result.verdicts if v.relevant}
-
-    # Keep items marked as relevant; if the LLM missed an index, keep it (conservative)
-    kept = []
-    for i, tech in enumerate(tech_skills):
-        if i in relevant_indices or not any(v.index == i for v in result.verdicts):
-            kept.append(tech)
+    # Items explicitly marked irrelevant are removed; missed indices are kept (conservative)
+    irrelevant_indices = {v.index for v in result.verdicts if not v.relevant}
+    kept = [tech for i, tech in enumerate(tech_skills) if i not in irrelevant_indices]
 
     return kept
 
@@ -276,14 +271,9 @@ async def _refine_tool_chunk(
 
     result = TechFilterResponse.model_validate_json(response)
 
-    # Build set of relevant indices
-    relevant_indices = {v.index for v in result.verdicts if v.relevant}
-
-    # Keep items marked as relevant; if the LLM missed an index, keep it (conservative)
-    kept = []
-    for i, tool in enumerate(tools):
-        if i in relevant_indices or not any(v.index == i for v in result.verdicts):
-            kept.append(tool)
+    # Items explicitly marked irrelevant are removed; missed indices are kept (conservative)
+    irrelevant_indices = {v.index for v in result.verdicts if not v.relevant}
+    kept = [tool for i, tool in enumerate(tools) if i not in irrelevant_indices]
 
     return kept
 
@@ -330,16 +320,14 @@ async def _refine_task_chunk(
 
     result = TaskRefineResponse.model_validate_json(response)
 
-    # Keep only the preferred original task from each group
+    # Keep only the preferred original task from each group, preserving all fields
     refined = []
     for group in result.kept:
         idx = group.preferred_index
         if 0 <= idx < len(tasks):
-            task = tasks[idx]
-            refined.append({
-                'task': task.get('task', ''),
-                'task_type': _normalise_task_type(task.get('task_type')),
-            })
+            task = dict(tasks[idx])  # shallow copy to avoid mutating input
+            task['task_type'] = _normalise_task_type(task.get('task_type'))
+            refined.append(task)
         else:
             logger.warning(f"SOC {code}: preferred_index {idx} out of range (0-{len(tasks)-1})")
 
@@ -383,23 +371,29 @@ async def refine_occupation(
     code = occ.get('uk_soc_2020', 0)
     sources = occ.get('source_occupations', [])
 
-    try:
-        if occ.get('technology_skills'):
+    if occ.get('technology_skills'):
+        try:
             occ['technology_skills'] = await _refine_tech(
                 code, title, description, sources, occ['technology_skills'], tech_model
             )
+        except Exception as e:
+            logger.warning(f"Tech refinement failed for SOC {code} ({title}): {e}. Keeping original.")
 
-        if occ.get('tools_used'):
+    if occ.get('tools_used'):
+        try:
             occ['tools_used'] = await _refine_tools(
                 code, title, description, sources, occ['tools_used'], tool_model
             )
+        except Exception as e:
+            logger.warning(f"Tool refinement failed for SOC {code} ({title}): {e}. Keeping original.")
 
-        if occ.get('tasks'):
+    if occ.get('tasks'):
+        try:
             occ['tasks'] = await _refine_tasks(
                 code, title, description, sources, occ['tasks'], task_model
             )
-    except Exception as e:
-        logger.warning(f"Refinement failed for SOC {code} ({title}): {e}. Keeping original data.")
+        except Exception as e:
+            logger.warning(f"Task refinement failed for SOC {code} ({title}): {e}. Keeping original.")
 
     return occ
 
