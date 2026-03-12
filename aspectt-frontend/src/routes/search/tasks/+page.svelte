@@ -9,8 +9,10 @@
 	let currentPage = $state(0);
 	const perPage = 50;
 
+	let debounceTimer: ReturnType<typeof setTimeout>;
+
 	async function doSearch() {
-		if (!query.trim()) return;
+		if (!query.trim()) { results = []; total = 0; searched = false; return; }
 		loading = true;
 		searched = true;
 		currentPage = 0;
@@ -25,8 +27,14 @@
 		loading = false;
 	}
 
+	function onInput() {
+		clearTimeout(debounceTimer);
+		if (!query.trim()) { results = []; total = 0; searched = false; return; }
+		debounceTimer = setTimeout(() => doSearch(), 300);
+	}
+
 	function onKeydown(e: KeyboardEvent) {
-		if (e.key === 'Enter') doSearch();
+		if (e.key === 'Enter') { clearTimeout(debounceTimer); doSearch(); }
 	}
 </script>
 
@@ -39,7 +47,7 @@
 	<div class="card">
 		<div class="search-row">
 			<input class="search-input" type="text" placeholder="e.g. software testing, patient care, financial analysis..."
-				bind:value={query} onkeydown={onKeydown} />
+				bind:value={query} oninput={onInput} onkeydown={onKeydown} />
 			<button class="btn btn-primary" onclick={doSearch}>Search</button>
 		</div>
 	</div>

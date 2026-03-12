@@ -8,8 +8,10 @@
 	let results = $state<Occupation[]>([]);
 	let total = $state(0);
 	let loading = $state(false);
+	let searched = $state(false);
 	let currentPage = $state(0);
 	const pageSize = 50;
+	let debounceTimer: ReturnType<typeof setTimeout>;
 
 	$effect(() => {
 		const q = page.url.searchParams.get('q');
@@ -20,8 +22,9 @@
 	});
 
 	async function doSearch(offset = 0) {
-		if (!query.trim()) return;
+		if (!query.trim()) { results = []; total = 0; searched = false; return; }
 		loading = true;
+		searched = true;
 		currentPage = offset;
 		const data = await searchOccupations(query, pageSize, offset);
 		results = data.occupations;
@@ -29,8 +32,15 @@
 		loading = false;
 	}
 
+	function onInput() {
+		clearTimeout(debounceTimer);
+		if (!query.trim()) { results = []; total = 0; searched = false; return; }
+		debounceTimer = setTimeout(() => doSearch(), 250);
+	}
+
 	function handleSubmit(e: Event) {
 		e.preventDefault();
+		clearTimeout(debounceTimer);
 		goto(`/search?q=${encodeURIComponent(query.trim())}`, { replaceState: true });
 		doSearch();
 	}
@@ -45,6 +55,7 @@
 			type="text"
 			placeholder="Enter occupation title, keyword, or SOC code..."
 			bind:value={query}
+			oninput={onInput}
 		/>
 		<button class="btn btn-primary" type="submit">Search</button>
 	</form>
@@ -75,7 +86,7 @@
 				{/if}
 			</div>
 		{/if}
-	{:else if query.trim()}
+	{:else if searched && query.trim()}
 		<p class="no-results">No occupations found matching "{query}"</p>
 	{/if}
 </div>

@@ -8,8 +8,10 @@
 	let loading = $state(false);
 	let searched = $state(false);
 
+	let debounceTimer: ReturnType<typeof setTimeout>;
+
 	async function doSearch() {
-		if (!query.trim()) return;
+		if (!query.trim()) { results = []; matchingNames = []; total = 0; searched = false; return; }
 		loading = true;
 		searched = true;
 		const data = await searchTools(query, 100);
@@ -19,8 +21,14 @@
 		loading = false;
 	}
 
+	function onInput() {
+		clearTimeout(debounceTimer);
+		if (!query.trim()) { results = []; matchingNames = []; total = 0; searched = false; return; }
+		debounceTimer = setTimeout(() => doSearch(), 300);
+	}
+
 	function onKeydown(e: KeyboardEvent) {
-		if (e.key === 'Enter') doSearch();
+		if (e.key === 'Enter') { clearTimeout(debounceTimer); doSearch(); }
 	}
 </script>
 
@@ -33,7 +41,7 @@
 	<div class="card">
 		<div class="search-row">
 			<input class="search-input" type="text" placeholder="e.g. forklift, microscope, computer, drill..."
-				bind:value={query} onkeydown={onKeydown} />
+				bind:value={query} oninput={onInput} onkeydown={onKeydown} />
 			<button class="btn btn-primary" onclick={doSearch}>Search</button>
 		</div>
 	</div>
