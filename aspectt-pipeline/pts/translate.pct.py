@@ -16,6 +16,7 @@
 
 
 
+
 # %% [markdown]
 # # Translate O*NET Data to UK Context
 #
@@ -32,12 +33,13 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
+from aspectt_pipeline.const import DATA_DIR, ONET_DIR, OUTPUT_DIR, DEFAULT_MODEL
 from aspectt_pipeline.crosswalk import (
-    DATA_DIR, ONET_DIR,
     build_crosswalk,
     load_uk_soc_framework,
     load_onet_occupations,
 )
+
 
 
 
@@ -51,6 +53,7 @@ from aspectt_pipeline.crosswalk import (
 def load_onet_table(filename: str, onet_dir: Path = ONET_DIR) -> pd.DataFrame:
     """Load an O*NET data table (tab-separated text file)."""
     return pd.read_csv(onet_dir / filename, sep='\t')
+
 
 
 
@@ -103,6 +106,7 @@ def translate_rated_data(
     result = result.drop(columns=['Data_Value', 'Weight_Sum'])
 
     return result
+
 
 
 
@@ -185,6 +189,7 @@ def translate_task_statements(
 
 
 
+
 # %%
 #|export
 def translate_technology_skills(
@@ -218,6 +223,7 @@ def translate_technology_skills(
 
 
 
+
 # %%
 #|export
 def translate_tools_used(
@@ -241,6 +247,7 @@ def translate_tools_used(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -290,6 +297,7 @@ def translate_detailed_work_activities(
 
 
 
+
 # %%
 #|export
 def translate_emerging_tasks(
@@ -312,6 +320,7 @@ def translate_emerging_tasks(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -350,6 +359,7 @@ def translate_reported_titles(
 
 
 
+
 # %%
 #|export
 def translate_interests(
@@ -370,6 +380,7 @@ def translate_interests(
 
 
 
+
 # %%
 #|export
 def translate_work_values(
@@ -382,6 +393,7 @@ def translate_work_values(
         value_col='Data Value',
         group_cols=['Element ID', 'Element Name', 'Scale ID'],
     )
+
 
 
 
@@ -425,6 +437,7 @@ def translate_education(
 
 
 
+
 # %%
 #|export
 def translate_job_zones(
@@ -457,6 +470,7 @@ def translate_job_zones(
 
 
 
+
 # %%
 #|export
 def translate_alternate_titles(
@@ -479,6 +493,7 @@ def translate_alternate_titles(
 
     result = result.sort_values(['uk_soc_2020', 'weight'], ascending=[True, False])
     return result
+
 
 
 
@@ -536,14 +551,15 @@ def translate_related_occupations(
 
 
 
+
 # %%
 #|export
 def build_uk_dataset(
     data_dir: Path = DATA_DIR,
     onet_dir: Path = ONET_DIR,
-    output_dir: Path | None = None,
+    output_dir: Path = OUTPUT_DIR,
     refine: bool = True,
-    refine_model: str = "gpt-4o-mini",
+    refine_model: str = DEFAULT_MODEL,
 ) -> dict:
     """
     Build the full UK O*NET-equivalent dataset.
@@ -553,8 +569,6 @@ def build_uk_dataset(
 
     Returns a dict with all translated data.
     """
-    if output_dir is None:
-        output_dir = data_dir.parent.parent / "data" / "uk_onet"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     print("Building crosswalk...")
@@ -800,6 +814,7 @@ def build_uk_dataset(
 
 
 
+
 # %%
 #|export
 def _sanitize_nans(obj):
@@ -844,6 +859,7 @@ def _json_default(obj):
 
 
 
+
 # %%
 #|export
 def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataFrame) -> str:
@@ -871,6 +887,7 @@ def _build_description(uk_code: int, crosswalk: pd.DataFrame, onet_occ: pd.DataF
         return " ".join(unique_descs)
     else:
         return " ".join(unique_descs[:3]) + f" (Based on {len(unique_descs)} related US occupations.)"
+
 
 
 

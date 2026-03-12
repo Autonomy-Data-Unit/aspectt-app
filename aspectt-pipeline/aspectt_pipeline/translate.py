@@ -9,8 +9,8 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
+from .const import DATA_DIR, ONET_DIR, OUTPUT_DIR, DEFAULT_MODEL
 from .crosswalk import (
-    DATA_DIR, ONET_DIR,
     build_crosswalk,
     load_uk_soc_framework,
     load_onet_occupations,
@@ -398,9 +398,9 @@ def translate_related_occupations(
 def build_uk_dataset(
     data_dir: Path = DATA_DIR,
     onet_dir: Path = ONET_DIR,
-    output_dir: Path | None = None,
+    output_dir: Path = OUTPUT_DIR,
     refine: bool = True,
-    refine_model: str = "gpt-4o-mini",
+    refine_model: str = DEFAULT_MODEL,
 ) -> dict:
     """
     Build the full UK O*NET-equivalent dataset.
@@ -410,8 +410,6 @@ def build_uk_dataset(
 
     Returns a dict with all translated data.
     """
-    if output_dir is None:
-        output_dir = data_dir.parent.parent / "data" / "uk_onet"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     print("Building crosswalk...")

@@ -19,6 +19,7 @@
 
 
 
+
 # %% [markdown]
 # # LLM Refinement of Translated Data
 #
@@ -35,10 +36,6 @@
 #
 # Rated data (skills, abilities, knowledge, etc.) is NOT refined -- weighted
 # averaging already handles the crosswalk noise smoothly for continuous scores.
-#
-#
-#
-# 
 
 # %%
 #|export
@@ -50,6 +47,11 @@ from pydantic import BaseModel
 
 from adulib.caching import set_default_cache_path
 from adulib.llm.completions import async_single
+from aspectt_pipeline.const import (
+    DEFAULT_MODEL, CONCURRENCY_LIMIT,
+    TECH_CHUNK_SIZE, TOOL_CHUNK_SIZE, TASK_CHUNK_SIZE,
+    JACCARD_DEDUP_THRESHOLD, VALID_TASK_TYPES,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -62,12 +64,9 @@ logger = logging.getLogger(__name__)
 
 
 
+
 # %% [markdown]
 # ## Pydantic Response Models
-#
-#
-#
-# 
 
 # %%
 #|export
@@ -98,12 +97,9 @@ class TaskRefineResponse(BaseModel):
 
 
 
+
 # %% [markdown]
 # ## System Prompts
-#
-#
-#
-# 
 
 # %%
 #|export
@@ -163,12 +159,9 @@ preferred_index, in a duplicate_indices list, or in removed_indices."""
 
 
 
+
 # %% [markdown]
 # ## Prompt Builders
-#
-#
-#
-# 
 
 # %%
 #|export
@@ -220,16 +213,14 @@ def _build_tool_prompt(
     return "\n".join(lines)
 
 
+_TASK_TYPE_LOOKUP = {v.lower(): v for v in VALID_TASK_TYPES}
+
+
 def _normalise_task_type(raw: str | None) -> str:
     """Normalise a task_type value to one of Core/Supplemental/Unclassified."""
     if raw is None:
         return 'Unclassified'
-    val = raw.strip()
-    if val.lower() in ('core',):
-        return 'Core'
-    if val.lower() in ('supplemental',):
-        return 'Supplemental'
-    return 'Unclassified'
+    return _TASK_TYPE_LOOKUP.get(raw.strip().lower(), 'Unclassified')
 
 
 def _build_task_prompt(
@@ -260,21 +251,12 @@ def _build_task_prompt(
 
 
 
+
 # %% [markdown]
 # ## Chunking Helpers
-#
-#
-#
-# 
 
 # %%
 #|export
-TECH_CHUNK_SIZE = 400
-TOOL_CHUNK_SIZE = 200
-TASK_CHUNK_SIZE = 150
-JACCARD_DEDUP_THRESHOLD = 0.85
-
-
 def _chunk_list(items: list, chunk_size: int) -> list[list]:
     """Split a list into chunks of at most chunk_size."""
     return [items[i:i + chunk_size] for i in range(0, len(items), chunk_size)]
@@ -318,12 +300,9 @@ def _dedup_tasks_by_jaccard(tasks: list[dict], threshold: float = JACCARD_DEDUP_
 
 
 
+
 # %% [markdown]
 # ## Core Refinement Functions
-#
-#
-#
-# 
 
 # %%
 #|export
@@ -505,12 +484,9 @@ async def _refine_tasks(
 
 
 
+
 # %% [markdown]
 # ## Per-Occupation Refinement
-#
-#
-#
-# 
 
 # %%
 #|export
@@ -550,19 +526,12 @@ async def refine_occupation(occ: dict, model: str) -> dict:
 
 
 
+
 # %% [markdown]
 # ## Dataset-Level Entry Point
-#
-#
-#
-# 
 
 # %%
 #|export
-DEFAULT_MODEL = "gpt-4o-mini"
-CONCURRENCY_LIMIT = 10
-
-
 def refine_dataset(
     occupations: list[dict],
     model: str = DEFAULT_MODEL,

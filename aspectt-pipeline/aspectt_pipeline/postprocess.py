@@ -6,21 +6,20 @@ __all__ = ['GENERIC_TECH_WHITELIST', 'apply_manual_overrides', 'logger', 'postpr
 import logging
 import re
 
+from .const import VALID_TASK_TYPES
+
 logger = logging.getLogger(__name__)
 
 # %% nbs/postprocess.ipynb 4
-_VALID_TASK_TYPES = {'Core', 'Supplemental', 'Unclassified'}
-
-
 def _normalise_task_types(occ: dict) -> int:
     """Normalise task_type to one of Core/Supplemental/Unclassified. Returns count of fixes."""
     fixes = 0
     for task in occ.get('tasks', []):
         tt = task.get('task_type')
-        if tt not in _VALID_TASK_TYPES:
+        if tt not in VALID_TASK_TYPES:
             # Try case-insensitive match
             if isinstance(tt, str):
-                for valid in _VALID_TASK_TYPES:
+                for valid in VALID_TASK_TYPES:
                     if tt.lower() == valid.lower():
                         task['task_type'] = valid
                         fixes += 1

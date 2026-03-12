@@ -15,6 +15,8 @@
 
 
 
+
+
 # %% [markdown]
 # # Post-Processing of Refined Data
 #
@@ -22,13 +24,19 @@
 # Addresses known issues: nan task types, LLM artifacts in text,
 # US-specific terminology, wrong-domain tasks, and essential tech
 # skills wrongly removed.
+#
+# 
 
 # %%
 #|export
 import logging
 import re
 
+from aspectt_pipeline.const import VALID_TASK_TYPES
+
 logger = logging.getLogger(__name__)
+
+
 
 
 
@@ -42,21 +50,20 @@ logger = logging.getLogger(__name__)
 # The LLM refinement step now constrains task_type to a Literal enum,
 # but we still normalise as a safety net for any values that slip through
 # (e.g. from unrefined data or cached old LLM responses).
+#
+# 
 
 # %%
 #|export
-_VALID_TASK_TYPES = {'Core', 'Supplemental', 'Unclassified'}
-
-
 def _normalise_task_types(occ: dict) -> int:
     """Normalise task_type to one of Core/Supplemental/Unclassified. Returns count of fixes."""
     fixes = 0
     for task in occ.get('tasks', []):
         tt = task.get('task_type')
-        if tt not in _VALID_TASK_TYPES:
+        if tt not in VALID_TASK_TYPES:
             # Try case-insensitive match
             if isinstance(tt, str):
-                for valid in _VALID_TASK_TYPES:
+                for valid in VALID_TASK_TYPES:
                     if tt.lower() == valid.lower():
                         task['task_type'] = valid
                         fixes += 1
@@ -75,12 +82,16 @@ def _normalise_task_types(occ: dict) -> int:
 
 
 
+
+
 # %% [markdown]
 # ## 1.2 Remove empty or placeholder tasks
 #
 # Safety net: remove tasks with empty text or obvious placeholder content.
 # With the Literal-constrained task_type and improved prompts, most LLM
 # artifacts should no longer occur, but we still clean up any stragglers.
+#
+# 
 
 # %%
 #|export
@@ -124,8 +135,12 @@ def _remove_placeholder_tasks(occ: dict) -> int:
 
 
 
+
+
 # %% [markdown]
 # ## 1.3 Generic Tech Skill Whitelist
+#
+# 
 
 # %%
 #|export
@@ -161,8 +176,12 @@ def _restore_generic_tech(occ: dict, unrefined_occ: dict) -> int:
 
 
 
+
+
 # %% [markdown]
 # ## 1.4 US to UK Terminology Substitution
+#
+# 
 
 # %%
 #|export
@@ -229,8 +248,12 @@ def _substitute_us_uk_terms(occ: dict) -> int:
 
 
 
+
+
 # %% [markdown]
 # ## 1.5 Remove Wrong-Domain Tasks
+#
+# 
 
 # %%
 #|export
@@ -286,8 +309,12 @@ def _remove_wrong_domain_tasks(occ: dict) -> int:
 
 
 
+
+
 # %% [markdown]
 # ## 1.6 Auto-detect Partial Profile Occupations
+#
+# 
 
 # %%
 #|export
@@ -319,8 +346,12 @@ def _flag_partial_profiles(occ: dict) -> bool:
 
 
 
+
+
 # %% [markdown]
 # ## Manual Overrides
+#
+# 
 
 # %%
 #|export
@@ -406,8 +437,12 @@ def apply_manual_overrides(
 
 
 
+
+
 # %% [markdown]
 # ## Dataset-Level Entry Point
+#
+# 
 
 # %%
 #|export

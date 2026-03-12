@@ -10,6 +10,7 @@
 #|default_exp crosswalk
 
 
+
 # %% [markdown]
 # # Crosswalk: US O*NET SOC → UK SOC 2020
 #
@@ -24,11 +25,8 @@ from pathlib import Path
 import pandas as pd
 import openpyxl
 
+from aspectt_pipeline.const import DATA_DIR, ONET_DIR
 
-# %%
-#|export
-DATA_DIR = Path(__file__).parent.parent / "_dev" / "00_data_download"
-ONET_DIR = DATA_DIR / "onet_data" / "db_30_2_text"
 
 
 # %%
@@ -46,11 +44,13 @@ def load_uk_soc_framework(data_dir: Path = DATA_DIR) -> dict[int, str]:
     return groups
 
 
+
 # %%
 # Test
 uk_groups = load_uk_soc_framework()
 print(f"UK SOC 2020 unit groups: {len(uk_groups)}")
 assert len(uk_groups) == 412
+
 
 
 # %%
@@ -76,10 +76,12 @@ def load_isco_to_uk_soc(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     return pd.DataFrame(pairs).drop_duplicates()
 
 
+
 # %%
 isco_uk = load_isco_to_uk_soc()
 print(f"ISCO → UK SOC unique pairs: {len(isco_uk)}")
 print(f"Unique ISCO codes: {isco_uk['isco_08'].nunique()}")
+
 
 
 # %%
@@ -94,9 +96,11 @@ def load_isco_soc_crosswalk(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     return df[['isco_08', 'soc_2010']].drop_duplicates()
 
 
+
 # %%
 isco_soc = load_isco_soc_crosswalk()
 print(f"ISCO ↔ SOC 2010: {len(isco_soc)} pairs")
+
 
 
 # %%
@@ -111,9 +115,11 @@ def load_soc_2010_to_2018(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     return df[['soc_2010', 'soc_2018']].drop_duplicates()
 
 
+
 # %%
 soc_xwalk = load_soc_2010_to_2018()
 print(f"SOC 2010 → 2018: {len(soc_xwalk)} pairs")
+
 
 
 # %%
@@ -126,9 +132,11 @@ def load_onet_occupations(onet_dir: Path = ONET_DIR) -> pd.DataFrame:
     return df[['onet_soc', 'onet_title', 'base_soc', 'Description']]
 
 
+
 # %%
 onet_occ = load_onet_occupations()
 print(f"O*NET occupations: {len(onet_occ)}")
+
 
 
 # %%
@@ -186,11 +194,13 @@ def build_crosswalk(data_dir: Path = DATA_DIR, onet_dir: Path = ONET_DIR) -> pd.
     return xw.sort_values(['uk_soc_2020', 'onet_soc']).reset_index(drop=True)
 
 
+
 # %%
 crosswalk = build_crosswalk()
 print(f"Crosswalk rows: {len(crosswalk)}")
 print(f"O*NET codes covered: {crosswalk['onet_soc'].nunique()}")
 print(f"UK SOC codes covered: {crosswalk['uk_soc_2020'].nunique()}")
+
 
 
 # %%
@@ -201,6 +211,7 @@ print(f"\nUK SOC {uk_code}: {subset['uk_soc_title'].iloc[0] if len(subset) > 0 e
 print(f"Mapped from {len(subset)} US O*NET codes:")
 for _, row in subset.iterrows():
     print(f"  {row['onet_soc']} ({row['onet_title']}) - weight: {row['weight']:.3f}")
+
 
 
 # %%
