@@ -121,6 +121,7 @@
 		<h2>Further reading</h2>
 		<ul class="link-list">
 			<li><a href="https://autonomy.work/wp-content/uploads/2022/01/Aspectt-occupational-tool.pdf" target="_blank" rel="noopener">ASPECTT brochure (PDF)</a></li>
+			<li><a href="https://github.com/Autonomy-Data-Unit/aspectt-app" target="_blank" rel="noopener">Source code on GitHub</a></li>
 			<li><a href="https://autonomy.work/adu/" target="_blank" rel="noopener">Autonomy Data Unit</a></li>
 			<li><a href="https://autonomy.work/" target="_blank" rel="noopener">Autonomy Institute</a></li>
 			<li><a href="/api">ASPECTT public API</a></li>

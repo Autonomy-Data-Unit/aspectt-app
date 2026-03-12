@@ -6,7 +6,7 @@ ASPECTT provides detailed skills, tasks, abilities, knowledge, technology and wo
 
 **Live site:** https://aspectt.apps.autonomy.work
 
-Built by the [Autonomy Data Unit](https://autonomy.work/adu/) at the [Autonomy Institute](https://autonomy.work/).
+Built by the [Autonomy Data Unit](https://autonomy.work/adu/) at the [Autonomy Institute](https://autonomy.work/). Source code on [GitHub](https://github.com/Autonomy-Data-Unit/aspectt-app).
 
 ## Project structure
 

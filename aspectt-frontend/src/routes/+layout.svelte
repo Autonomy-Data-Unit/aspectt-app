@@ -129,6 +129,7 @@
 				<a href="/about">About ASPECTT</a>
 				<a href="https://autonomy.work/adu/" target="_blank" rel="noopener">Autonomy Data Unit</a>
 				<a href="https://autonomy.work/" target="_blank" rel="noopener">The Autonomy Institute</a>
+				<a href="https://github.com/Autonomy-Data-Unit/aspectt-app" target="_blank" rel="noopener">GitHub</a>
 				<a href="mailto:aspectt@autonomy.work">Contact us</a>
 			</div>
 		</div>
