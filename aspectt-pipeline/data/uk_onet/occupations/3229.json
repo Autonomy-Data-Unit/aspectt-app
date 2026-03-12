@@ -1544,176 +1544,622 @@
   ],
   "tasks": [
     {
-      "task": "Counsel individuals, groups, families, or communities regarding issues including mental health, substance abuse, and social adjustment.",
-      "task_type": "Core"
+      "task": "Perform administrative duties, such as overseeing building management, ordering supplies, contracting for services or repairs, or supervising the work of staff members or volunteers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.55
     },
     {
-      "task": "Develop and implement individualized treatment plans for clients addressing personal issues and dependencies.",
-      "task_type": "Core"
+      "task": "Publicize programs through sources, such as newsletters, bulletins, or mailings.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.57
     },
     {
-      "task": "Assist clients in adhering to treatment plans by setting up appointments and providing necessary support or resources.",
-      "task_type": "Core"
+      "task": "Counsel individuals, groups, families, or communities regarding issues including mental health, poverty, unemployment, substance abuse, physical abuse, rehabilitation, social adjustment, child care, or medical care.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.99
     },
     {
-      "task": "Interview clients, review records, and confer with professionals to assess individuals' conditions and determine required services.",
-      "task_type": "Core"
+      "task": "Prepare and maintain records and case files, including documentation, such as clients' personal and eligibility information, services provided, narratives of client contacts, or relevant correspondence.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.44
     },
     {
-      "task": "Educate clients or community members about mental health issues, available resources, and how to manage personal challenges.",
-      "task_type": "Core"
+      "task": "Interview clients individually, in families, or in groups, assessing their situations, capabilities, and problems to determine what services are required to meet their needs.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.48
     },
     {
-      "task": "Collaborate with other professionals to coordinate counseling services and develop treatment plans for clients.",
-      "task_type": "Core"
+      "task": "Refer patients, clients, or family members to community resources or to specialists as necessary.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.18
     },
     {
-      "task": "Monitor and record clients' progress to ensure that treatment goals and objectives are met effectively.",
-      "task_type": "Core"
+      "task": "Develop and implement individualized treatment plans addressing family relationship problems, destructive patterns of behavior, and other personal issues.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.64
     },
     {
-      "task": "Provide public education and consultation regarding counseling services and mental health issues to other professionals or groups.",
-      "task_type": "Core"
+      "task": "Review and evaluate clients' progress in relation to measurable goals described in treatment and care plans.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.55
     },
     {
-      "task": "Assess clients' cognitive abilities and emotional needs to determine appropriate interventions and strategies.",
-      "task_type": "Core"
+      "task": "Perform crisis interventions with clients.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.75
     },
     {
-      "task": "Encourage clients to discuss their feelings and experiences, helping them gain insight into themselves and their relationships.",
-      "task_type": "Core"
+      "task": "Coordinate counseling efforts with mental health professionals or other health professionals, such as doctors, nurses, or social workers.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.39
     },
     {
-      "task": "Conduct crisis interventions to assist clients in urgent situations and promote their safety.",
-      "task_type": "Core"
+      "task": "Develop, implement, or evaluate public education, prevention, or health promotion programs, working in collaboration with organizations, institutions, or communities.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.0
     },
     {
-      "task": "Supervise and train new staff or volunteers, providing guidance on counseling methods and protocols.",
-      "task_type": "Core"
+      "task": "Supervise other counselors, social service staff, assistants, or graduate students.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.21
     },
     {
-      "task": "Maintain case files including clients' personal information, treatment history, and progress documentation to ensure compliance with regulations.",
-      "task_type": "Core"
+      "task": "Participate in case conferences or staff meetings.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.24
     },
     {
-      "task": "Develop rehabilitation plans that align with clients' aptitudes, education levels, and career goals, coordinating with various agencies.",
-      "task_type": "Core"
+      "task": "Plan or implement follow-up or aftercare programs for clients to be discharged from treatment programs.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.38
     },
     {
-      "task": "Facilitate collaboration with clients' families when implementing rehabilitation plans and understanding treatment progress.",
-      "task_type": "Core"
+      "task": "Administer drug and alcohol tests, including random drug screens of offenders, to verify compliance with substance abuse treatment programs.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.33
+    },
+    {
+      "task": "Plan discharge from care facility to home or other care facility.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.08
+    },
+    {
+      "task": "Participate in job development and placement programs, contacting prospective employers, placing clients in jobs, and evaluating the success of placements.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.2
+    },
+    {
+      "task": "Attend training sessions to increase knowledge and skills.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.31
+    },
+    {
+      "task": "Assist clients with preparation of forms, such as tax or rent forms.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.05
+    },
+    {
+      "task": "Assess patients for risk of suicide attempts.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.79
+    },
+    {
+      "task": "Develop diagnostic procedures to determine clients' needs.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.81
+    },
+    {
+      "task": "Educate clients about end-of-life symptoms and options to assist them in making informed decisions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.59
+    },
+    {
+      "task": "Supervise people on community-based sentences, such as electronically monitored home detention, and provide field supervision of probationers by conducting curfew checks or visits to home, work, or school.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.39
+    },
+    {
+      "task": "Oversee day-to-day group activities of residents in institution.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.13
     },
     {
       "task": "Collect information about clients through interviews, observation, or tests.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.54
     },
     {
-      "task": "Act as client advocates to coordinate required services or resolve emergency problems in crisis situations.",
-      "task_type": "Core"
+      "task": "Act as client advocates to coordinate required services or to resolve emergency problems in crisis situations.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.15
     },
     {
       "task": "Develop and implement treatment plans based on clinical experience and knowledge.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.64
     },
     {
-      "task": "Evaluate clients' physical or mental condition based on a review of client information.",
-      "task_type": "Core"
+      "task": "Evaluate clients' physical or mental condition, based on review of client information.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.33
     },
     {
-      "task": "Meet with families, probation officers, police, or other interested parties to exchange necessary information during treatment.",
-      "task_type": "Core"
+      "task": "Meet with families, probation officers, police, or other interested parties to exchange necessary information during the treatment process.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.44
     },
     {
-      "task": "Counsel family members to assist them in understanding and supporting clients or patients.",
-      "task_type": "Core"
+      "task": "Counsel family members to assist them in understanding, dealing with, or supporting clients or patients.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.63
     },
     {
-      "task": "Lead group counseling sessions that provide support in areas such as grief, stress, or chemical dependency.",
-      "task_type": "Supplemental"
+      "task": "Evaluate the effectiveness of counseling programs on clients' progress in resolving identified problems and moving towards defined objectives.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.39
     },
     {
-      "task": "Evaluate the effectiveness of counseling programs on clients' progress towards defined objectives and modify treatment as needed.",
-      "task_type": "Core"
+      "task": "Learn about new developments in counseling by reading professional literature, attending courses and seminars, or establishing and maintaining contact with other social service agencies.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.93
     },
     {
-      "task": "Monitor clients' use of medications and ensure compliance with treatment plans.",
-      "task_type": "Core"
+      "task": "Discuss with individual patients their plans for life after leaving therapy.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.18
     },
     {
-      "task": "Gather information about community mental health needs or resources that can be integrated into therapy, and refer clients to community resources for services.",
-      "task_type": "Core"
+      "task": "Gather information about community mental health needs or resources that could be used in conjunction with therapy.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.75
     },
     {
-      "task": "Plan or conduct programs to prevent substance abuse or improve community health and counseling services.",
-      "task_type": "Core"
+      "task": "Monitor clients' use of medications.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.72
     },
     {
-      "task": "Counsel clients in individual or group sessions to help them deal with substance abuse, mental or physical illness, and adjust to life situations.",
-      "task_type": "Core"
+      "task": "Plan or conduct programs to prevent substance abuse or improve community health or counseling services.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.57
     },
     {
-      "task": "Collaborate with other professionals to evaluate clients' needs and coordinate treatment, ensuring service efficacy.",
-      "task_type": "Core"
+      "task": "Develop rehabilitation programs for assigned offenders or inmates, establishing rules of conduct, goals, and objectives.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.18
     },
     {
-      "task": "Monitor, evaluate, and record clients' progress with respect to treatment goals using measurable objectives.",
-      "task_type": "Core"
+      "task": "Monitor, evaluate, and record client progress with respect to treatment goals.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.38
     },
     {
-      "task": "Supervise and direct other workers who provide services to clients or patients and ensure quality of care.",
-      "task_type": "Core"
+      "task": "Identify environmental impediments to client or patient progress through interviews and review of patient records.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.22
     },
     {
-      "task": "Provide information or refer individuals to public or private agencies for assistance with mental health, housing, or financial needs.",
-      "task_type": "Core"
+      "task": "Modify treatment plans to comply with changes in clients' status.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.08
     },
     {
-      "task": "Prepare and maintain case histories and reports to track client progress and service effectiveness.",
-      "task_type": "Core"
+      "task": "Supervise and direct other workers providing services to clients or patients.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.68
     },
     {
-      "task": "Counsel individuals or groups to help them understand and overcome personal, social, or behavioral issues affecting their situation.",
-      "task_type": "Core"
+      "task": "Develop or advise on social policy and assist in community development.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.14
     },
     {
-      "task": "Conduct follow-up interviews with clients to determine if their needs have been met and adjust services accordingly.",
-      "task_type": "Core"
+      "task": "Conduct social research to advance knowledge in the social work field.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.0
+    },
+    {
+      "task": "Counsel clients in individual or group sessions to assist them in dealing with substance abuse, mental or physical illness, poverty, unemployment, or physical abuse.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.53
+    },
+    {
+      "task": "Collaborate with counselors, physicians, or nurses to plan or coordinate treatment, drawing on social work experience and patient needs.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.39
+    },
+    {
+      "task": "Advise clients regarding food stamps, child care, food, money management, sanitation, or housekeeping.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.4
+    },
+    {
+      "task": "Organize support groups or counsel family members to assist them in understanding, dealing with, and supporting the client or patient.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.08
+    },
+    {
+      "task": "Refer patient, client, or family to community resources to assist in recovery from mental or physical illness and to provide access to services such as financial assistance, legal aid, housing, job placement or education.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.5
+    },
+    {
+      "task": "Investigate child abuse or neglect cases and take authorized protective action when necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.53
+    },
+    {
+      "task": "Provide offenders or inmates with assistance in matters concerning detainers, sentences in other jurisdictions, writs, and applications for social assistance.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.55
+    },
+    {
+      "task": "Interview probationers and parolees regularly to evaluate their progress in accomplishing goals and maintaining the terms specified in their probation contracts and rehabilitation plans.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.41
+    },
+    {
+      "task": "Arrange for medical, mental health, or substance abuse treatment services according to individual needs or court orders.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.34
+    },
+    {
+      "task": "Develop and prepare packets containing information about social service agencies, assistance organizations, and programs that might be useful for inmates or offenders.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.38
+    },
+    {
+      "task": "Maintain case history records and prepare reports.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.57
+    },
+    {
+      "task": "Visit individuals in homes or attend group meetings to provide information on agency services, requirements, or procedures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.96
+    },
+    {
+      "task": "Address legal issues, such as child abuse and discipline, assisting with hearings and providing testimony to inform custody arrangements.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.22
+    },
+    {
+      "task": "Place children in foster or adoptive homes, institutions, or medical treatment centers.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.68
+    },
+    {
+      "task": "Provide, find, or arrange for support services, such as child care, homemaker service, prenatal care, substance abuse treatment, job training, counseling, or parenting classes to prevent more serious problems from developing.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.99
+    },
+    {
+      "task": "Arrange for medical, psychiatric, and other tests that may disclose causes of difficulties and indicate remedial measures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.21
+    },
+    {
+      "task": "Plan and promote career and employment-related programs and events, such as career planning presentations, work experience programs, job fairs, and career workshops.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.72
+    },
+    {
+      "task": "Establish contacts with employers to create internship and employment opportunities for students.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.36
+    },
+    {
+      "task": "Identify cases of domestic abuse or other family problems and encourage students or parents to seek additional assistance from mental health professionals.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 4.38
+    },
+    {
+      "task": "Evaluate students' or individuals' abilities, interests, and personality characteristics, using tests, records, interviews, or professional sources.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.15
+    },
+    {
+      "task": "Counsel individuals or groups to help them understand and overcome personal, social, or behavioral problems affecting their educational or vocational situations.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.43
+    },
+    {
+      "task": "Counsel students regarding educational issues, such as course and program selection, class scheduling and registration, school adjustment, truancy, study habits, and career planning.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.54
+    },
+    {
+      "task": "Instruct individuals in career development techniques, such as job search and application strategies, resume writing, and interview skills.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.81
+    },
+    {
+      "task": "Compile and study occupational, educational, and economic information to assist counselees in determining and carrying out vocational and educational objectives.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.38
+    },
+    {
+      "task": "Establish and supervise peer-counseling and peer-tutoring programs.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.28
+    },
+    {
+      "task": "Address community groups, faculty, and staff members to explain available counseling services.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.58
+    },
+    {
+      "task": "Provide crisis intervention to students when difficult situations occur at schools.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.43
     },
     {
       "task": "Teach classes and present self-help or information sessions on subjects related to education and career planning.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.68
     },
     {
-      "task": "Monitor and manage inventory, including ordering materials, tracking requisitions, and verifying shipment accuracy.",
-      "task_type": "Core"
+      "task": "Maintain knowledge of all organizational and governmental rules affecting purchases, and provide information about these rules to organization staff members and to vendors.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.24
     },
     {
-      "task": "Maintain knowledge of organizational and governmental rules affecting purchases and provide information to staff and vendors.",
-      "task_type": "Core"
+      "task": "Locate suppliers, using sources such as catalogs and the internet, and interview them to gather information about products to be ordered.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.92
     },
     {
-      "task": "Locate and interview suppliers to gather product information and compare prices and specifications to ensure the best purchase decisions.",
-      "task_type": "Core"
+      "task": "Compare suppliers' bills with bids and purchase orders to verify accuracy.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.96
     },
     {
-      "task": "Prepare orders, review bills, and respond to inquiries about order statuses while managing billing and account transactions.",
-      "task_type": "Core"
+      "task": "Check shipments when they arrive to ensure that orders have been filled correctly and that goods meet specifications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.23
     },
     {
-      "task": "Compile, copy, sort, and file records of office activities, business transactions, and maintain filing and inventory systems.",
-      "task_type": "Core"
+      "task": "Prepare purchase orders and send copies to suppliers and to departments originating requests.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.36
     },
     {
-      "task": "Review files, records, and documents to gather information for responses to requests, and manage communication through mail and phone.",
-      "task_type": "Core"
+      "task": "Track the status of requisitions, contracts, and orders.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.45
     },
     {
-      "task": "Train and supervise staff, including preparing meeting agendas, recording minutes, and processing office documents.",
-      "task_type": "Supplemental"
+      "task": "Compare prices, specifications, and delivery dates to determine the best bid among potential suppliers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.33
     },
     {
-      "task": "Troubleshoot problems with office equipment and train staff on using computer applications.",
-      "task_type": "Supplemental"
+      "task": "Prepare, maintain, and review purchasing files, reports and price lists.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.15
+    },
+    {
+      "task": "Review requisition orders to verify accuracy, terminology, and specifications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.14
+    },
+    {
+      "task": "Contact suppliers to schedule or expedite deliveries and to resolve shortages, missed or late deliveries, and other problems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.15
+    },
+    {
+      "task": "Perform buying duties when necessary.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.42
+    },
+    {
+      "task": "Respond to customer and supplier inquiries about order status, changes, or cancellations.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.12
+    },
+    {
+      "task": "Calculate costs of orders, and charge or forward invoices to appropriate accounts.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.34
+    },
+    {
+      "task": "Collect, count, and disburse money, do basic bookkeeping, and complete banking transactions.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.14
+    },
+    {
+      "task": "Approve and pay bills.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.29
+    },
+    {
+      "task": "Inventory and order materials, supplies, and services.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.5
+    },
+    {
+      "task": "Compile, copy, sort, and file records of office activities, business transactions, and other activities.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.99
+    },
+    {
+      "task": "Complete and mail bills, contracts, policies, invoices, or checks.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.11
+    },
+    {
+      "task": "Operate office machines, such as photocopiers and scanners, facsimile machines, voice mail systems, and personal computers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.56
+    },
+    {
+      "task": "Compute, record, and proofread data and other information, such as records or reports.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.76
+    },
+    {
+      "task": "Maintain and update filing, inventory, mailing, and database systems, either manually or using a computer.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.05
+    },
+    {
+      "task": "Open, sort, and route incoming mail, answer correspondence, and prepare outgoing mail.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.91
+    },
+    {
+      "task": "Review files, records, and other documents to obtain information to respond to requests.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.91
+    },
+    {
+      "task": "Deliver messages and run errands.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.47
+    },
+    {
+      "task": "Complete work schedules, manage calendars, and arrange appointments.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.73
+    },
+    {
+      "task": "Train and supervise subordinates and other staff.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.47
+    },
+    {
+      "task": "Process and prepare documents, such as business or government forms and expense reports.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.82
+    },
+    {
+      "task": "Type, format, proofread, and edit correspondence and other documents, from notes or dictating machines, using computers or typewriters.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.55
+    },
+    {
+      "task": "Prepare meeting agendas, attend meetings, and record and transcribe minutes.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.58
+    },
+    {
+      "task": "Troubleshoot problems involving office equipment, such as computer hardware and software.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 2.95
+    },
+    {
+      "task": "Communicate with customers, employees, and other individuals to answer questions, disseminate or explain information, take orders, and address complaints.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.28
+    },
+    {
+      "task": "Answer telephones, direct calls, and take messages.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.34
     }
   ],
   "technology_skills": [
@@ -1786,6 +2232,10 @@
       "weight": 0.6742424242424243
     },
     {
+      "name": "Adobe Photoshop",
+      "weight": 0.5909090909090909
+    },
+    {
       "name": "Google Workspace software",
       "weight": 0.5833333333333334
     },
@@ -1798,12 +2248,56 @@
       "weight": 0.5
     },
     {
+      "name": "Patient electronic medical record EMR software",
+      "weight": 0.5
+    },
+    {
       "name": "Scheduling software",
       "weight": 0.5
     },
     {
       "name": "Social media software",
       "weight": 0.5
+    },
+    {
+      "name": "Website development software",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.46590909090909094
+    },
+    {
+      "name": "Google Classroom",
+      "weight": 0.4159090909090909
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.38257575757575757
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.38257575757575757
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.375
+    },
+    {
+      "name": "Social Solutions ETO",
+      "weight": 0.34090909090909094
+    },
+    {
+      "name": "MEDITECH software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Medical procedure coding software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.3333333333333333
     },
     {
       "name": "Appointment scheduling software",
@@ -1814,11 +2308,39 @@
       "weight": 0.29924242424242425
     },
     {
+      "name": "Microsoft Dynamics",
+      "weight": 0.29924242424242425
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.29166666666666663
+    },
+    {
+      "name": "Moodle",
+      "weight": 0.2909090909090909
+    },
+    {
+      "name": "Schoology",
+      "weight": 0.2909090909090909
+    },
+    {
+      "name": "Blackboard software",
+      "weight": 0.27424242424242423
+    },
+    {
       "name": "Google Drive",
       "weight": 0.27424242424242423
     },
     {
+      "name": "Adobe PageMaker",
+      "weight": 0.25
+    },
+    {
       "name": "Case management software",
+      "weight": 0.25
+    },
+    {
+      "name": "Electronic medical record EMR software",
       "weight": 0.25
     },
     {
@@ -1826,7 +2348,19 @@
       "weight": 0.25
     },
     {
+      "name": "Inventory management systems",
+      "weight": 0.25
+    },
+    {
+      "name": "James Frazier Associates DataStart",
+      "weight": 0.25
+    },
+    {
       "name": "Microsoft Teams",
+      "weight": 0.25
+    },
+    {
+      "name": "Point of sale POS software",
       "weight": 0.25
     },
     {
@@ -1834,7 +2368,87 @@
       "weight": 0.25
     },
     {
+      "name": "Statistical software",
+      "weight": 0.25
+    },
+    {
+      "name": "Test interpretation software",
+      "weight": 0.25
+    },
+    {
+      "name": "EasyCBM",
+      "weight": 0.225
+    },
+    {
+      "name": "Athena Software Penelope Case Management",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Healthcare common procedure coding system HCPCS",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Intrado SchoolMessenger",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Student information systems SIS software",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Web page design and editing software",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.20833333333333331
+    },
+    {
+      "name": "Medical condition coding software",
+      "weight": 0.20833333333333331
+    },
+    {
+      "name": "Flipgrid",
+      "weight": 0.2
+    },
+    {
+      "name": "Nearpod",
+      "weight": 0.2
+    },
+    {
+      "name": "Seesaw",
+      "weight": 0.2
+    },
+    {
+      "name": "Common Curriculum",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Screencastify",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.17424242424242425
+    },
+    {
       "name": "Google Docs",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "LexisNexis",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "SmugMug Flickr",
       "weight": 0.17424242424242425
     },
     {
@@ -1842,15 +2456,583 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "ACMS Casewatch Millenium",
+      "weight": 0.125
+    },
+    {
+      "name": "Addison Health Systems WritePad EHR",
+      "weight": 0.125
+    },
+    {
+      "name": "Adobe Acrobat Reader",
+      "weight": 0.125
+    },
+    {
+      "name": "Advantage Software Psych Advantage",
+      "weight": 0.125
+    },
+    {
+      "name": "Allscripts Canopy",
+      "weight": 0.125
+    },
+    {
+      "name": "American Medical Billing Software PMA",
+      "weight": 0.125
+    },
+    {
+      "name": "Anasazi Software Assessment and Treatment Plan Systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Anasazi Software Client Data System",
+      "weight": 0.125
+    },
+    {
+      "name": "Automated clinical information systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Beaver Creek Software The THERAPIST",
+      "weight": 0.125
+    },
+    {
+      "name": "Blueberry Harbor Software Clinical Record Keeper",
+      "weight": 0.125
+    },
+    {
+      "name": "Budgeting software",
+      "weight": 0.125
+    },
+    {
+      "name": "Cadence Solutions extendedReach",
+      "weight": 0.125
+    },
+    {
       "name": "Calendar software",
       "weight": 0.125
+    },
+    {
+      "name": "Care Paths eRecord",
+      "weight": 0.125
+    },
+    {
+      "name": "Casamba Smart",
+      "weight": 0.125
+    },
+    {
+      "name": "CaseManagement.com E-Reports",
+      "weight": 0.125
+    },
+    {
+      "name": "Chart Links",
+      "weight": 0.125
+    },
+    {
+      "name": "Client System",
+      "weight": 0.125
+    },
+    {
+      "name": "Client information database software",
+      "weight": 0.125
+    },
+    {
+      "name": "Client information database systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Client records software",
+      "weight": 0.125
+    },
+    {
+      "name": "Command Systems ComServe",
+      "weight": 0.125
+    },
+    {
+      "name": "Cornucopia Software Practice MAGIC",
+      "weight": 0.125
+    },
+    {
+      "name": "Court records databases",
+      "weight": 0.125
+    },
+    {
+      "name": "Customer relationship management CRM software",
+      "weight": 0.125
+    },
+    {
+      "name": "Data input software",
+      "weight": 0.125
+    },
+    {
+      "name": "DocuTrac QuicDoc",
+      "weight": 0.125
+    },
+    {
+      "name": "EZ2Bill Confidant",
+      "weight": 0.125
+    },
+    {
+      "name": "EZClaim medical billing software",
+      "weight": 0.125
+    },
+    {
+      "name": "Economic Analysis Group EAG CaseTrack",
+      "weight": 0.125
+    },
+    {
+      "name": "Electronic tracking device software",
+      "weight": 0.125
+    },
+    {
+      "name": "Encryption software",
+      "weight": 0.125
+    },
+    {
+      "name": "Fanatic Software Informant",
+      "weight": 0.125
+    },
+    {
+      "name": "Global positioning system GPS software",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.125
+    },
+    {
+      "name": "IMA Technologies CaseTrakker",
+      "weight": 0.125
+    },
+    {
+      "name": "Libera System7",
+      "weight": 0.125
+    },
+    {
+      "name": "Management information systems MIS",
+      "weight": 0.125
+    },
+    {
+      "name": "Mdansby The PsychReport",
+      "weight": 0.125
+    },
+    {
+      "name": "Medical records software",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft ActiveSync",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Mobile Explorer MME",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Office Mobile",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Office Outlook",
+      "weight": 0.125
+    },
+    {
+      "name": "Netsmart Technologies Helper",
+      "weight": 0.125
+    },
+    {
+      "name": "Nuance Dragon NaturallySpeaking",
+      "weight": 0.125
+    },
+    {
+      "name": "Office suite software",
+      "weight": 0.125
+    },
+    {
+      "name": "Online informational database software",
+      "weight": 0.125
+    },
+    {
+      "name": "PM/2 Clinical Planner",
+      "weight": 0.125
+    },
+    {
+      "name": "PointClickCare healthcare software",
+      "weight": 0.125
+    },
+    {
+      "name": "Practice Technology Prevail",
+      "weight": 0.125
+    },
+    {
+      "name": "PracticePRO Software Systems QuickPractice",
+      "weight": 0.125
+    },
+    {
+      "name": "Presentation software",
+      "weight": 0.125
+    },
+    {
+      "name": "Relational database software",
+      "weight": 0.125
+    },
+    {
+      "name": "STI Computer Services ChartMaker",
+      "weight": 0.125
+    },
+    {
+      "name": "Saner Software ShrinkRapt",
+      "weight": 0.125
+    },
+    {
+      "name": "SkillTRAN Job Browser Pro",
+      "weight": 0.125
+    },
+    {
+      "name": "SkillTRAN OASYS",
+      "weight": 0.125
+    },
+    {
+      "name": "Speech recognition software",
+      "weight": 0.125
+    },
+    {
+      "name": "SumTime Software SumTime",
+      "weight": 0.125
+    },
+    {
+      "name": "Synergistic Office Solutions SOS Case Manager",
+      "weight": 0.125
+    },
+    {
+      "name": "TheraManager",
+      "weight": 0.125
+    },
+    {
+      "name": "Tyler Technologies Odyssey Case Manager",
+      "weight": 0.125
+    },
+    {
+      "name": "Virus protection software",
+      "weight": 0.125
+    },
+    {
+      "name": "Voice recognition software",
+      "weight": 0.125
+    },
+    {
+      "name": "Word recognition software",
+      "weight": 0.125
+    },
+    {
+      "name": "danic Technology",
+      "weight": 0.125
+    },
+    {
+      "name": "eMDs Medisoft",
+      "weight": 0.125
+    },
+    {
+      "name": "Academic educational software",
+      "weight": 0.1
+    },
+    {
+      "name": "Desmos",
+      "weight": 0.1
+    },
+    {
+      "name": "Edmodo",
+      "weight": 0.1
+    },
+    {
+      "name": "Edpuzzle",
+      "weight": 0.1
+    },
+    {
+      "name": "Instructure Canvas",
+      "weight": 0.1
+    },
+    {
+      "name": "Redrock Software TutorTrac",
+      "weight": 0.1
+    },
+    {
+      "name": "ACT Discover",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "ACT WorkKeys",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Blackboard Wimba",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Bloomz",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Career Cruising",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Career Dimensions Focus 2",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Career Zone",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Career decision-making programs",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Career management systems CMS",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Centers for Disease Control and Prevention CDC WONDER",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Centers for Disease Control and Prevention Epi Info",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Chat software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Coin Educational Products Climb K-5 Online",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Coin Educational Products Coin Jr.",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "College Central Network Career Services Central",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computer-assisted career guidance software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computer-assisted live supervision",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computerized diagnostic programs",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computerized statistical packages",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computerized testing programs",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Counseling software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Database application software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "EZAnalyze",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Instant messaging software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Kuder Navigator",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "LogMeIn GoToMeeting",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft SQL Server Reporting Services SSRS",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Naviance Succeed",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "O*NET OnLine",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Oracle Taleo",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Orbius",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Padlet",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Palm Pal Transana",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Prezi",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Productivity software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Yahoo! Email",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Zoomerang",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "3M Post-it App",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "ADP Workforce Now",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Alpha Software Alpha Five",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Autotask",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Billing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Bookkeeping software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Data entry software",
+      "weight": 0.08333333333333333
     },
     {
       "name": "Dropbox",
       "weight": 0.08333333333333333
     },
     {
+      "name": "Electronic Data Interchange EDI systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electronic data interchange EDI software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Filing system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Google Sites",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Henry Schein Dentrix",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Mavenlink",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Propertyware",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Radiant Systems CounterPoint",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Records management software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Salesforce.com Salesforce CRM",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Social media sites",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Transcription system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Yardi software",
       "weight": 0.08333333333333333
     }
   ],
@@ -1924,7 +3106,27 @@
       "weight": 0.25
     },
     {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.25
+    },
+    {
       "name": "Breathalyzers",
+      "weight": 0.25
+    },
+    {
+      "name": "Cash registers",
+      "weight": 0.25
+    },
+    {
+      "name": "Credit card processing machines",
       "weight": 0.25
     },
     {
@@ -1932,8 +3134,36 @@
       "weight": 0.25
     },
     {
+      "name": "Handtrucks",
+      "weight": 0.25
+    },
+    {
+      "name": "Nut drivers",
+      "weight": 0.25
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.25
+    },
+    {
+      "name": "Surveillance cameras",
+      "weight": 0.25
+    },
+    {
+      "name": "Wire cutters",
+      "weight": 0.25
+    },
+    {
+      "name": "Wire strippers",
+      "weight": 0.25
+    },
+    {
       "name": "Liquid crystal display LCD projectors",
       "weight": 0.2159090909090909
+    },
+    {
+      "name": "10-key calculators",
+      "weight": 0.20833333333333331
     },
     {
       "name": "Photocopiers",
@@ -1960,11 +3190,35 @@
       "weight": 0.125
     },
     {
+      "name": "Doll houses",
+      "weight": 0.125
+    },
+    {
+      "name": "Dolls",
+      "weight": 0.125
+    },
+    {
       "name": "Drug testing kits",
       "weight": 0.125
     },
     {
+      "name": "Electronic tracking devices",
+      "weight": 0.125
+    },
+    {
       "name": "Flatbed scanners",
+      "weight": 0.125
+    },
+    {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.125
+    },
+    {
+      "name": "Hand puppets",
+      "weight": 0.125
+    },
+    {
+      "name": "Handheld calculators",
       "weight": 0.125
     },
     {
@@ -1984,7 +3238,19 @@
       "weight": 0.125
     },
     {
+      "name": "Mobile radios",
+      "weight": 0.125
+    },
+    {
+      "name": "Passenger cars",
+      "weight": 0.125
+    },
+    {
       "name": "Smartphones",
+      "weight": 0.125
+    },
+    {
+      "name": "Toy block sets",
       "weight": 0.125
     },
     {
@@ -2000,7 +3266,19 @@
       "weight": 0.125
     },
     {
+      "name": "Computer data input scanners",
+      "weight": 0.1
+    },
+    {
+      "name": "Graphing calculators",
+      "weight": 0.1
+    },
+    {
       "name": "Audio recorders",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Digital video disk DVD players",
       "weight": 0.09090909090909091
     },
     {
@@ -2012,6 +3290,18 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Video cassette recorders VCR",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Video recorders",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Yahoo! Messenger",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Computer terminals",
       "weight": 0.08333333333333333
     },
@@ -2020,11 +3310,43 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Data input scanners",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Dictation equipment",
       "weight": 0.08333333333333333
     },
     {
+      "name": "Digital duplicating machines",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Document scanners",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electric typewriters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electronic cash registers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Letter folding machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Postage machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Switchboards",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Typewriters",
       "weight": 0.08333333333333333
     },
     {

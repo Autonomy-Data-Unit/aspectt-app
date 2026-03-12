@@ -1545,79 +1545,489 @@
   "tasks": [
     {
       "task": "Receive payments and post amounts paid to customer accounts.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
     },
     {
-      "task": "Monitor budgets, expense reports, or financial data for fundraising organizations and track fundraising drive progress.",
-      "task_type": "Core"
+      "task": "Monitor budgets, expense reports, or other financial data for fundraising organizations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.39
     },
     {
-      "task": "Attend community events, meetings, or conferences to promote organizational goals or solicit donations and sponsorships.",
-      "task_type": "Core"
+      "task": "Attend community events, meetings, or conferences to promote organizational goals or solicit donations or sponsorships.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.68
     },
     {
-      "task": "Contact corporate representatives, government officials, or community leaders to raise awareness of organizational causes or needs.",
-      "task_type": "Core"
+      "task": "Contact corporate representatives, government officials, or community leaders to increase awareness of organizational causes, activities, or needs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.76
     },
     {
-      "task": "Create or update donor databases and develop materials such as posters and newsletters for fundraising events.",
-      "task_type": "Core"
+      "task": "Create or update donor databases.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.53
     },
     {
-      "task": "Develop corporate fundraising programs and activity plans to maximize participation and contributions while minimizing costs.",
-      "task_type": "Core"
+      "task": "Design or produce materials such as posters, Web sites, or newsletters to promote, market, or advertise fundraising events.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.5
     },
     {
-      "task": "Develop or implement specific fundraising activities like annual giving campaigns or direct mail programs.",
-      "task_type": "Core"
+      "task": "Develop corporate fundraising programs, such as employer gift-matching.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.25
     },
     {
-      "task": "Identify and build relationships with potential donors and develop strategies to encourage new or increased contributions.",
-      "task_type": "Core"
+      "task": "Develop fundraising activity plans that maximize participation or contributions and minimize costs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.05
     },
     {
-      "task": "Direct or supervise fundraising staff, including volunteers, and establish goals for fundraising events over specified periods.",
-      "task_type": "Core"
+      "task": "Develop or implement fundraising activities, such as annual giving campaigns or direct mail programs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.16
     },
     {
-      "task": "Explain the tax advantages of contributions to potential donors and secure commitments for participation or donations.",
-      "task_type": "Core"
+      "task": "Develop strategies to encourage new or increased contributions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.33
     },
     {
-      "task": "Solicit cash or in-kind donations and sponsorships from individuals, businesses, or government donors, and write promotional materials to increase awareness of organizational goals.",
-      "task_type": "Core"
+      "task": "Direct or supervise fundraising staff, including volunteer staff members.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.05
     },
     {
-      "task": "Conduct research to identify potential donors and analyze their charitable donation history and financial data.",
-      "task_type": "Core"
+      "task": "Establish fundraising or participation goals for special events or specified time periods.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
     },
     {
-      "task": "Secure speakers for events and write thank-you letters to donors for contributions received.",
-      "task_type": "Core"
+      "task": "Explain the tax advantages of contributions to potential donors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.52
     },
     {
-      "task": "Organize or conduct special fundraising events such as silent auctions, dances, or charity walks.",
-      "task_type": "Core"
+      "task": "Identify and build relationships with potential donors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 5.0
     },
     {
-      "task": "Prepare reports or presentations to communicate fundraising program data and monitor overdue accounts using automated systems.",
-      "task_type": "Core"
+      "task": "Monitor progress of fundraising drives.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
     },
     {
-      "task": "Notify credit departments regarding account status and initiate repossession or service disconnection when customers fail to respond.",
-      "task_type": "Core"
+      "task": "Answer customer questions regarding problems with their accounts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
+    },
+    {
+      "task": "Plan and direct special events for fundraising, such as silent auctions, dances, golf events, or walks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.25
+    },
+    {
+      "task": "Recruit sponsors, participants, or volunteers for fundraising events.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.82
+    },
+    {
+      "task": "Secure commitments of participation or donation from individuals or corporate donors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.78
+    },
+    {
+      "task": "Solicit cash or in-kind donations or sponsorships from individual, business, or government donors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.53
+    },
+    {
+      "task": "Write speeches, press releases, or other promotional materials to increase awareness of the causes, missions, or goals of organizations seeking funds.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.45
+    },
+    {
+      "task": "Compile or develop materials to submit to granting or other funding organizations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Conduct research to identify the goals, net worth, charitable donation history, or other data related to potential donors, potential investors, or general donor markets.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.06
+    },
+    {
+      "task": "Coordinate transportation or delivery of materials, supplies, or donations for fundraising events.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.21
+    },
+    {
+      "task": "Develop and maintain media contact lists.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.93
+    },
+    {
+      "task": "Prepare materials such as fundraising envelopes, bid sheets, or gift bags for charitable events.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.44
+    },
+    {
+      "task": "Secure speakers for charitable events, community meetings, or conferences to increase awareness of charitable, nonprofit, or political causes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.0
+    },
+    {
+      "task": "Write and send letters of thanks to donors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.65
+    },
+    {
+      "task": "Write reports or prepare presentations to communicate fundraising program data.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
+    },
+    {
+      "task": "Direct or coordinate Web-based fundraising activities, such as online auctions or donation Web sites.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.06
+    },
+    {
+      "task": "Advise customers of necessary actions and strategies for debt repayment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.44
+    },
+    {
+      "task": "Sort and file correspondence and perform miscellaneous clerical duties, such as answering correspondence and writing reports.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Notify credit departments, order merchandise repossession or service disconnection, and turn over account records to attorneys when customers fail to respond to collection attempts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
+    },
+    {
+      "task": "Negotiate credit extensions when necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.52
+    },
+    {
+      "task": "Perform various administrative functions for assigned accounts, such as recording address changes and purging the records of deceased customers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.64
+    },
+    {
+      "task": "Arrange for debt repayment or establish repayment schedules, based on customers' financial situations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
+    },
+    {
+      "task": "Persuade customers to pay amounts due on credit accounts, damage claims, or nonpayable checks, or to return merchandise.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.28
+    },
+    {
+      "task": "Confer with customers by telephone or in person to determine reasons for overdue payments and to review the terms of sales, service, or credit contracts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.26
     },
     {
       "task": "Locate and notify customers of delinquent accounts by mail, telephone, or personal visits to solicit payment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.52
     },
     {
-      "task": "Advise customers of actions for debt repayment and assist in establishing repayment schedules based on financial situations.",
-      "task_type": "Core"
+      "task": "Mail charge statements to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.82
     },
     {
-      "task": "Perform various clerical duties, such as sorting correspondence and maintaining accurate records regarding customer accounts and collection efforts.",
-      "task_type": "Core"
+      "task": "Relay credit report information to subscribers by mail or by telephone.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.33
+    },
+    {
+      "task": "Examine city directories and public records to verify residence property ownership, bankruptcies, liens, arrest record, or unpaid taxes of applicants.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.39
+    },
+    {
+      "task": "Obtain information about potential creditors from banks, credit bureaus, and other credit services, and provide reciprocal information if requested.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.05
+    },
+    {
+      "task": "Receive charge slips or credit applications by mail, or receive information from salespeople or merchants by telephone.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.94
+    },
+    {
+      "task": "File sales slips in customers' ledgers for billing purposes.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.4
+    },
+    {
+      "task": "Evaluate customers' computerized credit records and payment histories to decide whether to approve new credit, based on predetermined standards.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.61
+    },
+    {
+      "task": "Compile and analyze credit information gathered by investigation.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.4
+    },
+    {
+      "task": "Prepare reports of findings and recommendations.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Review individual or commercial customer files to identify and select delinquent accounts for collection.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Transcribe data to worksheets, and enter data into computer for use in preparing documents and adjusting accounts.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.08
+    },
+    {
+      "task": "Compose business correspondence for supervisors, managers, and professionals.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.69
+    },
+    {
+      "task": "Organize or work with detailed office or warehouse records, using computers to enter, access, search or retrieve data.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.41
+    },
+    {
+      "task": "Keep records of customers' charges and payments.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.54
+    },
+    {
+      "task": "Compute total holdings, dividends, interest, transfer taxes, brokerage fees, or commissions and allocate appropriate payments to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.8
+    },
+    {
+      "task": "Calculate, review, and correct errors on interest, principal, payment, and closing costs, using computers or calculators.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.35
+    },
+    {
+      "task": "Review customer accounts to determine whether payments are made on time and that other loan terms are being followed.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.36
+    },
+    {
+      "task": "Order property insurance or mortgage insurance policies to ensure protection against loss on mortgaged property.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.33
+    },
+    {
+      "task": "Submit loan applications with recommendation for underwriting approval.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.46
+    },
+    {
+      "task": "File and maintain loan records.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.43
+    },
+    {
+      "task": "Contact credit bureaus, employers, and other sources to check applicants' credit and personal references.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.42
+    },
+    {
+      "task": "Present loan and repayment schedules to customers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.24
+    },
+    {
+      "task": "Process loan applications.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.58
+    },
+    {
+      "task": "Prepare and type loan applications, closing documents, legal documents, letters, forms, government notices, and checks, using computers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Record applications for loan and credit, loan information, and disbursements of funds, using computers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.51
+    },
+    {
+      "task": "Contact customers by mail, telephone, or in person concerning acceptance or rejection of applications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.44
+    },
+    {
+      "task": "Answer questions and advise customers regarding loans and transactions.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.32
+    },
+    {
+      "task": "Assemble and compile documents for loan closings, such as title abstracts, insurance forms, loan forms, and tax receipts.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.6
+    },
+    {
+      "task": "Interview loan applicants to obtain personal and financial data and to assist in completing applications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Verify and examine information and accuracy of loan application and closing documents.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.63
+    },
+    {
+      "task": "Establish credit limits and grant extensions of credit on overdue accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.89
+    },
+    {
+      "task": "Prepare reports summarizing daily transactions and earnings for individual customer accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.65
+    },
+    {
+      "task": "Answer customers' questions and explain available services, such as deposit accounts, bonds, and securities.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.47
+    },
+    {
+      "task": "Compile information about new accounts, enter account information into computers, and file related forms or other documents.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.57
+    },
+    {
+      "task": "Refer customers to appropriate bank personnel to meet their financial needs.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.31
+    },
+    {
+      "task": "Interview customers to obtain information needed for opening accounts or renting safe-deposit boxes.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.34
+    },
+    {
+      "task": "Inform customers of procedures for applying for services, such as ATM cards, direct deposit of checks, and certificates of deposit.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.5
+    },
+    {
+      "task": "Obtain credit records from reporting agencies.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Investigate and correct errors upon customers' request, according to customer and bank records.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.1
+    },
+    {
+      "task": "Execute wire transfers of funds.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.08
+    },
+    {
+      "task": "Duplicate records for distribution to branch offices.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 2.69
+    },
+    {
+      "task": "Correspond with customers and confer with coworkers to answer inquiries, discuss market fluctuations, or resolve account problems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.6
     }
   ],
   "technology_skills": [
@@ -1670,11 +2080,31 @@
       "weight": 0.30952380952380953
     },
     {
+      "name": "Structured query language SQL",
+      "weight": 0.30952380952380953
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.25
+    },
+    {
       "name": "Microsoft SharePoint",
       "weight": 0.25
     },
     {
       "name": "Database software",
+      "weight": 0.22619047619047616
+    },
+    {
+      "name": "Healthcare common procedure coding system HCPCS",
+      "weight": 0.22619047619047616
+    },
+    {
+      "name": "Medical condition coding software",
+      "weight": 0.22619047619047616
+    },
+    {
+      "name": "Medical procedure coding software",
       "weight": 0.22619047619047616
     },
     {
@@ -1694,8 +2124,36 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "IBM Lotus Notes",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.16666666666666666
+    },
+    {
+      "name": "ADP Drive DMS for Accounting",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ADS Advantage",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adtec Agency Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "AudienceView Ticketing",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Austin Logistics CallSelect",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Blackbaud Luminate CRM",
@@ -1710,7 +2168,35 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "CU Connect processing software",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Collection Data Systems CollectOne-Tiger",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Columbia Ultimate Archive",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Columbia Ultimate RPCS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Columbia Ultimate Remit",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Constant Contact",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Corel CorelDraw Graphics Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Data-Tel Ceasar",
       "weight": 0.14285714285714285
     },
     {
@@ -1718,7 +2204,27 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Diagnostic and procedural coding software",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Document management system software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Foundatino Directory Online (FDO)",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "HMS",
       "weight": 0.14285714285714285
     },
     {
@@ -1730,11 +2236,47 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "LexisNexis",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "LexisNexis Banko",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "MEDITECH software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "NetSuite ERP",
       "weight": 0.14285714285714285
     },
     {
+      "name": "Ontario Systems FACS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Optical character recognition OCR software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Quantrax Intelec",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Relational database software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SAP BusinessObjects Crystal Reports",
       "weight": 0.14285714285714285
     },
     {
@@ -1746,11 +2288,83 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "System Innovators",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "TCI XML Credit Interface",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tessitura Network Tessitura Software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Twitter",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "W3 Data BatchAppend411",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "WealthEngine Findwealth",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Alpha Software Alpha Five",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Automated financial software",
       "weight": 0.08333333333333333
     },
     {
+      "name": "Automated information system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Automated underwriting software",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Billing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Bloomberg Professional",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Claim processing system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Corporate Information Factory CIF",
       "weight": 0.08333333333333333
     },
     {
@@ -1762,7 +2376,119 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "DCI iCore",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Encompass software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Equifax software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Experian software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fannie Mae Desktop Underwriter",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Financial accounting software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Financial needs analysis software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fiserv financial services software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "HEAT Software GoldMine",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Harland Financial Solutions DepositPro",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM Check Processing Control System CPSC",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IPS-Sendero Relationship Profitability Manager Catalyst",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "InSystems Calligo Enterprise",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Instant messaging software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Insurance rating software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Lending software systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Loan tracking software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "MicroFocus GroupWise",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Visual FoxPro",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Online trading software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Policy issuance system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Rockport Integrated Excel Underwriting",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Royal Alliance VISION2020 Core",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Software AG Underwriting Solution",
       "weight": 0.08333333333333333
     },
     {
@@ -1770,7 +2496,27 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "St. Paul Travelers e-CARMA",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Systems Union Group MIS DecisionWare",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Transaction processing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "WiredRed Software e/pop Basic",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Xactware Xactimate",
       "weight": 0.08333333333333333
     }
   ],
@@ -1852,7 +2598,15 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Dictation machines",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Document scanners",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electric typewriters",
       "weight": 0.08333333333333333
     },
     {

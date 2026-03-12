@@ -1545,91 +1545,387 @@
   "tasks": [
     {
       "task": "Determine the timing or procedures for flight vector changes.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.51
     },
     {
-      "task": "Conduct pre-flight briefings on weather conditions, suggested routes, altitudes, and other flight safety information.",
-      "task_type": "Supplemental"
+      "task": "Conduct pre-flight briefings on weather conditions, suggested routes, altitudes, indications of turbulence, or other flight safety information.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.21
     },
     {
-      "task": "Maintain radio or telephone contact with control towers and coordinate aircraft movement to minimize delays and maximize safety.",
-      "task_type": "Core"
+      "task": "Maintain radio or telephone contact with adjacent control towers, terminal control units, or other area control centers to coordinate aircraft movement.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.57
     },
     {
-      "task": "Contact pilots by radio to provide meteorological, navigational, or other relevant information.",
-      "task_type": "Core"
+      "task": "Contact pilots by radio to provide meteorological, navigational, or other information.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.64
     },
     {
-      "task": "Monitor aircraft within assigned airspace using radar, computer equipment, or visual references.",
-      "task_type": "Core"
+      "task": "Monitor or direct the movement of aircraft within an assigned air space or on the ground at airports to minimize delays and maximize safety.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.77
     },
     {
-      "task": "Inform pilots about nearby planes or hazardous conditions such as weather and visibility problems.",
-      "task_type": "Core"
+      "task": "Monitor aircraft within a specific airspace, using radar, computer equipment, or visual references.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.74
     },
     {
-      "task": "Initiate or coordinate searches for missing aircraft and alert emergency services in case of aircraft difficulties.",
-      "task_type": "Core"
+      "task": "Inform pilots about nearby planes or potentially hazardous conditions, such as weather, speed and direction of wind, or visibility problems.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.88
     },
     {
-      "task": "Relay air traffic information like courses, altitudes, or expected arrival times to control centers.",
-      "task_type": "Core"
+      "task": "Initiate or coordinate searches for missing aircraft.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.47
     },
     {
-      "task": "Compile flight information from various sources including radar and pilot reports.",
-      "task_type": "Core"
+      "task": "Check conditions and traffic at different altitudes in response to pilots' requests for altitude changes.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.39
     },
     {
-      "task": "Issue take-off and landing authorizations or instructions to pilots.",
-      "task_type": "Core"
+      "task": "Relay air traffic information, such as courses, altitudes, or expected arrival times, to control centers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.37
     },
     {
-      "task": "Analyze weather reports and operational factors to determine safe air routes and flight plans.",
-      "task_type": "Core"
+      "task": "Compile information about flights from flight plans, pilot reports, radar, or observations.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.25
     },
     {
-      "task": "Review records for clarity and completeness, and maintain required records under national law.",
-      "task_type": "Core"
+      "task": "Inspect, adjust, or control radio equipment or airport lights.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.26
     },
     {
-      "task": "Provide flight path directions or emergency landing instructions to pilots during adverse conditions.",
-      "task_type": "Core"
+      "task": "Issue landing and take-off authorizations or instructions.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.82
     },
     {
-      "task": "Direct pilots to runways or instruct them to maintain traffic patterns until it is safe to land.",
-      "task_type": "Core"
+      "task": "Analyze factors such as weather reports, fuel requirements, or maps to determine air routes.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.07
     },
     {
-      "task": "Plan flight activities and manage traffic for incoming and outgoing aircraft in assigned airspace.",
-      "task_type": "Core"
+      "task": "Provide flight path changes or directions to emergency landing fields for pilots traveling in bad weather or in emergency situations.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.8
     },
     {
-      "task": "Choose flight paths that offer optimal speed, safety, and comfort.",
-      "task_type": "Core"
+      "task": "Provide on-the-job training to new air traffic controllers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.46
     },
     {
-      "task": "Monitor aircraft systems, engine performance, and fuel consumption during flights.",
-      "task_type": "Core"
+      "task": "Alert airport emergency services in cases of emergency or when aircraft are experiencing difficulties.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.79
     },
     {
-      "task": "Contact control towers for clearances and arrival instructions utilizing radio communications.",
-      "task_type": "Core"
+      "task": "Direct pilots to runways when space is available or direct them to maintain a traffic pattern until there is space for them to land.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.76
     },
     {
-      "task": "Direct activities of aircraft crews during flights and provide on-the-job training to new controllers.",
-      "task_type": "Core"
+      "task": "Transfer control of departing flights to traffic control centers and accept control of arriving flights.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.8
     },
     {
-      "task": "Perform pre-flight inspections to ensure aircraft systems are functioning properly.",
-      "task_type": "Core"
+      "task": "Organize flight plans or traffic management plans to prepare for planes about to enter assigned airspace.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.24
     },
     {
-      "task": "Plan, establish work assignments and equipment allocations to achieve operational goals.",
-      "task_type": "Core"
+      "task": "Direct ground traffic, including taxiing aircraft, maintenance or baggage vehicles, or airport workers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.71
     },
     {
-      "task": "Monitor field work to ensure proper performance and use of materials during operations.",
-      "task_type": "Core"
+      "task": "Use instrumentation to pilot aircraft when visibility is poor.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.9
+    },
+    {
+      "task": "Request changes in altitudes or routes as circumstances dictate.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.13
+    },
+    {
+      "task": "Check baggage or cargo to ensure that it has been loaded correctly.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.63
+    },
+    {
+      "task": "Order changes in fuel supplies, loads, routes, or schedules to ensure safety of flights.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.81
+    },
+    {
+      "task": "Plan flights according to government and company regulations, using aeronautical charts and navigation instruments.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.65
+    },
+    {
+      "task": "Obtain and review data such as load weights, fuel supplies, weather conditions, and flight schedules to determine flight plans and identify needed changes.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.57
+    },
+    {
+      "task": "Coordinate flight activities with ground crews and air traffic control, and inform crew members of flight and test procedures.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.27
+    },
+    {
+      "task": "Consider airport altitudes, outside temperatures, plane weights, and wind speeds and directions to calculate the speed needed to become airborne.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.93
+    },
+    {
+      "task": "Choose routes, altitudes, and speeds that will provide the fastest, safest, and smoothest flights.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.37
+    },
+    {
+      "task": "File instrument flight plans with air traffic control so that flights can be coordinated with other air traffic.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.95
+    },
+    {
+      "task": "Write specified information in flight records, such as flight times, altitudes flown, and fuel consumption.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.32
+    },
+    {
+      "task": "Instruct other pilots and student pilots in aircraft operations.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.09
+    },
+    {
+      "task": "Conduct in-flight tests and evaluations at specified altitudes and in all types of weather to determine the receptivity and other characteristics of equipment and systems.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.39
+    },
+    {
+      "task": "Rescue and evacuate injured persons.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.21
+    },
+    {
+      "task": "Supervise other crew members.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.13
+    },
+    {
+      "task": "Perform minor aircraft maintenance and repair work, or arrange for major maintenance.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.16
+    },
+    {
+      "task": "Plan and formulate flight activities and test schedules and prepare flight evaluation reports.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.71
+    },
+    {
+      "task": "Start engines, operate controls, and pilot airplanes to transport passengers, mail, or freight according to flight plans, regulations, and procedures.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.65
+    },
+    {
+      "task": "Monitor engine operation, fuel consumption, and functioning of aircraft systems during flights.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.82
+    },
+    {
+      "task": "Teach company regulations and procedures to other pilots.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.66
+    },
+    {
+      "task": "Contact control towers for takeoff clearances, arrival instructions, and other information, using radio equipment.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.76
+    },
+    {
+      "task": "Confer with flight dispatchers and weather forecasters to keep abreast of flight conditions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.41
+    },
+    {
+      "task": "Co-pilot aircraft or perform captain's duties, as required.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.94
+    },
+    {
+      "task": "Respond to and report in-flight emergencies and malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.86
+    },
+    {
+      "task": "Work as part of a flight team with other crew members, especially during takeoffs and landings.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.88
+    },
+    {
+      "task": "Steer aircraft along planned routes, using autopilot and flight management computers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.69
+    },
+    {
+      "task": "Monitor gauges, warning devices, and control panels to verify aircraft performance and to regulate engine speed.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.7
+    },
+    {
+      "task": "Inspect aircraft for defects and malfunctions, according to pre-flight checklists.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.82
+    },
+    {
+      "task": "Check passenger and cargo distributions and fuel amounts to ensure that weight and balance specifications are met.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.6
+    },
+    {
+      "task": "Check aircraft prior to flights to ensure that the engines, controls, instruments, and other systems are functioning properly.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.97
+    },
+    {
+      "task": "Evaluate other pilots or pilot-license applicants for proficiency.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.82
+    },
+    {
+      "task": "Make announcements regarding flights, using public address systems.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.19
+    },
+    {
+      "task": "Brief crews about flight details, such as destinations, duties, and responsibilities.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.23
+    },
+    {
+      "task": "Direct activities of aircraft crews during flights.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.97
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Examine, measure, or weigh cargo or materials to determine specific handling requirements.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.99
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as flight or car attendants.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Train workers in proper operational procedures and functions and explain company policies.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Determine the timing or procedures for flight vector changes.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.51
     }
   ],
   "technology_skills": [
@@ -1658,6 +1954,18 @@
       "weight": 1.5
     },
     {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 1.0395417590539542
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 1.0395417590539542
+    },
+    {
+      "name": "SAP software",
+      "weight": 1.0395417590539542
+    },
+    {
       "name": "Adobe Acrobat",
       "weight": 1.0
     },
@@ -1683,6 +1991,10 @@
     },
     {
       "name": "Center TRACON automation systems CTAS",
+      "weight": 1.0
+    },
+    {
+      "name": "Direct-to-tool software",
       "weight": 1.0
     },
     {
@@ -1738,6 +2050,10 @@
       "weight": 1.0
     },
     {
+      "name": "Really Simple Syndication RSS",
+      "weight": 1.0
+    },
+    {
       "name": "SBS International Maestro Suite",
       "weight": 1.0
     },
@@ -1766,8 +2082,40 @@
       "weight": 0.5
     },
     {
+      "name": "Calibration software",
+      "weight": 0.5
+    },
+    {
       "name": "CoPilot Flight Planning & E6B",
       "weight": 0.5
+    },
+    {
+      "name": "FLIR Thermal Studio Suite",
+      "weight": 0.5
+    },
+    {
+      "name": "IFT-Pro",
+      "weight": 0.5
+    },
+    {
+      "name": "Kitty Hawk",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.5
+    },
+    {
+      "name": "R",
+      "weight": 0.5
+    },
+    {
+      "name": "Standard generalized markup language SGML",
+      "weight": 0.5
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.03954175905395418
     },
     {
       "name": "Scheduling software",
@@ -1776,6 +2124,34 @@
     {
       "name": "Web browser software",
       "weight": 0.03954175905395418
+    },
+    {
+      "name": "Fleet management systems",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Load optimization software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "MagicLogic Optimization Cube-IQ",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Optimum Logistics LoadPlanner",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1948,6 +2324,10 @@
       "weight": 1.0
     },
     {
+      "name": "Mainframe computers",
+      "weight": 1.0
+    },
+    {
       "name": "Mode S radar systems",
       "weight": 1.0
     },
@@ -1973,6 +2353,10 @@
     },
     {
       "name": "Recirculation control systems",
+      "weight": 1.0
+    },
+    {
+      "name": "Standard terminal automation replacement systems STARS",
       "weight": 1.0
     },
     {
@@ -2108,6 +2492,10 @@
       "weight": 0.5
     },
     {
+      "name": "Fixed wing unmanned aerial vehicles UAV",
+      "weight": 0.5
+    },
+    {
       "name": "Flaps control levers",
       "weight": 0.5
     },
@@ -2121,6 +2509,14 @@
     },
     {
       "name": "Flight management systems FMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Ground control targets",
+      "weight": 0.5
+    },
+    {
+      "name": "Handheld calculators",
       "weight": 0.5
     },
     {
@@ -2160,6 +2556,10 @@
       "weight": 0.5
     },
     {
+      "name": "Landing pad",
+      "weight": 0.5
+    },
+    {
       "name": "Local area augmentation system LAAS receivers",
       "weight": 0.5
     },
@@ -2180,6 +2580,10 @@
       "weight": 0.5
     },
     {
+      "name": "Multi-rotor unmanned aerial vehicles UAV",
+      "weight": 0.5
+    },
+    {
       "name": "Multipurpose fire extinguishers",
       "weight": 0.5
     },
@@ -2192,11 +2596,19 @@
       "weight": 0.5
     },
     {
+      "name": "Plotters",
+      "weight": 0.5
+    },
+    {
       "name": "Pneumatic emergency brake systems",
       "weight": 0.5
     },
     {
       "name": "Pneumatics systems",
+      "weight": 0.5
+    },
+    {
+      "name": "Point plotters",
       "weight": 0.5
     },
     {
@@ -2224,6 +2636,10 @@
       "weight": 0.5
     },
     {
+      "name": "Reflective vests",
+      "weight": 0.5
+    },
+    {
       "name": "Rudder pedals",
       "weight": 0.5
     },
@@ -2232,7 +2648,15 @@
       "weight": 0.5
     },
     {
+      "name": "Safety cones",
+      "weight": 0.5
+    },
+    {
       "name": "Satellite-based navigation and guidance systems",
+      "weight": 0.5
+    },
+    {
+      "name": "Simlat",
       "weight": 0.5
     },
     {
@@ -2254,6 +2678,26 @@
     {
       "name": "Two way radios",
       "weight": 0.03954175905395418
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

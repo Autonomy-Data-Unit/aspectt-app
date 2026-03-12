@@ -1544,136 +1544,682 @@
   ],
   "tasks": [
     {
-      "task": "Document quantity, quality, type, weight, and value of materials or products to maintain records and files.",
-      "task_type": "Core"
+      "task": "Document quantity, quality, type, weight, test result data, and value of materials or products to maintain shipping, receiving, and production records and files.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.43
     },
     {
       "task": "Sort products or materials into predetermined sequences or groupings for display, packing, shipping, or storage.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.71
     },
     {
-      "task": "Inspect products for damage, defects, or shortages using specification sheets, gauges, and standards charts.",
-      "task_type": "Core"
+      "task": "Transport materials, products, or samples to processing, shipping, or storage areas, manually or using conveyors, pumps, or hand trucks.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
     },
     {
-      "task": "Transport materials, products, or samples to processing, shipping, or storage areas, manually or using machinery.",
-      "task_type": "Core"
+      "task": "Maintain, monitor, and clean work areas, such as recycling collection sites, drop boxes, counters and windows, and areas around scale houses.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.53
     },
     {
-      "task": "Maintain, monitor, and clean work areas, ensuring compliance with safety regulations.",
-      "task_type": "Core"
+      "task": "Remove from stock products or loads not meeting quality standards, and notify supervisors or appropriate departments of discrepancies or shortages.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
     },
     {
-      "task": "Clean rooms, hallways, lobbies, restrooms, and other areas to meet health standards.",
-      "task_type": "Core"
+      "task": "Store samples of finished products in labeled cartons and record their location.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.26
     },
     {
-      "task": "Replenish supplies such as linens and bathroom items, and keep storage areas well-stocked and tidy.",
-      "task_type": "Core"
+      "task": "Collect or prepare measurement, weight, or identification labels and attach them to products.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
     },
     {
-      "task": "Pack, seal, label, or prepare materials for shipping using appropriate tools and methods.",
-      "task_type": "Core"
+      "task": "Fill orders for products and samples, following order tickets, and forward or mail items.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
     },
     {
-      "task": "Count or estimate quantities of materials, parts, or products received or shipped, and keep accurate records of inventory.",
-      "task_type": "Core"
+      "task": "Weigh or measure materials, equipment, or products to maintain relevant records, using volume meters, scales, rules, or calipers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.41
     },
     {
-      "task": "Remove from stock products not meeting quality standards and notify supervisors of discrepancies.",
-      "task_type": "Supplemental"
+      "task": "Communicate with customers and vendors to exchange information regarding products, materials, and services.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
     },
     {
-      "task": "Gather and dispose of waste and ensure cleanliness in all work areas.",
-      "task_type": "Core"
+      "task": "Collect product samples and prepare them for laboratory analysis or testing.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.76
     },
     {
-      "task": "Signal or instruct coworkers on moving, weighing, or checking products, ensuring efficient workflow.",
-      "task_type": "Core"
+      "task": "Operate scalehouse computers to obtain weight information about incoming shipments such as those from waste haulers.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
     },
     {
-      "task": "Deliver or route materials to departments using hand trucks, conveyors, or sorting bins.",
-      "task_type": "Core"
+      "task": "Dust and polish furniture and equipment.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.01
     },
     {
-      "task": "Monitor building security and safety, including locking doors and checking equipment usage to prevent hazards.",
-      "task_type": "Core"
+      "task": "Carry linens, towels, toilet items, and cleaning supplies, using wheeled carts.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.38
     },
     {
-      "task": "Prepare documents for shipping materials, including bills of lading and shipping orders, to ensure proper routing.",
-      "task_type": "Core"
+      "task": "Move and arrange furniture and turn mattresses.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.85
     },
     {
-      "task": "Remove snow or debris from sidewalks and accessible building areas to maintain safety and cleanliness.",
-      "task_type": "Supplemental"
+      "task": "Replenish supplies, such as drinking glasses, linens, writing supplies, and bathroom items.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.17
     },
     {
-      "task": "Operate machinery such as forklifts or cleaning equipment as needed for material handling or cleaning tasks.",
-      "task_type": "Core"
+      "task": "Keep storage areas and carts well-stocked, clean, and tidy.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.42
     },
     {
-      "task": "Inspect materials and products for compliance with specifications, reporting any defects to management.",
-      "task_type": "Core"
+      "task": "Clean rooms, hallways, lobbies, lounges, restrooms, corridors, elevators, stairways, locker rooms, and other work areas so that health standards are met.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.34
     },
     {
-      "task": "Communicate with customers and vendors regarding products, materials, and services as necessary.",
-      "task_type": "Supplemental"
+      "task": "Clean rugs, carpets, upholstered furniture, and draperies, using vacuum cleaners and shampooers.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.08
     },
     {
-      "task": "Load materials and products into machines and equipment, or onto conveyors, using hand tools and moving devices.",
-      "task_type": "Core"
+      "task": "Replace light bulbs.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.67
     },
     {
-      "task": "Remove materials and products from machines and equipment, and place them in boxes, trucks or conveyors, using hand tools and moving devices.",
-      "task_type": "Supplemental"
+      "task": "Request repair services and wait for repair workers to arrive.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.58
     },
     {
-      "task": "Transfer materials and products to and from machinery and equipment, using industrial trucks or hand trucks.",
-      "task_type": "Core"
+      "task": "Disinfect equipment and supplies, using germicides or steam-operated sterilizers.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.29
+    },
+    {
+      "task": "Wash windows, walls, ceilings, and woodwork, waxing and polishing as necessary.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.04
+    },
+    {
+      "task": "Determine proper storage methods, identification, and stock location, based on turnover, environmental factors, and physical capabilities of facilities.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.72
+    },
+    {
+      "task": "Requisition merchandise from supplier, based on available space, merchandise on hand, customer demand, or advertised specials.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.63
+    },
+    {
+      "task": "Keep records of out-going orders.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.23
+    },
+    {
+      "task": "Keep records on the use or damage of stock or stock-handling equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.82
+    },
+    {
+      "task": "Clean and maintain supplies, tools, equipment, and storage areas to ensure compliance with safety regulations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.74
+    },
+    {
+      "task": "Dispose of damaged or defective items, or return them to vendors.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.67
+    },
+    {
+      "task": "Provide assistance or direction to other stockroom, warehouse, or storage yard workers.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.33
+    },
+    {
+      "task": "Clean display cases, shelves, and aisles.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.85
+    },
+    {
+      "task": "Sweep, shovel, or vacuum loose debris or salvageable scrap into containers and remove containers from work areas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.59
+    },
+    {
+      "task": "Maintain inventories of supplies.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.7
+    },
+    {
+      "task": "Connect hoses or lines to pumps or other equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.35
+    },
+    {
+      "task": "Monitor operation of cleaning machines and stop machines or notify supervisors when malfunctions occur.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.59
+    },
+    {
+      "task": "Lubricate machinery, vehicles, or equipment or perform minor repairs or adjustments, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.53
+    },
+    {
+      "task": "Pre-soak or rinse machine parts, equipment, or vehicles by immersing objects in cleaning solutions or water, manually or using hoists.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.66
+    },
+    {
+      "task": "Turn valves or handles on equipment to regulate pressure or flow of water, air, steam, or abrasives from sprayer nozzles.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.63
+    },
+    {
+      "task": "Drive vehicles to or from workshops or customers' workplaces or homes.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.93
+    },
+    {
+      "task": "Rinse objects and place them on drying racks or use cloth, squeegees, or air compressors to dry surfaces.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.99
+    },
+    {
+      "task": "Press buttons to activate cleaning equipment or machines.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.52
+    },
+    {
+      "task": "Mix cleaning solutions, abrasive compositions, or other compounds, according to formulas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.74
+    },
+    {
+      "task": "Scrub, scrape, or spray machine parts, equipment, or vehicles, using scrapers, brushes, clothes, cleaners, disinfectants, insecticides, acid, abrasives, vacuums, or hoses.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.91
+    },
+    {
+      "task": "Issue or distribute materials, products, parts, and supplies to customers or coworkers, based on information from incoming requisitions.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.39
+    },
+    {
+      "task": "Take inventory or examine merchandise to identify items to be reordered or replenished.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.86
+    },
+    {
+      "task": "Receive and count stock items, and record data manually or on computer.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.05
+    },
+    {
+      "task": "Store items in an orderly and accessible manner in warehouses, tool rooms, supply rooms, or other areas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.92
+    },
+    {
+      "task": "Pack and unpack items to be stocked on shelves in stockrooms, warehouses, or storage yards.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.86
+    },
+    {
+      "task": "Read orders to ascertain catalog numbers, sizes, colors, and quantities of merchandise.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.04
+    },
+    {
+      "task": "Obtain merchandise from bins or shelves.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.1
+    },
+    {
+      "task": "Complete order receipts.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.69
+    },
+    {
+      "task": "Drive vans, industrial trucks, or other vehicles required to travel to, or to perform, cleaning work.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.43
+    },
+    {
+      "task": "Record shipment data, such as weight, charges, space availability, damages, or discrepancies, for reporting, accounting, or recordkeeping purposes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.96
+    },
+    {
+      "task": "Determine shipping methods, routes, or rates for materials to be shipped.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.78
+    },
+    {
+      "task": "Deliver or route materials to departments using handtruck, conveyor, or sorting bins.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.88
+    },
+    {
+      "task": "Pack, seal, label, or affix postage to prepare materials for shipping, using hand tools, power tools, or postage meter.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.0
+    },
+    {
+      "task": "Examine shipment contents and compare with records, such as manifests, invoices, or orders, to verify accuracy.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.22
+    },
+    {
+      "task": "Monitor building security and safety by performing tasks such as locking doors after operating hours or checking electrical appliance use to ensure that hazards are not created.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.2
+    },
+    {
+      "task": "Prepare documents, such as work orders, bills of lading, or shipping orders, to route materials.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.05
+    },
+    {
+      "task": "Clean building floors by sweeping, mopping, scrubbing, or vacuuming.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.21
+    },
+    {
+      "task": "Gather and empty trash.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.23
+    },
+    {
+      "task": "Compute amounts, such as space available, shipping, storage, or demurrage charges, using computer or price list.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.73
+    },
+    {
+      "task": "Remove snow from sidewalks, driveways, or parking areas, using snowplows, snow blowers, or snow shovels, or spread snow-melting chemicals.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.53
+    },
+    {
+      "task": "Make adjustments or minor repairs to heating, cooling, ventilating, plumbing, or electrical systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.49
+    },
+    {
+      "task": "Record information, such as the number of products tested, meter readings, or dates and times of product production.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.75
+    },
+    {
+      "task": "Clean and lubricate equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.64
+    },
+    {
+      "task": "Help production workers by performing duties of lesser skill, such as supplying or holding materials or tools, or cleaning work areas and equipment.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.47
+    },
+    {
+      "task": "Observe equipment operations so that malfunctions can be detected, and notify operators of any malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.79
+    },
+    {
+      "task": "Separate products according to weight, grade, size, or composition of materials used to produce them.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.94
+    },
+    {
+      "task": "Attach slings, ropes, or cables to objects such as pipes, hoses, or bundles.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.37
+    },
+    {
+      "task": "Remove products, machine attachments, or waste material from machines.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.77
+    },
+    {
+      "task": "Pack and store materials and products.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.61
+    },
+    {
+      "task": "Tie products in bundles for further processing or shipment, following prescribed procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.76
+    },
+    {
+      "task": "Transfer finished products, raw materials, tools, or equipment between storage and work areas of plants and warehouses, by hand or using hand trucks or powered lift trucks.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.72
+    },
+    {
+      "task": "Break up defective products for reprocessing.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.08
+    },
+    {
+      "task": "Position spouts or chutes of storage bins so that containers can be filled.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.27
+    },
+    {
+      "task": "Inspect materials and products for defects, and to ensure conformance to specifications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.4
     },
     {
       "task": "Weigh or measure materials or products to ensure conformance to specifications.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.25
+    },
+    {
+      "task": "Shovel or scoop materials into containers, machines, or equipment for processing, storage, or transport.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.93
     },
     {
       "task": "Fasten, package, or stack materials and products, using hand tools and fastening equipment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.85
+    },
+    {
+      "task": "Record production and operational data, such as amount of materials processed.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.39
     },
     {
       "task": "Clean and maintain machinery, equipment, and work areas to ensure proper functioning and safe working conditions.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.13
     },
     {
       "task": "Identify and mark materials, products, and samples, following instructions.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.2
     },
     {
-      "task": "Move freight, stock, or other materials to and from storage or production areas, loading docks, delivery vehicles, ships, or containers, by hand or using trucks or other equipment.",
-      "task_type": "Core"
+      "task": "Push dual control buttons and move controls to start, stop, or adjust machinery and equipment.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.29
+    },
+    {
+      "task": "Distribute cargo to maximize use of space.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.35
+    },
+    {
+      "task": "Prepare bills of lading, statements of shipping records, or customer receipts related to recycling or hazardous material services.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.0
+    },
+    {
+      "task": "Perform general warehouse activities, such as opening containers and crates, filling warehouse orders, assisting in taking inventory, and weighing and checking materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 3.53
+    },
+    {
+      "task": "Inform designated employees or departments of items loaded or problems encountered.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.12
+    },
+    {
+      "task": "Perform the same work duties as those supervised, or perform more difficult or skilled tasks or assist in their performance.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.86
+    },
+    {
+      "task": "Inventory supplies and requisition or purchase additional items, as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 3.99
+    },
+    {
+      "task": "Inspect job sites to determine the extent of maintenance or repairs needed.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 3.67
+    },
+    {
+      "task": "Inspect equipment for wear and for conformance to specifications.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.11
+    },
+    {
+      "task": "Schedule times of shipment and modes of transportation for materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.02
+    },
+    {
+      "task": "Examine freight to determine loading sequences.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.38
+    },
+    {
+      "task": "Prepare and maintain work records and reports of information such as employee time and wages, daily receipts, or inspection results.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.07
+    },
+    {
+      "task": "Check specifications of materials loaded or unloaded against information contained in work orders.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.87
+    },
+    {
+      "task": "Operate ship loading and unloading equipment, conveyors, hoists, and other specialized material handling equipment such as railroad tank car unloading equipment.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.35
+    },
+    {
+      "task": "Verify tank car, barge, or truck load numbers to ensure car placement accuracy based on written or verbal instructions.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.6
+    },
+    {
+      "task": "Train new employees in areas such as safety procedures or equipment operation.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.51
+    },
+    {
+      "task": "Collaborate with workers and managers to solve work-related problems.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.42
+    },
+    {
+      "task": "Review work throughout the work process and at completion to ensure that it has been performed properly.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.39
+    },
+    {
+      "task": "Transmit and explain work orders to laborers.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.02
+    },
+    {
+      "task": "Maintain a safe working environment by monitoring safety procedures and equipment.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.47
+    },
+    {
+      "task": "Sort cargo before loading and unloading.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 4.26
+    },
+    {
+      "task": "Read work orders or receive oral instructions to determine work assignments or material or equipment needs.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.13
+    },
+    {
+      "task": "Attach slings, hooks, or other devices to lift cargo and guide loads.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.97
+    },
+    {
+      "task": "Carry needed tools or supplies from storage or trucks and return them after use.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.58
+    },
+    {
+      "task": "Maintain equipment storage areas to ensure that inventory is protected.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.48
+    },
+    {
+      "task": "Move freight, stock, or other materials to and from storage or production areas, loading docks, delivery vehicles, ships, or containers, by hand or using trucks, tractors, or other equipment.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.05
     },
     {
       "task": "Sort materials, such as metals, glass, wood, paper or plastics, into appropriate containers for recycling.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.26
     },
     {
-      "task": "Clean recycling yard by sweeping, raking, or picking up debris, and moving barrels and bins as required.",
-      "task_type": "Core"
+      "task": "Adjust controls to guide, position, or move equipment, such as cranes, booms, or cameras.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.12
     },
     {
-      "task": "Order tooling for jobs related to warehouse operations.",
-      "task_type": "Core"
+      "task": "Monitor machine operation and control panel displays, and compare readings to specifications to detect malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.4
     },
     {
-      "task": "Verify and maintain records on incoming and outgoing shipments involving inventory.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Perform cleaning duties to maintain buildings in a clean and orderly condition, including floors, walls, and rubbish removal.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Notify management of the need for repairs and perform routine maintenance activities related to the warehouse.",
-      "task_type": "Core"
+      "task": "Lift workpieces to machines manually or with hoists or cranes.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.19
     }
   ],
   "technology_skills": [
@@ -1702,6 +2248,10 @@
       "weight": 0.6323565323565323
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.5669931517757605
+    },
+    {
       "name": "Inventory tracking software",
       "weight": 0.49484126984126986
     },
@@ -1712,6 +2262,10 @@
     {
       "name": "Email software",
       "weight": 0.4558913308913309
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.4078144078144078
     },
     {
       "name": "Enterprise resource planning ERP software",
@@ -1726,20 +2280,24 @@
       "weight": 0.3472222222222222
     },
     {
-      "name": "Oracle Database",
-      "weight": 0.2673992673992674
+      "name": "Word processing software",
+      "weight": 0.2967032967032967
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.29047619047619044
     },
     {
       "name": "Work scheduling software",
       "weight": 0.23565323565323565
     },
     {
-      "name": "Web browser software",
-      "weight": 0.17692307692307693
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.2111111111111111
     },
     {
-      "name": "Operational databases",
-      "weight": 0.16025641025641024
+      "name": "Web browser software",
+      "weight": 0.17692307692307693
     },
     {
       "name": "Data entry software",
@@ -1752,6 +2310,10 @@
     {
       "name": "Handheld computer device software",
       "weight": 0.15873015873015872
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.15384615384615385
     },
     {
       "name": "Apple Safari",
@@ -1794,6 +2356,10 @@
       "weight": 0.125
     },
     {
+      "name": "Green Cloud KleanTRAC",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Ordering software",
       "weight": 0.1111111111111111
     },
@@ -1826,6 +2392,22 @@
       "weight": 0.1
     },
     {
+      "name": "CMS Consultants WorldLink",
+      "weight": 0.1
+    },
+    {
+      "name": "Citrix cloud computing software",
+      "weight": 0.1
+    },
+    {
+      "name": "DM2 Bills of Lading",
+      "weight": 0.1
+    },
+    {
+      "name": "Dydacomp Mail Order Manager",
+      "weight": 0.1
+    },
+    {
       "name": "Electronic Data Interchange EDI systems",
       "weight": 0.1
     },
@@ -1846,6 +2428,18 @@
       "weight": 0.1
     },
     {
+      "name": "FileMaker Pro",
+      "weight": 0.1
+    },
+    {
+      "name": "Freight+",
+      "weight": 0.1
+    },
+    {
+      "name": "Harvey Software CPS",
+      "weight": 0.1
+    },
+    {
       "name": "Infor ERP Visual",
       "weight": 0.1
     },
@@ -1862,11 +2456,35 @@
       "weight": 0.1
     },
     {
+      "name": "Laser Substrates PostalXport",
+      "weight": 0.1
+    },
+    {
+      "name": "MSR Visual Exporter",
+      "weight": 0.1
+    },
+    {
+      "name": "MSR Visual Exporter Document Library",
+      "weight": 0.1
+    },
+    {
+      "name": "MSR Visual Exporter Enterprise Integrator",
+      "weight": 0.1
+    },
+    {
       "name": "Operating system software",
       "weight": 0.1
     },
     {
       "name": "Pitney Bowes ShipStream Manager",
+      "weight": 0.1
+    },
+    {
+      "name": "Precision TRA/X",
+      "weight": 0.1
+    },
+    {
+      "name": "Sage 50 Accounting",
       "weight": 0.1
     },
     {
@@ -1878,11 +2496,43 @@
       "weight": 0.1
     },
     {
+      "name": "UPS Intelliverse",
+      "weight": 0.1
+    },
+    {
+      "name": "UPS WorldShip",
+      "weight": 0.1
+    },
+    {
+      "name": "Universal parcel shipping software",
+      "weight": 0.1
+    },
+    {
+      "name": "Varsity ShipSoft Supply Chain Execution Suite",
+      "weight": 0.1
+    },
+    {
+      "name": "WindowBook Postal Package Partner",
+      "weight": 0.1
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Machine operation software",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Work time tracking software",
       "weight": 0.08333333333333333
     },
     {
       "name": "Cargo tracking system software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "CompuWeigh GMS",
       "weight": 0.07692307692307693
     },
     {
@@ -1894,16 +2544,40 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Linux",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Sage ERP Accpac",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Time and attendance software",
       "weight": 0.07692307692307693
+    },
+    {
+      "name": "Machine control software",
+      "weight": 0.047619047619047616
     },
     {
       "name": "Spreadsheet software",
       "weight": 0.047619047619047616
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.5669931517757605
+      "name": "Aptean Made2Manage",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "ERP software",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Work inspection software",
+      "weight": 0.043478260869565216
     }
   ],
   "tools_used": [
@@ -1928,8 +2602,16 @@
       "weight": 0.38803418803418804
     },
     {
+      "name": "Power saws",
+      "weight": 0.3554945054945055
+    },
+    {
       "name": "Warehouse forklifts",
       "weight": 0.3308913308913309
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.3078754578754579
     },
     {
       "name": "Safety glasses",
@@ -1972,6 +2654,14 @@
       "weight": 0.2361111111111111
     },
     {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.23095238095238096
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.23095238095238096
+    },
+    {
       "name": "Carpet shampooers",
       "weight": 0.225
     },
@@ -1992,8 +2682,16 @@
       "weight": 0.21978021978021978
     },
     {
+      "name": "Box cutters",
+      "weight": 0.2111111111111111
+    },
+    {
       "name": "Industrial vacuum cleaners",
       "weight": 0.20833333333333331
+    },
+    {
+      "name": "Hand saws",
+      "weight": 0.20787545787545786
     },
     {
       "name": "Handtrucks",
@@ -2001,6 +2699,10 @@
     },
     {
       "name": "Power hoists",
+      "weight": 0.20787545787545786
+    },
+    {
+      "name": "Utility knives",
       "weight": 0.20787545787545786
     },
     {
@@ -2012,12 +2714,36 @@
       "weight": 0.19444444444444442
     },
     {
+      "name": "Measuring tapes",
+      "weight": 0.19444444444444442
+    },
+    {
+      "name": "Staple guns",
+      "weight": 0.19444444444444442
+    },
+    {
+      "name": "Wire cutters",
+      "weight": 0.19047619047619047
+    },
+    {
       "name": "Barcode scanners",
       "weight": 0.18803418803418803
     },
     {
       "name": "Stepladders",
       "weight": 0.18803418803418803
+    },
+    {
+      "name": "Tape guns",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Power grinders",
+      "weight": 0.18333333333333335
+    },
+    {
+      "name": "Precision files",
+      "weight": 0.18333333333333335
     },
     {
       "name": "Protective ear plugs",
@@ -2032,8 +2758,32 @@
       "weight": 0.16025641025641024
     },
     {
+      "name": "Adjustable hand wrenches",
+      "weight": 0.14761904761904762
+    },
+    {
+      "name": "Cordless drills",
+      "weight": 0.14761904761904762
+    },
+    {
       "name": "Extension ladders",
       "weight": 0.14761904761904762
+    },
+    {
+      "name": "Automatic bulk weighing systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Axle load scales",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Beam scales",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Belt conveyor scales",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Calculators",
@@ -2041,6 +2791,22 @@
     },
     {
       "name": "Computer terminals",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computerized scales",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Cordage measurers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Crane scales",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Electric overhead traveling crane EOT",
       "weight": 0.14285714285714285
     },
     {
@@ -2056,11 +2822,19 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Hopper scales",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Industrial trucks",
       "weight": 0.14285714285714285
     },
     {
       "name": "Label printers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Order selectors",
       "weight": 0.14285714285714285
     },
     {
@@ -2080,6 +2854,14 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Power drills",
+      "weight": 0.12681159420289856
+    },
+    {
+      "name": "Power sanders",
+      "weight": 0.12681159420289856
+    },
+    {
       "name": "Backpack vacuums",
       "weight": 0.125
     },
@@ -2092,7 +2874,15 @@
       "weight": 0.125
     },
     {
+      "name": "Clothes ironing equipment",
+      "weight": 0.125
+    },
+    {
       "name": "Commercial automatic floor scrubbers",
+      "weight": 0.125
+    },
+    {
+      "name": "Commercial dishwashers",
       "weight": 0.125
     },
     {
@@ -2116,11 +2906,39 @@
       "weight": 0.125
     },
     {
+      "name": "Household dryers",
+      "weight": 0.125
+    },
+    {
+      "name": "Household washers",
+      "weight": 0.125
+    },
+    {
+      "name": "Housekeeping carts",
+      "weight": 0.125
+    },
+    {
+      "name": "Industrial clothes dryers",
+      "weight": 0.125
+    },
+    {
+      "name": "Industrial sewing machines",
+      "weight": 0.125
+    },
+    {
+      "name": "Light commercial washing machines",
+      "weight": 0.125
+    },
+    {
       "name": "Mop wringers",
       "weight": 0.125
     },
     {
       "name": "Power floor buffers",
+      "weight": 0.125
+    },
+    {
+      "name": "Protective face shields",
       "weight": 0.125
     },
     {
@@ -2152,6 +2970,14 @@
       "weight": 0.125
     },
     {
+      "name": "Steam pressers",
+      "weight": 0.125
+    },
+    {
+      "name": "Steam-operated sterilizers",
+      "weight": 0.125
+    },
+    {
       "name": "Tile brushes",
       "weight": 0.125
     },
@@ -2168,11 +2994,39 @@
       "weight": 0.125
     },
     {
+      "name": "Washer extractors",
+      "weight": 0.125
+    },
+    {
       "name": "Wet-dry vacuums",
       "weight": 0.125
     },
     {
+      "name": "Work scrubs",
+      "weight": 0.125
+    },
+    {
+      "name": "Banding machines",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Cardboard balers",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Crushing machines",
+      "weight": 0.12454212454212454
+    },
+    {
       "name": "Dollies",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Handheld calculators",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Laser facsimile machines",
       "weight": 0.12454212454212454
     },
     {
@@ -2188,12 +3042,36 @@
       "weight": 0.12454212454212454
     },
     {
+      "name": "Photocopying equipment",
+      "weight": 0.12454212454212454
+    },
+    {
       "name": "Scaffolding",
       "weight": 0.12454212454212454
     },
     {
       "name": "Wheeled front end loaders",
       "weight": 0.12454212454212454
+    },
+    {
+      "name": "10-key calculators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Air blowers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Baling equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Car polishers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Car vacuums",
+      "weight": 0.1111111111111111
     },
     {
       "name": "Carpet dirt extractors",
@@ -2204,7 +3082,35 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Convertible hand trucks",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Conveyor belts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Copy machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Dashboard brushes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Detail brushes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital tire pressure gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electric cash registers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electric marking tools",
       "weight": 0.1111111111111111
     },
     {
@@ -2212,7 +3118,35 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Electronic cash registers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Foam wash guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Gas powered generators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Handheld digital thermometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Handheld radio frequency RF scanners",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "High pressure water hoses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hook knives",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hot air guns",
       "weight": 0.1111111111111111
     },
     {
@@ -2220,7 +3154,35 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Industrial scissors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Label removers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Label scrapers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Labeling equipment",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Laser scanners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Lifting belts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Lifting platforms",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Manual shears",
       "weight": 0.1111111111111111
     },
     {
@@ -2228,7 +3190,87 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Nailing hammers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Office intercom systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Overhead workshop cranes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Packing material compactors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Paint thickness gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pallet tipper",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Personal digital assistants PDAs",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pneumatic sanders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Portable air compressors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Power finish buffers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Power jacks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pricing guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Radio frequency RF scanner guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Remote data terminals",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rim and engine brushes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rubber marking stamps",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Safety cutters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Shelf scrapers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Shipping scales",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sign printers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sit-down forklifts",
       "weight": 0.1111111111111111
     },
     {
@@ -2240,6 +3282,22 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Strapping machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ticket-printing machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Tire brushes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Upholstery cleaning brushes",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Utility tug trucks",
       "weight": 0.1111111111111111
     },
@@ -2248,8 +3306,32 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Vehicle squeegees",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Vent brushes",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Warehouse dollies",
       "weight": 0.1111111111111111
+    },
+    {
+      "name": "Wrapping equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.1
+    },
+    {
+      "name": "Aerial manlifts",
+      "weight": 0.1
+    },
+    {
+      "name": "Air compressors",
+      "weight": 0.1
     },
     {
       "name": "Barcode printers",
@@ -2261,6 +3343,10 @@
     },
     {
       "name": "Equipment dollies",
+      "weight": 0.1
+    },
+    {
+      "name": "Fixed radio frequency identification device RFID readers",
       "weight": 0.1
     },
     {
@@ -2284,7 +3370,19 @@
       "weight": 0.1
     },
     {
+      "name": "Hedge trimmers",
+      "weight": 0.1
+    },
+    {
+      "name": "High-speed/moving object scanning devices",
+      "weight": 0.1
+    },
+    {
       "name": "Industrial vacuums",
+      "weight": 0.1
+    },
+    {
+      "name": "Insecticide sprayers",
       "weight": 0.1
     },
     {
@@ -2296,7 +3394,39 @@
       "weight": 0.1
     },
     {
+      "name": "Pillow packing machines",
+      "weight": 0.1
+    },
+    {
+      "name": "Pneumatic box staplers",
+      "weight": 0.1
+    },
+    {
+      "name": "Portable scaffolding",
+      "weight": 0.1
+    },
+    {
+      "name": "Postage meters",
+      "weight": 0.1
+    },
+    {
       "name": "Power floor scrubbers",
+      "weight": 0.1
+    },
+    {
+      "name": "Power mowers",
+      "weight": 0.1
+    },
+    {
+      "name": "Radio frequency identification RFID devices",
+      "weight": 0.1
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Reinforced tape dispensers",
       "weight": 0.1
     },
     {
@@ -2308,7 +3438,19 @@
       "weight": 0.1
     },
     {
+      "name": "Shrink wrap packaging vacuums",
+      "weight": 0.1
+    },
+    {
+      "name": "Snow blowers",
+      "weight": 0.1
+    },
+    {
       "name": "Snow shovels",
+      "weight": 0.1
+    },
+    {
+      "name": "Snowplows",
       "weight": 0.1
     },
     {
@@ -2316,11 +3458,135 @@
       "weight": 0.1
     },
     {
+      "name": "Taping machines",
+      "weight": 0.1
+    },
+    {
       "name": "Window squeegees",
       "weight": 0.1
     },
     {
+      "name": "Grinders",
+      "weight": 0.09109730848861283
+    },
+    {
+      "name": "Material hoists",
+      "weight": 0.09109730848861283
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Crescent wrenches",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Digital floor scales",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electric winches",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Feeder consoles",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Folder gluers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Grease guns",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Grinder machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hand jacks",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hoppers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hydraulic booms",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Industrial platform scales",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Label applicators",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Label-making machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Locking pliers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Machine wrappers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Mechanical sheet feeders",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Overhead track cranes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pipe jacks",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pipe wrenches",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Platform ladders",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pneumatic conveyor systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Power nail guns",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pressure wands",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Protective glasses",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Ratcheting box wrenches",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Razor knives",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Soldering equipment",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Strappers",
       "weight": 0.08333333333333333
     },
     {
@@ -2328,7 +3594,123 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Aircraft loaders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Aircraft wheel chocks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Airplane baggage tuggers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Airport cargo conveyor trucks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Belt loader trucks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cargo collection hoppers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cargo dollies",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cargo tiedown straps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cargo turntables",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cargo winches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Data input scanners",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Digital hydrometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Elevating transfer vehicles ETV",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Forklift scales",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Glue guns",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Granulators",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hand planes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hoisting hooks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hydraulic jacks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Loading scales",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mechanical spray nozzles",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mobile shiploaders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pancake scales",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pipe roller conveyors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Programmable logic control PLC conveyor systems",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Protective respirators",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pry bars",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Reach trucks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Recyclable material sorters",
       "weight": 0.07692307692307693
     },
     {
@@ -2336,8 +3718,184 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Scissor lift trucks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Skid steers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Stock pickers",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Walk behind pallet jacks",
       "weight": 0.07692307692307693
+    },
+    {
+      "name": "Belt conveyor systems",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Blow torches",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Channel lock pliers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Claw hanmers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Fiber sorters",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Hex wrenches",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Horizontal balers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Jacks",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Lifting hooks",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Magnetized can sorters",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Material compactors",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Pallet transport trucks",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Paper shredders",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Planes",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Power lifts",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Protective ear muffs",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Recycling collection trucks",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Slings",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Tractor-trailer trucks",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Utility work machines",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Water hoses",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Winches",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Work vans",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "0-1 drop indicators",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Adjustable squares",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Bench grinders",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Buffers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Controllers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Deburring tools",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Hand clamps",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Industrial ovens",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Laser printers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Portable welding equipment",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Programmable logic controllers PLC",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Scribers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Twist drills",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Vises",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Welding lenses",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Welding shields",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Wire gauges",
+      "weight": 0.043478260869565216
     }
   ],
   "detailed_work_activities": [

@@ -1544,72 +1544,502 @@
   ],
   "tasks": [
     {
-      "task": "Confer with customers by telephone or in person to provide information about products or services, take orders, cancel accounts, or obtain details of complaints.",
-      "task_type": "Core"
+      "task": "Confer with customers by telephone or in person to provide information about products or services, take or enter orders, cancel accounts, or obtain details of complaints.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.67
     },
     {
-      "task": "Determine charges for requested services, collect payments, or arrange for billing, while performing clerical tasks and keeping records of customer interactions.",
-      "task_type": "Core"
+      "task": "Obtain and examine all relevant information to assess validity of complaints and to determine possible causes, such as extreme weather conditions that could increase utility bills.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.63
     },
     {
-      "task": "Check and ensure that appropriate changes were made to resolve customers' problems and handle unresolved grievances as needed.",
-      "task_type": "Core"
+      "task": "Determine charges for services requested, collect deposits or payments, or arrange for billing.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.18
     },
     {
-      "task": "Contact customers to respond to inquiries or notify them of claim investigation results, adjustments, or overdue payments.",
-      "task_type": "Core"
+      "task": "Refer unresolved customer grievances to designated departments for further investigation.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.07
     },
     {
-      "task": "Resolve service or billing complaints by exchanging merchandise, refunding money, or adjusting bills as necessary.",
-      "task_type": "Core"
+      "task": "Contact customers to respond to inquiries or to notify them of claim investigation results or any planned adjustments.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.22
     },
     {
-      "task": "Operate communication systems such as telephone switchboards to relay calls, take messages, and facilitate connections for various needs.",
-      "task_type": "Core"
+      "task": "Check to ensure that appropriate changes were made to resolve customers' problems.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.39
     },
     {
-      "task": "Assist customers with special billing requests and provide information by accessing directories or answering questions clearly using reference files.",
-      "task_type": "Core"
+      "task": "Resolve customers' service or billing complaints by performing activities such as exchanging merchandise, refunding money, or adjusting bills.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.19
     },
     {
-      "task": "Monitor emergency and code alarms, make emergency announcements, or route emergency calls, ensuring prompt responses to urgent situations.",
-      "task_type": "Core"
+      "task": "Keep records of customer interactions or transactions, recording details of inquiries, complaints, or comments, as well as actions taken.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.53
     },
     {
-      "task": "Develop or implement fundraising activities, compile donor databases, and secure commitments from individuals or corporate donors for contributions.",
-      "task_type": "Core"
+      "task": "Solicit sales of new or additional services or products.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.87
     },
     {
-      "task": "Write reports or prepare presentations to communicate fundraising program data, as well as letters of thanks to donors and correspondence related to fundraising.",
-      "task_type": "Core"
+      "task": "Review insurance policy terms to determine whether a particular loss is covered by insurance.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.05
     },
     {
-      "task": "Perform various data entry or administrative functions, including updating records, scheduling appointments, processing orders, and handling correspondence.",
-      "task_type": "Core"
+      "task": "Compare disputed merchandise with original requisitions and information from invoices and prepare invoices for returned goods.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.64
     },
     {
-      "task": "Trace delinquent customers to new addresses and negotiate repayment terms, ensuring proper follow-up on overdue accounts and strategies for debt repayment.",
-      "task_type": "Core"
+      "task": "Recommend improvements in products, packaging, shipping, service, or billing methods and procedures to prevent future problems.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.16
     },
     {
-      "task": "Contact corporate representatives and community leaders to increase organizational awareness, and promote fundraising initiatives and events.",
-      "task_type": "Core"
+      "task": "Complete contract forms, prepare change of address records, or issue service discontinuance orders, using computers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.1
     },
     {
-      "task": "Solicit donations or sponsorships from individuals, businesses, or government donors, and coordinate fundraising events to maximize participation.",
-      "task_type": "Core"
+      "task": "Offer special assistance to persons such as those who are unable to dial or who are in emergency situations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.0
     },
     {
-      "task": "Keep records of conversations and transactions, including call logs, and maintain files to track correspondence activities and responses to issues raised.",
-      "task_type": "Core"
+      "task": "Keep records of calls placed and received, and of related toll charges.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.8
     },
     {
-      "task": "Promote company products or services as appropriate and generate new sales opportunities while ensuring clarity in customer interactions.",
-      "task_type": "Supplemental"
+      "task": "Update directory information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.12
     },
     {
-      "task": "Compile materials for granting or funding organizations and assist in developing media contact lists for promotional outreach.",
-      "task_type": "Supplemental"
+      "task": "Promote company products, services, and savings plans when appropriate.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.65
+    },
+    {
+      "task": "Provide relay service for users who are deaf or hard of hearing.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.82
+    },
+    {
+      "task": "Interrupt busy lines if an emergency warrants.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.94
+    },
+    {
+      "task": "Perform clerical duties such as typing, proofreading, and sorting mail.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.03
+    },
+    {
+      "task": "Monitor automated systems for placing collect calls and intervene for a callers needing assistance.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.19
+    },
+    {
+      "task": "Provide assistance for customers with special billing requests.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.88
+    },
+    {
+      "task": "Operate telephone switchboards and systems to advance and complete connections, including those for local, long distance, pay telephone, mobile, person-to-person, and emergency calls.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.45
+    },
+    {
+      "task": "Page individuals to inform them of telephone calls, using paging or interoffice communication equipment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.42
+    },
+    {
+      "task": "Suggest and check alternate spellings, locations, or listing formats to customers lacking details or complete information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.12
+    },
+    {
+      "task": "Relay or route written or verbal messages.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.35
+    },
+    {
+      "task": "Place telephone calls or arrange conference calls as instructed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.23
+    },
+    {
+      "task": "Monitor alarm systems to ensure that secure conditions are maintained.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.57
+    },
+    {
+      "task": "Contact security staff members when necessary, using radio-telephones.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.56
+    },
+    {
+      "task": "Stamp messages with time and date and file them appropriately.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.13
+    },
+    {
+      "task": "Answer simple questions about clients' businesses, using reference files.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.18
+    },
+    {
+      "task": "Complete forms for sales orders.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.37
+    },
+    {
+      "task": "Listen to customer requests, referring to alphabetical or geographical directories to answer questions and provide telephone information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.22
+    },
+    {
+      "task": "Record messages, suggesting rewording for clarity or conciseness.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.47
+    },
+    {
+      "task": "Place orders, such as for equipment, supplies, or catering for meetings.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.35
+    },
+    {
+      "task": "Answer incoming calls, greeting callers, providing information, transferring calls or taking messages as necessary.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.7
+    },
+    {
+      "task": "Greet visitors, log them in and out of the facility, assign them security badges, and contact employee escorts.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.65
+    },
+    {
+      "task": "Monitor emergency and code alarms, make emergency announcements, or route emergency calls to the appropriate location.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.48
+    },
+    {
+      "task": "Perform administrative tasks, such as accepting orders, scheduling appointments or meeting rooms, or sending and receiving faxes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.72
+    },
+    {
+      "task": "Process incoming or outgoing mail, packages, or deliveries.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.97
+    },
+    {
+      "task": "Perform various data entry or word processing tasks, such as updating phone directories, typing or proofreading documents, or creating schedules.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.95
+    },
+    {
+      "task": "Trace delinquent customers to new addresses by inquiring at post offices, telephone companies, credit bureaus, or through the questioning of neighbors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Answer customer questions regarding problems with their accounts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
+    },
+    {
+      "task": "Contact insurance companies to check on status of claims payments and write appeal letters for denial on claims.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.78
+    },
+    {
+      "task": "Notify credit departments, order merchandise repossession or service disconnection, and turn over account records to attorneys when customers fail to respond to collection attempts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
+    },
+    {
+      "task": "Negotiate credit extensions when necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.52
+    },
+    {
+      "task": "Arrange for debt repayment or establish repayment schedules, based on customers' financial situations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
+    },
+    {
+      "task": "Perform various administrative functions for assigned accounts, such as recording address changes and purging the records of deceased customers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.64
+    },
+    {
+      "task": "Sort and file correspondence and perform miscellaneous clerical duties, such as answering correspondence and writing reports.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Persuade customers to pay amounts due on credit accounts, damage claims, or nonpayable checks, or to return merchandise.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.28
+    },
+    {
+      "task": "Advise customers of necessary actions and strategies for debt repayment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.44
+    },
+    {
+      "task": "Confer with customers by telephone or in person to determine reasons for overdue payments and to review the terms of sales, service, or credit contracts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.26
+    },
+    {
+      "task": "Locate and notify customers of delinquent accounts by mail, telephone, or personal visits to solicit payment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.52
+    },
+    {
+      "task": "Record information about financial status of customers and status of collection efforts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.65
+    },
+    {
+      "task": "Locate and monitor overdue accounts, using computers and a variety of automated systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.52
+    },
+    {
+      "task": "Receive payments and post amounts paid to customer accounts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Perform duties, such as taking care of plants or straightening magazines to maintain lobby or reception area.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.39
+    },
+    {
+      "task": "Process and prepare memos, correspondence, travel vouchers, or other documents.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.43
+    },
+    {
+      "task": "Take orders for merchandise or materials and send them to the proper departments to be filled.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.18
+    },
+    {
+      "task": "Calculate and quote rates for tours, stocks, insurance policies, or other products or services.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.21
+    },
+    {
+      "task": "Keep a current record of staff members' whereabouts and availability.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.9
+    },
+    {
+      "task": "Provide information about establishment, such as location of departments or offices, employees within the organization, or services provided.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.02
+    },
+    {
+      "task": "Analyze data to determine answers to questions from customers or members of the public.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.22
+    },
+    {
+      "task": "Enroll individuals to participate in programs and notify them of their acceptance.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.22
+    },
+    {
+      "task": "Schedule appointments and maintain and update appointment calendars.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.4
+    },
+    {
+      "task": "Transmit information or documents to customers, using computer, mail, or facsimile machine.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.12
+    },
+    {
+      "task": "Hear and resolve complaints from customers or the public.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.11
+    },
+    {
+      "task": "Perform administrative support tasks, such as proofreading, transcribing handwritten information, or operating calculators or computers to work with pay records, invoices, balance sheets, or other documents.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.97
+    },
+    {
+      "task": "Schedule space or equipment for special programs and prepare lists of participants.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.55
+    },
+    {
+      "task": "Process orders for goods requested in correspondence.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.86
+    },
+    {
+      "task": "Prepare documents and correspondence, such as damage claims, credit and billing inquiries, invoices, and service complaints.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.96
+    },
+    {
+      "task": "Compile data from records to prepare periodic reports.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.8
+    },
+    {
+      "task": "Present clear and concise explanations of governing rules and regulations.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.71
+    },
+    {
+      "task": "Read incoming correspondence to ascertain nature of writers' concerns and to determine disposition of correspondence.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.99
+    },
+    {
+      "task": "Type acknowledgment letters to persons sending correspondence.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.55
+    },
+    {
+      "task": "Review correspondence for format and typographical accuracy, assemble the information into a prescribed form with the correct number of copies, and submit it to an authorized official for signature.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.67
+    },
+    {
+      "task": "Complete form letters in response to requests or problems identified by correspondence.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.36
+    },
+    {
+      "task": "Route correspondence to other departments for reply.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.51
+    },
+    {
+      "task": "Compose letters in reply to correspondence concerning such items as requests for merchandise, damage claims, credit information requests, delinquent accounts, incorrect billing, or unsatisfactory service.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.78
+    },
+    {
+      "task": "Compute costs of records furnished to requesters, and write letters to obtain payment.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.57
+    },
+    {
+      "task": "Prepare records for shipment by certified mail.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.2
+    },
+    {
+      "task": "Confer with company personnel regarding feasibility of complying with writers' requests.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.32
+    },
+    {
+      "task": "Gather records pertinent to specific problems, review them for completeness and accuracy, and attach records to correspondence as necessary.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.97
     }
   ],
   "technology_skills": [
@@ -1638,6 +2068,22 @@
       "weight": 1.1736111111111112
     },
     {
+      "name": "SAP software",
+      "weight": 0.9553571428571428
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.8968253968253967
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.8611111111111112
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.8125
+    },
+    {
       "name": "Blackbaud The Raiser's Edge",
       "weight": 0.753968253968254
     },
@@ -1646,8 +2092,32 @@
       "weight": 0.753968253968254
     },
     {
+      "name": "FileMaker Pro",
+      "weight": 0.753968253968254
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.753968253968254
+    },
+    {
+      "name": "Medical condition coding software",
+      "weight": 0.753968253968254
+    },
+    {
+      "name": "Medical procedure coding software",
+      "weight": 0.753968253968254
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.753968253968254
+    },
+    {
       "name": "Handheld computer device software",
       "weight": 0.75
+    },
+    {
+      "name": "Healthcare common procedure coding system HCPCS",
+      "weight": 0.7053571428571428
     },
     {
       "name": "Word processing software",
@@ -1659,6 +2129,30 @@
     },
     {
       "name": "Facebook",
+      "weight": 0.6428571428571428
+    },
+    {
+      "name": "LexisNexis",
+      "weight": 0.6428571428571428
+    },
+    {
+      "name": "MEDITECH software",
+      "weight": 0.6428571428571428
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.6428571428571428
+    },
+    {
+      "name": "NetSuite ERP",
+      "weight": 0.6428571428571428
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.6428571428571428
+    },
+    {
+      "name": "Sage 50 Accounting",
       "weight": 0.6428571428571428
     },
     {
@@ -1686,6 +2180,70 @@
       "weight": 0.5625
     },
     {
+      "name": "ADP Workforce Now",
+      "weight": 0.5
+    },
+    {
+      "name": "AS/400 Database",
+      "weight": 0.5
+    },
+    {
+      "name": "Active Data Online WebChat",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.5
+    },
+    {
+      "name": "Airtable",
+      "weight": 0.5
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.5
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.5
+    },
+    {
+      "name": "Applied Systems Vision",
+      "weight": 0.5
+    },
+    {
+      "name": "Astute Solutions PowerCenter",
+      "weight": 0.5
+    },
+    {
+      "name": "Austin Logistics CallTech",
+      "weight": 0.5
+    },
+    {
+      "name": "Austin Logistics Valeo",
+      "weight": 0.5
+    },
+    {
+      "name": "Avidian Technologies Prophet",
+      "weight": 0.5
+    },
+    {
+      "name": "Citrix cloud computing software",
+      "weight": 0.5
+    },
+    {
       "name": "Customer account management software",
       "weight": 0.5
     },
@@ -1702,6 +2260,14 @@
       "weight": 0.5
     },
     {
+      "name": "DSC Pacer Interactive Voice Response System",
+      "weight": 0.5
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.5
+    },
+    {
       "name": "Dropbox",
       "weight": 0.5
     },
@@ -1710,11 +2276,75 @@
       "weight": 0.5
     },
     {
+      "name": "Fund accounting software",
+      "weight": 0.5
+    },
+    {
       "name": "Google Meet",
       "weight": 0.5
     },
     {
+      "name": "Google Sites",
+      "weight": 0.5
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.5
+    },
+    {
+      "name": "Hosted Support ezSupport Pro",
+      "weight": 0.5
+    },
+    {
+      "name": "Human resource management software HRMS",
+      "weight": 0.5
+    },
+    {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.5
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.5
+    },
+    {
+      "name": "IBM Power Systems software",
+      "weight": 0.5
+    },
+    {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.5
+    },
+    {
       "name": "LinkedIn",
+      "weight": 0.5
+    },
+    {
+      "name": "LogMeIn GoToMeeting",
+      "weight": 0.5
+    },
+    {
+      "name": "Lynk Everest",
+      "weight": 0.5
+    },
+    {
+      "name": "Main Street Softworks Monetra",
+      "weight": 0.5
+    },
+    {
+      "name": "McAfee",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft OneNote",
       "weight": 0.5
     },
     {
@@ -1723,6 +2353,74 @@
     },
     {
       "name": "Multi-channel contact center software",
+      "weight": 0.5
+    },
+    {
+      "name": "Nearpod",
+      "weight": 0.5
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.5
+    },
+    {
+      "name": "Open Text Fax Server, RightFax Edition",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle Taleo",
+      "weight": 0.5
+    },
+    {
+      "name": "Padlet",
+      "weight": 0.5
+    },
+    {
+      "name": "Parature eRealtime",
+      "weight": 0.5
+    },
+    {
+      "name": "Parature eTicket",
+      "weight": 0.5
+    },
+    {
+      "name": "Poll Everywhere",
+      "weight": 0.5
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.5
+    },
+    {
+      "name": "SAP Crystal Reports",
+      "weight": 0.5
+    },
+    {
+      "name": "Sage MAS 200 ERP",
+      "weight": 0.5
+    },
+    {
+      "name": "Sales force automation software",
+      "weight": 0.5
+    },
+    {
+      "name": "Salesforce.com Salesforce CRM",
+      "weight": 0.5
+    },
+    {
+      "name": "ShoreTel",
       "weight": 0.5
     },
     {
@@ -1738,6 +2436,70 @@
       "weight": 0.5
     },
     {
+      "name": "Stamps.com software",
+      "weight": 0.5
+    },
+    {
+      "name": "SugarSync",
+      "weight": 0.5
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.5
+    },
+    {
+      "name": "Telemation e-CRM",
+      "weight": 0.5
+    },
+    {
+      "name": "Timpani Chat",
+      "weight": 0.5
+    },
+    {
+      "name": "Timpani Contact Center",
+      "weight": 0.5
+    },
+    {
+      "name": "Timpani Email",
+      "weight": 0.5
+    },
+    {
+      "name": "Unified messaging software",
+      "weight": 0.5
+    },
+    {
+      "name": "Virtual private networking VPN software",
+      "weight": 0.5
+    },
+    {
+      "name": "Voice over internet protocol VoIP system software",
+      "weight": 0.5
+    },
+    {
+      "name": "Yardi software",
+      "weight": 0.5
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.5
+    },
+    {
+      "name": "Zoom",
+      "weight": 0.5
+    },
+    {
+      "name": "eStara Softphone",
+      "weight": 0.5
+    },
+    {
+      "name": "iShip",
+      "weight": 0.5
+    },
+    {
+      "name": "j2 Global Communications onebox",
+      "weight": 0.5
+    },
+    {
       "name": "Web browser software",
       "weight": 0.3968253968253968
     },
@@ -1746,12 +2508,260 @@
       "weight": 0.25396825396825395
     },
     {
+      "name": "HMS",
+      "weight": 0.25396825396825395
+    },
+    {
+      "name": "Computer aided dispatch software",
+      "weight": 0.25
+    },
+    {
+      "name": "M-Tech Hotel Service Optimization System HotSOS",
+      "weight": 0.25
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.25
+    },
+    {
       "name": "Video conference software",
       "weight": 0.25
     },
     {
+      "name": "Electronic health record EHR software",
+      "weight": 0.1736111111111111
+    },
+    {
+      "name": "GE Healthcare Centricity EMR",
+      "weight": 0.1736111111111111
+    },
+    {
+      "name": "ADP Drive DMS for Accounting",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ADS Advantage",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Accounting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adtec Agency Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "AudienceView Ticketing",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Blackbaud Luminate CRM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Blackbaud eTapestry",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CU Connect processing software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Collection Data Systems CollectOne-Tiger",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Columbia Ultimate Archive",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Columbia Ultimate RPCS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Columbia Ultimate Remit",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Constant Contact",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Corel CorelDraw Graphics Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Data-Tel Ceasar",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Debt account management and collection software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Diagnostic and procedural coding software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Document management system software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Foundatino Directory Online (FDO)",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Internet browser software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "LexisNexis Banko",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ontario Systems FACS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Optical character recognition OCR software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Quantrax Intelec",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Relational database software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SAP BusinessObjects Crystal Reports",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SofterWare DonorPerfect",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Spreadsheet software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "System Innovators",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "TCI XML Credit Interface",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tessitura Network Tessitura Software",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Twitter",
       "weight": 0.14285714285714285
+    },
+    {
+      "name": "W3 Data BatchAppend411",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "WealthEngine Findwealth",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "3M Post-it App",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Alpha Software Alpha Five",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Appointment scheduling software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Automated information system software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Billing software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Bookkeeping software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Claim processing system software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electronic calendar management software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Filing system software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "IBM Check Processing Control System CPSC",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Intrado SchoolMessenger",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Kodak Dental Systems Kodak SOFTDENT Practice management software PMS",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "McKesson Lytec",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "St. Paul Travelers e-CARMA",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electronic data interchange EDI software",
+      "weight": 0.0625
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.0625
+    },
+    {
+      "name": "Epic Systems",
+      "weight": 0.0625
+    },
+    {
+      "name": "Imaging software",
+      "weight": 0.0625
     }
   ],
   "tools_used": [
@@ -1792,6 +2802,10 @@
       "weight": 0.5625
     },
     {
+      "name": "Alarm system monitors",
+      "weight": 0.5
+    },
+    {
       "name": "Autodialing systems",
       "weight": 0.5
     },
@@ -1804,11 +2818,27 @@
       "weight": 0.5
     },
     {
+      "name": "Cash registers",
+      "weight": 0.5
+    },
+    {
       "name": "Dialed number identification systems DNIS",
       "weight": 0.5
     },
     {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.5
+    },
+    {
+      "name": "Mobile radios",
+      "weight": 0.5
+    },
+    {
       "name": "On hold players",
+      "weight": 0.5
+    },
+    {
+      "name": "Paging systems",
       "weight": 0.5
     },
     {
@@ -1832,8 +2862,20 @@
       "weight": 0.5
     },
     {
+      "name": "Wireless telephone systems",
+      "weight": 0.5
+    },
+    {
       "name": "Computer laser printers",
       "weight": 0.45535714285714285
+    },
+    {
+      "name": "Electric typewriters",
+      "weight": 0.3611111111111111
+    },
+    {
+      "name": "Public address PA systems",
+      "weight": 0.3611111111111111
     },
     {
       "name": "Computer inkjet printers",
@@ -1848,6 +2890,26 @@
       "weight": 0.25396825396825395
     },
     {
+      "name": "10-key calculators",
+      "weight": 0.25
+    },
+    {
+      "name": "Intercom equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Radiotelephones",
+      "weight": 0.25
+    },
+    {
+      "name": "Secure voice equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Video surveillance monitors",
+      "weight": 0.25
+    },
+    {
       "name": "Voice over internet protocol VoIP systems",
       "weight": 0.25
     },
@@ -1860,15 +2922,39 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Passenger cars",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Tablet computers",
       "weight": 0.14285714285714285
+    },
+    {
+      "name": "Credit card processing machines",
+      "weight": 0.1111111111111111
     },
     {
       "name": "Data input scanners",
       "weight": 0.1111111111111111
     },
     {
+      "name": "Dictation equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Filing Cabinets",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Handheld calculators",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Multi-line switchboards",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Postage machines",
       "weight": 0.1111111111111111
     },
     {
@@ -1877,6 +2963,14 @@
     },
     {
       "name": "Document scanners",
+      "weight": 0.0625
+    },
+    {
+      "name": "Microfiche viewing equipment",
+      "weight": 0.0625
+    },
+    {
+      "name": "Paper folding machines",
       "weight": 0.0625
     }
   ],

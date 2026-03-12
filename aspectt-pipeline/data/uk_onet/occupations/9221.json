@@ -1545,76 +1545,118 @@
   "tasks": [
     {
       "task": "Service, clean, or supply restrooms.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.24
     },
     {
-      "task": "Clean and polish furniture, fixtures, and equipment.",
-      "task_type": "Core"
+      "task": "Clean and polish furniture and fixtures.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.46
     },
     {
-      "task": "Monitor building security and safety by locking doors after operating hours and checking electrical appliance use.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Clean windows, glass partitions, or mirrors, using soapy water or other cleaners, sponges, or squeegees.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Dust furniture, walls, machines, or equipment.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Gather and empty trash and remove rubbish.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Move heavy furniture, equipment, or supplies, either manually or with hand trucks.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Mix water and detergents or acids in containers to prepare cleaning solutions, according to specifications.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Follow procedures for the use of chemical cleaners and power equipment to prevent damage to floors and fixtures.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Clean building floors by sweeping, mopping, scrubbing, or vacuuming.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Notify managers concerning the need for major repairs or additions to building operating systems.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Remove snow from sidewalks, driveways, or parking areas, using snowplows, snow blowers, or snow shovels.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Steam-clean or shampoo carpets.",
-      "task_type": "Supplemental"
+      "task": "Monitor building security and safety by performing tasks such as locking doors after operating hours or checking electrical appliance use to ensure that hazards are not created.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.2
     },
     {
       "task": "Make adjustments or minor repairs to heating, cooling, ventilating, plumbing, or electrical systems.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.49
     },
     {
-      "task": "Set up and arrange decorations, tables, chairs, ladders, or scaffolding for events.",
-      "task_type": "Supplemental"
+      "task": "Remove snow from sidewalks, driveways, or parking areas, using snowplows, snow blowers, or snow shovels, or spread snow-melting chemicals.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.53
+    },
+    {
+      "task": "Move heavy furniture, equipment, or supplies, either manually or with hand trucks.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.42
+    },
+    {
+      "task": "Dust furniture, walls, machines, or equipment.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.74
+    },
+    {
+      "task": "Set up, arrange, or remove decorations, tables, chairs, ladders, or scaffolding to prepare facilities for events, such as banquets or meetings.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.36
+    },
+    {
+      "task": "Gather and empty trash.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.23
+    },
+    {
+      "task": "Steam-clean or shampoo carpets.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.03
+    },
+    {
+      "task": "Clean windows, glass partitions, or mirrors, using soapy water or other cleaners, sponges, or squeegees.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.8
+    },
+    {
+      "task": "Requisition supplies or equipment needed for cleaning and maintenance duties.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.74
+    },
+    {
+      "task": "Notify managers concerning the need for major repairs or additions to building operating systems.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.2
+    },
+    {
+      "task": "Mix water and detergents or acids in containers to prepare cleaning solutions, according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.99
+    },
+    {
+      "task": "Follow procedures for the use of chemical cleaners and power equipment to prevent damage to floors and fixtures.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.15
+    },
+    {
+      "task": "Clean building floors by sweeping, mopping, scrubbing, or vacuuming.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.21
+    },
+    {
+      "task": "Drive vans, industrial trucks, or other vehicles required to travel to, or to perform, cleaning work.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.43
     }
   ],
   "technology_skills": [
     {
-      "name": "Microsoft Office software",
-      "weight": 0.1
-    },
-    {
-      "name": "Squeegee",
+      "name": "Eko",
       "weight": 0.1
     },
     {
       "name": "Microsoft Excel",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Office software",
       "weight": 0.1
     },
     {
@@ -1623,6 +1665,14 @@
     },
     {
       "name": "Microsoft Word",
+      "weight": 0.1
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.1
+    },
+    {
+      "name": "Squeegee",
       "weight": 0.1
     }
   ],
@@ -1640,11 +1690,23 @@
       "weight": 0.1
     },
     {
+      "name": "Air compressors",
+      "weight": 0.1
+    },
+    {
       "name": "Carpet shampooers",
       "weight": 0.1
     },
     {
       "name": "Claw hammers",
+      "weight": 0.1
+    },
+    {
+      "name": "Cordless drills",
+      "weight": 0.1
+    },
+    {
+      "name": "Desktop computers",
       "weight": 0.1
     },
     {
@@ -1677,6 +1739,10 @@
     },
     {
       "name": "Industrial vacuums",
+      "weight": 0.1
+    },
+    {
+      "name": "Personal computers",
       "weight": 0.1
     },
     {
@@ -1717,6 +1783,10 @@
     },
     {
       "name": "Scissor lifts",
+      "weight": 0.1
+    },
+    {
+      "name": "Snow blowers",
       "weight": 0.1
     },
     {

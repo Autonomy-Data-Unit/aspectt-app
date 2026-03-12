@@ -1545,43 +1545,99 @@
   "tasks": [
     {
       "task": "Confer with clients regarding price and type of arrangement desired and the date, time, and place of delivery.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.58
+    },
+    {
+      "task": "Repair broken parts, using precision hand tools and soldering irons.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.72
+    },
+    {
+      "task": "Plan arrangement according to client's requirements, using knowledge of design and properties of materials, or select appropriate standard design pattern.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.41
+    },
+    {
+      "task": "Conduct classes or demonstrations, or train other workers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.06
     },
     {
       "task": "Create and change in-store and window displays, designs, and looks to enhance a shop's image.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.93
+    },
+    {
+      "task": "Unpack stock as it comes into the shop.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.14
     },
     {
       "task": "Perform general cleaning duties in the store to ensure the shop is clean and tidy.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.85
     },
     {
-      "task": "Trim material and arrange bouquets, wreaths, terrariums, and other items, using trimmers, shapers, wire, pins, and other materials.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Wrap and price completed arrangements.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Order and purchase flowers and supplies from wholesalers and growers.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Select flora and foliage for arrangements, working with numerous combinations to synthesize and develop new creations.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Water plants, and cut, condition, and clean flowers and foliage for storage.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Deliver arrangements to customers, or oversee employees responsible for deliveries.",
-      "task_type": "Core"
+      "task": "Decorate, or supervise the decoration of, buildings, halls, churches, or other facilities for parties, weddings and other occasions.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.78
     },
     {
       "task": "Inform customers about the care, maintenance, and handling of various flowers and foliage, indoor plants, and other items.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.86
+    },
+    {
+      "task": "Perform office and retail service duties, such as keeping financial records, serving customers, answering telephones, selling giftware items, and receiving payment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.24
+    },
+    {
+      "task": "Trim material and arrange bouquets, wreaths, terrariums, and other items, using trimmers, shapers, wire, pins, floral tape, foam, and other materials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.32
+    },
+    {
+      "task": "Wrap and price completed arrangements.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
+    },
+    {
+      "task": "Order and purchase flowers and supplies from wholesalers and growers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.45
+    },
+    {
+      "task": "Select flora and foliage for arrangements, working with numerous combinations to synthesize and develop new creations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.5
+    },
+    {
+      "task": "Water plants, and cut, condition, and clean flowers and foliage for storage.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.4
+    },
+    {
+      "task": "Deliver arrangements to customers, or oversee employees responsible for deliveries.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.43
     }
   ],
   "technology_skills": [
@@ -1606,6 +1662,10 @@
       "weight": 0.5
     },
     {
+      "name": "Electronic medical record EMR software",
+      "weight": 0.25
+    },
+    {
       "name": "Eyeglass design software",
       "weight": 0.25
     },
@@ -1619,6 +1679,10 @@
     },
     {
       "name": "Point of sale POS software",
+      "weight": 0.25
+    },
+    {
+      "name": "SAP software",
       "weight": 0.25
     },
     {
@@ -1644,11 +1708,43 @@
   ],
   "tools_used": [
     {
+      "name": "3-way screwdrivers",
+      "weight": 0.25
+    },
+    {
+      "name": "Angling pliers",
+      "weight": 0.25
+    },
+    {
       "name": "Artists' paint brushes",
       "weight": 0.25
     },
     {
+      "name": "Ball cutters",
+      "weight": 0.25
+    },
+    {
+      "name": "Bent post pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Box cutters",
+      "weight": 0.25
+    },
+    {
+      "name": "Bunch cutters",
+      "weight": 0.25
+    },
+    {
       "name": "Bypass pruners",
+      "weight": 0.25
+    },
+    {
+      "name": "Candle cups",
+      "weight": 0.25
+    },
+    {
+      "name": "Cutting pliers",
       "weight": 0.25
     },
     {
@@ -1657,6 +1753,18 @@
     },
     {
       "name": "Digital cash registers",
+      "weight": 0.25
+    },
+    {
+      "name": "Drill presses",
+      "weight": 0.25
+    },
+    {
+      "name": "Flat nose pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Flathead screwdrivers",
       "weight": 0.25
     },
     {
@@ -1684,7 +1792,27 @@
       "weight": 0.25
     },
     {
+      "name": "Hand misters",
+      "weight": 0.25
+    },
+    {
+      "name": "Heat shrink dryers",
+      "weight": 0.25
+    },
+    {
+      "name": "Helium tanks",
+      "weight": 0.25
+    },
+    {
+      "name": "Hex nut wrenches",
+      "weight": 0.25
+    },
+    {
       "name": "Hot glue guns",
+      "weight": 0.25
+    },
+    {
+      "name": "Lab snips",
       "weight": 0.25
     },
     {
@@ -1692,11 +1820,35 @@
       "weight": 0.25
     },
     {
+      "name": "Mini power drills",
+      "weight": 0.25
+    },
+    {
+      "name": "Mini screwdrivers",
+      "weight": 0.25
+    },
+    {
       "name": "Multi-line telephone systems",
       "weight": 0.25
     },
     {
+      "name": "Needlenose pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Nut wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Nylon-brass mallets",
+      "weight": 0.25
+    },
+    {
       "name": "Personal computers",
+      "weight": 0.25
+    },
+    {
+      "name": "Phillips screwdrivers",
       "weight": 0.25
     },
     {
@@ -1712,6 +1864,30 @@
       "weight": 0.25
     },
     {
+      "name": "Riveting hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Screw extracting pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Screw grippers",
+      "weight": 0.25
+    },
+    {
+      "name": "Self-closing tweezers",
+      "weight": 0.25
+    },
+    {
+      "name": "Side cutting pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Snipe nose pliers",
+      "weight": 0.25
+    },
+    {
       "name": "Tablet computers",
       "weight": 0.25
     },
@@ -1721,6 +1897,10 @@
     },
     {
       "name": "Watering machines",
+      "weight": 0.25
+    },
+    {
+      "name": "pH testers",
       "weight": 0.25
     }
   ],

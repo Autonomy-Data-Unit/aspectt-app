@@ -1545,47 +1545,393 @@
   "tasks": [
     {
       "task": "Hang, fold, package, and tag finished articles for delivery to customers.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.58
     },
     {
-      "task": "Finish fancy garments, pleated garments, pants, jackets, shirts, skirts, and other articles, using hand irons or pressing machines for high-quality finishes.",
-      "task_type": "Core"
+      "task": "Slide material back and forth over heated, metal, ball-shaped forms to smooth and press portions of garments that cannot be satisfactorily pressed with flat pressers or hand irons.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.31
     },
     {
-      "task": "Operate steam, hydraulic, or other pressing machines and adjust controls to remove wrinkles and shape garments and flatwork items.",
-      "task_type": "Core"
+      "task": "Finish pleated garments, determining sizes of pleats from evidence of old pleats or from work orders, using machine presses or hand irons.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.48
     },
     {
-      "task": "Remove finished pieces from pressing machines and hang or stack them for cooling, or forward for additional processing.",
-      "task_type": "Core"
+      "task": "Remove finished pieces from pressing machines and hang or stack them for cooling, or forward them for additional processing.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.5
     },
     {
-      "task": "Prepare materials for pressing by straightening, smoothing, and positioning them on tables or feeding mechanisms.",
-      "task_type": "Core"
+      "task": "Lower irons, rams, or pressing heads of machines into position over material to be pressed.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.47
     },
     {
-      "task": "Identify and treat spots on garments, and remove stains using appropriate solvents and procedures based on fabric and stain types.",
-      "task_type": "Core"
+      "task": "Operate steam, hydraulic, or other pressing machines to remove wrinkles from garments and flatwork items, or to shape, form, or patch articles.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.57
     },
     {
-      "task": "Sort and count articles to be cleaned, and load them into washers or dry-cleaning machines, directing other workers as needed.",
-      "task_type": "Core"
+      "task": "Iron or press articles, fabrics, and furs, using hand irons or pressing machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.73
     },
     {
-      "task": "Clean and maintain pressing machines, and inspect machinery to determine necessary adjustments and repairs.",
-      "task_type": "Core"
+      "task": "Straighten, smooth, or shape materials to prepare them for pressing.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.51
     },
     {
-      "task": "Operate extractors and driers, and remove items from washing or dry-cleaning machines, directing other workers as necessary.",
-      "task_type": "Core"
+      "task": "Position materials such as cloth garments, felt, or straw on tables, dies, or feeding mechanisms of pressing machines, or on ironing boards or work tables.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.17
     },
     {
-      "task": "Examine and measure finished articles, and inspect products to identify defects or variations from processing standards.",
-      "task_type": "Core"
+      "task": "Moisten materials to soften and smooth them.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.12
     },
     {
-      "task": "Start and control machines to wash, bleach, dye, or otherwise process fabrics and monitor conditions to ensure compliance with standards.",
-      "task_type": "Core"
+      "task": "Finish velvet garments by steaming them on bucks of hot-head presses or steam tables, and brushing pile (nap) with handbrushes.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.12
+    },
+    {
+      "task": "Select appropriate pressing machines, based on garment properties such as heat tolerance.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.31
+    },
+    {
+      "task": "Activate and adjust machine controls to regulate temperature and pressure of rollers, ironing shoes, or plates, according to specifications.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.06
+    },
+    {
+      "task": "Identify and treat spots on garments.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.41
+    },
+    {
+      "task": "Shrink, stretch, or block articles by hand to conform to original measurements, using forms, blocks, and steam.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.41
+    },
+    {
+      "task": "Select, install, and adjust machine components, including pressing forms, rollers, and guides, using hoists and hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.58
+    },
+    {
+      "task": "Examine and measure finished articles to verify conformance to standards, using measuring devices such as tape measures and micrometers.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.16
+    },
+    {
+      "task": "Sew ends of cloth together, by hand or using machines, to form endless lengths of cloth to facilitate processing.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.53
+    },
+    {
+      "task": "Measure fabric to specifications, cut uneven edges with shears, fold material, and press it with an iron to form a heading.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.12
+    },
+    {
+      "task": "Press ties on small pressing machines.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.07
+    },
+    {
+      "task": "Use covering cloths to prevent equipment from damaging delicate fabrics.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.25
+    },
+    {
+      "task": "Brush materials made of suede, leather, or felt to remove spots or to raise and smooth naps.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.04
+    },
+    {
+      "task": "Insert heated metal forms into ties and touch up rough places with hand irons.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.08
+    },
+    {
+      "task": "Perform machine maintenance, such as cleaning and oiling equipment, and repair or replace worn or defective parts.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.71
+    },
+    {
+      "task": "Immerse articles in bleaching baths to strip colors.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.39
+    },
+    {
+      "task": "Hang curtains, drapes, blankets, pants, and other garments on stretch frames to dry.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.69
+    },
+    {
+      "task": "Identify articles' fabrics and original dyes by sight and touch, or by testing samples with fire or chemical reagents.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.43
+    },
+    {
+      "task": "Match sample colors, applying knowledge of bleaching agent and dye properties, and types, construction, conditions, and colors of articles.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.85
+    },
+    {
+      "task": "Apply bleaching powders to spots and spray them with steam to remove stains from fabrics that do not respond to other cleaning solvents.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.3
+    },
+    {
+      "task": "Spray steam, water, or air over spots to flush out chemicals, dry material, raise naps, or brighten colors.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.09
+    },
+    {
+      "task": "Spread soiled articles on work tables, and position stained portions over vacuum heads or on marble slabs.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.32
+    },
+    {
+      "task": "Operate machines that comb, dry and polish furs, clean, sterilize and fluff feathers and blankets, or roll and package towels.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.81
+    },
+    {
+      "task": "Pre-soak, sterilize, scrub, spot-clean, and dry contaminated or stained articles, using neutralizer solutions and portable machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.01
+    },
+    {
+      "task": "Determine spotting procedures and proper solvents, based on fabric and stain types.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.09
+    },
+    {
+      "task": "Examine and sort into lots articles to be cleaned, according to color, fabric, dirt content, and cleaning technique required.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.12
+    },
+    {
+      "task": "Start washers, dry cleaners, driers, or extractors, and turn valves or levers to regulate machine processes and the volume of soap, detergent, water, bleach, starch, and other additives.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.3
+    },
+    {
+      "task": "Sort and count articles removed from dryers, and fold, wrap, or hang them.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.21
+    },
+    {
+      "task": "Mix and add detergents, dyes, bleaches, starches, and other solutions and chemicals to clean, color, dry, or stiffen articles.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.87
+    },
+    {
+      "task": "Load articles into washers or dry-cleaning machines, or direct other workers to perform loading.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.34
+    },
+    {
+      "task": "Receive and mark articles for laundry or dry cleaning with identifying code numbers or names, using hand or machine markers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.06
+    },
+    {
+      "task": "Drive trucks to transport crews, materials, and equipment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.02
+    },
+    {
+      "task": "Communicate with supervisors and other workers, using equipment such as wireless phones, pagers, or radio telephones.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.04
+    },
+    {
+      "task": "Prepare and keep records of actions taken, including maintenance and repair work.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.9
+    },
+    {
+      "task": "Requisition or order tools and equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.33
+    },
+    {
+      "task": "Thread ends of cloth or twine through specified sections of equipment prior to processing.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Key in processing instructions to program electronic equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.37
+    },
+    {
+      "task": "Soak specified textile products for designated times.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.39
+    },
+    {
+      "task": "Install, level, and align components such as gears, chains, dies, cutters, and needles.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.82
+    },
+    {
+      "task": "Mount rolls of cloth on machines, using hoists, or place textile goods in machines or pieces of equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.92
+    },
+    {
+      "task": "Ravel seams that connect cloth ends when processing is completed.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.47
+    },
+    {
+      "task": "Confer with coworkers to get information about order details, processing plans, or problems that occur.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.06
+    },
+    {
+      "task": "Inspect machinery to determine necessary adjustments and repairs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.06
+    },
+    {
+      "task": "Adjust equipment controls to maintain specified heat, tension, and speed.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.45
+    },
+    {
+      "task": "Study guides, charts, and specification sheets, and confer with supervisors to determine machine setup requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.38
+    },
+    {
+      "task": "Remove dyed articles from tanks and machines for drying and further processing.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.46
+    },
+    {
+      "task": "Test solutions used to process textile goods to detect variations from standards.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.37
+    },
+    {
+      "task": "Record production information such as fabric yardage processed, temperature readings, fabric tensions, and machine speeds.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
+    },
+    {
+      "task": "Examine and feel products to identify defects and variations from coloring and other processing standards.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.45
+    },
+    {
+      "task": "Start and control machines and equipment to wash, bleach, dye, or otherwise process and finish fabric, yarn, thread, or other textile goods.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.58
+    },
+    {
+      "task": "Monitor factors such as temperatures and dye flow rates to ensure that they are within specified ranges.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.53
+    },
+    {
+      "task": "Prepare dyeing machines for production runs, and conduct test runs of machines to ensure their proper operation.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.37
+    },
+    {
+      "task": "Observe display screens, control panels, equipment, and cloth entering or exiting processes to determine if equipment is operating correctly.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.55
+    },
+    {
+      "task": "Notify supervisors or mechanics of equipment malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.53
+    },
+    {
+      "task": "Weigh ingredients, such as dye, to be mixed together for use in textile processing.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.64
+    },
+    {
+      "task": "Sprinkle chemical solvents over stains, and pat areas with brushes or sponges to remove stains.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.87
     }
   ],
   "technology_skills": [
@@ -1622,12 +1968,24 @@
       "weight": 0.5
     },
     {
+      "name": "Property management system PMS software",
+      "weight": 0.5
+    },
+    {
       "name": "Sales processing software",
       "weight": 0.5
     },
     {
       "name": "Wash-Dry-Fold POS",
       "weight": 0.5
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Route mapping software",
+      "weight": 0.3333333333333333
     },
     {
       "name": "Word processing software",
@@ -1638,11 +1996,19 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Linux",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Microsoft Outlook",
       "weight": 0.16666666666666666
     },
     {
       "name": "Microsoft PowerPoint",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SAP software",
       "weight": 0.16666666666666666
     }
   ],
@@ -1662,10 +2028,6 @@
     {
       "name": "Industrial sewing machines",
       "weight": 1.1666666666666667
-    },
-    {
-      "name": "Digital micrometers",
-      "weight": 1.0
     },
     {
       "name": "Electric fabric cutters",
@@ -1748,10 +2110,6 @@
       "weight": 1.0
     },
     {
-      "name": "Steam tables",
-      "weight": 1.0
-    },
-    {
       "name": "Tunnel presses",
       "weight": 1.0
     },
@@ -1788,15 +2146,7 @@
       "weight": 0.5
     },
     {
-      "name": "Colorimetric detector tubes",
-      "weight": 0.5
-    },
-    {
       "name": "Continuous tunnel washers",
-      "weight": 0.5
-    },
-    {
-      "name": "Direct read air monitors",
       "weight": 0.5
     },
     {
@@ -1832,19 +2182,11 @@
       "weight": 0.5
     },
     {
-      "name": "Handheld refrigerant leak detectors",
-      "weight": 0.5
-    },
-    {
       "name": "Industrial clothes dryers",
       "weight": 0.5
     },
     {
       "name": "Industrial washing machines",
-      "weight": 0.5
-    },
-    {
-      "name": "Infrared gas analyzers",
       "weight": 0.5
     },
     {
@@ -1865,14 +2207,6 @@
     },
     {
       "name": "Overhead conveyor racks",
-      "weight": 0.5
-    },
-    {
-      "name": "Photoionization detectors",
-      "weight": 0.5
-    },
-    {
-      "name": "Proximity monitors",
       "weight": 0.5
     },
     {
@@ -1908,27 +2242,39 @@
       "weight": 0.5
     },
     {
-      "name": "Beam dyeing machines",
+      "name": "Bucket machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Liquid pumps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Material pumping hoses",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mobile radios",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Portable drills",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Prying bars",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Material hoists",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Bleaching machines",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Continuous dyeing machines",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Digital calipers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Dye becks",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Dye extractors",
+      "name": "Wheeled forklifts",
       "weight": 0.16666666666666666
     }
   ],

@@ -1544,52 +1544,268 @@
   ],
   "tasks": [
     {
-      "task": "Call on policyholders to deliver and explain policies, analyze insurance programs, suggest changes, or change beneficiaries.",
-      "task_type": "Core"
+      "task": "Call on policyholders to deliver and explain policy, to analyze insurance program and suggest additions or changes, or to change beneficiaries.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
     },
     {
-      "task": "Attend meetings and seminars to learn about new products, skills, and receive technical assistance for account development.",
-      "task_type": "Core"
+      "task": "Attend meetings, seminars, and programs to learn about new products and services, learn new skills, and receive technical assistance in developing new accounts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.57
     },
     {
-      "task": "Calculate premiums, establish payment methods, and ensure policy requirements are met, including medical examinations and forms.",
-      "task_type": "Core"
+      "task": "Calculate premiums and establish payment method.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
     },
     {
-      "task": "Authorize reinsurance of policies when risks are high and decline excessive risks.",
-      "task_type": "Core"
+      "task": "Authorize reinsurance of policy when risk is high.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.92
     },
     {
-      "task": "Review company records to assess amounts of insurance in force and evaluate the potential for losses due to catastrophe or excessive insurance.",
-      "task_type": "Core"
+      "task": "Review company records to determine amount of insurance in force on single risk or group of closely related risks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
     },
     {
-      "task": "Inspect property to assess its condition and determine if it is a good insurance risk, taking into account various factors affecting risk.",
-      "task_type": "Core"
+      "task": "Decrease value of policy when risk is substandard and specify applicable endorsements or apply rating to ensure safe, profitable distribution of risks, using reference materials.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
     },
     {
-      "task": "Develop marketing strategies and sell various types of insurance policies, explaining features, advantages, and disadvantages of plans.",
-      "task_type": "Core"
+      "task": "Evaluate possibility of losses due to catastrophe or excessive insurance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
     },
     {
-      "task": "Interview prospective clients to gather data about their financial resources, needs, and existing coverage, and discuss insurance options.",
-      "task_type": "Core"
+      "task": "Write to field representatives, medical personnel, or others to obtain further information, quote rates, or explain company underwriting policies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
     },
     {
-      "task": "Confer with clients to obtain and provide information for claims, customize insurance programs, and monitor insurance claims for equitable settlement.",
-      "task_type": "Core"
+      "task": "Decline excessive risks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.43
     },
     {
-      "task": "Perform administrative tasks, such as maintaining records, handling policy renewals, and supervising staff engaged in sales activities.",
-      "task_type": "Core"
+      "task": "Explain necessary bookkeeping requirements for customer to implement and provide group insurance program.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.32
     },
     {
-      "task": "Develop financial plans based on clients' financial status and prepare proposals to sell services that meet their needs.",
-      "task_type": "Core"
+      "task": "Plan and oversee incorporation of insurance program into bookkeeping system of company.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
     },
     {
-      "task": "Discuss financial options with clients and keep them informed about their insurance transactions.",
-      "task_type": "Core"
+      "task": "Inspect property, examining its general condition, type of construction, age, and other characteristics, to decide if it is a good insurance risk.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
+    },
+    {
+      "task": "Examine documents to determine degree of risk from factors such as applicant health, financial standing and value, and condition of property.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.53
+    },
+    {
+      "task": "Develop marketing strategies to compete with other individuals or companies who sell insurance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.9
+    },
+    {
+      "task": "Explain features, advantages, and disadvantages of various policies to promote sale of insurance plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.23
+    },
+    {
+      "task": "Monitor insurance claims to ensure they are settled equitably for both the client and the insurer.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
+    },
+    {
+      "task": "Sell various types of insurance policies to businesses and individuals on behalf of insurance companies, including automobile, fire, life, property, medical and dental insurance, or specialized policies, such as marine, farm/crop, and medical malpractice.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.37
+    },
+    {
+      "task": "Seek out new clients and develop clientele by networking to find new customers and generate lists of prospective clients.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Customize insurance programs to suit individual customers, often covering a variety of risks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.43
+    },
+    {
+      "task": "Contact underwriter and submit forms to obtain binder coverage.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.05
+    },
+    {
+      "task": "Confer with clients to obtain and provide information when claims are made on a policy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.08
+    },
+    {
+      "task": "Perform administrative tasks, such as maintaining records and handling policy renewals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Select company that offers type of coverage requested by client to underwrite policy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Ensure that policy requirements are fulfilled, including any necessary medical examinations and the completion of appropriate forms.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.96
+    },
+    {
+      "task": "Interview clients to determine clients' assets, liabilities, cash flow, insurance coverage, tax status, or financial objectives.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.42
+    },
+    {
+      "task": "Evaluate costs and revenue of agreements to determine continued profitability.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.65
+    },
+    {
+      "task": "Contact prospective customers to present information and explain available services.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.9
+    },
+    {
+      "task": "Calculate costs for billings or commissions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.84
+    },
+    {
+      "task": "Prepare financial reports to monitor client or corporate finances.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.82
+    },
+    {
+      "task": "Supervise support staff and ensure proper execution of contracts.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.24
+    },
+    {
+      "task": "Refer exporters to experts in areas such as trade financing, international marketing, government export requirements, international banking, or marine insurance.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.45
+    },
+    {
+      "task": "Assist clients in obtaining insurance reimbursements.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.7
+    },
+    {
+      "task": "Obtain or arrange cargo insurance.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.23
+    },
+    {
+      "task": "Listen to and resolve customer complaints regarding services, products, or personnel.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.88
+    },
+    {
+      "task": "Coordinate sales promotion activities, such as preparing merchandise displays and advertising copy.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 3.75
+    },
+    {
+      "task": "Analyze details of sales territories to assess their growth potential and to set quotas.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 3.81
+    },
+    {
+      "task": "Monitor sales staff performance to ensure that goals are met.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 4.29
+    },
+    {
+      "task": "Prepare sales and inventory reports for management and budget departments.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 4.02
+    },
+    {
+      "task": "Attend company meetings to exchange product information and coordinate work activities with other departments.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.63
+    },
+    {
+      "task": "Plan and prepare work schedules, and assign employees to specific duties.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.75
+    },
+    {
+      "task": "Provide staff with assistance in performing difficult or complicated duties.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 4.06
+    },
+    {
+      "task": "Confer with company officials to develop methods and procedures to increase sales, expand markets, and promote business.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.79
+    },
+    {
+      "task": "Hire, train, and evaluate personnel.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.86
+    },
+    {
+      "task": "Direct and supervise employees engaged in sales, inventory-taking, reconciling cash receipts, or performing specific services.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.95
     }
   ],
   "technology_skills": [
@@ -1630,8 +1846,20 @@
       "weight": 0.4107142857142857
     },
     {
+      "name": "SAP software",
+      "weight": 0.38888888888888884
+    },
+    {
       "name": "Email software",
       "weight": 0.3472222222222222
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.30952380952380953
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.30952380952380953
     },
     {
       "name": "Customer relationship management CRM software",
@@ -1646,8 +1874,88 @@
       "weight": 0.26785714285714285
     },
     {
+      "name": "Database software",
+      "weight": 0.25396825396825395
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.1845238095238095
+    },
+    {
       "name": "Salesforce software",
       "weight": 0.16666666666666666
+    },
+    {
+      "name": "AMS Services AMS 360",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "AMS Services AMS Sagitta",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Advantage Information Systems The Agency Advantage",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Agency Master",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Agency Software AgencyPro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Agency management software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Allied Financial Software Act4Advisors",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Allstar Software Systems Kofax",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Anodas Software Limited Phoenix",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Applied Systems The Agency Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Applied Systems Vision",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Benefits Technology Group SalesLogix",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CSC nbAccelerator",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Consilience Software Maven Insurance Automation Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Cygnus Software IncomeMax",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "DORIS FILESERVERonline",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "E-Z Data SmartOffice",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FINEOS Insure",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Facebook",
@@ -1655,6 +1963,66 @@
     },
     {
       "name": "Fair Isaac Enterprise Decision Management for Insurance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fannie Mae Desktop Underwriter",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fiserv Advanced Underwriting",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fiserv FSC Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "G2X Agility:Insurance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "GBS Agency Expert",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Healthcare common procedure coding system HCPCS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hoffman Computer Systems Amsoft",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "IBM FileNet Content Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "InStar Orion",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Infospectrum Quick Insure",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Systems WebWriter BackOffice",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Technologies Corporation InsurancePro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Technologies ForeSight Enterprise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Technology Consultants WOW",
       "weight": 0.14285714285714285
     },
     {
@@ -1666,6 +2034,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "LIDP Consulting Services The Administrator",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "LexisNexis",
       "weight": 0.14285714285714285
     },
@@ -1674,7 +2046,87 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "MI-Assistant MI Management System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Medical procedure coding software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "NIIT Technologies WinRisk",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "NaviSys Front Office",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "North American Software Associates Eclipse",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Online Database Solutions Agent Intelligence",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "QualCorp FormsPlus",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "QuickQuote QuickFile Agency Management System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "RGA AURA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "RGA Facultative Application Console",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Results International Systems Artius Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SIS SEMCI PARTNER",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Skywire Software InsBridge",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Skywire Software Policyware",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tangle S Creations Your Insurance Office",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Terrace Consulting AgencyInsight",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tritech Financial Systems General Insurance Management System GIMS",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Underwriting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "United Systems and Software Individual Life and Health Administration System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Valen Technologies Risk Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Vulcan Solutions Vulcan Insurance",
       "weight": 0.14285714285714285
     },
     {
@@ -1682,11 +2134,291 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "irs-aims MARS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ADP/Vantra VOLTS",
+      "weight": 0.125
+    },
+    {
+      "name": "AIQ Systems TradingExpert Pro",
+      "weight": 0.125
+    },
+    {
+      "name": "AnalyzerXL",
+      "weight": 0.125
+    },
+    {
+      "name": "Aspen Graphics Technical Analysis Software",
+      "weight": 0.125
+    },
+    {
+      "name": "Bloomberg Professional",
+      "weight": 0.125
+    },
+    {
+      "name": "BondDesk Group Trader WorkStation",
+      "weight": 0.125
+    },
+    {
+      "name": "CQG Integrated Client",
+      "weight": 0.125
+    },
+    {
+      "name": "CSI Complex Systems ClientTrade",
+      "weight": 0.125
+    },
+    {
+      "name": "CableSoft LiveWire Trader",
+      "weight": 0.125
+    },
+    {
+      "name": "Calypso Technology Calypso Asset Management",
+      "weight": 0.125
+    },
+    {
+      "name": "Charles River Development Charles River Investment Management System",
+      "weight": 0.125
+    },
+    {
+      "name": "Citi The Yield Book Calculator",
+      "weight": 0.125
+    },
+    {
+      "name": "Database management software",
+      "weight": 0.125
+    },
+    {
+      "name": "Derivicom FinOptions XL",
+      "weight": 0.125
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.125
+    },
+    {
       "name": "Financial needs analysis software",
       "weight": 0.125
     },
     {
+      "name": "Fixed income alternative trading systems ATS",
+      "weight": 0.125
+    },
+    {
+      "name": "Fund accounting software",
+      "weight": 0.125
+    },
+    {
+      "name": "FundCount Web",
+      "weight": 0.125
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.125
+    },
+    {
+      "name": "Imagine Software Imagine Trading System",
+      "weight": 0.125
+    },
+    {
+      "name": "Knight BondPoint",
+      "weight": 0.125
+    },
+    {
+      "name": "Leading Market Technologies EXPO",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.125
+    },
+    {
+      "name": "Multiple trading transaction systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle Siebel CRM",
+      "weight": 0.125
+    },
+    {
+      "name": "Project management software",
+      "weight": 0.125
+    },
+    {
+      "name": "Realm Business Solutions INSIGHT for ARGUS",
+      "weight": 0.125
+    },
+    {
+      "name": "Redi Enterprise Development Redi ERM",
+      "weight": 0.125
+    },
+    {
+      "name": "Regulatory agency compliance software",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.125
+    },
+    {
+      "name": "Sales analysis software",
+      "weight": 0.125
+    },
+    {
+      "name": "SunGard MicroHedge",
+      "weight": 0.125
+    },
+    {
+      "name": "Telvent DTN ProphetX",
+      "weight": 0.125
+    },
+    {
+      "name": "Thomson Reuters Tradeweb",
+      "weight": 0.125
+    },
+    {
+      "name": "Tradeweb Markets Tradeweb",
+      "weight": 0.125
+    },
+    {
+      "name": "Trading Blox",
+      "weight": 0.125
+    },
+    {
+      "name": "Triple Point Commodity XL",
+      "weight": 0.125
+    },
+    {
+      "name": "Web-based information systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Web-based trading systems",
+      "weight": 0.125
+    },
+    {
+      "name": "AESDirect",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Arcline ArcFreight",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Brokerage software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "CEDAS Gateway",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "CargoWise ediEnterprise",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "IES Ecellerate",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Kewill Global Trade and Logistics",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft OneNote",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Order management software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Package tracking software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Posting software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "QuestaWeb TradeMaster QW",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "RedBerry Logistics",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Riege Software International Procars",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Star Tec Software Hercules Export",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "TMW Enterprise Transportation Management Systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Tailwind Management Systems Tailwind",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Transportation management software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Transportation management system TMS software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Web-based dispatch software",
       "weight": 0.1111111111111111
     },
     {
@@ -1698,11 +2430,59 @@
       "weight": 0.041666666666666664
     },
     {
+      "name": "Customer information databases",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Delphi Discovery",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Electronic data interchange EDI software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Financial accounting software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Flow chart software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Fuze cloud communications and collaboration software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Graphics creation software",
+      "weight": 0.041666666666666664
+    },
+    {
       "name": "Microsoft Project",
       "weight": 0.041666666666666664
     },
     {
+      "name": "NetSuite ERP",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Online meeting software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "QuickBase business management software",
+      "weight": 0.041666666666666664
+    },
+    {
       "name": "Salesforce.com Salesforce CRM",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "SugarCRM Sugar UX",
       "weight": 0.041666666666666664
     },
     {
@@ -1748,6 +2528,18 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Digital cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Pen-based computers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Postage meters",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Computer data input scanners",
       "weight": 0.125
     },
@@ -1760,7 +2552,27 @@
       "weight": 0.125
     },
     {
+      "name": "Hand trucks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Radio frequency identification RFID scanners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Strapping machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Multiline telephone systems",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Printing calculators",
       "weight": 0.041666666666666664
     },
     {

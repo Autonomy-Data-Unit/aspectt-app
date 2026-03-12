@@ -1545,43 +1545,159 @@
   "tasks": [
     {
       "task": "Resolve customer complaints or answer customers' questions regarding policies and procedures.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.36
     },
     {
-      "task": "Supervise the work of office, administrative, or customer service employees to ensure adherence to quality standards, deadlines, and proper procedures.",
-      "task_type": "Core"
+      "task": "Supervise the work of office, administrative, or customer service employees to ensure adherence to quality standards, deadlines, and proper procedures, correcting errors or problems.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.4
     },
     {
-      "task": "Plan for or coordinate office services, such as equipment or supply acquisition, maintenance, or security services.",
-      "task_type": "Supplemental"
+      "task": "Coordinate or perform activities associated with shipping, receiving, distribution, or transportation.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.22
     },
     {
-      "task": "Develop work schedules according to budgets and workloads, prepare and issue work schedules, deadlines, and duty assignments for staff.",
-      "task_type": "Core"
+      "task": "Keep informed of provisions of labor-management agreements and their effects on departmental operations.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.43
+    },
+    {
+      "task": "Plan for or coordinate office services, such as equipment or supply acquisition or organization, disposal of assets, relocation, parking, maintenance, or security services.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.07
+    },
+    {
+      "task": "Monitor inventory levels and requisition or purchase supplies as needed.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.14
     },
     {
       "task": "Design, implement, or evaluate staff training and development programs, customer service initiatives, or performance measurement criteria.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.56
+    },
+    {
+      "task": "Participate in the work of subordinates to facilitate productivity or to overcome difficult aspects of work.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.85
     },
     {
       "task": "Consult with managers or other personnel to resolve problems in areas such as equipment performance, output quality, or work schedules.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.63
     },
     {
-      "task": "Make recommendations to management concerning staffing decisions or procedural changes and develop or update procedures, policies, or standards.",
-      "task_type": "Core"
+      "task": "Make recommendations to management concerning such issues as staffing decisions or procedural changes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.83
     },
     {
-      "task": "Coordinate activities with other supervisory personnel or work units and monitor inventory levels, requisitioning or purchasing supplies as needed.",
-      "task_type": "Core"
+      "task": "Develop or update procedures, policies, or standards.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.78
     },
     {
-      "task": "Train or instruct employees in job duties or company policies or arrange for training to be provided, and discuss job performance problems with employees to identify and resolve issues.",
-      "task_type": "Core"
+      "task": "Analyze financial activities of establishments or departments and provide input into budget planning and preparation processes.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.93
     },
     {
-      "task": "Evaluate employees' job performance and recommend appropriate personnel actions, while maintaining records pertaining to inventory, personnel, or machine maintenance.",
-      "task_type": "Core"
+      "task": "Coordinate activities with other supervisory personnel or with other work units or departments.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.88
+    },
+    {
+      "task": "Research, compile, and prepare reports, manuals, correspondence, or other information required by management or governmental agencies.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.98
+    },
+    {
+      "task": "Compute figures such as balances, totals, or commissions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.95
+    },
+    {
+      "task": "Maintain records pertaining to inventory, personnel, orders, supplies, or machine maintenance.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.68
+    },
+    {
+      "task": "Prepare and issue work schedules, deadlines, and duty assignments for office or administrative staff.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.06
+    },
+    {
+      "task": "Interpret and communicate work procedures and company policies to staff.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.03
+    },
+    {
+      "task": "Recruit, interview, and select employees.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.04
+    },
+    {
+      "task": "Review records or reports pertaining to activities such as production, payroll, or shipping to verify details, monitor work activities, or evaluate performance.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.15
+    },
+    {
+      "task": "Evaluate employees' job performance and conformance to regulations and recommend appropriate personnel action.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.0
+    },
+    {
+      "task": "Train or instruct employees in job duties or company policies or arrange for training to be provided.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.99
+    },
+    {
+      "task": "Discuss job performance problems with employees to identify causes and issues and to work on resolving problems.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.12
+    },
+    {
+      "task": "Implement corporate or departmental policies, procedures, and service standards in conjunction with management.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.97
+    },
+    {
+      "task": "Provide employees with guidance in handling difficult or complex problems or in resolving escalated complaints or disputes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.34
+    },
+    {
+      "task": "Plan layouts of stockrooms, warehouses, or other storage areas, considering turnover, size, weight, or related factors pertaining to items stored.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.38
     }
   ],
   "technology_skills": [
@@ -1598,7 +1714,19 @@
       "weight": 0.1
     },
     {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.1
+    },
+    {
+      "name": "Blackboard software",
+      "weight": 0.1
+    },
+    {
       "name": "Bookkeeping software",
+      "weight": 0.1
+    },
+    {
+      "name": "Citrix cloud computing software",
       "weight": 0.1
     },
     {
@@ -1614,6 +1742,10 @@
       "weight": 0.1
     },
     {
+      "name": "Delphi Technology",
+      "weight": 0.1
+    },
+    {
       "name": "Document management system software",
       "weight": 0.1
     },
@@ -1626,7 +1758,15 @@
       "weight": 0.1
     },
     {
+      "name": "Facebook",
+      "weight": 0.1
+    },
+    {
       "name": "FileMaker Pro",
+      "weight": 0.1
+    },
+    {
+      "name": "Fund accounting software",
       "weight": 0.1
     },
     {
@@ -1638,11 +1778,59 @@
       "weight": 0.1
     },
     {
+      "name": "GroupMe",
+      "weight": 0.1
+    },
+    {
+      "name": "HCSS HeavyBid",
+      "weight": 0.1
+    },
+    {
+      "name": "HCSS HeavyJob",
+      "weight": 0.1
+    },
+    {
+      "name": "Handheld computer device software",
+      "weight": 0.1
+    },
+    {
+      "name": "Healthcare common procedure coding system HCPCS",
+      "weight": 0.1
+    },
+    {
+      "name": "Henry Schein Dentrix",
+      "weight": 0.1
+    },
+    {
       "name": "Human resource management software HRMS",
       "weight": 0.1
     },
     {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.1
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.1
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.1
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.1
+    },
+    {
       "name": "Intuit QuickBooks",
+      "weight": 0.1
+    },
+    {
+      "name": "JamBoard",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis",
       "weight": 0.1
     },
     {
@@ -1654,11 +1842,31 @@
       "weight": 0.1
     },
     {
+      "name": "MEDITECH software",
+      "weight": 0.1
+    },
+    {
+      "name": "Medical condition coding software",
+      "weight": 0.1
+    },
+    {
+      "name": "Medical procedure coding software",
+      "weight": 0.1
+    },
+    {
+      "name": "MicroStrategy",
+      "weight": 0.1
+    },
+    {
       "name": "Microsoft Access",
       "weight": 0.1
     },
     {
       "name": "Microsoft Dynamics",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Dynamics GP",
       "weight": 0.1
     },
     {
@@ -1686,7 +1894,23 @@
       "weight": 0.1
     },
     {
+      "name": "Microsoft Project",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.1
+    },
+    {
       "name": "Microsoft Teams",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Visio",
       "weight": 0.1
     },
     {
@@ -1698,7 +1922,63 @@
       "weight": 0.1
     },
     {
+      "name": "Minitab",
+      "weight": 0.1
+    },
+    {
       "name": "Mozilla Firefox",
+      "weight": 0.1
+    },
+    {
+      "name": "Nearpod",
+      "weight": 0.1
+    },
+    {
+      "name": "NetSuite ERP",
+      "weight": 0.1
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle Fusion Applications",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle Taleo",
+      "weight": 0.1
+    },
+    {
+      "name": "Padlet",
       "weight": 0.1
     },
     {
@@ -1707,6 +1987,26 @@
     },
     {
       "name": "Project management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.1
+    },
+    {
+      "name": "Quicken",
+      "weight": 0.1
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.1
+    },
+    {
+      "name": "SAP Crystal Reports",
+      "weight": 0.1
+    },
+    {
+      "name": "SAP software",
       "weight": 0.1
     },
     {
@@ -1726,11 +2026,35 @@
       "weight": 0.1
     },
     {
+      "name": "SmugMug Flickr",
+      "weight": 0.1
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.1
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.1
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.1
+    },
+    {
       "name": "Web browser software",
       "weight": 0.1
     },
     {
       "name": "Work scheduling software",
+      "weight": 0.1
+    },
+    {
+      "name": "Yardi software",
+      "weight": 0.1
+    },
+    {
+      "name": "YouTube",
       "weight": 0.1
     }
   ],

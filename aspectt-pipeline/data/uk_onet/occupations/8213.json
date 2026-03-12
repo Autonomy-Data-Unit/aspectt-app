@@ -1545,79 +1545,711 @@
   "tasks": [
     {
       "task": "Collect money from customers, make change, and record transactions on customer receipts.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.97
     },
     {
       "task": "Turn in receipts and money received from deliveries.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.67
     },
     {
-      "task": "Perform emergency repairs, such as changing tires or installing light bulbs or spark plugs.",
-      "task_type": "Supplemental"
+      "task": "Perform emergency repairs, such as changing tires or installing light bulbs, fuses, tire chains, or spark plugs.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.59
     },
     {
       "task": "Use and maintain the tools or equipment found on commercial vehicles, such as weighing or measuring devices.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.99
     },
     {
-      "task": "Drive vehicles under three tons to transport materials to and from specified destinations.",
-      "task_type": "Core"
+      "task": "Drive vehicles with capacities under three tons to transport materials to and from specified destinations, such as railroad stations, plants, residences, offices, or within industrial yards.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.05
     },
     {
-      "task": "Report delays, accidents, or other traffic and transportation situations to bases using telephones or radios.",
-      "task_type": "Core"
+      "task": "Report delays, accidents, or other traffic and transportation situations to bases or other vehicles, using telephones or mobile two-way radios.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.73
     },
     {
-      "task": "Read maps and follow geographic directions.",
-      "task_type": "Core"
+      "task": "Read maps and follow written or verbal geographic directions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.7
     },
     {
-      "task": "Maintain records, such as vehicle logs, cargo records, or billing statements, in accordance with regulations.",
-      "task_type": "Core"
+      "task": "Maintain records, such as vehicle logs, records of cargo, or billing statements, in accordance with regulations.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.41
     },
     {
-      "task": "Inspect and maintain vehicle supplies and equipment to ensure vehicles are in proper working condition.",
-      "task_type": "Core"
+      "task": "Verify the contents of inventory loads against shipping papers.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.76
     },
     {
-      "task": "Obey traffic laws and ensure passengers follow safety regulations.",
-      "task_type": "Core"
+      "task": "Clean and wash rigs, ambulances, or equipment.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.96
+    },
+    {
+      "task": "Load and unload trucks, vans, or automobiles.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.59
+    },
+    {
+      "task": "Present bills and receipts and collect payments for goods delivered or loaded.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.5
+    },
+    {
+      "task": "Report any mechanical problems encountered with vehicles.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.79
+    },
+    {
+      "task": "Inspect and maintain vehicle supplies and equipment, such as gas, oil, water, tires, lights, or brakes, to ensure that vehicles are in proper working condition.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.72
+    },
+    {
+      "task": "Obey traffic laws and follow established traffic and transportation procedures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.83
+    },
+    {
+      "task": "Restrain or shackle violent patients.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.36
+    },
+    {
+      "task": "Perform minor maintenance on emergency medical services vehicles, such as ambulances.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.97
+    },
+    {
+      "task": "Listen to and resolve customers' complaints regarding products or services.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.99
+    },
+    {
+      "task": "Report facts concerning accidents or emergencies to hospital personnel or law enforcement officials.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.35
+    },
+    {
+      "task": "Perform routine vehicle maintenance, such as regulating tire pressure and adding gasoline, oil, and water.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Turn the taximeter on when passengers enter the cab, and turn it off when they reach the final destination.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Test vehicle equipment, such as lights, brakes, horns, or windshield wipers, to ensure proper operation.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Report to taxicab services or garages to receive vehicle assignments.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Provide passengers with information or advice about the local area, points of interest, hotels, or restaurants.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
       "task": "Provide passengers with assistance entering and exiting vehicles, and help them with any luggage.",
-      "task_type": "Core"
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
-      "task": "Pick up and drop off passengers at locations according to requests, appointments, or schedules.",
-      "task_type": "Core"
+      "task": "Pick up passengers at prearranged locations, at taxi stands, or by cruising streets in high-traffic areas.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
-      "task": "Communicate with dispatchers to exchange information and receive requests for passenger service.",
-      "task_type": "Core"
+      "task": "Perform minor vehicle repairs, such as cleaning spark plugs, or take vehicles to mechanics for servicing.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
-      "task": "Test vehicle equipment to ensure proper operation, such as lights, brakes, and wipers.",
-      "task_type": "Core"
+      "task": "Collect fares or vouchers from passengers, and make change or issue receipts as necessary.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
-      "task": "Complete accident reports and report any vehicle malfunctions or needed repairs.",
-      "task_type": "Core"
+      "task": "Notify dispatchers or company mechanics of vehicle problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
-      "task": "Drive ambulances or assist drivers in transporting sick, injured, or convalescent persons.",
-      "task_type": "Core"
+      "task": "Follow relevant safety regulations and state laws governing vehicle operation, and ensure that passengers follow safety regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
-      "task": "Maintain knowledge of first-aid procedures and administer first aid as necessary.",
-      "task_type": "Core"
+      "task": "Drive taxicabs or privately owned vehicles to transport passengers.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
-      "task": "Identify and arrange to pick up specific customers or groups on a regular schedule.",
-      "task_type": "Core"
+      "task": "Determine fares based on trip distances and times, using taximeters and fee schedules, and announce fares to passengers.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
-      "task": "Provide passengers with information about the local area, points of interest, hotels, or restaurants.",
-      "task_type": "Core"
+      "task": "Complete accident reports when necessary.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Communicate with dispatchers by radio, telephone, or computer to exchange information and receive requests for passenger service.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Administer first aid, such as bandaging, splinting, or administering oxygen.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.85
+    },
+    {
+      "task": "Vacuum and clean interiors and wash and polish exteriors of automobiles.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Replace supplies and disposable items on ambulances.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.06
+    },
+    {
+      "task": "Drive trucks to deliver such items as food, medical supplies, or newspapers.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.32
+    },
+    {
+      "task": "Sell food specialties, such as sandwiches and beverages, to office workers and patrons of sports events.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Maintain trucks and food-dispensing equipment and clean inside of machines that dispense food or beverages.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.97
+    },
+    {
+      "task": "Arrange merchandise and sales promotion displays or issue sales promotion materials to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.17
+    },
+    {
+      "task": "Review lists of dealers, customers, or station drops and load trucks.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.51
+    },
+    {
+      "task": "Record sales or delivery information on daily sales or delivery record.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.04
+    },
+    {
+      "task": "Collect coins from vending machines, refill machines, and remove aged merchandise.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.1
+    },
+    {
+      "task": "Earn and maintain appropriate certifications.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.92
+    },
+    {
+      "task": "Write customer orders and sales contracts according to company guidelines.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.68
+    },
+    {
+      "task": "Drive ambulances or assist ambulance drivers in transporting sick, injured, or convalescent persons.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.47
+    },
+    {
+      "task": "Remove and replace soiled linens or equipment to maintain sanitary conditions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.57
+    },
+    {
+      "task": "Place patients on stretchers, and load stretchers into ambulances, usually with assistance from other attendants.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.26
+    },
+    {
+      "task": "Accompany and assist emergency medical technicians on calls.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.19
+    },
+    {
+      "task": "Inform regular customers of new products or services and price changes.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.06
+    },
+    {
+      "task": "Follow relevant safety regulations and state laws governing vehicle operation, and ensure that passengers follow safety regulations.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.78
+    },
+    {
+      "task": "Perform errands for customers or employers, such as delivering or picking up mail and packages.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.63
+    },
+    {
+      "task": "Operate vehicles with specialized equipment, such as wheelchair lifts, to transport and secure passengers with special needs.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.75
+    },
+    {
+      "task": "Notify dispatchers or company mechanics of vehicle problems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.64
+    },
+    {
+      "task": "Maintain knowledge of first-aid procedures.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.2
+    },
+    {
+      "task": "Comply with traffic regulations to operate vehicles in a safe and courteous manner.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.8
+    },
+    {
+      "task": "Drive shuttle busses, limousines, company cars, or privately owned vehicles to transport passengers.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.67
+    },
+    {
+      "task": "Perform routine vehicle maintenance, such as regulating tire pressure and adding gasoline, oil, and water.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.71
+    },
+    {
+      "task": "Complete accident reports when necessary.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.34
+    },
+    {
+      "task": "Communicate with dispatchers by radio, telephone, or computer to exchange information and receive requests for passenger service.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.58
+    },
+    {
+      "task": "Collect fares or vouchers from passengers, and make change or issue receipts as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.91
+    },
+    {
+      "task": "Perform minor vehicle repairs, such as cleaning spark plugs, or take vehicles to mechanics for servicing.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.71
+    },
+    {
+      "task": "Prepare and submit reports that may include the number of passengers or trips, hours worked, mileage driven fuel consumed, or fares received.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.66
+    },
+    {
+      "task": "Pick up and drop off passengers at regularly scheduled neighborhood locations, following strict time schedules.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.68
+    },
+    {
+      "task": "Pick up or meet passengers according to requests, appointments, or schedules.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.56
+    },
+    {
+      "task": "Provide passengers with assistance entering and exiting vehicles, and help them with any luggage.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.6
+    },
+    {
+      "task": "Provide passengers with information or advice about the local area, points of interest, hotels, or restaurants.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.48
+    },
+    {
+      "task": "Read maps and follow written and verbal geographic directions.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.26
+    },
+    {
+      "task": "Arrange to pick up particular customers or groups on a regular schedule.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.42
+    },
+    {
+      "task": "Regulate heating, lighting, and ventilation systems for passenger comfort.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.19
+    },
+    {
+      "task": "Report any vehicle malfunctions or needed repairs.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.73
+    },
+    {
+      "task": "Report delays, accidents, or other traffic and transportation situations, using telephones or mobile two-way radios.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.4
+    },
+    {
+      "task": "Test vehicle equipment, such as lights, brakes, horns, or windshield wipers, to ensure proper operation.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.84
+    },
+    {
+      "task": "Vacuum and clean interiors, and wash and polish exteriors of automobiles.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.74
+    },
+    {
+      "task": "Record vehicle routes.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.89
+    },
+    {
+      "task": "Check the condition of a vehicle's tires, brakes, windshield wipers, lights, oil, fuel, water, and safety equipment to ensure that everything is in working order.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.81
+    },
+    {
+      "task": "Direct workers in transportation or related services, such as pumping, moving, storing, or loading or unloading of materials.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Interpret transportation or tariff regulations, shipping orders, safety regulations, or company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.17
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
+    },
+    {
+      "task": "Plan and establish schedules.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Monitor field work to ensure proper performance and use of materials.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Maintain or verify records of time, materials, expenditures, or crew activities.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.9
+    },
+    {
+      "task": "Review orders, production schedules, blueprints, or shipping or receiving notices to determine work sequences and material shipping dates, types, volumes, or destinations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.94
+    },
+    {
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.11
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Plan work assignments and equipment allocations to meet transportation, operations or production goals.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.07
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Recommend or implement personnel actions, such as employee selection, evaluation, rewards, or disciplinary actions.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.63
+    },
+    {
+      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.89
+    },
+    {
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, personnel, or storage requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.77
+    },
+    {
+      "task": "Dispatch personnel and vehicles in response to telephone or radio reports of emergencies.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Perform or schedule repairs or preventive maintenance of vehicles or other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.86
+    },
+    {
+      "task": "Examine, measure, or weigh cargo or materials to determine specific handling requirements.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.99
+    },
+    {
+      "task": "Drive vehicles or operate machines or equipment to complete work assignments or to assist workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.93
+    },
+    {
+      "task": "Assist workers in tasks, such as loading vehicles.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Train workers in proper operational procedures and functions and explain company policies.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Take disciplinary action to address performance problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Requisition necessary supplies, equipment, or services.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Recruit and hire staff members.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, work methods, or customer services.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inspect materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as flight or car attendants.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1638,6 +2270,10 @@
       "weight": 0.2895417590539542
     },
     {
+      "name": "IBM Domino",
+      "weight": 0.25
+    },
+    {
       "name": "Actsoft Comet Tracker",
       "weight": 0.24029933481152993
     },
@@ -1651,6 +2287,10 @@
     },
     {
       "name": "EventHelix WebTaxi",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Facebook",
       "weight": 0.2159090909090909
     },
     {
@@ -1698,11 +2338,11 @@
       "weight": 0.125
     },
     {
-      "name": "Computer Directions Route Sales Tracker",
+      "name": "Computer aided dispatch software",
       "weight": 0.125
     },
     {
-      "name": "Computer aided dispatch software",
+      "name": "Eko",
       "weight": 0.125
     },
     {
@@ -1711,10 +2351,6 @@
     },
     {
       "name": "Recordkeeping software",
-      "weight": 0.125
-    },
-    {
-      "name": "Regulussoft Route Accounting",
       "weight": 0.125
     },
     {
@@ -1734,20 +2370,52 @@
       "weight": 0.125
     },
     {
+      "name": "AOL MapQuest",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Global positioning system GPS software",
       "weight": 0.09090909090909091
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.03954175905395418
     },
     {
       "name": "Scheduling software",
       "weight": 0.03954175905395418
     },
     {
+      "name": "@Road GeoManager",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Fleet management systems",
       "weight": 0.024390243902439025
     },
     {
-      "name": "Proof of delivery POD software",
+      "name": "XATA XATANET",
       "weight": 0.024390243902439025
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.015151515151515152
     },
     {
       "name": "Timekeeping software",
@@ -1756,10 +2424,6 @@
     {
       "name": "Work scheduling software",
       "weight": 0.015151515151515152
-    },
-    {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.03954175905395418
     }
   ],
   "tools_used": [
@@ -1784,6 +2448,22 @@
       "weight": 0.34090909090909094
     },
     {
+      "name": "Scanners",
+      "weight": 0.25
+    },
+    {
+      "name": "Alarms",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Closed-circuit TV cameras",
+      "weight": 0.2159090909090909
+    },
+    {
       "name": "Communications computers",
       "weight": 0.2159090909090909
     },
@@ -1804,6 +2484,10 @@
       "weight": 0.2159090909090909
     },
     {
+      "name": "Security cameras",
+      "weight": 0.2159090909090909
+    },
+    {
       "name": "Smartphones",
       "weight": 0.2159090909090909
     },
@@ -1820,6 +2504,10 @@
       "weight": 0.2159090909090909
     },
     {
+      "name": "Wheelchair lifts",
+      "weight": 0.2159090909090909
+    },
+    {
       "name": "Desktop computers",
       "weight": 0.16454175905395418
     },
@@ -1828,7 +2516,31 @@
       "weight": 0.14015151515151514
     },
     {
+      "name": "Electronic clipboards",
+      "weight": 0.125
+    },
+    {
       "name": "Handheld computers",
+      "weight": 0.125
+    },
+    {
+      "name": "Jacks",
+      "weight": 0.125
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.125
+    },
+    {
+      "name": "Laser printers",
+      "weight": 0.125
+    },
+    {
+      "name": "Protective gloves",
+      "weight": 0.125
+    },
+    {
+      "name": "Safety goggles",
       "weight": 0.125
     },
     {
@@ -1840,7 +2552,27 @@
       "weight": 0.125
     },
     {
+      "name": "Wheel blocks",
+      "weight": 0.125
+    },
+    {
+      "name": "Wheelchairs",
+      "weight": 0.125
+    },
+    {
+      "name": "Bicycle taxis",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Cell phones",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Digital surveillance camera systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Emergency first-aid kits",
       "weight": 0.09090909090909091
     },
     {
@@ -1852,11 +2584,91 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Pedicabs",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Portable fire extinguishers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Powered service doors",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Radio frequency identification RFID devices",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Rickshaws",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Snow chains",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Tire pressure gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Wheelchair restraint systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Grease guns",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Hydraulic jacks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Impact wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Lug wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Personal digital assistants PDA",
       "weight": 0.024390243902439025
     },
     {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.015151515151515152
+    },
+    {
       "name": "Laptop computers",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Photocopying equipment",
       "weight": 0.015151515151515152
     }
   ],

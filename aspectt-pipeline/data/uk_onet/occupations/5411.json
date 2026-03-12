@@ -1544,64 +1544,160 @@
   ],
   "tasks": [
     {
-      "task": "Read work orders and apply knowledge of materials to determine the types and amounts required to cover workpieces.",
-      "task_type": "Core"
+      "task": "Read work orders, and apply knowledge and experience with materials to determine types and amounts of materials required to cover workpieces.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.35
     },
     {
       "task": "Pick up and deliver furniture.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.95
     },
     {
-      "task": "Make, restore, or create custom upholstered furniture using hand tools and knowledge of fabrics and upholstery methods.",
-      "task_type": "Core"
+      "task": "Make, restore, or create custom upholstered furniture, using hand tools and knowledge of fabrics and upholstery methods.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.36
     },
     {
-      "task": "Draw cutting lines on material following patterns or blueprints using chalk, pencils, paint, or other methods.",
-      "task_type": "Supplemental"
+      "task": "Draw cutting lines on material following patterns, templates, sketches, or blueprints, using chalk, pencils, paint, or other methods.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.27
     },
     {
       "task": "Discuss upholstery fabrics, colors, and styles with customers, and provide cost estimates.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.02
     },
     {
-      "task": "Remove covering, webbing, padding, or defective springs from workpieces using hand tools such as hammers and tack pullers.",
-      "task_type": "Core"
+      "task": "Remove covering, webbing, padding, or defective springs from workpieces, using hand tools such as hammers and tack pullers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.06
     },
     {
-      "task": "Attach fasteners, grommets, buttons, and other accessories to covers or frames using hand tools.",
-      "task_type": "Core"
+      "task": "Attach fasteners, grommets, buttons, buckles, ornamental trim, and other accessories to covers or frames, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
     },
     {
-      "task": "Examine furniture frames, upholstery, springs, and webbing to locate defects and perform necessary repairs.",
-      "task_type": "Core"
+      "task": "Examine furniture frames, upholstery, springs, and webbing to locate defects.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.2
     },
     {
-      "task": "Fit, install, and secure material on frames using hand tools, power tools, glue, cement, or staples.",
-      "task_type": "Core"
+      "task": "Build furniture up with loose fiber stuffing, cotton, felt, or foam padding to form smooth, rounded surfaces.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.45
     },
     {
-      "task": "Sew rips or tears in material or create tufting using needles and thread.",
-      "task_type": "Core"
+      "task": "Fit, install, and secure material on frames, using hand tools, power tools, glue, cement, or staples.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.51
     },
     {
-      "task": "Measure and cut new covering materials using patterns and measuring instruments following sketches and design specifications.",
-      "task_type": "Core"
+      "task": "Repair furniture frames and refinish exposed wood.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.85
     },
     {
-      "task": "Design upholstery cover patterns and cutting plans based on sketches or customer descriptions.",
-      "task_type": "Supplemental"
+      "task": "Operate sewing machines or sew upholstery by hand to seam cushions and join various sections of covering material.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.21
     },
     {
-      "task": "Direct and coordinate the activities of employees engaged in the production or processing of goods.",
-      "task_type": "Core"
+      "task": "Interweave and fasten strips of webbing to the backs and undersides of furniture, using small hand tools and fasteners.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.82
     },
     {
-      "task": "Maintain operations data such as time, production, and cost records, and prepare management reports.",
-      "task_type": "Core"
+      "task": "Maintain records of time required to perform each job.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.08
     },
     {
-      "task": "Confer with other supervisors to coordinate operations and activities within or between departments.",
-      "task_type": "Core"
+      "task": "Sew rips or tears in material, or create tufting, using needles and thread.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.1
+    },
+    {
+      "task": "Attach bindings or apply solutions to edges of cut material to prevent raveling.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.84
+    },
+    {
+      "task": "Adjust or replace webbing, padding, or springs, and secure them in place.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.19
+    },
+    {
+      "task": "Stretch webbing and fabric, using webbing stretchers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.23
+    },
+    {
+      "task": "Design upholstery cover patterns and cutting plans, based on sketches, customer descriptions, or blueprints.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.09
+    },
+    {
+      "task": "Make, repair, or replace automobile upholstery and convertible and vinyl tops, using knowledge of fabric and upholstery methods.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.99
+    },
+    {
+      "task": "Collaborate with interior designers to decorate rooms and coordinate furnishing fabrics.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.75
+    },
+    {
+      "task": "Measure and cut new covering materials, using patterns and measuring and cutting instruments, following sketches and design specifications.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.49
+    },
+    {
+      "task": "Plan and develop new products and production processes.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.12
+    },
+    {
+      "task": "Set up and adjust machines and equipment.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.63
+    },
+    {
+      "task": "Requisition materials, supplies, equipment parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.72
+    },
+    {
+      "task": "Interpret specifications, blueprints, job orders, and company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.04
     }
   ],
   "technology_skills": [
@@ -1630,6 +1726,10 @@
       "weight": 0.25
     },
     {
+      "name": "Intuit QuickBooks",
+      "weight": 0.25
+    },
+    {
       "name": "LibreOffice Draw",
       "weight": 0.25
     },
@@ -1638,7 +1738,35 @@
       "weight": 0.25
     },
     {
+      "name": "Apple Safari",
+      "weight": 0.04
+    },
+    {
+      "name": "Apple iWork Pages",
+      "weight": 0.04
+    },
+    {
+      "name": "Aptean Made2Manage",
+      "weight": 0.04
+    },
+    {
+      "name": "Bowen & Groves M1 ERP",
+      "weight": 0.04
+    },
+    {
       "name": "Computer aided design CAD software",
+      "weight": 0.04
+    },
+    {
+      "name": "Computer aided manufacturing CAM software",
+      "weight": 0.04
+    },
+    {
+      "name": "Database software",
+      "weight": 0.04
+    },
+    {
+      "name": "Delphi Technology",
       "weight": 0.04
     },
     {
@@ -1646,7 +1774,55 @@
       "weight": 0.04
     },
     {
+      "name": "Encompix ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vantage ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vista ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Exact MAX",
+      "weight": 0.04
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.04
+    },
+    {
+      "name": "Giraffe Production Systems Giraffe Schedule System",
+      "weight": 0.04
+    },
+    {
       "name": "Google Chrome",
+      "weight": 0.04
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.04
+    },
+    {
+      "name": "Intacct ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Integrated materials management systems",
+      "weight": 0.04
+    },
+    {
+      "name": "Inventory management software",
+      "weight": 0.04
+    },
+    {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.04
+    },
+    {
+      "name": "Materials management software",
       "weight": 0.04
     },
     {
@@ -1654,7 +1830,35 @@
       "weight": 0.04
     },
     {
+      "name": "Microsoft Axapta",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.04
+    },
+    {
       "name": "Microsoft Outlook",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Total Quality Control Management",
+      "weight": 0.04
+    },
+    {
+      "name": "Minitab",
       "weight": 0.04
     },
     {
@@ -1662,11 +1866,67 @@
       "weight": 0.04
     },
     {
+      "name": "NetSuite NetERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.04
+    },
+    {
+      "name": "Operational databases",
+      "weight": 0.04
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.04
+    },
+    {
+      "name": "QA Software QMS Materials Management",
+      "weight": 0.04
+    },
+    {
+      "name": "Resource planning software",
+      "weight": 0.04
+    },
+    {
+      "name": "Retain Resource Planning",
+      "weight": 0.04
+    },
+    {
+      "name": "SAP Business One",
+      "weight": 0.04
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.04
+    },
+    {
+      "name": "SYSPRO business software",
+      "weight": 0.04
+    },
+    {
       "name": "Spreadsheet software",
       "weight": 0.04
     },
     {
+      "name": "Technology Group International Enterprise 21 ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.04
+    },
+    {
+      "name": "Total quality management TQM software",
+      "weight": 0.04
+    },
+    {
       "name": "Word processing software",
+      "weight": 0.04
+    },
+    {
+      "name": "Work Technology WorkTech Time",
       "weight": 0.04
     }
   ],
@@ -1886,6 +2146,34 @@
     {
       "name": "Webbing stretchers",
       "weight": 0.25
+    },
+    {
+      "name": "Desktop computers",
+      "weight": 0.04
+    },
+    {
+      "name": "Hard hats",
+      "weight": 0.04
+    },
+    {
+      "name": "Laser printers",
+      "weight": 0.04
+    },
+    {
+      "name": "Laser scanners",
+      "weight": 0.04
+    },
+    {
+      "name": "Notebook computers",
+      "weight": 0.04
+    },
+    {
+      "name": "Operator terminals",
+      "weight": 0.04
+    },
+    {
+      "name": "Personal computers",
+      "weight": 0.04
     },
     {
       "name": "Personal protective clothing",

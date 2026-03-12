@@ -1544,88 +1544,244 @@
   ],
   "tasks": [
     {
-      "task": "Classify and catalog items according to content and purpose.",
-      "task_type": "Supplemental"
+      "task": "Catalogue and sort books and other print and non-print materials according to procedure and return them to shelves, files, or other designated storage areas.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
     },
     {
-      "task": "Register new patrons and issue borrower identification cards that permit patrons to borrow library materials.",
-      "task_type": "Core"
+      "task": "Enter and update patrons' records on computers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.27
     },
     {
-      "task": "Locate library materials for patrons, including books, periodicals, and other items.",
-      "task_type": "Core"
+      "task": "Register new patrons and issue borrower identification cards that permit patrons to borrow books and other materials.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.98
+    },
+    {
+      "task": "Locate library materials for patrons, including books, periodicals, tape cassettes, Braille volumes, and pictures.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.28
     },
     {
       "task": "Instruct patrons on how to use reference sources, card catalogs, and automated information systems.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.06
     },
     {
-      "task": "Inspect returned books for condition and due-date status; compute any applicable fines.",
-      "task_type": "Core"
+      "task": "Inspect returned books for condition and due-date status and compute any applicable fines.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.06
     },
     {
-      "task": "Answer routine inquiries and refer patrons needing professional assistance to librarians.",
-      "task_type": "Core"
+      "task": "Answer routine inquiries and refer patrons in need of professional assistance to librarians.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.25
     },
     {
-      "task": "Maintain records of items received, stored, issued, and returned, and file catalog cards accordingly.",
-      "task_type": "Core"
+      "task": "Prepare library statistics reports.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.4
     },
     {
-      "task": "Provide assistance in the maintenance of collections of books, periodicals, and audio-visual materials.",
-      "task_type": "Core"
+      "task": "Provide assistance to librarians in the maintenance of collections of books, periodicals, magazines, newspapers, and audio-visual and other materials.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.84
+    },
+    {
+      "task": "Help patrons find and use library resources, such as reference materials, audio-visual equipment, computers, and other electronic resources and provide technical assistance when needed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.18
+    },
+    {
+      "task": "Conduct reference searches, using printed materials and in-house and online databases.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.58
+    },
+    {
+      "task": "Lend, reserve, and collect books, periodicals, videotapes, and other materials at circulation desks and process materials for inter-library loans.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.09
+    },
+    {
+      "task": "Deliver and retrieve items to and from departments by hand or using push carts.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.33
+    },
+    {
+      "task": "Assist in the preparation of book displays.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.11
+    },
+    {
+      "task": "Repair books using mending tape, paste, and brushes or prepare books to be sent to a bindery for repair.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.71
     },
     {
       "task": "Take action to deal with disruptive or problem patrons.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.66
     },
     {
-      "task": "Send out notices and accept fine payments for lost or overdue library materials.",
-      "task_type": "Core"
+      "task": "Send out notices and accept fine payments for lost or overdue books.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.82
     },
     {
-      "task": "Enter and update patrons' records on computers and file information related to circulation processes.",
-      "task_type": "Core"
+      "task": "Operate small branch libraries, under the direction of off-site librarian supervisors.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.97
     },
     {
-      "task": "Prepare, store, and retrieve classification and catalog information using computers.",
-      "task_type": "Core"
+      "task": "Maintain library equipment, such as photocopiers, scanners, and computers, and instruct patrons in proper use of such equipment.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.74
     },
     {
-      "task": "Conduct reference searches using printed materials and online databases.",
-      "task_type": "Core"
+      "task": "Perform clerical activities, such as answering phones, sorting mail, filing, typing, word processing, and photocopying and mailing out material.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.99
     },
     {
-      "task": "Help patrons find and use library resources, and provide technical assistance as needed.",
-      "task_type": "Core"
+      "task": "Open and close library during specified hours and secure library equipment, such as computers and audio-visual equipment.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.31
     },
     {
-      "task": "Reserve, circulate, renew, and discharge books and other materials at circulation desks.",
-      "task_type": "Core"
+      "task": "Design or maintain library web site and online catalogues.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.59
     },
     {
-      "task": "Repair and restore damaged library materials and replace when necessary.",
-      "task_type": "Core"
+      "task": "Specialize in particular materials or types of object, such as documents and books, paintings, decorative arts, textiles, metals, or architectural materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.92
     },
     {
-      "task": "Sort books, publications, and other items according to procedure and shelve them appropriately.",
-      "task_type": "Core"
+      "task": "Notify superior when restoration of artifacts requires outside experts.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.68
     },
     {
-      "task": "Deliver and retrieve items throughout the library by hand or using pushcarts.",
-      "task_type": "Core"
+      "task": "Perform accounting and bookkeeping activities, such as invoicing, maintaining financial records, budgeting, and handling cash.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.7
     },
     {
-      "task": "Compile data and create statistical reports on library usage, including library statistics reports.",
-      "task_type": "Core"
+      "task": "Photograph objects for documentation.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.15
     },
     {
-      "task": "Install, arrange, assemble, and prepare artifacts for exhibition, ensuring their safety.",
-      "task_type": "Core"
+      "task": "Lead tours and teach educational courses to students and the general public.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.15
     },
     {
-      "task": "Maintain and troubleshoot problems with library equipment and instruct patrons on its use.",
-      "task_type": "Core"
+      "task": "Schedule, supervise, and train clerical workers, volunteers, student assistants, and other library employees.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.73
+    },
+    {
+      "task": "Organize and maintain periodicals and reference materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.45
+    },
+    {
+      "task": "Collect fines and respond to complaints about fines.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.69
+    },
+    {
+      "task": "Compose explanatory summaries of contents of books and other reference materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.14
+    },
+    {
+      "task": "Design posters and special displays to promote use of library facilities or specific reading programs at libraries.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.39
+    },
+    {
+      "task": "Recommend preservation procedures, such as control of temperature and humidity, to curatorial and building staff.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.89
+    },
+    {
+      "task": "Order all print and non-print library materials, checking prices, figuring costs, preparing order slips, and making payments.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.71
+    },
+    {
+      "task": "Claim missing issues of periodicals and journals.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.4
+    },
+    {
+      "task": "Plan or participate in library events and programs, such as story time with children.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.76
+    },
+    {
+      "task": "Compile bibliographies and prepare abstracts on subjects of interest to particular organizations or groups.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.5
+    },
+    {
+      "task": "Compute costs of records furnished to requesters, and write letters to obtain payment.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.57
+    },
+    {
+      "task": "Select substitute titles when requested materials are unavailable, following criteria such as age, education, and interests.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.43
+    },
+    {
+      "task": "Present clear and concise explanations of governing rules and regulations.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.71
     }
   ],
   "technology_skills": [
@@ -1658,6 +1814,10 @@
       "weight": 1.5625
     },
     {
+      "name": "Adobe Photoshop",
+      "weight": 1.5
+    },
+    {
       "name": "Microsoft Access",
       "weight": 1.3839285714285714
     },
@@ -1671,6 +1831,10 @@
     },
     {
       "name": "Database software",
+      "weight": 1.25
+    },
+    {
+      "name": "Microsoft Publisher",
       "weight": 1.25
     },
     {
@@ -1698,8 +1862,32 @@
       "weight": 1.0
     },
     {
+      "name": "Video retrieval systems",
+      "weight": 1.0
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.5
+    },
+    {
       "name": "Email software",
       "weight": 0.3802521008403361
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.25
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.25
+    },
+    {
+      "name": "Autodesk AutoCAD",
+      "weight": 0.25
     },
     {
       "name": "Dynix Digital Library",
@@ -1714,7 +1902,19 @@
       "weight": 0.25
     },
     {
+      "name": "FileMaker Pro",
+      "weight": 0.25
+    },
+    {
       "name": "Gallery Systems EmbARK",
+      "weight": 0.25
+    },
+    {
+      "name": "HandyFile Find and Replace Text Aid Kit",
+      "weight": 0.25
+    },
+    {
+      "name": "Inmagic TextWorks",
       "weight": 0.25
     },
     {
@@ -1722,7 +1922,23 @@
       "weight": 0.25
     },
     {
+      "name": "National Library of Medicine DOCLINE",
+      "weight": 0.25
+    },
+    {
+      "name": "National Library of Medicine Medline",
+      "weight": 0.25
+    },
+    {
       "name": "PastPerfect Software PastPerfect",
+      "weight": 0.25
+    },
+    {
+      "name": "Questor Systems ARGUS",
+      "weight": 0.25
+    },
+    {
+      "name": "Questor Systems QScan32",
       "weight": 0.25
     },
     {
@@ -1730,7 +1946,23 @@
       "weight": 0.25
     },
     {
+      "name": "WebClarity Software BookWhere",
+      "weight": 0.25
+    },
+    {
       "name": "Apple Safari",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Inventory management systems",
       "weight": 0.07142857142857142
     },
     {
@@ -1740,6 +1972,58 @@
     {
       "name": "Mozilla Firefox",
       "weight": 0.07142857142857142
+    },
+    {
+      "name": "Order management software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Imaging software",
+      "weight": 0.0625
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.0625
+    },
+    {
+      "name": "DRAWSTITCH Artistic Sewing Suite",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Electric Quilt Quilt Design Wizard",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Embroidery design software",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Floriani MDQ My Decorative Quilter",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "John Hesselberth and Ron Roy GlazeMaster",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Pattern design software",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Sales management software",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "SmugMug Flickr",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Twitter",
+      "weight": 0.058823529411764705
     }
   ],
   "tools_used": [
@@ -1768,6 +2052,22 @@
       "weight": 1.25
     },
     {
+      "name": "Film projectors",
+      "weight": 1.25
+    },
+    {
+      "name": "Microfiche readers",
+      "weight": 1.25
+    },
+    {
+      "name": "Microfilm printers",
+      "weight": 1.25
+    },
+    {
+      "name": "Microfilm readers",
+      "weight": 1.25
+    },
+    {
       "name": "Multi-line telephone systems",
       "weight": 1.25
     },
@@ -1776,7 +2076,27 @@
       "weight": 1.25
     },
     {
+      "name": "Laser facsimile machines",
+      "weight": 1.1339285714285714
+    },
+    {
+      "name": "10-key calculators",
+      "weight": 1.0
+    },
+    {
+      "name": "Braile embossers",
+      "weight": 1.0
+    },
+    {
       "name": "Delivery vans",
+      "weight": 1.0
+    },
+    {
+      "name": "Handheld calculators",
+      "weight": 1.0
+    },
+    {
+      "name": "Laminating machines",
       "weight": 1.0
     },
     {
@@ -1784,7 +2104,39 @@
       "weight": 1.0
     },
     {
+      "name": "Magnifiers",
+      "weight": 1.0
+    },
+    {
+      "name": "Mail opening equipment",
+      "weight": 1.0
+    },
+    {
+      "name": "Microfiche printers",
+      "weight": 1.0
+    },
+    {
       "name": "Multi function printers",
+      "weight": 1.0
+    },
+    {
+      "name": "Multimedia projectors",
+      "weight": 1.0
+    },
+    {
+      "name": "Personal readers",
+      "weight": 1.0
+    },
+    {
+      "name": "Thermal book binders",
+      "weight": 1.0
+    },
+    {
+      "name": "Typewriters",
+      "weight": 1.0
+    },
+    {
+      "name": "Video teleconferencing systems",
       "weight": 1.0
     },
     {
@@ -1796,6 +2148,126 @@
       "weight": 0.5588235294117647
     },
     {
+      "name": "Digital micrometers",
+      "weight": 0.3088235294117647
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Air abrasive tools",
+      "weight": 0.25
+    },
+    {
+      "name": "Binocular light compound microscopes",
+      "weight": 0.25
+    },
+    {
+      "name": "Brazing equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Carpenters' chisels",
+      "weight": 0.25
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Cold chisels",
+      "weight": 0.25
+    },
+    {
+      "name": "Cordless drills",
+      "weight": 0.25
+    },
+    {
+      "name": "Dental explorers",
+      "weight": 0.25
+    },
+    {
+      "name": "Digital video disk DVD players",
+      "weight": 0.25
+    },
+    {
+      "name": "Digitizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Dusting brushes",
+      "weight": 0.25
+    },
+    {
+      "name": "Handheld digital thermometers",
+      "weight": 0.25
+    },
+    {
+      "name": "Hygrometers",
+      "weight": 0.25
+    },
+    {
+      "name": "Infrared cameras",
+      "weight": 0.25
+    },
+    {
+      "name": "Laboratory scalpels",
+      "weight": 0.25
+    },
+    {
+      "name": "Mallets",
+      "weight": 0.25
+    },
+    {
+      "name": "Oxyacetylene welding equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Power saws",
+      "weight": 0.25
+    },
+    {
+      "name": "Soldering irons",
+      "weight": 0.25
+    },
+    {
+      "name": "Stereo microscopes",
+      "weight": 0.25
+    },
+    {
+      "name": "Temperature sensors",
+      "weight": 0.25
+    },
+    {
+      "name": "Ultraviolet UV examination lights",
+      "weight": 0.25
+    },
+    {
+      "name": "Vacuum cleaner micro-tools",
+      "weight": 0.25
+    },
+    {
+      "name": "Vacuum cleaners",
+      "weight": 0.25
+    },
+    {
+      "name": "Video cassette recorders VCR",
+      "weight": 0.25
+    },
+    {
+      "name": "Wire cutters",
+      "weight": 0.25
+    },
+    {
+      "name": "Wire strippers",
+      "weight": 0.25
+    },
+    {
+      "name": "X ray examination equipment",
+      "weight": 0.25
+    },
+    {
       "name": "Copy machines",
       "weight": 0.13392857142857142
     },
@@ -1804,15 +2276,1051 @@
       "weight": 0.13392857142857142
     },
     {
+      "name": "Conveyer belts",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Credit card authorization software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Electronic cash registers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Printing calculators",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Computer inkjet printers",
+      "weight": 0.0625
+    },
+    {
       "name": "Computer laser printers",
       "weight": 0.0625
+    },
+    {
+      "name": "Document scanners",
+      "weight": 0.0625
+    },
+    {
+      "name": "Microfiche viewing equipment",
+      "weight": 0.0625
+    },
+    {
+      "name": "Paper folding machines",
+      "weight": 0.0625
+    },
+    {
+      "name": "Alcohol lamps",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Allen wrenches",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Aluminum silkscreening screens",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Angled paint brushes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Artists' air brushes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Artists' paint brushes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Artists' palette knives",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Artists' palettes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bail shaping pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bastard hand files",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bead press machines",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bead shaping molds",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Belt sanders",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bench anvils",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bench pins",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bench planes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Benchtop drill presses",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bevel tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bias tape machines",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Biscuit joiners",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Blowhoses",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Brad nailers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Buffing tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bunsen burners",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Burnishing tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Bush hammers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Butane torches",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "C clamps",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Calligraphy pens",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Candle molds",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Carving knives",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Carving mallets",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Center punches",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Ceramic bead bars",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Ceramic loop tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Chasing hammers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Chop saws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Circular saws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Clay cutters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Clay mixers",
+      "weight": 0.058823529411764705
     },
     {
       "name": "Color inkjet printers",
       "weight": 0.058823529411764705
     },
     {
+      "name": "Compound miter saws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Conewinders",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Coping saws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Cordless power drills",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Corner clamps",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Credit card machines",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Crochet hooks",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Cross-lock tweezers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Dead blow mallets",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Degree gauges",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Design templates",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Detail carving tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Digital angle gauges",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Digital calipers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Digital hydrometers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Digital pyrometers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Digital scales",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Digital thermometers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Digital viscosometers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Dipping tongs",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Disc cutter dies",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Disc cutters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Double-ended etching scribes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Dovetail jigs",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Dressing wheels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Drum sanders",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Drying cabinets",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Dust and particulate respirators",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Dust collectors",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Dust masks",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Edge banding machines",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Edging tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Electric air compressors",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Electric heat guns",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Electric kilns",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Electric potters wheels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Electroplating machines",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Encaustic scrapers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Encaustic spatulas",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Engineers squares",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Extruder dies",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Fabric cutters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Face shields",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Feltmaking machines",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Fettling knives",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Finishing tumblers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Flashdryers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Flexible ink spatulas",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Floor looms",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Floor mount drill presses",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Flush cutters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Flux brushes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Gas kilns",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Gas-powered air compressors",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Glass cutting shears",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Glass kilns",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Glass rakes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Glass rod nippers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Glassworking lathes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Glue brushes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Graphic arts rulers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Graphite paddles",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Graphite reamers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Half-round hand files",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Half-round needle files",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Half-round pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Hand glaze mixers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Hand planes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Handheld clay extruders",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Handlemaker tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Handsaws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Hearing protection plugs",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Heat resistant gloves",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Heat transfer printers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Heavy duty fixed base routers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Height gauges",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Hold-down clamps",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Hole-punching pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Hollow mandrels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Image sublimation printers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Inkle looms",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' chain-nose pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' crimper pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' flat nose pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' forming pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' link forming pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' loupes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' planishing hammers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' prong-closing pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' saws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' solder cutting pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' wire gauges",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jewelers' wire looping pliers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Jigsaws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Kick wheels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Kiln carts",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Kiln oxygen probes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Kiln ventilation hoods",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Lampworking torches",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Lap looms",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Laser levels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Layout T-squares",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Linoleum cutters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Machine quilters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Manual production printing presses",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Marble molds",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Mashing tweezers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Mini drill presses",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Miter gauges",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Modeling stands",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Moisture monitors",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Mold knives",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Mortise and tenon jigs",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Non-contact thermometers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Paint mixing pipettes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Paint scrapers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Paint spray guns",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Panel saws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Paper drills",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Phillips screwdrivers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Pin nailers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Pipe clamps",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Planing equipment",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Pneumatic chisels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Polishing bench lathes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Portable routers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Pot lifts",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Potter's ribs",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Pottery cleanup tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Pottery duster brushes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Pottery kilns",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Power screwdrivers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Power staple guns",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Precision levels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Precision straightedges",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Protective safety glasses",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Protractors",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Pry bars",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Pugmills",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Punch needles",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Punch sets",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Push and blow tubes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Quilting frames",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Rabbeting routers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Raku kilns",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Raku tongs",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Rawhide mallets",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Riffler rasps",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Rigid heddle looms",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Ring mandrels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Riveting hammers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Rotary cutters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Round hole punches",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Round short handle brushes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Saber saws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Sandblasting guns",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Scoring knives",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Scribing tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Scroll saws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Seam rippers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Sewing machines",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Sewing rulers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Sgraffito tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Shop vacuums",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Silk screen exposure units",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Silk-screening roller frames",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Silk-screening squeegees",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Slab mats",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Slab rollers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Small hand looms",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Smoothing planes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Soap molds",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Solder tweezers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Soldering picks",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Square hole cutters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Stainless steel mandrels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Steam bending tools",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Steam irons",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Steel rasps",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Stencil brushes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Stone carving chisels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Stone carving knives",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Stone or metal grinders",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Table saws",
+      "weight": 0.058823529411764705
+    },
+    {
       "name": "Tablet computers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Tabletop looms",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Tabletop printing presses",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Tapestry looms",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Texturing hammers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Thermofaxes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Theromcouples",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Thread bobbins",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Tile cutters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Tile presses",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Tile saws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Tool sharpeners",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Tool sharpening stones",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Torch igniters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Trim saws",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Triple beam scales",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Ultrasonic jewelry cleaners",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Warping mills",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Wick setters",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Wood carving chisels",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Wood carving gouges",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Wood carving skews",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Woodburning tool sets",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Woodworking templates",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Wool combs",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Workbench vises",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "pH indicators",
       "weight": 0.058823529411764705
     }
   ],

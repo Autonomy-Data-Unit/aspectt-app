@@ -1544,104 +1544,496 @@
   ],
   "tasks": [
     {
-      "task": "Inspect vehicles and check gas, oil, and water levels prior to departure.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Drive gasoline, diesel, or electrically powered multi-passenger vehicles to transport students between neighborhoods, schools, and activities.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Maintain order among students during trips to ensure safety and regulate vehicle speed and time spent at each stop.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Drive vehicles over specified routes or to specified destinations according to time schedules, complying with traffic regulations for a smooth ride.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Drive trucks with capacities greater than 13 tons, including tractor-trailer combinations, to transport and deliver various materials.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Load and unload trucks or help others with this using special loading-related equipment as necessary.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Maintain logs of working hours, vehicle service or repair status, following applicable central and devolved government regulations.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Check all load-related documentation and inspect loads to ensure that cargo is secure before transport.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Greet passengers, provide information on fares, schedules, and routes, and assist individuals with special needs on and off vehicles.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Report delays, accidents, and vehicle defects, using radios or by notifying dispatchers or company mechanics.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Operate equipment such as trucks, bulldozers, and other heavy machinery to perform construction tasks including excavation and transportation of materials.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Operate machinery to backfill excavations, and monitor health and safety standards on site.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Conduct pre-operational checks on equipment and perform minor repairs to ensure all machinery is in working order.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Follow relevant safety regulations and state laws governing vehicle operation, ensuring compliance during all tasks.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Create or maintain inclines, ramps, and handle site cleanings or maintenance using appropriate machinery.",
-      "task_type": "Core"
-    },
-    {
       "task": "Check the condition of a vehicle's tires, brakes, windshield wipers, lights, oil, fuel, water, and safety equipment to ensure that everything is in working order.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.93
     },
     {
-      "task": "Perform routine vehicle maintenance, such as regulating tire pressure and adding gasoline, oil, and water, and report any vehicle malfunctions or needed repairs.",
-      "task_type": "Core"
+      "task": "Read and interpret maps to determine vehicle routes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.4
     },
     {
-      "task": "Communicate with dispatchers and confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
-      "task_type": "Core"
+      "task": "Repair and maintain equipment, making emergency adjustments or assisting with major repairs as necessary.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.39
     },
     {
-      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents, including time, materials, expenditures, or crew activities.",
-      "task_type": "Core"
+      "task": "Maintain knowledge of first-aid procedures.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.2
     },
     {
-      "task": "Drive vehicles or operate machines or equipment to complete work assignments, assisting workers and performing tasks such as loading vehicles.",
-      "task_type": "Core"
+      "task": "Report delays, mechanical problems, and emergencies to supervisors or dispatchers, using radios.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.71
     },
     {
-      "task": "Monitor field work to ensure proper performance and use of materials, enforce safety rules and regulations, and inspect work areas for cleanliness or maintenance.",
-      "task_type": "Core"
+      "task": "Complete reports, including shift summaries and incident or accident reports.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.29
     },
     {
-      "task": "Perform or schedule repairs or preventive maintenance of vehicles or other equipment and engage in minor repairs as necessary.",
-      "task_type": "Supplemental"
+      "task": "Comply with traffic regulations to operate vehicles in a safe and courteous manner.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 5.0
     },
     {
-      "task": "Pick up and drop off passengers at scheduled locations, meet requests, and assist passengers entering and exiting vehicles.",
-      "task_type": "Core"
+      "task": "Drive machines onto truck trailers, and drive trucks to transport machines and material to and from job sites.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.91
     },
     {
-      "task": "Record vehicle routes and read maps or follow directions, while also regulating heating, lighting, and ventilation for passenger comfort.",
-      "task_type": "Core"
+      "task": "Plan or adjust routes based on changing conditions, using computer equipment, global positioning systems (GPS) equipment, or other navigation devices, to minimize fuel consumption and carbon emissions.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.13
     },
     {
-      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure safety and compliance with specifications, and examine cargo to determine handling requirements.",
-      "task_type": "Core"
+      "task": "Operate equipment, such as truck cab computers, CB radios, phones, or global positioning systems (GPS) equipment to exchange necessary information with bases, supervisors, or other drivers.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.31
+    },
+    {
+      "task": "Maintain logs of working hours or of vehicle service or repair status, following applicable central and devolved government regulations.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.57
+    },
+    {
+      "task": "Obtain receipts or signatures for delivered goods and collect payment for services when required.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.6
+    },
+    {
+      "task": "Maneuver trucks into loading or unloading positions, following signals from loading crew and checking that vehicle and loading equipment are properly positioned.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.5
+    },
+    {
+      "task": "Drive trucks with capacities greater than 13 tons, including tractor-trailer combinations, to transport and deliver products, livestock, or other materials.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.46
+    },
+    {
+      "task": "Secure cargo for transport, using ropes, blocks, chain, binders, or covers.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.66
+    },
+    {
+      "task": "Read bills of lading to determine assignment details.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.56
+    },
+    {
+      "task": "Couple or uncouple trailers by changing trailer jack positions, connecting or disconnecting air or electrical lines, or manipulating fifth-wheel locks.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.52
+    },
+    {
+      "task": "Collect delivery instructions from appropriate sources, verifying instructions and routes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.48
+    },
+    {
+      "task": "Check conditions of trailers after contents have been unloaded to ensure that there has been no damage.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.37
+    },
+    {
+      "task": "Crank trailer landing gear up or down to safely secure vehicles.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.6
+    },
+    {
+      "task": "Inventory and inspect goods to be moved to determine quantities and conditions.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.28
+    },
+    {
+      "task": "Remove debris from loaded trailers.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.76
+    },
+    {
+      "task": "Follow special cargo-related procedures, such as checking refrigeration systems for frozen foods or providing food or water for livestock.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.1
+    },
+    {
+      "task": "Give directions to laborers who are packing goods and moving them onto trailers.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.64
+    },
+    {
+      "task": "Install or remove special equipment, such as tire chains, grader blades, plow blades, or sanders.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.1
+    },
+    {
+      "task": "Regulate vehicle speed and the time spent at each stop to maintain schedules.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.65
+    },
+    {
+      "task": "Move materials over short distances, such as around a construction site, factory, or warehouse.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.99
+    },
+    {
+      "task": "Operate oil distributors, loaders, chip spreaders, dump trucks, and snow plows.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.48
+    },
+    {
+      "task": "Coordinate truck dumping.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.92
+    },
+    {
+      "task": "Set up and tear down equipment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.87
+    },
+    {
+      "task": "Monitor operations to ensure that health and safety standards are met.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.2
+    },
+    {
+      "task": "Coordinate machine actions with other activities, positioning or moving loads in response to hand or audio signals from crew members.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.53
+    },
+    {
+      "task": "Load and move dirt, rocks, equipment, or other materials, using trucks, crawler tractors, power cranes, shovels, graders, or related equipment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.33
+    },
+    {
+      "task": "Check fuel supplies at sites to ensure adequate availability.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.67
+    },
+    {
+      "task": "Load or unload trucks or help others with loading or unloading, using special loading-related equipment or other equipment as necessary.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.19
+    },
+    {
+      "task": "Drive trucks to weigh stations before and after loading and along routes in compliance with state regulations.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.31
+    },
+    {
+      "task": "Check all load-related documentation for completeness and accuracy.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.63
+    },
+    {
+      "task": "Inspect loads to ensure that cargo is secure.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.62
+    },
+    {
+      "task": "Operate idle reduction systems or auxiliary power systems to generate power from alternative sources, such as fuel cells, to reduce idling time, to heat or cool truck cabins, or to provide power for other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.84
+    },
+    {
+      "task": "Attend meetings on driver and passenger safety to learn ways in which job performance might be affected.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.17
+    },
+    {
+      "task": "Follow appropriate safety procedures for transporting dangerous goods.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.66
+    },
+    {
+      "task": "Receive written or oral instructions regarding material movement or excavation.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.04
+    },
+    {
+      "task": "Keep records of material or equipment usage or problems encountered.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.82
+    },
+    {
+      "task": "Take actions to avoid potential hazards or obstructions, such as utility lines, other equipment, other workers, or falling objects.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.68
+    },
+    {
+      "task": "Learn and follow safety regulations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.86
+    },
+    {
+      "task": "Control traffic.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.61
+    },
+    {
+      "task": "Communicate with dispatchers by radio, telephone, or computer to exchange information and receive requests for passenger service.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.58
+    },
+    {
+      "task": "Perform minor vehicle repairs, such as cleaning spark plugs, or take vehicles to mechanics for servicing.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.71
+    },
+    {
+      "task": "Perform errands for customers or employers, such as delivering or picking up mail and packages.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.63
+    },
+    {
+      "task": "Perform routine vehicle maintenance, such as regulating tire pressure and adding gasoline, oil, and water.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.71
+    },
+    {
+      "task": "Prepare and submit reports that may include the number of passengers or trips, hours worked, mileage driven fuel consumed, or fares received.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.66
+    },
+    {
+      "task": "Read maps and follow written and verbal geographic directions.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.26
+    },
+    {
+      "task": "Record vehicle routes.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.89
+    },
+    {
+      "task": "Report any vehicle malfunctions or needed repairs.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.73
+    },
+    {
+      "task": "Report delays, accidents, or other traffic and transportation situations, using telephones or mobile two-way radios.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.4
+    },
+    {
+      "task": "Test vehicle equipment, such as lights, brakes, horns, or windshield wipers, to ensure proper operation.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.84
+    },
+    {
+      "task": "Arrange to pick up particular customers or groups on a regular schedule.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.42
+    },
+    {
+      "task": "Vacuum and clean interiors, and wash and polish exteriors of automobiles.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.74
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Monitor field work to ensure proper performance and use of materials.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Drive vehicles or operate machines or equipment to complete work assignments or to assist workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.93
+    },
+    {
+      "task": "Assist workers in tasks, such as loading vehicles.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct workers in transportation or related services, such as pumping, moving, storing, or loading or unloading of materials.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Plan and establish schedules.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Perform or schedule repairs or preventive maintenance of vehicles or other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.86
+    },
+    {
+      "task": "Examine, measure, or weigh cargo or materials to determine specific handling requirements.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.99
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Plan work assignments and equipment allocations to meet transportation, operations or production goals.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.07
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, personnel, or storage requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.77
+    },
+    {
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.11
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Maintain or verify records of time, materials, expenditures, or crew activities.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.9
+    },
+    {
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
+    },
+    {
+      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.89
+    },
+    {
+      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Interpret transportation or tariff regulations, shipping orders, safety regulations, or company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.17
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
+    },
+    {
+      "task": "Review orders, production schedules, blueprints, or shipping or receiving notices to determine work sequences and material shipping dates, types, volumes, or destinations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.94
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1694,6 +2086,14 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Warehouse management system WMS",
+      "weight": 0.27439024390243905
+    },
+    {
+      "name": "Database software",
+      "weight": 0.25
+    },
+    {
       "name": "Maintenance record software",
       "weight": 0.25
     },
@@ -1702,7 +2102,31 @@
       "weight": 0.25
     },
     {
+      "name": "Work record software",
+      "weight": 0.25
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.2395417590539542
+    },
+    {
+      "name": "3M Post-it App",
+      "weight": 0.2
+    },
+    {
+      "name": "ADP ezLaborManager",
+      "weight": 0.2
+    },
+    {
       "name": "ALK Technologies PC*Miler",
+      "weight": 0.2
+    },
+    {
+      "name": "Computerized inventory tracking software",
+      "weight": 0.2
+    },
+    {
+      "name": "Evernote",
       "weight": 0.2
     },
     {
@@ -1710,7 +2134,31 @@
       "weight": 0.2
     },
     {
+      "name": "Inventory tracking software",
+      "weight": 0.2
+    },
+    {
+      "name": "MarcoSoft Quo Vadis",
+      "weight": 0.2
+    },
+    {
+      "name": "Omnitracs Performance Monitoring",
+      "weight": 0.2
+    },
+    {
+      "name": "PeopleNet",
+      "weight": 0.2
+    },
+    {
       "name": "TruckersHelper",
+      "weight": 0.2
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.2
+    },
+    {
+      "name": "ddlsoftware.com drivers daily log program DDL",
       "weight": 0.2
     },
     {
@@ -1718,16 +2166,160 @@
       "weight": 0.1395417590539542
     },
     {
+      "name": "Actsoft Comet Tracker",
+      "weight": 0.11529933481152993
+    },
+    {
+      "name": "Google Gmail",
+      "weight": 0.1
+    },
+    {
       "name": "Machine control systems",
       "weight": 0.1
+    },
+    {
+      "name": "Machine monitoring software",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital Dispatch",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Easy Dispatch",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "PC Dispatch",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "TSS Wireless Fleet Management Suite",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "TranWare Enterprise Suite",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Accellos Real Dispatch",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Commercial vehicle operations CVO software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "@Road GeoManager",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Bill of lading software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "CAPE Systems TRUCKFILL",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Coptimal Logics AutoLoad Pro",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Creative Systems Corporation Freight-Link System",
+      "weight": 0.024390243902439025
     },
     {
       "name": "Fleet management systems",
       "weight": 0.024390243902439025
     },
     {
+      "name": "JDA Manugistics",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Load optimization software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "MagicLogic Optimization Cube-IQ",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Mapping software",
       "weight": 0.024390243902439025
+    },
+    {
+      "name": "Optimum Logistics LoadPlanner",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Proof of delivery POD software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Softtruck CargoWiz",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Starre Enterprises Star Bill of Lading",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Strategic Business Systems Proof of Delivery",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "TOPS Engineering MaxLoad Pro",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "UPS Logistics Technologies Roadnet Transportation Suite",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "XATA XATANET",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1748,10 +2340,6 @@
       "weight": 0.8575757575757575
     },
     {
-      "name": "Wheel loaders",
-      "weight": 0.8
-    },
-    {
       "name": "Digital surveillance camera systems",
       "weight": 0.7575757575757576
     },
@@ -1764,6 +2352,10 @@
       "weight": 0.7575757575757576
     },
     {
+      "name": "Powered service doors",
+      "weight": 0.7575757575757576
+    },
+    {
       "name": "Multipurpose fire extinguishers",
       "weight": 0.7
     },
@@ -1772,15 +2364,7 @@
       "weight": 0.6
     },
     {
-      "name": "Front end loaders",
-      "weight": 0.6
-    },
-    {
       "name": "Respirators",
-      "weight": 0.6
-    },
-    {
-      "name": "Skid steer loaders",
       "weight": 0.6
     },
     {
@@ -1792,35 +2376,15 @@
       "weight": 0.55
     },
     {
-      "name": "Chip spreaders",
-      "weight": 0.5
+      "name": "Desktop computers",
+      "weight": 0.5395417590539542
     },
     {
-      "name": "Concrete saws",
-      "weight": 0.5
-    },
-    {
-      "name": "Crawler dozers",
-      "weight": 0.5
-    },
-    {
-      "name": "Cutting torches",
-      "weight": 0.5
-    },
-    {
-      "name": "Jackhammers",
-      "weight": 0.5
-    },
-    {
-      "name": "Milling machines",
-      "weight": 0.5
+      "name": "Personal computers",
+      "weight": 0.5395417590539542
     },
     {
       "name": "Mobile radios",
-      "weight": 0.5
-    },
-    {
-      "name": "Motor graders",
       "weight": 0.5
     },
     {
@@ -1840,20 +2404,36 @@
       "weight": 0.45
     },
     {
+      "name": "On-board computers",
+      "weight": 0.45
+    },
+    {
       "name": "Winches",
       "weight": 0.45
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.4242424242424242
+    },
+    {
+      "name": "On-board data input terminals",
+      "weight": 0.4242424242424242
+    },
+    {
+      "name": "Radio frequency identification RFID devices",
+      "weight": 0.4242424242424242
     },
     {
       "name": "Snow chains",
       "weight": 0.4242424242424242
     },
     {
-      "name": "Straight screwdrivers",
-      "weight": 0.374390243902439
+      "name": "Tablet computers",
+      "weight": 0.4242424242424242
     },
     {
-      "name": "Backhoes",
-      "weight": 0.35
+      "name": "Straight screwdrivers",
+      "weight": 0.374390243902439
     },
     {
       "name": "Claw hammers",
@@ -1864,15 +2444,7 @@
       "weight": 0.35
     },
     {
-      "name": "Laser levels",
-      "weight": 0.35
-    },
-    {
       "name": "Locking pliers",
-      "weight": 0.35
-    },
-    {
-      "name": "Mini excavators",
       "weight": 0.35
     },
     {
@@ -1890,6 +2462,18 @@
     {
       "name": "Lube guns",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "Passenger vans",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Rear lifts",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Satellite linkup systems",
+      "weight": 0.2909090909090909
     },
     {
       "name": "Hydraulic jacks",
@@ -1912,55 +2496,11 @@
       "weight": 0.25
     },
     {
-      "name": "Anchor winches",
-      "weight": 0.25
-    },
-    {
-      "name": "Angle dozers",
-      "weight": 0.25
-    },
-    {
-      "name": "Asphalt compactors",
-      "weight": 0.25
-    },
-    {
       "name": "Asphalt distributor trucks",
       "weight": 0.25
     },
     {
-      "name": "Asphalt heating equipment",
-      "weight": 0.25
-    },
-    {
-      "name": "Asphalt mixing equipment",
-      "weight": 0.25
-    },
-    {
-      "name": "Asphalt pavers",
-      "weight": 0.25
-    },
-    {
-      "name": "Asphalt paving machines",
-      "weight": 0.25
-    },
-    {
-      "name": "Asphalt rakes",
-      "weight": 0.25
-    },
-    {
-      "name": "Asphalt spreader boxes",
-      "weight": 0.25
-    },
-    {
-      "name": "Automatic paving control systems",
-      "weight": 0.25
-    },
-    {
       "name": "Axes",
-      "weight": 0.25
-    },
-    {
-      "name": "Backhoe attachments",
       "weight": 0.25
     },
     {
@@ -1980,31 +2520,27 @@
       "weight": 0.25
     },
     {
-      "name": "Blade attachments",
+      "name": "Chain saws",
       "weight": 0.25
     },
     {
-      "name": "Bulldozers",
+      "name": "Chain slings",
       "weight": 0.25
     },
     {
-      "name": "Cold in-place recyclers",
+      "name": "Chainsaws",
       "weight": 0.25
     },
     {
-      "name": "Cold planers",
+      "name": "Chemical-resistant clothing",
       "weight": 0.25
     },
     {
-      "name": "Compactors",
+      "name": "Cherry pickers",
       "weight": 0.25
     },
     {
-      "name": "Concrete paving machines",
-      "weight": 0.25
-    },
-    {
-      "name": "Curb pavers",
+      "name": "Circular saws",
       "weight": 0.25
     },
     {
@@ -2012,23 +2548,11 @@
       "weight": 0.25
     },
     {
-      "name": "Demolition machines",
+      "name": "Dempster dumpers",
       "weight": 0.25
     },
     {
-      "name": "Derricks",
-      "weight": 0.25
-    },
-    {
-      "name": "Diesel hammers",
-      "weight": 0.25
-    },
-    {
-      "name": "Ditchers",
-      "weight": 0.25
-    },
-    {
-      "name": "Dragline cranes",
+      "name": "Digital torque wrenches",
       "weight": 0.25
     },
     {
@@ -2040,27 +2564,35 @@
       "weight": 0.25
     },
     {
-      "name": "End loaders",
+      "name": "Extender conveyors",
       "weight": 0.25
     },
     {
-      "name": "Excavator mounted pile drivers",
+      "name": "Extension ladders",
       "weight": 0.25
     },
     {
-      "name": "Graders",
+      "name": "Filter wrenches",
       "weight": 0.25
     },
     {
-      "name": "Groovers",
+      "name": "Fixed leads",
+      "weight": 0.25
+    },
+    {
+      "name": "Four-point harnesses",
+      "weight": 0.25
+    },
+    {
+      "name": "Grease dispensing guns",
+      "weight": 0.25
+    },
+    {
+      "name": "Grinders",
       "weight": 0.25
     },
     {
       "name": "Ground release shackles",
-      "weight": 0.25
-    },
-    {
-      "name": "Gutter pavers",
       "weight": 0.25
     },
     {
@@ -2072,19 +2604,11 @@
       "weight": 0.25
     },
     {
-      "name": "Harrows",
-      "weight": 0.25
-    },
-    {
       "name": "Heavy dump trucks",
       "weight": 0.25
     },
     {
       "name": "Heavy duty dump trucks",
-      "weight": 0.25
-    },
-    {
-      "name": "Heavy duty excavators",
       "weight": 0.25
     },
     {
@@ -2096,7 +2620,7 @@
       "weight": 0.25
     },
     {
-      "name": "Hot mix material transfer devices",
+      "name": "Hour meters",
       "weight": 0.25
     },
     {
@@ -2108,15 +2632,7 @@
       "weight": 0.25
     },
     {
-      "name": "Hydraulic impact hammers",
-      "weight": 0.25
-    },
-    {
-      "name": "Hydraulic suction dredges",
-      "weight": 0.25
-    },
-    {
-      "name": "Levels",
+      "name": "Hydraulic telescoping boom utility trucks",
       "weight": 0.25
     },
     {
@@ -2124,11 +2640,19 @@
       "weight": 0.25
     },
     {
-      "name": "Liquid asphalt storage equipment",
+      "name": "Lubricant dispensing funnels",
       "weight": 0.25
     },
     {
       "name": "Measuring wheels",
+      "weight": 0.25
+    },
+    {
+      "name": "Mechanical sweepers",
+      "weight": 0.25
+    },
+    {
+      "name": "Multipurpose vacuum catch basin cleaners",
       "weight": 0.25
     },
     {
@@ -2140,19 +2664,7 @@
       "weight": 0.25
     },
     {
-      "name": "Pavement breakers",
-      "weight": 0.25
-    },
-    {
-      "name": "Pavement marking machines",
-      "weight": 0.25
-    },
-    {
-      "name": "Paving curbing machines",
-      "weight": 0.25
-    },
-    {
-      "name": "Paving finishing machines",
+      "name": "Oiling equipment",
       "weight": 0.25
     },
     {
@@ -2160,23 +2672,47 @@
       "weight": 0.25
     },
     {
-      "name": "Pile driving analyzers",
+      "name": "Pneumatic impact wrenches",
       "weight": 0.25
     },
     {
-      "name": "Pile driving equipment",
+      "name": "Portable air compressors",
       "weight": 0.25
     },
     {
-      "name": "Pile extractors",
+      "name": "Portable generators",
       "weight": 0.25
     },
     {
-      "name": "Road finishing machines",
+      "name": "Power drills",
       "weight": 0.25
     },
     {
-      "name": "Road heater-planers",
+      "name": "Power sanders",
+      "weight": 0.25
+    },
+    {
+      "name": "Power saws",
+      "weight": 0.25
+    },
+    {
+      "name": "Power winches",
+      "weight": 0.25
+    },
+    {
+      "name": "Quick-disconnect hose couplers",
+      "weight": 0.25
+    },
+    {
+      "name": "Ratchet release shackles",
+      "weight": 0.25
+    },
+    {
+      "name": "Ratchet sets",
+      "weight": 0.25
+    },
+    {
+      "name": "Remote control pendants",
       "weight": 0.25
     },
     {
@@ -2184,47 +2720,7 @@
       "weight": 0.25
     },
     {
-      "name": "Robotic concrete busters",
-      "weight": 0.25
-    },
-    {
-      "name": "Robotic machines",
-      "weight": 0.25
-    },
-    {
-      "name": "Robotic paving machines",
-      "weight": 0.25
-    },
-    {
-      "name": "Rollers",
-      "weight": 0.25
-    },
-    {
-      "name": "Rolling machines",
-      "weight": 0.25
-    },
-    {
-      "name": "Rope taglines",
-      "weight": 0.25
-    },
-    {
-      "name": "Roustabout cranes",
-      "weight": 0.25
-    },
-    {
-      "name": "Rubber-tired asphalt pavers",
-      "weight": 0.25
-    },
-    {
-      "name": "Rubber-tired excavators",
-      "weight": 0.25
-    },
-    {
-      "name": "Rubber-track asphalt pavers",
-      "weight": 0.25
-    },
-    {
-      "name": "Runway deicers",
+      "name": "Rulers",
       "weight": 0.25
     },
     {
@@ -2244,11 +2740,7 @@
       "weight": 0.25
     },
     {
-      "name": "Scrapers",
-      "weight": 0.25
-    },
-    {
-      "name": "Self-propelled dredges",
+      "name": "Screwdrivers",
       "weight": 0.25
     },
     {
@@ -2256,15 +2748,7 @@
       "weight": 0.25
     },
     {
-      "name": "Shot blasters",
-      "weight": 0.25
-    },
-    {
       "name": "Shovels",
-      "weight": 0.25
-    },
-    {
-      "name": "Silent hoists",
       "weight": 0.25
     },
     {
@@ -2272,35 +2756,15 @@
       "weight": 0.25
     },
     {
-      "name": "Skid steer machines",
+      "name": "Snow blowers",
       "weight": 0.25
     },
     {
-      "name": "Slip form machines",
-      "weight": 0.25
-    },
-    {
-      "name": "Straightedges",
-      "weight": 0.25
-    },
-    {
-      "name": "Surveying tapes",
+      "name": "Socket wrench sets",
       "weight": 0.25
     },
     {
       "name": "Sweepers",
-      "weight": 0.25
-    },
-    {
-      "name": "Swinging leads",
-      "weight": 0.25
-    },
-    {
-      "name": "Tampers",
-      "weight": 0.25
-    },
-    {
-      "name": "Tamping machines",
       "weight": 0.25
     },
     {
@@ -2320,27 +2784,11 @@
       "weight": 0.25
     },
     {
-      "name": "Tracked hydraulic excavators",
-      "weight": 0.25
-    },
-    {
-      "name": "Tracked loaders",
-      "weight": 0.25
-    },
-    {
       "name": "Tractor-trailer trucks",
       "weight": 0.25
     },
     {
       "name": "Tractors",
-      "weight": 0.25
-    },
-    {
-      "name": "Transit levels",
-      "weight": 0.25
-    },
-    {
-      "name": "Trenchers",
       "weight": 0.25
     },
     {
@@ -2352,20 +2800,32 @@
       "weight": 0.25
     },
     {
-      "name": "Vibrating concrete screeds",
+      "name": "Truck-mounted generators",
       "weight": 0.25
     },
     {
-      "name": "Vibratory compactors",
+      "name": "Tugger hoists",
       "weight": 0.25
     },
     {
-      "name": "Vibratory rollers",
+      "name": "Vacuum pumps",
       "weight": 0.25
     },
     {
       "name": "Water pumps",
       "weight": 0.25
+    },
+    {
+      "name": "Wire ropes",
+      "weight": 0.25
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.22439024390243903
+    },
+    {
+      "name": "4-ranger tower trucks",
+      "weight": 0.2
     },
     {
       "name": "Blocks and tackle",
@@ -2376,19 +2836,27 @@
       "weight": 0.2
     },
     {
+      "name": "Cargo hoists",
+      "weight": 0.2
+    },
+    {
       "name": "Customer-to-operator two-way communication systems",
       "weight": 0.2
     },
     {
-      "name": "Deadman pedals",
+      "name": "Door opening controls",
       "weight": 0.2
     },
     {
-      "name": "Diesel powered train engines",
+      "name": "Electric handtrucks",
       "weight": 0.2
     },
     {
-      "name": "Electric train engines",
+      "name": "Frequency modulation FM two way radios",
+      "weight": 0.2
+    },
+    {
+      "name": "Front load dumpsters",
       "weight": 0.2
     },
     {
@@ -2396,7 +2864,55 @@
       "weight": 0.2
     },
     {
+      "name": "Handheld bar code scanners",
+      "weight": 0.2
+    },
+    {
+      "name": "Handlifts",
+      "weight": 0.2
+    },
+    {
+      "name": "Handtrucks",
+      "weight": 0.2
+    },
+    {
       "name": "Hydraulic lifts",
+      "weight": 0.2
+    },
+    {
+      "name": "Johnson bars",
+      "weight": 0.2
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.2
+    },
+    {
+      "name": "Lowboy trailers",
+      "weight": 0.2
+    },
+    {
+      "name": "Manual lifts",
+      "weight": 0.2
+    },
+    {
+      "name": "Notebook computers",
+      "weight": 0.2
+    },
+    {
+      "name": "Order picker clamp trucks",
+      "weight": 0.2
+    },
+    {
+      "name": "Plow attachments",
+      "weight": 0.2
+    },
+    {
+      "name": "Portable two way radios",
+      "weight": 0.2
+    },
+    {
+      "name": "Pup trailers",
       "weight": 0.2
     },
     {
@@ -2404,11 +2920,31 @@
       "weight": 0.2
     },
     {
+      "name": "Refuse collection trucks",
+      "weight": 0.2
+    },
+    {
+      "name": "Scanners",
+      "weight": 0.2
+    },
+    {
+      "name": "Sliding fifth wheels",
+      "weight": 0.2
+    },
+    {
+      "name": "Sliding tandem axles",
+      "weight": 0.2
+    },
+    {
       "name": "Telescoping boom trucks",
       "weight": 0.2
     },
     {
-      "name": "Track switches",
+      "name": "Tilt trailers",
+      "weight": 0.2
+    },
+    {
+      "name": "Trolleys",
       "weight": 0.2
     },
     {
@@ -2416,27 +2952,39 @@
       "weight": 0.2
     },
     {
-      "name": "Asphalt plants",
+      "name": "Grease guns",
+      "weight": 0.12439024390243902
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.12439024390243902
+    },
+    {
+      "name": "Air grease guns",
       "weight": 0.1
     },
     {
-      "name": "Compact excavators",
+      "name": "Computer terminals",
       "weight": 0.1
     },
     {
-      "name": "Concrete plants",
+      "name": "Hand grease guns",
       "weight": 0.1
     },
     {
-      "name": "Crawler mounted draglines",
+      "name": "Hand levels",
       "weight": 0.1
     },
     {
-      "name": "Excavator backhoes",
+      "name": "High bed trailers",
       "weight": 0.1
     },
     {
-      "name": "Hydraulic excavators",
+      "name": "Lifting slings",
+      "weight": 0.1
+    },
+    {
+      "name": "Low bed trailers",
       "weight": 0.1
     },
     {
@@ -2444,23 +2992,7 @@
       "weight": 0.1
     },
     {
-      "name": "Power augers",
-      "weight": 0.1
-    },
-    {
-      "name": "Telescoping excavators",
-      "weight": 0.1
-    },
-    {
-      "name": "Tracked excavators",
-      "weight": 0.1
-    },
-    {
-      "name": "Trencher excavator attachments",
-      "weight": 0.1
-    },
-    {
-      "name": "Truck excavators",
+      "name": "Self-loader trailers",
       "weight": 0.1
     },
     {
@@ -2472,12 +3004,112 @@
       "weight": 0.1
     },
     {
-      "name": "Wheeled excavators",
+      "name": "Wheel blocks",
       "weight": 0.1
     },
     {
-      "name": "Wheeled front end loaders",
+      "name": "Wireless touch screen monitors",
       "weight": 0.1
+    },
+    {
+      "name": "Alarms",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Closed-circuit TV cameras",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Communications computers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Credit card processing machines",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Mobile data computers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Mobile electronic funds transfer point of sale EFTPOS equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Mobile electronic funds transfer point of sale EFTPOS printers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Security cameras",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Smartphones",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Text messaging equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Vans",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Impact wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Lowboys",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Lug wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Pallet jacks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Refrigerated trailers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Roller beds",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

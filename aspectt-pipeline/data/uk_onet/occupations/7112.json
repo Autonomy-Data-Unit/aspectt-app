@@ -1544,54 +1544,252 @@
   ],
   "tasks": [
     {
-      "task": "Collect cash payments from customers, make change, and charge purchases to customers' credit cards, providing receipts.",
-      "task_type": "Core"
+      "task": "Collect cash payments from customers, and make change or charge purchases to customers' credit cards, providing customers with receipts.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.65
     },
     {
-      "task": "Maintain clean and orderly checkout areas, complete general cleaning duties, and monitor checkout stations for adequate cash availability.",
-      "task_type": "Core"
+      "task": "Maintain clean and orderly checkout areas, and complete other general cleaning duties, such as mopping floors and emptying trash cans.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.0
     },
     {
-      "task": "Help customers find products, answer questions, and provide information on procedures or policies.",
-      "task_type": "Core"
+      "task": "Help customers find the location of products.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.26
     },
     {
-      "task": "Issue receipts, refunds, credits, or change due to customers and process merchandise returns and exchanges.",
-      "task_type": "Core"
+      "task": "Answer incoming phone calls.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.39
     },
     {
-      "task": "Greet customers entering establishments and assist with customer complaints and information requests.",
-      "task_type": "Core"
+      "task": "Assist customers by providing information and resolving their complaints.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.5
+    },
+    {
+      "task": "Process merchandise returns and exchanges.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.04
+    },
+    {
+      "task": "Greet customers entering establishments.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.7
+    },
+    {
+      "task": "Establish or identify prices of goods, services, or admission, and tabulate bills, using calculators, cash registers, or optical price scanners.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.42
+    },
+    {
+      "task": "Issue trading stamps, and redeem food stamps and coupons.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.53
+    },
+    {
+      "task": "Answer customers' questions, and provide information on procedures or policies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.39
+    },
+    {
+      "task": "Weigh items sold by weight to determine prices.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.4
+    },
+    {
+      "task": "Compute and record totals of transactions.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.4
+    },
+    {
+      "task": "Bag, box, wrap, or gift-wrap merchandise, and prepare packages for shipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.14
+    },
+    {
+      "task": "Sort, count, and wrap currency and coins.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.39
+    },
+    {
+      "task": "Request information or assistance, using paging systems.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
+    },
+    {
+      "task": "Reconcile daily summaries of transactions to balance books.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.74
+    },
+    {
+      "task": "Monitor checkout stations to ensure they have adequate cash available and are staffed appropriately.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.47
+    },
+    {
+      "task": "Count money and audit money drawers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.76
+    },
+    {
+      "task": "Keep accurate records of monetary exchanges, authorization forms, and transaction reconciliations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.88
+    },
+    {
+      "task": "Furnish change persons with a money bank at the start of each shift.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.44
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
+    },
+    {
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
     },
     {
       "task": "Stock shelves, sort and reshelve returned items, and mark prices on items and shelves.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.15
     },
     {
-      "task": "Calculate total payments received and reconcile these amounts with total sales during a time period.",
-      "task_type": "Supplemental"
+      "task": "Prepare daily reports of fuel, oil, and accessory sales.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.24
     },
     {
-      "task": "Monitor worker performance and provide on-the-job training to ensure compliance with procedures.",
-      "task_type": "Supplemental"
+      "task": "Activate fuel pumps and fill fuel tanks of vehicles with gasoline or diesel fuel to specified levels.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.96
     },
     {
-      "task": "Keep accurate records of monetary exchanges and reconcile daily summaries of transactions.",
-      "task_type": "Core"
+      "task": "Sell and install accessories, such as batteries, windshield wiper blades, fan belts, bulbs, or headlamps.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.94
+    },
+    {
+      "task": "Provide customers with information about local roads or highways.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 2.35
+    },
+    {
+      "task": "Assist with duties in other areas of the store, such as monitoring fitting rooms or bagging and carrying out customers' items.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.19
+    },
+    {
+      "task": "Cash checks for customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.1
+    },
+    {
+      "task": "Sell tickets and other items to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.18
+    },
+    {
+      "task": "Compile and maintain non-monetary reports and records.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.26
+    },
+    {
+      "task": "Offer customers carry-out service at the completion of transactions.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.94
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
+    {
+      "name": "Microsoft Excel",
+      "weight": 1.5395417590539542
+    },
     {
       "name": "Point of sale POS software",
       "weight": 1.2651515151515151
     },
     {
-      "name": "Barcode software",
-      "weight": 0.024390243902439025
+      "name": "Apple Safari",
+      "weight": 1.25
     },
     {
-      "name": "Microsoft Excel",
-      "weight": 1.5395417590539542
+      "name": "Microsoft Edge",
+      "weight": 1.25
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 1.25
+    },
+    {
+      "name": "Mozilla Firefox",
+      "weight": 1.25
     },
     {
       "name": "Microsoft Outlook",
@@ -1602,12 +1800,84 @@
       "weight": 1.0395417590539542
     },
     {
+      "name": "Inventory management systems",
+      "weight": 1.0151515151515151
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 1.0151515151515151
+    },
+    {
+      "name": "Microsoft Office software",
+      "weight": 0.2895417590539542
+    },
+    {
       "name": "Microsoft Word",
       "weight": 0.2895417590539542
     },
     {
+      "name": "Accounting software",
+      "weight": 0.25
+    },
+    {
+      "name": "Bookkeeping software",
+      "weight": 0.25
+    },
+    {
+      "name": "Database software",
+      "weight": 0.25
+    },
+    {
+      "name": "Handheld computer device software",
+      "weight": 0.25
+    },
+    {
+      "name": "Spreadsheet software",
+      "weight": 0.25
+    },
+    {
+      "name": "Word processing software",
+      "weight": 0.25
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.03954175905395418
+    },
+    {
       "name": "Microsoft PowerPoint",
       "weight": 0.03954175905395418
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Warehouse management system WMS",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1618,6 +1888,22 @@
     {
       "name": "Cash registers",
       "weight": 1.25
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 1.024390243902439
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 1.024390243902439
+    },
+    {
+      "name": "Adjustable hand wrenches",
+      "weight": 1.0
+    },
+    {
+      "name": "Glass squeegees",
+      "weight": 1.0
     },
     {
       "name": "Handheld calculators",
@@ -1632,12 +1918,28 @@
       "weight": 1.0
     },
     {
+      "name": "Safety glasses",
+      "weight": 1.0
+    },
+    {
+      "name": "Safety gloves",
+      "weight": 1.0
+    },
+    {
+      "name": "Socket wrench sets",
+      "weight": 1.0
+    },
+    {
       "name": "Personal computers",
       "weight": 0.5395417590539542
     },
     {
       "name": "10-key calculators",
       "weight": 0.5
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.2895417590539542
     },
     {
       "name": "Laptop computers",
@@ -1648,7 +1950,23 @@
       "weight": 0.25
     },
     {
+      "name": "Automatic coin wrappers",
+      "weight": 0.25
+    },
+    {
+      "name": "Belt conveyors",
+      "weight": 0.25
+    },
+    {
+      "name": "Cardboard balers",
+      "weight": 0.25
+    },
+    {
       "name": "Coin counting machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Coin sorting setups",
       "weight": 0.25
     },
     {
@@ -1660,7 +1978,19 @@
       "weight": 0.25
     },
     {
+      "name": "Electronic food scales",
+      "weight": 0.25
+    },
+    {
       "name": "Electronic funds transfer EFT terminals",
+      "weight": 0.25
+    },
+    {
+      "name": "Food scales",
+      "weight": 0.25
+    },
+    {
+      "name": "Gas pump controllers",
       "weight": 0.25
     },
     {
@@ -1668,11 +1998,63 @@
       "weight": 0.25
     },
     {
+      "name": "Laser printers",
+      "weight": 0.25
+    },
+    {
       "name": "Lottery ticket machines",
       "weight": 0.25
     },
     {
+      "name": "Money order machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Stationary bar code scanners",
+      "weight": 0.25
+    },
+    {
+      "name": "Surveillance cameras",
+      "weight": 0.25
+    },
+    {
+      "name": "Ticket dispensing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Trash compactors",
+      "weight": 0.25
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Pallet jacks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.015151515151515152
+    },
+    {
       "name": "Multi-line telephone systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Photocopying equipment",
       "weight": 0.015151515151515152
     }
   ],

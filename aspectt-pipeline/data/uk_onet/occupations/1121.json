@@ -1545,119 +1545,675 @@
   "tasks": [
     {
       "task": "Direct or coordinate production, processing, distribution, or marketing activities of industrial organizations.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
     },
     {
-      "task": "Monitor meters, flow gauges, or other real-time data to ensure proper operation of production equipment, implementing corrective measures as needed.",
-      "task_type": "Core"
+      "task": "Adjust equipment controls to generate specified amounts of electrical power.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.76
     },
     {
-      "task": "Review logs, datasheets, or reports to ensure production levels and safety, or identify abnormalities with production equipment or processes.",
-      "task_type": "Core"
+      "task": "Shut down and restart biofuels plant or equipment in emergency situations or for equipment maintenance, repairs, or replacements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
     },
     {
-      "task": "Prepare and manage plant budgets for biofuels or biomass operations.",
-      "task_type": "Core"
+      "task": "Conduct cost, material, and efficiency studies for biofuels production plants or operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
     },
     {
-      "task": "Conduct cost, material, and efficiency studies for biofuels or biomass production plants or operations.",
-      "task_type": "Core"
+      "task": "Approve proposals for the acquisition, replacement, or repair of biofuels processing equipment or the implementation of new production processes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.72
     },
     {
-      "task": "Manage operations at biofuels or biomass power generation facilities, including production, shipping, maintenance, or quality assurance activities.",
-      "task_type": "Core"
+      "task": "Adjust temperature, pressure, vacuum, level, flow rate, or transfer of biofuels to maintain processes at required levels.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.22
     },
     {
-      "task": "Supervise production employees in the manufacturing of biofuels or biomass products, ensuring compliance with safety and operational standards.",
-      "task_type": "Core"
+      "task": "Manage operations at biofuels power generation facilities, including production, shipping, maintenance, or quality assurance activities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.32
     },
     {
-      "task": "Analyze quality control test results and provide feedback to production management or staff to ensure product quality.",
-      "task_type": "Core"
+      "task": "Test, maintain, or repair electrical power distribution machinery or equipment, using hand tools, power tools, and testing devices.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.7
+    },
+    {
+      "task": "Manage parts and supply inventories for biomass plants.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.4
+    },
+    {
+      "task": "Monitor and operate communications systems, such as mobile radios.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.29
+    },
+    {
+      "task": "Supervise operations or maintenance employees in the production of power from biomass, such as wood, coal, paper sludge, or other waste or refuse.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
+    },
+    {
+      "task": "Confer with technical and supervisory personnel to report or resolve conditions affecting biofuels plant safety, operational efficiency, and product quality.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
+    },
+    {
+      "task": "Review logs, datasheets, or reports to ensure adequate production levels and safe production environments or to identify abnormalities with power production equipment or processes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Review biomass operations performance specifications to ensure compliance with regulatory requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.52
+    },
+    {
+      "task": "Operate controls to start, stop, or regulate biomass-fueled generators, generator units, boilers, engines, or auxiliary systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
+    },
+    {
+      "task": "Inspect biomass gasification processes, equipment, and facilities for ways to maximize capacity and minimize operating costs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.58
+    },
+    {
+      "task": "Evaluate power production or demand trends to identify opportunities for improved operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.6
+    },
+    {
+      "task": "Supervise biomass plant or substation operations, maintenance, repair, or testing activities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.12
+    },
+    {
+      "task": "Monitor the operating status of biomass plants by observing control system parameters, distributed control systems, switchboard gauges, dials, or other indicators.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Conduct field inspections of biomass plants, stations, or substations to ensure normal and safe operating conditions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Supervise production employees in the manufacturing of biofuels, such as biodiesel or ethanol.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.41
+    },
+    {
+      "task": "Draw samples of biofuels products or secondary by-products for quality control testing.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
+    },
+    {
+      "task": "Prepare environmental permit applications or compliance reports.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
+    },
+    {
+      "task": "Create and implement inspection and testing criteria or procedures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.78
+    },
+    {
+      "task": "Confer with marketing and sales departments to define client requirements and expectations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.27
+    },
+    {
+      "task": "Communicate quality control information to all relevant organizational departments, outside vendors, or contractors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.92
+    },
+    {
+      "task": "Analyze quality control test results and provide feedback and interpretation to production management or staff.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.23
+    },
+    {
+      "task": "Oversee workers including supervisors, inspectors, or laboratory workers engaged in testing activities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.2
+    },
+    {
+      "task": "Monitor performance of quality control systems to ensure effectiveness and efficiency.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.33
+    },
+    {
+      "task": "Direct product testing activities throughout production cycles.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.17
+    },
+    {
+      "task": "Conduct well field site assessments.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.77
+    },
+    {
+      "task": "Select and implement corrosion control or mitigation systems for geothermal plants.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.91
+    },
+    {
+      "task": "Communicate geothermal plant conditions to employees.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
+    },
+    {
+      "task": "Troubleshoot and make minor repairs to geothermal plant instrumentation or electrical systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.46
+    },
+    {
+      "task": "Record, review, or maintain daily logs, reports, maintenance, and other records associated with geothermal operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Monitor transportation and storage of flammable or other potentially dangerous feedstocks or products to ensure adherence to safety guidelines.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
+    },
+    {
+      "task": "Perform or direct the performance of preventative maintenance on geothermal plant equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Negotiate interconnection agreements with other utilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.16
+    },
+    {
+      "task": "Identify opportunities to improve plant electrical equipment, controls, or process control methodologies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
+    },
+    {
+      "task": "Identify and evaluate equipment, procedural, or conditional inefficiencies involving geothermal plant systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.01
+    },
+    {
+      "task": "Develop operating plans and schedules for geothermal operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.89
+    },
+    {
+      "task": "Supervise employees in geothermal power plants or well fields.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.36
     },
     {
       "task": "Oversee geothermal plant operations, maintenance, and repairs to ensure compliance with applicable standards or regulations.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.34
     },
     {
-      "task": "Develop or manage budgets and implement projects to improve efficiency in geothermal operations.",
-      "task_type": "Core"
+      "task": "Inspect geothermal plant or injection well fields to verify proper equipment operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.95
     },
     {
-      "task": "Conduct field inspections of plants to ensure normal and safe operating conditions, and identify opportunities for improvement.",
-      "task_type": "Core"
+      "task": "Provide training to subordinate or new employees to improve biofuels plant safety or increase the production of biofuels.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
     },
     {
-      "task": "Provide training to staff in quality control and analytical procedures related to biomass or biofuels production.",
-      "task_type": "Core"
+      "task": "Provide direction to employees to ensure compliance with biofuels plant safety, environmental, or operational standards and regulations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
     },
     {
-      "task": "Monitor transportation and storage of potentially dangerous feedstocks or products to ensure adherence to safety guidelines.",
-      "task_type": "Core"
+      "task": "Develop or implement policy evaluation procedures for hydroelectric generation activities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.6
     },
     {
-      "task": "Identify critical points in the manufacturing process and specify sampling procedures to ensure product quality.",
-      "task_type": "Core"
+      "task": "Provide technical direction in the erection or commissioning of hydroelectric equipment or supporting electrical or mechanical systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
     },
     {
-      "task": "Supervise employees engaged in technical control and production processes, ensuring compliance with environmental regulations.",
-      "task_type": "Core"
+      "task": "Develop or implement projects to improve efficiency, economy, or effectiveness of hydroelectric plant operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.88
     },
     {
-      "task": "Prepare reports on operations and system productivity or efficiency for geothermal or biofuels production.",
-      "task_type": "Core"
+      "task": "Conduct meetings with staff to discuss production progress and to ensure production objectives are attained.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.82
     },
     {
-      "task": "Review processing schedules or production orders to make decisions concerning inventory requirements, staffing, work procedures, and duty assignments.",
-      "task_type": "Core"
+      "task": "Resolve personnel problems that arise during the production process by acting as liaisons between dissenting parties when necessary.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.65
     },
     {
-      "task": "Review operations and confer with staff to resolve production or processing problems.",
-      "task_type": "Core"
+      "task": "Supervise hydropower plant equipment installations, upgrades, or maintenance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
     },
     {
-      "task": "Hire, train, evaluate, or discharge staff, and resolve personnel grievances.",
-      "task_type": "Core"
+      "task": "Perform management activities, such as budgeting, scheduling, planning, and marketing.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.95
     },
     {
-      "task": "Prepare and maintain production reports or personnel records, and generate quality control operating budgets.",
-      "task_type": "Core"
+      "task": "Write and submit proposals to bid on contracts for projects.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
     },
     {
-      "task": "Set and monitor product standards, examining samples or directing testing during processing to ensure finished products are of prescribed quality.",
-      "task_type": "Core"
+      "task": "Develop marketing plans for finished products, collaborating with sales associates to supervise product distribution.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.09
     },
     {
-      "task": "Develop or implement production tracking or quality control systems, analyzing operational reports to detect production problems.",
-      "task_type": "Core"
+      "task": "Supervise subordinate employees.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
     },
     {
-      "task": "Review plans and confer with staff to develop new products or processes and determine objectives and presentation concepts.",
-      "task_type": "Core"
+      "task": "Respond to problems related to ratepayers, water users, power users, government agencies, educational institutions, or other private or public power resource interests.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.62
     },
     {
-      "task": "Coordinate procedures for facility or equipment maintenance or modification, including the replacement of machines.",
-      "task_type": "Core"
+      "task": "Plan or manage hydroelectric plant upgrades.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
     },
     {
-      "task": "Monitor development of new products and instruct vendors on quality guidelines.",
-      "task_type": "Core"
+      "task": "Plan or coordinate hydroelectric production operations to meet customer requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
     },
     {
-      "task": "Collaborate with technical teams to ensure quality assurance programs are effective according to specifications.",
-      "task_type": "Core"
+      "task": "Perform or direct preventive or corrective containment or cleanup to protect the environment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
     },
     {
-      "task": "Verify that materials, components, and products meet established testing and inspection standards.",
-      "task_type": "Core"
+      "task": "Monitor or inspect hydroelectric equipment, such as hydro-turbines, generators, or control systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
     },
     {
-      "task": "Review quality documentation for regulatory submissions and audits, and update standard procedures or quality assurance manuals.",
-      "task_type": "Core"
+      "task": "Inspect hydroelectric facilities, including switchyards, control houses, or relay houses, for normal operation or adherence to safety standards.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
     },
     {
-      "task": "Collect and analyze production samples to evaluate quality and participate in developing product specifications.",
-      "task_type": "Core"
+      "task": "Identify and communicate power system emergencies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.23
+    },
+    {
+      "task": "Develop or review budgets, annual plans, power contracts, power rates, standing operating procedures, power reviews, or engineering studies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.61
+    },
+    {
+      "task": "Create or enforce hydrostation voltage schedules.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
+    },
+    {
+      "task": "Check hydroelectric operations for compliance with prescribed operating limits, such as loads, voltages, temperatures, lines, or equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.07
+    },
+    {
+      "task": "Supervise or monitor hydroelectric facility operations to ensure that generation or mechanical equipment conform to applicable regulations or standards.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
+    },
+    {
+      "task": "Direct operations, maintenance, or repair of hydroelectric power facilities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.48
+    },
+    {
+      "task": "Research current trends and new technology, such as printing production techniques, computer software, and design trends.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
+    },
+    {
+      "task": "Manage safety programs at power generation facilities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.63
+    },
+    {
+      "task": "Conduct site audits to ensure adherence to safety and environmental regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop or enforce procedures for normal operation of manufacturing systems.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Implement operational and emergency procedures.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Monitor permit requirements for updates.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Optimize operational costs and productivity consistent with safety and environmental rules and regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct the tracking of defects, test results, or other regularly reported quality control data.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.1
+    },
+    {
+      "task": "Identify critical points in the manufacturing process and specify sampling procedures to be used at these points.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.84
+    },
+    {
+      "task": "Develop budgets or approve expenditures for supplies, materials, or human resources, ensuring that materials, labor, or equipment are used efficiently to meet production targets.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
+    },
+    {
+      "task": "Act as liaisons between engineering and production departments.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.54
+    },
+    {
+      "task": "Train workers in use of equipment, such as switchers, cameras, monitors, microphones, and lights.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Test equipment to ensure proper operation.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Instruct staff in quality control and analytical procedures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.11
+    },
+    {
+      "task": "Review processing schedules or production orders to make decisions concerning inventory requirements, staffing requirements, work procedures, or duty assignments, considering budgetary limitations and time constraints.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.99
+    },
+    {
+      "task": "Review operations and confer with technical or administrative staff to resolve production or processing problems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Hire, train, evaluate, or discharge staff or resolve personnel grievances.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Initiate or coordinate inventory or cost control programs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.28
+    },
+    {
+      "task": "Prepare and maintain production reports or personnel records.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.72
+    },
+    {
+      "task": "Set and monitor product standards, examining samples of raw products or directing testing during processing, to ensure finished products are of prescribed quality.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.01
+    },
+    {
+      "task": "Develop or implement production tracking or quality control systems, analyzing production, quality control, maintenance, or other operational reports to detect production problems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.8
+    },
+    {
+      "task": "Review plans and confer with research or support staff to develop new products or processes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.57
+    },
+    {
+      "task": "Coordinate or recommend procedures for facility or equipment maintenance or modification, including the replacement of machines.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.44
+    },
+    {
+      "task": "Negotiate materials prices with suppliers.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.53
+    },
+    {
+      "task": "Manage own accounts and projects, working within budget and scheduling requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.37
+    },
+    {
+      "task": "Review statistical studies, technological advances, or regulatory standards and trends to stay abreast of issues in the field of quality control.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.63
+    },
+    {
+      "task": "Stop production if serious product defects are present.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.61
+    },
+    {
+      "task": "Review and approve quality plans submitted by contractors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.24
+    },
+    {
+      "task": "Generate and maintain quality control operating budgets.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
+    },
+    {
+      "task": "Evaluate new testing and sampling methodologies or technologies to determine usefulness.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.27
+    },
+    {
+      "task": "Coordinate the selection and implementation of quality control equipment, such as inspection gauges.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.61
+    },
+    {
+      "task": "Collect and analyze production samples to evaluate quality.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.02
+    },
+    {
+      "task": "Audit and inspect subcontractor facilities including external laboratories.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.36
+    },
+    {
+      "task": "Verify that raw materials, purchased parts or components, in-process samples, and finished products meet established testing and inspection standards.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.22
+    },
+    {
+      "task": "Review quality documentation necessary for regulatory submissions and inspections.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.24
+    },
+    {
+      "task": "Review and update standard operating procedures or quality assurance manuals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Produce reports regarding nonconformance of products or processes, daily production quality, root cause analyses, or quality trends.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
+    },
+    {
+      "task": "Participate in the development of product specifications.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.08
+    },
+    {
+      "task": "Monitor development of new products to help identify possible problems for mass production.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Instruct vendors or contractors on quality guidelines, testing procedures, or ways to eliminate deficiencies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.52
+    },
+    {
+      "task": "Identify quality problems or areas for improvement and recommend solutions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Establish work schedules and assign work to staff members.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.88
+    },
+    {
+      "task": "Coordinate activities between departments, such as news and programming.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Confer with directors and production staff to discuss issues, such as production and casting problems, budgets, policies, and news coverage.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.42
     }
   ],
   "technology_skills": [
@@ -1692,10 +2248,6 @@
     {
       "name": "Email software",
       "weight": 0.7142857142857142
-    },
-    {
-      "name": "Atlassian JIRA",
-      "weight": 0.5714285714285714
     },
     {
       "name": "Computerized maintenance management system CMMS",
@@ -1734,7 +2286,15 @@
       "weight": 0.2857142857142857
     },
     {
-      "name": "Content management systems CMS",
+      "name": "Autodesk AutoCAD",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Computer aided design CAD software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "FileMaker Pro",
       "weight": 0.2857142857142857
     },
     {
@@ -1778,6 +2338,22 @@
       "weight": 0.2857142857142857
     },
     {
+      "name": "ABB Optimize IT Predict & Control",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ASI DATAMYTE GageMetrics",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ASI DATAMYTE QDA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ASIDATAMYTE DataMetrics",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "AVEVA InTouch HMI",
       "weight": 0.14285714285714285
     },
@@ -1786,7 +2362,83 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Airtable",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Apple iWork Keynote",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Applicant tracking software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Appointment scheduling software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Asana",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CAMA Software Quality Collaboration By Design QCBD",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CEBOS MQ1 software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Citect IIM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CitectSCADA Reports",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computer assisted design software",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Computer integrated manufacturing CIM software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computer integrated manufacturing CIM time manager software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computer integrated manufacturing CIM warehouse shipping manager software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computing Solutions LabSoft LIMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Core Informatics Laboratory Information Management System LIMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Data logging software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Data visualization software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Employee performance management system",
       "weight": 0.14285714285714285
     },
     {
@@ -1794,7 +2446,59 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "EtQ Reliance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Exact Software JobBOSS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FaceTime",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Financial planning software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Google Docs",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Google Drive",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Google Gmail",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Google Workspace software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Harrington Group HQMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Harrington Group caWeb",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Human machine interface HMI software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Illumina Laboratory Information Management System LIMS",
       "weight": 0.14285714285714285
     },
     {
@@ -1802,7 +2506,47 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Infinity QS ProFicient",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "JamBoard",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Lablite Laboratory Information Management Systems LIMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Laboratory Automated Quality Control Systems LAQC",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Labvantage Solutions LIMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Landfill gas analysis software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Landtec System Software LFG Pro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Marel production system MPS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "MasterControl software",
       "weight": 0.14285714285714285
     },
     {
@@ -1822,11 +2566,55 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PQ Systems CHARTrunner Lean",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PQ Systems GAGEpack",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PQ Systems MEASUREspy",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PQ Systems SQCpack",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PTC Creo Parametric",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Pearson Education PHStat2",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Plant management software",
       "weight": 0.14285714285714285
     },
     {
+      "name": "ProcessPro Premier",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Promium Element DataSystem LIMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Prosys Open Platform Communications unified architecture software",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "QUMAS quality management solution software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Qlik Tech QlikView",
       "weight": 0.14285714285714285
     },
     {
@@ -1838,7 +2626,27 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Salesforce software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Scheduling databases",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Schneider Electric CitectSCADA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Slack",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Sparta Systems TrackWise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Statgraphics",
       "weight": 0.14285714285714285
     },
     {
@@ -1850,7 +2658,27 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Systat Software LISA.lims",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Thermo Fisher Scientific Laboratory Information Management Systems LIMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Vivaldi Software Vivaldi Quality Management",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Web broswer software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "WorkSchedule.net",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "WorkTech MAXIMO",
       "weight": 0.14285714285714285
     },
     {
@@ -1876,6 +2704,10 @@
       "weight": 0.7142857142857142
     },
     {
+      "name": "Digital video cameras",
+      "weight": 0.5714285714285714
+    },
+    {
       "name": "Multi-line telephone systems",
       "weight": 0.5714285714285714
     },
@@ -1888,7 +2720,15 @@
       "weight": 0.42857142857142855
     },
     {
+      "name": "Laser facsimile machines",
+      "weight": 0.2857142857142857
+    },
+    {
       "name": "Notebook computers",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Robotic cameras",
       "weight": 0.2857142857142857
     },
     {
@@ -1912,6 +2752,14 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Automated diluters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Automated microplate ELISA readers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Ball valves",
       "weight": 0.14285714285714285
     },
@@ -1928,11 +2776,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Cellular assay equipment",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Circulating fluidized bed boilers",
       "weight": 0.14285714285714285
     },
     {
       "name": "Combustible gas monitors",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computer data input scanners",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computer inkjet printers",
       "weight": 0.14285714285714285
     },
     {
@@ -1960,7 +2820,15 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Digital still cameras",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Dust and particulate respirators",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Electric timing devices",
       "weight": 0.14285714285714285
     },
     {
@@ -1972,11 +2840,35 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Electrophoresis equipment",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Emergency alarm systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Emergency communications scanners",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Enclosed flares",
       "weight": 0.14285714285714285
     },
     {
+      "name": "Fermentation processing vessels",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Flow control valves FCV",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fourier transfer infrared FTIR spectrometers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Gas chromatography equipment",
       "weight": 0.14285714285714285
     },
     {
@@ -1992,7 +2884,19 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Glass graduated cylinders",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Gravity convection ovens",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Hand sampling pumps",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Handheld data collectors",
       "weight": 0.14285714285714285
     },
     {
@@ -2016,7 +2920,31 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Infrared spectroscopic equipment",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Laboratory analytical balances",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Laboratory benchtop centrifuges",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Laboratory extraction equipment",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Laboratory moisture balances",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Large volume water pumps",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Liquid chromatography equipment",
       "weight": 0.14285714285714285
     },
     {
@@ -2024,11 +2952,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Micro anemometers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Moisture analyzers",
       "weight": 0.14285714285714285
     },
     {
+      "name": "Mole sieves",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Multiple gas monitors",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Network routers",
       "weight": 0.14285714285714285
     },
     {
@@ -2037,6 +2977,10 @@
     },
     {
       "name": "Oxygen analyzers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Personal digital assistants PDA",
       "weight": 0.14285714285714285
     },
     {
@@ -2068,6 +3012,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Reaction flasks",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Reaction turbines",
       "weight": 0.14285714285714285
     },
@@ -2076,7 +3024,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Sample ports",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Scanners",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Self-contained breathing apparatus",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Sketching pencils",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Squares",
       "weight": 0.14285714285714285
     },
     {
@@ -2092,7 +3056,19 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Tape measures",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Taper gauges",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Throttle control valves TCV",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Titrators",
       "weight": 0.14285714285714285
     },
     {
@@ -2104,7 +3080,15 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Vernier calipers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Water samplers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Wood feed systems",
       "weight": 0.14285714285714285
     },
     {

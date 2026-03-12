@@ -1545,63 +1545,495 @@
   "tasks": [
     {
       "task": "Record production or operational data on specified forms.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.55
     },
     {
-      "task": "Coordinate planning, budgeting, or purchasing for all food operations within establishments such as clubs, hotels, or restaurant chains.",
-      "task_type": "Core"
+      "task": "Coordinate planning, budgeting, or purchasing for all the food operations within establishments such as clubs, hotels, or restaurant chains.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.05
     },
     {
-      "task": "Arrange for equipment purchases or repairs and check equipment to ensure it meets health and safety regulations.",
-      "task_type": "Core"
+      "task": "Arrange for equipment purchases or repairs.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.52
     },
     {
-      "task": "Meet with sales representatives to negotiate prices or order supplies, and inspect supplies to ensure conformance to established standards.",
-      "task_type": "Core"
+      "task": "Meet with sales representatives to negotiate prices or order supplies.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.54
     },
     {
-      "task": "Demonstrate new cooking techniques or equipment to staff, and instruct cooks or other workers in food preparation.",
-      "task_type": "Core"
+      "task": "Meet with customers to discuss menus for special occasions, such as weddings, parties, or banquets.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.65
     },
     {
-      "task": "Meet with customers to discuss menus for special occasions, such as weddings, parties, or banquets; and collaborate with personnel to plan menus.",
-      "task_type": "Core"
+      "task": "Recruit and hire staff, such as cooks and other kitchen workers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.59
     },
     {
-      "task": "Recruit and hire kitchen staff, and train new employees in food preparation and safety procedures.",
-      "task_type": "Core"
+      "task": "Determine production schedules and staff requirements necessary to ensure timely delivery of services.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.83
     },
     {
-      "task": "Determine production schedules and staff requirements to ensure timely delivery of services, and estimate necessary food supplies.",
-      "task_type": "Core"
+      "task": "Prepare and cook foods of all types, either on a regular basis or for special guests or functions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.83
     },
     {
-      "task": "Prepare and cook foods of all types, either on a regular basis or for special guests, and cook foodstuffs according to diet restrictions or portion numbers.",
-      "task_type": "Core"
+      "task": "Analyze recipes to assign prices to menu items, based on food, labor, and overhead costs.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.0
     },
     {
-      "task": "Analyze recipes to assign prices to menu items based on costs and forecast staff and supply requirements.",
-      "task_type": "Core"
+      "task": "Collaborate with other personnel to plan and develop recipes or menus, taking into account such factors as seasonal availability of ingredients or the likely number of customers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.42
     },
     {
-      "task": "Plan, direct, or supervise food preparation and cooking activities in facilities such as restaurants or hospitals.",
-      "task_type": "Core"
+      "task": "Estimate amounts and costs of required supplies, such as food and ingredients.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.26
     },
     {
-      "task": "Check the quality of raw or cooked food products, and ensure food is stored and cooked at safe temperatures.",
-      "task_type": "Core"
+      "task": "Instruct cooks or other workers in the preparation, cooking, garnishing, or presentation of food.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.57
     },
     {
-      "task": "Monitor sanitation practices and ensure hygiene standards are followed in food preparation areas.",
-      "task_type": "Core"
+      "task": "Determine how food should be presented and create decorative food displays.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.83
     },
     {
-      "task": "Stock, organize, and clean kitchens and cooking utensils; and supervise cleaning of food preparation areas and equipment.",
-      "task_type": "Core"
+      "task": "Inspect supplies, equipment, or work areas to ensure conformance to established standards.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.32
     },
     {
-      "task": "Portion, arrange, and garnish food for serving, and serve meals and snacks to patrons or guests.",
-      "task_type": "Core"
+      "task": "Supervise or coordinate activities of cooks or workers engaged in food preparation.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.52
+    },
+    {
+      "task": "Order or requisition food or other supplies needed to ensure efficient operation.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
+    },
+    {
+      "task": "Check the quantity and quality of received products.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.3
+    },
+    {
+      "task": "Monitor sanitation practices to ensure that employees follow standards and regulations.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.87
+    },
+    {
+      "task": "Direct the operation and organization of kitchens and all food-related activities, including the presentation and serving of food.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.08
+    },
+    {
+      "task": "Check the quality of raw or cooked food products to ensure that standards are met.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.29
+    },
+    {
+      "task": "Bake breads, rolls, cakes, and pastries.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.94
+    },
+    {
+      "task": "Roll, knead, cut, or shape dough to form sweet rolls, pie crusts, tarts, cookies, or other products.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.17
+    },
+    {
+      "task": "Check equipment to ensure that it meets health and safety regulations, and perform maintenance or cleaning, as necessary.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.41
+    },
+    {
+      "task": "Develop new recipes for baked goods.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.41
+    },
+    {
+      "task": "Operate slicing or wrapping machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.18
+    },
+    {
+      "task": "Direct or coordinate bakery deliveries.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.08
+    },
+    {
+      "task": "Measure or weigh flour or other ingredients to prepare batters, doughs, fillings, or icings, using scales or graduated containers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.49
+    },
+    {
+      "task": "Set time and speed controls for mixing machines, blending machines, or steam kettles so that ingredients will be mixed or cooked according to instructions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.54
+    },
+    {
+      "task": "Decorate baked goods, such as cakes or pastries.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.19
+    },
+    {
+      "task": "Apply glazes, icings, or other toppings to baked goods, using spatulas or brushes.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.2
+    },
+    {
+      "task": "Adapt the quantity of ingredients to match the amount of items to be baked.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.37
+    },
+    {
+      "task": "Place dough in pans, molds, or on sheets, and bake in production ovens or on grills.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.54
+    },
+    {
+      "task": "Observe color of products being baked, and adjust oven temperatures, humidity, or conveyor speeds accordingly.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.47
+    },
+    {
+      "task": "Set oven temperatures, and place items into hot ovens for baking.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.67
+    },
+    {
+      "task": "Combine measured ingredients in bowls of mixing, blending, or cooking machinery.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.58
+    },
+    {
+      "task": "Plan and prepare food for parties, holiday meals, luncheons, special functions, and other social events.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.64
+    },
+    {
+      "task": "Create and explore new cuisines.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.58
+    },
+    {
+      "task": "Stock, organize, and clean kitchens and cooking utensils.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.42
+    },
+    {
+      "task": "Serve meals and snacks to employing families and their guests.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.21
+    },
+    {
+      "task": "Prepare meals in private homes according to employers' recipes or tastes, handling all meals for the family and possibly for other household staff.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.52
+    },
+    {
+      "task": "Peel, wash, trim, and cook vegetables and meats, and bake breads and pastries.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.81
+    },
+    {
+      "task": "Specialize in preparing fancy dishes or food for special diets.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.08
+    },
+    {
+      "task": "Travel with employers to vacation homes to provide meal preparation at those locations.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.18
+    },
+    {
+      "task": "Inspect and clean food preparation areas, such as equipment, work surfaces, and serving areas, to ensure safe and sanitary food-handling practices.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.72
+    },
+    {
+      "task": "Ensure food is stored and cooked at correct temperature by regulating temperature of ovens, broilers, grills, and roasters.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.74
+    },
+    {
+      "task": "Ensure freshness of food and ingredients by checking for quality, keeping track of old and new items, and rotating stock.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.65
+    },
+    {
+      "task": "Cool, package, label, and freeze foods for later consumption and provide instructions for reheating.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.77
+    },
+    {
+      "task": "Keep records pertaining to menus, finances, and other business-related issues.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.46
+    },
+    {
+      "task": "Monitor and record food temperatures to ensure food safety.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.73
+    },
+    {
+      "task": "Plan menus according to employers' needs and diet restrictions.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.69
+    },
+    {
+      "task": "Prepare relishes and hors d'oeuvres.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.08
+    },
+    {
+      "task": "Butcher and dress animals, fowl, or shellfish, or cut and bone meat prior to cooking.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.55
+    },
+    {
+      "task": "Carve and trim meats such as beef, veal, ham, pork, and lamb for hot or cold service, or for sandwiches.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.73
+    },
+    {
+      "task": "Bake, roast, broil, and steam meats, fish, vegetables, and other foods.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.53
+    },
+    {
+      "task": "Plan menus that are varied, nutritionally balanced, and appetizing, taking advantage of foods in season and local availability.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.33
+    },
+    {
+      "task": "Portion, arrange, and garnish food, and serve food to waiters or patrons.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.69
+    },
+    {
+      "task": "Weigh, measure, and mix ingredients according to recipes or personal judgment, using various kitchen utensils and equipment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.47
+    },
+    {
+      "task": "Observe and test foods to determine if they have been cooked sufficiently, using methods such as tasting, smelling, or piercing them with utensils.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.37
+    },
+    {
+      "task": "Season and cook food according to recipes or personal judgment and experience.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.65
+    },
+    {
+      "task": "Turn or stir foods to ensure even cooking.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.39
+    },
+    {
+      "task": "Substitute for or assist other cooks during emergencies or rush periods.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.3
+    },
+    {
+      "task": "Apportion and serve food to facility residents, employees, or patrons.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.57
+    },
+    {
+      "task": "Monitor use of government food commodities to ensure that proper procedures are followed.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.44
+    },
+    {
+      "task": "Clean, cut, and cook meat, fish, or poultry.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.54
+    },
+    {
+      "task": "Monitor menus and spending to ensure that meals are prepared economically.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.32
+    },
+    {
+      "task": "Cook foodstuffs according to menus, special dietary or nutritional restrictions, or numbers of portions to be served.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.68
+    },
+    {
+      "task": "Take inventory of supplies and equipment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.23
+    },
+    {
+      "task": "Assess nutritional needs of patients, plan special menus, supervise the assembly of regular and special diet trays, and oversee the delivery of food trolleys to hospital patients.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.34
+    },
+    {
+      "task": "Analyze operational problems, such as theft and wastage, and establish procedures to alleviate these problems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.91
+    },
+    {
+      "task": "Perform food preparation and serving duties, such as carving meat, preparing flambe dishes, or serving wine and liquor.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.11
+    },
+    {
+      "task": "Take orders from customers and cook foods requiring short preparation times, according to customer requirements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.2
+    },
+    {
+      "task": "Perform food preparation tasks, such as making sandwiches, carving meats, making soups or salads, baking breads or desserts, and brewing coffee or tea.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.43
+    },
+    {
+      "task": "Schedule parties and take reservations.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.9
+    },
+    {
+      "task": "Perform various financial activities, such as cash handling, deposit preparation, and payroll.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.03
+    },
+    {
+      "task": "Recommend measures for improving work procedures and worker performance to increase service quality and enhance job safety.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.96
+    },
+    {
+      "task": "Grill and garnish hamburgers or other meats, such as steaks and chops.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.73
+    },
+    {
+      "task": "Resolve customer complaints regarding food service.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.23
+    },
+    {
+      "task": "Evaluate new products for usefulness and suitability.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.42
+    },
+    {
+      "task": "Grill, cook, and fry foods such as french fries, eggs, and pancakes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.54
+    },
+    {
+      "task": "Forecast staff, equipment, and supply requirements, based on a master menu.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.44
+    },
+    {
+      "task": "Present bills and accept payments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.13
+    },
+    {
+      "task": "Greet and seat guests, and present menus and wine lists.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.51
     }
   ],
   "technology_skills": [
@@ -1620,6 +2052,10 @@
     {
       "name": "Email software",
       "weight": 1.0333333333333332
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 1.0
     },
     {
       "name": "Microsoft Outlook",
@@ -1646,6 +2082,10 @@
       "weight": 0.8333333333333333
     },
     {
+      "name": "Facebook",
+      "weight": 0.7
+    },
+    {
       "name": "GNOME Gnutrition",
       "weight": 0.7
     },
@@ -1670,11 +2110,19 @@
       "weight": 0.5333333333333333
     },
     {
+      "name": "ADP eTIME",
+      "weight": 0.5
+    },
+    {
       "name": "Barrington Software CookenPro Commercial",
       "weight": 0.5
     },
     {
       "name": "Google Sheets",
+      "weight": 0.5
+    },
+    {
+      "name": "GroupMe",
       "weight": 0.5
     },
     {
@@ -1704,6 +2152,10 @@
     {
       "name": "Spreadsheet software",
       "weight": 0.3666666666666667
+    },
+    {
+      "name": "ADP Enterprise eTIME",
+      "weight": 0.3333333333333333
     },
     {
       "name": "Afcom Datasafe Computer Services FlexiBake",
@@ -1770,6 +2222,10 @@
       "weight": 0.2
     },
     {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.2
+    },
+    {
       "name": "Intuit QuickBooks",
       "weight": 0.2
     },
@@ -1794,8 +2250,20 @@
       "weight": 0.2
     },
     {
+      "name": "WordPress",
+      "weight": 0.2
+    },
+    {
       "name": "Work scheduling software",
       "weight": 0.2
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.2
+    },
+    {
+      "name": "ADP Workforce Now",
+      "weight": 0.16666666666666666
     },
     {
       "name": "Aldelo Systems Aldelo for Restaurants Pro",
@@ -1822,6 +2290,22 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Compris software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Foodman Home-Delivery",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Intuit QuickBooks Point of Sale",
       "weight": 0.16666666666666666
     },
@@ -1834,6 +2318,26 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Microsoft Dynamics",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "NCR Advanced Checkout Solution",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "NCR NeighborhoodPOS",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Ordering and purchasing software",
       "weight": 0.16666666666666666
     },
@@ -1843,6 +2347,14 @@
     },
     {
       "name": "Plexis Software Plexis POS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Quizlet",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Regnow Chrysanth Inventory Manager",
       "weight": 0.16666666666666666
     },
     {
@@ -1866,8 +2378,8 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 1.0
+      "name": "The General Store",
+      "weight": 0.16666666666666666
     }
   ],
   "tools_used": [
@@ -1878,6 +2390,10 @@
     {
       "name": "Chefs' knives",
       "weight": 1.4
+    },
+    {
+      "name": "Desktop computers",
+      "weight": 1.3666666666666667
     },
     {
       "name": "Convection ovens",
@@ -1940,6 +2456,10 @@
       "weight": 1.0666666666666667
     },
     {
+      "name": "Personal computers",
+      "weight": 1.0666666666666667
+    },
+    {
       "name": "Pizza ovens",
       "weight": 1.0666666666666667
     },
@@ -1973,6 +2493,10 @@
     },
     {
       "name": "Kitchen fire extinguishers",
+      "weight": 1.0333333333333332
+    },
+    {
+      "name": "Laptop computers",
       "weight": 1.0333333333333332
     },
     {
@@ -2096,6 +2620,10 @@
       "weight": 0.7
     },
     {
+      "name": "Garbage compactors",
+      "weight": 0.7
+    },
+    {
       "name": "Gas-powered deep-fat fryers",
       "weight": 0.7
     },
@@ -2168,11 +2696,23 @@
       "weight": 0.6666666666666666
     },
     {
+      "name": "Point of sale POS computer terminals",
+      "weight": 0.5666666666666667
+    },
+    {
       "name": "Bread knives",
       "weight": 0.5333333333333333
     },
     {
+      "name": "Cash registers",
+      "weight": 0.5333333333333333
+    },
+    {
       "name": "Commercial kitchen convection ovens",
+      "weight": 0.5333333333333333
+    },
+    {
+      "name": "Computer laser printers",
       "weight": 0.5333333333333333
     },
     {
@@ -2190,6 +2730,14 @@
     {
       "name": "Serrated knives",
       "weight": 0.5333333333333333
+    },
+    {
+      "name": "Tablet computers",
+      "weight": 0.5333333333333333
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.5
     },
     {
       "name": "Cake decorating tools",
@@ -2221,6 +2769,10 @@
     },
     {
       "name": "Graters",
+      "weight": 0.3666666666666667
+    },
+    {
+      "name": "Touch screen monitors",
       "weight": 0.3666666666666667
     },
     {
@@ -2289,6 +2841,10 @@
     },
     {
       "name": "Bowl scrapers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Box cutters",
       "weight": 0.3333333333333333
     },
     {
@@ -2540,11 +3096,35 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Edible-ink cartridges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Egg breaking machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ejector sets",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Electric salamanders",
       "weight": 0.3333333333333333
     },
     {
+      "name": "Electronic cash registers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Espresso makers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fermentation tanks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Filled stick extruders",
       "weight": 0.3333333333333333
     },
     {
@@ -2556,7 +3136,19 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Fondant crimpers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fondant smoothers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Food cooling racks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Food drying equipment",
       "weight": 0.3333333333333333
     },
     {
@@ -2568,7 +3160,19 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Fork mixers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "French bread molders",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Fruit corers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Guillotine cutters",
       "weight": 0.3333333333333333
     },
     {
@@ -2704,6 +3308,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Pallet jacks",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Pan cooling towers",
       "weight": 0.3333333333333333
     },
@@ -2757,6 +3365,14 @@
     },
     {
       "name": "Planetary mixers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pneumatic conveyors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Portable air compressors",
       "weight": 0.3333333333333333
     },
     {
@@ -2952,6 +3568,10 @@
       "weight": 0.2
     },
     {
+      "name": "Corkscrews",
+      "weight": 0.2
+    },
+    {
       "name": "Countertop microwaves",
       "weight": 0.2
     },
@@ -3037,6 +3657,10 @@
     },
     {
       "name": "Knife sharpening tools",
+      "weight": 0.2
+    },
+    {
+      "name": "Labelmakers",
       "weight": 0.2
     },
     {
@@ -3148,11 +3772,19 @@
       "weight": 0.2
     },
     {
+      "name": "Stand mixers",
+      "weight": 0.2
+    },
+    {
       "name": "Stockpots",
       "weight": 0.2
     },
     {
       "name": "Swivel peelers",
+      "weight": 0.2
+    },
+    {
+      "name": "Thumb drives",
       "weight": 0.2
     },
     {
@@ -3180,11 +3812,51 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Card readers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Credit card processing machines",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Deep fat fryers",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Hand scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld calculators",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Milkshake and smoothie machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Notebook computers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Point of sale POS printers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Point of sale POS terminals",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Point of service scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Point of service workstations",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Restaurant guest and server paging systems",
       "weight": 0.16666666666666666
     },
     {

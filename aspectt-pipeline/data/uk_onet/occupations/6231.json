@@ -1544,95 +1544,923 @@
   ],
   "tasks": [
     {
-      "task": "Ensure food is stored and cooked at the correct temperature by regulating the temperature of ovens, broilers, grills, and roasters.",
-      "task_type": "Core"
+      "task": "Ensure food is stored and cooked at correct temperature by regulating temperature of ovens, broilers, grills, and roasters.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.74
     },
     {
       "task": "Wash pots, pans, dishes, utensils, or other cooking equipment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.59
     },
     {
-      "task": "Plan and prepare food for parties, holiday meals, luncheons, special functions, and other social events while adhering to menu plans.",
-      "task_type": "Core"
+      "task": "Consult with supervisory staff to plan menus, taking into consideration factors such as costs and special event needs.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.0
     },
     {
-      "task": "Train new employees and supervise the work of kitchen staff to ensure quality standards and service.",
-      "task_type": "Core"
+      "task": "Butcher and dress animals, fowl, or shellfish, or cut and bone meat prior to cooking.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.55
     },
     {
-      "task": "Cook foodstuffs according to menus, considering dietary restrictions and nutritional needs, and serve meals to clients or families.",
-      "task_type": "Core"
+      "task": "Bake breads, rolls, cakes, and pastries.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.94
     },
     {
-      "task": "Perform housekeeping duties including cooking, cleaning, washing clothes or dishes, and running errands.",
-      "task_type": "Core"
+      "task": "Prepare relishes and hors d'oeuvres.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.08
     },
     {
-      "task": "Inspect and clean food preparation areas, ensuring safety and sanitary food-handling practices are followed.",
-      "task_type": "Core"
+      "task": "Keep records and accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.11
     },
     {
-      "task": "Monitor and record food temperatures to ensure food safety, and inspect supplies and equipment for quality.",
-      "task_type": "Core"
+      "task": "Plan and price menu items.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.46
     },
     {
-      "task": "Prepare and maintain records of client progress, services performed, and necessary reporting of client condition to supervisors.",
-      "task_type": "Core"
+      "task": "Train new employees.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.25
     },
     {
-      "task": "Provide clients with personal care and assistance, including ambulation, personal hygiene, and companionship during recovery.",
-      "task_type": "Core"
+      "task": "Compile and maintain records of food use and expenditures.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.31
     },
     {
-      "task": "Recruit and hire staff members to ensure appropriate staffing levels.",
-      "task_type": "Core"
+      "task": "Monitor use of government food commodities to ensure that proper procedures are followed.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.44
     },
     {
-      "task": "Train workers in proper operational procedures and functions and explain company policies.",
-      "task_type": "Core"
+      "task": "Estimate expected food consumption, requisition or purchase supplies, or procure food from storage.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.04
     },
     {
-      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
-      "task_type": "Core"
+      "task": "Clean, cut, and cook meat, fish, or poultry.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.54
     },
     {
-      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
-      "task_type": "Core"
+      "task": "Cook foodstuffs according to menus, special dietary or nutritional restrictions, or numbers of portions to be served.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.68
+    },
+    {
+      "task": "Monitor and record food temperatures to ensure food safety.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.73
+    },
+    {
+      "task": "Keep records pertaining to menus, finances, and other business-related issues.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.46
+    },
+    {
+      "task": "Cool, package, label, and freeze foods for later consumption and provide instructions for reheating.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.77
+    },
+    {
+      "task": "Apportion and serve food to facility residents, employees, or patrons.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.57
+    },
+    {
+      "task": "Clean and inspect galley equipment, kitchen appliances, and work areas to ensure cleanliness and functional operation.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.56
+    },
+    {
+      "task": "Ensure freshness of food and ingredients by checking for quality, keeping track of old and new items, and rotating stock.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.65
+    },
+    {
+      "task": "Inspect and clean food preparation areas, such as equipment, work surfaces, and serving areas, to ensure safe and sanitary food-handling practices.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.72
+    },
+    {
+      "task": "Carve and trim meats such as beef, veal, ham, pork, and lamb for hot or cold service, or for sandwiches.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.73
+    },
+    {
+      "task": "Coordinate and supervise work of kitchen staff.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.57
+    },
+    {
+      "task": "Wash, peel, cut, and seed fruits and vegetables to prepare them for consumption.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.15
+    },
+    {
+      "task": "Determine meal prices, based on calculations of ingredient prices.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.72
+    },
+    {
+      "task": "Travel with employers to vacation homes to provide meal preparation at those locations.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.18
+    },
+    {
+      "task": "Serve meals and snacks to employing families and their guests.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.21
+    },
+    {
+      "task": "Plan and prepare food for parties, holiday meals, luncheons, special functions, and other social events.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.64
+    },
+    {
+      "task": "Direct the operation and organization of kitchens and all food-related activities, including the presentation and serving of food.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.08
+    },
+    {
+      "task": "Create and explore new cuisines.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.58
+    },
+    {
+      "task": "Specialize in preparing fancy dishes or food for special diets.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.08
+    },
+    {
+      "task": "Stock, organize, and clean kitchens and cooking utensils.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.42
+    },
+    {
+      "task": "Prepare meals in private homes according to employers' recipes or tastes, handling all meals for the family and possibly for other household staff.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.52
+    },
+    {
+      "task": "Peel, wash, trim, and cook vegetables and meats, and bake breads and pastries.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.81
+    },
+    {
+      "task": "Bake, roast, broil, and steam meats, fish, vegetables, and other foods.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.53
+    },
+    {
+      "task": "Plan menus according to employers' needs and diet restrictions.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.69
+    },
+    {
+      "task": "Plan menus that are varied, nutritionally balanced, and appetizing, taking advantage of foods in season and local availability.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.33
+    },
+    {
+      "task": "Monitor menus and spending to ensure that meals are prepared economically.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.32
+    },
+    {
+      "task": "Take inventory of supplies and equipment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.23
+    },
+    {
+      "task": "Turn or stir foods to ensure even cooking.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.39
+    },
+    {
+      "task": "Season and cook food according to recipes or personal judgment and experience.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.65
+    },
+    {
+      "task": "Observe and test foods to determine if they have been cooked sufficiently, using methods such as tasting, smelling, or piercing them with utensils.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.37
+    },
+    {
+      "task": "Weigh, measure, and mix ingredients according to recipes or personal judgment, using various kitchen utensils and equipment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.47
+    },
+    {
+      "task": "Substitute for or assist other cooks during emergencies or rush periods.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.3
+    },
+    {
+      "task": "Perform various financial activities, such as cash handling, deposit preparation, and payroll.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.03
+    },
+    {
+      "task": "Supervise and participate in kitchen and dining area cleaning activities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.01
+    },
+    {
+      "task": "Perform personnel actions, such as hiring and firing staff, providing employee orientation and training, and conducting supervisory activities, such as creating work schedules or organizing employee time sheets.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.23
+    },
+    {
+      "task": "Perform food preparation and serving duties, such as carving meat, preparing flambe dishes, or serving wine and liquor.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.11
+    },
+    {
+      "task": "Compile and balance cash receipts at the end of the day or shift.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.47
+    },
+    {
+      "task": "Conduct meetings and collaborate with other personnel for menu planning, serving arrangements, and related details.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.71
+    },
+    {
+      "task": "Grill and garnish hamburgers or other meats, such as steaks and chops.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.73
+    },
+    {
+      "task": "Assess nutritional needs of patients, plan special menus, supervise the assembly of regular and special diet trays, and oversee the delivery of food trolleys to hospital patients.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.34
+    },
+    {
+      "task": "Plan work on orders so that items served together are finished at the same time.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.59
+    },
+    {
+      "task": "Clean food preparation equipment, work areas, and counters or tables.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.83
+    },
+    {
+      "task": "Evaluate new products for usefulness and suitability.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.42
+    },
+    {
+      "task": "Develop equipment maintenance schedules and arrange for repairs.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.71
+    },
+    {
+      "task": "Develop departmental objectives, budgets, policies, procedures, and strategies.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.75
+    },
+    {
+      "task": "Schedule parties and take reservations.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.9
+    },
+    {
+      "task": "Forecast staff, equipment, and supply requirements, based on a master menu.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.44
+    },
+    {
+      "task": "Present bills and accept payments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.13
+    },
+    {
+      "task": "Greet and seat guests, and present menus and wine lists.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.51
+    },
+    {
+      "task": "Specify food portions and courses, production and time sequences, and workstation and equipment arrangements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.96
+    },
+    {
+      "task": "Analyze operational problems, such as theft and wastage, and establish procedures to alleviate these problems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.91
+    },
+    {
+      "task": "Estimate ingredients and supplies required to prepare a recipe.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.22
+    },
+    {
+      "task": "Assign duties, responsibilities, and work stations to employees in accordance with work requirements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.13
+    },
+    {
+      "task": "Control inventories of food, equipment, smallware, and liquor, and report shortages to designated personnel.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.96
+    },
+    {
+      "task": "Inspect supplies, equipment, and work areas to ensure efficient service and conformance to standards.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.67
+    },
+    {
+      "task": "Train workers in food preparation, and in service, sanitation, and safety procedures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.19
+    },
+    {
+      "task": "Take orders from customers and cook foods requiring short preparation times, according to customer requirements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.2
+    },
+    {
+      "task": "Grill, cook, and fry foods such as french fries, eggs, and pancakes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.54
+    },
+    {
+      "task": "Complete orders from steam tables, placing food on plates and serving customers at tables or counters.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.61
+    },
+    {
+      "task": "Perform food preparation tasks, such as making sandwiches, carving meats, making soups or salads, baking breads or desserts, and brewing coffee or tea.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.43
+    },
+    {
+      "task": "Perform general cleaning activities in kitchen and dining areas.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.37
+    },
+    {
+      "task": "Resolve customer complaints regarding food service.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.23
+    },
+    {
+      "task": "Establish and implement operational standards and procedures for the departments supervised.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
+    },
+    {
+      "task": "Recommend or arrange for additional services, such as painting, repair work, renovations, and the replacement of furnishings and equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Instruct staff in work policies and procedures, and the use and maintenance of equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.05
+    },
+    {
+      "task": "Issue supplies and equipment to workers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.21
+    },
+    {
+      "task": "Forecast necessary levels of staffing and stock at different times to facilitate effective scheduling and ordering.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.2
+    },
+    {
+      "task": "Evaluate employee performance and recommend personnel actions, such as promotions, transfers, and dismissals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
+    },
+    {
+      "task": "Select the most suitable cleaning materials for different types of linens, furniture, flooring, and surfaces.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.39
+    },
+    {
+      "task": "Perform grounds maintenance tasks, such as removing snow and mowing the lawn.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.63
+    },
+    {
+      "task": "Check and maintain equipment to ensure that it is in working order.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.18
+    },
+    {
+      "task": "Perform financial tasks, such as estimating costs and preparing and managing budgets.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Confer with staff to resolve performance and personnel problems, and to discuss company policies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
+    },
+    {
+      "task": "Supervise in-house services, such as laundries, maintenance and repair, dry cleaning, or valet services.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
+    },
+    {
+      "task": "Screen job applicants, and hire new employees.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
+    },
+    {
+      "task": "Maintain required records of work hours, budgets, payrolls, and other information.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.16
+    },
+    {
+      "task": "Recommend changes that could improve service and increase operational efficiency.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
+    },
+    {
+      "task": "Select and order or purchase new equipment, supplies, or furnishings.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Advise managers, desk clerks, or admitting personnel of rooms ready for occupancy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.37
+    },
+    {
+      "task": "Coordinate activities with other departments to ensure that services are provided in an efficient and timely manner.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.12
+    },
+    {
+      "task": "Inspect and evaluate the physical condition of facilities to determine the type of work required.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.27
+    },
+    {
+      "task": "Prepare and maintain records of client progress and services performed, reporting changes in client condition to manager or supervisor.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.65
+    },
+    {
+      "task": "Provide clients with communication assistance, typing their correspondence or obtaining information for them.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.18
+    },
+    {
+      "task": "Train family members to provide bedside care.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.56
+    },
+    {
+      "task": "Transport clients to locations outside the home, such as to physicians' offices or on outings, using a motor vehicle.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.73
+    },
+    {
+      "task": "Participate in case reviews, consulting with the team caring for the client, to evaluate the client's needs and plan for continuing services.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
+    },
+    {
+      "task": "Plan, shop for, or prepare nutritious meals or assist families in planning, shopping for, or preparing nutritious meals.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.03
+    },
+    {
+      "task": "Care for individuals or families during periods of incapacitation, family disruption, or convalescence, providing companionship, personal care, or help in adjusting to new lifestyles.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.39
+    },
+    {
+      "task": "Perform housekeeping duties, such as cooking, cleaning, washing clothes or dishes, or running errands.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Instruct or advise clients on issues, such as household cleanliness, utilities, hygiene, nutrition, or infant care.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
+    },
+    {
+      "task": "Administer bedside or personal care, such as ambulation or personal hygiene assistance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.65
+    },
+    {
+      "task": "Perform healthcare-related tasks, such as monitoring vital signs and medication, under the direction of registered nurses or physiotherapists.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.46
+    },
+    {
+      "task": "Investigate complaints about service and equipment, and take corrective action.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.07
+    },
+    {
+      "task": "Direct activities for stopping the spread of infections in facilities, such as hospitals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Inspect work performed to ensure that it meets specifications and established standards.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.36
+    },
+    {
+      "task": "Plan and prepare employee work schedules.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.33
+    },
+    {
+      "task": "Perform or assist with cleaning duties as necessary.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Pre-soak or rinse machine parts, equipment, or vehicles by immersing objects in cleaning solutions or water, manually or using hoists.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.66
+    },
+    {
+      "task": "Inspect parts, equipment, or vehicles for cleanliness, damage, and compliance with standards or regulations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.88
+    },
+    {
+      "task": "Scrub, scrape, or spray machine parts, equipment, or vehicles, using scrapers, brushes, clothes, cleaners, disinfectants, insecticides, acid, abrasives, vacuums, or hoses.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.91
+    },
+    {
+      "task": "Mix cleaning solutions, abrasive compositions, or other compounds, according to formulas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.74
+    },
+    {
+      "task": "Press buttons to activate cleaning equipment or machines.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.52
+    },
+    {
+      "task": "Clean and polish vehicle windows.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.94
+    },
+    {
+      "task": "Rinse objects and place them on drying racks or use cloth, squeegees, or air compressors to dry surfaces.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.99
+    },
+    {
+      "task": "Drive vehicles to or from workshops or customers' workplaces or homes.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.93
+    },
+    {
+      "task": "Turn valves or handles on equipment to regulate pressure or flow of water, air, steam, or abrasives from sprayer nozzles.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.63
+    },
+    {
+      "task": "Lubricate machinery, vehicles, or equipment or perform minor repairs or adjustments, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.53
+    },
+    {
+      "task": "Clean the plastic work inside cars, using paintbrushes.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.9
+    },
+    {
+      "task": "Transport materials, equipment, or supplies to or from work areas, using carts or hoists.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.3
+    },
+    {
+      "task": "Sweep, shovel, or vacuum loose debris or salvageable scrap into containers and remove containers from work areas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.59
+    },
+    {
+      "task": "Turn valves or disconnect hoses to eliminate water, cleaning solutions, or vapors from machinery or tanks.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.64
+    },
+    {
+      "task": "Connect hoses or lines to pumps or other equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.35
+    },
+    {
+      "task": "Monitor operation of cleaning machines and stop machines or notify supervisors when malfunctions occur.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.59
+    },
+    {
+      "task": "Recruit and hire staff members.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.32
+    },
+    {
+      "task": "Take disciplinary action to address performance problems.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.23
+    },
+    {
+      "task": "Requisition necessary supplies, equipment, or services.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.71
     },
     {
       "task": "Resolve customer complaints regarding worker performance or services rendered.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.3
     },
     {
-      "task": "Take disciplinary action to address performance problems when necessary.",
-      "task_type": "Core"
+      "task": "Train workers in proper operational procedures and functions and explain company policies.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.55
     },
     {
-      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
-      "task_type": "Core"
+      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.36
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.11
     },
     {
       "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.41
     },
     {
-      "task": "Requisition necessary supplies, equipment, or services to facilitate operations.",
-      "task_type": "Core"
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.79
     },
     {
-      "task": "Inform workers about the interests or special needs of specific groups to enhance service delivery.",
-      "task_type": "Core"
+      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.14
     },
     {
-      "task": "Direct or coordinate the activities of workers, such as hotel staff or recreation staff, to ensure efficient operations.",
-      "task_type": "Core"
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.93
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.01
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as hotel staff or hair stylists.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.05
+    },
+    {
+      "task": "Inform management about problems, such as employee disputes.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.97
+    },
+    {
+      "task": "Arrange worker breaks to ensure services are adequately staffed throughout each shift.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.94
+    },
+    {
+      "task": "Investigate employee complaints and resolve problems following management rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.13
+    },
+    {
+      "task": "Provide staff with assistance in performing difficult or complicated duties.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
     },
     {
       "task": "Analyze and record personnel or operational data and write related activity reports.",
-      "task_type": "Unclassified"
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct marketing, advertising, or other customer recruitment efforts.",
+      "task_type": "Supplemental",
+      "relevance": 0.03571428571428571,
+      "importance": 3.41
+    },
+    {
+      "task": "Furnish customers with information on events or activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct or coordinate the activities of entertainment and recreation related workers.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Collaborate with staff members to plan or develop programs of events or schedules of activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, work methods, or customer services.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inspect materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
+    {
+      "name": "Microsoft Excel",
+      "weight": 0.887012987012987
+    },
     {
       "name": "Microsoft Word",
       "weight": 0.887012987012987
@@ -1642,8 +2470,16 @@
       "weight": 0.687012987012987
     },
     {
+      "name": "Point of sale POS software",
+      "weight": 0.6199134199134199
+    },
+    {
       "name": "Microsoft Outlook",
       "weight": 0.5961038961038961
+    },
+    {
+      "name": "Spreadsheet software",
+      "weight": 0.5095238095238095
     },
     {
       "name": "Email software",
@@ -1654,20 +2490,328 @@
       "weight": 0.4857142857142857
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.39610389610389607
+    },
+    {
+      "name": "Inventory management software",
+      "weight": 0.3666666666666667
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.34285714285714286
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.30952380952380953
+    },
+    {
       "name": "Web browser software",
       "weight": 0.2865800865800866
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.2865800865800866
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.25396825396825395
+    },
+    {
+      "name": "APPCA Personal Chef Office",
+      "weight": 0.2
     },
     {
       "name": "Cooking e-books",
       "weight": 0.2
     },
     {
-      "name": "Microsoft Excel",
-      "weight": 0.887012987012987
+      "name": "Cost tracking software",
+      "weight": 0.2
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.39610389610389607
+      "name": "Food inventory software",
+      "weight": 0.2
+    },
+    {
+      "name": "Food safety labeling systems",
+      "weight": 0.2
+    },
+    {
+      "name": "GNOME Gnutrition",
+      "weight": 0.2
+    },
+    {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.2
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.2
+    },
+    {
+      "name": "Meals Plus",
+      "weight": 0.2
+    },
+    {
+      "name": "Menu planning software",
+      "weight": 0.2
+    },
+    {
+      "name": "PCS Revenue Control Systems FASTRAK School Meal Software",
+      "weight": 0.2
+    },
+    {
+      "name": "Point of sale POS restaurant software",
+      "weight": 0.2
+    },
+    {
+      "name": "Recipe cost control software",
+      "weight": 0.2
+    },
+    {
+      "name": "WordPress",
+      "weight": 0.2
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.2
+    },
+    {
+      "name": "ADP Workforce Now",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Aldelo Systems Aldelo for Restaurants Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "CBORD Foodservice Suite",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "CBORD Group Menu Management System",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "CaterPro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Compeat Restaurant Accounting Systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Compris Advanced Manager's Workstation",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Compris software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "CostGuard",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Foodman Home-Delivery",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Intuit QuickBooks Point of Sale",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Inventory control software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "MICROS Systems HSI Profits Series",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "NCR Advanced Checkout Solution",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "NCR NeighborhoodPOS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ordering and purchasing software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "ParTech PixelPoint POS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Plexis Software Plexis POS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Quizlet",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Regnow Chrysanth Inventory Manager",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Restaurant Operations & Management Spreadsheet Library",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "RestaurantPlus PRO",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SoftCafe ScheduleWriter",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Staff scheduling software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "The General Store",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.158008658008658
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.158008658008658
+    },
+    {
+      "name": "Appletree",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "August Systems Visit Wizard",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computer reading software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computerized bed control system software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computerized maintenance management system CMMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FaceTime",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Facility use software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Help desk software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "MEDITECH software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mi-Co Mi-Forms",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Voltage SecureMail",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Bella FSM Auto Detailing Service Software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "BookFresh",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Green Cloud KleanTRAC",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Thoughtful Systems Scheduling Manager for Auto Detailing",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Belmar & Associates Mortware",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "HMIS Advantage",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Accellos Real Dispatch",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Commercial vehicle operations CVO software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -2408,6 +3552,18 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Alarm systems",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "All-terrain vacuums",
       "weight": 0.14285714285714285
     },
@@ -2436,10 +3592,6 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Braille printing software",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Building alarm systems",
       "weight": 0.14285714285714285
     },
@@ -2464,6 +3616,14 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Digital cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Digital video cameras",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Dust masks",
       "weight": 0.14285714285714285
     },
@@ -2476,7 +3636,27 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Flatwork ironers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Floor burnishers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Floor polishing machines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Floor scrubbing machines",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Glucometers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hammers",
       "weight": 0.14285714285714285
     },
     {
@@ -2492,6 +3672,22 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Industrial clothes dryers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Industrial sewing machines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Industrial vacuum cleaners",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Light commercial washing machines",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Lower-body prosthetic devices",
       "weight": 0.14285714285714285
     },
@@ -2504,6 +3700,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Mechanical vibrating massage devices",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Mop wringers",
       "weight": 0.14285714285714285
     },
@@ -2512,7 +3712,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Paging systems",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Patient lifting devices",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Power floor buffers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Powered floor washers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Protective face shields",
       "weight": 0.14285714285714285
     },
     {
@@ -2524,7 +3740,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Safety goggles",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Shower chairs",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Specimen collection containers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Speech synthesizers",
       "weight": 0.14285714285714285
     },
     {
@@ -2533,6 +3765,26 @@
     },
     {
       "name": "Squeegees",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Steam pressers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Steam-operated sterilizers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Step ladders",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Telecommunication devices TDD",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Teletypewriters TTY",
       "weight": 0.14285714285714285
     },
     {
@@ -2556,7 +3808,15 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Washer extractors",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Wet mops",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Wet-dry vacuums",
       "weight": 0.14285714285714285
     },
     {
@@ -2564,12 +3824,96 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Air blowers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Car polishers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Car vacuums",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Carpet dirt extractors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Dashboard brushes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Detail brushes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital tire pressure gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Foam wash guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Gas powered generators",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Handheld digital thermometers",
       "weight": 0.1111111111111111
     },
     {
+      "name": "High pressure water hoses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hot air guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Portable air compressors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Power finish buffers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rim and engine brushes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Steam cleaners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Tire brushes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Upholstery cleaning brushes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Vehicle squeegees",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Vent brushes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.08658008658008658
+    },
+    {
       "name": "Automated external defibrillators AED",
       "weight": 0.03571428571428571
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

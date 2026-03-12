@@ -1545,55 +1545,129 @@
   "tasks": [
     {
       "task": "Measure clients' bridge and eye size, temple length, vertex distance, pupillary distance, and optical centers of eyes, using measuring devices.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.96
     },
     {
-      "task": "Determine clients' current lens prescriptions using lensometers or lens analyzers and clients' eyeglasses.",
-      "task_type": "Core"
+      "task": "Determine clients' current lens prescriptions, when necessary, using lensometers or lens analyzers and clients' eyeglasses.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.62
     },
     {
       "task": "Supervise the training of student opticians.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.24
     },
     {
-      "task": "Assemble eyeglasses by cutting and edging lenses, and fitting the lenses into frames, while verifying the finished lenses are ground to specifications.",
-      "task_type": "Core"
+      "task": "Assemble eyeglasses by cutting and edging lenses, and fitting the lenses into frames.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.36
     },
     {
-      "task": "Grind lens edges, apply coatings to lenses, and fabricate lenses to meet prescription specifications.",
-      "task_type": "Core"
+      "task": "Grind lens edges, or apply coatings to lenses.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.84
     },
     {
-      "task": "Maintain displays of optical merchandise and perform administrative duties, such as tracking inventory and sales.",
-      "task_type": "Core"
+      "task": "Fabricate lenses to meet prescription specifications.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.47
     },
     {
-      "task": "Obtain a customer's previous record or verify a prescription with the examining optometrist or ophthalmologist.",
-      "task_type": "Core"
+      "task": "Arrange and maintain displays of optical merchandise.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.5
     },
     {
-      "task": "Repair damaged frames and heat, shape, or bend plastic or metal frames to adjust eyeglasses to fit clients.",
-      "task_type": "Core"
+      "task": "Obtain a customer's previous record, or verify a prescription with the examining optometrist or ophthalmologist.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.54
     },
     {
-      "task": "Show customers how to insert, remove, and care for their contact lenses, and instruct clients on how to wear and care for eyeglasses.",
-      "task_type": "Core"
+      "task": "Repair damaged frames.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.67
     },
     {
-      "task": "Assist clients in selecting frames according to style and color, coordinating with their facial and eye measurements and optical prescriptions.",
-      "task_type": "Core"
+      "task": "Show customers how to insert, remove, and care for their contact lenses.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.67
     },
     {
-      "task": "Prepare work orders and instructions for grinding lenses and fabricating eyeglasses, and order and purchase frames and lenses.",
-      "task_type": "Core"
+      "task": "Instruct clients in how to wear and care for eyeglasses.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.26
     },
     {
-      "task": "Evaluate prescriptions in conjunction with clients' vocational and avocational visual requirements, and recommend specific lenses, lens coatings, and frames.",
-      "task_type": "Core"
+      "task": "Verify that finished lenses are ground to specifications.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.88
+    },
+    {
+      "task": "Evaluate prescriptions in conjunction with clients' vocational and avocational visual requirements.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.81
+    },
+    {
+      "task": "Heat, shape, or bend plastic or metal frames to adjust eyeglasses to fit clients, using pliers and hands.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.71
     },
     {
       "task": "Sell goods such as contact lenses, spectacles, sunglasses, and goods related to eyes, in general.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.54
+    },
+    {
+      "task": "Recommend specific lenses, lens coatings, and frames to suit client needs.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.79
+    },
+    {
+      "task": "Perform administrative duties, such as tracking inventory and sales, submitting patient insurance information, and performing simple bookkeeping.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.42
+    },
+    {
+      "task": "Maintain records of customer prescriptions, work orders, and payments.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.73
+    },
+    {
+      "task": "Assist clients in selecting frames according to style and color, and ensure that frames are coordinated with facial and eye measurements and optical prescriptions.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.79
+    },
+    {
+      "task": "Prepare work orders and instructions for grinding lenses and fabricating eyeglasses.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.62
+    },
+    {
+      "task": "Order and purchase frames and lenses.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.21
     }
   ],
   "technology_skills": [
@@ -1631,6 +1705,10 @@
     },
     {
       "name": "Insight Software My Vision Express",
+      "weight": 1.0
+    },
+    {
+      "name": "Intuit QuickBooks",
       "weight": 1.0
     },
     {
@@ -1680,7 +1758,7 @@
       "weight": 1.0
     },
     {
-      "name": "Bushing pullers",
+      "name": "Cash registers",
       "weight": 1.0
     },
     {
@@ -1697,6 +1775,10 @@
     },
     {
       "name": "Contact lens tweezers",
+      "weight": 1.0
+    },
+    {
+      "name": "Credit card processing machines",
       "weight": 1.0
     },
     {

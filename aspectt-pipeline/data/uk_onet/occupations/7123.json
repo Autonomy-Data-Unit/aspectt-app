@@ -1544,78 +1544,540 @@
   ],
   "tasks": [
     {
-      "task": "Accept payment from customers, make change as necessary, and process customer payments.",
-      "task_type": "Core"
+      "task": "Take customer orders and convey them to other employees for preparation.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.55
     },
     {
-      "task": "Take customer orders, communicate with customers regarding orders and complaints, and record orders for merchandise.",
-      "task_type": "Core"
+      "task": "Communicate with customers regarding orders, comments, and complaints.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.31
     },
     {
-      "task": "Serve prepared foods, beverages, or desserts to customers in various settings, and deliver orders to kitchens.",
-      "task_type": "Core"
+      "task": "Slice fruits, vegetables, desserts, or meats for use in food service.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
     },
     {
-      "task": "Prepare and serve food items, such as sandwiches, salads, and beverages, maintaining safety and sanitation standards.",
-      "task_type": "Core"
+      "task": "Set up or restock product displays.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.02
     },
     {
-      "task": "Clean and sanitize work areas, utensils, and equipment, and perform routine cleaning duties in service areas.",
-      "task_type": "Core"
+      "task": "Prepare or serve menu items, such as sandwiches or salads.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
     },
     {
-      "task": "Set up dining areas for meals, arrange tables, and stock service stations with clean linens and supplies.",
-      "task_type": "Core"
+      "task": "Demonstrate the use of retail equipment, such as espresso machines.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.66
     },
     {
-      "task": "Monitor and order supplies or food items, ensuring adequate inventory for service operations.",
-      "task_type": "Core"
+      "task": "Create signs to advertise store products or events.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.14
     },
     {
-      "task": "Wrap food items for serving or takeout and slice fruits or vegetables for use in food preparation.",
-      "task_type": "Core"
+      "task": "Wrap, label, or date food items for sale.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.01
     },
     {
-      "task": "Facilitate food service by carrying food, dishes, or trays to and from kitchens or service areas.",
-      "task_type": "Core"
+      "task": "Weigh, grind, or pack coffee beans for customers.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.01
     },
     {
-      "task": "Provide customers with product details and suggest items that might appeal to them.",
-      "task_type": "Core"
+      "task": "Take out garbage.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.91
     },
     {
-      "task": "Stock customer service stations with paper products or beverage preparation items and replenish supplies at serving stations.",
-      "task_type": "Core"
+      "task": "Stock customer service stations with paper products or beverage preparation items.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.01
     },
     {
-      "task": "Clean and polish counters and equipment, and remove debris, spills, and trash to maintain cleanliness.",
-      "task_type": "Core"
+      "task": "Balance receipts and payments in cash registers.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.33
     },
     {
-      "task": "Slice fruits and vegetables for use in garnishing drinks and enhance the presentation of food items.",
-      "task_type": "Supplemental"
+      "task": "Receive and process customer payments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.72
     },
     {
-      "task": "Perform general office or clerical work related to order processing, such as computing bills and entering orders.",
-      "task_type": "Supplemental"
+      "task": "Provide customers with product details, such as coffee blend or preparation descriptions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.98
     },
     {
-      "task": "Arrange buying parties and solicit sponsorship to sell merchandise, and create signs to advertise products or events.",
-      "task_type": "Supplemental"
+      "task": "Order, receive, or stock supplies or retail products.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.89
     },
     {
-      "task": "Plan, prepare, and deliver meals to individuals with special dietary needs.",
-      "task_type": "Supplemental"
+      "task": "Describe menu items to customers, or suggest products that might appeal to them.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.36
+    },
+    {
+      "task": "Check temperatures of freezers, refrigerators, or heating equipment to ensure proper functioning.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.77
+    },
+    {
+      "task": "Clean or sanitize work areas, utensils, or equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.55
+    },
+    {
+      "task": "Prepare or serve hot or cold beverages, such as coffee, espresso drinks, blended coffees, or teas.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.6
+    },
+    {
+      "task": "Perform cleaning duties, such as sweeping, mopping, and washing dishes, to keep equipment and facilities sanitary.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.15
+    },
+    {
+      "task": "Request and record customer orders, and compute bills, using cash registers, multi-counting machines, or pencil and paper.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.37
+    },
+    {
+      "task": "Arrange tables and decorations according to instructions.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.56
+    },
+    {
+      "task": "Deliver orders to kitchens, and pick up and serve food when it is ready.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.73
+    },
+    {
+      "task": "Add relishes and garnishes to food orders, according to instructions.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.32
+    },
+    {
+      "task": "Set up dining areas for meals, and clear them following meals.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.89
+    },
+    {
+      "task": "Distribute food to servers.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.15
+    },
+    {
+      "task": "Perform personnel activities, such as supervising and training employees.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.4
+    },
+    {
+      "task": "Replenish foods at serving stations.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.81
+    },
+    {
+      "task": "Select food items from serving or storage areas and place them in dishes, on serving trays, or in take-out bags.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Notify kitchen personnel of shortages or special orders.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.94
+    },
+    {
+      "task": "Wash dishes, glassware, and silverware after meals.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.78
+    },
+    {
+      "task": "Collect and return dirty dishes to the kitchen for washing.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.79
+    },
+    {
+      "task": "Serve customers in eating places that specialize in fast service and inexpensive carry-out food.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.41
+    },
+    {
+      "task": "Monitor and order supplies or food items, and restock as necessary to maintain inventory.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
+    },
+    {
+      "task": "Clean and organize eating, service, and kitchen areas.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.13
+    },
+    {
+      "task": "Prepare daily food items, and cook simple foods and beverages, such as sandwiches, salads, soups, pizza, or coffee, using proper safety precautions and sanitary measures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.06
+    },
+    {
+      "task": "Set up and display sample merchandise at parties or stands.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.73
+    },
+    {
+      "task": "Distribute product samples or literature that details products or services.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.96
+    },
+    {
+      "task": "Develop prospect lists.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.41
+    },
+    {
+      "task": "Order or purchase supplies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.7
+    },
+    {
+      "task": "Arrange buying parties and solicit sponsorship of such parties to sell merchandise.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.22
+    },
+    {
+      "task": "Stock carts or stands.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.7
+    },
+    {
+      "task": "Persuade customers to purchase merchandise or services.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.77
+    },
+    {
+      "task": "Answer questions about product features and benefits.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.17
+    },
+    {
+      "task": "Circulate among potential customers or travel by foot, truck, automobile, or bicycle to deliver or sell merchandise or services.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.95
+    },
+    {
+      "task": "Greet and seat customers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
+    },
+    {
+      "task": "Maintain adequate supplies of items, such as clean linens, silverware, glassware, dishes, or trays.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.39
+    },
+    {
+      "task": "Clean and polish counters, shelves, walls, furniture, or equipment in food service areas or other areas of restaurants and mop or vacuum floors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.89
+    },
+    {
+      "task": "Explain products or services and prices and demonstrate use of products.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.7
+    },
+    {
+      "task": "Wipe tables or seats with dampened cloths or replace dirty tablecloths.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.52
+    },
+    {
+      "task": "Set tables with clean linens, condiments, or other supplies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.47
+    },
+    {
+      "task": "Clean up spilled food or drink or broken dishes and remove empty bottles and trash.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.44
+    },
+    {
+      "task": "Perform serving, cleaning, or stocking duties in establishments, such as cafeterias or dining rooms, to facilitate customer service.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.27
+    },
+    {
+      "task": "Serve ice water, coffee, rolls, or butter to patrons.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.53
+    },
+    {
+      "task": "Fill beverage or ice dispensers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.34
+    },
+    {
+      "task": "Stock cabinets or serving areas with condiments and refill condiment containers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.06
+    },
+    {
+      "task": "Carry food, dishes, trays, or silverware from kitchens or supply departments to serving counters.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
+    },
+    {
+      "task": "Serve food to customers when waiters or waitresses need assistance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.05
+    },
+    {
+      "task": "Locate items requested by customers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Carry linens to or from laundry areas.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
+    },
+    {
+      "task": "Write and record orders for merchandise or enter orders into computers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.32
+    },
+    {
+      "task": "Deliver merchandise and collect payment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.32
+    },
+    {
+      "task": "Slice and pit fruit used to garnish drinks.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.58
+    },
+    {
+      "task": "Stock refrigerating units with wines or bottled beer or replace empty beer kegs.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.25
+    },
+    {
+      "task": "Mix and prepare flavors for mixed drinks.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.59
+    },
+    {
+      "task": "Garnish foods and position them on tables to make them visible and accessible.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Pick up and return items for laundry and valet service.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.14
+    },
+    {
+      "task": "Arrange for shipments of baggage, express mail, and parcels by providing weighing and billing services.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.25
+    },
+    {
+      "task": "Compute and complete charge slips for services rendered and maintain records.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.94
+    },
+    {
+      "task": "Set up conference rooms, display tables, racks, or shelves, and arrange merchandise displays for sales personnel.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.69
+    },
+    {
+      "task": "Walk, ride bicycles, drive vehicles, or use public conveyances to reach destinations to deliver messages or materials.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.41
+    },
+    {
+      "task": "Load vehicles with listed goods, ensuring goods are loaded correctly and taking precautions with hazardous goods.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.5
+    },
+    {
+      "task": "Unload and sort items collected along delivery routes.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.29
+    },
+    {
+      "task": "Receive messages or materials to be delivered, and information on recipients, such as names, addresses, telephone numbers, and delivery instructions, communicated via telephone, two-way radio, or in person.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.52
+    },
+    {
+      "task": "Plan and follow the most efficient routes for delivering goods.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.23
+    },
+    {
+      "task": "Deliver messages and items, such as newspapers, documents, and packages, between establishment departments and to other establishments and private homes.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.35
+    },
+    {
+      "task": "Sort items to be delivered according to the delivery route.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.36
+    },
+    {
+      "task": "Obtain signatures and payments, or arrange for recipients to make payments.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.58
+    },
+    {
+      "task": "Record information, such as items received and delivered and recipients' responses to messages.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.54
+    },
+    {
+      "task": "Check with home offices after completed deliveries to confirm deliveries and collections and to receive instructions for other deliveries.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.21
+    },
+    {
+      "task": "Perform routine maintenance on delivery vehicles, such as monitoring fluid levels and replenishing fuel.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.79
+    },
+    {
+      "task": "Use telephone to deliver verbal messages.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.02
+    },
+    {
+      "task": "Deliver and pick up medical records, lab specimens, and medications to and from hospitals and other medical facilities.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.66
+    },
+    {
+      "task": "Collect, seal, and stamp outgoing mail, using postage meters and envelope sealers.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.05
+    },
+    {
+      "task": "Perform general office or clerical work, such as filing materials, operating duplicating machines, or running errands.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 3.91
     }
   ],
   "technology_skills": [
+    {
+      "name": "Microsoft Excel",
+      "weight": 0.7868797868797869
+    },
     {
       "name": "Microsoft Office software",
       "weight": 0.644022644022644
     },
     {
+      "name": "Facebook",
+      "weight": 0.45238095238095233
+    },
+    {
+      "name": "Microsoft Word",
+      "weight": 0.3344988344988345
+    },
+    {
       "name": "Point of sale POS software",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 0.30952380952380953
     },
     {
       "name": "Plexis Software Plexis POS",
@@ -1626,7 +2088,27 @@
       "weight": 0.30952380952380953
     },
     {
+      "name": "Route mapping software",
+      "weight": 0.21978021978021978
+    },
+    {
+      "name": "Microsoft Outlook",
+      "weight": 0.16783216783216784
+    },
+    {
+      "name": "Accounting software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Aldelo Systems Aldelo for Restaurants Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Compris software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Foodman Home-Delivery",
       "weight": 0.16666666666666666
     },
     {
@@ -1638,6 +2120,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Menu and nutrition database software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "NCR Advanced Checkout Solution",
       "weight": 0.16666666666666666
     },
@@ -1646,7 +2132,15 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "The General Store",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Cafe Cartel Systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Operating system software",
       "weight": 0.14285714285714285
     },
     {
@@ -1654,16 +2148,8 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Microsoft Excel",
-      "weight": 0.7868797868797869
-    },
-    {
-      "name": "Microsoft Word",
-      "weight": 0.3344988344988345
-    },
-    {
-      "name": "Microsoft Outlook",
-      "weight": 0.16783216783216784
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.09090909090909091
     }
   ],
   "tools_used": [
@@ -1888,10 +2374,6 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Food conveyor belts",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Food thermometers",
       "weight": 0.16666666666666666
     },
@@ -2084,7 +2566,119 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tape measures",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Luggage carts",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Motorized carts",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Paging systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Bank deposit bags",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bicycles",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Computer data input scanners",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Copy machines",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Delivery trucks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Document shredders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Envelope sealers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Global positioning system GPS devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Handheld radio frequency RF scanners",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Lockboxes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mail addressing machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mobile radios",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mopeds",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Motorcycles",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pallet jacks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Postage meters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Protective safety glasses",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Safety belts",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Stamping equipment",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Stepladders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Tablet computers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Wireless barcode scanners",
       "weight": 0.07692307692307693
     }
   ],

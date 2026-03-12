@@ -1544,64 +1544,124 @@
   ],
   "tasks": [
     {
-      "task": "Receive assignments or evaluate leads or tips to develop story ideas.",
-      "task_type": "Core"
-    },
-    {
       "task": "Gather information and develop perspectives about news subjects through research, interviews, observation, and experience.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.51
     },
     {
-      "task": "Report news stories for publication or broadcast, describing the background and details of events.",
-      "task_type": "Core"
+      "task": "Select material most pertinent to presentation, and organize this material into appropriate formats.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.5
     },
     {
-      "task": "Revise work to meet editorial approval, fit time or space requirements, and correct errors in content, grammar, or punctuation.",
-      "task_type": "Core"
+      "task": "Present news stories, and introduce in-depth videotaped segments or live transmissions from on-the-scene reporters.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.43
     },
     {
-      "task": "Select and organize material pertinent to presentation into appropriate formats.",
-      "task_type": "Core"
+      "task": "Establish and maintain relationships with individuals who are credible sources of information.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.38
     },
     {
-      "task": "Investigate breaking news developments, such as disasters, crimes, or human-interest stories.",
-      "task_type": "Core"
+      "task": "Report on specialized fields such as medicine, green technology, environmental issues, science, politics, sports, arts, consumer affairs, business, religion, crime, or education.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.0
     },
     {
-      "task": "Review written materials, evaluate notes taken about news events, and check reference materials to isolate pertinent facts and details.",
-      "task_type": "Core"
+      "task": "Take pictures or video, and process them for inclusion in a story.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.67
     },
     {
-      "task": "Communicate with individuals credible to source information, discussing editorial priorities or positions with editors.",
-      "task_type": "Core"
+      "task": "Conduct taped or filmed interviews or narratives.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.59
     },
     {
-      "task": "Present news stories or commentary, including introducing segments or reporting live from the scene.",
-      "task_type": "Core"
+      "task": "Communicate with readers, viewers, advertisers, or the general public via mail, email, or telephone.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.45
     },
     {
-      "task": "Write columns, editorials, commentaries, or reviews, and develop ideas or material for these by analyzing news and issues.",
-      "task_type": "Core"
+      "task": "Plan the contents of publications according to the publication's style, editorial policy, and publishing requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.08
     },
     {
-      "task": "Plan and coordinate the contents of publications according to style, editorial policy, and publishing requirements, overseeing production processes.",
-      "task_type": "Core"
+      "task": "Develop story or content ideas, considering reader or audience appeal.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
     },
     {
-      "task": "Supervise and coordinate the work of reporters and other editors, assigning stories and overseeing their production.",
-      "task_type": "Core"
+      "task": "Oversee publication production, including artwork, layout, computer typesetting, and printing, ensuring adherence to deadlines and budget requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.2
     },
     {
-      "task": "Analyze and interpret various news and information sources to broadcast relevant details, verifying facts and statistics as necessary.",
-      "task_type": "Core"
+      "task": "Assign topics, events and stories to individual writers or reporters for coverage.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
     },
     {
-      "task": "Review and approve proofs and writings submitted for publication, conferring with authors regarding necessary changes.",
-      "task_type": "Core"
+      "task": "Supervise and coordinate work of reporters and other editors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
     },
     {
-      "task": "Develop story or content ideas that consider reader or audience appeal, and transmit information from remote locations as necessary.",
-      "task_type": "Core"
+      "task": "Monitor news-gathering operations to ensure utilization of all news sources, such as press releases, telephone contacts, radio, television, wire services, and other reporters.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.1
+    },
+    {
+      "task": "Interview and hire writers and reporters or negotiate contracts, royalties, and payments for authors or freelancers.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.12
+    },
+    {
+      "task": "Direct the policies and departments of newspapers, magazines and other publishing establishments.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.75
+    },
+    {
+      "task": "Arrange for copyright permissions.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.15
+    },
+    {
+      "task": "Read material to determine index items and arrange them alphabetically or topically, indicating page or chapter location.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.54
+    },
+    {
+      "task": "Write text, such as stories, articles, editorials, or newsletters.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
+    },
+    {
+      "task": "Prepare, rewrite and edit copy to improve readability, or supervise others who do this work.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
     }
   ],
   "technology_skills": [
@@ -1623,6 +1683,10 @@
     },
     {
       "name": "Facebook",
+      "weight": 0.34285714285714286
+    },
+    {
+      "name": "FileMaker Pro",
       "weight": 0.34285714285714286
     },
     {
@@ -1690,7 +1754,59 @@
       "weight": 0.2
     },
     {
+      "name": "Audion Laboratories VoxPro",
+      "weight": 0.2
+    },
+    {
+      "name": "Avid Technology Pro Tools",
+      "weight": 0.2
+    },
+    {
+      "name": "Desktop Technologies NewsBoss",
+      "weight": 0.2
+    },
+    {
+      "name": "ESRI ArcView",
+      "weight": 0.2
+    },
+    {
+      "name": "Grass Valley EDIUS",
+      "weight": 0.2
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.2
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Visual FoxPro",
+      "weight": 0.2
+    },
+    {
+      "name": "Nielsen Arianna",
+      "weight": 0.2
+    },
+    {
+      "name": "Nielsen Marketbreaks",
+      "weight": 0.2
+    },
+    {
       "name": "Online databases",
+      "weight": 0.2
+    },
+    {
+      "name": "RCS NexGen Digital",
       "weight": 0.2
     },
     {
@@ -1702,6 +1818,14 @@
       "weight": 0.2
     },
     {
+      "name": "Statistical analysis software",
+      "weight": 0.2
+    },
+    {
+      "name": "Statistics databases",
+      "weight": 0.2
+    },
+    {
       "name": "Video editing software",
       "weight": 0.2
     },
@@ -1710,7 +1834,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Adobe Captivate",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Adobe Creative Cloud software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe FrameMaker",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Illustrator",
       "weight": 0.14285714285714285
     },
     {
@@ -1718,7 +1858,59 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "After the Deadline",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Apple iWork Keynote",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "AutoCrit Editing Wizard",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Avid Technology Media Composer",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CCI NewsGate",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Cascading style sheets CSS",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Content management systems CMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Drupal",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Editor Software Stylewriter",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Elite Minds RightWriter",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Extensible hypertext markup language XHTML",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "File transfer protocol FTP software",
       "weight": 0.14285714285714285
     },
     {
@@ -1738,7 +1930,47 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "HP Autonomy TeamSite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "InScribe",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "LinkedIn",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Orpheus Technology Pro Writing Aid",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Polycom RealPresence",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Style guide databases",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "WhiteSmoke",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "myWriterTools",
       "weight": 0.14285714285714285
     }
   ],
@@ -1817,6 +2049,10 @@
     },
     {
       "name": "Digital video cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Precision rulers",
       "weight": 0.14285714285714285
     },
     {

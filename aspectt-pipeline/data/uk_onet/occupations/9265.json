@@ -1545,43 +1545,123 @@
   "tasks": [
     {
       "task": "Collect money for drinks served.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.79
     },
     {
       "task": "Ask customers who become loud and obnoxious to leave, or physically remove them.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.83
     },
     {
       "task": "Stock bar with beer, wine, liquor, and related supplies such as ice, glassware, napkins, or straws.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.46
     },
     {
       "task": "Check identification of customers to verify age requirements for purchase of alcohol.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.74
     },
     {
-      "task": "Create drink recipes and mix ingredients to prepare cocktails and other drinks.",
-      "task_type": "Core"
+      "task": "Create drink recipes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.42
     },
     {
-      "task": "Serve wine, bottled or draft beer, and snacks or food items to customers seated at the bar.",
-      "task_type": "Core"
+      "task": "Prepare appetizers such as pickles, cheese, and cold meats.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.13
     },
     {
-      "task": "Arrange bottles and glasses to make attractive displays, and clean bars, work areas, and tables.",
-      "task_type": "Core"
+      "task": "Plan bar menus.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.63
+    },
+    {
+      "task": "Supervise the work of bar staff and other bartenders.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.39
+    },
+    {
+      "task": "Arrange bottles and glasses to make attractive displays.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.81
+    },
+    {
+      "task": "Slice and pit fruit for garnishing drinks.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.03
+    },
+    {
+      "task": "Plan, organize, and control the operations of a cocktail lounge or bar.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.49
+    },
+    {
+      "task": "Order or requisition liquors and supplies.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.11
+    },
+    {
+      "task": "Mix ingredients, such as liquor, soda, water, sugar, and bitters, to prepare cocktails and other drinks.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.33
+    },
+    {
+      "task": "Clean bars, work areas, and tables.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.68
+    },
+    {
+      "task": "Serve wine, and bottled or draft beer.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.54
     },
     {
       "task": "Take beverage orders from serving staff or directly from patrons.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.61
     },
     {
-      "task": "Attempt to limit problems and liability related to customers' excessive drinking.",
-      "task_type": "Core"
+      "task": "Serve snacks or food items to customers seated at the bar.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.39
     },
     {
-      "task": "Balance cash receipts and maintain inventory by ordering new parts or supplies as needed.",
-      "task_type": "Core"
+      "task": "Attempt to limit problems and liability related to customers' excessive drinking by taking steps such as persuading customers to stop drinking, or ordering taxis or other transportation for intoxicated patrons.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.62
+    },
+    {
+      "task": "Balance cash receipts.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.74
+    },
+    {
+      "task": "Prepare and maintain logs, reports, or other documentation of work performed.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.31
     }
   ],
   "technology_skills": [
@@ -1602,8 +1682,20 @@
       "weight": 0.41666666666666663
     },
     {
+      "name": "SAP software",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.3666666666666667
+    },
+    {
       "name": "Web browser software",
       "weight": 0.3666666666666667
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.3333333333333333
     },
     {
       "name": "Microsoft Windows",
@@ -1611,6 +1703,10 @@
     },
     {
       "name": "Focus point of sale POS software",
+      "weight": 0.2
+    },
+    {
+      "name": "Intuit QuickBooks Point of Sale",
       "weight": 0.2
     },
     {
@@ -1630,7 +1726,91 @@
       "weight": 0.2
     },
     {
+      "name": "The General Store",
+      "weight": 0.2
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Atlas Construction Business Forms",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Building automation software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computer aided design CAD software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computer aided design and drafting software CADD",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computerized maintenance management system CMMS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computerized time management systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Data entry software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Data logging software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Database software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital direct control DDC energy management software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dropbox",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "FaceTime",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Facility energy management software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Google Docs",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "HVAC tools software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld computer device software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Linux",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Loom",
       "weight": 0.16666666666666666
     },
     {
@@ -1638,7 +1818,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Microsoft Project",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Spreadsheet software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Supervisory control and data acquisition SCADA software",
       "weight": 0.16666666666666666
     },
     {
@@ -1646,12 +1842,40 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Yardi software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "ClimateMaster GeoDesigner",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Distributed control system DCS",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Email software",
       "weight": 0.08333333333333333
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.3333333333333333
+      "name": "Geographic information system GIS systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Geothermal Properties Measurement Tool",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Thermal Dynamics Ground Loop Design GLD",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "WaterFurnace International Ground Loop Design PREMIER",
+      "weight": 0.08333333333333333
     }
   ],
   "tools_used": [
@@ -1660,7 +1884,15 @@
       "weight": 0.45
     },
     {
+      "name": "Claw hammers",
+      "weight": 0.41666666666666663
+    },
+    {
       "name": "Personal computers",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Phillips head screwdrivers",
       "weight": 0.41666666666666663
     },
     {
@@ -1668,16 +1900,80 @@
       "weight": 0.41666666666666663
     },
     {
+      "name": "Straight screwdrivers",
+      "weight": 0.41666666666666663
+    },
+    {
       "name": "Notebook computers",
       "weight": 0.3666666666666667
+    },
+    {
+      "name": "Ball peen hammers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dollies",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Locking pliers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Needlenose pliers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Paint application brushes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Paint application rollers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pipe wrenches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Power drills",
+      "weight": 0.3333333333333333
     },
     {
       "name": "Safety goggles",
       "weight": 0.3333333333333333
     },
     {
+      "name": "Utility knives",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adjustable hand wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Channel lock pliers",
+      "weight": 0.25
+    },
+    {
       "name": "Laptop computers",
       "weight": 0.25
+    },
+    {
+      "name": "Socket wrench sets",
+      "weight": 0.25
+    },
+    {
+      "name": "Wire cutters",
+      "weight": 0.25
+    },
+    {
+      "name": "2-prong strainers",
+      "weight": 0.2
     },
     {
       "name": "3-piece cocktail shakers",
@@ -1688,7 +1984,31 @@
       "weight": 0.2
     },
     {
+      "name": "4-prong strainers",
+      "weight": 0.2
+    },
+    {
       "name": "Bar spoons",
+      "weight": 0.2
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.2
+    },
+    {
+      "name": "Beverage machines",
+      "weight": 0.2
+    },
+    {
+      "name": "Blenders",
+      "weight": 0.2
+    },
+    {
+      "name": "Breathalyzers",
+      "weight": 0.2
+    },
+    {
+      "name": "Cash registers",
       "weight": 0.2
     },
     {
@@ -1696,7 +2016,419 @@
       "weight": 0.2
     },
     {
+      "name": "Cocktail strainers",
+      "weight": 0.2
+    },
+    {
+      "name": "Credit card processing machines",
+      "weight": 0.2
+    },
+    {
+      "name": "Draught foam control devices",
+      "weight": 0.2
+    },
+    {
+      "name": "Drink mixers",
+      "weight": 0.2
+    },
+    {
+      "name": "Electronic beer line maintenance equipment",
+      "weight": 0.2
+    },
+    {
+      "name": "Frozen drink machines",
+      "weight": 0.2
+    },
+    {
+      "name": "Fruit knives",
+      "weight": 0.2
+    },
+    {
+      "name": "Glass rimmers",
+      "weight": 0.2
+    },
+    {
+      "name": "Glass washers",
+      "weight": 0.2
+    },
+    {
+      "name": "Hawthorn strainers",
+      "weight": 0.2
+    },
+    {
+      "name": "Ice chippers",
+      "weight": 0.2
+    },
+    {
+      "name": "Ice crushers",
+      "weight": 0.2
+    },
+    {
+      "name": "Ice flakers",
+      "weight": 0.2
+    },
+    {
+      "name": "Jiggers",
+      "weight": 0.2
+    },
+    {
+      "name": "Julep strainers",
+      "weight": 0.2
+    },
+    {
+      "name": "Keg-tapping equipment",
+      "weight": 0.2
+    },
+    {
+      "name": "Lime slicers",
+      "weight": 0.2
+    },
+    {
+      "name": "Lime squeezers",
+      "weight": 0.2
+    },
+    {
+      "name": "Linear imaging scanners",
+      "weight": 0.2
+    },
+    {
+      "name": "Long range charged coupled device CCD barcode scanners",
+      "weight": 0.2
+    },
+    {
+      "name": "Martini misters",
+      "weight": 0.2
+    },
+    {
+      "name": "Mixing glasses",
+      "weight": 0.2
+    },
+    {
+      "name": "Mojito machines",
+      "weight": 0.2
+    },
+    {
+      "name": "Muddlers/mixing sticks",
+      "weight": 0.2
+    },
+    {
+      "name": "Olive stuffers",
+      "weight": 0.2
+    },
+    {
+      "name": "Point of sale POS printers",
+      "weight": 0.2
+    },
+    {
+      "name": "Point of sale POS terminals",
+      "weight": 0.2
+    },
+    {
+      "name": "Point of service scanners",
+      "weight": 0.2
+    },
+    {
+      "name": "Point of service workstations",
+      "weight": 0.2
+    },
+    {
+      "name": "Pour spouts",
+      "weight": 0.2
+    },
+    {
+      "name": "Professional juicers",
+      "weight": 0.2
+    },
+    {
+      "name": "Refrigerated liquid recirculation systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Soda dispensers",
+      "weight": 0.2
+    },
+    {
+      "name": "Spirit measures",
+      "weight": 0.2
+    },
+    {
+      "name": "Touch screen monitors",
+      "weight": 0.2
+    },
+    {
+      "name": "Upright glass washers",
+      "weight": 0.2
+    },
+    {
+      "name": "Zesters",
+      "weight": 0.2
+    },
+    {
+      "name": "Adjustable crescent wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adjustable slip lock nut wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Allen wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Box end wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bubble levels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Carpenter levels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Carpenters' levels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Combination squares",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Combination wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cordless power drills",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Crowbars",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dead blow hammers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Diagonal cutting pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dust and particulate respirators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Face masks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Flat blade screwdrivers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hacksaws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hand drills",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hand levels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hand saws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld computers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hex key sets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hex wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "High pressure water sprayers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ice picks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Industrial brooms",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ladders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Locking C-clamps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mallets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Measuring tapes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mini hacksaws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Nut drivers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Offset socket wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Open end wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pipe cleaning equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Plungers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pneumatic drills",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pneumatic hammers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Polyvinyl chloride PVC cutters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Polyvinyl chloride PVC saws",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Portable two way radios",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Portable welding machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power chippers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power drain cleaners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power grinders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power hoists",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power lifts",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power nailers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power pipe cutters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power routers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power sanders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Precision files",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Protective harnesses",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pry bars",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Putty knives",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Radial arm saws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ratcheting polyvinyl chloride PVC cutters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ratchets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rigging equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Right-angle drills",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rotary hammers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rubber mallets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rulers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Saber saws",
       "weight": 0.16666666666666666
     },
     {
@@ -1704,7 +2436,87 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Sandblasters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Screw extractor sets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Scribers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sectional drain cleaning machines",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Security alarm systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sewage pumps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sewer rodding machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sewer tapes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sharpening equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Shears",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Shielded arc welding tools",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Side cutting pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Skip loaders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Slip joint pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Snow blowers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Snow shovels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Snowplows",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Soil pipe cutters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Soldering equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Spirit levels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Steam cleaning equipment",
       "weight": 0.16666666666666666
     },
     {
@@ -1712,7 +2524,219 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Straight pipe wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Straightedges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Stud locators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Table saws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tap sets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tension gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tile saws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tin snips",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Toilet augers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Torpedo levels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tractors with backhoe attachments",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Trenchers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tub drain removers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tube benders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tube crimping tools",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tubing cutters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Two-wheel drive front end loaders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ultrasonic leak detectors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Universal nut wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Utility pumps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vacuum pumps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Valve grinding machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vise grip pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Volt-ammeters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Volt-ohm meters VOM",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Voltage testers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Water pump pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Water samplers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Welders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Welding clamps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wide roll pipe cutters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wire crimpers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wire cutting tools",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Workshop bench vises",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Workshop cranes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adjustable pipe wrenches",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Air monitoring equipment",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Air wrenches",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Alignment clamps",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Butt fusion machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Deburring tools",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Depth meters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Grout mixers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Grout pumps",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pavement saws",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pipe squeeze off tools",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Programmable logic controllers PLC",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Protective respirators",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pyrometers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Ratchet sets",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Safety glasses",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Tracked excavators",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Trench compacters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Valve wrenches",
       "weight": 0.08333333333333333
     }
   ],

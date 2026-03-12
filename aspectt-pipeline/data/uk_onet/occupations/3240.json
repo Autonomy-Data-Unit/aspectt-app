@@ -1544,72 +1544,190 @@
   ],
   "tasks": [
     {
-      "task": "Administer anesthesia to animals under the direction of a veterinarian and monitor their responses to adjust dosages as needed.",
-      "task_type": "Core"
+      "task": "Administer anesthesia to animals, under the direction of a veterinarian, and monitor animals' responses to anesthetics so that dosages can be adjusted.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.84
     },
     {
-      "task": "Maintain instruments, equipment, or machinery, ensuring proper working condition and sterilization.",
-      "task_type": "Core"
+      "task": "Clean, maintain, and sterilize instruments or equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
     },
     {
-      "task": "Supervise or train veterinary students or other staff members and assist in their education.",
-      "task_type": "Core"
+      "task": "Maintain controlled drug inventory and related log books.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.72
     },
     {
-      "task": "Care for and monitor the condition of animals recovering from surgery and report any unusual changes to veterinarians.",
-      "task_type": "Core"
+      "task": "Supervise or train veterinary students or other staff members.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.95
     },
     {
-      "task": "Restrain animals during exams or procedures and provide assistance during diagnostics and treatments.",
-      "task_type": "Core"
+      "task": "Care for and monitor the condition of animals recovering from surgery.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.76
     },
     {
-      "task": "Discuss the medical health of pets with clients, including post-operative status and provide information about animal care.",
-      "task_type": "Core"
+      "task": "Maintain laboratory, research, or treatment records, as well as inventories of pharmaceuticals, equipment, or supplies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.3
     },
     {
-      "task": "Schedule appointments and procedures for animals, including preparation of treatment rooms with necessary supplies.",
-      "task_type": "Core"
+      "task": "Restrain animals during exams or procedures.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.66
     },
     {
-      "task": "Perform a variety of office, clerical, or accounting duties, such as reception, billing, and maintaining records.",
-      "task_type": "Core"
+      "task": "Educate or advise clients on animal health care, nutrition, or behavior problems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
     },
     {
-      "task": "Collect, prepare, and label samples for laboratory testing, including blood, urine, or feces, and perform related laboratory tests.",
-      "task_type": "Core"
+      "task": "Perform a variety of office, clerical, or accounting duties, such as reception, billing, bookkeeping, or selling products.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.88
     },
     {
-      "task": "Provide assistance with animal euthanasia and the disposal of remains, handling sensitive situations with care.",
-      "task_type": "Core"
+      "task": "Conduct specialized procedures, such as animal branding or tattooing or hoof trimming.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.24
     },
     {
-      "task": "Prepare and administer medications, vaccines, serums, or treatments as prescribed by veterinarians, including filling prescriptions.",
-      "task_type": "Core"
+      "task": "Bathe animals, clip nails or claws, and brush or cut animals' hair.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.61
     },
     {
-      "task": "Monitor medical supplies and place orders when inventory is low, ensuring materials are available as needed.",
-      "task_type": "Core"
+      "task": "Dress and suture wounds and apply splints or other protective devices.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.22
     },
     {
-      "task": "Perform dental work, such as cleaning, polishing, or extracting teeth, along with grooming and hygiene-related duties.",
-      "task_type": "Core"
+      "task": "Perform dental work, such as cleaning, polishing, or extracting teeth.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.56
     },
     {
-      "task": "Observe the behavior and condition of animals, monitoring their clinical symptoms to assist in diagnosis and treatment.",
-      "task_type": "Core"
+      "task": "Provide assistance with animal euthanasia and the disposal of remains.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.18
     },
     {
-      "task": "Prepare surgical equipment and assist during surgical procedures by passing instruments or materials to veterinarians.",
-      "task_type": "Core"
+      "task": "Prepare treatment rooms for surgery.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.38
     },
     {
-      "task": "Exercise animals or provide them with companionship, meeting their basic needs for well-being.",
-      "task_type": "Core"
+      "task": "Fill prescriptions, measuring medications and labeling containers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.46
     },
     {
-      "task": "Conduct specialized procedures, such as animal branding or tattooing, and perform necessary hygiene maintenance.",
-      "task_type": "Supplemental"
+      "task": "Prepare and administer medications, vaccines, serums, or treatments, as prescribed by veterinarians.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.68
+    },
+    {
+      "task": "Perform laboratory tests on blood, urine, or feces, such as urinalyses or blood counts, to assist in the diagnosis and treatment of animal health problems.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.7
+    },
+    {
+      "task": "Collect, prepare, and label samples for laboratory testing, culture, or microscopic examination.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.45
+    },
+    {
+      "task": "Prepare surgical equipment and pass instruments or materials to veterinarians during surgical procedures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.24
+    },
+    {
+      "task": "Administer emergency first aid, such as performing emergency resuscitation or other life saving procedures.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.62
+    },
+    {
+      "task": "Prepare animals for surgery, performing such tasks as shaving surgical areas.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.45
+    },
+    {
+      "task": "Take animals into treatment areas and assist with physical examinations by performing such duties as obtaining temperature, pulse, or respiration data.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.39
+    },
+    {
+      "task": "Observe the behavior and condition of animals and monitor their clinical symptoms.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.52
+    },
+    {
+      "task": "Take and develop diagnostic radiographs, using x-ray equipment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.42
+    },
+    {
+      "task": "Dust, spray, or bathe animals to control insect pests.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.45
+    },
+    {
+      "task": "Record information relating to animal genealogy, feeding schedules, appearance, behavior, or breeding.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
+    },
+    {
+      "task": "Clean kennels, animal holding areas, surgery suites, examination rooms, or animal loading or unloading facilities to control the spread of disease.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.41
+    },
+    {
+      "task": "Exercise animals or provide them with companionship.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Give enemas and perform catheterizations, ear flushes, intravenous feedings, or gavages.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.46
+    },
+    {
+      "task": "Prepare feed for animals according to specific instructions, such as diet lists or schedules.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.18
     }
   ],
   "technology_skills": [
@@ -1828,6 +1946,10 @@
       "weight": 0.25
     },
     {
+      "name": "Ambulances",
+      "weight": 0.25
+    },
+    {
       "name": "Anesthesia syringes",
       "weight": 0.25
     },
@@ -1900,7 +2022,7 @@
       "weight": 0.25
     },
     {
-      "name": "Child oxygen masks",
+      "name": "Cattle chutes",
       "weight": 0.25
     },
     {
@@ -1921,6 +2043,10 @@
     },
     {
       "name": "Curved pediatric blades",
+      "weight": 0.25
+    },
+    {
+      "name": "Dart guns",
       "weight": 0.25
     },
     {
@@ -2036,10 +2162,6 @@
       "weight": 0.25
     },
     {
-      "name": "Infant oxygen masks",
-      "weight": 0.25
-    },
-    {
       "name": "Infusion sets",
       "weight": 0.25
     },
@@ -2081,6 +2203,30 @@
     },
     {
       "name": "Limb restraints",
+      "weight": 0.25
+    },
+    {
+      "name": "Linear accelerator equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Long arm boards",
+      "weight": 0.25
+    },
+    {
+      "name": "Magnetic resonance imaging MRI systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Manual darkroom developing equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Mechanical intermittent positive pressure ventilators",
+      "weight": 0.25
+    },
+    {
+      "name": "Multi-level wheeled cots",
       "weight": 0.25
     },
     {
@@ -2184,10 +2330,6 @@
       "weight": 0.25
     },
     {
-      "name": "Ring cutters",
-      "weight": 0.25
-    },
-    {
       "name": "Saline locks",
       "weight": 0.25
     },
@@ -2220,6 +2362,10 @@
       "weight": 0.25
     },
     {
+      "name": "Stretchers",
+      "weight": 0.25
+    },
+    {
       "name": "Surgical calipers",
       "weight": 0.25
     },
@@ -2241,6 +2387,14 @@
     },
     {
       "name": "Telemetry units",
+      "weight": 0.25
+    },
+    {
+      "name": "Transtracheal jet insufflators",
+      "weight": 0.25
+    },
+    {
+      "name": "Triage tags",
       "weight": 0.25
     },
     {
@@ -2332,6 +2486,14 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Commercial dryers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Commercial washing machines",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Digital veterinary x ray equipment",
       "weight": 0.14285714285714285
     },
@@ -2364,7 +2526,15 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Multi-line telephone systems",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Pill counters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Retriever PACS",
       "weight": 0.14285714285714285
     },
     {

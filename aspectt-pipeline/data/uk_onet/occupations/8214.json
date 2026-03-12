@@ -1544,72 +1544,424 @@
   ],
   "tasks": [
     {
-      "task": "Turn in receipts and money received from deliveries.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Inspect and maintain vehicle supplies and equipment to ensure that vehicles are in proper working condition.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Report delays, accidents, or other traffic and transportation situations to bases or other vehicles, using telephones or mobile two-way radios.",
-      "task_type": "Core"
+      "task": "Inspect and maintain vehicle supplies and equipment, such as gas, oil, water, tires, lights, or brakes, to ensure that vehicles are in proper working condition.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.72
     },
     {
       "task": "Read maps and follow written or verbal geographic directions.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.7
     },
     {
-      "task": "Maintain records, such as vehicle logs and billing statements, in accordance with regulations.",
-      "task_type": "Core"
+      "task": "Maintain records, such as vehicle logs, records of cargo, or billing statements, in accordance with regulations.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.41
     },
     {
-      "task": "Load and unload trucks, vans, or automobiles, ensuring goods are loaded correctly and taking precautions with hazardous goods.",
-      "task_type": "Core"
+      "task": "Verify the contents of inventory loads against shipping papers.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.76
+    },
+    {
+      "task": "Load and unload trucks, vans, or automobiles.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.59
     },
     {
       "task": "Present bills and receipts and collect payments for goods delivered or loaded.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.5
     },
     {
-      "task": "Obey traffic laws and follow established traffic and transportation procedures to operate vehicles safely and courteously.",
-      "task_type": "Core"
+      "task": "Obey traffic laws and follow established traffic and transportation procedures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.83
     },
     {
-      "task": "Deliver messages and items, such as newspapers, documents, and packages, to private homes and businesses.",
-      "task_type": "Core"
+      "task": "Use and maintain the tools or equipment found on commercial vehicles, such as weighing or measuring devices.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.99
     },
     {
-      "task": "Pick up and return items for laundry and valet service; assist travelers and guests with disabilities as needed.",
-      "task_type": "Core"
+      "task": "Drive vehicles with capacities under three tons to transport materials to and from specified destinations, such as railroad stations, plants, residences, offices, or within industrial yards.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.05
     },
     {
-      "task": "Drive vehicles to transport materials to and from specified destinations, such as offices or transportation terminals.",
-      "task_type": "Core"
+      "task": "Perform emergency repairs, such as changing tires or installing light bulbs, fuses, tire chains, or spark plugs.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.59
     },
     {
-      "task": "Collect items to be delivered and sort items according to delivery routes.",
-      "task_type": "Core"
+      "task": "Complete accident reports when necessary.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
-      "task": "Obtain signatures and payments, or arrange for recipients to make payments upon delivery.",
-      "task_type": "Core"
+      "task": "Write customer orders and sales contracts according to company guidelines.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.68
     },
     {
-      "task": "Perform routine maintenance on delivery vehicles and report any vehicle malfunctions or needed repairs.",
-      "task_type": "Core"
+      "task": "Sell food specialties, such as sandwiches and beverages, to office workers and patrons of sports events.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 0.0
     },
     {
-      "task": "Communicate with dispatchers to exchange information and receive requests for service, using radio or telephone.",
-      "task_type": "Core"
+      "task": "Maintain trucks and food-dispensing equipment and clean inside of machines that dispense food or beverages.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.97
     },
     {
-      "task": "Provide passengers or customers with information or advice about local areas, services, and points of interest.",
-      "task_type": "Core"
+      "task": "Arrange merchandise and sales promotion displays or issue sales promotion materials to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.17
+    },
+    {
+      "task": "Review lists of dealers, customers, or station drops and load trucks.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.51
+    },
+    {
+      "task": "Listen to and resolve customers' complaints regarding products or services.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.99
+    },
+    {
+      "task": "Collect coins from vending machines, refill machines, and remove aged merchandise.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.1
+    },
+    {
+      "task": "Inform regular customers of new products or services and price changes.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.06
+    },
+    {
+      "task": "Transfer luggage, trunks, and packages to and from rooms, loading areas, vehicles, or transportation terminals, by hand or using baggage carts.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.47
+    },
+    {
+      "task": "Perform errands for customers or employers, such as delivering or picking up mail and packages.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.63
+    },
+    {
+      "task": "Supply guests or travelers with directions, travel information, and other information, such as available services and points of interest.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.47
+    },
+    {
+      "task": "Maintain knowledge of first-aid procedures.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.2
+    },
+    {
+      "task": "Communicate with dispatchers by radio, telephone, or computer to exchange information and receive requests for passenger service.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.58
+    },
+    {
+      "task": "Pick up and return items for laundry and valet service.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.14
+    },
+    {
+      "task": "Receive and mark baggage by completing and attaching claim checks.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.54
+    },
+    {
+      "task": "Greet incoming guests and escort them to their rooms.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.52
+    },
+    {
+      "task": "Assist travelers and guests with disabilities.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.38
+    },
+    {
+      "task": "Act as part of the security team at transportation terminals, hotels, or similar establishments.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 4.15
+    },
+    {
+      "task": "Deliver messages and room service orders, and run errands for guests.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.22
+    },
+    {
+      "task": "Explain the operation of room features, such as locks, ventilation systems, and televisions.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.45
+    },
+    {
+      "task": "Arrange for shipments of baggage, express mail, and parcels by providing weighing and billing services.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.25
     },
     {
       "task": "Maintain clean lobbies or entrance areas for travelers or guests.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.5
+    },
+    {
+      "task": "Transport guests about premises and local areas, or arrange for transportation.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.51
+    },
+    {
+      "task": "Page guests in hotel lobbies, dining rooms, or other areas.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.82
+    },
+    {
+      "task": "Arrange to pick up particular customers or groups on a regular schedule.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.42
+    },
+    {
+      "task": "Complete baggage insurance forms.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.51
+    },
+    {
+      "task": "Set up conference rooms, display tables, racks, or shelves, and arrange merchandise displays for sales personnel.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.69
+    },
+    {
+      "task": "Vacuum and clean interiors, and wash and polish exteriors of automobiles.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.74
+    },
+    {
+      "task": "Report delays, accidents, or other traffic and transportation situations, using telephones or mobile two-way radios.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.4
+    },
+    {
+      "task": "Report any vehicle malfunctions or needed repairs.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.73
+    },
+    {
+      "task": "Perform general office or clerical work, such as filing materials, operating duplicating machines, or running errands.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 3.91
+    },
+    {
+      "task": "Plan and follow the most efficient routes for delivering goods.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.23
+    },
+    {
+      "task": "Deliver and pick up medical records, lab specimens, and medications to and from hospitals and other medical facilities.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.66
+    },
+    {
+      "task": "Check with home offices after completed deliveries to confirm deliveries and collections and to receive instructions for other deliveries.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.21
+    },
+    {
+      "task": "Sort items to be delivered according to the delivery route.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.36
+    },
+    {
+      "task": "Deliver messages and items, such as newspapers, documents, and packages, between establishment departments and to other establishments and private homes.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.35
+    },
+    {
+      "task": "Receive messages or materials to be delivered, and information on recipients, such as names, addresses, telephone numbers, and delivery instructions, communicated via telephone, two-way radio, or in person.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.52
+    },
+    {
+      "task": "Walk, ride bicycles, drive vehicles, or use public conveyances to reach destinations to deliver messages or materials.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.41
+    },
+    {
+      "task": "Use telephone to deliver verbal messages.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.02
+    },
+    {
+      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.89
+    },
+    {
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Plan work assignments and equipment allocations to meet transportation, operations or production goals.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.07
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.11
+    },
+    {
+      "task": "Review orders, production schedules, blueprints, or shipping or receiving notices to determine work sequences and material shipping dates, types, volumes, or destinations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.94
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Examine, measure, or weigh cargo or materials to determine specific handling requirements.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.99
+    },
+    {
+      "task": "Interpret transportation or tariff regulations, shipping orders, safety regulations, or company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.17
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
+    },
+    {
+      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Monitor field work to ensure proper performance and use of materials.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Recommend or implement personnel actions, such as employee selection, evaluation, rewards, or disciplinary actions.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.63
+    },
+    {
+      "task": "Direct workers in transportation or related services, such as pumping, moving, storing, or loading or unloading of materials.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Dispatch personnel and vehicles in response to telephone or radio reports of emergencies.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, personnel, or storage requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.77
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1634,6 +1986,10 @@
       "weight": 0.332373926886122
     },
     {
+      "name": "IBM Domino",
+      "weight": 0.25
+    },
+    {
       "name": "Actsoft Comet Tracker",
       "weight": 0.24029933481152993
     },
@@ -1647,6 +2003,10 @@
     },
     {
       "name": "EventHelix WebTaxi",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Facebook",
       "weight": 0.2159090909090909
     },
     {
@@ -1682,6 +2042,10 @@
       "weight": 0.14939024390243902
     },
     {
+      "name": "Inventory management systems",
+      "weight": 0.14015151515151514
+    },
+    {
       "name": "Web browser software",
       "weight": 0.1304508499630451
     },
@@ -1698,7 +2062,27 @@
       "weight": 0.125
     },
     {
+      "name": "Computerized inventory tracking software",
+      "weight": 0.125
+    },
+    {
+      "name": "Eko",
+      "weight": 0.125
+    },
+    {
+      "name": "FreightDATA",
+      "weight": 0.125
+    },
+    {
+      "name": "GEOCOMtms A.Maze Planning",
+      "weight": 0.125
+    },
+    {
       "name": "Internet browser software",
+      "weight": 0.125
+    },
+    {
+      "name": "MobiTech Systems Route Sales Trakker",
       "weight": 0.125
     },
     {
@@ -1706,7 +2090,19 @@
       "weight": 0.125
     },
     {
+      "name": "Recordkeeping software",
+      "weight": 0.125
+    },
+    {
+      "name": "Regulussoft Route Accounting",
+      "weight": 0.125
+    },
+    {
       "name": "Route planning software",
+      "weight": 0.125
+    },
+    {
+      "name": "Soft Essentials Vending Essentials",
       "weight": 0.125
     },
     {
@@ -1722,6 +2118,22 @@
       "weight": 0.125
     },
     {
+      "name": "bMobile Technology Route Manager",
+      "weight": 0.125
+    },
+    {
+      "name": "bMobile Technology Sales",
+      "weight": 0.125
+    },
+    {
+      "name": "AOL MapQuest",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Global positioning system GPS software",
       "weight": 0.09090909090909091
     },
@@ -1734,6 +2146,30 @@
       "weight": 0.03954175905395418
     },
     {
+      "name": "Commercial vehicle operations CVO software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.03954175905395418
+    },
+    {
       "name": "Scheduling software",
       "weight": 0.03954175905395418
     },
@@ -1742,7 +2178,43 @@
       "weight": 0.024390243902439025
     },
     {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Bill of lading software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "CAPE Systems TRUCKFILL",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Coptimal Logics AutoLoad Pro",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Creative Systems Corporation Freight-Link System",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Fleet management systems",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "JDA Manugistics",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Load optimization software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "MagicLogic Optimization Cube-IQ",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Optimum Logistics LoadPlanner",
       "weight": 0.024390243902439025
     },
     {
@@ -1750,8 +2222,44 @@
       "weight": 0.024390243902439025
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.03954175905395418
+      "name": "Softtruck CargoWiz",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Starre Enterprises Star Bill of Lading",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Strategic Business Systems Proof of Delivery",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "TOPS Engineering MaxLoad Pro",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "UPS Logistics Technologies Roadnet Transportation Suite",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Warehouse management system WMS",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "XATA XATANET",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1792,7 +2300,19 @@
       "weight": 0.23106060606060608
     },
     {
+      "name": "Alarms",
+      "weight": 0.2159090909090909
+    },
+    {
       "name": "Barcode scanners",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Closed-circuit TV cameras",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Communications computers",
       "weight": 0.2159090909090909
     },
     {
@@ -1808,6 +2328,14 @@
       "weight": 0.2159090909090909
     },
     {
+      "name": "Mobile electronic funds transfer point of sale EFTPOS printers",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Security cameras",
+      "weight": 0.2159090909090909
+    },
+    {
       "name": "Smartphones",
       "weight": 0.2159090909090909
     },
@@ -1816,19 +2344,35 @@
       "weight": 0.2159090909090909
     },
     {
+      "name": "Text messaging equipment",
+      "weight": 0.2159090909090909
+    },
+    {
       "name": "Delivery trucks",
       "weight": 0.20192307692307693
     },
     {
-      "name": "Passenger vans",
-      "weight": 0.16783216783216784
+      "name": "Laser facsimile machines",
+      "weight": 0.20192307692307693
     },
     {
       "name": "Passenger vehicles",
       "weight": 0.16783216783216784
     },
     {
+      "name": "Forklifts",
+      "weight": 0.14939024390243902
+    },
+    {
       "name": "Delivery vans",
+      "weight": 0.125
+    },
+    {
+      "name": "Dollies",
+      "weight": 0.125
+    },
+    {
+      "name": "Electronic clipboards",
       "weight": 0.125
     },
     {
@@ -1836,11 +2380,51 @@
       "weight": 0.125
     },
     {
+      "name": "Jacks",
+      "weight": 0.125
+    },
+    {
+      "name": "Large goods vehicles LGV",
+      "weight": 0.125
+    },
+    {
+      "name": "Laser printers",
+      "weight": 0.125
+    },
+    {
+      "name": "Light trucks less than 3 tons",
+      "weight": 0.125
+    },
+    {
+      "name": "Pallet movers",
+      "weight": 0.125
+    },
+    {
       "name": "Pickup trucks",
       "weight": 0.125
     },
     {
-      "name": "Taxicabs",
+      "name": "Propane delivery trucks",
+      "weight": 0.125
+    },
+    {
+      "name": "Protective face shields",
+      "weight": 0.125
+    },
+    {
+      "name": "Protective gloves",
+      "weight": 0.125
+    },
+    {
+      "name": "Safety goggles",
+      "weight": 0.125
+    },
+    {
+      "name": "Truck lift gates",
+      "weight": 0.125
+    },
+    {
+      "name": "Wheel blocks",
       "weight": 0.125
     },
     {
@@ -1848,11 +2432,75 @@
       "weight": 0.10606060606060606
     },
     {
+      "name": "Pallet jacks",
+      "weight": 0.10131332082551595
+    },
+    {
       "name": "Cell phones",
       "weight": 0.09090909090909091
     },
     {
+      "name": "Digital surveillance camera systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Emergency first-aid kits",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Motorized carts",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "On-board data input terminals",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Paging systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Portable fire extinguishers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Powered service doors",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Radio frequency identification RFID devices",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Snow chains",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Tire pressure gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Bank deposit bags",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Bicycles",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Computer data input scanners",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Copy machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Document shredders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Envelope sealers",
       "weight": 0.07692307692307693
     },
     {
@@ -1860,8 +2508,124 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Handheld radio frequency RF scanners",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hard hats",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hazardous material packaging",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "High-reach forklifts",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hydraulic lift tables",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Lockboxes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mail addressing machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mobile radios",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mopeds",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Motorcycles",
       "weight": 0.07692307692307693
+    },
+    {
+      "name": "Postage meters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Protective safety glasses",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Safety belts",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Stamping equipment",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Stepladders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Warehouse forklifts",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Wireless barcode scanners",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Grease guns",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Hydraulic jacks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Lug wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Refrigerated trailers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Roller beds",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

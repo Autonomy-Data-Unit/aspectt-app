@@ -1544,108 +1544,898 @@
   ],
   "tasks": [
     {
-      "task": "Maintain accurate, detailed reports and records of patients' healthcare plans and outcomes.",
-      "task_type": "Core"
+      "task": "Maintain accurate, detailed reports and records.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.69
     },
     {
-      "task": "Evaluate patients' responses post-surgery or anesthesia and take corrective action as needed.",
-      "task_type": "Core"
+      "task": "Evaluate patients' post-surgical or post-anesthesia responses, taking appropriate corrective actions or requesting consultation if complications occur.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.56
     },
     {
-      "task": "Assess patients' psychosocial status, including family adaptation levels and coping skills.",
-      "task_type": "Core"
+      "task": "Ensure that equipment or devices are properly stored after use.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.17
     },
     {
-      "task": "Coordinate care conferences and collaborate with healthcare team members to assess and develop patient care plans.",
-      "task_type": "Core"
+      "task": "Identify malfunctioning equipment or devices.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.11
     },
     {
-      "task": "Administer medications and monitor patients for reactions or side effects after administration.",
-      "task_type": "Core"
+      "task": "Assess family adaptation levels and coping skills to determine whether intervention is needed.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.21
     },
     {
-      "task": "Monitor patients' vital signs and responses using both invasive and noninvasive techniques.",
-      "task_type": "Core"
+      "task": "Coordinate patient care conferences.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.42
     },
     {
-      "task": "Participate in the development, review, or evaluation of nursing protocols and practice standards.",
-      "task_type": "Core"
+      "task": "Participate in professional organizations and continuing education to improve practice knowledge and skills.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.71
     },
     {
-      "task": "Develop and implement treatment plans based on scientific rationale, standards of care, and patient assessment.",
-      "task_type": "Core"
+      "task": "Participate in the development, review, or evaluation of nursing practice protocols.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.46
     },
     {
-      "task": "Educate patients and families on health conditions, preventive measures, and treatment plans.",
-      "task_type": "Core"
+      "task": "Plan, provide, or evaluate educational programs for nursing staff, interdisciplinary health care team members, or community members.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.32
     },
     {
-      "task": "Supervise and monitor nursing staff to ensure quality care is provided to patients.",
-      "task_type": "Core"
+      "task": "Supervise and monitor unit nursing staff.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.12
     },
     {
-      "task": "Assess urgent and emergent health conditions using both physiologically and technologically derived data.",
-      "task_type": "Core"
+      "task": "Prioritize nursing care for assigned critically ill patients, based on assessment data or identified needs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.73
     },
     {
-      "task": "Assess the impact of illnesses or injuries on health, function, growth, nutrition, quality of life, and social relationships.",
-      "task_type": "Core"
+      "task": "Identify patients at risk of complications due to nutritional status.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.93
     },
     {
-      "task": "Discuss illnesses and treatments with patients and family members.",
-      "task_type": "Core"
+      "task": "Monitor, record, and report symptoms or changes in patients' conditions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.61
+    },
+    {
+      "task": "Advocate for patients' and families' needs, or provide emotional support for patients and their families.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.37
+    },
+    {
+      "task": "Perform administrative duties that facilitate admission, transfer, or discharge of patients.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.53
+    },
+    {
+      "task": "Identify patients' age-specific needs and alter care plans as necessary to meet those needs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.78
+    },
+    {
+      "task": "Provide post-mortem care.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.4
+    },
+    {
+      "task": "Evaluate patients' vital signs or laboratory data to determine emergency intervention needs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 5.0
+    },
+    {
+      "task": "Perform approved therapeutic or diagnostic procedures, based upon patients' clinical status.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.15
+    },
+    {
+      "task": "Administer blood and blood products, monitoring patients for signs and symptoms related to transfusion reactions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.39
+    },
+    {
+      "task": "Administer medications intravenously, by injection, orally, through gastric tubes, or by other methods.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.81
+    },
+    {
+      "task": "Set up and monitor medical equipment and devices such as cardiac monitors, mechanical ventilators and alarms, oxygen delivery devices, transducers, or pressure lines.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.44
+    },
+    {
+      "task": "Monitor patients' fluid intake and output to detect emerging problems, such as fluid and electrolyte imbalances.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.79
+    },
+    {
+      "task": "Monitor patients for changes in status and indications of conditions such as sepsis or shock and institute appropriate interventions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.85
+    },
+    {
+      "task": "Assess patients' pain levels or sedation requirements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.63
+    },
+    {
+      "task": "Assess patients' psychosocial status and needs, including areas such as sleep patterns, anxiety, grief, anger, and support systems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.89
+    },
+    {
+      "task": "Collaborate with other health care professionals to develop and revise treatment plans, based on identified needs and assessment data.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.56
+    },
+    {
+      "task": "Collect specimens for laboratory tests.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.48
+    },
+    {
+      "task": "Compile and analyze data obtained from monitoring or diagnostic tests.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.7
+    },
+    {
+      "task": "Conduct pulmonary assessments to identify abnormal respiratory patterns or breathing sounds that indicate problems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.67
+    },
+    {
+      "task": "Document patients' medical histories and assessment findings.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.54
+    },
+    {
+      "task": "Develop anesthesia care plans.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.65
+    },
+    {
+      "task": "Maintain current knowledge of state legal regulations for nurse practitioner practice, including reimbursement of services.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.55
+    },
+    {
+      "task": "Provide patients with information needed to promote health, reduce risk factors, or prevent disease or disability.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.83
+    },
+    {
+      "task": "Recommend diagnostic or therapeutic interventions with attention to safety, cost, invasiveness, simplicity, acceptability, adherence, and efficacy.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.73
+    },
+    {
+      "task": "Prescribe medication dosages, routes, and frequencies, based on such patient characteristics as age and gender.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.78
+    },
+    {
+      "task": "Advocate for accessible health care that minimizes environmental health risks.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.23
+    },
+    {
+      "task": "Read current literature, talk with colleagues, or participate in professional organizations or conferences to keep abreast of developments in nursing.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.5
+    },
+    {
+      "task": "Maintain departmental policies and procedures in areas such as safety and infection control.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.41
+    },
+    {
+      "task": "Obtain informed consent from patients for anesthesia procedures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.65
+    },
+    {
+      "task": "Provide consultation to other health care providers in areas such as patient discharge, patient care, or clinical procedures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.15
+    },
+    {
+      "task": "Develop and maintain departmental policies, procedures, objectives, or patient care standards, based on evidence-based practice guidelines or expert opinion.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.5
+    },
+    {
+      "task": "Design evaluation programs regarding the quality and effectiveness of nursing practice or organizational systems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.19
+    },
+    {
+      "task": "Lead nursing department implementation of, or compliance with, regulatory or accreditation processes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.81
+    },
+    {
+      "task": "Chair nursing departments or committees.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.78
+    },
+    {
+      "task": "Prescribe medications based on efficacy, safety, and cost as legally authorized.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.74
+    },
+    {
+      "task": "Perform routine or annual physical examinations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.45
+    },
+    {
+      "task": "Perform primary care procedures such as suturing, splinting, administering immunizations, taking cultures, and debriding wounds.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.19
+    },
+    {
+      "task": "Develop treatment plans, based on scientific rationale, standards of care, and professional practice guidelines.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.87
+    },
+    {
+      "task": "Select, prepare, or use equipment, monitors, supplies, or drugs for the administration of anesthetics.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.7
+    },
+    {
+      "task": "Calibrate and test anesthesia equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.58
+    },
+    {
+      "task": "Disassemble and clean anesthesia equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.65
+    },
+    {
+      "task": "Insert arterial catheters or perform arterial punctures to obtain arterial blood samples.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.27
+    },
+    {
+      "task": "Insert peripheral or central intravenous catheters.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.33
+    },
+    {
+      "task": "Instruct nurses, residents, interns, students, or other staff on topics such as anesthetic techniques, pain management and emergency responses.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.74
+    },
+    {
+      "task": "Educate patients about self-management of acute or chronic illnesses, tailoring instructions to patients' individual circumstances.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.59
+    },
+    {
+      "task": "Schedule follow-up visits to monitor patients or evaluate health or illness care.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.45
+    },
+    {
+      "task": "Counsel patients about drug regimens and possible side effects or interactions with other substances, such as food supplements, over-the-counter (OTC) medications, or herbal remedies.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.61
+    },
+    {
+      "task": "Order, perform, or interpret the results of diagnostic tests, such as complete blood counts (CBCs), electrocardiograms (EKGs), and radiographs (x-rays).",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.61
+    },
+    {
+      "task": "Analyze and interpret patients' histories, symptoms, physical findings, or diagnostic information to develop appropriate diagnoses.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.82
+    },
+    {
+      "task": "Diagnose or treat acute health care problems, such as illnesses, infections, or injuries.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.7
+    },
+    {
+      "task": "Diagnose or treat chronic health care problems, such as high blood pressure and diabetes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.74
+    },
+    {
+      "task": "Diagnose or treat complex, unstable, comorbid, episodic, or emergency conditions in collaboration with other health care providers as necessary.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.78
+    },
+    {
+      "task": "Treat or refer patients for primary care conditions, such as headaches, hypertension, urinary tract infections, upper respiratory infections, and dermatological conditions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.5
+    },
+    {
+      "task": "Consult with, or refer patients to, appropriate specialists when conditions exceed the scope of practice or expertise.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.52
+    },
+    {
+      "task": "Detect and respond to adverse drug reactions, with special attention to vulnerable populations such as infants, children, pregnant and lactating women, or older adults.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.71
+    },
+    {
+      "task": "Collaborate with patients to plan for future health care needs or to coordinate transitions and referrals.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.06
+    },
+    {
+      "task": "Refer patients requiring more specialized or complex treatment to psychiatrists, primary care physicians, or other medical specialists.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.17
+    },
+    {
+      "task": "Engage in research activities related to nursing.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.42
+    },
+    {
+      "task": "Direct or provide home health services.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.5
+    },
+    {
+      "task": "Monitor the use and status of medical and pharmaceutical supplies.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.67
+    },
+    {
+      "task": "Develop practice protocols for mental health problems, based on review and evaluation of published research.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.59
+    },
+    {
+      "task": "Develop, implement, or evaluate programs such as outreach activities, community mental health programs, and crisis situation response activities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.29
+    },
+    {
+      "task": "Treat patients for routine physical health problems.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.5
+    },
+    {
+      "task": "Write prescriptions for psychotropic medications as allowed by state regulations and collaborative practice agreements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.86
+    },
+    {
+      "task": "Provide routine physical health screenings to detect or monitor problems such as heart disease and diabetes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.57
+    },
+    {
+      "task": "Collaborate with interdisciplinary team members, including psychiatrists, psychologists, or nursing staff, to develop, implement, or evaluate treatment plans.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.32
+    },
+    {
+      "task": "Participate in treatment team conferences regarding diagnosis or treatment of difficult cases.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.04
+    },
+    {
+      "task": "Interpret diagnostic or laboratory tests, such as electrocardiograms (EKGs) and renal functioning tests.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.86
+    },
+    {
+      "task": "Evaluate patients' behavior to formulate diagnoses or assess treatments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.83
+    },
+    {
+      "task": "Develop and implement treatment plans.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.7
+    },
+    {
+      "task": "Monitor patients' medication usage and results.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.86
+    },
+    {
+      "task": "Educate patients and family members about mental health and medical conditions, preventive health measures, medications, or treatment plans.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.87
+    },
+    {
+      "task": "Distinguish between physiologically- and psychologically-based disorders, and diagnose appropriately.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.77
+    },
+    {
+      "task": "Document patients' medical and psychological histories, physical assessment results, diagnoses, treatment plans, prescriptions, or outcomes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.87
+    },
+    {
+      "task": "Consult with psychiatrists or other professionals when unusual or complex cases are encountered.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.22
+    },
+    {
+      "task": "Work with individuals, groups, or families to plan or implement programs designed to improve the overall health of communities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.08
+    },
+    {
+      "task": "Consult with institutions or associations regarding issues or concerns relevant to the practice and profession of nursing.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.85
+    },
+    {
+      "task": "Refer students or patients to specialized health resources or community agencies furnishing assistance.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.96
+    },
+    {
+      "task": "Provide or arrange for training or instruction of auxiliary personnel or students.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.09
+    },
+    {
+      "task": "Record patients' medical information and vital signs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.74
+    },
+    {
+      "task": "Modify patient treatment plans as indicated by patients' responses and conditions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.34
+    },
+    {
+      "task": "Consult and coordinate with healthcare team members to assess, plan, implement, or evaluate patient care plans.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.48
+    },
+    {
+      "task": "Order, interpret, and evaluate diagnostic tests to identify and assess patient's condition.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.41
+    },
+    {
+      "task": "Monitor all aspects of patient care, including diet and physical activity.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.44
+    },
+    {
+      "task": "Direct or supervise less-skilled nursing or healthcare personnel or supervise a particular unit.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.46
+    },
+    {
+      "task": "Prepare patients for and assist with examinations or treatments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.06
+    },
+    {
+      "task": "Observe nurses and visit patients to ensure proper nursing care.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.23
+    },
+    {
+      "task": "Assess the needs of individuals, families, or communities, including assessment of individuals' home or work environments, to identify potential health or safety problems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.19
+    },
+    {
+      "task": "Instruct individuals, families, or other groups on topics such as health education, disease prevention, or childbirth and develop health improvement programs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.35
+    },
+    {
+      "task": "Prepare rooms, sterile instruments, equipment, or supplies and ensure that stock of supplies is maintained.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.35
+    },
+    {
+      "task": "Provide health care, first aid, immunizations, or assistance in convalescence or rehabilitation in locations such as schools, hospitals, or industry.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.56
+    },
+    {
+      "task": "Conduct specified laboratory tests.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.31
+    },
+    {
+      "task": "Prescribe or recommend drugs, medical devices, or other forms of treatment, such as physical therapy, inhalation therapy, or related therapeutic procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.4
+    },
+    {
+      "task": "Direct or coordinate infection control programs, advising or consulting with specified personnel about necessary precautions.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.38
+    },
+    {
+      "task": "Perform administrative or managerial functions, such as taking responsibility for a unit's staff, budget, planning, or long-range goals.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.42
+    },
+    {
+      "task": "Assess patients' mental and physical status, based on the presenting symptoms and complaints.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.91
+    },
+    {
+      "task": "Administer medications, including those administered by injection.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.56
+    },
+    {
+      "task": "Assist patients in organizing their health care system activities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.65
+    },
+    {
+      "task": "Collaborate with members of multidisciplinary health care teams to plan, manage, or assess patient treatments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.48
+    },
+    {
+      "task": "Analyze the indications, contraindications, risk complications, and cost-benefit tradeoffs of therapeutic interventions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.94
+    },
+    {
+      "task": "Diagnose acute or chronic conditions that could result in rapid physiological deterioration or life-threatening instability.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.87
+    },
+    {
+      "task": "Distinguish between normal and abnormal developmental and age-related physiological and behavioral changes in acute, critical, and chronic illness.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.88
+    },
+    {
+      "task": "Manage patients' pain relief and sedation by providing pharmacologic and non-pharmacologic interventions, monitoring patients' responses, and changing care plans accordingly.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.52
+    },
+    {
+      "task": "Interpret information obtained from electrocardiograms (EKGs) or radiographs (x-rays).",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.53
+    },
+    {
+      "task": "Perform emergency medical procedures, such as basic cardiac life support (BLS), advanced cardiac life support (ACLS), and other condition-stabilizing interventions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.8
+    },
+    {
+      "task": "Assess urgent and emergent health conditions, using both physiologically and technologically derived data.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.79
+    },
+    {
+      "task": "Adjust settings on patients' assistive devices, such as temporary pacemakers.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.69
+    },
+    {
+      "task": "Assess the impact of illnesses or injuries on patients' health, function, growth, development, nutrition, sleep, rest, quality of life, or family, social and educational relationships.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
     },
     {
       "task": "Diagnose psychiatric disorders and mental health conditions.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.87
     },
     {
-      "task": "Document data related to patients' care, including assessments, interventions, medications, and responses.",
-      "task_type": "Core"
+      "task": "Document data related to patients' care, including assessment results, interventions, medications, patient responses, or treatment changes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.57
     },
     {
-      "task": "Treat wounds, superficial lacerations, and administer intravenous infusions, monitoring for adverse reactions.",
-      "task_type": "Core"
+      "task": "Treat wounds or superficial lacerations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
     },
     {
-      "task": "Set up and monitor invasive equipment and devices, such as mechanical ventilators and catheters.",
-      "task_type": "Core"
+      "task": "Set up, operate, or monitor invasive equipment and devices, such as colostomy or tracheotomy equipment, mechanical ventilators, catheters, gastrointestinal tubes, and central lines.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.63
     },
     {
-      "task": "Obtain specimens for laboratory work and order or interpret diagnostic tests based on assessments.",
-      "task_type": "Core"
+      "task": "Obtain specimens or samples for laboratory work.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.52
     },
     {
-      "task": "Participate in patient care meetings, coordinate care, and refer patients for specialty consultations.",
-      "task_type": "Core"
+      "task": "Order, perform, or interpret the results of diagnostic tests and screening procedures based on assessment results, differential diagnoses, and knowledge about age, gender and health status of clients.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.18
+    },
+    {
+      "task": "Participate in patients' care meetings and conferences.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.24
+    },
+    {
+      "task": "Prescribe medications and observe patients' reactions, modifying prescriptions as needed.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.5
+    },
+    {
+      "task": "Refer patients for specialty consultations or treatments.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.18
+    },
+    {
+      "task": "Administer blood and blood product transfusions or intravenous infusions, monitoring patients for adverse reactions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.53
+    },
+    {
+      "task": "Write nursing orders.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.25
+    },
+    {
+      "task": "Perform discharge planning for patients.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.13
+    },
+    {
+      "task": "Participate in clinical research projects, such as by reviewing protocols, reviewing patient records, monitoring compliance, and meeting with regulatory authorities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.95
     },
     {
       "task": "Conduct individual, group, or family psychotherapy for those with chronic or acute mental disorders.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.41
     },
     {
-      "task": "Evaluate and modify treatment programs based on gathered information and clinical recommendations.",
-      "task_type": "Core"
+      "task": "Coordinate or conduct educational programs or in-service training sessions on topics such as clinical procedures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.05
     },
     {
-      "task": "Develop and implement care and treatment plans based on comprehensive health assessments.",
-      "task_type": "Core"
+      "task": "Observe, interview, and assess patients to identify care needs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.29
     },
     {
-      "task": "Provide direct care, including comprehensive health assessments and specialized care in designated specialties.",
-      "task_type": "Core"
+      "task": "Evaluate the quality and effectiveness of nursing practice or organizational systems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.33
     },
     {
-      "task": "Collaborate with health care professionals to ensure optimal patient care and monitor treatment effectiveness.",
-      "task_type": "Core"
+      "task": "Provide direct care by performing comprehensive health assessments, developing differential diagnoses, conducting specialized tests, or prescribing medications or treatments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.22
     },
     {
-      "task": "Direct or supervise nursing staff and conduct training sessions on nursing assessments and procedures.",
-      "task_type": "Core"
+      "task": "Provide specialized direct and indirect care to inpatients and outpatients within a designated specialty, such as obstetrics, neurology, oncology, or neonatal care.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.71
     },
     {
-      "task": "Maintain departmental policies and evaluate quality of nursing practice and organizational systems.",
-      "task_type": "Core"
+      "task": "Maintain departmental policies, procedures, objectives, or infection control standards.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.62
+    },
+    {
+      "task": "Collaborate with other health care professionals and service providers to ensure optimal patient care.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.7
+    },
+    {
+      "task": "Develop nursing service philosophies, goals, policies, priorities, or procedures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.81
+    },
+    {
+      "task": "Develop, implement, or evaluate standards of nursing practice in specialty area, such as pediatrics, acute care, and geriatrics.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.62
+    },
+    {
+      "task": "Develop or assist others in development of care and treatment plans.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.9
+    },
+    {
+      "task": "Make clinical recommendations to physicians, other health care providers, insurance companies, patients, or health care organizations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Present clients with information required to make informed health care and treatment decisions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
+    },
+    {
+      "task": "Instruct nursing staff in areas such as the assessment, development, implementation, and evaluation of disability, illness, management, technology, or resources.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.52
+    },
+    {
+      "task": "Direct or supervise nursing care staff in the provision of patient therapy.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.89
+    },
+    {
+      "task": "Monitor or evaluate medical conditions of patients in collaboration with other health care professionals.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.24
+    },
+    {
+      "task": "Provide coaching and mentoring to other caregivers to help facilitate their professional growth and development.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.24
     }
   ],
   "technology_skills": [
@@ -1758,10 +2548,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Healthcare common procedure coding system HCPCS",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Medical procedure coding software",
       "weight": 0.3333333333333333
     },
@@ -1775,6 +2561,10 @@
     },
     {
       "name": "AUDIT-C",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "AetherPalm InfusiCalc",
       "weight": 0.16666666666666666
     },
     {
@@ -1799,10 +2589,6 @@
     },
     {
       "name": "Brief Psychiatric Rating Scale BPRS Nursing Modification",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "California Verbal Learning Test",
       "weight": 0.16666666666666666
     },
     {
@@ -1834,6 +2620,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Drug database software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Drug guide software",
       "weight": 0.16666666666666666
     },
@@ -1850,6 +2640,14 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "FaceTime",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Geriatric Depression Scale",
       "weight": 0.16666666666666666
     },
@@ -1858,7 +2656,35 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "HMS",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Hendrich Falls Risk Model",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Human resource management software HRMS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Invivo Data EPX ePRO Management System",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "LinkedIn",
       "weight": 0.16666666666666666
     },
     {
@@ -1870,23 +2696,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Microsoft Exchange",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Microsoft Teams",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Millon Behavioral Medicine Diagnostic",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Minnesota Multiphasic Personality Inventory-2 MMPI-2",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Myers Briggs Type Indicator",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "NEO PI-R",
+      "name": "Microsoft Windows",
       "weight": 0.16666666666666666
     },
     {
@@ -1914,6 +2740,22 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Prognosis Innovation Healthcare ChartAccess",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "QuadraMed Affinity Healthcare Information System",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Young Mania Rating Scale",
       "weight": 0.16666666666666666
     },
@@ -1928,10 +2770,6 @@
       "weight": 1.1666666666666665
     },
     {
-      "name": "Arterial line catheters",
-      "weight": 1.0
-    },
-    {
       "name": "Bilevel positive airway pressure BiPAP ventilators",
       "weight": 1.0
     },
@@ -1940,19 +2778,7 @@
       "weight": 1.0
     },
     {
-      "name": "Endotracheal ET tubes",
-      "weight": 1.0
-    },
-    {
-      "name": "Epidural catheters",
-      "weight": 1.0
-    },
-    {
       "name": "Oxygen flowmeters",
-      "weight": 1.0
-    },
-    {
-      "name": "Pulmonary artery catheters",
       "weight": 1.0
     },
     {
@@ -1997,10 +2823,6 @@
     },
     {
       "name": "Incentive spirometers",
-      "weight": 0.8333333333333333
-    },
-    {
-      "name": "Intracranial pressure monitors",
       "weight": 0.8333333333333333
     },
     {
@@ -2068,23 +2890,7 @@
       "weight": 0.8333333333333333
     },
     {
-      "name": "Arterial blood gas testing equipment",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Automated medicine dispensing equipment",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Autotransfusion systems",
-      "weight": 0.6666666666666666
-    },
-    {
       "name": "Blood drawing syringes",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Crash carts",
       "weight": 0.6666666666666666
     },
     {
@@ -2092,15 +2898,7 @@
       "weight": 0.6666666666666666
     },
     {
-      "name": "End tidal carbon dioxide monitors",
-      "weight": 0.6666666666666666
-    },
-    {
       "name": "Enema equipment",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Fetal monitors",
       "weight": 0.6666666666666666
     },
     {
@@ -2108,27 +2906,11 @@
       "weight": 0.6666666666666666
     },
     {
-      "name": "Hemodynamic monitors",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Hyper/hypothermia blankets",
-      "weight": 0.6666666666666666
-    },
-    {
       "name": "Intravenous IV administration sets",
       "weight": 0.6666666666666666
     },
     {
-      "name": "Intubation sets",
-      "weight": 0.6666666666666666
-    },
-    {
       "name": "Manual resuscitation bags",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Mechanical intermittent positive pressure ventilators",
       "weight": 0.6666666666666666
     },
     {
@@ -2145,10 +2927,6 @@
     },
     {
       "name": "Orthopedic splinting equipment",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Pericardiocentesis kits",
       "weight": 0.6666666666666666
     },
     {
@@ -2192,27 +2970,7 @@
       "weight": 0.6666666666666666
     },
     {
-      "name": "Transcutaneous pacemakers",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Transport cardiac monitors",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Umbilical catheters",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Venous oxygen saturation SVO2 monitors",
-      "weight": 0.6666666666666666
-    },
-    {
       "name": "Bedpans",
-      "weight": 0.5
-    },
-    {
-      "name": "Binocular light compound microscopes",
       "weight": 0.5
     },
     {
@@ -2236,6 +2994,10 @@
       "weight": 0.5
     },
     {
+      "name": "Desktop computers",
+      "weight": 0.5
+    },
+    {
       "name": "Diagnostic tuning forks",
       "weight": 0.5
     },
@@ -2248,19 +3010,7 @@
       "weight": 0.5
     },
     {
-      "name": "Electrosurgical cauterization machines",
-      "weight": 0.5
-    },
-    {
       "name": "Enteral feeding sets",
-      "weight": 0.5
-    },
-    {
-      "name": "Fiberoptic endoscopes",
-      "weight": 0.5
-    },
-    {
-      "name": "Graduated glass laboratory cylinders",
       "weight": 0.5
     },
     {
@@ -2268,23 +3018,7 @@
       "weight": 0.5
     },
     {
-      "name": "Intra-aortic balloon pumps IABP",
-      "weight": 0.5
-    },
-    {
-      "name": "Intravenous IV cutdown trays",
-      "weight": 0.5
-    },
-    {
       "name": "Intravenous infusion pumps",
-      "weight": 0.5
-    },
-    {
-      "name": "Isolettes",
-      "weight": 0.5
-    },
-    {
-      "name": "Magill forceps",
       "weight": 0.5
     },
     {
@@ -2324,15 +3058,7 @@
       "weight": 0.5
     },
     {
-      "name": "Pneumatic boots",
-      "weight": 0.5
-    },
-    {
       "name": "Protective medical face masks",
-      "weight": 0.5
-    },
-    {
-      "name": "Skin staplers",
       "weight": 0.5
     },
     {
@@ -2348,23 +3074,7 @@
       "weight": 0.5
     },
     {
-      "name": "Swan Ganz artery catheters",
-      "weight": 0.5
-    },
-    {
       "name": "Telemetry monitors",
-      "weight": 0.5
-    },
-    {
-      "name": "Thoracentesis kits",
-      "weight": 0.5
-    },
-    {
-      "name": "Thoracentesis trays",
-      "weight": 0.5
-    },
-    {
-      "name": "Traction weights",
       "weight": 0.5
     },
     {
@@ -2372,23 +3082,7 @@
       "weight": 0.5
     },
     {
-      "name": "Transvenous pacemakers",
-      "weight": 0.5
-    },
-    {
-      "name": "Ultrasound transducers",
-      "weight": 0.5
-    },
-    {
       "name": "Urine analysis equipment",
-      "weight": 0.5
-    },
-    {
-      "name": "Vaginal exam speculas",
-      "weight": 0.5
-    },
-    {
-      "name": "Ventricular assist devices VAD",
       "weight": 0.5
     },
     {
@@ -2408,31 +3102,11 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Blood warming equipment",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Breast pumps",
       "weight": 0.3333333333333333
     },
     {
-      "name": "Bronchoscopes",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Cast carts",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Cast cutting saws",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Continuous positive airway pressure CPAP ventilators",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Cooling blankets",
       "weight": 0.3333333333333333
     },
     {
@@ -2448,14 +3122,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Flexible sigmoidoscopes",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Halo traction equipment",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Intravenous IV infusion pumps",
       "weight": 0.3333333333333333
     },
@@ -2464,35 +3130,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Microscope slides",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Nasal specula",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Nasopharyngeal airways",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Nebulizers",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Newborn warming lamps",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Ophthalmic slit lamps",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Ophthalmic tonometers",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Pediatric crash carts",
       "weight": 0.3333333333333333
     },
     {
@@ -2508,14 +3146,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Sandbags",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Sequential compression devices",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Snellen eye charts",
       "weight": 0.3333333333333333
     },
@@ -2528,35 +3158,11 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Wood's lamps",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Anesthesia masks",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Anti-embolism elastic stockings",
       "weight": 0.16666666666666666
     },
     {
       "name": "Aqua K pads",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Argon lasers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Arterial blood gas monitoring equipment",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Audiometers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Autoclaves",
       "weight": 0.16666666666666666
     },
     {
@@ -2568,19 +3174,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Balanced suspension traction equipment",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Bilimeters",
       "weight": 0.16666666666666666
     },
     {
       "name": "Biopsy punches",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Bispectral index monitors BIS",
       "weight": 0.16666666666666666
     },
     {
@@ -2604,27 +3202,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Bucks traction equipment",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Calibrated vaporizers",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Canes",
       "weight": 0.16666666666666666
     },
     {
       "name": "Capillary glucose monitors",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Capnographs",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Carbon dioxide CO2 lasers",
       "weight": 0.16666666666666666
     },
     {
@@ -2640,19 +3222,7 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Centrifuges",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Cervical collars",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Cervical traction equipment",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Chemotherapy spill kits",
       "weight": 0.16666666666666666
     },
     {
@@ -2660,31 +3230,7 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Colonoscopy equipment",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Colposcopes",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Computerized electrocardiography EKG and hemodynamic monitoring systems",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Continuous enteral feeding equipment",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Continuous passive motion CPM equipment",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Continuous passive motion CPM machines",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Crutchfield tongs",
       "weight": 0.16666666666666666
     },
     {
@@ -2693,10 +3239,6 @@
     },
     {
       "name": "Defibrillators",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Digital anesthesia machines",
       "weight": 0.16666666666666666
     },
     {
@@ -2709,10 +3251,6 @@
     },
     {
       "name": "Double lumen catheters",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Echocardiogram equipment",
       "weight": 0.16666666666666666
     },
     {
@@ -2732,55 +3270,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Electrosurgical devices",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Epidural block equipment trays",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Epidural pumps",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Esophageal intubation detectors",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Fetal scalp electrodes",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Fiberoptic bronchoscopes",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Fiberoptic laryngoscopes",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Flash sterilizers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Flexible laryngoscopes",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Foot cradles",
       "weight": 0.16666666666666666
     },
     {
       "name": "Gait belts",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Gas anesthesia administration machines",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Gastrointestinal GI endoscopes",
       "weight": 0.16666666666666666
     },
     {
@@ -2796,23 +3290,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Grounding pads",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Handheld calculators",
       "weight": 0.16666666666666666
     },
     {
       "name": "Handheld thermometers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Head immobilization devices",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Head immobilizers",
       "weight": 0.16666666666666666
     },
     {
@@ -2860,10 +3342,6 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Infant warmers",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Infusion control devices",
       "weight": 0.16666666666666666
     },
@@ -2908,31 +3386,15 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Intubation stylets",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Invasive hemodynamic pressure monitors",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Jackson-Pratt drains",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Kidney dialysis equipment",
+      "name": "Laser facsimile machines",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Laryngeal mask airways LMA",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Laryngoscope blades",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Leather restraints",
+      "name": "Laser printers",
       "weight": 0.16666666666666666
     },
     {
@@ -2941,10 +3403,6 @@
     },
     {
       "name": "Limb restraints",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Loop electrosurgical excision procedure LEEP equipment",
       "weight": 0.16666666666666666
     },
     {
@@ -2984,7 +3442,7 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Meconium aspirators",
+      "name": "Medical encyclopedias",
       "weight": 0.16666666666666666
     },
     {
@@ -3000,23 +3458,15 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Microhematocrit centrifuges",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Mobile medical services spine boards",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Mosquito hemostats",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Multiple line infusion pumps",
+      "name": "Multi-line telephone systems",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Nasal airways",
+      "name": "Multiple line infusion pumps",
       "weight": 0.16666666666666666
     },
     {
@@ -3032,11 +3482,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "One-way valve protective shields",
+      "name": "Notebook computers",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Oropharyngeal airways",
+      "name": "One-way valve protective shields",
       "weight": 0.16666666666666666
     },
     {
@@ -3053,18 +3503,6 @@
     },
     {
       "name": "Oxygen tanks",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Oxyhoods",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Pacemaker analyzers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Pacemakers",
       "weight": 0.16666666666666666
     },
     {
@@ -3088,10 +3526,6 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Pelvic traction equipment",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Percussion hammers",
       "weight": 0.16666666666666666
     },
@@ -3108,23 +3542,7 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Peripheral nerve stimulators",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Phaco apparatus",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Phaco consoles",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Photopheresis systems",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Phototherapy equipment",
+      "name": "Photocopiers",
       "weight": 0.16666666666666666
     },
     {
@@ -3132,35 +3550,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Pneumatic tourniquets",
+      "name": "Pocket personal computers PC",
       "weight": 0.16666666666666666
     },
     {
       "name": "Portable electrocardiography EKG machines",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Precordial stethoscopes",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Pretracheal stethoscopes",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Pulsed dye lasers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Rape kits",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Retractors",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Russell's traction equipment",
       "weight": 0.16666666666666666
     },
     {
@@ -3169,14 +3563,6 @@
     },
     {
       "name": "Single lumen catheters",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Skin traction equipment",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Spinal immobilization equipment",
       "weight": 0.16666666666666666
     },
     {
@@ -3208,10 +3594,6 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Surgical lights",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Suture needleholders",
       "weight": 0.16666666666666666
     },
@@ -3221,10 +3603,6 @@
     },
     {
       "name": "Suturing kits",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Swab dryers",
       "weight": 0.16666666666666666
     },
     {
@@ -3244,27 +3622,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Therapeutic whirlpool baths",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Tissue culture incubators",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Titmus vision screeners",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Torso immobilizers",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Tracheostomy collars",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Traction equipment",
       "weight": 0.16666666666666666
     },
     {
@@ -3276,19 +3638,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Tympanometers",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Upper extremity braces",
       "weight": 0.16666666666666666
     },
     {
       "name": "Upper extremity prosthetic devices",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Vacuum extractors",
       "weight": 0.16666666666666666
     },
     {

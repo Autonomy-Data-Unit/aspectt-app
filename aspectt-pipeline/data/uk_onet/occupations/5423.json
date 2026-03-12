@@ -1544,152 +1544,718 @@
   ],
   "tasks": [
     {
-      "task": "Set up or operate bindery machines, such as coil binders, thermal or tape binders, plastic comb binders, or specialty binders.",
-      "task_type": "Core"
+      "task": "Cut binder boards to specified dimensions, using board shears, hand cutters, or cutting machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.25
     },
     {
-      "task": "Cut binder boards and cover material to specified dimensions, using board shears, hand cutters, or cutting machines.",
-      "task_type": "Supplemental"
+      "task": "Imprint or emboss lettering, designs, or numbers on book covers, using gold, silver, or colored foil, and stamping machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.22
     },
     {
-      "task": "Form book bodies by folding and sewing printed sheets to create signatures and assemble them in numerical order.",
-      "task_type": "Supplemental"
+      "task": "Maintain records, such as daily production records, using specified forms.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.4
     },
     {
-      "task": "Imprint or emboss lettering, designs, or numbers on book covers using gold, silver, or colored foil and stamping machines.",
-      "task_type": "Supplemental"
+      "task": "Meet with clients, printers, or designers to discuss job requirements or binding plans.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.2
     },
     {
-      "task": "Insert book bodies in devices that form back edges into convex shapes and produce grooves for cover attachment.",
-      "task_type": "Supplemental"
+      "task": "Monitor machine operations to detect malfunctions or to determine whether adjustments are needed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.42
     },
     {
-      "task": "Maintain records, such as daily production and quantities of processing completed, using specified forms.",
-      "task_type": "Core"
+      "task": "Perform highly skilled hand finishing binding operations, such as grooving or lettering.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.24
     },
     {
-      "task": "Monitor machine operations to detect malfunctions, adjustments, and ensure proper working condition.",
-      "task_type": "Core"
+      "task": "Punch holes in and fasten paper sheets, signatures, or other material, using hand or machine punches and staplers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.8
     },
     {
-      "task": "Set up or operate machines that perform binding operations, such as pressing, folding, or trimming, and troubleshoot issues as needed.",
-      "task_type": "Core"
+      "task": "Repair, restore, or rebind old, rare, or damaged books, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.58
     },
     {
-      "task": "Stitch or glue endpapers, bindings, backings, or signatures using sewing machines or glue machines.",
-      "task_type": "Core"
+      "task": "Set up or operate glue machines by filling glue reservoirs, turning switches to activate heating elements, or adjusting glue flow or conveyor speed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.07
     },
     {
-      "task": "Trim edges of books to size using cutting machines or hand cutters and examine samples for defects.",
-      "task_type": "Core"
+      "task": "Set up or operate machines that perform binding operations, such as pressing, folding, or trimming.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.32
+    },
+    {
+      "task": "Stitch or glue endpapers, bindings, backings, or signatures, using sewing machines, glue machines, or glue and brushes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.47
+    },
+    {
+      "task": "Trim edges of books to size, using cutting machines, book trimming machines, or hand cutters.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.47
+    },
+    {
+      "task": "Examine stitched, collated, bound, or unbound product samples for defects, such as imperfect bindings, ink spots, torn pages, loose pages, or loose or uncut threads.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.59
+    },
+    {
+      "task": "Install or adjust bindery machine devices, such as knives, guides, rollers, rounding forms, creasing rams, or clamps, to accommodate sheets, signatures, or books of specified sizes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.48
+    },
+    {
+      "task": "Lubricate, clean, or make minor repairs to machine parts to keep machines in working condition.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.4
+    },
+    {
+      "task": "Prepare finished books for shipping by wrapping or packing books and stacking boxes on pallets.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.16
     },
     {
       "task": "Train workers to set up, operate, and use automatic bindery machines.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.04
     },
     {
-      "task": "Repair, restore, or rebind old, rare, or damaged books using hand tools and perform highly skilled hand finishing operations.",
-      "task_type": "Supplemental"
+      "task": "Design original or special bindings for limited editions or other custom binding projects.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.96
     },
     {
-      "task": "Load digital images and processing materials into machines, ensuring they are prepared according to specifications.",
-      "task_type": "Core"
+      "task": "Cut cover material to specified dimensions, fitting and gluing material to binder boards by hand or machine.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.29
     },
     {
-      "task": "Prepare finished books for shipping by wrapping, packing, and stacking boxes.",
-      "task_type": "Core"
+      "task": "Compress sewed or glued signatures, using hand presses or smashing machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.21
     },
     {
-      "task": "Design original or special bindings for limited editions or custom binding projects.",
-      "task_type": "Supplemental"
+      "task": "Develop employee work schedules.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.99
     },
     {
-      "task": "Compress, digitize, duplicate, and store audio and video data efficiently.",
-      "task_type": "Core"
+      "task": "Stay current with new technologies in the field by reading trade magazines.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.72
     },
     {
-      "task": "Confer with clients, printers, or designers to discuss job requirements or binding plans.",
-      "task_type": "Supplemental"
+      "task": "Direct and coordinate activities of assistants and other personnel during production.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.71
     },
     {
-      "task": "Monitor the quality of audio and video recordings and adjust equipment as necessary.",
-      "task_type": "Core"
+      "task": "Maintain inventories of audio and videotapes and related supplies.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.13
     },
     {
-      "task": "Perform necessary cleaning and maintenance of binding and printing equipment to ensure proper functioning.",
-      "task_type": "Core"
+      "task": "Read work orders to determine required processes, techniques, materials, or equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Set or adjust machine controls, according to specifications, type of operation, or material requirements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.44
+    },
+    {
+      "task": "Develop manuals, texts, workbooks, or related materials for use in conjunction with production materials or for training.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.93
+    },
+    {
+      "task": "Report equipment problems, ensure that repairs are made, and make emergency repairs to equipment when necessary and possible.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.52
+    },
+    {
+      "task": "Proofread and perform quality control of text and images.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.65
     },
     {
       "task": "Select proper types of plates according to press run lengths.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.38
     },
     {
-      "task": "Examine finished plates to detect flaws and verify conformity with master plates, using light boxes and microscopes.",
-      "task_type": "Supplemental"
+      "task": "Examine finished plates to detect flaws, verify conformity with master plates, and measure dot sizes and centers, using light boxes and microscopes.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.27
     },
     {
-      "task": "Operate presses to print proofs of plates, monitoring printing quality to ensure adequacy.",
-      "task_type": "Supplemental"
+      "task": "Examine unexposed photographic plates to detect flaws or foreign particles prior to printing.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.16
+    },
+    {
+      "task": "Examine photographic images for obvious imperfections prior to plate making.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.04
     },
     {
       "task": "Operate and maintain laser plate-making equipment that converts electronic data to plates without the use of film.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.46
     },
     {
-      "task": "Enter and arrange text size using computers to produce printed materials.",
-      "task_type": "Core"
+      "task": "Enter, position, and alter text size, using computers, to make up and arrange pages so that printed materials can be produced.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.58
     },
     {
-      "task": "Create special effects, such as vignettes and combining images, and add elements to electronic publications.",
-      "task_type": "Supplemental"
+      "task": "Enter, store, and retrieve information on computer-aided equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.44
     },
     {
-      "task": "Collaborate with graphic artists, editors, and writers to produce master copies according to specifications.",
-      "task_type": "Supplemental"
+      "task": "Create special effects such as vignettes, mosaics, and image combining, and add elements such as sound and animation to electronic publications.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.54
     },
     {
-      "task": "Select number of colors and determine color separations for printing jobs.",
-      "task_type": "Core"
+      "task": "Collaborate with graphic artists, editors and writers to produce master copies according to design specifications.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.17
     },
     {
-      "task": "Prepare sample layouts for approval using computer software.",
-      "task_type": "Core"
+      "task": "Transmit, deliver, or mail publication master to printer for production into film and plates.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.23
     },
     {
-      "task": "Load presses with paper and make necessary adjustments according to paper size.",
-      "task_type": "Core"
+      "task": "Select number of colors and determine color separations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.02
     },
     {
-      "task": "Maintain, adjust, and clean printing equipment and perform minor repairs.",
-      "task_type": "Core"
+      "task": "Enter data, such as coordinates of images and color specifications, into system to retouch and make color corrections.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.79
     },
     {
-      "task": "Start presses and pull proofs to check for ink coverage, density, alignment, and registration.",
-      "task_type": "Core"
+      "task": "Convert various types of files for printing or for the Internet, using computer software.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.01
     },
     {
-      "task": "Inspect, test, or measure materials, products, or work for conformance to specifications.",
-      "task_type": "Core"
+      "task": "Load floppy disks or tapes containing information into system.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.29
     },
     {
-      "task": "Monitor inventory levels regularly, ordering additional supplies as necessary.",
-      "task_type": "Core"
+      "task": "Study layout or other design instructions to determine work to be done and sequence of operations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.18
     },
     {
-      "task": "Monitor automated press operation systems and respond to fault or error messages.",
-      "task_type": "Core"
+      "task": "Prepare sample layouts for approval, using computer software.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.36
     },
     {
-      "task": "Recommend necessary corrective actions based on inspection results.",
-      "task_type": "Core"
+      "task": "Import text and art elements, such as electronic clip art or electronic files from photographs that have been scanned or produced with a digital camera, using computer software.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.29
     },
     {
-      "task": "Inspect job orders to determine quantities, stock specifications, colors, or special printing instructions.",
-      "task_type": "Core"
+      "task": "Edit graphics and photos, using pixel or bitmap editing, airbrushing, masking, or image retouching.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.88
+    },
+    {
+      "task": "Enter digitized data into electronic prepress system computer memory, using scanner, camera, keyboard, or mouse.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.99
+    },
+    {
+      "task": "Position text and art elements from a variety of databases in a visually appealing way to design print or web pages, using knowledge of type styles and size and layout patterns.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.47
+    },
+    {
+      "task": "View monitors for visual representation of work in progress and for instructions and feedback throughout process, making modifications as necessary.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.4
+    },
+    {
+      "task": "Store copies of publications on paper, magnetic tape, film, or diskette.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.62
+    },
+    {
+      "task": "Set scanners to specific color densities, sizes, screen rulings, and exposure adjustments, using scanner keyboards or computers.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.46
+    },
+    {
+      "task": "Maintain, adjust, and clean equipment, and perform minor repairs.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.01
+    },
+    {
+      "task": "Load presses with paper and make necessary adjustments, according to paper size.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.5
+    },
+    {
+      "task": "Monitor inventory levels on a regular basis, ordering or requesting additional supplies, as necessary.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.96
+    },
+    {
+      "task": "Adjust digital files to alter print elements, such as fonts, graphics, or color separations.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.33
+    },
+    {
+      "task": "Obtain or mix inks and fill ink fountains.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.36
+    },
+    {
+      "task": "Input production job settings into workstation terminals that control automated printing systems.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.3
+    },
+    {
+      "task": "Start presses and pull proofs to check for ink coverage and density, alignment, and registration.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.67
+    },
+    {
+      "task": "Verify that paper and ink meet the specifications for a given job.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.57
+    },
+    {
+      "task": "Control workflow scheduling or job tracking, using computer database software.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.0
+    },
+    {
+      "task": "Download completed jobs to archive media so that questions can be answered or jobs replicated.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.05
+    },
+    {
+      "task": "Monitor environmental factors, such as humidity and temperature, that may impact equipment performance and make necessary adjustments.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.95
+    },
+    {
+      "task": "Adjust ink fountain flow rates.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.61
+    },
+    {
+      "task": "Change press plates, blankets, or cylinders, as required.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.39
+    },
+    {
+      "task": "Clean ink fountains, plates, or printing unit cylinders when press runs are completed.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.4
     },
     {
       "task": "Collect and inspect random samples during print runs to identify any necessary adjustments.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.56
+    },
+    {
+      "task": "Download or scan files to be printed, using printing production software.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.46
+    },
+    {
+      "task": "Examine job orders to determine quantities to be printed, stock specifications, colors, or special printing instructions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.64
+    },
+    {
+      "task": "Monitor automated press operation systems and respond to fault, error, or alert messages.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.5
+    },
+    {
+      "task": "Fabricate, install, position, or connect components, parts, finished products, or instruments for testing or operational purposes.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.1
+    },
+    {
+      "task": "Inspect or test raw materials, parts, or products to determine compliance with environmental standards.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.27
+    },
+    {
+      "task": "Remove defects, such as chips, burrs, or lap corroded or pitted surfaces.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.91
+    },
+    {
+      "task": "Grade, classify, or sort products according to sizes, weights, colors, or other specifications.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.72
+    },
+    {
+      "task": "Make minor adjustments to equipment, such as turning setscrews to calibrate instruments to required tolerances.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.32
+    },
+    {
+      "task": "Read blueprints, data, manuals, or other materials to determine specifications, inspection and testing procedures, adjustment methods, certification processes, formulas, or measuring instruments required.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.31
+    },
+    {
+      "task": "Notify supervisors or other personnel of production problems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.48
+    },
+    {
+      "task": "Clean, maintain, calibrate, or repair measuring instruments or test equipment, such as dial indicators, fixed gauges, or height gauges.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.12
+    },
+    {
+      "task": "Check arriving materials to ensure that they match purchase orders, submitting discrepancy reports as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.29
+    },
+    {
+      "task": "Compute defect percentages or averages, using formulas and calculators.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.7
+    },
+    {
+      "task": "Position products, components, or parts for testing.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.91
+    },
+    {
+      "task": "Stack or arrange tested products for further processing, shipping, or packaging.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.63
+    },
+    {
+      "task": "Monitor production operations or equipment to ensure conformance to specifications, making necessary process or assembly adjustments.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.27
+    },
+    {
+      "task": "Monitor machines that automatically measure, sort, or inspect products.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.03
+    },
+    {
+      "task": "Compute usable amounts of items in shipments.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.84
+    },
+    {
+      "task": "Weigh materials, products, containers, or samples to verify packaging weights or ingredient quantities.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.53
+    },
+    {
+      "task": "Recommend necessary corrective actions, based on inspection results.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.36
+    },
+    {
+      "task": "Disassemble defective parts or components, such as inaccurate or worn gauges or measuring instruments.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.71
+    },
+    {
+      "task": "Write test or inspection reports describing results, recommendations, or needed repairs.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.39
+    },
+    {
+      "task": "Compare colors, shapes, textures, or grades of products or materials with color charts, templates, or samples to verify conformance to standards.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.17
+    },
+    {
+      "task": "Read dials or meters to verify that equipment is functioning at specified levels.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.33
+    },
+    {
+      "task": "Collect or select samples for testing or for use as models.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.77
+    },
+    {
+      "task": "Analyze test data, making computations as necessary, to determine test results.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.24
+    },
+    {
+      "task": "Measure dimensions of products to verify conformance to specifications, using measuring instruments, such as rulers, calipers, gauges, or micrometers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.49
+    },
+    {
+      "task": "Interpret legal requirements, provide safety information, or recommend compliance procedures to contractors, craft workers, engineers, or property owners.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.0
+    },
+    {
+      "task": "Mark items with details, such as grade or acceptance-rejection status.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.57
+    },
+    {
+      "task": "Record inspection or test data, such as weights, temperatures, grades, or moisture content, and quantities inspected or graded.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.25
+    },
+    {
+      "task": "Inspect, test, or measure materials, products, installations, or work for conformance to specifications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.46
+    },
+    {
+      "task": "Discard or reject products, materials, or equipment not meeting specifications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.68
+    },
+    {
+      "task": "Administer tests to assess whether engineers or operators are qualified to use equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.08
+    },
+    {
+      "task": "Recommend or execute personnel actions, such as hirings, evaluations, or promotions.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.63
+    },
+    {
+      "task": "Keep records of employees' attendance and hours worked.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.23
+    },
+    {
+      "task": "Plan and develop new products and production processes.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.12
+    },
+    {
+      "task": "Calculate labor and equipment requirements and production specifications, using standard formulas.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.88
+    },
+    {
+      "task": "Set up and adjust machines and equipment.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.63
+    },
+    {
+      "task": "Requisition materials, supplies, equipment parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.72
+    },
+    {
+      "task": "Determine standards, budgets, production goals, and rates, based on company policies, equipment and labor availability, and workloads.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.89
+    },
+    {
+      "task": "Recommend or implement measures to motivate employees and to improve production methods, equipment performance, product quality, or efficiency.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.82
+    },
+    {
+      "task": "Maintain operations data, such as time, production, and cost records, and prepare management reports of production results.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.82
+    },
+    {
+      "task": "Confer with management or subordinates to resolve worker problems, complaints, or grievances.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.99
+    },
+    {
+      "task": "Observe work and monitor gauges, dials, and other indicators to ensure that operators conform to production or processing standards.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.02
+    },
+    {
+      "task": "Inspect materials, products, or equipment to detect defects or malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.23
+    },
+    {
+      "task": "Plan and establish work schedules, assignments, and production sequences to meet production goals.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.2
+    },
+    {
+      "task": "Confer with other supervisors to coordinate operations and activities within or between departments.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.15
+    },
+    {
+      "task": "Read and analyze charts, work orders, production schedules, and other records and reports to determine production requirements and to evaluate current production estimates and outputs.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.22
+    },
+    {
+      "task": "Direct and coordinate the activities of employees engaged in the production or processing of goods, such as inspectors, machine setters, or fabricators.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.02
+    },
+    {
+      "task": "Enforce safety and sanitation regulations.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.48
+    },
+    {
+      "task": "Conduct employee training in equipment operations or work and safety procedures, or assign employee training to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.01
+    },
+    {
+      "task": "Interpret specifications, blueprints, job orders, and company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.04
     }
   ],
   "technology_skills": [
@@ -1734,20 +2300,12 @@
       "weight": 0.7222222222222222
     },
     {
-      "name": "Apple Final Cut Pro",
-      "weight": 0.6666666666666666
-    },
-    {
       "name": "Adobe Acrobat",
       "weight": 0.6555555555555556
     },
     {
       "name": "Microsoft Access",
       "weight": 0.6392063492063491
-    },
-    {
-      "name": "Adobe After Effects",
-      "weight": 0.611111111111111
     },
     {
       "name": "Microsoft Windows",
@@ -1762,59 +2320,207 @@
       "weight": 0.5277777777777778
     },
     {
-      "name": "Adobe Premiere Pro",
+      "name": "SAP software",
+      "weight": 0.5011111111111111
+    },
+    {
+      "name": "Linux",
       "weight": 0.5
     },
     {
-      "name": "Avid Technology audio visual editing software",
-      "weight": 0.5
+      "name": "UNIX",
+      "weight": 0.4444444444444444
     },
     {
       "name": "Word processing software",
       "weight": 0.4177777777777778
     },
     {
-      "name": "Adobe Audition",
+      "name": "Computer aided design CAD software",
+      "weight": 0.3733333333333333
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.3611111111111111
+    },
+    {
+      "name": "Voice over internet protocol VoIP system software",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.3222222222222222
+    },
+    {
+      "name": "Corel CorelDraw Graphics Suite",
+      "weight": 0.3222222222222222
+    },
+    {
+      "name": "QuarkXPress",
+      "weight": 0.3222222222222222
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.2777777777777778
+    },
+    {
+      "name": "Houchen Bindery Library Automated Retrieval System LARS",
+      "weight": 0.25
+    },
+    {
+      "name": "Label printing software",
+      "weight": 0.25
+    },
+    {
+      "name": "Trade Bindery Software Bindery Estimating System",
+      "weight": 0.25
+    },
+    {
+      "name": "Trade Bindery Software Bindery Management System",
+      "weight": 0.25
     },
     {
       "name": "Microsoft SharePoint",
       "weight": 0.23444444444444443
     },
     {
+      "name": "Microsoft Project",
+      "weight": 0.22253968253968254
+    },
+    {
+      "name": "Adobe FrameMaker",
+      "weight": 0.2222222222222222
+    },
+    {
+      "name": "Adobe FreeHand MX",
+      "weight": 0.2222222222222222
+    },
+    {
       "name": "Graphics software",
       "weight": 0.2111111111111111
     },
     {
-      "name": "Apple Final Cut Studio",
+      "name": "Cisco Webex",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Apple iMovie",
+      "name": "Facebook",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Audio editing software",
+      "name": "Google Drive",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Avid Pro Tools",
+      "name": "Microsoft Teams",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Musical instrument digital interface MIDI software",
+      "name": "TikTok",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Video decoder software",
+      "name": "Zoom",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Video editing software",
-      "weight": 0.16666666666666666
+      "name": "FileMaker Pro",
+      "weight": 0.15476190476190477
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.1511111111111111
+    },
+    {
+      "name": "Database software",
+      "weight": 0.12333333333333332
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.12333333333333332
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.11142857142857143
+    },
+    {
+      "name": "Adobe PostScript",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "AlgoLab Raster to Vector Conversion Toolkit",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Apple AppleScript",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Apple iPhoto",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Arts & Letters Express",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Cenon",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "CodedColor",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Color management software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel CorelScan",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel OCR-Trace 8",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel Paint Shop Pro",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel Painter",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel Photo-Paint",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel Ventura",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Data conversion software",
+      "weight": 0.1111111111111111
     },
     {
       "name": "Desktop publishing software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Esko ArtPro",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "File transfer protocol FTP software",
       "weight": 0.1111111111111111
     },
     {
@@ -1822,7 +2528,79 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "GTX RastorCAD",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Global Graphics Software Harlequin",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Graphics card driver software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "GrassHopper PageStream",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hamrick Software VueScan",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Inkscape",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Internet browser software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "LaTeX",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "LaserSoft Imaging SilverFast Ai Studio",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft Picture It!",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Multi-line optical character reader OCR software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Nuance OmniPage Professional",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Objectif Lune PlanetPress Suite",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Online image and graphics database software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "OpenOffice.org",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "PANTONE ColorVision ProfilerPlus",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Portable document file creation software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Potrace",
       "weight": 0.1111111111111111
     },
     {
@@ -1830,7 +2608,19 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "ProjectSend",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Raster graphics editors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scalable vector graphics SVG",
       "weight": 0.1111111111111111
     },
     {
@@ -1838,15 +2628,267 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Serif PagePlus",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Social media software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Spelling and grammar checking software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Trix TracTrix",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ulead PhotoImpact",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Vector drawing software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Virtual private networking VPN software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "WordWeb",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Xara Designer Pro",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "AABACH Graphic Systems DIGRA",
+      "weight": 0.1
+    },
+    {
+      "name": "Adobe LifeCycle Production Print ES3",
+      "weight": 0.1
+    },
+    {
+      "name": "Electronics for Imaging EFI Monarch",
+      "weight": 0.1
+    },
+    {
+      "name": "Electronics for Imaging EFI Pace",
+      "weight": 0.1
+    },
+    {
+      "name": "Enfocus PitStop Pro",
+      "weight": 0.1
+    },
+    {
       "name": "Image editing software",
       "weight": 0.1
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.1
+    },
+    {
+      "name": "Job scheduling software",
+      "weight": 0.1
+    },
+    {
+      "name": "Job tracking software",
+      "weight": 0.1
+    },
+    {
+      "name": "Printers Software Inc. Presidio",
+      "weight": 0.1
+    },
+    {
+      "name": "Printing management system software",
+      "weight": 0.1
+    },
+    {
+      "name": "Squeegee",
+      "weight": 0.1
+    },
+    {
+      "name": "Xerox FreeFlow Print Server",
+      "weight": 0.1
+    },
+    {
+      "name": "Xerox ProfitQuick",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer assisted design software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Computer-aided inspection software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Data analysis software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Data entry software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Inspection marking systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Label inspection systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Skype",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Statistical process control SPC data collection devices",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAP Maintenance",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Apple Safari",
+      "weight": 0.04
+    },
+    {
+      "name": "Apple iWork Pages",
+      "weight": 0.04
+    },
+    {
+      "name": "Aptean Made2Manage",
+      "weight": 0.04
+    },
+    {
+      "name": "Bowen & Groves M1 ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Computer aided manufacturing CAM software",
+      "weight": 0.04
+    },
+    {
+      "name": "Encompix ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vantage ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vista ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Exact MAX",
+      "weight": 0.04
+    },
+    {
+      "name": "Giraffe Production Systems Giraffe Schedule System",
+      "weight": 0.04
     },
     {
       "name": "Google Chrome",
       "weight": 0.04
     },
     {
+      "name": "Intacct ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Integrated materials management systems",
+      "weight": 0.04
+    },
+    {
+      "name": "Inventory management software",
+      "weight": 0.04
+    },
+    {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.04
+    },
+    {
+      "name": "Materials management software",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Axapta",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Total Quality Control Management",
+      "weight": 0.04
+    },
+    {
       "name": "Mozilla Firefox",
+      "weight": 0.04
+    },
+    {
+      "name": "NetSuite NetERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Operational databases",
+      "weight": 0.04
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.04
+    },
+    {
+      "name": "QA Software QMS Materials Management",
+      "weight": 0.04
+    },
+    {
+      "name": "Resource planning software",
+      "weight": 0.04
+    },
+    {
+      "name": "Retain Resource Planning",
+      "weight": 0.04
+    },
+    {
+      "name": "SAP Business One",
+      "weight": 0.04
+    },
+    {
+      "name": "SYSPRO business software",
+      "weight": 0.04
+    },
+    {
+      "name": "Spreadsheet software",
+      "weight": 0.04
+    },
+    {
+      "name": "Technology Group International Enterprise 21 ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.04
+    },
+    {
+      "name": "Total quality management TQM software",
+      "weight": 0.04
+    },
+    {
+      "name": "Work Technology WorkTech Time",
       "weight": 0.04
     }
   ],
@@ -1862,10 +2904,6 @@
     {
       "name": "Laptop computers",
       "weight": 0.6
-    },
-    {
-      "name": "Digital audio recorders",
-      "weight": 0.5
     },
     {
       "name": "Drum scanners",
@@ -1900,15 +2938,7 @@
       "weight": 0.35
     },
     {
-      "name": "Audio mixer consoles",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Digital oscilloscopes",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Digital video cameras",
       "weight": 0.3333333333333333
     },
     {
@@ -1916,31 +2946,11 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Master control switchers",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Soldering irons",
       "weight": 0.3333333333333333
     },
     {
-      "name": "Studio lighting",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Waveform monitors",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Wired microphones",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Wireless microphones",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Digital cameras",
+      "name": "Claw hammers",
       "weight": 0.26666666666666666
     },
     {
@@ -1950,6 +2960,10 @@
     {
       "name": "Universal serial bus USB flash drives",
       "weight": 0.26666666666666666
+    },
+    {
+      "name": "Band nippers",
+      "weight": 0.25
     },
     {
       "name": "Bindery stackers",
@@ -1997,6 +3011,10 @@
     },
     {
       "name": "Coil binding machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Coil crimping pliers",
       "weight": 0.25
     },
     {
@@ -2048,6 +3066,10 @@
       "weight": 0.25
     },
     {
+      "name": "Long nose pliers",
+      "weight": 0.25
+    },
+    {
       "name": "Padding presses",
       "weight": 0.25
     },
@@ -2057,6 +3079,10 @@
     },
     {
       "name": "Paper knives",
+      "weight": 0.25
+    },
+    {
+      "name": "Paper punching machines",
       "weight": 0.25
     },
     {
@@ -2073,6 +3099,10 @@
     },
     {
       "name": "Punching cradles",
+      "weight": 0.25
+    },
+    {
+      "name": "Push drills",
       "weight": 0.25
     },
     {
@@ -2128,47 +3158,15 @@
       "weight": 0.18333333333333335
     },
     {
-      "name": "1/3 octave equalizers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Amplifiers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Audio compressors",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Audio equalizers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Audio filters",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Audio patch bays",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Audio presentation systems",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Audiovisual A/V mixers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Automatic film processors",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Automatic photo printers",
+      "name": "Artists' brushes",
       "weight": 0.16666666666666666
     },
     {
       "name": "Barcode scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Batteries",
       "weight": 0.16666666666666666
     },
     {
@@ -2184,7 +3182,7 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Channel equalizers",
+      "name": "Chemical stirrers",
       "weight": 0.16666666666666666
     },
     {
@@ -2192,59 +3190,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Compact disk CD burners or players",
+      "name": "Disk storage systems",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Condenser microphones",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Contrast filters",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Digital camcorders",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Digital light meters",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Digital minilabs",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Digital samplers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Digital video disk DVD players",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Digital video disk DVD recorders",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Distortion analyzers",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Dynamic microphones",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Dynamics processors",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Electret microphones",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Electronic field production EFP cameras",
+      "name": "Drying cabinets",
       "weight": 0.16666666666666666
     },
     {
@@ -2252,7 +3202,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Frame synchronizers",
+      "name": "Flash memory data storage devices",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Flatbed scanners",
       "weight": 0.16666666666666666
     },
     {
@@ -2260,11 +3214,23 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Integrated receiver decoders IRD",
+      "name": "Hand mixers",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Leader cards",
+      "name": "Hex key sets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Infrared scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Interactive whiteboards",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Laser photo printers",
       "weight": 0.16666666666666666
     },
     {
@@ -2272,15 +3238,27 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Loudspeaker sets",
+      "name": "Man lifts",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Microphone mixers",
+      "name": "Measuring cylinders",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Microphone pre-amps",
+      "name": "Mechanical air dryers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mobile mountings",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mounting presses",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "MultiMediaCard storage devices",
       "weight": 0.16666666666666666
     },
     {
@@ -2288,23 +3266,51 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Noise reduction systems",
+      "name": "Overhead display projectors",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Non-linear editing systems",
+      "name": "Paper cutters",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Photo printers",
+      "name": "Pencil solder irons",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Roller transport film processors",
+      "name": "Polarity checkers",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Rotary drum processors",
+      "name": "Portable cranes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power drills",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power generators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Precision nut drivers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Projection screens",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Safety barriers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Secure digital (SD) cards",
       "weight": 0.16666666666666666
     },
     {
@@ -2312,15 +3318,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Sound boards",
+      "name": "Step ladders",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Sound effect generators",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Tape splicers",
+      "name": "Straight blade screwdrivers",
       "weight": 0.16666666666666666
     },
     {
@@ -2328,7 +3330,15 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Ultrasonic film splicers",
+      "name": "Torx driver sets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ultrasonic cleaners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Volt-ohm meters VOM",
       "weight": 0.16666666666666666
     },
     {
@@ -2340,8 +3350,8 @@
       "weight": 0.1511111111111111
     },
     {
-      "name": "Automated film processors",
-      "weight": 0.1111111111111111
+      "name": "Safety glasses",
+      "weight": 0.14
     },
     {
       "name": "Commercial digital plotters",
@@ -2352,15 +3362,103 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Compact disk CD duplicators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital still cameras",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital video disk DVD duplicators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Flat bed scanners",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Flexographic plate processors",
       "weight": 0.1111111111111111
+    },
+    {
+      "name": "Gravure cylinder engravers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Lithographic plate processors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Newspaper platesetters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pen tablets",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Plate stackers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scanners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Thermal platesetters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Acoustic ear muffs or defenders",
+      "weight": 0.1
+    },
+    {
+      "name": "Adjustable crescent wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Air knives",
+      "weight": 0.1
+    },
+    {
+      "name": "Allen wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Back joggers",
+      "weight": 0.1
+    },
+    {
+      "name": "Ball peen hammers",
+      "weight": 0.1
+    },
+    {
+      "name": "Chain hoists",
+      "weight": 0.1
     },
     {
       "name": "Collating equipment",
       "weight": 0.1
     },
     {
+      "name": "Color separation scanners",
+      "weight": 0.1
+    },
+    {
+      "name": "Conductivity indicators",
+      "weight": 0.1
+    },
+    {
       "name": "Cutting equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Densitometers",
       "weight": 0.1
     },
     {
@@ -2369,6 +3467,114 @@
     },
     {
       "name": "Digital letterpresses",
+      "weight": 0.1
+    },
+    {
+      "name": "Drift punches",
+      "weight": 0.1
+    },
+    {
+      "name": "Ear plugs",
+      "weight": 0.1
+    },
+    {
+      "name": "Electric lifts",
+      "weight": 0.1
+    },
+    {
+      "name": "External drum imagesetters",
+      "weight": 0.1
+    },
+    {
+      "name": "Flat-bed imagesetters",
+      "weight": 0.1
+    },
+    {
+      "name": "Flexo presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Flexographic presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Folding equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Gravure presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Grease dispensing guns",
+      "weight": 0.1
+    },
+    {
+      "name": "Grease guns",
+      "weight": 0.1
+    },
+    {
+      "name": "Handheld magnifiers",
+      "weight": 0.1
+    },
+    {
+      "name": "Hoists",
+      "weight": 0.1
+    },
+    {
+      "name": "Infrared dryers",
+      "weight": 0.1
+    },
+    {
+      "name": "Internal drum imagesetters",
+      "weight": 0.1
+    },
+    {
+      "name": "Laminators",
+      "weight": 0.1
+    },
+    {
+      "name": "Large format printers",
+      "weight": 0.1
+    },
+    {
+      "name": "Letter presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Line gauge rulers",
+      "weight": 0.1
+    },
+    {
+      "name": "Material conveyors",
+      "weight": 0.1
+    },
+    {
+      "name": "Materials conveyors",
+      "weight": 0.1
+    },
+    {
+      "name": "Multicolor presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Numbering machines",
+      "weight": 0.1
+    },
+    {
+      "name": "Offset presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Offset printing equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Offset printing plate processing equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Packing gauges",
       "weight": 0.1
     },
     {
@@ -2388,11 +3594,31 @@
       "weight": 0.1
     },
     {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.1
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Photopolymer platemaking equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Platemaking equipment",
+      "weight": 0.1
+    },
+    {
       "name": "Platen presses",
       "weight": 0.1
     },
     {
       "name": "Power paper cutters",
+      "weight": 0.1
+    },
+    {
+      "name": "Printing micrometers",
       "weight": 0.1
     },
     {
@@ -2404,12 +3630,220 @@
       "weight": 0.1
     },
     {
+      "name": "Printing stackers",
+      "weight": 0.1
+    },
+    {
+      "name": "Process cameras",
+      "weight": 0.1
+    },
+    {
+      "name": "Putty knives",
+      "weight": 0.1
+    },
+    {
+      "name": "Ratchet sets",
+      "weight": 0.1
+    },
+    {
+      "name": "Ratchets",
+      "weight": 0.1
+    },
+    {
+      "name": "Roll-fed offset presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Screen printing presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Sheet-fed presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Sheetfed presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Silk screen vacuum printer frames",
+      "weight": 0.1
+    },
+    {
+      "name": "Slotted screwdrivers",
+      "weight": 0.1
+    },
+    {
+      "name": "Stackers",
+      "weight": 0.1
+    },
+    {
+      "name": "Stapling machines",
+      "weight": 0.1
+    },
+    {
       "name": "Stitching equipment",
       "weight": 0.1
     },
     {
       "name": "Thermal book binders",
       "weight": 0.1
+    },
+    {
+      "name": "Thermal platemaking equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Torpedo levels",
+      "weight": 0.1
+    },
+    {
+      "name": "Vise grip pliers",
+      "weight": 0.1
+    },
+    {
+      "name": "Web presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Workstation platforms",
+      "weight": 0.1
+    },
+    {
+      "name": "pH indicators",
+      "weight": 0.1
+    },
+    {
+      "name": "pH testers",
+      "weight": 0.1
+    },
+    {
+      "name": "Ammeters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Beta gauges",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Calipers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Color spectrometers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Conductivity meters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Continuity testers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Depth gauges",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Digital resistance meters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Digital resistance thermometers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Direct current DC power testers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Gloss meters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hardness testers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Height gauges",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hydraulic lifts",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hydraulic pumps",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Industrial bench scales",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Laser thickness gauges",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Manufacturing defect analyzers MDA",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Measuring microscopes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Moisture meters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Multimeters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Optical gauges",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Overhead cranes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Plotters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Sorting machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Viscometers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hard hats",
+      "weight": 0.04
+    },
+    {
+      "name": "Laser scanners",
+      "weight": 0.04
+    },
+    {
+      "name": "Operator terminals",
+      "weight": 0.04
+    },
+    {
+      "name": "Personal protective clothing",
+      "weight": 0.04
+    },
+    {
+      "name": "Respirators",
+      "weight": 0.04
+    },
+    {
+      "name": "Safety shoes",
+      "weight": 0.04
     }
   ],
   "detailed_work_activities": [

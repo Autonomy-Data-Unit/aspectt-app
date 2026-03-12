@@ -1544,44 +1544,238 @@
   ],
   "tasks": [
     {
-      "task": "Wrap, weigh, label, and price cuts of meat, and record quantity of meat received and issued to cooks or keep records of meat sales.",
-      "task_type": "Core"
+      "task": "Wrap, weigh, label, and price cuts of meat.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.6
+    },
+    {
+      "task": "Sever jugular veins to drain blood and facilitate slaughtering.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.64
+    },
+    {
+      "task": "Prepare ready-to-heat foods by filleting meat or fish or cutting it into bite-sized pieces, preparing and adding vegetables or applying sauces or breading.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.24
     },
     {
       "task": "Prepare and place meat cuts and products in display counter to appear attractive and catch the shopper's eye.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.7
     },
     {
-      "task": "Cut and trim meat to prepare for packing, and use knives, cleavers, or other equipment to perform meat cutting and trimming.",
-      "task_type": "Core"
+      "task": "Cut, trim, skin, sort, and wash viscera of slaughtered animals to separate edible portions from offal.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.35
     },
     {
-      "task": "Inspect meat products for defects, bruises, or blemishes and remove them along with any excess fat.",
-      "task_type": "Core"
+      "task": "Tend assembly lines, performing a few of the many cuts needed to process a carcass.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.53
     },
     {
-      "task": "Receive, inspect, and store meat upon delivery to ensure meat quality and estimate requirements and order or requisition meat supplies to maintain inventories.",
-      "task_type": "Core"
+      "task": "Shave or singe and defeather carcasses, and wash them in preparation for further processing or packaging.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.34
     },
     {
-      "task": "Prepare special cuts of meat ordered by customers and cut, trim, bone, tie, and grind meats to prepare them in cooking form.",
-      "task_type": "Core"
+      "task": "Separate meats and byproducts into specified containers and seal containers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.25
     },
     {
-      "task": "Remove parts such as skin, feathers, scales, or bones from carcass and dress carcasses for further processing or packaging.",
-      "task_type": "Supplemental"
+      "task": "Trim, clean, or cure animal hides.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.2
     },
     {
-      "task": "Sever jugular veins to drain blood and facilitate slaughtering, and stun animals prior to slaughtering.",
-      "task_type": "Supplemental"
+      "task": "Shackle hind legs of animals to raise them for slaughtering or skinning.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.5
     },
     {
-      "task": "Cut, trim, skin, sort, wash, and eviscerate carcasses of slaughtered animals to separate edible portions from offal.",
-      "task_type": "Supplemental"
+      "task": "Skin sections of animals or whole animals.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.38
     },
     {
-      "task": "Grind meat into hamburger, produce hamburger meat and meat trimmings, and process primal parts into cuts ready for retail use.",
-      "task_type": "Supplemental"
+      "task": "Trim head meat, and sever or remove parts of animals' heads or skulls.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.3
+    },
+    {
+      "task": "Stun animals prior to slaughtering.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.42
+    },
+    {
+      "task": "Obtain and distribute specified meat or carcass.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.03
+    },
+    {
+      "task": "Record quantity of meat received and issued to cooks or keep records of meat sales.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.22
+    },
+    {
+      "task": "Remove parts, such as skin, feathers, scales or bones, from carcass.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.11
+    },
+    {
+      "task": "Use knives, cleavers, meat saws, bandsaws, or other equipment to perform meat cutting and trimming.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.6
+    },
+    {
+      "task": "Cure, smoke, tenderize, and preserve meat.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.99
+    },
+    {
+      "task": "Negotiate with representatives from supply companies to determine order details.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.93
+    },
+    {
+      "task": "Supervise other butchers or meat cutters.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.14
+    },
+    {
+      "task": "Inspect meat products for defects, bruises or blemishes and remove them along with any excess fat.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.33
+    },
+    {
+      "task": "Estimate requirements and order or requisition meat supplies to maintain inventories.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.28
+    },
+    {
+      "task": "Shape, lace, and tie roasts, using boning knife, skewer, and twine.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.88
+    },
+    {
+      "task": "Receive, inspect, and store meat upon delivery to ensure meat quality.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.46
+    },
+    {
+      "task": "Cut, trim, bone, tie, and grind meats, such as beef, pork, poultry, and fish, to prepare in cooking form.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.55
+    },
+    {
+      "task": "Prepare special cuts of meat ordered by customers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.52
+    },
+    {
+      "task": "Signal coworkers to synchronize flow of materials.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
+    },
+    {
+      "task": "Smooth out products in bins, pans, trays, or conveyors, using rakes or shovels.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.99
+    },
+    {
+      "task": "Install equipment, such as spray units, cutting blades, or screens, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.92
+    },
+    {
+      "task": "Push racks or carts to transfer products to storage, cooling stations, or the next stage of processing.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.82
+    },
+    {
+      "task": "Clear or dislodge blockages in bins, screens, or other equipment, using poles, brushes, or mallets.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.23
+    },
+    {
+      "task": "Clean equipment with steam, hot water, and hoses.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Open valves, gates, or chutes or use shovels to load or remove products from ovens or other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.08
+    },
+    {
+      "task": "Fill or remove product from trays, carts, hoppers, or equipment, using scoops, peels, or shovels, or by hand.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.92
+    },
+    {
+      "task": "Take product samples during or after processing for laboratory analyses.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.58
+    },
+    {
+      "task": "Observe flow of materials and listen for machine malfunctions, such as jamming or spillage, and notify supervisors if corrective actions fail.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.36
+    },
+    {
+      "task": "Observe temperature, humidity, pressure gauges, and product samples and adjust controls, such as thermostats and valves, to maintain prescribed operating conditions for specific stages.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.36
+    },
+    {
+      "task": "Observe, feel, taste, or otherwise examine products during and after processing to ensure conformance to standards.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.58
+    },
+    {
+      "task": "Record production data, such as weight and amount of product processed, type of product, and time and temperature of processing.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.34
     }
   ],
   "technology_skills": [
@@ -1598,7 +1792,15 @@
       "weight": 0.5
     },
     {
+      "name": "AccountMate Software AccountMate",
+      "weight": 0.25
+    },
+    {
       "name": "AgInfoLink Meat Inventory Tracking System MITS",
+      "weight": 0.25
+    },
+    {
+      "name": "Financial accounting software",
       "weight": 0.25
     },
     {
@@ -1626,6 +1828,10 @@
       "weight": 0.25
     },
     {
+      "name": "Sales software",
+      "weight": 0.25
+    },
+    {
       "name": "Second Foundation NaviMeat",
       "weight": 0.25
     },
@@ -1649,6 +1855,10 @@
     },
     {
       "name": "Meat cleavers",
+      "weight": 0.75
+    },
+    {
+      "name": "Personal computers",
       "weight": 0.75
     },
     {
@@ -1692,7 +1902,15 @@
       "weight": 0.5
     },
     {
+      "name": "Air knives",
+      "weight": 0.25
+    },
+    {
       "name": "Auto feed grinders",
+      "weight": 0.25
+    },
+    {
+      "name": "Balers",
       "weight": 0.25
     },
     {
@@ -1744,6 +1962,22 @@
       "weight": 0.25
     },
     {
+      "name": "Chop cutting machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Dehairing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Derinding machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Dicers",
+      "weight": 0.25
+    },
+    {
       "name": "Electric meat grinders",
       "weight": 0.25
     },
@@ -1757,6 +1991,10 @@
     },
     {
       "name": "Fish skinners",
+      "weight": 0.25
+    },
+    {
+      "name": "Floor jacks",
       "weight": 0.25
     },
     {
@@ -1788,11 +2026,19 @@
       "weight": 0.25
     },
     {
+      "name": "Gamb sticks",
+      "weight": 0.25
+    },
+    {
       "name": "Hamburger patty makers",
       "weight": 0.25
     },
     {
       "name": "Hamburger presses",
+      "weight": 0.25
+    },
+    {
+      "name": "Hand blenders",
       "weight": 0.25
     },
     {
@@ -1820,11 +2066,35 @@
       "weight": 0.25
     },
     {
+      "name": "Machine rollers",
+      "weight": 0.25
+    },
+    {
+      "name": "Manual winches",
+      "weight": 0.25
+    },
+    {
+      "name": "Material conveyors",
+      "weight": 0.25
+    },
+    {
+      "name": "Materials conveyors",
+      "weight": 0.25
+    },
+    {
+      "name": "Meat compactors",
+      "weight": 0.25
+    },
+    {
       "name": "Meat cubers",
       "weight": 0.25
     },
     {
       "name": "Meat cutting band saws",
+      "weight": 0.25
+    },
+    {
+      "name": "Meat dehydrators",
       "weight": 0.25
     },
     {
@@ -1860,11 +2130,23 @@
       "weight": 0.25
     },
     {
+      "name": "Meatball molders",
+      "weight": 0.25
+    },
+    {
       "name": "Mincing machines",
       "weight": 0.25
     },
     {
       "name": "Motorized saws",
+      "weight": 0.25
+    },
+    {
+      "name": "Needle machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Net applicators",
       "weight": 0.25
     },
     {
@@ -1880,11 +2162,47 @@
       "weight": 0.25
     },
     {
+      "name": "Pneumatic staple guns",
+      "weight": 0.25
+    },
+    {
       "name": "Poultry shears",
       "weight": 0.25
     },
     {
+      "name": "Power staple guns",
+      "weight": 0.25
+    },
+    {
+      "name": "Pressing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Pressure washers",
+      "weight": 0.25
+    },
+    {
       "name": "Pricing guns",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective ear muffs",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective ear plugs",
+      "weight": 0.25
+    },
+    {
+      "name": "Radio frequency identification RFID devices",
+      "weight": 0.25
+    },
+    {
+      "name": "Rotary cleaning brushes",
+      "weight": 0.25
+    },
+    {
+      "name": "Rotisserie ovens",
       "weight": 0.25
     },
     {
@@ -1893,6 +2211,14 @@
     },
     {
       "name": "Sharpening steels",
+      "weight": 0.25
+    },
+    {
+      "name": "Shoulder tattooers",
+      "weight": 0.25
+    },
+    {
+      "name": "Shredding machines",
       "weight": 0.25
     },
     {
@@ -1916,7 +2242,19 @@
       "weight": 0.25
     },
     {
+      "name": "Specific gravity fat analyzers",
+      "weight": 0.25
+    },
+    {
       "name": "Steak patty machines",
+      "weight": 0.25
+    },
+    {
+      "name": "T-handle boning hooks",
+      "weight": 0.25
+    },
+    {
+      "name": "Touch screen computers",
       "weight": 0.25
     },
     {
@@ -1926,6 +2264,126 @@
     {
       "name": "Vacuum package machines",
       "weight": 0.25
+    },
+    {
+      "name": "Whizzard knives",
+      "weight": 0.25
+    },
+    {
+      "name": "Automatic hopper scales",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Conveyor dryers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Conveyor turntables",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cooling machine pans",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Curing equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Equipment pressure gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Equipment temperature gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Food drying equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Food handling shovels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Food storage bins",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Forced-air food dryers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Gas furnaces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld dataloggers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Heat exchanger conversion kits",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Heat exchanger systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hot air blowers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Humidification systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Humidity sensors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Machine temperature controls",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Material moving carts",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Melting tanks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Moisture meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oil furnaces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Photospectrometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rack loaders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Remote thermometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Roasting equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Scale conveyors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vacuum food drying equipment",
+      "weight": 0.16666666666666666
     }
   ],
   "detailed_work_activities": [

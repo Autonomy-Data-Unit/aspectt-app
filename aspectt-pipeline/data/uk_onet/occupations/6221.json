@@ -1545,7 +1545,291 @@
   "tasks": [
     {
       "task": "Stay informed of the latest styles and hair care techniques.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.78
+    },
+    {
+      "task": "Clean and sterilize scissors, combs, clippers, and other instruments.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.93
+    },
+    {
+      "task": "Drape and pin protective cloths around customers' shoulders.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.92
+    },
+    {
+      "task": "Question patrons regarding desired services and haircut styles.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.8
+    },
+    {
+      "task": "Clean work stations and sweep floors.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.73
+    },
+    {
+      "task": "Record services provided on cashiers' tickets or receive payment from customers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.21
+    },
+    {
+      "task": "Suggest treatments to alleviate hair problems.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.72
+    },
+    {
+      "task": "Perform clerical and administrative duties such as keeping records, paying bills, and hiring and supervising personnel.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.13
+    },
+    {
+      "task": "Curl, color, or straighten hair, using special chemical solutions and equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.97
+    },
+    {
+      "task": "Provide skin care and nail treatments.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.27
+    },
+    {
+      "task": "Cut, trim and shape hair or hairpieces, based on customers' instructions, hair type, and facial features, using clippers, scissors, trimmers and razors.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.49
+    },
+    {
+      "task": "Order, display, and maintain supplies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.19
+    },
+    {
+      "task": "Attach wigs or hairpieces to model heads and dress wigs and hairpieces according to instructions, samples, sketches or photographs.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.81
+    },
+    {
+      "task": "Comb, brush, and spray hair or wigs to set style.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.15
+    },
+    {
+      "task": "Analyze patrons' hair and other physical features to determine and recommend beauty treatment or suggest hair styles.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.39
+    },
+    {
+      "task": "Bleach, dye, or tint hair, using applicator or brush.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.58
+    },
+    {
+      "task": "Update and maintain customer information records, such as beauty services provided.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.45
+    },
+    {
+      "task": "Shampoo, rinse, condition, and dry hair and scalp or hairpieces with water, liquid soap, or other solutions.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.34
+    },
+    {
+      "task": "Develop new styles and techniques.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.13
+    },
+    {
+      "task": "Apply water or setting, straightening or waving solutions to hair, and use curlers, rollers, hot combs and curling irons to press and curl hair.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.1
+    },
+    {
+      "task": "Demonstrate and sell hair care products and cosmetics.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.43
+    },
+    {
+      "task": "Shape eyebrows and remove facial hair, using depilatory cream, tweezers, electrolysis or wax.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.87
+    },
+    {
+      "task": "Massage and treat scalp for hygienic and remedial purposes, using hands, fingers, or vibrating equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.35
+    },
+    {
+      "task": "Shave, trim, and shape beards and moustaches.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.73
+    },
+    {
+      "task": "Schedule client appointments.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.47
+    },
+    {
+      "task": "Provide staff with assistance in performing difficult or complicated duties.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Investigate employee complaints and resolve problems following management rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.13
+    },
+    {
+      "task": "Arrange worker breaks to ensure services are adequately staffed throughout each shift.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.94
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as hotel staff or hair stylists.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.05
+    },
+    {
+      "task": "Inform management about problems, such as employee disputes.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.97
+    },
+    {
+      "task": "Take disciplinary action to address performance problems.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.23
+    },
+    {
+      "task": "Requisition necessary supplies, equipment, or services.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.71
+    },
+    {
+      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.36
+    },
+    {
+      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.14
+    },
+    {
+      "task": "Train workers in proper operational procedures and functions and explain company policies.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.55
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.41
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.79
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.3
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.11
+    },
+    {
+      "task": "Recruit and hire staff members.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.32
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.01
+    },
+    {
+      "task": "Direct marketing, advertising, or other customer recruitment efforts.",
+      "task_type": "Supplemental",
+      "relevance": 0.03571428571428571,
+      "importance": 3.41
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.93
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, work methods, or customer services.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1578,6 +1862,14 @@
       "weight": 0.75
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.5865800865800865
+    },
+    {
+      "name": "Linux",
+      "weight": 0.5
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.5
     },
@@ -1586,8 +1878,20 @@
       "weight": 0.5
     },
     {
+      "name": "Apple iOS",
+      "weight": 0.25
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.25
+    },
+    {
       "name": "Sale processing software",
       "weight": 0.25
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.08658008658008658
     },
     {
       "name": "Microsoft Outlook",
@@ -1610,12 +1914,24 @@
       "weight": 0.08658008658008658
     },
     {
-      "name": "Scheduling software",
+      "name": "Enterprise resource planning ERP software",
       "weight": 0.015151515151515152
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.5865800865800865
+      "name": "General ledger software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [

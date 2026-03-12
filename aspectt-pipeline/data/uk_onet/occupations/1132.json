@@ -1544,104 +1544,640 @@
   ],
   "tasks": [
     {
-      "task": "Develop advertising and promotional materials to increase sales of products or services, working with clients, company officials, and sales departments.",
-      "task_type": "Core"
+      "task": "Make presentations at professional meetings to further knowledge in the field.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.24
     },
     {
-      "task": "Plan and execute advertising policies and marketing strategies to promote products or services, coordinating with relevant teams and organizations.",
-      "task_type": "Core"
+      "task": "Prepare and administer budgets, approve and review expenditures, and prepare financial reports.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.54
     },
     {
-      "task": "Analyze marketing trends and sales statistics to forecast future conditions and monitor customer preferences.",
-      "task_type": "Core"
+      "task": "Confer with management, production, or marketing staff to discuss project specifications or procedures.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.41
     },
     {
-      "task": "Coordinate activities of departments such as sales, graphic arts, media, and research to ensure cohesive marketing efforts.",
-      "task_type": "Core"
+      "task": "Develop or implement programs to improve sustainability or reduce the environmental impacts of engineering or architecture activities or operations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.1
     },
     {
-      "task": "Monitor and analyze sales promotion results to determine the cost-effectiveness of promotion campaigns and improve strategies.",
-      "task_type": "Core"
+      "task": "Evaluate environmental regulations or social pressures related to environmental issues to inform strategic or operational decision-making.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.91
     },
     {
-      "task": "Develop comprehensive marketing strategies based on knowledge of products, technologies, markets, and customer needs.",
-      "task_type": "Core"
+      "task": "Identify environmental threats or opportunities associated with the development and launch of new technologies.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.26
     },
     {
-      "task": "Formulate price schedules and discount rates while ensuring customer satisfaction to maximize profits and market share.",
-      "task_type": "Core"
+      "task": "Assess project feasibility by analyzing technology, resource needs, or market demand.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.4
     },
     {
-      "task": "Resolve customer complaints regarding sales and service while maintaining good relationships.",
-      "task_type": "Core"
+      "task": "Perform administrative functions, such as reviewing or writing reports, approving expenditures, enforcing rules, or purchasing of materials or services.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.14
     },
     {
-      "task": "Direct and coordinate activities related to the sales of products or services, ensuring effective sales accounting and record-keeping.",
-      "task_type": "Core"
+      "task": "Solicit project support by conferring with officials or providing information to the public.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.86
     },
     {
-      "task": "Conduct research on consumer opinions and buying habits to identify target audiences for products or services.",
-      "task_type": "Core"
+      "task": "Plan, direct, or coordinate survey work with other project activities.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.15
     },
     {
-      "task": "Confer with department heads to plan advertising services and secure information on equipment and customer specifications.",
-      "task_type": "Core"
+      "task": "Present and explain proposals, reports, or findings to clients.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.46
     },
     {
-      "task": "Advise dealers and distributors on policies and procedures to ensure business effectiveness.",
-      "task_type": "Core"
+      "task": "Consult or negotiate with clients to prepare project specifications.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.84
     },
     {
-      "task": "Represent the company at trade association meetings to promote products and engage with potential customers.",
-      "task_type": "Core"
+      "task": "Develop client relationships and communicate with clients to explain proposals, present research findings, establish specifications, or discuss project status.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.97
+    },
+    {
+      "task": "Plan or direct research, development, or production activities.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.21
+    },
+    {
+      "task": "Prepare project proposals.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.86
+    },
+    {
+      "task": "Design or coordinate successive phases of problem analysis, solution proposals, or testing.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.23
+    },
+    {
+      "task": "Review project activities and prepare and review research, testing, or operational reports.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.09
+    },
+    {
+      "task": "Hire, supervise, or evaluate engineers, technicians, researchers, or other staff.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.31
+    },
+    {
+      "task": "Develop innovative technology or train staff for its implementation.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.3
+    },
+    {
+      "task": "Conduct own research in field of expertise.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.53
+    },
+    {
+      "task": "Recruit personnel or oversee the development or maintenance of staff competence.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.57
+    },
+    {
+      "task": "Confer with scientists, engineers, regulators, or others to plan or review projects or to provide technical assistance.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.03
+    },
+    {
+      "task": "Analyze marketing or sales trends to forecast future conditions.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze the effectiveness of marketing tactics or channels.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Attend or participate in conferences, community events, and promotional events related to products or technologies.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Conduct research on consumer opinions and buying habits, and identify target audiences for products, services, or technologies.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Coordinate with marketing team members, graphic artists, and other workers to develop and implement marketing programs.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop communications materials, advertisements, presentations, or public relations initiatives to promote awareness of products and services.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop comprehensive marketing strategies, using knowledge of products and technologies, markets, and regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Devise or evaluate methods and procedures for collecting data, such as surveys, opinion polls, and questionnaires.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Maintain portfolios of marketing campaigns, strategies, and other marketing products or ideas.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Track program budgets, expenses, and campaign response rates to evaluate each campaign, based on program objectives and industry norms.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.54
+    },
+    {
+      "task": "Direct and coordinate product research and development.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.35
+    },
+    {
+      "task": "Plan and prepare advertising and promotional material to increase sales of products or services, working with customers, company officials, sales departments, and advertising agencies.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.13
+    },
+    {
+      "task": "Direct, motivate, and monitor the mobilization of a campaign team to advance campaign goals.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.81
+    },
+    {
+      "task": "Provide presentation and product demonstration support during the introduction of new products and services to field staff and customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.5
+    },
+    {
+      "task": "Formulate plans to extend business with established accounts and to transact business as agent for advertising accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.68
+    },
+    {
+      "task": "Read trade journals and professional literature to stay informed on trends, innovations, and changes that affect media planning.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.25
+    },
+    {
+      "task": "Monitor and analyze sales promotion results to determine cost effectiveness of promotion campaigns.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.59
+    },
+    {
+      "task": "Confer with department heads or staff to discuss topics such as contracts, selection of advertising media, or product to be advertised.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.9
+    },
+    {
+      "task": "Identify and develop contacts for promotional campaigns and industry programs that meet identified buyer targets, such as dealers, distributors, or consumers.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.55
+    },
+    {
+      "task": "Prepare and negotiate advertising and sales contracts.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.81
+    },
+    {
+      "task": "Coordinate activities of departments, such as sales, graphic arts, media, finance, and research.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.84
+    },
+    {
+      "task": "Inspect layouts and advertising copy, and edit scripts, audio, video, and other promotional material for adherence to specifications.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.07
+    },
+    {
+      "task": "Assemble and communicate with a strong, diverse coalition of organizations or public figures, securing their cooperation, support, and action, to further campaign goals.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.61
+    },
+    {
+      "task": "Train and direct workers engaged in developing and producing advertisements.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.62
+    },
+    {
+      "task": "Coordinate with the media to disseminate advertising.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.87
+    },
+    {
+      "task": "Contact organizations to explain services and facilities offered.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.61
+    },
+    {
+      "task": "Manage sales team, including setting goals, providing incentives, and evaluating employee performance.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.89
+    },
+    {
+      "task": "Represent company at trade association meetings to promote products.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.43
+    },
+    {
+      "task": "Recommend modifications to products, packaging, production processes, or other characteristics to improve the environmental soundness or sustainability of products.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.12
+    },
+    {
+      "task": "Formulate, direct, or coordinate marketing activities or policies to promote products or services, working with advertising or promotion managers.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.24
+    },
+    {
+      "task": "Consult with buying personnel to gain advice regarding environmentally sound or sustainable products.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.41
+    },
+    {
+      "task": "Develop business cases for environmental marketing strategies.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.68
+    },
+    {
+      "task": "Integrate environmental information into product or company marketing strategies, policies, or activities.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.59
+    },
+    {
+      "task": "Resolve customer complaints regarding sales and service.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.35
+    },
+    {
+      "task": "Monitor customer preferences to determine focus of sales efforts.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.29
+    },
+    {
+      "task": "Assess marketing potential of new and existing store locations, considering statistics and expenditures.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.23
+    },
+    {
+      "task": "Conduct economic or commercial surveys to identify potential markets for products or services.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.17
+    },
+    {
+      "task": "Direct and coordinate activities involving sales of manufactured products, services, commodities, real estate, or other subjects of sale.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.0
+    },
+    {
+      "task": "Determine price schedules and discount rates.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.95
+    },
+    {
+      "task": "Review operational records and reports to project sales and determine profitability.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.21
+    },
+    {
+      "task": "Direct, coordinate, and review sales and service accounting and record-keeping, as well as receiving and shipping.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.06
+    },
+    {
+      "task": "Confer or consult with department heads to plan advertising services and to secure information on equipment and customer specifications.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.53
+    },
+    {
+      "task": "Advise dealers and distributors on policies and operating procedures to ensure functional effectiveness of business.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.25
     },
     {
       "task": "Plan and direct staffing, training, and performance evaluations to develop and control sales and service programs.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.19
     },
     {
-      "task": "Oversee regional and local sales managers and their teams to ensure effective sales operations.",
-      "task_type": "Core"
+      "task": "Visit franchised dealers to stimulate interest in establishment or expansion of leasing programs.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.5
     },
     {
-      "task": "Prepare budgets and evaluate financial aspects of product development, including expenditures and return-on-investment projections.",
-      "task_type": "Core"
+      "task": "Confer with potential customers regarding equipment needs, and advise customers on types of equipment to purchase.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.24
     },
     {
-      "task": "Develop pricing strategies that maximize profits while ensuring customer satisfaction.",
-      "task_type": "Core"
+      "task": "Oversee regional and local sales managers and their staffs.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.65
     },
     {
-      "task": "Initiate market research studies or analyze their findings to develop or evaluate marketing strategies.",
-      "task_type": "Core"
+      "task": "Direct clerical staff to keep records of export correspondence, bid requests, and credit collections, and to maintain current information on tariffs, licenses, and restrictions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.0
     },
     {
-      "task": "Coordinate promotional activities and participate in trade shows to market products or services alongside developers and advertisers.",
-      "task_type": "Core"
+      "task": "Direct foreign sales and service outlets of an organization.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.92
     },
     {
-      "task": "Consult with product development personnel on product specifications to align marketing strategies with product offerings.",
-      "task_type": "Core"
+      "task": "Prepare budgets and approve budget expenditures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.7
     },
     {
-      "task": "Negotiate contracts with vendors or distributors to establish and manage distribution networks successfully.",
-      "task_type": "Core"
+      "task": "Develop pricing strategies, balancing firm objectives and customer satisfaction.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.87
+    },
+    {
+      "task": "Use sales forecasting or strategic planning to ensure the sale and profitability of products, lines, or services, analyzing business developments and monitoring market trends.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.56
+    },
+    {
+      "task": "Consult with buying personnel to gain advice regarding the types of products or services expected to be in demand.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.41
+    },
+    {
+      "task": "Identify, develop, or evaluate marketing strategy, based on knowledge of establishment objectives, market characteristics, and cost and markup factors.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.3
+    },
+    {
+      "task": "Initiate market research studies, or analyze their findings.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.4
+    },
+    {
+      "task": "Advise business or other groups on local, national, or international factors affecting the buying or selling of products or services.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.06
+    },
+    {
+      "task": "Confer with legal staff to resolve problems, such as copyright infringement or royalty sharing with outside producers or distributors.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.14
+    },
+    {
+      "task": "Select products or accessories to be displayed at trade or special production shows.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.7
+    },
+    {
+      "task": "Coordinate or participate in promotional activities or trade shows, working with developers, advertisers, or production managers, to market products or services.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.41
+    },
+    {
+      "task": "Compile lists describing product or service offerings.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.7
+    },
+    {
+      "task": "Consult with product development personnel on product specifications, such as design, color, or packaging.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.65
+    },
+    {
+      "task": "Negotiate contracts with vendors or distributors to manage product distribution, establishing distribution networks or developing distribution strategies.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.53
     },
     {
       "task": "Direct the hiring, training, or performance evaluations of marketing or sales staff and oversee their daily activities.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.66
     },
     {
-      "task": "Compile or develop materials about product or service offerings for marketing purposes.",
-      "task_type": "Core"
+      "task": "Evaluate the financial aspects of product development, such as budgets, expenditures, research and development appropriations, or return-on-investment and profit-loss projections.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.99
     },
     {
-      "task": "Contact corporate representatives, government officials, or community leaders to increase awareness of organizational needs and activities.",
-      "task_type": "Core"
+      "task": "Design and edit promotional publications, such as brochures.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.01
     },
     {
-      "task": "Write effective press releases and prepare information for media kits, maintaining the company’s online presence.",
-      "task_type": "Unclassified"
+      "task": "Produce films and other video products, regulate their distribution, and operate film library.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 2.98
+    },
+    {
+      "task": "Respond to requests for information about employers' activities or status.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Observe and report on social, economic, and political trends that might affect employers.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Assign, supervise, and review the activities of public relations staff.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with labor relations managers to develop internal communications that keep employees informed of company activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop and maintain the company's corporate image and identity, which includes the use of logos and signage.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop, implement, or maintain crisis communication plans.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct activities of external agencies, establishments, or departments that develop and implement communication strategies and information programs.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Draft speeches for company executives and arrange interviews and other forms of contact for them.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Establish and maintain effective working relationships with clients, government officials, and media representatives and use these relationships to develop new business opportunities.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Evaluate advertising and promotion programs for compatibility with public relations efforts.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Facilitate consumer relations or the relationship between parts of the company, such as the managers and employees, or different branch offices.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Formulate policies and procedures related to public information programs, working with public relations executives.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Identify main client groups and audiences, determine the best way to communicate publicity information to them, and develop and implement a communication plan.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Maintain company archives.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Manage communications budgets.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Manage in-house communication courses.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Manage special events, such as sponsorship of races, parties introducing new products, or other activities the firm supports, to gain public attention through the media without advertising directly.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Write interesting and effective press releases, prepare information for media kits, and develop and maintain company internet or intranet Web pages.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.5
     }
   ],
   "technology_skills": [
@@ -1670,7 +2206,55 @@
       "weight": 1.603846153846154
     },
     {
+      "name": "Microsoft Project",
+      "weight": 1.603846153846154
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 1.353846153846154
+    },
+    {
+      "name": "SAP software",
+      "weight": 1.2
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 1.103846153846154
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 1.0
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 1.0
+    },
+    {
+      "name": "R",
+      "weight": 1.0
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 1.0
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.95
+    },
+    {
+      "name": "Python",
+      "weight": 0.875
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 0.875
+    },
+    {
       "name": "Adobe Acrobat",
+      "weight": 0.8538461538461539
+    },
+    {
+      "name": "Microsoft SharePoint",
       "weight": 0.8538461538461539
     },
     {
@@ -1678,12 +2262,64 @@
       "weight": 0.825
     },
     {
+      "name": "ESRI ArcGIS software",
+      "weight": 0.75
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.75
+    },
+    {
+      "name": "SAS",
+      "weight": 0.75
+    },
+    {
       "name": "Word processing software",
       "weight": 0.75
     },
     {
+      "name": "Adobe Illustrator",
+      "weight": 0.7288461538461539
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.7288461538461539
+    },
+    {
       "name": "Database software",
       "weight": 0.7
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.6538461538461539
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.6538461538461539
+    },
+    {
+      "name": "MicroStrategy",
+      "weight": 0.6538461538461539
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.6538461538461539
+    },
+    {
+      "name": "Geographic information system GIS software",
+      "weight": 0.625
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.625
+    },
+    {
+      "name": "StataCorp Stata",
+      "weight": 0.625
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.6038461538461539
     },
     {
       "name": "Facebook",
@@ -1702,11 +2338,23 @@
       "weight": 0.6038461538461539
     },
     {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.6038461538461539
+    },
+    {
       "name": "LinkedIn",
       "weight": 0.6038461538461539
     },
     {
       "name": "Marketo Marketing Automation",
+      "weight": 0.6038461538461539
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.6038461538461539
+    },
+    {
+      "name": "Oracle Eloqua",
       "weight": 0.6038461538461539
     },
     {
@@ -1718,8 +2366,88 @@
       "weight": 0.6038461538461539
     },
     {
+      "name": "Extensible markup language XML",
+      "weight": 0.575
+    },
+    {
+      "name": "JavaScript",
+      "weight": 0.575
+    },
+    {
+      "name": "Fund accounting software",
+      "weight": 0.5288461538461539
+    },
+    {
+      "name": "ESRI ArcView",
+      "weight": 0.5
+    },
+    {
       "name": "Google Meet",
       "weight": 0.5
+    },
+    {
+      "name": "Linux",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Azure software",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.5
+    },
+    {
+      "name": "National Instruments LabVIEW",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle Java",
+      "weight": 0.5
+    },
+    {
+      "name": "Perl",
+      "weight": 0.5
+    },
+    {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.5
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.5
+    },
+    {
+      "name": "Splunk Enterprise",
+      "weight": 0.5
+    },
+    {
+      "name": "UNIX",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe After Effects",
+      "weight": 0.47884615384615387
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.47884615384615387
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.47884615384615387
+    },
+    {
+      "name": "Apple Final Cut Pro",
+      "weight": 0.47884615384615387
+    },
+    {
+      "name": "Drupal",
+      "weight": 0.47884615384615387
     },
     {
       "name": "Customer relationship management CRM software",
@@ -1730,6 +2458,22 @@
       "weight": 0.45
     },
     {
+      "name": "Structure query language SQL",
+      "weight": 0.45
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.45
+    },
+    {
+      "name": "Airtable",
+      "weight": 0.40384615384615385
+    },
+    {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.40384615384615385
+    },
+    {
       "name": "Google Docs",
       "weight": 0.40384615384615385
     },
@@ -1738,7 +2482,15 @@
       "weight": 0.40384615384615385
     },
     {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.40384615384615385
+    },
+    {
       "name": "Project management software",
+      "weight": 0.40384615384615385
+    },
+    {
+      "name": "SmugMug Flickr",
       "weight": 0.40384615384615385
     },
     {
@@ -1746,15 +2498,495 @@
       "weight": 0.40384615384615385
     },
     {
+      "name": "Yardi software",
+      "weight": 0.40384615384615385
+    },
+    {
+      "name": "WordPress",
+      "weight": 0.40192307692307694
+    },
+    {
+      "name": "Amazon Redshift",
+      "weight": 0.375
+    },
+    {
+      "name": "Amazon Web Services AWS software",
+      "weight": 0.375
+    },
+    {
+      "name": "Apache Cassandra",
+      "weight": 0.375
+    },
+    {
+      "name": "Apache Hadoop",
+      "weight": 0.375
+    },
+    {
+      "name": "Apache Hive",
+      "weight": 0.375
+    },
+    {
+      "name": "Apache Pig",
+      "weight": 0.375
+    },
+    {
+      "name": "Apache Solr",
+      "weight": 0.375
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.375
+    },
+    {
       "name": "Atlassian Confluence",
       "weight": 0.375
+    },
+    {
+      "name": "Atlassian JIRA",
+      "weight": 0.375
+    },
+    {
+      "name": "C",
+      "weight": 0.375
+    },
+    {
+      "name": "Citrix cloud computing software",
+      "weight": 0.375
+    },
+    {
+      "name": "Elasticsearch",
+      "weight": 0.375
+    },
+    {
+      "name": "GitHub",
+      "weight": 0.375
+    },
+    {
+      "name": "LAMP Stack",
+      "weight": 0.375
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.375
+    },
+    {
+      "name": "MySQL",
+      "weight": 0.375
+    },
+    {
+      "name": "NoSQL",
+      "weight": 0.375
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.375
+    },
+    {
+      "name": "PHP",
+      "weight": 0.375
+    },
+    {
+      "name": "Ruby",
+      "weight": 0.375
+    },
+    {
+      "name": "Ruby on Rails",
+      "weight": 0.375
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.375
+    },
+    {
+      "name": "Swift",
+      "weight": 0.375
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "Apple iMovie",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "Adobe Acrobat Reader",
+      "weight": 0.325
+    },
+    {
+      "name": "Constant Contact",
+      "weight": 0.325
     },
     {
       "name": "Instagram",
       "weight": 0.325
     },
     {
+      "name": "MarketSharp",
+      "weight": 0.325
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 0.325
+    },
+    {
+      "name": "Flipgrid",
+      "weight": 0.27884615384615385
+    },
+    {
+      "name": "Human resource management software HRMS",
+      "weight": 0.27884615384615385
+    },
+    {
+      "name": "Mentimeter",
+      "weight": 0.27884615384615385
+    },
+    {
+      "name": "Oracle Siebel Server Sync",
+      "weight": 0.27884615384615385
+    },
+    {
+      "name": "Slack",
+      "weight": 0.27884615384615385
+    },
+    {
+      "name": "WeVideo",
+      "weight": 0.27884615384615385
+    },
+    {
+      "name": "Ab Initio",
+      "weight": 0.25
+    },
+    {
+      "name": "Adobe Acrobat Pro Extended",
+      "weight": 0.25
+    },
+    {
+      "name": "Adobe ActionScript",
+      "weight": 0.25
+    },
+    {
+      "name": "Adobe LifeCycle ES",
+      "weight": 0.25
+    },
+    {
+      "name": "Agile Product Lifecyle Management PLM",
+      "weight": 0.25
+    },
+    {
+      "name": "Amazon DynamoDB",
+      "weight": 0.25
+    },
+    {
+      "name": "Amazon Elastic Compute Cloud EC2",
+      "weight": 0.25
+    },
+    {
+      "name": "Ansible software",
+      "weight": 0.25
+    },
+    {
+      "name": "Apache Groovy",
+      "weight": 0.25
+    },
+    {
+      "name": "Apache Kafka",
+      "weight": 0.25
+    },
+    {
+      "name": "Apache Maven",
+      "weight": 0.25
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.25
+    },
+    {
+      "name": "Aptean Made2Manage",
+      "weight": 0.25
+    },
+    {
+      "name": "Backbone.js",
+      "weight": 0.25
+    },
+    {
+      "name": "Bash",
+      "weight": 0.25
+    },
+    {
+      "name": "Budgeting software",
+      "weight": 0.25
+    },
+    {
+      "name": "C#",
+      "weight": 0.25
+    },
+    {
+      "name": "C++",
+      "weight": 0.25
+    },
+    {
+      "name": "Chef",
+      "weight": 0.25
+    },
+    {
+      "name": "Cisco IOS",
+      "weight": 0.25
+    },
+    {
+      "name": "Customer information control system CICS",
+      "weight": 0.25
+    },
+    {
+      "name": "DZS Software Solutions ClinPlus",
+      "weight": 0.25
+    },
+    {
+      "name": "Django",
+      "weight": 0.25
+    },
+    {
+      "name": "Docker",
+      "weight": 0.25
+    },
+    {
+      "name": "Drawing and drafting software",
+      "weight": 0.25
+    },
+    {
+      "name": "Dropbox",
+      "weight": 0.25
+    },
+    {
+      "name": "ESRI ArcGIS Spatial Analyst",
+      "weight": 0.25
+    },
+    {
+      "name": "ESRI ArcInfo",
+      "weight": 0.25
+    },
+    {
+      "name": "ESRI ArcPad",
+      "weight": 0.25
+    },
+    {
+      "name": "ESRI ArcView 3D Analyst",
+      "weight": 0.25
+    },
+    {
+      "name": "Eko",
+      "weight": 0.25
+    },
+    {
+      "name": "FishXing",
+      "weight": 0.25
+    },
+    {
+      "name": "Geographic information system GIS systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Git",
+      "weight": 0.25
+    },
+    {
+      "name": "Global positioning system GPS software",
+      "weight": 0.25
+    },
+    {
+      "name": "Go",
+      "weight": 0.25
+    },
+    {
+      "name": "Google Earth Pro",
+      "weight": 0.25
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.25
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Power Systems software",
+      "weight": 0.25
+    },
+    {
+      "name": "InforSense InforSense",
+      "weight": 0.25
+    },
+    {
+      "name": "Integrated development environment IDE software",
+      "weight": 0.25
+    },
+    {
+      "name": "Inventory management software",
+      "weight": 0.25
+    },
+    {
+      "name": "Invivo Data EPX ePRO Management System",
+      "weight": 0.25
+    },
+    {
+      "name": "JavaScript Object Notation JSON",
+      "weight": 0.25
+    },
+    {
+      "name": "KIKA Veracity",
+      "weight": 0.25
+    },
+    {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.25
+    },
+    {
+      "name": "LSA Visual Easy Lean",
+      "weight": 0.25
+    },
+    {
+      "name": "LexisNexis",
+      "weight": 0.25
+    },
+    {
+      "name": "LogMeIn GoToMeeting",
+      "weight": 0.25
+    },
+    {
+      "name": "Maintenance scheduling software",
+      "weight": 0.25
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.25
+    },
+    {
+      "name": "McAfee",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Dynamics NAV",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Great Plains Personal Data Keeper",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft SQL Server Integration Services SSIS",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft SQL Server Reporting Services SSRS",
+      "weight": 0.25
+    },
+    {
       "name": "Microsoft Teams",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
+      "weight": 0.25
+    },
+    {
+      "name": "MongoDB",
+      "weight": 0.25
+    },
+    {
+      "name": "Nagios",
+      "weight": 0.25
+    },
+    {
+      "name": "NetSuite ERP",
+      "weight": 0.25
+    },
+    {
+      "name": "Node.js",
+      "weight": 0.25
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.25
+    },
+    {
+      "name": "Online data collection systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Fusion Applications",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Solaris",
+      "weight": 0.25
+    },
+    {
+      "name": "PercipEnz Technologies OnCore-Clinical Research Management OnCore-CRM",
+      "weight": 0.25
+    },
+    {
+      "name": "Perforce Helix software",
+      "weight": 0.25
+    },
+    {
+      "name": "PostgreSQL",
+      "weight": 0.25
+    },
+    {
+      "name": "Puppet",
+      "weight": 0.25
+    },
+    {
+      "name": "Qualitative analysis software",
+      "weight": 0.25
+    },
+    {
+      "name": "RIVERMorph",
+      "weight": 0.25
+    },
+    {
+      "name": "RTA Fleet Management",
+      "weight": 0.25
+    },
+    {
+      "name": "React",
+      "weight": 0.25
+    },
+    {
+      "name": "Realization Streamliner",
+      "weight": 0.25
+    },
+    {
+      "name": "Relational database management software",
+      "weight": 0.25
+    },
+    {
+      "name": "STATISTICA",
       "weight": 0.25
     },
     {
@@ -1762,7 +2994,47 @@
       "weight": 0.25
     },
     {
+      "name": "Scala",
+      "weight": 0.25
+    },
+    {
+      "name": "Shell script",
+      "weight": 0.25
+    },
+    {
       "name": "Spreadsheet software",
+      "weight": 0.25
+    },
+    {
+      "name": "TIBCO Spotfire S+",
+      "weight": 0.25
+    },
+    {
+      "name": "TOPAZ Enterprise Software Suite",
+      "weight": 0.25
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.25
+    },
+    {
+      "name": "Trimble SketchUp Pro",
+      "weight": 0.25
+    },
+    {
+      "name": "Ubuntu",
+      "weight": 0.25
+    },
+    {
+      "name": "Virtual private networking VPN software",
+      "weight": 0.25
+    },
+    {
+      "name": "Wireshark",
+      "weight": 0.25
+    },
+    {
+      "name": "Workflow software",
       "weight": 0.25
     },
     {
@@ -1778,7 +3050,59 @@
       "weight": 0.20192307692307693
     },
     {
+      "name": "Actuate BIRT",
+      "weight": 0.2
+    },
+    {
+      "name": "AdRelevance",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe Experience Manager (AEM)",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe Premiere Pro",
+      "weight": 0.2
+    },
+    {
+      "name": "Avid Media Composer",
+      "weight": 0.2
+    },
+    {
+      "name": "Brainworks",
+      "weight": 0.2
+    },
+    {
+      "name": "Business analysis software",
+      "weight": 0.2
+    },
+    {
+      "name": "Data visualization software",
+      "weight": 0.2
+    },
+    {
+      "name": "Data warehousing software",
+      "weight": 0.2
+    },
+    {
+      "name": "Experience in Software Webplanner",
+      "weight": 0.2
+    },
+    {
+      "name": "Google DoubleClick",
+      "weight": 0.2
+    },
+    {
       "name": "Hootsuite",
+      "weight": 0.2
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.2
+    },
+    {
+      "name": "Inventory tracking software",
       "weight": 0.2
     },
     {
@@ -1790,7 +3114,19 @@
       "weight": 0.2
     },
     {
+      "name": "PaloAlto Advertising Plan Pro",
+      "weight": 0.2
+    },
+    {
       "name": "Pinterest",
+      "weight": 0.2
+    },
+    {
+      "name": "Quark enterprise publishing software",
+      "weight": 0.2
+    },
+    {
+      "name": "Relex Weibull",
       "weight": 0.2
     },
     {
@@ -1806,8 +3142,256 @@
       "weight": 0.2
     },
     {
+      "name": "WebTrends Analytics",
+      "weight": 0.2
+    },
+    {
+      "name": "Webtrends software",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe Distiller",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Apple iDVD",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Blackbaud eTapestry",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.15384615384615385
+    },
+    {
       "name": "Google Gmail",
       "weight": 0.15384615384615385
+    },
+    {
+      "name": "MicroFocus GroupWise",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "MightyScout",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "QuarkXPress",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "zkipster",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "AEC Software FastTrack Schedule",
+      "weight": 0.125
+    },
+    {
+      "name": "Act!",
+      "weight": 0.125
+    },
+    {
+      "name": "AdSense Tracker",
+      "weight": 0.125
+    },
+    {
+      "name": "Armand Morin MultiTrack Generator",
+      "weight": 0.125
+    },
+    {
+      "name": "Asana",
+      "weight": 0.125
+    },
+    {
+      "name": "Avidian Technologies Prophet",
+      "weight": 0.125
+    },
+    {
+      "name": "Cascading style sheets CSS",
+      "weight": 0.125
+    },
+    {
+      "name": "ClearEDGE",
+      "weight": 0.125
+    },
+    {
+      "name": "Contact management software",
+      "weight": 0.125
+    },
+    {
+      "name": "Database reporting software",
+      "weight": 0.125
+    },
+    {
+      "name": "Databox",
+      "weight": 0.125
+    },
+    {
+      "name": "Delphi Discovery",
+      "weight": 0.125
+    },
+    {
+      "name": "Dynamic hypertext markup language DHTML",
+      "weight": 0.125
+    },
+    {
+      "name": "Eclipse IDE",
+      "weight": 0.125
+    },
+    {
+      "name": "Eden Sales Manager",
+      "weight": 0.125
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.125
+    },
+    {
+      "name": "Extensible hypertext markup language XHTML",
+      "weight": 0.125
+    },
+    {
+      "name": "Figma",
+      "weight": 0.125
+    },
+    {
+      "name": "Google Sites",
+      "weight": 0.125
+    },
+    {
+      "name": "HEAT Software GoldMine",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM InfoSphere DataStage",
+      "weight": 0.125
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.125
+    },
+    {
+      "name": "Inventory software",
+      "weight": 0.125
+    },
+    {
+      "name": "JamBoard",
+      "weight": 0.125
+    },
+    {
+      "name": "Jupyter Notebook",
+      "weight": 0.125
+    },
+    {
+      "name": "Kapwing",
+      "weight": 0.125
+    },
+    {
+      "name": "LogMeIn GoToWebinar",
+      "weight": 0.125
+    },
+    {
+      "name": "Lyris HQ Web-Analytics Solution",
+      "weight": 0.125
+    },
+    {
+      "name": "Maximizer Software Maximizer Enterprise",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Visual Basic Scripting Edition VBScript",
+      "weight": 0.125
+    },
+    {
+      "name": "Nearpod",
+      "weight": 0.125
+    },
+    {
+      "name": "Nedstat Sitestat",
+      "weight": 0.125
+    },
+    {
+      "name": "NetSuite NetCRM",
+      "weight": 0.125
+    },
+    {
+      "name": "Online advertising reporting software",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle Beehive",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle JavaServer Pages JSP",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle PL/SQL",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle Taleo",
+      "weight": 0.125
+    },
+    {
+      "name": "Padlet",
+      "weight": 0.125
+    },
+    {
+      "name": "Poll Everywhere",
+      "weight": 0.125
+    },
+    {
+      "name": "QAD Marketing Automation",
+      "weight": 0.125
+    },
+    {
+      "name": "SAP BusinessObjects Crystal Reports",
+      "weight": 0.125
+    },
+    {
+      "name": "SAP Crystal Reports",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage SalesLogix",
+      "weight": 0.125
+    },
+    {
+      "name": "Screencast-O-Matic",
+      "weight": 0.125
+    },
+    {
+      "name": "Screencastify",
+      "weight": 0.125
+    },
+    {
+      "name": "Software as a service SaaS",
+      "weight": 0.125
+    },
+    {
+      "name": "Software on Sailboats Desktop Sales Manager",
+      "weight": 0.125
+    },
+    {
+      "name": "Vanguard Software Vanguard Sales Manager",
+      "weight": 0.125
+    },
+    {
+      "name": "Workforce management software",
+      "weight": 0.125
     },
     {
       "name": "Google Workspace software",
@@ -1860,11 +3444,35 @@
       "weight": 0.35384615384615387
     },
     {
+      "name": "Color plotters",
+      "weight": 0.25
+    },
+    {
       "name": "Digital video equipment",
       "weight": 0.25
     },
     {
+      "name": "Drawing tablets",
+      "weight": 0.25
+    },
+    {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.25
+    },
+    {
       "name": "Liquid crystal display LCD video projectors",
+      "weight": 0.25
+    },
+    {
+      "name": "Mobile radios",
+      "weight": 0.25
+    },
+    {
+      "name": "Safety glasses",
+      "weight": 0.25
+    },
+    {
+      "name": "Safety gloves",
       "weight": 0.25
     },
     {

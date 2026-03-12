@@ -1544,56 +1544,448 @@
   ],
   "tasks": [
     {
-      "task": "Change dressings on wounds and help physicians examine and treat patients by handing instruments or performing tasks such as giving injections or removing sutures.",
-      "task_type": "Core"
+      "task": "Clean and sterilize instruments and dispose of contaminated supplies.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.76
     },
     {
-      "task": "Assess refractive conditions of eyes using retinoscopes and operate ophthalmic equipment like autorefractors and phoropters.",
-      "task_type": "Core"
+      "task": "Prepare treatment rooms for patient examinations, keeping the rooms neat and clean.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.68
     },
     {
-      "task": "Prepare and administer medications as directed by a physician, including topical ophthalmic or oral medications, and mix pharmaceutical preparations according to prescriptions.",
-      "task_type": "Core"
+      "task": "Perform general office duties, such as answering telephones, taking dictation, or completing insurance forms.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.54
     },
     {
-      "task": "Conduct routine diagnostic and laboratory tests including visual acuity tests, tonometry, and ocular motility tests, as well as sample analyses.",
-      "task_type": "Core"
+      "task": "Prepare sales slips or sales contracts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.48
     },
     {
-      "task": "Prepare treatment rooms for patient examinations, keeping them neat and clean, and show patients to examination rooms before their session with the physician.",
-      "task_type": "Core"
+      "task": "Compute sales prices, total purchases, and receive and process cash or credit payment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.56
     },
     {
-      "task": "Interview patients to obtain medical histories, measure vital signs, weight, and height, and record this information in medical records.",
-      "task_type": "Core"
+      "task": "Inventory and order medical, lab, or office supplies or equipment.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.13
     },
     {
-      "task": "Explain treatment procedures, medications, diets, or physicians' instructions to patients, and instruct them in the care and use of contact lenses.",
-      "task_type": "Core"
+      "task": "Maintain and clean work and inventory areas.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
     },
     {
-      "task": "Inventory and order medical, lab, or office supplies and maintain proper storage and security conditions for drugs.",
-      "task_type": "Core"
+      "task": "Describe merchandise and explain use, operation, and care of merchandise to customers.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.33
     },
     {
-      "task": "Schedule appointments for patients and contact medical facilities to arrange for tests or admissions.",
-      "task_type": "Core"
+      "task": "Operate ophthalmic equipment, such as autorefractors, phoropters, tomographs, or retinoscopes.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.91
     },
     {
-      "task": "Assist patients in selecting eyewear, adjusting or making minor repairs to spectacles or eyeglasses, and answering their questions regarding medications.",
-      "task_type": "Core"
+      "task": "Keep financial records or perform other bookkeeping duties, such as handling credit or collections or mailing monthly statements to patients.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.56
     },
     {
-      "task": "Receive written prescription or refill requests, verify the information's accuracy, and enter prescription information into computer databases.",
-      "task_type": "Core"
+      "task": "Contact medical facilities or departments to schedule patients for tests or admission.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.01
     },
     {
-      "task": "Clean and sterilize instruments, dispose of contaminated supplies, and maintain cleanliness of work and inventory areas.",
-      "task_type": "Core"
+      "task": "Greet and log in patients arriving at office or clinic.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.57
     },
     {
-      "task": "Greet and log in patients arriving at the office or clinic and answer telephones, responding to questions or requests.",
-      "task_type": "Core"
+      "task": "Schedule appointments for patients.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.21
+    },
+    {
+      "task": "Authorize drug refills and provide prescription information to pharmacies.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.44
+    },
+    {
+      "task": "Help physicians examine and treat patients, handing them instruments or materials or performing such tasks as giving injections or removing sutures.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.62
+    },
+    {
+      "task": "Explain treatment procedures, medications, diets, or physicians' instructions to patients.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.73
+    },
+    {
+      "task": "Collect blood, tissue, or other laboratory specimens, log the specimens, and prepare them for testing.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.67
+    },
+    {
+      "task": "Prepare and administer medications as directed by a physician.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.47
+    },
+    {
+      "task": "Interview patients to obtain medical information and measure their vital signs, weight, and height.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.76
+    },
+    {
+      "task": "Record patients' medical history, vital statistics, or information such as test results in medical records.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.73
+    },
+    {
+      "task": "Administer topical ophthalmic or oral medications.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.77
+    },
+    {
+      "task": "Assist patients to insert or remove contact lenses.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.86
+    },
+    {
+      "task": "Measure corneal curvature with keratometers or ophthalmometers to aid in the diagnosis of conditions, such as astigmatism.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.65
+    },
+    {
+      "task": "Conduct tonometry or tonography tests to measure intraocular pressure.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.91
+    },
+    {
+      "task": "Conduct binocular disparity tests to assess depth perception.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.57
+    },
+    {
+      "task": "Assist physicians in performing ophthalmic procedures, including surgery.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.71
+    },
+    {
+      "task": "Assist patients to select eyewear.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 2.7
+    },
+    {
+      "task": "Adjust or make minor repairs to spectacles or eyeglasses.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 2.71
+    },
+    {
+      "task": "Take and document patients' medical histories.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.95
+    },
+    {
+      "task": "Take anatomical or functional ocular measurements of the eye or surrounding tissue, such as axial length measurements.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.9
+    },
+    {
+      "task": "Measure visual acuity, including near, distance, pinhole, or dynamic visual acuity, using appropriate tests.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.9
+    },
+    {
+      "task": "Measure and record lens power, using lensometers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.86
+    },
+    {
+      "task": "Maintain ophthalmic instruments or equipment.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.5
+    },
+    {
+      "task": "Instruct patients in the care and use of contact lenses.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.32
+    },
+    {
+      "task": "Conduct visual field tests to measure field of vision.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.73
+    },
+    {
+      "task": "Conduct ocular motility tests to measure function of eye muscles.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.62
+    },
+    {
+      "task": "Call patients to inquire about their post-operative status or recovery.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.0
+    },
+    {
+      "task": "Restock intravenous (IV) supplies and add measured drugs or nutrients to IV solutions under sterile conditions to prepare IV packs for various uses, such as chemotherapy medication.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.44
+    },
+    {
+      "task": "Prepack bulk medicines, fill bottles with prescribed medications, and type and affix labels.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.34
+    },
+    {
+      "task": "Receive and store incoming supplies, verify quantities against invoices, check for outdated medications in current inventory, and inform supervisors of stock needs and shortages.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.6
+    },
+    {
+      "task": "Enter prescription information into computer databases.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.75
+    },
+    {
+      "task": "Maintain and merchandise home healthcare products or services.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.62
+    },
+    {
+      "task": "Price stock and mark items for sale.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.57
+    },
+    {
+      "task": "Maintain proper storage and security conditions for drugs.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.66
+    },
+    {
+      "task": "Assist customers by answering simple questions, locating items, or referring them to the pharmacist for medication information.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.53
+    },
+    {
+      "task": "Price and file prescriptions that have been filled.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.44
+    },
+    {
+      "task": "Establish or maintain patient profiles, including lists of medications taken by individual patients.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.71
+    },
+    {
+      "task": "Receive written prescription or refill requests and verify that information is complete and accurate.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.86
+    },
+    {
+      "task": "Transfer medication from vials to the appropriate number of sterile, disposable syringes, using aseptic techniques.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.47
+    },
+    {
+      "task": "Supply and monitor robotic machines that dispense medicine into containers and label the containers.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.39
+    },
+    {
+      "task": "Prepare and process medical insurance claim forms and records.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.66
+    },
+    {
+      "task": "Mix pharmaceutical preparations, according to written prescriptions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.44
+    },
+    {
+      "task": "Compute charges for medication or equipment dispensed to hospital patients and enter data in computer.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.71
+    },
+    {
+      "task": "Deliver medications or pharmaceutical supplies to patients, nursing stations, or surgery.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.36
+    },
+    {
+      "task": "Recommend, select, and help locate or obtain merchandise based on customer needs and desires.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.68
+    },
+    {
+      "task": "Exchange merchandise for customers and accept returns.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.23
+    },
+    {
+      "task": "Place special orders or call other stores to find desired items.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.74
+    },
+    {
+      "task": "Ticket, arrange, and display merchandise to promote sales.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.28
+    },
+    {
+      "task": "Answer questions regarding the store and its merchandise.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.53
+    },
+    {
+      "task": "Watch for and recognize security risks and thefts and know how to prevent or handle these situations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.08
+    },
+    {
+      "task": "Maintain records related to sales.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.58
+    },
+    {
+      "task": "Help customers try on or fit merchandise.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Maintain knowledge of current sales and promotions, policies regarding payment and exchanges, and security practices.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.48
+    },
+    {
+      "task": "Fill customer orders from stock, and place orders when requested items are out of stock.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.59
+    },
+    {
+      "task": "Assist customers, such as responding to customer complaints and updating them about back-ordered parts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.64
+    },
+    {
+      "task": "Locate and label parts, and maintain inventory of stock.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.55
+    },
+    {
+      "task": "Manage shipments by researching shipping methods or costs and tracking packages.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.25
+    },
+    {
+      "task": "Bag or package purchases and wrap gifts.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Receive and fill telephone orders for parts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.56
+    },
+    {
+      "task": "Mark and store parts in stockrooms, according to prearranged systems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.22
+    },
+    {
+      "task": "Prepare merchandise for purchase or rental.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.55
+    },
+    {
+      "task": "Place new merchandise on display.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.09
+    },
+    {
+      "task": "Open and close cash registers, performing tasks such as counting money, separating charge slips, coupons, and vouchers, balancing cash drawers, and making deposits.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.42
+    },
+    {
+      "task": "Greet customers and ascertain what each customer wants or needs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.84
     }
   ],
   "technology_skills": [
@@ -1607,6 +1999,10 @@
     },
     {
       "name": "Microsoft Outlook",
+      "weight": 2.8333333333333335
+    },
+    {
+      "name": "Microsoft PowerPoint",
       "weight": 2.8333333333333335
     },
     {
@@ -1638,11 +2034,35 @@
       "weight": 1.1666666666666667
     },
     {
+      "name": "Intuit QuickBooks",
+      "weight": 1.1666666666666667
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 1.1666666666666667
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 1.1666666666666667
+    },
+    {
+      "name": "AcuityPro",
+      "weight": 1.0
+    },
+    {
       "name": "Appointment scheduling software",
       "weight": 1.0
     },
     {
       "name": "Billing software",
+      "weight": 1.0
+    },
+    {
+      "name": "Bookkeeping software",
+      "weight": 1.0
+    },
+    {
+      "name": "Business software applications",
       "weight": 1.0
     },
     {
@@ -1670,7 +2090,39 @@
       "weight": 1.0
     },
     {
+      "name": "IDX Systems Patient Chart Tracking",
+      "weight": 1.0
+    },
+    {
+      "name": "Medflow Complete",
+      "weight": 1.0
+    },
+    {
+      "name": "MediPro Medisoft Clinical",
+      "weight": 1.0
+    },
+    {
       "name": "Medical procedure coding software",
+      "weight": 1.0
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 1.0
+    },
+    {
+      "name": "Microsoft SharePoint Server",
+      "weight": 1.0
+    },
+    {
+      "name": "Microsoft Windows Vista Business",
+      "weight": 1.0
+    },
+    {
+      "name": "Microsoft Windows XP Professional",
+      "weight": 1.0
+    },
+    {
+      "name": "NaviNet Open",
       "weight": 1.0
     },
     {
@@ -1682,6 +2134,10 @@
       "weight": 1.0
     },
     {
+      "name": "Visual electro diagnostic software",
+      "weight": 1.0
+    },
+    {
       "name": "Word processing software",
       "weight": 1.0
     },
@@ -1690,8 +2146,20 @@
       "weight": 1.0
     },
     {
+      "name": "ezChartWriter",
+      "weight": 1.0
+    },
+    {
+      "name": "iChartPlus",
+      "weight": 1.0
+    },
+    {
       "name": "Point of sale POS software",
       "weight": 0.6666666666666666
+    },
+    {
+      "name": "Apple Safari",
+      "weight": 0.5
     },
     {
       "name": "Billing and reimbursement software",
@@ -1714,6 +2182,18 @@
       "weight": 0.5
     },
     {
+      "name": "Microsoft Edge",
+      "weight": 0.5
+    },
+    {
+      "name": "Mozilla Firefox",
+      "weight": 0.5
+    },
+    {
+      "name": "Patient record maintenance software",
+      "weight": 0.5
+    },
+    {
       "name": "Pharmaceutical software",
       "weight": 0.5
     },
@@ -1726,8 +2206,144 @@
       "weight": 0.5
     },
     {
+      "name": "Pyxis MedStation software",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Inventory management systems",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SmugMug Flickr",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ASI Point of Sale",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Advanced Retail Management Systems Retail Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "American Precision Instruments Regit",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Attitude POS itive AccuPOS Retail",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bibase 4POS Retail",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Blink",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "CAP Automation SellWise",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Comcash ERP",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "CompuTant CounterPoint",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Customer information databases",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "CyberMatrix",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Datasym SYMFINITE",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "EZ Software Solutions",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Exact business software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Gift registry software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Google Docs",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Google Drive",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Google Meet",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld computer device software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Infocorp Computer Solutions $mart System",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Infocorp Softwear/POS",
+      "weight": 0.16666666666666666
     },
     {
       "name": "Internet browser software",
@@ -1742,8 +2358,128 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 2.8333333333333335
+      "name": "LOB RetailPoint",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Logisoft Positive Pos System",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "ManageMore Cellular Manager",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "MicroBiz",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Millennium Software Atrex",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Plexis Software Plexis POS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Point of sale POS bookstore software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Point of sale POS parts and services software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "RiscStation POSSum",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SBS Keystroke",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sage 50 Accounting Software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Semicron Systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Softpedia ShopInvo",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "System3 POS software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "The General Store",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "The Retail Solution",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "TokenWorks Magnetic Card Reader",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "True North Computer Retail Plus",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "VeriFone PC Charge Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vigilant",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Visual Retail Plus",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "WinMan SureSell",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "iQmetrix RQ4 Retail Management System",
+      "weight": 0.16666666666666666
     }
   ],
   "tools_used": [
@@ -1768,6 +2504,14 @@
       "weight": 2.0
     },
     {
+      "name": "Autoclaves",
+      "weight": 1.5
+    },
+    {
+      "name": "Centrifuges",
+      "weight": 1.5
+    },
+    {
       "name": "Notebook computers",
       "weight": 1.5
     },
@@ -1788,6 +2532,10 @@
       "weight": 1.0
     },
     {
+      "name": "Audiometers",
+      "weight": 1.0
+    },
+    {
       "name": "Automated lensometers",
       "weight": 1.0
     },
@@ -1804,11 +2552,39 @@
       "weight": 1.0
     },
     {
+      "name": "Binocular light compound microscopes",
+      "weight": 1.0
+    },
+    {
+      "name": "Bio-microscopes",
+      "weight": 1.0
+    },
+    {
+      "name": "Blood chemistry analyzers",
+      "weight": 1.0
+    },
+    {
       "name": "Blood collection vials",
       "weight": 1.0
     },
     {
+      "name": "Breathalyzers",
+      "weight": 1.0
+    },
+    {
+      "name": "Brightness acuity testers",
+      "weight": 1.0
+    },
+    {
       "name": "Butterfly needles",
+      "weight": 1.0
+    },
+    {
+      "name": "Canes",
+      "weight": 1.0
+    },
+    {
+      "name": "Color blindness tests",
       "weight": 1.0
     },
     {
@@ -1820,7 +2596,27 @@
       "weight": 1.0
     },
     {
+      "name": "Credit card readers",
+      "weight": 1.0
+    },
+    {
+      "name": "Crutches",
+      "weight": 1.0
+    },
+    {
+      "name": "Culturettes",
+      "weight": 1.0
+    },
+    {
+      "name": "Dictation equipment",
+      "weight": 1.0
+    },
+    {
       "name": "Digital pupillometers",
+      "weight": 1.0
+    },
+    {
+      "name": "Electrocardiography EKG units",
       "weight": 1.0
     },
     {
@@ -1840,7 +2636,19 @@
       "weight": 1.0
     },
     {
+      "name": "Flat nose pliers",
+      "weight": 1.0
+    },
+    {
       "name": "Fundus cameras",
+      "weight": 1.0
+    },
+    {
+      "name": "Gait belts",
+      "weight": 1.0
+    },
+    {
+      "name": "Hearing aids",
       "weight": 1.0
     },
     {
@@ -1856,11 +2664,27 @@
       "weight": 1.0
     },
     {
+      "name": "Jaeger lid plates",
+      "weight": 1.0
+    },
+    {
       "name": "Lancets",
       "weight": 1.0
     },
     {
+      "name": "Laser facsimile machines",
+      "weight": 1.0
+    },
+    {
+      "name": "Laser printers",
+      "weight": 1.0
+    },
+    {
       "name": "Lensometers",
+      "weight": 1.0
+    },
+    {
+      "name": "Loose prisms",
       "weight": 1.0
     },
     {
@@ -1876,6 +2700,10 @@
       "weight": 1.0
     },
     {
+      "name": "Manual blood pressuring measurement equipment",
+      "weight": 1.0
+    },
+    {
       "name": "Manual lensometers",
       "weight": 1.0
     },
@@ -1884,7 +2712,27 @@
       "weight": 1.0
     },
     {
+      "name": "Mayo stands",
+      "weight": 1.0
+    },
+    {
       "name": "Mechanical stethoscopes",
+      "weight": 1.0
+    },
+    {
+      "name": "Metric rules",
+      "weight": 1.0
+    },
+    {
+      "name": "Microcapillary hematocrit tubes",
+      "weight": 1.0
+    },
+    {
+      "name": "Microscope slides",
+      "weight": 1.0
+    },
+    {
+      "name": "Millimeter rules",
       "weight": 1.0
     },
     {
@@ -1928,11 +2776,51 @@
       "weight": 1.0
     },
     {
+      "name": "Optical coherence tomography OCT scanners",
+      "weight": 1.0
+    },
+    {
+      "name": "Optical screwdrivers",
+      "weight": 1.0
+    },
+    {
+      "name": "Optokinetic drums",
+      "weight": 1.0
+    },
+    {
+      "name": "Otoscopes",
+      "weight": 1.0
+    },
+    {
+      "name": "Oxygen equipment",
+      "weight": 1.0
+    },
+    {
+      "name": "Oxygen masks",
+      "weight": 1.0
+    },
+    {
+      "name": "Oxygen tanks",
+      "weight": 1.0
+    },
+    {
       "name": "Phoroptors",
       "weight": 1.0
     },
     {
       "name": "Pipettes",
+      "weight": 1.0
+    },
+    {
+      "name": "Potential acuity meters",
+      "weight": 1.0
+    },
+    {
+      "name": "Pulmonary function measurement equipment",
+      "weight": 1.0
+    },
+    {
+      "name": "Pulmonary nebulizers",
       "weight": 1.0
     },
     {
@@ -1948,11 +2836,55 @@
       "weight": 1.0
     },
     {
+      "name": "Snipe nose pliers",
+      "weight": 1.0
+    },
+    {
+      "name": "Spirometers",
+      "weight": 1.0
+    },
+    {
+      "name": "Splints",
+      "weight": 1.0
+    },
+    {
+      "name": "Staple removers",
+      "weight": 1.0
+    },
+    {
+      "name": "Steam autoclaves",
+      "weight": 1.0
+    },
+    {
+      "name": "Stereo vision tests",
+      "weight": 1.0
+    },
+    {
       "name": "Subcutaneous hypodermic needles",
       "weight": 1.0
     },
     {
+      "name": "Suction machines",
+      "weight": 1.0
+    },
+    {
+      "name": "Suction tubing",
+      "weight": 1.0
+    },
+    {
+      "name": "Suture removers",
+      "weight": 1.0
+    },
+    {
       "name": "Syringe needles",
+      "weight": 1.0
+    },
+    {
+      "name": "Tangent screens",
+      "weight": 1.0
+    },
+    {
+      "name": "Titmus vision screeners",
       "weight": 1.0
     },
     {
@@ -1964,19 +2896,271 @@
       "weight": 1.0
     },
     {
+      "name": "Transcutaneous electric nerve stimulation TENS units",
+      "weight": 1.0
+    },
+    {
+      "name": "Tuberculin TB skin test equipment",
+      "weight": 1.0
+    },
+    {
       "name": "Visual acuity cards",
       "weight": 1.0
+    },
+    {
+      "name": "Vitalors",
+      "weight": 1.0
+    },
+    {
+      "name": "Walkers",
+      "weight": 1.0
+    },
+    {
+      "name": "Wavefront aberrometers",
+      "weight": 1.0
+    },
+    {
+      "name": "Wheelchairs",
+      "weight": 1.0
+    },
+    {
+      "name": "Wide jaw angling pliers",
+      "weight": 1.0
+    },
+    {
+      "name": "Cash registers",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.6666666666666666
     },
     {
       "name": "Desktop computers",
       "weight": 0.6666666666666666
     },
     {
+      "name": "Point of sale POS computer terminals",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Automatic bottle filling machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Automatic unit dose strip packaging machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Benchtop colloid mills",
+      "weight": 0.5
+    },
+    {
+      "name": "Blending/agitating machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Bunsen burners",
+      "weight": 0.5
+    },
+    {
+      "name": "Colloid mills",
+      "weight": 0.5
+    },
+    {
+      "name": "Computer-based dispensing equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Data input scanners",
+      "weight": 0.5
+    },
+    {
+      "name": "Double-beam balances",
+      "weight": 0.5
+    },
+    {
+      "name": "Electronic signature capture equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Equal-arm balances",
+      "weight": 0.5
+    },
+    {
       "name": "Evacuated blood collection containers",
       "weight": 0.5
     },
     {
+      "name": "Filtering devices",
+      "weight": 0.5
+    },
+    {
+      "name": "Flask washers",
+      "weight": 0.5
+    },
+    {
+      "name": "Graduated cylinders",
+      "weight": 0.5
+    },
+    {
+      "name": "Grinding and shearing colloid mills",
+      "weight": 0.5
+    },
+    {
+      "name": "Horizontal and vertical flow hoods",
+      "weight": 0.5
+    },
+    {
+      "name": "Incubators",
+      "weight": 0.5
+    },
+    {
+      "name": "Intravenous IV infusion pumps",
+      "weight": 0.5
+    },
+    {
+      "name": "Intravenous IV supplies",
+      "weight": 0.5
+    },
+    {
+      "name": "Label printers",
+      "weight": 0.5
+    },
+    {
+      "name": "Laboratory vacuum pumps",
+      "weight": 0.5
+    },
+    {
+      "name": "Laminar flow hoods",
+      "weight": 0.5
+    },
+    {
+      "name": "Petri dishes",
+      "weight": 0.5
+    },
+    {
+      "name": "Robotic dispensing systems",
+      "weight": 0.5
+    },
+    {
+      "name": "Semiautomatic sterile solution transferring devices",
+      "weight": 0.5
+    },
+    {
+      "name": "Single-beam balances",
+      "weight": 0.5
+    },
+    {
+      "name": "Specific gravity testing equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Sterilizing equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Tablet counting machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Test tubes",
+      "weight": 0.5
+    },
+    {
+      "name": "Torsion balances",
+      "weight": 0.5
+    },
+    {
+      "name": "Total parenteral nutrition TPN compounders",
+      "weight": 0.5
+    },
+    {
+      "name": "Tube filling and crimping machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Unequal-arm balances",
+      "weight": 0.5
+    },
+    {
+      "name": "Water distillation equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computerized cash registers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Credit card processing machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital still cameras",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electronic cash registers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electronic funds transfer EFT terminals",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hammers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld calculators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ladders",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Laptop computers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Magnetic card readers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microfiche viewing equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Multiline telephone systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Price guns",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tape measures",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Telecheck processing terminals",
       "weight": 0.16666666666666666
     }
   ],

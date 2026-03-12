@@ -1544,116 +1544,814 @@
   ],
   "tasks": [
     {
-      "task": "Review rough sketches, drawings, specifications, and other engineering data to ensure they conform to design concepts.",
-      "task_type": "Unclassified"
+      "task": "Review rough sketches, drawings, specifications, and other engineering data to ensure that they conform to design concepts.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
     },
     {
-      "task": "Prepare cost estimates, contracts, bidding documents, and technical reports for projects under an architect's or engineer's supervision.",
-      "task_type": "Unclassified"
+      "task": "Prepare cost estimates, contracts, bidding documents, and technical reports for specific projects under an architect's or engineer's supervision.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
     },
     {
-      "task": "Create freehand drawings and lettering to accompany drawings, and use various materials for illustrations.",
-      "task_type": "Core"
+      "task": "Create freehand drawings and lettering to accompany drawings.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.48
     },
     {
-      "task": "Calculate excavation tonnage, weights, volumes, stress factors, and heat loss/gain for buildings to determine equipment specifications.",
-      "task_type": "Core"
+      "task": "Prepare colored drawings of landscape and interior designs for presentation to client.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.2
     },
     {
-      "task": "Prepare detailed working diagrams and colored drawings for projects, including landscape and interior designs.",
-      "task_type": "Core"
+      "task": "Calculate weights, volumes, and stress factors and their implications for technical aspects of designs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.12
     },
     {
-      "task": "Draft working drawings, wiring diagrams, specifications, and cross-sections of cables for installation instructions.",
-      "task_type": "Core"
+      "task": "Draft working drawings, wiring diagrams, wiring connection specifications, or cross-sections of underground cables, as required for instructions to installation crew.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.39
     },
     {
-      "task": "Consult with engineers to discuss design concepts, requirements for detailed drawings, and ensure compliance with standards.",
-      "task_type": "Core"
+      "task": "Assemble documentation packages and produce drawing sets to be checked by an engineer or an architect.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.34
     },
     {
-      "task": "Produce three-dimensional models and illustrations for projects using computer-aided design (CAD) software.",
-      "task_type": "Core"
+      "task": "Consult with engineers to discuss or interpret design concepts, or determine requirements of detailed working drawings.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.24
     },
     {
-      "task": "Supervise and train other technologists, technicians, and drafters, ensuring quality and compliance with design specifications.",
-      "task_type": "Core"
+      "task": "Review completed construction drawings and cost estimates for accuracy and conformity to standards and regulations.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.26
     },
     {
-      "task": "Generate final layouts for printing, check proofs for errors, and make necessary corrections before publication.",
-      "task_type": "Core"
+      "task": "Examine electronic schematics and supporting documents to develop, compute, and verify specifications for drafting data, such as configuration of parts, dimensions, or tolerances.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.85
+    },
+    {
+      "task": "Draft detail and assembly drawings of design components, circuitry or printed circuit boards, using computer-assisted equipment or standard drafting techniques and devices.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.44
+    },
+    {
+      "task": "Measure factors that affect installation and arrangement of equipment, such as distances to be spanned by wire and cable.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.11
+    },
+    {
+      "task": "Determine quality, cost, strength, and quantity of required materials, and enter figures on materials lists.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.53
+    },
+    {
+      "task": "Obtain and assemble data to complete architectural designs, visiting job sites to compile measurements as necessary.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.55
+    },
+    {
+      "task": "Explain drawings to production or construction teams and provide adjustments as necessary.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.56
+    },
+    {
+      "task": "Produce three-dimensional models, using computer-aided design (CAD) software.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.43
+    },
+    {
+      "task": "Produce drawings, using computer-assisted drafting systems (CAD) or drafting machines, or by hand, using compasses, dividers, protractors, triangles, and other drafting devices.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.86
+    },
+    {
+      "task": "Draft plans and detailed drawings for structures, installations, and construction projects, such as highways, sewage disposal systems, and dikes, working from sketches or notes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.6
+    },
+    {
+      "task": "Coordinate structural, electrical, and mechanical designs and determine a method of presentation to graphically represent building plans.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.38
+    },
+    {
+      "task": "Analyze building codes, by-laws, space and site requirements, and other technical documents and reports to determine their effect on architectural designs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.28
+    },
+    {
+      "task": "Lay out and plan interior room arrangements for commercial buildings, using computer-assisted drafting (CAD) equipment and software.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.14
+    },
+    {
+      "task": "Supervise and train other technologists, technicians, and drafters.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.1
+    },
+    {
+      "task": "Determine the order of work and method of presentation, such as orthographic or isometric drawing.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.06
+    },
+    {
+      "task": "Draw rough and detailed scale plans for foundations, buildings, and structures, based on preliminary concepts, sketches, engineering calculations, specification sheets, and other data.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.99
+    },
+    {
+      "task": "Check dimensions of materials to be used and assign numbers to lists of materials.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.87
+    },
+    {
+      "task": "Determine procedures and instructions to be followed, according to design specifications and quantity of required materials.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.76
+    },
+    {
+      "task": "Supervise or conduct field surveys, inspections, or technical investigations to obtain data required to revise construction drawings.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.73
+    },
+    {
+      "task": "Locate files relating to specified design project in database library, load program into computer, and record completed job data.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.9
+    },
+    {
+      "task": "Confer with engineering staff and other personnel to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.21
+    },
+    {
+      "task": "Draw master sketches to scale showing relation of proposed installations to existing facilities and exact specifications and dimensions.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.0
+    },
+    {
+      "task": "Design scale or full-size blueprints of specialty items, such as furniture and automobile body or chassis components.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.98
+    },
+    {
+      "task": "Position instructions and comments onto drawings.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.72
+    },
+    {
+      "task": "Study work order requests to determine type of service, such as lighting or power, demanded by installation.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.8
+    },
+    {
+      "task": "Review and analyze specifications, sketches, drawings, ideas, and related data to assess factors affecting component designs and the procedures and instructions to be followed.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.21
+    },
+    {
+      "task": "Coordinate with and consult other workers to design, lay out, or detail components and systems and to resolve design or other problems.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.9
+    },
+    {
+      "task": "Develop detailed design drawings and specifications for mechanical equipment, dies, tools, and controls, using computer-assisted drafting (CAD) equipment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.65
+    },
+    {
+      "task": "Review blueprints to determine customer requirements and consult with assembler regarding schematics, wiring procedures, or conductor paths.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.82
+    },
+    {
+      "task": "Visit proposed installation sites and draw rough sketches of location.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.69
+    },
+    {
+      "task": "Write technical reports and draw charts that display statistics and data.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.89
+    },
+    {
+      "task": "Copy drawings of printed circuit board fabrication using print machine or blueprinting procedure.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.4
+    },
+    {
+      "task": "Train students to use drafting machines and to prepare schematic diagrams, block diagrams, control drawings, logic diagrams, integrated circuit drawings, or interconnection diagrams.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.8
+    },
+    {
+      "task": "Prepare and interpret specifications, calculating weights, volumes, or stress factors.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Use computer-aided drafting equipment or conventional drafting stations, technical handbooks, tables, calculators, or traditional drafting tools, such as boards, pencils, protractors, or T-squares.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Modify and revise designs to correct operating deficiencies or to reduce production problems.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.22
+    },
+    {
+      "task": "Compute mathematical formulas to develop and design detailed specifications for components or machinery, using computer-assisted equipment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.91
+    },
+    {
+      "task": "Compare logic element configuration on display screen with engineering schematics and calculate figures to convert, redesign, or modify element.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.83
+    },
+    {
+      "task": "Review work orders or procedural manuals and confer with vendors or design staff to resolve problems or modify design.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.94
+    },
+    {
+      "task": "Lay out and draw schematic, orthographic, or angle views to depict functional relationships of components, assemblies, systems, and machines.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.33
+    },
+    {
+      "task": "Generate computer tapes of final layout design to produce layered photo masks or photo plotting design onto film.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.8
+    },
+    {
+      "task": "Key and program specified commands and engineering specifications into computer system to change functions and test final layout.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.6
+    },
+    {
+      "task": "Supervise and coordinate work activities of workers engaged in drafting, designing layouts, assembling, or testing printed circuit boards.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.87
+    },
+    {
+      "task": "Reproduce working drawings on copy machines or trace drawings in ink.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.05
+    },
+    {
+      "task": "Shade or color drawings to clarify and emphasize details and dimensions or eliminate background, using ink, crayon, airbrush, and overlays.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.94
+    },
+    {
+      "task": "Lay out, draw, and reproduce illustrations for reference manuals and technical publications to describe operation and maintenance of mechanical systems.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.46
+    },
+    {
+      "task": "Confer with customer representatives to review schematics and answer questions pertaining to installation of systems.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.72
+    },
+    {
+      "task": "Collaborate with engineers, mechanics, and other technical experts as necessary to build and install creations.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.73
+    },
+    {
+      "task": "Develop project budgets for approval, estimating time lines and material costs.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.54
+    },
+    {
+      "task": "Collaborate with writers who create ideas, stories, or captions that are combined with artists' work.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.22
+    },
+    {
+      "task": "Maintain archive of images, photos, or previous work products.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.1
+    },
+    {
+      "task": "Create designs, concepts, and sample layouts, based on knowledge of layout principles and esthetic design concepts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.5
+    },
+    {
+      "task": "Research new software or design concepts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.5
+    },
+    {
+      "task": "Market artwork through brochures, mailings, or Web sites.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.51
+    },
+    {
+      "task": "Photograph objects, places, or scenes for reference material.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.07
+    },
+    {
+      "task": "Create sketches, profiles, or likenesses of posed subjects or photographs, using any combination of freehand drawing, mechanical assembly kits, and computer imaging.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.41
+    },
+    {
+      "task": "Prepare digital files for printing.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.45
+    },
+    {
+      "task": "Research the target audience of projects.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.25
+    },
+    {
+      "task": "Render drawings, illustrations, and sketches of buildings, manufactured products, or models, working from sketches, blueprints, memory, models, or reference materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.92
+    },
+    {
+      "task": "Develop briefings, brochures, multimedia presentations, web pages, promotional products, technical illustrations, and computer artwork for use in products, technical manuals, literature, newsletters, and slide shows.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.68
+    },
+    {
+      "task": "Create pen-and-paper images to be scanned, edited, colored, textured, or animated by computer.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.78
+    },
+    {
+      "task": "Create basic designs, drawings, and illustrations for product labels, cartons, direct mail, or television.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.3
+    },
+    {
+      "task": "Assemble, typeset, scan, and produce digital camera-ready art or film negatives and printer's proofs.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.54
+    },
+    {
+      "task": "Study different techniques to learn how to apply them to artistic endeavors.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.5
+    },
+    {
+      "task": "Photograph layouts, using camera, to make layout prints for supervisors or clients.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.84
+    },
+    {
+      "task": "Prepare notes and instructions for workers who assemble and prepare final layouts for printing.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Study illustrations and photographs to plan presentation of materials, products, or services.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.1
+    },
+    {
+      "task": "Prepare illustrations or rough sketches of material, discussing them with clients or supervisors and making necessary changes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Key information into computer equipment to create layouts for client or supervisor.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.7
+    },
+    {
+      "task": "Develop graphics and layouts for product illustrations, company logos, and Web sites.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.56
+    },
+    {
+      "task": "Confer with clients to discuss and determine layout design.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.28
+    },
+    {
+      "task": "Review final layouts and suggest improvements, as needed.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.65
+    },
+    {
+      "task": "Draw and print charts, graphs, illustrations, and other artwork, using computer.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.15
+    },
+    {
+      "task": "Mark up, paste, and assemble final layouts to prepare layouts for printer.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.13
+    },
+    {
+      "task": "Use computer software to generate new images.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.47
+    },
+    {
+      "task": "Implement and maintain configuration control systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Write or edit copy for clients.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.82
+    },
+    {
+      "task": "Use materials such as pens and ink, watercolors, charcoal, oil, or computer software to create artwork.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.47
+    },
+    {
+      "task": "Monitor events, trends, and other circumstances, research specific subject areas, attend art exhibitions, and read art publications to develop ideas and keep current on art world activities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.13
+    },
+    {
+      "task": "Determine size and arrangement of illustrative material and copy, and select style and size of type.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.6
+    },
+    {
+      "task": "Create finished art work as decoration, or to elucidate or substitute for spoken or written messages.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.43
+    },
+    {
+      "task": "Maintain portfolios of artistic work to demonstrate styles, interests, and abilities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.61
+    },
+    {
+      "task": "Submit preliminary or finished artwork or project plans to clients for approval, incorporating changes as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
+    },
+    {
+      "task": "Confer with clients, editors, writers, art directors, and other interested parties regarding the nature and content of artwork to be produced.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.86
+    },
+    {
+      "task": "Integrate and develop visual elements, such as line, space, mass, color, and perspective, to produce desired effects, such as the illustration of ideas, emotions, or moods.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.26
+    },
+    {
+      "task": "Load floppy disks or tapes containing information into system.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.29
+    },
+    {
+      "task": "Edit graphics and photos, using pixel or bitmap editing, airbrushing, masking, or image retouching.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.88
+    },
+    {
+      "task": "Import text and art elements, such as electronic clip art or electronic files from photographs that have been scanned or produced with a digital camera, using computer software.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.29
+    },
+    {
+      "task": "Prepare sample layouts for approval, using computer software.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.36
+    },
+    {
+      "task": "Study layout or other design instructions to determine work to be done and sequence of operations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.18
+    },
+    {
+      "task": "Enter, store, and retrieve information on computer-aided equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.44
+    },
+    {
+      "task": "Convert various types of files for printing or for the Internet, using computer software.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.01
+    },
+    {
+      "task": "Enter data, such as coordinates of images and color specifications, into system to retouch and make color corrections.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.79
+    },
+    {
+      "task": "Select number of colors and determine color separations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.02
+    },
+    {
+      "task": "Position text and art elements from a variety of databases in a visually appealing way to design print or web pages, using knowledge of type styles and size and layout patterns.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.47
+    },
+    {
+      "task": "Enter digitized data into electronic prepress system computer memory, using scanner, camera, keyboard, or mouse.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.99
+    },
+    {
+      "task": "Operate desktop publishing software and equipment to design, lay out, and produce camera-ready copy.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.75
+    },
+    {
+      "task": "Store copies of publications on paper, magnetic tape, film, or diskette.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.62
+    },
+    {
+      "task": "Enter text into computer keyboard and select the size and style of type, column width, and appropriate spacing for printed materials.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.38
+    },
+    {
+      "task": "View monitors for visual representation of work in progress and for instructions and feedback throughout process, making modifications as necessary.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.4
+    },
+    {
+      "task": "Collaborate with graphic artists, editors and writers to produce master copies according to design specifications.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.17
+    },
+    {
+      "task": "Check preliminary and final proofs for errors and make necessary corrections.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.41
     },
     {
       "task": "Select proper types of plates according to press run lengths.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.38
     },
     {
-      "task": "Analyze originals to evaluate color density, gradation highlights, and shadows, using densitometers and knowledge of color.",
-      "task_type": "Supplemental"
+      "task": "Analyze originals to evaluate color density, gradation highlights, middle tones, and shadows, using densitometers and knowledge of light and color.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.72
     },
     {
-      "task": "Set scanners to specific color densities and sizes, using scanner keyboards or computers.",
-      "task_type": "Supplemental"
+      "task": "Set scanners to specific color densities, sizes, screen rulings, and exposure adjustments, using scanner keyboards or computers.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.46
     },
     {
       "task": "Scale copy for reductions and enlargements, using proportion wheels.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.88
     },
     {
-      "task": "Transmit publication master to printer for production into film and plates.",
-      "task_type": "Supplemental"
+      "task": "Transmit, deliver, or mail publication master to printer for production into film and plates.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.23
     },
     {
-      "task": "Generate prepress proofs in digital format to approximate the appearance of the final printed piece.",
-      "task_type": "Core"
+      "task": "Create special effects such as vignettes, mosaics, and image combining, and add elements such as sound and animation to electronic publications.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.54
     },
     {
-      "task": "Proofread and perform quality control of text and images before printing.",
-      "task_type": "Core"
+      "task": "Examine photographic images for obvious imperfections prior to plate making.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.04
     },
     {
-      "task": "Perform \"preflight\" checks of required files to ensure completeness prior to delivery to printer.",
-      "task_type": "Core"
+      "task": "Generate prepress proofs in digital or other format to approximate the appearance of the final printed piece.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.67
     },
     {
-      "task": "Examine finished plates and photographic images to detect flaws prior to printing.",
-      "task_type": "Supplemental"
+      "task": "Proofread and perform quality control of text and images.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.65
     },
     {
-      "task": "Operate and maintain laser plate-making equipment that converts electronic data to plates.",
-      "task_type": "Core"
+      "task": "Perform \"preflight\" check of required font, graphic, text and image files to ensure completeness prior to delivery to printer.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.52
     },
     {
-      "task": "Maintain, adjust, clean equipment, and perform minor repairs to ensure operational efficiency.",
-      "task_type": "Core"
+      "task": "Examine finished plates to detect flaws, verify conformity with master plates, and measure dot sizes and centers, using light boxes and microscopes.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.27
     },
     {
-      "task": "Enter, position, and alter text size using computers to arrange pages for printed materials.",
-      "task_type": "Core"
+      "task": "Examine unexposed photographic plates to detect flaws or foreign particles prior to printing.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.16
     },
     {
-      "task": "Determine standards and production goals based on company policies and equipment availability.",
-      "task_type": "Core"
+      "task": "Operate presses to print proofs of plates, monitoring printing quality to ensure that it is adequate.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.41
     },
     {
-      "task": "Interpret specifications, blueprints, and job orders for workers' guidance.",
-      "task_type": "Core"
+      "task": "Operate and maintain laser plate-making equipment that converts electronic data to plates without the use of film.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.46
     },
     {
-      "task": "Inspect materials and products to detect defects or malfunctions during production.",
-      "task_type": "Core"
+      "task": "Maintain, adjust, and clean equipment, and perform minor repairs.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.01
     },
     {
-      "task": "Plan and establish work schedules and production sequences to meet production goals.",
-      "task_type": "Core"
+      "task": "Enter, position, and alter text size, using computers, to make up and arrange pages so that printed materials can be produced.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.58
     },
     {
-      "task": "Conduct employee training in equipment operations and safety procedures.",
-      "task_type": "Core"
+      "task": "Interpret specifications, blueprints, job orders, and company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.04
     },
     {
-      "task": "Evaluate employee performance and recommend personnel actions based on evaluations.",
-      "task_type": "Core"
+      "task": "Maintain operations data, such as time, production, and cost records, and prepare management reports of production results.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.82
+    },
+    {
+      "task": "Requisition materials, supplies, equipment parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.72
+    },
+    {
+      "task": "Observe work and monitor gauges, dials, and other indicators to ensure that operators conform to production or processing standards.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.02
+    },
+    {
+      "task": "Set up and adjust machines and equipment.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.63
+    },
+    {
+      "task": "Inspect materials, products, or equipment to detect defects or malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.23
+    },
+    {
+      "task": "Read and analyze charts, work orders, production schedules, and other records and reports to determine production requirements and to evaluate current production estimates and outputs.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.22
+    },
+    {
+      "task": "Conduct employee training in equipment operations or work and safety procedures, or assign employee training to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.01
+    },
+    {
+      "task": "Enforce safety and sanitation regulations.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.48
     }
   ],
   "technology_skills": [
@@ -1686,6 +2384,10 @@
       "weight": 1.028888888888889
     },
     {
+      "name": "Adobe After Effects",
+      "weight": 1.011111111111111
+    },
+    {
       "name": "Autodesk AutoCAD",
       "weight": 0.9733333333333334
     },
@@ -1714,6 +2416,14 @@
       "weight": 0.9222222222222222
     },
     {
+      "name": "Microsoft Access",
+      "weight": 0.9177777777777778
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.9177777777777778
+    },
+    {
       "name": "Trimble SketchUp Pro",
       "weight": 0.9
     },
@@ -1738,12 +2448,40 @@
       "weight": 0.7666666666666667
     },
     {
+      "name": "SAP software",
+      "weight": 0.7511111111111112
+    },
+    {
       "name": "Autodesk AutoCAD Civil 3D",
       "weight": 0.7333333333333334
     },
     {
+      "name": "Adobe FreeHand MX",
+      "weight": 0.7222222222222222
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.6444444444444444
+    },
+    {
+      "name": "Python",
+      "weight": 0.6444444444444444
+    },
+    {
+      "name": "Adobe ActionScript",
+      "weight": 0.611111111111111
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.611111111111111
+    },
+    {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.611111111111111
+    },
+    {
+      "name": "JavaScript",
+      "weight": 0.611111111111111
     },
     {
       "name": "Dassault Systemes SolidWorks",
@@ -1754,11 +2492,59 @@
       "weight": 0.6000000000000001
     },
     {
+      "name": "C",
+      "weight": 0.5666666666666667
+    },
+    {
       "name": "Computer aided design and drafting CADD software",
       "weight": 0.5666666666666667
     },
     {
+      "name": "Adobe FrameMaker",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "QuarkXPress",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "C++",
+      "weight": 0.5333333333333333
+    },
+    {
+      "name": "Adobe LiveMotion",
+      "weight": 0.5111111111111111
+    },
+    {
+      "name": "Corel Paint Shop Pro",
+      "weight": 0.47777777777777775
+    },
+    {
+      "name": "UNIX",
+      "weight": 0.47777777777777775
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Cascading style sheets CSS",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Corel Painter",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "PHP",
+      "weight": 0.4444444444444444
+    },
+    {
       "name": "Web browser software",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "jQuery",
       "weight": 0.4444444444444444
     },
     {
@@ -1774,12 +2560,212 @@
       "weight": 0.4
     },
     {
+      "name": "Bill of materials software",
+      "weight": 0.4
+    },
+    {
+      "name": "Document management system software",
+      "weight": 0.4
+    },
+    {
+      "name": "ERP software",
+      "weight": 0.4
+    },
+    {
+      "name": "ESRI ArcGIS software",
+      "weight": 0.4
+    },
+    {
+      "name": "Geographic information system GIS systems",
+      "weight": 0.4
+    },
+    {
+      "name": "Graphic presentation software",
+      "weight": 0.4
+    },
+    {
       "name": "McNeel Rhinoceros 3D",
       "weight": 0.4
     },
     {
+      "name": "Motion graphics software",
+      "weight": 0.4
+    },
+    {
+      "name": "Non uniform rational b-splines NURBS software",
+      "weight": 0.4
+    },
+    {
+      "name": "PTC Pro/Cable",
+      "weight": 0.4
+    },
+    {
+      "name": "Piping and instrumentation design PID software",
+      "weight": 0.4
+    },
+    {
+      "name": "Scanning software",
+      "weight": 0.4
+    },
+    {
+      "name": "SofTech CADRA",
+      "weight": 0.4
+    },
+    {
+      "name": "UGS Solid Edge",
+      "weight": 0.4
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.38888888888888884
+    },
+    {
+      "name": "AutoDesSys form Z",
+      "weight": 0.3666666666666667
+    },
+    {
+      "name": "Autodesk 3ds Max",
+      "weight": 0.3666666666666667
+    },
+    {
+      "name": "Microsoft Paint",
+      "weight": 0.3666666666666667
+    },
+    {
       "name": "Operating system software",
       "weight": 0.35111111111111115
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.3511111111111111
+    },
+    {
+      "name": "Word processing software",
+      "weight": 0.3511111111111111
+    },
+    {
+      "name": "AJAX",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe ImageReady",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe Premiere Pro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Apple Final Cut Pro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Autodesk Maya",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Drupal",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dynamic hypertext markup language DHTML",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Extensible hypertext markup language XHTML",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Figma",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Maxon Cinema 4D",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Perforce Helix software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pixologic Zbrush",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Serif DrawPlus",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Unity Technologies Unity",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Unreal Technology Unreal Engine",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Perl",
+      "weight": 0.3111111111111111
+    },
+    {
+      "name": "Adobe Director",
+      "weight": 0.2777777777777778
+    },
+    {
+      "name": "Corel Photo-Paint",
+      "weight": 0.2777777777777778
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.2777777777777778
+    },
+    {
+      "name": "Inkscape",
+      "weight": 0.2777777777777778
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.2777777777777778
+    },
+    {
+      "name": "Nuance OmniPage Professional",
+      "weight": 0.2777777777777778
+    },
+    {
+      "name": "Xara Designer Pro",
+      "weight": 0.2777777777777778
+    },
+    {
+      "name": "Bowen & Groves M1 ERP",
+      "weight": 0.24000000000000002
+    },
+    {
+      "name": "Database software",
+      "weight": 0.24000000000000002
+    },
+    {
+      "name": "Epicor Vantage ERP",
+      "weight": 0.24000000000000002
+    },
+    {
+      "name": "Supervisory control and data acquisition SCADA software",
+      "weight": 0.24000000000000002
     },
     {
       "name": "Email software",
@@ -1788,6 +2774,26 @@
     {
       "name": "Google Chrome",
       "weight": 0.20666666666666667
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.20666666666666667
+    },
+    {
+      "name": "100 Plus Hatch Pattern Library",
+      "weight": 0.2
+    },
+    {
+      "name": "ARCOM Masterspec",
+      "weight": 0.2
+    },
+    {
+      "name": "Alias Wavefront Design Studio",
+      "weight": 0.2
+    },
+    {
+      "name": "Animation software",
+      "weight": 0.2
     },
     {
       "name": "Autodesk 3d Studio Viz",
@@ -1810,7 +2816,95 @@
       "weight": 0.2
     },
     {
+      "name": "Autodesk Softdesk",
+      "weight": 0.2
+    },
+    {
+      "name": "Aveva Group Plant Design Management System PDMS",
+      "weight": 0.2
+    },
+    {
+      "name": "Bentley AutoPLANT",
+      "weight": 0.2
+    },
+    {
+      "name": "Bentley GeoPak Bridge",
+      "weight": 0.2
+    },
+    {
+      "name": "Bentley I/RAS B",
+      "weight": 0.2
+    },
+    {
+      "name": "Bentley Navigator",
+      "weight": 0.2
+    },
+    {
+      "name": "Bentley PlantSpace SupportModeler",
+      "weight": 0.2
+    },
+    {
+      "name": "Bentley Systems InRoads Suite",
+      "weight": 0.2
+    },
+    {
+      "name": "Bentley Systems ProjectWise",
+      "weight": 0.2
+    },
+    {
+      "name": "Bentley WaterCAD",
+      "weight": 0.2
+    },
+    {
+      "name": "Boundary survey software",
+      "weight": 0.2
+    },
+    {
+      "name": "COADE CADWorx P&ID",
+      "weight": 0.2
+    },
+    {
+      "name": "Cadence OrCAD software",
+      "weight": 0.2
+    },
+    {
+      "name": "Cadence PSpice",
+      "weight": 0.2
+    },
+    {
+      "name": "Cadence Virtuoso Layout Suite",
+      "weight": 0.2
+    },
+    {
       "name": "Computer assisted design software",
+      "weight": 0.2
+    },
+    {
+      "name": "Design specification database software",
+      "weight": 0.2
+    },
+    {
+      "name": "Digitizing and photogrammetric software",
+      "weight": 0.2
+    },
+    {
+      "name": "ENERCALC FastFrame",
+      "weight": 0.2
+    },
+    {
+      "name": "ESRI ArcView",
+      "weight": 0.2
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.2
+    },
+    {
+      "name": "Exact Software Macola ERP",
+      "weight": 0.2
+    },
+    {
+      "name": "Geomechanical design analysis GDA software",
       "weight": 0.2
     },
     {
@@ -1818,11 +2912,463 @@
       "weight": 0.2
     },
     {
+      "name": "IBM Lotus Notes",
+      "weight": 0.2
+    },
+    {
+      "name": "Intergraph INtools",
+      "weight": 0.2
+    },
+    {
+      "name": "Intergraph Image Analyst",
+      "weight": 0.2
+    },
+    {
+      "name": "Landscape modeling software",
+      "weight": 0.2
+    },
+    {
+      "name": "Linux",
+      "weight": 0.2
+    },
+    {
+      "name": "Linux Virtual Server",
+      "weight": 0.2
+    },
+    {
+      "name": "Logitech 3D Pro",
+      "weight": 0.2
+    },
+    {
+      "name": "Made2Manage Systems M2M ERP",
+      "weight": 0.2
+    },
+    {
+      "name": "Manufacturing resource planning MRP software",
+      "weight": 0.2
+    },
+    {
+      "name": "MathWorks Simulink",
+      "weight": 0.2
+    },
+    {
+      "name": "Mentor Graphics Expedition Enterprise",
+      "weight": 0.2
+    },
+    {
+      "name": "Mentor Graphics PADS",
+      "weight": 0.2
+    },
+    {
+      "name": "Mentor Graphics Xpedition xDX Designer",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft .NET Framework",
+      "weight": 0.2
+    },
+    {
       "name": "OpenRoads Designer",
       "weight": 0.2
     },
     {
+      "name": "Oracle JD Edwards EnterpriseOne Project Management",
+      "weight": 0.2
+    },
+    {
+      "name": "PEDYN P2000",
+      "weight": 0.2
+    },
+    {
+      "name": "PTC Pro/INTRALINK",
+      "weight": 0.2
+    },
+    {
+      "name": "PTC Pro/Pipe",
+      "weight": 0.2
+    },
+    {
+      "name": "PTC Windchill",
+      "weight": 0.2
+    },
+    {
+      "name": "Programmable logic controller PLC software",
+      "weight": 0.2
+    },
+    {
+      "name": "Rapid prototyping software",
+      "weight": 0.2
+    },
+    {
+      "name": "Reverse engineering software",
+      "weight": 0.2
+    },
+    {
+      "name": "SKM Systems Analysis Power Tools",
+      "weight": 0.2
+    },
+    {
+      "name": "Sage ERP Accpac",
+      "weight": 0.2
+    },
+    {
+      "name": "Siemens Solid Edge",
+      "weight": 0.2
+    },
+    {
+      "name": "Simulation program with integrated circuit emphasis SPICE",
+      "weight": 0.2
+    },
+    {
+      "name": "SoftBrands Fourth Shift Edition",
+      "weight": 0.2
+    },
+    {
+      "name": "Softimage Extreme",
+      "weight": 0.2
+    },
+    {
+      "name": "Specification software",
+      "weight": 0.2
+    },
+    {
+      "name": "SpecsInTact",
+      "weight": 0.2
+    },
+    {
+      "name": "Tekla software",
+      "weight": 0.2
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 0.2
+    },
+    {
+      "name": "Three-dimensional modeling software",
+      "weight": 0.2
+    },
+    {
+      "name": "Three-dimensional scanning software",
+      "weight": 0.2
+    },
+    {
+      "name": "Tool command language Tcl",
+      "weight": 0.2
+    },
+    {
+      "name": "Topographic map software",
+      "weight": 0.2
+    },
+    {
+      "name": "VectorWorks ARCHITECT",
+      "weight": 0.2
+    },
+    {
+      "name": "Zuken CADSTAR",
+      "weight": 0.2
+    },
+    {
+      "name": "ACD Systems Canvas",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ability Photopaint",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe AIR",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe ColdFusion",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe Distiller",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe Flex",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe Macromedia HomeSite",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ambient Design ArtRage",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Apple DrawBerry",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Apple iMovie",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Apple iWork Keynote",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Aqsis Renderer",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "ArtScope.net eArtist",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "AutoQ3D",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Autodesk 3D Studio Design",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Autodesk 3ds Max Design",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Autodesk Alias Design",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Autodesk Alias Surface",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Autodesk Combustion",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Autodesk MotionBuilder",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Autodesk Mudbox",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Autodesk SketchBook Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Autodesk SoftImage",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Avid Pro Tools",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Blender",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bohemian Coding DrawIt",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bunkspeed HyperDrive",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bunkspeed HyperMove",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "C#",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Caligari Corporation trueSpace",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Camp Software Art Licensing Manager",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Celsys RETAS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Chaos Group V-Ray",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Character Studio",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cheetah3D",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Code Line Art Files",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Code libraries",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Component libraries",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Crytek CryEngine",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cybermotion 3D Designer",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "DAZ Productions Bryce",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "DAZ Productions Carrara",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "DX Studio",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electric Rain Swift 3D Xpress",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "FileMaker Bento",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Freeverse Lineform",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "GYST",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Google Ads",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Google Docs",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Google Drive",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Google Sites",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "HASH Animation:Master",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Indigo Renderer",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Inivis AC3D",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Luxology Modo",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Luxrender",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "MagicTracer",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Massive Jet",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "MaxScript",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Maxon BodyPaint 3D",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Maya Embedded Language MEL",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mental Images Mental Ray",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Expression Design",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Silverlight",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "NVDIA Gelato",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Nevercenter Silo",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "NewTek Lightwave 3D",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Next Limit Maxwell Render",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "NodeBox",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Object-oriented programming languages",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oracle JavaServer Pages JSP",
       "weight": 0.16666666666666666
     },
     {
@@ -1830,7 +3376,235 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Paintbrush",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pixar RenderMan Studio",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pixarra TwistedBrush",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pixelmator",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Quad Software Grome",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "RealFlow",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Satori Paint",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Side Effects Software Houdini",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SideFX Houdini",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SignCAD Systems SignCAD",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Skencil",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SmithMicro Anime Studio",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SmithMicro Manga Studio",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SmithMicro SoftwarePoser",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SplutterFish Brazil",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sunflow Render System",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "TechSmith Camtasia",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Three-dimensional graphics software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Trapcode Particular",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Twitter",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Two-dimensional graphics software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "VectorDesigner",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "WeVideo",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "WordPress",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "WorkingArtist Systems WorkingArtist",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "XML User Interface XUI",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Xara Designer Pro X",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "e-on software Vue",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "sK1",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "solidThinking",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Actuate DocBook",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Adobe LifeCycle Enterprise Suite",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Adobe PostScript",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "AlgoLab Raster to Vector Conversion Toolkit",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Apple AppleScript",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Apple iPhoto",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Arts & Letters Express",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Cenon",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "CodedColor",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Color management software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel CorelScan",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel OCR-Trace 8",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel Ventura",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel WebDraw",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Data conversion software",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Desktop publishing software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "EMC Documentum",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Esko ArtPro",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "File transfer protocol FTP software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Finite Matters PatternStream",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "GNU Image Manipulation Program GIMP",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "GTX RastorCAD",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Global Graphics Software Harlequin",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Graphics card driver software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "GrassHopper PageStream",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hamrick Software VueScan",
       "weight": 0.1111111111111111
     },
     {
@@ -1838,11 +3612,275 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "LaTeX",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "LaserSoft Imaging SilverFast Ai Studio",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft Picture It!",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Multi-line optical character reader OCR software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "MySQL",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Nuance Dragon NaturallySpeaking",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Objectif Lune PlanetPress Suite",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Online image and graphics database software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "OpenOffice.org",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oracle Java",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "PANTONE ColorVision ProfilerPlus",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Portable document file creation software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Potrace",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Printer driver software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "ProjectSend",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Raster graphics editors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scalable vector graphics SVG",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scribus",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Serif PagePlus",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Social media software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Spelling and grammar checking software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sun Microsystems Java",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Trix TracTrix",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ulead PhotoImpact",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Vector drawing software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Virtual private networking VPN software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "WordWeb",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Apple Safari",
+      "weight": 0.04
+    },
+    {
+      "name": "Apple iWork Pages",
+      "weight": 0.04
+    },
+    {
+      "name": "Aptean Made2Manage",
+      "weight": 0.04
+    },
+    {
+      "name": "Capterra Enterprise Resource Planning",
+      "weight": 0.04
+    },
+    {
       "name": "Computer aided design CAD software",
       "weight": 0.04
     },
     {
+      "name": "Computer aided manufacturing CAM software",
+      "weight": 0.04
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.04
+    },
+    {
+      "name": "Encompix ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vista ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Exact MAX",
+      "weight": 0.04
+    },
+    {
+      "name": "GHG Clockwise",
+      "weight": 0.04
+    },
+    {
+      "name": "Giraffe Production Systems Giraffe Schedule System",
+      "weight": 0.04
+    },
+    {
+      "name": "HCSS HeavyJob",
+      "weight": 0.04
+    },
+    {
+      "name": "Intacct ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Integrated materials management systems",
+      "weight": 0.04
+    },
+    {
+      "name": "Inventory management software",
+      "weight": 0.04
+    },
+    {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.04
+    },
+    {
+      "name": "Materials management software",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Axapta",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Total Quality Control Management",
+      "weight": 0.04
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.04
+    },
+    {
       "name": "Mozilla Firefox",
+      "weight": 0.04
+    },
+    {
+      "name": "NetSuite NetERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Operational databases",
+      "weight": 0.04
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.04
+    },
+    {
+      "name": "QA Software QMS Materials Management",
+      "weight": 0.04
+    },
+    {
+      "name": "Resource planning software",
+      "weight": 0.04
+    },
+    {
+      "name": "Retain Resource Planning",
+      "weight": 0.04
+    },
+    {
+      "name": "SAP Business One",
+      "weight": 0.04
+    },
+    {
+      "name": "SYSPRO business software",
+      "weight": 0.04
+    },
+    {
+      "name": "Spreadsheet software",
+      "weight": 0.04
+    },
+    {
+      "name": "Technology Group International Enterprise 21 ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.04
+    },
+    {
+      "name": "Total quality management TQM software",
+      "weight": 0.04
+    },
+    {
+      "name": "Work Technology WorkTech Time",
       "weight": 0.04
     }
   ],
@@ -1920,18 +3958,6 @@
       "weight": 0.4
     },
     {
-      "name": "Sonic digitizers",
-      "weight": 0.4
-    },
-    {
-      "name": "Three-dimensional laser digitizers",
-      "weight": 0.4
-    },
-    {
-      "name": "Three-dimensional motion controllers",
-      "weight": 0.4
-    },
-    {
       "name": "Triangles",
       "weight": 0.4
     },
@@ -1972,8 +3998,12 @@
       "weight": 0.2
     },
     {
-      "name": "Three-dimensional stereoscopic projectors",
-      "weight": 0.2
+      "name": "35 millimeter cameras",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Camera lenses",
+      "weight": 0.16666666666666666
     },
     {
       "name": "Computer data input scanners",
@@ -1992,7 +4022,47 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Graduated measuring cylinders",
+      "name": "Digital cameras",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital pens",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital scales",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital viscosometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dust masks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Edging tools",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Enlarger timers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Heat resistant gloves",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Lens filters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Panoramic digital cameras",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Photo enlargers",
       "weight": 0.16666666666666666
     },
     {
@@ -2004,11 +4074,55 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Photography tripods",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Print squeegees",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Processing trays",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Protective safety glasses",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Remote firing flashes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Round hole punches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Single lens reflex SLR cameras",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Stationary lighting systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Strobe flashes",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Tablet computers",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Tool sharpening stones",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Triple beam scales",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Utility knives",
       "weight": 0.16666666666666666
     },
     {
@@ -2020,6 +4134,10 @@
       "weight": 0.1511111111111111
     },
     {
+      "name": "Automated film processors",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Commercial digital plotters",
       "weight": 0.1111111111111111
     },
@@ -2028,7 +4146,19 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Compact disk CD duplicators",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Digital printing presses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital still cameras",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital video disk DVD duplicators",
       "weight": 0.1111111111111111
     },
     {
@@ -2040,12 +4170,64 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Flexographic plate processors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Gravure cylinder engravers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Lithographic plate processors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Newspaper platesetters",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Pen tablets",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Plate stackers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Printing densitometers",
       "weight": 0.1111111111111111
     },
     {
       "name": "Scanners",
       "weight": 0.1111111111111111
+    },
+    {
+      "name": "Thermal platesetters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Laser scanners",
+      "weight": 0.04
+    },
+    {
+      "name": "Operator terminals",
+      "weight": 0.04
+    },
+    {
+      "name": "Personal protective clothing",
+      "weight": 0.04
+    },
+    {
+      "name": "Respirators",
+      "weight": 0.04
+    },
+    {
+      "name": "Safety glasses",
+      "weight": 0.04
+    },
+    {
+      "name": "Safety shoes",
+      "weight": 0.04
     }
   ],
   "detailed_work_activities": [

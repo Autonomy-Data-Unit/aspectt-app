@@ -1544,172 +1544,1396 @@
   ],
   "tasks": [
     {
-      "task": "Analyze and process evidence at crime scenes, during autopsies, or in the laboratory, wearing protective equipment and using powders and chemicals.",
-      "task_type": "Core"
+      "task": "Create sketches and diagrams, by hand or computer software, to depict crime scenes.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.62
     },
     {
-      "task": "Analyze intelligence data to identify patterns and trends in criminal activity and prepare comprehensive written reports based on research and analysis.",
-      "task_type": "Core"
+      "task": "Identify, compare, classify, and file fingerprints, using systems such as Automated Fingerprint Identification System (AFIS) or the Henry Classification System.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.26
     },
     {
-      "task": "Organize scene search, assigning specific tasks and areas of search to officers while ensuring evidence preservation and documentation of the scene.",
-      "task_type": "Core"
+      "task": "Analyze intelligence data to identify patterns and trends in criminal activity.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.35
     },
     {
-      "task": "Conduct presentations of analytic findings and testify in court, presenting evidence and providing insights from investigations.",
-      "task_type": "Core"
+      "task": "Study communication code languages or foreign languages to translate intelligence.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.0
     },
     {
-      "task": "Interview survivors, witnesses, and suspects to obtain facts, statements, and additional insights about incidents or criminal activities.",
-      "task_type": "Core"
+      "task": "Conduct presentations of analytic findings.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.62
     },
     {
-      "task": "Evaluate records of communications to identify criminal group activities and validate intelligence with data from other sources to establish connections.",
-      "task_type": "Core"
+      "task": "Check victims for signs of life, such as breathing and pulse.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.59
     },
     {
-      "task": "Maintain surveillance of establishments to collect identifying information on suspects and gather intelligence through field observations.",
-      "task_type": "Core"
+      "task": "Obtain facts or statements from complainants, witnesses, and accused persons and record interviews, using recording device.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.55
     },
     {
-      "task": "Supervise and coordinate the investigation of criminal cases, offering guidance to investigators and ensuring investigations comply with legal standards.",
-      "task_type": "Core"
+      "task": "Secure deceased body and obtain evidence from it, preventing bystanders from tampering with it prior to medical examiner's arrival.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.55
     },
     {
-      "task": "Develop, implement, and review departmental policies, ensuring adherence to legal requirements and effective operational procedures.",
-      "task_type": "Supplemental"
+      "task": "Record progress of investigation, maintain informational files on suspects, and submit reports to commanding officer or magistrate to authorize warrants.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.54
     },
     {
-      "task": "Plan, direct, and coordinate operational activities across multiple departments, ensuring resource utilization and compliance with management directives.",
-      "task_type": "Core"
+      "task": "Prepare charges or responses to charges, or information for court cases, according to formalized procedures.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.53
     },
     {
-      "task": "Conduct risk assessments related to sustainability and develop plans that outline procedures for responses to emergencies or crises.",
-      "task_type": "Core"
+      "task": "Maintain records of evidence and write and review reports.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.49
+    },
+    {
+      "task": "Obtain summary of incident from officer in charge at crime scene, taking care to avoid disturbing evidence.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.49
+    },
+    {
+      "task": "Study activities relating to narcotics, money laundering, gangs, auto theft rings, terrorism, or other national security threats.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.83
+    },
+    {
+      "task": "Design, use, or maintain databases and software applications, such as geographic information systems (GIS) mapping and artificial intelligence tools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.05
+    },
+    {
+      "task": "Gather and evaluate information, using tools such as aerial photographs, radar equipment, or sensitive radio equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.95
+    },
+    {
+      "task": "Gather intelligence information by field observation, confidential information sources, or public records.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
+    },
+    {
+      "task": "Develop defense plans or tactics, using intelligence and other information.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.64
+    },
+    {
+      "task": "Prepare comprehensive written reports, presentations, maps, or charts, based on research, collection, and analysis of intelligence data.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.26
+    },
+    {
+      "task": "Prepare plans to intercept foreign communications transmissions.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.1
+    },
+    {
+      "task": "Preserve, process, and analyze items of evidence obtained from crime scenes and suspects, placing them in proper containers and destroying evidence no longer needed.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.52
+    },
+    {
+      "task": "Identify case issues and evidence needed, based on analysis of charges, complaints, or allegations of law violations.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.22
+    },
+    {
+      "task": "Testify in court and present evidence.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
+    },
+    {
+      "task": "Examine records and governmental agency files to find identifying data about suspects.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.45
+    },
+    {
+      "task": "Perform emergency work during off-hours.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.88
+    },
+    {
+      "task": "Prepare and serve search and arrest warrants.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.37
+    },
+    {
+      "task": "Participate or assist in raids and arrests.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.31
+    },
+    {
+      "task": "Organize scene search, assigning specific tasks and areas of search to individual officers and obtaining adequate lighting as necessary.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.3
+    },
+    {
+      "task": "Summon medical help for injured individuals and alert medical personnel to take statements from them.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.29
+    },
+    {
+      "task": "Notify command of situation and request assistance.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.25
+    },
+    {
+      "task": "Block or rope off scene and check perimeter to ensure that entire scene is secured.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.24
+    },
+    {
+      "task": "Notify, or request notification of, medical examiner or district attorney representative.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.22
+    },
+    {
+      "task": "Maintain surveillance of establishments to obtain identifying information on suspects.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.17
+    },
+    {
+      "task": "Collaborate with other offices and agencies to exchange information and coordinate activities.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.19
+    },
+    {
+      "task": "Perform undercover assignments and maintain surveillance, including monitoring authorized wiretaps.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.94
+    },
+    {
+      "task": "Note, mark, and photograph location of objects found, such as footprints, tire tracks, bullets and bloodstains, and take measurements of the scene.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.48
+    },
+    {
+      "task": "Maintain and update all resource materials associated with emergency preparedness plans.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.36
+    },
+    {
+      "task": "Coordinate disaster response or crisis management activities, such as ordering evacuations, opening public shelters, and implementing special needs plans and programs.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.43
+    },
+    {
+      "task": "Keep informed of activities or changes that could affect the likelihood of an emergency, response efforts, or plan implementation.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
+    },
+    {
+      "task": "Develop and maintain liaisons with municipalities, county departments, and similar entities to facilitate plan development, response effort coordination, and exchanges of personnel and equipment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.48
+    },
+    {
+      "task": "Keep informed of federal, state, and local regulations affecting emergency plans, and ensure that plans adhere to those regulations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.0
+    },
+    {
+      "task": "Prepare emergency situation status reports that describe response and recovery efforts, needs, and preliminary damage assessments.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.36
+    },
+    {
+      "task": "Design and administer emergency or disaster preparedness training courses that teach people how to effectively respond to major emergencies and disasters.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.09
+    },
+    {
+      "task": "Inspect facilities and equipment, such as emergency management centers and communications equipment, to determine their operational and functional capabilities in emergency situations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
+    },
+    {
+      "task": "Consult with officials of local and area governments, schools, hospitals, and other institutions to determine their needs and capabilities in the event of a natural disaster or other emergency.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.64
+    },
+    {
+      "task": "Develop and perform tests and evaluations of emergency management plans in accordance with central and devolved government regulations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.14
+    },
+    {
+      "task": "Collaborate with other officials to prepare and analyze damage assessments following disasters or emergencies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.09
+    },
+    {
+      "task": "Develop instructional materials for the public and make presentations to citizens' groups to provide information on emergency plans and their implementation processes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.55
+    },
+    {
+      "task": "Train local groups in the preparation of long-term plans that are compatible with central and devolved government plans.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.38
+    },
+    {
+      "task": "Review emergency plans of individual organizations, such as medical facilities, to ensure their adequacy.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.0
+    },
+    {
+      "task": "Conduct surveys to determine the types of emergency-related needs to be addressed in disaster planning, or provide technical support to others conducting such surveys.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.9
+    },
+    {
+      "task": "Study emergency plans used elsewhere to gather information for plan development.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.09
+    },
+    {
+      "task": "Apply for government funding for emergency-management-related needs, and administer and report on the progress of such grants.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.45
+    },
+    {
+      "task": "Develop and implement training procedures and strategies for radiological protection, detection, and decontamination.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.77
+    },
+    {
+      "task": "Inventory and distribute nuclear, biological, and chemical detection and contamination equipment, providing instruction in its maintenance and use.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.67
+    },
+    {
+      "task": "Propose alteration of emergency response procedures, based on regulatory changes, technological changes, or knowledge gained from outcomes of previous emergency situations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.67
+    },
+    {
+      "task": "Prepare plans that outline operating procedures to be used in response to disasters or emergencies, such as hurricanes, nuclear accidents, and terrorist attacks, and in recovery from these events.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
+    },
+    {
+      "task": "Attend meetings, conferences, and workshops related to emergency management to learn new information and to develop working relationships with other emergency management specialists.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.86
+    },
+    {
+      "task": "Inform personnel of changes in regulations and policies, implications of new or amended laws, and new techniques of police work.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.09
+    },
+    {
+      "task": "Requisition and issue equipment and supplies.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.4
+    },
+    {
+      "task": "Inspect facilities, supplies, vehicles, and equipment to ensure conformance to standards.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.51
+    },
+    {
+      "task": "Review contents of written orders to ensure adherence to legal requirements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Prepare work schedules and assign duties to subordinates.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.18
+    },
+    {
+      "task": "Meet with civic, educational, and community groups to develop community programs and events, and to discuss law enforcement subjects.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.64
+    },
+    {
+      "task": "Develop, implement, and revise departmental policies and procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.64
+    },
+    {
+      "task": "Monitor and evaluate the job performance of subordinates, and authorize promotions and transfers.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.02
+    },
+    {
+      "task": "Direct release or transfer of prisoners.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.48
+    },
+    {
+      "task": "Prepare budgets and manage expenditures of department funds.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.13
+    },
+    {
+      "task": "Supervise and coordinate the investigation of criminal cases, offering guidance and expertise to investigators, and ensuring that procedures are conducted in accordance with laws and regulations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.28
+    },
+    {
+      "task": "Prepare news releases and respond to police correspondence.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.46
+    },
+    {
+      "task": "Write project proposals, grant applications, or other documents to pursue funding for environmental initiatives.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.33
+    },
+    {
+      "task": "Create and maintain sustainability program documents, such as schedules and budgets.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Conduct risk assessments related to sustainability and the environment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.13
+    },
+    {
+      "task": "Identify and evaluate pilot projects or programs to enhance the sustainability research agenda.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.88
+    },
+    {
+      "task": "Identify educational, training, or other development opportunities for sustainability employees or volunteers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.19
+    },
+    {
+      "task": "Represent organizations or promote their objectives at official functions, or delegate representatives to do so.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.42
+    },
+    {
+      "task": "Conduct or direct investigations or hearings to resolve complaints or violations of laws, or testify at such hearings.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
+    },
+    {
+      "task": "Organize or approve promotional campaigns.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.55
+    },
+    {
+      "task": "Attend and participate in meetings of municipal councils or council committees.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.59
+    },
+    {
+      "task": "Write and distribute financial or environmental impact reports.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.33
+    },
+    {
+      "task": "Negotiate or approve contracts or agreements with suppliers, distributors, central government or state agencies, or other organizational entities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.06
+    },
+    {
+      "task": "Supervise employees or volunteers working on sustainability projects.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.22
+    },
+    {
+      "task": "Coordinate the development or implementation of budgetary control systems, recordkeeping systems, or other administrative control processes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.8
+    },
+    {
+      "task": "Implement corrective action plans to solve organizational or departmental problems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Establish departmental responsibilities and coordinate functions among departments and sites.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
+    },
+    {
+      "task": "Review reports submitted by staff members to recommend approval or to suggest changes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.07
+    },
+    {
+      "task": "Appoint department heads or managers and assign or delegate responsibilities to them.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
+    },
+    {
+      "task": "Review and analyze legislation, laws, or public policy and recommend changes to promote or support interests of the general population or special groups.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
+    },
+    {
+      "task": "Direct human resources activities, including the approval of human resource plans or activities, the selection of directors or other high-level staff, or establishment or organization of major departments.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
+    },
+    {
+      "task": "Preside over, or serve on, boards of directors, management committees, or other governing boards.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Direct or conduct studies or research on issues affecting areas of responsibility.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.66
+    },
+    {
+      "task": "Review sustainability program objectives, progress, or status to ensure compliance with policies, standards, regulations, or laws.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.48
+    },
+    {
+      "task": "Formulate or implement sustainability campaign or marketing strategies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
+    },
+    {
+      "task": "Research environmental sustainability issues, concerns, or stakeholder interests.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
+    },
+    {
+      "task": "Evaluate and approve proposals for sustainability projects, considering factors such as cost effectiveness, technical feasibility, and integration with other initiatives.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.52
+    },
+    {
+      "task": "Develop sustainability reports, presentations, or proposals for supplier, employee, academia, media, government, public interest, or other groups.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Develop, or oversee the development of, sustainability evaluation or monitoring systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.33
+    },
+    {
+      "task": "Develop, or oversee the development of, marketing or outreach media for sustainability projects or events.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
+    },
+    {
+      "task": "Develop methodologies to assess the viability or success of sustainability initiatives.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.52
+    },
+    {
+      "task": "Monitor and evaluate effectiveness of sustainability programs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.38
+    },
+    {
+      "task": "Develop or execute strategies to address issues such as energy use, resource conservation, recycling, pollution reduction, waste elimination, transportation, education, and building design.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.37
+    },
+    {
+      "task": "Direct sustainability program operations to ensure compliance with environmental or governmental regulations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.65
     },
     {
       "task": "Direct or coordinate an organization's financial or budget activities to fund operations, maximize investments, or increase efficiency.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.52
     },
     {
-      "task": "Direct, plan, or implement policies, objectives, or activities of organizations or businesses to ensure continuing operations and increase productivity.",
-      "task_type": "Core"
+      "task": "Direct, plan, or implement policies, objectives, or activities of organizations or businesses to ensure continuing operations, to maximize returns on investments, or to increase productivity.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.24
     },
     {
-      "task": "Analyze operations to evaluate performance in meeting objectives and to identify areas for cost reduction or improvement.",
-      "task_type": "Core"
+      "task": "Analyze operations to evaluate performance of a company or its staff in meeting objectives or to determine areas of potential cost reduction, program improvement, or policy change.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
     },
     {
-      "task": "Confer with board members, officials, or staff to discuss issues, coordinate activities, or resolve problems.",
-      "task_type": "Core"
+      "task": "Nominate citizens to boards or commissions.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.07
     },
     {
-      "task": "Explain policies, rules, regulations, or laws to officials and individuals involved in organizational operations.",
-      "task_type": "Core"
+      "task": "Confer with board members, organization officials, or staff members to discuss issues, coordinate activities, or resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.32
     },
     {
-      "task": "Plan or direct activities that require coordination with other department managers.",
-      "task_type": "Core"
+      "task": "Administer programs for selection of sites, construction of buildings, or provision of equipment or supplies.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.51
     },
     {
-      "task": "Review financial statements or performance data to measure productivity or identify areas needing improvement.",
-      "task_type": "Core"
+      "task": "Refer major policy matters to elected representatives for final decisions.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.7
     },
     {
-      "task": "Develop relationships with environmental regulatory agencies to analyze potential impacts of proposed regulations.",
-      "task_type": "Core"
+      "task": "Make presentations to legislative or other government committees regarding policies, programs, or budgets.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
     },
     {
-      "task": "Monitor compliance systems and investigate compliance issues related to operational or safety procedures.",
-      "task_type": "Core"
+      "task": "Interpret and explain policies, rules, regulations, or laws to organizations, government or corporate officials, or individuals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
     },
     {
-      "task": "Train staff in regulatory policies and procedures to ensure compliance within the organization.",
-      "task_type": "Core"
+      "task": "Implement or oversee environmental management or sustainability programs addressing issues such as recycling, conservation, or waste management.",
+      "task_type": "Supplemental",
+      "relevance": 0.05555555555555555,
+      "importance": 3.1
     },
     {
-      "task": "Prepare management reports regarding compliance operations and progress, ensuring timely and accurate documentation.",
-      "task_type": "Core"
+      "task": "Review financial statements, sales or activity reports, or other performance data to measure productivity or goal achievement or to identify areas needing cost reduction or program improvement.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 4.18
     },
     {
-      "task": "Direct facility maintenance or repair to ensure safe and operational environments.",
-      "task_type": "Core"
+      "task": "Direct administrative activities directly related to making products or providing services.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 4.01
     },
     {
-      "task": "Supervise fitness or wellness specialists, such as fitness instructors, nutritionists, or health educators.",
-      "task_type": "Core"
+      "task": "Prepare staff work schedules and assign specific duties.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 3.98
+    },
+    {
+      "task": "Monitor suppliers to ensure that they efficiently and effectively provide needed goods or services within budgetary limits.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 3.44
+    },
+    {
+      "task": "Establish or implement departmental policies, goals, objectives, or procedures in conjunction with board members, organization officials, or staff members.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 3.74
+    },
+    {
+      "task": "Perform personnel functions, such as selection, training, or evaluation.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 3.79
+    },
+    {
+      "task": "Recommend locations for new facilities, or oversee the remodeling or renovating of current facilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.05555555555555555,
+      "importance": 2.79
+    },
+    {
+      "task": "Provide regulatory guidance to departments or development project teams regarding design, development, evaluation, or marketing of products.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.3
+    },
+    {
+      "task": "Formulate or implement regulatory affairs policies and procedures to ensure that regulatory compliance is maintained or enhanced.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.0
+    },
+    {
+      "task": "Direct the preparation and submission of regulatory agency applications, reports, or correspondence.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.48
+    },
+    {
+      "task": "Communicate regulatory information to multiple departments and ensure that information is interpreted correctly.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.13
+    },
+    {
+      "task": "Establish regulatory priorities or budgets and allocate resources and workloads.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.77
+    },
+    {
+      "task": "Implement or monitor complaint processing systems to ensure effective and timely resolution of all complaint investigations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.83
+    },
+    {
+      "task": "Interview and hire associates to fill staff vacancies.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.19
+    },
+    {
+      "task": "Maintain current knowledge of relevant regulations, including proposed and final rules.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.09
+    },
+    {
+      "task": "Plan programs of events or schedules of activities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.36
+    },
+    {
+      "task": "Talk to customers to convey information about events or activities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.14
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.79
+    },
+    {
+      "task": "Store and retrieve equipment, such as vehicles, radios, and ride components.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.78
+    },
+    {
+      "task": "Talk to coworkers using electronic devices, such as computers and radios.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.34
+    },
+    {
+      "task": "Train workers in company procedures or policy.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.77
+    },
+    {
+      "task": "Identify and apply for project funding.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.24
+    },
+    {
+      "task": "Participate in continuing education classes to maintain current knowledge of industry.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.9
+    },
+    {
+      "task": "Maintain client databases.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.54
+    },
+    {
+      "task": "Direct facility maintenance or repair.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.81
+    },
+    {
+      "task": "Verify staff credentials, such as educational and certification requirements.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.76
+    },
+    {
+      "task": "Respond to customer inquiries or complaints.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.69
+    },
+    {
+      "task": "Manage activities such as audits, regulatory agency inspections, or product recalls.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.19
+    },
+    {
+      "task": "Monitor regulatory affairs trends related to environmental issues.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.19
+    },
+    {
+      "task": "Advise technical professionals on the development or use of environmental compliance or reporting tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.83
+    },
+    {
+      "task": "Conduct environmental audits to ensure adherence to environmental standards.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.69
+    },
+    {
+      "task": "Direct environmental programs, such as air or water compliance, aboveground or underground storage tanks, spill prevention or control, hazardous waste or materials management, solid waste recycling, medical waste management, indoor air quality, integrated pest management, employee training, or disaster preparedness.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.38
+    },
+    {
+      "task": "Evaluate testing procedures to meet the specifications of environmental monitoring programs.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.63
+    },
+    {
+      "task": "Review or modify policies or operating guidelines to comply with changes to environmental standards or regulations.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.63
+    },
+    {
+      "task": "Track cost-containment strategies and programs to evaluate effectiveness.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.65
+    },
+    {
+      "task": "Use computer skills and software to manage Web sites or databases, publish newsletters, or provide webinars.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.36
+    },
+    {
+      "task": "Direct the development or implementation of policies and procedures related to compliance throughout an organization.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.96
+    },
+    {
+      "task": "Keep informed regarding pending industry changes, trends, or best practices.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.0
+    },
+    {
+      "task": "Verify that all regulatory policies and procedures have been documented, implemented, and communicated.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.08
+    },
+    {
+      "task": "Discuss emerging compliance issues to ensure that management and employees are informed about compliance reporting systems, policies, and practices.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.37
+    },
+    {
+      "task": "Direct documentation efforts to ensure compliance with domestic and international regulations and standards.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.96
+    },
+    {
+      "task": "Develop relationships with state or central government environmental regulatory agencies to learn about and analyze the potential impacts of proposed environmental policy regulations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.26
+    },
+    {
+      "task": "Establish procedures or systems for publishing document submissions in hardcopy or electronic formats.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.78
+    },
+    {
+      "task": "Represent organizations before domestic or international regulatory agencies on major policy matters or decisions regarding company products.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.36
+    },
+    {
+      "task": "Review all regulatory agency submission materials to ensure timeliness, accuracy, comprehensiveness, or compliance with regulatory standards.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.61
+    },
+    {
+      "task": "Train staff in regulatory policies or procedures.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.74
+    },
+    {
+      "task": "Contribute to the development or implementation of business unit strategic and operating plans.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.48
+    },
+    {
+      "task": "Coordinate internal discoveries and depositions with legal department staff.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.44
+    },
+    {
+      "task": "Develop and maintain standard operating procedures or local working practices.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.74
+    },
+    {
+      "task": "Inspect equipment, such as rides, games, and vehicles, to detect wear and damage.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.8
+    },
+    {
+      "task": "Develop risk management strategies based on assessment of product, compliance, or operational risks.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 4.05
+    },
+    {
+      "task": "Calculate and record department expenses and revenue.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.19
+    },
+    {
+      "task": "Administer first aid in emergency situations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.05
+    },
+    {
+      "task": "Oversee internal reporting systems, such as corporate compliance hotlines.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.56
+    },
+    {
+      "task": "Monitor operations to ensure compliance with applicable health, safety, or hygiene standards.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.16
+    },
+    {
+      "task": "Visit stores to ensure compliance with company policies and procedures.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.8
+    },
+    {
+      "task": "Disseminate written policies and procedures related to compliance activities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.03
+    },
+    {
+      "task": "File appropriate compliance reports with regulatory agencies.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.27
+    },
+    {
+      "task": "Design or implement improvements in communication, monitoring, or enforcement of compliance standards.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.92
+    },
+    {
+      "task": "Conduct periodic internal reviews or audits to ensure that compliance procedures are followed.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.0
+    },
+    {
+      "task": "Conduct or direct the internal investigation of compliance issues.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.11
+    },
+    {
+      "task": "Provide recommendations and solutions in crisis situations such as workplace violence, protests, and demonstrations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.05
+    },
+    {
+      "task": "Monitor and review paperwork procedures and systems to prevent error-related shortages.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.3
+    },
+    {
+      "task": "Maintain databases such as bad check logs, reports on multiple offenders, and alarm activation lists.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 2.84
+    },
+    {
+      "task": "Investigate or interview individuals suspected of shoplifting or internal theft.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.2
+    },
+    {
+      "task": "Direct installation of covert surveillance equipment, such as security cameras.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.39
+    },
+    {
+      "task": "Verify correct use and maintenance of physical security systems, such as closed-circuit television, merchandise tags, and burglar alarms.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.81
+    },
+    {
+      "task": "Monitor compliance systems to ensure their effectiveness.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.97
+    },
+    {
+      "task": "Supervise surveillance, detection, or criminal processing related to theft and criminal cases.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.65
+    },
+    {
+      "task": "Recommend improvements in loss prevention programs, staffing, scheduling, or training.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.52
+    },
+    {
+      "task": "Maintain documentation of all loss prevention activity.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.86
+    },
+    {
+      "task": "Coordinate theft and fraud investigations involving career criminals or organized group activities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.7
+    },
+    {
+      "task": "Develop and maintain partnerships with federal, state, or local law enforcement agencies or members of the retail loss prevention community.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.9
+    },
+    {
+      "task": "Coordinate or conduct internal investigations of problems such as employee theft and violations of corporate loss prevention policies.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.38
+    },
+    {
+      "task": "Collaborate with law enforcement to investigate and solve external theft or fraud cases.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.71
+    },
+    {
+      "task": "Assess security needs across locations to ensure proper deployment of loss prevention resources, such as staff and technology.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.85
+    },
+    {
+      "task": "Identify compliance issues that require follow-up or investigation.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.41
+    },
+    {
+      "task": "Prepare management reports regarding compliance operations and progress.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.02
+    },
+    {
+      "task": "Monitor compliance to operational, safety, or inventory control procedures, including physical security standards.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.81
+    },
+    {
+      "task": "Select or supervise contractors, such as event hosts or health, fitness, and wellness practitioners.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.68
+    },
+    {
+      "task": "Respond to customer, public, or media requests for information about wellness programs or services.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.35
+    },
+    {
+      "task": "Prepare or implement budgets and strategic, operational, purchasing, or maintenance plans.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.04
+    },
+    {
+      "task": "Organize and oversee events such as organized runs or walks.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.16
+    },
+    {
+      "task": "Provide assistance to internal or external auditors in compliance reviews.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.85
+    },
+    {
+      "task": "Supervise employees or subcontractors to ensure quality of work or adherence to safety regulations or policies.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.51
+    },
+    {
+      "task": "Train or coordinate the training of employees in operations, safety, environmental issues, or technical issues.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.27
+    },
+    {
+      "task": "Maintain operations records, such as work orders, site inspection forms, or other documentation.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.02
+    },
+    {
+      "task": "Prepare and submit budget estimates, progress reports, or cost tracking reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Review or evaluate proposals or bids to make recommendations regarding awarding of contracts.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.62
     },
     {
       "task": "Develop or coordinate fitness and wellness programs or services.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.42
     },
     {
-      "task": "Serve as a confidential point of contact for employees to communicate with management about issues or report irregularities.",
-      "task_type": "Core"
+      "task": "Verify that software technology is in place to adequately provide oversight and monitoring in all required areas.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.43
+    },
+    {
+      "task": "Serve as a confidential point of contact for employees to communicate with management, seek clarification on issues or dilemmas, or report irregularities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.09
     },
     {
       "task": "Maintain documentation of compliance activities, such as complaints received or investigation outcomes.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.24
     },
     {
-      "task": "Consult with corporate attorneys as necessary to address complex legal compliance issues.",
-      "task_type": "Core"
+      "task": "Consult with corporate attorneys as necessary to address difficult legal compliance issues.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.16
     },
     {
-      "task": "Collaborate with HR departments to ensure consistent disciplinary actions for compliance standard violations.",
-      "task_type": "Core"
+      "task": "Collaborate with human resources departments to ensure the implementation of consistent disciplinary action strategies in cases of compliance standard violations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.76
     },
     {
-      "task": "Advise management on the implementation or operation of compliance programs.",
-      "task_type": "Core"
+      "task": "Advise internal management or business partners on the implementation or operation of compliance programs.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.94
     },
     {
-      "task": "Provide employee training on compliance-related topics, policies, or procedures.",
-      "task_type": "Core"
+      "task": "Report violations of compliance or regulatory standards to duly authorized enforcement agencies as appropriate or required.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.5
     },
     {
-      "task": "Report violations of compliance or regulatory standards to the appropriate enforcement agencies as required.",
-      "task_type": "Core"
+      "task": "Identify potential for loss and develop strategies to eliminate it.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.05
     },
     {
-      "task": "Identify environmental contamination sources and develop strategies to eliminate associated risks.",
-      "task_type": "Core"
+      "task": "Administer systems and programs to reduce loss, maintain inventory control, or increase safety.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.29
     },
     {
-      "task": "Prepare and submit permit applications for demolition, cleanup, or construction projects.",
-      "task_type": "Core"
+      "task": "Coordinate facility schedules to maximize usage and efficiency.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.38
     },
     {
-      "task": "Coordinate on-site activities for environmental cleanup or remediation projects to ensure compliance with laws and standards.",
-      "task_type": "Core"
+      "task": "Conduct quantitative risk assessments for human health, environmental, or other risks.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.93
     },
     {
-      "task": "Design or implement measures to improve water, air, and soil quality of contaminated sites or military test sites.",
-      "task_type": "Core"
+      "task": "Provide verbal or written project status reports to project teams, management, subcontractors, customers, or owners.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.81
     },
     {
-      "task": "Conduct feasibility or cost-benefit studies for environmental remediation projects.",
-      "task_type": "Core"
+      "task": "Review civil design, engineering, or construction technical documentation to ensure compliance with applicable government or industrial codes, standards, requirements, or regulations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.42
     },
     {
-      "task": "Review or evaluate proposals, designs, or projects to ensure compliance with regulations and standards.",
-      "task_type": "Core"
+      "task": "Develop relationships and communicate with customers, site managers, developers, land owners, authorities, utility representatives, or residents.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.04
     },
     {
-      "task": "Develop relationships with customers, site managers, or authorities to ensure project objectives are met.",
-      "task_type": "Core"
+      "task": "Establish goals, objectives, or priorities for wind field operations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.88
     },
     {
-      "task": "Monitor and maintain records of daily facility operations to ensure efficiency and compliance.",
-      "task_type": "Core"
+      "task": "Estimate costs associated with operations, including repairs or preventive maintenance.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.99
     },
     {
-      "task": "Train or coordinate the training of employees in operational and safety procedures.",
-      "task_type": "Core"
+      "task": "Monitor project milestones and deliverables.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
     },
     {
-      "task": "Collaborate on developing sustainability strategies for projects to address environmental impacts.",
-      "task_type": "Core"
+      "task": "Monitor the performance of project team members to provide performance feedback.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Request and review project updates to ensure deadlines are met.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Negotiate with project stakeholders or suppliers to obtain resources or materials.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Plan, schedule, or coordinate project activities to meet deadlines.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Propose, review, or approve modifications to project plans.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Report project status, such as budget, resources, technical issues, or customer satisfaction, to managers.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Schedule or facilitate project meetings.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Submit project deliverables to clients, ensuring adherence to quality standards.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Identify project needs such as resources, staff, or finances by reviewing project objectives and schedules.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop or update project plans including information such as objectives, technologies, schedules, funding, and staffing.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Create project status presentations for delivery to customers or project personnel.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with project personnel to identify and resolve problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Communicate with key stakeholders to determine project requirements and objectives.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Produce and distribute project documents.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1734,12 +2958,24 @@
       "weight": 2.2152014652014653
     },
     {
+      "name": "Microsoft Access",
+      "weight": 2.152014652014652
+    },
+    {
       "name": "Microsoft Outlook",
       "weight": 2.0045787545787546
     },
     {
+      "name": "Microsoft Visio",
+      "weight": 1.8406593406593408
+    },
+    {
       "name": "National Crime Information Center (NCIC) database",
       "weight": 1.6666666666666665
+    },
+    {
+      "name": "Linux",
+      "weight": 1.5671550671550671
     },
     {
       "name": "Email software",
@@ -1750,6 +2986,26 @@
       "weight": 1.3055555555555556
     },
     {
+      "name": "Structured query language SQL",
+      "weight": 1.2496947496947497
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 1.2353479853479854
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 1.2142857142857144
+    },
+    {
+      "name": "Computer aided composite drawing software",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "DesignWare 3D EyeWitness",
+      "weight": 1.1666666666666665
+    },
+    {
       "name": "Integrated Automated Fingerprint Identification System IAFIS",
       "weight": 1.1666666666666665
     },
@@ -1758,20 +3014,92 @@
       "weight": 1.1666666666666665
     },
     {
+      "name": "SmartDraw Legal",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "The CAD Zone The Crime Zone",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "SAS",
+      "weight": 1.0970695970695972
+    },
+    {
       "name": "ESRI ArcView",
       "weight": 1.0256410256410255
+    },
+    {
+      "name": "SAP software",
+      "weight": 1.010989010989011
     },
     {
       "name": "DataWorks Plus Digital CrimeScene",
       "weight": 1.0
     },
     {
+      "name": "DeChant Consulting Services iWitness",
+      "weight": 1.0
+    },
+    {
+      "name": "Digital Image Management Solutions Crime Scene",
+      "weight": 1.0
+    },
+    {
+      "name": "Eos Systems PhotoModeler",
+      "weight": 1.0
+    },
+    {
+      "name": "Operating system software",
+      "weight": 1.0
+    },
+    {
+      "name": "Trancite Logic Systems ScenePD",
+      "weight": 1.0
+    },
+    {
+      "name": "Visual Statement Vista FX3 CSI",
+      "weight": 1.0
+    },
+    {
+      "name": "McAfee",
+      "weight": 0.8055555555555556
+    },
+    {
       "name": "ESRI ArcGIS software",
       "weight": 0.8012820512820513
     },
     {
+      "name": "Tableau",
+      "weight": 0.7655677655677655
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.75
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.7496947496947497
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.73992673992674
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.724053724053724
+    },
+    {
       "name": "Word processing software",
       "weight": 0.717948717948718
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 0.6996336996336996
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.6666666666666666
     },
     {
       "name": "Crime mapping software",
@@ -1782,12 +3110,56 @@
       "weight": 0.6666666666666666
     },
     {
+      "name": "Relational database management software",
+      "weight": 0.6428571428571428
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.5970695970695971
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.5970695970695971
+    },
+    {
       "name": "Database software",
       "weight": 0.5811965811965811
     },
     {
       "name": "LexisNexis",
       "weight": 0.5811965811965811
+    },
+    {
+      "name": "Amazon Web Services AWS software",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Apache Hadoop",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "R",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Splunk Enterprise",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Veritas NetBackup",
+      "weight": 0.5555555555555556
     },
     {
       "name": "Spreadsheet software",
@@ -1798,11 +3170,107 @@
       "weight": 0.5366300366300366
     },
     {
+      "name": "Microsoft PowerShell",
+      "weight": 0.5256410256410257
+    },
+    {
+      "name": "Python",
+      "weight": 0.5256410256410257
+    },
+    {
+      "name": "Statistical analysis software",
+      "weight": 0.5256410256410257
+    },
+    {
+      "name": "Microsoft Azure software",
+      "weight": 0.5158730158730158
+    },
+    {
+      "name": "AccessData FTK",
+      "weight": 0.5
+    },
+    {
+      "name": "Amazon Simple Storage Service S3",
+      "weight": 0.5
+    },
+    {
+      "name": "Apache Hive",
+      "weight": 0.5
+    },
+    {
+      "name": "Apache Kafka",
+      "weight": 0.5
+    },
+    {
+      "name": "Apache Pig",
+      "weight": 0.5
+    },
+    {
+      "name": "Apache Spark",
+      "weight": 0.5
+    },
+    {
+      "name": "Arrival Departure Information System ADIS",
+      "weight": 0.5
+    },
+    {
+      "name": "Automated Targeting System ATS",
+      "weight": 0.5
+    },
+    {
       "name": "Bing",
       "weight": 0.5
     },
     {
+      "name": "Biometric Storage System BSS",
+      "weight": 0.5
+    },
+    {
+      "name": "C++",
+      "weight": 0.5
+    },
+    {
       "name": "Case management software",
+      "weight": 0.5
+    },
+    {
+      "name": "Chatbot software",
+      "weight": 0.5
+    },
+    {
+      "name": "Computer Linked Application Information Management System CLAIMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Consular Consolidated Database CCD",
+      "weight": 0.5
+    },
+    {
+      "name": "Data mining software",
+      "weight": 0.5
+    },
+    {
+      "name": "Data visualization software",
+      "weight": 0.5
+    },
+    {
+      "name": "Django",
+      "weight": 0.5
+    },
+    {
+      "name": "Encryption software",
+      "weight": 0.5
+    },
+    {
+      "name": "Enforcement Case Tracking System ENFORCE",
+      "weight": 0.5
+    },
+    {
+      "name": "Firewall software",
+      "weight": 0.5
+    },
+    {
+      "name": "Flowcharting software",
       "weight": 0.5
     },
     {
@@ -1814,7 +3282,47 @@
       "weight": 0.5
     },
     {
+      "name": "Google Cloud software",
+      "weight": 0.5
+    },
+    {
+      "name": "Google Earth Pro",
+      "weight": 0.5
+    },
+    {
+      "name": "Graphics creation software",
+      "weight": 0.5
+    },
+    {
+      "name": "Guidance Software EnCase Enterprise",
+      "weight": 0.5
+    },
+    {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.5
+    },
+    {
       "name": "IBM i2 Analyst's Notebook",
+      "weight": 0.5
+    },
+    {
+      "name": "Image enhancement software",
+      "weight": 0.5
+    },
+    {
+      "name": "JavaScript",
+      "weight": 0.5
+    },
+    {
+      "name": "Link analysis software",
+      "weight": 0.5
+    },
+    {
+      "name": "Myspace",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle Java",
       "weight": 0.5
     },
     {
@@ -1822,23 +3330,1023 @@
       "weight": 0.5
     },
     {
+      "name": "Photo enhancement software",
+      "weight": 0.5
+    },
+    {
+      "name": "Refugee, Asylum and Parole System RAPS",
+      "weight": 0.5
+    },
+    {
+      "name": "Snort",
+      "weight": 0.5
+    },
+    {
+      "name": "Telephone analysis software",
+      "weight": 0.5
+    },
+    {
+      "name": "Telephone records software",
+      "weight": 0.5
+    },
+    {
+      "name": "TensorFlow",
+      "weight": 0.5
+    },
+    {
+      "name": "Text mining software",
+      "weight": 0.5
+    },
+    {
       "name": "Thomson Reuters CLEAR",
       "weight": 0.5
+    },
+    {
+      "name": "Timeline software",
+      "weight": 0.5
+    },
+    {
+      "name": "Treasury Enforcement Communications System TECS",
+      "weight": 0.5
+    },
+    {
+      "name": "UNIX",
+      "weight": 0.5
+    },
+    {
+      "name": "Wireshark",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.4597069597069597
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.38278388278388276
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.33516483516483514
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.30128205128205127
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.27564102564102566
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.26556776556776557
+    },
+    {
+      "name": "Alert Technologies OpsCenter",
+      "weight": 0.25
+    },
+    {
+      "name": "Digital Engineering Corporation E-MAPS",
+      "weight": 0.25
+    },
+    {
+      "name": "Emergency Managers Weather Information Network EMWIN",
+      "weight": 0.25
+    },
+    {
+      "name": "Emergency Services Integrators ESi WebEOC",
+      "weight": 0.25
+    },
+    {
+      "name": "Federal Emergency Management Information System FEMIS",
+      "weight": 0.25
+    },
+    {
+      "name": "MapInfo Professional",
+      "weight": 0.25
+    },
+    {
+      "name": "National Center for Crisis and Continuity Coordination NC4 E Team",
+      "weight": 0.25
+    },
+    {
+      "name": "Relational database software",
+      "weight": 0.25
+    },
+    {
+      "name": "SoftRisk Technologies SoftRisk SQL",
+      "weight": 0.25
+    },
+    {
+      "name": "Statistical software",
+      "weight": 0.25
+    },
+    {
+      "name": "Sungard Assurance",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.24786324786324784
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.2399267399267399
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.2399267399267399
+    },
+    {
+      "name": "Atlassian JIRA",
+      "weight": 0.21428571428571427
+    },
+    {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "Fund accounting software",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.16849816849816848
+    },
+    {
+      "name": "Human resource information system (HRIS)",
+      "weight": 0.16849816849816848
+    },
+    {
+      "name": "Structure query language SQL",
+      "weight": 0.16849816849816848
     },
     {
       "name": "Computer aided dispatch software",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Microsoft Active Server Pages ASP",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Spillman Technologies Records Management",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Management information systems MIS",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.14835164835164835
+    },
+    {
+      "name": "AdSense Tracker",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ComputerEase construction accounting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Database reporting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Databox",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Exact Software Macola ES Labor Performance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Graphic presentation software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Halogen e360",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Halogen ePraisal",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Infor SSA Human Capital Management",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Listserv software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Lyris HQ Web-Analytics Solution",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mentimeter",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Dynamics AX",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft FRx",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Nedstat Sitestat",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Norchard Solutions Succession Wizard",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Online advertising reporting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oracle E-Business Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oracle Siebel Server Sync",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PHP",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SmugMug Flickr",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Teleconferencing software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Airtable",
+      "weight": 0.1227106227106227
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.1227106227106227
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.1227106227106227
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.1227106227106227
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.1227106227106227
+    },
+    {
+      "name": "Autodesk AutoCAD",
+      "weight": 0.10683760683760683
+    },
+    {
+      "name": "Oracle Taleo",
+      "weight": 0.10683760683760683
+    },
+    {
+      "name": "ADP Workforce Now",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Atlassian Confluence",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Blackboard software",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Dropbox",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Eko",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Flipgrid",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Google Docs",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Google Drive",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Marketo Marketing Automation",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "NetSuite ERP",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "SAP Crystal Reports",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Slack",
+      "weight": 0.09706959706959706
+    },
+    {
+      "name": "Google Ads",
+      "weight": 0.08119658119658119
+    },
+    {
+      "name": "HubSpot software",
+      "weight": 0.08119658119658119
+    },
+    {
       "name": "Mozilla Firefox",
       "weight": 0.08119658119658119
+    },
+    {
+      "name": "Payroll software",
+      "weight": 0.08119658119658119
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.08119658119658119
+    },
+    {
+      "name": "PostgreSQL",
+      "weight": 0.08119658119658119
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.08119658119658119
+    },
+    {
+      "name": "StataCorp Stata",
+      "weight": 0.08119658119658119
+    },
+    {
+      "name": "Supervisory control and data acquisition SCADA software",
+      "weight": 0.08119658119658119
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.08119658119658119
+    },
+    {
+      "name": "Microsoft OneNote",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Screencastify",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Google Workspace software",
+      "weight": 0.06715506715506715
+    },
+    {
+      "name": "AMG Teleran SalesInSync",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Act!",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "ActionWare",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Apple Final Cut Pro",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Avidian Technologies Prophet",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Calendar and scheduling software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Citrix cloud computing software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Customer information control system CICS",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Datawatch Monarch",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Deacom ERP",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Dynamic Energy Systems MedAct",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Google Analytics",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "HEAT Software GoldMine",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Human resource management software HRMS",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Human resources software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "IBM InfoSphere DataStage",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "IBM Power Systems software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "InnQuest Software roomMaster",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Inventory management software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Job control language JCL",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Kronos Workforce Payroll",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "LSA Visual Easy Lean",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Maximizer Software Maximizer Enterprise",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Medical condition coding software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "MicroStrategy",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Microsoft FrontPage",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Mozilla Thunderbird",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Nagios",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "NetSuite NetCRM",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Oracle Fusion Applications",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Oracle Solaris",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Personnel scheduling software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Puppet",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Quest Erwin Data Modeler",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Realization Streamliner",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Sage MAS 500",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Salesforce.com Salesforce CRM",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Savant MobileRanger",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "SeaMonkey",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Shell script",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Sugar CRM",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Vanguard Software Vanguard Sales Manager",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Yardi software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "vtiger CRM",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Oracle Primavera Systems",
+      "weight": 0.05128205128205128
+    },
+    {
+      "name": "Web conferencing software",
+      "weight": 0.05128205128205128
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.05128205128205128
+    },
+    {
+      "name": "Blink",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Cisco Webex",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Google Meet",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "LogMeIn GoToMeeting",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "LogMeIn GoToWebinar",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Loom",
+      "weight": 0.04151404151404151
     },
     {
       "name": "Microsoft Teams",
       "weight": 0.04151404151404151
     },
     {
+      "name": "80-20 Software Leaders4",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "ARC Logics Sword",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Actimize Brokerage Compliance Solutions",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Adlib Express",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Agiliance Compliance Manager",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Aline GRC",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Analyse-it",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Apple Safari",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Archer Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Aris Global Register",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "AssurX CATSWeb",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "AssurX Financial Services Compliance Management System",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Audit2 AdaptiveGRC",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Axentis Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Axway eSubmissions",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "BPS Compliance",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "BWise Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Business software applications",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "CMO Compliance Regulatory Compliance Solution",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Calendar management software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "ClienTrak!",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Compliance 360",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Compliance11 Supervisory Suite",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "ComplianceBridge Total Compliance",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Computerized diagnostic software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Computerized maintenance management system CMMS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "ControlCase Compliance Manager",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Cura Software Solutions Cura for Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Data analysis software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Database management software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Datafarm S-Cubed",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Datafarm a-Pulse",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Datafarm eCTDGatekeeper",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Datafarm eCTDViewer",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Dialog DialogLink",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Document publishing software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "DoubleCheck GRC&T Platform",
+      "weight": 0.02564102564102564
+    },
+    {
       "name": "ESRI ArcMap",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Electronic document management system EDMS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Elite Software Elite Salon & Spa Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Employee scheduling software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Enabl-u Technologies APIS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Enterprise application integration EAI software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Enterprise content management ECM software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Envision Salon",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "EtQ Environmental Health and Safety Software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "EtQ FDA cGxP Compliance Software for Life Sciences",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Fidessa Compliance Manager",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Financial accounting software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Gensuite",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Governance, risk, and compliance GRC software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Guideline Risk Technologies RUBI",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Hewlett-Packard HP OpenVMS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Horwath Software Magique",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Image Solutions ISIPublisher",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Image Solutions eCTDXpress",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Integrated development environment IDE software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Inventory control software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Keane SCORE",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "LRN Ethics and Compliance Alliance",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Local area network LAN software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Lorenz DocuBridge",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Lorenz eValidator",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Lorenz labelBridge",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MICROS XBR Loss Prevention",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MIKAL SMS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MediRegs Risk Assessment Manager",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Methodware ERA",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MetricStream Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MetricStream Enterprise Compliance Platform",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MetricStream Regulatory Reporting",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MicroFit HealthWizard",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Microsoft SQL Server Reporting Services SSRS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Modulo Risk Manager",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MyComplianceOffice Compliance Operations Management System",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MySQL",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Neohapsis Certus GRC",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Oracle Enterprise Asset Management eAM",
       "weight": 0.02564102564102564
     },
     {
@@ -1858,7 +4366,7 @@
       "weight": 0.02564102564102564
     },
     {
-      "name": "Pilgrim Regulatory Submission",
+      "name": "ProSolutions Software Transcend",
       "weight": 0.02564102564102564
     },
     {
@@ -1867,6 +4375,10 @@
     },
     {
       "name": "QUMAS quality management solution software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "RVR Systems Compliance",
       "weight": 0.02564102564102564
     },
     {
@@ -1890,6 +4402,14 @@
       "weight": 0.02564102564102564
     },
     {
+      "name": "Samarind RMS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Software development tools",
+      "weight": 0.02564102564102564
+    },
+    {
       "name": "Sword Achiever Compliance Portal Dashboard",
       "weight": 0.02564102564102564
     },
@@ -1898,19 +4418,15 @@
       "weight": 0.02564102564102564
     },
     {
+      "name": "Tanium software",
+      "weight": 0.02564102564102564
+    },
+    {
       "name": "Tax accounting software",
       "weight": 0.02564102564102564
     },
     {
       "name": "The Garland Group RiskKey",
-      "weight": 0.02564102564102564
-    },
-    {
-      "name": "Thomson Reuters Liquent CoreDossier Submission Accelerator for eCTD",
-      "weight": 0.02564102564102564
-    },
-    {
-      "name": "Thomson Reuters Liquent InSight Suite",
       "weight": 0.02564102564102564
     },
     {
@@ -1934,11 +4450,55 @@
       "weight": 0.02564102564102564
     },
     {
+      "name": "WebEx WebOffice",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Wide area network WAN software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "XML authoring software",
+      "weight": 0.02564102564102564
+    },
+    {
       "name": "policyIQ",
       "weight": 0.02564102564102564
     },
     {
+      "name": "3M Post-it App",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.015873015873015872
+    },
+    {
       "name": "Asana",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Google Classroom",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Google Sites",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "JamBoard",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Moodle",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Nearpod",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Padlet",
       "weight": 0.015873015873015872
     },
     {
@@ -1946,7 +4506,7 @@
       "weight": 0.015873015873015872
     },
     {
-      "name": "Procore software",
+      "name": "Poll Everywhere",
       "weight": 0.015873015873015872
     },
     {
@@ -1954,11 +4514,23 @@
       "weight": 0.015873015873015872
     },
     {
+      "name": "Screencast-O-Matic",
+      "weight": 0.015873015873015872
+    },
+    {
       "name": "Skype",
       "weight": 0.015873015873015872
     },
     {
+      "name": "Slido interaction software",
+      "weight": 0.015873015873015872
+    },
+    {
       "name": "Smartsheet",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Trimble SketchUp Pro",
       "weight": 0.015873015873015872
     },
     {
@@ -1996,19 +4568,171 @@
       "weight": 1.1666666666666665
     },
     {
+      "name": "Biohazard suits",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "Breathalyzers",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "Bulletproof vests",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "Crime scene tape measures",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "Distance measuring wheels",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "Drug testing kits",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "Filter masks",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "Fingerprint evidence kits",
+      "weight": 1.1666666666666665
+    },
+    {
+      "name": "Metal detectors",
+      "weight": 1.1666666666666665
+    },
+    {
       "name": "Mobile data computers",
       "weight": 1.1666666666666665
+    },
+    {
+      "name": "Blood collection kits",
+      "weight": 1.0
+    },
+    {
+      "name": "Compound light microscopes",
+      "weight": 1.0
+    },
+    {
+      "name": "Crime scene rulers",
+      "weight": 1.0
+    },
+    {
+      "name": "Deoxyribonucleic acid DNA collection kits",
+      "weight": 1.0
+    },
+    {
+      "name": "Electrostatic dust lifters",
+      "weight": 1.0
+    },
+    {
+      "name": "Footwear protectors",
+      "weight": 1.0
+    },
+    {
+      "name": "Impression casting kits",
+      "weight": 1.0
+    },
+    {
+      "name": "Infrared light sources",
+      "weight": 1.0
+    },
+    {
+      "name": "Instant print cameras",
+      "weight": 1.0
+    },
+    {
+      "name": "Power generators",
+      "weight": 1.0
+    },
+    {
+      "name": "Protective gloves",
+      "weight": 1.0
     },
     {
       "name": "Personal digital assistants PDA",
       "weight": 0.6984126984126984
     },
     {
+      "name": "Automated external defibrillators AED",
+      "weight": 0.6923076923076923
+    },
+    {
       "name": "Audio recording equipment",
       "weight": 0.6666666666666666
     },
     {
+      "name": "Body armor",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Explosive detectors",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Fingerprint scanners",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "First aid kits",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Metal handcuffs",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Nightsticks",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Pepper spray",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Plastic handcuffs",
+      "weight": 0.6666666666666666
+    },
+    {
       "name": "Police patrol cars",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Police rifles",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Police shotguns",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Radar speed readers",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Riot shields",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Road flares",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Semiautomatic pistols",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Service revolvers",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Side-handle batons",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Suspect fingerprinting equipment",
       "weight": 0.6666666666666666
     },
     {
@@ -2018,6 +4742,46 @@
     {
       "name": "Computer laser printers",
       "weight": 0.5769230769230769
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.5256410256410257
+    },
+    {
+      "name": "Digital still cameras",
+      "weight": 0.5256410256410257
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.5256410256410257
+    },
+    {
+      "name": "Safety glasses",
+      "weight": 0.5256410256410257
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.5256410256410257
+    },
+    {
+      "name": "Automobile door handle removers",
+      "weight": 0.5
+    },
+    {
+      "name": "Axes",
+      "weight": 0.5
+    },
+    {
+      "name": "Bolt cutters",
+      "weight": 0.5
+    },
+    {
+      "name": "Camera lens filters",
+      "weight": 0.5
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.5
     },
     {
       "name": "Color copiers",
@@ -2040,7 +4804,119 @@
       "weight": 0.5
     },
     {
+      "name": "Electronic measuring devices",
+      "weight": 0.5
+    },
+    {
+      "name": "Evidence collection scalpels",
+      "weight": 0.5
+    },
+    {
+      "name": "Evidence scissors",
+      "weight": 0.5
+    },
+    {
+      "name": "Evidence tweezers",
+      "weight": 0.5
+    },
+    {
+      "name": "Fingerprint brushes",
+      "weight": 0.5
+    },
+    {
+      "name": "Fume hoods",
+      "weight": 0.5
+    },
+    {
+      "name": "Glass evidence vials",
+      "weight": 0.5
+    },
+    {
+      "name": "Hacksaws",
+      "weight": 0.5
+    },
+    {
+      "name": "Handheld digital thermometers",
+      "weight": 0.5
+    },
+    {
       "name": "Handheld evidence collection computers",
+      "weight": 0.5
+    },
+    {
+      "name": "High wavelength ultraviolet UV light",
+      "weight": 0.5
+    },
+    {
+      "name": "Laser light sources",
+      "weight": 0.5
+    },
+    {
+      "name": "Laser trajectory pointers",
+      "weight": 0.5
+    },
+    {
+      "name": "Low wavelength ultraviolet UV light",
+      "weight": 0.5
+    },
+    {
+      "name": "Magnifying glasses",
+      "weight": 0.5
+    },
+    {
+      "name": "Microscope slides",
+      "weight": 0.5
+    },
+    {
+      "name": "Multimedia presentation projectors",
+      "weight": 0.5
+    },
+    {
+      "name": "Orange filter lenses",
+      "weight": 0.5
+    },
+    {
+      "name": "Plotting printers",
+      "weight": 0.5
+    },
+    {
+      "name": "Polarized filter lenses",
+      "weight": 0.5
+    },
+    {
+      "name": "Polygraphs",
+      "weight": 0.5
+    },
+    {
+      "name": "Portable lasers",
+      "weight": 0.5
+    },
+    {
+      "name": "Pry bars",
+      "weight": 0.5
+    },
+    {
+      "name": "Red filter lenses",
+      "weight": 0.5
+    },
+    {
+      "name": "Respirators",
+      "weight": 0.5
+    },
+    {
+      "name": "Ridge counters",
+      "weight": 0.5
+    },
+    {
+      "name": "Riot helmets",
+      "weight": 0.5
+    },
+    {
+      "name": "Safety goggles",
+      "weight": 0.5
+    },
+    {
+      "name": "Shovels",
       "weight": 0.5
     },
     {
@@ -2048,7 +4924,55 @@
       "weight": 0.5
     },
     {
+      "name": "Socket wrench sets",
+      "weight": 0.5
+    },
+    {
       "name": "Statistical calculators",
+      "weight": 0.5
+    },
+    {
+      "name": "Telephoto camera lenses",
+      "weight": 0.5
+    },
+    {
+      "name": "Ultraviolet UV lights",
+      "weight": 0.5
+    },
+    {
+      "name": "Utility knives",
+      "weight": 0.5
+    },
+    {
+      "name": "Vise grip pliers",
+      "weight": 0.5
+    },
+    {
+      "name": "Voice dictation equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Voice stress analyzers",
+      "weight": 0.5
+    },
+    {
+      "name": "Wide angle camera lenses",
+      "weight": 0.5
+    },
+    {
+      "name": "Wire cutters",
+      "weight": 0.5
+    },
+    {
+      "name": "Wiretap equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Wood chisels",
+      "weight": 0.5
+    },
+    {
+      "name": "Yellow filter lenses",
       "weight": 0.5
     },
     {
@@ -2068,8 +4992,88 @@
       "weight": 0.2857142857142857
     },
     {
+      "name": "Hard hats",
+      "weight": 0.27564102564102566
+    },
+    {
+      "name": "Chemical protective boots",
+      "weight": 0.25
+    },
+    {
+      "name": "Chemical protective clothing",
+      "weight": 0.25
+    },
+    {
       "name": "Emergency alert notification systems",
       "weight": 0.25
+    },
+    {
+      "name": "Protective hoods",
+      "weight": 0.25
+    },
+    {
+      "name": "Radiation detectors",
+      "weight": 0.25
+    },
+    {
+      "name": "Safety gloves",
+      "weight": 0.25
+    },
+    {
+      "name": "Self-contained breathing apparatus",
+      "weight": 0.25
+    },
+    {
+      "name": "Computer data input scanners",
+      "weight": 0.16849816849816848
+    },
+    {
+      "name": "Base station radios",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Multipurpose fire extinguishers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Noise meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Police motorcycles",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Radio scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Remote traffic signal controllers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Semiautomatic handguns",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Surveillance binoculars",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Teletype terminals",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld computers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Universal serial bus USB flash drives",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Video teleconferencing systems",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Cell phones",
@@ -2080,11 +5084,147 @@
       "weight": 0.05555555555555555
     },
     {
+      "name": "Credit card processing machines",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Handtrucks",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Magnetic card readers",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Point of sale POS systems",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Profilometers",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Spectrometers",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Surveillance cameras",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Automatic blood pressure cuffs",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Closed circuit television CCTV monitoring systems",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Dataloggers",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Digital calipers",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Digital micrometers",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Digital oscilloscopes",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Electronic cash registers",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Electronic temperature sensors",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Emergency medical aid kits",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Fall arrest systems",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Fire alarm monitoring systems",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Handheld global positioning system GPS units",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Height measurement rulers",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Infrared thermography cameras",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Lubricant oil sampling kits",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Manual blood pressure cuffs",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Manual torque wrenches",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Measuring tapes",
+      "weight": 0.02564102564102564
+    },
+    {
       "name": "Mobile radios",
       "weight": 0.02564102564102564
     },
     {
       "name": "Multiline telephone systems",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Payment processing terminals",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Physical access control systems",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Protective ear muffs",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Rigging equipment",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Safety line evacuation kits",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Security alarm systems",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Soil samplers",
       "weight": 0.02564102564102564
     },
     {
@@ -2097,6 +5237,18 @@
     },
     {
       "name": "Video surveillance systems",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Voltage testers",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Weight measurement scales",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Wind vanes",
       "weight": 0.02564102564102564
     }
   ],

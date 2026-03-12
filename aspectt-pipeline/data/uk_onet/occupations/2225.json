@@ -1544,52 +1544,502 @@
   ],
   "tasks": [
     {
-      "task": "Compile and interpret students' test results and information from teachers and parents to diagnose conditions and assess eligibility for special services.",
-      "task_type": "Core"
+      "task": "Compile and interpret students' test results, along with information from teachers and parents, to diagnose conditions and to help assess eligibility for special services.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.68
     },
     {
-      "task": "Diagnose and treat conditions such as chemical dependency, alcohol dependency, neurological conditions, and injuries to the central nervous system.",
-      "task_type": "Core"
+      "task": "Diagnose and treat conditions such as chemical dependency, alcohol dependency, Acquired Immune Deficiency Syndrome (AIDS) dementia, and environmental toxin exposure.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.5
     },
     {
-      "task": "Conduct neuropsychological evaluations including assessments of intelligence, academic ability, attention, language, and memory.",
-      "task_type": "Core"
+      "task": "Design or implement rehabilitation plans for patients with cognitive dysfunction.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.92
     },
     {
-      "task": "Design, implement, and evaluate rehabilitation plans or treatment plans for patients with cognitive dysfunction or other psychological conditions.",
-      "task_type": "Core"
+      "task": "Consult with other professionals about patients' neurological conditions.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.04
     },
     {
-      "task": "Consult with other professionals regarding patient care, treatments, or educational strategies, and coordinate activities of staff and interns.",
-      "task_type": "Core"
+      "task": "Conduct research on neuropsychological disorders.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.45
     },
     {
-      "task": "Provide educational programs, counseling, and advice to individuals, families, and schools on mental health and coping strategies.",
-      "task_type": "Core"
+      "task": "Conduct neuropsychological evaluations such as assessments of intelligence, academic ability, attention, concentration, sensorimotor function, language, learning, and memory.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.8
     },
     {
-      "task": "Supervise and train interns, practicum students, and hospital staff in clinical practices and psychological methods.",
-      "task_type": "Core"
+      "task": "Supervise and train interns, clinicians in training, and other counselors.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.77
     },
     {
-      "task": "Conduct research to develop or improve diagnostic and therapeutic techniques in psychology and related fields.",
-      "task_type": "Core"
+      "task": "Prepare written evaluations of individuals' psychological competence for court hearings.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.0
     },
     {
-      "task": "Document patient information, including session notes, treatment plans, and evaluations, for comprehensive care strategies.",
-      "task_type": "Core"
+      "task": "Conduct assessments of patients' risk for harm to self or others.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.96
     },
     {
-      "task": "Assess individuals' psychological and emotional needs through interviews, case histories, and other assessment methods.",
-      "task_type": "Core"
+      "task": "Plan, supervise, and conduct psychological research and write papers describing research results.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.89
     },
     {
-      "task": "Provide consultation on organizational development and psychological practices to enhance workplace productivity and management strategies.",
-      "task_type": "Core"
+      "task": "Conduct research to develop or improve diagnostic or therapeutic counseling techniques.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.1
     },
     {
-      "task": "Refer clients to other specialists or community services when necessary to support their mental health needs.",
-      "task_type": "Core"
+      "task": "Provide psychological or administrative services and advice to private firms or community agencies regarding mental health programs or individual cases.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.86
+    },
+    {
+      "task": "Develop, direct, and participate in training programs for staff and students.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.54
+    },
+    {
+      "task": "Direct, coordinate, and evaluate activities of staff and interns engaged in patient assessment and treatment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.9
+    },
+    {
+      "task": "Plan and develop accredited psychological service programs in psychiatric centers or hospitals, in collaboration with psychiatrists and other professional staff.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.45
+    },
+    {
+      "task": "Provide occupational, educational, or other information to individuals so that they can make educational or vocational plans.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.16
+    },
+    {
+      "task": "Provide consulting services, including educational programs, outreach programs, or prevention talks to schools, social service agencies, businesses, or the general public.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.17
+    },
+    {
+      "task": "Observe individuals at play, in group interactions, or in other contexts to detect indications of cognitive, intellectual, or developmental disabilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.95
+    },
+    {
+      "task": "Consult reference material, such as textbooks, manuals, or journals, to identify symptoms, make diagnoses, or develop approaches to treatment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.0
+    },
+    {
+      "task": "Maintain current knowledge of relevant research.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.2
+    },
+    {
+      "task": "Refer clients to other specialists, institutions, or support services as necessary.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.72
+    },
+    {
+      "task": "Consult with other professionals, agencies, or universities to discuss therapies, treatments, counseling resources or techniques, and to share occupational information.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.58
+    },
+    {
+      "task": "Develop and implement individual treatment plans, specifying type, frequency, intensity, and duration of therapy.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.2
+    },
+    {
+      "task": "Advise clients on how they could be helped by counseling.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.92
+    },
+    {
+      "task": "Select, administer, score, and interpret psychological tests to obtain information on individuals' intelligence, achievements, interests, or personalities.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.0
+    },
+    {
+      "task": "Diagnose and treat conditions involving injury to the central nervous system, such as cerebrovascular accidents, neoplasms, infectious or inflammatory diseases, degenerative diseases, head traumas, demyelinating diseases, and various forms of dementing illnesses.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.67
+    },
+    {
+      "task": "Diagnose and treat pediatric populations for conditions such as learning disabilities with developmental or organic bases.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.29
+    },
+    {
+      "task": "Report any pertinent information to the proper authorities in cases of child endangerment, neglect, or abuse.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.5
+    },
+    {
+      "task": "Provide psychotherapy, behavior therapy, or other counseling interventions to patients with neurological disorders.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.47
+    },
+    {
+      "task": "Participate in educational programs, in-service training, or workshops to remain current in methods and techniques.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.04
+    },
+    {
+      "task": "Interview patients to obtain comprehensive medical histories.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 5.0
+    },
+    {
+      "task": "Identify and communicate risks associated with specific neurological surgical procedures, such as epilepsy surgery.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.75
+    },
+    {
+      "task": "Establish neurobehavioral baseline measures for monitoring progressive cerebral disease or recovery.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.08
+    },
+    {
+      "task": "Distinguish between psychogenic and neurogenic syndromes, two or more suspected etiologies of cerebral dysfunction, or between disorders involving complex seizures.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.67
+    },
+    {
+      "task": "Diagnose and treat psychiatric populations for conditions such as somatoform disorder, dementias, and psychoses.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.36
+    },
+    {
+      "task": "Diagnose and treat neural and psychological conditions in medical and surgical populations, such as patients with early dementing illness or chronic pain with a neurological basis.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.62
+    },
+    {
+      "task": "Compare patients' progress before and after pharmacologic, surgical, or behavioral interventions.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.04
+    },
+    {
+      "task": "Write or prepare detailed clinical neuropsychological reports, using data from psychological or neuropsychological tests, self-report measures, rating scales, direct observations, or interviews.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.76
+    },
+    {
+      "task": "Evaluate the effectiveness of counseling or treatments and the accuracy and completeness of diagnoses, modifying plans or diagnoses as necessary.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.38
+    },
+    {
+      "task": "Obtain and study medical, psychological, social, and family histories by interviewing individuals, couples, or families and by reviewing records.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.04
+    },
+    {
+      "task": "Consult with or provide consultation to other doctors, therapists, or clinicians regarding patient care.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.96
+    },
+    {
+      "task": "Conduct research studies of physical work environments, organizational structures, communication systems, group interactions, morale, or motivation to assess organizational functioning.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.68
+    },
+    {
+      "task": "Identify training and development needs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.96
+    },
+    {
+      "task": "Advise management concerning personnel, managerial, and marketing policies and practices and their potential effects on organizational effectiveness and efficiency.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.2
+    },
+    {
+      "task": "Write reports on research findings and implications to contribute to general knowledge or to suggest potential changes in organizational functioning.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.62
+    },
+    {
+      "task": "Observe and interview workers to obtain information about the physical, mental, and educational requirements of jobs, as well as information about aspects such as job satisfaction.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.35
+    },
+    {
+      "task": "Analyze job requirements and content to establish criteria for classification, selection, training, and other related personnel functions.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.31
+    },
+    {
+      "task": "Develop and implement employee selection or placement programs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.62
+    },
+    {
+      "task": "Conduct research to generate new knowledge that can be used to address learning and behavior issues.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.98
+    },
+    {
+      "task": "Provide educational programs on topics such as classroom management, teaching strategies, or parenting skills.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.18
+    },
+    {
+      "task": "Collect and analyze data to evaluate the effectiveness of academic programs and other services, such as behavioral management systems.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.23
+    },
+    {
+      "task": "Initiate and direct efforts to foster tolerance, understanding, and appreciation of diversity in school communities.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.36
+    },
+    {
+      "task": "Refer students and their families to appropriate community agencies for medical, vocational, or social services.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.61
+    },
+    {
+      "task": "Design classes and programs to meet the needs of special students.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.85
+    },
+    {
+      "task": "Serve as a resource to help families and schools deal with crises, such as separation and loss.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.55
+    },
+    {
+      "task": "Maintain student records, including special education reports, confidential records, records of services provided, and behavioral data.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.54
+    },
+    {
+      "task": "Develop individualized educational plans in collaboration with teachers and other staff members.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.4
+    },
+    {
+      "task": "Counsel children and families to help solve conflicts and problems in learning and adjustment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.32
+    },
+    {
+      "task": "Collaborate with other educational professionals to develop teaching strategies and school programs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.98
+    },
+    {
+      "task": "Promote an understanding of child development and its relationship to learning and behavior.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.85
+    },
+    {
+      "task": "Provide consultation to parents, teachers, administrators, and others on topics such as learning styles and behavior modification techniques.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.03
+    },
+    {
+      "task": "Assess an individual child's needs, limitations, and potential, using observation, review of school records, and consultation with parents and school personnel.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.42
+    },
+    {
+      "task": "Formulate and implement training programs, applying principles of learning and individual differences.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.88
+    },
+    {
+      "task": "Develop interview techniques, rating scales, and psychological tests used to assess skills, abilities, and interests for the purpose of employee selection, placement, or promotion.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.5
+    },
+    {
+      "task": "Assess employee performance.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.0
+    },
+    {
+      "task": "Develop new business by contacting potential clients, making sales presentations, and writing proposals.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.62
+    },
+    {
+      "task": "Use a variety of treatment methods, such as psychotherapy, hypnosis, behavior modification, stress reduction therapy, psychodrama, or play therapy.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.3
+    },
+    {
+      "task": "Identify psychological, emotional, or behavioral issues and diagnose disorders, using information obtained from interviews, tests, records, or reference materials.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.58
+    },
+    {
+      "task": "Document patient information including session notes, progress notes, recommendations, and treatment plans.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.8
+    },
+    {
+      "task": "Counsel individuals, groups, or families to help them understand problems, deal with crisis situations, define goals, and develop realistic action plans.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.48
+    },
+    {
+      "task": "Collect information about individuals or clients, using interviews, case histories, observational techniques, and other assessment methods.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.39
+    },
+    {
+      "task": "Provide advice on best practices and implementation for selection.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.72
+    },
+    {
+      "task": "Coach senior executives and managers on leadership and performance.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.12
+    },
+    {
+      "task": "Train clients to administer human resources functions, including testing, selection, and performance management.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.0
+    },
+    {
+      "task": "Write articles, white papers, or reports to share research findings and educate others.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.58
+    },
+    {
+      "task": "Conduct individual assessments, including interpreting measures and providing feedback for selection, placement, or promotion.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.04
+    },
+    {
+      "task": "Provide expert testimony in employment lawsuits.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.71
+    },
+    {
+      "task": "Conduct presentations on research findings for clients or at research meetings.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.15
+    },
+    {
+      "task": "Participate in mediation and dispute resolution.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.75
+    },
+    {
+      "task": "Study consumers' reactions to new products and package designs, and to advertising efforts, using surveys and tests.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.62
+    },
+    {
+      "task": "Counsel workers about job and career-related issues.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.04
+    },
+    {
+      "task": "Analyze data, using statistical methods and applications, to evaluate the outcomes and effectiveness of workplace programs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.5
+    },
+    {
+      "task": "Facilitate organizational development and change.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.31
     }
   ],
   "technology_skills": [
@@ -1891,10 +2341,6 @@
     },
     {
       "name": "O*NET OnLine",
-      "weight": 0.2
-    },
-    {
-      "name": "Oasys structural design and analysis software",
       "weight": 0.2
     },
     {

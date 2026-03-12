@@ -1544,44 +1544,190 @@
   ],
   "tasks": [
     {
-      "task": "Inspect supplies, equipment, and work areas to ensure conformance to established standards and efficient service.",
-      "task_type": "Core"
+      "task": "Inspect supplies, equipment, or work areas to ensure conformance to established standards.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.32
     },
     {
-      "task": "Analyze recipes to assign prices to menu items based on food, labor, and overhead costs, and estimate amounts and costs of required supplies.",
-      "task_type": "Core"
+      "task": "Analyze recipes to assign prices to menu items, based on food, labor, and overhead costs.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.0
     },
     {
-      "task": "Instruct cooks or other workers in the preparation, cooking, garnishing, or presentation of food, and train workers in food preparation and safety procedures.",
-      "task_type": "Core"
+      "task": "Estimate amounts and costs of required supplies, such as food and ingredients.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.26
     },
     {
-      "task": "Prepare and cook foods of all types, directly supervise or coordinate activities of cooks or workers engaged in food preparation.",
-      "task_type": "Core"
+      "task": "Train workers in food preparation, and in service, sanitation, and safety procedures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.19
     },
     {
-      "task": "Order or requisition food or other supplies needed for operation, check the quantity and quality of received products, and control inventories.",
-      "task_type": "Core"
+      "task": "Prepare and cook foods of all types, either on a regular basis or for special guests or functions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.83
     },
     {
-      "task": "Monitor sanitation practices to ensure compliance with standards and regulations, and inspect food products for quality.",
-      "task_type": "Core"
+      "task": "Supervise or coordinate activities of cooks or workers engaged in food preparation.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.52
     },
     {
-      "task": "Determine production schedules and staff requirements necessary for timely delivery of services, recruit and hire kitchen staff.",
-      "task_type": "Core"
+      "task": "Order or requisition food or other supplies needed to ensure efficient operation.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
     },
     {
-      "task": "Meet with customers to discuss menus for special occasions, and resolve customer complaints regarding food service.",
-      "task_type": "Core"
+      "task": "Check the quantity and quality of received products.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.3
     },
     {
-      "task": "Collaborate with other personnel to plan and develop recipes or menus, taking into account ingredient availability and customer needs.",
-      "task_type": "Core"
+      "task": "Monitor sanitation practices to ensure that employees follow standards and regulations.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.87
     },
     {
-      "task": "Evaluate new products for usefulness and suitability, and recommend measures for improving work procedures to enhance service quality.",
-      "task_type": "Core"
+      "task": "Check the quality of raw or cooked food products to ensure that standards are met.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.29
+    },
+    {
+      "task": "Determine production schedules and staff requirements necessary to ensure timely delivery of services.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.83
+    },
+    {
+      "task": "Perform personnel actions, such as hiring and firing staff, providing employee orientation and training, and conducting supervisory activities, such as creating work schedules or organizing employee time sheets.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.23
+    },
+    {
+      "task": "Meet with customers to discuss menus for special occasions, such as weddings, parties, or banquets.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.65
+    },
+    {
+      "task": "Arrange for equipment purchases or repairs.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.52
+    },
+    {
+      "task": "Record production or operational data on specified forms.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.55
+    },
+    {
+      "task": "Plan, direct, or supervise food preparation or cooking activities of multiple kitchens or restaurants in an establishment such as a restaurant chain, hospital, or hotel.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.86
+    },
+    {
+      "task": "Coordinate planning, budgeting, or purchasing for all the food operations within establishments such as clubs, hotels, or restaurant chains.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.05
+    },
+    {
+      "task": "Collaborate with other personnel to plan and develop recipes or menus, taking into account such factors as seasonal availability of ingredients or the likely number of customers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.42
+    },
+    {
+      "task": "Perform various financial activities, such as cash handling, deposit preparation, and payroll.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.03
+    },
+    {
+      "task": "Supervise and participate in kitchen and dining area cleaning activities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.01
+    },
+    {
+      "task": "Resolve customer complaints regarding food service.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.23
+    },
+    {
+      "task": "Evaluate new products for usefulness and suitability.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.42
+    },
+    {
+      "task": "Control inventories of food, equipment, smallware, and liquor, and report shortages to designated personnel.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.96
+    },
+    {
+      "task": "Analyze operational problems, such as theft and wastage, and establish procedures to alleviate these problems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.91
+    },
+    {
+      "task": "Recommend measures for improving work procedures and worker performance to increase service quality and enhance job safety.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.96
+    },
+    {
+      "task": "Greet and seat guests, and present menus and wine lists.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.51
+    },
+    {
+      "task": "Present bills and accept payments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.13
+    },
+    {
+      "task": "Schedule parties and take reservations.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.9
+    },
+    {
+      "task": "Develop departmental objectives, budgets, policies, procedures, and strategies.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.75
+    },
+    {
+      "task": "Assess nutritional needs of patients, plan special menus, supervise the assembly of regular and special diet trays, and oversee the delivery of food trolleys to hospital patients.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.34
+    },
+    {
+      "task": "Determine how food should be presented and create decorative food displays.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.83
     }
   ],
   "technology_skills": [
@@ -1642,11 +1788,19 @@
       "weight": 0.5
     },
     {
+      "name": "Facebook",
+      "weight": 0.5
+    },
+    {
       "name": "GNOME Gnutrition",
       "weight": 0.5
     },
     {
       "name": "Google Sheets",
+      "weight": 0.5
+    },
+    {
+      "name": "GroupMe",
       "weight": 0.5
     },
     {
@@ -1710,6 +1864,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "IBM Domino",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Intuit QuickBooks Point of Sale",
       "weight": 0.16666666666666666
     },
@@ -1723,6 +1881,14 @@
     },
     {
       "name": "Microsoft Dynamics",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Publisher",
       "weight": 0.16666666666666666
     },
     {
@@ -2102,6 +2268,50 @@
     {
       "name": "Woks",
       "weight": 0.5
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Card readers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cash registers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Credit card processing machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Linear imaging scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Notebook computers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Point of sale POS printers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Point of sale POS terminals",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Point of service scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Point of service workstations",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Restaurant guest and server paging systems",
+      "weight": 0.16666666666666666
     }
   ],
   "detailed_work_activities": [

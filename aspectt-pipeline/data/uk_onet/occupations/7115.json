@@ -1544,48 +1544,268 @@
   ],
   "tasks": [
     {
-      "task": "Monitor checkout stations to ensure they have adequate cash and are appropriately staffed.",
-      "task_type": "Core"
+      "task": "Count money and audit money drawers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.76
     },
     {
-      "task": "Sell tickets, spare and replacement parts, and other items to customers, and provide carry-out service at transaction completion.",
-      "task_type": "Supplemental"
+      "task": "Reconcile daily summaries of transactions to balance books.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.74
     },
     {
-      "task": "Compute and record totals of transactions, and keep balance sheets of amounts and numbers of transactions.",
-      "task_type": "Supplemental"
+      "task": "Compute sales prices, total purchases, and receive and process cash or credit payment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.56
     },
     {
-      "task": "Process merchandise returns and exchanges, and assist customers in finding items and resolving complaints.",
-      "task_type": "Core"
+      "task": "Issue receipts, refunds, credits, or change due to customers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.66
     },
     {
-      "task": "Count money, audit cash drawers, and maintain accurate records of monetary exchanges and transaction reconciliations.",
-      "task_type": "Core"
+      "task": "Process merchandise returns and exchanges.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.04
     },
     {
-      "task": "Help customers select and locate merchandise, describe use and operation, and demonstrate equipment.",
-      "task_type": "Core"
+      "task": "Assist customers by providing information and resolving their complaints.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.5
     },
     {
-      "task": "Exchange money, validate checks, and process payments by cash or credit cards, including issuing receipts and change.",
-      "task_type": "Core"
+      "task": "Greet customers and ascertain what each customer wants or needs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.84
     },
     {
-      "task": "Inventory stock, requisition new items, and maintain and organize work and inventory areas.",
-      "task_type": "Core"
+      "task": "Recommend, select, and help locate or obtain merchandise based on customer needs and desires.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.68
     },
     {
-      "task": "Read catalogs or parts lists to determine replacement stock numbers; determine and advise on required parts based on inspections.",
-      "task_type": "Core"
+      "task": "Describe merchandise and explain use, operation, and care of merchandise to customers.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.33
     },
     {
-      "task": "Prepare merchandise for sale, including packaging items and preparing sales slips or contracts.",
-      "task_type": "Core"
+      "task": "Inventory stock and requisition new stock.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.24
     },
     {
-      "task": "Observe security for risks and thefts and know how to address these situations, while maintaining clean checkout areas.",
-      "task_type": "Core"
+      "task": "Determine replacement parts required, according to inspections of old parts, customer requests, or customers' descriptions of malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.4
+    },
+    {
+      "task": "Receive and fill telephone orders for parts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.56
+    },
+    {
+      "task": "Prepare sales slips or sales contracts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.48
+    },
+    {
+      "task": "Stock shelves, sort and reshelve returned items, and mark prices on items and shelves.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.15
+    },
+    {
+      "task": "Ticket, arrange, and display merchandise to promote sales.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.28
+    },
+    {
+      "task": "Maintain and clean work and inventory areas.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Bag, box, wrap, or gift-wrap merchandise, and prepare packages for shipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.14
+    },
+    {
+      "task": "Offer customers carry-out service at the completion of transactions.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.94
+    },
+    {
+      "task": "Monitor checkout stations to ensure they have adequate cash available and are staffed appropriately.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.47
+    },
+    {
+      "task": "Accept credit applications and verify credit references to provide check-cashing authorization or to establish house credit accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.44
+    },
+    {
+      "task": "Assist with duties in other areas of the store, such as monitoring fitting rooms or bagging and carrying out customers' items.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.19
+    },
+    {
+      "task": "Supervise others and provide on-the-job training.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.24
+    },
+    {
+      "task": "Answer incoming phone calls.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.39
+    },
+    {
+      "task": "Sort, count, and wrap currency and coins.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.39
+    },
+    {
+      "task": "Weigh items sold by weight to determine prices.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.4
+    },
+    {
+      "task": "Cash checks for customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.1
+    },
+    {
+      "task": "Help customers try on or fit merchandise.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Fill customer orders from stock, and place orders when requested items are out of stock.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.59
+    },
+    {
+      "task": "Pick up and deliver parts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.62
+    },
+    {
+      "task": "Manage shipments by researching shipping methods or costs and tracking packages.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.25
+    },
+    {
+      "task": "Sell or arrange for delivery, insurance, financing, or service contracts for merchandise.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.97
+    },
+    {
+      "task": "Maintain records related to sales.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.58
+    },
+    {
+      "task": "Maintain knowledge of current sales and promotions, policies regarding payment and exchanges, and security practices.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.48
+    },
+    {
+      "task": "Watch for and recognize security risks and thefts and know how to prevent or handle these situations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.08
+    },
+    {
+      "task": "Estimate and quote trade-in allowances.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.18
+    },
+    {
+      "task": "Rent merchandise to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.26
+    },
+    {
+      "task": "Estimate quantity and cost of merchandise required, such as paint or floor covering.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.75
+    },
+    {
+      "task": "Estimate cost of repair or alteration of merchandise.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.23
+    },
+    {
+      "task": "Advise customers on substitution or modification of parts when identical replacements are not available.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.03
+    },
+    {
+      "task": "Prepare merchandise for purchase or rental.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.55
+    },
+    {
+      "task": "Measure parts, using precision measuring instruments, to determine whether similar parts may be machined to required sizes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.66
+    },
+    {
+      "task": "Repair parts or equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.46
+    },
+    {
+      "task": "Sell tickets and other items to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.18
+    },
+    {
+      "task": "Request information or assistance, using paging systems.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
     }
   ],
   "technology_skills": [
@@ -1602,6 +1822,10 @@
       "weight": 0.5833333333333333
     },
     {
+      "name": "Database software",
+      "weight": 0.41666666666666663
+    },
+    {
       "name": "Handheld computer device software",
       "weight": 0.41666666666666663
     },
@@ -1614,6 +1838,10 @@
       "weight": 0.41666666666666663
     },
     {
+      "name": "Adobe Acrobat",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Inventory management systems",
       "weight": 0.3333333333333333
     },
@@ -1622,7 +1850,23 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Accounting software",
+      "weight": 0.25
+    },
+    {
       "name": "Apple Safari",
+      "weight": 0.25
+    },
+    {
+      "name": "Bookkeeping software",
       "weight": 0.25
     },
     {
@@ -1646,7 +1890,27 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Advanced Retail Management Systems Retail Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "American Precision Instruments Regit",
       "weight": 0.16666666666666666
     },
     {
@@ -1662,11 +1926,55 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Blink",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "CAP Automation SellWise",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Comcash ERP",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "CompuTant CounterPoint",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Customer information databases",
       "weight": 0.16666666666666666
     },
     {
+      "name": "CyberMatrix",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Data entry software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Datasym SYMFINITE",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "EZ Software Solutions",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Exact business software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Gift registry software",
       "weight": 0.16666666666666666
     },
     {
@@ -1678,11 +1986,31 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Google Meet",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Infocorp Computer Solutions $mart System",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Infocorp Softwear/POS",
       "weight": 0.16666666666666666
     },
     {
       "name": "Internet browser software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Intuit QuickBooks",
       "weight": 0.16666666666666666
     },
     {
@@ -1694,6 +2022,54 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "LOB RetailPoint",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Logisoft Positive Pos System",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "ManageMore Cellular Manager",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Master Merchant Systems Music Store",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "MicroBiz",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Millennium Software Atrex",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Plexis Software Plexis POS",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Point of sale POS bookstore software",
       "weight": 0.16666666666666666
     },
@@ -1702,7 +2078,67 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "RiscStation POSSum",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SBS Keystroke",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sage 50 Accounting Software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Semicron Systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Softpedia ShopInvo",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "System3 POS software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "The General Store",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "The Retail Solution",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "TokenWorks Magnetic Card Reader",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "True North Computer Retail Plus",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "VeriFone PC Charge Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vigilant",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Visual Retail Plus",
       "weight": 0.16666666666666666
     },
     {
@@ -1710,8 +2146,16 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.3333333333333333
+      "name": "WinMan SureSell",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "iQmetrix RQ4 Retail Management System",
+      "weight": 0.16666666666666666
     }
   ],
   "tools_used": [
@@ -1744,19 +2188,11 @@
       "weight": 0.41666666666666663
     },
     {
-      "name": "Automatic coin sorters",
+      "name": "Belt conveyors",
       "weight": 0.25
     },
     {
-      "name": "Automatic coin wrappers",
-      "weight": 0.25
-    },
-    {
-      "name": "Coin counting machines",
-      "weight": 0.25
-    },
-    {
-      "name": "Coin sorting setups",
+      "name": "Cardboard balers",
       "weight": 0.25
     },
     {
@@ -1768,7 +2204,7 @@
       "weight": 0.25
     },
     {
-      "name": "Money order machines",
+      "name": "Laser printers",
       "weight": 0.25
     },
     {
@@ -1776,7 +2212,31 @@
       "weight": 0.25
     },
     {
+      "name": "Surveillance cameras",
+      "weight": 0.25
+    },
+    {
+      "name": "Trash compactors",
+      "weight": 0.25
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.25
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Barcode scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computer laser printers",
       "weight": 0.16666666666666666
     },
     {
@@ -1788,11 +2248,27 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Digital still cameras",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hammers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Handheld calculators",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Ladders",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Magnetic card readers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Multiline telephone systems",
       "weight": 0.16666666666666666
     },
     {
@@ -1804,11 +2280,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Screwdrivers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Tablet computers",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Tape measures",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Telecheck processing terminals",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Warehouse forklifts",
       "weight": 0.16666666666666666
     }
   ],

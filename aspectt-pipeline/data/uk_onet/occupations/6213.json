@@ -1544,76 +1544,466 @@
   ],
   "tasks": [
     {
-      "task": "Monitor passenger behavior to identify threats to safety, and direct and assist passengers in emergency procedures, such as evacuations.",
-      "task_type": "Core"
+      "task": "Monitor passenger behavior to identify threats to the safety of the crew and other passengers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.74
     },
     {
-      "task": "Walk aisles of planes to verify passengers' compliance with regulations, and inspect that emergency equipment is in working order.",
-      "task_type": "Core"
+      "task": "Direct and assist passengers in emergency procedures, such as evacuating a plane following an emergency landing.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.69
     },
     {
-      "task": "Administer first aid to passengers in distress, following procedures to prepare passengers and aircraft for landing.",
-      "task_type": "Core"
+      "task": "Walk aisles of planes to verify that passengers have complied with national regulations prior to takeoffs and landings.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.73
     },
     {
-      "task": "Determine special assistance needs of passengers, such as children or persons with disabilities, and verify that supplies are adequately stocked.",
-      "task_type": "Core"
+      "task": "Verify that first aid kits and other emergency equipment, including fire extinguishers and oxygen bottles, are in working order.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.86
     },
     {
-      "task": "Reassure passengers during turbulence, announce flight delays and preparation for descent, and respond to their questions or complaints.",
-      "task_type": "Core"
+      "task": "Administer first aid to passengers in distress.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.64
     },
     {
-      "task": "Inspect passenger tickets for accuracy and obtain destination information to assist in boarding and disembarking processes.",
-      "task_type": "Core"
+      "task": "Prepare passengers and aircraft for landing, following procedures.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.68
     },
     {
-      "task": "Inspect and clean cabins to ensure order, and greet passengers while directing them to assigned seats.",
-      "task_type": "Core"
+      "task": "Determine special assistance needs of passengers, such as small children, the elderly, or persons with disabilities.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.3
     },
     {
-      "task": "Conduct periodic checks through the cabin for passenger comfort and distribute needed items like reading materials and pillows.",
-      "task_type": "Core"
+      "task": "Check to ensure that food, beverages, blankets, reading material, emergency equipment, and other supplies are aboard and are in adequate supply.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.15
     },
     {
-      "task": "Collect money for meals and beverages, heat and serve prepared foods, and operate audio and video systems.",
-      "task_type": "Core"
+      "task": "Reassure passengers when situations, such as turbulence, are encountered.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.24
     },
     {
-      "task": "Make and confirm reservations for transportation and accommodations, and provide clients with essential travel information.",
-      "task_type": "Core"
+      "task": "Announce flight delays and descent preparations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.01
     },
     {
-      "task": "Compute costs of travel and accommodations, and book transportation and hotel reservations using computer systems.",
-      "task_type": "Core"
+      "task": "Examine passenger documentation to determine destinations and to assign boarding passes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.83
     },
     {
-      "task": "Plan, describe, and arrange itinerary tour packages and sell promotional travel incentives offered by various carriers.",
-      "task_type": "Core"
+      "task": "Respond to passengers' questions, requests, or complaints.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.15
     },
     {
-      "task": "Maintain computerized inventories of passenger space, confer with customers regarding service requirements, and inform them of travel details.",
-      "task_type": "Core"
+      "task": "Assist passengers entering or disembarking the aircraft.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.93
     },
     {
-      "task": "Assist with the preparation of required travel documents and forms, and provide customers with information about routes, prices, and schedules.",
-      "task_type": "Core"
+      "task": "Inspect and clean cabins, checking for any problems and making sure that cabins are in order.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.84
     },
     {
-      "task": "Train and evaluate personnel, direct staff engaged in service activities, and resolve any issues that arise.",
-      "task_type": "Core"
+      "task": "Conduct periodic trips through the cabin to ensure passenger comfort and to distribute reading material, headphones, pillows, playing cards, and blankets.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.84
     },
     {
-      "task": "Plan and prepare work schedules for staff, monitor their performance to meet sales goals, and attend meetings to exchange product information.",
-      "task_type": "Core"
+      "task": "Take inventory of headsets, alcoholic beverages, and money collected.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.1
     },
     {
-      "task": "Enforce safety rules and conduct checks to ensure compliance with regulations regarding passenger and worker safety.",
-      "task_type": "Core"
+      "task": "Operate audio and video systems.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.66
     },
     {
-      "task": "Provide support to other workers and assist clients in resolving travel problems or inquiries about services offered.",
-      "task_type": "Core"
+      "task": "Assist passengers in placing carry-on luggage in overhead, garment, or under-seat storage.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.34
+    },
+    {
+      "task": "Prepare reports showing places of departure and destination, passenger ticket numbers, meal and beverage inventories, the conditions of cabin equipment, and any problems encountered by passengers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.01
+    },
+    {
+      "task": "Collect money for meals and beverages.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.56
+    },
+    {
+      "task": "Heat and serve prepared foods.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.43
+    },
+    {
+      "task": "Sell alcoholic beverages to passengers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.92
+    },
+    {
+      "task": "Announce and demonstrate safety and emergency procedures, such as the use of oxygen masks, seat belts, and life jackets.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.81
+    },
+    {
+      "task": "Attend preflight briefings concerning weather, altitudes, routes, emergency procedures, crew coordination, lengths of flights, food and beverage services offered, and numbers of passengers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
+    },
+    {
+      "task": "Check baggage and cargo and direct passengers to designated locations for loading.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.76
+    },
+    {
+      "task": "Announce arrival and departure information, using public address systems.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.54
+    },
+    {
+      "task": "Book transportation and hotel reservations, using computer or telephone.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.42
+    },
+    {
+      "task": "Assemble and issue required documentation, such as tickets, travel insurance policies, or itineraries.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.44
+    },
+    {
+      "task": "Maintain computerized inventories of available passenger space and provide information on space reserved or available.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.39
+    },
+    {
+      "task": "Inform clients of essential travel information, such as travel times, transportation connections, or medical and visa requirements.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.38
+    },
+    {
+      "task": "Converse with customer to determine destination, mode of transportation, travel dates, financial considerations, and accommodations required.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.57
+    },
+    {
+      "task": "Provide boarding or disembarking assistance to passengers needing special assistance.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.75
+    },
+    {
+      "task": "Open or close information facilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.24
+    },
+    {
+      "task": "Keep information facilities clean during operation.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.99
+    },
+    {
+      "task": "Plan routes, itineraries, and accommodation details, and compute fares and fees, using schedules, rate books, and computers.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.36
+    },
+    {
+      "task": "Trace lost, delayed, or misdirected baggage for customers.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.78
+    },
+    {
+      "task": "Plan, describe, arrange, and sell itinerary tour packages and promotional travel incentives offered by various travel carriers.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.57
+    },
+    {
+      "task": "Provide clients with assistance in preparing required travel documents and forms.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.54
+    },
+    {
+      "task": "Provide customer with brochures and publications containing travel information, such as local customs, points of interest, or foreign country regulations.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.04
+    },
+    {
+      "task": "Contact motel, hotel, resort, and travel operators to obtain current advertising literature.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.82
+    },
+    {
+      "task": "Count and verify tickets and seat reservations and record numbers of passengers boarding and disembarking.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.06
+    },
+    {
+      "task": "Open and close doors for passengers.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.04
+    },
+    {
+      "task": "Secure passengers for transportation by buckling seatbelts or fastening wheelchairs with tie-down straps.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.69
+    },
+    {
+      "task": "Adjust window shades or seat cushions at the request of passengers.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.78
+    },
+    {
+      "task": "Determine or facilitate seating arrangements.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.94
+    },
+    {
+      "task": "Signal transportation operators to stop or to proceed.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.86
+    },
+    {
+      "task": "Record and maintain information on clients, vendors, and travel packages.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.49
+    },
+    {
+      "task": "Collect payment for transportation and accommodations from customer.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.6
+    },
+    {
+      "task": "Keep records pertaining to purchases, sales, and requisitions.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.87
+    },
+    {
+      "task": "Confer with company officials to develop methods and procedures to increase sales, expand markets, and promote business.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.79
+    },
+    {
+      "task": "Direct and supervise employees engaged in sales, inventory-taking, reconciling cash receipts, or performing specific services.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.95
+    },
+    {
+      "task": "Visit retailers and sales representatives to promote products and gather information.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 4.06
+    },
+    {
+      "task": "Monitor sales staff performance to ensure that goals are met.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 4.29
+    },
+    {
+      "task": "Hire, train, and evaluate personnel.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.86
+    },
+    {
+      "task": "Coordinate sales promotion activities, such as preparing merchandise displays and advertising copy.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 3.75
+    },
+    {
+      "task": "Provide staff with assistance in performing difficult or complicated duties.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 4.06
+    },
+    {
+      "task": "Attend company meetings to exchange product information and coordinate work activities with other departments.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.63
+    },
+    {
+      "task": "Inventory stock and reorder when inventories drop to specified levels.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 3.79
+    },
+    {
+      "task": "Plan and prepare work schedules, and assign employees to specific duties.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.75
+    },
+    {
+      "task": "Prepare sales and inventory reports for management and budget departments.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 4.02
+    },
+    {
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.11
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Monitor field work to ensure proper performance and use of materials.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Examine, measure, or weigh cargo or materials to determine specific handling requirements.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.99
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, personnel, or storage requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.77
+    },
+    {
+      "task": "Plan work assignments and equipment allocations to meet transportation, operations or production goals.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.07
+    },
+    {
+      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.89
+    },
+    {
+      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
+    },
+    {
+      "task": "Interpret transportation or tariff regulations, shipping orders, safety regulations, or company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.17
+    },
+    {
+      "task": "Maintain or verify records of time, materials, expenditures, or crew activities.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.9
+    },
+    {
+      "task": "Recommend or implement personnel actions, such as employee selection, evaluation, rewards, or disciplinary actions.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.63
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1642,6 +2032,10 @@
       "weight": 0.375
     },
     {
+      "name": "Microsoft Access",
+      "weight": 0.3437084257206208
+    },
+    {
       "name": "Email software",
       "weight": 0.325
     },
@@ -1658,8 +2052,24 @@
       "weight": 0.25
     },
     {
+      "name": "Bid Assistant",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Lotus LearningSpace",
+      "weight": 0.25
+    },
+    {
       "name": "SBS International Maestro Suite",
       "weight": 0.25
+    },
+    {
+      "name": "ValtamTech Flight Crew Log",
+      "weight": 0.25
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.24166666666666667
     },
     {
       "name": "Amadeus Altea Reservation",
@@ -1670,7 +2080,15 @@
       "weight": 0.2
     },
     {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.2
+    },
+    {
       "name": "Galileo 360 Fares",
+      "weight": 0.2
+    },
+    {
+      "name": "GuestServe",
       "weight": 0.2
     },
     {
@@ -1686,6 +2104,10 @@
       "weight": 0.2
     },
     {
+      "name": "Property scheduling software",
+      "weight": 0.2
+    },
+    {
       "name": "Sabre Airline Solutions SabreSonic Ticket",
       "weight": 0.2
     },
@@ -1698,11 +2120,27 @@
       "weight": 0.125
     },
     {
+      "name": "Time tracking software",
+      "weight": 0.125
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.08120842572062084
+    },
+    {
       "name": "Amadeus CRS",
       "weight": 0.0625
     },
     {
       "name": "Apollo Reservation System",
+      "weight": 0.0625
+    },
+    {
+      "name": "Colibripms Software Colibri",
+      "weight": 0.0625
+    },
+    {
+      "name": "DataSwell",
       "weight": 0.0625
     },
     {
@@ -1714,7 +2152,19 @@
       "weight": 0.0625
     },
     {
+      "name": "Globekey Agentkey",
+      "weight": 0.0625
+    },
+    {
       "name": "IMS Travel Agent Reservation Software System",
+      "weight": 0.0625
+    },
+    {
+      "name": "Illusions Online Illusions OnDemand",
+      "weight": 0.0625
+    },
+    {
+      "name": "Intuit QuickBooks",
       "weight": 0.0625
     },
     {
@@ -1734,11 +2184,23 @@
       "weight": 0.0625
     },
     {
+      "name": "Rezopia",
+      "weight": 0.0625
+    },
+    {
       "name": "SAP Concur",
       "weight": 0.0625
     },
     {
       "name": "Sabre Airline Solutions SabreSonic Customer Sales & Service",
+      "weight": 0.0625
+    },
+    {
+      "name": "Sabre Central Command",
+      "weight": 0.0625
+    },
+    {
+      "name": "TourCMS",
       "weight": 0.0625
     },
     {
@@ -1762,6 +2224,10 @@
       "weight": 0.0625
     },
     {
+      "name": "Work scheduling software",
+      "weight": 0.056818181818181816
+    },
+    {
       "name": "Budgeting software",
       "weight": 0.041666666666666664
     },
@@ -1778,12 +2244,100 @@
       "weight": 0.041666666666666664
     },
     {
+      "name": "Electronic data interchange EDI software",
+      "weight": 0.041666666666666664
+    },
+    {
       "name": "Financial accounting software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Flow chart software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Fuze cloud communications and collaboration software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Graphics creation software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "NetSuite ERP",
       "weight": 0.041666666666666664
     },
     {
       "name": "Online meeting software",
       "weight": 0.041666666666666664
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "QuickBase business management software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Salesforce.com Salesforce CRM",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "SugarCRM Sugar UX",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Fleet management systems",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1812,7 +2366,119 @@
       "weight": 0.25681818181818183
     },
     {
+      "name": "Aircraft fire extinguishing systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Automated external defibrillators AED",
+      "weight": 0.25
+    },
+    {
+      "name": "Cabin management systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Cardiopulmonary resuscitation CPR equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Cardiopulmonary resuscitation CPR masks",
+      "weight": 0.25
+    },
+    {
+      "name": "Chemical oxygen generators",
+      "weight": 0.25
+    },
+    {
+      "name": "Commercial cooking ovens",
+      "weight": 0.25
+    },
+    {
+      "name": "Emergency exit doors and windows",
+      "weight": 0.25
+    },
+    {
+      "name": "Emergency rafts",
+      "weight": 0.25
+    },
+    {
+      "name": "Epi-pens",
+      "weight": 0.25
+    },
+    {
+      "name": "Evacuation slides",
+      "weight": 0.25
+    },
+    {
+      "name": "First aid kits",
+      "weight": 0.25
+    },
+    {
+      "name": "Flotation seat cushions",
+      "weight": 0.25
+    },
+    {
+      "name": "Halon fire extinguishers",
+      "weight": 0.25
+    },
+    {
+      "name": "Life preservers",
+      "weight": 0.25
+    },
+    {
+      "name": "Megaphones",
+      "weight": 0.25
+    },
+    {
+      "name": "Portable oxygen equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective breathing equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Refreshment carts",
+      "weight": 0.25
+    },
+    {
+      "name": "Refrigeration units",
+      "weight": 0.25
+    },
+    {
+      "name": "Satellite aircraft communication systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Self-inflating manual resuscitation devices",
+      "weight": 0.25
+    },
+    {
+      "name": "Slideraft packs",
+      "weight": 0.25
+    },
+    {
+      "name": "Sliderafts",
+      "weight": 0.25
+    },
+    {
+      "name": "Smoke goggles",
+      "weight": 0.25
+    },
+    {
       "name": "Storage compartments",
+      "weight": 0.25
+    },
+    {
+      "name": "Supplemental oxygen systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Tourniquets",
+      "weight": 0.25
+    },
+    {
+      "name": "Window exit escape ropes",
       "weight": 0.25
     },
     {
@@ -1832,12 +2498,160 @@
       "weight": 0.2
     },
     {
+      "name": "Private automatic branch exchange PABX systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Public address PA systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.125
+    },
+    {
+      "name": "Computerized cash registers",
+      "weight": 0.125
+    },
+    {
+      "name": "Digital video cameras",
+      "weight": 0.125
+    },
+    {
+      "name": "First aid equipment",
+      "weight": 0.125
+    },
+    {
+      "name": "High-powered flashlights",
+      "weight": 0.125
+    },
+    {
+      "name": "Light trucks",
+      "weight": 0.125
+    },
+    {
+      "name": "Mechanical lifts",
+      "weight": 0.125
+    },
+    {
+      "name": "Mobile radios",
+      "weight": 0.125
+    },
+    {
+      "name": "Parking control cones",
+      "weight": 0.125
+    },
+    {
+      "name": "Parking signs",
+      "weight": 0.125
+    },
+    {
+      "name": "Portable barricades",
+      "weight": 0.125
+    },
+    {
+      "name": "Power staplers",
+      "weight": 0.125
+    },
+    {
+      "name": "Ticket punches",
+      "weight": 0.125
+    },
+    {
+      "name": "Tie downs",
+      "weight": 0.125
+    },
+    {
+      "name": "Vehicle seat belts",
+      "weight": 0.125
+    },
+    {
+      "name": "Wheelchair clamping devices",
+      "weight": 0.125
+    },
+    {
+      "name": "Wheelchairs",
+      "weight": 0.125
+    },
+    {
+      "name": "Work vans",
+      "weight": 0.125
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.10416666666666666
+    },
+    {
+      "name": "Multiline telephone systems",
+      "weight": 0.10416666666666666
+    },
+    {
+      "name": "Printing calculators",
+      "weight": 0.10416666666666666
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.07765151515151515
+    },
+    {
+      "name": "Card readers",
+      "weight": 0.0625
+    },
+    {
+      "name": "Computer inkjet printers",
+      "weight": 0.0625
+    },
+    {
+      "name": "Copy machines",
+      "weight": 0.0625
+    },
+    {
+      "name": "Public address systems",
+      "weight": 0.0625
+    },
+    {
       "name": "Smart phones",
       "weight": 0.041666666666666664
     },
     {
       "name": "Tablet computers",
       "weight": 0.041666666666666664
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Forklifts",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Pallet jacks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Refrigerated trailers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Roller beds",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

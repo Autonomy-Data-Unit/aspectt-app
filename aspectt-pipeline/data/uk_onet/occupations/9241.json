@@ -1544,48 +1544,178 @@
   ],
   "tasks": [
     {
-      "task": "Complete order receipts and keep records of outgoing orders and stock-handling equipment use or damage.",
-      "task_type": "Core"
+      "task": "Obtain merchandise from bins or shelves.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.1
     },
     {
-      "task": "Obtain merchandise from bins or shelves and receive, unload, open, unpack, or issue sales floor merchandise.",
-      "task_type": "Core"
+      "task": "Operate equipment such as forklifts.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.17
     },
     {
-      "task": "Operate equipment such as forklifts and transport packages to customers' vehicles.",
-      "task_type": "Core"
+      "task": "Determine proper storage methods, identification, and stock location, based on turnover, environmental factors, and physical capabilities of facilities.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.72
     },
     {
-      "task": "Determine proper storage methods and keep items in an orderly and accessible manner in storage areas.",
-      "task_type": "Core"
+      "task": "Requisition merchandise from supplier, based on available space, merchandise on hand, customer demand, or advertised specials.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.63
     },
     {
-      "task": "Requisition merchandise from suppliers based on space, demand, or specials and stock shelves, racks, or bins with new merchandise.",
-      "task_type": "Core"
+      "task": "Compute prices of items or groups of items.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.43
     },
     {
-      "task": "Compute prices, mark stock items using tags or price lists, and recommend disposal of obsolete stock.",
-      "task_type": "Core"
+      "task": "Keep records of out-going orders.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.23
     },
     {
-      "task": "Clean and maintain tools, equipment, and storage areas, and clean display cases, shelves, and aisles to ensure safety compliance.",
-      "task_type": "Core"
+      "task": "Keep records on the use or damage of stock or stock-handling equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.82
     },
     {
-      "task": "Pack customer purchases in bags or cartons and itemize and total customer merchandise selection at checkout using cash register.",
-      "task_type": "Core"
+      "task": "Recommend disposal of excess, defective, or obsolete stock.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.64
     },
     {
-      "task": "Provide assistance or direction to other stockroom or warehouse workers and answer customer questions about merchandise.",
-      "task_type": "Core"
+      "task": "Clean and maintain supplies, tools, equipment, and storage areas to ensure compliance with safety regulations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.74
     },
     {
-      "task": "Take inventory to identify items to reorder, examine stock for defects, and compare merchandise invoices with received items.",
-      "task_type": "Core"
+      "task": "Dispose of damaged or defective items, or return them to vendors.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.67
     },
     {
-      "task": "Pack and unpack items to be stocked and read orders to ascertain catalog numbers, sizes, colors, and quantities of merchandise.",
-      "task_type": "Core"
+      "task": "Pack customer purchases in bags or cartons.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.93
+    },
+    {
+      "task": "Design and set up advertising signs and displays of merchandise on shelves, counters, or tables to attract customers and promote sales.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.6
+    },
+    {
+      "task": "Clean display cases, shelves, and aisles.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.85
+    },
+    {
+      "task": "Provide assistance or direction to other stockroom, warehouse, or storage yard workers.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.33
+    },
+    {
+      "task": "Issue or distribute materials, products, parts, and supplies to customers or coworkers, based on information from incoming requisitions.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.39
+    },
+    {
+      "task": "Take inventory or examine merchandise to identify items to be reordered or replenished.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.86
+    },
+    {
+      "task": "Mark stock items, using identification tags, stamps, electric marking tools, or other labeling equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.87
+    },
+    {
+      "task": "Transport packages to customers' vehicles.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.09
+    },
+    {
+      "task": "Itemize and total customer merchandise selection at checkout counter, using cash register, and accept cash or charge card for purchases.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.08
+    },
+    {
+      "task": "Compare merchandise invoices to items actually received to ensure that shipments are correct.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.42
+    },
+    {
+      "task": "Stock shelves, racks, cases, bins, and tables with new or transferred merchandise.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.21
+    },
+    {
+      "task": "Stamp, attach, or change price tags on merchandise, referring to price list.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.14
+    },
+    {
+      "task": "Receive and count stock items, and record data manually or on computer.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.05
+    },
+    {
+      "task": "Answer customers' questions about merchandise and advise customers on merchandise selection.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.56
+    },
+    {
+      "task": "Examine and inspect stock items for wear or defects, reporting any damage to supervisors.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.29
+    },
+    {
+      "task": "Store items in an orderly and accessible manner in warehouses, tool rooms, supply rooms, or other areas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.92
+    },
+    {
+      "task": "Pack and unpack items to be stocked on shelves in stockrooms, warehouses, or storage yards.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.86
+    },
+    {
+      "task": "Read orders to ascertain catalog numbers, sizes, colors, and quantities of merchandise.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.04
+    },
+    {
+      "task": "Receive, unload, open, unpack, or issue sales floor merchandise.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.01
     }
   ],
   "technology_skills": [
@@ -1614,6 +1744,14 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Microsoft Access",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Microsoft Excel",
       "weight": 0.1111111111111111
     },
@@ -1634,7 +1772,15 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Ordering software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "SAP software",
       "weight": 0.1111111111111111
     },
     {
@@ -1656,6 +1802,10 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Baling equipment",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Barcode scanners",
       "weight": 0.1111111111111111
     },
@@ -1668,11 +1818,31 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Computer inkjet printers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Convertible hand trucks",
       "weight": 0.1111111111111111
     },
     {
       "name": "Conveyor belts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Copy machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electric hoists",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electric marking tools",
       "weight": 0.1111111111111111
     },
     {
@@ -1696,6 +1866,10 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Industrial scissors",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Label removers",
       "weight": 0.1111111111111111
     },
@@ -1712,11 +1886,55 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Lifting belts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Lifting platforms",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Manual pallet jacks",
       "weight": 0.1111111111111111
     },
     {
+      "name": "Manual shears",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Measuring tapes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Multiline telephone systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Nailing hammers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Office intercom systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Packing material compactors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pallet tipper",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Personal computers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Personal digital assistants PDAs",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Power jacks",
       "weight": 0.1111111111111111
     },
     {
@@ -1728,11 +1946,27 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Remote data terminals",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rubber marking stamps",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Safety cutters",
       "weight": 0.1111111111111111
     },
     {
       "name": "Shelf scrapers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Shipping scales",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sign printers",
       "weight": 0.1111111111111111
     },
     {
@@ -1744,11 +1978,27 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Staple guns",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Stepladders",
       "weight": 0.1111111111111111
     },
     {
+      "name": "Strapping machines",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Tape guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ticket-printing machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Utility tug trucks",
       "weight": 0.1111111111111111
     },
     {
@@ -1757,6 +2007,10 @@
     },
     {
       "name": "Warehouse forklifts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Wrapping equipment",
       "weight": 0.1111111111111111
     }
   ],

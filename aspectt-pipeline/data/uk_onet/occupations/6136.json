@@ -1544,60 +1544,172 @@
   ],
   "tasks": [
     {
-      "task": "Massage patients or apply preparations or treatments, such as liniment or alcohol rubs.",
-      "task_type": "Core"
+      "task": "Provide patients with help moving in and out of beds, baths, wheelchairs, or automobiles and with dressing and grooming.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.38
+    },
+    {
+      "task": "Perform housekeeping duties, such as cooking, cleaning, washing clothes or dishes, or running errands.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Perform healthcare-related tasks, such as monitoring vital signs and medication, under the direction of registered nurses or physiotherapists.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.46
+    },
+    {
+      "task": "Maintain records of patient care, condition, progress, or problems to report and discuss observations with supervisor or case manager.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.46
+    },
+    {
+      "task": "Provide patients and families with emotional support and instruction in areas such as caring for infants, preparing healthy meals, living independently, or adapting to disability or illness.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.9
+    },
+    {
+      "task": "Accompany clients to doctors' offices or on other trips outside the home, providing transportation, assistance, and companionship.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.76
+    },
+    {
+      "task": "Participate in case reviews, consulting with the team caring for the client, to evaluate the client's needs and plan for continuing services.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
+    },
+    {
+      "task": "Massage patients or apply preparations or treatments, such as liniment, alcohol rubs, or heat-lamp stimulation.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.31
+    },
+    {
+      "task": "Arrange worker breaks to ensure services are adequately staffed throughout each shift.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.94
+    },
+    {
+      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.36
+    },
+    {
+      "task": "Train workers in proper operational procedures and functions and explain company policies.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.55
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.41
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.79
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.3
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.11
+    },
+    {
+      "task": "Take disciplinary action to address performance problems.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.23
+    },
+    {
+      "task": "Recruit and hire staff members.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.32
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.01
+    },
+    {
+      "task": "Requisition necessary supplies, equipment, or services.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.71
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.93
+    },
+    {
+      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.14
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform management about problems, such as employee disputes.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.97
+    },
+    {
+      "task": "Investigate employee complaints and resolve problems following management rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.13
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as hotel staff or hair stylists.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.05
     },
     {
       "task": "Direct patients in simple prescribed exercises or in the use of braces or artificial limbs.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.49
     },
     {
-      "task": "Bathe patients and assist with personal care tasks such as dressing, grooming, and toileting.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Administer prescribed oral medications and ensure patients take their medicine under the direction of a nurse or physician.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Care for patients by changing bed linens, washing and ironing laundry, and assisting with personal care activities.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Accompany clients to doctors' offices or on other trips, providing transportation, assistance, and companionship.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Perform healthcare-related tasks, such as monitoring vital signs and medication, under the direction of registered nurses.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Maintain records of patient care, condition, and progress and report changes to a manager or supervisor.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Provide clients with emotional support and instruction in caring for infants, preparing meals, and independent living.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Plan, purchase, prepare, or serve meals to clients according to prescribed diets and assist with food preparation.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Perform housekeeping duties, such as cooking, cleaning, and running errands to maintain a clean environment.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Care for individuals during periods of incapacitation or adjustment, providing companionship and personal care support.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Instruct or advise clients on issues such as hygiene, nutrition, and household cleanliness to promote well-being.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Participate in case reviews to evaluate the client’s needs and plan for ongoing services.",
-      "task_type": "Core"
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1634,12 +1746,44 @@
       "weight": 0.2532467532467532
     },
     {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.18181818181818182
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.18181818181818182
+    },
+    {
       "name": "AIGHD OASIS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mi-Co software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft SharePoint",
       "weight": 0.16666666666666666
     },
     {
       "name": "Microsoft Windows",
       "weight": 0.16666666666666666
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Appletree",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "August Systems Visit Wizard",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Computer reading software",
@@ -1654,8 +1798,24 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Mi-Co Mi-Forms",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Spreadsheet software",
       "weight": 0.14285714285714285
+    },
+    {
+      "name": "Voltage SecureMail",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.08658008658008658
     },
     {
       "name": "Work scheduling software",
@@ -1800,6 +1960,18 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Alarm systems",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Automatic blood pressure machines",
       "weight": 0.14285714285714285
     },
@@ -1820,7 +1992,19 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Digital cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Digital video cameras",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Electronic patient thermometers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hammers",
       "weight": 0.14285714285714285
     },
     {
@@ -1844,11 +2028,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Mechanical vibrating massage devices",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Oxygen delivery equipment",
       "weight": 0.14285714285714285
     },
     {
+      "name": "Paging systems",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Patient lifting devices",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Screwdrivers",
       "weight": 0.14285714285714285
     },
     {
@@ -1860,7 +2056,19 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Speech synthesizers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Tablet computers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Telecommunication devices TDD",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Teletypewriters TTY",
       "weight": 0.14285714285714285
     },
     {
@@ -1876,12 +2084,28 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Computer laser printers",
+      "weight": 0.08658008658008658
+    },
+    {
       "name": "Laptop computers",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Photocopying equipment",
       "weight": 0.08658008658008658
     },
     {
       "name": "Automated external defibrillators AED",
       "weight": 0.03571428571428571
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

@@ -1545,331 +1545,855 @@
   "tasks": [
     {
       "task": "Explain real and personal property taxes to property owners.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.47
     },
     {
-      "task": "Contact or interview claimants, doctors, medical specialists, or employers to obtain additional information.",
-      "task_type": "Core"
+      "task": "Forecast the value of property.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.2
     },
     {
-      "task": "Inspect personal or business property and consider factors like market value, location, and building costs.",
-      "task_type": "Core"
+      "task": "Document physical characteristics of property such as measurements, quality, and design.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.83
     },
     {
-      "task": "Forecast the value of property by calculating based on comparisons to recent sales and anticipated income streams.",
-      "task_type": "Core"
+      "task": "Determine the appropriate type of valuation to make, such as fair market, replacement, or liquidation, based on the needs of the property owner.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.91
     },
     {
-      "task": "Document physical characteristics of properties such as measurements, quality, and design including taking photographs.",
-      "task_type": "Core"
+      "task": "Create and maintain a database of completed appraisals.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.36
     },
     {
-      "task": "Determine the appropriate type of valuation to make, such as fair market, replacement, or liquidation based on the property owner's needs.",
-      "task_type": "Core"
+      "task": "Attend mediations or trials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.71
     },
     {
-      "task": "Prepare written reports that estimate property values and outline the methods used to make the estimations.",
-      "task_type": "Core"
+      "task": "Examine titles to property to determine validity and act as company agent in transactions with property owners.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.7
     },
     {
-      "task": "Analyze trends in sales prices, construction costs, and rents to assess property values or ensure accuracy in assessments.",
-      "task_type": "Core"
+      "task": "Locate and record data on sales of comparable property using specialized software, internet searches, or personal records.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.73
     },
     {
-      "task": "Evaluate practicality of repair vs. payment of market value before an accident and prepare insurance forms for repair cost estimates.",
-      "task_type": "Core"
+      "task": "Recommend loan amounts based on the value of property being used as collateral.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.7
     },
     {
-      "task": "Review repair cost estimates with automobile repair shops to agree on costs and examine damaged vehicles to determine the extent of damage.",
-      "task_type": "Core"
+      "task": "Take photographs of property.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.26
     },
     {
-      "task": "Collect and analyze data relevant to identifying real estate market trends and evaluating land and neighborhoods.",
-      "task_type": "Core"
+      "task": "Inspect properties, considering factors such as market value, location, and building or replacement costs to determine appraisal value.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.43
     },
     {
-      "task": "Inspect new construction and major improvements to determine values and verify legal descriptions of properties against county records.",
-      "task_type": "Core"
+      "task": "Interview persons familiar with properties and immediate surroundings, such as contractors, home owners, and realtors, to obtain pertinent information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.13
     },
     {
-      "task": "Conduct regular reviews of properties to determine changes due to construction or demolition and prepare assessment data including maps.",
-      "task_type": "Core"
+      "task": "Verify legal descriptions of properties by comparing them to county records.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.1
     },
     {
-      "task": "Testify in court regarding the value of tangible and real estate property as necessary for claims.",
-      "task_type": "Core"
+      "task": "Check building codes and zoning bylaws to determine any effects on the properties being appraised.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.18
     },
     {
-      "task": "Interview relevant individuals and collect evidence to support contested claims during investigations.",
-      "task_type": "Core"
+      "task": "Maintain familiarity with aspects of local real estate markets.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.57
     },
     {
-      "task": "Communicate with relevant parties to ensure accuracy in data used for settling claims and verify information pertaining to transactions.",
-      "task_type": "Core"
+      "task": "Evaluate land and neighborhoods where properties are situated, considering locations and trends or impending changes that could influence future values.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.92
     },
     {
-      "task": "Measure the intensity and identify the types of radiation in work areas, equipment, or materials, using radiation detectors or other instruments.",
-      "task_type": "Core"
+      "task": "Examine income records and operating costs of income properties.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.81
+    },
+    {
+      "task": "Establish uniform and equitable systems for assessing all classes and kinds of property.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.71
+    },
+    {
+      "task": "Conduct regular reviews of property within jurisdictions to determine changes in property due to construction or demolition.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.25
+    },
+    {
+      "task": "Review information about transfers of property to ensure its accuracy, checking basic information on buyers, sellers, and sales prices and making corrections as necessary.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
+    },
+    {
+      "task": "Identify the ownership of each piece of taxable property.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.07
+    },
+    {
+      "task": "Testify in court as to the value of a piece of tangible property.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.48
+    },
+    {
+      "task": "Explain assessed values to property owners and defend appealed assessments at public hearings.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.79
+    },
+    {
+      "task": "Prepare and maintain current data on each parcel assessed, including maps of boundaries, inventories of land and structures, property characteristics, and any applicable exemptions.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.82
+    },
+    {
+      "task": "Collect and analyze relevant data to identify real estate market trends.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.41
+    },
+    {
+      "task": "Inspect new construction and major improvements to existing structures to determine values.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.22
+    },
+    {
+      "task": "Prepare written reports that estimate property values, outline methods by which the estimations were made, and meet appraisal standards.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.7
+    },
+    {
+      "task": "Compute final estimation of property values, taking into account such factors as depreciation, replacement costs, value comparisons of similar properties, and income potential.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.74
+    },
+    {
+      "task": "Update appraisals when property has been improved, damaged, or has otherwise changed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.95
+    },
+    {
+      "task": "Calculate tax bills for properties by multiplying assessed values by jurisdiction tax rates.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.44
+    },
+    {
+      "task": "Draw land diagrams to be used in appraisal reports to support findings.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.29
+    },
+    {
+      "task": "Estimate building replacement costs, using building valuation manuals and professional cost estimators.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.79
+    },
+    {
+      "task": "Examine the type and location of nearby services, such as shopping centers, schools, parks, and other neighborhood features, to evaluate their impact on property values.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.87
+    },
+    {
+      "task": "Analyze information gathered by investigation and report findings and recommendations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.76
+    },
+    {
+      "task": "Determine taxability of properties, using methods such as field inspection, structural measurement, calculation, sales analysis, market trend studies, and income and expense analysis.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.0
+    },
+    {
+      "task": "Investigate and assess damage to property and create or review property damage estimates.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.63
+    },
+    {
+      "task": "Perform or evaluate research, such as detailed company or industry analyses, to inform financial forecasting, decision making, or valuation.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.38
+    },
+    {
+      "task": "Determine depreciation rates to apply to capitalized items and advise management on actions regarding the purchase, lease, or disposal of such items.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.0
+    },
+    {
+      "task": "Establish and maintain relationships with individual or business customers or provide assistance with problems these customers may encounter.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
+    },
+    {
+      "task": "Participate in training or continuing education activities to stay abreast of engineering or industry advances.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.4
+    },
+    {
+      "task": "Calculate design specifications or cost, material, and resource estimates, and prepare project schedules and budgets.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.61
+    },
+    {
+      "task": "Conduct statistical studies to analyze or compare production costs for sustainable or nonsustainable designs.",
+      "task_type": "Unclassified",
+      "relevance": 0.1,
+      "importance": 0.0
+    },
+    {
+      "task": "Compile and maintain records documenting engineering schematics, installed equipment, installation or operational problems, resources used, repairs, or corrective action performed.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.59
+    },
+    {
+      "task": "Research equipment or component needs, sources, competitive prices, delivery times, or ongoing operational costs.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.27
+    },
+    {
+      "task": "Specify, coordinate, or conduct quality control or quality assurance programs or procedures.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.21
+    },
+    {
+      "task": "Determine or recommend radioactive decontamination procedures, according to the size and nature of equipment and the degree of contamination.",
+      "task_type": "Unclassified",
+      "relevance": 0.1,
+      "importance": 0.0
+    },
+    {
+      "task": "Prepare capability data, training materials, or other documentation for transfer of processes to production.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.71
+    },
+    {
+      "task": "Prepare permit applications or review compliance with environmental permits.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.51
+    },
+    {
+      "task": "Compile and evaluate statistical data to determine and maintain quality and reliability of products.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.66
+    },
+    {
+      "task": "Study time, motion, methods, or speed involved in maintenance, production, or other operations to establish standard production rate or improve efficiency.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.52
+    },
+    {
+      "task": "Develop work plans, including writing specifications or establishing material, manpower, or facilities needs.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.83
+    },
+    {
+      "task": "Work with customers to assess the environmental impact of proposed construction or to develop pollution prevention programs.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.56
+    },
+    {
+      "task": "Maintain process parameters and evaluate process anomalies.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.88
+    },
+    {
+      "task": "Prepare reports describing contamination tests, material or equipment decontaminated, or methods used in decontamination processes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.98
+    },
+    {
+      "task": "Decontaminate objects by cleaning with soap or solvents or by abrading with wire brushes, buffing wheels, or sandblasting machines.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.85
     },
     {
       "task": "Collect samples of air, water, gases, or solids to determine radioactivity levels of contamination.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.41
     },
     {
-      "task": "Decontaminate objects by cleaning with soap or solvents or by abrading with brushes or machines, and implement appropriate decontamination procedures.",
-      "task_type": "Core"
+      "task": "Determine intensities and types of radiation in work areas, equipment, or materials, using radiation detectors or other instruments.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.49
     },
     {
-      "task": "Determine or recommend radioactive decontamination procedures based on the size and nature of equipment and contamination.",
-      "task_type": "Core"
+      "task": "Produce environmental assessment reports, tabulating data and preparing charts, graphs, or sketches.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.97
     },
     {
-      "task": "Calculate safe radiation exposure times for personnel using plant contamination readings and prescribed safe levels of radiation.",
-      "task_type": "Core"
+      "task": "Evaluate and select technologies to clean up polluted sites, restore polluted air, water, or soil, or rehabilitate degraded ecosystems.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.68
     },
     {
-      "task": "Maintain accurate records or batch-record documentation of nanoproduction and monitor personnel for radiation exposure.",
-      "task_type": "Core"
+      "task": "Review work plans to schedule activities.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.46
     },
     {
-      "task": "Prepare environmental assessment reports, tabulating data and preparing charts or graphs.",
-      "task_type": "Core"
+      "task": "Review technical documents to ensure completeness and conformance to requirements.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.81
     },
     {
-      "task": "Review work plans to schedule activities and ensure completeness and conformance to requirements.",
-      "task_type": "Core"
+      "task": "Test selected products at specified stages in the production process for performance characteristics or adherence to specifications.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.66
     },
     {
-      "task": "Compile and maintain records documenting engineering schematics, equipment, problems, resources used, repairs, or corrective actions performed.",
-      "task_type": "Core"
+      "task": "Analyze or estimate production costs, such as labor, equipment, and plant space.",
+      "task_type": "Unclassified",
+      "relevance": 0.09090909090909091,
+      "importance": 0.0
     },
     {
-      "task": "Provide initial response to abnormal events or alarms from radiation monitoring equipment, and inform supervisors of radiation levels approaching maximum permissible limits.",
-      "task_type": "Core"
+      "task": "Write technical reports or documentation, such as deviation reports, testing protocols, and trend analyses.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.1
     },
     {
-      "task": "Estimate sizes and characteristics of fires and report findings to base camps.",
-      "task_type": "Core"
+      "task": "Interpret test results, compare them to established specifications and control limits, and make recommendations on appropriateness of data for release.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.35
     },
     {
-      "task": "Direct crews working on firelines during forest fires and relay messages about emergencies, accidents, and fire hazard conditions.",
-      "task_type": "Core"
+      "task": "Inspect, diagnose, maintain, and operate test setups and equipment to detect malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.47
     },
     {
-      "task": "Analyze samples such as air or water for contaminants and verify that equipment is operated according to quality assurance standards.",
-      "task_type": "Core"
+      "task": "Prepare graphs, charts, diagrams, or other aids to illustrate observations or conclusions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.47
     },
     {
-      "task": "Monitor equipment during operation and brief workers on radiation levels in work areas.",
-      "task_type": "Core"
+      "task": "Prepare detailed verbal or written presentations for scientists, engineers, project managers, or upper management.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.63
     },
     {
-      "task": "Inspect, diagnose, maintain, and operate test setups and equipment to detect malfunctions and ensure compliance with specifications.",
-      "task_type": "Core"
+      "task": "Read and interpret blueprints, schematics, work specifications, drawings, or charts.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.19
     },
     {
-      "task": "Prepare detailed presentations for scientists, engineers, or project managers, and document test results and recommendations.",
-      "task_type": "Core"
+      "task": "Prepare specifications, designs, or sketches for machines, components, or systems related to the generation, transmission, or use of mechanical or fluid energy.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.5
     },
     {
-      "task": "Analyze performance of vehicles or components designed to increase fuel efficiency, and recommend design improvements based on test data.",
-      "task_type": "Core"
+      "task": "Establish and maintain inventory, records, or documentation systems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.54
     },
     {
-      "task": "Design specialized equipment and prepare specifications, designs, or sketches for systems related to energy generation or use.",
-      "task_type": "Core"
+      "task": "Analyze samples, such as air or water samples, for contaminants or other elements.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.31
     },
     {
-      "task": "Collect or compile nanotechnology research data and collaborate with engineers to design experiments for developing materials or systems.",
-      "task_type": "Core"
+      "task": "Collect geospatial data, using technologies such as aerial photography, light and radio wave detection systems, digital satellites, or thermal energy systems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.43
     },
     {
-      "task": "Conduct failure analyses, document results, and participate in investigations, recommending corrective actions for quality issues.",
-      "task_type": "Core"
+      "task": "Receive and inspect raw materials.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.86
     },
     {
-      "task": "Calibrate, validate, or maintain laboratory equipment and troubleshoot equipment problems.",
-      "task_type": "Core"
+      "task": "Confer with engineering personnel regarding details and implications of test procedures and results.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.45
     },
     {
-      "task": "Compile laboratory test data, perform appropriate analyses, and correct raw data for errors due to skew or atmospheric variation.",
-      "task_type": "Core"
+      "task": "Write or revise standard quality control operating procedures.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.65
     },
     {
-      "task": "Conduct routine and non-routine analyses of materials or samples, and participate in internal assessments and audits as required.",
-      "task_type": "Core"
+      "task": "Supply quality control data necessary for regulatory submissions.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.76
     },
     {
-      "task": "Document methods used, write technical reports, and prepare documentation or presentations, including charts or graphs.",
-      "task_type": "Supplemental"
+      "task": "Participate in out-of-specification and failure investigations and recommend corrective actions.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.87
     },
     {
-      "task": "Train customers or other personnel to install, use, or maintain robots and other technical devices.",
-      "task_type": "Core"
+      "task": "Identify quality problems and recommend solutions.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.88
     },
     {
-      "task": "Assist engineers in the design or application of robotic systems and modify computer-controlled robot movements.",
-      "task_type": "Core"
+      "task": "Calculate required capacities for equipment of proposed system to obtain specified performance and submit data to engineering personnel for approval.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.79
     },
     {
-      "task": "Evaluate new technologies and methods to make recommendations regarding their use and monitor raw data quality during collection.",
-      "task_type": "Supplemental"
+      "task": "Inspect or test parts to determine nature or cause of defects or malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.15
     },
     {
-      "task": "Maintain service records of robotic equipment and conduct preventive or corrective maintenance on robotic systems.",
-      "task_type": "Core"
+      "task": "Review or approve designs, calculations, or cost estimates.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.11
     },
     {
-      "task": "Perform visual inspections of finished products and inspect parts for surface defects to ensure conformance to specifications.",
-      "task_type": "Core"
+      "task": "Prepare project plans for equipment or facility improvements, including time lines, budgetary estimates, or capital spending requests.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.35
     },
     {
-      "task": "Create or maintain formal engineering documents, such as schematics, and manage teams of engineers by creating schedules and tracking inventory.",
-      "task_type": "Core"
+      "task": "Document methods used and write technical reports containing information collected.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.13
     },
     {
-      "task": "Evaluate product designs for safety and direct operating activities to ensure efficiency and compliance with safety standards.",
-      "task_type": "Core"
+      "task": "Prepare documentation or presentations, including charts, photos, or graphs.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.08
     },
     {
-      "task": "Design engineering systems for the automation of industrial tasks.",
-      "task_type": "Core"
+      "task": "Maintain records of survey data.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.49
     },
     {
-      "task": "Develop plans for the prevention of destruction by fire, wind, and water.",
-      "task_type": "Core"
+      "task": "Inspect installation sites.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.21
     },
     {
-      "task": "Determine causes of fires and ways in which they could have been prevented.",
-      "task_type": "Core"
+      "task": "Manage teams of engineers by creating schedules, tracking inventory, creating or using budgets, or overseeing contract obligations or deadlines.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.86
     },
     {
-      "task": "Conduct or direct testing of air quality, noise, temperature, or radiation levels to verify compliance with health and safety regulations.",
-      "task_type": "Core"
+      "task": "Oversee the work of contractors in accordance with project requirements.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.59
     },
     {
-      "task": "Write and revise safety regulations and codes.",
-      "task_type": "Core"
+      "task": "Maintain technical project files.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.76
     },
     {
-      "task": "Compile, analyze, and interpret statistical data related to occupational illnesses and accidents.",
-      "task_type": "Core"
+      "task": "Collaborate with manufacturing or quality assurance staff to prepare product specification or safety sheets, standard operating procedures, user manuals, or qualification and validation reports.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.53
     },
     {
-      "task": "Review employee safety programs to determine their adequacy.",
-      "task_type": "Core"
+      "task": "Collect verification data on the ground, using equipment such as global positioning receivers, digital cameras, or notebook computers.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.39
     },
     {
-      "task": "Inspect buildings or building designs to determine fire protection system requirements and potential problems.",
-      "task_type": "Core"
+      "task": "Integrate remotely sensed data with other geospatial data.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.06
     },
     {
-      "task": "Advise architects, builders, and other construction personnel on fire prevention equipment and techniques.",
-      "task_type": "Core"
+      "task": "Maintain databases of experiment characteristics or results.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.91
     },
     {
-      "task": "Review building plans to verify compliance with fire code.",
-      "task_type": "Core"
+      "task": "Maintain and apply knowledge of current policies, regulations, and industrial processes.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.29
     },
     {
-      "task": "Identify and recommend energy savings strategies to achieve more energy-efficient operation.",
-      "task_type": "Core"
+      "task": "Inspect facilities, machinery, or safety equipment to identify and correct potential hazards, and to ensure safety regulation compliance.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Inspect buildings or building designs to determine fire protection system requirements and potential problems in areas such as water supplies, exit locations, and construction materials.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.19
+    },
+    {
+      "task": "Advise architects, builders, and other construction personnel on fire prevention equipment and techniques and on fire code and standard interpretation and compliance.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.46
+    },
+    {
+      "task": "Prepare environmental impact statements, reports, or presentations for regulatory or other agencies.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.05
+    },
+    {
+      "task": "Prepare and write reports detailing specific fire prevention and protection issues, such as work performed, revised codes or standards, and proposed review schedules.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.19
     },
     {
       "task": "Conduct energy audits to evaluate energy use and to identify conservation and cost reduction measures.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.33
     },
     {
-      "task": "Conduct engineering site audits to collect structural, electrical, and related site information for solar power systems.",
-      "task_type": "Core"
+      "task": "Identify and recommend energy savings strategies to achieve more energy-efficient operation.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.48
     },
     {
-      "task": "Design or coordinate design of photovoltaic (PV) or solar thermal systems for residential and commercial buildings.",
-      "task_type": "Core"
+      "task": "Inspect or monitor energy systems, including heating, ventilating, and air conditioning (HVAC) or daylighting systems to determine energy use or potential energy savings.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.0
     },
     {
-      "task": "Obtain technical support on topics such as energy management.",
-      "task_type": "Core"
+      "task": "Monitor and analyze energy consumption.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.15
     },
     {
-      "task": "Provide scientific or technical guidance or expertise to scientists, engineers, technologists, or technicians using knowledge of applicable processes.",
-      "task_type": "Core"
+      "task": "Analyze, interpret, or create graphical representations of energy data, using engineering software.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.95
     },
     {
-      "task": "Design or conduct tests of new nanotechnology products, processes, or systems, and engineer production processes for specific applications.",
-      "task_type": "Core"
+      "task": "Verify energy bills and meter readings.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.9
     },
     {
-      "task": "Supervise the work of technologists, technicians, and engineers engaged in nanotechnology research or production.",
-      "task_type": "Core"
+      "task": "Manage the development, design, or construction of energy conservation projects to ensure acceptability of budgets and time lines, conformance to central and devolved government laws, or adherence to approved specifications.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.85
     },
     {
-      "task": "Prepare energy-related project reports and direct the implementation of energy management projects.",
-      "task_type": "Core"
+      "task": "Prepare reports, deliver presentations, or participate in program review activities to communicate engineering results or recommendations.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.81
     },
     {
-      "task": "Research renewable or alternative energy systems or technologies and recommend suitable fuels for specific sites or circumstances.",
-      "task_type": "Core"
+      "task": "Review building plans to verify compliance with fire code.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.19
     },
     {
-      "task": "Analyze product failure data and laboratory test results to determine causes of problems and develop solutions.",
-      "task_type": "Core"
+      "task": "Review architectural, mechanical, or electrical plans or specifications to evaluate energy efficiency.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.8
     },
     {
-      "task": "Evaluate technical specifications and economic factors relating to process or product design objectives and prepare technical reports.",
-      "task_type": "Core"
+      "task": "Prepare technical reports of findings or recommendations, based on synthesized analyses of test results.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.05
     },
     {
-      "task": "Plan and implement laboratory operations to develop material and fabrication procedures that meet cost, specification, and performance standards.",
-      "task_type": "Core"
+      "task": "Evaluate technical specifications and economic factors relating to process or product design objectives.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.1
     },
     {
-      "task": "Direct administrative activities related to making products or providing services, including financial or budget activities.",
-      "task_type": "Core"
+      "task": "Perform managerial functions, such as preparing proposals and budgets, analyzing labor costs, and writing reports.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.45
     },
     {
-      "task": "Monitor suppliers to ensure the provision of goods or services within budgetary limits and review financial statements to measure productivity.",
-      "task_type": "Core"
+      "task": "Locate and deliver information or data as requested by customers, such as contractors, government entities, and members of the public.",
+      "task_type": "Unclassified",
+      "relevance": 0.0625,
+      "importance": 0.0
+    },
+    {
+      "task": "Estimate the costs and benefits of municipal projects, such as hydroelectric power plants, irrigation systems, and wastewater treatment facilities.",
+      "task_type": "Unclassified",
+      "relevance": 0.0625,
+      "importance": 0.0
+    },
+    {
+      "task": "Review financial statements, sales or activity reports, or other performance data to measure productivity or goal achievement or to identify areas needing cost reduction or program improvement.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 4.18
+    },
+    {
+      "task": "Recommend locations for new facilities, or oversee the remodeling or renovating of current facilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.05555555555555555,
+      "importance": 2.79
+    },
+    {
+      "task": "Set prices or credit terms for goods or services, based on forecasts of customer demand.",
+      "task_type": "Supplemental",
+      "relevance": 0.05555555555555555,
+      "importance": 4.01
+    },
+    {
+      "task": "Establish or implement departmental policies, goals, objectives, or procedures in conjunction with board members, organization officials, or staff members.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 3.74
+    },
+    {
+      "task": "Direct or coordinate financial or budget activities to fund operations, maximize investments, or increase efficiency.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 3.9
+    },
+    {
+      "task": "Identify corrective actions necessary to bring properties into compliance with applicable fire codes, laws, regulations, and standards, and explain these measures to property owners or their representatives.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 4.37
+    },
+    {
+      "task": "Write detailed reports of fire inspections performed, fire code violations observed, and corrective recommendations offered.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 4.4
+    },
+    {
+      "task": "Inspect buildings to locate hazardous conditions and fire code violations, such as accumulations of combustible material, electrical wiring problems, and inadequate or non-functional fire exits.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 4.59
+    },
+    {
+      "task": "Review blueprints and plans for new or remodeled buildings to ensure the structures meet fire safety codes.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 4.2
+    },
+    {
+      "task": "Perform administrative duties, such as compiling and maintaining records, completing forms, preparing reports, or composing correspondence.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 3.85
     },
     {
       "task": "Monitor inventory levels and order supplies as necessary.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.0
     },
     {
       "task": "Select, calibrate, or operate equipment used in the non-destructive testing of products or materials.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.64
     },
     {
-      "task": "Identify defects in solid materials and building materials using various testing techniques.",
-      "task_type": "Core"
+      "task": "Identify defects in solid materials, using ultrasonic testing techniques.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.75
     },
     {
       "task": "Interpret or evaluate test results in accordance with applicable codes, standards, specifications, or procedures.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.77
     },
     {
-      "task": "Visually examine materials, structures, or components for signs of flaws using various tools and equipment.",
-      "task_type": "Core"
+      "task": "Visually examine materials, structures, or components for signs of corrosion, metal fatigue, cracks, or other flaws, using tools and equipment such as endoscopes, closed-circuit television systems, and fiber optics.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.62
     },
     {
-      "task": "Document non-destructive testing methods, processes, results, and prepare reports on these findings.",
-      "task_type": "Core"
+      "task": "Make radiographic images to detect flaws in objects while leaving objects intact.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.74
     },
     {
-      "task": "Supervise or direct the work of non-destructive testing trainees or staff, assisting engineers in development of new products or processes.",
-      "task_type": "Core"
+      "task": "Map the presence of imperfections within objects, using sonic measurements.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.32
     },
     {
-      "task": "Evaluate material properties, using various measurement techniques and perform diagnostic analyses of processing steps.",
-      "task_type": "Supplemental"
+      "task": "Interpret the results of all methods of non-destructive testing (NDT), such as acoustic emission, electromagnetic, leak, liquid penetrant, magnetic particle, neutron radiographic, radiographic, thermal or infrared, ultrasonic, vibration analysis, and visual testing.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.77
     },
     {
-      "task": "Set up or operate prototype or test apparatus and assembly or processing equipment.",
-      "task_type": "Core"
+      "task": "Document non-destructive testing methods, processes, or results.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.55
     },
     {
-      "task": "Examine structures or vehicles using non-destructive testing techniques to assess their integrity.",
-      "task_type": "Core"
+      "task": "Supervise or direct the work of non-destructive testing trainees or staff.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.45
+    },
+    {
+      "task": "Maintain clean working environments, according to clean room standards.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.22
+    },
+    {
+      "task": "Assist engineers in the development of new products, fixtures, tools, or processes.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.63
+    },
+    {
+      "task": "Set up or operate prototype or test apparatus, such as control consoles, collimators, recording equipment, or cables.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.47
+    },
+    {
+      "task": "Examine structures or vehicles such as aircraft, trains, nuclear reactors, bridges, dams, and pipelines, using non-destructive testing techniques.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.58
+    },
+    {
+      "task": "Adjust or maintain equipment, such as lasers, laser systems, microscopes, oscilloscopes, pulse generators, power meters, beam analyzers, or energy measurement devices.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.21
+    },
+    {
+      "task": "Compute or record photonic test data.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.32
+    },
+    {
+      "task": "Set up or operate assembly or processing equipment, such as lasers, cameras, die bonders, wire bonders, dispensers, reflow ovens, soldering irons, die shears, wire pull testers, temperature or humidity chambers, or optical spectrum analyzers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.83
     }
   ],
   "technology_skills": [
@@ -1910,20 +2434,48 @@
       "weight": 1.9686541960455004
     },
     {
+      "name": "Autodesk AutoCAD",
+      "weight": 1.9284344158257203
+    },
+    {
       "name": "SAP software",
       "weight": 1.9031546231546232
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 1.8039355813268858
     },
     {
       "name": "Web browser software",
       "weight": 1.69823017562148
     },
     {
+      "name": "National Instruments LabVIEW",
+      "weight": 1.6266084639997684
+    },
+    {
+      "name": "Python",
+      "weight": 1.5584915084915085
+    },
+    {
       "name": "Microsoft Visio",
       "weight": 1.5561716061716062
     },
     {
+      "name": "Linux",
+      "weight": 1.5536181210094253
+    },
+    {
       "name": "Structured query language SQL",
       "weight": 1.4865745365745366
+    },
+    {
+      "name": "Computer aided design CAD software",
+      "weight": 1.3892840492840492
+    },
+    {
+      "name": "Dassault Systemes SolidWorks",
+      "weight": 1.3187762961676006
     },
     {
       "name": "Microsoft Visual Basic",
@@ -1934,12 +2486,40 @@
       "weight": 1.132002442002442
     },
     {
+      "name": "UNIX",
+      "weight": 1.0024475524475525
+    },
+    {
+      "name": "SAS",
+      "weight": 0.9322954822954823
+    },
+    {
+      "name": "Bentley MicroStation",
+      "weight": 0.9318232492145536
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.8748529248529249
+    },
+    {
+      "name": "Supervisory control and data acquisition SCADA software",
+      "weight": 0.8529914529914531
+    },
+    {
+      "name": "PTC Creo Parametric",
+      "weight": 0.8442723942723943
+    },
+    {
       "name": "Yardi software",
       "weight": 0.8412698412698413
     },
     {
       "name": "Microsoft SharePoint",
       "weight": 0.811915861915862
+    },
+    {
+      "name": "Dassault Systemes CATIA",
+      "weight": 0.7842723942723943
     },
     {
       "name": "Geographic information system GIS systems",
@@ -1950,6 +2530,10 @@
       "weight": 0.75
     },
     {
+      "name": "JavaScript",
+      "weight": 0.7486013986013986
+    },
+    {
       "name": "Salesforce software",
       "weight": 0.7125152625152625
     },
@@ -1958,16 +2542,56 @@
       "weight": 0.6942460317460317
     },
     {
+      "name": "Simulation software",
+      "weight": 0.691025641025641
+    },
+    {
+      "name": "R",
+      "weight": 0.6894383394383394
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.6840836940836941
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.661050061050061
+    },
+    {
+      "name": "Mathsoft Mathcad",
+      "weight": 0.6588578088578089
+    },
+    {
       "name": "Spreadsheet software",
       "weight": 0.6435897435897436
+    },
+    {
+      "name": "Data acquisition software",
+      "weight": 0.6434965034965036
+    },
+    {
+      "name": "MathWorks Simulink",
+      "weight": 0.6409141583054627
     },
     {
       "name": "Enterprise resource planning ERP software",
       "weight": 0.6395171495171496
     },
     {
+      "name": "Microsoft SQL Server",
+      "weight": 0.6329115329115329
+    },
+    {
+      "name": "Computer aided manufacturing CAM software",
+      "weight": 0.6145532245532246
+    },
+    {
       "name": "Email software",
       "weight": 0.6014328063241107
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.5951159951159951
     },
     {
       "name": "ESRI ArcGIS software",
@@ -1978,7 +2602,31 @@
       "weight": 0.5502564102564103
     },
     {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.5412698412698412
+    },
+    {
+      "name": "AVEVA InTouch HMI",
+      "weight": 0.5371794871794872
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.5246031746031746
+    },
+    {
+      "name": "Programmable logic controller PLC software",
+      "weight": 0.5205128205128206
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.5076418750331794
+    },
+    {
       "name": "Ascend Property Assessment",
+      "weight": 0.5
+    },
+    {
+      "name": "Bruno Realty eNeighboorhoods",
       "weight": 0.5
     },
     {
@@ -1990,12 +2638,128 @@
       "weight": 0.5
     },
     {
+      "name": "HP 49G+ Appraiser Fee Calculator",
+      "weight": 0.5
+    },
+    {
+      "name": "Mass appraisal records system MARS",
+      "weight": 0.5
+    },
+    {
+      "name": "Wilson's Computer Applications RealEasy Appraisals",
+      "weight": 0.5
+    },
+    {
+      "name": "WinEstimator WinEst",
+      "weight": 0.5
+    },
+    {
+      "name": "WinGap",
+      "weight": 0.5
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.48364413364413367
+    },
+    {
+      "name": "Finite element method FEM software",
+      "weight": 0.4755244755244755
+    },
+    {
       "name": "Presentation software",
       "weight": 0.4652747252747253
     },
     {
+      "name": "Graphics software",
+      "weight": 0.44835164835164837
+    },
+    {
+      "name": "Wolfram Research Mathematica",
+      "weight": 0.44475524475524475
+    },
+    {
+      "name": "Human machine interface HMI software",
+      "weight": 0.44358974358974357
+    },
+    {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.44126984126984126
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.44126984126984126
+    },
+    {
+      "name": "Laboratory information management system LIMS",
+      "weight": 0.4371794871794872
+    },
+    {
+      "name": "ANSYS simulation software",
+      "weight": 0.4216783216783217
+    },
+    {
+      "name": "Rapid prototyping software",
+      "weight": 0.41410256410256413
+    },
+    {
+      "name": "ADP software",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.3927350427350427
+    },
+    {
+      "name": "Amazon Web Services AWS software",
+      "weight": 0.3927350427350427
+    },
+    {
+      "name": "Atlassian JIRA",
+      "weight": 0.39005439005439
+    },
+    {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.3864468864468864
+    },
+    {
+      "name": "Autodesk Inventor",
+      "weight": 0.36515151515151517
+    },
+    {
+      "name": "Microsoft Azure software",
+      "weight": 0.36025641025641025
+    },
+    {
+      "name": "Microsoft Windows Server",
+      "weight": 0.36025641025641025
+    },
+    {
       "name": "Structure query language SQL",
       "weight": 0.36025641025641025
+    },
+    {
+      "name": "Computer aided design and drafting CADD software",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "Geomechanical design analysis GDA software",
+      "weight": 0.35
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.34940170940170945
+    },
+    {
+      "name": "Ansys Fluent",
+      "weight": 0.34475524475524477
+    },
+    {
+      "name": "Autodesk Revit",
+      "weight": 0.34475524475524477
+    },
+    {
+      "name": "ADP Workforce Now",
+      "weight": 0.3412698412698413
     },
     {
       "name": "Blackbaud The Raiser's Edge",
@@ -2003,6 +2767,10 @@
     },
     {
       "name": "Fund accounting software",
+      "weight": 0.3412698412698413
+    },
+    {
+      "name": "Intuit QuickBooks",
       "weight": 0.3412698412698413
     },
     {
@@ -2014,7 +2782,43 @@
       "weight": 0.3412698412698413
     },
     {
+      "name": "NetSuite ERP",
+      "weight": 0.3412698412698413
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.3412698412698413
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.3412698412698413
+    },
+    {
+      "name": "Oracle Fusion Applications",
+      "weight": 0.3412698412698413
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.3412698412698413
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.3412698412698413
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.3412698412698413
+    },
+    {
       "name": "SAP Crystal Reports",
+      "weight": 0.3412698412698413
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.3412698412698413
+    },
+    {
+      "name": "Tax software",
       "weight": 0.3412698412698413
     },
     {
@@ -2026,12 +2830,36 @@
       "weight": 0.33845689334819773
     },
     {
+      "name": "Circuit simulation software",
+      "weight": 0.3371794871794872
+    },
+    {
       "name": "Google Workspace software",
       "weight": 0.3269230769230769
     },
     {
+      "name": "Computational fluid dynamics CFD software",
+      "weight": 0.3076923076923077
+    },
+    {
+      "name": "Finite element analysis FEA software",
+      "weight": 0.3076923076923077
+    },
+    {
+      "name": "Medical condition coding software",
+      "weight": 0.3055555555555556
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.3055555555555556
+    },
+    {
       "name": "Mozilla Firefox",
       "weight": 0.3055555555555556
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.2984126984126984
     },
     {
       "name": "Microsoft Exchange",
@@ -2042,7 +2870,139 @@
       "weight": 0.2857142857142857
     },
     {
+      "name": "Oracle Hyperion Planning",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "National Instruments Multisim",
+      "weight": 0.2833333333333333
+    },
+    {
+      "name": "Cadence PSpice",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
+      "weight": 0.27533577533577536
+    },
+    {
+      "name": "MSC Software Adams",
+      "weight": 0.26783216783216784
+    },
+    {
+      "name": "Magellan Firmware",
+      "weight": 0.2602564102564103
+    },
+    {
+      "name": "Rockwell RSLogix",
+      "weight": 0.2602564102564103
+    },
+    {
+      "name": "Autodesk AutoCAD Mechanical",
+      "weight": 0.25874125874125875
+    },
+    {
+      "name": "Maplesoft Maple",
+      "weight": 0.25384615384615383
+    },
+    {
+      "name": "Root cause analysis software",
+      "weight": 0.25384615384615383
+    },
+    {
+      "name": "4n6xprt Systems StiffCalcs",
+      "weight": 0.25
+    },
+    {
+      "name": "A-T Solutions Easy Street Draw",
+      "weight": 0.25
+    },
+    {
+      "name": "ACI Appraiser's Choice",
+      "weight": 0.25
+    },
+    {
+      "name": "ARSoftware WinSMAC",
+      "weight": 0.25
+    },
+    {
+      "name": "Agency Management Systems AMS 360",
+      "weight": 0.25
+    },
+    {
+      "name": "Apex IV Assessor",
+      "weight": 0.25
+    },
+    {
+      "name": "Apex IV Fee Appraiser",
+      "weight": 0.25
+    },
+    {
+      "name": "Apex MobileSketch",
+      "weight": 0.25
+    },
+    {
+      "name": "App Software Associations AppTrak.net",
+      "weight": 0.25
+    },
+    {
       "name": "Apple Safari",
+      "weight": 0.25
+    },
+    {
+      "name": "Apple iOS",
+      "weight": 0.25
+    },
+    {
+      "name": "AutoClaims Direct DirectLink",
+      "weight": 0.25
+    },
+    {
+      "name": "Automatic Data Processing Autosource",
+      "weight": 0.25
+    },
+    {
+      "name": "Automatic Data Processing Claims Manager & Dispatch",
+      "weight": 0.25
+    },
+    {
+      "name": "Automatic Data Processing Estimating",
+      "weight": 0.25
+    },
+    {
+      "name": "Axonwave Fraud and Abuse Management System",
+      "weight": 0.25
+    },
+    {
+      "name": "BCCORP Burkitt W5",
+      "weight": 0.25
+    },
+    {
+      "name": "BCCORP W5 for Adjusters",
+      "weight": 0.25
+    },
+    {
+      "name": "Bill review software",
+      "weight": 0.25
+    },
+    {
+      "name": "Bradford ClickFORMS",
+      "weight": 0.25
+    },
+    {
+      "name": "Bramerhill ClaimsTech",
+      "weight": 0.25
+    },
+    {
+      "name": "Bridium Claims 3",
+      "weight": 0.25
+    },
+    {
+      "name": "Brightwork Alyce Claims Systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Business Management Systems Municipal Geographic Management System MGMS",
       "weight": 0.25
     },
     {
@@ -2050,7 +3010,119 @@
       "weight": 0.25
     },
     {
+      "name": "CAD Zone Insurance",
+      "weight": 0.25
+    },
+    {
+      "name": "CCC EZNet electronic communications network",
+      "weight": 0.25
+    },
+    {
+      "name": "CCC GuidePost Decision Support",
+      "weight": 0.25
+    },
+    {
+      "name": "CCC Pathways Appraisal Quality Solution",
+      "weight": 0.25
+    },
+    {
+      "name": "CCC Pathways Image Management Solution",
+      "weight": 0.25
+    },
+    {
+      "name": "CCC TL2000 Solution",
+      "weight": 0.25
+    },
+    {
+      "name": "CGI INSideOUT",
+      "weight": 0.25
+    },
+    {
+      "name": "CGI-AMS BureauLink Enterprise",
+      "weight": 0.25
+    },
+    {
+      "name": "CPR International GeneralCOST Estimator",
+      "weight": 0.25
+    },
+    {
+      "name": "CSC Automated Work Distributor AWD",
+      "weight": 0.25
+    },
+    {
+      "name": "CSC Colossus",
+      "weight": 0.25
+    },
+    {
+      "name": "CSC Fault Evaluator",
+      "weight": 0.25
+    },
+    {
+      "name": "Captiva InputAccel",
+      "weight": 0.25
+    },
+    {
+      "name": "Castek Insure3 Claims",
+      "weight": 0.25
+    },
+    {
+      "name": "Claims processing administration and management software",
+      "weight": 0.25
+    },
+    {
+      "name": "Clear Technology Tranzax",
+      "weight": 0.25
+    },
+    {
+      "name": "Compass Municipal Services CAMAlot",
+      "weight": 0.25
+    },
+    {
+      "name": "Computerized voice stress analyzer CVSA software",
+      "weight": 0.25
+    },
+    {
+      "name": "Concierge Systems Report Concierge",
+      "weight": 0.25
+    },
+    {
+      "name": "Construction Management Software ProEst",
+      "weight": 0.25
+    },
+    {
+      "name": "Corporate Systems ClaimsPro",
+      "weight": 0.25
+    },
+    {
+      "name": "Covansys ClaimConnect",
+      "weight": 0.25
+    },
+    {
+      "name": "Datanex ClaimTrac",
+      "weight": 0.25
+    },
+    {
       "name": "Document management system software",
+      "weight": 0.25
+    },
+    {
+      "name": "Emerald Data Deed-Chek",
+      "weight": 0.25
+    },
+    {
+      "name": "FBS Data Systems Flexmls",
+      "weight": 0.25
+    },
+    {
+      "name": "Fair Isaac Claims Advisor",
+      "weight": 0.25
+    },
+    {
+      "name": "Fair Isaac SmartAdvisor",
+      "weight": 0.25
+    },
+    {
+      "name": "First Notice Systems ClaimCapture",
       "weight": 0.25
     },
     {
@@ -2062,7 +3134,223 @@
       "weight": 0.25
     },
     {
+      "name": "Govern Software GovMap",
+      "weight": 0.25
+    },
+    {
+      "name": "Govern Software Land and Permits Management System",
+      "weight": 0.25
+    },
+    {
+      "name": "Greenbrier Graphics Deed Plotter",
+      "weight": 0.25
+    },
+    {
+      "name": "Hansen CAMA",
+      "weight": 0.25
+    },
+    {
+      "name": "Howard and Friends Computer CMA Plus",
+      "weight": 0.25
+    },
+    {
+      "name": "Hummingbird Legal Bill Review",
+      "weight": 0.25
+    },
+    {
       "name": "Hyland OnBase Enterprise Content Management",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Fraud and Abuse Management System",
+      "weight": 0.25
+    },
+    {
+      "name": "ISO ClaimSearch",
+      "weight": 0.25
+    },
+    {
+      "name": "ISO NetMap for Claims",
+      "weight": 0.25
+    },
+    {
+      "name": "InSystems Calligo Document Management System",
+      "weight": 0.25
+    },
+    {
+      "name": "Informatik MapDraw Deed Mapper",
+      "weight": 0.25
+    },
+    {
+      "name": "Information Services Inc. CCC Pathways Appraisal Solution",
+      "weight": 0.25
+    },
+    {
+      "name": "Injury Sciences EDR InSight",
+      "weight": 0.25
+    },
+    {
+      "name": "Insurance claims fraud detection software",
+      "weight": 0.25
+    },
+    {
+      "name": "LexisNexis RiskWise",
+      "weight": 0.25
+    },
+    {
+      "name": "Magnify Predictive Targeting System",
+      "weight": 0.25
+    },
+    {
+      "name": "Manatron CustomCAMA",
+      "weight": 0.25
+    },
+    {
+      "name": "Manatron MVP Tax",
+      "weight": 0.25
+    },
+    {
+      "name": "Manatron ProVal Plus",
+      "weight": 0.25
+    },
+    {
+      "name": "Manufacturing Technology Costimater",
+      "weight": 0.25
+    },
+    {
+      "name": "MapScenes Evidence Recorder",
+      "weight": 0.25
+    },
+    {
+      "name": "MapScenes Pro",
+      "weight": 0.25
+    },
+    {
+      "name": "Medical procedure coding software",
+      "weight": 0.25
+    },
+    {
+      "name": "Meridian Technologies SurePoint",
+      "weight": 0.25
+    },
+    {
+      "name": "MicroSolve CAMA",
+      "weight": 0.25
+    },
+    {
+      "name": "Mitchell International Mitchell WorkCenter",
+      "weight": 0.25
+    },
+    {
+      "name": "Modellium PariTOP",
+      "weight": 0.25
+    },
+    {
+      "name": "Multiple listing service software",
+      "weight": 0.25
+    },
+    {
+      "name": "NCH Software Express Invoice",
+      "weight": 0.25
+    },
+    {
+      "name": "Online title search and property report software",
+      "weight": 0.25
+    },
+    {
+      "name": "PhotoModeler",
+      "weight": 0.25
+    },
+    {
+      "name": "Property damage, bodily injury, and liability estimation software",
+      "weight": 0.25
+    },
+    {
+      "name": "QwikQuote software",
+      "weight": 0.25
+    },
+    {
+      "name": "REI Wise Commercial",
+      "weight": 0.25
+    },
+    {
+      "name": "RPIS Silent CMA",
+      "weight": 0.25
+    },
+    {
+      "name": "Real Edge",
+      "weight": 0.25
+    },
+    {
+      "name": "Real Estate Center Caparate Calculator",
+      "weight": 0.25
+    },
+    {
+      "name": "RealData Comparative Lease Analysis",
+      "weight": 0.25
+    },
+    {
+      "name": "Realty Tools Toolkit for Market Share",
+      "weight": 0.25
+    },
+    {
+      "name": "Simsol for Adjusters",
+      "weight": 0.25
+    },
+    {
+      "name": "Softree Technical Systems Terrain Tools",
+      "weight": 0.25
+    },
+    {
+      "name": "Solera Audatex Estimating",
+      "weight": 0.25
+    },
+    {
+      "name": "StrataCare StrataWare eReview",
+      "weight": 0.25
+    },
+    {
+      "name": "Swan River Software Estimiser Pro",
+      "weight": 0.25
+    },
+    {
+      "name": "TietoEnator ProMatch",
+      "weight": 0.25
+    },
+    {
+      "name": "Tropics Claims Reserve Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Turtle Creek Software Goldenseal Architect",
+      "weight": 0.25
+    },
+    {
+      "name": "ValueTech Report Builder",
+      "weight": 0.25
+    },
+    {
+      "name": "Vertafore ImageRight",
+      "weight": 0.25
+    },
+    {
+      "name": "Visual PAMSPro",
+      "weight": 0.25
+    },
+    {
+      "name": "Visual Statement Investigator Suite",
+      "weight": 0.25
+    },
+    {
+      "name": "Web-Est estimating software",
+      "weight": 0.25
+    },
+    {
+      "name": "Wilson's Computer Applications RealEasy Photos Plus",
+      "weight": 0.25
+    },
+    {
+      "name": "Xactware Xactimate",
       "weight": 0.25
     },
     {
@@ -2070,11 +3358,451 @@
       "weight": 0.25
     },
     {
+      "name": "a la mode Pocket TOTAL",
+      "weight": 0.25
+    },
+    {
+      "name": "a la mode WinTOTAL",
+      "weight": 0.25
+    },
+    {
+      "name": "eTrac",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Visual Basic.NET",
+      "weight": 0.24835164835164836
+    },
+    {
+      "name": "CNC Mastercam",
+      "weight": 0.24646464646464647
+    },
+    {
       "name": "Internet browser software",
       "weight": 0.24285714285714285
     },
     {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.24285714285714285
+    },
+    {
+      "name": "Microsoft Active Server Pages ASP",
+      "weight": 0.23942307692307693
+    },
+    {
+      "name": "Eko",
+      "weight": 0.23888888888888887
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.23438735177865613
+    },
+    {
+      "name": "Human modeling software",
+      "weight": 0.23076923076923078
+    },
+    {
+      "name": "Unified modeling language UML",
+      "weight": 0.23076923076923078
+    },
+    {
+      "name": "Apache Hadoop",
+      "weight": 0.2233877233877234
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.22040133779264215
+    },
+    {
+      "name": "Splunk Enterprise",
+      "weight": 0.21581196581196582
+    },
+    {
+      "name": "ESRI ArcView",
+      "weight": 0.20597826086956522
+    },
+    {
+      "name": "Rockwell Automation Arena",
+      "weight": 0.2
+    },
+    {
+      "name": "Statistical software",
+      "weight": 0.2
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "Human resource management software HRMS",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "IBM Power Systems software",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "LexisNexis",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "Marketo Marketing Automation",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "MicroStrategy",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.1984126984126984
+    },
+    {
+      "name": "Computerized numerical control CNC software",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "IBM CATIA",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "ProModel",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.18633540372670807
+    },
+    {
+      "name": "Ansible software",
+      "weight": 0.18333333333333335
+    },
+    {
+      "name": "Statistical analysis software",
+      "weight": 0.18285714285714286
+    },
+    {
+      "name": "Computer aided software engineering CASE tools",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Computer-aided engineering CAE software",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "IMSI TurboCAD",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Image analysis software",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "MSC Software Nastran",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "MSC Software Patran",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Material safety data sheet MSDS software",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Neural network modeling software",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "OrCAD Capture",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Relational database software",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Siemens ModelSim",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Statistical process control SPC software",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Stochastic modeling software",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Xcircuit",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.1759568933481977
+    },
+    {
+      "name": "Hewlett Packard LoadRunner",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "JUnit",
+      "weight": 0.16783216783216784
+    },
+    {
+      "name": "Vibration analysis software",
+      "weight": 0.16783216783216784
+    },
+    {
+      "name": "Airdata",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "CloudCompare",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Laser imaging detection and ranging LIDAR system",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Litchi",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "UgCS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Stereolithography SLA rapid prototyping systems",
+      "weight": 0.16233766233766234
+    },
+    {
+      "name": "CODESYS",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Calibration software",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Global positioning system GPS software",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Keb Combivis Studio",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Ladder Logic",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "QGIS",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "SAP BusinessObjects Crystal Reports",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Siemens SIMATIC STEP 7",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Siemens SIMATIC WinCC",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Test automation software",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Variable frequency drive VFD software",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Windows Embedded Compact",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Siemens NX",
+      "weight": 0.15555555555555556
+    },
+    {
+      "name": "Dassault Systemes Abaqus",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Failure mode and effects analysis FMEA software",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Fault tree analysis FTA software",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Optical Research Associates LightTools",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Real time operating system RTOS software",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Reliability centered maintenance RCM software",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "SAS JMP",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "SKM Systems Analysis Power Tools",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Simulation program with integrated circuit emphasis SPICE",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Tanner EDA L-Edit",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "ANSYS Multiphysics",
+      "weight": 0.14835164835164835
+    },
+    {
+      "name": "Autodesk AutoCAD Civil 3D",
+      "weight": 0.14347826086956522
+    },
+    {
+      "name": "Fire incident reporting systems",
+      "weight": 0.14347826086956522
+    },
+    {
+      "name": "ADERANT Expert Back Office, Powered by Keystone",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ARES Corporation PRISM Project Estimator",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Accounts receivable software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Alteryx software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Autodesk AutoCAD Blue Sky",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Automatic Data Processing PC payroll for windows PCPW",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Corel QuattroPro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Credit management software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Deltek professional services software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Exact Software Macola ES",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Financial accounting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Human resource information system (HRIS)",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hyperion Enterprise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hyperion Solutions System 9 Planning",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Infor ERP SyteLine",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Job costing software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "MYOB Premier Accounting Small Business Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Dynamics SL",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft FRx",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft MapPoint",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Microsoft Power BI",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV FAMAS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Portfolio analysis software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ReadSoft",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Risk analysis software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Sage Fixed Asset Solution FAS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Sage MIP Fund Accounting",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SunGard Financial Systems AddVantage",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tax compliance property tax management software",
       "weight": 0.14285714285714285
     },
     {
@@ -2086,7 +3814,59 @@
       "weight": 0.13942307692307693
     },
     {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.1388888888888889
+    },
+    {
+      "name": "Atlassian Confluence",
+      "weight": 0.1388888888888889
+    },
+    {
+      "name": "Google Analytics",
+      "weight": 0.1388888888888889
+    },
+    {
+      "name": "ABB CPM4Metals",
+      "weight": 0.1
+    },
+    {
+      "name": "Adobe ActionScript",
+      "weight": 0.1
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.1
+    },
+    {
+      "name": "Advanced Dimensional Management 3D-GD&T",
+      "weight": 0.1
+    },
+    {
+      "name": "Air dispersion modeling software",
+      "weight": 0.1
+    },
+    {
+      "name": "Amazon Web Services AWS CloudFormation",
+      "weight": 0.1
+    },
+    {
+      "name": "Anadigm Designer2 EDA",
+      "weight": 0.1
+    },
+    {
       "name": "Artificial intelligence software",
+      "weight": 0.1
+    },
+    {
+      "name": "Bentley Systems ProjectWise",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer aided design and drafting software CADD",
+      "weight": 0.1
+    },
+    {
+      "name": "Connectivity software",
       "weight": 0.1
     },
     {
@@ -2098,11 +3878,291 @@
       "weight": 0.1
     },
     {
+      "name": "Environmental health and safety documentation software",
+      "weight": 0.1
+    },
+    {
+      "name": "Eos Systems PhotoModeler",
+      "weight": 0.1
+    },
+    {
+      "name": "FlukeView Forms",
+      "weight": 0.1
+    },
+    {
+      "name": "GNU Octave",
+      "weight": 0.1
+    },
+    {
+      "name": "Gnuplot",
+      "weight": 0.1
+    },
+    {
+      "name": "Graphics editing software",
+      "weight": 0.1
+    },
+    {
+      "name": "Greenhouse gas management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Hazardous materials management HMS software",
+      "weight": 0.1
+    },
+    {
+      "name": "Horizon Software MRP Plus",
+      "weight": 0.1
+    },
+    {
+      "name": "Image enhancement software",
+      "weight": 0.1
+    },
+    {
+      "name": "Insightful S-PLUS",
+      "weight": 0.1
+    },
+    {
+      "name": "Kubotek CADKEY Wireframe",
+      "weight": 0.1
+    },
+    {
+      "name": "LINDO Systems optimization modeling software",
+      "weight": 0.1
+    },
+    {
+      "name": "Loom",
+      "weight": 0.1
+    },
+    {
       "name": "Management information systems MIS",
       "weight": 0.1
     },
     {
-      "name": "GitHub",
+      "name": "Materials requirement planning MRP software",
+      "weight": 0.1
+    },
+    {
+      "name": "Mideo Systems EZDoc Plus",
+      "weight": 0.1
+    },
+    {
+      "name": "Optical imaging systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Photogrammetric software",
+      "weight": 0.1
+    },
+    {
+      "name": "Plant maintenance software",
+      "weight": 0.1
+    },
+    {
+      "name": "Production planning software",
+      "weight": 0.1
+    },
+    {
+      "name": "Regulatory compliance management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Siemens Solid Edge",
+      "weight": 0.1
+    },
+    {
+      "name": "Simultaneous location and mapping SLAM",
+      "weight": 0.1
+    },
+    {
+      "name": "Site remediation management software",
+      "weight": 0.1
+    },
+    {
+      "name": "SmartDraw Legal",
+      "weight": 0.1
+    },
+    {
+      "name": "SofTech CADRA",
+      "weight": 0.1
+    },
+    {
+      "name": "Soil mapping software",
+      "weight": 0.1
+    },
+    {
+      "name": "Stormwater runoff modeling software",
+      "weight": 0.1
+    },
+    {
+      "name": "Terminal emulation software",
+      "weight": 0.1
+    },
+    {
+      "name": "Thermal indoor climate simulation software",
+      "weight": 0.1
+    },
+    {
+      "name": "Three-dimensional modeling software",
+      "weight": 0.1
+    },
+    {
+      "name": "Three-dimensional parametric design software",
+      "weight": 0.1
+    },
+    {
+      "name": "VIA Information Tools MAN-IT",
+      "weight": 0.1
+    },
+    {
+      "name": "Vectorworks Machine Design",
+      "weight": 0.1
+    },
+    {
+      "name": "Visual Statement Vista FX3 CSI",
+      "weight": 0.1
+    },
+    {
+      "name": "Waste management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Water flow modeling software",
+      "weight": 0.1
+    },
+    {
+      "name": "Wind flow modeling software",
+      "weight": 0.1
+    },
+    {
+      "name": "XP Software XPSWMM",
+      "weight": 0.1
+    },
+    {
+      "name": "Inventory software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Three-dimensional 3D solid modeling software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Agisoft Metashape",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Analytical software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Applied Imagery Quick Terrain Modeler",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "ArduPilot Mission Planner",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "BAE Systems SOCET SET",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Computerized maintenance management system CMMS",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Corpscon",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Definiens Developer",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "ESRI ArcCatalog",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "ESRI ArcMap",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "ESRI ArcView 3D Analyst",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "ESRI Site Scan for ArcGIS",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "FLIR Thermal Studio Suite",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "GeoCue LIDAR and drone mapping software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "GeoCue PointVue LE",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "ITT Visual Information Solutions ENVI",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Kitty Hawk",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "LP360",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Leica Geosystems ERDAS IMAGINE",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Manufacturing resource planning MRP software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "McNeel Rhinoceros 3D",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Image Composite Editor",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "MindJet MindManager",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "MySQL",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "OpenDroneMap",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Opticks",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pix4D Pix4Dcapture",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pix4D Pix4Dmapper",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pix4D software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Relational database management software",
       "weight": 0.08333333333333333
     },
     {
@@ -2110,11 +4170,307 @@
       "weight": 0.08333333333333333
     },
     {
-      "name": "Google Earth Pro",
+      "name": "SmugMug Flickr",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Terrasolid TerraScan",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "360 Analytics eQUEST",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Adobe FreeHand MX",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Architectural Energy Corporation ENFORMA Building Diagnostics",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Architectural Energy Corporation VisualDOE",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Aurora HelioScope",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Autodesk AutoCAD LT",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Autodesk Ecotect",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Availability prediction modeling software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Available Safe Egress Time ASET",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Building Research Establishment BRE Jasmine",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "CESARE Risk",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Calculating optimum maintenance parameters COMPARE",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Carrier Hourly Analysis Program HAP",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Charting software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Chilled Water System Analysis Tool CWSAT",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Combined Heat and Power Application Tool CHP",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Compliance software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Computational modeling software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Computer based training software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Computer-aided drafting or design software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cool Roof Calculator",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Criticality analysis software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Crows Dynamics Simulex",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Customer relationship management CRM software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "DOE-2",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Data visualization software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Design Safety Engineering Designsafe",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "DesignBuilder Software DesignBuilder",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Diagramming software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Dyadem FMEA Pro-6",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "EMD International WindPRO",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "ERP software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "ESA MOSAICS",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "ESRI ArcGIS Spatial Analyst",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "ESRI software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "EffTec EffTrack",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Egress Allsafe",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Egress EVACS",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Elevator evacuation ELVAC software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Energy Efficient Rehab Advisor",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Energy-10",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "EnergyPlus",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "EnergySoft EnergyPro",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Equipment compliance testing software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Evacuation modeling software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "FIRECALC fire zone modeling software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Facility Energy Decision Systems FEDS",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Failure mode effects and criticality analysis FMECA software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Failure modes analysis software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Failure rate database software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Failure reporting analysis and corrective action FRACAS software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Fan System Assessment Tool FSAT",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Finite difference time domain FDTD software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Fire Protection Engineering Tools FPETool software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Fire Response of Structures Thermal FIRES-T software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Fire Simulation Technique FIRST software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Fire dynamics simulators",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "General Atomic and Molecular Electronic Structure System GAMESS",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Geological mapping software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Geomechanical stress analysis software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Go",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Graphical user interface GUI builder software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Haskell",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hazard assessment software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hazard communication software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hierarchical simulation program with integrated circuit emphasis HSPICE",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "IBM Rational RequisitePro",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "IRSIM",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Image processors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "ImageJ",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Incident tracking software",
       "weight": 0.07692307692307693
     },
     {
       "name": "Inspection management system",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "IntelliCAD",
       "weight": 0.07692307692307693
     },
     {
@@ -2126,7 +4482,27 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Monte Carlo simulation software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Oracle Primavera Systems",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Permit administration software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Preventive maintenance software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Probabilistic risk assessment PRA software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Program for Energy Analysis of Residences PEAR",
       "weight": 0.07692307692307693
     },
     {
@@ -2134,7 +4510,19 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Quantitative analysis software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "RETScreen",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Records management software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Reliability analysis software",
       "weight": 0.07692307692307693
     },
     {
@@ -2142,11 +4530,31 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Trimble SketchUp Pro",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Web conferencing software",
       "weight": 0.07692307692307693
     },
     {
+      "name": "Image analysis systems",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Act!",
+      "weight": 0.05555555555555555
+    },
+    {
       "name": "Airtable",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Calendar and scheduling software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Citrix cloud computing software",
       "weight": 0.05555555555555555
     },
     {
@@ -2154,12 +4562,100 @@
       "weight": 0.05555555555555555
     },
     {
+      "name": "Google Docs",
+      "weight": 0.05555555555555555
+    },
+    {
       "name": "Google Drive",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "HEAT Software GoldMine",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "HubSpot software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Inventory management software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Maximizer Software Maximizer Enterprise",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "McAfee",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Microsoft OneNote",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Mozilla Thunderbird",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "NetSuite NetCRM",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Sage MAS 500",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Salesforce.com Salesforce CRM",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Screencastify",
       "weight": 0.05555555555555555
     },
     {
       "name": "Slack",
       "weight": 0.05555555555555555
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "StataCorp Stata",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Sugar CRM",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Vanguard Software Vanguard Sales Manager",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Veritas NetBackup",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "vtiger CRM",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Image processing software",
+      "weight": 0.04
     }
   ],
   "tools_used": [
@@ -2204,6 +4700,22 @@
       "weight": 0.5
     },
     {
+      "name": "Digital video cameras",
+      "weight": 0.4393006993006993
+    },
+    {
+      "name": "Safety goggles",
+      "weight": 0.425296442687747
+    },
+    {
+      "name": "Wire strippers",
+      "weight": 0.4196969696969697
+    },
+    {
+      "name": "Micrometers",
+      "weight": 0.40515151515151515
+    },
+    {
       "name": "Scanners",
       "weight": 0.39285714285714285
     },
@@ -2220,8 +4732,36 @@
       "weight": 0.36025641025641025
     },
     {
+      "name": "Safety glasses",
+      "weight": 0.3549068322981367
+    },
+    {
+      "name": "Data collectors",
+      "weight": 0.35
+    },
+    {
+      "name": "Total stations",
+      "weight": 0.35
+    },
+    {
+      "name": "Air purifying respirators",
+      "weight": 0.34347826086956523
+    },
+    {
       "name": "10-key calculators",
       "weight": 0.3412698412698413
+    },
+    {
+      "name": "Field computers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Power drills",
+      "weight": 0.33090909090909093
+    },
+    {
+      "name": "Vernier calipers",
+      "weight": 0.32181818181818184
     },
     {
       "name": "Portable two way radios",
@@ -2232,7 +4772,51 @@
       "weight": 0.29545454545454547
     },
     {
+      "name": "Adjustable wrenches",
+      "weight": 0.28181818181818186
+    },
+    {
+      "name": "Dial calipers",
+      "weight": 0.28181818181818186
+    },
+    {
+      "name": "Protractors",
+      "weight": 0.28181818181818186
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.2798418972332016
+    },
+    {
+      "name": "Respirators",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Digital calipers",
+      "weight": 0.26783216783216784
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.26666666666666666
+    },
+    {
+      "name": "Safety gloves",
+      "weight": 0.2623376623376623
+    },
+    {
+      "name": "Laser scanners",
+      "weight": 0.2602564102564103
+    },
+    {
+      "name": "Open end wrenches",
+      "weight": 0.25757575757575757
+    },
+    {
       "name": "Appraisal, mapping, and comparison data reporting systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Carbon monoxide detectors",
       "weight": 0.25
     },
     {
@@ -2244,6 +4828,46 @@
       "weight": 0.25
     },
     {
+      "name": "Electronic digital theodolites",
+      "weight": 0.25
+    },
+    {
+      "name": "Electronic flood maps",
+      "weight": 0.25
+    },
+    {
+      "name": "Electronic maps",
+      "weight": 0.25
+    },
+    {
+      "name": "Event data recorders",
+      "weight": 0.25
+    },
+    {
+      "name": "Flood Insights",
+      "weight": 0.25
+    },
+    {
+      "name": "Handheld distance meters",
+      "weight": 0.25
+    },
+    {
+      "name": "Laser facsimile machines\"",
+      "weight": 0.25
+    },
+    {
+      "name": "Laser measuring devices",
+      "weight": 0.25
+    },
+    {
+      "name": "Mapping and geographic analysis systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Mapping or location-based analysis systems",
+      "weight": 0.25
+    },
+    {
       "name": "Mobile wireless handheld communication devices",
       "weight": 0.25
     },
@@ -2252,20 +4876,180 @@
       "weight": 0.25
     },
     {
+      "name": "Tire tread depth gauges",
+      "weight": 0.25
+    },
+    {
+      "name": "Ultrasonic distance measurers",
+      "weight": 0.25
+    },
+    {
+      "name": "35 millimeter cameras",
+      "weight": 0.24545454545454548
+    },
+    {
       "name": "Copy machines",
       "weight": 0.24358974358974358
+    },
+    {
+      "name": "Protective gloves",
+      "weight": 0.24000000000000002
+    },
+    {
+      "name": "Utility knives",
+      "weight": 0.23438735177865613
+    },
+    {
+      "name": "Fire extinguishers",
+      "weight": 0.23090909090909092
+    },
+    {
+      "name": "Hacksaws",
+      "weight": 0.2272727272727273
+    },
+    {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.22681159420289854
+    },
+    {
+      "name": "Infrared cameras",
+      "weight": 0.22527472527472528
+    },
+    {
+      "name": "Digital micrometers",
+      "weight": 0.21692307692307694
     },
     {
       "name": "Digital plotters",
       "weight": 0.2
     },
     {
+      "name": "Navigational compasses",
+      "weight": 0.2
+    },
+    {
+      "name": "Protective coveralls",
+      "weight": 0.2
+    },
+    {
+      "name": "Protective shoe covers",
+      "weight": 0.2
+    },
+    {
+      "name": "Dial indicators",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Gauge blocks",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Power screwdrivers",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Three-dimensional laser digitizers",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Vibration monitors",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Wire crimpers",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Wire cutters",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Precision rulers",
+      "weight": 0.18545454545454546
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.18333333333333335
+    },
+    {
       "name": "Global positioning system GPS devices",
       "weight": 0.18333333333333335
     },
     {
-      "name": "Mainframe computers",
+      "name": "Tachometers",
+      "weight": 0.18333333333333335
+    },
+    {
+      "name": "Ultrasonic thickness gauges",
+      "weight": 0.18333333333333335
+    },
+    {
+      "name": "Offset screwdrivers",
+      "weight": 0.18181818181818182
+    },
+    {
+      "name": "Steel rules",
+      "weight": 0.18181818181818182
+    },
+    {
+      "name": "Twist drills",
+      "weight": 0.18181818181818182
+    },
+    {
+      "name": "Handheld digital thermometers",
       "weight": 0.17692307692307693
+    },
+    {
+      "name": "Ohmmeters",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Power meters",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Soil samplers",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Pressure gauges",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Socket wrench sets",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Ammeters",
+      "weight": 0.17142857142857143
+    },
+    {
+      "name": "Depth gauges",
+      "weight": 0.1709090909090909
+    },
+    {
+      "name": "Impact hammers",
+      "weight": 0.16783216783216784
+    },
+    {
+      "name": "Power grinders",
+      "weight": 0.16783216783216784
+    },
+    {
+      "name": "Sound level meters",
+      "weight": 0.16783216783216784
     },
     {
       "name": "DroneDeploy",
@@ -2276,11 +5060,319 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Hammers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Multi-rotor unmanned aerial vehicles UAV",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Pyranometers",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Sampling probes",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Current versus voltage IV curve tracers",
+      "weight": 0.14835164835164835
+    },
+    {
+      "name": "Adjustable hand wrenches",
+      "weight": 0.14545454545454545
+    },
+    {
+      "name": "Digital anemometers",
+      "weight": 0.14545454545454545
+    },
+    {
+      "name": "Distance measuring wheels",
+      "weight": 0.14545454545454545
+    },
+    {
+      "name": "Emergency first aid kits",
+      "weight": 0.14545454545454545
+    },
+    {
+      "name": "Mobile radios",
+      "weight": 0.14545454545454545
+    },
+    {
+      "name": "Portable fire extinguishers",
+      "weight": 0.14545454545454545
+    },
+    {
+      "name": "Protective ear muffs",
+      "weight": 0.14545454545454545
+    },
+    {
+      "name": "Ultraviolet UV lights",
+      "weight": 0.14545454545454545
+    },
+    {
+      "name": "Voltage testers",
+      "weight": 0.14545454545454545
+    },
+    {
+      "name": "All terrain vehicles ATV",
+      "weight": 0.14347826086956522
+    },
+    {
+      "name": "Gas-powered generators",
+      "weight": 0.14347826086956522
+    },
+    {
+      "name": "Mobile data computers",
+      "weight": 0.14347826086956522
+    },
+    {
+      "name": "Passenger vans",
+      "weight": 0.14347826086956522
+    },
+    {
+      "name": "Power saws",
+      "weight": 0.14347826086956522
+    },
+    {
+      "name": "Safety helmets",
+      "weight": 0.14347826086956522
+    },
+    {
+      "name": "Shovels",
+      "weight": 0.14347826086956522
+    },
+    {
+      "name": "Surveillance binoculars",
+      "weight": 0.14347826086956522
+    },
+    {
+      "name": "Multiline telephone systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Teleconferencing equipment",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Videoconferencing equipment",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ball peen hammers",
+      "weight": 0.13636363636363635
+    },
+    {
+      "name": "Box end wrenches",
+      "weight": 0.13636363636363635
+    },
+    {
+      "name": "Body harnesses",
+      "weight": 0.13438735177865613
+    },
+    {
+      "name": "Calipers",
+      "weight": 0.13090909090909092
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.12681159420289856
+    },
+    {
+      "name": "Laser alignment tools",
+      "weight": 0.12333333333333332
+    },
+    {
+      "name": "Digital still cameras",
+      "weight": 0.12237762237762238
+    },
+    {
+      "name": "Light meters",
+      "weight": 0.11692307692307694
+    },
+    {
+      "name": "Vibration analysis equipment",
+      "weight": 0.11142857142857143
+    },
+    {
+      "name": "Analog multimeters",
+      "weight": 0.1
+    },
+    {
+      "name": "Balances",
+      "weight": 0.1
+    },
+    {
+      "name": "Base radios",
+      "weight": 0.1
+    },
+    {
+      "name": "Biohazard suits",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital hygrometers",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital voltmeters DVM",
+      "weight": 0.1
+    },
+    {
+      "name": "Drafting instruments",
+      "weight": 0.1
+    },
+    {
+      "name": "Electronic measuring devices",
+      "weight": 0.1
+    },
+    {
+      "name": "Electronic precision balances",
+      "weight": 0.1
+    },
+    {
+      "name": "Flatbed scanners",
+      "weight": 0.1
+    },
+    {
+      "name": "Footwear protectors",
+      "weight": 0.1
+    },
+    {
+      "name": "Hand held magnifiers",
+      "weight": 0.1
+    },
+    {
+      "name": "Handheld evidence collection computers",
+      "weight": 0.1
+    },
+    {
+      "name": "Hazardous material protective clothing",
+      "weight": 0.1
+    },
+    {
+      "name": "Hex key sets",
+      "weight": 0.1
+    },
+    {
+      "name": "Inspection mirrors",
+      "weight": 0.1
+    },
+    {
+      "name": "Leak detection equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Long-wave ultraviolet UV lamps",
+      "weight": 0.1
+    },
+    {
+      "name": "Machetes",
+      "weight": 0.1
+    },
+    {
+      "name": "Machinist rules",
+      "weight": 0.1
+    },
+    {
+      "name": "Magnetic inspection equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Magnetic pickup tools",
+      "weight": 0.1
+    },
+    {
+      "name": "Manual hardness testers",
+      "weight": 0.1
+    },
+    {
+      "name": "Mechanical convection ovens",
+      "weight": 0.1
+    },
+    {
+      "name": "Metal detectors",
+      "weight": 0.1
+    },
+    {
+      "name": "Meters",
+      "weight": 0.1
+    },
+    {
       "name": "Microcomputers",
+      "weight": 0.1
+    },
+    {
+      "name": "Mixing tanks",
+      "weight": 0.1
+    },
+    {
+      "name": "Non-contact thermometers",
+      "weight": 0.1
+    },
+    {
+      "name": "Nuclear moisture/density gauges",
+      "weight": 0.1
+    },
+    {
+      "name": "Pan balances",
+      "weight": 0.1
+    },
+    {
+      "name": "Particulate filters",
+      "weight": 0.1
+    },
+    {
+      "name": "Pavement cutting saws",
+      "weight": 0.1
+    },
+    {
+      "name": "Peristaltic pumps",
+      "weight": 0.1
+    },
+    {
+      "name": "Permanent mold casting machines",
+      "weight": 0.1
+    },
+    {
+      "name": "Photo markers",
+      "weight": 0.1
+    },
+    {
+      "name": "Photographic scales",
+      "weight": 0.1
+    },
+    {
+      "name": "Photometer",
+      "weight": 0.1
+    },
+    {
+      "name": "Pipe bending mandrels",
+      "weight": 0.1
+    },
+    {
+      "name": "Pipe camera inspection systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Pipe reamers",
+      "weight": 0.1
+    },
+    {
+      "name": "Plasma arc cutting torches",
+      "weight": 0.1
+    },
+    {
+      "name": "Plastic evidence tweezers",
+      "weight": 0.1
+    },
+    {
+      "name": "Pneumatic traffic counters",
+      "weight": 0.1
+    },
+    {
+      "name": "Portable air compressors",
       "weight": 0.1
     },
     {
@@ -2288,39 +5380,935 @@
       "weight": 0.1
     },
     {
+      "name": "Portable generators",
+      "weight": 0.1
+    },
+    {
+      "name": "Portable lasers",
+      "weight": 0.1
+    },
+    {
+      "name": "Portable weather stations",
+      "weight": 0.1
+    },
+    {
+      "name": "Portable weight scales",
+      "weight": 0.1
+    },
+    {
+      "name": "Power production turbines",
+      "weight": 0.1
+    },
+    {
+      "name": "Power quality analyzers",
+      "weight": 0.1
+    },
+    {
+      "name": "Pressure cleaners",
+      "weight": 0.1
+    },
+    {
+      "name": "Production robots",
+      "weight": 0.1
+    },
+    {
+      "name": "Protective face shields",
+      "weight": 0.1
+    },
+    {
+      "name": "Protective latex gloves",
+      "weight": 0.1
+    },
+    {
+      "name": "Protective masks",
+      "weight": 0.1
+    },
+    {
+      "name": "Protective safety glasses",
+      "weight": 0.1
+    },
+    {
+      "name": "Radar guns",
+      "weight": 0.1
+    },
+    {
+      "name": "Ramp meters",
+      "weight": 0.1
+    },
+    {
+      "name": "Reciprocating pumps",
+      "weight": 0.1
+    },
+    {
+      "name": "Reciprocating saws",
+      "weight": 0.1
+    },
+    {
+      "name": "Remote reading digital thermometers",
+      "weight": 0.1
+    },
+    {
+      "name": "Safety showers",
+      "weight": 0.1
+    },
+    {
+      "name": "Scissor lifts",
+      "weight": 0.1
+    },
+    {
+      "name": "Seismic monitoring instruments",
+      "weight": 0.1
+    },
+    {
+      "name": "Servohydraulic tensile testing machines",
+      "weight": 0.1
+    },
+    {
+      "name": "Sifting screens",
+      "weight": 0.1
+    },
+    {
+      "name": "Signal measuring equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Soil expansion testers",
+      "weight": 0.1
+    },
+    {
+      "name": "Soil particle size testers",
+      "weight": 0.1
+    },
+    {
+      "name": "Soil permeability testers",
+      "weight": 0.1
+    },
+    {
+      "name": "Soil vapor sampling equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Spades",
+      "weight": 0.1
+    },
+    {
+      "name": "Spotting scopes",
+      "weight": 0.1
+    },
+    {
+      "name": "Stainless steel scissors",
+      "weight": 0.1
+    },
+    {
+      "name": "Stainless steel spatulas",
+      "weight": 0.1
+    },
+    {
+      "name": "Stainless steel tweezers",
+      "weight": 0.1
+    },
+    {
+      "name": "Steam boilers",
+      "weight": 0.1
+    },
+    {
+      "name": "Steel measuring tape",
+      "weight": 0.1
+    },
+    {
+      "name": "Streaming current detectors",
+      "weight": 0.1
+    },
+    {
+      "name": "Thermoplastic injection molding presses",
+      "weight": 0.1
+    },
+    {
+      "name": "Toolmaker's microscopes",
+      "weight": 0.1
+    },
+    {
+      "name": "Tracer gas detectors",
+      "weight": 0.1
+    },
+    {
+      "name": "Tractor mounted drill rigs",
+      "weight": 0.1
+    },
+    {
+      "name": "Tractor mounted mowers",
+      "weight": 0.1
+    },
+    {
       "name": "Traffic counters",
       "weight": 0.1
     },
     {
-      "name": "Fourier transform infrared FTIR spectroscopy gas analyzers",
+      "name": "Transformers",
+      "weight": 0.1
+    },
+    {
+      "name": "Turbo pumps",
+      "weight": 0.1
+    },
+    {
+      "name": "Ultra pure water systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Ultrasonic welding equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Ultraviolet UV camera lens filters",
+      "weight": 0.1
+    },
+    {
+      "name": "Vacuum contact printers",
+      "weight": 0.1
+    },
+    {
+      "name": "Vacuum gauges",
+      "weight": 0.1
+    },
+    {
+      "name": "Vacuum pumps",
+      "weight": 0.1
+    },
+    {
+      "name": "Vertical machining centers",
+      "weight": 0.1
+    },
+    {
+      "name": "Vertical spindle mills",
+      "weight": 0.1
+    },
+    {
+      "name": "Very high frequency VHF radios",
+      "weight": 0.1
+    },
+    {
+      "name": "Video borescopes",
+      "weight": 0.1
+    },
+    {
+      "name": "Videoscopes",
+      "weight": 0.1
+    },
+    {
+      "name": "Voltage probes",
+      "weight": 0.1
+    },
+    {
+      "name": "Water level recorders",
+      "weight": 0.1
+    },
+    {
+      "name": "Water quality monitors",
+      "weight": 0.1
+    },
+    {
+      "name": "Water samplers",
+      "weight": 0.1
+    },
+    {
+      "name": "Water sampling pumps",
+      "weight": 0.1
+    },
+    {
+      "name": "Wattmeters",
+      "weight": 0.1
+    },
+    {
+      "name": "Welders",
+      "weight": 0.1
+    },
+    {
+      "name": "Welding goggles",
+      "weight": 0.1
+    },
+    {
+      "name": "Welding hoods",
+      "weight": 0.1
+    },
+    {
+      "name": "Wire splicers",
+      "weight": 0.1
+    },
+    {
+      "name": "pH indicators",
+      "weight": 0.1
+    },
+    {
+      "name": "Absorption dynamometers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Accelerometer sensors",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Air drills",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Air-supplying respirators",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Aligning punches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Alignment squares",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Allen wrenches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Angle grinders",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Arc-joint pliers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Aviation snips",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Belt sanders",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Bench vises",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Bleeder wrenches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Borescopes",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Bottoming taps",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "C clamps",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Chassis dynamometers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Clamp-on ammeters",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Cold cut chop saws",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Combination squares",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Combination wrenches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computerized scales",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Countersinks",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Crack detection equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Depth micrometers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Digital height gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Digital torque wrenches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Digitizing tablets",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Dividers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Drafting plotters",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Drive punches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Dual column bandsaws",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Electronic comparators",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Electronic engine analyzers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Electronic strain gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Electronic torque testers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Exhaust gas analyzers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Flat files",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Flat head screwdrivers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Flow benches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fluid meters",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fluorescent penetrant inspection equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Force sensors",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Freon recovery equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Granite surface plates",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Grinding machines",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Guided bend weld test units",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Half-round files",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hand brakes",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hand snips",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hex keys",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hook spanner wrenches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hydrasets",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hydraulic benches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hydraulic universal testers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hydrostatics benches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Ignition oscilloscopes",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Infrared inspection equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Knife files",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Layout compasses",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Layout squares",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Leakage testers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Locking pliers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Long nose pliers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Magnetic particle inspection equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Mallets",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Manual load frames",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Marking gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Metal cutting taps",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Nut drivers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Pin punches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Plane-parallel gauge blocks",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Planer gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Plug gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Plug taps",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Pneumatic ratchets",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Positioning jigs",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Power shears",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Power sheet metal shears",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Precision files",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Prick punches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Purifying respirators",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Reed and Prince screwdrivers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Ring gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Riveting tools",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Rotameters",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Round files",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Safety lanyards",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Safety wire pliers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Scaffolding",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Screw gauge micrometers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Screw pitch gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Screw thread gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Scroll saws",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Servohydraulic load frames",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Sine bars",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Slip joint pliers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Slotted screwdrivers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Small hole gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Socket wrenches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Soft face hammers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Spirit levels",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Split dies",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Spring calipers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Straight chisels",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Straightedges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Strain gauge balances",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Taper plug gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Taper taps",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Telescoping gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Temperature sensors",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Terminal computers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Theodolites",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Thickness gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Thread gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Timing lights",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Tool grinders",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Torsion testers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Torx drivers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Tri-squares",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Ultrasonic inspection equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Vernier height gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Vibration transducers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Vixen files",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Welding masks",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Bolt cutters",
+      "weight": 0.08893280632411067
+    },
+    {
+      "name": "Fire axes",
+      "weight": 0.08893280632411067
+    },
+    {
+      "name": "Multipurpose fire extinguishers",
+      "weight": 0.08893280632411067
+    },
+    {
+      "name": "Pinch bars",
+      "weight": 0.08893280632411067
+    },
+    {
+      "name": "Sledgehammers",
+      "weight": 0.08893280632411067
+    },
+    {
+      "name": "Magnifiers",
+      "weight": 0.08545454545454545
+    },
+    {
+      "name": "Bolt tension meters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Chart recorders",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Coating thickness gauges",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Conductivity sensors",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "DJI GS Pro",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Dew point meters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Digital tachometers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electric drills",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Flowmeters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Framing squares",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Ground control targets",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hex wrenches",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hydraulic dataloggers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hydrometers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Imaging systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Landing pad",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Large format printers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Laser imaging detection and ranging LIDAR systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Levelmeters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Protective goggles",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Surface profile gauges",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Thermal cameras",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Thermal infrared remote sensing equipment",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Thermal infrared sensors",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Three dimensional laser scanners",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Volt-ohm meters VOM",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Anticontamination clothing",
       "weight": 0.07692307692307693
     },
     {
-      "name": "Frequency shifters",
+      "name": "Bar code readers",
       "weight": 0.07692307692307693
     },
     {
-      "name": "Functional magnetic resonance imaging fMRI scanners",
+      "name": "Camcorders",
       "weight": 0.07692307692307693
     },
     {
-      "name": "Furniture calorimeters",
+      "name": "Data loggers",
       "weight": 0.07692307692307693
     },
     {
-      "name": "Gas flow control systems",
+      "name": "Digital luxmeters",
       "weight": 0.07692307692307693
     },
     {
-      "name": "Glass micromolds",
+      "name": "Digital resistance thermometers",
       "weight": 0.07692307692307693
     },
     {
-      "name": "Glow wire testers",
+      "name": "Digital video recorders",
       "weight": 0.07692307692307693
     },
     {
-      "name": "Graphics processing units GPU",
+      "name": "Digital wattmeters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Electronic temperature sensors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Environmental conditions measurement devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Face masks",
       "weight": 0.07692307692307693
     },
     {
@@ -2328,24 +6316,404 @@
       "weight": 0.07692307692307693
     },
     {
-      "name": "Grass stimulators",
-      "weight": 0.07692307692307693
-    },
-    {
-      "name": "Grip dynamometers",
-      "weight": 0.07692307692307693
-    },
-    {
-      "name": "Hand dynamometers",
-      "weight": 0.07692307692307693
-    },
-    {
       "name": "Handheld global positioning system GPS units",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Handheld refractometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hardness testing devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Heat flux transducers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Heat stress monitors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Heating system combustion analyzers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "High-flow air sampling pumps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "High-pot testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "High-precision balances",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "High-speed digital cameras",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "High-volume asbestos sampling pumps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Inclinometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Infrared viewers",
       "weight": 0.07692307692307693
     },
     {
       "name": "Inkjet printers",
       "weight": 0.07692307692307693
+    },
+    {
+      "name": "Inspection microscopes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Insulation resistance testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Irradiance detectors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Laser Doppler vibrometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Light detection and ranging LIDAR systems",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Line leakage testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Load sensors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Low-pressure impactors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Magnetic field meters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Material fatigue and dynamics characterization devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Material tension/compression testing devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Meggers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Microbial contaminant measurement devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Moisture analyzers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Multi-vapor reading instruments",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Near infrared cameras",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Noise dosimeters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Noise monitoring equipment",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Nuclear wireline logging instruments",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Octave band analyzers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Optical inspection microscopes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Optical particle counters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Optical particle detectors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Optical scanners",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Orifice-plate flowmeters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Oxygen analyzers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Particle size classifiers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Particulate measurement devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Permeation testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Phase angle meters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Photoelectric cells",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Photovoltaic array simulators",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Power quality meters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pressure and temperature measurement devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pressure transducers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Propeller anemometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pull testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Push/pull dynamometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Radiant heaters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Radiation compliance testing devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Reactive power meters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Recording ammeters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Recording anemometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Reflectance spectrometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Repose angle measuring devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Resistivity measurement systems",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Sampling pumps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Slipmeters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Smoke density testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Socket outlet test machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Sorbent tubes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Steiner tunnel furnaces",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Strength evaluation systems",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Surface profilers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Surface profilometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Surge testing devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Switch testing devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Temperature gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Tensionmeters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Thermocouple temperature probes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Three-dimensional laser scanners",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Torque gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Toxic gas detectors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Ultrasonic testing apparatus",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Ultrasound transducers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Velometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Ventilator performance analyzers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Vibration analyis equipment",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Vibration measurement systems",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Video cameras",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Volatile organic compound VOC measurement devices",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cement mixers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Colorimeters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Concrete test hammers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Fiberscopes",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Film thickness measurement systems",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Gas detectors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Infrared monitors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Laminators",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Permeability measuring devices",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Pit depth gauges",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Sonometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Tension gauges",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "X ray fluorescence XRF analyzers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "X ray fluorescence XRF spectrometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "pH testers",
+      "weight": 0.07142857142857142
     },
     {
       "name": "Cell phones",
@@ -2356,15 +6724,7 @@
       "weight": 0.05555555555555555
     },
     {
-      "name": "Credit card processing machines",
-      "weight": 0.05555555555555555
-    },
-    {
       "name": "Handtrucks",
-      "weight": 0.05555555555555555
-    },
-    {
-      "name": "Magnetic card readers",
       "weight": 0.05555555555555555
     },
     {
@@ -2372,15 +6732,139 @@
       "weight": 0.05555555555555555
     },
     {
-      "name": "Point of sale POS systems",
-      "weight": 0.05555555555555555
-    },
-    {
       "name": "Surveillance cameras",
       "weight": 0.05555555555555555
     },
     {
+      "name": "Adjustable pipe wrenches",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Ballistic vests",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Bar levels",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Battery analyzers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Battery powered smoke detectors",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Bit drivers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Camera flash attachments",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Camera lenses",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Camera positioning tripods",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Carpet cutters",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Catalytic combustion detectors CCD",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Circuit continuity testers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Cordless drills",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Crowbars",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Decibel meters",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Digital audio recorders",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Digital barometers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Digital electrical frequency meters",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Digital levels",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Digital light meters",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Dry bulb thermometers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Dust masks",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Filter mask respirators",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Flat cold chisels",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Flathead shovels",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Flood lighting",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Gasoline powered generators",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Ground fault testers",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Handheld calculators",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "High powered flashlights",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Hydrocarbon detectors",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Keyhole saws",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Laser plumb bobs",
       "weight": 0.045454545454545456
     },
     {
@@ -2388,7 +6872,79 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Linesman's pliers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Magnehelic differential pressure gauges",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Magnetic compasses",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Multigas detectors",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Multipurpose knives",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Passenger vehicles",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Pen knives",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Phillips screwdrivers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Photographic meters",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Photographic rulers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Photoionization detectors",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Pocket knives",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Portable computers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Portable sump pumps",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Protective eyewear",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Putty knives",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Side-cutting pliers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Single gas detectors",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Slip-lock pliers",
       "weight": 0.045454545454545456
     },
     {
@@ -2398,6 +6954,226 @@
     {
       "name": "Steel tape measures",
       "weight": 0.045454545454545456
+    },
+    {
+      "name": "Stepladders",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Straight blade screwdrivers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Tin snips",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Torpedo levels",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Universal pipe cutters",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Vise grip pliers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Voltage indicators",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Wet bulb thermometers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Wire cutting tools",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Wire gauges",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Wood chisels",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Aluminum ladders",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Extension ladders",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "First aid kits",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Hand saws",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Hard hats",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Infrared thermometers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Multi-gas detectors",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Navigation compasses",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Pry bars",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Psychrometers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Search cameras",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Surface thermometers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Thermal imaging cameras",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Wrecking bars",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Acoustic testers",
+      "weight": 0.04
+    },
+    {
+      "name": "Amp meters",
+      "weight": 0.04
+    },
+    {
+      "name": "Binocular polarizing microscopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Binoculars",
+      "weight": 0.04
+    },
+    {
+      "name": "Black lights",
+      "weight": 0.04
+    },
+    {
+      "name": "Charge-coupled device CCD cameras",
+      "weight": 0.04
+    },
+    {
+      "name": "Chemical protective face shields",
+      "weight": 0.04
+    },
+    {
+      "name": "Closed circuit television systems",
+      "weight": 0.04
+    },
+    {
+      "name": "Digital refractometers",
+      "weight": 0.04
+    },
+    {
+      "name": "Electric hoists",
+      "weight": 0.04
+    },
+    {
+      "name": "Electrical conductivity meters",
+      "weight": 0.04
+    },
+    {
+      "name": "Ground penetrating radar GPR systems",
+      "weight": 0.04
+    },
+    {
+      "name": "Handheld accelerometers",
+      "weight": 0.04
+    },
+    {
+      "name": "Handheld sprayers",
+      "weight": 0.04
+    },
+    {
+      "name": "Infrared thermographic scanners",
+      "weight": 0.04
+    },
+    {
+      "name": "Inspection endoscopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Loupes",
+      "weight": 0.04
+    },
+    {
+      "name": "Magnifying glasses",
+      "weight": 0.04
+    },
+    {
+      "name": "Multifunction digital multimeters",
+      "weight": 0.04
+    },
+    {
+      "name": "Portable microscopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Remote reading electronic thermometers",
+      "weight": 0.04
+    },
+    {
+      "name": "Schmidt rebound hammers",
+      "weight": 0.04
+    },
+    {
+      "name": "Velocity meters",
+      "weight": 0.04
+    },
+    {
+      "name": "Vernier micrometers",
+      "weight": 0.04
+    },
+    {
+      "name": "Volt meters",
+      "weight": 0.04
+    },
+    {
+      "name": "Width gauges",
+      "weight": 0.04
+    },
+    {
+      "name": "Windsor probes",
+      "weight": 0.04
+    },
+    {
+      "name": "Wire pull testers",
+      "weight": 0.04
+    },
+    {
+      "name": "Wire saws",
+      "weight": 0.04
+    },
+    {
+      "name": "X ray equipment",
+      "weight": 0.04
     }
   ],
   "detailed_work_activities": [

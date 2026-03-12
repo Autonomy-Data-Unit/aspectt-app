@@ -1545,59 +1545,195 @@
   "tasks": [
     {
       "task": "Measure or weigh flour or other ingredients to prepare batters, doughs, fillings, or icings, using scales or graduated containers.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.49
     },
     {
-      "task": "Set time and speed controls for mixing machines, blending machines, or steam kettles, and combine measured ingredients in mixing bowls.",
-      "task_type": "Core"
+      "task": "Set time and speed controls for mixing machines, blending machines, or steam kettles so that ingredients will be mixed or cooked according to instructions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.54
     },
     {
-      "task": "Check the quality of raw materials and products, ensuring standards are met and identifying damaged or expired goods.",
-      "task_type": "Core"
+      "task": "Combine measured ingredients in bowls of mixing, blending, or cooking machinery.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.58
     },
     {
-      "task": "Set oven temperatures, place items in ovens, and observe products being baked to adjust conditions as necessary.",
-      "task_type": "Core"
+      "task": "Set oven temperatures, and place items into hot ovens for baking.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.67
     },
     {
-      "task": "Adapt the quantity of ingredients for the amount of items to be baked and roll, knead, or shape dough for various products.",
-      "task_type": "Core"
+      "task": "Observe color of products being baked, and adjust oven temperatures, humidity, or conveyor speeds accordingly.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.47
     },
     {
-      "task": "Apply glazes, icings, or other toppings to baked goods, and decorate products such as cakes or pastries.",
-      "task_type": "Core"
+      "task": "Adapt the quantity of ingredients to match the amount of items to be baked.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.37
     },
     {
-      "task": "Direct or coordinate bakery deliveries, manage inventory or production records, and order or receive supplies or equipment.",
-      "task_type": "Core"
+      "task": "Check equipment to ensure that it meets health and safety regulations, and perform maintenance or cleaning, as necessary.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.41
     },
     {
-      "task": "Check equipment for health and safety compliance and perform necessary maintenance or cleaning.",
-      "task_type": "Core"
+      "task": "Decorate baked goods, such as cakes or pastries.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.19
     },
     {
-      "task": "Conduct employee training in equipment operations and safety procedures, and keep records of attendance and hours worked.",
-      "task_type": "Core"
+      "task": "Direct or coordinate bakery deliveries.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.08
     },
     {
-      "task": "Enforce safety and sanitation regulations and recommend or implement measures to improve production methods or product quality.",
-      "task_type": "Core"
+      "task": "Order or receive supplies or equipment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.07
     },
     {
-      "task": "Direct and coordinate the activities of employees in production, calculate labor requirements, and plan work schedules to meet production goals.",
-      "task_type": "Core"
+      "task": "Operate slicing or wrapping machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.18
     },
     {
-      "task": "Confer with management or subordinates to resolve problems and evaluate employee performance based on production outputs.",
-      "task_type": "Core"
+      "task": "Develop new recipes for baked goods.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.41
     },
     {
-      "task": "Develop new recipes for baked goods and plan new products or production processes.",
-      "task_type": "Core"
+      "task": "Roll, knead, cut, or shape dough to form sweet rolls, pie crusts, tarts, cookies, or other products.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.17
     },
     {
-      "task": "Maintain operations data, such as time, production, and cost records, and prepare management reports.",
-      "task_type": "Core"
+      "task": "Conduct employee training in equipment operations or work and safety procedures, or assign employee training to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.01
+    },
+    {
+      "task": "Keep records of employees' attendance and hours worked.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.23
+    },
+    {
+      "task": "Recommend or execute personnel actions, such as hirings, evaluations, or promotions.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.63
+    },
+    {
+      "task": "Enforce safety and sanitation regulations.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.48
+    },
+    {
+      "task": "Direct and coordinate the activities of employees engaged in the production or processing of goods, such as inspectors, machine setters, or fabricators.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.02
+    },
+    {
+      "task": "Plan and develop new products and production processes.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.12
+    },
+    {
+      "task": "Calculate labor and equipment requirements and production specifications, using standard formulas.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.88
+    },
+    {
+      "task": "Set up and adjust machines and equipment.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.63
+    },
+    {
+      "task": "Determine standards, budgets, production goals, and rates, based on company policies, equipment and labor availability, and workloads.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.89
+    },
+    {
+      "task": "Recommend or implement measures to motivate employees and to improve production methods, equipment performance, product quality, or efficiency.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.82
+    },
+    {
+      "task": "Maintain operations data, such as time, production, and cost records, and prepare management reports of production results.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.82
+    },
+    {
+      "task": "Interpret specifications, blueprints, job orders, and company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.04
+    },
+    {
+      "task": "Confer with management or subordinates to resolve worker problems, complaints, or grievances.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.99
+    },
+    {
+      "task": "Observe work and monitor gauges, dials, and other indicators to ensure that operators conform to production or processing standards.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.02
+    },
+    {
+      "task": "Inspect materials, products, or equipment to detect defects or malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.23
+    },
+    {
+      "task": "Plan and establish work schedules, assignments, and production sequences to meet production goals.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.2
+    },
+    {
+      "task": "Confer with other supervisors to coordinate operations and activities within or between departments.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.15
+    },
+    {
+      "task": "Read and analyze charts, work orders, production schedules, and other records and reports to determine production requirements and to evaluate current production estimates and outputs.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.22
+    },
+    {
+      "task": "Evaluate employee performance.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.0
     }
   ],
   "technology_skills": [
@@ -1622,7 +1758,19 @@
       "weight": 0.3733333333333333
     },
     {
+      "name": "ADP Enterprise eTIME",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Afcom Datasafe Computer Services FlexiBake",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "At Your Service Software CostGuard",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Axxya Systems Nutritionist Pro",
       "weight": 0.3333333333333333
     },
     {
@@ -1634,6 +1782,14 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "EGS CALCMENU",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Enggist & Grandjean EGS F&B Control",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "LegacyUSA BakeSmart",
       "weight": 0.3333333333333333
     },
@@ -1642,7 +1798,23 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Sage 100 ERP",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "SoftCafe MenuPro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SweetWARE SmallPICS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SweetWARE nutraCoster Professional",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SweetWARE stockCoster",
       "weight": 0.3333333333333333
     },
     {
@@ -1654,6 +1826,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "iPro",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Apple Safari",
       "weight": 0.04
     },
@@ -1662,7 +1838,87 @@
       "weight": 0.04
     },
     {
+      "name": "Aptean Made2Manage",
+      "weight": 0.04
+    },
+    {
+      "name": "Bowen & Groves M1 ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Database software",
+      "weight": 0.04
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.04
+    },
+    {
+      "name": "Encompix ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vantage ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vista ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Exact MAX",
+      "weight": 0.04
+    },
+    {
+      "name": "GHG Clockwise",
+      "weight": 0.04
+    },
+    {
+      "name": "Giraffe Production Systems Giraffe Schedule System",
+      "weight": 0.04
+    },
+    {
       "name": "Google Chrome",
+      "weight": 0.04
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.04
+    },
+    {
+      "name": "Intacct ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Integrated materials management systems",
+      "weight": 0.04
+    },
+    {
+      "name": "Inventory management software",
+      "weight": 0.04
+    },
+    {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.04
+    },
+    {
+      "name": "Materials management software",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Axapta",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Internet Explorer",
       "weight": 0.04
     },
     {
@@ -1670,11 +1926,91 @@
       "weight": 0.04
     },
     {
+      "name": "Microsoft Project",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Total Quality Control Management",
+      "weight": 0.04
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.04
+    },
+    {
       "name": "Mozilla Firefox",
       "weight": 0.04
     },
     {
+      "name": "NetSuite NetERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.04
+    },
+    {
+      "name": "Operational databases",
+      "weight": 0.04
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.04
+    },
+    {
+      "name": "QA Software QMS Materials Management",
+      "weight": 0.04
+    },
+    {
+      "name": "Resource planning software",
+      "weight": 0.04
+    },
+    {
+      "name": "Retain Resource Planning",
+      "weight": 0.04
+    },
+    {
+      "name": "SAP Business One",
+      "weight": 0.04
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.04
+    },
+    {
+      "name": "SYSPRO business software",
+      "weight": 0.04
+    },
+    {
+      "name": "Spreadsheet software",
+      "weight": 0.04
+    },
+    {
+      "name": "Supervisory control and data acquisition SCADA software",
+      "weight": 0.04
+    },
+    {
+      "name": "Technology Group International Enterprise 21 ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.04
+    },
+    {
+      "name": "Total quality management TQM software",
+      "weight": 0.04
+    },
+    {
       "name": "Word processing software",
+      "weight": 0.04
+    },
+    {
+      "name": "Work Technology WorkTech Time",
       "weight": 0.04
     }
   ],
@@ -1897,10 +2233,6 @@
     },
     {
       "name": "Commercial coffeemakers",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Commercial food grilling equipment",
       "weight": 0.3333333333333333
     },
     {
@@ -2216,15 +2548,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Industrial kitchen broilers",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Industrial kitchen food blenders",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Industrial kitchen food smokers",
       "weight": 0.3333333333333333
     },
     {
@@ -2516,6 +2840,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Tablet computers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Tart rings",
       "weight": 0.3333333333333333
     },
@@ -2533,10 +2861,6 @@
     },
     {
       "name": "Tilt mixers",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Tortilla grills",
       "weight": 0.3333333333333333
     },
     {
@@ -2569,6 +2893,26 @@
     },
     {
       "name": "Hard hats",
+      "weight": 0.04
+    },
+    {
+      "name": "Laser printers",
+      "weight": 0.04
+    },
+    {
+      "name": "Laser scanners",
+      "weight": 0.04
+    },
+    {
+      "name": "Notebook computers",
+      "weight": 0.04
+    },
+    {
+      "name": "Operator terminals",
+      "weight": 0.04
+    },
+    {
+      "name": "Personal computers",
       "weight": 0.04
     },
     {

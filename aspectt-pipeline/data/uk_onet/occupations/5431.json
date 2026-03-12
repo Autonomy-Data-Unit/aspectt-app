@@ -1544,92 +1544,232 @@
   ],
   "tasks": [
     {
-      "task": "Record production and test data for each food product batch, such as ingredients used and test results.",
-      "task_type": "Core"
+      "task": "Cut, trim, bone, tie, and grind meats, such as beef, pork, poultry, and fish, to prepare in cooking form.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.55
     },
     {
-      "task": "Produce hamburger meat and meat trimmings, and process primal parts into cuts ready for retail use.",
-      "task_type": "Supplemental"
+      "task": "Use knives, cleavers, meat saws, bandsaws, or other equipment to perform meat cutting and trimming.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.6
     },
     {
-      "task": "Inspect meat products for defects, bruises, or blemishes, and remove excess fat.",
-      "task_type": "Core"
+      "task": "Grind meat into hamburger, and into trimmings used to prepare sausages, luncheon meats, and other meat products.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.21
     },
     {
-      "task": "Cut, trim, bone, tie, and grind meats to prepare them in cooking form and for packing.",
-      "task_type": "Core"
+      "task": "Inspect meat products for defects, bruises or blemishes and remove them along with any excess fat.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.33
     },
     {
-      "task": "Use knives, cleavers, and saws to perform routine cutting and trimming of meat, poultry, and seafood.",
-      "task_type": "Core"
+      "task": "Prepare special cuts of meat ordered by customers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.52
     },
     {
-      "task": "Prepare special cuts of meat ordered by customers and wrap, weigh, label, and price cuts of meat.",
-      "task_type": "Core"
+      "task": "Prepare and place meat cuts and products in display counter to appear attractive and catch the shopper's eye.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.7
     },
     {
-      "task": "Clean, trim, slice, and section carcasses for future processing while removing parts like skin, feathers, or bones.",
-      "task_type": "Core"
+      "task": "Wrap, weigh, label, and price cuts of meat.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.6
     },
     {
-      "task": "Receive, inspect, and store meat upon delivery to ensure quality and maintain inventory by ordering supplies.",
-      "task_type": "Core"
+      "task": "Receive, inspect, and store meat upon delivery to ensure meat quality.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.46
     },
     {
-      "task": "Supervise other butchers or meat cutters and direct and coordinate the activities of production workers.",
-      "task_type": "Core"
+      "task": "Estimate requirements and order or requisition meat supplies to maintain inventories.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.28
     },
     {
-      "task": "Monitor equipment operations and maintain product quality by adjusting controls based on observed conditions.",
-      "task_type": "Core"
+      "task": "Negotiate with representatives from supply companies to determine order details.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.93
+    },
+    {
+      "task": "Separate meats and byproducts into specified containers and seal containers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.25
+    },
+    {
+      "task": "Shape, lace, and tie roasts, using boning knife, skewer, and twine.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.88
+    },
+    {
+      "task": "Prepare ready-to-heat foods by filleting meat or fish or cutting it into bite-sized pieces, preparing and adding vegetables or applying sauces or breading.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.24
+    },
+    {
+      "task": "Move materials, supplies, components, and finished products between storage and work areas, using work aids such as racks, hoists, and handtrucks.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.98
+    },
+    {
+      "task": "Clear jams, and remove defective or substandard materials or products.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.39
+    },
+    {
+      "task": "Monitor machine operations and observe lights and gauges to detect malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.45
+    },
+    {
+      "task": "Record production data, such as weight and amount of product processed, type of product, and time and temperature of processing.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.34
+    },
+    {
+      "task": "Clean, wash, and sterilize equipment and cooking area, using water hoses, cleaning or sterilizing solutions, or rinses.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.65
+    },
+    {
+      "task": "Direct and coordinate the activities of employees engaged in the production or processing of goods, such as inspectors, machine setters, or fabricators.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.02
+    },
+    {
+      "task": "Conduct employee training in equipment operations or work and safety procedures, or assign employee training to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.01
+    },
+    {
+      "task": "Keep records of employees' attendance and hours worked.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.23
+    },
+    {
+      "task": "Recommend or execute personnel actions, such as hirings, evaluations, or promotions.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.63
+    },
+    {
+      "task": "Read and analyze charts, work orders, production schedules, and other records and reports to determine production requirements and to evaluate current production estimates and outputs.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.22
+    },
+    {
+      "task": "Confer with other supervisors to coordinate operations and activities within or between departments.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.15
+    },
+    {
+      "task": "Plan and establish work schedules, assignments, and production sequences to meet production goals.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.2
+    },
+    {
+      "task": "Press control buttons to activate machinery and equipment.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.52
     },
     {
       "task": "Inspect materials, products, or equipment to detect defects or malfunctions.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.23
     },
     {
       "task": "Requisition materials, supplies, equipment parts, or repair services.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.72
     },
     {
       "task": "Confer with management or subordinates to resolve worker problems, complaints, or grievances.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.99
     },
     {
       "task": "Interpret specifications, blueprints, job orders, and company policies and procedures for workers.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.04
     },
     {
       "task": "Maintain operations data, such as time, production, and cost records, and prepare management reports of production results.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.82
     },
     {
-      "task": "Recommend or implement measures to motivate employees and improve production methods, equipment performance, product quality, or efficiency.",
-      "task_type": "Core"
+      "task": "Recommend or implement measures to motivate employees and to improve production methods, equipment performance, product quality, or efficiency.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.82
     },
     {
       "task": "Determine standards, budgets, production goals, and rates, based on company policies, equipment and labor availability, and workloads.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.89
     },
     {
       "task": "Set up and adjust machines and equipment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.63
     },
     {
       "task": "Calculate labor and equipment requirements and production specifications, using standard formulas.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.88
     },
     {
       "task": "Enforce safety and sanitation regulations.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.48
     },
     {
       "task": "Plan and develop new products and production processes.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.12
     },
     {
       "task": "Evaluate employee performance.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.0
     }
   ],
   "technology_skills": [
@@ -1654,11 +1794,27 @@
       "weight": 0.39
     },
     {
+      "name": "Database software",
+      "weight": 0.29
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.29
+    },
+    {
+      "name": "AccountMate Software AccountMate",
+      "weight": 0.25
+    },
+    {
       "name": "AgInfoLink Meat Inventory Tracking System MITS",
       "weight": 0.25
     },
     {
       "name": "Edible Software",
+      "weight": 0.25
+    },
+    {
+      "name": "Financial accounting software",
       "weight": 0.25
     },
     {
@@ -1674,6 +1830,18 @@
       "weight": 0.25
     },
     {
+      "name": "RFID software",
+      "weight": 0.25
+    },
+    {
+      "name": "Sales software",
+      "weight": 0.25
+    },
+    {
+      "name": "Second Foundation NaviMeat",
+      "weight": 0.25
+    },
+    {
       "name": "Traceability software",
       "weight": 0.25
     },
@@ -1682,15 +1850,79 @@
       "weight": 0.20666666666666667
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.1511111111111111
+    },
+    {
+      "name": "Operational databases",
+      "weight": 0.14
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.14
+    },
+    {
       "name": "Google Gmail",
       "weight": 0.1111111111111111
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.1
     },
     {
       "name": "Production scheduling software",
       "weight": 0.1
     },
     {
+      "name": "Apple Safari",
+      "weight": 0.04
+    },
+    {
+      "name": "Apple iWork Pages",
+      "weight": 0.04
+    },
+    {
+      "name": "Aptean Made2Manage",
+      "weight": 0.04
+    },
+    {
+      "name": "Bowen & Groves M1 ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Encompix ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vantage ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vista ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Exact MAX",
+      "weight": 0.04
+    },
+    {
+      "name": "Giraffe Production Systems Giraffe Schedule System",
+      "weight": 0.04
+    },
+    {
       "name": "Google Chrome",
+      "weight": 0.04
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.04
+    },
+    {
+      "name": "Intacct ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Integrated materials management systems",
       "weight": 0.04
     },
     {
@@ -1698,7 +1930,75 @@
       "weight": 0.04
     },
     {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.04
+    },
+    {
+      "name": "Materials management software",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Axapta",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Total Quality Control Management",
+      "weight": 0.04
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.04
+    },
+    {
       "name": "Mozilla Firefox",
+      "weight": 0.04
+    },
+    {
+      "name": "NetSuite NetERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.04
+    },
+    {
+      "name": "QA Software QMS Materials Management",
+      "weight": 0.04
+    },
+    {
+      "name": "Resource planning software",
+      "weight": 0.04
+    },
+    {
+      "name": "Retain Resource Planning",
+      "weight": 0.04
+    },
+    {
+      "name": "SAP Business One",
+      "weight": 0.04
+    },
+    {
+      "name": "SYSPRO business software",
       "weight": 0.04
     },
     {
@@ -1706,15 +2006,35 @@
       "weight": 0.04
     },
     {
+      "name": "Supervisory control and data acquisition SCADA software",
+      "weight": 0.04
+    },
+    {
+      "name": "Technology Group International Enterprise 21 ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.04
+    },
+    {
+      "name": "Total quality management TQM software",
+      "weight": 0.04
+    },
+    {
       "name": "Word processing software",
       "weight": 0.04
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.1511111111111111
+      "name": "Work Technology WorkTech Time",
+      "weight": 0.04
     }
   ],
   "tools_used": [
+    {
+      "name": "Personal computers",
+      "weight": 0.9011111111111111
+    },
     {
       "name": "Butcher knives",
       "weight": 0.75
@@ -1776,6 +2096,10 @@
       "weight": 0.41666666666666663
     },
     {
+      "name": "Protective ear plugs",
+      "weight": 0.3611111111111111
+    },
+    {
       "name": "Pressing machines",
       "weight": 0.35
     },
@@ -1788,11 +2112,27 @@
       "weight": 0.2777777777777778
     },
     {
+      "name": "Agitators",
+      "weight": 0.25
+    },
+    {
+      "name": "Air knives",
+      "weight": 0.25
+    },
+    {
       "name": "Auto feed grinders",
       "weight": 0.25
     },
     {
       "name": "Balance scales",
+      "weight": 0.25
+    },
+    {
+      "name": "Balers",
+      "weight": 0.25
+    },
+    {
+      "name": "Beaters",
       "weight": 0.25
     },
     {
@@ -1808,7 +2148,15 @@
       "weight": 0.25
     },
     {
+      "name": "Boilers",
+      "weight": 0.25
+    },
+    {
       "name": "Boning hooks",
+      "weight": 0.25
+    },
+    {
+      "name": "Bowl choppers",
       "weight": 0.25
     },
     {
@@ -1824,7 +2172,15 @@
       "weight": 0.25
     },
     {
+      "name": "Bucket belt conveyors",
+      "weight": 0.25
+    },
+    {
       "name": "Butcher saws",
+      "weight": 0.25
+    },
+    {
+      "name": "Canners",
       "weight": 0.25
     },
     {
@@ -1836,6 +2192,10 @@
       "weight": 0.25
     },
     {
+      "name": "Centrifugal clarifiers",
+      "weight": 0.25
+    },
+    {
       "name": "Chain hoists",
       "weight": 0.25
     },
@@ -1844,7 +2204,51 @@
       "weight": 0.25
     },
     {
+      "name": "Chop cutting machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Combination feeders",
+      "weight": 0.25
+    },
+    {
+      "name": "Commercial induction cookers",
+      "weight": 0.25
+    },
+    {
+      "name": "Commercial use homogenizers",
+      "weight": 0.25
+    },
+    {
+      "name": "Cooker mixers",
+      "weight": 0.25
+    },
+    {
+      "name": "Cooking vats",
+      "weight": 0.25
+    },
+    {
+      "name": "Cooling tables",
+      "weight": 0.25
+    },
+    {
+      "name": "Deep-fry cookers",
+      "weight": 0.25
+    },
+    {
       "name": "Dehairing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Depositing pumps",
+      "weight": 0.25
+    },
+    {
+      "name": "Derinding machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Dicers",
       "weight": 0.25
     },
     {
@@ -1852,11 +2256,63 @@
       "weight": 0.25
     },
     {
+      "name": "Direct-fired fryers",
+      "weight": 0.25
+    },
+    {
       "name": "Electric meat grinders",
       "weight": 0.25
     },
     {
+      "name": "Electrical stunning equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Electromagnetic vibratory feeders",
+      "weight": 0.25
+    },
+    {
+      "name": "Evaporators",
+      "weight": 0.25
+    },
+    {
+      "name": "Extruders",
+      "weight": 0.25
+    },
+    {
+      "name": "Fish scalers",
+      "weight": 0.25
+    },
+    {
+      "name": "Fish skinners",
+      "weight": 0.25
+    },
+    {
+      "name": "Floor jacks",
+      "weight": 0.25
+    },
+    {
+      "name": "Food broilers",
+      "weight": 0.25
+    },
+    {
+      "name": "Food cooling equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Food heating cabinets",
+      "weight": 0.25
+    },
+    {
+      "name": "Food metal detectors",
+      "weight": 0.25
+    },
+    {
       "name": "Food scales",
+      "weight": 0.25
+    },
+    {
+      "name": "Food sterilizing machines",
       "weight": 0.25
     },
     {
@@ -1865,6 +2321,10 @@
     },
     {
       "name": "Forklifts",
+      "weight": 0.25
+    },
+    {
+      "name": "Frozen block grinders",
       "weight": 0.25
     },
     {
@@ -1888,6 +2348,10 @@
       "weight": 0.25
     },
     {
+      "name": "Hand blenders",
+      "weight": 0.25
+    },
+    {
       "name": "Hand saws",
       "weight": 0.25
     },
@@ -1900,7 +2364,23 @@
       "weight": 0.25
     },
     {
+      "name": "Heating tables",
+      "weight": 0.25
+    },
+    {
       "name": "Hog shackles",
+      "weight": 0.25
+    },
+    {
+      "name": "Hot air impingement ovens",
+      "weight": 0.25
+    },
+    {
+      "name": "Hot oil cookers",
+      "weight": 0.25
+    },
+    {
+      "name": "Hot oil roasting equipment",
       "weight": 0.25
     },
     {
@@ -1912,7 +2392,47 @@
       "weight": 0.25
     },
     {
+      "name": "Injector pumps",
+      "weight": 0.25
+    },
+    {
+      "name": "Kettle dollies",
+      "weight": 0.25
+    },
+    {
+      "name": "Kettle lifters",
+      "weight": 0.25
+    },
+    {
+      "name": "Kitchen shears",
+      "weight": 0.25
+    },
+    {
+      "name": "Levelers",
+      "weight": 0.25
+    },
+    {
+      "name": "Liquid filling machines",
+      "weight": 0.25
+    },
+    {
       "name": "Livestock shackles",
+      "weight": 0.25
+    },
+    {
+      "name": "Machine rollers",
+      "weight": 0.25
+    },
+    {
+      "name": "Manual winches",
+      "weight": 0.25
+    },
+    {
+      "name": "Material conveyors",
+      "weight": 0.25
+    },
+    {
+      "name": "Materials conveyors",
       "weight": 0.25
     },
     {
@@ -1932,11 +2452,23 @@
       "weight": 0.25
     },
     {
+      "name": "Meat dehydrators",
+      "weight": 0.25
+    },
+    {
+      "name": "Meat grading probes",
+      "weight": 0.25
+    },
+    {
       "name": "Meat grinders",
       "weight": 0.25
     },
     {
       "name": "Meat hoists",
+      "weight": 0.25
+    },
+    {
+      "name": "Meat package filling and sealing machines",
       "weight": 0.25
     },
     {
@@ -1948,6 +2480,50 @@
       "weight": 0.25
     },
     {
+      "name": "Meat stringing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Meatball molders",
+      "weight": 0.25
+    },
+    {
+      "name": "Metered transfer pumps",
+      "weight": 0.25
+    },
+    {
+      "name": "Microwave drying machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Mincing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Molding machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Molding presses",
+      "weight": 0.25
+    },
+    {
+      "name": "Motorized saws",
+      "weight": 0.25
+    },
+    {
+      "name": "Needle machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Net applicators",
+      "weight": 0.25
+    },
+    {
+      "name": "Package wrapping machines",
+      "weight": 0.25
+    },
+    {
       "name": "Pallet jacks",
       "weight": 0.25
     },
@@ -1956,11 +2532,55 @@
       "weight": 0.25
     },
     {
+      "name": "Pneumatic staple guns",
+      "weight": 0.25
+    },
+    {
       "name": "Poultry shears",
       "weight": 0.25
     },
     {
+      "name": "Power staple guns",
+      "weight": 0.25
+    },
+    {
+      "name": "Pressure cookers",
+      "weight": 0.25
+    },
+    {
+      "name": "Pressure washers",
+      "weight": 0.25
+    },
+    {
       "name": "Pricing guns",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective ear muffs",
+      "weight": 0.25
+    },
+    {
+      "name": "Radio frequency identification RFID devices",
+      "weight": 0.25
+    },
+    {
+      "name": "Retort chambers",
+      "weight": 0.25
+    },
+    {
+      "name": "Revolving pan depositors",
+      "weight": 0.25
+    },
+    {
+      "name": "Roller cutters",
+      "weight": 0.25
+    },
+    {
+      "name": "Rotary cleaning brushes",
+      "weight": 0.25
+    },
+    {
+      "name": "Rotisserie ovens",
       "weight": 0.25
     },
     {
@@ -1976,6 +2596,22 @@
       "weight": 0.25
     },
     {
+      "name": "Shoulder tattooers",
+      "weight": 0.25
+    },
+    {
+      "name": "Shredding machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Shrink wrap meat packing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Sizers",
+      "weight": 0.25
+    },
+    {
       "name": "Skinning knives",
       "weight": 0.25
     },
@@ -1988,6 +2624,138 @@
       "weight": 0.25
     },
     {
+      "name": "Smoke generators",
+      "weight": 0.25
+    },
+    {
+      "name": "Smokehouses",
+      "weight": 0.25
+    },
+    {
+      "name": "Smoking equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Specific gravity fat analyzers",
+      "weight": 0.25
+    },
+    {
+      "name": "Steak patty machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Steam air retorts",
+      "weight": 0.25
+    },
+    {
+      "name": "Steam kettles",
+      "weight": 0.25
+    },
+    {
+      "name": "Steam retorts",
+      "weight": 0.25
+    },
+    {
+      "name": "Steam-cooking vats",
+      "weight": 0.25
+    },
+    {
+      "name": "T-handle boning hooks",
+      "weight": 0.25
+    },
+    {
+      "name": "Thermal circulators",
+      "weight": 0.25
+    },
+    {
+      "name": "Tilting commercial cooking kettles",
+      "weight": 0.25
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Touch screen computers",
+      "weight": 0.25
+    },
+    {
+      "name": "Vacuum batch cookers",
+      "weight": 0.25
+    },
+    {
+      "name": "Vacuum package machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Vacuum packagers",
+      "weight": 0.25
+    },
+    {
+      "name": "Vibrating tables",
+      "weight": 0.25
+    },
+    {
+      "name": "Water hoses",
+      "weight": 0.25
+    },
+    {
+      "name": "Water immersion retorts",
+      "weight": 0.25
+    },
+    {
+      "name": "Water spray retorts",
+      "weight": 0.25
+    },
+    {
+      "name": "Water-cooled kettles",
+      "weight": 0.25
+    },
+    {
+      "name": "Whizzard knives",
+      "weight": 0.25
+    },
+    {
+      "name": "Digital calipers",
+      "weight": 0.2111111111111111
+    },
+    {
+      "name": "Digital micrometers",
+      "weight": 0.2111111111111111
+    },
+    {
+      "name": "Automatic hopper scales",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Conveyor dryers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Conveyor turntables",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cooling machine pans",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Curing equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Equipment pressure gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Equipment temperature gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Food drying equipment",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Food handling shovels",
       "weight": 0.16666666666666666
     },
@@ -1996,11 +2764,279 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Forced-air food dryers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Gas furnaces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld dataloggers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hearth ovens",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Heat exchanger conversion kits",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Heat exchanger systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hot air blowers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Humidification systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Humidity sensors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Impingement ovens",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Machine temperature controls",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Material moving carts",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Melting tanks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Moisture meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oil furnaces",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Photospectrometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rack loaders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Scale conveyors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vacuum food drying equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Air compressors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Air purifying respirators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Air-cooled condensers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ammonia detectors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ammonia pressure gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Auto-purgers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Back-pressure regulators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Batch freezers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Belt freezers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Blast tunnel freezers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Boiler generators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Compound gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Decontamination shower stations",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Defrost relief valves",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Depth gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital ammeters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital flowmeters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital hydrometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital manometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Direct expansion evaporators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electronic refrigerant leak detectors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Evaporative condensers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Eyewash stations",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Falling film heat exchangers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Flash intercoolers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Flooded evaporators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Fluidized bed freezers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Freezing agitators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hand expansion valves",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Handheld refractometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hermetic pumps",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "High pressure receivers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ice cube forming machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Immersion freezers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Impervious boots",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Intercoolers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Liquid level indicators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Liquid overfeed evaporators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Low pressure accumulators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Magnehelic pressure gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ohm meters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oil coolers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oil level regulators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oil pumps",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oil separators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Plate freezers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Plate heat exchangers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Portable fire extinguishers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Positive displacement compressors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pressure relief valves",
       "weight": 0.1111111111111111
     },
     {
@@ -2008,7 +3044,99 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Reciprocating compressors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Recirculators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Refrigerant compressors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Refrigerant pumps",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rotary screw compressors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rotary vane compressors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scissor lifts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scraped surface heat exchangers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Secondary fluid pumps",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Shell and tube heat exchangers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Spiral freezers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Surge drums",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Thermal fluid systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Thermosiphon oil coolers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Thermostatic expansion valves",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ultraviolet UV lamps",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Volt meters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Water chilling systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Water-cooled condensers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "pH testers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Air hoses",
+      "weight": 0.1
+    },
+    {
       "name": "Blow torches",
+      "weight": 0.1
+    },
+    {
+      "name": "Burners",
+      "weight": 0.1
+    },
+    {
+      "name": "Compacting machines",
       "weight": 0.1
     },
     {
@@ -2016,11 +3144,83 @@
       "weight": 0.1
     },
     {
+      "name": "Film winders",
+      "weight": 0.1
+    },
+    {
+      "name": "Forming machines",
+      "weight": 0.1
+    },
+    {
+      "name": "High speed wrapping machines",
+      "weight": 0.1
+    },
+    {
+      "name": "Laser micrometers",
+      "weight": 0.1
+    },
+    {
+      "name": "Machine templates",
+      "weight": 0.1
+    },
+    {
+      "name": "Plodder machines",
+      "weight": 0.1
+    },
+    {
+      "name": "Power lifts",
+      "weight": 0.1
+    },
+    {
       "name": "Precision rulers",
       "weight": 0.1
     },
     {
+      "name": "Pressure gauges",
+      "weight": 0.1
+    },
+    {
+      "name": "Scrap grinders",
+      "weight": 0.1
+    },
+    {
+      "name": "Slitters",
+      "weight": 0.1
+    },
+    {
+      "name": "Trim grinders",
+      "weight": 0.1
+    },
+    {
+      "name": "Trim winders",
+      "weight": 0.1
+    },
+    {
+      "name": "Wheeled forklifts",
+      "weight": 0.1
+    },
+    {
+      "name": "Desktop computers",
+      "weight": 0.04
+    },
+    {
       "name": "Hard hats",
+      "weight": 0.04
+    },
+    {
+      "name": "Laser printers",
+      "weight": 0.04
+    },
+    {
+      "name": "Laser scanners",
+      "weight": 0.04
+    },
+    {
+      "name": "Notebook computers",
+      "weight": 0.04
+    },
+    {
+      "name": "Operator terminals",
       "weight": 0.04
     },
     {

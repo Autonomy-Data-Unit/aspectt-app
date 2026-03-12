@@ -1545,83 +1545,417 @@
   "tasks": [
     {
       "task": "Inspect, maintain, and repair equipment, machinery, buildings, pens, yards, and fences.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Shift animals between grazing areas to ensure that they have sufficient access to food.",
-      "task_type": "Supplemental"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.02
     },
     {
       "task": "Mark livestock to identify ownership and grade, using brands, tags, paint, or tattoos.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.12
     },
     {
       "task": "Clean stalls, pens, and equipment, using disinfectant solutions, brushes, shovels, water hoses, or pumps.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.8
     },
     {
-      "task": "Move equipment, poultry, or livestock from one location to another, manually or using trucks or carts.",
-      "task_type": "Core"
+      "task": "Order food for animals, and arrange for its delivery.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.09
     },
     {
-      "task": "Order food for animals, and arrange for its delivery, and purchase and stock supplies of feed and medicines.",
-      "task_type": "Supplemental"
+      "task": "Mix feed, additives, and medicines in prescribed portions.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.18
     },
     {
       "task": "Provide medical treatment, such as administering medications and vaccinations, or arrange for veterinarians to provide more extensive treatment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.2
     },
     {
       "task": "Examine animals to detect illness, injury, or disease, and to check physical characteristics, such as rate of weight gain.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.29
     },
     {
-      "task": "Drive trucks, tractors, and other equipment to distribute feed to animals, and to cultivate or harvest fields.",
-      "task_type": "Core"
+      "task": "Feed and water livestock and monitor food and water supplies.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.45
     },
     {
-      "task": "Feed and water livestock and monitor food and water supplies, while cleaning and disinfecting animal quarters.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Perform duties related to livestock reproduction, such as breeding animals within appropriate timeframes, and helping with animal births.",
-      "task_type": "Supplemental"
+      "task": "Perform duties related to livestock reproduction, such as breeding animals within appropriate timeframes, performing artificial inseminations, and helping with animal births.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.06
     },
     {
       "task": "Segregate animals according to weight, age, color, and physical condition.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.02
+    },
+    {
+      "task": "Patrol grazing lands on horseback or using all-terrain vehicles.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.05
+    },
+    {
+      "task": "Maintain growth, feeding, production, and cost records.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.87
+    },
+    {
+      "task": "Groom, clip, trim, or castrate animals, dock ears and tails, or shear coats to collect hair.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.78
+    },
+    {
+      "task": "Spray livestock with disinfectants and insecticides, or dip or bathe animals.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.76
+    },
+    {
+      "task": "Protect herds from predators, using trained dogs.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.12
     },
     {
       "task": "Herd livestock to pastures for grazing or to scales, trucks, or other enclosures.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.4
     },
     {
       "task": "Identify plants, pests, and weeds to determine the selection and application of pesticides and fertilizers.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.54
     },
     {
-      "task": "Direct and monitor the work of casual and seasonal help during planting and harvesting, and train workers in relevant methods.",
-      "task_type": "Core"
+      "task": "Direct and monitor the work of casual and seasonal help during planting and harvesting.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.09
     },
     {
-      "task": "Harvest fruits and vegetables by hand, and record information about crops, such as pesticide use, yields, or costs.",
-      "task_type": "Core"
+      "task": "Inform farmers or farm managers of crop progress.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.69
     },
     {
-      "task": "Operate tractors, tractor-drawn machinery, and self-propelled machinery to plant, cultivate, spray, and harvest crops.",
-      "task_type": "Core"
+      "task": "Sell and deliver plants and flowers to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.17
+    },
+    {
+      "task": "Clean work areas, and maintain grounds and landscaping.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.1
+    },
+    {
+      "task": "Harvest fruits and vegetables by hand.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.78
+    },
+    {
+      "task": "Set up and operate irrigation equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.71
+    },
+    {
+      "task": "Operate tractors, tractor-drawn machinery, and self-propelled machinery to plow, harrow and fertilize soil, or to plant, cultivate, spray and harvest crops.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.45
+    },
+    {
+      "task": "Regulate greenhouse conditions, and indoor and outdoor irrigation systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.01
+    },
+    {
+      "task": "Haul and spread topsoil, fertilizer, peat moss, and other materials to condition soil, using wheelbarrows or carts and shovels.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.1
+    },
+    {
+      "task": "Tie and bunch flowers, plants, shrubs, and trees, wrap their roots, and pack them into boxes to fill orders.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.2
+    },
+    {
+      "task": "Move containerized shrubs, plants, and trees, using wheelbarrows or tractors.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.23
+    },
+    {
+      "task": "Inspect plants and bud ties to assess quality.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.27
     },
     {
       "task": "Participate in the inspection, grading, sorting, storage, and post-harvest treatment of crops.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.03
     },
     {
-      "task": "Clean work areas, and maintain grounds and landscaping, and build or repair farm infrastructures like pens and fences.",
-      "task_type": "Core"
+      "task": "Dig, rake, and screen soil, filling cold frames and hot beds in preparation for planting.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.37
     },
     {
-      "task": "Monitor workers to ensure that safety regulations are followed, and enforce discipline when necessary.",
-      "task_type": "Core"
+      "task": "Record information about plants and plant growth.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.43
+    },
+    {
+      "task": "Record information about crops, such as pesticide use, yields, or costs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.12
+    },
+    {
+      "task": "Dig, cut, and transplant seedlings, cuttings, trees, and shrubs.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.69
+    },
+    {
+      "task": "Maintain and repair irrigation and climate control systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.7
+    },
+    {
+      "task": "Provide information and advice to the public regarding the selection, purchase, and care of products.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.79
+    },
+    {
+      "task": "Feel plants' leaves and note their coloring to detect the presence of insects or disease.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.83
+    },
+    {
+      "task": "Harvest plants, and transplant or pot and label them.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.03
+    },
+    {
+      "task": "Plant, spray, weed, fertilize, water, and prune plants, shrubs, and trees, using gardening tools.",
+      "task_type": "Unclassified",
+      "relevance": 0.16666666666666666,
+      "importance": 0.0
+    },
+    {
+      "task": "Arrange for sale of animals and eggs to hospitals, research centers, pet shops, and food processing plants.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.49
+    },
+    {
+      "task": "Adjust controls to maintain specific building temperatures required for animals' health and safety.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Build hutches, pens, and fenced yards.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.97
+    },
+    {
+      "task": "Exhibit animals at shows.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.07
+    },
+    {
+      "task": "Record animal characteristics such as weights, growth patterns, and diets.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.96
+    },
+    {
+      "task": "Place vaccines in drinking water, inject vaccines, or dust air with vaccine powder to protect animals from diseases.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.49
+    },
+    {
+      "task": "Exercise animals to keep them in healthy condition.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.26
+    },
+    {
+      "task": "Assign tasks such as feeding and treatment of animals, and cleaning and maintenance of animal quarters.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.48
+    },
+    {
+      "task": "Record the numbers and types of fish or shellfish reared, harvested, released, sold, and shipped.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.46
+    },
+    {
+      "task": "Train workers in spawning, rearing, cultivating, and harvesting methods, and in the use of equipment.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.21
+    },
+    {
+      "task": "Monitor workers to ensure that safety regulations are followed, warning or disciplining those who violate safety regulations.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.45
+    },
+    {
+      "task": "Observe fish and beds or ponds to detect diseases, monitor fish growth, determine quality of fish, or determine completeness of harvesting.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.29
+    },
+    {
+      "task": "Confer with managers to evaluate weather or soil conditions, to develop plans or procedures, or to discuss issues such as changes in fertilizers, herbicides, or cultivating techniques.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.05
+    },
+    {
+      "task": "Train workers in tree felling or bucking, operation of tractors or loading machines, yarding or loading techniques, or safety regulations.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.27
+    },
+    {
+      "task": "Communicate with forestry personnel regarding forest harvesting or forest management plans, procedures, or schedules.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.04
+    },
+    {
+      "task": "Inspect crops, fields, or plant stock to determine conditions and need for cultivating, spraying, weeding, or harvesting.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.03
+    },
+    {
+      "task": "Coordinate dismantling, moving, and setting up equipment at new work sites.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.0
+    },
+    {
+      "task": "Coordinate the selection and movement of logs from storage areas, according to transportation schedules or production requirements.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.98
+    },
+    {
+      "task": "Schedule work crews, equipment, or transportation for several different work locations.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.92
+    },
+    {
+      "task": "Perform both supervisory and management functions, such as accounting, marketing, and personnel work.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.83
+    },
+    {
+      "task": "Transport or arrange for transport of animals, equipment, food, animal feed, and other supplies to and from work sites.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.76
+    },
+    {
+      "task": "Read inventory records, customer orders, or shipping schedules to determine required activities.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.63
+    },
+    {
+      "task": "Confer with managers to determine production requirements, conditions of equipment and supplies, and work schedules.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.58
+    },
+    {
+      "task": "Prepare and maintain time or payroll reports, as well as details of personnel actions, such as performance evaluations, hires, promotions, or disciplinary actions.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.54
+    },
+    {
+      "task": "Requisition or purchase supplies, such as insecticides, machine parts or lubricants, or tools.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.52
+    },
+    {
+      "task": "Issue equipment, such as farm implements, machinery, ladders, or containers to workers, and collect equipment when work is complete.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.36
+    },
+    {
+      "task": "Calculate or monitor budgets for maintenance or development of collections, grounds, or infrastructure.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.27
+    },
+    {
+      "task": "Monitor operations to identify and solve problems, improve work methods, and ensure compliance with safety, company, and government regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.09090909090909091,
+      "importance": 0.0
+    },
+    {
+      "task": "Plan work schedules according to personnel and equipment availability.",
+      "task_type": "Unclassified",
+      "relevance": 0.09090909090909091,
+      "importance": 0.0
+    },
+    {
+      "task": "Train workers in techniques such as planting, harvesting, weeding, or insect identification and in the use of safety measures.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.07
     }
   ],
   "technology_skills": [
@@ -1686,19 +2020,27 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "IBM Lotus Notes",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "KinTraks",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Microsoft Access",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Microsoft Windows",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Reudink Software ZooEasy",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "VSN International GenStat",
       "weight": 0.16666666666666666
     },
     {
@@ -1710,6 +2052,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Atlassian Confluence",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "BCS Woodlands Software The Logger Tracker",
       "weight": 0.09090909090909091
     },
@@ -1718,7 +2064,15 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Database software",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Employee scheduling software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
       "weight": 0.09090909090909091
     },
     {
@@ -1735,6 +2089,18 @@
     },
     {
       "name": "Midwest MicroSystems Cow Sense",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Payroll software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "TradeTec Computer Systems TallyWorks Logs",
       "weight": 0.09090909090909091
     },
     {
@@ -1892,6 +2258,10 @@
       "weight": 0.2909090909090909
     },
     {
+      "name": "Snowplows",
+      "weight": 0.2909090909090909
+    },
+    {
       "name": "Veterinary intravenous IV sets",
       "weight": 0.2909090909090909
     },
@@ -1933,6 +2303,10 @@
     },
     {
       "name": "Forklifts",
+      "weight": 0.25757575757575757
+    },
+    {
+      "name": "Geodetic ground global positioning system GPS receivers",
       "weight": 0.25757575757575757
     },
     {
@@ -2044,6 +2418,10 @@
       "weight": 0.2
     },
     {
+      "name": "Potbelly tractor trailers",
+      "weight": 0.2
+    },
+    {
       "name": "RFID tags",
       "weight": 0.2
     },
@@ -2068,10 +2446,6 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Animal blood analyzers",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Animal blood collection syringes",
       "weight": 0.16666666666666666
     },
@@ -2089,6 +2463,14 @@
     },
     {
       "name": "Artificial vaginas",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Battery booster cables",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Battery power testers",
       "weight": 0.16666666666666666
     },
     {
@@ -2124,6 +2506,14 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Canister gas masks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Carbon dioxide systems",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Cargo trucks",
       "weight": 0.16666666666666666
     },
@@ -2136,11 +2526,19 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Compact digital cameras",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Compass saws",
       "weight": 0.16666666666666666
     },
     {
       "name": "Compressed air sprayers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computer laser printers",
       "weight": 0.16666666666666666
     },
     {
@@ -2152,6 +2550,18 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Detasselers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital calipers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital levels",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Disk tillage equipment",
       "weight": 0.16666666666666666
     },
@@ -2160,7 +2570,19 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Drum rollers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dummy mares",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Dust masks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "External ultrasound units",
       "weight": 0.16666666666666666
     },
     {
@@ -2252,6 +2674,14 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Handheld calculators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld computers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Handtrucks",
       "weight": 0.16666666666666666
     },
@@ -2292,11 +2722,51 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Houseplant shears",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Houseplant snips",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Humidifiers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Humidity systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hydromulchers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Impulse sprinklers",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Increment borers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Indoor/outdoor thermometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Knife sharpeners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Leaf rakes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Liquid nitrogen storage tank",
       "weight": 0.16666666666666666
     },
     {
@@ -2324,6 +2794,14 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Microchip scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microtip snips",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Mole grips",
       "weight": 0.16666666666666666
     },
@@ -2344,6 +2822,18 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Ovulation prediction monitors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Paint application brushes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Paint application sprayers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Pesticide sprayers",
       "weight": 0.16666666666666666
     },
@@ -2356,11 +2846,19 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Pipe trailers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Planting augers",
       "weight": 0.16666666666666666
     },
     {
       "name": "Pole pruners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Portable battery chargers",
       "weight": 0.16666666666666666
     },
     {
@@ -2396,6 +2894,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Putty knives",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Reel mowers",
       "weight": 0.16666666666666666
     },
@@ -2428,11 +2930,27 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Rubber mallets",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Safety goggles",
       "weight": 0.16666666666666666
     },
     {
       "name": "Sand spreaders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Screen separators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Seed dryers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Seed tumblers",
       "weight": 0.16666666666666666
     },
     {
@@ -2444,7 +2962,19 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Sharpening stones",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Siphon proportioners",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Sledgehammers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Slotted screwdrivers",
       "weight": 0.16666666666666666
     },
     {
@@ -2453,6 +2983,22 @@
     },
     {
       "name": "Soil cultivators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Soil moisture meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Soil pH meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Soil sampling tubes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Soil thermometers",
       "weight": 0.16666666666666666
     },
     {
@@ -2472,11 +3018,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Stake drivers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Staple guns",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Step ladders",
       "weight": 0.16666666666666666
     },
     {
       "name": "String trimmers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Submersible stock tank heaters",
       "weight": 0.16666666666666666
     },
     {
@@ -2489,6 +3047,10 @@
     },
     {
       "name": "Threshers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tie tape machines",
       "weight": 0.16666666666666666
     },
     {
@@ -2508,7 +3070,39 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Tree calipers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tree diameter tapes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tree feeding augers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tree marking guns",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tree planting bars",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tree scale sticks",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Trowels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tube cutters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Utility knives",
       "weight": 0.16666666666666666
     },
     {
@@ -2520,7 +3114,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Wood chisels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wrecking bars",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Aeration pumps",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Animal injection syringes",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Automatic fish feeders",
       "weight": 0.09090909090909091
     },
     {
@@ -2528,7 +3138,31 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Blast chillers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Cable winches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Chain flail delimbers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Chemical injection systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Cleaning mops",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Clipping equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Cordless drills",
       "weight": 0.09090909090909091
     },
     {
@@ -2536,11 +3170,123 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Debarking tools",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Delimbing gates",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Digging spades",
       "weight": 0.09090909090909091
     },
     {
+      "name": "Dissolved oxygen indicators",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Feller bunchers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Filtering equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fish capture nets",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fish gates",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fish holding tanks",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fish screens",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fish seines",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fish tagging equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fish traps",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fish weighing scales",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Flail mowers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Flow meters",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fog systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Forage harvesters",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Four wheel drive 4WD vehicles",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Front end loaders",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fyke nets",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Gas-powered generators",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Gill nets",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Glass beakers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Grain dryers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Grapple processors",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Grapple yarders",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Greenhouse climate control systems",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Hand saws",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Handheld digital thermometers",
       "weight": 0.09090909090909091
     },
     {
@@ -2549,6 +3295,42 @@
     },
     {
       "name": "Hard hats",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hatching trays",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hoisting racks",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hoop nets",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Knuckleboom loaders",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Laboratory test tubes",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Light pickup trucks",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Log skidders",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Logging arches",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Logging tractors",
       "weight": 0.09090909090909091
     },
     {
@@ -2568,7 +3350,27 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Mobile logging cranes",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Mud sleds",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Ozone water purification systems",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Pitchforks",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Portable data collectors",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Pullthrough delimbers",
       "weight": 0.09090909090909091
     },
     {
@@ -2576,7 +3378,27 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Riding mowers",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Rototillers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Round balers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Rowboats",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Sawbucks",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Scuba diving equipment",
       "weight": 0.09090909090909091
     },
     {
@@ -2584,7 +3406,15 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Small power boats",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Soil tillers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Sonar equipment",
       "weight": 0.09090909090909091
     },
     {
@@ -2592,11 +3422,67 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Square balers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Squeegees",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Stroke delimbers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Suction syringes",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Tail dockers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Tank cleaning brushes",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Timber tongs",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Total dissolved solids TDS meters",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Tracked bulldozers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Tracked excavators",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Tree pruning equipment",
       "weight": 0.09090909090909091
     },
     {
+      "name": "Turbidimeters",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Two way radios",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Ultraviolet water purification systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Video camera systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Video scanning fish counters",
       "weight": 0.09090909090909091
     },
     {
@@ -2608,7 +3494,15 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Water transfer systems",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Weed sprayers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "pH indicators",
       "weight": 0.09090909090909091
     }
   ],

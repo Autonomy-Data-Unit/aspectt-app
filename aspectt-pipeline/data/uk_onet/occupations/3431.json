@@ -1544,35 +1544,59 @@
   ],
   "tasks": [
     {
-      "task": "Attend scheduled practice or training sessions to develop skills and improve physical condition.",
-      "task_type": "Core"
+      "task": "Exercise or practice under the direction of athletic trainers or professional coaches to develop skills, improve physical condition, or prepare for competitions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.92
     },
     {
-      "task": "Participate in athletic events or competitive sports according to established rules and regulations.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Maintain optimum physical fitness levels by training regularly and following nutrition plans or consulting with health professionals.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Assess performance after athletic competition, identifying strengths and weaknesses to improve future performance.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Represent teams or professional sports clubs by meeting with media, making speeches, or participating in charity events.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Lead teams by serving as captain and receiving instructions from coaches prior to events.",
-      "task_type": "Core"
+      "task": "Participate in athletic events or competitive sports, according to established rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.99
     },
     {
       "task": "Maintain equipment used in a particular sport.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.16
+    },
+    {
+      "task": "Maintain optimum physical fitness levels by training regularly, following nutrition plans, or consulting with health professionals.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.03
+    },
+    {
+      "task": "Assess performance following athletic competition, identifying strengths and weaknesses and making adjustments to improve future performance.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.19
+    },
+    {
+      "task": "Represent teams or professional sports clubs, performing such activities as meeting with members of the media, making speeches, or participating in charity events.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.62
+    },
+    {
+      "task": "Lead teams by serving as captain.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.44
+    },
+    {
+      "task": "Receive instructions from coaches or other sports staff prior to events and discuss performance afterwards.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.88
     }
   ],
   "technology_skills": [
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.3333333333333333
+    },
     {
       "name": "Email software",
       "weight": 0.3333333333333333
@@ -1582,11 +1606,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Microsoft Excel",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Microsoft Office software",
       "weight": 0.3333333333333333
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microsoft Word",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Motion analysis software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oracle PeopleSoft",
       "weight": 0.3333333333333333
     },
     {
@@ -1600,23 +1640,15 @@
     {
       "name": "YouTube",
       "weight": 0.3333333333333333
-    },
-    {
-      "name": "Microsoft Excel",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Microsoft Word",
-      "weight": 0.3333333333333333
     }
   ],
   "tools_used": [
     {
       "name": "Badminton rackets",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Balance beams",
       "weight": 0.3333333333333333
     },
     {
@@ -1664,7 +1696,15 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Core strengthening wheels",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Cross-country skis",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cyclical variations in adaptive conditioning CVAC pods",
       "weight": 0.3333333333333333
     },
     {
@@ -1680,6 +1720,18 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Dressage whips",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Elliptical trainers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Exercise bicycles",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Fencing foils",
       "weight": 0.3333333333333333
     },
@@ -1688,11 +1740,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Fitness balls",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fitness dumbbells",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fitness treadmills",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Football training dummies",
       "weight": 0.3333333333333333
     },
     {
       "name": "Football training sleds",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Glute-ham benches",
       "weight": 0.3333333333333333
     },
     {
@@ -1728,6 +1796,14 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Horse bridles",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Horse reins",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Ice hockey skates",
       "weight": 0.3333333333333333
     },
@@ -1741,6 +1817,14 @@
     },
     {
       "name": "Lacrosse sticks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Lower body weight machines",
       "weight": 0.3333333333333333
     },
     {
@@ -1760,6 +1844,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Personal computers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Ping-pong paddles",
       "weight": 0.3333333333333333
     },
@@ -1768,11 +1856,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Pool cues",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Portable archery targets",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Power stairclimbers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Precision archery bows",
       "weight": 0.3333333333333333
     },
     {
       "name": "Race starting blocks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Recumbent exercise bicycles",
       "weight": 0.3333333333333333
     },
     {
@@ -1800,7 +1904,19 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Riding crops",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Riding saddles",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Road bikes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Row machines",
       "weight": 0.3333333333333333
     },
     {
@@ -1820,11 +1936,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Squat benches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Squat racks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Stability balls",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Sweep-oar boats",
       "weight": 0.3333333333333333
     },
     {
       "name": "Swimming goggles",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tablet computers",
       "weight": 0.3333333333333333
     },
     {
@@ -1836,6 +1968,14 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Therapeutic exercise bands",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Therapeutic sandbags",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Throwing discus",
       "weight": 0.3333333333333333
     },
@@ -1844,7 +1984,15 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Tractor tires",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Uneven bars",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Upper body ergometers",
       "weight": 0.3333333333333333
     },
     {
@@ -1853,6 +2001,18 @@
     },
     {
       "name": "Vaulting springboards",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Weighlifting analysis equipment",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Weight plates",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Weighted vests",
       "weight": 0.3333333333333333
     },
     {

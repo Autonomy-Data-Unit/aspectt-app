@@ -1544,40 +1544,88 @@
   ],
   "tasks": [
     {
-      "task": "Ask questions to obtain specified information, such as name, address, age, or residency, and assist individuals in filling out applications or questionnaires.",
-      "task_type": "Core"
+      "task": "Ask questions in accordance with instructions to obtain various specified information, such as person's name, address, age, religious preference, or state of residency.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.57
     },
     {
-      "task": "Identify and resolve inconsistencies in interviewees' responses through appropriate questioning or explanation, and report problems in obtaining valid data.",
-      "task_type": "Core"
+      "task": "Identify and resolve inconsistencies in interviewees' responses by means of appropriate questioning or explanation.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.96
     },
     {
-      "task": "Compile, record, and code results or data from interviews or surveys, ensuring completeness and accuracy of the data obtained.",
-      "task_type": "Core"
+      "task": "Compile, record, and code results or data from interview or survey, using computer or specified form.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.22
     },
     {
-      "task": "Contact individuals to be interviewed at home, work, or field locations by phone, mail, or in person.",
-      "task_type": "Supplemental"
+      "task": "Review data obtained from interview for completeness and accuracy.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
     },
     {
-      "task": "Explain survey objectives and procedures to interviewees and interpret survey questions to aid understanding.",
-      "task_type": "Supplemental"
+      "task": "Contact individuals to be interviewed at home, place of business, or field location, by telephone, mail, or in person.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.91
     },
     {
-      "task": "Prepare reports to provide answers in response to specific problems and meet daily with the supervisor to submit assignments and discuss progress.",
-      "task_type": "Core"
+      "task": "Assist individuals in filling out applications or questionnaires.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.1
     },
     {
-      "task": "Locate and list addresses and households, and collect and analyze data from various sources or surveys.",
-      "task_type": "Supplemental"
+      "task": "Identify and report problems in obtaining valid data.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.42
     },
     {
-      "task": "Supervise or train other staff members as needed.",
-      "task_type": "Core"
+      "task": "Explain survey objectives and procedures to interviewees and interpret survey questions to help interviewees' comprehension.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.6
     },
     {
-      "task": "Perform office duties such as customer service inquiries or billing.",
-      "task_type": "Core"
+      "task": "Prepare reports to provide answers in response to specific problems.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.61
+    },
+    {
+      "task": "Locate and list addresses and households.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.44
+    },
+    {
+      "task": "Meet with supervisor daily to submit completed assignments and discuss progress.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.48
+    },
+    {
+      "task": "Collect and analyze data, such as studying old records, tallying the number of outpatients entering each day or week, or participating in federal, state, or local population surveys as a Census Enumerator.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.64
+    },
+    {
+      "task": "Supervise or train other staff members.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.86
+    },
+    {
+      "task": "Perform office duties, such as telemarketing or customer service inquiries, maintaining staff records, billing patients, or receiving payments.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.34
     }
   ],
   "technology_skills": [
@@ -1591,6 +1639,10 @@
     },
     {
       "name": "FluidSurveys",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Dynamics",
       "weight": 0.25
     },
     {
@@ -1623,6 +1675,10 @@
     },
     {
       "name": "RIVS automated interview software",
+      "weight": 0.25
+    },
+    {
+      "name": "SAP Business Objects",
       "weight": 0.25
     },
     {
@@ -1665,6 +1721,10 @@
     },
     {
       "name": "Multiline telephone systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Passenger vehicles",
       "weight": 0.25
     },
     {

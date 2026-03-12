@@ -1545,43 +1545,369 @@
   "tasks": [
     {
       "task": "Prepare budgets and submit estimates for program costs as part of campaign plan development.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.67
     },
     {
-      "task": "Coordinate with the media to disseminate advertising and maintain effective relationships with clients, government officials, and media representatives.",
-      "task_type": "Core"
+      "task": "Coordinate with the media to disseminate advertising.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.87
     },
     {
-      "task": "Plan and prepare advertising and promotional materials to increase sales of products or services, collaborating with various stakeholders.",
-      "task_type": "Core"
+      "task": "Plan and prepare advertising and promotional material to increase sales of products or services, working with customers, company officials, sales departments, and advertising agencies.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.13
     },
     {
-      "task": "Develop comprehensive marketing strategies and communications materials to promote awareness of products and services.",
-      "task_type": "Unclassified"
+      "task": "Maintain portfolios of marketing campaigns, strategies, and other marketing products or ideas.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
     },
     {
-      "task": "Conduct research on consumer opinions and analyze marketing tactics to identify target audiences and measure effectiveness.",
-      "task_type": "Unclassified"
+      "task": "Devise or evaluate methods and procedures for collecting data, such as surveys, opinion polls, and questionnaires.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
     },
     {
-      "task": "Coordinate activities of departments such as sales, graphic arts, media, finance, and research to achieve marketing goals.",
-      "task_type": "Core"
+      "task": "Develop comprehensive marketing strategies, using knowledge of products and technologies, markets, and regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
     },
     {
-      "task": "Direct and motivate a campaign team and manage program budgets, expenses, and campaign response rates to evaluate performance.",
-      "task_type": "Core"
+      "task": "Develop communications materials, advertisements, presentations, or public relations initiatives to promote awareness of products and services.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
     },
     {
-      "task": "Identify and develop contacts for promotional campaigns and fundraising initiatives that meet identified buyer targets.",
-      "task_type": "Core"
+      "task": "Coordinate with marketing team members, graphic artists, and other workers to develop and implement marketing programs.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
     },
     {
-      "task": "Plan and execute special events for fundraising and develop strategies to maximize contributions while minimizing costs.",
-      "task_type": "Core"
+      "task": "Conduct research on consumer opinions and buying habits, and identify target audiences for products, services, or technologies.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
     },
     {
-      "task": "Write effective press releases and maintain the company's corporate image and identity across various platforms.",
-      "task_type": "Unclassified"
+      "task": "Analyze the effectiveness of marketing tactics or channels.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze marketing or sales trends to forecast future conditions.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Represent company at trade association meetings to promote products.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.43
+    },
+    {
+      "task": "Contact organizations to explain services and facilities offered.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.61
+    },
+    {
+      "task": "Attend or participate in conferences, community events, and promotional events related to products or technologies.",
+      "task_type": "Unclassified",
+      "relevance": 0.2,
+      "importance": 0.0
+    },
+    {
+      "task": "Train and direct workers engaged in developing and producing advertisements.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.62
+    },
+    {
+      "task": "Read trade journals and professional literature to stay informed on trends, innovations, and changes that affect media planning.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.25
+    },
+    {
+      "task": "Inspect layouts and advertising copy, and edit scripts, audio, video, and other promotional material for adherence to specifications.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.07
+    },
+    {
+      "task": "Assemble and communicate with a strong, diverse coalition of organizations or public figures, securing their cooperation, support, and action, to further campaign goals.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.61
+    },
+    {
+      "task": "Coordinate activities of departments, such as sales, graphic arts, media, finance, and research.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.84
+    },
+    {
+      "task": "Prepare and negotiate advertising and sales contracts.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.81
+    },
+    {
+      "task": "Confer with department heads or staff to discuss topics such as contracts, selection of advertising media, or product to be advertised.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.9
+    },
+    {
+      "task": "Monitor and analyze sales promotion results to determine cost effectiveness of promotion campaigns.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.59
+    },
+    {
+      "task": "Identify and develop contacts for promotional campaigns and industry programs that meet identified buyer targets, such as dealers, distributors, or consumers.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.55
+    },
+    {
+      "task": "Formulate plans to extend business with established accounts and to transact business as agent for advertising accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.68
+    },
+    {
+      "task": "Provide presentation and product demonstration support during the introduction of new products and services to field staff and customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.5
+    },
+    {
+      "task": "Direct, motivate, and monitor the mobilization of a campaign team to advance campaign goals.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.81
+    },
+    {
+      "task": "Plan and execute advertising policies and strategies for organizations.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.81
+    },
+    {
+      "task": "Track program budgets, expenses, and campaign response rates to evaluate each campaign, based on program objectives and industry norms.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.54
+    },
+    {
+      "task": "Assign, supervise, and review the activities of fundraising staff.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.39
+    },
+    {
+      "task": "Direct activities of external agencies, establishments, or departments that develop and implement fundraising strategies and programs.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.18
+    },
+    {
+      "task": "Compile or develop materials to submit to granting or other funding organizations.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.93
+    },
+    {
+      "task": "Conduct research to identify the goals, net worth, charitable donation history, or other data related to potential donors, potential investors, or general donor markets.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.56
+    },
+    {
+      "task": "Contact corporate representatives, government officials, or community leaders to increase awareness of organizational causes, activities, or needs.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.76
+    },
+    {
+      "task": "Design and edit promotional publications, such as brochures.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.01
+    },
+    {
+      "task": "Develop fundraising activity plans that maximize participation or contributions and minimize costs.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.11
+    },
+    {
+      "task": "Develop strategies to encourage new or increased contributions.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.33
+    },
+    {
+      "task": "Plan and direct special events for fundraising, such as silent auctions, dances, golf events, or walks.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.07
+    },
+    {
+      "task": "Establish and maintain effective working relationships with clients, government officials, and media representatives and use these relationships to develop new fundraising opportunities.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.95
+    },
+    {
+      "task": "Establish goals for soliciting funds, develop policies for collection and safeguarding of contributions, and coordinate disbursement of funds.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.95
+    },
+    {
+      "task": "Evaluate advertising and promotion programs for compatibility with fundraising efforts.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.37
+    },
+    {
+      "task": "Formulate policies and procedures related to fundraising programs.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.47
+    },
+    {
+      "task": "Manage fundraising budgets.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.31
+    },
+    {
+      "task": "Produce films and other video products, regulate their distribution, and operate film library.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 2.98
+    },
+    {
+      "task": "Respond to requests for information about employers' activities or status.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop and maintain the company's corporate image and identity, which includes the use of logos and signage.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Observe and report on social, economic, and political trends that might affect employers.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Assign, supervise, and review the activities of public relations staff.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with labor relations managers to develop internal communications that keep employees informed of company activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop, implement, or maintain crisis communication plans.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct activities of external agencies, establishments, or departments that develop and implement communication strategies and information programs.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Draft speeches for company executives and arrange interviews and other forms of contact for them.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Establish and maintain effective working relationships with clients, government officials, and media representatives and use these relationships to develop new business opportunities.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Evaluate advertising and promotion programs for compatibility with public relations efforts.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Facilitate consumer relations or the relationship between parts of the company, such as the managers and employees, or different branch offices.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Formulate policies and procedures related to public information programs, working with public relations executives.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Identify main client groups and audiences, determine the best way to communicate publicity information to them, and develop and implement a communication plan.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Maintain company archives.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Manage communications budgets.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Manage in-house communication courses.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Manage special events, such as sponsorship of races, parties introducing new products, or other activities the firm supports, to gain public attention through the media without advertising directly.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Write interesting and effective press releases, prepare information for media kits, and develop and maintain company internet or intranet Web pages.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.5
     }
   ],
   "technology_skills": [
@@ -1658,6 +1984,14 @@
       "weight": 0.35384615384615387
     },
     {
+      "name": "Microsoft Access",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.35384615384615387
+    },
+    {
       "name": "Microsoft Excel",
       "weight": 0.35384615384615387
     },
@@ -1674,11 +2008,27 @@
       "weight": 0.35384615384615387
     },
     {
+      "name": "Microsoft Project",
+      "weight": 0.35384615384615387
+    },
+    {
       "name": "Microsoft Publisher",
       "weight": 0.35384615384615387
     },
     {
+      "name": "Microsoft SharePoint",
+      "weight": 0.35384615384615387
+    },
+    {
       "name": "Microsoft Word",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "Salesforce software",
       "weight": 0.35384615384615387
     },
     {
@@ -1692,6 +2042,14 @@
     {
       "name": "WordPress",
       "weight": 0.27692307692307694
+    },
+    {
+      "name": "Actuate BIRT",
+      "weight": 0.2
+    },
+    {
+      "name": "AdRelevance",
+      "weight": 0.2
     },
     {
       "name": "Adobe Acrobat Reader",
@@ -1710,6 +2068,14 @@
       "weight": 0.2
     },
     {
+      "name": "Brainworks",
+      "weight": 0.2
+    },
+    {
+      "name": "Business analysis software",
+      "weight": 0.2
+    },
+    {
       "name": "Constant Contact",
       "weight": 0.2
     },
@@ -1718,7 +2084,27 @@
       "weight": 0.2
     },
     {
+      "name": "Data visualization software",
+      "weight": 0.2
+    },
+    {
+      "name": "Data warehousing software",
+      "weight": 0.2
+    },
+    {
+      "name": "Database software",
+      "weight": 0.2
+    },
+    {
       "name": "Email software",
+      "weight": 0.2
+    },
+    {
+      "name": "Experience in Software Webplanner",
+      "weight": 0.2
+    },
+    {
+      "name": "Extensible markup language XML",
       "weight": 0.2
     },
     {
@@ -1730,7 +2116,15 @@
       "weight": 0.2
     },
     {
+      "name": "IBM Lotus Notes",
+      "weight": 0.2
+    },
+    {
       "name": "Instagram",
+      "weight": 0.2
+    },
+    {
+      "name": "JavaScript",
       "weight": 0.2
     },
     {
@@ -1738,7 +2132,23 @@
       "weight": 0.2
     },
     {
+      "name": "MarketSharp",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Dynamics Marketing",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.2
+    },
+    {
       "name": "Microsoft Windows",
+      "weight": 0.2
+    },
+    {
+      "name": "PaloAlto Advertising Plan Pro",
       "weight": 0.2
     },
     {
@@ -1746,7 +2156,27 @@
       "weight": 0.2
     },
     {
+      "name": "Quark enterprise publishing software",
+      "weight": 0.2
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.2
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.2
+    },
+    {
       "name": "Social media software",
+      "weight": 0.2
+    },
+    {
+      "name": "Structure query language SQL",
+      "weight": 0.2
+    },
+    {
+      "name": "Tableau",
       "weight": 0.2
     },
     {
@@ -1758,11 +2188,47 @@
       "weight": 0.2
     },
     {
+      "name": "WebTrends Analytics",
+      "weight": 0.2
+    },
+    {
+      "name": "Webtrends software",
+      "weight": 0.2
+    },
+    {
       "name": "Adobe Distiller",
       "weight": 0.15384615384615385
     },
     {
       "name": "Airtable",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Apple iDVD",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Blackbaud eTapestry",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Flipgrid",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Fund accounting software",
       "weight": 0.15384615384615385
     },
     {
@@ -1778,7 +2244,51 @@
       "weight": 0.15384615384615385
     },
     {
+      "name": "Human resource management software HRMS",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Mentimeter",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "MicroFocus GroupWise",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "MicroStrategy",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "MightyScout",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Oracle Siebel Server Sync",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Project management software",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "QuarkXPress",
+      "weight": 0.15384615384615385
+    },
+    {
       "name": "Slack",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "SmugMug Flickr",
       "weight": 0.15384615384615385
     },
     {
@@ -1786,7 +2296,15 @@
       "weight": 0.15384615384615385
     },
     {
+      "name": "Teradata Database",
+      "weight": 0.15384615384615385
+    },
+    {
       "name": "WeVideo",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "zkipster",
       "weight": 0.15384615384615385
     },
     {

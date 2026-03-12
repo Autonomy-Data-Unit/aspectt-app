@@ -1545,47 +1545,297 @@
   "tasks": [
     {
       "task": "Record guest comments or complaints, referring customers to managers as necessary.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.58
     },
     {
       "task": "Answer inquiries pertaining to hotel services, guest registration, and travel directions, or make recommendations regarding shopping, dining, or entertainment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.49
     },
     {
-      "task": "Provide information about local features, such as shopping, dining, nightlife, or recreational destinations.",
-      "task_type": "Core"
+      "task": "Deposit guests' valuables in hotel safes or safe-deposit boxes.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.85
     },
     {
-      "task": "Make travel arrangements for sightseeing or other tours, including booking airline or train tickets and reserving rental cars.",
-      "task_type": "Core"
+      "task": "Date-stamp, sort, and rack incoming mail and messages.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.95
     },
     {
-      "task": "Receive, store, or deliver luggage or mail, and collect, sort, or prepare mail, messages, or courier deliveries.",
-      "task_type": "Core"
+      "task": "Receive, store, or deliver luggage or mail.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.65
     },
     {
-      "task": "Greet, register, and assign rooms to guests of hotels or motels, and issue room keys or cards and escort instructions to bellhops.",
-      "task_type": "Core"
+      "task": "Perform office duties on a temporary basis when needed.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.59
     },
     {
-      "task": "Make and confirm reservations for patrons, such as for dinner, spa treatments, or special events, and verify customers' credit.",
-      "task_type": "Core"
+      "task": "Pick up and deliver items or run errands for guests.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.05
     },
     {
-      "task": "Provide business services for guests, such as sending or receiving faxes, shipping packages, and preparing memos or correspondence.",
-      "task_type": "Core"
+      "task": "Carry out unusual requests, such as searching for hard-to-find items or arranging for exotic services, such as hot-air balloon rides.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.73
     },
     {
-      "task": "Take care of lobby and common areas by cleaning, restocking supplies, and performing administrative support tasks when needed.",
-      "task_type": "Core"
+      "task": "Arrange for the replacement of items lost by travelers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.4
     },
     {
-      "task": "Transmit and receive messages via telephones or telephone switchboards, and operate the switchboard to answer, screen, or forward calls.",
-      "task_type": "Core"
+      "task": "Arrange for interpreters or translators when patrons require such services.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.24
     },
     {
-      "task": "Compute bills, collect payments, and review accounts and charges with guests during the check-out process.",
-      "task_type": "Core"
+      "task": "Perform bookkeeping activities, such as balancing accounts and conducting nightly audits.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.41
+    },
+    {
+      "task": "Clean and maintain lobby and common areas, such as restocking supplies and watering plants.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.06
+    },
+    {
+      "task": "Advise housekeeping staff when rooms have been vacated and are ready for cleaning.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.41
+    },
+    {
+      "task": "Prepare for basic food service, such as setting up continental breakfast or coffee and tea supplies.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.04
+    },
+    {
+      "task": "Plan, schedule or supervise the work of other employees.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.36
+    },
+    {
+      "task": "Make reservations for patrons, such as for dinner, spa treatments, or golf tee times, and obtain tickets to special events.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.32
+    },
+    {
+      "task": "Provide business services for guests, such as sending or receiving faxes or shipping packages.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.35
+    },
+    {
+      "task": "Plan special events, parties, or meetings, which may include booking musicians or celebrities.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.94
+    },
+    {
+      "task": "Arrange childcare services for guests.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.89
+    },
+    {
+      "task": "Provide food and beverage services to guests.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.79
+    },
+    {
+      "task": "Order flowers for guests.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.14
+    },
+    {
+      "task": "Book airline or train tickets, reserve rental cars, or arrange shuttle service for guests.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.9
+    },
+    {
+      "task": "Arrange tours, taxis, or restaurant reservations for customers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.86
+    },
+    {
+      "task": "Assist guests with special needs by providing equipment such as wheelchairs.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.71
+    },
+    {
+      "task": "Verify customers' credit, and establish how the customer will pay for the accommodation.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.71
+    },
+    {
+      "task": "Contact housekeeping or maintenance staff when guests report problems.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.8
+    },
+    {
+      "task": "Transmit and receive messages, using telephones or telephone switchboards.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.5
+    },
+    {
+      "task": "Post charges, such as those for rooms, food, liquor, or telephone calls, to ledgers, manually or by using computers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.67
+    },
+    {
+      "task": "Review accounts and charges with guests during the check out process.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.6
+    },
+    {
+      "task": "Issue room keys and escort instructions to bellhops.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.76
+    },
+    {
+      "task": "Compute bills, collect payments, and make change for guests.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.53
+    },
+    {
+      "task": "Keep records of room availability and guests' accounts, manually or using computers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.69
+    },
+    {
+      "task": "Greet, register, and assign rooms to guests of hotels or motels.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.84
+    },
+    {
+      "task": "Schedule appointments and maintain and update appointment calendars.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.4
+    },
+    {
+      "task": "Transmit information or documents to customers, using computer, mail, or facsimile machine.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.12
+    },
+    {
+      "task": "File and maintain records.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.09
+    },
+    {
+      "task": "Receive payment and record receipts for services.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.64
+    },
+    {
+      "task": "Hear and resolve complaints from customers or the public.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.11
+    },
+    {
+      "task": "Greet persons entering establishment, determine nature and purpose of visit, and direct or escort them to specific destinations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.69
+    },
+    {
+      "task": "Perform administrative support tasks, such as proofreading, transcribing handwritten information, or operating calculators or computers to work with pay records, invoices, balance sheets, or other documents.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.97
+    },
+    {
+      "task": "Analyze data to determine answers to questions from customers or members of the public.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.22
+    },
+    {
+      "task": "Process and prepare memos, correspondence, travel vouchers, or other documents.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.43
+    },
+    {
+      "task": "Keep a current record of staff members' whereabouts and availability.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.9
+    },
+    {
+      "task": "Collect, sort, distribute, or prepare mail, messages, or courier deliveries.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.91
+    },
+    {
+      "task": "Calculate and quote rates for tours, stocks, insurance policies, or other products or services.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.21
+    },
+    {
+      "task": "Take orders for merchandise or materials and send them to the proper departments to be filled.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.18
+    },
+    {
+      "task": "Schedule space or equipment for special programs and prepare lists of participants.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.55
+    },
+    {
+      "task": "Enroll individuals to participate in programs and notify them of their acceptance.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.22
+    },
+    {
+      "task": "Operate telephone switchboard to answer, screen, or forward calls, providing information, taking messages, or scheduling appointments.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.74
     }
   ],
   "technology_skills": [
@@ -1599,6 +1849,14 @@
     },
     {
       "name": "Microsoft Outlook",
+      "weight": 2.111111111111111
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 2.111111111111111
+    },
+    {
+      "name": "Microsoft Publisher",
       "weight": 2.111111111111111
     },
     {
@@ -1626,7 +1884,27 @@
       "weight": 1.0
     },
     {
+      "name": "Blink",
+      "weight": 1.0
+    },
+    {
+      "name": "Budgeting software",
+      "weight": 1.0
+    },
+    {
+      "name": "Facebook",
+      "weight": 1.0
+    },
+    {
+      "name": "Incident tracking software",
+      "weight": 1.0
+    },
+    {
       "name": "InnQuest roomMaster",
+      "weight": 1.0
+    },
+    {
+      "name": "Mapping software",
       "weight": 1.0
     },
     {
@@ -1642,7 +1920,31 @@
       "weight": 1.0
     },
     {
+      "name": "Work scheduling software",
+      "weight": 1.0
+    },
+    {
+      "name": "3M Post-it App",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Appointment scheduling software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Automated information system software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Bookkeeping software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
       "weight": 0.1111111111111111
     },
     {
@@ -1650,11 +1952,39 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Data entry software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Database software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Electronic calendar management software",
       "weight": 0.1111111111111111
     },
     {
+      "name": "Electronic health record EHR software",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Email software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Filing system software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "GE Healthcare Centricity EMR",
       "weight": 0.1111111111111111
     },
     {
@@ -1670,12 +2000,36 @@
       "weight": 0.1111111111111111
     },
     {
-      "name": "Microsoft Windows",
+      "name": "IBM Notes",
       "weight": 0.1111111111111111
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 2.111111111111111
+      "name": "Intrado SchoolMessenger",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Kodak Dental Systems Kodak SOFTDENT Practice management software PMS",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "McKesson Lytec",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 0.1111111111111111
     }
   ],
   "tools_used": [
@@ -1716,7 +2070,15 @@
       "weight": 1.0
     },
     {
+      "name": "Mobile radios",
+      "weight": 1.0
+    },
+    {
       "name": "Multiline telephone systems",
+      "weight": 1.0
+    },
+    {
+      "name": "On hold players",
       "weight": 1.0
     },
     {
@@ -1748,7 +2110,19 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Dictation equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electric typewriters",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Filing Cabinets",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Handheld calculators",
       "weight": 0.1111111111111111
     },
     {
@@ -1761,6 +2135,14 @@
     },
     {
       "name": "Photocopying equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Postage machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Public address PA systems",
       "weight": 0.1111111111111111
     },
     {

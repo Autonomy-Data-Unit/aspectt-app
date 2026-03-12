@@ -1544,74 +1544,166 @@
   ],
   "tasks": [
     {
-      "task": "Collect money for drinks served and accept payment from customers, making change as necessary.",
-      "task_type": "Core"
+      "task": "Ask customers who become loud and obnoxious to leave, or physically remove them.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.83
     },
     {
-      "task": "Ask disruptive customers to leave or remove them from the premises.",
-      "task_type": "Core"
+      "task": "Check identification of customers to verify age requirements for purchase of alcohol.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.74
     },
     {
-      "task": "Check identification of customers to verify age requirements for the purchase of alcohol.",
-      "task_type": "Core"
+      "task": "Create drink recipes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.42
     },
     {
-      "task": "Stock bar with supplies such as beer, wine, liquor, ice, glassware, and napkins.",
-      "task_type": "Core"
+      "task": "Arrange bottles and glasses to make attractive displays.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.81
     },
     {
-      "task": "Create drink recipes and prepare or serve specialty beverages, including cocktails, coffee, and teas.",
-      "task_type": "Core"
+      "task": "Serve wine, and bottled or draft beer.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.54
     },
     {
-      "task": "Take beverage orders from patrons or serving staff and communicate any special requests to the kitchen.",
-      "task_type": "Core"
+      "task": "Prepare daily food items, and cook simple foods and beverages, such as sandwiches, salads, soups, pizza, or coffee, using proper safety precautions and sanitary measures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.06
     },
     {
-      "task": "Balance cash receipts, prepare bills, and run cash registers.",
-      "task_type": "Core"
+      "task": "Serve food, beverages, or desserts to customers in such settings as take-out counters of restaurants or lunchrooms, business or industrial establishments, hotel rooms, and cars.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.18
     },
     {
-      "task": "Clean glasses, utensils, and bar equipment to maintain sanitary conditions and organize work areas.",
-      "task_type": "Core"
+      "task": "Request and record customer orders, and compute bills, using cash registers, multi-counting machines, or pencil and paper.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.37
     },
     {
-      "task": "Slice and pit fruit for garnishing drinks and prepare food items for service, such as sandwiches and appetizers.",
-      "task_type": "Core"
+      "task": "Balance receipts and payments in cash registers.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.33
     },
     {
-      "task": "Serve food and beverages to customers, including snacks, desserts, and drinks, in various settings.",
-      "task_type": "Core"
+      "task": "Perform cleaning duties, such as sweeping, mopping, and washing dishes, to keep equipment and facilities sanitary.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.15
     },
     {
-      "task": "Clean and organize eating, service, and kitchen areas to ensure a tidy environment for customers.",
-      "task_type": "Core"
+      "task": "Accept payment from customers, and make change as necessary.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.41
     },
     {
-      "task": "Monitor inventory and restock supplies or food items as needed.",
-      "task_type": "Core"
+      "task": "Communicate with customers regarding orders, comments, and complaints.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.31
     },
     {
-      "task": "Set up dining areas by arranging tables and stocking them with necessary items.",
-      "task_type": "Core"
+      "task": "Slice fruits, vegetables, desserts, or meats for use in food service.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
     },
     {
-      "task": "Deliver orders to the kitchen and serve food when it is ready.",
-      "task_type": "Core"
+      "task": "Demonstrate the use of retail equipment, such as espresso machines.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.66
     },
     {
-      "task": "Provide customers with product details and suggest menu items.",
-      "task_type": "Core"
+      "task": "Monitor and order supplies or food items, and restock as necessary to maintain inventory.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
     },
     {
-      "task": "Greet and seat customers, assisting them with orders as needed.",
-      "task_type": "Core"
+      "task": "Set up dining areas for meals, and clear them following meals.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.89
+    },
+    {
+      "task": "Wrap, label, or date food items for sale.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.01
+    },
+    {
+      "task": "Create signs to advertise store products or events.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.14
+    },
+    {
+      "task": "Check temperatures of freezers, refrigerators, or heating equipment to ensure proper functioning.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.77
+    },
+    {
+      "task": "Describe menu items to customers, or suggest products that might appeal to them.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.36
+    },
+    {
+      "task": "Prepare or serve hot or cold beverages, such as coffee, espresso drinks, blended coffees, or teas.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.6
+    },
+    {
+      "task": "Perform serving, cleaning, or stocking duties in establishments, such as cafeterias or dining rooms, to facilitate customer service.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.27
+    },
+    {
+      "task": "Locate items requested by customers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Greet and seat customers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
     }
   ],
   "technology_skills": [
     {
       "name": "Point of sale POS software",
       "weight": 0.5333333333333333
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.5095238095238095
+    },
+    {
+      "name": "Microsoft Excel",
+      "weight": 0.47619047619047616
+    },
+    {
+      "name": "Compris software",
+      "weight": 0.3666666666666667
     },
     {
       "name": "Intuit QuickBooks Point of Sale",
@@ -1630,6 +1722,18 @@
       "weight": 0.3666666666666667
     },
     {
+      "name": "The General Store",
+      "weight": 0.3666666666666667
+    },
+    {
+      "name": "Microsoft Office software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 0.30952380952380953
+    },
+    {
       "name": "Plexis Software Plexis POS",
       "weight": 0.30952380952380953
     },
@@ -1638,16 +1742,12 @@
       "weight": 0.30952380952380953
     },
     {
-      "name": "Focus point of sale POS software",
+      "name": "AZZ CardFile",
       "weight": 0.2
     },
     {
-      "name": "Aldelo Systems Aldelo for Restaurants Pro",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Microsoft Excel",
-      "weight": 0.47619047619047616
+      "name": "Focus point of sale POS software",
+      "weight": 0.2
     },
     {
       "name": "Microsoft Outlook",
@@ -1658,8 +1758,32 @@
       "weight": 0.2
     },
     {
+      "name": "Accounting software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Aldelo Systems Aldelo for Restaurants Pro",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Foodman Home-Delivery",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Menu and nutrition database software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Microsoft Word",
       "weight": 0.16666666666666666
+    },
+    {
+      "name": "Quizlet",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cafe Cartel Systems",
+      "weight": 0.14285714285714285
     }
   ],
   "tools_used": [
@@ -1697,6 +1821,10 @@
     },
     {
       "name": "Linear imaging scanners",
+      "weight": 0.3666666666666667
+    },
+    {
+      "name": "Long range charged coupled device CCD barcode scanners",
       "weight": 0.3666666666666667
     },
     {
@@ -1760,7 +1888,35 @@
       "weight": 0.30952380952380953
     },
     {
+      "name": "2-prong strainers",
+      "weight": 0.2
+    },
+    {
+      "name": "3-piece cocktail shakers",
+      "weight": 0.2
+    },
+    {
+      "name": "4-piece cocktail shakers",
+      "weight": 0.2
+    },
+    {
+      "name": "4-prong strainers",
+      "weight": 0.2
+    },
+    {
+      "name": "Bar spoons",
+      "weight": 0.2
+    },
+    {
       "name": "Beverage machines",
+      "weight": 0.2
+    },
+    {
+      "name": "Cocktail shakers",
+      "weight": 0.2
+    },
+    {
+      "name": "Cocktail strainers",
       "weight": 0.2
     },
     {
@@ -1772,7 +1928,59 @@
       "weight": 0.2
     },
     {
+      "name": "Fruit knives",
+      "weight": 0.2
+    },
+    {
+      "name": "Glass rimmers",
+      "weight": 0.2
+    },
+    {
       "name": "Glass washers",
+      "weight": 0.2
+    },
+    {
+      "name": "Hawthorn strainers",
+      "weight": 0.2
+    },
+    {
+      "name": "Ice chippers",
+      "weight": 0.2
+    },
+    {
+      "name": "Ice crushers",
+      "weight": 0.2
+    },
+    {
+      "name": "Ice flakers",
+      "weight": 0.2
+    },
+    {
+      "name": "Jiggers",
+      "weight": 0.2
+    },
+    {
+      "name": "Julep strainers",
+      "weight": 0.2
+    },
+    {
+      "name": "Lime slicers",
+      "weight": 0.2
+    },
+    {
+      "name": "Lime squeezers",
+      "weight": 0.2
+    },
+    {
+      "name": "Mixing glasses",
+      "weight": 0.2
+    },
+    {
+      "name": "Mojito machines",
+      "weight": 0.2
+    },
+    {
+      "name": "Muddlers/mixing sticks",
       "weight": 0.2
     },
     {
@@ -1780,8 +1988,60 @@
       "weight": 0.2
     },
     {
+      "name": "Pour spouts",
+      "weight": 0.2
+    },
+    {
       "name": "Professional juicers",
       "weight": 0.2
+    },
+    {
+      "name": "Refrigerated liquid recirculation systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Soda dispensers",
+      "weight": 0.2
+    },
+    {
+      "name": "Spirit measures",
+      "weight": 0.2
+    },
+    {
+      "name": "Upright glass washers",
+      "weight": 0.2
+    },
+    {
+      "name": "Zesters",
+      "weight": 0.2
+    },
+    {
+      "name": "Automatic dicers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Automatic peelers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Automatic slicers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bagel cutters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Box cutters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Broilers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Can openers",
+      "weight": 0.16666666666666666
     },
     {
       "name": "Cappuccino makers",
@@ -1804,6 +2064,38 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Commercial cooking ovens",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Commercial food slicers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Commercial glasswashers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Commercial kitchen grills",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Commercial kitchen microwave ovens",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Commercial kitchen toasters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Convection ovens",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Credit card machines",
       "weight": 0.16666666666666666
     },
@@ -1812,7 +2104,31 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Deep fat fryers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Deep wells",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Drink blenders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electric ovens",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electric stoves",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electric warming tables",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electronic food scales",
       "weight": 0.16666666666666666
     },
     {
@@ -1824,11 +2140,59 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Food choppers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Food conveyor belts",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Food thermometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Fryers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Gas ovens",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Gas stoves",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Grating equipment",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Grills",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Handheld calculators",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Ice cream/yogurt machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Infrared heat lamps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Intercom systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Meat grinders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Metal ice cream scoops",
       "weight": 0.16666666666666666
     },
     {
@@ -1848,6 +2212,14 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Motorized food transportation carts",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Non-carbonated beverage dispensers",
       "weight": 0.16666666666666666
     },
@@ -1856,7 +2228,35 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Pastry makers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Patty making machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Portion scales",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Restaurant dishwashers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Restaurant ovens",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sanitizing units",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Scales",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Slicing machines",
       "weight": 0.16666666666666666
     },
     {
@@ -1868,6 +2268,18 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Steam cookers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Steam counters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Stoves",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Tea brewers",
       "weight": 0.16666666666666666
     },
@@ -1876,8 +2288,36 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Toasters",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Touch screen registers",
       "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vertical cutters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wireless telephone headsets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Fruit pitters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fruit zesters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Garbage disposals",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Glass washing machines",
+      "weight": 0.14285714285714285
     }
   ],
   "detailed_work_activities": [

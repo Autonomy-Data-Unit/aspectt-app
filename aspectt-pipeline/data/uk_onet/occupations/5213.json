@@ -1545,99 +1545,501 @@
   "tasks": [
     {
       "task": "Monitor the fitting, burning, and welding processes to avoid overheating of parts or warping, shrinking, distortion, or expansion of material.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Set dials and timing controls to regulate electrical current, gas flow pressure, heating or cooling cycles, or shut-off.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.94
     },
     {
       "task": "Devise or build fixtures or jigs used to hold parts in place during welding, brazing, or soldering.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Fill hoppers and position spouts to direct flow of flux or manually brush flux onto seams of workpieces.",
-      "task_type": "Supplemental"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.48
     },
     {
       "task": "Transfer components, metal products, or assemblies, using moving equipment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.6
     },
     {
-      "task": "Mark weld points and positions of components on workpieces using rules, squares, templates, or scribes.",
-      "task_type": "Core"
+      "task": "Anneal finished workpieces to relieve internal stress.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.74
     },
     {
-      "task": "Prepare all material surfaces to be welded, ensuring no loose or thick scale, slag, rust, moisture, grease, or foreign matter.",
-      "task_type": "Core"
+      "task": "Weld components in flat, vertical, or overhead positions.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.15
     },
     {
-      "task": "Weld components in flat, vertical, or overhead positions; chip or grind off excess weld, slag, or spatter using hand and power tools.",
-      "task_type": "Core"
+      "task": "Prepare all material surfaces to be welded, ensuring that there is no loose or thick scale, slag, rust, moisture, grease, or other foreign matter.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.06
     },
     {
-      "task": "Align and clamp workpieces together using rules, squares, or hand tools, and position items in fixtures, jigs, or vises.",
-      "task_type": "Core"
+      "task": "Preheat workpieces prior to welding or bending, using torches or heating furnaces.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.54
     },
     {
-      "task": "Inspect and repair boiler fittings, such as safety valves, regulators, or automatic-control mechanisms.",
-      "task_type": "Core"
+      "task": "Align and clamp workpieces together, using rules, squares, or hand tools, or position items in fixtures, jigs, or vises.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
     },
     {
-      "task": "Fabricate ducts for efficient heating, ventilating, and air conditioning (HVAC) systems.",
-      "task_type": "Core"
+      "task": "Develop templates and models for welding projects, using mathematical calculations based on blueprint information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.69
     },
     {
-      "task": "Shape metal materials over anvils, blocks, or other forms using hand tools, and clean pressure vessel equipment using scrapers.",
-      "task_type": "Core"
+      "task": "Guide and direct flames or electrodes on or across workpieces to straighten, bend, melt, or build up metal.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.72
+    },
+    {
+      "task": "Position and secure workpieces, using hoists, cranes, wire, and banding machines or hand tools.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.97
+    },
+    {
+      "task": "Detect faulty operation of equipment or defective materials and notify supervisors.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.11
+    },
+    {
+      "task": "Mark or tag material with proper job number, piece marks, and other identifying marks as required.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.08
+    },
+    {
+      "task": "Melt and apply solder along adjoining edges of workpieces to solder joints, using soldering irons, gas torches, or electric-ultrasonic equipment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.96
+    },
+    {
+      "task": "Analyze engineering drawings, blueprints, specifications, sketches, work orders, and material safety data sheets to plan layout, assembly, and operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.25,
+      "importance": 0.0
+    },
+    {
+      "task": "Hammer out bulges or bends in metal workpieces.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.39
+    },
+    {
+      "task": "Set up and use ladders and scaffolding as necessary to complete work.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.47
+    },
+    {
+      "task": "Operate metal shaping, straightening, and bending machines, such as brakes and shears.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.25
+    },
+    {
+      "task": "Repair products by dismantling, straightening, reshaping, and reassembling parts, using cutting torches, straightening presses, and hand tools.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.57
+    },
+    {
+      "task": "Add chemicals or materials to workpieces or machines to facilitate bonding or to cool workpieces.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.05
+    },
+    {
+      "task": "Clean, lubricate, maintain, and adjust equipment to maintain efficient operation, using air hoses, cleaning fluids, and hand tools.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.83
+    },
+    {
+      "task": "Inspect, measure, or test completed metal workpieces to ensure conformance to specifications, using measuring and testing devices.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.15
+    },
+    {
+      "task": "Determine required equipment and welding methods, applying knowledge of metallurgy, geometry, and welding techniques.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.07
     },
     {
       "task": "Connect and turn regulator valves to activate and adjust gas flow and pressure so that desired flames are obtained.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.0
     },
     {
-      "task": "Select, position, align, and bolt jigs, holding fixtures, guides, or stops onto machines.",
-      "task_type": "Core"
+      "task": "Ignite torches or start power supplies and strike arcs by touching electrodes to metals being welded, completing electrical circuits.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.89
     },
     {
-      "task": "Examine workpieces for defects and measure with straightedges or templates to ensure conformance with specifications.",
-      "task_type": "Core"
+      "task": "Select and install torches, torch tips, filler rods, and flux, according to welding chart specifications or types and thicknesses of metals.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.09
     },
     {
-      "task": "Conduct pressure tests on vessels and inspect assembled vessels or individual components to locate any defects.",
-      "task_type": "Core"
+      "task": "Weld separately or in combination, using aluminum, stainless steel, cast iron, and other alloys.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.76
     },
     {
-      "task": "Compute layout dimensions and determine and mark reference points on metal stock or workpieces for further processing.",
-      "task_type": "Core"
+      "task": "Operate safety equipment and use safe work habits.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.61
     },
     {
-      "task": "Shape seams, joints, or irregular edges of pressure vessel sections or structural parts to attain specified fit.",
-      "task_type": "Core"
+      "task": "Turn and press knobs and buttons or enter operating instructions into computers to adjust and start welding machines.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.91
     },
     {
-      "task": "Bolts or arc weld pressure vessel structures and parts together using wrenches or welding equipment.",
-      "task_type": "Core"
+      "task": "Set up, operate, or tend welding machines that join or bond components to fabricate metal products or assemblies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.02
     },
     {
-      "task": "Transport prefabricated parts to construction sites for assembly and installation, ensuring proper fit of parts.",
-      "task_type": "Core"
+      "task": "Give directions to other workers regarding machine set-up and use.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.86
+    },
+    {
+      "task": "Correct problems by adjusting controls or by stopping machines and opening holding devices.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.02
+    },
+    {
+      "task": "Record operational information on specified production reports.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.03
+    },
+    {
+      "task": "Compute and record settings for new work, applying knowledge of metal properties, principles of welding, and shop mathematics.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.8
+    },
+    {
+      "task": "Select, position, align, and bolt jigs, holding fixtures, guides, or stops onto machines, using measuring instruments and hand tools.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.83
+    },
+    {
+      "task": "Observe meters, gauges, or machine operations to ensure that soldering or brazing processes meet specifications.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.74
+    },
+    {
+      "task": "Remove completed workpieces or parts from machinery, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.81
+    },
+    {
+      "task": "Dress electrodes, using tip dressers, files, emery cloths, or dressing wheels.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.21
+    },
+    {
+      "task": "Conduct trial runs before welding, soldering, or brazing, and make necessary adjustments to equipment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.9
+    },
+    {
+      "task": "Research and analyze reference materials, and consult with interested parties to develop new products or modify existing designs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.54
+    },
+    {
+      "task": "Mark, engrave, or emboss designs on metal pieces such as castings, wire, or jewelry, following specifications.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.51
+    },
+    {
+      "task": "Lay out designs on metal stock, and cut along markings to fabricate pieces used to cast metal molds.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.46
+    },
+    {
+      "task": "Record the weights and processing times of finished pieces.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.84
+    },
+    {
+      "task": "Write or modify design specifications such as the metal contents and weights of items.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.73
+    },
+    {
+      "task": "Soften metal to be used in designs by heating it with a gas torch and shape it, using hammers and dies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.73
+    },
+    {
+      "task": "Pour molten metal alloys or other materials into molds to cast models of jewelry.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.26
+    },
+    {
+      "task": "Construct preliminary models of wax, metal, clay, or plaster, and form sample castings in molds.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.78
+    },
+    {
+      "task": "Examine assembled or finished products to ensure conformance to specifications, using magnifying glasses or precision measuring instruments.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.37
+    },
+    {
+      "task": "Compute costs of labor and materials to determine production costs of products and articles.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.32
+    },
+    {
+      "task": "Select and acquire metals and gems for designs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.24
+    },
+    {
+      "task": "Clean and polish metal items and jewelry pieces, using jewelers' tools, polishing wheels, and chemical baths.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.5
+    },
+    {
+      "task": "Smooth soldered joints and rough spots, using hand files and emery paper, and polish smoothed areas with polishing wheels or buffing wire.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.47
+    },
+    {
+      "task": "Convert blueprints into shop drawings to be followed in the construction or assembly of sheet metal products.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.74
+    },
+    {
+      "task": "Fasten roof panel edges or machine-made moldings to structures by nailing or welding.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.01
+    },
+    {
+      "task": "Bell, bead with power hammers, or weld pressure vessel tube ends to ensure leakproof joints.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.73
+    },
+    {
+      "task": "Attach rigging and signal crane or hoist operators to lift heavy frame and plate sections or other parts into place.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.48
+    },
+    {
+      "task": "Repair or replace defective pressure vessel parts, such as safety valves or regulators, using torches, jacks, caulking hammers, power saws, threading dies, welding equipment, or metalworking machinery.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.48
+    },
+    {
+      "task": "Transport prefabricated parts to construction sites for assembly and installation.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.17
+    },
+    {
+      "task": "Trim, file, grind, deburr, buff, or smooth surfaces, seams, or joints of assembled parts, using hand tools or portable power tools.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.57
+    },
+    {
+      "task": "Fabricate or alter parts at construction sites, using shears, hammers, punches, or drills.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.87
+    },
+    {
+      "task": "Fasten seams or joints together with welds, bolts, cement, rivets, solder, caulks, metal drive clips, or bonds to assemble components into products or to repair sheet metal items.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.17
+    },
+    {
+      "task": "Select gauges or types of sheet metal or nonmetallic material, according to product specifications.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.7
+    },
+    {
+      "task": "Install manholes, handholes, taps, tubes, valves, gauges, or feedwater connections in drums of water tube boilers, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.29
+    },
+    {
+      "task": "Bolt or arc weld pressure vessel structures and parts together, using wrenches or welding equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.36
+    },
+    {
+      "task": "Shape seams, joints, or irregular edges of pressure vessel sections or structural parts to attain specified fit of parts, using cutting torches, hammers, files, or metalworking machines.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.42
+    },
+    {
+      "task": "Maneuver completed roofing units into position for installation.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.87
+    },
+    {
+      "task": "Verify that heating, ventilating, and air conditioning (HVAC) systems are designed, installed, and calibrated in accordance with green certification standards, such as those of Leadership in Energy and Environmental Design (LEED).",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.6
+    },
+    {
+      "task": "Perform building commissioning activities by completing mechanical inspections of a building's water, lighting, or heating, ventilating, and air conditioning (HVAC) systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.39
+    },
+    {
+      "task": "Fabricate ducts for high efficiency heating, ventilating, and air conditioning (HVAC) systems to maximize efficiency of systems.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.21
+    },
+    {
+      "task": "Hire, train, or supervise new employees or apprentices.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.04
+    },
+    {
+      "task": "Install assemblies, such as flashing, pipes, tubes, heating and air conditioning ducts, furnace casings, rain gutters, or downspouts in supportive frameworks.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.15
+    },
+    {
+      "task": "Position, align, and secure structural parts or related assemblies to boiler frames, tanks, or vats of pressure vessels, following blueprints.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.52
+    },
+    {
+      "task": "Install refractory bricks or other heat-resistant materials in fireboxes of pressure vessels.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.06
+    },
+    {
+      "task": "Assemble large vessels in an on-site fabrication shop prior to installation to ensure proper fit.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.94
+    },
+    {
+      "task": "Brace parts in position within hulls or ships for riveting or welding.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 4.09
+    },
+    {
+      "task": "Apply pigment to layout surfaces, using paint brushes.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 2.87
+    },
+    {
+      "task": "Install doors, hatches, brackets, and clips.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 4.19
+    },
+    {
+      "task": "Lay out and fabricate metal structural parts such as plates, bulkheads, and frames.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.23
+    },
+    {
+      "task": "Mark curves, lines, holes, dimensions, and welding symbols onto workpieces, using scribes, soapstones, punches, and hand drills.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.44
     },
     {
       "task": "Add dimensional details to blueprints or drawings made by other workers.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 4.01
     },
     {
       "task": "Plan locations and sequences of cutting, drilling, bending, rolling, punching, and welding operations, using compasses, protractors, dividers, and rules.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.4
     },
     {
       "task": "Inspect machined parts to verify conformance to specifications.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 4.05
     },
     {
       "task": "Lift and position workpieces in relation to surface plates, manually or with hoists, and using parallel blocks and angle plates.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.06
     }
   ],
   "technology_skills": [
@@ -1662,8 +2064,24 @@
       "weight": 0.6817460317460318
     },
     {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.5
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.3611111111111111
+    },
+    {
       "name": "Spreadsheet software",
       "weight": 0.3611111111111111
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.35238095238095235
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.31666666666666665
     },
     {
       "name": "Autodesk AutoCAD",
@@ -1678,7 +2096,39 @@
       "weight": 0.2857142857142857
     },
     {
+      "name": "EZ Pipe",
+      "weight": 0.25
+    },
+    {
       "name": "Email software",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.25
+    },
+    {
+      "name": "Linux",
+      "weight": 0.25
+    },
+    {
+      "name": "OmniFleet Equipment Maintenance Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.25
+    },
+    {
+      "name": "Recordkeeping software",
+      "weight": 0.25
+    },
+    {
+      "name": "Tool center point TCP setting software",
+      "weight": 0.25
+    },
+    {
+      "name": "Value Analysis",
       "weight": 0.25
     },
     {
@@ -1686,11 +2136,63 @@
       "weight": 0.25
     },
     {
+      "name": "Adobe Illustrator",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Business accounting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Customer information databases",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Metal designing software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Retail management software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Applied Production ProFab",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Applied Production ProFold",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Computer aided manufacturing CAM software",
       "weight": 0.1111111111111111
     },
     {
+      "name": "Corte Certo",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "FCC Software AutoPOL Series",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Health and safety training software",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "JETCAM Expert",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Merry Mechanization SMP/IS",
       "weight": 0.1111111111111111
     },
     {
@@ -1702,12 +2204,32 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Revcad Software Sheet Lightning",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Siemens NX",
       "weight": 0.1111111111111111
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.31666666666666665
+      "name": "Striker Systems SS-Profile",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "WiCAM PN4000",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "XY Soft Sheet Cutting Suite",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hexagon Metrology PC-DMIS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Optical Gaging Products Measure-X",
+      "weight": 0.06666666666666667
     }
   ],
   "tools_used": [
@@ -1718,6 +2240,10 @@
     {
       "name": "Wire brushes",
       "weight": 0.753968253968254
+    },
+    {
+      "name": "Desktop computers",
+      "weight": 0.7222222222222222
     },
     {
       "name": "Micrometers",
@@ -1813,6 +2339,10 @@
     },
     {
       "name": "Nibblers",
+      "weight": 0.4722222222222222
+    },
+    {
+      "name": "Personal computers",
       "weight": 0.4722222222222222
     },
     {
@@ -1912,6 +2442,10 @@
       "weight": 0.3611111111111111
     },
     {
+      "name": "Laser printers",
+      "weight": 0.3611111111111111
+    },
+    {
       "name": "Measuring tapes",
       "weight": 0.3611111111111111
     },
@@ -1980,6 +2514,10 @@
       "weight": 0.3611111111111111
     },
     {
+      "name": "Two way radios",
+      "weight": 0.3611111111111111
+    },
+    {
       "name": "Unishears",
       "weight": 0.3611111111111111
     },
@@ -2020,6 +2558,10 @@
       "weight": 0.2857142857142857
     },
     {
+      "name": "Jewelers' loupes",
+      "weight": 0.2857142857142857
+    },
+    {
       "name": "Mini bench vises",
       "weight": 0.2857142857142857
     },
@@ -2037,6 +2579,10 @@
     },
     {
       "name": "Ultrasonic cleaners",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Vibratory tumblers",
       "weight": 0.2857142857142857
     },
     {
@@ -2125,6 +2671,10 @@
     },
     {
       "name": "Direct current DC sources",
+      "weight": 0.25
+    },
+    {
+      "name": "Dive suits",
       "weight": 0.25
     },
     {
@@ -2224,6 +2774,10 @@
       "weight": 0.25
     },
     {
+      "name": "Light trucks",
+      "weight": 0.25
+    },
+    {
       "name": "Magnifiers",
       "weight": 0.25
     },
@@ -2249,6 +2803,10 @@
     },
     {
       "name": "Motorized cutting torches",
+      "weight": 0.25
+    },
+    {
+      "name": "Notebook computers",
       "weight": 0.25
     },
     {
@@ -2576,35 +3134,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Bail pliers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Banding pliers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Battery testers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Bead drilling vises",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Bead reamers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Beading pliers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Beading tools",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Beading tweezers",
       "weight": 0.14285714285714285
     },
     {
@@ -2624,27 +3154,11 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Binocular magnifiers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Blow torches",
       "weight": 0.14285714285714285
     },
     {
-      "name": "Bow closing pliers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Bow opening pliers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Bristle brushes",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Bur gauges",
       "weight": 0.14285714285714285
     },
     {
@@ -2656,31 +3170,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Case presses",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Casting torches",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Chasing hammers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Chasing tools",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Cordless power drills",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Crack hammers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Cross locking tweezers",
       "weight": 0.14285714285714285
     },
     {
@@ -2696,22 +3186,6 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Cutting laps",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Dapping cutters",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Dapping punches",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Dapping tools",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Dead-blow hammers",
       "weight": 0.14285714285714285
     },
@@ -2724,39 +3198,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Diamond girding lathes",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Diamond grinders",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Diamond saws",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Diamond testers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Diamond tweezers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Digital balances",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Digital gauges",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Digital polariscopes",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Digital scales",
       "weight": 0.14285714285714285
     },
     {
@@ -2772,19 +3214,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Draw tongs",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Electric hot plates",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Embossing hammers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Engraving blocks",
       "weight": 0.14285714285714285
     },
     {
@@ -2793,14 +3223,6 @@
     },
     {
       "name": "Eye protection",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Faceting machines",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Flask tongs",
       "weight": 0.14285714285714285
     },
     {
@@ -2828,51 +3250,11 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Fretz hammers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Fume hoods",
       "weight": 0.14285714285714285
     },
     {
       "name": "Gas torches",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Gem drills",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Gem gauges",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Gem holders",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Gem tweezers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Gemological microscopes",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Glass bevelers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Glass cutting saws",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Glass polishers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Gold testers",
       "weight": 0.14285714285714285
     },
     {
@@ -2888,14 +3270,6 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Head and shank tweezers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Hex anvils",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Hole punch pliers",
       "weight": 0.14285714285714285
     },
@@ -2904,79 +3278,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Inspection microscopes",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jeweler's loupes",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jeweler's saws",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jewelers kits",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jewelers screwdrivers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jewelers shears",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jewelers' chain-nose pliers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jewelers' hammers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jewelers' mandrels",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jewelry mandrels",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jewelry scissors",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Jump ring makers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Lapidary slitters",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Lapidary units",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Laser engraving tools",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Light boxes",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Locking tweezers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Loop closing pliers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Looping pliers",
       "weight": 0.14285714285714285
     },
     {
@@ -2989,22 +3291,6 @@
     },
     {
       "name": "Metal stamping dies",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Micro bevel cutters",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Micro pliers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Milgrain machines",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Milgrain tools",
       "weight": 0.14285714285714285
     },
     {
@@ -3024,19 +3310,11 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Mini tweezers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Nylon pliers",
       "weight": 0.14285714285714285
     },
     {
       "name": "Oblique end cutters",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Optically magnified facet machines",
       "weight": 0.14285714285714285
     },
     {
@@ -3048,19 +3326,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Pattern tweezers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Peening hammers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Pen platers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Piezo microtorches",
       "weight": 0.14285714285714285
     },
     {
@@ -3068,23 +3334,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Plastic coated tweezers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Plastic mallets",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Pneumatic gravers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Pocket crimpers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Polariscopes",
       "weight": 0.14285714285714285
     },
     {
@@ -3120,55 +3370,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Ring bending pliers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Ring clamps",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Ring cutters",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Ring holding pliers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Ring looping pliers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Ring rollers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Ring saws",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Ring shank pliers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Ring sizing sets",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Ring stretcher/reducers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Rock picks",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Rolling mills",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Rosary pliers",
       "weight": 0.14285714285714285
     },
     {
@@ -3184,10 +3386,6 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Sable brushes",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Scratch brushes",
       "weight": 0.14285714285714285
     },
@@ -3200,19 +3398,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Silversmiths' hammers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Solder cutting pliers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Soldering guns",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Soldering tweezers",
       "weight": 0.14285714285714285
     },
     {
@@ -3220,35 +3406,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Specific gravity liquid sets",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Spectrophotometers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Sphere machines",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Split ring pliers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Stamping dies",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Stone gauges",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Stone polishers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Stone setting pliers",
       "weight": 0.14285714285714285
     },
     {
@@ -3256,19 +3414,23 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Thermal conductivity testers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Tracing punches",
       "weight": 0.14285714285714285
     },
     {
-      "name": "Trim saws",
+      "name": "Tweezer nose pliers",
       "weight": 0.14285714285714285
     },
     {
-      "name": "Tweezer nose pliers",
+      "name": "Ultraviolet UV lights",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Utility tweezers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Vacuum pumps",
       "weight": 0.14285714285714285
     },
     {
@@ -3324,6 +3486,22 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Air manifolds",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ammeters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Atmospheric monitoring devices",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Atmospheric testing equipment",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Aviation snips",
       "weight": 0.1111111111111111
     },
@@ -3344,11 +3522,27 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Beam compasses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Beam trolleys",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Bench lathes",
       "weight": 0.1111111111111111
     },
     {
       "name": "Beveling machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Blacksmiths' punches",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Block and tackle equipment",
       "weight": 0.1111111111111111
     },
     {
@@ -3372,7 +3566,51 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Burring machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Calibrated flow hoods",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Carbon dioxide CO2 meters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Carbon dioxide CO2 monitors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Chain falls",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Chain pulleys",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Chain wrenches",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Channel lock pliers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Clamp-on ammeters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Clear lenses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Cleat folders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Cleat formers",
       "weight": 0.1111111111111111
     },
     {
@@ -3396,7 +3634,27 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Combustion analyzers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Compasses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Computer controlled presses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Computer controlled saws",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Computer-controlled welding equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Contour markers",
       "weight": 0.1111111111111111
     },
     {
@@ -3408,11 +3666,51 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Digital lasers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital levels",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital multimeters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Dimplers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Double seaming equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Draft gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Drift pins",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Drifts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Drill point gauges",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Dust masks",
       "weight": 0.1111111111111111
     },
     {
       "name": "Ear plugs",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Easy edgers",
       "weight": 0.1111111111111111
     },
     {
@@ -3440,11 +3738,19 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Filtered lenses",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Fire extinguishers",
       "weight": 0.1111111111111111
     },
     {
       "name": "Fire retardant coveralls",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Flaring tools",
       "weight": 0.1111111111111111
     },
     {
@@ -3456,6 +3762,10 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Friction lighters",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Full body harnesses",
       "weight": 0.1111111111111111
     },
@@ -3464,7 +3774,31 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Groovers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ground clamps",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Half-face respirators",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Hammer drills",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hammer wrenches",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hand brakes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hand crimpers",
       "weight": 0.1111111111111111
     },
     {
@@ -3472,7 +3806,19 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Hand notchers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Hand saws",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Heat lamps",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hoists",
       "weight": 0.1111111111111111
     },
     {
@@ -3480,7 +3826,43 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Humidity sensors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hydraulic boom trucks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hydraulic cranes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hydraulic hoists",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hydraulic stub pullers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hydrostatic testers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Inclined manometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Inspection mirrors",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Jig saws",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Lead hammers",
       "weight": 0.1111111111111111
     },
     {
@@ -3492,6 +3874,14 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Magnehelic pressure gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Mechanical tachometers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Metal-cutting chisels",
       "weight": 0.1111111111111111
     },
@@ -3500,7 +3890,75 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Microamp meters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Millivolt meters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Multimeters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Needle pressure gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Non-sparking hammers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Nut drivers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ohmmeters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Open end wrenches",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Overhead hoists",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oxygen concentration meters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oxygen lances",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oxygen testers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pin punches",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Pipe and tubing cutters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pipe reamers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pipe threaders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pipe vises",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pitot tubes",
       "weight": 0.1111111111111111
     },
     {
@@ -3524,6 +3982,14 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Pneumatic hoists",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pneumatic riveters",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Polishers",
       "weight": 0.1111111111111111
     },
@@ -3532,11 +3998,23 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Portable plasma cutters",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Portable spot welders",
       "weight": 0.1111111111111111
     },
     {
+      "name": "Power brakes",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Power buffers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Power notchers",
       "weight": 0.1111111111111111
     },
     {
@@ -3580,7 +4058,23 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Psychrometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Putty knives",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Resin spray guns",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Respiratory protection equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ring and circular shears",
       "weight": 0.1111111111111111
     },
     {
@@ -3592,7 +4086,27 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Rotary punches",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Sandblasters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scale rulers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scale rules",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scissor lifts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scratch awls",
       "weight": 0.1111111111111111
     },
     {
@@ -3600,11 +4114,43 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Seamers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Serrating tools",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Set squares",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Setting hammers",
       "weight": 0.1111111111111111
     },
     {
+      "name": "Shackles",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Sledgehammers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sliding t-bevels",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Slip roll formers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Smoke testers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Soft face hammers",
       "weight": 0.1111111111111111
     },
     {
@@ -3617,6 +4163,46 @@
     },
     {
       "name": "Spot welders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Spreader beams",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Spud wrenches",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Squaring shears",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Stack thermometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Staging equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Steamboat ratchet jacks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Stencils",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Stick electrodes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Strap wrenches",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Strobe tachometers",
       "weight": 0.1111111111111111
     },
     {
@@ -3717,10 +4303,6 @@
     },
     {
       "name": "Wire rope pullers",
-      "weight": 0.1111111111111111
-    },
-    {
-      "name": "Wiring machines",
       "weight": 0.1111111111111111
     },
     {

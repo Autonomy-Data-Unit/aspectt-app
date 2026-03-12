@@ -1544,140 +1544,1120 @@
   ],
   "tasks": [
     {
-      "task": "Implement financial planning recommendations or refer clients to someone who can assist with plan implementation.",
-      "task_type": "Core"
+      "task": "Implement financial planning recommendations, or refer clients to someone who can assist them with plan implementation.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.19
+    },
+    {
+      "task": "Analyze financial information obtained from clients to determine strategies for meeting clients' financial objectives.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.62
+    },
+    {
+      "task": "Explain to clients the personal financial advisor's responsibilities and the types of services to be provided.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.0
+    },
+    {
+      "task": "Recruit and maintain client bases.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.5
+    },
+    {
+      "task": "Manage client portfolios, keeping client plans up-to-date.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.44
+    },
+    {
+      "task": "Review clients' accounts and plans regularly to determine whether life changes, economic changes, environmental concerns, or financial performance indicate a need for plan reassessment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.46
+    },
+    {
+      "task": "Recommend to clients strategies in cash management, insurance coverage, investment planning, or other areas to help them achieve their financial goals.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.42
+    },
+    {
+      "task": "Recommend environmentally responsible investments, such as cleantech, alternative energy, or conservation technologies, companies, or funds.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 2.56
+    },
+    {
+      "task": "Inform clients about tax benefits, government rebates, or other financial benefits of alternative-fuel vehicle purchases or energy-efficient home construction, improvements, or remodeling.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 2.75
+    },
+    {
+      "task": "Answer clients' questions about the purposes and details of financial plans and strategies.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.54
+    },
+    {
+      "task": "Monitor financial market trends to ensure that client plans are responsive.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.58
+    },
+    {
+      "task": "Interview clients to determine their current income, expenses, insurance coverage, tax status, financial objectives, risk tolerance, or other information needed to develop a financial plan.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.65
+    },
+    {
+      "task": "Conduct seminars or workshops on financial planning topics, such as retirement planning, estate planning, or the evaluation of severance packages.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 2.07
+    },
+    {
+      "task": "Prepare or interpret for clients information, such as investment performance reports, financial document summaries, or income projections.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.04
+    },
+    {
+      "task": "Guide clients in the gathering of information, such as bank account records, income tax returns, life and disability insurance records, pension plans, or wills.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.83
+    },
+    {
+      "task": "Meet with clients' other advisors, such as attorneys, accountants, trust officers, or investment bankers, to fully understand clients' financial goals and circumstances.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.4
+    },
+    {
+      "task": "Investigate available investment opportunities to determine compatibility with client financial plans.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.96
+    },
+    {
+      "task": "Open accounts for clients, and disburse funds from accounts to creditors as agent for clients.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.85
+    },
+    {
+      "task": "Recommend financial products, such as stocks, bonds, mutual funds, or insurance.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.21
+    },
+    {
+      "task": "Identify transaction mistakes when debits and credits do not balance.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.54
+    },
+    {
+      "task": "Resolve problems or discrepancies concerning customers' accounts.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.61
+    },
+    {
+      "task": "Explain, promote, or sell products or services, such as travelers' checks, savings bonds, money orders, and cashier's checks, using computerized information about customers to tailor recommendations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.03
+    },
+    {
+      "task": "Compute financial fees, interest, and service charges.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.96
+    },
+    {
+      "task": "Obtain and process information required for the provision of services, such as opening accounts, savings plans, and purchasing bonds.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.02
+    },
+    {
+      "task": "Answer telephones and assist customers with their questions.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.56
+    },
+    {
+      "task": "Recommend strategies for clients to meet their financial goals, such as borrowing money through loans or loan programs, declaring bankruptcy, making budget adjustments, or enrolling in debt management plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.71
+    },
+    {
+      "task": "Calculate premiums and establish payment method.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Provide regulatory compliance training to employees.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.59
+    },
+    {
+      "task": "Examine documents to determine degree of risk from factors such as applicant health, financial standing and value, and condition of property.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.53
+    },
+    {
+      "task": "Contact customers to collect payments on delinquent accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Confer with underwriters to resolve mortgage application problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Investigate missing checks, payment histories, held funds, returned checks, or other related issues to resolve client or creditor problems.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.47
+    },
+    {
+      "task": "Contact applicants or creditors to resolve questions about applications or to assist with completion of paperwork.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Contact borrowers with delinquent accounts to obtain payment in full or to negotiate repayment plans.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Counsel clients on personal and family financial problems, such as excessive spending or borrowing of funds.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Establish payment priorities according to credit terms and interest rates to reduce clients' overall costs.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Review accounts to determine write-offs for collection agencies.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Explain loan information to clients, such as available loan types, eligibility requirements, or loan restrictions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.78
+    },
+    {
+      "task": "Recommend educational materials or resources to clients on matters, such as financial planning, budgeting, or credit.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Explain general financial topics to clients, such as credit report ratings, bankruptcy laws, consumer protection laws, wage attachments, or collection actions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.64
+    },
+    {
+      "task": "Prepare written documents to establish contracts with or communicate financial recommendations to clients.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.48
+    },
+    {
+      "task": "Negotiate with creditors on behalf of clients to arrange for payment adjustments, interest rate reductions, time extensions, or payment plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Maintain or update records of client account activity, including financial transactions, counseling session notes, correspondence, document images, or client inquiries.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
+    },
+    {
+      "task": "Explain services or policies to clients, such as debt management program rules, advantages and disadvantages of using services, or creditor concession policies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.79
+    },
+    {
+      "task": "Create debt management plans, spending plans, or budgets to assist clients to meet financial goals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.76
+    },
+    {
+      "task": "Advise clients or respond to inquiries about financial matters in person or via phone, email, Web site, or Internet chat.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.24
+    },
+    {
+      "task": "Refer clients to social service or community resources for needs beyond those of credit or debt counseling.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
+    },
+    {
+      "task": "Advise clients on housing matters, such as housing rental, homeownership, mortgage delinquency, or foreclosure prevention.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.33
+    },
+    {
+      "task": "Conduct research to help clients avoid repossessions or foreclosures or remove levies or wage garnishments.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.71
+    },
+    {
+      "task": "Create action plans to assist clients in obtaining permanent housing via rent or mortgage programs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.25
+    },
+    {
+      "task": "Call on policyholders to deliver and explain policy, to analyze insurance program and suggest additions or changes, or to change beneficiaries.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
+    },
+    {
+      "task": "Review billing for accuracy.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Decrease value of policy when risk is substandard and specify applicable endorsements or apply rating to ensure safe, profitable distribution of risks, using reference materials.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Establish guidelines for procedures and policies that comply with new and revised regulations and direct their implementation.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.78
+    },
+    {
+      "task": "Authorize reinsurance of policy when risk is high.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.92
+    },
+    {
+      "task": "Review company records to determine amount of insurance in force on single risk or group of closely related risks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Evaluate possibility of losses due to catastrophe or excessive insurance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Write to field representatives, medical personnel, or others to obtain further information, quote rates, or explain company underwriting policies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
+    },
+    {
+      "task": "Decline excessive risks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.43
+    },
+    {
+      "task": "Verify and inspect cash reserves, assigned collateral, and bank-owned securities to check internal control procedures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.24
+    },
+    {
+      "task": "Analyze financial data, such as income growth, quality of management, and market share to determine expected profitability of loans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.53
+    },
+    {
+      "task": "Consult with customers to resolve complaints and verify financial and credit transactions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.07
+    },
+    {
+      "task": "Compare liquidity, profitability, and credit histories of establishments being evaluated with those of similar establishments in the same industries and geographic locations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.25
+    },
+    {
+      "task": "Review individual or commercial customer files to identify and select delinquent accounts for collection.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.31
+    },
+    {
+      "task": "Generate financial ratios, using computer programs, to evaluate customers' financial status.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.55
+    },
+    {
+      "task": "Complete loan applications, including credit analyses and summaries of loan requests, and submit to loan committees for approval.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.76
+    },
+    {
+      "task": "Confer with credit association and other business representatives to exchange credit information.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.08
+    },
+    {
+      "task": "Evaluate customer records and recommend payment plans, based on earnings, savings data, payment history, and purchase activity.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.69
+    },
+    {
+      "task": "Prepare reports that include the degree of risk involved in extending credit or lending money.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.55
+    },
+    {
+      "task": "Analyze credit data and financial statements to determine the degree of risk involved in extending credit or lending money.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.9
+    },
+    {
+      "task": "Approve loans within specified limits, and refer loan applications outside those limits to management for approval.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.4
+    },
+    {
+      "task": "Meet with applicants to obtain information for loan applications and to answer questions about the process.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.61
+    },
+    {
+      "task": "Analyze applicants' financial status, credit, and property evaluations to determine feasibility of granting loans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.57
+    },
+    {
+      "task": "Market bank products to individuals and firms, promoting bank services that may meet customers' needs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Analyze potential loan markets and develop referral networks to locate prospects for loans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.75
+    },
+    {
+      "task": "Set credit policies, credit lines, procedures and standards in conjunction with senior managers.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.08
+    },
+    {
+      "task": "Supervise loan personnel.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.92
+    },
+    {
+      "task": "Work with clients to identify their financial goals and to find ways of reaching those goals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Handle customer complaints and take appropriate action to resolve them.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.96
+    },
+    {
+      "task": "Submit applications to credit analysts for verification and recommendation.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Stay abreast of new types of loans and other financial services and products to better meet customers' needs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Compute payment schedules.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.57
+    },
+    {
+      "task": "Review loan agreements to ensure that they are complete and accurate according to policy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Obtain and compile copies of loan applicants' credit histories, corporate financial statements, and other financial information.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
+    },
+    {
+      "task": "Direct and participate in formal and informal meetings with bank directors, trustees, senior management, counsels, outside accountants, and consultants to gather information and discuss findings.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.73
+    },
+    {
+      "task": "Confer with officials of real estate, securities, or financial institution industries to exchange views and discuss issues or pending cases.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.94
     },
     {
       "task": "Train other examiners in the financial examination process.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
     },
     {
-      "task": "Attend meetings, seminars, and programs to learn about new products and services, and develop new skills.",
-      "task_type": "Core"
+      "task": "Attend meetings, seminars, and programs to learn about new products and services, learn new skills, and receive technical assistance in developing new accounts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.57
     },
     {
-      "task": "Develop marketing strategies to compete with other individuals or companies selling insurance.",
-      "task_type": "Core"
+      "task": "Develop marketing strategies to compete with other individuals or companies who sell insurance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.9
     },
     {
-      "task": "Monitor insurance claims to ensure they are settled equitably for clients and insurers.",
-      "task_type": "Supplemental"
+      "task": "Review audit reports of internal and external auditors to monitor adequacy of scope of reports or to discover specific weaknesses in internal routines.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
     },
     {
-      "task": "Review audit reports to monitor adequacy of scope and discover weaknesses in internal routines.",
-      "task_type": "Core"
+      "task": "Select company that offers type of coverage requested by client to underwrite policy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
     },
     {
       "task": "Perform administrative tasks, such as maintaining records and handling policy renewals.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
     },
     {
-      "task": "Confer with clients to obtain and provide information when claims are made on a policy.",
-      "task_type": "Core"
+      "task": "Explain features, advantages, and disadvantages of various policies to promote sale of insurance plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.23
     },
     {
-      "task": "Ensure that policy requirements are fulfilled, including medical examinations and completion of forms.",
-      "task_type": "Core"
+      "task": "Seek out new clients and develop clientele by networking to find new customers and generate lists of prospective clients.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
     },
     {
-      "task": "Investigate activities of institutions to enforce laws and regulations and ensure legality of transactions.",
-      "task_type": "Core"
+      "task": "Investigate activities of institutions to enforce laws and regulations and to ensure legality of transactions and operations or financial solvency.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.17
     },
     {
-      "task": "Prepare reports, exhibits, and schedules detailing an institution's compliance with laws and regulations, and recommend solutions.",
-      "task_type": "Core"
+      "task": "Review and analyze new, proposed, or revised laws, regulations, policies, and procedures to interpret their meaning and determine their impact.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
     },
     {
-      "task": "Review balance sheets, operating income and expenses, and loan documents to confirm institution assets and liabilities.",
-      "task_type": "Core"
+      "task": "Plan, supervise, and review work of assigned subordinates.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
     },
     {
-      "task": "Interview prospective clients to gather data on their financial needs and discuss existing coverage.",
-      "task_type": "Core"
+      "task": "Recommend actions to ensure compliance with laws and regulations, or to protect solvency of institutions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.65
     },
     {
-      "task": "Sell various types of insurance policies to individuals and businesses, including specialty policies.",
-      "task_type": "Core"
+      "task": "Examine the minutes of meetings of directors, stockholders, and committees to investigate the specific authority extended at various levels of management.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.96
     },
     {
-      "task": "Recommend actions to ensure compliance with laws and regulations, or to protect the solvency of institutions.",
-      "task_type": "Core"
+      "task": "Prepare reports, exhibits, and other supporting schedules that detail an institution's safety and soundness, compliance with laws and regulations, and recommended solutions to questionable financial conditions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
     },
     {
-      "task": "Prepare reports related to investigations of equal opportunity complaints and verify case information through interviews.",
-      "task_type": "Core"
+      "task": "Review balance sheets, operating income and expense accounts, and loan documentation to confirm institution assets and liabilities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
     },
     {
-      "task": "Inspect government property to ensure compliance with contract specifications or legal requirements.",
-      "task_type": "Core"
+      "task": "Interview prospective clients to obtain data about their financial resources and needs, the physical condition of the person or property to be insured, and to discuss any existing coverage.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.06
     },
     {
-      "task": "Conduct internal or external audits and monitor follow-up actions in cases of violations found.",
-      "task_type": "Core"
+      "task": "Sell various types of insurance policies to businesses and individuals on behalf of insurance companies, including automobile, fire, life, property, medical and dental insurance, or specialized policies, such as marine, farm/crop, and medical malpractice.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.37
     },
     {
-      "task": "Monitor or trace the location of goods and facilitate clearance of goods through customs.",
-      "task_type": "Core"
+      "task": "Customize insurance programs to suit individual customers, often covering a variety of risks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.43
     },
     {
-      "task": "Examine permits, licenses, applications, and records to ensure compliance with licensing requirements.",
-      "task_type": "Core"
+      "task": "Prepare responses to customer requests for information, such as product data, written regulatory affairs statements, surveys, or questionnaires.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.94
     },
     {
-      "task": "Investigate alleged licensing or permit violations and report law or regulation violations to appropriate agencies.",
-      "task_type": "Core"
+      "task": "Recommend changes to company procedures in response to changes in regulations or standards.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.95
+    },
+    {
+      "task": "Develop or conduct employee regulatory training.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.22
+    },
+    {
+      "task": "Prepare or direct the preparation of additional information or responses as requested by regulatory agencies.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.55
+    },
+    {
+      "task": "Compile and maintain regulatory documentation databases or systems.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.79
+    },
+    {
+      "task": "Interpret regulatory rules or rule changes and ensure that they are communicated through corporate policies and procedures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.44
+    },
+    {
+      "task": "Maintain current knowledge base of existing and emerging regulations, standards, or guidance documents.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.0
+    },
+    {
+      "task": "Write or update standard operating procedures, work instructions, or policies.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.55
+    },
+    {
+      "task": "Prepare reports of activities, evaluations, recommendations, or decisions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.3
+    },
+    {
+      "task": "Report law or regulation violations to appropriate boards or agencies.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.18
+    },
+    {
+      "task": "Confer with or interview officials, technical or professional specialists, or applicants to obtain information or to clarify facts relevant to licensing decisions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.06
+    },
+    {
+      "task": "Identify compliance issues that require follow-up or investigation.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Verify that all firm and regulatory policies and procedures have been documented, implemented, and communicated.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop or track quality metrics.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.29
+    },
+    {
+      "task": "Participate in internal or external audits.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.8
+    },
+    {
+      "task": "Prepare written, oral, tabular, and graphic reports summarizing requirements and regulations, including enforcement and chain of custody documentation.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.07
+    },
+    {
+      "task": "Monitor follow-up actions in cases where violations were found, and review compliance monitoring reports.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.25
+    },
+    {
+      "task": "Check with employers or other references to verify answers and obtain further information.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.35
+    },
+    {
+      "task": "Interpret and explain information such as eligibility requirements, application details, payment methods, and applicants' legal rights.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.45
+    },
+    {
+      "task": "Compile, record, and evaluate personal and financial data to verify completeness and accuracy, and to determine eligibility status.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.55
+    },
+    {
+      "task": "Keep records of assigned cases, and prepare required reports.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.59
+    },
+    {
+      "task": "Investigate claimants for the possibility of fraud or abuse.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.86
+    },
+    {
+      "task": "Examine records, reports, or other documents to establish facts or detect discrepancies.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.07
     },
     {
       "task": "Sign documents on behalf of clients, using powers of attorney.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.45
     },
     {
-      "task": "Provide advice on transportation options, types of carriers, or shipping routes, and contract with freight forwarders for destination services.",
-      "task_type": "Core"
+      "task": "Prepare correspondence, reports of inspections or investigations, or recommendations for action.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.22
     },
     {
-      "task": "Insure cargo against loss, damage, or pilferage and obtain necessary import documentation, such as customs invoices or certificates of origin.",
-      "task_type": "Core"
+      "task": "Prepare reports of selection, survey, or other statistics and recommendations for corrective action.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.21
     },
     {
-      "task": "Monitor and evaluate compliance with equal opportunity laws and ensure employment practices give equal opportunity regardless of race, religion, sex, or disability.",
-      "task_type": "Core"
+      "task": "Monitor fundamental economic, industrial, and corporate developments by analyzing information from financial publications and services, investment banking firms, government agencies, trade publications, company sources, or personal interviews.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
     },
     {
-      "task": "Parse and analyze financial or operational performance of companies to identify or recommend remedies and assess companies as investments for clients.",
-      "task_type": "Unclassified"
+      "task": "Evaluate and compare the relative quality of various securities in a given industry.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
     },
     {
-      "task": "Gather data on financial information to inform investment decisions, and evaluate risks related to investments including green technologies.",
-      "task_type": "Unclassified"
+      "task": "Evaluate capital needs of clients and assess market conditions to inform structuring of financial packages.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
     },
     {
-      "task": "Evaluate and compare the relative quality of various securities and determine prices at which they should be syndicated and offered to the public.",
-      "task_type": "Unclassified"
+      "task": "Inform investment decisions by analyzing financial information to forecast business, industry, or economic conditions.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
     },
     {
-      "task": "Prepare plans of action for investments through financial analyses, and recommend investments and timing to clients or firms.",
-      "task_type": "Unclassified"
+      "task": "Interpret data on price, yield, stability, future investment-risk trends, economic influences, and other factors affecting investment programs.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
     },
     {
-      "task": "Prepare reports on economic trends, business conditions, or secure investment analyses, and provide statistical modeling advice.",
-      "task_type": "Unclassified"
+      "task": "Monitor developments in the fields of industrial technology, business, finance, and economic theory.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
     },
     {
-      "task": "Confer with clients for debt restructuring or refinancing, and advise them on aspects of capitalization, timing, and market scenarios.",
-      "task_type": "Unclassified"
+      "task": "Purchase investments for companies in accordance with company policy.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
     },
     {
-      "task": "Develop and maintain client relationships while preparing materials and presentations regarding investment proposals.",
-      "task_type": "Unclassified"
+      "task": "Perform securities valuation or pricing.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
     },
     {
-      "task": "Monitor sales staff performance to ensure goals are met, and direct and supervise employees engaged in sales or specific services.",
-      "task_type": "Core"
+      "task": "Prepare all materials for transactions or execution of deals.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
     },
     {
-      "task": "Listen to and resolve customer complaints regarding services or products, ensuring timely processing and review of complaints.",
-      "task_type": "Core"
+      "task": "Prepare plans of action for investment, using financial analyses.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Recommend investments and investment timing to companies, investment firm staff, or the public.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Specialize in green financial instruments, such as socially responsible mutual funds or exchange-traded funds (ETF) that are comprised of green companies.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Supervise, train, or mentor junior team members.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Draw charts and graphs, using computer spreadsheets, to illustrate technical reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Employ financial models to develop solutions to financial problems or to assess the financial or capital impact of transactions.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Present oral or written reports on general economic trends, individual corporations, and entire industries.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop and maintain client relationships.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Assess companies as investments for clients by examining company facilities.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Create client presentations of plan details.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Advise clients on aspects of capitalization, such as amounts, sources, or timing.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze financial or operational performance of companies facing financial difficulties to identify or recommend remedies.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Determine the prices at which securities should be syndicated and offered to the public.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Collaborate on projects with other professionals, such as lawyers, accountants, or public relations experts.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Conduct financial analyses related to investments in green construction or green retrofitting projects.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with clients to restructure debt, refinance debt, or raise new debt.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Collaborate with investment bankers to attract new corporate clients.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Meet with clients to answer queries on subjects such as risk exposure, market scenarios, or values-at-risk calculations.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Evaluate the risks related to green investments, such as renewable energy company stocks.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Gather risk-related data from internal or external resources.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Maintain input or data quality of risk management systems.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Produce reports or presentations that outline findings, explain risk positions, or recommend changes.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Provide statistical modeling advice to other departments.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Recommend ways to control or reduce risk.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Review or draft risk disclosures for offer documents.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Track, measure, or report on aspects of market risk for traded issues.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Identify key risks and mitigating factors of potential investments, such as asset types and values, legal and ownership structures, professional reputations, customer bases, or industry segments.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Document, and ensure communication of, key risks.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Consult financial literature to ensure use of the latest models or statistical techniques.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Devise systems or processes to monitor validity of risk assessments.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze areas of potential risk to the assets, earning capacity, or success of organizations.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze new legislation to determine impact on risk exposure.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Conduct statistical analyses to quantify risk, using statistical analysis software or econometric models.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with traders to identify and communicate risks associated with specific trading strategies or positions.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Evaluate the risks and benefits involved in implementing green building technologies.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Contribute to development of risk management systems.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop contingency plans to deal with emergencies.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop or implement risk-assessment models or methodologies.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Devise scenario analyses reflecting possible severe market events.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Determine potential environmental impacts of new products or processes on long-term growth and profitability.",
+      "task_type": "Unclassified",
+      "relevance": 0.047619047619047616,
+      "importance": 0.0
+    },
+    {
+      "task": "Provide staff with assistance in performing difficult or complicated duties.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 4.06
+    },
+    {
+      "task": "Listen to and resolve customer complaints regarding services, products, or personnel.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.88
+    },
+    {
+      "task": "Hire, train, and evaluate personnel.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.86
+    },
+    {
+      "task": "Confer with company officials to develop methods and procedures to increase sales, expand markets, and promote business.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.79
+    },
+    {
+      "task": "Plan and prepare work schedules, and assign employees to specific duties.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.75
+    },
+    {
+      "task": "Attend company meetings to exchange product information and coordinate work activities with other departments.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.63
+    },
+    {
+      "task": "Keep records pertaining to purchases, sales, and requisitions.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.87
     }
   ],
   "technology_skills": [
@@ -1710,8 +2690,16 @@
       "weight": 1.748015873015873
     },
     {
+      "name": "Microsoft Dynamics",
+      "weight": 1.6051587301587302
+    },
+    {
       "name": "Word processing software",
       "weight": 1.3035714285714286
+    },
+    {
+      "name": "SAP software",
+      "weight": 1.2718253968253967
     },
     {
       "name": "Microsoft Windows",
@@ -1722,6 +2710,10 @@
       "weight": 1.0277777777777777
     },
     {
+      "name": "Microsoft Project",
+      "weight": 0.9265873015873015
+    },
+    {
       "name": "Email software",
       "weight": 0.878968253968254
     },
@@ -1730,24 +2722,220 @@
       "weight": 0.8551587301587301
     },
     {
+      "name": "FileMaker Pro",
+      "weight": 0.7599206349206349
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.7599206349206349
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.7599206349206349
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.7420634920634921
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.6765873015873016
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.6587301587301587
+    },
+    {
       "name": "Database software",
       "weight": 0.6428571428571428
+    },
+    {
+      "name": "Fund accounting software",
+      "weight": 0.6170634920634921
+    },
+    {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.6170634920634921
     },
     {
       "name": "Spreadsheet software",
       "weight": 0.5535714285714286
     },
     {
+      "name": "IBM Notes",
+      "weight": 0.5515873015873016
+    },
+    {
       "name": "Zoom",
       "weight": 0.5357142857142857
+    },
+    {
+      "name": "Corel QuattroPro",
+      "weight": 0.49206349206349204
+    },
+    {
+      "name": "Monte Carlo simulation software",
+      "weight": 0.49206349206349204
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.49206349206349204
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.49206349206349204
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.49206349206349204
+    },
+    {
+      "name": "Portfolio management software",
+      "weight": 0.49206349206349204
+    },
+    {
+      "name": "Experian Credinomics",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.42658730158730157
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.42658730158730157
     },
     {
       "name": "Microsoft Exchange",
       "weight": 0.4087301587301587
     },
     {
+      "name": "Moody's KMV CreditEdge",
+      "weight": 0.3968253968253968
+    },
+    {
       "name": "Adobe Acrobat",
       "weight": 0.375
+    },
+    {
+      "name": "Accounting software",
+      "weight": 0.3611111111111111
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.34325396825396826
+    },
+    {
+      "name": "ACT! ACT4Advisors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ASI Client Acquisition Solution",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Advent Axys",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "AdviceAmerica AdvisorVision",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Advisory World ICE",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Asset allocation software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Automatic Data Processing ProxyEdge",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Brentmark Stock Option Risk Analyzer",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cheshire Financial Planning Suite",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ComplianceMAX",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cygnus IncomeMax",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "DataViz Beyond Contacts",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "EISI NaviPlan",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "EZ-Data Client Data System",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Education planning software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Estate Capitol Needs Analysis",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Estate planning software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ExpenseWatch",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Finance Logix Education Planner",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Finance Logix Insurance Planner",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Finance Logix Retirement Planner",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Financeware AASim",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Financeware Finance File Manager",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Financeware WealthSimulator",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Financial Planning Consultants Practice Builder",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Financial Profiles Profiles+ Professional",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Financial planning presentation software",
+      "weight": 0.3333333333333333
     },
     {
       "name": "Financial planning software",
@@ -1758,6 +2946,218 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Getting Things Done GTD software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Host Analytics Host Budget",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "IMPACT Wealth Distribution Analysis",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ibbotson Analyst",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ibbotson Portfolio Strategist",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Impact PlanLabX3",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Investigo",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Investment and business valuation template software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Investment tracking software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "J&L Financial Planner",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Junxure CRM Software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "MasterPlan",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microsoft Business Contact Manager",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microsoft Money",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "MoneyTree Silver Financial Planner (financial analysis feature)",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "MoneyTree Silver Financial Planner (presentation feature)",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Morningstar Principia",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Needs analysis software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Net Worth Strategies Stock Opter Pro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Optima IAS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "PIE Technologies MoneyGuidePro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pimlico Software DateBk",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "PlanPlus Pro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "PlanScan Portfolio Pathfinder",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Practice management software PMS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ProTracker Advantage",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Quicken",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Redtail Technology Our Business Online",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Retirement planning software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sawhney ExecPlan",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ScanSoft PaperPort Pro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ScenarioNow RetireNow",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SunGard Frontier",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SunGard LockBox",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SunGard PlanningStation",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SunGard WebPlaid",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Swift",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tax planning software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "The Omni Group OmniPlan",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Thomson ONE Advisor",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Torrid Retirement Planner",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Unger Software Methusaleh",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "WealthTec AllocationPro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "WealthTec Foundations",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "WealthTec WealthMaster",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Web Information Solutions Pocket Informant",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "World Software Corporation Worldox",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "eMoneyAdvisor AdvisorPlatform",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Harland Financial Solutions DecisionPro",
+      "weight": 0.30158730158730157
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
+      "weight": 0.30158730158730157
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.30158730158730157
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.30158730158730157
+    },
+    {
       "name": "R",
       "weight": 0.30158730158730157
     },
@@ -1766,12 +3166,344 @@
       "weight": 0.30158730158730157
     },
     {
+      "name": "UNIX",
+      "weight": 0.2976190476190476
+    },
+    {
+      "name": "CGI-AMS BureauLink Enterprise",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "CGI-AMS CACS Enterprise",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "CGI-AMS Strata",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Credit and risk analysis software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Credit fraud detection software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Dun and Bradstreet Global DecisionMaker",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Equifax Advanced Decisioning",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Equifax Application Engine",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Equifax InterConnect",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Experian Detect",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Experian FraudShield",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Experian Quest",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Experian Retention Triggers",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Experian Strategy Management",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Experian Transact SM",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Fair Isaac Application Risk Model Software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Fair Isaac Capstone Decision Manager",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Fair Isaac Falcon ID",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Fannie Mae Desktop Underwriter",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Freddie Mac Loan Prospector",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Moody's KMV Decisions",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Moody's KMV Financial Analyst",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Moody's KMV Risk Advisor",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Moody's KMV Risk Analyst",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "eCredit Enterprise",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Analyse-it",
+      "weight": 0.2837301587301587
+    },
+    {
+      "name": "Human resource management software HRMS",
+      "weight": 0.2837301587301587
+    },
+    {
+      "name": "MicroStrategy",
+      "weight": 0.2837301587301587
+    },
+    {
+      "name": "Microsoft SQL Server Reporting Services SSRS",
+      "weight": 0.2837301587301587
+    },
+    {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.2837301587301587
+    },
+    {
+      "name": "Yardi software",
+      "weight": 0.2837301587301587
+    },
+    {
       "name": "Customer relationship management CRM software",
       "weight": 0.26785714285714285
     },
     {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.25
+    },
+    {
+      "name": "Hyland Software OnBase",
+      "weight": 0.25
+    },
+    {
+      "name": "Information Technology Incorporated Premier Teller",
+      "weight": 0.25
+    },
+    {
       "name": "Internet browser software",
       "weight": 0.25
+    },
+    {
+      "name": "Jack Henry & Associates Vertex",
+      "weight": 0.25
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.25
+    },
+    {
+      "name": "Southern Data Systems TellerPro",
+      "weight": 0.25
+    },
+    {
+      "name": "Total Turnkey Solutions E-Vision",
+      "weight": 0.25
+    },
+    {
+      "name": "Budgeting software",
+      "weight": 0.24166666666666667
+    },
+    {
+      "name": "NetSuite ERP",
+      "weight": 0.20039682539682538
+    },
+    {
+      "name": "Delivery operations information system DOIS",
+      "weight": 0.2
+    },
+    {
+      "name": "Electronic Time Clock ETC",
+      "weight": 0.2
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.2
+    },
+    {
+      "name": "NCR Advanced Store",
+      "weight": 0.2
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.2
+    },
+    {
+      "name": "Time and Attendance Collection System TACS",
+      "weight": 0.2
+    },
+    {
+      "name": "C++",
+      "weight": 0.19047619047619047
+    },
+    {
+      "name": "Python",
+      "weight": 0.19047619047619047
+    },
+    {
+      "name": "Delphi Discovery",
+      "weight": 0.1845238095238095
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.1845238095238095
+    },
+    {
+      "name": "Linux",
+      "weight": 0.17261904761904762
+    },
+    {
+      "name": "McAfee",
+      "weight": 0.17261904761904762
+    },
+    {
+      "name": "Electronic data interchange EDI software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "ADP Workforce Now",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Advanced Portfolio Technologies Report Builder",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Advanced Portfolio Technologies Simulator",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "AnalyzerXL",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Annuities analysis software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Apache Hive",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Apache Pig",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Apple AppleWorks",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Aspen Graphics Technical Analysis Software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "BizBench",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "BizPricer",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Business Forecast Systems Forecast Pro",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Data visualization software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "DealMaven Comparable Company Valuation Analysis",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "DealMaven M&A Accretion/Dilution One-Pager",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "DealMaven Modeling ToolPack for Excel",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "DealMaven PresLink for PowerPoint and Word",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Decisioneering Crystal Ball",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Derivatives Imagine Trading System",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Derivicom FinOptions XL",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Economic forecasting software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Express Business Valuations",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "FinEng Solutions PerfoRM",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "FinEng Solutions Quantis",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Financial modeling software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Fractal pattern analysis software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Genetic algorithm optimization software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Genetic algorithm software",
+      "weight": 0.15873015873015872
     },
     {
       "name": "Google Docs",
@@ -1782,11 +3514,679 @@
       "weight": 0.15873015873015872
     },
     {
+      "name": "I-flex Solutions Reveleus Investment Performance Measurement",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "IBM Lotus Approach",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "IBM Power Systems software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Innova Financial Solutions Derivatives Expert",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Ivorix Neurostrategy Finance",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Keypoint DataDesk",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Leading Market Technologies EXPO",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Longview Consolidation",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Longview Performance Management Platform",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Longview Solutions Khalix",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Market forecast software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Marketo Marketing Automation",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Mathematical software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Matheny Pattern Forecaster Plus",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "MergerStat Control Premiums",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "MergerStat Price to Earnings Ratios",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.15873015873015872
+    },
+    {
       "name": "Microsoft OneNote",
       "weight": 0.15873015873015872
     },
     {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "MoneySoft Corporate Valuation",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Montgomery Investment Technology Bonds XL",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Montgomery Investment Technology Exotics XL",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Montgomery Investment Technology FinTools",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Montgomery Investment Technology Options XL",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Montgomery Investment Technology QuoteTools",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Montgomery Investment Technology Risk XL",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Montgomery Investment Technology SigTools",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Montgomery Investment Technology Utility XL",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Moss Adams Profit Mentor",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Mutual fund analysis software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Neural network modeling software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "NeuroSolutions Trading Solutions",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "NeuroSolutions for MatLab",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "OptionVue Options Analysis",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Oracle Fusion Applications",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Palisade Bond @nalyst",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Palisade Evolver",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Palisade StatTools",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Pattern recognition software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Peer-to-Peer Financial Analysis",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Perforce Helix software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Pi Blue OptWorks Excel",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Pricing software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Quantifying marketability discount QMD modeling software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Report generation software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Reporting software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "RiskMetrics Group WealthBench",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "SAP BusinessObjects Data Integrator",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "SAP Crystal Reports",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "SAS JMP",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "SSA Global Infinium Financial Management",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Securities analysis software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Spreadware Business Financial Analysis",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Spreadware Business Valuator",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Spreadware Pro Forma",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "StataCorp Stata",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Steele Mutual Fund and Variable Annuity Expert",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "SunGard BancWare",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "SunGard Kiodex Risk Workbench",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "TechHackers Convertible Bond @nalyst",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "TechHackers Credit @nalyst",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "TechHackers Exotic @nalyst",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "TechHackers Financial @nalyst",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "TechHackers IRO @nalyst",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "TechHackers MBS @nalyst",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "TechHackers Swap @nalyst",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Tetrahex Fractal Finance",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "TickQuest NeoTicker",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Tips Standard Securities Calculation Bond Analytics Module",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Tips Standard Securities Calculation Mortgage-Backed Analytics Module",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "TradeTools Financial Market Databases",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "TradeTools Monthly U.S. Economic Database",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Trendsetter Software ProAnalyst",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Unlimited Learning Resources Valusource Pro",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "ValuSource BIZCOMPS",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Ward Systems Group NeuralShell Predictor",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Ward Systems Group NeuroShell Trader",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Whitebirch Software Projected Financials",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Wolfram Research Derivatives",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Wolfram Research Mathematica",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Wolfram Research Mathematica Finance Essentials",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Wolfram Research Mathematica UnRisk Pricing Engine",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "dailyVest Investment Personalization Platform",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "1003 Uniform Residential Loan Application",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ACL Analytics",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "AMS Services AMS 360",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "AMS Services AMS Sagitta",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Advantage Information Systems The Agency Advantage",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Agency Master",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Agency Software AgencyPro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Agency management software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Allied Financial Software Act4Advisors",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Allstar Software Systems Kofax",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Amortization loan software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Anodas Software Limited Phoenix",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Applied Systems The Agency Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Applied Systems Vision",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Auditing software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Bankers Systems Rembrandt Lending System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Benefits Technology Group SalesLogix",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Bottom Line LoanMaster Loan Servicing",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CPU Tracker Software CPU Tracker",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CSC nbAccelerator",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "California Infinite LPS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Calyx Point",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Chat software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Click1003 Online Mortgage Application",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CoVirt VirtGate",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Common business oriented language COBOL",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Consilience Software Maven Insurance Automation Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Cooperative Processing Resources DMS Professional Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CoreLogic DebtorTrace",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Credit adjudication and lending management system CALMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Credit underwriting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Customer information control system CICS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Cygnus Software IncomeMax",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "DORIS FILESERVERonline",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Datatel Colleague",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Dynamic Loanledger",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "E-Z Data SmartOffice",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "EDExpress",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ELM Resources ELM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "EMT Applications CounselorMax",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ellie Mae Contour",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ellie Mae Genesis",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FAS Loan Service Plus",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FINEOS Insure",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fair Isaac Enterprise Decision Management for Insurance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Financial Industry Computer Systems Loan Accountant",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Financial Industry Computer Systems Loan Originator",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Financial Industry Computer Systems Loan Producer",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Financial aid management system FAM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Financial compliance software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Financial transaction analysis software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fiserv Advanced Underwriting",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fiserv FSC Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "G2X Agility:Insurance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "GBS Agency Expert",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "General Examination System GENESYS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Harland Interlinq MortgageWare",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hoffman Computer Systems Amsoft",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "IA Systems StreamLend",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "IBM FileNet Content Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ICCO CreditSoft",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "InStar Orion",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Indus Lending Solutions",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Infospectrum Quick Insure",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Systems WebWriter BackOffice",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Technologies Corporation InsurancePro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Technologies ForeSight Enterprise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Technology Consultants WOW",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance analysis software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance rating software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Integra Destiny Loan Origination",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Integrant DebtLogic",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Investigation management software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "LA PRO Loan Administrator Pro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "LIDP Consulting Services The Administrator",
       "weight": 0.14285714285714285
     },
     {
@@ -1798,7 +4198,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Loan application processing software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Loan origination software",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "LogMeIn GoToMeeting",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "MI-Assistant MI Management System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Merlin Information Services databases",
       "weight": 0.14285714285714285
     },
     {
@@ -1806,7 +4222,43 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "NIIT Technologies WinRisk",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "NILS INSource",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "NaviSys Front Office",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "North American Software Associates Eclipse",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "ODEN Insurance Services State Rules & Regulations",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Online Database Solutions Agent Intelligence",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Opportunity management system OMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oversight Insights On Demand",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Paragon Financial Services Paragon Financial System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Plimus Loan Artist",
       "weight": 0.14285714285714285
     },
     {
@@ -1814,7 +4266,91 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "PricewaterhouseCoopers TeamMate",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Prime Debt Soft Debt Settlement",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Prime Debt Software Credit Repair",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "QualCorp FormsPlus",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "QuickQuote QuickFile Agency Management System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "QuikDraw Loan Management System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "RGA AURA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "RGA Facultative Application Console",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "RealBenefits Amortization Loan",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Results International Systems Artius Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SIS SEMCI PARTNER",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Skywire Software InsBridge",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Skywire Software Policyware",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "System for Electronic Rate and Form Filing SERFF",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tangle S Creations Your Insurance Office",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Technicost LOS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Terrace Consulting AgencyInsight",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "The Mortgage Office Loan Origination",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "The Mortgage Office Loan Servicing",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Thomson Reuters Westlaw Edge",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tritech Financial Systems General Insurance Management System GIMS",
       "weight": 0.14285714285714285
     },
     {
@@ -1822,7 +4358,35 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "United Systems and Software Individual Life and Health Administration System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Valen Technologies Risk Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "VueCentric MortgageDashboard",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Vulcan Solutions Vulcan Insurance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "White Clarke North America Credit Adjudication and Lending Management",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Wolters Kluwer Financial Services ComplianceOne",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "eOriginal eCore Business Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "irs-aims MARS",
       "weight": 0.14285714285714285
     },
     {
@@ -1830,11 +4394,87 @@
       "weight": 0.125
     },
     {
-      "name": "Environmental Knowledge and Assessment Tool EKAT",
+      "name": "Adobe Creative Cloud software",
       "weight": 0.125
     },
     {
-      "name": "Equal employment opportunity EEO compliance software",
+      "name": "Adobe Illustrator",
+      "weight": 0.125
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.125
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.125
+    },
+    {
+      "name": "Alcestis",
+      "weight": 0.125
+    },
+    {
+      "name": "Apple iOS",
+      "weight": 0.125
+    },
+    {
+      "name": "Atrion Intelligent Authoring",
+      "weight": 0.125
+    },
+    {
+      "name": "BrioQuery",
+      "weight": 0.125
+    },
+    {
+      "name": "Client assessment software",
+      "weight": 0.125
+    },
+    {
+      "name": "Corel WinZip",
+      "weight": 0.125
+    },
+    {
+      "name": "DataVision",
+      "weight": 0.125
+    },
+    {
+      "name": "Deltek Costpoint",
+      "weight": 0.125
+    },
+    {
+      "name": "Digital imaging system software",
+      "weight": 0.125
+    },
+    {
+      "name": "Document scanning software",
+      "weight": 0.125
+    },
+    {
+      "name": "EMC Documentum",
+      "weight": 0.125
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.125
+    },
+    {
+      "name": "Esri ArcGIS",
+      "weight": 0.125
+    },
+    {
+      "name": "Geographic information system GIS software",
+      "weight": 0.125
+    },
+    {
+      "name": "Geographic information system GIS systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Git",
+      "weight": 0.125
+    },
+    {
+      "name": "Google Android",
       "weight": 0.125
     },
     {
@@ -1844,6 +4484,90 @@
     {
       "name": "Google Workspace software",
       "weight": 0.125
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.125
+    },
+    {
+      "name": "Integrated development environment IDE software",
+      "weight": 0.125
+    },
+    {
+      "name": "Inventory control system software",
+      "weight": 0.125
+    },
+    {
+      "name": "Materials requirement planning MRP software",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft NetMeeting",
+      "weight": 0.125
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.125
+    },
+    {
+      "name": "Optical character reader OCR software",
+      "weight": 0.125
+    },
+    {
+      "name": "Peninsula Software Quicktrack Pro",
+      "weight": 0.125
+    },
+    {
+      "name": "Radio frequency identification RFID software",
+      "weight": 0.125
+    },
+    {
+      "name": "Rapid Assessment Tools R.A.T.",
+      "weight": 0.125
+    },
+    {
+      "name": "Records management software",
+      "weight": 0.125
+    },
+    {
+      "name": "Relational database management software",
+      "weight": 0.125
+    },
+    {
+      "name": "Shipping software",
+      "weight": 0.125
+    },
+    {
+      "name": "Spatial Analysis and Decision Assistance SADA",
+      "weight": 0.125
+    },
+    {
+      "name": "Statistical software",
+      "weight": 0.125
+    },
+    {
+      "name": "Tariff databases",
+      "weight": 0.125
+    },
+    {
+      "name": "Tibco Scribe Software",
+      "weight": 0.125
+    },
+    {
+      "name": "Transact-SQL",
+      "weight": 0.125
+    },
+    {
+      "name": "Unique Identification UID system databases",
+      "weight": 0.125
+    },
+    {
+      "name": "Wide Area Workflow WAWF system",
+      "weight": 0.125
+    },
+    {
+      "name": "Alteryx software",
+      "weight": 0.1111111111111111
     },
     {
       "name": "Bloomberg Professional",
@@ -1858,6 +4582,10 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Moody's RiskCalc",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Oracle Essbase",
       "weight": 0.1111111111111111
     },
@@ -1866,7 +4594,31 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Workday software",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Amazon Web Services AWS software",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Aptech Systems GAUSS",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Atlassian JIRA",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Factiva",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Insightful S-PLUS",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Management information systems MIS",
       "weight": 0.047619047619047616
     },
     {
@@ -1874,7 +4626,23 @@
       "weight": 0.047619047619047616
     },
     {
+      "name": "Perl",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "PyTorch",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Ruby",
+      "weight": 0.047619047619047616
+    },
+    {
       "name": "S&P Capital IQ",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "ServiceNow",
       "weight": 0.047619047619047616
     },
     {
@@ -1882,7 +4650,15 @@
       "weight": 0.047619047619047616
     },
     {
+      "name": "TensorFlow",
+      "weight": 0.047619047619047616
+    },
+    {
       "name": "Cisco Webex",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Customer information databases",
       "weight": 0.041666666666666664
     },
     {
@@ -1890,7 +4666,39 @@
       "weight": 0.041666666666666664
     },
     {
+      "name": "Flow chart software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Fuze cloud communications and collaboration software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Graphics creation software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Online meeting software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "QuickBase business management software",
+      "weight": 0.041666666666666664
+    },
+    {
       "name": "Salesforce.com Salesforce CRM",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "SugarCRM Sugar UX",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Work scheduling software",
       "weight": 0.041666666666666664
     }
   ],
@@ -1964,15 +4772,171 @@
       "weight": 0.2837301587301587
     },
     {
+      "name": "Automatic teller machines ATMs",
+      "weight": 0.25
+    },
+    {
+      "name": "Cash advance terminals",
+      "weight": 0.25
+    },
+    {
+      "name": "Check encoders",
+      "weight": 0.25
+    },
+    {
+      "name": "Check validation printers",
+      "weight": 0.25
+    },
+    {
+      "name": "Checkwriters",
+      "weight": 0.25
+    },
+    {
+      "name": "Currency counters",
+      "weight": 0.25
+    },
+    {
       "name": "Document printers",
       "weight": 0.25
+    },
+    {
+      "name": "Electric typewriters",
+      "weight": 0.25
+    },
+    {
+      "name": "Journal printers",
+      "weight": 0.25
+    },
+    {
+      "name": "Official check imprinters",
+      "weight": 0.25
+    },
+    {
+      "name": "Online video terminals",
+      "weight": 0.25
+    },
+    {
+      "name": "Passbook printers",
+      "weight": 0.25
+    },
+    {
+      "name": "Receipt printers",
+      "weight": 0.25
+    },
+    {
+      "name": "Teller terminals",
+      "weight": 0.25
+    },
+    {
+      "name": "Automated mail processing equipment",
+      "weight": 0.2
+    },
+    {
+      "name": "Barcode sorters",
+      "weight": 0.2
+    },
+    {
+      "name": "Bin stackers",
+      "weight": 0.2
+    },
+    {
+      "name": "Electronic mail sorting devices",
+      "weight": 0.2
+    },
+    {
+      "name": "General purpose mail containers",
+      "weight": 0.2
+    },
+    {
+      "name": "Hand stamps",
+      "weight": 0.2
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.2
+    },
+    {
+      "name": "Mail bags",
+      "weight": 0.2
+    },
+    {
+      "name": "Mail scales",
+      "weight": 0.2
+    },
+    {
+      "name": "Mail transport carts",
+      "weight": 0.2
+    },
+    {
+      "name": "Money drawers",
+      "weight": 0.2
+    },
+    {
+      "name": "Optical character readers",
+      "weight": 0.2
+    },
+    {
+      "name": "Packaging tape dispensers",
+      "weight": 0.2
+    },
+    {
+      "name": "Point of sale workstations",
+      "weight": 0.2
+    },
+    {
+      "name": "Security device removers",
+      "weight": 0.2
+    },
+    {
+      "name": "Security devices",
+      "weight": 0.2
+    },
+    {
+      "name": "Sorting machines",
+      "weight": 0.2
+    },
+    {
+      "name": "Stamp cancelers",
+      "weight": 0.2
+    },
+    {
+      "name": "Warehouse dollies",
+      "weight": 0.2
+    },
+    {
+      "name": "Autodialers",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Financial calculators",
       "weight": 0.14285714285714285
     },
     {
+      "name": "Inkjet printers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Pen-based computers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "35 millimeter cameras",
+      "weight": 0.125
+    },
+    {
+      "name": "Centrifugal water sampling pumps",
+      "weight": 0.125
+    },
+    {
       "name": "Copy machines",
+      "weight": 0.125
+    },
+    {
+      "name": "Dictation equipment",
+      "weight": 0.125
+    },
+    {
+      "name": "Digital video cameras",
       "weight": 0.125
     },
     {
@@ -1980,7 +4944,75 @@
       "weight": 0.125
     },
     {
+      "name": "Facial recognition systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Fingerprint capture devices",
+      "weight": 0.125
+    },
+    {
+      "name": "Fingerprint recognition systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Floor scales",
+      "weight": 0.125
+    },
+    {
+      "name": "Iris recognition systems",
+      "weight": 0.125
+    },
+    {
+      "name": "License or identification card printers",
+      "weight": 0.125
+    },
+    {
+      "name": "Magnetic stripe readers",
+      "weight": 0.125
+    },
+    {
+      "name": "Magnifying glasses",
+      "weight": 0.125
+    },
+    {
+      "name": "Passenger vehicles",
+      "weight": 0.125
+    },
+    {
+      "name": "Point of sale POS receipt printers",
+      "weight": 0.125
+    },
+    {
       "name": "Portable calculators",
+      "weight": 0.125
+    },
+    {
+      "name": "Portable two way radios",
+      "weight": 0.125
+    },
+    {
+      "name": "Radio frequency identification RFID scanners",
+      "weight": 0.125
+    },
+    {
+      "name": "Surgical gloves",
+      "weight": 0.125
+    },
+    {
+      "name": "Surgical masks",
+      "weight": 0.125
+    },
+    {
+      "name": "Testing workstations",
+      "weight": 0.125
+    },
+    {
+      "name": "Ultraviolet UV lights",
+      "weight": 0.125
+    },
+    {
+      "name": "Ultraviolet fluorescence UVF test kits",
       "weight": 0.125
     },
     {

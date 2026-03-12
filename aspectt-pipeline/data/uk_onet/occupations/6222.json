@@ -1544,95 +1544,593 @@
   ],
   "tasks": [
     {
-      "task": "Stay informed of the latest styles and hair care techniques and trends.",
-      "task_type": "Core"
+      "task": "Drape and pin protective cloths around customers' shoulders.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.92
     },
     {
-      "task": "Cut, trim, and shape hair or hairpieces according to clients' instructions, hair type, and facial features, using scissors, clippers, and razors.",
-      "task_type": "Core"
+      "task": "Question patrons regarding desired services and haircut styles.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.8
     },
     {
-      "task": "Drape and pin protective cloths around customers' shoulders and maintain clean workstations.",
-      "task_type": "Core"
+      "task": "Record services provided on cashiers' tickets or receive payment from customers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.21
     },
     {
-      "task": "Question patrons regarding desired services, hairstyles, and offer treatment suggestions to alleviate hair problems.",
-      "task_type": "Core"
+      "task": "Order supplies.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.61
     },
     {
-      "task": "Shampoo and condition hair and scalp, including performing scalp massages to clean and remove excess oil.",
-      "task_type": "Core"
+      "task": "Provide skin care and nail treatments.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.27
     },
     {
-      "task": "Provide skin care and nail treatments, such as facials, manicures, and massages using specialized compounds, products, and techniques.",
-      "task_type": "Supplemental"
+      "task": "Provide face, neck, and scalp massages.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.6
     },
     {
-      "task": "Apply, recommend, and sell cosmetics, lotions, and skin-care products including advising clients on their use and benefits.",
-      "task_type": "Core"
+      "task": "Suggest treatments to alleviate hair problems.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.72
     },
     {
-      "task": "Shape, trim, and shave beards and moustaches, using scissors, razors, and other grooming tools.",
-      "task_type": "Core"
+      "task": "Perform clerical and administrative duties such as keeping records, paying bills, and hiring and supervising personnel.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.13
     },
     {
-      "task": "Evaluate clients' skin and nails, performing necessary treatments to improve their condition and resilience.",
-      "task_type": "Core"
+      "task": "Curl, color, or straighten hair, using special chemical solutions and equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.97
     },
     {
-      "task": "Record services provided and schedule appointments, while managing payments and maintaining treatment records.",
-      "task_type": "Core"
+      "task": "Requisition or acquire needed materials for special effects, including wigs, beards, and special cosmetics.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.67
     },
     {
-      "task": "Apply makeup to enhance or alter appearance for performances, including selecting shades and maintaining continuity throughout productions.",
-      "task_type": "Core"
+      "task": "Confer with stage or motion picture officials and performers to determine desired effects.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.72
     },
     {
-      "task": "Clean, sanitize, and maintain tools and work environments, ensuring safe and hygienic conditions for clients.",
-      "task_type": "Core"
+      "task": "Advise clients on nail care and use of products and colors.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.16
     },
     {
-      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
-      "task_type": "Core"
+      "task": "Maintain supply inventories and records of client services.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.61
     },
     {
-      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
-      "task_type": "Core"
+      "task": "Whiten underside of nails with white paste or pencils.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.42
     },
     {
-      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
-      "task_type": "Core"
+      "task": "Decorate clients' nails by piercing or attaching ornaments or designs.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.15
+    },
+    {
+      "task": "Duplicate work precisely to replicate characters' appearances on a daily basis.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.89
+    },
+    {
+      "task": "Examine sketches, photographs, and plaster models to obtain desired character image depiction.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.3
+    },
+    {
+      "task": "Establish budgets, and work within budgetary limits.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.58
+    },
+    {
+      "task": "Apply makeup to enhance or alter the appearance of people appearing in productions such as movies.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.86
+    },
+    {
+      "task": "Alter or maintain makeup during productions as necessary to compensate for lighting changes or to achieve continuity of effect.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.76
+    },
+    {
+      "task": "Select desired makeup shades from stock, or mix oil, grease, and coloring to achieve specific color effects.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.5
+    },
+    {
+      "task": "Assess performers' skin type to ensure that makeup will not cause break-outs or skin irritations.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.45
+    },
+    {
+      "task": "Analyze a script, noting events that affect each character's appearance, so that plans can be made for each scene.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.84
+    },
+    {
+      "task": "Attach prostheses to performers and apply makeup to create special features or effects, such as scars, aging, or illness.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.31
+    },
+    {
+      "task": "Write makeup sheets and take photos to document specific looks and the products used to achieve the looks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.47
+    },
+    {
+      "task": "Treat scalp conditions and hair loss, using specialized lotions, shampoos, or equipment such as infrared lamps or vibrating equipment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.13
+    },
+    {
+      "task": "Extend nails using powder, solvent, and paper forms attached to tips of customers' fingers to support and shape artificial nails.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.91
+    },
+    {
+      "task": "Treat nails to repair or improve strength and resilience by wrapping.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.06
+    },
+    {
+      "task": "Assess the condition of clients' hands, remove dead skin, and massage hands.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.22
+    },
+    {
+      "task": "Use rotary abrasive wheels to shape and smooth nails or artificial extensions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.33
+    },
+    {
+      "task": "Prepare customers' nails in soapy water, using swabs, files, and orange sticks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.45
+    },
+    {
+      "task": "Prepare nail cuticles with water and oil, using cuticle knives to push back cuticles and scissors or nippers to trim cuticles.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.51
+    },
+    {
+      "task": "Stay abreast of latest industry trends, products, research, and treatments.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.53
+    },
+    {
+      "task": "Advise patrons with chronic or potentially contagious scalp conditions to seek medical treatment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.74
+    },
+    {
+      "task": "Evaluate environmental characteristics, such as venue size and lighting plans, to determine makeup requirements.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.1
+    },
+    {
+      "task": "Massage, shampoo, and condition patron's hair and scalp to clean them and remove excess oil.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.8
+    },
+    {
+      "task": "Demonstrate products to clients, and provide instruction in makeup application.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.33
+    },
+    {
+      "task": "Wash and reset wigs.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.0
+    },
+    {
+      "task": "Provide performers with makeup removal assistance after performances have been completed.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.95
+    },
+    {
+      "task": "Study production information, such as character descriptions, period settings, and situations, to determine makeup requirements.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.63
+    },
+    {
+      "task": "Advise hairdressers on the hairstyles required for character parts.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.21
+    },
+    {
+      "task": "Create character drawings or models, based upon independent research, to augment period production files.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.67
+    },
+    {
+      "task": "Design rubber or plastic prostheses that can be used to change performers' appearances.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.94
+    },
+    {
+      "task": "Clean supplies such as makeup brushes.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 5.0
+    },
+    {
+      "task": "Provide facial and body massages.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.31
+    },
+    {
+      "task": "Perform simple extractions to remove blackheads.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.59
+    },
+    {
+      "task": "Refer clients to medical personnel for treatment of serious skin problems.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.37
+    },
+    {
+      "task": "Treat the facial skin to maintain and improve its appearance, using specialized techniques and products, such as peels and masks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.67
+    },
+    {
+      "task": "Cleanse clients' skin with water, creams, or lotions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.92
+    },
+    {
+      "task": "Select and apply cosmetic products, such as creams, lotions, and tonics.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.59
+    },
+    {
+      "task": "Examine clients' skin, using magnifying lamps or visors when necessary, to evaluate skin condition and appearance.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.65
+    },
+    {
+      "task": "Demonstrate how to clean and care for skin properly and recommend skin-care regimens.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.88
+    },
+    {
+      "task": "Keep records of client needs and preferences and the services provided.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.73
+    },
+    {
+      "task": "Clean and sanitize tools and work environment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.75
+    },
+    {
+      "task": "Tint eyelashes and eyebrows.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.74
+    },
+    {
+      "task": "Collaborate with plastic surgeons and dermatologists to provide patients with preoperative and postoperative skin care.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.6
+    },
+    {
+      "task": "Shampoo, rinse, condition, and dry hair and scalp or hairpieces with water, liquid soap, or other solutions.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.34
+    },
+    {
+      "task": "Cut, trim and shape hair or hairpieces, based on customers' instructions, hair type, and facial features, using clippers, scissors, trimmers and razors.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.49
+    },
+    {
+      "task": "Analyze patrons' hair and other physical features to determine and recommend beauty treatment or suggest hair styles.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.39
+    },
+    {
+      "task": "Schedule client appointments.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.47
+    },
+    {
+      "task": "Attach wigs or hairpieces to model heads and dress wigs and hairpieces according to instructions, samples, sketches or photographs.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.81
+    },
+    {
+      "task": "Clean, shape, and polish fingernails and toenails, using files and nail polish.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.85
+    },
+    {
+      "task": "Shave, trim, and shape beards and moustaches.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.73
+    },
+    {
+      "task": "Administer therapeutic medication and advise patron to seek medical treatment for chronic or contagious scalp conditions.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.21
+    },
+    {
+      "task": "Apply water or setting, straightening or waving solutions to hair, and use curlers, rollers, hot combs and curling irons to press and curl hair.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.1
+    },
+    {
+      "task": "Develop new styles and techniques.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.13
+    },
+    {
+      "task": "Demonstrate and sell hair care products and cosmetics.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.43
+    },
+    {
+      "task": "Shape eyebrows and remove facial hair, using depilatory cream, tweezers, electrolysis or wax.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.87
+    },
+    {
+      "task": "Advertise services using media such as internet advertising and brochures.",
+      "task_type": "Unclassified",
+      "relevance": 0.1,
+      "importance": 0.0
+    },
+    {
+      "task": "Assess safety of wiring or equipment set-up to determine the risk of fire or electrical shock.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
     },
     {
       "task": "Resolve customer complaints regarding worker performance or services rendered.",
-      "task_type": "Core"
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting workers or operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Provide staff with assistance in performing difficult or complicated duties.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
     },
     {
       "task": "Recruit and hire staff members.",
-      "task_type": "Core"
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Take disciplinary action to address performance problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
     },
     {
       "task": "Train workers in proper operational procedures and functions and explain company policies.",
-      "task_type": "Core"
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
     },
     {
-      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
-      "task_type": "Core"
+      "task": "Arrange worker breaks to ensure services are adequately staffed throughout each shift.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.94
     },
     {
-      "task": "Direct or coordinate the activities of entertainment and recreation related workers.",
-      "task_type": "Core"
+      "task": "Direct or coordinate the activities of workers, such as hotel staff or hair stylists.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.05
+    },
+    {
+      "task": "Inform management about problems, such as employee disputes.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.97
+    },
+    {
+      "task": "Investigate employee complaints and resolve problems following management rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.13
     },
     {
       "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
-      "task_type": "Core"
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Furnish customers with information on events or activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.93
+    },
+    {
+      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.36
+    },
+    {
+      "task": "Direct marketing, advertising, or other customer recruitment efforts.",
+      "task_type": "Supplemental",
+      "relevance": 0.03571428571428571,
+      "importance": 3.41
+    },
+    {
+      "task": "Requisition necessary supplies, equipment, or services.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.71
+    },
+    {
+      "task": "Collaborate with staff members to plan or develop programs of events or schedules of activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, work methods, or customer services.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inspect materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     },
     {
       "task": "Enforce safety rules and regulations.",
-      "task_type": "Unclassified"
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
+    {
+      "name": "Microsoft Excel",
+      "weight": 2.108008658008658
+    },
     {
       "name": "Microsoft Office software",
       "weight": 2.108008658008658
@@ -1658,6 +2156,10 @@
       "weight": 1.0833333333333333
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.9913419913419913
+    },
+    {
       "name": "YouTube",
       "weight": 0.75
     },
@@ -1670,8 +2172,24 @@
       "weight": 0.5913419913419914
     },
     {
+      "name": "Intuit QuickBooks",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Linux",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 0.5
+    },
+    {
       "name": "Point of sale POS payment software",
       "weight": 0.5
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.3333333333333333
     },
     {
       "name": "Aknaf ADVANTAGE Salon Software and Spa Software",
@@ -1686,7 +2204,15 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Blogging software",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Bookitlive",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Clear Books",
       "weight": 0.3333333333333333
     },
     {
@@ -1695,6 +2221,10 @@
     },
     {
       "name": "Customer relationship management CRM software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "DatInf DigiMakeup",
       "weight": 0.3333333333333333
     },
     {
@@ -1710,12 +2240,40 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Inventory tracking software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SavingFace",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Spa management software",
       "weight": 0.3333333333333333
     },
     {
       "name": "Twitter",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "Apple iOS",
+      "weight": 0.25
+    },
+    {
+      "name": "Sale processing software",
+      "weight": 0.25
+    },
+    {
+      "name": "Database software",
+      "weight": 0.1
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.08658008658008658
     },
     {
       "name": "Point of sale POS software",
@@ -1730,16 +2288,32 @@
       "weight": 0.08658008658008658
     },
     {
-      "name": "Scheduling software",
+      "name": "FileMaker Pro",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
       "weight": 0.015151515151515152
     },
     {
-      "name": "Microsoft Excel",
-      "weight": 2.108008658008658
+      "name": "General ledger software",
+      "weight": 0.015151515151515152
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.9913419913419913
+      "name": "SAP software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1928,15 +2502,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Cryoprobes",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Cuticle knives",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Dermatoscopes",
       "weight": 0.3333333333333333
     },
     {
@@ -2140,15 +2706,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Skin lancets",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Skin magnification systems",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Skincare lasers",
       "weight": 0.3333333333333333
     },
     {
@@ -2282,6 +2840,78 @@
     {
       "name": "Wide-tooth combs",
       "weight": 0.25
+    },
+    {
+      "name": "Combination pliers",
+      "weight": 0.1
+    },
+    {
+      "name": "Data input scanners",
+      "weight": 0.1
+    },
+    {
+      "name": "Electric irons",
+      "weight": 0.1
+    },
+    {
+      "name": "Garment steamers",
+      "weight": 0.1
+    },
+    {
+      "name": "Hot glue guns",
+      "weight": 0.1
+    },
+    {
+      "name": "Labelmakers",
+      "weight": 0.1
+    },
+    {
+      "name": "Measuring tapes",
+      "weight": 0.1
+    },
+    {
+      "name": "Mobile radios",
+      "weight": 0.1
+    },
+    {
+      "name": "Multi tools",
+      "weight": 0.1
+    },
+    {
+      "name": "Multipurpose sewing machines",
+      "weight": 0.1
+    },
+    {
+      "name": "Portable ironing boards",
+      "weight": 0.1
+    },
+    {
+      "name": "Sewing needles",
+      "weight": 0.1
+    },
+    {
+      "name": "Thimbles",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Automated external defibrillators AED",
+      "weight": 0.03571428571428571
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

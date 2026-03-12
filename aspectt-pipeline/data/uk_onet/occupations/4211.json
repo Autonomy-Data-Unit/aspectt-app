@@ -1544,57 +1544,87 @@
   ],
   "tasks": [
     {
-      "task": "Maintain medical records, technical library, or correspondence files.",
-      "task_type": "Core"
+      "task": "Transcribe dictation for a variety of medical reports, such as patient histories, physical examinations, emergency room visits, operations, chart reviews, consultation, or discharge summaries.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.65
+    },
+    {
+      "task": "Review and edit transcribed reports or dictated material for spelling, grammar, clarity, consistency, and proper medical terminology.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.73
+    },
+    {
+      "task": "Return dictated reports in printed or electronic form for physician's review, signature, and corrections and for inclusion in patients' medical records.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.88
     },
     {
       "task": "Translate medical jargon and abbreviations into their expanded forms to ensure the accuracy of patient and health care facility records.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.61
     },
     {
-      "task": "Perform various clerical or administrative functions, such as ordering supplies and maintaining an inventory.",
-      "task_type": "Core"
+      "task": "Set up and maintain medical files and databases, including records such as x-ray, lab, and procedure reports, medical histories, diagnostic workups, admission and discharge summaries, and clinical resumes.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.62
     },
     {
-      "task": "Transcribe dictation for a variety of medical reports, including patient histories, physical examinations, and consultation summaries.",
-      "task_type": "Core"
+      "task": "Perform a variety of clerical and office tasks, such as handling incoming and outgoing mail, completing and submitting insurance claims, typing, filing, or operating office machines.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.32
     },
     {
-      "task": "Review, edit, and return transcribed reports for spelling, grammar, clarity, and proper medical terminology.",
-      "task_type": "Core"
+      "task": "Answer telephones and direct calls to appropriate staff.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.64
     },
     {
-      "task": "Perform bookkeeping duties, including preparing financial statements, managing records, and completing insurance forms.",
-      "task_type": "Core"
+      "task": "Greet visitors, ascertain purpose of visit, and direct them to appropriate staff.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.48
     },
     {
-      "task": "Set up and maintain medical files and databases, including records such as x-ray, lab reports, and patient histories.",
-      "task_type": "Core"
+      "task": "Schedule and confirm patient diagnostic appointments, surgeries, or medical consultations.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.51
     },
     {
-      "task": "Receive and screen telephone calls, visitors, and messages, directing them to appropriate staff.",
-      "task_type": "Core"
+      "task": "Prepare correspondence or assist physicians or medical scientists with preparation of reports, speeches, articles, or conference proceedings.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.74
     },
     {
-      "task": "Schedule and confirm patient diagnostic appointments, surgeries, or medical consultations as per physician orders.",
-      "task_type": "Core"
+      "task": "Perform bookkeeping duties, such as credits or collections, preparing and sending financial statements or bills, and keeping financial records.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.2
     },
     {
-      "task": "Compile and record medical charts, reports, or correspondence using computer applications or typewriter.",
-      "task_type": "Core"
+      "task": "Maintain awareness of advances in medicine, computerized diagnostic and treatment equipment, data processing technology, government regulations, health insurance changes, and financing options.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.16
     },
     {
-      "task": "Establish work schedules and assignments for staff according to workload and equipment availability.",
-      "task_type": "Core"
+      "task": "Prepare activity reports to inform management of the status and implementation plans of programs, services, and quality initiatives.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.78
     }
   ],
   "technology_skills": [
     {
       "name": "Database software",
-      "weight": 0.8666666666666667
-    },
-    {
-      "name": "Healthcare common procedure coding system HCPCS",
       "weight": 0.8666666666666667
     },
     {
@@ -1614,6 +1644,10 @@
       "weight": 0.8666666666666667
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.8666666666666667
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.8666666666666667
     },
@@ -1630,6 +1664,10 @@
       "weight": 0.8666666666666667
     },
     {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.6666666666666666
+    },
+    {
       "name": "Email software",
       "weight": 0.6666666666666666
     },
@@ -1639,6 +1677,10 @@
     },
     {
       "name": "Word processing software",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "dBASE Plus",
       "weight": 0.6666666666666666
     },
     {
@@ -1654,11 +1696,23 @@
       "weight": 0.5333333333333333
     },
     {
+      "name": "FileMaker Pro",
+      "weight": 0.5333333333333333
+    },
+    {
       "name": "Google Docs",
       "weight": 0.5333333333333333
     },
     {
       "name": "Google Drive",
+      "weight": 0.5333333333333333
+    },
+    {
+      "name": "Henry Schein Dentrix",
+      "weight": 0.5333333333333333
+    },
+    {
+      "name": "Intuit QuickBooks",
       "weight": 0.5333333333333333
     },
     {
@@ -1686,8 +1740,24 @@
       "weight": 0.5333333333333333
     },
     {
+      "name": "Microsoft Publisher",
+      "weight": 0.5333333333333333
+    },
+    {
       "name": "PCC EHR",
       "weight": 0.5333333333333333
+    },
+    {
+      "name": "Accounts payable software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Accounts receivable software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Addressing software",
+      "weight": 0.3333333333333333
     },
     {
       "name": "Allscripts Payerpath",
@@ -1698,11 +1768,35 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Amazing Charts",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Billing software",
       "weight": 0.3333333333333333
     },
     {
+      "name": "Bytescribe Development Company WavPlayer",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "CPSI CPSI System",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Calendar software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Crescendo Systems Corporation MedRite-XL",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Crescendo Systems DigiScribe-XL",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Desktop publishing software",
       "weight": 0.3333333333333333
     },
     {
@@ -1711,6 +1805,34 @@
     },
     {
       "name": "Electronic medical record EMR systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Emmaus MPWord",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "HMS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "IDX Groupcast",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Integrated Systems Management OmniMD",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Intuit QuickBooks Point of Sale",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "McKesson Lytec",
       "weight": 0.3333333333333333
     },
     {
@@ -1726,6 +1848,18 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Microsys MicroMD",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Narratek Smartype",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "NaviMedix NaviNet",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Nuance Dragon NaturallySpeaking",
       "weight": 0.3333333333333333
     },
@@ -1734,7 +1868,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Patterson Dental Supply Patterson EagleSoft",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "PracticeWorks Systems Kodak WINOMS CS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Precision Data Solutions VoicePower",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Prognosis Innovation Healthcare ChartAccess",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Scheduling software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SpectraMedi EasyFlow",
       "weight": 0.3333333333333333
     },
     {
@@ -1742,7 +1896,35 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "SpeedType",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SpeedUp Trans",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Spellex AccuCount",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sylvan Software Complete Medical Pharmaceutical Spell Checker",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sylvan Software DropChute Pro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sylvan Software ShortCut",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Voice recognition software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "YouTube",
       "weight": 0.3333333333333333
     },
     {
@@ -1750,7 +1932,39 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "g-net solutions MTP",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "API Healthcare ActiveStaffer",
+      "weight": 0.2
+    },
+    {
+      "name": "AcuStaf",
+      "weight": 0.2
+    },
+    {
       "name": "Adobe Acrobat",
+      "weight": 0.2
+    },
+    {
+      "name": "Alteer Office",
+      "weight": 0.2
+    },
+    {
+      "name": "ArticSoft FileAssurity",
+      "weight": 0.2
+    },
+    {
+      "name": "Bed Management Suite",
+      "weight": 0.2
+    },
+    {
+      "name": "Blackboard software",
+      "weight": 0.2
+    },
+    {
+      "name": "CareCentric MestaMed",
       "weight": 0.2
     },
     {
@@ -1758,7 +1972,35 @@
       "weight": 0.2
     },
     {
-      "name": "Current procedural terminology CPT software",
+      "name": "Cisco Webex",
+      "weight": 0.2
+    },
+    {
+      "name": "Citrix cloud computing software",
+      "weight": 0.2
+    },
+    {
+      "name": "CliniTrend",
+      "weight": 0.2
+    },
+    {
+      "name": "ColorSoft AutoMatch",
+      "weight": 0.2
+    },
+    {
+      "name": "ConceptDraw",
+      "weight": 0.2
+    },
+    {
+      "name": "Contract management software",
+      "weight": 0.2
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.2
+    },
+    {
+      "name": "Dental Common Access System DENCAS",
       "weight": 0.2
     },
     {
@@ -1766,7 +2008,23 @@
       "weight": 0.2
     },
     {
+      "name": "Emdeon HealthPro",
+      "weight": 0.2
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.2
+    },
+    {
+      "name": "Fund accounting software",
+      "weight": 0.2
+    },
+    {
       "name": "GE Healthcare Centricity EMR",
+      "weight": 0.2
+    },
+    {
+      "name": "Google Meet",
       "weight": 0.2
     },
     {
@@ -1774,12 +2032,100 @@
       "weight": 0.2
     },
     {
+      "name": "Human resource management software HRMS",
+      "weight": 0.2
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.2
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.2
+    },
+    {
+      "name": "Inventory management software",
+      "weight": 0.2
+    },
+    {
+      "name": "Kodak Dental Systems Kodak SOFTDENT Practice management software PMS",
+      "weight": 0.2
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.2
+    },
+    {
       "name": "McKesson Horizon Ambulatory Care",
       "weight": 0.2
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.8666666666666667
+      "name": "MedFORCE Technologies WorkFLOW",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Teams",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.2
+    },
+    {
+      "name": "Misys Healthcare Systems Misys Tiger",
+      "weight": 0.2
+    },
+    {
+      "name": "Nuance PaperPort Professional",
+      "weight": 0.2
+    },
+    {
+      "name": "PCC Pediatric Partner",
+      "weight": 0.2
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.2
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.2
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.2
+    },
+    {
+      "name": "TeleTracking PreAdmit-Tracking",
+      "weight": 0.2
+    },
+    {
+      "name": "e-MDs Bill",
+      "weight": 0.2
+    },
+    {
+      "name": "e-MDs Chart",
+      "weight": 0.2
+    },
+    {
+      "name": "e-MDs DocMan",
+      "weight": 0.2
+    },
+    {
+      "name": "e-MDs Schedule",
+      "weight": 0.2
     }
   ],
   "tools_used": [

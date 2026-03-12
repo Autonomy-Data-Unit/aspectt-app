@@ -1544,68 +1544,292 @@
   ],
   "tasks": [
     {
-      "task": "Keep up with developments in the area of expertise by reading current journals, books, or magazine articles.",
-      "task_type": "Core"
+      "task": "Keep up with developments in area of expertise by reading current journals, books, or magazine articles.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.73
     },
     {
-      "task": "Devise programs to develop executive potential among employees in lower-level positions and offer specific training programs to help workers improve job skills.",
-      "task_type": "Core"
+      "task": "Devise programs to develop executive potential among employees in lower-level positions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.79
     },
     {
-      "task": "Present information using instructional techniques, such as role playing, simulations, team exercises, group discussions, or videos.",
-      "task_type": "Core"
+      "task": "Present information with a variety of instructional techniques or formats, such as role playing, simulations, team exercises, group discussions, videos, or lectures.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.65
     },
     {
-      "task": "Evaluate modes of training delivery, such as in-person or virtual, to optimize effectiveness, costs, or environmental impacts.",
-      "task_type": "Core"
+      "task": "Develop or implement training programs related to efficiency, recycling, or other issues with environmental impacts.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.59
     },
     {
-      "task": "Design, plan, organize, or direct orientation and training programs for employees or customers, while selecting and assigning instructors to conduct training.",
-      "task_type": "Core"
+      "task": "Evaluate modes of training delivery, such as in-person or virtual, to optimize training effectiveness, training costs, or environmental impacts.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.45
     },
     {
-      "task": "Monitor training costs, prepare budget reports to justify expenditures, and document activities and record information on training programs.",
-      "task_type": "Core"
+      "task": "Design, plan, organize, or direct orientation and training programs for employees or customers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.33
     },
     {
-      "task": "Assess training needs through surveys, interviews, focus groups, or consultation with employees and managers.",
-      "task_type": "Core"
+      "task": "Monitor training costs and prepare budget reports to justify expenditures.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.82
     },
     {
-      "task": "Monitor, evaluate, or record training activities or program effectiveness, and develop alternative training methods if expected improvements are not seen.",
-      "task_type": "Core"
+      "task": "Supervise, evaluate, or refer instructors to skill development classes.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.42
     },
     {
-      "task": "Conduct safety training or education programs, and provide new-employee health and safety orientations and develop materials for these presentations.",
-      "task_type": "Core"
+      "task": "Refer trainees to employer relations representatives, to locations offering job placement assistance, or to appropriate social services agencies, if warranted.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.86
     },
     {
-      "task": "Prepare and distribute health education materials, develop and present health education and promotion programs for community engagement.",
-      "task_type": "Core"
+      "task": "Negotiate contracts with clients for desired training outcomes, fees, or expenses.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.47
     },
     {
-      "task": "Investigate health-related complaints, accidents to identify causes, and ensure compliance with public health legislation and regulations.",
-      "task_type": "Core"
+      "task": "Obtain, organize, or develop training procedure manuals, guides, or course materials, such as handouts or visual materials.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.62
+    },
+    {
+      "task": "Select and assign instructors to conduct training.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.5
+    },
+    {
+      "task": "Attend meetings or seminars to obtain information for use in training programs or to inform management of training program status.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.68
+    },
+    {
+      "task": "Schedule classes based on availability of classrooms, equipment, or instructors.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.26
+    },
+    {
+      "task": "Assess training needs through surveys, interviews with employees, focus groups, or consultation with managers, instructors, or customer representatives.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
+    },
+    {
+      "task": "Offer specific training programs to help workers maintain or improve job skills.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
+    },
+    {
+      "task": "Evaluate training materials prepared by instructors, such as outlines, text, or handouts.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.0
+    },
+    {
+      "task": "Develop alternative training methods if expected improvements are not seen.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.1
+    },
+    {
+      "task": "Coordinate recruitment and placement of training program participants.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.57
+    },
+    {
+      "task": "Coordinate \"right-to-know\" programs regarding hazardous chemicals or other substances.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.6
+    },
+    {
+      "task": "Maintain or update emergency response plans or procedures.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.61
+    },
+    {
+      "task": "Develop or maintain medical monitoring programs for employees.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.44
+    },
+    {
+      "task": "Inspect specified areas to ensure the presence of fire prevention equipment, safety equipment, or first-aid supplies.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.76
+    },
+    {
+      "task": "Analyze incident data to identify trends in injuries, illnesses, accidents, or other hazards.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.65
+    },
+    {
+      "task": "Develop educational materials and programs for community agencies, local government, and state government.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.82
+    },
+    {
+      "task": "Prepare and distribute health education materials, such as reports, bulletins, and visual aids, to address smoking, vaccines, and other public health concerns.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.12
+    },
+    {
+      "task": "Investigate accidents to identify causes or to determine how such accidents might be prevented in the future.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.32
+    },
+    {
+      "task": "Conduct safety training or education programs and demonstrate the use of safety equipment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.96
+    },
+    {
+      "task": "Document activities and record information, such as the numbers of applications completed, presentations conducted, and persons assisted.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.04
+    },
+    {
+      "task": "Develop and present health education and promotion programs, such as training workshops, conferences, and school or community presentations.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.99
+    },
+    {
+      "task": "Develop and maintain cooperative working relationships with agencies and organizations interested in public health care.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.1
+    },
+    {
+      "task": "Develop operational plans and policies necessary to achieve health education objectives and services.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.81
+    },
+    {
+      "task": "Collaborate with health specialists and civic groups to determine community health needs and the availability of services and to develop goals for meeting needs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.85
+    },
+    {
+      "task": "Maintain databases, mailing lists, telephone networks, and other information to facilitate the functioning of health education programs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.07
+    },
+    {
+      "task": "Supervise professional and technical staff in implementing health programs, objectives, and goals.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.84
+    },
+    {
+      "task": "Design and conduct evaluations and diagnostic studies to assess the quality and performance of health education programs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.64
+    },
+    {
+      "task": "Provide program information to the public by preparing and presenting press releases, conducting media campaigns, or maintaining program-related Web sites.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.78
+    },
+    {
+      "task": "Develop, prepare, and coordinate grant applications and grant-related activities to obtain funding for health education programs and related work.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.62
+    },
+    {
+      "task": "Provide guidance to agencies and organizations on assessment of health education needs and on development and delivery of health education programs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.46
+    },
+    {
+      "task": "Develop and maintain health education libraries to provide resources for staff and community agencies.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.71
     },
     {
       "task": "Develop, conduct, or coordinate health needs assessments and other public health surveys.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.84
     },
     {
-      "task": "Inspect or evaluate workplace environments and equipment to ensure compliance with safety standards and recommend measures to help protect workers.",
-      "task_type": "Core"
+      "task": "Order suspension of activities that pose threats to workers' health or safety.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.41
     },
     {
-      "task": "Collaborate with health specialists and civic groups to determine community health needs and develop goals for addressing those needs.",
-      "task_type": "Core"
+      "task": "Recommend measures to help protect workers from potentially hazardous work methods, processes, or materials.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.57
     },
     {
-      "task": "Investigate the adequacy of ventilation, exhaust equipment, and conditions affecting employee health, comfort, or performance.",
-      "task_type": "Core"
+      "task": "Investigate the adequacy of ventilation, exhaust equipment, lighting, or other conditions that could affect employee health, comfort, or performance.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.0
     },
     {
-      "task": "Write reports related to training programs, health education, or safety inspections.",
-      "task_type": "Core"
+      "task": "Develop or maintain hygiene programs, such as noise surveys, continuous atmosphere monitoring, ventilation surveys, or asbestos management plans.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.41
+    },
+    {
+      "task": "Inspect or evaluate workplace environments, equipment, or practices to ensure compliance with safety standards and government regulations.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.13
+    },
+    {
+      "task": "Collaborate with engineers or physicians to institute control or remedial measures for hazardous or potentially hazardous conditions or equipment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.09
+    },
+    {
+      "task": "Write reports.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.91
     }
   ],
   "technology_skills": [
@@ -1638,6 +1862,14 @@
       "weight": 0.9
     },
     {
+      "name": "Adobe Photoshop",
+      "weight": 0.7
+    },
+    {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.7
+    },
+    {
       "name": "Blackboard software",
       "weight": 0.7
     },
@@ -1658,11 +1890,83 @@
       "weight": 0.7
     },
     {
+      "name": "Microsoft Publisher",
+      "weight": 0.7
+    },
+    {
       "name": "Microsoft SharePoint",
       "weight": 0.7
     },
     {
+      "name": "Microsoft Visio",
+      "weight": 0.7
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.7
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe ActionScript",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe After Effects",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Authorware",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Captivate",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Presenter",
+      "weight": 0.5
+    },
+    {
+      "name": "Advanced business application programming ABAP",
+      "weight": 0.5
+    },
+    {
+      "name": "Alchemy Systems SISTEM",
+      "weight": 0.5
+    },
+    {
+      "name": "Apache Struts",
+      "weight": 0.5
+    },
+    {
+      "name": "Apple Final Cut Pro",
+      "weight": 0.5
+    },
+    {
       "name": "Articulate Rapid E-Learning Studio",
+      "weight": 0.5
+    },
+    {
+      "name": "Backbone.js",
       "weight": 0.5
     },
     {
@@ -1670,11 +1974,71 @@
       "weight": 0.5
     },
     {
+      "name": "Blatant Media Absorb LMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Brainshark Rapid Learning",
+      "weight": 0.5
+    },
+    {
       "name": "Cisco Webex",
       "weight": 0.5
     },
     {
+      "name": "Citrix cloud computing software",
+      "weight": 0.5
+    },
+    {
       "name": "Cobent Learning and Compliance Suite LCS",
+      "weight": 0.5
+    },
+    {
+      "name": "Common Curriculum",
+      "weight": 0.5
+    },
+    {
+      "name": "Computer Generated Solutions Learning Management System",
+      "weight": 0.5
+    },
+    {
+      "name": "Django",
+      "weight": 0.5
+    },
+    {
+      "name": "Drupal",
+      "weight": 0.5
+    },
+    {
+      "name": "EZ LCMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Eedo Knowledgeware Eedo Force Ten",
+      "weight": 0.5
+    },
+    {
+      "name": "ElearningForce JoomlaLMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Epic Systems",
+      "weight": 0.5
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.5
+    },
+    {
+      "name": "FlexTraining Total e-Learning Solution",
+      "weight": 0.5
+    },
+    {
+      "name": "G-Cube Solutions Wizdom Web LMS",
+      "weight": 0.5
+    },
+    {
+      "name": "GeoMetrix Data Systems Training Partner",
       "weight": 0.5
     },
     {
@@ -1683,6 +2047,70 @@
     },
     {
       "name": "Google Meet",
+      "weight": 0.5
+    },
+    {
+      "name": "Google Sites",
+      "weight": 0.5
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.5
+    },
+    {
+      "name": "HP Trim",
+      "weight": 0.5
+    },
+    {
+      "name": "Halogen eLMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Human resource management software HRMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.5
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.5
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.5
+    },
+    {
+      "name": "ICS Learning Group Inquisiq EX",
+      "weight": 0.5
+    },
+    {
+      "name": "Ikonami AT-Learning Tool",
+      "weight": 0.5
+    },
+    {
+      "name": "Inspired eLearning iLMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Intelladon Enterprise Knowledge Platform EKP",
+      "weight": 0.5
+    },
+    {
+      "name": "Intelligent Information Conversion Technologies MeritScholar",
+      "weight": 0.5
+    },
+    {
+      "name": "Intellum Rollbook",
+      "weight": 0.5
+    },
+    {
+      "name": "Interwoven software",
+      "weight": 0.5
+    },
+    {
+      "name": "JavaScript",
       "weight": 0.5
     },
     {
@@ -1702,7 +2130,87 @@
       "weight": 0.5
     },
     {
+      "name": "Medworxx Learning Management System",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft NetMeeting",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft OneNote",
+      "weight": 0.5
+    },
+    {
       "name": "Moodle",
+      "weight": 0.5
+    },
+    {
+      "name": "MySQL",
+      "weight": 0.5
+    },
+    {
+      "name": "Mzinga On-Demand Learning Suite",
+      "weight": 0.5
+    },
+    {
+      "name": "NetDimensions Enterprise Knowledge Platform EKP",
+      "weight": 0.5
+    },
+    {
+      "name": "OnPoint Digital OnPoint Learning & Performance Suite",
+      "weight": 0.5
+    },
+    {
+      "name": "Operitel LearnFlex",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle PL/SQL",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle Solaris",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle Taleo",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle WebLogic Server",
+      "weight": 0.5
+    },
+    {
+      "name": "PHP",
+      "weight": 0.5
+    },
+    {
+      "name": "PRO-ductivity Systems Compliance Training Manager Web",
+      "weight": 0.5
+    },
+    {
+      "name": "Pathlore LMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Plateau Learning Management System LMS",
       "weight": 0.5
     },
     {
@@ -1710,7 +2218,59 @@
       "weight": 0.5
     },
     {
+      "name": "Prezi",
+      "weight": 0.5
+    },
+    {
+      "name": "Qarbon ViewletBuilder Professional",
+      "weight": 0.5
+    },
+    {
+      "name": "RISC Virtual Training Assistant",
+      "weight": 0.5
+    },
+    {
+      "name": "Right Reason Technologies RightTrack",
+      "weight": 0.5
+    },
+    {
       "name": "Screencast-O-Matic",
+      "weight": 0.5
+    },
+    {
+      "name": "SkillSoft SkillPort",
+      "weight": 0.5
+    },
+    {
+      "name": "SmugMug Flickr",
+      "weight": 0.5
+    },
+    {
+      "name": "SumTotal Systems ToolBook",
+      "weight": 0.5
+    },
+    {
+      "name": "SumTotal Systems TotalLMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Telania eLeaP Learning Management System LMS/LCMS",
+      "weight": 0.5
+    },
+    {
+      "name": "The Human Equation InSite LMS",
+      "weight": 0.5
+    },
+    {
+      "name": "TrainCaster LMS",
+      "weight": 0.5
+    },
+    {
+      "name": "TrainOnTrack Learning Management System LMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Upside Learning UpsideLMS",
       "weight": 0.5
     },
     {
@@ -1718,8 +2278,32 @@
       "weight": 0.5
     },
     {
+      "name": "Xerceo Learn",
+      "weight": 0.5
+    },
+    {
+      "name": "Xyleme Learning Content Management System LCMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Ziiva Prosperity LMS",
+      "weight": 0.5
+    },
+    {
       "name": "Zoom",
       "weight": 0.5
+    },
+    {
+      "name": "dominKnow Learning Center",
+      "weight": 0.5
+    },
+    {
+      "name": "techniques.org knowledgeWorks LMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Blogging software",
+      "weight": 0.2
     },
     {
       "name": "Centers for Disease Control and Prevention CDC WONDER",
@@ -1734,7 +2318,43 @@
       "weight": 0.2
     },
     {
+      "name": "ESS Compliance Suite",
+      "weight": 0.2
+    },
+    {
+      "name": "EcoLogic ADAM Indoor Air Quality and Analytical Data Management",
+      "weight": 0.2
+    },
+    {
       "name": "Edpuzzle",
+      "weight": 0.2
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.2
+    },
+    {
+      "name": "ImageWave MSDSFinder",
+      "weight": 0.2
+    },
+    {
+      "name": "JamBoard",
+      "weight": 0.2
+    },
+    {
+      "name": "MEDITECH software",
+      "weight": 0.2
+    },
+    {
+      "name": "Mannus Compliance: EHS",
+      "weight": 0.2
+    },
+    {
+      "name": "Medgate Enterprise EHS",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Active Server Pages ASP",
       "weight": 0.2
     },
     {
@@ -1742,11 +2362,27 @@
       "weight": 0.2
     },
     {
+      "name": "Padlet",
+      "weight": 0.2
+    },
+    {
+      "name": "Primatech AUDITWorks",
+      "weight": 0.2
+    },
+    {
       "name": "Quality Systems Incorporated Safety Tagging System",
       "weight": 0.2
     },
     {
+      "name": "RAE Systems HazRAE",
+      "weight": 0.2
+    },
+    {
       "name": "Safety Software OSHALOG 300",
+      "weight": 0.2
+    },
+    {
+      "name": "Wiki software",
       "weight": 0.2
     },
     {
@@ -1833,6 +2469,10 @@
     },
     {
       "name": "Combustible gas meters",
+      "weight": 0.2
+    },
+    {
+      "name": "Compressed air guns",
       "weight": 0.2
     },
     {
@@ -1945,6 +2585,10 @@
     },
     {
       "name": "Particle sensors",
+      "weight": 0.2
+    },
+    {
+      "name": "Peristaltic pumps",
       "weight": 0.2
     },
     {

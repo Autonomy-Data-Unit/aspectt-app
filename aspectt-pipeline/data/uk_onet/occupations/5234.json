@@ -1545,155 +1545,1623 @@
   "tasks": [
     {
       "task": "Read and interpret pilots' descriptions of problems to diagnose causes.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.98
+    },
+    {
+      "task": "Locate and mark dimensions and reference lines on defective or replacement parts, using templates, scribes, compasses, and steel rules.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.41
+    },
+    {
+      "task": "Modify aircraft structures, space vehicles, systems, or components, following drawings, schematics, charts, engineering orders, and technical publications.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.63
+    },
+    {
+      "task": "Remove, inspect, repair, and install in-flight refueling stores and external fuel tanks.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.61
+    },
+    {
+      "task": "Reassemble engines following repair or inspection and reinstall engines in aircraft.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.06
+    },
+    {
+      "task": "Obtain fuel and oil samples and check them for contamination.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.88
+    },
+    {
+      "task": "Test operation of engines and other systems, using test equipment, such as ignition analyzers, compression checkers, distributor timers, or ammeters.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.11
+    },
+    {
+      "task": "Assemble and install electrical, plumbing, mechanical, hydraulic, and structural components and accessories, using hand or power tools.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.11
+    },
+    {
+      "task": "Measure parts for wear, using precision instruments.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.19
+    },
+    {
+      "task": "Replace or repair worn, defective, or damaged components, using hand tools, gauges, and testing equipment.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.23
+    },
+    {
+      "task": "Measure the tension of control cables.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.99
+    },
+    {
+      "task": "Maintain, repair, and rebuild aircraft structures, functional components, and parts, such as wings and fuselage, rigging, hydraulic units, oxygen systems, fuel systems, electrical systems, gaskets, or seals.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.04
+    },
+    {
+      "task": "Inspect airframes for wear or other defects.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.23
+    },
+    {
+      "task": "Examine and inspect aircraft components, including landing gear, hydraulic systems, and deicers to locate cracks, breaks, leaks, or other problems.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.3
+    },
+    {
+      "task": "Conduct routine and special inspections as required by regulations.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.28
+    },
+    {
+      "task": "Inspect completed work to certify that maintenance meets standards and that aircraft are ready for operation.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.48
+    },
+    {
+      "task": "Install and align repaired or replacement parts for subsequent riveting or welding, using clamps and wrenches.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.57
+    },
+    {
+      "task": "Clean, strip, prime, and sand structural surfaces and materials to prepare them for bonding.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.11
+    },
+    {
+      "task": "Accompany aircraft on flights to make in-flight adjustments and corrections.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.57
+    },
+    {
+      "task": "Service and maintain aircraft and related apparatus by performing activities such as flushing crankcases, cleaning screens, and or moving parts.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.13
+    },
+    {
+      "task": "Cure bonded structures, using portable or stationary curing equipment.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.06
+    },
+    {
+      "task": "Determine repair limits for engine hot section parts.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.91
+    },
+    {
+      "task": "Disassemble engines and inspect parts, such as turbine blades or cylinders, for corrosion, wear, warping, cracks, and leaks, using precision measuring instruments, x-rays, and magnetic inspection equipment.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.62
+    },
+    {
+      "task": "Check for corrosion, distortion, and invisible cracks in the fuselage, wings, and tail, using x-ray and magnetic inspection equipment.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.21
+    },
+    {
+      "task": "Spread plastic film over areas to be repaired to prevent damage to surrounding areas.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.4
+    },
+    {
+      "task": "Prepare and paint aircraft surfaces.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 2.95
+    },
+    {
+      "task": "Clean engines, sediment bulk and screens, and carburetors, adjusting carburetor float levels.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.61
+    },
+    {
+      "task": "Trim and shape replacement body sections to specified sizes and fits and secure sections in place, using adhesives, hand tools, and power tools.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.07
+    },
+    {
+      "task": "Communicate with other workers to coordinate fitting and alignment of heavy parts, or to facilitate processing of repair parts.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.73
+    },
+    {
+      "task": "Clean, refuel, and change oil in line service aircraft.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.69
+    },
+    {
+      "task": "Remove or cut out defective parts or drill holes to gain access to internal defects or damage, using drills and punches.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.74
+    },
+    {
+      "task": "Fabricate defective sections or parts, using metal fabricating machines, saws, brakes, shears, and grinders.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.33
+    },
+    {
+      "task": "Inventory and requisition or order supplies, parts, materials, and equipment.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.7
+    },
+    {
+      "task": "Remove or install aircraft engines, using hoists or forklift trucks.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.14
+    },
+    {
+      "task": "Examine engines through specially designed openings while working from ladders or scaffolds, or use hoists or lifts to remove the entire engine from an aircraft.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.87
+    },
+    {
+      "task": "Read and interpret maintenance manuals, service bulletins, and other specifications to determine the feasibility and method of repairing or replacing malfunctioning or damaged components.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.45
+    },
+    {
+      "task": "Listen to operating engines to detect and diagnose malfunctions, such as sticking or burned valves.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.79
+    },
+    {
+      "task": "Install electrical and electronic components, assemblies, and systems in aircraft, using hand tools, power tools, or soldering irons.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.38
+    },
+    {
+      "task": "Operate computer-aided drafting and design applications to design avionics system modifications.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.12
+    },
+    {
+      "task": "Assemble prototypes or models of circuits, instruments, and systems for use in testing.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.13
+    },
+    {
+      "task": "Adjust, repair, or replace malfunctioning components or assemblies, using hand tools or soldering irons.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
+    },
+    {
+      "task": "Interpret flight test data to diagnose malfunctions and systemic performance problems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.08
+    },
+    {
+      "task": "Coordinate work with that of engineers, technicians, and other aircraft maintenance personnel.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
+    },
+    {
+      "task": "Keep records of maintenance and repair work.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
+    },
+    {
+      "task": "Test and troubleshoot instruments, components, and assemblies, using circuit testers, oscilloscopes, or voltmeters.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.51
+    },
+    {
+      "task": "Set up and operate ground support and test equipment to perform functional flight tests of electrical and electronic systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.34
+    },
+    {
+      "task": "Adjust working parts, such as fan belts, contacts, and springs, using hand tools and gauges.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.06
+    },
+    {
+      "task": "Scrape and clean units or parts, using cleaning solvents and equipment such as buffing wheels.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.91
+    },
+    {
+      "task": "Rewind coils on cores in slots, or make replacement coils, using coil-winding machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.64
+    },
+    {
+      "task": "Cut and form insulation, and insert insulation into armature, rotor, or stator slots.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.92
+    },
+    {
+      "task": "Set machinery for proper performance, using computers.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.99
+    },
+    {
+      "task": "Clean cells, cell assemblies, glassware, leads, electrical connections, and battery poles, using scrapers, steam, water, emery cloths, power grinders, or acid.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.65
+    },
+    {
+      "task": "Disassemble defective equipment so that repairs can be made, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.08
+    },
+    {
+      "task": "Reface, ream, and polish commutators and machine parts to specified tolerances, using machine tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.94
+    },
+    {
+      "task": "Weld, braze, or solder electrical connections.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.63
+    },
+    {
+      "task": "Locate malfunctions in brakes, motors, switches, and signal and control systems, using test equipment.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.48
+    },
+    {
+      "task": "Verify and adjust alignments and dimensions of parts, using gauges and tracing lathes.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.25
+    },
+    {
+      "task": "Test equipment for overheating, using speed gauges and thermometers.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.95
+    },
+    {
+      "task": "Steam-clean polishing and buffing wheels to remove abrasives and bonding materials, and spray, brush, or recoat surfaces as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.01
+    },
+    {
+      "task": "Test battery charges, and replace or recharge batteries as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.86
+    },
+    {
+      "task": "Examine systems to locate problems, such as loose connections or broken insulation.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.36
+    },
+    {
+      "task": "Inspect installation sites and study work orders, building plans, and installation manuals to determine materials requirements and installation procedures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.12
+    },
+    {
+      "task": "Test and repair circuits and sensors, following wiring and system specifications.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.41
+    },
+    {
+      "task": "Keep informed of new products and developments.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.79
+    },
+    {
+      "task": "Provide customers with cost estimates for equipment installation.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.91
+    },
+    {
+      "task": "Prepare documents, such as invoices or warranties.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.1
+    },
+    {
+      "task": "Hammer out dents and twists in tools and equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.36
+    },
+    {
+      "task": "Sharpen tools such as saws, picks, shovels, screwdrivers, and scoops, either manually or by using bench grinders and emery wheels.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.17
+    },
+    {
+      "task": "Repair and operate battery-charging equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.19
+    },
+    {
+      "task": "Check that safety regulations and building codes are met, and complete service reports verifying conformance to standards.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.52
+    },
+    {
+      "task": "Connect electrical wiring to control panels and electric motors.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.37
+    },
+    {
+      "task": "Adjust safety controls, counterweights, door mechanisms, and components such as valves, ratchets, seals, and brake linings.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.42
+    },
+    {
+      "task": "Examine valves or mechanical control device parts for defects, dents, or loose attachments, and mark malfunctioning areas of defective units.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.83
+    },
+    {
+      "task": "Lubricate wearing surfaces of mechanical parts, using oils or other lubricants.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.75
+    },
+    {
+      "task": "Disassemble and repair mechanical control devices or valves, such as regulators, thermostats, or hydrants, using power tools, hand tools, and cutting torches.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.86
+    },
+    {
+      "task": "Measure velocity, horsepower, revolutions per minute (rpm), amperage, circuitry, and voltage of units or parts to diagnose problems, using ammeters, voltmeters, wattmeters, and other testing devices.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.21
+    },
+    {
+      "task": "Reassemble repaired electric motors to specified requirements and ratings, using hand tools and electrical meters.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.23
+    },
+    {
+      "task": "Rewire electrical systems, and repair or replace electrical accessories.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.76
+    },
+    {
+      "task": "Inspect electrical connections, wiring, relays, charging resistance boxes, and storage batteries, following wiring diagrams.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.95
+    },
+    {
+      "task": "Inspect and test equipment to locate damage or worn parts and diagnose malfunctions, or read work orders or schematic drawings to determine required repairs.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.53
+    },
+    {
+      "task": "Solder, wrap, and coat wires to ensure proper insulation.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.81
+    },
+    {
+      "task": "Replace defective parts, such as bellows, range springs, and toggle switches, and reassemble units according to blueprints, using cam presses and hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.74
+    },
+    {
+      "task": "Read and interpret blueprints to determine the layout of system components, frameworks, and foundations, and to select installation equipment.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.41
+    },
+    {
+      "task": "Participate in additional training to keep skills up to date.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.27
+    },
+    {
+      "task": "Cut prefabricated sections of framework, rails, and other components to specified dimensions.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.77
+    },
+    {
+      "task": "Cut seats to receive new orifices, tap inspection ports, and perform other repairs to salvage usable materials, using hand tools and machine tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.87
+    },
+    {
+      "task": "Measure tolerances of assembled and salvageable parts for conformance to standards or specifications, using gauges, micrometers, and calipers.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.7
+    },
+    {
+      "task": "Bill customers for repair work, and collect payment.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.49
+    },
+    {
+      "task": "Contact supervisors or offices to receive repair assignments.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.05
+    },
+    {
+      "task": "Measure, cut, and thread pipe, and connect it to feeder lines and equipment or appliances, using rules and hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.37
+    },
+    {
+      "task": "Drive motor vehicles to job sites.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.1
+    },
+    {
+      "task": "Tighten loose bolts, using wrenches, and test circuits and connections by opening and closing gates.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.96
+    },
+    {
+      "task": "Trace electrical circuits, following diagrams, and conduct tests with circuit testers and other equipment to locate shorts and grounds.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.39
+    },
+    {
+      "task": "Replace worn and defective parts such as switches, bearings, transmissions, belts, gears, circuit boards, or defective wiring.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.38
+    },
+    {
+      "task": "Conserve, recover, and recycle refrigerants used in cooling systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.37
+    },
+    {
+      "task": "Clean, lubricate, and touch up minor defects on newly installed or repaired appliances.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.58
+    },
+    {
+      "task": "Refer to schematic drawings, product manuals, and troubleshooting guides to diagnose and repair problems.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.4
+    },
+    {
+      "task": "Clean and reinstall parts.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.62
+    },
+    {
+      "task": "Provide repair cost estimates, and recommend whether appliance repair or replacement is a better choice.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.33
+    },
+    {
+      "task": "Inspect, maintain, and replace batteries as needed.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.82
+    },
+    {
+      "task": "Operate lifts, winches, or chain falls to move heavy curtain doors.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.7
+    },
+    {
+      "task": "Fabricate replacements for worn or broken parts, using welders, lathes, drill presses, or shaping or milling machines.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.65
+    },
+    {
+      "task": "Clean lenses of lamps with cloths and solvents.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.53
+    },
+    {
+      "task": "Feed cables through access holes, roof spaces, or cavity walls to reach fixture outlets, positioning and terminating cables, wires, or strapping.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.37
+    },
+    {
+      "task": "Calibrate instrumentation, such as meters, gauges, and regulators, for pressure, temperature, flow, and level.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.98
+    },
+    {
+      "task": "Schedule and supervise splicing or termination of cables in color-code order.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.92
+    },
+    {
+      "task": "Run signal quality and connectivity tests for individual cables, and record results.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.76
+    },
+    {
+      "task": "Grind, ream, rebore, and re-tap parts to obtain specified clearances, using grinders, lathes, taps, reamers, boring machines, and micrometers.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.96
+    },
+    {
+      "task": "Remove engines from equipment, and position and bolt engines to repair stands.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.17
+    },
+    {
+      "task": "Replace motors.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.28
+    },
+    {
+      "task": "Splice wires with knives or cutting pliers, and solder connections to fixtures and equipment.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.32
+    },
+    {
+      "task": "Diagnose or repair problems with electronic equipment, such as sound, navigation, communication, and security equipment, in motor vehicles.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.3
+    },
+    {
+      "task": "Inspect and test electrical or electronic systems to locate and diagnose malfunctions, using visual inspections and testing instruments, such as oscilloscopes and voltmeters.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.45
+    },
+    {
+      "task": "Install equipment and accessories, such as stereos, navigation equipment, communication equipment, and security systems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.46
+    },
+    {
+      "task": "Estimate costs of repairs, based on parts and labor charges.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.0
+    },
+    {
+      "task": "Cut openings and drill holes for fixtures and equipment, using electric drills and routers.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.41
+    },
+    {
+      "task": "Repair and maintain gasoline engines used to power equipment such as portable saws, lawn mowers, generators, and compressors.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.48
+    },
+    {
+      "task": "Adjust points, valves, carburetors, distributors, and spark plug gaps, using feeler gauges.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.46
+    },
+    {
+      "task": "Reassemble engines after repair or maintenance work is complete.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.3
+    },
+    {
+      "task": "Perform routine maintenance such as cleaning and oiling parts, honing cylinders, and tuning ignition systems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.35
+    },
+    {
+      "task": "Test and inspect engines to determine malfunctions, to locate missing and broken parts, and to verify repairs, using diagnostic instruments.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.56
+    },
+    {
+      "task": "Repair or replace defective parts such as magnetos, water pumps, gears, pistons, and carburetors, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.44
+    },
+    {
+      "task": "Dismantle engines, using hand tools, and examine parts for defects.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.49
+    },
+    {
+      "task": "Schedule and supervise the construction and testing of special devices and the implementation of unique monitoring or control systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.93
+    },
+    {
+      "task": "Perform scheduled preventive maintenance tasks, such as checking, cleaning, or repairing equipment, to detect and prevent problems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.99
+    },
+    {
+      "task": "Repair, replace, and clean equipment and components such as circuit breakers, brushes, and commutators.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.0
+    },
+    {
+      "task": "Develop or modify industrial electronic devices, circuits, or equipment, according to available specifications.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.76
+    },
+    {
+      "task": "Converse with customers to determine details of equipment problems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.38
+    },
+    {
+      "task": "Reassemble machines after making repairs or replacing parts.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.41
+    },
+    {
+      "task": "Travel to customers' stores or offices to service machines or to provide emergency repair service.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.2
+    },
+    {
+      "task": "Advise customers concerning equipment operation, maintenance, or programming.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.27
+    },
+    {
+      "task": "Assemble machines according to specifications, using hand or power tools and measuring devices.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.66
+    },
+    {
+      "task": "Repair, adjust, or replace electrical or mechanical components or parts, using hand tools, power tools, or soldering or welding equipment.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.23
+    },
+    {
+      "task": "Operate machines to test functioning of parts or mechanisms.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.16
+    },
+    {
+      "task": "Install and configure new equipment, including operating software or peripheral equipment.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.98
+    },
+    {
+      "task": "Update existing equipment, performing tasks such as installing updated circuit boards or additional memory.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.74
+    },
+    {
+      "task": "Align, adjust, or calibrate equipment according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.23
+    },
+    {
+      "task": "Sign overhaul documents for equipment replaced or repaired.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.75
+    },
+    {
+      "task": "Enter information into computer to copy program or to draw, modify, or store schematics, applying knowledge of software package used.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.04
+    },
+    {
+      "task": "Determine feasibility of using standardized equipment or develop specifications for equipment required to perform additional functions.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.45
+    },
+    {
+      "task": "Install repaired equipment in various settings, such as industrial or military establishments.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.1
+    },
+    {
+      "task": "Send defective units to the manufacturer or to a specialized repair shop for repair.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.36
+    },
+    {
+      "task": "Consult with customers, supervisors, or engineers to plan layout of equipment or to resolve problems in system operation or maintenance.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.92
+    },
+    {
+      "task": "Maintain inventory of spare parts.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.88
+    },
+    {
+      "task": "Coordinate efforts with other workers involved in installing or maintaining equipment or components.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.83
+    },
+    {
+      "task": "Study blueprints, schematics, manuals, or other specifications to determine installation procedures.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.87
+    },
+    {
+      "task": "Inspect components of industrial equipment for accurate assembly and installation or for defects, such as loose connections or frayed wires.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.15
+    },
+    {
+      "task": "Repair or adjust equipment, machines, or defective components, replacing worn parts, such as gaskets or seals in watertight electrical equipment.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.95
+    },
+    {
+      "task": "Test faulty equipment to diagnose malfunctions, using test equipment or software, and applying knowledge of the functional operation of electronic units and systems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.32
+    },
+    {
+      "task": "Set up and test industrial equipment to ensure that it functions properly.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.24
+    },
+    {
+      "task": "Advise management regarding customer satisfaction, product performance, or suggestions for product improvements.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.36
+    },
+    {
+      "task": "Examine work orders and converse with equipment operators to detect equipment problems and to ascertain whether mechanical or human errors contributed to the problems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.86
+    },
+    {
+      "task": "Analyze test data to diagnose malfunctions, to determine performance characteristics of systems, or to evaluate effects of system modifications.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.24
+    },
+    {
+      "task": "Prepare and maintain records detailing tests, repairs, and maintenance.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.41
+    },
+    {
+      "task": "Open and close switches to isolate defective relays, performing adjustments or repairs.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.2
+    },
+    {
+      "task": "Notify facility personnel of equipment shutdowns.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.2
     },
     {
       "task": "Disassemble machines to examine parts, such as wires, gears, or bearings for wear or defects, using hand or power tools and measuring devices.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.33
     },
     {
-      "task": "Install appliances such as refrigerators, washing machines, and stoves, including connecting hoses to water pipes.",
-      "task_type": "Core"
+      "task": "Consult manuals, schematics, wiring diagrams, and engineering personnel to troubleshoot and solve equipment problems and to determine optimum equipment functioning.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.39
     },
     {
-      "task": "Inspect and test operation, mechanical parts, and circuitry of gate crossings, signals, and signal equipment such as interlocks and detectors.",
-      "task_type": "Core"
+      "task": "Clean, oil, or adjust mechanical parts to maintain machines' operating efficiency and to prevent breakdowns.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.15
     },
     {
-      "task": "Test and examine gas pipelines and equipment to locate leaks and faulty connections and determine gas pressure and flow.",
-      "task_type": "Core"
+      "task": "Lay cable and hook up electrical connections between machines, power sources, and phone lines.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.54
     },
     {
-      "task": "Talk to customers or refer to work orders to establish the nature of appliance malfunctions and provide cost estimates for repairs.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Clean, lubricate, and adjust mechanical parts to maintain machines' operating efficiency and prevent breakdowns.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Repair or replace defective wiring, broken lenses, or burned-out light bulbs and inspect electrical units for defects.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Operate machines to test the functioning of parts or mechanisms, including running new speaker and electrical cables.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Record maintenance and repair work performed on appliances and maintain logs detailing tests, repairs, and maintenance.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Consult manuals, schematics, and engineering personnel to troubleshoot equipment problems and determine optimal functioning.",
-      "task_type": "Core"
+      "task": "Train new repairers.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.08
     },
     {
       "task": "Calibrate testing instruments.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.2
     },
     {
-      "task": "Analyze equipment performance records to assess functioning and maintain service records.",
-      "task_type": "Core"
+      "task": "Analyze equipment performance records to assess equipment functioning.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.87
     },
     {
-      "task": "Inspect and test electrical systems and equipment to locate and diagnose malfunctions.",
-      "task_type": "Core"
+      "task": "Inspect and test electrical systems and equipment to locate and diagnose malfunctions, using visual inspections, testing devices, and computer software.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.03
     },
     {
-      "task": "Install fixtures, outlets, switches, and wall boxes using hand tools.",
-      "task_type": "Core"
+      "task": "Estimate costs of repairs based on parts and labor requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.34
     },
     {
-      "task": "Repair or rebuild equipment, such as starters and generators, using electrician's tools.",
-      "task_type": "Supplemental"
+      "task": "Confer with customers to determine the nature of malfunctions.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.87
     },
     {
-      "task": "Measure, cut, and install frameworks and conduit for wiring and control panels.",
-      "task_type": "Supplemental"
+      "task": "Repair or rebuild equipment such as starters, generators, distributors, or door controls, using electrician's tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.43
     },
     {
-      "task": "Reassemble and test equipment after repairs while referring to schematics and specifications.",
-      "task_type": "Core"
+      "task": "Install electrical equipment such as air-conditioning, heating, or ignition systems and components such as generator brushes and commutators, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.77
     },
     {
-      "task": "Adjust, repair, or replace defective wiring, relays, fuses, and electrical components as needed.",
-      "task_type": "Core"
+      "task": "Reassemble and test equipment after repairs.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.91
     },
     {
-      "task": "Collaborate with engineers to resolve issues and develop modifications to designs based on customer needs.",
-      "task_type": "Core"
+      "task": "Maintain equipment service records.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.7
     },
     {
-      "task": "Conduct environmental and performance tests on marine equipment, analyzing data for compliance and operational effectiveness.",
-      "task_type": "Core"
+      "task": "Refer to schematics and manufacturers' specifications that show connections and provide instructions on how to locate problems.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.61
     },
     {
-      "task": "Prepare detailed drawings, specifications, and reports for engineering projects related to aircraft and aerospace design.",
-      "task_type": "Core"
+      "task": "Adjust, repair, or replace defective wiring and relays in ignition, lighting, air-conditioning, and safety control systems, using electrician's tools.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.78
     },
     {
-      "task": "Investigate and diagnose equipment failures, providing recommendations for modifications or repairs to improve performance.",
-      "task_type": "Core"
+      "task": "Locate and remove or repair circuit defects such as blown fuses or malfunctioning transistors.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.72
     },
     {
-      "task": "Design and supervise environmental projects in agriculture, including water management and energy efficiency systems.",
-      "task_type": "Core"
+      "task": "Install new fuses, electrical cables, or power sources as required.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.57
     },
     {
-      "task": "Evaluate and approve vendor selection by analyzing performance and proposals.",
-      "task_type": "Supplemental"
+      "task": "Splice wires with knives or cutting pliers, and solder connections to fixtures, outlets, and equipment.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.74
     },
     {
-      "task": "Develop or implement operating methods or procedures for engineering projects, ensuring compliance and efficiency.",
-      "task_type": "Core"
+      "task": "Alter or modify designs to obtain specified functional or operational performance.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.74
     },
     {
-      "task": "Provide technical direction and support to engineering personnel on aerospace projects, ensuring project alignment with specifications.",
-      "task_type": "Core"
+      "task": "Design new or modify existing aerospace systems to reduce polluting emissions, such as nitrogen oxide, carbon monoxide, or smoke emissions.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 2.28
     },
     {
-      "task": "Simulate or model fuel cell systems using simulation software programs and recommend or implement design changes.",
-      "task_type": "Core"
+      "task": "Design or engineer filtration systems that reduce harmful emissions.",
+      "task_type": "Unclassified",
+      "relevance": 0.06666666666666667,
+      "importance": 0.0
     },
     {
-      "task": "Provide technical consultation related to the development of fuel cell systems and define integration challenges for fuel cell vehicles.",
-      "task_type": "Core"
+      "task": "Evaluate biofuel performance specifications to determine feasibility for aerospace applications.",
+      "task_type": "Unclassified",
+      "relevance": 0.06666666666666667,
+      "importance": 0.0
     },
     {
-      "task": "Plan or conduct experiments to validate new materials or optimize protocols to improve system performance.",
-      "task_type": "Core"
+      "task": "Evaluate mechanical designs or prototypes for energy performance or environmental impact.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.45
     },
     {
-      "task": "Integrate electric drive subsystems with vehicle systems to optimize performance or mitigate faults, while monitoring work areas for safety.",
-      "task_type": "Core"
+      "task": "Design vehicles for increased recyclability or use of natural, renewable, or recycled materials in vehicle construction.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.2
     },
     {
-      "task": "Inspect work areas, tools, and equipment, verify completed work using gauges, and conduct employee safety training.",
-      "task_type": "Core"
+      "task": "Design vehicles that use lighter materials, such as aluminum, magnesium alloy, or plastic, to improve fuel efficiency.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.62
     },
     {
-      "task": "Develop and implement maintenance policies and procedures, while monitoring tool and part inventories to ensure adequate conditions.",
-      "task_type": "Core"
+      "task": "Develop specifications for vehicles powered by alternative fuels or alternative power methods.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.61
     },
     {
-      "task": "Examine systems and analyze information to determine needed installations or repairs, and meet with vendors about products for repairs.",
-      "task_type": "Core"
+      "task": "Develop design criteria for aeronautical or aerospace products or systems, including testing methods, production costs, quality standards, environmental standards, or completion dates.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.43
     },
     {
-      "task": "Perform skilled repair or maintenance operations using hand or power tools, and recommend personnel actions like promotions or hires.",
-      "task_type": "Core"
+      "task": "Prepare, or direct the preparation of, product or system layouts and detailed drawings and schematics.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.69
     },
     {
-      "task": "Confer with management and personnel to coordinate work activities, resolve grievances, and establish work schedules.",
-      "task_type": "Core"
+      "task": "Investigate and observe tests on machinery and equipment for compliance with standards.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.44
     },
     {
-      "task": "Counsel employees about work issues, assist with skill deficiencies, and develop electronic maintenance programs for efficient operations.",
-      "task_type": "Supplemental"
+      "task": "Maintain records of engineering department activities, including expense records and details of equipment maintenance and repairs.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.6
     },
     {
-      "task": "Investigate accidents or injuries and prepare reports of findings related to workplace incidents.",
-      "task_type": "Core"
+      "task": "Coordinate activities with regulatory bodies to ensure repairs and alterations are at minimum cost and consistent with safety.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.81
+    },
+    {
+      "task": "Maintain contact with, and formulate reports for, contractors and clients to ensure completion of work at minimum cost.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.89
+    },
+    {
+      "task": "Design layout of craft interior, including cargo space, passenger compartments, ladder wells, and elevators.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.71
+    },
+    {
+      "task": "Confer with research personnel to clarify or resolve problems and to develop or modify designs.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.0
+    },
+    {
+      "task": "Conduct analytical, environmental, operational, or performance studies to develop designs for products, such as marine engines, equipment, and structures.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.5
+    },
+    {
+      "task": "Determine conditions under which tests are to be conducted, as well as sequences and phases of test operations.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.06
+    },
+    {
+      "task": "Review work requests and compare them with previous work completed on ships to ensure that costs are economically sound.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.0
+    },
+    {
+      "task": "Schedule machine overhauls and the servicing of electrical, heating, ventilation, refrigeration, water, and sewage systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.42
+    },
+    {
+      "task": "Conduct analyses of ships, such as stability, structural, weight, and vibration analyses.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.94
+    },
+    {
+      "task": "Check, test, and maintain automatic controls and alarm systems.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.77
+    },
+    {
+      "task": "Formulate conceptual design of aeronautical or aerospace products or systems to meet customer requirements or conform to environmental regulations.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.88
+    },
+    {
+      "task": "Estimate costs or submit bids for engineering, construction, or extraction projects.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.21
+    },
+    {
+      "task": "Evaluate product data or design from inspections or reports for conformance to engineering principles, customer requirements, environmental regulations, or quality standards.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.78
+    },
+    {
+      "task": "Direct aerospace research and development programs.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.49
+    },
+    {
+      "task": "Research, design, evaluate, install, operate, or maintain mechanical products, equipment, systems or processes to meet requirements.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.18
+    },
+    {
+      "task": "Investigate equipment failures or difficulties to diagnose faulty operation and recommend remedial actions.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.76
+    },
+    {
+      "task": "Develop or test models of alternate designs or processing methods to assess feasibility, sustainability, operating condition effects, potential new applications, or necessity of modification.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.37
+    },
+    {
+      "task": "Specify system components or direct modification of products to ensure conformance with engineering design, performance specifications, or environmental regulations.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.15
+    },
+    {
+      "task": "Assist drafters in developing the structural design of products, using drafting tools or computer-assisted drafting equipment or software.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.46
+    },
+    {
+      "task": "Perform personnel functions, such as supervision of production workers, technicians, technologists, or other engineers.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.57
+    },
+    {
+      "task": "Prepare plans, estimates, design and construction schedules, and contract specifications, including any special provisions.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.39
+    },
+    {
+      "task": "Provide technical customer service.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.47
+    },
+    {
+      "task": "Study industrial processes to maximize the efficiency of equipment applications, including equipment placement.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.25
+    },
+    {
+      "task": "Supervise other engineers and crew members and train them for routine and emergency duties.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.83
+    },
+    {
+      "task": "Study design proposals and specifications to establish basic characteristics of craft, such as size, weight, speed, propulsion, displacement, and draft.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.93
+    },
+    {
+      "task": "Develop calibration methodologies, test methodologies, or tools.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.71
+    },
+    {
+      "task": "Establish production or quality control standards.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.75
+    },
+    {
+      "task": "Develop or integrate control feature requirements.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.44
+    },
+    {
+      "task": "Design test control apparatus or equipment or develop procedures for testing products.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.19
+    },
+    {
+      "task": "Plan or coordinate investigation and resolution of customers' reports of technical problems with aircraft or aerospace vehicles.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.88
+    },
+    {
+      "task": "Maintain records of performance reports for future reference.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.27
+    },
+    {
+      "task": "Read and interpret blueprints, technical drawings, schematics, or computer-generated reports.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.3
+    },
+    {
+      "task": "Confer with engineers or other personnel to implement operating procedures, resolve system malfunctions, or provide technical information.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.97
+    },
+    {
+      "task": "Research and analyze customer design proposals, specifications, manuals, or other data to evaluate the feasibility, cost, or maintenance requirements of designs or applications.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.61
+    },
+    {
+      "task": "Provide feedback to design engineers on customer problems or needs.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.35
+    },
+    {
+      "task": "Oversee installation, operation, maintenance, or repair to ensure that machines or equipment are installed and functioning according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.47
+    },
+    {
+      "task": "Perform failure, variation, or root cause analyses.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.19
+    },
+    {
+      "task": "Recommend design modifications to eliminate machine or system malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.75
+    },
+    {
+      "task": "Develop, coordinate, or monitor all aspects of production, including selection of manufacturing methods, fabrication, or operation of product designs.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.11
+    },
+    {
+      "task": "Establish or coordinate the maintenance or safety procedures, service schedule, or supply of materials required to maintain machines or equipment in the prescribed condition.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.17
+    },
+    {
+      "task": "Write performance requirements for product development or engineering projects.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.29
+    },
+    {
+      "task": "Visit sites to observe environmental problems, to consult with contractors, or to monitor construction activities.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.94
+    },
+    {
+      "task": "Discuss plans with clients, contractors, consultants, and other engineers so that they can be evaluated and necessary changes made.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.65
+    },
+    {
+      "task": "Prepare reports, sketches, working drawings, specifications, proposals, and budgets for proposed sites or systems.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.05
+    },
+    {
+      "task": "Meet with clients, such as district or regional councils, farmers, and developers, to discuss their needs.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.79
+    },
+    {
+      "task": "Conduct research that tests or analyzes the feasibility, design, operation, or performance of equipment, components, or systems.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.42
+    },
+    {
+      "task": "Write technical reports or other documentation, such as handbooks or bulletins, for use by engineering staff, management, or customers.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.83
+    },
+    {
+      "task": "Formulate mathematical models or other methods of computer analysis to develop, evaluate, or modify design, according to customer engineering requirements.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.07
+    },
+    {
+      "task": "Provide technical direction to other engineers or engineering support personnel.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.24
+    },
+    {
+      "task": "Coordinate production activities with other functional units, such as procurement, maintenance, or quality control.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.56
+    },
+    {
+      "task": "Develop or implement operating methods or procedures.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.7
+    },
+    {
+      "task": "Prepare or present technical or project status reports.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.8
+    },
+    {
+      "task": "Read current literature, attend meetings or conferences, or talk with colleagues to stay abreast of new automotive technology or competitive products.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.21
+    },
+    {
+      "task": "Plan or conduct experimental, environmental, operational, or stress tests on models or prototypes of aircraft or aerospace systems or equipment.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.0
+    },
+    {
+      "task": "Direct or coordinate activities of engineering or technical personnel involved in designing, fabricating, modifying, or testing of aircraft or aerospace products.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.81
+    },
+    {
+      "task": "Simulate or model fuel cell, motor, or other system information, using simulation software programs.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.42
+    },
+    {
+      "task": "Recommend or implement changes to fuel cell system designs.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.77
+    },
+    {
+      "task": "Provide technical consultation or direction related to the development or production of fuel cell systems.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.14
+    },
+    {
+      "task": "Plan or conduct experiments to validate new materials, optimize startup protocols, reduce conditioning time, or examine contaminant tolerance.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.18
+    },
+    {
+      "task": "Integrate electric drive subsystems with other vehicle systems to optimize performance or mitigate faults.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.11
+    },
+    {
+      "task": "Identify or define vehicle and system integration challenges for fuel cell vehicles.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.35
+    },
+    {
+      "task": "Monitor employees' work levels and review work performance.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.86
+    },
+    {
+      "task": "Design equipment configurations to meet personnel needs.",
+      "task_type": "Supplemental",
+      "relevance": 0.03333333333333333,
+      "importance": 3.08
+    },
+    {
+      "task": "Monitor tool and part inventories and the condition and maintenance of shops to ensure adequate working conditions.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.74
+    },
+    {
+      "task": "Inspect and monitor work areas, examine tools and equipment, and provide employee safety training to prevent, detect, and correct unsafe conditions or violations of procedures and safety rules.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.88
+    },
+    {
+      "task": "Review, evaluate, accept, and coordinate completion of work bid from contractors.",
+      "task_type": "Supplemental",
+      "relevance": 0.03333333333333333,
+      "importance": 3.6
+    },
+    {
+      "task": "Develop or implement electronic maintenance programs or computer information management systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.03333333333333333,
+      "importance": 3.36
+    },
+    {
+      "task": "Examine objects, systems, or facilities and analyze information to determine needed installations, services, or repairs.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.64
+    },
+    {
+      "task": "Meet with vendors or suppliers to discuss products used in repair work.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.39
+    },
+    {
+      "task": "Inspect, test, and measure completed work, using devices such as hand tools or gauges to verify conformance to standards or repair requirements.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.89
+    },
+    {
+      "task": "Develop, implement, or evaluate maintenance policies and procedures.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.48
+    },
+    {
+      "task": "Compile operational or personnel records, such as time and production records, inventory data, repair or maintenance statistics, or test results.",
+      "task_type": "Supplemental",
+      "relevance": 0.03333333333333333,
+      "importance": 3.56
+    },
+    {
+      "task": "Perform skilled repair or maintenance operations, using equipment such as hand or power tools, hydraulic presses or shears, or welding equipment.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.81
+    },
+    {
+      "task": "Recommend or initiate personnel actions, such as hires, promotions, transfers, discharges, or disciplinary measures.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.61
+    },
+    {
+      "task": "Confer with personnel, such as management, engineering, quality control, customer, or union workers' representatives, to coordinate work activities, resolve employee grievances, or identify and review resource needs.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.7
+    },
+    {
+      "task": "Determine schedules, sequences, and assignments for work activities, based on work priority, quantity of equipment, and skill of personnel.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.68
+    },
+    {
+      "task": "Conduct or arrange for worker training in safety, repair, or maintenance techniques, operational procedures, or equipment use.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.53
+    },
+    {
+      "task": "Interpret specifications, blueprints, or job orders to construct templates and lay out reference points for workers.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.86
+    },
+    {
+      "task": "Compute estimates and actual costs of factors such as materials, labor, or outside contractors.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.75
+    },
+    {
+      "task": "Requisition materials and supplies, such as tools, equipment, or replacement parts.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.73
+    },
+    {
+      "task": "Counsel employees about work-related issues and assist employees to correct job-skill deficiencies.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.64
+    },
+    {
+      "task": "Participate in budget preparation and administration, coordinating purchasing and documentation and monitoring departmental expenditures.",
+      "task_type": "Supplemental",
+      "relevance": 0.03333333333333333,
+      "importance": 3.75
+    },
+    {
+      "task": "Investigate accidents or injuries and prepare reports of findings.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.6
     }
   ],
   "technology_skills": [
@@ -1722,6 +3190,10 @@
       "weight": 2.006060606060606
     },
     {
+      "name": "SAP software",
+      "weight": 1.7595238095238095
+    },
+    {
       "name": "Web browser software",
       "weight": 1.7143939393939394
     },
@@ -1746,7 +3218,23 @@
       "weight": 1.1333333333333333
     },
     {
+      "name": "Access Software AIRPAX",
+      "weight": 1.0
+    },
+    {
+      "name": "CaseBank SpotLight",
+      "weight": 1.0
+    },
+    {
       "name": "Computerized aircraft log manager CALM",
+      "weight": 1.0
+    },
+    {
+      "name": "DatcoMedia EBis",
+      "weight": 1.0
+    },
+    {
+      "name": "Disassembler software",
       "weight": 1.0
     },
     {
@@ -1766,11 +3254,23 @@
       "weight": 1.0
     },
     {
+      "name": "Operational Data Store ODS software",
+      "weight": 1.0
+    },
+    {
+      "name": "Pentagon 2000SQL",
+      "weight": 1.0
+    },
+    {
       "name": "Supply system software",
       "weight": 1.0
     },
     {
       "name": "Technical manual database software",
+      "weight": 1.0
+    },
+    {
+      "name": "Tracware AeroTrac",
       "weight": 1.0
     },
     {
@@ -1790,8 +3290,16 @@
       "weight": 0.43852813852813854
     },
     {
+      "name": "C++",
+      "weight": 0.4095238095238095
+    },
+    {
       "name": "Spreadsheet software",
       "weight": 0.39209956709956706
+    },
+    {
+      "name": "Python",
+      "weight": 0.39166666666666666
     },
     {
       "name": "Computerized maintenance management system CMMS",
@@ -1807,6 +3315,10 @@
     },
     {
       "name": "Dassault Systemes CATIA",
+      "weight": 0.34285714285714286
+    },
+    {
+      "name": "Oracle Java",
       "weight": 0.34285714285714286
     },
     {
@@ -1826,6 +3338,30 @@
       "weight": 0.325
     },
     {
+      "name": "Microsoft SharePoint",
+      "weight": 0.29166666666666663
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 0.2825757575757576
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.2761904761904762
+    },
+    {
+      "name": "C",
+      "weight": 0.26666666666666666
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.25757575757575757
+    },
+    {
+      "name": "Route mapping software",
+      "weight": 0.25
+    },
+    {
       "name": "Maintenance management software",
       "weight": 0.24924242424242424
     },
@@ -1842,12 +3378,36 @@
       "weight": 0.229004329004329
     },
     {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.225
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.22424242424242424
+    },
+    {
+      "name": "Microsoft Hyperterminal",
+      "weight": 0.2159090909090909
+    },
+    {
       "name": "Database software",
       "weight": 0.21515151515151515
     },
     {
       "name": "Email software",
       "weight": 0.21515151515151515
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.21515151515151515
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.20476190476190476
+    },
+    {
+      "name": "1CadCam Unigraphics",
+      "weight": 0.2
     },
     {
       "name": "ANSYS simulation software",
@@ -1858,7 +3418,19 @@
       "weight": 0.2
     },
     {
+      "name": "MAYA Nastran",
+      "weight": 0.2
+    },
+    {
+      "name": "Maplesoft Maple",
+      "weight": 0.2
+    },
+    {
       "name": "MathWorks Simulink",
+      "weight": 0.2
+    },
+    {
+      "name": "Minitab",
       "weight": 0.2
     },
     {
@@ -1866,12 +3438,44 @@
       "weight": 0.2
     },
     {
+      "name": "Perl",
+      "weight": 0.2
+    },
+    {
       "name": "Ladder Logic",
       "weight": 0.19166666666666665
     },
     {
+      "name": "Fluke Corporation FlukeView Forms",
+      "weight": 0.16233766233766234
+    },
+    {
+      "name": "Megger PowerDB",
+      "weight": 0.16233766233766234
+    },
+    {
       "name": "Computer aided design CAD software",
       "weight": 0.1575757575757576
+    },
+    {
+      "name": "Debugging software",
+      "weight": 0.1575757575757576
+    },
+    {
+      "name": "JavaScript",
+      "weight": 0.1575757575757576
+    },
+    {
+      "name": "McNeel Rhinoceros 3D",
+      "weight": 0.1575757575757576
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.1575757575757576
+    },
+    {
+      "name": "Apache HTTP Server",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Avionics system testing software",
@@ -1882,8 +3486,36 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Software development tools",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Workday software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.1380952380952381
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.1380952380952381
+    },
+    {
       "name": "Autodesk Revit",
       "weight": 0.1380952380952381
+    },
+    {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.1380952380952381
+    },
+    {
+      "name": "Trimble SketchUp Pro",
+      "weight": 0.1380952380952381
+    },
+    {
+      "name": "C#",
+      "weight": 0.13333333333333333
     },
     {
       "name": "Computational fluid dynamics CFD software",
@@ -1891,6 +3523,10 @@
     },
     {
       "name": "Data acquisition systems",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Digital Equipment Corporation DIGITAL Fortran 90",
       "weight": 0.13333333333333333
     },
     {
@@ -1902,7 +3538,35 @@
       "weight": 0.13333333333333333
     },
     {
+      "name": "Grid generation software",
+      "weight": 0.13333333333333333
+    },
+    {
       "name": "MSC Software Nastran",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Mathsoft Mathcad",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Microsoft Visual Studio",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "PTC Pro/Pipe",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Shell script",
       "weight": 0.13333333333333333
     },
     {
@@ -1914,7 +3578,63 @@
       "weight": 0.13333333333333333
     },
     {
+      "name": "Statistical software",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Verilog",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Wolfram Research Mathematica",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Commutator profiling software",
+      "weight": 0.125
+    },
+    {
+      "name": "Elevator Controls INTERACT",
+      "weight": 0.125
+    },
+    {
+      "name": "Emerson FIRSTVUE Value Sizing",
+      "weight": 0.125
+    },
+    {
+      "name": "Exacq Technologies software",
+      "weight": 0.125
+    },
+    {
+      "name": "Graphical user interface GUI design software",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM Maximo Asset Management",
+      "weight": 0.125
+    },
+    {
+      "name": "Intac International Wintac",
+      "weight": 0.125
+    },
+    {
       "name": "Motor testing software",
+      "weight": 0.125
+    },
+    {
+      "name": "Parts database software",
+      "weight": 0.125
+    },
+    {
+      "name": "RazorSync",
+      "weight": 0.125
+    },
+    {
+      "name": "ServiceMax",
+      "weight": 0.125
+    },
+    {
+      "name": "Traceroute",
       "weight": 0.125
     },
     {
@@ -1922,12 +3642,176 @@
       "weight": 0.125
     },
     {
+      "name": "WORLD Electronics Freedomware",
+      "weight": 0.125
+    },
+    {
+      "name": "Wonderware software",
+      "weight": 0.125
+    },
+    {
       "name": "Work order software",
       "weight": 0.125
     },
     {
+      "name": "dESCO ESC",
+      "weight": 0.125
+    },
+    {
+      "name": "Internet browser software",
+      "weight": 0.12424242424242424
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.1
+    },
+    {
+      "name": "Call tracking software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Circuit evaluation software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Cisco Systems VPN Client",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Extensible stylesheet language XSL",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Harris Tech X.over Pro",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Harris Technologies BassBox",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "IBM WebSphere",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Ideal Computer Systems Ideal OPE",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Installalogy Access Client",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Inventory control system software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Land & Sea DYNO-MAX",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "LinearTeam WinISD",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Macromedia Cold Fusion",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft Active Directory",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft Active Server Pages ASP",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft Office Live Meeting",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft Visual Basic.NET",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "MobileToys MAIDXL",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Norton AntiVirus",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "OMICRON Test Universe",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Personal computer diagnostic software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "RepairTRAX",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Rockwell RSLogix",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "SAP Maintenance",
       "weight": 0.09090909090909091
+    },
+    {
+      "name": "Sale processing software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "ServiceNow",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Smart Equipment Repair",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Symantec Altiris Deployment Solution",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Symantec Norton Utilities",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Terminal emulation software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "VersaDyne small engine test system",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Virus detection software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "WHE Term-PAK",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.07142857142857142
     },
     {
       "name": "ANSYS AQWA",
@@ -1938,7 +3822,79 @@
       "weight": 0.06666666666666667
     },
     {
+      "name": "ASPEN PLUS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "AVL AVL CRUISE",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Accelerated life testing software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Ada",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Adobe ActionScript",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "AeroHydro MultiSurf",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Alstom ESARAD",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Alstom ESATAN",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Altair Engineering MotionSolve",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Altera Quartus II",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Analytical Graphics STK Expert Edition",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Ansoft Simplorer",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Apache Groovy",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Ashlar-Vellum Graphite",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Atlassian Bamboo",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Atlassian Confluence",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Atlassian JIRA",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Autodesk Algor Simulation",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Autodesk Alias Automotive",
       "weight": 0.06666666666666667
     },
     {
@@ -1951,6 +3907,46 @@
     },
     {
       "name": "Autodesk Inventor",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Autodesk SketchBook Pro",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Bentley MicroStation",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Bentley STAAD",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Bill of materials software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Blink",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Blue Ridge Numerics CFDesign",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "CADRE Analytic",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "CNC Mastercam",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Chef",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Collier Research HyperSizer",
       "weight": 0.06666666666666667
     },
     {
@@ -1970,11 +3966,67 @@
       "weight": 0.06666666666666667
     },
     {
+      "name": "Corel Painter",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Corel Painter Sketch Pad",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Cost estimating software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Creative System GHS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Cullimore & Ring Technologies SINDA/FLUINT",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Cullimore & Ring Technologies Thermal Desktop",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Dassault Systemes Abaqus",
       "weight": 0.06666666666666667
     },
     {
       "name": "Dassault Systemes Simulia Abaqus FEA",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Data acquisition software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Design of experiments DOE software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "ESI Group AutoSEA2",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "ESRI ArcGIS software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "ESRI ArcView",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Eagle Point LANDCADD",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "FactSage",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Failure assessment software",
       "weight": 0.06666666666666667
     },
     {
@@ -1984,6 +4036,502 @@
     {
       "name": "Finite element analysis FEA software",
       "weight": 0.06666666666666667
+    },
+    {
+      "name": "Flexible dynamics modeling software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Formula translation/translator FORTRAN",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "G-code",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "GE Energy GateCycle",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "GNU Image Manipulation Program GIMP",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Gamma Technologies GT-SUITE",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Gaussian GaussView",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Gaussian software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Geographic information system GIS software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Git",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Hardware-in-the-loop HIL simulation software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Harvard Thermal TAS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Herbert Software Solutions HECSALV",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Hewlett-Packard HP Graphics Language HPGL",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Hewlett-Packard HP OpenVMS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Human machine interface HMI software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "HydroComp NavCad",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "IBM Cloud",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "IBM Rational ClearCase",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "IBM Rational ClearQuest",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "IBM Rational DOORS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "IBM Rational RequisitePro",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Image processing systems",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "InnovMetric PolyWorks",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Intergraph Plant Design System PDS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Intergraph SmartMarine 3D",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "International Material Data System IMDS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "IronCAD",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "JUnit",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "JavaScript Object Notation JSON",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Jenkins CI",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "K&K Associates Thermal Analysis Kit TAK",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "LMS Imagine.Lab AMESim",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Lambda Research OSLO",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Life cycle cost software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "MAHLE Powertrain",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "MSC Software Fatigue",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "MSC Software Patran",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "MUMPS M",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Magellan Firmware",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Maplesoft MapleSim",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Mentor Graphics Flowmaster",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Mesh generation software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Metrix Imageware Surfacer",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Metrologic Group Metrolog XG",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Microsoft .NET Framework",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Microsoft Visual Basic Scripting Edition VBScript",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Modal analysis software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Motion analysis software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Network Analysis SINDA-G",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Node.js",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Object oriented development environment software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Optical analysis software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Oracle Primavera Systems",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "PTC Pro/INTRALINK",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Perforce Helix software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Phoenix Integration ModelCenter",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Portalgraphics openCanvas",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Proteus Engineering FastShip",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Puppet",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "R",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Rapid prototyping software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "ReliaSoft Alta 6 Pro",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "ReliaSoft BlockSim",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "ReliaSoft Weibull++ 6",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Reliability analysis software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Reverse engineering software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Rockwell Automation software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "SAS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Seasafe Marine Software Seasafe",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Seaworthy Systems Shipboard Automated Maintenance Management SAMM",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Selenium",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "ShipConstructor",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Siemens Teamcenter",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Sigmetrix CETOL 6 Sigma",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "SolidWorks COSMOSWorks",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Somat eDAQ",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Southwest Research Institute NASGRO",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Statistical analysis software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Statistical energy analysis SEA software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Strand7",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Stress analysis software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Structural Dynamics StruCAD*3D",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Structure query language SQL",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Sun Microsystems Java",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Swift",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "SystemVerilog",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "TEAM Engineering FEMAP",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Tecplot Focus",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Tension Technology International OPTIMOOR",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "TestNG",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "The Napa Group NAPA",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Thermal Radiation Analysis System TRASYS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Thermal Synthesizer System TSS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Thermal analysis software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Thermal design software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Think3 ThinkDesign Engineering",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "UGS I-DEAS",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "UGS Solid Edge",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Universal Technical Systems TK Solver",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Very high-speed integrated circuit VHSIC hardware description language VHDL",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Video analysis software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Wind River Systems C/C++ Compiler Suite",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Xcode",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Xilinx TMRTool",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Zemax",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Zoom",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Automated inventory software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "ComputerEase construction accounting software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Cost accounting software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "HCSS HeavyBid",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "HCSS HeavyJob",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Infor ERP SyteLine",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Inventory management software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Payroll software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Recordkeeping software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Vehicle management software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "WorkTech MAXIMO",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Yardi software",
+      "weight": 0.03333333333333333
     }
   ],
   "tools_used": [
@@ -3228,6 +5776,10 @@
       "weight": 0.125
     },
     {
+      "name": "Color bar generators",
+      "weight": 0.125
+    },
+    {
       "name": "Combustible gas detectors",
       "weight": 0.125
     },
@@ -3309,6 +5861,10 @@
     },
     {
       "name": "Disk grinders",
+      "weight": 0.125
+    },
+    {
+      "name": "Dry ice blasters",
       "weight": 0.125
     },
     {
@@ -3460,14 +6016,6 @@
       "weight": 0.125
     },
     {
-      "name": "Hotbox detectors",
-      "weight": 0.125
-    },
-    {
-      "name": "Hydraulic elevator cylinder repair kits",
-      "weight": 0.125
-    },
-    {
       "name": "Hydraulic pressure gauges",
       "weight": 0.125
     },
@@ -3537,10 +6085,6 @@
     },
     {
       "name": "Knurling tool attachments",
-      "weight": 0.125
-    },
-    {
-      "name": "Lamination tooth straighteners",
       "weight": 0.125
     },
     {
@@ -3653,10 +6197,6 @@
     },
     {
       "name": "Pop rivet guns",
-      "weight": 0.125
-    },
-    {
-      "name": "Portable point of sale terminals",
       "weight": 0.125
     },
     {
@@ -3944,10 +6484,6 @@
       "weight": 0.09090909090909091
     },
     {
-      "name": "Asynchronous transfer mode ATM analyzers",
-      "weight": 0.09090909090909091
-    },
-    {
       "name": "Automatic center punches",
       "weight": 0.09090909090909091
     },
@@ -4009,6 +6545,10 @@
     },
     {
       "name": "Carburetor pressure gauges",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Carpet knives",
       "weight": 0.09090909090909091
     },
     {
@@ -4616,19 +7156,11 @@
       "weight": 0.09090909090909091
     },
     {
-      "name": "Synchronous optical network SONET analyzers",
-      "weight": 0.09090909090909091
-    },
-    {
       "name": "T handle hex wrenches",
       "weight": 0.09090909090909091
     },
     {
       "name": "T handle tap wrenches",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "T-Birds",
       "weight": 0.09090909090909091
     },
     {
@@ -4848,30 +7380,6 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Anodic wafer bonding systems",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Argon-ion lasers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Atomic force microscopes",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Axial flow compressor facilities",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Axial flow research fans",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Axial flow turbines",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Bench drill presses",
       "weight": 0.06666666666666667
     },
@@ -4884,19 +7392,7 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Chemical-mechanical polishing equipment",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Climate test chambers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Cluster computers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Computed tomography CT systems",
       "weight": 0.06666666666666667
     },
     {
@@ -4908,10 +7404,6 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Contact lithography equipment",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Contact testers",
       "weight": 0.06666666666666667
     },
@@ -4920,23 +7412,7 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Cryogenic apparatus",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Deep reactive ion etchers DRIE",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Differential scanning calorimeters",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Digital cameras",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Digital particle image velocimeters",
       "weight": 0.06666666666666667
     },
     {
@@ -4944,15 +7420,7 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Digital sonifiers",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Digital to analog converters",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Dilatometers",
       "weight": 0.06666666666666667
     },
     {
@@ -4976,10 +7444,6 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Ellipsometers",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Engine test dynamometers",
       "weight": 0.06666666666666667
     },
@@ -4988,23 +7452,11 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Evaporation systems",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Fatigue testing machines",
       "weight": 0.06666666666666667
     },
     {
-      "name": "Fiber optic interferometers",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Five-axis machining centers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Flame ionization detectors FID",
       "weight": 0.06666666666666667
     },
     {
@@ -5016,27 +7468,7 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Flip-chip wafer bonding systems",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Floor drill presses",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Flow reactors",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Fluorescence detectors",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Fluorescence spectrometers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Fourier transfer infrared FTIR spectrometers",
       "weight": 0.06666666666666667
     },
     {
@@ -5056,10 +7488,6 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Gas chromatography equipment",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Gravity convection ovens",
       "weight": 0.06666666666666667
     },
@@ -5069,14 +7497,6 @@
     },
     {
       "name": "Heat exchangers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "High pressure liquid chromatographs HPLC",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "High temperature tube furnaces",
       "weight": 0.06666666666666667
     },
     {
@@ -5104,15 +7524,7 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Impinging jet apparatus",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Induction furnaces",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Infrared IR spectrophotometers",
       "weight": 0.06666666666666667
     },
     {
@@ -5120,43 +7532,7 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Interferometers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Interferometric microscopes",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Laboratory ball mills",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Laboratory centrifugal pumps",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Laboratory glove boxes",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Laboratory vacuum ovens",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Laminar flow elements",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Laser Doppler anemometers",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Laser digitizers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Laser velocimeters",
       "weight": 0.06666666666666667
     },
     {
@@ -5268,10 +7644,6 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Projection lithography equipment",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Propellant combustion chambers",
       "weight": 0.06666666666666667
     },
@@ -5281,10 +7653,6 @@
     },
     {
       "name": "Radio frequency sensors",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Rapid thermal processing systems",
       "weight": 0.06666666666666667
     },
     {
@@ -5325,10 +7693,6 @@
     },
     {
       "name": "Sputtering systems",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Steppers",
       "weight": 0.06666666666666667
     },
     {

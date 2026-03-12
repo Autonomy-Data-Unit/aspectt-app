@@ -1544,123 +1544,335 @@
   ],
   "tasks": [
     {
-      "task": "Remove trays and stack dishes for return to kitchen after meals are finished.",
-      "task_type": "Core"
+      "task": "Remove dishes and glasses from tables or counters, and take them to kitchen for cleaning.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.7
     },
     {
-      "task": "Describe and recommend wines to customers and bring wine selections to tables with appropriate glasses.",
-      "task_type": "Supplemental"
+      "task": "Clean tables or counters after patrons have finished dining.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.68
     },
     {
-      "task": "Monitor food distribution, ensuring meals are delivered to the correct recipients and dietary guidelines are followed.",
-      "task_type": "Core"
+      "task": "Prepare hot, cold, and mixed drinks for patrons, and chill bottles of wine.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.99
     },
     {
-      "task": "Inform customers of daily specials and answer questions about menu items, making recommendations upon request.",
-      "task_type": "Core"
+      "task": "Prepare tables for meals, including setting up items such as linens, silverware, and glassware.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.37
     },
     {
-      "task": "Clean tables, counters after patrons finish dining, and wipe tables or seats with dampened cloths.",
-      "task_type": "Core"
+      "task": "Perform food preparation duties, such as preparing salads, appetizers, and cold dishes, portioning desserts, and brewing coffee.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.99
     },
     {
-      "task": "Prepare hot, cold, and mixed drinks for patrons, serve beverages, and prepare and serve a variety of beverages.",
-      "task_type": "Core"
+      "task": "Stock service areas with supplies such as coffee, food, tableware, and linens.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.37
     },
     {
-      "task": "Explain how various menu items are prepared, describing ingredients and cooking methods, and portion accordingly for service.",
-      "task_type": "Core"
+      "task": "Escort customers to their tables.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.78
     },
     {
-      "task": "Prepare tables for meals, including setting up items such as linens, silverware, and glassware, and set tables with clean linens and condiments.",
-      "task_type": "Core"
+      "task": "Serve food or beverages to patrons, and prepare or serve specialty dishes at tables as required.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.6
     },
     {
-      "task": "Monitor food preparation or serving techniques to ensure proper procedures are followed and take temperature of food and storage areas.",
-      "task_type": "Core"
+      "task": "Carry food, silverware, or linen on trays or use carts to carry trays.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.4
     },
     {
-      "task": "Take food orders, relay orders to kitchens or serving counters, and serve food or beverages to patrons including specialty dishes.",
-      "task_type": "Core"
+      "task": "Take orders from patrons for food or beverages.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.77
     },
     {
-      "task": "Collect payments from customers, prepare checks that itemize and total meal costs, and operate cash register.",
-      "task_type": "Core"
+      "task": "Monitor food distribution, ensuring that meals are delivered to the correct recipients and that guidelines, such as those for special diets, are followed.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.77
     },
     {
-      "task": "Assist host or hostess by answering phones for reservations, greeting and seating guests, and thanking customers upon their departure.",
-      "task_type": "Core"
+      "task": "Place food servings on plates or trays according to orders or instructions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.82
     },
     {
-      "task": "Perform food preparation duties such as preparing salads, appetizers, brewing coffee, and cleaning or preparing various foods for service.",
-      "task_type": "Core"
+      "task": "Prepare checks that itemize and total meal costs and sales taxes.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.71
     },
     {
-      "task": "Stock service areas with supplies such as coffee, food, tableware, linens, and maintain adequate supplies of items for service.",
-      "task_type": "Core"
+      "task": "Present menus to patrons and answer questions about menu items, making recommendations upon request.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.52
     },
     {
-      "task": "Escort customers to their tables, greet customers, and help determine their seating arrangements.",
-      "task_type": "Core"
+      "task": "Explain how various menu items are prepared, describing ingredients and cooking methods.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.25
     },
     {
-      "task": "Check with customers to ensure they enjoy their meals and take action to correct problems as they arise.",
-      "task_type": "Core"
+      "task": "Check with customers to ensure that they are enjoying their meals, and take action to correct any problems.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.79
     },
     {
-      "task": "Scrape and stack dirty dishes and carry them to kitchens for cleaning, and load dishes into dishwashing machines.",
-      "task_type": "Core"
+      "task": "Provide guests with information about local areas, including directions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.45
     },
     {
-      "task": "Clean and sterilize dishes, kitchen utensils, and facilities, and perform cleaning duties including sweeping and mopping floors.",
-      "task_type": "Core"
+      "task": "Perform cleaning duties, such as sweeping and mopping floors, vacuuming carpet, tidying up server station, taking out trash, or checking and cleaning bathroom.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.54
     },
     {
-      "task": "Prepare a variety of foods according to customers' orders while ensuring cleanliness and hygiene in food handling.",
-      "task_type": "Core"
+      "task": "Wash dishes, glassware, flatware, pots, or pans, using dishwashers or by hand.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.49
     },
     {
-      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or resolve problems.",
-      "task_type": "Core"
+      "task": "Clean and sanitize work areas, equipment, utensils, dishes, or silverware.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.66
+    },
+    {
+      "task": "Record amounts and types of special food items served to customers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.33
+    },
+    {
+      "task": "Determine where patients or patrons would like to eat their meals and help them get situated.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.15
+    },
+    {
+      "task": "Monitor food preparation or serving techniques to ensure that proper procedures are followed.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.49
+    },
+    {
+      "task": "Inform supervisors when equipment is not working properly and when food and supplies are getting low, and order needed items.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.33
+    },
+    {
+      "task": "Take and record temperature of food and food storage areas, such as refrigerators and freezers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.55
+    },
+    {
+      "task": "Keep records of the quantities of food used.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.96
+    },
+    {
+      "task": "Load or unload trucks that deliver or pick up food or supplies.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.95
+    },
+    {
+      "task": "Perform serving, cleaning, or stocking duties in establishments, such as cafeterias or dining rooms, to facilitate customer service.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.27
+    },
+    {
+      "task": "Set up banquet tables.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.18
+    },
+    {
+      "task": "Check patrons' identification to ensure that they meet minimum age requirements for consumption of alcoholic beverages.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.86
+    },
+    {
+      "task": "Garnish and decorate dishes in preparation for serving.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.02
+    },
+    {
+      "task": "Describe and recommend wines to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.76
+    },
+    {
+      "task": "Heat and serve prepared foods.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.43
+    },
+    {
+      "task": "Perform or schedule repairs or preventive maintenance of vehicles or other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.86
     },
     {
       "task": "Enforce safety rules and regulations.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
     },
     {
-      "task": "Train workers in proper operational procedures and explain company policies.",
-      "task_type": "Unclassified"
+      "task": "Compute or estimate cash, payroll, transportation, personnel, or storage requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.77
     },
     {
-      "task": "Inspect materials, stock, vehicles, equipment, or facilities to ensure safety and compliance with specifications.",
-      "task_type": "Unclassified"
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
     },
     {
-      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements.",
-      "task_type": "Unclassified"
+      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.89
     },
     {
-      "task": "Recommend and implement measures to improve worker motivation, work methods, or customer services.",
-      "task_type": "Unclassified"
+      "task": "Recommend or implement personnel actions, such as employee selection, evaluation, rewards, or disciplinary actions.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.63
     },
     {
-      "task": "Review orders, production schedules, or shipping notices to determine work sequences and material shipping dates.",
-      "task_type": "Core"
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
     },
     {
-      "task": "Resolve customer complaints regarding worker performance or services rendered.",
-      "task_type": "Unclassified"
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
     },
     {
       "task": "Maintain or verify records of time, materials, expenditures, or crew activities.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.9
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.11
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Train workers in proper operational procedures and functions and explain company policies.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     },
     {
       "task": "Participate in continuing education to stay abreast of industry trends and developments.",
-      "task_type": "Unclassified"
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as flight or car attendants.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
+    {
+      "name": "Facebook",
+      "weight": 1.4761904761904763
+    },
     {
       "name": "Microsoft Windows",
       "weight": 1.3511904761904763
@@ -1680,6 +1892,26 @@
     {
       "name": "Microsoft Excel",
       "weight": 0.7657322352444303
+    },
+    {
+      "name": "Blink",
+      "weight": 0.5
+    },
+    {
+      "name": "CBORD Nutrition Service Suite",
+      "weight": 0.5
+    },
+    {
+      "name": "Capital Codeworks MenuMax",
+      "weight": 0.5
+    },
+    {
+      "name": "Compris Advanced Manager's Workstation",
+      "weight": 0.5
+    },
+    {
+      "name": "Compris software",
+      "weight": 0.5
     },
     {
       "name": "Hospitality Control Solutions Aloha Point-of-Sale",
@@ -1702,12 +1934,80 @@
       "weight": 0.5
     },
     {
+      "name": "The General Store",
+      "weight": 0.5
+    },
+    {
       "name": "Microsoft Word",
       "weight": 0.4145417590539542
     },
     {
+      "name": "Barrington Software CookenPro Commercial",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "CBORD Foodservice Suite",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "CBORD NetRecipe",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Culinary Software Services ChefTec",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "EGS CALCMENU",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Master Cook Deluxe Professional Cook",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mealmaster Cookbook Wizard",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "MicroBlast Recipe Wizard for Windows",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Quizlet",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Recipe software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ValuSoft MasterCook",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "iPro",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Microsoft PowerPoint",
       "weight": 0.2895417590539542
+    },
+    {
+      "name": "IBM Lotus LearningSpace",
+      "weight": 0.25
+    },
+    {
+      "name": "SBS International Maestro Suite",
+      "weight": 0.25
+    },
+    {
+      "name": "Cafe Cartel Systems",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Plexis Software Plexis POS",
@@ -1730,12 +2030,28 @@
       "weight": 0.125
     },
     {
+      "name": "Microsoft Access",
+      "weight": 0.03954175905395418
+    },
+    {
       "name": "Scheduling software",
       "weight": 0.03954175905395418
     },
     {
       "name": "Web browser software",
       "weight": 0.03954175905395418
+    },
+    {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.015151515151515152
     },
     {
       "name": "Timekeeping software",
@@ -1816,7 +2132,15 @@
       "weight": 0.6428571428571428
     },
     {
+      "name": "Commercial cooking ovens",
+      "weight": 0.5833333333333333
+    },
+    {
       "name": "10-key calculators",
+      "weight": 0.5
+    },
+    {
+      "name": "Alphanumeric paging equipment",
       "weight": 0.5
     },
     {
@@ -1836,7 +2160,23 @@
       "weight": 0.5
     },
     {
+      "name": "Portable bar code scanners",
+      "weight": 0.5
+    },
+    {
+      "name": "Slicing machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Commercial microwave ovens",
+      "weight": 0.47619047619047616
+    },
+    {
       "name": "Food processors",
+      "weight": 0.47619047619047616
+    },
+    {
+      "name": "Soft-serve ice cream machines",
       "weight": 0.47619047619047616
     },
     {
@@ -1845,6 +2185,26 @@
     },
     {
       "name": "Automatic dishwashing systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Belt conveyors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Bread slicers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Brick ovens",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cappuccino machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Charbroilers",
       "weight": 0.3333333333333333
     },
     {
@@ -1864,6 +2224,26 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Combination slicers/electronic portion scales",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Commercial ranges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Commercial stand mixers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cotton candy machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dicers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Digital handheld thermometers",
       "weight": 0.3333333333333333
     },
@@ -1880,11 +2260,59 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Dough mixers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Drain racks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Drink dispensers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electric fryers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electric meat and cheese slicers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electric meat grinders",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electronic chicken rotisseries",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Espresso machines",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Food scales",
       "weight": 0.3333333333333333
     },
     {
+      "name": "Frozen custard machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Frozen drink machines",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Funnels",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Griddles",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Grills",
       "weight": 0.3333333333333333
     },
     {
@@ -1896,11 +2324,35 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Kitchen trash compactors",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Knives",
       "weight": 0.3333333333333333
     },
     {
       "name": "Measuring utensils",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Milkshake and smoothie machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mixing machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Moving dishwasher belts",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oriental ranges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pizza ovens",
       "weight": 0.3333333333333333
     },
     {
@@ -1912,19 +2364,211 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Popcorn machines",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Pot-washing machines",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "Power washers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pressureless steamers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Roasting equipment",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Snow cone machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Soda machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Temperature indicator strips",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Thermal label printing scales",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Three-compartment sinks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tomato slicers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Automated external defibrillators AED",
+      "weight": 0.25
+    },
+    {
+      "name": "Cardiopulmonary resuscitation CPR equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Cardiopulmonary resuscitation CPR masks",
+      "weight": 0.25
+    },
+    {
+      "name": "First aid kits",
+      "weight": 0.25
+    },
+    {
+      "name": "Halon fire extinguishers",
+      "weight": 0.25
+    },
+    {
+      "name": "Megaphones",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective breathing equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Refreshment carts",
+      "weight": 0.25
+    },
+    {
+      "name": "Refrigeration units",
+      "weight": 0.25
+    },
+    {
+      "name": "Storage compartments",
+      "weight": 0.25
+    },
+    {
+      "name": "Fruit pitters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fruit zesters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Garbage disposals",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Glass washing machines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.125
     },
     {
       "name": "Computerized cash registers",
       "weight": 0.125
     },
     {
+      "name": "Digital video cameras",
+      "weight": 0.125
+    },
+    {
+      "name": "First aid equipment",
+      "weight": 0.125
+    },
+    {
+      "name": "High-powered flashlights",
+      "weight": 0.125
+    },
+    {
+      "name": "Light trucks",
+      "weight": 0.125
+    },
+    {
+      "name": "Mobile radios",
+      "weight": 0.125
+    },
+    {
+      "name": "Parking control cones",
+      "weight": 0.125
+    },
+    {
+      "name": "Parking signs",
+      "weight": 0.125
+    },
+    {
+      "name": "Portable barricades",
+      "weight": 0.125
+    },
+    {
+      "name": "Power staplers",
+      "weight": 0.125
+    },
+    {
+      "name": "Ticket punches",
+      "weight": 0.125
+    },
+    {
+      "name": "Tie downs",
+      "weight": 0.125
+    },
+    {
+      "name": "Vehicle seat belts",
+      "weight": 0.125
+    },
+    {
+      "name": "Wheelchairs",
+      "weight": 0.125
+    },
+    {
+      "name": "Work vans",
+      "weight": 0.125
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Hand trucks",
       "weight": 0.024390243902439025
     },
     {
+      "name": "Pallet jacks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Refrigerated trailers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 0.015151515151515152
+    },
+    {
       "name": "Multi-line telephone systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Photocopying equipment",
       "weight": 0.015151515151515152
     }
   ],

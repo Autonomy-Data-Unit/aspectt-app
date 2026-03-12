@@ -1545,75 +1545,321 @@
   "tasks": [
     {
       "task": "Conduct clinical research on topics such as maternal or infant health care, contraceptive methods, breastfeeding, and gynecological care.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.53
     },
     {
-      "task": "Develop, implement, or evaluate individualized plans for midwifery care and health care management.",
-      "task_type": "Core"
+      "task": "Read current literature, talk with colleagues, or participate in professional organizations or conferences to keep abreast of developments in midwifery.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.39
     },
     {
-      "task": "Read current literature, talk with colleagues, or participate in professional organizations to keep abreast of developments in midwifery.",
-      "task_type": "Core"
+      "task": "Educate patients and family members regarding prenatal, intrapartum, postpartum, newborn, or interconception care.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.76
     },
     {
-      "task": "Educate patients and family members regarding prenatal, intrapartum, postpartum, newborn, or interconception care, including family planning services.",
-      "task_type": "Core"
+      "task": "Provide prenatal, intrapartum, postpartum, or newborn care to patients.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 5.0
     },
     {
-      "task": "Provide prenatal, intrapartum, postpartum, and newborn care to patients, managing newborn care during the first weeks of life.",
-      "task_type": "Core"
+      "task": "Monitor fetal development by listening to fetal heartbeat, taking external uterine measurements, identifying fetal position, or estimating fetal size and weight.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 5.0
     },
     {
-      "task": "Document patients' health histories, symptoms, physical conditions, and findings of physical examinations, including vital signs and diagnostic information.",
-      "task_type": "Core"
+      "task": "Perform physical examinations by taking vital signs, checking neurological reflexes, examining breasts, or performing pelvic examinations.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.75
     },
     {
-      "task": "Monitor fetal development by listening to fetal heartbeat, taking external uterine measurements, and estimating fetal size and weight.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Perform physical examinations, including pelvic exams and neurological reflex checks, to monitor maternal and fetal health.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Consult with or refer patients to appropriate specialists when conditions exceed the scope of practice or expertise, including for ultrasound and genetic testing.",
-      "task_type": "Core"
+      "task": "Consult with or refer patients to appropriate specialists when conditions exceed the scope of practice or expertise.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.45
     },
     {
       "task": "Establish practice guidelines for specialty areas such as primary health care of women, care of the childbearing family, and newborn care.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.06
     },
     {
-      "task": "Initiate emergency interventions to stabilize patients and perform postpartum health assessments of mothers and babies at regular intervals.",
-      "task_type": "Core"
+      "task": "Explain procedures to patients, family members, staff members or others.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.88
     },
     {
-      "task": "Provide information about community health and social resources, and counsel women regarding the nutritional requirements of pregnancy.",
-      "task_type": "Core"
+      "task": "Initiate emergency interventions to stabilize patients.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.82
     },
     {
-      "task": "Monitor maternal condition during labor by checking vital signs and uterine contractions, and assist maternal patients in finding positions to facilitate childbirth.",
-      "task_type": "Core"
+      "task": "Manage newborn care during the first weeks of life.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.44
     },
     {
-      "task": "Evaluate patients' laboratory and medical records, and perform ongoing prenatal health assessments to track changes in physical and emotional health.",
-      "task_type": "Core"
+      "task": "Order and interpret diagnostic or laboratory tests.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.85
     },
     {
-      "task": "Provide, or refer patients to other providers for, education or counseling on topics such as genetic testing, newborn care, contraception, or breastfeeding.",
-      "task_type": "Core"
+      "task": "Prescribe medications as permitted by state regulations.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.91
     },
     {
-      "task": "Perform post-partum health assessments of mothers and babies at regular intervals and assist with patient comfort measures during labor.",
-      "task_type": "Core"
+      "task": "Provide patients with direct family planning services, such as inserting intrauterine devices, dispensing oral contraceptives, and fitting cervical barriers, including cervical caps or diaphragms.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.94
     },
     {
-      "task": "Establish and follow emergency or contingency plans for mothers and newborns, and monitor maternal and fetal well-being throughout the birthing process.",
-      "task_type": "Core"
+      "task": "Plan, provide, or evaluate educational programs for nursing staff, health care teams, or the community.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.67
+    },
+    {
+      "task": "Write information in medical records or provide narrative summaries to communicate patient information to other health care providers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.7
+    },
+    {
+      "task": "Instruct student nurse midwives, medical students, or residents on the birthing process.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.22
+    },
+    {
+      "task": "Monitor and maintain aseptic technique throughout procedures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.89
+    },
+    {
+      "task": "Verify the identity of patient or operative site.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.97
+    },
+    {
+      "task": "Transport patients to operating room.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.86
+    },
+    {
+      "task": "Insert or remove urinary bladder catheters.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.71
+    },
+    {
+      "task": "Gather, arrange, or assemble instruments or supplies.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.16
+    },
+    {
+      "task": "Cover patients with surgical drapes to create and maintain a sterile operative field.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.71
+    },
+    {
+      "task": "Prepare and apply sterile wound dressings.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.65
+    },
+    {
+      "task": "Assist maternal patients to find physical positions that will facilitate childbirth.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.21
+    },
+    {
+      "task": "Monitor maternal condition during labor by checking vital signs, monitoring uterine contractions, or performing physical examinations.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.71
+    },
+    {
+      "task": "Treat patients' symptoms with alternative health care methods such as herbs or hydrotherapy.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.5
+    },
+    {
+      "task": "Inform patients of how to prepare and supply birth sites.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.03
+    },
+    {
+      "task": "Identify tubal and ectopic pregnancies and refer patients for treatments.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.69
+    },
+    {
+      "task": "Identify, monitor, or treat pregnancy-related problems such as hypertension, gestational diabetes, pre-term labor, or retarded fetal growth.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.57
+    },
+    {
+      "task": "Respond to breech birth presentations by applying methods such as exercises or external version.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.02
+    },
+    {
+      "task": "Estimate patients' due dates and re-evaluate as necessary based on examination results.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.16
+    },
+    {
+      "task": "Develop, implement, or evaluate individualized plans for midwifery care.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.88
+    },
+    {
+      "task": "Conduct ongoing prenatal health assessments, tracking changes in physical and emotional health.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.61
+    },
+    {
+      "task": "Collect specimens for use in laboratory tests.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.06
+    },
+    {
+      "task": "Assess the status of post-date pregnancies to determine treatments and interventions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.42
+    },
+    {
+      "task": "Assess birthing environments to ensure cleanliness, safety, and the availability of appropriate supplies.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.19
+    },
+    {
+      "task": "Set up or monitor the administration of oxygen or medications.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.4
+    },
+    {
+      "task": "Provide comfort and relaxation measures for mothers in labor through interventions such as massage, breathing techniques, hydrotherapy, or music.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.16
+    },
+    {
+      "task": "Establish and follow emergency or contingency plans for mothers and newborns.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.59
+    },
+    {
+      "task": "Complete birth certificates.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.02
+    },
+    {
+      "task": "Provide information about community health and social resources.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.8
+    },
+    {
+      "task": "Perform post-partum health assessments of mothers and babies at regular intervals.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.36
+    },
+    {
+      "task": "Incorporate research findings into practice as appropriate.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.19
+    },
+    {
+      "task": "Collaborate in research studies.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.31
+    },
+    {
+      "task": "Counsel women regarding the nutritional requirements of pregnancy.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.3
+    },
+    {
+      "task": "Compile and evaluate clinical practice statistics.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.5
+    },
+    {
+      "task": "Suture perineal lacerations.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.37
+    },
+    {
+      "task": "Provide information about the physical and emotional processes involved in the pregnancy, labor, birth, and postpartum periods.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.27
     },
     {
       "task": "Provide necessary medical care for infants at birth, including emergency care such as resuscitation.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.62
+    },
+    {
+      "task": "Provide, or refer patients to other providers for, education or counseling on topics such as genetic testing, newborn care, contraception, or breastfeeding.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.09
+    },
+    {
+      "task": "Test patients' hemoglobin, hematocrit, and blood glucose levels.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.32
+    },
+    {
+      "task": "Protect the security of medical records to ensure that confidentiality is maintained.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1690,6 +1936,10 @@
       "weight": 1.0
     },
     {
+      "name": "Prognosis Innovation Healthcare ChartAccess",
+      "weight": 1.0
+    },
+    {
       "name": "StatCom Patient Flow Logistics Enterprise Suite",
       "weight": 1.0
     },
@@ -1734,6 +1984,18 @@
       "weight": 0.20833333333333331
     },
     {
+      "name": "AS/400 Database",
+      "weight": 0.125
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.125
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.125
+    },
+    {
       "name": "Nursing documentation software",
       "weight": 0.125
     },
@@ -1750,6 +2012,18 @@
       "weight": 0.125
     },
     {
+      "name": "Supply documentation software",
+      "weight": 0.125
+    },
+    {
+      "name": "Surgery workflow communication software",
+      "weight": 0.125
+    },
+    {
+      "name": "3M Encoder",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Allscripts EHR",
       "weight": 0.08333333333333333
     },
@@ -1758,7 +2032,15 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "American Medical Association CodeManager",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Azalea Health Azalea EHR",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Billing software",
       "weight": 0.08333333333333333
     },
     {
@@ -1770,7 +2052,27 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Computerized indexing systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Cyber Records MediChart Express",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "DRG grouping software",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Digital Imaging Communications in Medicine DICOM medical imaging software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "EHS CareRevolution",
       "weight": 0.08333333333333333
     },
     {
@@ -1782,11 +2084,99 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Encoder software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fox Meadows Accent Data Manager",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fox Meadows ChartingPlus",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fox Meadows EncounterManager",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "GE Healthcare Logician",
       "weight": 0.08333333333333333
     },
     {
+      "name": "Graphics software",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Greenway Medical Technologies PrimeChart",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "HMS",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Health Care Data HealthProbe",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Healthcare common procedure coding system HCPCS",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Holt Systems eMedRec",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hyland Software OnBase",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM InfoSphere DataStage",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IDX Systems IDXtend",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IDX Systems Patient Chart Tracking",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Information Resource Products Clinical Coding Expert",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Laserfiche software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "LeonardoMD Renaissance",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "MD Synergy Medical Appointment Scheduling",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "MedStar Systems DrWorks",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Mediasoft mediOFFICE",
       "weight": 0.08333333333333333
     },
     {
@@ -1802,7 +2192,15 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "MicroStrategy",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Microsoft Access",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Dynamics",
       "weight": 0.08333333333333333
     },
     {
@@ -1814,7 +2212,43 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Microsoft Project",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft SQL Server Reporting Services SSRS",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Visual Basic Scripting Edition VBScript",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Microsoft Windows",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "NCG Medical Systems d-Chart",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "NDCMedisoft",
       "weight": 0.08333333333333333
     },
     {
@@ -1822,7 +2256,91 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "PCC Pediatric Partner",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "PowerMed",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Practice Partner Patient Records",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Presentation software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Purkinje Dossier",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "QMSoftware Receivables Management",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Quest Erwin Data Modeler",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "R",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAP Crystal Reports",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAS",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "STAT! Systems QD Clinical",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "ScanSoft Naturally Speaking",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Scheduling software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Siemens Soarian Financials",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Siemens Soarian Scheduling",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SoftMed ChartLocater",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SoftMed ChartRelease",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SoftMed ChartReserve",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Speech recognition software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "StataCorp Stata",
       "weight": 0.08333333333333333
     },
     {
@@ -1830,7 +2348,31 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Tableau",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "VantageMed ChartKeeper",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Virtual private networking VPN software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Visionary Medical Systems Visionary OFFICE PM",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Voice dictation software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Welford Chart Notes",
       "weight": 0.08333333333333333
     },
     {
@@ -2076,10 +2618,6 @@
       "weight": 0.125
     },
     {
-      "name": "Argon beam coagulators",
-      "weight": 0.125
-    },
-    {
       "name": "Automated blood pressure cuffs",
       "weight": 0.125
     },
@@ -2096,43 +2634,7 @@
       "weight": 0.125
     },
     {
-      "name": "Blood warming equipment",
-      "weight": 0.125
-    },
-    {
-      "name": "Body stabilizers",
-      "weight": 0.125
-    },
-    {
-      "name": "C-arm tables",
-      "weight": 0.125
-    },
-    {
-      "name": "Carbon dioxide CO2 lasers",
-      "weight": 0.125
-    },
-    {
       "name": "Cardiac monitoring equipment",
-      "weight": 0.125
-    },
-    {
-      "name": "Cast cutting saws",
-      "weight": 0.125
-    },
-    {
-      "name": "Cauterizing equipment",
-      "weight": 0.125
-    },
-    {
-      "name": "Cell savers",
-      "weight": 0.125
-    },
-    {
-      "name": "Endoscopic camera/video systems",
-      "weight": 0.125
-    },
-    {
-      "name": "Ethylene oxide sterilizers",
       "weight": 0.125
     },
     {
@@ -2144,31 +2646,7 @@
       "weight": 0.125
     },
     {
-      "name": "Eye lasers",
-      "weight": 0.125
-    },
-    {
-      "name": "Eye magnets",
-      "weight": 0.125
-    },
-    {
-      "name": "Fiberoptic endoscopes",
-      "weight": 0.125
-    },
-    {
-      "name": "Flash sterilizers",
-      "weight": 0.125
-    },
-    {
       "name": "Fluid warmers",
-      "weight": 0.125
-    },
-    {
-      "name": "Head stabilizers",
-      "weight": 0.125
-    },
-    {
-      "name": "Heart pacemakers",
       "weight": 0.125
     },
     {
@@ -2188,10 +2666,6 @@
       "weight": 0.125
     },
     {
-      "name": "Laparoscopes",
-      "weight": 0.125
-    },
-    {
       "name": "Manual blood pressure cuffs",
       "weight": 0.125
     },
@@ -2200,15 +2674,7 @@
       "weight": 0.125
     },
     {
-      "name": "Mechanical intermittent positive pressure ventilators",
-      "weight": 0.125
-    },
-    {
       "name": "Medical examination protective gloves",
-      "weight": 0.125
-    },
-    {
-      "name": "Medical image processing printers",
       "weight": 0.125
     },
     {
@@ -2217,14 +2683,6 @@
     },
     {
       "name": "Nasal syringes",
-      "weight": 0.125
-    },
-    {
-      "name": "Neodymium-doped yttrium aluminum garnet Nd:YAG lasers",
-      "weight": 0.125
-    },
-    {
-      "name": "Nerve stimulators",
       "weight": 0.125
     },
     {
@@ -2241,18 +2699,6 @@
     },
     {
       "name": "Patient transport stretchers",
-      "weight": 0.125
-    },
-    {
-      "name": "Pneumatic tourniquets",
-      "weight": 0.125
-    },
-    {
-      "name": "Powered surgical drills",
-      "weight": 0.125
-    },
-    {
-      "name": "Pressure steam autoclaves",
       "weight": 0.125
     },
     {
@@ -2280,14 +2726,6 @@
       "weight": 0.125
     },
     {
-      "name": "Surgical dermatomes",
-      "weight": 0.125
-    },
-    {
-      "name": "Surgical fracture tables",
-      "weight": 0.125
-    },
-    {
       "name": "Surgical masks",
       "weight": 0.125
     },
@@ -2304,19 +2742,11 @@
       "weight": 0.125
     },
     {
-      "name": "Surgical robots",
-      "weight": 0.125
-    },
-    {
       "name": "Surgical scalpels",
       "weight": 0.125
     },
     {
       "name": "Surgical tissue forceps",
-      "weight": 0.125
-    },
-    {
-      "name": "Surgical trocars",
       "weight": 0.125
     },
     {
@@ -2344,15 +2774,79 @@
       "weight": 0.125
     },
     {
-      "name": "Vascular clamps",
-      "weight": 0.125
-    },
-    {
       "name": "Wound drains",
       "weight": 0.125
     },
     {
+      "name": "10-key calculators",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Barcode attachment equipment",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Credit card processing machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Dictaphones",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Encoders",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Flat-top scanners",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Label printers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Laser printers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Light pens",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microfiche viewing machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microfilm viewing machines",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Notebook computers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Optical readers and writers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Paper shredders",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Postal scales",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Scanners",
       "weight": 0.08333333333333333
     },
     {

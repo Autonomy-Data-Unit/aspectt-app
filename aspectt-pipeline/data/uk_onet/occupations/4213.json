@@ -1544,56 +1544,304 @@
   ],
   "tasks": [
     {
-      "task": "Manage and maintain executives' schedules, including completing work schedules, managing calendars, and arranging appointments.",
-      "task_type": "Core"
+      "task": "Prepare meeting agendas, attend meetings, and record and transcribe minutes.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.58
     },
     {
-      "task": "Attend meetings to record minutes, compile, transcribe, and distribute minutes of meetings, and prepare agendas for meetings.",
-      "task_type": "Core"
+      "task": "Open, sort, and route incoming mail, answer correspondence, and prepare outgoing mail.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.91
     },
     {
-      "task": "Provide transcripts of proceedings upon request of judges, lawyers, or the public, and file a legible transcript of records of a court case with the court clerk's office.",
-      "task_type": "Core"
+      "task": "Answer telephones, direct calls, and take messages.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.34
     },
     {
-      "task": "Transcribe recorded proceedings in accordance with established formats and proofread transcripts for correct spelling of words.",
-      "task_type": "Core"
+      "task": "Complete work schedules, manage calendars, and arrange appointments.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.73
     },
     {
-      "task": "Conduct research, compile data, and prepare papers for consideration and presentation by executives, committees, and boards of directors.",
-      "task_type": "Core"
+      "task": "Maintain and update filing, inventory, mailing, and database systems, either manually or using a computer.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.05
     },
     {
-      "task": "Greet visitors and determine whether they should be given access to specific individuals, and communicate with customers, employees, and others to answer questions.",
-      "task_type": "Core"
+      "task": "Prepare invoices, reports, memos, letters, financial statements, and other documents, using word processing, spreadsheet, database, or presentation software.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.17
     },
     {
-      "task": "File and retrieve corporate documents, records, reports, and maintain and update filing, inventory, mailing, and database systems.",
-      "task_type": "Core"
+      "task": "Prepare agendas and make arrangements, such as coordinating catering for luncheons, for committee, board, and other meetings.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.9
     },
     {
-      "task": "Open, sort, and distribute incoming correspondence, including faxes and emails, and prepare outgoing mail.",
-      "task_type": "Core"
+      "task": "Make travel arrangements for executives.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.23
     },
     {
-      "task": "Verify accuracy of transcripts by checking copies against original records of proceedings and accuracy of rulings by checking with judges.",
-      "task_type": "Core"
+      "task": "Prepare responses to correspondence containing routine inquiries.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.02
     },
     {
-      "task": "Prepare invoices, reports, memos, letters, financial statements, and other documents using word processing and spreadsheet software.",
-      "task_type": "Core"
+      "task": "Greet visitors and determine whether they should be given access to specific individuals.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.0
+    },
+    {
+      "task": "Read and analyze incoming memos, submissions, and reports to determine their significance and plan their distribution.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.73
+    },
+    {
+      "task": "Review files, records, and other documents to obtain information to respond to requests.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.91
+    },
+    {
+      "task": "Communicate with customers, employees, and other individuals to answer questions, disseminate or explain information, take orders, and address complaints.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.28
+    },
+    {
+      "task": "Inventory and order materials, supplies, and services.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.5
+    },
+    {
+      "task": "Perform buying duties when necessary.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.42
+    },
+    {
+      "task": "Prepare, maintain, and review purchasing files, reports and price lists.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.15
+    },
+    {
+      "task": "Review requisition orders to verify accuracy, terminology, and specifications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.14
+    },
+    {
+      "task": "Contact suppliers to schedule or expedite deliveries and to resolve shortages, missed or late deliveries, and other problems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.15
+    },
+    {
+      "task": "Locate suppliers, using sources such as catalogs and the internet, and interview them to gather information about products to be ordered.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.92
+    },
+    {
+      "task": "Compare suppliers' bills with bids and purchase orders to verify accuracy.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.96
+    },
+    {
+      "task": "Check shipments when they arrive to ensure that orders have been filled correctly and that goods meet specifications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.23
+    },
+    {
+      "task": "Calculate costs of orders, and charge or forward invoices to appropriate accounts.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.34
+    },
+    {
+      "task": "Compare prices, specifications, and delivery dates to determine the best bid among potential suppliers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.33
+    },
+    {
+      "task": "Proofread transcripts for correct spelling of words.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.83
     },
     {
       "task": "Supervise and train other clerical staff and arrange for employee training by scheduling training or organizing training material.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.42
     },
     {
-      "task": "Prepare purchase orders and send copies to suppliers and to departments originating requests, and review requisition orders to verify accuracy.",
-      "task_type": "Core"
+      "task": "Process payroll information.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 4.26
     },
     {
-      "task": "Inventory and order materials, supplies, and services, and ensure that orders have been filled correctly and goods meet specifications.",
-      "task_type": "Core"
+      "task": "Provide clerical support to other departments.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.63
+    },
+    {
+      "task": "Coordinate and direct office services, such as records, departmental finances, budget preparation, personnel issues, and housekeeping, to aid executives.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.09
+    },
+    {
+      "task": "Prepare invitation-of-bid forms, and mail forms to supplier firms or distribute forms for public posting.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.74
+    },
+    {
+      "task": "Process and prepare documents, such as business or government forms and expense reports.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.82
+    },
+    {
+      "task": "Deliver messages and run errands.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.47
+    },
+    {
+      "task": "Compute, record, and proofread data and other information, such as records or reports.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.76
+    },
+    {
+      "task": "Operate office machines, such as photocopiers and scanners, facsimile machines, voice mail systems, and personal computers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.56
+    },
+    {
+      "task": "Complete and mail bills, contracts, policies, invoices, or checks.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.11
+    },
+    {
+      "task": "Approve and pay bills.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.29
+    },
+    {
+      "task": "Count, weigh, measure, or organize materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.22
+    },
+    {
+      "task": "Track the status of requisitions, contracts, and orders.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.45
+    },
+    {
+      "task": "Monitor contractor performance, recommending contract modifications when necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.77
+    },
+    {
+      "task": "Maintain knowledge of all organizational and governmental rules affecting purchases, and provide information about these rules to organization staff members and to vendors.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.24
+    },
+    {
+      "task": "Troubleshoot problems involving office equipment, such as computer hardware and software.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 2.95
+    },
+    {
+      "task": "Respond to customer and supplier inquiries about order status, changes, or cancellations.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.12
+    },
+    {
+      "task": "Collect, count, and disburse money, do basic bookkeeping, and complete banking transactions.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.14
+    },
+    {
+      "task": "Take notes in shorthand or use a stenotype or shorthand machine that prints letters on a paper tape.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 4.82
+    },
+    {
+      "task": "Interpret administrative and operating policies and procedures for employees.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.8
+    },
+    {
+      "task": "Review operating practices and procedures to determine whether improvements can be made in areas such as workflow, reporting procedures, or expenditures.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.28
+    },
+    {
+      "task": "Set up and oversee administrative policies and procedures for offices or organizations.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.69
+    },
+    {
+      "task": "Meet with individuals, special interest groups, and others on behalf of executives, committees, and boards of directors.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.62
+    },
+    {
+      "task": "Transcribe recorded proceedings in accordance with established formats.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.79
+    },
+    {
+      "task": "Conduct research, compile data, and prepare papers for consideration and presentation by executives, committees, and boards of directors.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.88
+    },
+    {
+      "task": "Ask speakers to clarify inaudible statements.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.83
     }
   ],
   "technology_skills": [
@@ -1618,7 +1866,27 @@
       "weight": 0.3484848484848485
     },
     {
+      "name": "Intuit QuickBooks",
+      "weight": 0.25757575757575757
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.25757575757575757
+    },
+    {
       "name": "Microsoft PowerPoint",
+      "weight": 0.25757575757575757
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.25757575757575757
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.25757575757575757
+    },
+    {
+      "name": "SAP software",
       "weight": 0.25757575757575757
     },
     {
@@ -1626,7 +1894,15 @@
       "weight": 0.25757575757575757
     },
     {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.18181818181818182
+    },
+    {
       "name": "Adobe Acrobat",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Adobe InDesign",
       "weight": 0.17424242424242425
     },
     {
@@ -1634,7 +1910,27 @@
       "weight": 0.17424242424242425
     },
     {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.17424242424242425
+    },
+    {
       "name": "Database software",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Dropbox",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "FileMaker Pro",
       "weight": 0.17424242424242425
     },
     {
@@ -1642,8 +1938,96 @@
       "weight": 0.17424242424242425
     },
     {
+      "name": "Google Drive",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Google Sites",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Google Workspace software",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "LexisNexis",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "SmugMug Flickr",
+      "weight": 0.17424242424242425
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.17424242424242425
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Accounting software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Adobe Contribute",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Aestiva Purchase Order",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Airtable",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.09090909090909091
     },
     {
       "name": "Calendar and scheduling software",
@@ -1654,7 +2038,51 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Customer relationship management CRM software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Eko",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Epicor Vantage ERP",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Equative TimeLedger",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Exact Software Macola ES",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Fishbowl Warehouse",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Google Meet",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Human resource management software HRMS",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Inetsoft",
       "weight": 0.09090909090909091
     },
     {
@@ -1662,7 +2090,55 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Intrado SchoolMessenger",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "JamBoard",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "KAPES",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "LogMeIn GoToMeeting",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "LogMeIn GoToWebinar",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Maynard PlanStaff Manager",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "MicroStrategy Report Services",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft OneNote",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft Team Foundation Server",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Nuance Dragon NaturallySpeaking",
       "weight": 0.09090909090909091
     },
     {
@@ -1670,7 +2146,55 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "PRONTO Xi",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "ParentSquare",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "ProQuest RefWorks",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "ProQuest RefWorks RefShare",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Questek Humanis",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Records management systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "SAP Concur",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "SYSPRO business software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Sage Peachtree Premium Accounting for Manufacturing",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Slack",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Slido interaction software",
       "weight": 0.09090909090909091
     },
     {
@@ -1678,7 +2202,27 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "VocEdit",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Web conferencing software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Work Technology WorkTech Time",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Workbrain Employee Scheduling",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Workbrain Time and Attendance",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Workflow International Deskflow Enterprise",
       "weight": 0.09090909090909091
     },
     {
@@ -1686,7 +2230,91 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "3M Post-it App",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "ADP Workforce Now",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Alpha Software Alpha Five",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Autotask",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Billing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Blackboard software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Bookkeeping software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Data entry software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electronic Data Interchange EDI systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electronic data interchange EDI software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Filing system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM Maximo Asset Management",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Mavenlink",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Propertyware",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Records management software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Salesforce.com Salesforce CRM",
       "weight": 0.08333333333333333
     },
     {
@@ -1695,6 +2323,14 @@
     },
     {
       "name": "Transcription system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Yardi software",
       "weight": 0.08333333333333333
     }
   ],
@@ -1776,14 +2412,6 @@
       "weight": 0.09090909090909091
     },
     {
-      "name": "Stenomasks",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Stenotype machines",
-      "weight": 0.09090909090909091
-    },
-    {
       "name": "Computer laser printers",
       "weight": 0.08333333333333333
     },
@@ -1804,11 +2432,31 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Electronic cash registers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Letter folding machines",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Multiline telephone systems",
       "weight": 0.08333333333333333
     },
     {
       "name": "Photocopiers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Postage machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Switchboards",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Typewriters",
       "weight": 0.08333333333333333
     },
     {

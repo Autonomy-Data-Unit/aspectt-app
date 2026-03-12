@@ -1544,44 +1544,496 @@
   ],
   "tasks": [
     {
-      "task": "Inspect trucks prior to beginning routes to ensure safe operating condition and refuel trucks or add fluids as necessary.",
-      "task_type": "Core"
+      "task": "Inspect trucks prior to beginning routes to ensure safe operating condition.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.53
     },
     {
-      "task": "Check road or weather conditions to determine how routes will be affected and communicate with dispatchers concerning any issues.",
-      "task_type": "Core"
+      "task": "Check road or weather conditions to determine how routes will be affected.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.81
     },
     {
-      "task": "Drive trucks following established routes and operate equipment that compresses collected refuse.",
-      "task_type": "Core"
+      "task": "Refuel trucks or add other fluids, such as oil or brake fluid.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.33
     },
     {
-      "task": "Dump refuse or recyclable materials at disposal sites and clean trucks after routes have been completed.",
-      "task_type": "Core"
+      "task": "Make special pickups of recyclable materials, such as food scraps, used oil, discarded computers, or other electronic items.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.37
     },
     {
-      "task": "Make special pickups of recyclable materials and tag containers to inform customers of problems with collections.",
-      "task_type": "Supplemental"
+      "task": "Organize schedules for refuse collection.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.29
     },
     {
-      "task": "Examine practices at green building sites to assess adherence to standards and identify potential hazards related to recycled products.",
-      "task_type": "Supplemental"
+      "task": "Clean trucks or compactor bodies after routes have been completed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.61
     },
     {
-      "task": "Conduct visual inspections of emission control equipment and perform tests to identify hazards in recycled products.",
-      "task_type": "Supplemental"
+      "task": "Tag garbage or recycling containers to inform customers of problems, such as excess garbage or inclusion of items that are not permitted.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.79
     },
     {
-      "task": "Inspect agricultural commodities for compliance with health and safety regulations and prepare reports on findings and recommendations.",
-      "task_type": "Supplemental"
+      "task": "Dump refuse or recyclable materials at disposal sites.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.32
     },
     {
-      "task": "Conduct worker studies to determine whether specific disease instances are job-related and evaluate situations when workers refuse work due to dangers.",
-      "task_type": "Core"
+      "task": "Communicate with dispatchers concerning delays, unsafe sites, accidents, equipment breakdowns, or other maintenance problems.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.96
     },
     {
-      "task": "Inspect vehicles or other equipment for evidence of abuse or defects and ensure compliance with relevant rules or standards.",
-      "task_type": "Core"
+      "task": "Operate equipment that compresses collected refuse.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.98
+    },
+    {
+      "task": "Drive trucks, following established routes, through residential streets or alleys or through business or industrial areas.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.35
+    },
+    {
+      "task": "Fill out defective equipment reports.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.27
+    },
+    {
+      "task": "Dismount garbage trucks to collect garbage and remount trucks to ride to the next collection point.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.99
+    },
+    {
+      "task": "Operate automated or semi-automated hoisting devices that raise refuse bins and dump contents into openings in truck bodies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
+    },
+    {
+      "task": "Inspect repairs to transportation vehicles or equipment to ensure that repair work was performed properly.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.05
+    },
+    {
+      "task": "Verify availability or monitor use of safety equipment, such as hearing protection or respirators.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.81
+    },
+    {
+      "task": "Investigate incidents or violations, such as delays, accidents, and equipment failures.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.55
+    },
+    {
+      "task": "Review commercial vehicle logs, shipping papers, or driver and equipment records to detect any problems or to ensure compliance with regulations.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.52
+    },
+    {
+      "task": "Examine carrier operating rules, employee qualification guidelines, or carrier training and testing programs for compliance with regulations or safety standards.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.37
+    },
+    {
+      "task": "Investigate complaints regarding safety violations.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.41
+    },
+    {
+      "task": "Issue notices and recommend corrective actions when infractions or problems are found.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.96
+    },
+    {
+      "task": "Prepare reports on investigations or inspections and actions taken.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Recommend corrective measures to be applied based on results of environmental contaminant analyses.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
+    },
+    {
+      "task": "Evaluate situations or make determinations when a worker has refused to work on the grounds that danger or potential harm exists.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.24
+    },
+    {
+      "task": "Conduct worker studies to determine whether specific instances of disease or illness are job-related.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.63
+    },
+    {
+      "task": "Measure heights and widths of loads to ensure they will pass over bridges or through tunnels on scheduled routes.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.03
+    },
+    {
+      "task": "Post warning signs on vehicles containing explosives or flammable or radioactive materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.08
+    },
+    {
+      "task": "Determine cargo transportation capabilities by reading documents that set forth cargo loading and securing procedures, capacities, and stability factors.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.87
+    },
+    {
+      "task": "Direct crews to reload freight or to insert additional bracing or packing as necessary.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.96
+    },
+    {
+      "task": "Notify workers of any special treatment required for shipments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.99
+    },
+    {
+      "task": "Inspect loaded cargo, cargo lashed to decks or in storage facilities, and cargo handling devices to determine compliance with health and safety regulations and need for maintenance.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.02
+    },
+    {
+      "task": "Recommend remedial procedures to correct any violations found during inspections.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.06
+    },
+    {
+      "task": "Observe loading of freight to ensure that crews comply with procedures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.09
+    },
+    {
+      "task": "Advise crews in techniques of stowing dangerous and heavy cargo.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.13
+    },
+    {
+      "task": "Record details about freight conditions, handling of freight, and any problems encountered.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.39
+    },
+    {
+      "task": "Inspect shipments to ensure that freight is securely braced and blocked.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.45
+    },
+    {
+      "task": "Prepare and submit reports after completion of freight shipments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.51
+    },
+    {
+      "task": "Provide consultation to organizations or agencies on the workplace application of safety principles, practices, or techniques.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Visually inspect cargo for damage upon arrival or discharge.",
+      "task_type": "Unclassified",
+      "relevance": 0.16666666666666666,
+      "importance": 0.0
+    },
+    {
+      "task": "Maintain all required environmental records and documentation.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Recommend changes in rules, policies, standards, and regulations, based on knowledge of operating conditions, aircraft improvements, and other factors.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.28
+    },
+    {
+      "task": "Prepare and maintain detailed repair, inspection, investigation, and certification records and reports.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.45
+    },
+    {
+      "task": "Test workplaces for environmental hazards, such as exposure to radiation, chemical or biological hazards, or excessive noise.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Supply, operate, or maintain personal protective equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.05
+    },
+    {
+      "task": "Prepare or review specifications or orders for the purchase of safety equipment, ensuring that proper features are present and that items conform to health and safety standards.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
+    },
+    {
+      "task": "Examine credentials, licenses, or permits to ensure compliance with licensing requirements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.5
+    },
+    {
+      "task": "Educate the public about health issues or enforce health legislation to prevent disease, to promote health, or to help people understand health protection procedures and regulations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.38
+    },
+    {
+      "task": "Review records or reports concerning laboratory results, staffing, floor plans, fire inspections, or sanitation to gather information for the development or enforcement of safety activities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.43
+    },
+    {
+      "task": "Prepare documents to be used in legal proceedings, testifying in such proceedings when necessary.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.36
+    },
+    {
+      "task": "Plan emergency response drills.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.62
+    },
+    {
+      "task": "Maintain logbooks of daily activities, including areas visited or activities performed.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.28
+    },
+    {
+      "task": "Prepare or calibrate equipment used to collect or analyze samples.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.79
+    },
+    {
+      "task": "Verify that transportation and handling procedures meet regulatory requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.36
+    },
+    {
+      "task": "Inspect the cleanliness and practices of establishment employees.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.34
+    },
+    {
+      "task": "Interpret transportation or tariff regulations, shipping orders, safety regulations, or company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.17
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, personnel, or storage requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.77
+    },
+    {
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
+    },
+    {
+      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.89
+    },
+    {
+      "task": "Recommend or implement personnel actions, such as employee selection, evaluation, rewards, or disciplinary actions.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.63
+    },
+    {
+      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Maintain or verify records of time, materials, expenditures, or crew activities.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.9
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Review orders, production schedules, blueprints, or shipping or receiving notices to determine work sequences and material shipping dates, types, volumes, or destinations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.94
+    },
+    {
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.11
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Plan work assignments and equipment allocations to meet transportation, operations or production goals.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.07
+    },
+    {
+      "task": "Perform or schedule repairs or preventive maintenance of vehicles or other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.86
+    },
+    {
+      "task": "Dispatch personnel and vehicles in response to telephone or radio reports of emergencies.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Drive vehicles or operate machines or equipment to complete work assignments or to assist workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.93
+    },
+    {
+      "task": "Examine, measure, or weigh cargo or materials to determine specific handling requirements.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.99
+    },
+    {
+      "task": "Monitor field work to ensure proper performance and use of materials.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Assist workers in tasks, such as loading vehicles.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct workers in transportation or related services, such as pumping, moving, storing, or loading or unloading of materials.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Plan and establish schedules.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1606,8 +2058,16 @@
       "weight": 0.6228750923872874
     },
     {
+      "name": "Microsoft Access",
+      "weight": 0.4562084257206208
+    },
+    {
       "name": "Word processing software",
       "weight": 0.41666666666666663
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.3728750923872875
     },
     {
       "name": "Web browser software",
@@ -1626,11 +2086,51 @@
       "weight": 0.25
     },
     {
+      "name": "Dossier software",
+      "weight": 0.25
+    },
+    {
+      "name": "Fleet management software",
+      "weight": 0.25
+    },
+    {
       "name": "Global positioning system GPS software",
       "weight": 0.25
     },
     {
+      "name": "Mileage logging software",
+      "weight": 0.25
+    },
+    {
+      "name": "Payroll software",
+      "weight": 0.25
+    },
+    {
+      "name": "Routeware software",
+      "weight": 0.25
+    },
+    {
+      "name": "Squeegee",
+      "weight": 0.25
+    },
+    {
+      "name": "WAM software",
+      "weight": 0.25
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.20620842572062084
+    },
+    {
       "name": "Adobe Acrobat",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adobe Photoshop",
       "weight": 0.16666666666666666
     },
     {
@@ -1638,11 +2138,27 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Commercial driver's license information system CDLIS",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Database software",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Inspection Selection System ISS",
+      "name": "Diagnostic scanner software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Google Android",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Industrial Scientific iNET",
       "weight": 0.16666666666666666
     },
     {
@@ -1654,7 +2170,35 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "QuestSuite Professional",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Remedy Interactive iMitigate",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SAS",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Spreadsheet software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Statistical analysis software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "TapRooT",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Technical Data Management System TDMS",
       "weight": 0.16666666666666666
     },
     {
@@ -1662,11 +2206,111 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Vehicle identification number VIN database",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Vehicle inspection databases",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Image processing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Operational databases",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Accellos Real Dispatch",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Commercial vehicle operations CVO software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "@Road GeoManager",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Actsoft Comet Tracker",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Bill of lading software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Coptimal Logics AutoLoad Pro",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Creative Systems Corporation Freight-Link System",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Fleet management systems",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "JDA Manugistics",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Load optimization software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "MagicLogic Optimization Cube-IQ",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Optimum Logistics LoadPlanner",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Proof of delivery POD software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Softtruck CargoWiz",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Starre Enterprises Star Bill of Lading",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Strategic Business Systems Proof of Delivery",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "TOPS Engineering MaxLoad Pro",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "UPS Logistics Technologies Roadnet Transportation Suite",
       "weight": 0.024390243902439025
     },
     {
@@ -1674,7 +2318,19 @@
       "weight": 0.024390243902439025
     },
     {
+      "name": "XATA XATANET",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Inventory management systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Timekeeping software",
       "weight": 0.015151515151515152
     },
     {
@@ -1708,6 +2364,30 @@
       "weight": 0.3728750923872875
     },
     {
+      "name": "Micrometers",
+      "weight": 0.3577235772357723
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.3577235772357723
+    },
+    {
+      "name": "Precision rulers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tachometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Aluminum compactors",
+      "weight": 0.25
+    },
+    {
+      "name": "Cardboard compactors",
+      "weight": 0.25
+    },
+    {
       "name": "Front loading garbage trucks",
       "weight": 0.25
     },
@@ -1717,6 +2397,14 @@
     },
     {
       "name": "Grapple trucks",
+      "weight": 0.25
+    },
+    {
+      "name": "Lifting arms",
+      "weight": 0.25
+    },
+    {
+      "name": "Light meters",
       "weight": 0.25
     },
     {
@@ -1744,7 +2432,223 @@
       "weight": 0.25
     },
     {
+      "name": "Tractor-trailer trucks",
+      "weight": 0.25
+    },
+    {
+      "name": "Vehicle weight scales",
+      "weight": 0.25
+    },
+    {
+      "name": "Walking floor trailers",
+      "weight": 0.25
+    },
+    {
+      "name": "Grease guns",
+      "weight": 0.19105691056910568
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.19105691056910568
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Aerosol meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Aerosol photometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Air compressors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Air flow calibrators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Air quality dataloggers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Airflow indicators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Anemometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Angled feeler gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Automatic samplers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Battery charge testers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Battery test hydrometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Borescopes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bottom samplers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Calibrated measuring tapes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Calipers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Carbon monoxide sensors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cargo scales",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cascade impactors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Centrifugal testers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Combustible gas detectors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computer data input scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cyclone samplers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Data acquisition equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Data loggers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Decelerometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dial gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dial indicators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Diffusive air samplers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital timing lights",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Digital video cameras",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Distance measuring wheels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dry-gas meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dust collectors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dynamometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electrobalances",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electrochemical gas monitors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electronic bubble meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electronic pump calibrators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Electrostatic precipitators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Exhaust analyzers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Flame ionization detectors FID",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Flammable gas detection meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Floor jacks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Flow hoods",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Gas chromatographs GC",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Gas detector tubes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Go/no-go gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Grab samplers",
       "weight": 0.16666666666666666
     },
     {
@@ -1752,7 +2656,51 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Hand held magnifiers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hand magnifying lenses",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld calculators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Heat stress monitors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hydraulic automobile lifts",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hydrometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Impingers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Infrared analyzers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Infrared thermometers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Inspection lamps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Inspection mirrors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Kingpin gauges",
       "weight": 0.16666666666666666
     },
     {
@@ -1760,7 +2708,167 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Locking pliers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Maintenance tracking software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Manometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mass flow meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Measurement calipers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Measuring rods",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Medical measuring tapes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mercury vapor analyzers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microbial samplers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Moisture meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Multimeters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Octave band analyzers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ohmmeters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oilcans",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Onboard diagnostics OBD scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Opacity meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oscilloscopes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Output meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oxygen monitors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Particle counters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Particle sensors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Particulate monitors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Passenger cars",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Passive dosimeters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Passive samplers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Personal sampling pumps",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Photodetectors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Photoionization detectors PID",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Platform scales",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Portable electronic thermometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Portable infrared spectrophotometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power blowers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pressure gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Programmable calculators",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Protective gloves",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Protractors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Radiation detectors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Radon monitors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Respirator hose masks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rotameters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rotor gauges",
       "weight": 0.16666666666666666
     },
     {
@@ -1768,11 +2876,135 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Sample containers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Scaffolding",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Self-contained breathing apparatus",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Single gas monitors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sorbent tubes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sound level meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Spectroscopes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Spirometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Steel measuring tapes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Stroboscopes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Thermal desorption tubes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Thermoanemometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Thermographic equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Thread gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tire pressure gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Tire tread depth gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ultrasonic inspection devices",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vernier calipers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vibration monitors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Voltmeters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wearable computers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wet scrubbers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wheel alignment gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wheel blocks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "X ray fluorescence XRF analyzers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "X ray inspection equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "X ray scanners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Beam scales",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Block weights",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Cargo trucks",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Counterpoise weights",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electronic mass comparators",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Equal-arm scales",
       "weight": 0.08333333333333333
     },
     {
@@ -1784,11 +3016,31 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Hand sieves",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Hard hats",
       "weight": 0.08333333333333333
     },
     {
+      "name": "Moisture detectors",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Moisture scales",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Near infrared NIR analyzers",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Oil samplers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Packaging knives",
       "weight": 0.08333333333333333
     },
     {
@@ -1804,7 +3056,15 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Portable block weights",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Probe-type samplers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Sealed baskets",
       "weight": 0.08333333333333333
     },
     {
@@ -1812,12 +3072,28 @@
       "weight": 0.08333333333333333
     },
     {
-      "name": "Tankcar samplers",
+      "name": "Test weight apparatuses",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Test weight kits",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Thermal tape printers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Ticket printers",
       "weight": 0.08333333333333333
     },
     {
       "name": "Truck probes",
       "weight": 0.08333333333333333
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.024390243902439025
     },
     {
       "name": "Forklifts",
@@ -1832,8 +3108,56 @@
       "weight": 0.024390243902439025
     },
     {
+      "name": "Impact wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Lowboys",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Lug wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Pallet jacks",
       "weight": 0.024390243902439025
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Portable welding equipment",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Refrigerated trailers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Roller beds",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

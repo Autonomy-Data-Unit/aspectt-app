@@ -1544,8 +1544,136 @@
   ],
   "tasks": [
     {
-      "task": "Monitor patients' progress and adjust treatments accordingly, providing ongoing observation of hearing or balance status.",
-      "task_type": "Core"
+      "task": "Monitor patients' progress and adjust treatments accordingly.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.84
+    },
+    {
+      "task": "Supervise or collaborate with therapy team.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.65
+    },
+    {
+      "task": "Program and monitor cochlear implants to fit the needs of patients.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.21
+    },
+    {
+      "task": "Conduct or direct research on hearing or balance topics and report findings to help in the development of procedures, technology, or treatments.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.0
+    },
+    {
+      "task": "Plan and conduct treatment programs for patients' hearing or balance problems, consulting with educators, physicians, nurses, psychologists, speech-language pathologists, and other health care personnel, as necessary.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.14
+    },
+    {
+      "task": "Engage in marketing activities, such as developing marketing plans, to promote business for private practices.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.73
+    },
+    {
+      "task": "Recommend assistive devices according to patients' needs or nature of impairments.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.23
+    },
+    {
+      "task": "Fit, dispense, and repair assistive devices, such as hearing aids.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.82
+    },
+    {
+      "task": "Provide information to the public on hearing or balance topics.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.77
+    },
+    {
+      "task": "Instruct patients, parents, teachers, or employers in communication strategies to maximize effective receptive communication.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.59
+    },
+    {
+      "task": "Refer patients to additional medical or educational services, if needed.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.32
+    },
+    {
+      "task": "Participate in conferences, training, continuing education courses, or publish research results to share knowledge of new hearing or speech disorder treatment methods or technologies.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.04
+    },
+    {
+      "task": "Administer hearing or speech and language evaluations, tests, or examinations to patients to collect information on type and degree of impairments, using written or oral tests or special instruments.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.81
+    },
+    {
+      "task": "Develop or implement treatment plans for problems such as stuttering, delayed language, swallowing disorders, or inappropriate pitch or harsh voice problems, based on own assessments and recommendations of physicians, psychologists, or social workers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.84
+    },
+    {
+      "task": "Develop speech exercise programs to reduce disabilities.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
+    },
+    {
+      "task": "Consult with and advise educators or medical staff on speech or hearing topics, such as communication strategies or speech and language stimulation.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
+    },
+    {
+      "task": "Design, develop, or employ alternative diagnostic or communication devices or strategies.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.12
+    },
+    {
+      "task": "Use computer applications to identify or assist with communication disabilities.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.62
+    },
+    {
+      "task": "Develop and supervise hearing screening programs.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.67
+    },
+    {
+      "task": "Write reports and maintain proper documentation of information, such as client NHS or billing records or caseload activities, including the initial evaluation, treatment, progress, and discharge of clients.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.87
+    },
+    {
+      "task": "Develop individual or group activities or programs in schools to deal with behavior, speech, language, or swallowing problems.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.34
+    },
+    {
+      "task": "Participate in and write reports for meetings regarding patients' progress, such as individualized educational planning (IEP) meetings, in-service meetings, or intervention assistance team meetings.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.62
     }
   ],
   "technology_skills": [
@@ -1574,6 +1702,10 @@
       "weight": 0.5
     },
     {
+      "name": "Apple Logic Pro",
+      "weight": 0.5
+    },
+    {
       "name": "Avaaz Innovations AphasiaMate",
       "weight": 0.5
     },
@@ -1598,7 +1730,15 @@
       "weight": 0.5
     },
     {
+      "name": "Chart Links",
+      "weight": 0.5
+    },
+    {
       "name": "Computers Unlimited TIMS for Audiology",
+      "weight": 0.5
+    },
+    {
+      "name": "Customer relationship management CRM software",
       "weight": 0.5
     },
     {
@@ -1658,6 +1798,10 @@
       "weight": 0.5
     },
     {
+      "name": "Micro Video Voice Speech Training System",
+      "weight": 0.5
+    },
+    {
       "name": "Microsoft Outlook",
       "weight": 0.5
     },
@@ -1678,6 +1822,10 @@
       "weight": 0.5
     },
     {
+      "name": "Propeller Multimedia React2",
+      "weight": 0.5
+    },
+    {
       "name": "Real ear measurement REM software",
       "weight": 0.5
     },
@@ -1687,6 +1835,10 @@
     },
     {
       "name": "Signal analysis software",
+      "weight": 0.5
+    },
+    {
+      "name": "Simply Hearing Software Simply Hearing OMS",
       "weight": 0.5
     },
     {
@@ -1706,6 +1858,10 @@
       "weight": 0.5
     },
     {
+      "name": "Vestibular Technologies ScreenTRAK",
+      "weight": 0.5
+    },
+    {
       "name": "Vestibular diagnostic software",
       "weight": 0.5
     },
@@ -1715,6 +1871,10 @@
     },
     {
       "name": "Words+ E Z Keys for Windows",
+      "weight": 0.5
+    },
+    {
+      "name": "YouTube",
       "weight": 0.5
     }
   ],
@@ -1836,10 +1996,6 @@
       "weight": 0.5
     },
     {
-      "name": "Electroneurography equipment",
-      "weight": 0.5
-    },
-    {
       "name": "Electronystagmographs ENG",
       "weight": 0.5
     },
@@ -1917,10 +2073,6 @@
     },
     {
       "name": "Posturography dynamic platforms",
-      "weight": 0.5
-    },
-    {
-      "name": "Potentiometers",
       "weight": 0.5
     },
     {

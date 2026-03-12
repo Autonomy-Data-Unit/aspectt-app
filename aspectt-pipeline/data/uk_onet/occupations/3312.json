@@ -1545,83 +1545,285 @@
   "tasks": [
     {
       "task": "Provide training to the public or law enforcement personnel in railroad safety or security.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.81
     },
     {
-      "task": "Monitor transit areas and conduct security checks to protect railroad properties, patrons, and employees.",
-      "task_type": "Core"
+      "task": "Direct security activities at derailments, fires, floods, or strikes involving railroad property.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.09
     },
     {
-      "task": "Investigate or direct investigations of freight theft, suspicious damage or loss of passengers' valuables, or other crimes on railroad property.",
-      "task_type": "Core"
+      "task": "Plan or implement special safety or preventive programs, such as fire or accident prevention.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.41
     },
     {
-      "task": "Apprehend or remove trespassers or thieves from railroad property or coordinate with law enforcement agencies in apprehensions and removals.",
-      "task_type": "Core"
+      "task": "Interview neighbors, associates, or former employers of job applicants to verify personal references or to obtain work history data.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.58
     },
     {
-      "task": "Patrol railroad yards, cars, stations, or other facilities to protect company property and maintain order.",
-      "task_type": "Core"
+      "task": "Prepare reports documenting investigation activities and results.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.35
     },
     {
-      "task": "Coordinate or conduct instructional classes for other officers, including crime scene training.",
-      "task_type": "Core"
+      "task": "Coordinate or conduct instructional classes or in-services, such as citizen police academy classes and crime scene training for other officers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.39
+    },
+    {
+      "task": "Design, use, or maintain databases and software applications, such as geographic information systems (GIS) mapping and artificial intelligence tools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.05
     },
     {
       "task": "Gather intelligence information by field observation, confidential information sources, or public records.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
     },
     {
-      "task": "Prepare comprehensive written reports based on research and analysis of intelligence data.",
-      "task_type": "Core"
+      "task": "Create sketches and diagrams, by hand or computer software, to depict crime scenes.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.62
+    },
+    {
+      "task": "Block or rope off scene and check perimeter to ensure that entire scene is secured.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.24
+    },
+    {
+      "task": "Perform undercover assignments and maintain surveillance, including monitoring authorized wiretaps.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.94
+    },
+    {
+      "task": "Prepare and serve search and arrest warrants.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.37
+    },
+    {
+      "task": "Preserve, process, and analyze items of evidence obtained from crime scenes and suspects, placing them in proper containers and destroying evidence no longer needed.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.52
+    },
+    {
+      "task": "Obtain facts or statements from complainants, witnesses, and accused persons and record interviews, using recording device.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.55
+    },
+    {
+      "task": "Prepare charges or responses to charges, or information for court cases, according to formalized procedures.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.53
+    },
+    {
+      "task": "Testify in court and present evidence.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
+    },
+    {
+      "task": "Perform emergency work during off-hours.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.88
+    },
+    {
+      "task": "Investigate illegal or suspicious activities.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.43
+    },
+    {
+      "task": "Render aid to accident survivors and other persons requiring first aid for physical injuries.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.46
     },
     {
       "task": "Identify, pursue, and arrest suspects and perpetrators of criminal acts.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.68
     },
     {
-      "task": "Monitor, note, report, and investigate suspicious persons and situations, safety hazards, and illegal activity in patrol area.",
-      "task_type": "Core"
+      "task": "Locate and seize contraband, undeclared merchandise, and vehicles, aircraft, or boats that contain such merchandise.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.56
     },
     {
-      "task": "Adjust or maintain equipment, such as lasers, microscopes, or energy measurement devices.",
-      "task_type": "Core"
+      "task": "Monitor, note, report, and investigate suspicious persons and situations, safety hazards, and unusual or illegal activity in patrol area.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.4
     },
     {
-      "task": "Set up or operate equipment for assembly or testing, including lasers, cameras, or optical spectrum analyzers.",
-      "task_type": "Core"
+      "task": "Provide for public safety by maintaining order, responding to emergencies, protecting people and property, enforcing motor vehicle and criminal laws, and promoting good community relations.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.67
     },
     {
-      "task": "Examine structures or vehicles using non-destructive testing techniques and prepare reports on the results.",
-      "task_type": "Core"
+      "task": "Provide road information to assist motorists.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.37
     },
     {
-      "task": "Supervise or direct the work of non-destructive testing trainees or staff and document procedures.",
-      "task_type": "Core"
+      "task": "Transport or escort prisoners and defendants en route to courtrooms, prisons or jails, attorneys' offices, or medical facilities.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.13
     },
     {
-      "task": "Conduct tests, such as liquid penetrant tests, to locate flaws and interpret test results.",
-      "task_type": "Core"
+      "task": "Patrol and guard courthouses, grand jury rooms, or assigned areas to provide security, enforce laws, maintain order, and arrest violators.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.25
     },
     {
-      "task": "Develop or use non-destructive testing methods, such as acoustic emission testing and thermal testing.",
-      "task_type": "Core"
+      "task": "Question individuals entering secured areas to determine their business, directing and rerouting individuals as necessary.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.88
     },
     {
-      "task": "Visually examine materials or components for signs of defects using tools like endoscopes or CCTV systems.",
-      "task_type": "Core"
+      "task": "Serve statements of claims, subpoenas, summonses, jury summonses, orders to pay alimony, and other court orders.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.6
     },
     {
-      "task": "Identify defects in materials, such as concrete, using thermal or infrared testing and ultrasonic techniques.",
-      "task_type": "Core"
+      "task": "Notify patrol units to take violators into custody or to provide needed assistance or medical aid.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.72
     },
     {
-      "task": "Fabricate or repair optical components, including optoelectronic devices or surgical lasers.",
-      "task_type": "Supplemental"
+      "task": "Monitor traffic to ensure motorists observe traffic regulations and exhibit safe driving procedures.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.32
     },
     {
-      "task": "Assemble or optimize components for optical communications systems or photonic devices.",
-      "task_type": "Supplemental"
+      "task": "Investigate traffic accidents and other accidents to determine causes and to determine if a crime has been committed.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.19
+    },
+    {
+      "task": "Evaluate complaint and emergency-request information to determine response requirements.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.22
+    },
+    {
+      "task": "Monitor and evaluate the job performance of subordinates, and authorize promotions and transfers.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.02
+    },
+    {
+      "task": "Prepare news releases and respond to police correspondence.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.46
+    },
+    {
+      "task": "Cooperate with court personnel and officials from other law enforcement agencies and testify in court, as necessary.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.88
+    },
+    {
+      "task": "Inspect facilities, supplies, vehicles, and equipment to ensure conformance to standards.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.51
+    },
+    {
+      "task": "Adjust or maintain equipment, such as lasers, laser systems, microscopes, oscilloscopes, pulse generators, power meters, beam analyzers, or energy measurement devices.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.21
+    },
+    {
+      "task": "Set up or operate assembly or processing equipment, such as lasers, cameras, die bonders, wire bonders, dispensers, reflow ovens, soldering irons, die shears, wire pull testers, temperature or humidity chambers, or optical spectrum analyzers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.83
+    },
+    {
+      "task": "Set up or operate prototype or test apparatus, such as control consoles, collimators, recording equipment, or cables.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.47
+    },
+    {
+      "task": "Prepare reports on non-destructive testing results.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.73
+    },
+    {
+      "task": "Select, calibrate, or operate equipment used in the non-destructive testing of products or materials.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.64
+    },
+    {
+      "task": "Supervise or direct the work of non-destructive testing trainees or staff.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.45
+    },
+    {
+      "task": "Document procedures, such as calibration of optical or fiber optic equipment.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.89
+    },
+    {
+      "task": "Compute or record photonic test data.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.32
+    },
+    {
+      "task": "Document non-destructive testing methods, processes, or results.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.55
+    },
+    {
+      "task": "Visually examine materials, structures, or components for signs of corrosion, metal fatigue, cracks, or other flaws, using tools and equipment such as endoscopes, closed-circuit television systems, and fiber optics.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.62
+    },
+    {
+      "task": "Interpret or evaluate test results in accordance with applicable codes, standards, specifications, or procedures.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.77
     }
   ],
   "technology_skills": [
@@ -1674,6 +1876,18 @@
       "weight": 1.8666666666666667
     },
     {
+      "name": "Linux",
+      "weight": 1.5
+    },
+    {
+      "name": "Computer aided composite drawing software",
+      "weight": 1.3666666666666667
+    },
+    {
+      "name": "DesignWare 3D EyeWitness",
+      "weight": 1.3666666666666667
+    },
+    {
       "name": "Email software",
       "weight": 1.3666666666666667
     },
@@ -1682,15 +1896,51 @@
       "weight": 1.3666666666666667
     },
     {
+      "name": "SmartDraw Legal",
+      "weight": 1.3666666666666667
+    },
+    {
+      "name": "The CAD Zone The Crime Zone",
+      "weight": 1.3666666666666667
+    },
+    {
       "name": "ESRI ArcView",
       "weight": 1.2
+    },
+    {
+      "name": "SmugMug Flickr",
+      "weight": 1.2
+    },
+    {
+      "name": "Microsoft Active Server Pages ASP",
+      "weight": 1.1666666666666667
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 1.0666666666666667
     },
     {
       "name": "Operating system software",
       "weight": 1.04
     },
     {
+      "name": "Adobe Photoshop",
+      "weight": 1.0
+    },
+    {
       "name": "DataWorks Plus Digital CrimeScene",
+      "weight": 1.0
+    },
+    {
+      "name": "DeChant Consulting Services iWitness",
+      "weight": 1.0
+    },
+    {
+      "name": "Digital Image Management Solutions Crime Scene",
+      "weight": 1.0
+    },
+    {
+      "name": "Eos Systems PhotoModeler",
       "weight": 1.0
     },
     {
@@ -1698,8 +1948,36 @@
       "weight": 1.0
     },
     {
+      "name": "MapInfo Professional",
+      "weight": 1.0
+    },
+    {
+      "name": "MapInfo StreetPro",
+      "weight": 1.0
+    },
+    {
+      "name": "SAS",
+      "weight": 1.0
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 1.0
+    },
+    {
+      "name": "Trancite Logic Systems ScenePD",
+      "weight": 1.0
+    },
+    {
+      "name": "Visual Statement Vista FX3 CSI",
+      "weight": 1.0
+    },
+    {
       "name": "Word processing software",
       "weight": 0.9066666666666667
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.78
     },
     {
       "name": "Database software",
@@ -1714,11 +1992,47 @@
       "weight": 0.7
     },
     {
+      "name": "Facebook",
+      "weight": 0.54
+    },
+    {
       "name": "Geographic information system GIS systems",
       "weight": 0.54
     },
     {
+      "name": "Statistical analysis software",
+      "weight": 0.54
+    },
+    {
       "name": "AccessData FTK",
+      "weight": 0.5
+    },
+    {
+      "name": "Amazon Simple Storage Service S3",
+      "weight": 0.5
+    },
+    {
+      "name": "Amazon Web Services AWS software",
+      "weight": 0.5
+    },
+    {
+      "name": "Apache Hadoop",
+      "weight": 0.5
+    },
+    {
+      "name": "Apache Hive",
+      "weight": 0.5
+    },
+    {
+      "name": "Apache Kafka",
+      "weight": 0.5
+    },
+    {
+      "name": "Apache Pig",
+      "weight": 0.5
+    },
+    {
+      "name": "Apache Spark",
       "weight": 0.5
     },
     {
@@ -1730,7 +2044,23 @@
       "weight": 0.5
     },
     {
+      "name": "Bing",
+      "weight": 0.5
+    },
+    {
+      "name": "Biometric Storage System BSS",
+      "weight": 0.5
+    },
+    {
+      "name": "C++",
+      "weight": 0.5
+    },
+    {
       "name": "Case management software",
+      "weight": 0.5
+    },
+    {
+      "name": "Chatbot software",
       "weight": 0.5
     },
     {
@@ -1738,7 +2068,83 @@
       "weight": 0.5
     },
     {
+      "name": "Consular Consolidated Database CCD",
+      "weight": 0.5
+    },
+    {
+      "name": "Data mining software",
+      "weight": 0.5
+    },
+    {
+      "name": "Data visualization software",
+      "weight": 0.5
+    },
+    {
+      "name": "Django",
+      "weight": 0.5
+    },
+    {
       "name": "ESRI ArcGIS software",
+      "weight": 0.5
+    },
+    {
+      "name": "Encryption software",
+      "weight": 0.5
+    },
+    {
+      "name": "Enforcement Case Tracking System ENFORCE",
+      "weight": 0.5
+    },
+    {
+      "name": "Firewall software",
+      "weight": 0.5
+    },
+    {
+      "name": "Flowcharting software",
+      "weight": 0.5
+    },
+    {
+      "name": "Google",
+      "weight": 0.5
+    },
+    {
+      "name": "Google Cloud software",
+      "weight": 0.5
+    },
+    {
+      "name": "Google Earth Pro",
+      "weight": 0.5
+    },
+    {
+      "name": "Graphics creation software",
+      "weight": 0.5
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.5
+    },
+    {
+      "name": "Guidance Software EnCase Enterprise",
+      "weight": 0.5
+    },
+    {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.5
+    },
+    {
+      "name": "IBM i2 Analyst's Notebook",
+      "weight": 0.5
+    },
+    {
+      "name": "Image enhancement software",
+      "weight": 0.5
+    },
+    {
+      "name": "JavaScript",
+      "weight": 0.5
+    },
+    {
+      "name": "LexisNexis",
       "weight": 0.5
     },
     {
@@ -1746,7 +2152,83 @@
       "weight": 0.5
     },
     {
+      "name": "LinkedIn",
+      "weight": 0.5
+    },
+    {
+      "name": "McAfee",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Azure software",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft PowerShell",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.5
+    },
+    {
+      "name": "Myspace",
+      "weight": 0.5
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle Java",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.5
+    },
+    {
+      "name": "Palantir Intelligence",
+      "weight": 0.5
+    },
+    {
+      "name": "Photo enhancement software",
+      "weight": 0.5
+    },
+    {
+      "name": "Python",
+      "weight": 0.5
+    },
+    {
+      "name": "R",
+      "weight": 0.5
+    },
+    {
+      "name": "Refugee, Asylum and Parole System RAPS",
+      "weight": 0.5
+    },
+    {
       "name": "Relational database management software",
+      "weight": 0.5
+    },
+    {
+      "name": "Snort",
+      "weight": 0.5
+    },
+    {
+      "name": "Splunk Enterprise",
       "weight": 0.5
     },
     {
@@ -1754,12 +2236,132 @@
       "weight": 0.5
     },
     {
+      "name": "Tableau",
+      "weight": 0.5
+    },
+    {
+      "name": "Telephone analysis software",
+      "weight": 0.5
+    },
+    {
+      "name": "Telephone records software",
+      "weight": 0.5
+    },
+    {
+      "name": "TensorFlow",
+      "weight": 0.5
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.5
+    },
+    {
+      "name": "Text mining software",
+      "weight": 0.5
+    },
+    {
+      "name": "Thomson Reuters CLEAR",
+      "weight": 0.5
+    },
+    {
+      "name": "Timeline software",
+      "weight": 0.5
+    },
+    {
+      "name": "UNIX",
+      "weight": 0.5
+    },
+    {
+      "name": "Veritas NetBackup",
+      "weight": 0.5
+    },
+    {
+      "name": "Wireshark",
+      "weight": 0.5
+    },
+    {
       "name": "Computer aided dispatch software",
+      "weight": 0.3666666666666667
+    },
+    {
+      "name": "Microsoft Internet Explorer",
       "weight": 0.3666666666666667
     },
     {
       "name": "Spillman Technologies Records Management",
       "weight": 0.3666666666666667
+    },
+    {
+      "name": "Automated Manifest System AMS",
+      "weight": 0.2
+    },
+    {
+      "name": "Global positioning system GPS software",
+      "weight": 0.2
+    },
+    {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.2
+    },
+    {
+      "name": "IBM WebSphere MQ",
+      "weight": 0.2
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Autodesk AutoCAD",
+      "weight": 0.08
+    },
+    {
+      "name": "National Instruments LabVIEW",
+      "weight": 0.08
+    },
+    {
+      "name": "Computer aided design CAD software",
+      "weight": 0.04
+    },
+    {
+      "name": "Data acquisition software",
+      "weight": 0.04
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.04
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.04
+    },
+    {
+      "name": "Image processing software",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.04
+    },
+    {
+      "name": "National Instruments DAQ Assistant",
+      "weight": 0.04
+    },
+    {
+      "name": "Presentation software",
+      "weight": 0.04
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 0.04
+    },
+    {
+      "name": "Visualization Sciences Group VSG Avizo Fire",
+      "weight": 0.04
+    },
+    {
+      "name": "Visualization Sciences Group VSG Open Inventor",
+      "weight": 0.04
     }
   ],
   "tools_used": [
@@ -1908,10 +2510,6 @@
       "weight": 1.2
     },
     {
-      "name": "Compound light microscopes",
-      "weight": 1.2
-    },
-    {
       "name": "Crime scene rulers",
       "weight": 1.2
     },
@@ -1928,20 +2526,8 @@
       "weight": 1.2
     },
     {
-      "name": "X ray inspection equipment",
-      "weight": 1.2
-    },
-    {
       "name": "Fingerprint scanners",
       "weight": 1.0666666666666667
-    },
-    {
-      "name": "Biological hazard detectors",
-      "weight": 1.0
-    },
-    {
-      "name": "Chemical hazard detectors",
-      "weight": 1.0
     },
     {
       "name": "Electrostatic dust lifters",
@@ -1957,10 +2543,6 @@
     },
     {
       "name": "Instant print cameras",
-      "weight": 1.0
-    },
-    {
-      "name": "Nuclear hazard detectors",
       "weight": 1.0
     },
     {
@@ -2084,23 +2666,11 @@
       "weight": 0.5
     },
     {
-      "name": "Fume hoods",
-      "weight": 0.5
-    },
-    {
-      "name": "Geological compasses",
-      "weight": 0.5
-    },
-    {
       "name": "Glass evidence vials",
       "weight": 0.5
     },
     {
       "name": "Hacksaws",
-      "weight": 0.5
-    },
-    {
-      "name": "Handheld digital thermometers",
       "weight": 0.5
     },
     {
@@ -2121,10 +2691,6 @@
     },
     {
       "name": "Low wavelength ultraviolet UV light",
-      "weight": 0.5
-    },
-    {
-      "name": "Microscope slides",
       "weight": 0.5
     },
     {
@@ -2280,10 +2846,6 @@
       "weight": 0.2
     },
     {
-      "name": "Gamma ray spectrometers",
-      "weight": 0.2
-    },
-    {
       "name": "Global positioning system GPS receivers",
       "weight": 0.2
     },
@@ -2292,15 +2854,7 @@
       "weight": 0.2
     },
     {
-      "name": "Hazardous material detectors",
-      "weight": 0.2
-    },
-    {
       "name": "Hearing protectors",
-      "weight": 0.2
-    },
-    {
-      "name": "Hydrometers",
       "weight": 0.2
     },
     {
@@ -2308,23 +2862,11 @@
       "weight": 0.2
     },
     {
-      "name": "Ion mobility spectrometers",
-      "weight": 0.2
-    },
-    {
       "name": "Measurement calipers",
       "weight": 0.2
     },
     {
-      "name": "Mobile truck X ray units",
-      "weight": 0.2
-    },
-    {
       "name": "Personal motorized watercraft",
-      "weight": 0.2
-    },
-    {
-      "name": "Personal radiation detectors PRD",
       "weight": 0.2
     },
     {
@@ -2340,22 +2882,6 @@
       "weight": 0.2
     },
     {
-      "name": "Radiation isotope identifier devices RIID",
-      "weight": 0.2
-    },
-    {
-      "name": "Radiation portal monitor terminals",
-      "weight": 0.2
-    },
-    {
-      "name": "Radiation portal monitors RPM",
-      "weight": 0.2
-    },
-    {
-      "name": "Radioisotope detection devices",
-      "weight": 0.2
-    },
-    {
       "name": "Scuba diving equipment",
       "weight": 0.2
     },
@@ -2368,15 +2894,7 @@
       "weight": 0.2
     },
     {
-      "name": "Vehicle and Cargo Inspection System VACIS",
-      "weight": 0.2
-    },
-    {
       "name": "Videophones",
-      "weight": 0.2
-    },
-    {
-      "name": "X ray examination systems",
       "weight": 0.2
     },
     {
@@ -2396,63 +2914,7 @@
       "weight": 0.08
     },
     {
-      "name": "Digital oscilloscopes",
-      "weight": 0.08
-    },
-    {
-      "name": "Scanning electron microscopes SEM",
-      "weight": 0.08
-    },
-    {
-      "name": "Abrasive grinding machines",
-      "weight": 0.04
-    },
-    {
-      "name": "Acoustic emissions systems",
-      "weight": 0.04
-    },
-    {
-      "name": "Acoustic testers",
-      "weight": 0.04
-    },
-    {
-      "name": "Amp meters",
-      "weight": 0.04
-    },
-    {
-      "name": "Analog oscilloscopes",
-      "weight": 0.04
-    },
-    {
-      "name": "Atomic force microscopes AFM",
-      "weight": 0.04
-    },
-    {
-      "name": "Autocollimators",
-      "weight": 0.04
-    },
-    {
-      "name": "Bench refractometers",
-      "weight": 0.04
-    },
-    {
-      "name": "Binocular light compound microscopes",
-      "weight": 0.04
-    },
-    {
-      "name": "Binocular polarizing microscopes",
-      "weight": 0.04
-    },
-    {
       "name": "Binoculars",
-      "weight": 0.04
-    },
-    {
-      "name": "Biosafety cabinets",
-      "weight": 0.04
-    },
-    {
-      "name": "Bit error rate testers BERT",
       "weight": 0.04
     },
     {
@@ -2464,10 +2926,6 @@
       "weight": 0.04
     },
     {
-      "name": "Capacitance testers",
-      "weight": 0.04
-    },
-    {
       "name": "Charge-coupled device CCD cameras",
       "weight": 0.04
     },
@@ -2476,91 +2934,11 @@
       "weight": 0.04
     },
     {
-      "name": "Chemical vapor deposition CVD systems",
-      "weight": 0.04
-    },
-    {
       "name": "Closed circuit television systems",
       "weight": 0.04
     },
     {
-      "name": "Collimators",
-      "weight": 0.04
-    },
-    {
-      "name": "Common path interferometers",
-      "weight": 0.04
-    },
-    {
-      "name": "Computer assisted tomography CAT inspection equipment",
-      "weight": 0.04
-    },
-    {
-      "name": "Computerized numerical control CNC band saws",
-      "weight": 0.04
-    },
-    {
-      "name": "Computerized numerical control CNC drill presses",
-      "weight": 0.04
-    },
-    {
-      "name": "Computerized numerical control CNC lathes",
-      "weight": 0.04
-    },
-    {
-      "name": "Computerized numerical control CNC machining centers",
-      "weight": 0.04
-    },
-    {
-      "name": "Contact profilometers",
-      "weight": 0.04
-    },
-    {
-      "name": "Coordinate measuring machines CMM",
-      "weight": 0.04
-    },
-    {
-      "name": "Cutoff saws",
-      "weight": 0.04
-    },
-    {
-      "name": "Dataloggers",
-      "weight": 0.04
-    },
-    {
-      "name": "Die bonders",
-      "weight": 0.04
-    },
-    {
-      "name": "Die saws",
-      "weight": 0.04
-    },
-    {
-      "name": "Die shears",
-      "weight": 0.04
-    },
-    {
-      "name": "Diffractometers",
-      "weight": 0.04
-    },
-    {
-      "name": "Digital logic analyzers",
-      "weight": 0.04
-    },
-    {
-      "name": "Digital logic probes",
-      "weight": 0.04
-    },
-    {
-      "name": "Digital micrometers",
-      "weight": 0.04
-    },
-    {
-      "name": "Digital refractometers",
-      "weight": 0.04
-    },
-    {
-      "name": "Diode lasers",
+      "name": "Electric hoists",
       "weight": 0.04
     },
     {
@@ -2568,7 +2946,151 @@
       "weight": 0.04
     },
     {
+      "name": "Fluorescent microscopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Ground penetrating radar GPR systems",
+      "weight": 0.04
+    },
+    {
+      "name": "Hand calculators",
+      "weight": 0.04
+    },
+    {
+      "name": "Handheld accelerometers",
+      "weight": 0.04
+    },
+    {
+      "name": "Handheld sprayers",
+      "weight": 0.04
+    },
+    {
+      "name": "Infrared thermographic scanners",
+      "weight": 0.04
+    },
+    {
+      "name": "Inspection endoscopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Laboratory forceps",
+      "weight": 0.04
+    },
+    {
+      "name": "Light meters",
+      "weight": 0.04
+    },
+    {
+      "name": "Loupes",
+      "weight": 0.04
+    },
+    {
+      "name": "Magnifiers",
+      "weight": 0.04
+    },
+    {
+      "name": "Measuring tapes",
+      "weight": 0.04
+    },
+    {
+      "name": "Metallurgical microscopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Micrometers",
+      "weight": 0.04
+    },
+    {
+      "name": "Multifunction digital multimeters",
+      "weight": 0.04
+    },
+    {
+      "name": "Optical comparators",
+      "weight": 0.04
+    },
+    {
+      "name": "Oscilloscopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Portable microscopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Power drills",
+      "weight": 0.04
+    },
+    {
+      "name": "Precision rulers",
+      "weight": 0.04
+    },
+    {
       "name": "Protective gowns",
+      "weight": 0.04
+    },
+    {
+      "name": "Radiation detection badges",
+      "weight": 0.04
+    },
+    {
+      "name": "Remote reading electronic thermometers",
+      "weight": 0.04
+    },
+    {
+      "name": "Signal generators",
+      "weight": 0.04
+    },
+    {
+      "name": "Soldering irons",
+      "weight": 0.04
+    },
+    {
+      "name": "Spectrometers",
+      "weight": 0.04
+    },
+    {
+      "name": "Spectrophotometers",
+      "weight": 0.04
+    },
+    {
+      "name": "Stereo microscopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Telescopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Timing equipment",
+      "weight": 0.04
+    },
+    {
+      "name": "Two-channel oscilloscopes",
+      "weight": 0.04
+    },
+    {
+      "name": "Velocity meters",
+      "weight": 0.04
+    },
+    {
+      "name": "Vernier calipers",
+      "weight": 0.04
+    },
+    {
+      "name": "Vernier micrometers",
+      "weight": 0.04
+    },
+    {
+      "name": "Volt meters",
+      "weight": 0.04
+    },
+    {
+      "name": "Width gauges",
+      "weight": 0.04
+    },
+    {
+      "name": "X ray equipment",
       "weight": 0.04
     }
   ],

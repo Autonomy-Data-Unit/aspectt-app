@@ -1544,60 +1544,286 @@
   ],
   "tasks": [
     {
-      "task": "Replenish supplies, such as drinking glasses, linens, writing supplies, and bathroom items.",
-      "task_type": "Core"
+      "task": "Keep storage areas and carts well-stocked, clean, and tidy.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.42
     },
     {
-      "task": "Keep storage areas and carts well-stocked, clean, and tidy.",
-      "task_type": "Core"
+      "task": "Deliver television sets, ironing boards, baby cribs, and rollaway beds to guests' rooms.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.66
+    },
+    {
+      "task": "Replace light bulbs.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.67
     },
     {
       "task": "Request repair services and wait for repair workers to arrive.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.58
     },
     {
       "task": "Prepare rooms for meetings and arrange decorations, media equipment, and furniture for social or business functions.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.57
+    },
+    {
+      "task": "Polish silver accessories and metalwork, such as fixtures and fittings.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.44
     },
     {
       "task": "Sort, count, and mark clean linens and store them in linen closets.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.13
+    },
+    {
+      "task": "Sort clothing and other articles, load washing machines, and iron and fold dried items.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.08
+    },
+    {
+      "task": "Observe precautions required to protect hotel and guest property and report damage, theft, and found articles to supervisors.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.18
     },
     {
       "task": "Disinfect equipment and supplies, using germicides or steam-operated sterilizers.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.29
+    },
+    {
+      "task": "Hang draperies and dust window blinds.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.6
+    },
+    {
+      "task": "Wash windows, walls, ceilings, and woodwork, waxing and polishing as necessary.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.04
     },
     {
       "task": "Clean rugs, carpets, upholstered furniture, and draperies, using vacuum cleaners and shampooers.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.08
+    },
+    {
+      "task": "Sweep, scrub, wax, or polish floors, using brooms, mops, or powered scrubbing and waxing machines.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.19
+    },
+    {
+      "task": "Dust and polish furniture and equipment.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.01
+    },
+    {
+      "task": "Carry linens, towels, toilet items, and cleaning supplies, using wheeled carts.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.38
     },
     {
       "task": "Clean rooms, hallways, lobbies, lounges, restrooms, corridors, elevators, stairways, locker rooms, and other work areas so that health standards are met.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.34
     },
     {
-      "task": "Scrub, scrape, or spray machine parts, equipment, or vehicles, using scrapers, brushes, cleaners, disinfectants, or hoses.",
-      "task_type": "Core"
+      "task": "Move and arrange furniture and turn mattresses.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.85
     },
     {
-      "task": "Empty wastebaskets, empty and clean ashtrays, and transport other trash and waste to disposal areas.",
-      "task_type": "Core"
+      "task": "Scrub, scrape, or spray machine parts, equipment, or vehicles, using scrapers, brushes, clothes, cleaners, disinfectants, insecticides, acid, abrasives, vacuums, or hoses.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.91
     },
     {
-      "task": "Monitor building security and safety by locking doors after operating hours or checking electrical appliance use to ensure hazards are not created.",
-      "task_type": "Core"
+      "task": "Inspect parts, equipment, or vehicles for cleanliness, damage, and compliance with standards or regulations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.88
     },
     {
-      "task": "Service, clean, or supply restrooms.",
-      "task_type": "Core"
+      "task": "Monitor operation of cleaning machines and stop machines or notify supervisors when malfunctions occur.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.59
+    },
+    {
+      "task": "Mix cleaning solutions, abrasive compositions, or other compounds, according to formulas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.74
+    },
+    {
+      "task": "Clean and polish vehicle windows.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.94
+    },
+    {
+      "task": "Rinse objects and place them on drying racks or use cloth, squeegees, or air compressors to dry surfaces.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.99
+    },
+    {
+      "task": "Turn valves or handles on equipment to regulate pressure or flow of water, air, steam, or abrasives from sprayer nozzles.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.63
+    },
+    {
+      "task": "Pre-soak or rinse machine parts, equipment, or vehicles by immersing objects in cleaning solutions or water, manually or using hoists.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.66
+    },
+    {
+      "task": "Lubricate machinery, vehicles, or equipment or perform minor repairs or adjustments, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.53
+    },
+    {
+      "task": "Connect hoses or lines to pumps or other equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.35
+    },
+    {
+      "task": "Maintain inventories of supplies.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.7
+    },
+    {
+      "task": "Turn valves or disconnect hoses to eliminate water, cleaning solutions, or vapors from machinery or tanks.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.64
+    },
+    {
+      "task": "Sweep, shovel, or vacuum loose debris or salvageable scrap into containers and remove containers from work areas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.59
+    },
+    {
+      "task": "Transport materials, equipment, or supplies to or from work areas, using carts or hoists.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.3
+    },
+    {
+      "task": "Press buttons to activate cleaning equipment or machines.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.52
+    },
+    {
+      "task": "Mow or trim lawns or shrubbery, using mowers or hand or power trimmers, and clear debris from grounds.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.09
+    },
+    {
+      "task": "Monitor building security and safety by performing tasks such as locking doors after operating hours or checking electrical appliance use to ensure that hazards are not created.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.2
+    },
+    {
+      "task": "Set up, arrange, or remove decorations, tables, chairs, ladders, or scaffolding to prepare facilities for events, such as banquets or meetings.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.36
+    },
+    {
+      "task": "Clean chimneys, flues, and connecting pipes, using power or hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.24
+    },
+    {
+      "task": "Make adjustments or minor repairs to heating, cooling, ventilating, plumbing, or electrical systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.49
+    },
+    {
+      "task": "Gather and empty trash.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.23
+    },
+    {
+      "task": "Follow procedures for the use of chemical cleaners and power equipment to prevent damage to floors and fixtures.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.15
+    },
+    {
+      "task": "Strip, seal, finish, and polish floors.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.72
     },
     {
       "task": "Notify managers concerning the need for major repairs or additions to building operating systems.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.2
     },
     {
-      "task": "Mix water and detergents or acids in containers to prepare cleaning solutions, according to specifications.",
-      "task_type": "Core"
+      "task": "Requisition supplies or equipment needed for cleaning and maintenance duties.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.74
+    },
+    {
+      "task": "Move heavy furniture, equipment, or supplies, either manually or with hand trucks.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.42
+    },
+    {
+      "task": "Remove snow from sidewalks, driveways, or parking areas, using snowplows, snow blowers, or snow shovels, or spread snow-melting chemicals.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.53
+    },
+    {
+      "task": "Spray insecticides or fumigants to prevent insect or rodent infestation.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.36
+    },
+    {
+      "task": "Drive vans, industrial trucks, or other vehicles required to travel to, or to perform, cleaning work.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.43
     }
   ],
   "technology_skills": [
@@ -1614,6 +1840,10 @@
       "weight": 0.225
     },
     {
+      "name": "Blink",
+      "weight": 0.125
+    },
+    {
       "name": "Computerized bed control system software",
       "weight": 0.125
     },
@@ -1624,10 +1854,6 @@
     {
       "name": "Email software",
       "weight": 0.125
-    },
-    {
-      "name": "Green Cloud KleanTRAC",
-      "weight": 0.1111111111111111
     },
     {
       "name": "Microsoft Office software",
@@ -1664,6 +1890,10 @@
       "weight": 0.225
     },
     {
+      "name": "Personal computers",
+      "weight": 0.225
+    },
+    {
       "name": "Push brooms",
       "weight": 0.225
     },
@@ -1692,6 +1922,10 @@
       "weight": 0.125
     },
     {
+      "name": "Commercial dishwashers",
+      "weight": 0.125
+    },
+    {
       "name": "Dust masks",
       "weight": 0.125
     },
@@ -1716,11 +1950,23 @@
       "weight": 0.125
     },
     {
+      "name": "Industrial clothes dryers",
+      "weight": 0.125
+    },
+    {
       "name": "Industrial vacuum cleaners",
       "weight": 0.125
     },
     {
+      "name": "Light commercial washing machines",
+      "weight": 0.125
+    },
+    {
       "name": "Mop wringers",
+      "weight": 0.125
+    },
+    {
+      "name": "Multi-line telephone systems",
       "weight": 0.125
     },
     {
@@ -1760,7 +2006,7 @@
       "weight": 0.125
     },
     {
-      "name": "Steam-operated sterilizers",
+      "name": "Steam pressers",
       "weight": 0.125
     },
     {
@@ -1780,6 +2026,10 @@
       "weight": 0.125
     },
     {
+      "name": "Washer extractors",
+      "weight": 0.125
+    },
+    {
       "name": "Wet-dry vacuums",
       "weight": 0.125
     },
@@ -1788,7 +2038,15 @@
       "weight": 0.125
     },
     {
+      "name": "Air blowers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Carpet dirt extractors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Detail brushes",
       "weight": 0.1111111111111111
     },
     {
@@ -1796,11 +2054,11 @@
       "weight": 0.1111111111111111
     },
     {
-      "name": "Steam cleaners",
+      "name": "Power finish buffers",
       "weight": 0.1111111111111111
     },
     {
-      "name": "Tire brushes",
+      "name": "Steam cleaners",
       "weight": 0.1111111111111111
     },
     {
@@ -1808,8 +2066,28 @@
       "weight": 0.1111111111111111
     },
     {
-      "name": "Vehicle squeegees",
+      "name": "Vent brushes",
       "weight": 0.1111111111111111
+    },
+    {
+      "name": "Adjustable hand wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.1
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.1
+    },
+    {
+      "name": "Cordless drills",
+      "weight": 0.1
+    },
+    {
+      "name": "Desktop computers",
+      "weight": 0.1
     },
     {
       "name": "Dry mops",
@@ -1844,11 +2122,19 @@
       "weight": 0.1
     },
     {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.1
+    },
+    {
       "name": "Power floor scrubbers",
       "weight": 0.1
     },
     {
       "name": "Protective ear plugs",
+      "weight": 0.1
+    },
+    {
+      "name": "Ratchet wrenches",
       "weight": 0.1
     },
     {

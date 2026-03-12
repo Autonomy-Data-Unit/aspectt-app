@@ -1544,160 +1544,688 @@
   ],
   "tasks": [
     {
-      "task": "Conduct safety drills, such as man overboard or fire drills.",
-      "task_type": "Unclassified"
-    },
-    {
-      "task": "Signal crew members to rig tow lines, open or close gates, or pull guard chains across entries.",
-      "task_type": "Core"
+      "task": "Signal crew members or deckhands to rig tow lines, open or close gates or ramps, or pull guard chains across entries.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.34
     },
     {
       "task": "Read gauges to verify sufficient levels of hydraulic fluid, air pressure, or oxygen.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.57
     },
     {
-      "task": "Inspect vessels to ensure safe operation and compliance with regulations.",
-      "task_type": "Core"
+      "task": "Inspect vessels to ensure efficient and safe operation of vessels and equipment and conformance to regulations.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.58
     },
     {
       "task": "Stand watches on vessels during specified periods while vessels are under way.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.64
     },
     {
-      "task": "Dock or undock vessels, maneuvering through narrow spaces, such as locks.",
-      "task_type": "Core"
+      "task": "Dock or undock vessels, sometimes maneuvering through narrow spaces, such as locks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.7
     },
     {
       "task": "Operate ship-to-shore radios to exchange information needed for ship operations.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.72
     },
     {
-      "task": "Steer and operate vessels, using radios, depth finders, radars, lights, or buoys.",
-      "task_type": "Core"
+      "task": "Steer and operate vessels, using radios, depth finders, radars, lights, buoys, or lighthouses.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.75
     },
     {
-      "task": "Consult maps, charts, weather reports, or navigation equipment for ship movements.",
-      "task_type": "Core"
+      "task": "Consult maps, charts, weather reports, or navigation equipment to determine and direct ship movements.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.83
     },
     {
-      "task": "Direct courses and speeds of ships based on knowledge of local winds, weather, tides, and hazards.",
-      "task_type": "Core"
+      "task": "Serve as a vessel's docking master upon arrival at a port or at a berth.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.87
+    },
+    {
+      "task": "Prevent ships under navigational control from engaging in unsafe operations.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.9
+    },
+    {
+      "task": "Direct courses and speeds of ships, based on specialized knowledge of local winds, weather, water depths, tides, currents, and hazards.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 5.0
     },
     {
       "task": "Provide assistance in maritime rescue operations.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.45
     },
     {
-      "task": "Signal passing vessels using whistles, flashing lights, flags, or radios.",
-      "task_type": "Core"
+      "task": "Signal passing vessels, using whistles, flashing lights, flags, or radios.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.39
     },
     {
-      "task": "Measure depths of water using depth-measuring equipment.",
-      "task_type": "Core"
+      "task": "Measure depths of water, using depth-measuring equipment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.38
     },
     {
-      "task": "Maintain boats or onboard equipment such as engines, navigational systems, or life preservers.",
-      "task_type": "Core"
+      "task": "Maintain boats or equipment on board, such as engines, winches, navigational systems, fire extinguishers, or life preservers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.34
     },
     {
-      "task": "Maintain records of daily activities, ship positions, and weather conditions.",
-      "task_type": "Core"
+      "task": "Advise ships' masters on harbor rules and customs procedures.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.25
     },
     {
-      "task": "Observe cargo loading or unloading to ensure specifications are met.",
-      "task_type": "Core"
+      "task": "Maintain records of daily activities, personnel reports, ship positions and movements, ports of call, weather and sea conditions, pollution control efforts, or cargo or passenger status.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.25
     },
     {
-      "task": "Perform or participate in emergency drills as required.",
-      "task_type": "Core"
+      "task": "Observe loading or unloading of cargo or equipment to ensure that handling and storage are performed according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.24
     },
     {
-      "task": "Monitor operations of engines or equipment to identify malfunctions.",
-      "task_type": "Core"
+      "task": "Calculate sightings of land, using electronic sounding devices and following contour lines on charts.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.21
+    },
+    {
+      "task": "Learn to operate new technology systems and procedures through instruction, simulators, or models.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.17
+    },
+    {
+      "task": "Direct or coordinate crew members or workers performing activities such as loading or unloading cargo, steering vessels, operating engines, or operating, maintaining, or repairing ship equipment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.1
+    },
+    {
+      "task": "Arrange for ships to be fueled, restocked with supplies, or repaired.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.09
+    },
+    {
+      "task": "Supervise crews in cleaning or maintaining decks, superstructures, or bridges.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.53
+    },
+    {
+      "task": "Purchase supplies or equipment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.51
+    },
+    {
+      "task": "Tow and maneuver barges or signal tugboats to tow barges to destinations.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.52
+    },
+    {
+      "task": "Perform various marine duties, such as checking for oil spills or other pollutants around ports or harbors or patrolling beaches.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.27
+    },
+    {
+      "task": "Assign watches or living quarters to crew members.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.54
+    },
+    {
+      "task": "Interview and hire crew members.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.2
+    },
+    {
+      "task": "Report to appropriate authorities any violations of central government or state pilotage laws.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.49
+    },
+    {
+      "task": "Record orders for changes in ship speed or direction, and note gauge readings or test data, such as revolutions per minute or voltage output, in engineering logs or bellbooks.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.03
+    },
+    {
+      "task": "Maintain electrical power, heating, ventilation, refrigeration, water, or sewerage systems.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.24
+    },
+    {
+      "task": "Order and receive engine room stores, such as oil or spare parts, maintain inventories, and record usage of supplies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.0
+    },
+    {
+      "task": "Perform or participate in emergency drills, as required.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.56
+    },
+    {
+      "task": "Maintain complete records of engineering department activities, including machine operations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.48
+    },
+    {
+      "task": "Start engines to propel ships, and regulate engines and power transmissions to control speeds of ships, according to directions from captains or bridge computers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.68
+    },
+    {
+      "task": "Monitor and test operations of engines or other equipment so that malfunctions and their causes can be identified.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.73
+    },
+    {
+      "task": "Perform general marine vessel maintenance or repair work, such as repairing leaks, finishing interiors, refueling, or maintaining decks.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.55
+    },
+    {
+      "task": "Operate or maintain off-loading liquid pumps or valves.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.43
+    },
+    {
+      "task": "Clean engine parts and keep engine rooms clean.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.19
+    },
+    {
+      "task": "Supervise marine engine technicians engaged in the maintenance or repair of mechanical or electrical marine vessels, and inspect their work to ensure that it is performed properly.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.81
+    },
+    {
+      "task": "Monitor the availability, use, or condition of lifesaving equipment or pollution preventatives to ensure that international regulations are followed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.78
+    },
+    {
+      "task": "Act as a liaison between a ship's captain and shore personnel to ensure that schedules and budgets are maintained and that the ship is operated safely and efficiently.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.96
     },
     {
       "task": "Install engine controls, propeller shafts, or propellers.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.23
     },
     {
-      "task": "Monitor availability and condition of lifesaving equipment to ensure compliance with regulations.",
-      "task_type": "Core"
+      "task": "Monitor engine, machinery, or equipment indicators when vessels are underway, and report abnormalities to appropriate shipboard staff.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.82
     },
     {
-      "task": "Act as a liaison between the ship's captain and shore personnel to maintain schedules and budgets.",
-      "task_type": "Core"
+      "task": "Maintain or repair engines, electric motors, pumps, winches, or other mechanical or electrical equipment, or assist other crew members with maintenance or repair duties.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.5
     },
     {
-      "task": "Supervise engineers and crew members and train them for routine and emergency duties.",
-      "task_type": "Supplemental"
+      "task": "Supervise other engineers and crew members and train them for routine and emergency duties.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.83
     },
     {
-      "task": "Investigate and observe tests on machinery and equipment for compliance with standards.",
-      "task_type": "Core"
+      "task": "Prepare, or direct the preparation of, product or system layouts and detailed drawings and schematics.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.69
     },
     {
       "task": "Inspect marine equipment and machinery to draw up work requests and job specifications.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.56
     },
     {
       "task": "Conduct environmental, operational, or performance tests on marine machinery and equipment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.21
     },
     {
-      "task": "Evaluate operation of marine equipment during acceptance testing and shakedown cruises.",
-      "task_type": "Core"
+      "task": "Act as liaisons between ships' captains and shore personnel to ensure that schedules and budgets are maintained, and that ships are operated safely and efficiently.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.6
     },
     {
-      "task": "Evaluate performance of craft during dock and sea trials to determine design changes and conformance with standards.",
-      "task_type": "Core"
+      "task": "Check, test, and maintain automatic controls and alarm systems.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.77
     },
     {
-      "task": "Study design proposals and specifications to establish basic characteristics of craft, such as size, weight, and propulsion.",
-      "task_type": "Core"
+      "task": "Prepare plans, estimates, design and construction schedules, and contract specifications, including any special provisions.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.39
     },
     {
-      "task": "Prepare plans, estimates, and specifications, including special provisions, for marine constructions or modifications.",
-      "task_type": "Core"
+      "task": "Evaluate performance of craft during dock and sea trials to determine design changes and conformance with national and international standards.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.61
     },
     {
-      "task": "Perform monitoring activities to ensure that ships comply with international regulations and standards for safety and pollution prevention.",
-      "task_type": "Core"
+      "task": "Perform monitoring activities to ensure that ships comply with international regulations and standards for life-saving equipment and pollution preventatives.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.06
     },
     {
-      "task": "Confer with clients, contractors, or other personnel to exchange information or resolve problems related to marine operations.",
-      "task_type": "Core"
+      "task": "Estimate costs or submit bids for engineering, construction, or extraction projects.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.21
     },
     {
-      "task": "Inspect or test materials, vehicles, or equipment to ensure they are free of defects and consistent with specifications.",
-      "task_type": "Core"
+      "task": "Prepare reports, sketches, working drawings, specifications, proposals, and budgets for proposed sites or systems.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.05
     },
     {
-      "task": "Inspect work areas or operating equipment to ensure conformance to established standards such as cleanliness or maintenance.",
-      "task_type": "Task"
+      "task": "Read current literature, attend meetings or conferences, or talk with colleagues to stay abreast of new technology or competitive products.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.73
     },
     {
-      "task": "Inspect materials, stock, vehicles, equipment, or facilities to ensure they are safe, free of defects, and consistent with specifications.",
-      "task_type": "Task"
+      "task": "Establish production or quality control standards.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.75
     },
     {
-      "task": "Train workers in proper operational procedures, explain company policies, and assign training tasks to new or experienced workers.",
-      "task_type": "Task"
+      "task": "Write technical reports or other documentation, such as handbooks or bulletins, for use by engineering staff, management, or customers.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.83
     },
     {
-      "task": "Enforce safety rules and regulations to ensure compliance and worker safety.",
-      "task_type": "Task"
+      "task": "Evaluate and approve selection of vendors by studying past performance or new advertisements.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 2.74
     },
     {
-      "task": "Direct or coordinate the activities of workers, such as flight or car attendants, to maintain efficient operations.",
-      "task_type": "Task"
+      "task": "Maintain records of performance reports for future reference.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.27
     },
     {
-      "task": "Confer with customers, supervisors, contractors, or personnel to exchange information or resolve problems.",
-      "task_type": "Task"
+      "task": "Read and interpret blueprints, technical drawings, schematics, or computer-generated reports.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.3
     },
     {
-      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements for operational planning.",
-      "task_type": "Task"
+      "task": "Research and analyze customer design proposals, specifications, manuals, or other data to evaluate the feasibility, cost, or maintenance requirements of designs or applications.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.61
+    },
+    {
+      "task": "Provide feedback to design engineers on customer problems or needs.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.35
+    },
+    {
+      "task": "Oversee installation, operation, maintenance, or repair to ensure that machines or equipment are installed and functioning according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.47
+    },
+    {
+      "task": "Conduct research that tests or analyzes the feasibility, design, operation, or performance of equipment, components, or systems.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.42
+    },
+    {
+      "task": "Recommend design modifications to eliminate machine or system malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.75
+    },
+    {
+      "task": "Establish or coordinate the maintenance or safety procedures, service schedule, or supply of materials required to maintain machines or equipment in the prescribed condition.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.17
+    },
+    {
+      "task": "Write performance requirements for product development or engineering projects.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.29
+    },
+    {
+      "task": "Design test control apparatus or equipment or develop procedures for testing products.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.19
+    },
+    {
+      "task": "Visit sites to observe environmental problems, to consult with contractors, or to monitor construction activities.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.94
+    },
+    {
+      "task": "Evaluate product data or design from inspections or reports for conformance to engineering principles, customer requirements, environmental regulations, or quality standards.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.78
+    },
+    {
+      "task": "Develop or implement operating methods or procedures.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.7
+    },
+    {
+      "task": "Coordinate production activities with other functional units, such as procurement, maintenance, or quality control.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.56
+    },
+    {
+      "task": "Provide technical direction to other engineers or engineering support personnel.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.24
+    },
+    {
+      "task": "Alter or modify designs to obtain specified functional or operational performance.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.74
+    },
+    {
+      "task": "Specify system components or direct modification of products to ensure conformance with engineering design, performance specifications, or environmental regulations.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.15
+    },
+    {
+      "task": "Develop or test models of alternate designs or processing methods to assess feasibility, sustainability, operating condition effects, potential new applications, or necessity of modification.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.37
+    },
+    {
+      "task": "Investigate equipment failures or difficulties to diagnose faulty operation and recommend remedial actions.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 3.76
+    },
+    {
+      "task": "Research, design, evaluate, install, operate, or maintain mechanical products, equipment, systems or processes to meet requirements.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.18
+    },
+    {
+      "task": "Monitor field work to ensure proper performance and use of materials.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Drive vehicles or operate machines or equipment to complete work assignments or to assist workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.93
+    },
+    {
+      "task": "Direct workers in transportation or related services, such as pumping, moving, storing, or loading or unloading of materials.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Assist workers in tasks, such as loading vehicles.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Plan and establish schedules.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Plan work assignments and equipment allocations to meet transportation, operations or production goals.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.07
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.11
+    },
+    {
+      "task": "Review orders, production schedules, blueprints, or shipping or receiving notices to determine work sequences and material shipping dates, types, volumes, or destinations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.94
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Maintain or verify records of time, materials, expenditures, or crew activities.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.9
+    },
+    {
+      "task": "Interpret transportation or tariff regulations, shipping orders, safety regulations, or company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.17
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
+    },
+    {
+      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Recommend or implement personnel actions, such as employee selection, evaluation, rewards, or disciplinary actions.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.63
+    },
+    {
+      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.89
+    },
+    {
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, personnel, or storage requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.77
+    },
+    {
+      "task": "Dispatch personnel and vehicles in response to telephone or radio reports of emergencies.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Perform or schedule repairs or preventive maintenance of vehicles or other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.86
+    },
+    {
+      "task": "Examine, measure, or weigh cargo or materials to determine specific handling requirements.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.99
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Recruit and hire staff members.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Take disciplinary action to address performance problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Train workers in proper operational procedures and functions and explain company policies.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as flight or car attendants.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1726,16 +2254,8 @@
       "weight": 1.0312084257206209
     },
     {
-      "name": "SAP software",
-      "weight": 0.9728750923872875
-    },
-    {
-      "name": "Microsoft Project",
-      "weight": 0.8083333333333333
-    },
-    {
-      "name": "Oracle Database",
-      "weight": 0.6083333333333334
+      "name": "Apple macOS",
+      "weight": 0.5833333333333333
     },
     {
       "name": "Computerized maintenance management system CMMS",
@@ -1758,15 +2278,23 @@
       "weight": 0.3833333333333333
     },
     {
-      "name": "Oracle Hyperion",
-      "weight": 0.35
-    },
-    {
       "name": "Spreadsheet software",
       "weight": 0.35
     },
     {
       "name": "FURUNO navigational chart software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "JRC navigation software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Jeppesen Marine Nobeltec Admiral",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "KNMI TurboWin",
       "weight": 0.3333333333333333
     },
     {
@@ -1786,31 +2314,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "SHIPNEXT",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.325
+    },
+    {
+      "name": "Supervisory control and data acquisition SCADA software",
+      "weight": 0.3
+    },
+    {
       "name": "Adobe Acrobat",
       "weight": 0.2916666666666667
     },
     {
-      "name": "Oracle JD Edwards EnterpriseOne",
-      "weight": 0.2916666666666667
-    },
-    {
-      "name": "Oracle Primavera Enterprise Project Portfolio Management",
-      "weight": 0.2916666666666667
-    },
-    {
-      "name": "IBM Notes",
-      "weight": 0.2583333333333333
-    },
-    {
-      "name": "Statistical software",
-      "weight": 0.2583333333333333
-    },
-    {
-      "name": "Accounting software",
+      "name": "Damen DAMOS",
       "weight": 0.25
     },
     {
-      "name": "CCH ProSystem fx TAX",
+      "name": "Electronic data interchange EDI software",
       "weight": 0.25
     },
     {
@@ -1818,28 +2342,20 @@
       "weight": 0.25
     },
     {
-      "name": "Financial reporting software",
+      "name": "Kongsberg Maritime K-LOG Electronic Logbooks",
       "weight": 0.25
     },
     {
-      "name": "Fund accounting software",
+      "name": "Marine Software Marine Planned Maintenance",
       "weight": 0.25
     },
     {
-      "name": "Oracle E-Business Suite Financials",
+      "name": "Marine Software Marine Safety Manager",
       "weight": 0.25
     },
     {
-      "name": "Oracle PeopleSoft Financials",
-      "weight": 0.25
-    },
-    {
-      "name": "Payroll software",
-      "weight": 0.25
-    },
-    {
-      "name": "Sage 50 Accounting",
-      "weight": 0.25
+      "name": "Linux",
+      "weight": 0.23333333333333334
     },
     {
       "name": "Database software",
@@ -1854,35 +2370,27 @@
       "weight": 0.19166666666666665
     },
     {
-      "name": "Microsoft SQL Server",
-      "weight": 0.19166666666666665
+      "name": "Human machine interface HMI software",
+      "weight": 0.16666666666666669
     },
     {
-      "name": "General ledger software",
-      "weight": 0.16454175905395418
+      "name": "Magellan Firmware",
+      "weight": 0.16666666666666669
     },
     {
-      "name": "Budget monitoring systems",
+      "name": "Data acquisition systems",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Asset management software",
       "weight": 0.125
     },
     {
-      "name": "Budgeting, forecasting, and planning software",
+      "name": "Data entry software",
       "weight": 0.125
     },
     {
-      "name": "CYMA IV Accounting for Windows",
-      "weight": 0.125
-    },
-    {
-      "name": "Cost accounting software",
-      "weight": 0.125
-    },
-    {
-      "name": "FRx Software Microsoft FRx",
-      "weight": 0.125
-    },
-    {
-      "name": "Google Docs",
+      "name": "Document management system software",
       "weight": 0.125
     },
     {
@@ -1890,23 +2398,15 @@
       "weight": 0.125
     },
     {
+      "name": "Google Slides",
+      "weight": 0.125
+    },
+    {
       "name": "Microsoft OneNote",
       "weight": 0.125
     },
     {
-      "name": "NetSuite ERP",
-      "weight": 0.125
-    },
-    {
-      "name": "Presentation software",
-      "weight": 0.125
-    },
-    {
-      "name": "Relational database software",
-      "weight": 0.125
-    },
-    {
-      "name": "SAP Business Objects",
+      "name": "Time and attendance software",
       "weight": 0.125
     },
     {
@@ -1914,7 +2414,19 @@
       "weight": 0.10620842572062084
     },
     {
+      "name": "AVEVA InTouch HMI",
+      "weight": 0.1
+    },
+    {
       "name": "Operating system software",
+      "weight": 0.1
+    },
+    {
+      "name": "Root cause analysis software",
+      "weight": 0.1
+    },
+    {
+      "name": "Simulation software",
       "weight": 0.1
     },
     {
@@ -1922,11 +2434,7 @@
       "weight": 0.1
     },
     {
-      "name": "Bill of materials software",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Cost estimating software",
+      "name": "Atlassian Confluence",
       "weight": 0.06666666666666667
     },
     {
@@ -1934,8 +2442,80 @@
       "weight": 0.06666666666666667
     },
     {
+      "name": "Seaworthy Systems Shipboard Automated Maintenance Management SAMM",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "The Napa Group NAPA",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Video analysis software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Zoom",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Scheduling software",
       "weight": 0.03954175905395418
+    },
+    {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Bill of lading software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Fleet management systems",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Load optimization software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "MagicLogic Optimization Cube-IQ",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Optimum Logistics LoadPlanner",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Softtruck CargoWiz",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Starre Enterprises Star Bill of Lading",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Warehouse management system WMS",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1952,15 +2532,975 @@
       "weight": 0.7734848484848484
     },
     {
+      "name": "First aid kits",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Welders",
+      "weight": 0.48333333333333334
+    },
+    {
       "name": "Notebook computers",
       "weight": 0.475
+    },
+    {
+      "name": "Safety glasses",
+      "weight": 0.39999999999999997
+    },
+    {
+      "name": "Two way radios",
+      "weight": 0.3728750923872875
+    },
+    {
+      "name": "Digital multimeters",
+      "weight": 0.35
+    },
+    {
+      "name": "Accommodation ladder",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Anchors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Automatic radar plotting aids ARPA",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Bolt cutters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Bridge to bridge radiotelephones",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Bulk carriers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Carbon dioxide CO2 fire extinguishing systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Carbon dioxide CO2 flooding systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cargo derricks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Centrifugal cargo pumps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Chain cargo falls",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Chemical tankers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Container lift trucks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Container ships",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Crescent wrenches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cruise ships",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Differential global positioning satellite DGPS positioning systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Differential global positioning systems DGPS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dividers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Drafting triangles",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dry chemical fire extinguishers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dynamic positioning DP systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Echo sounders",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electric deck cranes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electric mooring winches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electric telegraphs",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electric windlasses",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electronic chart display and information systems ECDIS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Emergency fire pumps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Emergency generators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fathometer sonar equipment",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ferries",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fire alarm switches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fire pumps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Firefighting suits",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fixed fire suppression systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Foam fire extinguishers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Foam fire extinguishing systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Gantry cranes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Gear pumps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Global Navigation Satellite System GNSS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Global positioning systems GPS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Grabbing cranes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Gyrocompasses",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hand capstans",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hand punches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hand windlasses",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "High frequency HF radiotelephone systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hydraulic capstans",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hydraulic deck cranes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hydraulic mooring winches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hydraulic windlasses",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Immersion suits",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Integrated bridge systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Life buoys",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Life jackets",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Life rafts",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Life vests",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Lifeboat davits",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Lifting slings",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Lifting spreaders",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Line throwing appliances",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Locking jaw pliers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Long range navigation LORAN systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Long range navigation LORAN-C systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Magnet hoists",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Magnetic compasses",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Manual winches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mechanical pilot hoists",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mechanical telegraphs",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mooring cables",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mooring chains",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mooring lines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mooring winches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Natural fiber mooring ropes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Navigational compasses",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Night vision binoculars",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oil tanker ships",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Parallel plotters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Parallel rules",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pilot ladders",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pipe wrenches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Portable carbon dioxide fire extinguishers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Portable dry chemical fire extinguishers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Portable water fire extinguishers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pyrotechnic distress signals",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Radio communications system",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Radio direction finders RDF",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Rescue boats",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Rescue slings",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Respirators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Rotary displacement pumps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Safety belts",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Safety harnesses",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Safety helmets",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Safety lanyards",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Screw displacement pump",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Screw displacement pumps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Semaphores",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sextants",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sharpening steels",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sheave blocks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ship alarm systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ship anchor chocks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ship's whistles",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ship-to-shore radios",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Shipboard radar",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Signal flags",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Signal light controls",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Signal lights",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sounding rods",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sounding tapes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Spanner wrenches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Spanners",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Steam winches",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Steering control systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Surveillance binoculars",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Synthetic mooring ropes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Thermal protective aids TPA",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Totally enclosed motor propelled survival craft TEMPSC",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tugboats",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ultra high frequency UHF radiotelephone systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Very high frequency VHF radiotelephone system",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Very high frequency VHF radiotelephone systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Very high frequency VHF radiotelephones",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Voice pipes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Voyage management systems VMS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Water mist systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Wind gauges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Workshop vises",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Lathes",
+      "weight": 0.31666666666666665
+    },
+    {
+      "name": "Plotters",
+      "weight": 0.3
+    },
+    {
+      "name": "Programmable logic controllers PLC",
+      "weight": 0.3
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.27439024390243905
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.27439024390243905
     },
     {
       "name": "10-key calculators",
       "weight": 0.25
     },
     {
+      "name": "Adjustable hacksaws",
+      "weight": 0.25
+    },
+    {
+      "name": "Aligning punches",
+      "weight": 0.25
+    },
+    {
+      "name": "Allen wrench sets",
+      "weight": 0.25
+    },
+    {
+      "name": "Aviation snips",
+      "weight": 0.25
+    },
+    {
+      "name": "Ball peen hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Ballast pumps",
+      "weight": 0.25
+    },
+    {
+      "name": "Bell-faced claw hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Bilge water pumps",
+      "weight": 0.25
+    },
+    {
+      "name": "Boilers",
+      "weight": 0.25
+    },
+    {
+      "name": "Bonney wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Box wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Brazers",
+      "weight": 0.25
+    },
+    {
+      "name": "Bridge gauges",
+      "weight": 0.25
+    },
+    {
+      "name": "Bristol wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Cape chisels",
+      "weight": 0.25
+    },
+    {
+      "name": "Carpenter's mallets",
+      "weight": 0.25
+    },
+    {
+      "name": "Center punch sets",
+      "weight": 0.25
+    },
+    {
+      "name": "Circle snips",
+      "weight": 0.25
+    },
+    {
+      "name": "Clutch tip screwdrivers",
+      "weight": 0.25
+    },
+    {
+      "name": "Combination jaw pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Combination wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Condensers",
+      "weight": 0.25
+    },
+    {
+      "name": "Cross peen hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Cross peen sledge hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Curved needle nosed pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Diagonal cutting pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Dial gauges",
+      "weight": 0.25
+    },
+    {
+      "name": "Diamond point chisels",
+      "weight": 0.25
+    },
+    {
+      "name": "Diesel ship engines",
+      "weight": 0.25
+    },
+    {
+      "name": "Digital depth gauges",
+      "weight": 0.25
+    },
+    {
+      "name": "Digital micrometers",
+      "weight": 0.25
+    },
+    {
+      "name": "Disk sanders",
+      "weight": 0.25
+    },
+    {
+      "name": "Double cut files",
+      "weight": 0.25
+    },
+    {
+      "name": "Double faced sledge hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Drift punches",
+      "weight": 0.25
+    },
+    {
+      "name": "Duck bill pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Electric drills",
+      "weight": 0.25
+    },
+    {
+      "name": "Feedwater heating equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Feeler gauges",
+      "weight": 0.25
+    },
+    {
+      "name": "File brushes",
+      "weight": 0.25
+    },
+    {
+      "name": "Fire suppression systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Firefighting pumps",
+      "weight": 0.25
+    },
+    {
+      "name": "Flaring tools",
+      "weight": 0.25
+    },
+    {
+      "name": "Flat cold chisels",
+      "weight": 0.25
+    },
+    {
+      "name": "Fuel pumps",
+      "weight": 0.25
+    },
+    {
+      "name": "Gas cutters",
+      "weight": 0.25
+    },
+    {
+      "name": "Gas powered generators",
+      "weight": 0.25
+    },
+    {
+      "name": "Gas turbine engines",
+      "weight": 0.25
+    },
+    {
+      "name": "Gear pullers",
+      "weight": 0.25
+    },
+    {
+      "name": "Half round chisels",
+      "weight": 0.25
+    },
+    {
+      "name": "Hawks bill snips",
+      "weight": 0.25
+    },
+    {
+      "name": "Hollow shank gasket punches",
+      "weight": 0.25
+    },
+    {
+      "name": "Long nose pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Long-handled inspection mirrors",
+      "weight": 0.25
+    },
+    {
+      "name": "Oily water separation systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Open end wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Pin punches",
+      "weight": 0.25
+    },
+    {
+      "name": "Plain faced claw hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Plastic hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Pneumatic chipping hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Portable electric sanders",
+      "weight": 0.25
+    },
+    {
+      "name": "Portable grinders",
+      "weight": 0.25
+    },
+    {
+      "name": "Portable jigsaws",
+      "weight": 0.25
+    },
+    {
+      "name": "Powered shears",
+      "weight": 0.25
+    },
+    {
+      "name": "Prick punches",
+      "weight": 0.25
+    },
+    {
+      "name": "Ratchet handles",
+      "weight": 0.25
+    },
+    {
+      "name": "Rawhide mallets",
+      "weight": 0.25
+    },
+    {
+      "name": "Riveters",
+      "weight": 0.25
+    },
+    {
+      "name": "Riveting hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Rotary impact scalers",
+      "weight": 0.25
+    },
+    {
+      "name": "Round nose chisels",
+      "weight": 0.25
+    },
+    {
+      "name": "Rubber mallets",
+      "weight": 0.25
+    },
+    {
       "name": "Safety goggles",
+      "weight": 0.25
+    },
+    {
+      "name": "Safety wire pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Scraping tools",
+      "weight": 0.25
+    },
+    {
+      "name": "Sewage treatment systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Short nose pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Side cutting pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Single cut files",
+      "weight": 0.25
+    },
+    {
+      "name": "Slip joint pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Socket extensions",
+      "weight": 0.25
+    },
+    {
+      "name": "Socket wrench sets",
+      "weight": 0.25
+    },
+    {
+      "name": "Solid hacksaws",
+      "weight": 0.25
+    },
+    {
+      "name": "Speed handles",
+      "weight": 0.25
+    },
+    {
+      "name": "Spintite wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Standard screwdrivers",
+      "weight": 0.25
+    },
+    {
+      "name": "Straight hand snips",
+      "weight": 0.25
+    },
+    {
+      "name": "Straight peen hammers",
+      "weight": 0.25
+    },
+    {
+      "name": "Strap wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Tap and die sets",
+      "weight": 0.25
+    },
+    {
+      "name": "Thermal cutters",
+      "weight": 0.25
+    },
+    {
+      "name": "Trojan snips",
+      "weight": 0.25
+    },
+    {
+      "name": "Tube cutters",
+      "weight": 0.25
+    },
+    {
+      "name": "Union nut wrenches",
+      "weight": 0.25
+    },
+    {
+      "name": "Vernier calipers",
+      "weight": 0.25
+    },
+    {
+      "name": "Water pump pliers",
+      "weight": 0.25
+    },
+    {
+      "name": "Welding gloves",
+      "weight": 0.25
+    },
+    {
+      "name": "Welding masks",
+      "weight": 0.25
+    },
+    {
+      "name": "Wood mallets",
+      "weight": 0.25
+    },
+    {
+      "name": "Wrench pliers",
       "weight": 0.25
     },
     {
@@ -1980,15 +3520,299 @@
       "weight": 0.16666666666666669
     },
     {
+      "name": "Dynamometers",
+      "weight": 0.16666666666666669
+    },
+    {
+      "name": "Multimeters",
+      "weight": 0.16666666666666669
+    },
+    {
+      "name": "Oscilloscopes",
+      "weight": 0.16666666666666669
+    },
+    {
+      "name": "Signal generators",
+      "weight": 0.16666666666666669
+    },
+    {
+      "name": "Spectrum analyzers",
+      "weight": 0.16666666666666669
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.14015151515151514
+    },
+    {
+      "name": "Air compressors",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Computer data input scanners",
+      "weight": 0.125
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.125
+    },
+    {
+      "name": "Scanners",
+      "weight": 0.125
+    },
+    {
       "name": "Tablet computers",
       "weight": 0.125
     },
     {
-      "name": "Chemical-mechanical polishing equipment",
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.12439024390243902
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Alternating current AC generators",
+      "weight": 0.1
+    },
+    {
+      "name": "Ammeters",
+      "weight": 0.1
+    },
+    {
+      "name": "Analog current meters",
+      "weight": 0.1
+    },
+    {
+      "name": "Analog multimeters",
+      "weight": 0.1
+    },
+    {
+      "name": "Anti-static heel grounders",
+      "weight": 0.1
+    },
+    {
+      "name": "Bench lathes",
+      "weight": 0.1
+    },
+    {
+      "name": "Brushless direct current DC motors",
+      "weight": 0.1
+    },
+    {
+      "name": "Current probes",
+      "weight": 0.1
+    },
+    {
+      "name": "Dataloggers",
+      "weight": 0.1
+    },
+    {
+      "name": "Desoldering stations",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital logic analyzers",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital plotters",
+      "weight": 0.1
+    },
+    {
+      "name": "Dual power supplies",
+      "weight": 0.1
+    },
+    {
+      "name": "Frequency counters",
+      "weight": 0.1
+    },
+    {
+      "name": "Impedance meters",
+      "weight": 0.1
+    },
+    {
+      "name": "Inductance capacitance resistance LCR meters",
+      "weight": 0.1
+    },
+    {
+      "name": "Logic analyzers",
+      "weight": 0.1
+    },
+    {
+      "name": "Magnetic pickup tools",
+      "weight": 0.1
+    },
+    {
+      "name": "Metal-oxide varistors MOV",
+      "weight": 0.1
+    },
+    {
+      "name": "Microcomputers",
+      "weight": 0.1
+    },
+    {
+      "name": "Microprocessors",
+      "weight": 0.1
+    },
+    {
+      "name": "Microwave frequency counters",
+      "weight": 0.1
+    },
+    {
+      "name": "Network analyzers",
+      "weight": 0.1
+    },
+    {
+      "name": "Ohmmeters",
+      "weight": 0.1
+    },
+    {
+      "name": "Optical time domain reflectometers OTDR",
+      "weight": 0.1
+    },
+    {
+      "name": "Phase shift indicators",
+      "weight": 0.1
+    },
+    {
+      "name": "Potentiometers",
+      "weight": 0.1
+    },
+    {
+      "name": "Power drills",
+      "weight": 0.1
+    },
+    {
+      "name": "Power meters",
+      "weight": 0.1
+    },
+    {
+      "name": "Power quality analyzers",
+      "weight": 0.1
+    },
+    {
+      "name": "Power screwdrivers",
+      "weight": 0.1
+    },
+    {
+      "name": "Radio frequency RF amplifiers",
+      "weight": 0.1
+    },
+    {
+      "name": "Radio frequency RF signal generators",
+      "weight": 0.1
+    },
+    {
+      "name": "Radio frequency RF spectrum analyzers",
+      "weight": 0.1
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.1
+    },
+    {
+      "name": "Signal measuring equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Soldering equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Soldering stations",
+      "weight": 0.1
+    },
+    {
+      "name": "Standing wave ratio SWR meters",
+      "weight": 0.1
+    },
+    {
+      "name": "Stroboscopes",
+      "weight": 0.1
+    },
+    {
+      "name": "Tachometers",
+      "weight": 0.1
+    },
+    {
+      "name": "Transformers",
+      "weight": 0.1
+    },
+    {
+      "name": "Voltage probes",
+      "weight": 0.1
+    },
+    {
+      "name": "Voltage testers",
+      "weight": 0.1
+    },
+    {
+      "name": "Wattmeters",
+      "weight": 0.1
+    },
+    {
+      "name": "Welding goggles",
+      "weight": 0.1
+    },
+    {
+      "name": "Welding hoods",
+      "weight": 0.1
+    },
+    {
+      "name": "Wire crimpers",
+      "weight": 0.1
+    },
+    {
+      "name": "Wire cutters",
+      "weight": 0.1
+    },
+    {
+      "name": "Wire strippers",
+      "weight": 0.1
+    },
+    {
+      "name": "Wire wrap guns",
+      "weight": 0.1
+    },
+    {
+      "name": "Wrist anti-static straps",
+      "weight": 0.1
+    },
+    {
+      "name": "Accelerometers",
       "weight": 0.06666666666666667
     },
     {
-      "name": "Climate test chambers",
+      "name": "Acoustic emission AE sensors",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Acoustic emissions systems",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Analog to digital converters",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Axial flow turbines",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Bench drill presses",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Bench grinders",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Carbon dioxide analyzers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Centerless grinders",
       "weight": 0.06666666666666667
     },
     {
@@ -1996,47 +3820,7 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Computed tomography CT systems",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Computer numerical controlled CNC milling machines",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Computerized numerical control CNC lathes",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Contact lithography equipment",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Contact testers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Coordinate measuring machines CMM",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Cryogenic apparatus",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Deep reactive ion etchers DRIE",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Differential scanning calorimeters",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Digital oscilloscopes",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Digital particle image velocimeters",
       "weight": 0.06666666666666667
     },
     {
@@ -2044,19 +3828,7 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Digital sonifiers",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Digital to analog converters",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Dilatometers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Disc finishing machines",
       "weight": 0.06666666666666667
     },
     {
@@ -2064,55 +3836,11 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Electronic flight instrument systems EFIS",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Electronic pressure scanners",
       "weight": 0.06666666666666667
     },
     {
-      "name": "Ellipsometers",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Engine test dynamometers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Environmental testing chambers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Evaporation systems",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Fatigue testing machines",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Fiber optic interferometers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Five-axis machining centers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Flame ionization detectors FID",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Flight management systems FMS",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Flight simulators",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Flip-chip wafer bonding systems",
       "weight": 0.06666666666666667
     },
     {
@@ -2124,43 +3852,11 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "Flow reactors",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Fluorescence detectors",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Fluorescence spectrometers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Fourier transfer infrared FTIR spectrometers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Frequency response analyzers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Fuel cell test stands",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Fused deposition modeling FDM machines",
       "weight": 0.06666666666666667
     },
     {
       "name": "Gas analyzers",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Gas chromatography equipment",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "Gravity convection ovens",
       "weight": 0.06666666666666667
     },
     {
@@ -2172,15 +3868,175 @@
       "weight": 0.06666666666666667
     },
     {
-      "name": "High pressure liquid chromatographs HPLC",
-      "weight": 0.06666666666666667
-    },
-    {
-      "name": "High temperature tube furnaces",
-      "weight": 0.06666666666666667
-    },
-    {
       "name": "Horizontal band saws",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Hydraulic hoists",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Hydraulic presses",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Hydraulic winches",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Impact guns",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Infrared thermography cameras",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Load boxes",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Mainframe computers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Metal inert gas MIG welders",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Miliohm meters",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Multi-axis mills",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Multitasking lathes",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Optical sensors",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Overhead cranes",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Oxygen analyzers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Pitot tubes",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Plasma cutters",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Portable emissions analyzers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Position transducers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Power analyzers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Pressure gauges",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Pressure indicators",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Pressure transducers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Radio frequency sensors",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Sand blasters",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Surface grinding machines",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Terminal computers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Thermocouples",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Three-axis vertical mills",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Three-dimensional prototyping printer",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Torque gauges",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Torque transducers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "UNIX work stations",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Ultrasonic inspection equipment",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Velocity transducers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Vertical bandsaws",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Vibration control systems",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Vibration isolators",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Vibration testers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Workshop cranes",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "X ray fluorescence XRF spectrometers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "X ray radiographic systems",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "X ray tubes",
       "weight": 0.06666666666666667
     },
     {
@@ -2188,11 +4044,51 @@
       "weight": 0.024390243902439025
     },
     {
+      "name": "Grease guns",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Hand trucks",
       "weight": 0.024390243902439025
     },
     {
+      "name": "Hydraulic jacks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Impact wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Lug wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Micrometers",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Pallet jacks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Portable welding equipment",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Refrigerated trailers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Roller beds",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Straight screwdrivers",
       "weight": 0.024390243902439025
     },
     {

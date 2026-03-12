@@ -1545,83 +1545,345 @@
   "tasks": [
     {
       "task": "Confer with engineers, customers, or others to discuss existing or potential engineering projects or products.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.74
     },
     {
       "task": "Compile data and write reports regarding existing or potential electrical engineering studies or projects.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.59
     },
     {
-      "task": "Inspect completed installations and observe operations to ensure compliance with specifications and safety standards.",
-      "task_type": "Core"
+      "task": "Inspect completed installations and observe operations to ensure conformance to design and equipment specifications and compliance with operational, safety, or environmental standards.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.68
+    },
+    {
+      "task": "Investigate customer or public complaints to determine the nature and extent of problems.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.65
     },
     {
       "task": "Estimate labor, material, or construction costs for budget preparation purposes.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.57
     },
     {
       "task": "Integrate electrical systems with renewable energy systems to improve overall efficiency.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.24
     },
     {
-      "task": "Design, implement, maintain, or improve electrical instruments, equipment, facilities, components, or systems for various applications.",
-      "task_type": "Core"
+      "task": "Develop systems that produce electricity with renewable energy sources, such as wind, solar, or biofuels.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.65
     },
     {
-      "task": "Conduct field surveys or study data to identify and correct power system problems.",
-      "task_type": "Supplemental"
+      "task": "Design electrical systems or components that minimize electric energy requirements, such as lighting systems designed to account for natural lighting.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.09
     },
     {
-      "task": "Develop software to control electrical systems or electronic components.",
-      "task_type": "Supplemental"
+      "task": "Design, implement, maintain, or improve electrical instruments, equipment, facilities, components, products, or systems for commercial, industrial, or domestic purposes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.19
+    },
+    {
+      "task": "Conduct field surveys or study maps, graphs, diagrams, or other data to identify and correct power system problems.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.21
+    },
+    {
+      "task": "Collect data relating to commercial or residential development, population, or power system interconnection to determine operating efficiency of electrical systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.69
+    },
+    {
+      "task": "Develop software to control electrical systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.6
     },
     {
       "task": "Assist in developing capital project programs for new equipment or major repairs.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.4
     },
     {
-      "task": "Oversee project production efforts to ensure projects are completed on time and within budget.",
-      "task_type": "Core"
+      "task": "Plan or implement research methodology or procedures to apply principles of electrical theory to engineering projects.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.48
     },
     {
-      "task": "Operate computer-assisted engineering or design software or equipment to perform engineering or electronics tasks.",
-      "task_type": "Core"
+      "task": "Oversee project production efforts to assure projects are completed on time and within budget.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.02
     },
     {
-      "task": "Direct or coordinate activities related to the manufacture, construction, installation, maintenance, or operation of electronic systems.",
-      "task_type": "Core"
+      "task": "Operate computer-assisted engineering or design software or equipment to perform engineering tasks.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.83
     },
     {
-      "task": "Prepare technical drawings, specifications of electrical systems, or documentation for projects to ensure compliance with standards.",
-      "task_type": "Core"
+      "task": "Direct or coordinate manufacturing, construction, installation, maintenance, support, documentation, or testing activities to ensure compliance with specifications, codes, or customer requirements.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.96
     },
     {
-      "task": "Create simulations or models of radio frequency identification device (RFID) systems and conduct tests for system performance.",
-      "task_type": "Core"
+      "task": "Perform detailed calculations to compute and establish manufacturing, construction, or installation standards or specifications.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.88
     },
     {
-      "task": "Train users in system operations and provide technical support for systems, including radio frequency identification device (RFID) technology.",
-      "task_type": "Core"
+      "task": "Prepare technical drawings, specifications of electrical systems, or topographical maps to ensure that installation and operations conform to standards and customer requirements.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.64
     },
     {
-      "task": "Analyze electronic system requirements and project feasibility based on capacity, cost, or customer needs.",
-      "task_type": "Core"
+      "task": "Investigate or test vendors' or competitors' products.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.72
     },
     {
-      "task": "Investigate or test vendors' or competitors' products to inform engineering decisions.",
-      "task_type": "Core"
+      "task": "Supervise or train project team members, as necessary.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.43
     },
     {
-      "task": "Prepare budget or cost estimates for equipment, construction, or installation projects.",
-      "task_type": "Supplemental"
+      "task": "Prepare specifications for purchases of materials or equipment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.59
     },
     {
-      "task": "Perform systems analysis or programming for radio frequency identification device (RFID) technology including testing.",
-      "task_type": "Core"
+      "task": "Define and compare possible radio frequency identification device (RFID) solutions to inform selection for specific projects.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.61
     },
     {
-      "task": "Identify operational requirements for new systems and determine the usefulness of new technologies for project integration.",
-      "task_type": "Core"
+      "task": "Create simulations or models of radio frequency identification device (RFID) systems to provide information for selection and configuration.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.34
+    },
+    {
+      "task": "Install, test, or maintain radio frequency identification device (RFID) systems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.76
+    },
+    {
+      "task": "Integrate tags, readers, or software in radio frequency identification device (RFID) designs.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.15
+    },
+    {
+      "task": "Collect data about existing client hardware, software, networking, or key business processes to inform implementation of radio frequency identification device (RFID) technology.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.79
+    },
+    {
+      "task": "Determine project material or equipment needs.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.06
+    },
+    {
+      "task": "Investigate green consumer electronics applications for consumer electronic devices, power saving devices for computers or televisions, or energy efficient power chargers.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 2.41
+    },
+    {
+      "task": "Research or develop new green electronics technologies, such as lighting, optical data storage devices, or energy efficient televisions.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 2.36
+    },
+    {
+      "task": "Develop process flows, work instructions, or standard operating procedures for radio frequency identification device (RFID) systems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.68
+    },
+    {
+      "task": "Evaluate project work to ensure effectiveness, technical adequacy, or compatibility in the resolution of complex electronics engineering problems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.96
+    },
+    {
+      "task": "Analyze electronics system requirements, capacity, cost, or customer needs to determine project feasibility.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.36
+    },
+    {
+      "task": "Recommend repair or design modifications of electronics components or systems, based on factors such as environment, service, cost, or system capabilities.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.63
+    },
+    {
+      "task": "Provide technical support or instruction to staff or customers regarding electronics equipment standards.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.69
+    },
+    {
+      "task": "Determine means of integrating radio frequency identification device (RFID) into other applications.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.81
+    },
+    {
+      "task": "Identify operational requirements for new systems to inform selection of technological solutions.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.15
+    },
+    {
+      "task": "Determine usefulness of new radio frequency identification device (RFID) technologies.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.75
+    },
+    {
+      "task": "Represent employer at conferences, meetings, boards, panels, committees, or working groups to present, explain, or defend findings or recommendations, negotiate compromises or agreements, or exchange information.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 2.37
+    },
+    {
+      "task": "Design electronic components, software, products, or systems for commercial, industrial, medical, military, or scientific applications.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.07
+    },
+    {
+      "task": "Prepare documentation containing information such as confidential descriptions or specifications of proprietary hardware or software, product development or introduction schedules, product costs, or information about product performance weaknesses.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.6
+    },
+    {
+      "task": "Develop or perform operational, maintenance, or testing procedures for electronic products, components, equipment, or systems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.43
+    },
+    {
+      "task": "Plan or develop applications or modifications for electronic properties used in components, products, or systems to improve technical performance.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.44
+    },
+    {
+      "task": "Prepare, review, or maintain maintenance schedules, design documentation, or operational reports or charts.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.26
+    },
+    {
+      "task": "Prepare necessary criteria, procedures, reports, or plans for successful conduct of the project with consideration given to site preparation, facility validation, installation, quality assurance, or testing.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.5
+    },
+    {
+      "task": "Verify compliance of developed applications with architectural standards and established practices.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.73
+    },
+    {
+      "task": "Perform acceptance testing on newly installed or updated systems.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.81
+    },
+    {
+      "task": "Read current literature, attend meetings or conferences, or talk with colleagues to stay abreast of industry research about new technologies.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.68
+    },
+    {
+      "task": "Provide technical support for radio frequency identification device (RFID) technology.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.79
+    },
+    {
+      "task": "Perform systems analysis or programming of radio frequency identification device (RFID) technology.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.09
+    },
+    {
+      "task": "Document equipment or process details of radio frequency identification device (RFID) technology.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.63
+    },
+    {
+      "task": "Train users in details of system operation.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.69
+    },
+    {
+      "task": "Test tags or labels to ensure readability.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.76
+    },
+    {
+      "task": "Test radio frequency identification device (RFID) software to ensure proper functioning.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.93
+    },
+    {
+      "task": "Select appropriate radio frequency identification device (RFID) tags and determine placement locations.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.82
+    },
+    {
+      "task": "Perform site analyses to determine system configurations, processes to be impacted, or on-site obstacles to technology implementation.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.82
+    },
+    {
+      "task": "Analyze radio frequency identification device (RFID)-related supply chain data.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.28
     }
   ],
   "technology_skills": [
@@ -1635,6 +1897,10 @@
     },
     {
       "name": "Dassault Systemes SolidWorks",
+      "weight": 0.4318181818181818
+    },
+    {
+      "name": "ESRI ArcGIS software",
       "weight": 0.4318181818181818
     },
     {
@@ -1694,6 +1960,10 @@
       "weight": 0.34090909090909094
     },
     {
+      "name": "IBM Notes",
+      "weight": 0.34090909090909094
+    },
+    {
       "name": "MathWorks Simulink",
       "weight": 0.34090909090909094
     },
@@ -1730,6 +2000,14 @@
       "weight": 0.34090909090909094
     },
     {
+      "name": "Perl",
+      "weight": 0.34090909090909094
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.34090909090909094
+    },
+    {
       "name": "Supervisory control and data acquisition SCADA software",
       "weight": 0.34090909090909094
     },
@@ -1742,6 +2020,14 @@
       "weight": 0.34090909090909094
     },
     {
+      "name": "APLAC",
+      "weight": 0.25
+    },
+    {
+      "name": "ATD protocol",
+      "weight": 0.25
+    },
+    {
       "name": "AVEVA InTouch HMI",
       "weight": 0.25
     },
@@ -1750,11 +2036,35 @@
       "weight": 0.25
     },
     {
+      "name": "Advanced boolean expression language ABEL",
+      "weight": 0.25
+    },
+    {
       "name": "Altera hardware description language AHDL",
       "weight": 0.25
     },
     {
+      "name": "Autodesk AutoCAD Civil 3D",
+      "weight": 0.25
+    },
+    {
+      "name": "Autodesk Revit",
+      "weight": 0.25
+    },
+    {
+      "name": "Automated material handling software",
+      "weight": 0.25
+    },
+    {
+      "name": "Availability prediction modeling software",
+      "weight": 0.25
+    },
+    {
       "name": "Bash",
+      "weight": 0.25
+    },
+    {
+      "name": "Bentley MicroStation",
       "weight": 0.25
     },
     {
@@ -1786,11 +2096,23 @@
       "weight": 0.25
     },
     {
+      "name": "Computer aided manufacturing CAM software",
+      "weight": 0.25
+    },
+    {
       "name": "Debugging software",
       "weight": 0.25
     },
     {
+      "name": "Defect tracking software",
+      "weight": 0.25
+    },
+    {
       "name": "Digital timing diagram editing software",
+      "weight": 0.25
+    },
+    {
+      "name": "Dynamic object-oriented requirements system DOORS",
       "weight": 0.25
     },
     {
@@ -1818,7 +2140,39 @@
       "weight": 0.25
     },
     {
+      "name": "Failure mode and effects analysis FMEA software",
+      "weight": 0.25
+    },
+    {
+      "name": "Failure mode effects and criticality analysis FMECA software",
+      "weight": 0.25
+    },
+    {
+      "name": "Failure reporting analysis and corrective action FRACAS software",
+      "weight": 0.25
+    },
+    {
+      "name": "Fault modeling software",
+      "weight": 0.25
+    },
+    {
+      "name": "Fault tree analysis FTA software",
+      "weight": 0.25
+    },
+    {
+      "name": "Finite difference time domain FDTD software",
+      "weight": 0.25
+    },
+    {
       "name": "Finite element method FEM software",
+      "weight": 0.25
+    },
+    {
+      "name": "Floor planning software",
+      "weight": 0.25
+    },
+    {
+      "name": "Functional verification software",
       "weight": 0.25
     },
     {
@@ -1834,11 +2188,39 @@
       "weight": 0.25
     },
     {
+      "name": "Isograph Markov",
+      "weight": 0.25
+    },
+    {
+      "name": "JHDL",
+      "weight": 0.25
+    },
+    {
       "name": "Keysight Technologies Advanced Design System",
       "weight": 0.25
     },
     {
+      "name": "Life cycle cost software",
+      "weight": 0.25
+    },
+    {
       "name": "Logic synthesis software",
+      "weight": 0.25
+    },
+    {
+      "name": "MAGIC",
+      "weight": 0.25
+    },
+    {
+      "name": "Matrix calculation software",
+      "weight": 0.25
+    },
+    {
+      "name": "Mean time between failures MBTF software",
+      "weight": 0.25
+    },
+    {
+      "name": "Mean time to failure MTTF software",
       "weight": 0.25
     },
     {
@@ -1858,7 +2240,47 @@
       "weight": 0.25
     },
     {
+      "name": "Microsoft Windows Server",
+      "weight": 0.25
+    },
+    {
+      "name": "Microwave circuit simulation software",
+      "weight": 0.25
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.25
+    },
+    {
+      "name": "Optimization software",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.25
+    },
+    {
       "name": "PTC Creo Parametric",
+      "weight": 0.25
+    },
+    {
+      "name": "Perforce Helix software",
+      "weight": 0.25
+    },
+    {
+      "name": "Physical design software",
+      "weight": 0.25
+    },
+    {
+      "name": "Power analysis software",
+      "weight": 0.25
+    },
+    {
+      "name": "Powersim PSIM",
       "weight": 0.25
     },
     {
@@ -1871,6 +2293,22 @@
     },
     {
       "name": "Programmable logic controller PLC software",
+      "weight": 0.25
+    },
+    {
+      "name": "Rapid prototyping software",
+      "weight": 0.25
+    },
+    {
+      "name": "ReliaSoft Weibull++ 6",
+      "weight": 0.25
+    },
+    {
+      "name": "Reliability analysis software",
+      "weight": 0.25
+    },
+    {
+      "name": "Requirements management software",
       "weight": 0.25
     },
     {
@@ -1898,6 +2336,10 @@
       "weight": 0.25
     },
     {
+      "name": "Sun Microsystems Java",
+      "weight": 0.25
+    },
+    {
       "name": "Synopsys Design Compiler",
       "weight": 0.25
     },
@@ -1906,8 +2348,36 @@
       "weight": 0.25
     },
     {
+      "name": "Systems analysis programs for hands on integrated reliability evaluation software SAPHIRE",
+      "weight": 0.25
+    },
+    {
       "name": "Tektronix EZ-TEST",
       "weight": 0.25
+    },
+    {
+      "name": "Test automation software",
+      "weight": 0.25
+    },
+    {
+      "name": "Time and motion analysis software",
+      "weight": 0.25
+    },
+    {
+      "name": "X.25 Protocol",
+      "weight": 0.25
+    },
+    {
+      "name": "Zuken E3.schematic",
+      "weight": 0.25
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.18181818181818182
+    },
+    {
+      "name": "Magellan Firmware",
+      "weight": 0.18181818181818182
     },
     {
       "name": "Microsoft Visual Basic.NET",
@@ -1930,6 +2400,10 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Agile Product Lifecyle Management PLM",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Ansoft Simplorer",
       "weight": 0.09090909090909091
     },
@@ -1938,11 +2412,119 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "CppUnit",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Cygwin",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Device driver software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Dynamic host configuration protocol DHCP",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Embarcadero Delphi",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "FitNesse",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Formula translation/translator FORTRAN",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Forsk Atoll",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Framework for integrated test FIT",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hewlett-Packard HP OpenVMS",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "JUnit",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "MapInfo Professional",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Mathsoft Mathcad",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "McCabe Software TRUEchange",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Mentor Graphics PADS",
       "weight": 0.09090909090909091
     },
     {
+      "name": "Microsoft SQL Server Compact",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft Visual Basic.NET Compact Framework CF",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft Visual C# .NET",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Microsoft Windows Mobile",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "NUnit",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Rabbit Semiconductor Dynamic C",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Real time operating system RTOS software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Robot Framework",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Ruby",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Selenium",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Simple network management protocol SNMP software",
       "weight": 0.09090909090909091
     },
     {
@@ -1958,7 +2540,27 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Trimble SketchUp Pro",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Two-dimensional 2D computer aided design CAD software",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Very high speed integrated circuit VHSIC hardware description language VHDL simulation software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Visual Numerics PV-WAVE",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Watir",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Wide area network WAN software",
       "weight": 0.09090909090909091
     },
     {
@@ -1992,6 +2594,10 @@
       "weight": 0.25
     },
     {
+      "name": "Annealing furnaces",
+      "weight": 0.25
+    },
+    {
       "name": "Atomic force microscopes",
       "weight": 0.25
     },
@@ -2012,11 +2618,19 @@
       "weight": 0.25
     },
     {
+      "name": "Diffusion furnaces",
+      "weight": 0.25
+    },
+    {
       "name": "Digital video cameras",
       "weight": 0.25
     },
     {
       "name": "Digital voltmeters DVM",
+      "weight": 0.25
+    },
+    {
+      "name": "Doping tubes",
       "weight": 0.25
     },
     {
@@ -2040,11 +2654,23 @@
       "weight": 0.25
     },
     {
+      "name": "Filament evaporators",
+      "weight": 0.25
+    },
+    {
+      "name": "Fog chambers",
+      "weight": 0.25
+    },
+    {
       "name": "Frequency counters",
       "weight": 0.25
     },
     {
       "name": "Frequency drives",
+      "weight": 0.25
+    },
+    {
+      "name": "Glove box systems",
       "weight": 0.25
     },
     {
@@ -2057,6 +2683,10 @@
     },
     {
       "name": "Laser ranging systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Linearization testbeds",
       "weight": 0.25
     },
     {
@@ -2100,6 +2730,10 @@
       "weight": 0.25
     },
     {
+      "name": "Oxidation tubes",
+      "weight": 0.25
+    },
+    {
       "name": "Parameter analyzers",
       "weight": 0.25
     },
@@ -2121,6 +2755,10 @@
     },
     {
       "name": "Plasma reactors",
+      "weight": 0.25
+    },
+    {
+      "name": "Plotters",
       "weight": 0.25
     },
     {
@@ -2236,7 +2874,15 @@
       "weight": 0.25
     },
     {
+      "name": "Wet chemical clean benches",
+      "weight": 0.25
+    },
+    {
       "name": "Wire bonders",
+      "weight": 0.25
+    },
+    {
+      "name": "X ray guns",
       "weight": 0.25
     },
     {
@@ -2260,6 +2906,10 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Cell phones",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Communication bus analyzers",
       "weight": 0.09090909090909091
     },
@@ -2280,6 +2930,10 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "High-power pulsed lasers",
       "weight": 0.09090909090909091
     },
@@ -2297,6 +2951,10 @@
     },
     {
       "name": "Oscilloscopes",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Personal digital assistants PDA",
       "weight": 0.09090909090909091
     },
     {

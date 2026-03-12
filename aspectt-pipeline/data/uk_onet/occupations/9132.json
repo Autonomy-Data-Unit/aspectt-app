@@ -1545,7 +1545,135 @@
   "tasks": [
     {
       "task": "Obtain, move, and sort products, materials, containers, and orders, using hand tools.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.08
+    },
+    {
+      "task": "Mark and label containers, container tags, or products, using marking tools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.0
+    },
+    {
+      "task": "Place or pour products or materials into containers, using hand tools and equipment, or fill containers from spouts or chutes.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.03
+    },
+    {
+      "task": "Transport packages to customers' vehicles.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.88
+    },
+    {
+      "task": "Clean containers, materials, supplies, or work areas, using cleaning solutions and hand tools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.85
+    },
+    {
+      "task": "Assemble, line, and pad cartons, crates, and containers, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.09
+    },
+    {
+      "task": "Load materials and products into package processing equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.96
+    },
+    {
+      "task": "Seal containers or materials, using glues, fasteners, nails, and hand tools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.23
+    },
+    {
+      "task": "Record product, packaging, and order information on specified forms and records.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.24
+    },
+    {
+      "task": "Measure, weigh, and count products and materials.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.4
+    },
+    {
+      "task": "Examine and inspect containers, materials, or products to ensure that product quality and packing specifications are met.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.5
+    },
+    {
+      "task": "Regulate machine flow, speed, or temperature.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.34
+    },
+    {
+      "task": "Stack finished packaged items, or wrap protective material around each item, and pack the items in cartons or containers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.21
+    },
+    {
+      "task": "Tend or operate machine that packages product.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.38
+    },
+    {
+      "task": "Remove finished packaged items from machine and separate rejected items.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.42
+    },
+    {
+      "task": "Observe machine operations to ensure quality and conformity of filled or packaged products to standards.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.44
+    },
+    {
+      "task": "Clean, oil, and make minor adjustments or repairs to machinery and equipment, such as opening valves or setting guides.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.36
+    },
+    {
+      "task": "Count and record finished and rejected packaged items.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
+    },
+    {
+      "task": "Clean and remove damaged or otherwise inferior materials to prepare raw products for processing.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.0
+    },
+    {
+      "task": "Set up and adjust machines and equipment.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 3.63
+    },
+    {
+      "task": "Interpret specifications, blueprints, job orders, and company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.04
+    },
+    {
+      "task": "Read and analyze charts, work orders, production schedules, and other records and reports to determine production requirements and to evaluate current production estimates and outputs.",
+      "task_type": "Core",
+      "relevance": 0.04,
+      "importance": 4.22
     }
   ],
   "technology_skills": [
@@ -1574,11 +1702,31 @@
       "weight": 0.6233333333333333
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.6233333333333333
+    },
+    {
       "name": "Inventory tracking software",
       "weight": 0.5
     },
     {
+      "name": "Facebook",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Twitter",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Web browser software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "YouTube",
       "weight": 0.3333333333333333
     },
     {
@@ -1598,11 +1746,71 @@
       "weight": 0.25
     },
     {
+      "name": "Apple Safari",
+      "weight": 0.04
+    },
+    {
+      "name": "Apple iWork Pages",
+      "weight": 0.04
+    },
+    {
+      "name": "Aptean Made2Manage",
+      "weight": 0.04
+    },
+    {
+      "name": "Bowen & Groves M1 ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Database software",
+      "weight": 0.04
+    },
+    {
+      "name": "Encompix ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vantage ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Epicor Vista ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Exact MAX",
+      "weight": 0.04
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.04
+    },
+    {
+      "name": "Giraffe Production Systems Giraffe Schedule System",
+      "weight": 0.04
+    },
+    {
       "name": "Google Chrome",
       "weight": 0.04
     },
     {
+      "name": "IBM Notes",
+      "weight": 0.04
+    },
+    {
+      "name": "Intacct ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Integrated materials management systems",
+      "weight": 0.04
+    },
+    {
       "name": "Inventory management software",
+      "weight": 0.04
+    },
+    {
+      "name": "Kronos Workforce Timekeeper",
       "weight": 0.04
     },
     {
@@ -1614,7 +1822,31 @@
       "weight": 0.04
     },
     {
+      "name": "Microsoft Axapta",
+      "weight": 0.04
+    },
+    {
       "name": "Microsoft Exchange",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.04
+    },
+    {
+      "name": "Microsoft Total Quality Control Management",
+      "weight": 0.04
+    },
+    {
+      "name": "Minitab",
       "weight": 0.04
     },
     {
@@ -1622,7 +1854,31 @@
       "weight": 0.04
     },
     {
+      "name": "NetSuite NetERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.04
+    },
+    {
+      "name": "Operational databases",
+      "weight": 0.04
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.04
+    },
+    {
+      "name": "QA Software QMS Materials Management",
+      "weight": 0.04
+    },
+    {
       "name": "Resource planning software",
+      "weight": 0.04
+    },
+    {
+      "name": "Retain Resource Planning",
       "weight": 0.04
     },
     {
@@ -1630,18 +1886,38 @@
       "weight": 0.04
     },
     {
+      "name": "SYSPRO business software",
+      "weight": 0.04
+    },
+    {
       "name": "Supervisory control and data acquisition SCADA software",
       "weight": 0.04
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.6233333333333333
+      "name": "Technology Group International Enterprise 21 ERP",
+      "weight": 0.04
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.04
+    },
+    {
+      "name": "Total quality management TQM software",
+      "weight": 0.04
+    },
+    {
+      "name": "Work Technology WorkTech Time",
+      "weight": 0.04
     }
   ],
   "tools_used": [
     {
       "name": "Personal computers",
       "weight": 1.1233333333333333
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.75
     },
     {
       "name": "Forklifts",
@@ -1760,7 +2036,27 @@
       "weight": 0.5
     },
     {
+      "name": "Power saws",
+      "weight": 0.5
+    },
+    {
+      "name": "Power tackers",
+      "weight": 0.5
+    },
+    {
       "name": "Shrink wrap machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Stencil brushes",
+      "weight": 0.5
+    },
+    {
+      "name": "Stencil machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Stencil rollers",
       "weight": 0.5
     },
     {
@@ -1792,6 +2088,10 @@
       "weight": 0.5
     },
     {
+      "name": "Digital video cameras",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Laptop computers",
       "weight": 0.3333333333333333
     },
@@ -1802,6 +2102,10 @@
     {
       "name": "Desktop computers",
       "weight": 0.29
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.25
     },
     {
       "name": "Box cutters",
@@ -1820,7 +2124,15 @@
       "weight": 0.25
     },
     {
+      "name": "Industrial sewing machines",
+      "weight": 0.25
+    },
+    {
       "name": "Label-making machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Locking pliers",
       "weight": 0.25
     },
     {
@@ -1836,11 +2148,39 @@
       "weight": 0.25
     },
     {
+      "name": "Powered roll lifts",
+      "weight": 0.25
+    },
+    {
       "name": "Scanners",
       "weight": 0.25
     },
     {
+      "name": "Scrapers",
+      "weight": 0.25
+    },
+    {
+      "name": "Space gauges",
+      "weight": 0.25
+    },
+    {
+      "name": "Stencils",
+      "weight": 0.25
+    },
+    {
+      "name": "Step stools",
+      "weight": 0.25
+    },
+    {
+      "name": "Wire brushes",
+      "weight": 0.25
+    },
+    {
       "name": "Hard hats",
+      "weight": 0.04
+    },
+    {
+      "name": "Laser printers",
       "weight": 0.04
     },
     {

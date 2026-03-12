@@ -1545,43 +1545,321 @@
   "tasks": [
     {
       "task": "Provide information or refer individuals to public or private agencies or community services for assistance.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.64
     },
     {
       "task": "Keep records or prepare reports for owner or management concerning visits with clients.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.98
     },
     {
       "task": "Develop and implement behavioral management and care plans for clients.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.14
     },
     {
       "task": "Assess clients' cognitive abilities and physical and emotional needs to determine appropriate interventions.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.37
+    },
+    {
+      "task": "Assist clients with preparation of forms, such as tax or rent forms.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.05
+    },
+    {
+      "task": "Assist in locating housing for displaced individuals.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.78
+    },
+    {
+      "task": "Inform tenants of facilities, such as laundries or playgrounds.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.61
+    },
+    {
+      "task": "Observe clients' food selections and recommend alternate economical and nutritional food choices.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.9
+    },
+    {
+      "task": "Consult with supervisor concerning programs for individual families.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.5
+    },
+    {
+      "task": "Assist in planning food budgets, using charts or sample budgets.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.14
+    },
+    {
+      "task": "Observe and discuss meal preparation and suggest alternate methods of food preparation.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.87
+    },
+    {
+      "task": "Transport and accompany clients to shopping areas or to appointments, using automobile.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.83
     },
     {
       "task": "Interview individuals or family members to compile information on social, educational, criminal, institutional, or drug history.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.75
+    },
+    {
+      "task": "Oversee day-to-day group activities of residents in institution.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.13
+    },
+    {
+      "task": "Submit reports and review reports or problems with superior.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.94
+    },
+    {
+      "task": "Advise clients regarding food stamps, child care, food, money management, sanitation, or housekeeping.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.4
     },
     {
       "task": "Visit individuals in homes or attend group meetings to provide information on agency services, requirements, or procedures.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.96
+    },
+    {
+      "task": "Grade homework and tests, and compute and record results, using answer sheets or electronic marking devices.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.82
+    },
+    {
+      "task": "Maintain computers in classrooms and laboratories, and assist students with hardware and software use.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.53
+    },
+    {
+      "task": "Laminate teaching materials to increase their durability under repeated use.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.84
     },
     {
       "task": "Instruct students in daily living skills required for independent maintenance and self-sufficiency, such as hygiene, safety, or food preparation.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.82
     },
     {
-      "task": "Teach socially acceptable behavior, employing techniques such as behavior modification or positive reinforcement.",
-      "task_type": "Core"
+      "task": "Instruct and monitor students in the use and care of equipment and materials to prevent injuries and damage.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.98
     },
     {
-      "task": "Tutoring and assisting children individually or in small groups to help them master assignments and to reinforce learning concepts presented by teachers.",
-      "task_type": "Core"
+      "task": "Discuss assigned duties with classroom teachers to coordinate instructional efforts.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.85
+    },
+    {
+      "task": "Enforce administration policies and rules governing students.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.02
+    },
+    {
+      "task": "Employ special educational strategies or techniques during instruction to improve the development of sensory- and perceptual-motor skills, language, cognition, or memory.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.02
+    },
+    {
+      "task": "Distribute teaching materials, such as textbooks, workbooks, papers, and pencils, to students.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.72
+    },
+    {
+      "task": "Clean classrooms.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.26
+    },
+    {
+      "task": "Carry out therapeutic regimens, such as behavior modification and personal development programs, under the supervision of special education instructors, psychologists, or speech-language pathologists.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.13
+    },
+    {
+      "task": "Organize and label materials and display students' work in a manner appropriate for their eye levels and perceptual skills.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.11
+    },
+    {
+      "task": "Observe students' performance, and record relevant data to assess progress.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
     },
     {
       "task": "Organize and supervise games and other recreational activities to promote physical, mental, and social development.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.65
+    },
+    {
+      "task": "Participate in teacher-parent conferences regarding students' progress or problems.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.4
+    },
+    {
+      "task": "Prepare classrooms with a variety of materials or resources for children to explore, manipulate, or use in learning activities or imaginative play.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.82
+    },
+    {
+      "task": "Prepare lesson materials, bulletin board displays, exhibits, equipment, and demonstrations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.03
+    },
+    {
+      "task": "Prepare lesson outlines and plans in assigned subject areas and submit outlines to teachers for review.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.41
+    },
+    {
+      "task": "Present subject matter to students under the direction and guidance of teachers, using lectures, discussions, supervised role-playing methods, or by reading aloud.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.89
+    },
+    {
+      "task": "Provide assistance to students with special needs.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.55
+    },
+    {
+      "task": "Provide students with disabilities with assistive devices, supportive technology, and assistance accessing facilities, such as restrooms.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.15
+    },
+    {
+      "task": "Assist librarians in school libraries.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.14
+    },
+    {
+      "task": "Supervise students in classrooms, halls, cafeterias, school yards, and gymnasiums, or on field trips.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.39
+    },
+    {
+      "task": "Take class attendance and maintain attendance records.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.61
+    },
+    {
+      "task": "Teach socially acceptable behavior, employing techniques such as behavior modification or positive reinforcement.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.47
+    },
+    {
+      "task": "Tutor and assist children individually or in small groups to help them master assignments and to reinforce learning concepts presented by teachers.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.1
+    },
+    {
+      "task": "Attend staff meetings and serve on committees, as required.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.89
+    },
+    {
+      "task": "Assist in bus loading and unloading.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.74
+    },
+    {
+      "task": "Collect money from students for school-related projects.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.46
+    },
+    {
+      "task": "Conduct demonstrations to teach skills, such as sports, dancing, and handicrafts.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.84
+    },
+    {
+      "task": "Distribute tests and homework assignments and collect them when they are completed.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.55
+    },
+    {
+      "task": "Use computers, audio-visual aids, and other equipment and materials to supplement presentations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.86
+    },
+    {
+      "task": "Operate and maintain audio-visual equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.72
+    },
+    {
+      "task": "Plan, prepare, and develop various teaching aids, such as bibliographies, charts, and graphs.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.86
+    },
+    {
+      "task": "Requisition and stock teaching materials and supplies.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.46
+    },
+    {
+      "task": "Type, file, and duplicate materials.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.6
     }
   ],
   "technology_skills": [
@@ -1614,6 +1892,14 @@
       "weight": 0.3472222222222222
     },
     {
+      "name": "Appletree",
+      "weight": 0.2222222222222222
+    },
+    {
+      "name": "Automate the Schools ATS",
+      "weight": 0.2222222222222222
+    },
+    {
       "name": "Blackboard software",
       "weight": 0.2222222222222222
     },
@@ -1643,6 +1929,10 @@
     },
     {
       "name": "Hand held spell checkers",
+      "weight": 0.2222222222222222
+    },
+    {
+      "name": "High School Scheduling and Transcript HSST",
       "weight": 0.2222222222222222
     },
     {
@@ -1686,8 +1976,32 @@
       "weight": 0.2222222222222222
     },
     {
+      "name": "Tadpoles",
+      "weight": 0.2222222222222222
+    },
+    {
       "name": "Text to speech software",
       "weight": 0.2222222222222222
+    },
+    {
+      "name": "Database software",
+      "weight": 0.125
+    },
+    {
+      "name": "Electronic medical record EMR software",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.125
+    },
+    {
+      "name": "Nuance Dragon NaturallySpeaking",
+      "weight": 0.125
+    },
+    {
+      "name": "Special Education Student Information System SESIS",
+      "weight": 0.1111111111111111
     }
   ],
   "tools_used": [

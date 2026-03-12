@@ -1544,92 +1544,838 @@
   ],
   "tasks": [
     {
-      "task": "Monitor and analyze sales records, trends, and economic conditions to anticipate consumer buying patterns and needed inventory.",
-      "task_type": "Core"
+      "task": "Monitor changes affecting supply and demand, tracking market conditions, price trends, or futures markets.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.68
     },
     {
-      "task": "Collaborate with vendors to obtain or develop desired products and conduct meetings to introduce new merchandise.",
-      "task_type": "Core"
+      "task": "Maintain and review computerized or manual records of purchased items, costs, deliveries, product performance, and inventories.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.74
     },
     {
-      "task": "Obtain information about customer needs or preferences by consulting sales or purchasing personnel.",
-      "task_type": "Core"
+      "task": "Negotiate, renegotiate, and administer contracts with suppliers, vendors, and other representatives.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
     },
     {
-      "task": "Examine, select, order, or purchase merchandise consistent with quality, quantity, specifications, or other factors.",
-      "task_type": "Core"
+      "task": "Examine, select, order, or purchase merchandise consistent with quality, quantity, specification requirements, or other factors, such as environmental soundness.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.14
     },
     {
-      "task": "Negotiate prices, discount terms, and transportation arrangements with suppliers, and administer contracts as necessary.",
-      "task_type": "Core"
+      "task": "Inspect merchandise or products to determine quality, value, or yield.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.45
     },
     {
-      "task": "Purchase merchandise or commodities for resale to wholesale or retail consumers, including farm products like milk and grains.",
-      "task_type": "Core"
+      "task": "Research and evaluate suppliers, based on price, quality, selection, service, support, availability, reliability, production and distribution capabilities, and the supplier's reputation and history.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.16
     },
     {
-      "task": "Maintain records of business transactions and product inventories, reporting data as necessary.",
-      "task_type": "Core"
+      "task": "Review catalogs, industry periodicals, directories, trade journals, and Internet sites and consult with other department personnel to locate necessary goods and services.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.45
     },
     {
-      "task": "Prepare purchase orders, solicit bids, and review requisitions for goods and services.",
-      "task_type": "Core"
+      "task": "Hire, train, or supervise purchasing clerks, buyers, and expediters.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.16
     },
     {
-      "task": "Research and evaluate suppliers based on price, quality, service, and reliability.",
-      "task_type": "Core"
+      "task": "Analyze environmental aspects of competing merchandise when making buying decisions.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.14
     },
     {
-      "task": "Monitor compliance with applicable laws and regulations affecting procurement and sales.",
-      "task_type": "Core"
+      "task": "Collaborate with vendors to obtain or develop desired products.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.73
+    },
+    {
+      "task": "Obtain information about customer needs or preferences by conferring with sales or purchasing personnel.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.01
+    },
+    {
+      "task": "Recommend mark-up rates, mark-down rates, or merchandise selling prices.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.1
+    },
+    {
+      "task": "Monitor consumer preferences or environmental trends to determine the best way to introduce new green products.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.42
+    },
+    {
+      "task": "Identify opportunities to buy green commodities, such as alternative energy, water, or carbon-neutral products for resale to consumers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.49
+    },
+    {
+      "task": "Develop strategies to advertise green products or merchandise to consumers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.56
+    },
+    {
+      "task": "Compare transportation options to determine the most energy-efficient options.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.08
+    },
+    {
+      "task": "Advise farm groups or growers on land preparation or livestock care techniques that will maximize the quantity and quality of production.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.23
+    },
+    {
+      "task": "Authorize payment of invoices or return of merchandise.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.93
+    },
+    {
+      "task": "Estimate land production possibilities, surveying property and studying factors such as crop rotation history, soil fertility, or irrigation facilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.8
+    },
+    {
+      "task": "Sell supplies, such as seed, feed, fertilizers, or insecticides, arranging for loans or financing as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.46
+    },
+    {
+      "task": "Calculate applicable government grain quotas.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.84
+    },
+    {
+      "task": "Coordinate or direct activities of workers engaged in cutting, transporting, storing, or milling products and maintaining records.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.53
+    },
+    {
+      "task": "Review orders to determine product types and quantities required to meet demand.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.91
+    },
+    {
+      "task": "Arrange for transportation or storage of purchased products.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.07
+    },
+    {
+      "task": "Arrange for processing or resale of purchased products.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.19
+    },
+    {
+      "task": "Negotiate contracts with farmers for the production or purchase of farm products.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.18
+    },
+    {
+      "task": "Conduct sales meetings to introduce new merchandise.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.23
+    },
+    {
+      "task": "Monitor shipments to ensure that goods come in on time, and resolve problems related to undelivered goods.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.59
+    },
+    {
+      "task": "Monitor competitors' sales activities by following their advertisements in newspapers or other media.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.35
+    },
+    {
+      "task": "Prepare purchase orders, solicit bid proposals, and review requisitions for goods and services.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.4
+    },
+    {
+      "task": "Analyze price proposals, financial reports, and other data and information to determine reasonable prices.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.2
+    },
+    {
+      "task": "Monitor and follow applicable laws and regulations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.85
+    },
+    {
+      "task": "Consult with store or merchandise managers about budgets or goods to be purchased.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.18
+    },
+    {
+      "task": "Confer with staff, users, and vendors to discuss defective or unacceptable goods or services and determine corrective action.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.74
+    },
+    {
+      "task": "Provide clerks with information to print on price tags, such as price, mark-ups or mark-downs, manufacturer number, season code, or style number.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.13
+    },
+    {
+      "task": "Evaluate and monitor contract performance to ensure compliance with contractual obligations and to determine need for changes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
+    },
+    {
+      "task": "Study sales records and inventory levels of current stock to develop strategic purchasing programs that facilitate employee access to supplies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.83
+    },
+    {
+      "task": "Arrange the payment of duty and freight charges.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.0
+    },
+    {
+      "task": "Write and review product specifications, maintaining a working technical knowledge of the goods or services to be purchased.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.25
+    },
+    {
+      "task": "Formulate policies and procedures for bid proposals and procurement of goods and services.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.4
+    },
+    {
+      "task": "Determine which products should be featured in advertising, the advertising medium to be used, or when the ads should be run.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.35
+    },
+    {
+      "task": "Monitor and analyze data from processes and experiments.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.24
+    },
+    {
+      "task": "Troubleshoot problems with chemical manufacturing processes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.26
+    },
+    {
+      "task": "Evaluate chemical equipment and processes to identify ways to optimize performance or to ensure compliance with safety and environmental regulations.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.17
+    },
+    {
+      "task": "Perform tests and monitor performance of processes throughout stages of production to determine degree of control over variables such as temperature, density, specific gravity, and pressure.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.6
+    },
+    {
+      "task": "Develop computer models of chemical processes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.09
+    },
+    {
+      "task": "Design and plan layout of equipment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.77
+    },
+    {
+      "task": "Design measurement and control systems for chemical plants based on data collected in laboratory experiments and in pilot plant operations.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.28
+    },
+    {
+      "task": "Conduct research to develop new and improved chemical manufacturing processes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.58
+    },
+    {
+      "task": "Develop processes to separate components of liquids or gases or generate electrical currents, using controlled chemical processes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.35
+    },
+    {
+      "task": "Perform laboratory studies of steps in manufacture of new products and test proposed processes in small-scale operation, such as a pilot plant.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.28
+    },
+    {
+      "task": "Direct activities of workers who operate or are engaged in constructing and improving absorption, evaporation, or electromagnetic equipment.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.06
+    },
+    {
+      "task": "Prepare estimate of production costs and production progress reports for management.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.71
+    },
+    {
+      "task": "Determine most effective arrangement of operations such as mixing, crushing, heat transfer, distillation, and drying.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.39
+    },
+    {
+      "task": "Develop safety procedures to be employed by workers operating equipment or working in close proximity to ongoing chemical reactions.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.43
+    },
+    {
+      "task": "Advise customers on product usage to improve production.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.65
+    },
+    {
+      "task": "Identify prospective customers, using business directories, leads from existing clients, participation in organizations, or trade show or conference attendance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Verify that delivery schedules meet project deadlines.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
+    },
+    {
+      "task": "Select or assist customers in selecting products based on customer needs, product specifications, and applicable regulations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Contact new or existing customers to discuss how specific products or services can meet their needs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.07
+    },
+    {
+      "task": "Prepare and submit sales contracts for orders.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.24
+    },
+    {
+      "task": "Prepare sales contracts and order forms.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.16
+    },
+    {
+      "task": "Sell technical and scientific products that are environmentally sound or designed for environmental remediation.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.49
+    },
+    {
+      "task": "Present information to customers about the energy efficiency or environmental impact of scientific or technical products.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.94
+    },
+    {
+      "task": "Inform customers about issues related to responsible use and disposal of products, such as waste reduction or product or byproduct recycling or disposal.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.89
+    },
+    {
+      "task": "Answer customers' questions about products, prices, availability, product uses, and credit terms.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.37
+    },
+    {
+      "task": "Recommend products to customers, based on customers' needs and interests.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
+    },
+    {
+      "task": "Contact regular and prospective customers to demonstrate products, explain product features, and solicit orders.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
+    },
+    {
+      "task": "Estimate or quote prices, credit or contract terms, warranties, and delivery dates.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.27
+    },
+    {
+      "task": "Consult with clients after sales or contract signings to resolve problems and to provide ongoing support.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.23
+    },
+    {
+      "task": "Prepare drawings, estimates, and bids that meet specific customer needs.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.01
+    },
+    {
+      "task": "Provide customers with product samples and catalogs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Study documentation or other information for new scientific or technical products.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.35
+    },
+    {
+      "task": "Verify customer credit ratings.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.58
+    },
+    {
+      "task": "Sell service contracts for technical or scientific products.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.22
+    },
+    {
+      "task": "Develop sales presentations or proposals to explain service specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Quote prices, credit terms, contract terms, or fulfillment dates for services.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Monitor market conditions, innovations, and competitors' services, prices, and sales.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Maintain customer records using automated systems.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform customers of contracts or other information pertaining to purchased services.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Identify prospective customers using business directories, leads from clients, or information from conferences or trade shows.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Emphasize or recommend service features based on knowledge of customers' needs and vendor capabilities and limitations.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Distribute promotional materials at meetings, conferences, or trade shows.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Create forms or agreements to complete sales.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Demonstrate the operation or use of technical or scientific products.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.99
+    },
+    {
+      "task": "Contact prospective or existing customers to discuss how services can meet their needs.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Compute and compare costs of services.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Answer customers' questions about services, prices, availability, or credit terms.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Take quote requests or orders from dealers or customers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.27
+    },
+    {
+      "task": "Verify accuracy of materials lists.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.62
+    },
+    {
+      "task": "Initiate sales campaigns to meet sales and production expectations.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.7
+    },
+    {
+      "task": "Identify prospective customers by using business directories, following leads from existing clients, participating in organizations and clubs, and attending trade shows and conferences.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Compute customer's installation or production costs and estimate savings from new services, products, or equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Stock or distribute resources, such as samples or promotional or educational materials.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.33
+    },
+    {
+      "task": "Negotiate with retail merchants to improve product exposure, such as shelf positioning and advertising.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.41
+    },
+    {
+      "task": "Quote prices, credit terms, or other bid specifications.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.1
+    },
+    {
+      "task": "Emphasize product features, based on analyses of customers' needs and on technical knowledge of product capabilities and limitations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.03
+    },
+    {
+      "task": "Maintain customer records, using automated systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.2
+    },
+    {
+      "task": "Visit establishments, such as pharmacies, to determine product sales.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.21
+    },
+    {
+      "task": "Consult with engineers regarding technical problems with products.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.51
+    },
+    {
+      "task": "Check stock levels and reorder merchandise as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.4
+    },
+    {
+      "task": "Collaborate with colleagues to exchange information, such as selling strategies or marketing information.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.7
+    },
+    {
+      "task": "Arrange for installation and testing of products or machinery.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.78
+    },
+    {
+      "task": "Provide feedback to product design teams so that products can be tailored to clients' needs.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.88
+    },
+    {
+      "task": "Complete expense reports, sales reports, or other paperwork.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.84
+    },
+    {
+      "task": "Visit establishments to evaluate needs or to promote product or service sales.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.22
+    },
+    {
+      "task": "Inform customers of estimated delivery schedules, service contracts, warranties, or other information pertaining to purchased products.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.75
+    },
+    {
+      "task": "Plan, assemble, and stock product displays in retail stores, or make recommendations to retailers regarding product displays, promotional programs, and advertising.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.38
+    },
+    {
+      "task": "Forward orders to manufacturers.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.86
+    },
+    {
+      "task": "Prepare sales presentations or proposals to explain product specifications or applications.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.86
+    },
+    {
+      "task": "Provide customers with information, such as quotes, orders, sales, shipping, warranties, credit, funding options, incentives, or tax rebates.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.58
+    },
+    {
+      "task": "Gather information from prospective customers to identify their solar energy needs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.54
+    },
+    {
+      "task": "Develop marketing or strategic plans for sales territories.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.75
+    },
+    {
+      "task": "Create customized energy management packages to satisfy customer needs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.01
+    },
+    {
+      "task": "Select solar energy products, systems, or services for customers based on electrical energy requirements, site conditions, price, or other factors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.77
+    },
+    {
+      "task": "Obtain credit information about prospective customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.95
+    },
+    {
+      "task": "Prepare proposals, quotes, contracts, or presentations for potential solar customers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.77
+    },
+    {
+      "task": "Generate solar energy customer leads to develop new accounts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
+    },
+    {
+      "task": "Answer customers' questions about products, prices, availability, or credit terms.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.15
+    },
+    {
+      "task": "Arrange and direct delivery and installation of products and equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.65
+    },
+    {
+      "task": "Perform administrative duties, such as preparing sales budgets and reports, keeping sales records, and filing expense account reports.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Provide customers with ongoing technical support.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.68
+    },
+    {
+      "task": "Formulate pricing policies on merchandise according to profitability requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 4.06
+    },
+    {
+      "task": "Visit retailers and sales representatives to promote products and gather information.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 4.06
+    },
+    {
+      "task": "Analyze details of sales territories to assess their growth potential and to set quotas.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 3.81
+    },
+    {
+      "task": "Examine merchandise to ensure correct pricing and display, and that it functions as advertised.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 3.89
+    },
+    {
+      "task": "Prepare rental or lease agreements, specifying charges and payment procedures for use of machinery, tools, or other items.",
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 3.27
     },
     {
       "task": "Prepare sales and inventory reports for management and budget departments.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 4.02
     },
     {
       "task": "Coordinate sales promotion activities, such as preparing merchandise displays and advertising copy.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 3.75
     },
     {
       "task": "Attend company meetings to exchange product information and coordinate work activities with other departments.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.63
     },
     {
       "task": "Inventory stock and reorder when inventories drop to specified levels.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 3.79
     },
     {
       "task": "Examine products purchased for resale or received for storage to determine product condition.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.041666666666666664,
+      "importance": 3.92
     },
     {
       "task": "Provide staff with assistance in performing difficult or complicated duties.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 4.06
     },
     {
-      "task": "Confer with company officials to develop methods and procedures to increase sales and promote business.",
-      "task_type": "Core"
+      "task": "Confer with company officials to develop methods and procedures to increase sales, expand markets, and promote business.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.79
     },
     {
       "task": "Hire, train, and evaluate personnel.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.86
     },
     {
       "task": "Monitor sales staff performance to ensure that goals are met.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 4.29
     },
     {
       "task": "Listen to and resolve customer complaints regarding services, products, or personnel.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.88
     },
     {
-      "task": "Direct and supervise employees engaged in sales, inventory-taking, or performing specific services.",
-      "task_type": "Core"
+      "task": "Direct and supervise employees engaged in sales, inventory-taking, reconciling cash receipts, or performing specific services.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.95
     },
     {
       "task": "Plan and prepare work schedules, and assign employees to specific duties.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.75
     }
   ],
   "technology_skills": [
@@ -1646,12 +2392,20 @@
       "weight": 1.563095238095238
     },
     {
+      "name": "Microsoft Project",
+      "weight": 1.563095238095238
+    },
+    {
       "name": "Microsoft Word",
       "weight": 1.563095238095238
     },
     {
       "name": "Microsoft Outlook",
       "weight": 1.3630952380952381
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 1.2773809523809523
     },
     {
       "name": "SAP software",
@@ -1678,6 +2432,14 @@
       "weight": 0.8214285714285714
     },
     {
+      "name": "Intuit QuickBooks",
+      "weight": 0.7857142857142857
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.7857142857142857
+    },
+    {
       "name": "Oracle PeopleSoft",
       "weight": 0.7857142857142857
     },
@@ -1694,12 +2456,44 @@
       "weight": 0.6428571428571428
     },
     {
+      "name": "Microsoft Visio",
+      "weight": 0.5928571428571429
+    },
+    {
+      "name": "Presentation software",
+      "weight": 0.5928571428571429
+    },
+    {
       "name": "Spreadsheet software",
       "weight": 0.5928571428571429
     },
     {
       "name": "NetSuite ERP",
       "weight": 0.5773809523809523
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.5357142857142857
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.5357142857142857
+    },
+    {
+      "name": "Google Ads",
+      "weight": 0.5357142857142857
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.5357142857142857
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.5357142857142857
+    },
+    {
+      "name": "MicroStrategy",
+      "weight": 0.5357142857142857
     },
     {
       "name": "Accounting software",
@@ -1714,8 +2508,24 @@
       "weight": 0.5
     },
     {
+      "name": "Microsoft Exchange",
+      "weight": 0.4857142857142857
+    },
+    {
+      "name": "HubSpot software",
+      "weight": 0.42857142857142855
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.42857142857142855
+    },
+    {
       "name": "Zoom",
       "weight": 0.42857142857142855
+    },
+    {
+      "name": "Amazon Web Services AWS software",
+      "weight": 0.39285714285714285
     },
     {
       "name": "Database software",
@@ -1726,11 +2536,43 @@
       "weight": 0.39285714285714285
     },
     {
+      "name": "Facebook",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Google Docs",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "IBM Power Systems software",
+      "weight": 0.39285714285714285
+    },
+    {
       "name": "Infor ERP SyteLine",
       "weight": 0.39285714285714285
     },
     {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 0.39285714285714285
+    },
+    {
       "name": "Oracle E-Business Suite Financials",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Qlik Tech QlikView",
       "weight": 0.39285714285714285
     },
     {
@@ -1742,12 +2584,180 @@
       "weight": 0.39285714285714285
     },
     {
+      "name": "SmugMug Flickr",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.34285714285714286
+    },
+    {
+      "name": "R",
+      "weight": 0.34285714285714286
+    },
+    {
       "name": "Salesforce.com Salesforce CRM",
       "weight": 0.32738095238095233
     },
     {
+      "name": "YouTube",
+      "weight": 0.32738095238095233
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Citrix cloud computing software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Enterprise application integration EAI software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Google Analytics",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Google Meet",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Google Workspace software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "HEAT Software GoldMine",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "LexisNexis",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "LogMeIn GoToMeeting",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "LogMeIn GoToWebinar",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "McAfee",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "NetSuite NetCRM",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.2857142857142857
+    },
+    {
       "name": "Oracle Fusion Applications",
       "weight": 0.2857142857142857
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "SAS",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Virtual private networking VPN software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Voice over internet protocol VoIP system software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Advanced Retail Management Systems Retail Pro",
+      "weight": 0.25
+    },
+    {
+      "name": "Apple AppleWorks",
+      "weight": 0.25
+    },
+    {
+      "name": "Applicant tracking software",
+      "weight": 0.25
+    },
+    {
+      "name": "Assured Software JPP",
+      "weight": 0.25
+    },
+    {
+      "name": "Atlassian JIRA",
+      "weight": 0.25
+    },
+    {
+      "name": "Biztrak Business Solutions Biztrak",
+      "weight": 0.25
+    },
+    {
+      "name": "CAM Commerce Solutions Retail STAR Point of Sale POS",
+      "weight": 0.25
+    },
+    {
+      "name": "CPR International GeneralCOST Estimator",
+      "weight": 0.25
+    },
+    {
+      "name": "CPR Visual Estimator",
+      "weight": 0.25
+    },
+    {
+      "name": "Choice Job Cost",
+      "weight": 0.25
+    },
+    {
+      "name": "Claritas ConsumerPoint",
+      "weight": 0.25
+    },
+    {
+      "name": "Construction Management Software ProEst",
+      "weight": 0.25
+    },
+    {
+      "name": "Contact management software",
+      "weight": 0.25
+    },
+    {
+      "name": "Corel QuattroPro",
+      "weight": 0.25
+    },
+    {
+      "name": "Cost accounting software",
+      "weight": 0.25
+    },
+    {
+      "name": "Cost estimating software",
+      "weight": 0.25
+    },
+    {
+      "name": "Database reporting software",
+      "weight": 0.25
+    },
+    {
+      "name": "Deltek Costpoint",
+      "weight": 0.25
+    },
+    {
+      "name": "Dexter + Cheney Spectrum Construction Software",
+      "weight": 0.25
     },
     {
       "name": "Email software",
@@ -1755,6 +2765,30 @@
     },
     {
       "name": "Enterprise resource planning ERP system",
+      "weight": 0.25
+    },
+    {
+      "name": "Enterprise risk management software ERMS",
+      "weight": 0.25
+    },
+    {
+      "name": "Financial analysis software",
+      "weight": 0.25
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Costimater",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Lotus Notes",
       "weight": 0.25
     },
     {
@@ -1766,6 +2800,26 @@
       "weight": 0.25
     },
     {
+      "name": "JDA Software Group Advanced Warehouse Replenishment by E3",
+      "weight": 0.25
+    },
+    {
+      "name": "JDA Software Group Assortment Planning by Arthur",
+      "weight": 0.25
+    },
+    {
+      "name": "Kliger-Weiss Infosystems",
+      "weight": 0.25
+    },
+    {
+      "name": "Materials requirement planning MRP software",
+      "weight": 0.25
+    },
+    {
+      "name": "Millennium Software Atrex",
+      "weight": 0.25
+    },
+    {
       "name": "Oracle Advanced Procurement",
       "weight": 0.25
     },
@@ -1774,7 +2828,39 @@
       "weight": 0.25
     },
     {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Taleo",
+      "weight": 0.25
+    },
+    {
+      "name": "POSitive Software POSitive for Windows",
+      "weight": 0.25
+    },
+    {
+      "name": "Plexis Software Plexis POS",
+      "weight": 0.25
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.25
+    },
+    {
+      "name": "Product development management software",
+      "weight": 0.25
+    },
+    {
+      "name": "Product producer databases",
+      "weight": 0.25
+    },
+    {
       "name": "Project management software",
+      "weight": 0.25
+    },
+    {
+      "name": "Resources Calculations Incorporated SoftCost",
       "weight": 0.25
     },
     {
@@ -1782,7 +2868,267 @@
       "weight": 0.25
     },
     {
+      "name": "SAP POS Data Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Sage 100 Contractor",
+      "weight": 0.25
+    },
+    {
+      "name": "Sage ERP Accpac",
+      "weight": 0.25
+    },
+    {
+      "name": "Software AG enterprise software",
+      "weight": 0.25
+    },
+    {
+      "name": "Sourcing Simulator",
+      "weight": 0.25
+    },
+    {
+      "name": "Specialized Business Solutions Keystroke POS",
+      "weight": 0.25
+    },
+    {
+      "name": "WinEstimator WinEst",
+      "weight": 0.25
+    },
+    {
+      "name": "Windward Software Windward System Five",
+      "weight": 0.25
+    },
+    {
+      "name": "Xactware Xactimate",
+      "weight": 0.25
+    },
+    {
+      "name": "Cerebro CerebroMix",
+      "weight": 0.2
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.2
+    },
+    {
+      "name": "EPCON International CHEMPRO Engineering Suite",
+      "weight": 0.2
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.2
+    },
+    {
+      "name": "Relational database software",
+      "weight": 0.2
+    },
+    {
+      "name": "Statistical software",
+      "weight": 0.2
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 0.2
+    },
+    {
+      "name": "Supervisory control and data acquisition SCADA software",
+      "weight": 0.2
+    },
+    {
+      "name": "Cisco Webex",
+      "weight": 0.1845238095238095
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.1845238095238095
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.1845238095238095
+    },
+    {
+      "name": "3M Post-it App",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ACT! Premium",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "AMG Teleran SalesInSync",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Act!",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ActionWare",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "AdTrack Customer Acquisition Management CAM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Advantage Signature Marketing Group Web Master",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Airtable",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Aptean Onyx CRM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ardexus Mode",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ardexus TASC",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Blackboard software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Blink",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Cegedim Target Software Target SFA Pharmaceutical Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Commence Application Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computerized call calendars",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computerized time management systems",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Contact management systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Contract Central",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Contract tracking software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Data entry software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Dropbox",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ESRI ArcGIS software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Eko",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Epic Systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FaceTime",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fund accounting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Geographic information system GIS software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Google Classroom",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Google Drive",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Handheld computer device software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Healthcare common procedure coding system HCPCS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "HydraNet",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "IBM InfoSphere DataStage",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "InsideSales.com",
       "weight": 0.14285714285714285
     },
     {
@@ -1790,7 +3136,67 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "JamBoard",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Khameleon",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Linux",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "MASterMind",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Marketo Marketing Automation",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Maximizer Software Maximizer Enterprise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Medical condition coding software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Azure software",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Microsoft Dynamics CRM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft OneNote",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Teams",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mozilla Firefox",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mozilla Thunderbird",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Novo Customer Tracking Software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oracle WebLogic Server",
       "weight": 0.14285714285714285
     },
     {
@@ -1798,11 +3204,151 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Relavis CRM Portal",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Root Systems SPS Process Management",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SAP Sybase SQL Anywhere",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SSA Global BPCS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Sage SalesLogix",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Sales force automation software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SalesInSync",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SamePage StudioCRM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Screencastify",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SeaMonkey",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Skype",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Slack",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Soffront CRM Portal",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Solar analysis software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "StataCorp Stata",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tigerpaw",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Trimble SketchUp Pro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "UNIX",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Yardi software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "interlinkONE",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "vtiger CRM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Budgeting software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Customer information databases",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Delphi Discovery",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Electronic data interchange EDI software",
+      "weight": 0.041666666666666664
+    },
+    {
       "name": "Financial accounting software",
       "weight": 0.041666666666666664
     },
     {
+      "name": "Flow chart software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Fuze cloud communications and collaboration software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Graphics creation software",
+      "weight": 0.041666666666666664
+    },
+    {
       "name": "Online meeting software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "QuickBase business management software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "SugarCRM Sugar UX",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Work scheduling software",
       "weight": 0.041666666666666664
     }
   ],
@@ -1872,7 +3418,27 @@
       "weight": 0.25
     },
     {
+      "name": "Safety goggles",
+      "weight": 0.2
+    },
+    {
+      "name": "Compact digital cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computerized data collectors",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Extension ladders",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Laser printers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Light-emitting diode LED projectors",
       "weight": 0.14285714285714285
     },
     {
@@ -1889,6 +3455,10 @@
     },
     {
       "name": "Multiline telephone systems",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Printing calculators",
       "weight": 0.041666666666666664
     },
     {

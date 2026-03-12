@@ -1545,323 +1545,2313 @@
   "tasks": [
     {
       "task": "Complete forms describing tasks completed.",
-      "task_type": "Unclassified"
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Guide aircraft to designated areas using hand signals, batons, or other methods.",
-      "task_type": "Unclassified"
+      "task": "Mix cleaning compounds or solutions.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Inspect aircraft components to locate cracks, breaks, leaks, or other problems.",
-      "task_type": "Unclassified"
+      "task": "Select fishing methods or tools for removing obstacles such as liners, broken casing, screens, or drill pipe.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.91
     },
     {
-      "task": "Clean aircraft interiors by picking up waste, wiping down windows, or vacuuming.",
-      "task_type": "Unclassified"
+      "task": "Direct drilling crews performing activities such as assembling and connecting pipe, applying weights to drill pipes, or drilling around lodged obstacles.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.32
     },
     {
-      "task": "Change aircraft oil, coolant, or other fluids and maintain engines and tools.",
-      "task_type": "Unclassified"
+      "task": "Operate controls that raise derricks or level rigs.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.52
     },
     {
-      "task": "Monitor pumps and flow lines for gas and fluid leaks and ensure equipment performance.",
-      "task_type": "Core"
+      "task": "Close and seal wells no longer in use.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.75
     },
     {
-      "task": "Prepare reports of services rendered, tools used, or time required for billing purposes.",
-      "task_type": "Core"
+      "task": "Perforate well casings or sidewalls of boreholes with explosive charges.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.68
     },
     {
-      "task": "Direct drilling crews and supervise other workers engaged in activities related to extraction.",
-      "task_type": "Core"
+      "task": "Prepare reports of services rendered, tools used, or time required, for billing purposes.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.39
     },
     {
-      "task": "Inspect derricks, clean and oil them to maintain proper working conditions.",
-      "task_type": "Core"
+      "task": "Operate specialized equipment to remove obstructions by backing off or severing pipes by chemical or explosive action.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.76
     },
     {
-      "task": "Maintain and adjust machinery, perform safety inspections, and repair tools or equipment as needed.",
-      "task_type": "Core"
+      "task": "Monitor pumps and flow lines for gas and fluid leaks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.59
     },
     {
-      "task": "Dismantle and repair oil field machinery and restore sites after extraction activities.",
-      "task_type": "Core"
+      "task": "Examine unserviceable wells to determine actions to be taken to improve well conditions.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.46
     },
     {
-      "task": "Drive truck-mounted units to well sites and transport materials necessary for drilling operations.",
-      "task_type": "Core"
+      "task": "Insert detection instruments into wells with obstructions.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.19
     },
     {
-      "task": "Guide cranes to move loads about decks during extraction operations.",
-      "task_type": "Core"
+      "task": "Interpret instrument readings to ascertain the depth of obstruction.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.09
     },
     {
-      "task": "Observe and monitor equipment operation during extraction processes to detect problems.",
-      "task_type": "Core"
+      "task": "Monitor sound wave-generating or detecting mechanisms to determine well fluid levels.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.29
+    },
+    {
+      "task": "Clean up spilled oil by bailing it into barrels.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.17
+    },
+    {
+      "task": "Unscrew or tighten pipes, casing, tubing, and pump rods, using hand and power wrenches and tongs.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.89
+    },
+    {
+      "task": "Install pressure-control devices onto wellheads.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.35
+    },
+    {
+      "task": "Confer with others to gather information regarding pipe or tool sizes or borehole conditions in wells.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.19
+    },
+    {
+      "task": "Inspect derricks, or order their inspection, prior to being raised or lowered.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.54
+    },
+    {
+      "task": "Inspect derricks for flaws, and clean and oil derricks to maintain proper working conditions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.54
+    },
+    {
+      "task": "Control the viscosity and weight of the drilling fluid.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.52
+    },
+    {
+      "task": "Set and bolt crown blocks to posts at tops of derricks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Move pipes to and from trucks, using truck winches and motorized lifts, or by hand.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.35
+    },
+    {
+      "task": "Start pumps that circulate mud through drill pipes and boreholes to cool drill bits and flush out drill cuttings.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.23
+    },
+    {
+      "task": "Position and align derrick elements, using harnesses and platform climbing devices.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.21
+    },
+    {
+      "task": "Gauge oil and gas production.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.45
+    },
+    {
+      "task": "Change water filters.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.03
+    },
+    {
+      "task": "Mix acids, chemicals, or dry cement as required for a specific job.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.75
+    },
+    {
+      "task": "Dismantle and repair oil field machinery, boilers, and steam engine parts, using hand tools and power tools.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.65
+    },
+    {
+      "task": "Maintain and adjust machinery to ensure proper performance.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.32
+    },
+    {
+      "task": "Plug observation wells, and restore sites.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.49
+    },
+    {
+      "task": "Position and prepare truck-mounted derricks at drilling areas specified on field maps.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.92
+    },
+    {
+      "task": "Line drilled holes with pipes, and install all necessary hardware, to prepare new wells.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.0
+    },
+    {
+      "task": "Cap wells with packers, or turn valves, to regulate outflow of oil from wells.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.06
+    },
+    {
+      "task": "Remove core samples during drilling to determine the nature of the strata being drilled.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.83
+    },
+    {
+      "task": "Bolt together pump and engine parts, and connect tanks and flow lines.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.96
+    },
+    {
+      "task": "Clean and oil pulleys, blocks, and cables.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.03
+    },
+    {
+      "task": "Repair or replace defective parts of machinery, such as rotary drill rigs, water trucks, air compressors, and pumps, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.08
+    },
+    {
+      "task": "Monitor progress of drilling operations, and select and change drill bits according to the nature of strata, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.18
+    },
+    {
+      "task": "Direct rig crews in drilling and other activities, such as setting up rigs and completing or servicing wells.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.21
+    },
+    {
+      "task": "Locate and recover lost or broken bits, casings, and drill pipes from wells, using special tools.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.28
+    },
+    {
+      "task": "Maintain records of footage drilled, location and nature of strata penetrated, materials and tools used, services rendered, and time required.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.36
+    },
+    {
+      "task": "Dig drainage ditches around wells and storage tanks.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 2.99
+    },
+    {
+      "task": "Push levers and brake pedals to control gasoline, diesel, electric, or steam draw works that lower and raise drill pipes and casings in and out of wells.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.4
+    },
+    {
+      "task": "Count sections of drill rod to determine depths of boreholes.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.43
+    },
+    {
+      "task": "Observe pressure gauge and move throttles and levers to control the speed of rotary tables, and to regulate pressure of tools at bottoms of boreholes.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.48
+    },
+    {
+      "task": "Apply green technologies or techniques, such as the use of coiled tubing, slim-hole drilling, horizontal drilling, hydraulic fracturing, or gas lift systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.81
+    },
+    {
+      "task": "Open valves to return compressed gas to bottoms of specified wells to repressurize them and force oil to surface.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.16
+    },
+    {
+      "task": "Maintain and perform safety inspections on equipment and tools.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.57
+    },
+    {
+      "task": "Listen to engines, rotary chains, or other equipment to detect faulty operations or unusual well conditions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.5
+    },
+    {
+      "task": "Cut down and remove trees and brush to clear drill sites, to reduce fire hazards, and to make way for roads to sites.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 2.85
+    },
+    {
+      "task": "Dig holes, set forms, and mix and pour concrete into forms to make foundations for wood or steel derricks.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.43
+    },
+    {
+      "task": "Supply equipment to rig floors as requested and provide assistance to roughnecks.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.26
+    },
+    {
+      "task": "Guide cranes to move loads about decks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.57
+    },
+    {
+      "task": "Prepare trucks and equipment necessary for the type of pumping service required.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.93
+    },
+    {
+      "task": "Start compressor engines and divert oil from storage tanks into compressor units and auxiliary equipment to recover natural gas from oil.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.34
+    },
+    {
+      "task": "Steady pipes during connection to or disconnection from drill or casing strings.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.78
+    },
+    {
+      "task": "String cables through pulleys and blocks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.95
+    },
+    {
+      "task": "Lay gas and oil pipelines.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.46
+    },
+    {
+      "task": "Weigh clay, and mix with water and chemicals to make drilling mud, using portable mixers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.96
+    },
+    {
+      "task": "Clamp holding fixtures on ends of hoisting cables.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.98
+    },
+    {
+      "task": "Guide lengths of pipe into and out of elevators.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.17
+    },
+    {
+      "task": "Prepare mud reports, and instruct crews about the handling of any chemical additives.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.13
+    },
+    {
+      "task": "Monitor control panels during pumping operations to ensure that materials are being pumped at the correct pressure, density, rate, and concentration.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.3
+    },
+    {
+      "task": "Operate engines and pumps to shut off wells according to production schedules, and to switch flow of oil into storage tanks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.28
+    },
+    {
+      "task": "Clean trucks used in the fields.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.28
+    },
+    {
+      "task": "Repair gas and oil meters and gauges.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.95
+    },
+    {
+      "task": "Unload and assemble pipes and pumping equipment, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.74
+    },
+    {
+      "task": "Attach pumps and hoses to wellheads.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.77
+    },
+    {
+      "task": "Drive moving equipment to transport materials and parts to excavation sites.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.07
+    },
+    {
+      "task": "Signal workers to start geological material extraction or boring.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.78
+    },
+    {
+      "task": "Clean and prepare sites for excavation or boring.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.58
+    },
+    {
+      "task": "Set up and adjust equipment used to excavate geological materials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.93
+    },
+    {
+      "task": "Collect and examine geological matter, using hand tools and testing devices.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.84
+    },
+    {
+      "task": "Dig trenches.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.38
+    },
+    {
+      "task": "Observe and monitor equipment operation during the extraction process to detect any problems.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.28
     },
     {
       "task": "Clean up work areas and remove debris after extraction activities are complete.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.76
     },
     {
-      "task": "Load materials into well holes or into equipment using hand tools.",
-      "task_type": "Core"
+      "task": "Organize materials to prepare for use.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.89
     },
     {
-      "task": "Couple or uncouple trailers by changing trailer jack positions, connecting or disconnecting air or electrical lines, or manipulating fifth-wheel locks.",
-      "task_type": "Core"
+      "task": "Provide assistance to extraction craft workers, such as earth drillers and derrick operators.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.3
     },
     {
-      "task": "Collect delivery instructions from appropriate sources, verifying instructions and routes.",
-      "task_type": "Core"
+      "task": "Dismantle extracting and boring equipment used for excavation, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.7
     },
     {
-      "task": "Check conditions of trailers after contents have been unloaded to ensure that there has been no damage.",
-      "task_type": "Core"
+      "task": "Load materials into well holes or into equipment, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.54
     },
     {
-      "task": "Inspect loads to ensure that cargo is secure and check all load-related documentation for completeness and accuracy.",
-      "task_type": "Core"
+      "task": "Document and prepare reports of accidents, unscheduled stops, or delays.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.67
     },
     {
-      "task": "Drive trucks to weigh stations before and after loading and along routes in compliance with state regulations.",
-      "task_type": "Core"
+      "task": "Load or unload trucks or help others with loading or unloading, using special loading-related equipment or other equipment as necessary.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.19
     },
     {
-      "task": "Operate equipment, such as truck cab computers, CB radios, and GPS, to exchange information with bases, supervisors, or other drivers.",
-      "task_type": "Core"
+      "task": "Check vehicles to ensure that mechanical, safety, and emergency equipment is in good working order.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.61
     },
     {
-      "task": "Remove pieces of stone from larger masses using jackhammers, wedges, or other tools and insert wedges and feathers into holes to split stone sections from masses.",
-      "task_type": "Core"
+      "task": "Report vehicle defects, accidents, traffic violations, or damage to the vehicles.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.55
     },
     {
-      "task": "Reposition machines to make additional holes or cuts and operate mining machines to gather coal and convey it to floors or shuttle cars.",
-      "task_type": "Core"
+      "task": "Inventory and inspect goods to be moved to determine quantities and conditions.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.28
     },
     {
-      "task": "Conduct methane gas checks to ensure breathing quality of air and perform safety checks on equipment before operating.",
-      "task_type": "Core"
+      "task": "Perform basic vehicle maintenance tasks, such as adding oil, fuel, or radiator fluid, performing minor repairs, or washing trucks.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.53
     },
     {
-      "task": "Perform ventilation tasks, such as hanging ventilation curtains and tubes, and monitor air pressure, rotary speed, and pressure during drilling.",
-      "task_type": "Core"
+      "task": "Remove pieces of stone from larger masses, using jackhammers, wedges, and other tools.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.7
     },
     {
-      "task": "Light fuses, drop detonating devices into boreholes, or activate firing devices to set off blasts to demolish structures or displace earth, rock, or materials.",
-      "task_type": "Core"
+      "task": "Locate grain line patterns to determine how rocks will split when cut.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
     },
     {
-      "task": "Monitor operation of cutting or slicing machines to detect malfunctions and remove defective materials from machines to ensure standards are met.",
-      "task_type": "Core"
+      "task": "Repair, oil, and adjust machines, and change cutting teeth, using wrenches.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
     },
     {
-      "task": "Assemble and position machines, explosives, and blasting caps in holes at specified depths, or load perforating guns with explosives.",
-      "task_type": "Core"
+      "task": "Insert wedges and feathers into holes, and drive wedges with sledgehammers to split stone sections from masses.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.69
     },
     {
-      "task": "Drive trucks to transport explosives and blasting equipment to blasting sites, maintaining inventory levels and ordering supplies as necessary.",
-      "task_type": "Core"
+      "task": "Install casings to prevent cave-ins.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.39
     },
     {
-      "task": "Set up, operate, or tend machines that cut or slice materials, such as stone, glass, or rubber.",
-      "task_type": "Core"
+      "task": "Move levers to raise and lower hydraulic safety bars supporting roofs above machines until other workers complete framing.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.21
     },
     {
-      "task": "Examine, measure, and weigh materials or products to verify conformance to specifications, using measuring devices like rulers or scales.",
-      "task_type": "Core"
+      "task": "Reposition machines to make additional holes or cuts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.48
     },
     {
-      "task": "Feed stock into cutting machines, or under cutting blades, by guiding or pushing it into position.",
-      "task_type": "Core"
+      "task": "Observe and listen to equipment operation to detect binding or stoppage of tools or other equipment malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.28
     },
     {
-      "task": "Clean and lubricate cutting machines, conveyors, and blades using appropriate tools and materials.",
-      "task_type": "Core"
+      "task": "Move controls to start and regulate movement of conveyors and to start and position drill cutters or torches.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.49
     },
     {
-      "task": "Operate or tend machines to mix or blend a variety of materials, such as food products or chemicals.",
-      "task_type": "Core"
+      "task": "Drive machines into position at working faces.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.52
     },
     {
-      "task": "Monitor loading processes to ensure that materials are loaded according to specifications, verifying levels of excavated materials.",
-      "task_type": "Core"
+      "task": "Determine locations, boundaries, and depths of holes or channels to be cut.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.43
     },
     {
-      "task": "Drive loaded shuttle cars to discharge loads into mine cars or onto conveyors, and operate machinery to open and close canal locks.",
-      "task_type": "Core"
+      "task": "Operate mining machines to gather coal and convey it to floors or shuttle cars.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.57
     },
     {
-      "task": "Record operational or production data and maintain logs or records related to material movement.",
-      "task_type": "Core"
+      "task": "Cut slabs of stone into sheets that will be used for floors or counters.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.92
     },
     {
-      "task": "Collect samples of materials or products for laboratory testing, ensuring compliance with specifications.",
-      "task_type": "Core"
+      "task": "Mark dimensions or outlines on stone prior to cutting, using rules and chalk lines.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.4
     },
     {
-      "task": "Inspect and adjust crane mechanisms or lifting accessories to prevent malfunctions and ensure safety.",
-      "task_type": "Core"
+      "task": "Drill holes into sides of stones broken from masses, insert dogs or attach slings, and direct removal of stones.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.74
     },
     {
-      "task": "Become familiar with digging plans, machine capabilities and limitations, and safe digging procedures.",
-      "task_type": "Core"
+      "task": "Set charges of explosives to split rock.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
     },
     {
-      "task": "Operate machinery to perform activities such as backfilling excavations and breaking rock or concrete.",
-      "task_type": "Core"
+      "task": "Dust rocks after bolting.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.85
     },
     {
-      "task": "Observe operation of equipment to ensure safety, efficient operation, and to detect malfunctions.",
-      "task_type": "Core"
+      "task": "Conduct methane gas checks to ensure breathing quality of air.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.74
     },
     {
-      "task": "Examine and inspect machines to detect malfunctions and ensure conformance to established standards.",
-      "task_type": "Core"
+      "task": "Check the stability of roof and rib support systems before mining face areas.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.7
     },
     {
-      "task": "Clean, adjust, and maintain equipment using hand tools and ensure compliance with safety regulations.",
-      "task_type": "Core"
+      "task": "Pull down loose rock that cannot be supported.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.91
     },
     {
-      "task": "Monitor and record processing data, materials used, and adjust controls to maintain specified conditions.",
-      "task_type": "Core"
+      "task": "Perform safety checks on equipment before operating.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.89
     },
     {
-      "task": "Prepare and transfer materials between work areas using moving equipment and hand tools.",
-      "task_type": "Supplemental"
+      "task": "Perform ventilation tasks, such as hanging ventilation curtains and tubes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.87
     },
     {
-      "task": "Install and repair components of machinery or equipment, ensuring proper performance and compliance with specifications.",
-      "task_type": "Core"
+      "task": "Install various types of bolts, including truss, glue, and resin bolts, traversing entire ceiling spans.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.84
     },
     {
-      "task": "Perform routine maintenance on industrial equipment, including cleaning and lubricating components.",
-      "task_type": "Core"
+      "task": "Drill holes along outlines, using jackhammers.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.78
     },
     {
-      "task": "Diagnose faults or malfunctions to determine required repairs, using diagnostic equipment and testing devices.",
-      "task_type": "Core"
+      "task": "Drill test holes and test bolts for specified tension, using torque wrenches.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.8
     },
     {
-      "task": "Observe machine operations, gauges, or thermometers, and record gauge readings and processing times.",
-      "task_type": "Core"
+      "task": "Tighten ends of anchored truss bolts, using turnbuckles.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.37
     },
     {
-      "task": "Collect samples and perform tests or laboratory analyses to assess quality of materials, such as biofuels.",
-      "task_type": "Core"
+      "task": "Rotate chucks to turn bolts and open expansion heads against rock formations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.65
     },
     {
-      "task": "Read work orders and specifications to determine equipment requiring repair or maintenance and schedule as needed.",
-      "task_type": "Core"
+      "task": "Position bolting machines, and insert drill bits into chucks.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.91
     },
     {
-      "task": "Inspect components such as bearings and seals for damage or excessive wear to determine repair needs.",
-      "task_type": "Core"
+      "task": "Position safety jacks to support underground mine roofs until bolts can be installed.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.68
     },
     {
-      "task": "Reassemble equipment after completion of inspections, repairs, or testing, ensuring operability and compliance.",
-      "task_type": "Core"
+      "task": "Remove drill bits from chucks after drilling holes, and insert bolts into chucks.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.58
     },
     {
-      "task": "Disassemble machinery or equipment to remove parts and make repairs, using hand tools, chain falls, jacks, or hoists.",
-      "task_type": "Core"
+      "task": "Drill bolt holes into roofs at specified distances from ribs or adjacent bolts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.93
     },
     {
-      "task": "Repair and maintain electrical and electronic controls for machinery, including checking and replacing defective parts with appropriate tools and equipment.",
-      "task_type": "Core"
+      "task": "Scrape or wash conveyors, using belt scrapers or belt washers, to minimize dust production.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.24
     },
     {
-      "task": "Perform scheduled maintenance, clean units and components, and lubricate or apply adhesives to machinery according to specified procedures.",
-      "task_type": "Core"
+      "task": "Cut grooves along outlines, using chisels.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.28
     },
     {
-      "task": "Inspect or test machinery and equipment to identify defects and assess wear, reporting needs for repair or replacement directly.",
-      "task_type": "Core"
+      "task": "Force bolts into holes, using hydraulic mechanisms of self-propelled bolting machines.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.87
     },
     {
-      "task": "Record details of repairs and maintenance performed, including parts used and operational conditions, for documentation purpose.",
-      "task_type": "Core"
+      "task": "Apply new technologies developed to minimize the environmental impact of coal mining.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.77
     },
     {
-      "task": "Supervise, coordinate, or schedule the activities of construction or extractive workers, ensuring compliance with safety standards and specifications.",
-      "task_type": "Core"
+      "task": "Operate machines to flush earth cuttings or to blow dust from holes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.21
     },
     {
-      "task": "Train and instruct new workers in machine operation, safety procedures, and maintenance tasks relevant to their roles.",
-      "task_type": "Core"
+      "task": "Drive or guide truck-mounted equipment into position, level and stabilize rigs, and extend telescoping derricks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.24
     },
     {
-      "task": "Purchase or rent equipment necessary for construction or installation projects and requisition new materials as needed.",
-      "task_type": "Core"
+      "task": "Retract augers to force discharge dirt from holes.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.4
     },
     {
-      "task": "Collaborate with other workers to repair or move machines and maintain efficient operation of the workplace, assisting as necessary.",
-      "task_type": "Core"
+      "task": "Withdraw drill rods from holes, and extract core samples.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.46
     },
     {
-      "task": "Analyze test results and reports to diagnose equipment problems, implementing solutions or adjustments to rectify issues.",
-      "task_type": "Core"
+      "task": "Document geological formations encountered during work.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.06
     },
     {
-      "task": "Compile operational or personnel records, such as time and production records, inventory data, or maintenance statistics.",
-      "task_type": "Supplemental"
+      "task": "Perform pumping tests to assess well performance.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.75
     },
     {
-      "task": "Recommend or initiate personnel actions, such as hires, promotions, transfers, or disciplinary measures.",
-      "task_type": "Core"
+      "task": "Regulate air pressure, rotary speed, and downward pressure, according to the type of rock or concrete being drilled.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
     },
     {
-      "task": "Confer with personnel, such as management and representatives, to coordinate work activities, resolve grievances, or identify resource needs.",
-      "task_type": "Core"
+      "task": "Verify depths and alignments of boring positions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.1
     },
     {
-      "task": "Investigate accidents or injuries, prepare reports of findings, and conduct worker training in safety or operational procedures.",
-      "task_type": "Core"
+      "task": "Start, stop, and control drilling speed of machines and insertion of casings into holes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.33
     },
     {
-      "task": "Interpret specifications, blueprints, or job orders to guide workers and determine necessary installations or repairs.",
-      "task_type": "Core"
+      "task": "Select the appropriate drill for the job, using knowledge of rock or soil conditions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.07
     },
     {
-      "task": "Determine schedules, sequences, and assignments for work activities based on priorities, equipment, and personnel skills.",
-      "task_type": "Core"
+      "task": "Operate water-well drilling rigs and other equipment to drill, bore, and dig for water wells or for environmental assessment purposes.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.03
     },
     {
-      "task": "Requisition materials, supplies, or personnel necessary for work activities and ensure adequate tool and inventory conditions.",
-      "task_type": "Core"
+      "task": "Select and attach drill bits and drill rods, adding more rods as hole depths increase, and changing drill bits as needed.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.25
     },
     {
-      "task": "Inspect work areas and equipment to ensure safety, compliance with regulations, and to prevent unsafe conditions.",
-      "task_type": "Core"
+      "task": "Assemble and position machines, augers, casing pipes, and other equipment, using hand and power tools.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.99
     },
     {
-      "task": "Plan work assignments and equipment allocations to achieve production goals and meet operational demands.",
-      "task_type": "Core"
+      "task": "Retrieve lost equipment from bore holes, using retrieval tools and equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
     },
     {
-      "task": "Prepare and submit reports on work activities, operations, or accidents to relevant parties.",
-      "task_type": "Core"
+      "task": "Record drilling progress and geological data.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
     },
     {
-      "task": "Drive vehicles or operate equipment to assist workers in completing job assignments.",
-      "task_type": "Core"
+      "task": "Drive trucks, tractors, or truck-mounted drills to and from work sites.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
     },
     {
-      "task": "Examine materials to ensure they meet safety standards and specifications, and to determine handling requirements.",
-      "task_type": "Core"
+      "task": "Perform routine maintenance and upgrade work on machines and equipment, such as replacing parts, building up drill bits, and lubricating machinery.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.1
     },
     {
-      "task": "Monitor field work to ensure performance quality and compliance with established standards and safety regulations.",
-      "task_type": "Core"
+      "task": "Operate controls to stabilize machines and to position and align drills.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.36
     },
     {
-      "task": "Train workers in proper operational procedures, explain policies, and demonstrate tasks to ensure understanding.",
-      "task_type": "Core"
+      "task": "Pour water into wells, or pump water or slush into wells to cool drill bits and to remove drillings.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.33
     },
     {
-      "task": "Resolving worker issues collaboratively and improving motivational strategies for better personnel performance.",
-      "task_type": "Core"
+      "task": "Monitor oil, temperature, and pressure gauges on dashboards to determine if engines are operating safely and efficiently.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.11
+    },
+    {
+      "task": "Refuel and lubricate engines.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.15
+    },
+    {
+      "task": "Start diesel engines to warm engines before runs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
+    },
+    {
+      "task": "Design well pumping systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.66
+    },
+    {
+      "task": "Observe signals from other crew members so that work activities can be coordinated.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.65
+    },
+    {
+      "task": "Place and install screens, casings, pumps, and other well fixtures to develop wells.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Drill or bore holes in rock for blasting, grouting, anchoring, or building foundations.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.82
+    },
+    {
+      "task": "Disinfect, reconstruct, and redevelop contaminated wells and water pumping systems, and clean and disinfect new wells in preparation for use.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.7
+    },
+    {
+      "task": "Verify detonation of charges by observing control panels, or by listening for the sounds of blasts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.32
+    },
+    {
+      "task": "Lay primacord between rows of charged blast holes, and tie cord into main lines to form blast patterns.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.44
+    },
+    {
+      "task": "Connect electrical wire to primers, and cover charges or fill blast holes with clay, drill chips, sand, or other material.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.46
+    },
+    {
+      "task": "Measure depths of drilled blast holes, using weighted tape measures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.48
+    },
+    {
+      "task": "Compile and keep gun and explosives records in compliance with local and national laws.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.5
+    },
+    {
+      "task": "Mark patterns, locations, and depths of charge holes for drilling, and issue drilling instructions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.5
+    },
+    {
+      "task": "Review client requirements and proposed locations for drilling operations to determine feasibility, and to determine cost estimates.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.89
+    },
+    {
+      "task": "Place explosive charges in holes or other spots; then detonate explosives to demolish structures or to loosen, remove, or displace earth, rock, or other materials.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.61
+    },
+    {
+      "task": "Place safety cones around blast areas to alert other workers of danger zones, and signal workers as necessary to ensure that they clear blast sites prior to explosions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.64
+    },
+    {
+      "task": "Tie specified lengths of delaying fuses into patterns in order to time sequences of explosions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.69
+    },
+    {
+      "task": "Examine blast areas to determine amounts and kinds of explosive charges needed and to ensure that safety laws are observed.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.88
+    },
+    {
+      "task": "Signal crane operators to move equipment.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Set up and operate equipment such as hoists, jackhammers, and drills, in order to bore charge holes.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Create and lay out designs for drill and blast patterns.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Monitor drilling operations, by checking gauges and listening to equipment to assess drilling conditions and to determine the need to adjust drilling or alter equipment.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Assemble and position equipment, explosives, and blasting caps in holes at specified depths, or load perforating guns or torpedoes with explosives.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Insert, pack, and pour explosives, such as dynamite, ammonium nitrate, black powder, or slurries into blast holes; then shovel drill cuttings, admit water into boreholes, and tamp material to compact charges.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.57
+    },
+    {
+      "task": "Move and store inventories of explosives, loaded perforating guns, and other materials, according to established safety procedures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
+    },
+    {
+      "task": "Light fuses, drop detonating devices into wells or boreholes, or activate firing devices with plungers, dials, or buttons, in order to set off single or multiple blasts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.22
+    },
+    {
+      "task": "Inspect core samples to determine nature of strata, or take samples to laboratories for analysis.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.44
+    },
+    {
+      "task": "Fabricate well casings.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.38
+    },
+    {
+      "task": "Clean, gauge, and lubricate gun ports.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
+    },
+    {
+      "task": "Insert waterproof sealers, bullets, and/or powder charges into guns, and screw gun ports back into place.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
+    },
+    {
+      "task": "Set up and operate short-wave radio or field telephone equipment to transmit and receive blast information.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
+    },
+    {
+      "task": "Repair and service blasting, shooting, and automotive equipment, and electrical wiring and instruments, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.72
+    },
+    {
+      "task": "Maintain inventory levels, ordering new supplies as necessary.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.96
+    },
+    {
+      "task": "Cut specified lengths of primacord and attach primers to cord ends.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Drive trucks to transport explosives and blasting equipment to blasting sites.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.12
+    },
+    {
+      "task": "Lower perforating guns into wells, using hoists; then use measuring devices and instrument panels to position guns in correct positions for taking samples.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.71
+    },
+    {
+      "task": "Cut stock manually to prepare for machine cutting, using tools such as knives, cleavers, handsaws, or hammers and chisels.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.78
+    },
+    {
+      "task": "Monitor operation of cutting or slicing machines to detect malfunctions or to determine whether supplies need replenishment.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.21
+    },
+    {
+      "task": "Tighten pulleys or add abrasives to maintain cutting speeds.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.79
+    },
+    {
+      "task": "Move stock or scrap to and from machines manually, or by using carts, handtrucks, or lift trucks.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.03
+    },
+    {
+      "task": "Select and install machine components, such as cutting blades, rollers, and templates, according to specifications, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.91
+    },
+    {
+      "task": "Remove completed materials or products from cutting or slicing machines, and stack or store them for additional processing.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.2
+    },
+    {
+      "task": "Start machines to verify setups, and make any necessary adjustments.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.31
+    },
+    {
+      "task": "Maintain production records, such as quantities, types, and dimensions of materials produced.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.15
+    },
+    {
+      "task": "Adjust machine controls to alter position, alignment, speed, or pressure.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.2
+    },
+    {
+      "task": "Press buttons, pull levers, or depress pedals to start and operate cutting and slicing machines.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.39
+    },
+    {
+      "task": "Remove defective or substandard materials from machines, and readjust machine components so that products meet standards.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.15
+    },
+    {
+      "task": "Type instructions on computer keyboards, push buttons to activate computer programs, or manually set cutting guides, clamps, and knives.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.02
+    },
+    {
+      "task": "Review work orders, blueprints, specifications, or job samples to determine components, settings, and adjustments for cutting and slicing machines.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.42
+    },
+    {
+      "task": "Stack and sort cut material for packaging, further processing, or shipping, according to types and sizes of material.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.21
+    },
+    {
+      "task": "Set up, operate, or tend machines that cut or slice materials, such as glass, stone, cork, rubber, tobacco, food, paper, or insulating material.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.45
+    },
+    {
+      "task": "Examine, measure, and weigh materials or products to verify conformance to specifications, using measuring devices, such as rulers, micrometers, or scales.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.42
+    },
+    {
+      "task": "Sharpen cutting blades, knives, or saws, using files, bench grinders, or honing stones.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.85
+    },
+    {
+      "task": "Feed stock into cutting machines, onto conveyors, or under cutting blades, by threading, guiding, pushing, or turning handwheels.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.3
+    },
+    {
+      "task": "Position stock along cutting lines, or against stops on beds of scoring or cutting machines.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.04
+    },
+    {
+      "task": "Change or replace saw blades, cables, cutter heads, and grinding wheels, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.98
+    },
+    {
+      "task": "Mark cutting lines or identifying information on stock, using marking pencils, rulers, or scribes.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.24
+    },
+    {
+      "task": "Turn cranks or press buttons to activate winches that move cars under sawing cables or saw frames.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.81
+    },
+    {
+      "task": "Position width gauge blocks between blades, and level blades and insert wedges into frames to secure blades to frames.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.97
+    },
+    {
+      "task": "Direct workers on cutting teams.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.86
+    },
+    {
+      "task": "Explain and demonstrate safety procedures and safety equipment use.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.06
+    },
+    {
+      "task": "Read work orders to determine production specifications or information.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.58
+    },
+    {
+      "task": "Transfer materials, supplies, or products between work areas, using moving equipment or hand tools.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.19
+    },
+    {
+      "task": "Tend accessory equipment, such as pumps or conveyors, to move materials or ingredients through production processes.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.22
+    },
+    {
+      "task": "Position equipment such as ladles, grinding wheels, pouring nozzles, or crucibles, or signal other workers to position equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.45
+    },
+    {
+      "task": "Examine materials, ingredients, or products visually or with hands to ensure conformance to established standards.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.46
+    },
+    {
+      "task": "Load specified amounts of metal and flux into furnaces or clay crucibles.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.52
+    },
+    {
+      "task": "Record operational or production data on specified forms.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.41
+    },
+    {
+      "task": "Add or mix chemicals or ingredients for processing, using hand tools or other devices.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.22
+    },
+    {
+      "task": "Examine molds to ensure they are clean, smooth, and properly coated.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.59
+    },
+    {
+      "task": "Collect samples of materials or products for laboratory testing.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.4
+    },
+    {
+      "task": "Read temperature gauges and observe color changes, adjusting furnace flames, torches, or electrical heating units as necessary to melt metal to specifications.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.66
+    },
+    {
+      "task": "Skim slag or remove excess metal from ingots or equipment, using hand tools, strainers, rakes, or burners, collecting scrap for recycling.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.43
+    },
+    {
+      "task": "Turn valves to circulate water through cores, or spray water on filled molds to cool and solidify metal.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.55
+    },
+    {
+      "task": "Repair and maintain metal forms and equipment, using hand tools, sledges, and bars.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.29
+    },
+    {
+      "task": "Stencil identifying information on ingots and pigs, using special hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.9
+    },
+    {
+      "task": "Transport metal ingots to storage areas, using forklifts.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.65
+    },
+    {
+      "task": "Remove metal ingots or cores from molds, using hand tools, cranes, and chain hoists.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.34
+    },
+    {
+      "task": "Remove solidified steel or slag from pouring nozzles, using long bars or oxygen burners.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.63
+    },
+    {
+      "task": "Add metal to molds to compensate for shrinkage.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.1
+    },
+    {
+      "task": "Test samples of materials or products to ensure compliance with specifications, using test equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.28
+    },
+    {
+      "task": "Operate or tend machines to mix or blend any of a wide variety of materials, such as spices, dough batter, tobacco, fruit juices, chemicals, livestock feed, food products, color pigments, or explosive ingredients.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.41
+    },
+    {
+      "task": "Dump or pour specified amounts of materials into machinery or equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.41
+    },
+    {
+      "task": "Observe production or monitor equipment to ensure safe and efficient operation.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.56
+    },
+    {
+      "task": "Stop mixing or blending machines when specified product qualities are obtained and open valves and start pumps to transfer mixtures.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.47
+    },
+    {
+      "task": "Compound or process ingredients or dyes, according to formulas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.46
+    },
+    {
+      "task": "Unload mixtures into containers or onto conveyors for further processing.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.35
+    },
+    {
+      "task": "Assemble and embed cores in casting frames, using hand tools and equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.62
+    },
+    {
+      "task": "Dislodge and clear jammed materials or other items from machinery or equipment, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.9
+    },
+    {
+      "task": "Open valves to drain slurry from mixers into storage tanks.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.03
+    },
+    {
+      "task": "Push or ride cars down slopes, or hook cars to cables and control cable drum brakes, to ease cars down inclines.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.09
+    },
+    {
+      "task": "Observe hand signals, grade stakes, or other markings when operating machines.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.27
+    },
+    {
+      "task": "Move mine cars into position for loading and unloading, using pinchbars inserted under car wheels to position cars under loading spouts.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.18
+    },
+    {
+      "task": "Monitor loading processes to ensure that materials are loaded according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.85
+    },
+    {
+      "task": "Measure, weigh, or verify levels of rock, gravel, or other excavated material to prevent equipment overloads.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.54
+    },
+    {
+      "task": "Maintain records of materials moved.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.58
+    },
+    {
+      "task": "Handle high voltage sources and hang electrical cables.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.57
+    },
+    {
+      "task": "Guide and stop cars by switching, applying brakes, or placing scotches, or wooden wedges, between wheels and rails.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.88
+    },
+    {
+      "task": "Examine roadway and clear obstructions from the path of travel.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.27
+    },
+    {
+      "task": "Drive loaded shuttle cars to ramps and move controls to discharge loads into mine cars or onto conveyors.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.46
+    },
+    {
+      "task": "Direct other workers to move stakes, place blocks, position anchors or cables, or move materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.56
+    },
+    {
+      "task": "Control conveyors that run the entire length of shuttle cars to distribute loads as loading progresses.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.29
+    },
+    {
+      "task": "Clean, fuel, service, and perform safety checks on all equipment, and repair and replace parts as necessary.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.15
+    },
+    {
+      "task": "Observe and record car numbers, carriers, customers, tonnages, and grades and conditions of material.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.87
+    },
+    {
+      "task": "Signal workers to move loaded cars.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.01
+    },
+    {
+      "task": "Advance machines to gather material and convey it into cars.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.15
+    },
+    {
+      "task": "Stop gathering arms when cars are full.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.39
+    },
+    {
+      "task": "Replace hydraulic hoses, headlight bulbs, and gathering-arm teeth.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.5
+    },
+    {
+      "task": "Clean hoppers, and clean spillage from tracks, walks, driveways, and conveyor decking.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.07
+    },
+    {
+      "task": "Operate levers to move conveyor booms or shovels so that mine contents such as coal, rock, and ore can be placed into cars or onto conveyors.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.2
+    },
+    {
+      "task": "Drive machines into piles of material blasted from working faces.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.25
+    },
+    {
+      "task": "Move trailing electrical cables clear of obstructions, using rubber safety gloves.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.4
+    },
+    {
+      "task": "Pry off loose material from roofs and move it into the paths of machines, using crowbars.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.41
+    },
+    {
+      "task": "Pour and regulate the flow of molten metal into molds and forms to produce ingots or other castings, using ladles or hand-controlled mechanisms.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.69
+    },
+    {
+      "task": "Clean work areas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.26
+    },
+    {
+      "task": "Direct work crews in the cleaning and repair of furnace walls and flooring.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
+    },
+    {
+      "task": "Regulate supplies of fuel and air, or control flow of electric current and water coolant to heat furnaces and adjust temperatures.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.62
+    },
+    {
+      "task": "Scrape accumulations of metal oxides from floors, molds, and crucibles, and sift and store them for reclamation.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.72
+    },
+    {
+      "task": "Prepare material to load into furnaces, including cleaning, crushing, or applying chemicals, by using crushing machines, shovels, rakes, or sprayers.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.55
+    },
+    {
+      "task": "Sprinkle chemicals over molten metal to bring impurities to the surface.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.24
+    },
+    {
+      "task": "Weigh materials to be charged into furnaces, using scales.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.54
+    },
+    {
+      "task": "Inspect furnaces and equipment to locate defects and wear.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.4
+    },
+    {
+      "task": "Draw smelted metal samples from furnaces or kettles for analysis, and calculate types and amounts of materials needed to ensure that materials meet specifications.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.6
+    },
+    {
+      "task": "Kindle fires, and shovel fuel and other materials into furnaces or onto conveyors by hand, with hoists, or by directing crane operators.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.27
+    },
+    {
+      "task": "Observe operations inside furnaces, using television screens, to ensure that problems do not occur.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.26
+    },
+    {
+      "task": "Inspect cables or grappling devices for wear and install or replace cables, as needed.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.5
+    },
+    {
+      "task": "Direct truck drivers backing vehicles into loading bays and cover, uncover, or secure loads for delivery.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.61
+    },
+    {
+      "task": "Move levers, depress foot pedals, or turn dials to operate cranes, cherry pickers, electromagnets, or other moving equipment for lifting, moving, or placing loads.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.55
+    },
+    {
+      "task": "Determine load weights and check them against lifting capacities to prevent overload.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.68
+    },
+    {
+      "task": "Direct helpers engaged in placing blocking or outrigging under cranes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.39
+    },
+    {
+      "task": "Climb ladders to position and set up vehicle-mounted derricks.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.12
+    },
+    {
+      "task": "Inspect and adjust crane mechanisms or lifting accessories to prevent malfunctions or damage.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.52
+    },
+    {
+      "task": "Review daily work or delivery schedules to determine orders, sequences of deliveries, or special loading instructions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.73
+    },
+    {
+      "task": "Weigh bundles, using floor scales, and record weights for company records.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.33
+    },
+    {
+      "task": "Create or maintain inclines or ramps.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.9
+    },
+    {
+      "task": "Handle slides, mud, or pit cleanings or maintenance.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.69
+    },
+    {
+      "task": "Prepare accident reports.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.06
+    },
+    {
+      "task": "Tend auxiliary equipment, such as jacks, slings, cables, or stop blocks, to facilitate moving items or materials for further processing.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.92
+    },
+    {
+      "task": "Clean and lubricate equipment, and make minor repairs and adjustments.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.56
+    },
+    {
+      "task": "Write and submit maintenance work requisitions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.43
+    },
+    {
+      "task": "Perform maintenance duties, such as sweeping, painting, and yard work to keep facilities clean and in order.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.5
+    },
+    {
+      "task": "Inspect bundle packaging for conformance to regulations or customer requirements, and remove and batch packaging tickets.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.93
+    },
+    {
+      "task": "Attach, fasten, and disconnect cables or lines to loads, materials, and equipment, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.71
+    },
+    {
+      "task": "Apply hand or foot brakes and move levers to lock hoists or winches.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.51
+    },
+    {
+      "task": "Select loads or materials according to weight and size specifications.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.1
+    },
+    {
+      "task": "Drive machines to work sites.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.68
+    },
+    {
+      "task": "Adjust dig face angles for varying overburden depths and set lengths.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.74
+    },
+    {
+      "task": "Perform manual labor to prepare or finish sites, such as shoveling materials by hand.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.52
+    },
+    {
+      "task": "Operate compressed air, diesel, electric, gasoline, or steam-driven hoists or winches to control movement of cableways, cages, derricks, draglines, loaders, railcars, or skips.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.35
+    },
+    {
+      "task": "Move levers, depress foot pedals, and turn dials to operate power machinery, such as power shovels, stripping shovels, scraper loaders, or backhoes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.56
+    },
+    {
+      "task": "Set up or inspect equipment prior to operation.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.56
+    },
+    {
+      "task": "Become familiar with digging plans, machine capabilities and limitations, and efficient and safe digging procedures in a given application.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.43
+    },
+    {
+      "task": "Operate machinery to perform activities such as backfilling excavations, vibrating or breaking rock or concrete, or making winter roads.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.22
+    },
+    {
+      "task": "Load machines with objects to be processed and unload them after cleaning, placing them on conveyors or racks.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 3.79
+    },
+    {
+      "task": "Conduct preventative maintenance and repair, and lubricate machines and equipment.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.59
+    },
+    {
+      "task": "Examine and inspect machines to detect malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.81
+    },
+    {
+      "task": "Set up and operate machines, and adjust controls to regulate operations.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.03
+    },
+    {
+      "task": "Draw samples for laboratory analysis, or test solutions for conformance to specifications, such as acidity or specific gravity.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 4.07
+    },
+    {
+      "task": "Weigh or measure materials, ingredients, or products at specified intervals to ensure conformance to requirements.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.03
+    },
+    {
+      "task": "Drain, clean, and refill machines or tanks at designated intervals, using cleaning solutions or water.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.96
+    },
+    {
+      "task": "Add specified amounts of chemicals to equipment at required times to maintain solution levels and concentrations.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.25
+    },
+    {
+      "task": "Operate or tend machines to wash and remove impurities from items such as barrels or kegs, glass products, tin plate surfaces, dried fruit, pulp, animal stock, coal, manufactured articles, plastic, or rubber.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.95
+    },
+    {
+      "task": "Record gauge readings, materials used, processing times, or test results in production logs.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 3.84
+    },
+    {
+      "task": "Examine materials, ingredients, or products, visually or with hands, to ensure conformance to established standards.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.64
+    },
+    {
+      "task": "Read and understand operating manuals, blueprints, and technical drawings.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.26
+    },
+    {
+      "task": "Operate valves, pumps, engines, or generators to control and adjust biofuels production.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.72
+    },
+    {
+      "task": "Coordinate raw product sourcing or collection.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.1
+    },
+    {
+      "task": "Mark bins as to types of mixtures stored.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.86
+    },
+    {
+      "task": "Reject defective products and readjust equipment to eliminate problems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.76
+    },
+    {
+      "task": "Set mill gauges to specified fineness of grind.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.61
+    },
+    {
+      "task": "Test structures, controls, or mechanical, hydraulic, or electrical systems, according to test plans or in coordination with engineers.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.12
+    },
+    {
+      "task": "Repair, rewire, and troubleshoot electrical systems.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.18
+    },
+    {
+      "task": "Schedule maintenance for industrial machines and equipment, and keep equipment service records.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.96
+    },
+    {
+      "task": "Diagnose problems involving wind turbine generators or control systems.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.57
+    },
+    {
+      "task": "Weld, repair, and fabricate equipment or machinery.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.05
+    },
+    {
+      "task": "Calculate bills according to record of repairs made, labor time, and parts used.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.0
+    },
+    {
+      "task": "Fit bearings to adjust, repair, or overhaul mobile mechanical, hydraulic, and pneumatic equipment.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.96
+    },
+    {
+      "task": "Assemble and install equipment, using hand tools and power tools.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.55
+    },
+    {
+      "task": "Maintain tool and spare parts inventories required for repair, installation, or replacement services.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.13
+    },
+    {
+      "task": "Inspect components such as bearings, seals, gaskets, wheels, and coupler assemblies to determine if repairs are needed.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.22
+    },
+    {
+      "task": "Direct workers who are assembling or disassembling equipment or cleaning parts.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.36
+    },
+    {
+      "task": "Repair or maintain the operating condition of industrial production or processing machinery or equipment.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.29
+    },
+    {
+      "task": "Drive trucks to haul tools and equipment for on-site repair of large machinery.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.95
+    },
+    {
+      "task": "Mount fixtures and industrial coils on machines, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.12
+    },
+    {
+      "task": "Set and adjust speeds of reels and conveyors for prescribed time cycles to pass parts through continuous furnaces.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.54
+    },
+    {
+      "task": "Remove locomotives, car mechanical units, or other components, using pneumatic hoists and jacks, pinch bars, hand tools, and cutting torches.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.01
+    },
+    {
+      "task": "Clean oxides and scales from parts or fittings, using steam sprays or chemical and water baths.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 3.59
+    },
+    {
+      "task": "Heat billets, bars, plates, rods, and other stock to specified temperatures preparatory to forging, rolling, or processing, using oil, gas, or electrical furnaces.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 4.07
+    },
+    {
+      "task": "Construct foundation for machines, using hand tools and building materials such as wood, cement, and steel.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.58
+    },
+    {
+      "task": "Move machinery and equipment, using hoists, dollies, rollers, and trucks.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.41
+    },
+    {
+      "task": "Connect power unit to machines or steam piping to equipment, and test unit to evaluate its mechanical operation.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.89
+    },
+    {
+      "task": "Replace defective wiring and insulation, and tighten electrical connections, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 3.31
+    },
+    {
+      "task": "Disassemble machinery or equipment to remove parts and make repairs.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.14
+    },
+    {
+      "task": "Perform skilled repair or maintenance operations, using equipment such as hand or power tools, hydraulic presses or shears, or welding equipment.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.81
+    },
+    {
+      "task": "Clean, lubricate, or adjust parts, equipment, or machinery.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.17
+    },
+    {
+      "task": "Reassemble machines and equipment following repair, testing operation and making adjustments, as necessary.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.64
+    },
+    {
+      "task": "Examine and listen to equipment, read inspection reports, and confer with customers to locate and diagnose malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.54
+    },
+    {
+      "task": "Inventory and requisition machine parts, equipment, and other supplies so that stock can be maintained and replenished.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.8
+    },
+    {
+      "task": "Record details of repairs made and parts used.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.49
+    },
+    {
+      "task": "Transport machine parts, tools, equipment, and other material between work areas and storage, using cranes, hoists, or dollies.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.84
+    },
+    {
+      "task": "Study blueprints or manufacturers' manuals to determine correct installation or operation of machinery.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.8
+    },
+    {
+      "task": "Supervise, coordinate, or schedule the activities of construction or extractive workers.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.36
+    },
+    {
+      "task": "Test and replace electrical components and wiring, using test meters, soldering equipment, and hand tools.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.32
+    },
+    {
+      "task": "Remove hardened material from machines or machine parts, using abrasives, power and hand tools, jackhammers, sledgehammers, or other equipment.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.78
+    },
+    {
+      "task": "Enter codes and instructions to program computer-controlled machinery.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.7
+    },
+    {
+      "task": "Locate, measure, and mark site locations or placement of structures or equipment, using measuring and marking equipment.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.92
+    },
+    {
+      "task": "Start machines and observe mechanical operation to determine efficiency and to detect problems.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.93
+    },
+    {
+      "task": "Develop, implement, or evaluate maintenance policies and procedures.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.48
+    },
+    {
+      "task": "Keep informed of shut-down and emergency evacuation procedures.",
+      "task_type": "Core",
+      "relevance": 0.058823529411764705,
+      "importance": 3.9
+    },
+    {
+      "task": "Compile operational or personnel records, such as time and production records, inventory data, repair or maintenance statistics, or test results.",
+      "task_type": "Supplemental",
+      "relevance": 0.03333333333333333,
+      "importance": 3.56
+    },
+    {
+      "task": "Recommend or initiate personnel actions, such as hires, promotions, transfers, discharges, or disciplinary measures.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.61
+    },
+    {
+      "task": "Confer with personnel, such as management, engineering, quality control, customer, or union workers' representatives, to coordinate work activities, resolve employee grievances, or identify and review resource needs.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.7
+    },
+    {
+      "task": "Investigate accidents or injuries and prepare reports of findings.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.6
+    },
+    {
+      "task": "Conduct or arrange for worker training in safety, repair, or maintenance techniques, operational procedures, or equipment use.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.53
+    },
+    {
+      "task": "Interpret specifications, blueprints, or job orders to construct templates and lay out reference points for workers.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.86
+    },
+    {
+      "task": "Compute estimates and actual costs of factors such as materials, labor, or outside contractors.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.75
+    },
+    {
+      "task": "Requisition materials and supplies, such as tools, equipment, or replacement parts.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.73
+    },
+    {
+      "task": "Counsel employees about work-related issues and assist employees to correct job-skill deficiencies.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.64
+    },
+    {
+      "task": "Examine objects, systems, or facilities and analyze information to determine needed installations, services, or repairs.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.64
+    },
+    {
+      "task": "Determine schedules, sequences, and assignments for work activities, based on work priority, quantity of equipment, and skill of personnel.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.68
+    },
+    {
+      "task": "Review, evaluate, accept, and coordinate completion of work bid from contractors.",
+      "task_type": "Supplemental",
+      "relevance": 0.03333333333333333,
+      "importance": 3.6
+    },
+    {
+      "task": "Inspect and monitor work areas, examine tools and equipment, and provide employee safety training to prevent, detect, and correct unsafe conditions or violations of procedures and safety rules.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.88
+    },
+    {
+      "task": "Monitor tool and part inventories and the condition and maintenance of shops to ensure adequate working conditions.",
+      "task_type": "Core",
+      "relevance": 0.03333333333333333,
+      "importance": 3.74
+    },
+    {
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.11
+    },
+    {
+      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.89
+    },
+    {
+      "task": "Monitor field work to ensure proper performance and use of materials.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Direct workers in transportation or related services, such as pumping, moving, storing, or loading or unloading of materials.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Review orders, production schedules, blueprints, or shipping or receiving notices to determine work sequences and material shipping dates, types, volumes, or destinations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.94
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Assist workers in tasks, such as loading vehicles.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
+    },
+    {
+      "task": "Interpret transportation or tariff regulations, shipping orders, safety regulations, or company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.17
+    },
+    {
+      "task": "Drive vehicles or operate machines or equipment to complete work assignments or to assist workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.93
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
+    },
+    {
+      "task": "Examine, measure, or weigh cargo or materials to determine specific handling requirements.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.99
+    },
+    {
+      "task": "Maintain or verify records of time, materials, expenditures, or crew activities.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.9
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Perform or schedule repairs or preventive maintenance of vehicles or other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.86
+    },
+    {
+      "task": "Dispatch personnel and vehicles in response to telephone or radio reports of emergencies.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as flight or car attendants.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1934,7 +3924,7 @@
       "weight": 0.5386870581992533
     },
     {
-      "name": "Access Software AIRPAX",
+      "name": "Engine analysis software",
       "weight": 0.5
     },
     {
@@ -1943,6 +3933,10 @@
     },
     {
       "name": "Maintenance planning software",
+      "weight": 0.5
+    },
+    {
+      "name": "Supply system software",
       "weight": 0.5
     },
     {
@@ -1966,6 +3960,18 @@
       "weight": 0.41978021978021973
     },
     {
+      "name": "Python",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.40476190476190477
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.40476190476190477
+    },
+    {
       "name": "Web browser software",
       "weight": 0.3948531143653095
     },
@@ -1978,6 +3984,10 @@
       "weight": 0.3538461538461538
     },
     {
+      "name": "CAPSHER Technology SureTec",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Data logger software",
       "weight": 0.3333333333333333
     },
@@ -1986,8 +3996,56 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Drillingsoftware DrillPro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Drillingsoftware Tubular Database",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Enertia",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Maintenance software",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microsoft Windows XP",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Moxa software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pason WellView Field Solution",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Purchasing software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Schlumberger Petrel E&P",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Structure query language SQL",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Telephony software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Time and attendance software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Time tracking software",
+      "weight": 0.3234126984126984
     },
     {
       "name": "Global positioning system GPS software",
@@ -2002,15 +4060,131 @@
       "weight": 0.2460030165912519
     },
     {
+      "name": "Facebook",
+      "weight": 0.22549019607843135
+    },
+    {
       "name": "Scheduling software",
       "weight": 0.22122674073893586
+    },
+    {
+      "name": "3M Post-it App",
+      "weight": 0.2
+    },
+    {
+      "name": "ADP ezLaborManager",
+      "weight": 0.2
+    },
+    {
+      "name": "ALK Technologies PC*Miler",
+      "weight": 0.2
+    },
+    {
+      "name": "Automated equipment identification AEI software",
+      "weight": 0.2
+    },
+    {
+      "name": "Bourque Data Systems YardMaster",
+      "weight": 0.2
     },
     {
       "name": "Computerized inventory tracking software",
       "weight": 0.2
     },
     {
+      "name": "Eko",
+      "weight": 0.2
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.2
+    },
+    {
+      "name": "Fog Line Software Truckn Pro",
+      "weight": 0.2
+    },
+    {
+      "name": "Freight reservation software",
+      "weight": 0.2
+    },
+    {
+      "name": "MarcoSoft Quo Vadis",
+      "weight": 0.2
+    },
+    {
+      "name": "Omnitracs Performance Monitoring",
+      "weight": 0.2
+    },
+    {
+      "name": "PeopleNet",
+      "weight": 0.2
+    },
+    {
+      "name": "Positive train control PTC systems",
+      "weight": 0.2
+    },
+    {
+      "name": "RailComm DocYard",
+      "weight": 0.2
+    },
+    {
+      "name": "SAIC government services and IT support software",
+      "weight": 0.2
+    },
+    {
+      "name": "Softrail AEI Automatic Yard Tracking System",
+      "weight": 0.2
+    },
+    {
+      "name": "Softrail AEI Rail & Road Manager",
+      "weight": 0.2
+    },
+    {
+      "name": "TruckersHelper",
+      "weight": 0.2
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.2
+    },
+    {
+      "name": "ddlsoftware.com drivers daily log program DDL",
+      "weight": 0.2
+    },
+    {
+      "name": "Programmable logic controller PLC software",
+      "weight": 0.18717948717948718
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.17619047619047618
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.16907993966817497
+    },
+    {
+      "name": "Apache HTTP Server",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Caterpillar Cat MineStar System",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Caterpillar Command",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Fleet monitoring system software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hitachi ZXLink",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Leica Geosystems FMS",
       "weight": 0.16666666666666666
     },
     {
@@ -2018,27 +4192,363 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Time reporting software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Computer aided design CAD software",
       "weight": 0.15384615384615385
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.14835164835164835
+    },
+    {
+      "name": "Blaster's Tool and Supply Company Blaster's Calculator",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Datavis DBS Designer",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "DetNet ViewShot",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ESRI ArcGIS software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Electronic train management system software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Electronic train management systems ETMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Google Android",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oracle Primavera Systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Procore software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Prolog",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Route mapping software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Appointment scheduling software",
+      "weight": 0.125
+    },
+    {
+      "name": "Automated systems software",
+      "weight": 0.1111111111111111
     },
     {
       "name": "Mine maintenance software",
       "weight": 0.1111111111111111
     },
     {
+      "name": "Process control software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Process safety management software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Production tracking system software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Work time accounting software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Recordkeeping software",
+      "weight": 0.11025641025641025
+    },
+    {
+      "name": "HCSS HeavyJob",
+      "weight": 0.10476190476190475
+    },
+    {
+      "name": "Crane operation control software",
+      "weight": 0.1
+    },
+    {
       "name": "Google Gmail",
       "weight": 0.1
+    },
+    {
+      "name": "Machine control systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Machine monitoring software",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.1
+    },
+    {
+      "name": "Virtual private networking VPN software",
+      "weight": 0.1
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.09581881533101044
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Data visualization software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Digital control systems DCS",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Human machine interface HMI software",
+      "weight": 0.08333333333333333
     },
     {
       "name": "Inventory control software",
       "weight": 0.08333333333333333
     },
     {
+      "name": "R",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAS",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "BIT Corp ProMACS PLC",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Computerized diagnostic software",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Computerized maintenance management system software CMMS",
       "weight": 0.07692307692307693
     },
     {
+      "name": "Dassault Systemes SolidWorks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Extranet Machine Tools Suite",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Fleet management software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "IBM Maximo Asset Management",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Industrial control systems software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "KEYENCE PLC Ladder Logic",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Maintenance planning and control software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Management information systems MIS",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mozilla Firefox",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Project management software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "RailTech Software Solutions Rail 21 Management System",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "RailTech Software Systems Mars for the 21st Century",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "ServiceMax",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Vestas Wind Systems A/S Vestas Remote Panel",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "WheelShop Automation.com Wheel Shop Management Suite",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Autodesk AutoCAD Civil 3D",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Autodesk Revit",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Bentley STAAD",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Computer aided design and drafting software CADD",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Cost estimating software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Customer relationship management CRM software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Esri ArcGIS",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Facilities management software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "FranklinCovey TabletPlanner",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Mi-Co Mi-Forms",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft NetMeeting",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Oracle Primavera P6 Enterprise Portfolio Project Management",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "PVsyst",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "QuickBase business management software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Real time operating system RTOS software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Sage 300 Construction and Real Estate",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Trimble SketchUp Pro",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Calendar and scheduling software",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Enterprise application integration EAI software",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Accellos Real Dispatch",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Commercial vehicle operations CVO software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.03954175905395418
+    },
+    {
       "name": "Automated inventory software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "ComputerEase construction accounting software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Cost accounting software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "HCSS HeavyBid",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Infor ERP SyteLine",
       "weight": 0.03333333333333333
     },
     {
@@ -2048,6 +4558,122 @@
     {
       "name": "Inventory management software",
       "weight": 0.03333333333333333
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Payroll software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Vehicle management software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "WorkTech MAXIMO",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "Yardi software",
+      "weight": 0.03333333333333333
+    },
+    {
+      "name": "@Road GeoManager",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Actsoft Comet Tracker",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Bill of lading software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "CAPE Systems CAPE PACK",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "CAPE Systems TRUCKFILL",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Coptimal Logics AutoLoad Pro",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Creative Systems Corporation Freight-Link System",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Fleet management systems",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "JDA Manugistics",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Load optimization software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "MagicLogic Optimization Cube-IQ",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Optimum Logistics LoadPlanner",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Proof of delivery POD software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Softtruck CargoWiz",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Starre Enterprises Star Bill of Lading",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Strategic Business Systems Proof of Delivery",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "TOPS Engineering MaxLoad Pro",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "UPS Logistics Technologies Roadnet Transportation Suite",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Warehouse management system WMS",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "XATA XATANET",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -2148,10 +4774,6 @@
       "weight": 1.0
     },
     {
-      "name": "Stuck pipe tools",
-      "weight": 1.0
-    },
-    {
       "name": "Air compressors",
       "weight": 0.9188644688644689
     },
@@ -2216,27 +4838,11 @@
       "weight": 0.6816239316239316
     },
     {
-      "name": "Drilling draw works",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Electric downhole pumps",
-      "weight": 0.6666666666666666
-    },
-    {
       "name": "Hammer wrenches",
       "weight": 0.6666666666666666
     },
     {
       "name": "Handheld data loggers",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Mud pumps",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Pipe slips",
       "weight": 0.6666666666666666
     },
     {
@@ -2276,40 +4882,12 @@
       "weight": 0.6245421245421245
     },
     {
-      "name": "Drill pipe tongs",
-      "weight": 0.6190476190476191
-    },
-    {
-      "name": "Drilling collars",
-      "weight": 0.6190476190476191
-    },
-    {
-      "name": "Marsh funnels",
-      "weight": 0.6190476190476191
-    },
-    {
-      "name": "Mud guns",
-      "weight": 0.6190476190476191
-    },
-    {
-      "name": "Mud pumping equipment",
-      "weight": 0.6190476190476191
-    },
-    {
-      "name": "Pipe retrieval fishing tools",
-      "weight": 0.6190476190476191
-    },
-    {
       "name": "Programmable logic controllers PLC",
       "weight": 0.5974358974358974
     },
     {
       "name": "Reflective vests",
       "weight": 0.5873015873015872
-    },
-    {
-      "name": "Drilling mud tanks",
-      "weight": 0.5833333333333333
     },
     {
       "name": "High pressure steam cleaners",
@@ -2369,10 +4947,6 @@
     },
     {
       "name": "Core drill rigs",
-      "weight": 0.5357142857142857
-    },
-    {
-      "name": "Mud rotary drills",
       "weight": 0.5357142857142857
     },
     {
@@ -2576,6 +5150,10 @@
       "weight": 0.3617216117216117
     },
     {
+      "name": "Laser facsimile machines",
+      "weight": 0.35882352941176476
+    },
+    {
       "name": "Rulers",
       "weight": 0.3557692307692308
     },
@@ -2604,10 +5182,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Adapter spools",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Air-powered sandblasters",
       "weight": 0.3333333333333333
     },
@@ -2620,35 +5194,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Beam gas compressors",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Blowout prevention equipment",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Boom roof bolters",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Borehole casings",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Breakout tongs",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Casing elevators",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Casing slips",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Catheads",
       "weight": 0.3333333333333333
     },
     {
@@ -2672,31 +5218,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Chain driven draw works",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Chemical casing cutters",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Chemical injection pumps",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Chemical pipe cutters",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Choke manifolds",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Circulating pumps",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Continuous sucker rods",
       "weight": 0.3333333333333333
     },
     {
@@ -2705,42 +5227,6 @@
     },
     {
       "name": "Deck grinders",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Derrick crown blocks",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Derrick hoists",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Derrick hooks",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Derrick ladders",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Derrick scaffolds",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Derrick taglines",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Derrick winches",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Desander manifolds",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Desilter manifolds",
       "weight": 0.3333333333333333
     },
     {
@@ -2764,71 +5250,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Double studded adapters",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Downhole fishing tools",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Downhole jet pumps",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Downhole object retrieval equipment",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Drill casings",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Drill pipe thread protectors",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Drilling chokes",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Drilling crosses",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Drilling fluid centrifuges",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Drilling mud mixers",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Drilling mud shale shakers",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Drilling rig rotary tables",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Drilling spools",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Drilling swivels",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Echometers",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Electric submersible pumps",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Electrical chemical pumps",
       "weight": 0.3333333333333333
     },
     {
@@ -2884,14 +5306,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Gear driven draw works",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Geronimo lines",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Hand operated spray guns",
       "weight": 0.3333333333333333
     },
@@ -2913,10 +5327,6 @@
     },
     {
       "name": "Hydraulic lift systems",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Hydraulic power tongs",
       "weight": 0.3333333333333333
     },
     {
@@ -2944,27 +5354,11 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Jet casing cutters",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Jet guns",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Jet pipe cutters",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Laboratory funnels",
       "weight": 0.3333333333333333
     },
     {
       "name": "Laboratory weighing scales",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Lease automatic lease custody LACT units",
       "weight": 0.3333333333333333
     },
     {
@@ -3024,19 +5418,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Multiphase flowmeters",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Multipurpose fire extinguishers",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Natural gas lifts",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Oil drilling pipes",
       "weight": 0.3333333333333333
     },
     {
@@ -3045,10 +5427,6 @@
     },
     {
       "name": "Oil retention tanks",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Oil rig crown blocks",
       "weight": 0.3333333333333333
     },
     {
@@ -3061,10 +5439,6 @@
     },
     {
       "name": "Oil spill kits",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Oil well blowout preventers",
       "weight": 0.3333333333333333
     },
     {
@@ -3093,10 +5467,6 @@
     },
     {
       "name": "Pit volume totalizers",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Plunger lifts",
       "weight": 0.3333333333333333
     },
     {
@@ -3129,14 +5499,6 @@
     },
     {
       "name": "Protective harnesses",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Pump jacks",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Pumping wellheads",
       "weight": 0.3333333333333333
     },
     {
@@ -3180,10 +5542,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Slickline severance tools",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Slings",
       "weight": 0.3333333333333333
     },
@@ -3220,15 +5578,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Sucker rod wrenches",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Temperature recording instruments",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Test separators",
       "weight": 0.3333333333333333
     },
     {
@@ -3276,23 +5626,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Well cementing units",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Well drill bits",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Well packers",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Well tubing perforation guns",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Wellhead drives",
       "weight": 0.3333333333333333
     },
     {
@@ -3393,10 +5727,6 @@
     },
     {
       "name": "Downhole hammers",
-      "weight": 0.2857142857142857
-    },
-    {
-      "name": "Downhole well testing equipment",
       "weight": 0.2857142857142857
     },
     {
@@ -3648,7 +5978,23 @@
       "weight": 0.23076923076923078
     },
     {
+      "name": "Inside micrometers",
+      "weight": 0.23076923076923078
+    },
+    {
       "name": "Jacks",
+      "weight": 0.23076923076923078
+    },
+    {
+      "name": "Metal cutting taps",
+      "weight": 0.23076923076923078
+    },
+    {
+      "name": "Outside micrometers",
+      "weight": 0.23076923076923078
+    },
+    {
+      "name": "Reamers",
       "weight": 0.23076923076923078
     },
     {
@@ -3656,19 +6002,251 @@
       "weight": 0.23076923076923078
     },
     {
+      "name": "Rivet guns",
+      "weight": 0.23076923076923078
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.23076923076923078
+    },
+    {
+      "name": "Soldering guns",
+      "weight": 0.23076923076923078
+    },
+    {
+      "name": "Straightedges",
+      "weight": 0.23076923076923078
+    },
+    {
+      "name": "Tachometers",
+      "weight": 0.23076923076923078
+    },
+    {
+      "name": "Combination squares",
+      "weight": 0.22527472527472528
+    },
+    {
+      "name": "Drill bit sets",
+      "weight": 0.22527472527472528
+    },
+    {
+      "name": "Multimeters",
+      "weight": 0.22527472527472528
+    },
+    {
+      "name": "Pipe cutters",
+      "weight": 0.22527472527472528
+    },
+    {
+      "name": "Pipe threaders",
+      "weight": 0.22527472527472528
+    },
+    {
+      "name": "Single-cut mill saw files",
+      "weight": 0.22527472527472528
+    },
+    {
+      "name": "Transit levels",
+      "weight": 0.22527472527472528
+    },
+    {
+      "name": "Voltmeters",
+      "weight": 0.22527472527472528
+    },
+    {
+      "name": "Oil dispensing cans",
+      "weight": 0.225
+    },
+    {
       "name": "Warehouse hand trucks",
       "weight": 0.225
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.22439024390243903
+    },
+    {
+      "name": "Digital ohmmeters",
+      "weight": 0.21978021978021978
+    },
+    {
+      "name": "Phase rotation meters",
+      "weight": 0.21978021978021978
     },
     {
       "name": "Portable cranes",
       "weight": 0.21978021978021978
     },
     {
+      "name": "Multipurpose hammers",
+      "weight": 0.2159090909090909
+    },
+    {
       "name": "Blasting machines",
       "weight": 0.21428571428571427
     },
     {
+      "name": "Extension ladders",
+      "weight": 0.21428571428571427
+    },
+    {
+      "name": "Hand grease guns",
+      "weight": 0.2111111111111111
+    },
+    {
+      "name": "Power hoists",
+      "weight": 0.2111111111111111
+    },
+    {
+      "name": "Cutting torches",
+      "weight": 0.2094017094017094
+    },
+    {
+      "name": "Handheld calculators",
+      "weight": 0.20717517776341304
+    },
+    {
+      "name": "Honing stones",
+      "weight": 0.20192307692307693
+    },
+    {
+      "name": "Lubrication guns",
+      "weight": 0.20192307692307693
+    },
+    {
+      "name": "4-ranger tower trucks",
+      "weight": 0.2
+    },
+    {
+      "name": "Automatic container locks",
+      "weight": 0.2
+    },
+    {
+      "name": "Blocks and tackle",
+      "weight": 0.2
+    },
+    {
+      "name": "Bridge plates",
+      "weight": 0.2
+    },
+    {
+      "name": "Cable sheath cutters",
+      "weight": 0.2
+    },
+    {
+      "name": "Cargo hoists",
+      "weight": 0.2
+    },
+    {
+      "name": "Cell phones",
+      "weight": 0.2
+    },
+    {
+      "name": "Electric handtrucks",
+      "weight": 0.2
+    },
+    {
       "name": "Flatbed trucks",
+      "weight": 0.2
+    },
+    {
+      "name": "Frequency modulation FM two way radios",
+      "weight": 0.2
+    },
+    {
+      "name": "Front load dumpsters",
+      "weight": 0.2
+    },
+    {
+      "name": "Global positioning system GPS devices",
+      "weight": 0.2
+    },
+    {
+      "name": "Handheld bar code scanners",
+      "weight": 0.2
+    },
+    {
+      "name": "Handlifts",
+      "weight": 0.2
+    },
+    {
+      "name": "Intercom systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Johnson bars",
+      "weight": 0.2
+    },
+    {
+      "name": "Locking ratchet wrenches",
+      "weight": 0.2
+    },
+    {
+      "name": "Lowboy trailers",
+      "weight": 0.2
+    },
+    {
+      "name": "Manual lifts",
+      "weight": 0.2
+    },
+    {
+      "name": "On-board computers",
+      "weight": 0.2
+    },
+    {
+      "name": "Order picker clamp trucks",
+      "weight": 0.2
+    },
+    {
+      "name": "Plow attachments",
+      "weight": 0.2
+    },
+    {
+      "name": "Portable bar code scanners",
+      "weight": 0.2
+    },
+    {
+      "name": "Portable satellite communications systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Pup trailers",
+      "weight": 0.2
+    },
+    {
+      "name": "Radio frequency identification RFID devices",
+      "weight": 0.2
+    },
+    {
+      "name": "Ready mix trucks",
+      "weight": 0.2
+    },
+    {
+      "name": "Refuse collection trucks",
+      "weight": 0.2
+    },
+    {
+      "name": "Satellite linkup systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Scanners",
+      "weight": 0.2
+    },
+    {
+      "name": "Sliding fifth wheels",
+      "weight": 0.2
+    },
+    {
+      "name": "Sliding tandem axles",
+      "weight": 0.2
+    },
+    {
+      "name": "Switch adjusting wrenches",
+      "weight": 0.2
+    },
+    {
+      "name": "Switching system controls",
       "weight": 0.2
     },
     {
@@ -3676,8 +6254,68 @@
       "weight": 0.2
     },
     {
+      "name": "Terminal wrenches",
+      "weight": 0.2
+    },
+    {
+      "name": "Three-point hitches",
+      "weight": 0.2
+    },
+    {
+      "name": "Tie-down winches",
+      "weight": 0.2
+    },
+    {
+      "name": "Tilt trailers",
+      "weight": 0.2
+    },
+    {
       "name": "Trucks greater than 26000 pounds",
       "weight": 0.2
+    },
+    {
+      "name": "Ultra high frequency UHF radio communication systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Uncoupling levers",
+      "weight": 0.2
+    },
+    {
+      "name": "Weigh-in-motion scales",
+      "weight": 0.2
+    },
+    {
+      "name": "Winches",
+      "weight": 0.2
+    },
+    {
+      "name": "Wireless touch screen monitors",
+      "weight": 0.2
+    },
+    {
+      "name": "Work vans",
+      "weight": 0.19642857142857142
+    },
+    {
+      "name": "Viscosity meters",
+      "weight": 0.19444444444444442
+    },
+    {
+      "name": "Deburring tools",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Pinch bars",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Pyrometers",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Tuggers",
+      "weight": 0.18803418803418803
     },
     {
       "name": "Front end loaders",
@@ -3688,8 +6326,80 @@
       "weight": 0.18333333333333335
     },
     {
+      "name": "Calipers",
+      "weight": 0.18168498168498168
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.17823639774859287
+    },
+    {
+      "name": "Angle grinders",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Bridge cranes",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Drift pins",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Electric winches",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Laser levels",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Pneumatic hoists",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Snips",
+      "weight": 0.17692307692307693
+    },
+    {
       "name": "Backhoes",
       "weight": 0.17142857142857143
+    },
+    {
+      "name": "Bench vises",
+      "weight": 0.17142857142857143
+    },
+    {
+      "name": "Flatbed truck trailers",
+      "weight": 0.17142857142857143
+    },
+    {
+      "name": "Power washers",
+      "weight": 0.17142857142857143
+    },
+    {
+      "name": "Welding masks",
+      "weight": 0.17142857142857143
+    },
+    {
+      "name": "15/16 wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Air hammers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cape chisels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Chainsaws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Concrete saws",
+      "weight": 0.16666666666666666
     },
     {
       "name": "Continuous miners",
@@ -3708,6 +6418,30 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Diamond wall saws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital pressure gauges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Flat wedges",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Floor saws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Grease fittings",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Grinding dogs",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Heavy dump trucks",
       "weight": 0.16666666666666666
     },
@@ -3716,11 +6450,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Hydraulic disconnects",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Hydraulic rock drills",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Hydraulic wedges",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Long handle shovels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mason's hammers",
       "weight": 0.16666666666666666
     },
     {
@@ -3740,7 +6486,15 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Portable rock drills",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Quarry hammers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Quarry scales",
       "weight": 0.16666666666666666
     },
     {
@@ -3774,6 +6528,238 @@
     {
       "name": "Self-propelled bolting machines",
       "weight": 0.16666666666666666
+    },
+    {
+      "name": "Shoring jacks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Shuttle cars",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Skid steer machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Spot welding tools",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Star drills",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Stationary wire saws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Torque drivers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ventilation systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital hydrometers",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Hole punches",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Material-hoisting slings",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Ratchets",
+      "weight": 0.16025641025641024
+    },
+    {
+      "name": "Hole cutters",
+      "weight": 0.15476190476190477
+    },
+    {
+      "name": "Angled feeler gauges",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Arc welders",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Aviation snips",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Bearing pullers",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Block and tackle equipment",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Brass hammers",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Brazing equipment",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Breaker bars",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Center punches",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Cold chisels",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Dial indicators",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Digital oscilloscopes",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Feeler gauges",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Flare nut wrenches",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Flat files",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Grinding machines",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Inside calipers",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Inspection mirrors",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Levels",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Lineman's pliers",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Long nose pliers",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Metal cutting dies",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Milling machines",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Offset box wrenches",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Oscilloscopes",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Outside calipers",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Power sanders",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Precision files",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Riveting tools",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Screw pitch gauges",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Slotted screwdrivers",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Small hole gauges",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Snap ring pliers",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Socket wrenches",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Soldering irons",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Spiral screw extractors",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Steel squares",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Tape measures",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Telescoping gauges",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Torque multipliers",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Turning lathes",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Welding shields",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Workshop bench vises",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Workshop cranes",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Cordless drills",
+      "weight": 0.14835164835164835
     },
     {
       "name": "Flat head screwdrivers",
@@ -3849,10 +6835,6 @@
     },
     {
       "name": "Automatic track switching systems",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Avalaunchers",
       "weight": 0.14285714285714285
     },
     {
@@ -4076,10 +7058,6 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Harpoon retrievers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Hole savers",
       "weight": 0.14285714285714285
     },
@@ -4157,14 +7135,6 @@
     },
     {
       "name": "Padded gloves",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Perforating capsule guns",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Perforating casing guns",
       "weight": 0.14285714285714285
     },
     {
@@ -4396,10 +7366,6 @@
       "weight": 0.125
     },
     {
-      "name": "Computerized cash registers",
-      "weight": 0.125
-    },
-    {
       "name": "Digital bench scales",
       "weight": 0.125
     },
@@ -4409,10 +7375,6 @@
     },
     {
       "name": "Floor-mounted drill presses",
-      "weight": 0.125
-    },
-    {
-      "name": "Food slicing machines",
       "weight": 0.125
     },
     {
@@ -4448,10 +7410,6 @@
       "weight": 0.125
     },
     {
-      "name": "Paper cutting machines",
-      "weight": 0.125
-    },
-    {
       "name": "Parking control cones",
       "weight": 0.125
     },
@@ -4484,10 +7442,6 @@
       "weight": 0.125
     },
     {
-      "name": "Ticket punches",
-      "weight": 0.125
-    },
-    {
       "name": "Tie downs",
       "weight": 0.125
     },
@@ -4501,14 +7455,6 @@
     },
     {
       "name": "Warehouse carts",
-      "weight": 0.125
-    },
-    {
-      "name": "Wheelchair clamping devices",
-      "weight": 0.125
-    },
-    {
-      "name": "Wheelchairs",
       "weight": 0.125
     },
     {
@@ -4580,10 +7526,6 @@
       "weight": 0.1111111111111111
     },
     {
-      "name": "Coal furnaces",
-      "weight": 0.1111111111111111
-    },
-    {
       "name": "Control computers",
       "weight": 0.1111111111111111
     },
@@ -4596,6 +7538,14 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Drying systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electric overhead transfer EOT cranes",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Electric shuttle cars",
       "weight": 0.1111111111111111
     },
@@ -4604,11 +7554,55 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Evaporative cooling systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Feed scales",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Filter conveyor belts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Fluid flow meters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Foundry overhead cranes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Gathering-arm machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Go/no-go gauges",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Gram scales",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hand scrapers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Handheld pneumatic grinders",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Heat reflective gloves",
       "weight": 0.1111111111111111
     },
     {
-      "name": "Heat resistant suits",
+      "name": "High temperature thermometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Holding conveyors",
       "weight": 0.1111111111111111
     },
     {
@@ -4616,11 +7610,83 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Hydrometers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Industrial safety glasses",
       "weight": 0.1111111111111111
     },
     {
+      "name": "Industrial vacuum pumps",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Lubricant pumpers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Lubricant reciprocators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Measuring sticks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Metal sledgehammers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Mining conveyor systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oil furnaces",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oil guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oxygen lances",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pallet movers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Payloaders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pivoting conveyors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Platform scales",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Power metal shears",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Power shovels",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Precision bench scales",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Remote reading electronic thermometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rheostats",
       "weight": 0.1111111111111111
     },
     {
@@ -4636,7 +7702,23 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Slag crushing machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Soil bucket chisels",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sprayers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Steel-toed boots",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Trencher chisels",
       "weight": 0.1111111111111111
     },
     {
@@ -4652,7 +7734,91 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Vibratory conveyors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Vise-grip pliers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "pH indicators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Laser printers",
+      "weight": 0.11025641025641025
+    },
+    {
+      "name": "Impact wrenches",
+      "weight": 0.10131332082551595
+    },
+    {
+      "name": "Adjustable wrench sets",
+      "weight": 0.1
+    },
+    {
+      "name": "Air grease guns",
+      "weight": 0.1
+    },
+    {
+      "name": "All-terrain cranes",
+      "weight": 0.1
+    },
+    {
+      "name": "Anemometers",
+      "weight": 0.1
+    },
+    {
+      "name": "Anti-two block devices",
+      "weight": 0.1
+    },
+    {
+      "name": "Asphalt plants",
+      "weight": 0.1
+    },
+    {
+      "name": "Balance weights",
+      "weight": 0.1
+    },
+    {
+      "name": "Barrel clamps",
+      "weight": 0.1
+    },
+    {
+      "name": "Boom angle indicators",
+      "weight": 0.1
+    },
+    {
+      "name": "Boom length indicators",
+      "weight": 0.1
+    },
+    {
+      "name": "Bulk weighing systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Cab cranes",
+      "weight": 0.1
+    },
+    {
+      "name": "Cable lines",
+      "weight": 0.1
+    },
+    {
+      "name": "Clamshell buckets",
+      "weight": 0.1
+    },
+    {
+      "name": "Clips",
+      "weight": 0.1
+    },
+    {
       "name": "Closed circuit television CCTV monitoring systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Closed-end wrenches",
       "weight": 0.1
     },
     {
@@ -4664,6 +7830,14 @@
       "weight": 0.1
     },
     {
+      "name": "Concrete plants",
+      "weight": 0.1
+    },
+    {
+      "name": "Crawler cranes",
+      "weight": 0.1
+    },
+    {
       "name": "Crawler mounted draglines",
       "weight": 0.1
     },
@@ -4672,7 +7846,27 @@
       "weight": 0.1
     },
     {
+      "name": "Demolition hammers",
+      "weight": 0.1
+    },
+    {
       "name": "Dragline buckets",
+      "weight": 0.1
+    },
+    {
+      "name": "Earthmover standard buckets",
+      "weight": 0.1
+    },
+    {
+      "name": "Electric impact wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Elevating platforms",
+      "weight": 0.1
+    },
+    {
+      "name": "Engineers' levels",
       "weight": 0.1
     },
     {
@@ -4688,11 +7882,183 @@
       "weight": 0.1
     },
     {
+      "name": "Floor scales",
+      "weight": 0.1
+    },
+    {
+      "name": "Fork-grapples",
+      "weight": 0.1
+    },
+    {
+      "name": "Friction cranes",
+      "weight": 0.1
+    },
+    {
+      "name": "Front and back shovel wheel loaders",
+      "weight": 0.1
+    },
+    {
+      "name": "Gantry cranes",
+      "weight": 0.1
+    },
+    {
+      "name": "Gas detectors",
+      "weight": 0.1
+    },
+    {
+      "name": "Gas powered hoists",
+      "weight": 0.1
+    },
+    {
+      "name": "Grading buckets",
+      "weight": 0.1
+    },
+    {
+      "name": "Grapplers",
+      "weight": 0.1
+    },
+    {
+      "name": "Hand levels",
+      "weight": 0.1
+    },
+    {
       "name": "Hearing protectors",
       "weight": 0.1
     },
     {
+      "name": "High bed trailers",
+      "weight": 0.1
+    },
+    {
+      "name": "Hoisting cables",
+      "weight": 0.1
+    },
+    {
+      "name": "Hook blocks",
+      "weight": 0.1
+    },
+    {
       "name": "Hydraulic excavators",
+      "weight": 0.1
+    },
+    {
+      "name": "Hydraulic truck-mounted cranes",
+      "weight": 0.1
+    },
+    {
+      "name": "Intrusion alarms",
+      "weight": 0.1
+    },
+    {
+      "name": "Iron balls",
+      "weight": 0.1
+    },
+    {
+      "name": "Life jackets",
+      "weight": 0.1
+    },
+    {
+      "name": "Lifting clamps",
+      "weight": 0.1
+    },
+    {
+      "name": "Lifting magnets",
+      "weight": 0.1
+    },
+    {
+      "name": "Load clamps",
+      "weight": 0.1
+    },
+    {
+      "name": "Load hooks",
+      "weight": 0.1
+    },
+    {
+      "name": "Load monitoring indicators",
+      "weight": 0.1
+    },
+    {
+      "name": "Long reach excavators",
+      "weight": 0.1
+    },
+    {
+      "name": "Loudspeaker warning system",
+      "weight": 0.1
+    },
+    {
+      "name": "Low bed trailers",
+      "weight": 0.1
+    },
+    {
+      "name": "Luffing jib cranes",
+      "weight": 0.1
+    },
+    {
+      "name": "Megaphones",
+      "weight": 0.1
+    },
+    {
+      "name": "Mini excavators",
+      "weight": 0.1
+    },
+    {
+      "name": "Monorail cranes",
+      "weight": 0.1
+    },
+    {
+      "name": "Motor vehicles",
+      "weight": 0.1
+    },
+    {
+      "name": "Mud buckets",
+      "weight": 0.1
+    },
+    {
+      "name": "Oilcans",
+      "weight": 0.1
+    },
+    {
+      "name": "Open end wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Orange peel buckets",
+      "weight": 0.1
+    },
+    {
+      "name": "Overhaul balls",
+      "weight": 0.1
+    },
+    {
+      "name": "Paint application sprayers",
+      "weight": 0.1
+    },
+    {
+      "name": "Pallet forks",
+      "weight": 0.1
+    },
+    {
+      "name": "Pile drivers",
+      "weight": 0.1
+    },
+    {
+      "name": "Pneumatic impact wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Propane torches",
+      "weight": 0.1
+    },
+    {
+      "name": "Rated load indicators",
+      "weight": 0.1
+    },
+    {
+      "name": "Ringer cranes",
+      "weight": 0.1
+    },
+    {
+      "name": "Robertson screwdrivers",
       "weight": 0.1
     },
     {
@@ -4704,11 +8070,127 @@
       "weight": 0.1
     },
     {
+      "name": "Rock draglines",
+      "weight": 0.1
+    },
+    {
+      "name": "Rock hammers",
+      "weight": 0.1
+    },
+    {
+      "name": "Rock trucks",
+      "weight": 0.1
+    },
+    {
+      "name": "Rough-terrain cranes",
+      "weight": 0.1
+    },
+    {
       "name": "Safety-toe boots",
       "weight": 0.1
     },
     {
+      "name": "Self-loader trailers",
+      "weight": 0.1
+    },
+    {
+      "name": "Signal bells",
+      "weight": 0.1
+    },
+    {
+      "name": "Skid steers",
+      "weight": 0.1
+    },
+    {
+      "name": "Skip loaders",
+      "weight": 0.1
+    },
+    {
+      "name": "Smoke detectors",
+      "weight": 0.1
+    },
+    {
+      "name": "Snow plows",
+      "weight": 0.1
+    },
+    {
+      "name": "Span lights",
+      "weight": 0.1
+    },
+    {
+      "name": "Spot lights",
+      "weight": 0.1
+    },
+    {
+      "name": "Spreader beams",
+      "weight": 0.1
+    },
+    {
+      "name": "Spud wrenches",
+      "weight": 0.1
+    },
+    {
       "name": "Step ladders",
+      "weight": 0.1
+    },
+    {
+      "name": "Stepladders",
+      "weight": 0.1
+    },
+    {
+      "name": "Stop blocks",
+      "weight": 0.1
+    },
+    {
+      "name": "Sump pumps",
+      "weight": 0.1
+    },
+    {
+      "name": "Surveillance binoculars",
+      "weight": 0.1
+    },
+    {
+      "name": "Telescoping excavators",
+      "weight": 0.1
+    },
+    {
+      "name": "Television monitors",
+      "weight": 0.1
+    },
+    {
+      "name": "Timber tongs",
+      "weight": 0.1
+    },
+    {
+      "name": "Tower attachments",
+      "weight": 0.1
+    },
+    {
+      "name": "Tracked forklifts",
+      "weight": 0.1
+    },
+    {
+      "name": "Traffic directional cones",
+      "weight": 0.1
+    },
+    {
+      "name": "Traffic gates",
+      "weight": 0.1
+    },
+    {
+      "name": "Trencher excavator attachments",
+      "weight": 0.1
+    },
+    {
+      "name": "Truck excavators",
+      "weight": 0.1
+    },
+    {
+      "name": "Vacuum excavators",
+      "weight": 0.1
+    },
+    {
+      "name": "Very high frequency VHF radiotelephones",
       "weight": 0.1
     },
     {
@@ -4780,6 +8262,18 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Floor scrubbers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Foamers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "High speed buffers",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Hydro blasting equipment",
       "weight": 0.09090909090909091
     },
@@ -4812,11 +8306,19 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Wet mops",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Agitators",
       "weight": 0.08333333333333333
     },
     {
       "name": "Air monitoring equipment",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Autotitrators",
       "weight": 0.08333333333333333
     },
     {
@@ -4832,11 +8334,27 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Benchtop centrifuges",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Binocular light compound microscopes",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Cooling towers",
       "weight": 0.08333333333333333
     },
     {
       "name": "Crusher screens",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Demineralizers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electric timing devices",
       "weight": 0.08333333333333333
     },
     {
@@ -4856,7 +8374,27 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Flow transmitters",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Gate butterfly valves",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Glass graduated cylinders",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Gravity convection ovens",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Halogen moisture balances",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hand sampling pumps",
       "weight": 0.08333333333333333
     },
     {
@@ -4880,6 +8418,10 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Materials dryers",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Milling equipment",
       "weight": 0.08333333333333333
     },
@@ -4897,6 +8439,18 @@
     },
     {
       "name": "Pneumatic conveyor systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Portable refractometers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pressurized air cleaners",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Reverse osmosis equipment",
       "weight": 0.08333333333333333
     },
     {
@@ -4928,7 +8482,19 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Titrators",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Vacuum systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Water samplers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "pH probes",
       "weight": 0.08333333333333333
     },
     {
@@ -4948,6 +8514,10 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Adjustable monkey wrenches",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Air wrenches",
       "weight": 0.07692307692307693
     },
@@ -4957,6 +8527,10 @@
     },
     {
       "name": "Airpowered descaling drills",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Airpowered descaling turbines",
       "weight": 0.07692307692307693
     },
     {
@@ -4976,6 +8550,34 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Alternating current AC power analyzers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Amp clamp meters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Annealing furnaces",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Arbor presses",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Atmosphere furnaces",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Automated lathes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Automatic air brake testers",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Automatic center punches",
       "weight": 0.07692307692307693
     },
@@ -4984,11 +8586,55 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Batch type hardening furnaces",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Battery chargers",
       "weight": 0.07692307692307693
     },
     {
       "name": "Bearing bridge gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bearing dismounting presses",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bearing heaters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bearing heating ovens",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bearing presses",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Belt sanders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bench grinders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bench mount drill presses",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bench saws",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bevel protractors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bogie testing benches",
       "weight": 0.07692307692307693
     },
     {
@@ -5020,6 +8666,22 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Broaching machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Bucket pumps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Buffing machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Burnishing wheels",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "C clamps",
       "weight": 0.07692307692307693
     },
@@ -5029,6 +8691,10 @@
     },
     {
       "name": "Car hoists",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Carpenters' levels",
       "weight": 0.07692307692307693
     },
     {
@@ -5044,7 +8710,27 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Circular wire gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Clamp-on bench vises",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Clamp-on multimeters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Clamping dial indicator",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Click type torque wrenches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Clutch head screwdrivers",
       "weight": 0.07692307692307693
     },
     {
@@ -5056,11 +8742,71 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Compressed air guns",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Conductivity testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Conventional watt meters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cordless screwdrivers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cotter pin pullers",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Countersink drill bits",
       "weight": 0.07692307692307693
     },
     {
+      "name": "Crane attachments",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Crimping tools",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Crowfoot wrenches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Curved claw hammers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cutting dies",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cylinder hones",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cylindrical grinders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cylindrical procedures squares",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Dead-blow hammers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Depth micrometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Diagnostic scan units",
       "weight": 0.07692307692307693
     },
     {
@@ -5076,6 +8822,66 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Digital dynamometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Digital pyrometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Digital still cameras",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Digital tachometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Digital thermocouples",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Digital tire pressure gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Digital torque screwdrivers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Digital vacuum gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Disk grinders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Distance measuring wheels",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Dividers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Drafting compasses",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Dual action pliers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Dual temperature heat guns",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Dynamometers",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Electric drills",
       "weight": 0.07692307692307693
     },
@@ -5084,7 +8890,67 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Electronic engine analyzers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Electronic hand trucks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Electronic levels",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Electronic screwdrivers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Electronic watt meters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Emery wheels",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "End mills",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "End nippers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Engine analyzers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Engine compression testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Engine dynamometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Engine lathes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Engine timing lights",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Equipment rollers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Exhaust emission analyzers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Exhaust gas collection systems",
       "weight": 0.07692307692307693
     },
     {
@@ -5093,6 +8959,10 @@
     },
     {
       "name": "External gear pullers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Facing machines",
       "weight": 0.07692307692307693
     },
     {
@@ -5116,6 +8986,18 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Flange facing machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Flat bastard files",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Flat feeler gauges",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Flex handle sockets",
       "weight": 0.07692307692307693
     },
@@ -5125,6 +9007,18 @@
     },
     {
       "name": "Free-standing jib cranes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Fuel flow gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Fuel pressure gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Gage blocks",
       "weight": 0.07692307692307693
     },
     {
@@ -5140,11 +9034,59 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Gasket cutters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Gasket scrapers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Gear lube dispensers",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Gear pullers",
       "weight": 0.07692307692307693
     },
     {
+      "name": "Gear shapers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Grinding wheel dressers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Grinding wheels",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Groove joint pliers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Groove joint/water pump pliers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Ground resistance testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Half-round files",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Hand clamps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hand held diagnostic computers",
       "weight": 0.07692307692307693
     },
     {
@@ -5156,6 +9098,14 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Handheld battery testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Handheld global positioning system GPS units",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Hard-toed shoes",
       "weight": 0.07692307692307693
     },
@@ -5164,7 +9114,15 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Heat guns",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Heat resistant face masks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Heavy duty bolt cutters",
       "weight": 0.07692307692307693
     },
     {
@@ -5172,7 +9130,35 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "High-rate load testers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hold down clamps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hones",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hose clamp pliers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hose clamps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hose-clamp pliers",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Hydraulic cranes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hydraulic press frames",
       "weight": 0.07692307692307693
     },
     {
@@ -5184,7 +9170,43 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Hydraulic squeezers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hydraulic torque machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Hydrostatic testers",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Impact air wrenches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Inductive ammeters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Inductive probes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Industrial vacuums",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Infrared thermography cameras",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Insulated wire cutters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Insulation resistance testers",
       "weight": 0.07692307692307693
     },
     {
@@ -5196,7 +9218,47 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Jigs",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Kevlar gloves",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Keyway broaches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Lapping equipment",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Lapping wheels",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Laser measuring equipment",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Layout templates",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Leak detection equipment",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Leak detectors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Level gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Lining-up punches",
       "weight": 0.07692307692307693
     },
     {
@@ -5204,7 +9266,39 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Locking chain pliers",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Lockout hasps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Locomotive drop table",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Lubricant guns",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Lubricant oil sampling kits",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Machinist's hammers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Magnetic drill presses",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Magnetic pickup tools",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Magnetic retrievers",
       "weight": 0.07692307692307693
     },
     {
@@ -5212,11 +9306,95 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Mechanic's levels",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mechanical vacuum pumps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Megohmmeters",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Metal cutters",
       "weight": 0.07692307692307693
     },
     {
+      "name": "Mini hacksaws",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Mobile cranes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Mounting presses",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Nail sets",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Nailing hammers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Needle nose pliers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Nibblers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Nut splitters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Offset screwdrivers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Oil brushes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Oil filter wrenches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Oil injectors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Oil stones",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "On board computers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Open end hand wrenches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Optical levels",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Optical measuring equipment",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Optical squares",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Order pickers",
       "weight": 0.07692307692307693
     },
     {
@@ -5232,6 +9410,50 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Packing pullers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Paint sprayers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pallet riders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Parallel blocks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Phillips screwdrivers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pie dies",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pin punches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pinchbars",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pipe threading machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pitch gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Planing machines",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Plasma welders",
       "weight": 0.07692307692307693
     },
@@ -5240,7 +9462,71 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Plastic tip hammers",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Pneumatic hammers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pneumatic needle scalers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pneumatic ratchets",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pneumatic weld flux chippers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pneumatic wrenches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Polishing machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pop riveters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Portable gas-powered generators",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Portable power hacksaws",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Power chippers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Power grinding tools",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Power hacksaws",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Power press brakes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Precision grinders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Precision squares",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Prick punches",
       "weight": 0.07692307692307693
     },
     {
@@ -5249,6 +9535,166 @@
     },
     {
       "name": "Protective face shields",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Protractors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pulleys",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Punch presses",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Punch sets",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Radial drills",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Radius gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Ratchet jacks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Ratcheting screwdrivers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Rawhide hammers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Razor knives",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Reciprocating machinery combustion analyzers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Recording anemometers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Retaining ring pliers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Retarders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Reversible ratches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Ripping hammers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Rolling head pry bars",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Rotating brushes",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Round files",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Round nose chisels",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Router bit sets",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Safety blocks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Safety line evacuation kits",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Sand blasters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Sandblasters",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Scalers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Scissors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Screw extractor sets",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Screw jacks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Screw thread pitch gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Screwdriver bit sets",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Scribers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Shaft key wrenches",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Shaping machines",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Sharpening equipment",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Shears",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Sheave gauges",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Sheet metal folders",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Short chassis jacks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Shot blasters",
       "weight": 0.07692307692307693
     },
     {
@@ -5600,6 +10046,10 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Photocopying equipment",
+      "weight": 0.07397504456327986
+    },
+    {
       "name": "Acetylene welding equipment",
       "weight": 0.07142857142857142
     },
@@ -5609,6 +10059,18 @@
     },
     {
       "name": "Arc welding equipment",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Biscuit joiners",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Brick trowels",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Bubble levels",
       "weight": 0.07142857142857142
     },
     {
@@ -5644,6 +10106,14 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Digital cameras",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Digital refractometers",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Digital temperature analyzers",
       "weight": 0.07142857142857142
     },
@@ -5664,11 +10134,35 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Glass cutters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Glass gloves",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Glass holders",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Glass lifters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Glass tongs",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Hand saws",
       "weight": 0.07142857142857142
     },
     {
       "name": "Humidity meters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Hydraulic crimping tools",
       "weight": 0.07142857142857142
     },
     {
@@ -5681,6 +10175,14 @@
     },
     {
       "name": "Inclinometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Insulated adjustable widemouth pliers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Insulated screwdrivers",
       "weight": 0.07142857142857142
     },
     {
@@ -5788,6 +10290,18 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Small pry bars",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Solar analysis systems",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Solarimeters",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Soldering equipment",
       "weight": 0.07142857142857142
     },
@@ -5801,6 +10315,10 @@
     },
     {
       "name": "Surveying rods",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Swing stages",
       "weight": 0.07142857142857142
     },
     {
@@ -5824,7 +10342,15 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Vacuum cups",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Vacuum pumps",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Video probe systems",
       "weight": 0.07142857142857142
     },
     {
@@ -5844,7 +10370,51 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Wood chisels",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "10-key calculators",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Cable cars",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Electronic cash registers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Face masks",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Fertilizer spreaders",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Field painting machines",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Irrigation sprinklers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "J-bars",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Loudspeakers",
+      "weight": 0.058823529411764705
+    },
+    {
       "name": "Material transport trucks",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Microphones",
       "weight": 0.058823529411764705
     },
     {
@@ -5856,11 +10426,23 @@
       "weight": 0.058823529411764705
     },
     {
+      "name": "Vacuum cleaners",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Acid scrubbers",
+      "weight": 0.05555555555555555
+    },
+    {
       "name": "Brick cutting saws",
       "weight": 0.05555555555555555
     },
     {
       "name": "Brick hammers",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Burner management systems",
       "weight": 0.05555555555555555
     },
     {
@@ -5896,6 +10478,26 @@
       "weight": 0.05555555555555555
     },
     {
+      "name": "Masonry trowels",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Mixer trucks",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Puck mills",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Return idlers",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Rotary kilns",
+      "weight": 0.05555555555555555
+    },
+    {
       "name": "Rotary tools",
       "weight": 0.05555555555555555
     },
@@ -5908,16 +10510,200 @@
       "weight": 0.05555555555555555
     },
     {
+      "name": "Trough finders",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Variable speed mortar pumps",
+      "weight": 0.05555555555555555
+    },
+    {
       "name": "Wheeled front-end loaders",
       "weight": 0.05555555555555555
+    },
+    {
+      "name": "Air cooling systems",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Automatic vacuum pumps",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Batch dryers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Conveyor augers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Diameter gauges",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Digital radius gauges",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Digital strain gauges",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Displacement transducers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Dummy blocks",
+      "weight": 0.047619047619047616
     },
     {
       "name": "Electric overhead traveling EOT cranes",
       "weight": 0.047619047619047616
     },
     {
+      "name": "Electrical panel boards",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Fluid pressure transducers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Industrial floor scales",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Industrial furnaces",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Long-handled brushes",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Lubrication systems",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Metal bending mandrels",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Metal shearing machines",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Nip rolls",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Optical gauges",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Packaging hoppers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Paddle blenders",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Pellet classifiers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Pin gauge sets",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Plate conveyors",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Plate outline gauges",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Production counters",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Ribbon blenders",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Roll lubrication systems",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Roller conveyors",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Slat conveyors",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Steam controls",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Steel tapes",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Tensiometers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Variable impact testers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Velocimeters",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Weighing load cells",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Width gauges",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Dye penetrant inspection equipment",
+      "weight": 0.03333333333333333
+    },
+    {
       "name": "Portable drills",
       "weight": 0.03333333333333333
+    },
+    {
+      "name": "Lowboys",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Lug wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Roller beds",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

@@ -1545,55 +1545,339 @@
   "tasks": [
     {
       "task": "Participate in new product planning or market research, including studying the potential need for new products.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.28
     },
     {
-      "task": "Examine sample garments on and off models, modifying designs to achieve desired effects and collaborate with other designers to coordinate special products and designs.",
-      "task_type": "Core"
+      "task": "Develop industrial standards and regulatory guidelines.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.75
     },
     {
-      "task": "Sketch rough and detailed drawings of apparel or accessories, writing specifications such as color schemes and material types.",
-      "task_type": "Core"
+      "task": "Advise corporations on issues involving corporate image projects or problems.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 1.91
     },
     {
-      "task": "Confer with sales and management executives or with clients to discuss design ideas and establish design concepts for manufactured products.",
-      "task_type": "Core"
+      "task": "Sketch rough and detailed drawings of apparel or accessories, and write specifications such as color schemes, construction, material types, and accessory requirements.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.81
     },
     {
-      "task": "Test fabrics or oversee testing so that garment care labels can be created and investigate product characteristics such as market appeal and efficiency of production.",
-      "task_type": "Core"
+      "task": "Research the styles and periods of clothing needed for film or theatrical productions.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.51
     },
     {
-      "task": "Evaluate feasibility of design ideas based on factors like appearance, budget, production costs, and market characteristics, and adapt designs for the mass market.",
-      "task_type": "Core"
+      "task": "Sew together sections of material to form mockups or samples of garments or articles, using sewing equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.64
     },
     {
-      "task": "Develop manufacturing procedures and monitor the manufacture of designs in a factory to improve operations and product quality.",
-      "task_type": "Core"
+      "task": "Test fabrics or oversee testing so that garment care labels can be created.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.37
     },
     {
-      "task": "Attend fashion shows and review garment magazines and manuals to gather information about fashion trends and consumer preferences.",
-      "task_type": "Core"
+      "task": "Read scripts and consult directors and other production staff to develop design concepts and plan productions.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.36
     },
     {
-      "task": "Design custom clothing and accessories for individuals, retailers, or theatrical, television, or film productions, coordinating with clients to understand their requirements.",
-      "task_type": "Core"
+      "task": "Develop a group of products or accessories, and market them through venues such as boutiques or mail-order catalogs.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.95
     },
     {
-      "task": "Select materials and production techniques to be used for products and visit textile showrooms to keep up-to-date on the latest fabrics.",
-      "task_type": "Core"
+      "task": "Draw patterns for articles designed, cut patterns, and cut material according to patterns, using measuring instruments and scissors.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.82
+    },
+    {
+      "task": "Determine prices for styles.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.25
+    },
+    {
+      "task": "Design custom clothing and accessories for individuals, retailers, or theatrical, television, or film productions.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.62
+    },
+    {
+      "task": "Collaborate with other designers to coordinate special products and designs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.74
+    },
+    {
+      "task": "Visit textile showrooms to keep up-to-date on the latest fabrics.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.47
+    },
+    {
+      "task": "Purchase new or used clothing and accessory items as needed to complete designs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.62
+    },
+    {
+      "task": "Adapt other designers' ideas for the mass market.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.46
     },
     {
       "task": "Provide sample garments to agents and sales representatives, and arrange for showings of sample garments at sales meetings or fashion shows.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.98
     },
     {
-      "task": "Research production specifications, costs, and manufacturing methods, and provide cost estimates and itemized production requirements for designs.",
-      "task_type": "Core"
+      "task": "Select materials and production techniques to be used for products.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.09
     },
     {
-      "task": "Modify and refine designs using working models to comply with customer specifications and production limitations.",
-      "task_type": "Core"
+      "task": "Identify target markets for designs, looking at factors such as age, gender, and socioeconomic status.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.91
+    },
+    {
+      "task": "Investigate product characteristics such as the product's safety and handling qualities, its market appeal, how efficiently it can be produced, and ways of distributing, using, and maintaining it.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.44
+    },
+    {
+      "task": "Evaluate feasibility of design ideas, based on factors such as appearance, safety, function, serviceability, budget, production costs/methods, and market characteristics.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.08
+    },
+    {
+      "task": "Direct and coordinate the fabrication of models or samples and the drafting of working drawings and specification sheets from sketches.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.55
+    },
+    {
+      "task": "Modify and refine designs, using working models, to conform with customer specifications, production limitations, or changes in design trends.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.34
+    },
+    {
+      "task": "Coordinate the look and function of product lines.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.61
+    },
+    {
+      "task": "Present designs and reports to customers or design committees for approval and discuss need for modification.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.96
+    },
+    {
+      "task": "Confer with engineering, marketing, production, or sales departments, or with customers, to establish and evaluate design concepts for manufactured products.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.97
+    },
+    {
+      "task": "Read publications, attend showings, and study competing products and design styles and motifs to obtain perspective and generate design concepts.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.09
+    },
+    {
+      "task": "Research production specifications, costs, production materials, and manufacturing methods and provide cost estimates and itemized production requirements.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.68
+    },
+    {
+      "task": "Design graphic material for use as ornamentation, illustration, or advertising on manufactured materials and packaging or containers.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.21
+    },
+    {
+      "task": "Develop manufacturing procedures and monitor the manufacture of their designs in a factory to improve operations and product quality.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.44
+    },
+    {
+      "task": "Provide supportive materials for exhibits and displays, such as press kits, advertising, publicity notices, posters, brochures, catalogues, and invitations.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.62
+    },
+    {
+      "task": "Coordinate with other professionals, such as contractors, architects, engineers, and plumbers, to ensure job success.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.46
+    },
+    {
+      "task": "Confer with conservators to determine how to handle an exhibit's environmental aspects, such as lighting, temperature, and humidity, so that objects will be protected and exhibits will be enhanced.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.58
+    },
+    {
+      "task": "Consult with store managers, buyers, sales associates, housekeeping staff, or engineering staff to determine appropriate placement of displays or products.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Maintain props, products, or mannequins, inspecting them for imperfections, doing touch-ups, cleaning up after customers, or applying preservative coatings as necessary.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.95
+    },
+    {
+      "task": "Assemble or set up displays, furniture, or products in store space, using colors, lights, pictures, or other accessories to display the product.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.89
+    },
+    {
+      "task": "Supervise or train staff members on daily tasks, such as visual merchandising.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
+    },
+    {
+      "task": "Store, pack, and maintain inventory records of props, products, or display items.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
+    },
+    {
+      "task": "Research and explore the use of new materials, technologies, and products to incorporate into designs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.75
+    },
+    {
+      "task": "Plan for location-specific issues, such as space limitations, traffic flow patterns, and safety concerns.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
+    },
+    {
+      "task": "Change or rotate window displays, interior display areas, or signage to reflect changes in inventory or promotion.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Dress mannequins for displays.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.82
+    },
+    {
+      "task": "Use computers to produce signage.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Collaborate with others to obtain products or other display items.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.6
+    },
+    {
+      "task": "Arrange properties, furniture, merchandise, backdrops, or other accessories, as shown in prepared sketches.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.21
+    },
+    {
+      "task": "Consult with advertising or sales staff to determine type of merchandise to be featured and time and place for each display.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
+    },
+    {
+      "task": "Develop ideas or plans for merchandise displays or window decorations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
+    },
+    {
+      "task": "Attend training sessions or corporate planning meetings to obtain new ideas for product launches.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
+    },
+    {
+      "task": "Plan commercial displays to entice and appeal to customers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.36
+    },
+    {
+      "task": "Take photographs of displays or signage.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.33
+    },
+    {
+      "task": "Select themes, lighting, colors, or props to be used.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.8
+    },
+    {
+      "task": "Instruct sales staff in color coordination of clothing racks or counter displays.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.72
+    },
+    {
+      "task": "Design and produce displays and materials that can be used to decorate windows, interior displays, or event locations, such as streets and fairgrounds.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.0
+    },
+    {
+      "task": "Research architectural and stylistic elements appropriate to the time period to be depicted, consulting experts for information, as necessary.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.43
+    },
+    {
+      "task": "Prepare sketches, floor plans, or models of proposed displays.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.77
+    },
+    {
+      "task": "Research health and safety code requirements to inform design.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.68
     }
   ],
   "technology_skills": [
@@ -1682,6 +1966,10 @@
       "weight": 0.34285714285714286
     },
     {
+      "name": "Apple iOS",
+      "weight": 0.34285714285714286
+    },
+    {
       "name": "Autodesk Maya",
       "weight": 0.34285714285714286
     },
@@ -1694,8 +1982,36 @@
       "weight": 0.34285714285714286
     },
     {
+      "name": "IBM Notes",
+      "weight": 0.34285714285714286
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.34285714285714286
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.34285714285714286
+    },
+    {
+      "name": "AutoDesSys form Z",
+      "weight": 0.2857142857142857
+    },
+    {
       "name": "Graphics software",
       "weight": 0.2857142857142857
+    },
+    {
+      "name": "1CadCam Unigraphics",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe FreeHand MX",
+      "weight": 0.2
+    },
+    {
+      "name": "Ashlar-Vellum Cobalt",
+      "weight": 0.2
     },
     {
       "name": "Autodesk AliasStudio",
@@ -1722,11 +2038,35 @@
       "weight": 0.2
     },
     {
+      "name": "Computer aided manufacturing CAM software",
+      "weight": 0.2
+    },
+    {
+      "name": "Dassault Systemes CATIA",
+      "weight": 0.2
+    },
+    {
+      "name": "Eko",
+      "weight": 0.2
+    },
+    {
       "name": "Fashion Toolbox",
       "weight": 0.2
     },
     {
       "name": "Figma",
+      "weight": 0.2
+    },
+    {
+      "name": "Financial accounting software",
+      "weight": 0.2
+    },
+    {
+      "name": "Finite element analysis software",
+      "weight": 0.2
+    },
+    {
+      "name": "Geometric CAMWorks",
       "weight": 0.2
     },
     {
@@ -1742,11 +2082,39 @@
       "weight": 0.2
     },
     {
+      "name": "Microsoft Publisher",
+      "weight": 0.2
+    },
+    {
       "name": "Optitex 3D Suite",
       "weight": 0.2
     },
     {
+      "name": "PTC Creo Parametric",
+      "weight": 0.2
+    },
+    {
       "name": "Patternmaking software",
+      "weight": 0.2
+    },
+    {
+      "name": "QuarkXPress",
+      "weight": 0.2
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.2
+    },
+    {
+      "name": "Siemens NX",
+      "weight": 0.2
+    },
+    {
+      "name": "Siemens UGS NX",
+      "weight": 0.2
+    },
+    {
+      "name": "Software as a service SaaS",
       "weight": 0.2
     },
     {
@@ -1758,11 +2126,39 @@
       "weight": 0.2
     },
     {
+      "name": "Xara Designer Pro",
+      "weight": 0.2
+    },
+    {
+      "name": "20-20 Technologies 20-20 Design",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Act-3D Quest3D",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Director",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Apple Safari",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Autodesk Architectural Desktop",
       "weight": 0.14285714285714285
     },
     {
       "name": "Autodesk Revit Architecture",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Autodesk VIZ",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Chaos Enscape",
       "weight": 0.14285714285714285
     },
     {
@@ -1774,6 +2170,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Figure 53 QLab",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Google Docs",
       "weight": 0.14285714285714285
     },
@@ -1782,7 +2182,39 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "IBM Lotus Notes",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Inventory control systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Edge",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mozilla Firefox",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Nemetschek Vectorworks Spotlight",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Netscape Navigator",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SmugMug Flickr",
       "weight": 0.14285714285714285
     },
     {
@@ -1800,6 +2232,10 @@
     {
       "name": "YouTube",
       "weight": 0.14285714285714285
+    },
+    {
+      "name": "iPhotoMEASURE",
+      "weight": 0.14285714285714285
     }
   ],
   "tools_used": [
@@ -1814,6 +2250,10 @@
     {
       "name": "Laptop computers",
       "weight": 0.6857142857142857
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.2857142857142857
     },
     {
       "name": "Digital cameras",
@@ -1944,11 +2384,19 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Dollies",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Drafting scales",
       "weight": 0.14285714285714285
     },
     {
       "name": "Drafting triangles",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Electric arc welding equipment",
       "weight": 0.14285714285714285
     },
     {
@@ -1972,7 +2420,27 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Hand saws",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Handsaws",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ladders",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Liquid crystal display LCD projectors",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Locking pliers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Paint application rollers",
       "weight": 0.14285714285714285
     },
     {
@@ -1980,7 +2448,35 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Plotters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Pneumatic nail guns",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Portable air compressors",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Portable stepladders",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Power drills",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Power saws",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Power staplers",
       "weight": 0.14285714285714285
     },
     {
@@ -1996,6 +2492,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Rotary saws",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Rulers",
       "weight": 0.14285714285714285
     },
@@ -2008,7 +2508,31 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Straight screwdrivers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Synthetic web slings",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "T squares",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tack hammers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tacker guns",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Three-dimensional laser digitizers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tile saws",
       "weight": 0.14285714285714285
     },
     {

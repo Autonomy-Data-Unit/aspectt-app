@@ -1544,88 +1544,514 @@
   ],
   "tasks": [
     {
-      "task": "Evaluate practicality of repair versus payment of market value of the vehicle before the accident.",
-      "task_type": "Core"
+      "task": "Evaluate practicality of repair as opposed to payment of market value of vehicle before accident.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.74
     },
     {
       "task": "Communicate with reinsurance brokers to obtain information necessary for processing claims.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.95
     },
     {
-      "task": "Negotiate claim settlements or recommend litigation when settlement cannot be negotiated.",
-      "task_type": "Core"
+      "task": "Obtain credit information from banks and other credit services.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.94
     },
     {
-      "task": "Create and maintain a database of completed appraisals and document physical characteristics of properties such as measurements and quality.",
-      "task_type": "Core"
+      "task": "Attend mediations or trials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.71
     },
     {
-      "task": "Inspect personal or business properties to investigate and assess damage, creating or reviewing property damage estimates.",
-      "task_type": "Core"
+      "task": "Calculate the value of property based on comparisons to recent sales, estimated cost to reproduce, and anticipated property income streams.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.82
     },
     {
-      "task": "Interview or correspond with claimants, witnesses, or relevant parties to determine claim settlements or reviews.",
-      "task_type": "Core"
+      "task": "Create and maintain a database of completed appraisals.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.36
     },
     {
-      "task": "Verify and analyze data used in settling claims to ensure they are valid and made according to company practices and procedures.",
-      "task_type": "Core"
+      "task": "Determine the appropriate type of valuation to make, such as fair market, replacement, or liquidation, based on the needs of the property owner.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.91
     },
     {
-      "task": "Prepare insurance forms to indicate repair cost estimates and recommendations, and review repair cost estimates for agreement.",
-      "task_type": "Core"
+      "task": "Document physical characteristics of property such as measurements, quality, and design.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.83
     },
     {
-      "task": "Prepare written reports that estimate property values and outline methods used, ensuring they meet appraisal standards.",
-      "task_type": "Core"
+      "task": "Forecast the value of property.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.2
     },
     {
-      "task": "Examine claims forms and records to determine insurance coverage and verify legal descriptions of properties.",
-      "task_type": "Core"
+      "task": "Inspect personal or business property.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.52
     },
     {
-      "task": "Pay and process claims within designated authority level and maintain claim files, including records of settled claims.",
-      "task_type": "Core"
+      "task": "Locate and record data on sales of comparable property using specialized software, internet searches, or personal records.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.73
     },
     {
-      "task": "Explain services or policies to clients, including debt management program rules, advantages, and disadvantages.",
-      "task_type": "Core"
+      "task": "Testify in court as to the value of a piece of tangible property.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.48
     },
     {
-      "task": "Keep records pertaining to purchases, sales, and requisitions, and prepare related reports for management.",
-      "task_type": "Core"
+      "task": "Update appraisals when property has been improved, damaged, or has otherwise changed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.95
     },
     {
-      "task": "Confer with company officials to develop methods and procedures to increase sales and expand markets.",
-      "task_type": "Core"
+      "task": "Verify that property matches legal descriptions or certifications.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
     },
     {
-      "task": "Hire, train, and evaluate personnel to ensure effective team performance.",
-      "task_type": "Core"
+      "task": "Arrange to have damage appraised by another appraiser to resolve disagreement with shop on repair cost.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.42
     },
     {
-      "task": "Calculate premiums and establish payment methods for insurance policies.",
-      "task_type": "Core"
+      "task": "Prepare reports to be submitted to company's data processing department.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.7
     },
     {
-      "task": "Attend company meetings to exchange product information and coordinate work activities.",
-      "task_type": "Core"
+      "task": "Report overpayments, underpayments, and other irregularities.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.81
     },
     {
-      "task": "Plan and prepare work schedules, and assign employees to specific duties as needed.",
-      "task_type": "Core"
+      "task": "Determine salvage value on total-loss vehicle.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.09
     },
     {
-      "task": "Monitor sales staff performance to ensure that goals are met and provide guidance on complex duties.",
-      "task_type": "Core"
+      "task": "Examine titles to property to determine validity and act as company agent in transactions with property owners.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.7
+    },
+    {
+      "task": "Review police reports, medical treatment records, medical bills, or physical property damage to determine the extent of liability.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.67
+    },
+    {
+      "task": "Investigate and assess damage to property and create or review property damage estimates.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.63
+    },
+    {
+      "task": "Interview or correspond with claimants, witnesses, police, physicians, or other relevant parties to determine claim settlement, denial, or review.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.59
+    },
+    {
+      "task": "Investigate, evaluate, and settle claims, applying technical knowledge and human relations skills to effect fair and prompt disposal of cases and to contribute to a reduced loss ratio.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.74
+    },
+    {
+      "task": "Adjust reserves or provide reserve recommendations to ensure that reserve activities are consistent with corporate policies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.43
+    },
+    {
+      "task": "Resolve complex, severe exposure claims, using high service oriented file handling.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.49
+    },
+    {
+      "task": "Pay and process claims within designated authority level.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.75
+    },
+    {
+      "task": "Examine claims investigated by insurance adjusters, further investigating questionable claims to determine whether to authorize payments.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.39
+    },
+    {
+      "task": "Verify and analyze data used in settling claims to ensure that claims are valid and that settlements are made according to company practices and procedures.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.68
+    },
+    {
+      "task": "Enter claim payments, reserves and new claims on computer system, inputting concise yet sufficient file documentation.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.57
+    },
+    {
+      "task": "Refer questionable claims to investigator or claims adjuster for investigation or settlement.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
+    },
+    {
+      "task": "Collect evidence to support contested claims in court.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.26
+    },
+    {
+      "task": "Confer with legal counsel on claims requiring litigation.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.41
+    },
+    {
+      "task": "Maintain claim files, such as records of settled claims and an inventory of claims requiring detailed analysis.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
+    },
+    {
+      "task": "Present cases and participate in their discussion at claim committee meetings.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.94
+    },
+    {
+      "task": "Supervise claims adjusters to ensure that adjusters have followed proper methods.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.17
+    },
+    {
+      "task": "Conduct detailed bill reviews to implement sound litigation management and expense control.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.01
+    },
+    {
+      "task": "Prepare insurance forms to indicate repair cost estimates and recommendations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.67
+    },
+    {
+      "task": "Analyze information gathered by investigation and report findings and recommendations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.76
+    },
+    {
+      "task": "Examine claims forms and other records to determine insurance coverage.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.79
+    },
+    {
+      "task": "Evaluate land and neighborhoods where properties are situated, considering locations and trends or impending changes that could influence future values.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.92
+    },
+    {
+      "task": "Testify in court as to the value of a piece of real estate property.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.21
+    },
+    {
+      "task": "Draw land diagrams to be used in appraisal reports to support findings.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.29
+    },
+    {
+      "task": "Estimate building replacement costs, using building valuation manuals and professional cost estimators.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.79
+    },
+    {
+      "task": "Examine the type and location of nearby services, such as shopping centers, schools, parks, and other neighborhood features, to evaluate their impact on property values.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.87
+    },
+    {
+      "task": "Photograph interiors and exteriors of properties to assist in estimating property value, substantiate findings, and complete appraisal reports.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.67
+    },
+    {
+      "task": "Examine damaged vehicle to determine extent of structural, body, mechanical, electrical, or interior damage.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.71
+    },
+    {
+      "task": "Check building codes and zoning bylaws to determine any effects on the properties being appraised.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.18
+    },
+    {
+      "task": "Maintain familiarity with aspects of local real estate markets.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.57
+    },
+    {
+      "task": "Interview persons familiar with properties and immediate surroundings, such as contractors, home owners, and realtors, to obtain pertinent information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.13
+    },
+    {
+      "task": "Examine income records and operating costs of income properties.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.81
+    },
+    {
+      "task": "Prepare and maintain current data on each parcel assessed, including maps of boundaries, inventories of land and structures, property characteristics, and any applicable exemptions.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.82
+    },
+    {
+      "task": "Estimate parts and labor to repair damage, using standard automotive labor and parts cost manuals and knowledge of automotive repair.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.65
+    },
+    {
+      "task": "Compute final estimation of property values, taking into account such factors as depreciation, replacement costs, value comparisons of similar properties, and income potential.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.74
+    },
+    {
+      "task": "Prepare written reports that estimate property values, outline methods by which the estimations were made, and meet appraisal standards.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.7
+    },
+    {
+      "task": "Inspect new construction and major improvements to existing structures to determine values.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.22
+    },
+    {
+      "task": "Collect and analyze relevant data to identify real estate market trends.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.41
+    },
+    {
+      "task": "Review repair cost estimates with automobile repair shop to secure agreement on cost of repairs.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.72
+    },
+    {
+      "task": "Inspect properties, considering factors such as market value, location, and building or replacement costs to determine appraisal value.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.43
+    },
+    {
+      "task": "Review information about transfers of property to ensure its accuracy, checking basic information on buyers, sellers, and sales prices and making corrections as necessary.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
+    },
+    {
+      "task": "Examine documents to determine degree of risk from factors such as applicant health, financial standing and value, and condition of property.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.53
+    },
+    {
+      "task": "Evaluate possibility of losses due to catastrophe or excessive insurance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Review company records to determine amount of insurance in force on single risk or group of closely related risks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Authorize reinsurance of policy when risk is high.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.92
+    },
+    {
+      "task": "Decrease value of policy when risk is substandard and specify applicable endorsements or apply rating to ensure safe, profitable distribution of risks, using reference materials.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Write to field representatives, medical personnel, or others to obtain further information, quote rates, or explain company underwriting policies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
+    },
+    {
+      "task": "Decline excessive risks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.43
+    },
+    {
+      "task": "Customize insurance programs to suit individual customers, often covering a variety of risks.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.43
+    },
+    {
+      "task": "Ensure that policy requirements are fulfilled, including any necessary medical examinations and the completion of appropriate forms.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.96
+    },
+    {
+      "task": "Confer with clients to obtain and provide information when claims are made on a policy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.08
+    },
+    {
+      "task": "Perform administrative tasks, such as maintaining records and handling policy renewals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Monitor insurance claims to ensure they are settled equitably for both the client and the insurer.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
+    },
+    {
+      "task": "Attend meetings, seminars, and programs to learn about new products and services, learn new skills, and receive technical assistance in developing new accounts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.57
+    },
+    {
+      "task": "Inspect property, examining its general condition, type of construction, age, and other characteristics, to decide if it is a good insurance risk.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
+    },
+    {
+      "task": "Explain general financial topics to clients, such as credit report ratings, bankruptcy laws, consumer protection laws, wage attachments, or collection actions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.64
+    },
+    {
+      "task": "Calculate premiums and establish payment method.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Explain services or policies to clients, such as debt management program rules, advantages and disadvantages of using services, or creditor concession policies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.79
+    },
+    {
+      "task": "Direct and supervise employees engaged in sales, inventory-taking, reconciling cash receipts, or performing specific services.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.95
+    },
+    {
+      "task": "Monitor sales staff performance to ensure that goals are met.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 4.29
+    },
+    {
+      "task": "Hire, train, and evaluate personnel.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.86
+    },
+    {
+      "task": "Confer with company officials to develop methods and procedures to increase sales, expand markets, and promote business.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.79
+    },
+    {
+      "task": "Provide staff with assistance in performing difficult or complicated duties.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 4.06
+    },
+    {
+      "task": "Plan and prepare work schedules, and assign employees to specific duties.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.75
+    },
+    {
+      "task": "Attend company meetings to exchange product information and coordinate work activities with other departments.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.63
+    },
+    {
+      "task": "Keep records pertaining to purchases, sales, and requisitions.",
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.87
     },
     {
       "task": "Listen to and resolve customer complaints regarding services, products, or personnel.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Teach courses or seminars on budgeting, personal finance management, or financial literacy topics.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.041666666666666664,
+      "importance": 3.88
     }
   ],
   "technology_skills": [
@@ -1674,42 +2100,6 @@
       "weight": 0.5357142857142857
     },
     {
-      "name": "Ascend Property Assessment",
-      "weight": 0.5
-    },
-    {
-      "name": "Bruno Realty eNeighboorhoods",
-      "weight": 0.5
-    },
-    {
-      "name": "CPR Visual Estimator",
-      "weight": 0.5
-    },
-    {
-      "name": "Computer assisted mass appraisal CAMA software",
-      "weight": 0.5
-    },
-    {
-      "name": "HP 49G+ Appraiser Fee Calculator",
-      "weight": 0.5
-    },
-    {
-      "name": "Mass appraisal records system MARS",
-      "weight": 0.5
-    },
-    {
-      "name": "Wilson's Computer Applications RealEasy Appraisals",
-      "weight": 0.5
-    },
-    {
-      "name": "WinEstimator WinEst",
-      "weight": 0.5
-    },
-    {
-      "name": "WinGap",
-      "weight": 0.5
-    },
-    {
       "name": "Yardi software",
       "weight": 0.5
     },
@@ -1734,11 +2124,11 @@
       "weight": 0.39285714285714285
     },
     {
-      "name": "Fannie Mae Desktop Underwriter",
-      "weight": 0.2857142857142857
+      "name": "SAP software",
+      "weight": 0.3273809523809524
     },
     {
-      "name": "Freddie Mac Loan Prospector",
+      "name": "Oracle PeopleSoft",
       "weight": 0.2857142857142857
     },
     {
@@ -1746,11 +2136,7 @@
       "weight": 0.2857142857142857
     },
     {
-      "name": "ACI Appraiser's Choice",
-      "weight": 0.25
-    },
-    {
-      "name": "ARSoftware WinSMAC",
+      "name": "ADP software",
       "weight": 0.25
     },
     {
@@ -1762,39 +2148,39 @@
       "weight": 0.25
     },
     {
-      "name": "Apex IV Assessor",
-      "weight": 0.25
-    },
-    {
-      "name": "Apex IV Fee Appraiser",
-      "weight": 0.25
-    },
-    {
       "name": "Apple Safari",
       "weight": 0.25
     },
     {
-      "name": "AutoClaims Direct DirectLink",
+      "name": "Apple iOS",
       "weight": 0.25
     },
     {
-      "name": "Automatic Data Processing Autosource",
+      "name": "Axonwave Fraud and Abuse Management System",
       "weight": 0.25
     },
     {
-      "name": "Bill review software",
+      "name": "Business software applications",
       "weight": 0.25
     },
     {
-      "name": "Bramerhill ClaimsTech",
+      "name": "CGI INSideOUT",
       "weight": 0.25
     },
     {
-      "name": "Claims processing administration and management software",
+      "name": "Captiva InputAccel",
       "weight": 0.25
     },
     {
-      "name": "Corporate Systems ClaimsPro",
+      "name": "Document management system software",
+      "weight": 0.25
+    },
+    {
+      "name": "Fair Isaac SmartAdvisor",
+      "weight": 0.25
+    },
+    {
+      "name": "Geographic information system GIS systems",
       "weight": 0.25
     },
     {
@@ -1806,7 +2192,23 @@
       "weight": 0.25
     },
     {
-      "name": "Hansen CAMA",
+      "name": "Hyland OnBase Enterprise Content Management",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Fraud and Abuse Management System",
+      "weight": 0.25
+    },
+    {
+      "name": "ISO ClaimSearch",
+      "weight": 0.25
+    },
+    {
+      "name": "ISO NetMap for Claims",
+      "weight": 0.25
+    },
+    {
+      "name": "InSystems Calligo Document Management System",
       "weight": 0.25
     },
     {
@@ -1818,11 +2220,15 @@
       "weight": 0.25
     },
     {
-      "name": "MicroSolve CAMA",
+      "name": "Magnify Predictive Targeting System",
       "weight": 0.25
     },
     {
-      "name": "Mitchell International Mitchell WorkCenter",
+      "name": "Microsoft Publisher",
+      "weight": 0.25
+    },
+    {
+      "name": "Modellium PariTOP",
       "weight": 0.25
     },
     {
@@ -1830,35 +2236,271 @@
       "weight": 0.25
     },
     {
-      "name": "Property damage, bodily injury, and liability estimation software",
+      "name": "Online title search and property report software",
       "weight": 0.25
     },
     {
-      "name": "Simsol for Adjusters",
+      "name": "Operating system software",
       "weight": 0.25
     },
     {
-      "name": "Solera Audatex Estimating",
+      "name": "QwikQuote software",
       "weight": 0.25
     },
     {
-      "name": "Web-Est estimating software",
+      "name": "TietoEnator ProMatch",
       "weight": 0.25
     },
     {
-      "name": "Wilson's Computer Applications RealEasy Photos Plus",
+      "name": "Vertafore ImageRight",
       "weight": 0.25
     },
     {
-      "name": "Xactware Xactimate",
+      "name": "eTrac",
       "weight": 0.25
+    },
+    {
+      "name": "Delphi Discovery",
+      "weight": 0.1845238095238095
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.1845238095238095
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.1845238095238095
     },
     {
       "name": "AMS Services AMS 360",
       "weight": 0.14285714285714285
     },
     {
+      "name": "AMS Services AMS Sagitta",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Advantage Information Systems The Agency Advantage",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Agency Master",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Agency Software AgencyPro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Agency management software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Allstar Software Systems Kofax",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Anodas Software Limited Phoenix",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Applied Systems The Agency Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Applied Systems Vision",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Benefits Technology Group SalesLogix",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CGI-AMS CACS Enterprise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CGI-AMS Strata",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CSC nbAccelerator",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Chat software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CoVirt VirtGate",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Consilience Software Maven Insurance Automation Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Cooperative Processing Resources DMS Professional Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CoreLogic DebtorTrace",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Credit and risk analysis software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Credit fraud detection software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Credit underwriting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Customer relationship management CRM software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "DORIS FILESERVERonline",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Dun and Bradstreet Global DecisionMaker",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Equifax Advanced Decisioning",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Equifax Application Engine",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Equifax InterConnect",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Experian Credinomics",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Experian Detect",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Experian FraudShield",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Experian Quest",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Experian Retention Triggers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Experian Strategy Management",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Experian Transact SM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FINEOS Insure",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fair Isaac Application Risk Model Software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fair Isaac Capstone Decision Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fair Isaac Enterprise Decision Management for Insurance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fair Isaac Falcon ID",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fiserv Advanced Underwriting",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fiserv FSC Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "G2X Agility:Insurance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "GBS Agency Expert",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Harland Financial Solutions DecisionPro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hoffman Computer Systems Amsoft",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "IBM FileNet Content Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ICCO CreditSoft",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "InStar Orion",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Infospectrum Quick Insure",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Systems WebWriter BackOffice",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Insurance Technologies Corporation InsurancePro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Technologies ForeSight Enterprise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Insurance Technology Consultants WOW",
       "weight": 0.14285714285714285
     },
     {
@@ -1874,11 +2516,7 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Loan application processing software",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Loan origination software",
+      "name": "LinkedIn",
       "weight": 0.14285714285714285
     },
     {
@@ -1886,8 +2524,188 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "MI-Assistant MI Management System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Merlin Information Services databases",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV CreditEdge",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV Decisions",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV Financial Analyst",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV Risk Advisor",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV Risk Analyst",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "NIIT Technologies WinRisk",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Online Database Solutions Agent Intelligence",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Opportunity management system OMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "QualCorp FormsPlus",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "QuickQuote QuickFile Agency Management System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "RGA AURA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "RGA Facultative Application Console",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Results International Systems Artius Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Skywire Software InsBridge",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Skywire Software Policyware",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tangle S Creations Your Insurance Office",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Terrace Consulting AgencyInsight",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tritech Financial Systems General Insurance Management System GIMS",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Underwriting software",
       "weight": 0.14285714285714285
+    },
+    {
+      "name": "United Systems and Software Individual Life and Health Administration System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Valen Technologies Risk Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Vulcan Solutions Vulcan Insurance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Wolters Kluwer Financial Services ComplianceOne",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "eOriginal eCore Business Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Budgeting software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Cisco Webex",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Customer information databases",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Electronic data interchange EDI software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Financial accounting software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Flow chart software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Fuze cloud communications and collaboration software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Graphics creation software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "NetSuite ERP",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Online meeting software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "QuickBase business management software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Salesforce.com Salesforce CRM",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "SugarCRM Sugar UX",
+      "weight": 0.041666666666666664
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.041666666666666664
     }
   ],
   "tools_used": [
@@ -1916,6 +2734,10 @@
       "weight": 0.6428571428571428
     },
     {
+      "name": "Measure markers",
+      "weight": 0.5
+    },
+    {
       "name": "Scanners",
       "weight": 0.39285714285714285
     },
@@ -1936,6 +2758,10 @@
       "weight": 0.25
     },
     {
+      "name": "Carbon monoxide detectors",
+      "weight": 0.25
+    },
+    {
       "name": "Compact digital cameras",
       "weight": 0.25
     },
@@ -1948,7 +2774,27 @@
       "weight": 0.25
     },
     {
+      "name": "Electronic digital theodolites",
+      "weight": 0.25
+    },
+    {
+      "name": "Electronic flood maps",
+      "weight": 0.25
+    },
+    {
       "name": "Electronic maps",
+      "weight": 0.25
+    },
+    {
+      "name": "Event data recorders",
+      "weight": 0.25
+    },
+    {
+      "name": "Field computers",
+      "weight": 0.25
+    },
+    {
+      "name": "Flood Insights",
       "weight": 0.25
     },
     {
@@ -1956,7 +2802,19 @@
       "weight": 0.25
     },
     {
+      "name": "Handheld computers",
+      "weight": 0.25
+    },
+    {
+      "name": "Handheld distance meters",
+      "weight": 0.25
+    },
+    {
       "name": "Laser facsimile machines\"",
+      "weight": 0.25
+    },
+    {
+      "name": "Laser measuring devices",
       "weight": 0.25
     },
     {
@@ -1968,12 +2826,32 @@
       "weight": 0.25
     },
     {
+      "name": "Measuring tapes",
+      "weight": 0.25
+    },
+    {
       "name": "Mobile wireless handheld communication devices",
       "weight": 0.25
     },
     {
       "name": "Real estate mapping and property description systems",
       "weight": 0.25
+    },
+    {
+      "name": "Tire tread depth gauges",
+      "weight": 0.25
+    },
+    {
+      "name": "Total stations",
+      "weight": 0.25
+    },
+    {
+      "name": "Ultrasonic distance measurers",
+      "weight": 0.25
+    },
+    {
+      "name": "Autodialers",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Digital cameras",
@@ -1989,6 +2867,14 @@
     },
     {
       "name": "Multi-line telephone systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Pen-based computers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Postage meters",
       "weight": 0.14285714285714285
     },
     {

@@ -1544,104 +1544,160 @@
   ],
   "tasks": [
     {
-      "task": "Record transaction information on forms or logs, and notify designated personnel of discrepancies.",
-      "task_type": "Core"
+      "task": "Keep accurate records of monetary exchanges, authorization forms, and transaction reconciliations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.88
     },
     {
-      "task": "Keep records of merchandise distributed and money collected.",
-      "task_type": "Supplemental"
+      "task": "Receive payments and post amounts paid to customer accounts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
     },
     {
-      "task": "Connect and disconnect utility services at specific locations, and inspect meters for unauthorized connections, defects, and damage.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Answer customers' questions about services and charges, and provide information on procedures or policies.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Inspect machines and meters to determine causes of malfunctions, and perform preventative maintenance or minor repairs on meters.",
-      "task_type": "Core"
+      "task": "Issue receipts, refunds, credits, or change due to customers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.66
     },
     {
       "task": "Locate and notify customers of delinquent accounts by mail, telephone, or personal visits to solicit payment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.52
     },
     {
-      "task": "Persuade customers to pay amounts due on credit accounts or damage claims, or to return merchandise.",
-      "task_type": "Core"
+      "task": "Arrange for debt repayment or establish repayment schedules, based on customers' financial situations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
     },
     {
-      "task": "Develop or implement fundraising activities, such as annual giving campaigns or direct mail programs.",
-      "task_type": "Core"
+      "task": "Negotiate credit extensions when necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.52
     },
     {
-      "task": "Solicit cash or in-kind donations or sponsorships from individual, business, or government donors.",
-      "task_type": "Core"
+      "task": "Persuade customers to pay amounts due on credit accounts, damage claims, or nonpayable checks, or to return merchandise.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.28
     },
     {
-      "task": "Monitor progress of fundraising drives, and identify and build relationships with potential donors.",
-      "task_type": "Core"
+      "task": "Confer with customers by telephone or in person to determine reasons for overdue payments and to review the terms of sales, service, or credit contracts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.26
     },
     {
-      "task": "Refuse admittance to undesirable persons or persons without tickets or passes.",
-      "task_type": "Core"
+      "task": "Advise customers of necessary actions and strategies for debt repayment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.44
     },
     {
-      "task": "Settle seating disputes or help solve other customer concerns.",
-      "task_type": "Core"
+      "task": "Notify credit departments, order merchandise repossession or service disconnection, and turn over account records to attorneys when customers fail to respond to collection attempts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
     },
     {
-      "task": "Assist patrons in finding seats, lighting the way with flashlights, if necessary.",
-      "task_type": "Core"
+      "task": "Perform various administrative functions for assigned accounts, such as recording address changes and purging the records of deceased customers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.64
     },
     {
-      "task": "Search for lost articles or for parents of lost children.",
-      "task_type": "Core"
+      "task": "Record information about financial status of customers and status of collection efforts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.65
     },
     {
-      "task": "Count and record number of tickets collected.",
-      "task_type": "Supplemental"
+      "task": "Sort and file correspondence and perform miscellaneous clerical duties, such as answering correspondence and writing reports.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
     },
     {
-      "task": "Sell or collect admission tickets, passes, or facility memberships from patrons at entertainment events.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Greet patrons attending entertainment events.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Guide patrons to exits or provide other instructions or assistance in case of emergency.",
-      "task_type": "Core"
+      "task": "Answer customer questions regarding problems with their accounts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
     },
     {
       "task": "Perform cash handling tasks, such as making change, balancing and recording cash drawer, or distributing tips.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.12
     },
     {
-      "task": "Examine tickets or passes to verify authenticity, using criteria such as color or date issued.",
-      "task_type": "Core"
+      "task": "Sell tickets and collect fees from customers.",
+      "task_type": "Core",
+      "relevance": 0.058823529411764705,
+      "importance": 4.13
     },
     {
-      "task": "Monitor activities to ensure adherence to rules and safety procedures, or arrange for the removal of unruly patrons.",
-      "task_type": "Core"
+      "task": "Search computer databases, credit reports, public records, tax or legal filings, or other resources to locate persons or to compile information for investigations.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.43
     },
     {
-      "task": "Provide information about facilities, entertainment options, and rules and regulations.",
-      "task_type": "Core"
+      "task": "Prepare affidavits or other documents, such as legal correspondence, and organize and maintain documents in paper or electronic filing system.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.38
     },
     {
-      "task": "Maintain a lost-and-found collection.",
-      "task_type": "Core"
+      "task": "Write reports or case summaries to document investigations.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.8
+    },
+    {
+      "task": "Gather and analyze research data, such as statutes, decisions, and legal articles, codes, and documents.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.89
+    },
+    {
+      "task": "Investigate facts and law of cases and search pertinent sources, such as public records and internet sources, to determine causes of action and to prepare cases.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.06
+    },
+    {
+      "task": "Meet with clients and other professionals to discuss details of cases.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.93
     },
     {
       "task": "Prepare, edit, or review legal documents, including legislation, briefs, pleadings, appeals, wills, contracts, and real estate closing statements.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.32
     },
     {
-      "task": "Investigate facts and law of cases and search pertinent sources, such as public records and internet sources, to prepare cases.",
-      "task_type": "Core"
+      "task": "Question persons to obtain evidence for cases of divorce, child custody, or missing persons or information about individuals' character or financial status.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.3
+    },
+    {
+      "task": "Prepare briefs, legal memoranda, or statements of issues involved in cases, including appropriate suggestions or recommendations.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.85
+    },
+    {
+      "task": "Prepare for trial by performing tasks such as organizing exhibits.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.97
     }
   ],
   "technology_skills": [
@@ -1678,11 +1734,31 @@
       "weight": 1.6088235294117648
     },
     {
+      "name": "Microsoft Access",
+      "weight": 1.5
+    },
+    {
       "name": "Email software",
       "weight": 1.467857142857143
     },
     {
+      "name": "Inventory tracking software",
+      "weight": 1.125
+    },
+    {
       "name": "Billing software",
+      "weight": 1.0
+    },
+    {
+      "name": "Geographic information system GIS systems",
+      "weight": 1.0
+    },
+    {
+      "name": "Graphing software",
+      "weight": 1.0
+    },
+    {
+      "name": "Mapping software",
       "weight": 1.0
     },
     {
@@ -1710,11 +1786,23 @@
       "weight": 0.4
     },
     {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.30000000000000004
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.2857142857142857
+    },
+    {
       "name": "Apple Safari",
       "weight": 0.25
     },
     {
       "name": "Bookkeeping software",
+      "weight": 0.25
+    },
+    {
+      "name": "Handheld computer device software",
       "weight": 0.25
     },
     {
@@ -1726,12 +1814,40 @@
       "weight": 0.25
     },
     {
+      "name": "Point of sale POS software",
+      "weight": 0.25
+    },
+    {
+      "name": "Document management system software",
+      "weight": 0.24285714285714285
+    },
+    {
       "name": "Intuit QuickBooks",
+      "weight": 0.24285714285714285
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.24285714285714285
+    },
+    {
+      "name": "Optical character recognition OCR software",
       "weight": 0.24285714285714285
     },
     {
       "name": "Relational database software",
       "weight": 0.24285714285714285
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.24285714285714285
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.21978021978021978
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.20168067226890757
     },
     {
       "name": "Google Workspace software",
@@ -1742,11 +1858,87 @@
       "weight": 0.2
     },
     {
+      "name": "LexisNexis SmartLinx",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.2
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.2
+    },
+    {
+      "name": "Orion Law Management Systems Orion",
+      "weight": 0.2
+    },
+    {
       "name": "Thomson Reuters Westlaw",
       "weight": 0.2
     },
     {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.1588235294117647
+    },
+    {
+      "name": "ADP Drive DMS for Accounting",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ADS Advantage",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adtec Agency Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Austin Logistics CallSelect",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Blackbaud Luminate CRM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Blackbaud eTapestry",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CU Connect processing software",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Collection Data Systems CollectOne-Tiger",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Columbia Ultimate Archive",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Columbia Ultimate RPCS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Columbia Ultimate Remit",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Constant Contact",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Corel CorelDraw Graphics Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Data-Tel Ceasar",
       "weight": 0.14285714285714285
     },
     {
@@ -1754,7 +1946,47 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Foundatino Directory Online (FDO)",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "HMS",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Internet browser software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "LexisNexis Banko",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "NetSuite ERP",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ontario Systems FACS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Quantrax Intelec",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SAP BusinessObjects Crystal Reports",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SAP software",
       "weight": 0.14285714285714285
     },
     {
@@ -1762,7 +1994,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "SofterWare DonorPerfect",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Structured query language SQL",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "System Innovators",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "TCI XML Credit Interface",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tessitura Network Tessitura Software",
       "weight": 0.14285714285714285
     },
     {
@@ -1770,11 +2018,119 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "W3 Data BatchAppend411",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "WealthEngine Findwealth",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.125
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.125
+    },
+    {
+      "name": "IntelliTrack DMS Check In-Out",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Windows Mobile",
+      "weight": 0.125
+    },
+    {
       "name": "Payment processing software",
       "weight": 0.125
     },
     {
+      "name": "AbacusNext HotDocs",
+      "weight": 0.1
+    },
+    {
+      "name": "Aderant CompuLaw",
+      "weight": 0.1
+    },
+    {
+      "name": "American LegalNet USCourtForms",
+      "weight": 0.1
+    },
+    {
+      "name": "American Legalnet Smart Dockets",
+      "weight": 0.1
+    },
+    {
+      "name": "American Legalnet eDockets",
+      "weight": 0.1
+    },
+    {
+      "name": "Appligent Citation FDFMerge",
+      "weight": 0.1
+    },
+    {
+      "name": "Blumbeg Drafting Libraries",
+      "weight": 0.1
+    },
+    {
+      "name": "Bowne JFS Litigator's Notebook",
+      "weight": 0.1
+    },
+    {
+      "name": "Bridgeway eCounsel",
+      "weight": 0.1
+    },
+    {
+      "name": "Canyon Solutions Jcats",
+      "weight": 0.1
+    },
+    {
       "name": "Case analysis software",
+      "weight": 0.1
+    },
+    {
+      "name": "Case management system software",
+      "weight": 0.1
+    },
+    {
+      "name": "CaseSoft DepPrep",
+      "weight": 0.1
+    },
+    {
+      "name": "CaseSoft TextMap",
+      "weight": 0.1
+    },
+    {
+      "name": "CaseSoft TimeMap",
+      "weight": 0.1
+    },
+    {
+      "name": "Compugov DocketView",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer access catalog software",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer imaging software",
+      "weight": 0.1
+    },
+    {
+      "name": "Contact management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Corporate Focus Solium Shareworks",
+      "weight": 0.1
+    },
+    {
+      "name": "Court docket management software",
       "weight": 0.1
     },
     {
@@ -1782,7 +2138,59 @@
       "weight": 0.1
     },
     {
+      "name": "Data Trace Title IQ",
+      "weight": 0.1
+    },
+    {
+      "name": "Dataflight Opticon",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital contract software",
+      "weight": 0.1
+    },
+    {
       "name": "Dropbox",
+      "weight": 0.1
+    },
+    {
+      "name": "Electronic discovery software",
+      "weight": 0.1
+    },
+    {
+      "name": "Electronic transcription management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Fastcase legal software",
+      "weight": 0.1
+    },
+    {
+      "name": "File management software",
+      "weight": 0.1
+    },
+    {
+      "name": "FindForms",
+      "weight": 0.1
+    },
+    {
+      "name": "FindLaw Code of Federal Regulations CFR",
+      "weight": 0.1
+    },
+    {
+      "name": "First American Data Tree Parcel IQ",
+      "weight": 0.1
+    },
+    {
+      "name": "Fund Software ATIDS",
+      "weight": 0.1
+    },
+    {
+      "name": "GATORS ANYWHERE",
+      "weight": 0.1
+    },
+    {
+      "name": "Geographic information system GIS databases",
       "weight": 0.1
     },
     {
@@ -1794,8 +2202,300 @@
       "weight": 0.1
     },
     {
+      "name": "IBM Lotus Notes",
+      "weight": 0.1
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.1
+    },
+    {
+      "name": "Infocom JACS",
+      "weight": 0.1
+    },
+    {
+      "name": "Inmagic DB/TextWorks",
+      "weight": 0.1
+    },
+    {
+      "name": "IntelliPDF CURVES",
+      "weight": 0.1
+    },
+    {
+      "name": "Iron Mountain Accutrac records management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Justice Systems FullCourt Enterprise",
+      "weight": 0.1
+    },
+    {
+      "name": "Landtitle USA",
+      "weight": 0.1
+    },
+    {
+      "name": "LawManager",
+      "weight": 0.1
+    },
+    {
+      "name": "Legal Files software",
+      "weight": 0.1
+    },
+    {
+      "name": "Legal document software",
+      "weight": 0.1
+    },
+    {
+      "name": "Levare Center Court",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Applied Discovery",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis CaseMap",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis CheckCite",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis CodeMaster",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Company Analyzer",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Concordance",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis File and Serve",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Lexis Advance",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Time Matters",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Total Search",
+      "weight": 0.1
+    },
+    {
+      "name": "Litigation support software",
+      "weight": 0.1
+    },
+    {
+      "name": "MicroStrategy",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.1
+    },
+    {
+      "name": "NetDocuments",
+      "weight": 0.1
+    },
+    {
+      "name": "New Dawn Technologies JustWare Court",
+      "weight": 0.1
+    },
+    {
+      "name": "Nuance Power PDF",
+      "weight": 0.1
+    },
+    {
+      "name": "OmniRIM Records Management Suite",
+      "weight": 0.1
+    },
+    {
+      "name": "Online database search and retrieval software",
+      "weight": 0.1
+    },
+    {
+      "name": "Online public records search software",
+      "weight": 0.1
+    },
+    {
+      "name": "Online title search and property report software",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle JavaServer Pages JSP",
+      "weight": 0.1
+    },
+    {
+      "name": "PDF Snake Easy Bates",
+      "weight": 0.1
+    },
+    {
+      "name": "PTS Solutions WinJuris Court Solutions",
+      "weight": 0.1
+    },
+    {
+      "name": "Practice management software PMS",
+      "weight": 0.1
+    },
+    {
+      "name": "ProForce Paralegal Pro-Pack",
+      "weight": 0.1
+    },
+    {
+      "name": "Property Insight TitlePoint",
+      "weight": 0.1
+    },
+    {
+      "name": "PropertyInfo SureClose",
+      "weight": 0.1
+    },
+    {
+      "name": "Public Access to Court Electronic Records (PACER)",
+      "weight": 0.1
+    },
+    {
+      "name": "RamQuest Total Solution",
+      "weight": 0.1
+    },
+    {
+      "name": "Records management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Relativity e-Discovery",
+      "weight": 0.1
+    },
+    {
+      "name": "Saga Practice Manager",
+      "weight": 0.1
+    },
+    {
+      "name": "SoftPro real estate closing and title software",
+      "weight": 0.1
+    },
+    {
+      "name": "Software Technology PracticeMaster",
+      "weight": 0.1
+    },
+    {
+      "name": "State crime information databases",
+      "weight": 0.1
+    },
+    {
+      "name": "Statistics software",
+      "weight": 0.1
+    },
+    {
+      "name": "Summation Blaze",
+      "weight": 0.1
+    },
+    {
+      "name": "Sure Will Writer",
+      "weight": 0.1
+    },
+    {
+      "name": "Syscon Court Clerk",
+      "weight": 0.1
+    },
+    {
+      "name": "THOMAS Global Register",
+      "weight": 0.1
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.1
+    },
+    {
+      "name": "The Sackett Group MacPac for Legal",
+      "weight": 0.1
+    },
+    {
+      "name": "Thomson CompuMark SAEGIS",
+      "weight": 0.1
+    },
+    {
+      "name": "Thomson Reuters Elite ProLaw",
+      "weight": 0.1
+    },
+    {
+      "name": "Thomson Reuters LiveNote Stream",
+      "weight": 0.1
+    },
+    {
+      "name": "Thomson Reuters Westlaw Edge",
+      "weight": 0.1
+    },
+    {
+      "name": "Thomson Reuters WestlawNext",
+      "weight": 0.1
+    },
+    {
+      "name": "Thomson West FindLaw",
+      "weight": 0.1
+    },
+    {
+      "name": "Thomson West ProLaw",
+      "weight": 0.1
+    },
+    {
+      "name": "TrialWorks",
+      "weight": 0.1
+    },
+    {
+      "name": "Tumbleweed SecureTransport",
+      "weight": 0.1
+    },
+    {
+      "name": "Uniscribe",
+      "weight": 0.1
+    },
+    {
+      "name": "Wilson's Computer Applications RealEasy Appraisals",
+      "weight": 0.1
+    },
+    {
+      "name": "WordPerfect",
+      "weight": 0.1
+    },
+    {
       "name": "Zoom",
       "weight": 0.1
+    },
+    {
+      "name": "Zylab ZyImage",
+      "weight": 0.1
+    },
+    {
+      "name": "a la mode WinTOTAL",
+      "weight": 0.1
+    },
+    {
+      "name": "dtSearch",
+      "weight": 0.1
+    },
+    {
+      "name": "iManage document management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Paint",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "iView Systems",
+      "weight": 0.07692307692307693
     },
     {
       "name": "Calendar and scheduling software",
@@ -1828,11 +2528,79 @@
       "weight": 1.2
     },
     {
+      "name": "Digital still cameras",
+      "weight": 1.176923076923077
+    },
+    {
+      "name": "Allen wrenches",
+      "weight": 1.125
+    },
+    {
       "name": "Copy machines",
       "weight": 1.125
     },
     {
-      "name": "Automatic teller machine ATM banking machines",
+      "name": "Flathead screwdrivers",
+      "weight": 1.125
+    },
+    {
+      "name": "Phillips screwdrivers",
+      "weight": 1.125
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 1.0
+    },
+    {
+      "name": "Angled screwdrivers",
+      "weight": 1.0
+    },
+    {
+      "name": "Channel lock pliers",
+      "weight": 1.0
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 1.0
+    },
+    {
+      "name": "Coin machines",
+      "weight": 1.0
+    },
+    {
+      "name": "Cordless drills",
+      "weight": 1.0
+    },
+    {
+      "name": "Global positioning system GPS devices",
+      "weight": 1.0
+    },
+    {
+      "name": "Groove joint pliers",
+      "weight": 1.0
+    },
+    {
+      "name": "High-power flashlights",
+      "weight": 1.0
+    },
+    {
+      "name": "Mini plier sets",
+      "weight": 1.0
+    },
+    {
+      "name": "Multipurpose screwdrivers",
+      "weight": 1.0
+    },
+    {
+      "name": "Needle nose pliers",
+      "weight": 1.0
+    },
+    {
+      "name": "Nut wrenches",
+      "weight": 1.0
+    },
+    {
+      "name": "Passenger vehicles",
       "weight": 1.0
     },
     {
@@ -1840,7 +2608,35 @@
       "weight": 1.0
     },
     {
+      "name": "Razor blade knives",
+      "weight": 1.0
+    },
+    {
       "name": "Smart phones",
+      "weight": 1.0
+    },
+    {
+      "name": "T handle allen wrenches",
+      "weight": 1.0
+    },
+    {
+      "name": "T handle nut drivers",
+      "weight": 1.0
+    },
+    {
+      "name": "Utility trucks",
+      "weight": 1.0
+    },
+    {
+      "name": "Wire cutting tools",
+      "weight": 1.0
+    },
+    {
+      "name": "Wire strippers",
+      "weight": 1.0
+    },
+    {
+      "name": "Work lights",
       "weight": 1.0
     },
     {
@@ -1868,11 +2664,27 @@
       "weight": 0.3088235294117647
     },
     {
-      "name": "Electronic funds transfer EFT terminals",
+      "name": "Automatic coin sorters",
       "weight": 0.25
     },
     {
-      "name": "Handheld bar code scanners",
+      "name": "Automatic coin wrappers",
+      "weight": 0.25
+    },
+    {
+      "name": "Cash registers",
+      "weight": 0.25
+    },
+    {
+      "name": "Coin counting machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Coin sorting setups",
+      "weight": 0.25
+    },
+    {
+      "name": "Electronic funds transfer EFT terminals",
       "weight": 0.25
     },
     {
@@ -1880,23 +2692,115 @@
       "weight": 0.25
     },
     {
-      "name": "Stationary bar code scanners",
+      "name": "Money order machines",
       "weight": 0.25
+    },
+    {
+      "name": "Passenger cars",
+      "weight": 0.24285714285714285
     },
     {
       "name": "Scanners",
       "weight": 0.24285714285714285
     },
     {
+      "name": "First aid kits",
+      "weight": 0.18382352941176472
+    },
+    {
+      "name": "Digital video recording equipment",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Autodialers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Predictive dialers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Computerized cash registers",
       "weight": 0.125
     },
     {
-      "name": "Electronic ticket scanners",
+      "name": "Fire extinguishers",
       "weight": 0.125
     },
     {
+      "name": "Hand-held flashlights",
+      "weight": 0.125
+    },
+    {
+      "name": "High power flashlights",
+      "weight": 0.125
+    },
+    {
+      "name": "Light trucks",
+      "weight": 0.125
+    },
+    {
+      "name": "Mallets",
+      "weight": 0.125
+    },
+    {
+      "name": "Multipurpose hammers",
+      "weight": 0.125
+    },
+    {
+      "name": "Portable fire extinguishers",
+      "weight": 0.125
+    },
+    {
+      "name": "Portable hard drives",
+      "weight": 0.125
+    },
+    {
+      "name": "Power staplers",
+      "weight": 0.125
+    },
+    {
+      "name": "Precision nut drivers",
+      "weight": 0.125
+    },
+    {
+      "name": "Scissors",
+      "weight": 0.125
+    },
+    {
+      "name": "Utility knives",
+      "weight": 0.125
+    },
+    {
+      "name": "Work vans",
+      "weight": 0.125
+    },
+    {
+      "name": "35 millimeter cameras",
+      "weight": 0.1
+    },
+    {
+      "name": "Compact digital cameras",
+      "weight": 0.1
+    },
+    {
       "name": "Computer inkjet printers",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital audio recorders",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital recording equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital video cameras",
       "weight": 0.1
     },
     {
@@ -1904,7 +2808,19 @@
       "weight": 0.1
     },
     {
+      "name": "Electronic whiteboards",
+      "weight": 0.1
+    },
+    {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.1
+    },
+    {
       "name": "Image scanners",
+      "weight": 0.1
+    },
+    {
+      "name": "Multiline telephone systems",
       "weight": 0.1
     },
     {
@@ -1928,15 +2844,87 @@
       "weight": 0.1
     },
     {
+      "name": "Protective vests",
+      "weight": 0.1
+    },
+    {
+      "name": "Surveillance binoculars",
+      "weight": 0.1
+    },
+    {
       "name": "Teleconferencing equipment",
       "weight": 0.1
+    },
+    {
+      "name": "Video surveillance systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Walk-through metal detectors",
+      "weight": 0.1
+    },
+    {
+      "name": "X ray inspection equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Closed circuit television CCTV surveillance systems",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Handheld metal detectors",
+      "weight": 0.07692307692307693
     },
     {
       "name": "Multi-line telephone systems",
       "weight": 0.07692307692307693
     },
     {
+      "name": "Remotely controlled cameras",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Security alarm systems",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Costumes",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Face masks",
+      "weight": 0.058823529411764705
+    },
+    {
       "name": "Handheld calculators",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Loudspeakers",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Material transport trucks",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Metallic glitter",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Microphones",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Passenger vans",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Water-based face paints",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Wigs",
       "weight": 0.058823529411764705
     }
   ],

@@ -1545,67 +1545,357 @@
   "tasks": [
     {
       "task": "Support children's emotional and social development, encouraging understanding of others and positive self-concepts.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.35
     },
     {
-      "task": "Help develop or monitor family schedules and communicate with children's parents or guardians about daily activities and behaviors.",
-      "task_type": "Core"
+      "task": "Model appropriate social behaviors and encourage concern for others to cultivate development of interpersonal relationships and communication skills.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.68
     },
     {
-      "task": "Supervise and assist children with homework, regulate children's rest periods, and identify signs of emotional or developmental problems in children.",
-      "task_type": "Core"
+      "task": "Help develop or monitor family schedule.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.54
     },
     {
-      "task": "Assign appropriate chores, praise targeted behaviors, and work with parents to implement discipline programs promoting desirable behavior.",
-      "task_type": "Core"
+      "task": "Supervise and assist with homework.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.09
     },
     {
-      "task": "Transport children to schools, social outings, and medical appointments, and accompany them during these activities.",
-      "task_type": "Core"
+      "task": "Assign appropriate chores and praise targeted behaviors to encourage development of self-control, self-confidence, and responsibility.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.52
     },
     {
-      "task": "Perform housekeeping and cleaning duties related to children's care, including laundry, cleaning, and sanitizing toys and play equipment.",
-      "task_type": "Core"
+      "task": "Transport children to schools, social outings, and medical appointments.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.08
     },
     {
-      "task": "Instruct children in the development of health and personal habits, including eating, resting, and toilet behavior.",
-      "task_type": "Core"
+      "task": "Perform housekeeping and cleaning duties related to children's care.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.12
     },
     {
-      "task": "Teach and perform age-appropriate activities, such as lap play, reading, arts and crafts, and organize recreational activities.",
-      "task_type": "Core"
+      "task": "Instruct and assist children in the development of health and personal habits, such as eating, resting, and toilet behavior.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.84
     },
     {
-      "task": "Maintain a safe play environment by removing hazards and developing appropriate boundaries and rules.",
-      "task_type": "Core"
+      "task": "Teach and perform age-appropriate activities, such as lap play, reading, and arts and crafts, to encourage intellectual development of children.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.76
     },
     {
-      "task": "Observe and monitor children's play activities and keep records on individual children, including observations and information about their activities.",
-      "task_type": "Core"
+      "task": "Maintain a safe play environment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.67
     },
     {
-      "task": "Assist in preparing and serving nutritionally balanced meals and snacks for children, and help children with dietary needs.",
-      "task_type": "Core"
+      "task": "Communicate with children's parents or guardians about daily activities, behaviors, and related issues.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.4
     },
     {
-      "task": "Perform first aid or cardiopulmonary resuscitation (CPR) when required to maintain children's health.",
-      "task_type": "Core"
+      "task": "Assist in preparing food and serving meals and refreshments to children.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.02
     },
     {
-      "task": "Direct or coordinate the activities of workers involved in childcare and recreational programs to ensure quality service.",
-      "task_type": "Core"
+      "task": "Create developmentally appropriate lesson plans.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.08
     },
     {
-      "task": "Meet regularly with parents to discuss children's activities and development.",
-      "task_type": "Core"
+      "task": "Care for children in institutional setting, such as group homes, nursery schools, private businesses, or schools for people with disabilities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.34
+    },
+    {
+      "task": "Perform general administrative tasks, such as taking attendance, editing internal paperwork, and making phone calls.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.17
+    },
+    {
+      "task": "Organize and participate in recreational activities and outings, such as games and field trips.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
+    },
+    {
+      "task": "Provide care for children with physical, developmental, or mental health disabilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
+    },
+    {
+      "task": "Perform general personnel functions, such as supervision, training, and scheduling.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.83
+    },
+    {
+      "task": "Shop for groceries, clothing, and other items needed for children's care.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.87
+    },
+    {
+      "task": "Work with parents to develop and implement discipline programs to promote desirable child behavior.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.48
+    },
+    {
+      "task": "Regulate children's rest periods.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.82
+    },
+    {
+      "task": "Observe children's behavior for irregularities, take temperature, transport children to doctor, or administer medications, as directed, to maintain children's health.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.52
+    },
+    {
+      "task": "Dress children and change diapers.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.31
+    },
+    {
+      "task": "Sanitize toys and play equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.32
+    },
+    {
+      "task": "Discipline children and recommend or initiate other measures to control behavior, such as caring for own clothing and picking up toys and books.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.95
+    },
+    {
+      "task": "Identify signs of emotional or developmental problems in children and bring them to parents' or guardians' attention.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.23
+    },
+    {
+      "task": "Observe and monitor children's play activities.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.46
+    },
+    {
+      "task": "Keep records on individual children, including daily observations and information about activities, meals served, and medications administered.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.27
     },
     {
       "task": "Organize and store toys and materials to ensure order in activity areas.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.18
     },
     {
-      "task": "Provide care for children with physical, developmental, or mental health disabilities as needed.",
-      "task_type": "Supplemental"
+      "task": "Sterilize bottles and prepare formulas.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.18
+    },
+    {
+      "task": "Instruct children in safe behavior, such as seeking adult assistance when crossing the street and avoiding contact with unsafe objects.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.92
+    },
+    {
+      "task": "Perform first aid or cardiopulmonary resuscitation (CPR) when required.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.88
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as hotel staff or hair stylists.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.05
+    },
+    {
+      "task": "Arrange worker breaks to ensure services are adequately staffed throughout each shift.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.94
+    },
+    {
+      "task": "Investigate employee complaints and resolve problems following management rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.13
+    },
+    {
+      "task": "Inform management about problems, such as employee disputes.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.97
+    },
+    {
+      "task": "Plan, direct, or supervise recreational and entertainment activities led by staff, such as sports, aquatics, games, or performing arts.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Provide staff with assistance in performing difficult or complicated duties.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Furnish customers with information on events or activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Serve as a point of contact between managerial staff and leaders of recreational or entertainment activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Collaborate with staff members to plan or develop programs of events or schedules of activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Requisition necessary supplies, equipment, or services.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.71
+    },
+    {
+      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.36
+    },
+    {
+      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.14
+    },
+    {
+      "task": "Train workers in proper operational procedures and functions and explain company policies.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.55
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.41
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.79
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.3
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.11
+    },
+    {
+      "task": "Take disciplinary action to address performance problems.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.23
+    },
+    {
+      "task": "Recruit and hire staff members.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.32
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.01
+    },
+    {
+      "task": "Direct marketing, advertising, or other customer recruitment efforts.",
+      "task_type": "Supplemental",
+      "relevance": 0.03571428571428571,
+      "importance": 3.41
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.93
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, work methods, or customer services.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Compute or estimate cash, payroll, transportation, or personnel requirements.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1654,6 +1944,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Inventory management systems",
+      "weight": 0.08658008658008658
+    },
+    {
       "name": "Microsoft Outlook",
       "weight": 0.08658008658008658
     },
@@ -1662,8 +1956,32 @@
       "weight": 0.08658008658008658
     },
     {
+      "name": "Point of sale POS software",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.08658008658008658
+    },
+    {
       "name": "Work scheduling software",
       "weight": 0.08658008658008658
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1684,7 +2002,15 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Dryers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Emergency first aid kits",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Kitchen stoves",
       "weight": 0.3333333333333333
     },
     {
@@ -1692,7 +2018,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Microwave ovens",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Passenger cars",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Vacuum cleaners",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Washing machines",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Desktop computers",
+      "weight": 0.2532467532467532
+    },
+    {
+      "name": "Photocopying equipment",
       "weight": 0.2532467532467532
     },
     {
@@ -1708,11 +2054,19 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Domestic dishwashers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Educational toys",
       "weight": 0.16666666666666666
     },
     {
       "name": "Fire extingushers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Irons",
       "weight": 0.16666666666666666
     },
     {
@@ -1736,7 +2090,15 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Wet mops",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Computer laser printers",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Multi-line telephone systems",
       "weight": 0.08658008658008658
     },
     {

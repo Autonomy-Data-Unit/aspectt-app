@@ -1544,116 +1544,658 @@
   ],
   "tasks": [
     {
-      "task": "Review documents, such as production schedules or work orders, to determine personnel or materials requirements.",
-      "task_type": "Core"
+      "task": "Review documents, such as production schedules, work orders, or staffing tables, to determine personnel or materials requirements or material priorities.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.16
     },
     {
-      "task": "Examine documents and monitor work processes to assess completeness, accuracy, and conformance to standards and specifications.",
-      "task_type": "Supplemental"
+      "task": "Examine documents, materials, or products and monitor work processes to assess completeness, accuracy, and conformance to standards and specifications.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.85
     },
     {
-      "task": "Compile and prepare documentation related to production sequences, personnel schedules, or purchase orders.",
-      "task_type": "Supplemental"
+      "task": "Provide documentation and information to account for delays, difficulties, or changes to cost estimates.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.92
     },
     {
-      "task": "Plan production commitments or timetables for business units or jobs, using sales forecasts.",
-      "task_type": "Core"
+      "task": "Compile and prepare documentation related to production sequences, transportation, personnel schedules, or purchase, maintenance, or repair orders.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.68
     },
     {
-      "task": "Maintain files, such as maintenance records, bills of lading, or cost reports, to ensure accuracy and accessibility.",
-      "task_type": "Supplemental"
+      "task": "Establish and prepare product construction directions and locations and information on required tools, materials, equipment, numbers of workers needed, and cost projections.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.35
     },
     {
-      "task": "Contact suppliers to verify shipment details and coordinate delivery, assembly, or distribution of supplies to meet production schedules.",
-      "task_type": "Core"
+      "task": "Plan production commitments or timetables for business units, specific programs, or jobs, using sales forecasts.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.78
     },
     {
-      "task": "Compile information about production rates, materials inventories, or customer information to complete status reports.",
-      "task_type": "Core"
+      "task": "Maintain files, such as maintenance records, bills of lading, or cost reports.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.2
     },
     {
-      "task": "Requisition and maintain inventories of materials or supplies necessary to meet production demands and track stock transactions.",
-      "task_type": "Core"
+      "task": "Contact suppliers to verify shipment details.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.63
     },
     {
-      "task": "Confer with personnel, vendors, or customers to coordinate production activities and resolve complaints.",
-      "task_type": "Core"
+      "task": "Arrange for delivery, assembly, or distribution of supplies or parts to expedite flow of materials and meet production schedules.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.99
     },
     {
-      "task": "Revise production schedules when required due to changes or shortages, collaborating with relevant departments.",
-      "task_type": "Core"
+      "task": "Compile information, such as production rates and progress, materials inventories, materials used, or customer information, so that status reports can be completed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.77
     },
     {
-      "task": "Schedule or dispatch workers, equipment, or service vehicles according to customer requests or specifications.",
-      "task_type": "Core"
+      "task": "Distribute production schedules or work orders to departments.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.35
     },
     {
-      "task": "Record and maintain files or records of customer requests, charges, expenses, or inventory for accurate tracking.",
-      "task_type": "Core"
+      "task": "Calculate figures, such as required amounts of labor or materials, manufacturing costs, or wages, using pricing schedules, adding machines, calculators, or computers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.67
     },
     {
-      "task": "Determine types or amounts of equipment or materials required based on specifications, ensuring compliance with safety regulations.",
-      "task_type": "Core"
+      "task": "Requisition and maintain inventories of materials or supplies necessary to meet production demands.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.94
     },
     {
-      "task": "Document quantity, quality, and value of materials or products to maintain records for shipping and production.",
-      "task_type": "Core"
+      "task": "Record production data, including volume produced, consumption of raw materials, or quality control measures.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.45
     },
     {
-      "task": "Keep records of customers' charges and payments, ensuring accurate financial reporting.",
-      "task_type": "Core"
+      "task": "Confer with establishment personnel, vendors, or customers to coordinate production or shipping activities and to resolve complaints or eliminate delays.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.98
     },
     {
-      "task": "Interview credit applicants to obtain personal and financial data necessary for processing applications.",
-      "task_type": "Core"
+      "task": "Revise production schedules when required due to design changes, labor or material shortages, backlogs, or other interruptions, collaborating with management, marketing, sales, production, or engineering.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.29
     },
     {
-      "task": "Compile information about new accounts and enter it into computers for recordkeeping and analysis.",
-      "task_type": "Core"
+      "task": "Confer with department supervisors or other personnel to assess progress and discuss needed changes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.86
     },
     {
-      "task": "Contact credit bureaus and employers to check applicants' credit histories and personal references.",
-      "task_type": "Core"
+      "task": "Arrange for necessary repairs to restore service and schedules.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.38
     },
     {
-      "task": "Inform customers of procedures for applying for services, such as ATM cards and direct deposit of checks.",
-      "task_type": "Core"
+      "task": "Schedule or dispatch workers, work crews, equipment, or service vehicles to appropriate locations, according to customer requests, specifications, or needs, using radios or telephones.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.79
     },
     {
-      "task": "Obtain credit records from reporting agencies and investigate the credit standing of individuals or businesses applying for credit.",
-      "task_type": "Supplemental"
+      "task": "Advise personnel about traffic problems, such as construction areas, accidents, congestion, weather conditions, or other hazards.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.72
     },
     {
-      "task": "Monitor daily stock prices and compute fluctuations to determine the need for additional collateral for loans.",
-      "task_type": "Supplemental"
+      "task": "Relay work orders, messages, or information to or from work crews, supervisors, or field inspectors, using telephones or two-way radios.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.62
     },
     {
-      "task": "Prepare reports summarizing daily transactions and earnings for individual customer accounts, and maintain records of transactions and holdings.",
-      "task_type": "Supplemental"
+      "task": "Confer with customers or supervising personnel to address questions, problems, or requests for service or equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.65
     },
     {
-      "task": "Verify ownership and transaction information to ensure compliance with regulations, and correct errors upon customers' request.",
-      "task_type": "Supplemental"
+      "task": "Prepare daily work and run schedules.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.66
     },
     {
-      "task": "Answer questions and advise customers regarding loans and transactions, and communicate with customers to resolve account problems.",
-      "task_type": "Core"
+      "task": "Receive or prepare work orders.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.46
     },
     {
-      "task": "Authorize credit charges against customers' accounts and process applications to notify customers of acceptance or rejection of credit.",
-      "task_type": "Core"
+      "task": "Oversee all communications within specifically assigned territories.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.53
     },
     {
-      "task": "Prepare forms related to transaction requests, such as receipts and transfer confirmations, and schedule transfer and delivery of security certificates.",
-      "task_type": "Core"
+      "task": "Monitor personnel or equipment locations and utilization to coordinate service and schedules.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.37
     },
     {
-      "task": "Issue initial and replacement safe-deposit keys to customers, and supervise the admission of customers to vaults.",
-      "task_type": "Core"
+      "task": "Record and maintain files or records of customer requests, work or services performed, charges, expenses, inventory, or other dispatch information.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.39
     },
     {
-      "task": "Execute wire transfers of funds, perform teller duties as required, and maintain logs of daily operational activities.",
-      "task_type": "Core"
+      "task": "Determine types or amounts of equipment, vehicles, materials, or personnel required, according to work orders or specifications.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Order supplies or equipment and issue them to personnel.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.56
+    },
+    {
+      "task": "Collect product samples and prepare them for laboratory analysis or testing.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.76
+    },
+    {
+      "task": "Transport materials, products, or samples to processing, shipping, or storage areas, manually or using conveyors, pumps, or hand trucks.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
+    },
+    {
+      "task": "Examine products or materials, parts, subassemblies, and packaging for damage, defects, or shortages, using specification sheets, gauges, and standards charts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.27
+    },
+    {
+      "task": "Maintain, monitor, and clean work areas, such as recycling collection sites, drop boxes, counters and windows, and areas around scale houses.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.53
+    },
+    {
+      "task": "Remove from stock products or loads not meeting quality standards, and notify supervisors or appropriate departments of discrepancies or shortages.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Store samples of finished products in labeled cartons and record their location.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.26
+    },
+    {
+      "task": "Signal or instruct other workers to weigh, move, or check products.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.05
+    },
+    {
+      "task": "Sort products or materials into predetermined sequences or groupings for display, packing, shipping, or storage.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.71
+    },
+    {
+      "task": "Communicate with customers and vendors to exchange information regarding products, materials, and services.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Inspect products and examination records to determine the number of defects per worker and the reasons for examiners' rejections.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.33
+    },
+    {
+      "task": "Operate scalehouse computers to obtain weight information about incoming shipments such as those from waste haulers.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Weigh or measure materials, equipment, or products to maintain relevant records, using volume meters, scales, rules, or calipers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.41
+    },
+    {
+      "task": "Document quantity, quality, type, weight, test result data, and value of materials or products to maintain shipping, receiving, and production records and files.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.43
+    },
+    {
+      "task": "Collect or prepare measurement, weight, or identification labels and attach them to products.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Unload or unpack incoming shipments.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.26
+    },
+    {
+      "task": "Compute prices of items or groups of items.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.43
+    },
+    {
+      "task": "Requisition merchandise from supplier, based on available space, merchandise on hand, customer demand, or advertised specials.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.63
+    },
+    {
+      "task": "Determine proper storage methods, identification, and stock location, based on turnover, environmental factors, and physical capabilities of facilities.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.72
+    },
+    {
+      "task": "Operate equipment such as forklifts.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.17
+    },
+    {
+      "task": "Keep records of out-going orders.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.23
+    },
+    {
+      "task": "Clean and maintain supplies, tools, equipment, and storage areas to ensure compliance with safety regulations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.74
+    },
+    {
+      "task": "Dispose of damaged or defective items, or return them to vendors.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.67
+    },
+    {
+      "task": "Pack customer purchases in bags or cartons.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.93
+    },
+    {
+      "task": "Design and set up advertising signs and displays of merchandise on shelves, counters, or tables to attract customers and promote sales.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.6
+    },
+    {
+      "task": "Clean display cases, shelves, and aisles.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.85
+    },
+    {
+      "task": "Provide assistance or direction to other stockroom, warehouse, or storage yard workers.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.33
+    },
+    {
+      "task": "Issue or distribute materials, products, parts, and supplies to customers or coworkers, based on information from incoming requisitions.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.39
+    },
+    {
+      "task": "Take inventory or examine merchandise to identify items to be reordered or replenished.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.86
+    },
+    {
+      "task": "Mark stock items, using identification tags, stamps, electric marking tools, or other labeling equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.87
+    },
+    {
+      "task": "Transport packages to customers' vehicles.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.09
+    },
+    {
+      "task": "Itemize and total customer merchandise selection at checkout counter, using cash register, and accept cash or charge card for purchases.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.08
+    },
+    {
+      "task": "Stock shelves, racks, cases, bins, and tables with new or transferred merchandise.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.21
+    },
+    {
+      "task": "Keep records on the use or damage of stock or stock-handling equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.82
+    },
+    {
+      "task": "Stamp, attach, or change price tags on merchandise, referring to price list.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.14
+    },
+    {
+      "task": "Receive and count stock items, and record data manually or on computer.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.05
+    },
+    {
+      "task": "Answer customers' questions about merchandise and advise customers on merchandise selection.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.56
+    },
+    {
+      "task": "Store items in an orderly and accessible manner in warehouses, tool rooms, supply rooms, or other areas.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.92
+    },
+    {
+      "task": "Recommend disposal of excess, defective, or obsolete stock.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.64
+    },
+    {
+      "task": "Obtain merchandise from bins or shelves.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.1
+    },
+    {
+      "task": "Complete order receipts.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.69
+    },
+    {
+      "task": "Read orders to ascertain catalog numbers, sizes, colors, and quantities of merchandise.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.04
+    },
+    {
+      "task": "Compare shipping routes or methods to determine which have the least environmental impact.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.68
+    },
+    {
+      "task": "Examine shipment contents and compare with records, such as manifests, invoices, or orders, to verify accuracy.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.22
+    },
+    {
+      "task": "Pack, seal, label, or affix postage to prepare materials for shipping, using hand tools, power tools, or postage meter.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.0
+    },
+    {
+      "task": "Deliver or route materials to departments using handtruck, conveyor, or sorting bins.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.88
+    },
+    {
+      "task": "Determine shipping methods, routes, or rates for materials to be shipped.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.78
+    },
+    {
+      "task": "Prepare documents, such as work orders, bills of lading, or shipping orders, to route materials.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.05
+    },
+    {
+      "task": "Record shipment data, such as weight, charges, space availability, damages, or discrepancies, for reporting, accounting, or recordkeeping purposes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.96
+    },
+    {
+      "task": "Contact carrier representatives to make arrangements or to issue instructions for shipping and delivery of materials.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.81
+    },
+    {
+      "task": "Confer or correspond with establishment representatives to rectify problems, such as damages, shortages, or nonconformance to specifications.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.95
+    },
+    {
+      "task": "Requisition and store shipping materials and supplies to maintain inventory of stock.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.05
+    },
+    {
+      "task": "Compute amounts, such as space available, shipping, storage, or demurrage charges, using computer or price list.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.73
+    },
+    {
+      "task": "Organize or work with detailed office or warehouse records, using computers to enter, access, search or retrieve data.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.41
+    },
+    {
+      "task": "Transcribe data to worksheets, and enter data into computer for use in preparing documents and adjusting accounts.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.08
+    },
+    {
+      "task": "Prepare reports of findings and recommendations.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Perform clerical tasks, such as answering phones or distributing mail.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.01
+    },
+    {
+      "task": "Keep records of customers' charges and payments.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.54
+    },
+    {
+      "task": "Compose business correspondence for supervisors, managers, and professionals.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.69
+    },
+    {
+      "task": "Inform customers of procedures for applying for services, such as ATM cards, direct deposit of checks, and certificates of deposit.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.5
+    },
+    {
+      "task": "Obtain credit records from reporting agencies.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Monitor daily stock prices and compute fluctuations to determine the need for additional collateral to secure loans.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.03
+    },
+    {
+      "task": "File, type, or operate standard office machines.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.06
+    },
+    {
+      "task": "Verify ownership and transaction information and dividend distribution instructions to ensure conformance with governmental regulations, using stock records and reports.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.86
+    },
+    {
+      "task": "Prepare reports summarizing daily transactions and earnings for individual customer accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.65
+    },
+    {
+      "task": "Compute total holdings, dividends, interest, transfer taxes, brokerage fees, or commissions and allocate appropriate payments to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.8
+    },
+    {
+      "task": "Investigate and correct errors upon customers' request, according to customer and bank records.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.1
+    },
+    {
+      "task": "Answer questions and advise customers regarding loans and transactions.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.32
+    },
+    {
+      "task": "Prepare forms, such as receipts, withdrawal orders, transmittal papers, or transfer confirmations, based on transaction requests from stockholders.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.49
+    },
+    {
+      "task": "Schedule and coordinate transfer and delivery of security certificates between companies, departments, and customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.04
+    },
+    {
+      "task": "Correspond with customers and confer with coworkers to answer inquiries, discuss market fluctuations, or resolve account problems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.6
+    },
+    {
+      "task": "Issue initial and replacement safe-deposit keys to customers, and admit customers to vaults.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.06
+    },
+    {
+      "task": "Duplicate records for distribution to branch offices.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 2.69
+    },
+    {
+      "task": "Execute wire transfers of funds.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.08
+    },
+    {
+      "task": "Perform teller duties as required.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.61
+    },
+    {
+      "task": "Inventory supplies and requisition or purchase additional items, as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 3.99
+    },
+    {
+      "task": "Provide assistance in balancing books, tracking, monitoring, or projecting a unit's budget needs, and in developing unit policies and procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.07692307692307693,
+      "importance": 3.72
+    },
+    {
+      "task": "Prepare and maintain work records and reports of information such as employee time and wages, daily receipts, or inspection results.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.07
+    },
+    {
+      "task": "Maintain equipment storage areas to ensure that inventory is protected.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.48
+    },
+    {
+      "task": "Record numbers of units handled or moved, using daily production sheets or work tickets.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 4.02
+    },
+    {
+      "task": "Attach identifying tags to containers or mark them with identifying information.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 4.14
     }
   ],
   "technology_skills": [
@@ -1674,6 +2216,14 @@
       "weight": 1.3823565323565323
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 1.23003663003663
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 1.1578144078144077
+    },
+    {
       "name": "SAP software",
       "weight": 1.1323565323565323
     },
@@ -1682,8 +2232,16 @@
       "weight": 0.7602564102564102
     },
     {
+      "name": "Word processing software",
+      "weight": 0.7133699633699634
+    },
+    {
       "name": "Email software",
       "weight": 0.6642246642246642
+    },
+    {
+      "name": "Warehouse management system WMS",
+      "weight": 0.6323565323565323
     },
     {
       "name": "Oracle JD Edwards EnterpriseOne",
@@ -1696,6 +2254,10 @@
     {
       "name": "Microsoft Dynamics GP",
       "weight": 0.5444444444444444
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.5404761904761904
     },
     {
       "name": "Oracle Database",
@@ -1722,8 +2284,40 @@
       "weight": 0.4087301587301587
     },
     {
+      "name": "Google Docs",
+      "weight": 0.4087301587301587
+    },
+    {
       "name": "NetSuite ERP",
       "weight": 0.39285714285714285
+    },
+    {
+      "name": "ADi SmartBOL",
+      "weight": 0.35
+    },
+    {
+      "name": "Aestiva Purchase Order",
+      "weight": 0.35
+    },
+    {
+      "name": "Bill of lading software",
+      "weight": 0.35
+    },
+    {
+      "name": "DM2 Bills of Lading",
+      "weight": 0.35
+    },
+    {
+      "name": "Exact MAX",
+      "weight": 0.35
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.35
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.3333333333333333
     },
     {
       "name": "Oracle PeopleSoft",
@@ -1734,7 +2328,55 @@
       "weight": 0.2587301587301587
     },
     {
+      "name": "ABB Production Planning",
+      "weight": 0.25
+    },
+    {
       "name": "Accounting software",
+      "weight": 0.25
+    },
+    {
+      "name": "Accvision ABMIS",
+      "weight": 0.25
+    },
+    {
+      "name": "Airtable",
+      "weight": 0.25
+    },
+    {
+      "name": "Applied Software Technologies Asset Maintenance and Materials Management System",
+      "weight": 0.25
+    },
+    {
+      "name": "Asprova",
+      "weight": 0.25
+    },
+    {
+      "name": "Bills of lading software",
+      "weight": 0.25
+    },
+    {
+      "name": "Cost estimating software",
+      "weight": 0.25
+    },
+    {
+      "name": "ERP INDUSTRIOS Material Planning",
+      "weight": 0.25
+    },
+    {
+      "name": "Enterprise Logix",
+      "weight": 0.25
+    },
+    {
+      "name": "Epicor Vantage ERP",
+      "weight": 0.25
+    },
+    {
+      "name": "Exact Software Macola ES",
+      "weight": 0.25
+    },
+    {
+      "name": "Factory Edge MRP",
       "weight": 0.25
     },
     {
@@ -1742,7 +2384,79 @@
       "weight": 0.25
     },
     {
+      "name": "Geac MPC Production",
+      "weight": 0.25
+    },
+    {
+      "name": "Giraffe Production Systems Giraffe Schedule System",
+      "weight": 0.25
+    },
+    {
       "name": "Google Drive",
+      "weight": 0.25
+    },
+    {
+      "name": "Honeywell Wintress PACNet",
+      "weight": 0.25
+    },
+    {
+      "name": "Inetsoft",
+      "weight": 0.25
+    },
+    {
+      "name": "Ingenious ProPlan",
+      "weight": 0.25
+    },
+    {
+      "name": "Ingenious ProSched",
+      "weight": 0.25
+    },
+    {
+      "name": "InteProc Material Requirements Planning",
+      "weight": 0.25
+    },
+    {
+      "name": "Interwave Technology RS Bizware Scheduler",
+      "weight": 0.25
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.25
+    },
+    {
+      "name": "KAPES",
+      "weight": 0.25
+    },
+    {
+      "name": "LSA Visual DBR",
+      "weight": 0.25
+    },
+    {
+      "name": "LSA Visual Easy Lean",
+      "weight": 0.25
+    },
+    {
+      "name": "Lamar Info Net",
+      "weight": 0.25
+    },
+    {
+      "name": "MTI Systems Costimator JS",
+      "weight": 0.25
+    },
+    {
+      "name": "Made2Manage Supply Chain Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Maynard PlanStaff Manager",
+      "weight": 0.25
+    },
+    {
+      "name": "Micro Estimating FabPlan",
+      "weight": 0.25
+    },
+    {
+      "name": "MicroStrategy Report Services",
       "weight": 0.25
     },
     {
@@ -1754,8 +2468,128 @@
       "weight": 0.25
     },
     {
+      "name": "Microsoft OneNote",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.25
+    },
+    {
+      "name": "Niku Clarity",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Flow Manufacturing",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Manufacturing Scheduling",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Oracle Primavera Systems",
+      "weight": 0.25
+    },
+    {
+      "name": "PMC KanbanSIM",
+      "weight": 0.25
+    },
+    {
+      "name": "PRONTO Xi",
+      "weight": 0.25
+    },
+    {
+      "name": "Pelion manufacturing process optimization MPO software",
+      "weight": 0.25
+    },
+    {
+      "name": "Pivotal Z Prestige Scheduler",
+      "weight": 0.25
+    },
+    {
+      "name": "Preactor APS",
+      "weight": 0.25
+    },
+    {
+      "name": "Preactor Finite Capacity Scheduling",
+      "weight": 0.25
+    },
+    {
+      "name": "Production scheduling and planning software",
+      "weight": 0.25
+    },
+    {
+      "name": "QAD Adaptive ERP",
+      "weight": 0.25
+    },
+    {
+      "name": "Questek Humanis",
+      "weight": 0.25
+    },
+    {
+      "name": "RSS Solutions NaView",
+      "weight": 0.25
+    },
+    {
+      "name": "Rytech Software Small Business Inventory Control",
+      "weight": 0.25
+    },
+    {
       "name": "SAP Crystal Reports",
       "weight": 0.25
+    },
+    {
+      "name": "SYSPRO business software",
+      "weight": 0.25
+    },
+    {
+      "name": "Sage 300 Construction and Real Estate",
+      "weight": 0.25
+    },
+    {
+      "name": "Sage MAS 90 ERP",
+      "weight": 0.25
+    },
+    {
+      "name": "Sage Peachtree Premium Accounting for Manufacturing",
+      "weight": 0.25
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.25
+    },
+    {
+      "name": "Stratford Group INMASS/MRP",
+      "weight": 0.25
+    },
+    {
+      "name": "Work Technology WorkTech Time",
+      "weight": 0.25
+    },
+    {
+      "name": "Workbrain Employee Scheduling",
+      "weight": 0.25
+    },
+    {
+      "name": "Workbrain Time and Attendance",
+      "weight": 0.25
+    },
+    {
+      "name": "iCode Everest",
+      "weight": 0.25
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.23565323565323565
     },
     {
       "name": "Enterprise resource planning ERP software",
@@ -1770,6 +2604,82 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Air-Trak Cloudberry",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Command Alkon COMMANDconcrete",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computer aided dispatch software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computer aided dispatching auto routing software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital Gateway e-automate",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Dr. Dispatch",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Global positioning system GPS software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Locomotive distribution software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rail Traffic Track Warrant Control System",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Resource management software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Routing software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Situation resource tracking software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "TMW PowerSuite",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Transportation management software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Handheld computer device software",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Apple Safari",
+      "weight": 0.14761904761904762
+    },
+    {
       "name": "Microsoft Edge",
       "weight": 0.14761904761904762
     },
@@ -1778,7 +2688,19 @@
       "weight": 0.14761904761904762
     },
     {
+      "name": "Infor ERP Baan",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Infor XA",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Inventory software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Materials resource planning MRP software",
       "weight": 0.14285714285714285
     },
     {
@@ -1786,7 +2708,107 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Root cause analysis software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Eko",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ordering software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Voice picking software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "AES MailSTAR",
+      "weight": 0.1
+    },
+    {
+      "name": "Accuship Star System",
+      "weight": 0.1
+    },
+    {
+      "name": "Barcode labeling software",
+      "weight": 0.1
+    },
+    {
+      "name": "CMS Consultants WorldLink",
+      "weight": 0.1
+    },
+    {
+      "name": "Citrix cloud computing software",
+      "weight": 0.1
+    },
+    {
+      "name": "Dydacomp Mail Order Manager",
+      "weight": 0.1
+    },
+    {
       "name": "Electronic Data Interchange EDI systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Endicia Internet Postage",
+      "weight": 0.1
+    },
+    {
+      "name": "Enterprise Systems RFID Data Management",
+      "weight": 0.1
+    },
+    {
+      "name": "FedEx Ship Manager",
+      "weight": 0.1
+    },
+    {
+      "name": "Freight+",
+      "weight": 0.1
+    },
+    {
+      "name": "Harvey Software CPS",
+      "weight": 0.1
+    },
+    {
+      "name": "Infor ERP Visual",
+      "weight": 0.1
+    },
+    {
+      "name": "Kewill Clippership",
+      "weight": 0.1
+    },
+    {
+      "name": "Kewill Compliance Partner",
+      "weight": 0.1
+    },
+    {
+      "name": "Kewill Javelin Distribution Ship",
+      "weight": 0.1
+    },
+    {
+      "name": "Laser Substrates PostalXport",
+      "weight": 0.1
+    },
+    {
+      "name": "MSR Visual Exporter",
+      "weight": 0.1
+    },
+    {
+      "name": "MSR Visual Exporter Document Library",
+      "weight": 0.1
+    },
+    {
+      "name": "MSR Visual Exporter Enterprise Integrator",
+      "weight": 0.1
+    },
+    {
+      "name": "Pitney Bowes ShipStream Manager",
+      "weight": 0.1
+    },
+    {
+      "name": "Precision TRA/X",
       "weight": 0.1
     },
     {
@@ -1794,11 +2816,63 @@
       "weight": 0.1
     },
     {
+      "name": "ShipWorks",
+      "weight": 0.1
+    },
+    {
+      "name": "Shipping and freight management software",
+      "weight": 0.1
+    },
+    {
+      "name": "UPS Intelliverse",
+      "weight": 0.1
+    },
+    {
+      "name": "UPS WorldShip",
+      "weight": 0.1
+    },
+    {
+      "name": "Universal parcel shipping software",
+      "weight": 0.1
+    },
+    {
+      "name": "Varsity ShipSoft Supply Chain Execution Suite",
+      "weight": 0.1
+    },
+    {
+      "name": "WindowBook Postal Package Partner",
+      "weight": 0.1
+    },
+    {
+      "name": "Alpha Software Alpha Five",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Automated financial software",
       "weight": 0.08333333333333333
     },
     {
+      "name": "Automated information system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Automated underwriting software",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Billing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Bloomberg Professional",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Claim processing system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Corporate Information Factory CIF",
       "weight": 0.08333333333333333
     },
     {
@@ -1810,7 +2884,107 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "DCI iCore",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Encompass software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Equifax software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Experian software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fannie Mae Desktop Underwriter",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Financial accounting software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Financial needs analysis software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fiserv financial services software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "HEAT Software GoldMine",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Harland Financial Solutions DepositPro",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM Check Processing Control System CPSC",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IPS-Sendero Relationship Profitability Manager Catalyst",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "InSystems Calligo Enterprise",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Instant messaging software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Insurance rating software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Lending software systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Loan tracking software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "MicroFocus GroupWise",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Visual FoxPro",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Online trading software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Policy issuance system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Rockport Integrated Excel Underwriting",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Royal Alliance VISION2020 Core",
       "weight": 0.08333333333333333
     },
     {
@@ -1818,16 +2992,76 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Software AG Underwriting Solution",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Spreadsheet programs",
       "weight": 0.08333333333333333
+    },
+    {
+      "name": "St. Paul Travelers e-CARMA",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Systems Union Group MIS DecisionWare",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Transaction processing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "WiredRed Software e/pop Basic",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Xactware Xactimate",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Cargo tracking system software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "CompuWeigh GMS",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Employee scheduling software",
+      "weight": 0.07692307692307693
     },
     {
       "name": "Inventory control software",
       "weight": 0.07692307692307693
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 1.23003663003663
+      "name": "Linux",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Operational databases",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Sage ERP Accpac",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Time and attendance software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "FaceTime",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.047619047619047616
     }
   ],
   "tools_used": [
@@ -1838,6 +3072,10 @@
     {
       "name": "Desktop computers",
       "weight": 0.9617216117216117
+    },
+    {
+      "name": "Pallet jacks",
+      "weight": 0.46886446886446886
     },
     {
       "name": "Multi-line telephone systems",
@@ -1852,16 +3090,36 @@
       "weight": 0.35
     },
     {
+      "name": "Forklifts",
+      "weight": 0.34908424908424907
+    },
+    {
       "name": "Computer laser printers",
       "weight": 0.3482905982905983
+    },
+    {
+      "name": "Warehouse forklifts",
+      "weight": 0.3308913308913309
     },
     {
       "name": "Laser facsimile machines",
       "weight": 0.2912087912087912
     },
     {
+      "name": "Mobile radios",
+      "weight": 0.2912087912087912
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.288034188034188
+    },
+    {
       "name": "Copy machines",
       "weight": 0.2777777777777778
+    },
+    {
+      "name": "Cherry pickers",
+      "weight": 0.25396825396825395
     },
     {
       "name": "Scanners",
@@ -1872,6 +3130,10 @@
       "weight": 0.21978021978021978
     },
     {
+      "name": "Box cutters",
+      "weight": 0.2111111111111111
+    },
+    {
       "name": "Computer inkjet printers",
       "weight": 0.19444444444444442
     },
@@ -1880,11 +3142,35 @@
       "weight": 0.19444444444444442
     },
     {
+      "name": "Safety glasses",
+      "weight": 0.19047619047619047
+    },
+    {
+      "name": "Wire cutters",
+      "weight": 0.19047619047619047
+    },
+    {
       "name": "Barcode scanners",
       "weight": 0.18803418803418803
     },
     {
+      "name": "Electric hoists",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Stepladders",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Tape guns",
+      "weight": 0.18803418803418803
+    },
+    {
       "name": "Call management systems CMS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Job dispatch and vehicle tracking systems",
       "weight": 0.16666666666666666
     },
     {
@@ -1896,12 +3182,32 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Two way radios",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Voice over internet protocol VoIP systems",
       "weight": 0.16666666666666666
     },
     {
       "name": "Laptop computers",
       "weight": 0.16025641025641024
+    },
+    {
+      "name": "Conveyor belt systems",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Automatic bulk weighing systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Beam scales",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Belt conveyor scales",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Calculators",
@@ -1912,7 +3218,35 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Computerized scales",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Facial shields",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "High lifts",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hoists",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Industrial trucks",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Label printers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Order selectors",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Protective coveralls",
       "weight": 0.14285714285714285
     },
     {
@@ -1920,7 +3254,47 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Safety shoes",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Scissor lifts",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Two-way radios",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Banding machines",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Cardboard balers",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Dollies",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Hand saws",
+      "weight": 0.12454212454212454
+    },
+    {
       "name": "Handheld calculators",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Handtrucks",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Lift trucks",
       "weight": 0.12454212454212454
     },
     {
@@ -1928,7 +3302,67 @@
       "weight": 0.12454212454212454
     },
     {
+      "name": "Power hoists",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Utility knives",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Baling equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Convertible hand trucks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Conveyor belts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electric cash registers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electric marking tools",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electric pallet jacks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electronic cash registers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Handheld radio frequency RF scanners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hook knives",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Industrial forklifts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Industrial scissors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Label removers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Label scrapers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Labeling equipment",
       "weight": 0.1111111111111111
     },
     {
@@ -1936,7 +3370,111 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Lifting belts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Lifting platforms",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Manual pallet jacks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Manual shears",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Measuring tapes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Nailing hammers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Office intercom systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Packing material compactors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pallet tipper",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Personal digital assistants PDAs",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Power jacks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pricing guns",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Radio frequency RF scanner guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Remote data terminals",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rubber marking stamps",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Safety cutters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Shelf scrapers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Shipping scales",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sign printers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sit-down forklifts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Stand-up forklifts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Staple guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Strapping machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ticket-printing machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Utility tug trucks",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Warehouse dollies",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Wrapping equipment",
       "weight": 0.1111111111111111
     },
     {
@@ -1956,6 +3494,42 @@
       "weight": 0.1
     },
     {
+      "name": "High-speed/moving object scanning devices",
+      "weight": 0.1
+    },
+    {
+      "name": "Package scales",
+      "weight": 0.1
+    },
+    {
+      "name": "Pillow packing machines",
+      "weight": 0.1
+    },
+    {
+      "name": "Pneumatic box staplers",
+      "weight": 0.1
+    },
+    {
+      "name": "Postage meters",
+      "weight": 0.1
+    },
+    {
+      "name": "Radio frequency identification RFID devices",
+      "weight": 0.1
+    },
+    {
+      "name": "Reinforced tape dispensers",
+      "weight": 0.1
+    },
+    {
+      "name": "Shrink wrap packaging vacuums",
+      "weight": 0.1
+    },
+    {
+      "name": "Taping machines",
+      "weight": 0.1
+    },
+    {
       "name": "Computer data input scanners",
       "weight": 0.08333333333333333
     },
@@ -1964,7 +3538,15 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Dictation machines",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Document scanners",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electric typewriters",
       "weight": 0.08333333333333333
     },
     {
@@ -1972,7 +3554,159 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Forklift scales",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Glue guns",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Loading scales",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pancake scales",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pipe roller conveyors",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Programmable logic control PLC conveyor systems",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Protective respirators",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Pry bars",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Reach trucks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Riding pallet jacks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Scissor lift trucks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Stock pickers",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Walk behind pallet jacks",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Wheeled forklifts",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Adjustable hand wrenches",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Belt conveyor systems",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Channel lock pliers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Claw hanmers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Cordless drills",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Extension ladders",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Hex wrenches",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Horizontal balers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Jacks",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Lifting hooks",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Material compactors",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Material hoists",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Pallet transport trucks",
+      "weight": 0.047619047619047616
+    },
+    {
       "name": "Paper shredders",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Power lifts",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Protective ear muffs",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Slings",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Tractor-trailer trucks",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Utility work machines",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Water hoses",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Winches",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Work vans",
       "weight": 0.047619047619047616
     }
   ],

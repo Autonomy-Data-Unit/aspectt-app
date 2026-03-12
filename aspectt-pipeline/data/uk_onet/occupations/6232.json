@@ -1544,64 +1544,388 @@
   ],
   "tasks": [
     {
-      "task": "Direct patients in simple prescribed exercises or in the use of braces or artificial limbs.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Provide patients with help moving in and out of beds, baths, wheelchairs, or automobiles and with dressing and grooming.",
-      "task_type": "Core"
-    },
-    {
       "task": "Care for children with disabilities or who have sick parents or parents with disabilities.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.95
     },
     {
       "task": "Accompany clients to doctors' offices or on other trips outside the home, providing transportation, assistance, and companionship.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.76
     },
     {
-      "task": "Perform a variety of duties as requested by client, such as obtaining household supplies or running errands.",
-      "task_type": "Core"
+      "task": "Plan, purchase, prepare, or serve meals to patients or other family members, according to prescribed diets.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.04
     },
     {
-      "task": "Change dressings and administer prescribed oral medications under the direction of medical professionals.",
-      "task_type": "Core"
+      "task": "Provide patients and families with emotional support and instruction in areas such as caring for infants, preparing healthy meals, living independently, or adapting to disability or illness.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.9
     },
     {
-      "task": "Check patients' pulse, temperature, and respiration, and monitor their health status.",
-      "task_type": "Core"
+      "task": "Maintain records of patient care, condition, progress, or problems to report and discuss observations with supervisor or case manager.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.46
     },
     {
-      "task": "Plan, purchase, prepare, or serve meals to patients or family members, according to prescribed diets.",
-      "task_type": "Core"
+      "task": "Massage patients or apply preparations or treatments, such as liniment, alcohol rubs, or heat-lamp stimulation.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.31
     },
     {
-      "task": "Provide emotional support and instruction in areas such as caring for infants or adapting to disabilities.",
-      "task_type": "Core"
+      "task": "Recommend changes that could improve service and increase operational efficiency.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
     },
     {
-      "task": "Maintain records of patient care, progress, and observations to discuss with supervisors or case managers.",
-      "task_type": "Core"
+      "task": "Recommend or arrange for additional services, such as painting, repair work, renovations, and the replacement of furnishings and equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
     },
     {
-      "task": "Bathed patients and assist with their personal care, including hygiene and ambulation.",
-      "task_type": "Core"
+      "task": "Maintain required records of work hours, budgets, payrolls, and other information.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.16
     },
     {
-      "task": "Care for patients by changing bed linens, cleaning, and assisting with housekeeping tasks.",
-      "task_type": "Core"
+      "task": "Establish and implement operational standards and procedures for the departments supervised.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
     },
     {
-      "task": "Participate in case reviews to evaluate the client's needs and plan for continuing services.",
-      "task_type": "Core"
+      "task": "Evaluate employee performance and recommend personnel actions, such as promotions, transfers, and dismissals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
     },
     {
-      "task": "Provide clients with communication assistance, including typing correspondence and obtaining information.",
-      "task_type": "Core"
+      "task": "Perform healthcare-related tasks, such as monitoring vital signs and medication, under the direction of registered nurses or physiotherapists.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.46
+    },
+    {
+      "task": "Supervise in-house services, such as laundries, maintenance and repair, dry cleaning, or valet services.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
+    },
+    {
+      "task": "Forecast necessary levels of staffing and stock at different times to facilitate effective scheduling and ordering.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.2
+    },
+    {
+      "task": "Advise managers, desk clerks, or admitting personnel of rooms ready for occupancy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.37
+    },
+    {
+      "task": "Perform financial tasks, such as estimating costs and preparing and managing budgets.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Prepare reports on activity, personnel, and information, such as occupancy, hours worked, facility usage, work performed, and departmental expenses.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.03
+    },
+    {
+      "task": "Perform grounds maintenance tasks, such as removing snow and mowing the lawn.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.63
+    },
+    {
+      "task": "Check and maintain equipment to ensure that it is in working order.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.18
+    },
+    {
+      "task": "Administer bedside or personal care, such as ambulation or personal hygiene assistance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.65
+    },
+    {
+      "task": "Inspect and evaluate the physical condition of facilities to determine the type of work required.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.27
+    },
+    {
+      "task": "Issue supplies and equipment to workers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.21
+    },
+    {
+      "task": "Perform housekeeping duties, such as cooking, cleaning, washing clothes or dishes, or running errands.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Participate in case reviews, consulting with the team caring for the client, to evaluate the client's needs and plan for continuing services.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
+    },
+    {
+      "task": "Train family members to provide bedside care.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.56
     },
     {
       "task": "Direct activities for stopping the spread of infections in facilities, such as hospitals.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Coordinate activities with other departments to ensure that services are provided in an efficient and timely manner.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.12
+    },
+    {
+      "task": "Select the most suitable cleaning materials for different types of linens, furniture, flooring, and surfaces.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.39
+    },
+    {
+      "task": "Drive vans, industrial trucks, or other vehicles required to travel to, or to perform, cleaning work.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.43
+    },
+    {
+      "task": "Monitor building security and safety by performing tasks such as locking doors after operating hours or checking electrical appliance use to ensure that hazards are not created.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.2
+    },
+    {
+      "task": "Move heavy furniture, equipment, or supplies, either manually or with hand trucks.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.42
+    },
+    {
+      "task": "Make adjustments or minor repairs to heating, cooling, ventilating, plumbing, or electrical systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.49
+    },
+    {
+      "task": "Spray insecticides or fumigants to prevent insect or rodent infestation.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.36
+    },
+    {
+      "task": "Clean chimneys, flues, and connecting pipes, using power or hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.24
+    },
+    {
+      "task": "Dust furniture, walls, machines, or equipment.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.74
+    },
+    {
+      "task": "Set up, arrange, or remove decorations, tables, chairs, ladders, or scaffolding to prepare facilities for events, such as banquets or meetings.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.36
+    },
+    {
+      "task": "Steam-clean or shampoo carpets.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.03
+    },
+    {
+      "task": "Clean windows, glass partitions, or mirrors, using soapy water or other cleaners, sponges, or squeegees.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.8
+    },
+    {
+      "task": "Clean and polish furniture and fixtures.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.46
+    },
+    {
+      "task": "Service, clean, or supply restrooms.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.24
+    },
+    {
+      "task": "Gather and empty trash.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.23
+    },
+    {
+      "task": "Clean building floors by sweeping, mopping, scrubbing, or vacuuming.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.21
+    },
+    {
+      "task": "Follow procedures for the use of chemical cleaners and power equipment to prevent damage to floors and fixtures.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.15
+    },
+    {
+      "task": "Mix water and detergents or acids in containers to prepare cleaning solutions, according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.99
+    },
+    {
+      "task": "Strip, seal, finish, and polish floors.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.72
+    },
+    {
+      "task": "Notify managers concerning the need for major repairs or additions to building operating systems.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.2
+    },
+    {
+      "task": "Provide staff with assistance in performing difficult or complicated duties.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as hotel staff or hair stylists.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.05
+    },
+    {
+      "task": "Inform management about problems, such as employee disputes.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.97
+    },
+    {
+      "task": "Investigate employee complaints and resolve problems following management rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.13
+    },
+    {
+      "task": "Requisition necessary supplies, equipment, or services.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.71
+    },
+    {
+      "task": "Collaborate with staff members to plan or develop programs of events or schedules of activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.36
+    },
+    {
+      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.14
+    },
+    {
+      "task": "Train workers in proper operational procedures and functions and explain company policies.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.55
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.11
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.79
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.3
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.41
+    },
+    {
+      "task": "Take disciplinary action to address performance problems.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.23
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.93
+    },
+    {
+      "task": "Recruit and hire staff members.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.32
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.01
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1626,6 +1950,18 @@
       "weight": 0.45238095238095233
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.39610389610389607
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.3246753246753247
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.3246753246753247
+    },
+    {
       "name": "FaceTime",
       "weight": 0.30952380952380953
     },
@@ -1642,11 +1978,79 @@
       "weight": 0.24285714285714285
     },
     {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.18181818181818182
+    },
+    {
+      "name": "AIGHD OASIS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mi-Co software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Salesforce software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Appletree",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "August Systems Visit Wizard",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Computer reading software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computerized bed control system software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computerized maintenance management system CMMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Facility use software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Help desk software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "MEDITECH software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mi-Co Mi-Forms",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Project",
       "weight": 0.14285714285714285
     },
     {
@@ -1654,8 +2058,28 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.39610389610389607
+      "name": "Voltage SecureMail",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Squeegee",
+      "weight": 0.1
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1694,6 +2118,10 @@
     {
       "name": "Wheelchairs",
       "weight": 0.30952380952380953
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.24285714285714285
     },
     {
       "name": "Carpet shampooers",
@@ -1812,6 +2240,22 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Adjustable wrenches",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Alarm systems",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "All-terrain vacuums",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Auto scrubbers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Automatic blood pressure machines",
       "weight": 0.14285714285714285
     },
@@ -1832,11 +2276,31 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Building alarm systems",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Carpet steamers",
       "weight": 0.14285714285714285
     },
     {
       "name": "Cleaning scrapers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Commercial automatic floor scrubbers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Digital cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Digital video cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Dust masks",
       "weight": 0.14285714285714285
     },
     {
@@ -1848,11 +2312,47 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Flatwork ironers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Floor burnishers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Floor polishing machines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Floor scrubbing machines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hammers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Hearing aid devices",
       "weight": 0.14285714285714285
     },
     {
       "name": "Hydraulic tub seats",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Industrial clothes dryers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Industrial sewing machines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Industrial vacuum cleaners",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Light commercial washing machines",
       "weight": 0.14285714285714285
     },
     {
@@ -1868,6 +2368,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Mechanical vibrating massage devices",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Mop wringers",
       "weight": 0.14285714285714285
     },
@@ -1876,7 +2380,27 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Paging systems",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Patient lifting devices",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Power floor buffers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Powered floor washers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Pressure washers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Protective face shields",
       "weight": 0.14285714285714285
     },
     {
@@ -1888,11 +2412,19 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Screwdrivers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Shower chairs",
       "weight": 0.14285714285714285
     },
     {
       "name": "Specimen collection containers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Speech synthesizers",
       "weight": 0.14285714285714285
     },
     {
@@ -1904,7 +2436,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Steam pressers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Steam-operated sterilizers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Tablet computers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Telecommunication devices TDD",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Teletypewriters TTY",
       "weight": 0.14285714285714285
     },
     {
@@ -1920,6 +2468,90 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Washer extractors",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Wet-dry vacuums",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adjustable hand wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.1
+    },
+    {
+      "name": "Cordless drills",
+      "weight": 0.1
+    },
+    {
+      "name": "Dry mops",
+      "weight": 0.1
+    },
+    {
+      "name": "Equipment dollies",
+      "weight": 0.1
+    },
+    {
+      "name": "Extension ladders",
+      "weight": 0.1
+    },
+    {
+      "name": "Floor buffers",
+      "weight": 0.1
+    },
+    {
+      "name": "Floor strippers",
+      "weight": 0.1
+    },
+    {
+      "name": "Floor waxers",
+      "weight": 0.1
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.1
+    },
+    {
+      "name": "Hedge trimmers",
+      "weight": 0.1
+    },
+    {
+      "name": "Industrial vacuums",
+      "weight": 0.1
+    },
+    {
+      "name": "Insecticide sprayers",
+      "weight": 0.1
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.1
+    },
+    {
+      "name": "Power floor scrubbers",
+      "weight": 0.1
+    },
+    {
+      "name": "Power mowers",
+      "weight": 0.1
+    },
+    {
+      "name": "Protective ear plugs",
+      "weight": 0.1
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.1
+    },
+    {
+      "name": "Ride-on industrial vacuum cleaners",
+      "weight": 0.1
+    },
+    {
       "name": "Safety glasses",
       "weight": 0.1
     },
@@ -1928,11 +2560,35 @@
       "weight": 0.1
     },
     {
+      "name": "Snow blowers",
+      "weight": 0.1
+    },
+    {
+      "name": "Snow shovels",
+      "weight": 0.1
+    },
+    {
+      "name": "Steam cleaning equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.1
+    },
+    {
+      "name": "Window squeegees",
+      "weight": 0.1
+    },
+    {
       "name": "Computer laser printers",
       "weight": 0.08658008658008658
     },
     {
       "name": "Laptop computers",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Photocopying equipment",
       "weight": 0.08658008658008658
     },
     {

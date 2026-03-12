@@ -1544,88 +1544,874 @@
   ],
   "tasks": [
     {
-      "task": "Conduct environmental audits, inspections, or assessments to examine compliance with regulations and identify environmental impacts.",
-      "task_type": "Core"
+      "task": "Conduct environmental audits or inspections or investigations of violations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.64
     },
     {
-      "task": "Conduct applied research to understand the effects of industrial processes on environmental protection and species restoration.",
-      "task_type": "Supplemental"
+      "task": "Conduct applied research on the effects of industrial processes on the protection, restoration, inventory, monitoring, or reintroduction of species to the natural environment.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.8
     },
     {
-      "task": "Recommend methods to minimize environmental damage from industrial production practices and assess compliance with environmental standards.",
-      "task_type": "Core"
+      "task": "Recommend methods to protect the environment or minimize environmental damage from industrial production practices.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.77
     },
     {
-      "task": "Prepare technical and research reports on environmental impact, and communicate findings to stakeholders, including industry, government, and the public.",
-      "task_type": "Core"
+      "task": "Analyze changes designed to improve the environmental performance of complex systems and avoid unintended negative consequences.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.36
     },
     {
-      "task": "Develop and implement plans for managing renewable resources and conservation practices, such as soil management and water conservation.",
-      "task_type": "Core"
+      "task": "Apply new or existing research about natural ecosystems to understand economic and industrial systems in the context of the environment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.37
     },
     {
-      "task": "Plan or conduct studies on the ecological implications of industrial practices and develop strategies for sustainable use of natural resources.",
-      "task_type": "Core"
+      "task": "Examine societal issues and their relationship with both technical systems and the environment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.48
     },
     {
-      "task": "Monitor and analyze environmental impacts of pollution, development activities, and land degradation, recommending control methods.",
-      "task_type": "Core"
+      "task": "Identify environmental impacts caused by products, systems, or projects.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.41
     },
     {
-      "task": "Develop environmental education programs focused on parks and natural resources, and organize public events to raise awareness.",
-      "task_type": "Core"
+      "task": "Identify or compare the component parts or relationships between the parts of industrial, social, and natural systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.35
     },
     {
-      "task": "Identify and develop strategies for wildlife habitat management and restoration, including techniques for rangeland improvement.",
-      "task_type": "Core"
+      "task": "Identify sustainable alternatives to industrial or waste-management practices.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.23
     },
     {
-      "task": "Advise land users on sustainable practices for agriculture and ranching, including water management and forage production methods.",
-      "task_type": "Core"
+      "task": "Perform analyses to determine how human behavior can affect, and be affected by, changes in the environment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.86
     },
     {
-      "task": "Communicate scientific or technical information to the public or organizations through briefings, documents, workshops, and training sessions.",
-      "task_type": "Core"
+      "task": "Prepare plans to manage renewable resources.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.35
     },
     {
-      "task": "Provide scientific or technical guidance, support, or oversight to governmental agencies, environmental programs, or the public.",
-      "task_type": "Core"
+      "task": "Prepare technical and research reports, such as environmental impact reports, and communicate the results to individuals in industry, government, or the general public.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Forecast future status or condition of ecosystems, based on changing industrial practices or environmental conditions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.42
+    },
+    {
+      "task": "Build and maintain databases of information about energy alternatives, pollutants, natural environments, industrial processes, and other information related to ecological change.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Carry out environmental assessments in accordance with applicable standards, regulations, or laws.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.5
+    },
+    {
+      "task": "Research sources of pollution to determine environmental impact or to develop methods of pollution abatement or control.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.24
+    },
+    {
+      "task": "Develop natural resource management plans, using knowledge of environmental planning or central and devolved government environmental regulatory requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Develop environmental management or restoration plans for sites with power transmission lines, natural gas pipelines, fuel refineries, geothermal plants, wind farms, or solar farms.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.0
+    },
+    {
+      "task": "Create habitat management or restoration plans, such as native tree restoration and weed control.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.36
+    },
+    {
+      "task": "Conduct site assessments to certify a habitat or to ascertain environmental damage or restoration needs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.36
+    },
+    {
+      "task": "Investigate accidents affecting the environment to assess ecological impact.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.41
+    },
+    {
+      "task": "Investigate the adaptability of various animal and plant species to changed environmental conditions.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.15
+    },
+    {
+      "task": "Review industrial practices, such as the methods and materials used in construction or production, to identify potential liabilities and environmental hazards.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.38
+    },
+    {
+      "task": "Provide industrial managers with technical materials on environmental issues, regulatory guidelines, or compliance actions.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.89
+    },
+    {
+      "task": "Conduct scientific protection, mitigation, or restoration projects to prevent resource damage, maintain the integrity of critical habitats, and minimize the impact of human activities.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.47
+    },
+    {
+      "task": "Plan or conduct studies of the ecological implications of historic or projected changes in industrial processes or development.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.24
+    },
+    {
+      "task": "Plan or conduct field research on topics such as industrial production, industrial ecology, population ecology, and environmental production or sustainability.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.48
+    },
+    {
+      "task": "Monitor the environmental impact of development activities, pollution, or land degradation.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.91
+    },
+    {
+      "task": "Identify or develop strategies or methods to minimize the environmental impact of industrial production processes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.39
+    },
+    {
+      "task": "Investigate the impact of changed land management or land use practices on ecosystems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.05
+    },
+    {
+      "task": "Develop or test protocols to monitor ecosystem components and ecological processes.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.08
+    },
+    {
+      "task": "Create complex and dynamic mathematical models of population, community, or ecological systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.45
+    },
+    {
+      "task": "Promote use of environmental management systems (EMS) to reduce waste or to improve environmentally sound use of natural resources.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.1
+    },
+    {
+      "task": "Research environmental effects of land and water use to determine methods of improving environmental conditions or increasing outputs, such as crop yields.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.95
+    },
+    {
+      "task": "Communicate findings of environmental studies or proposals for environmental remediation to other restoration professionals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Review research literature to maintain knowledge on topics related to industrial ecology, such as physical science, technology, economy, and public policy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.17
+    },
+    {
+      "task": "Coordinate or implement technical, financial, or administrative assistance programs for local government units to ensure efficient program implementation or timely responses to requests for assistance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.82
+    },
+    {
+      "task": "Identify or recommend integrated weed and pest management (IPM) strategies, such as resistant plants, cultural or behavioral controls, soil amendments, insects, natural enemies, barriers, or pesticides.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.44
+    },
+    {
+      "task": "Review proposed wetland restoration easements or provide technical recommendations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.75
+    },
+    {
+      "task": "Develop, conduct, or participate in surveys, studies, or investigations of various land uses to inform corrective action plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.88
+    },
+    {
+      "task": "Manage field offices or involve staff in cooperative ventures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
+    },
+    {
+      "task": "Plan soil management or conservation practices, such as crop rotation, reforestation, permanent vegetation, contour plowing, or terracing, to maintain soil or conserve water.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
+    },
+    {
+      "task": "Initiate, schedule, or conduct annual audits or compliance checks of program implementation by local government.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.47
+    },
+    {
+      "task": "Develop water conservation or harvest plans, using weather information systems, irrigation information management systems, or other sources of daily evapotranspiration (ET) data.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.73
+    },
+    {
+      "task": "Review or approve amendments to comprehensive local water plans or conservation district plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.76
+    },
+    {
+      "task": "Develop or conduct environmental studies, such as plant material field trials or wildlife habitat impact studies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.35
+    },
+    {
+      "task": "Enter local soil, water, or other environmental data into adaptive or Web-based decision tools to identify appropriate analyses or techniques.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
+    },
+    {
+      "task": "Compile or interpret biodata to determine extent or type of wetlands or to aid in program formulation.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.8
+    },
+    {
+      "task": "Review annual reports of counties, conservation districts, or watershed management organizations, certifying compliance with mandated reporting requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.44
+    },
+    {
+      "task": "Review grant applications or make funding recommendations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.41
+    },
+    {
+      "task": "Develop soil maps.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.72
+    },
+    {
+      "task": "Write grants to obtain funding for restoration projects.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
+    },
+    {
+      "task": "Train staff on park programs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
+    },
+    {
+      "task": "Analyze results of investigations to determine measures needed to maintain or restore proper soil management.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.9
+    },
+    {
+      "task": "Provide information, knowledge, expertise, or training to government agencies at all levels to solve water or soil management problems or to assure coordination of resource protection activities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.95
+    },
+    {
+      "task": "Compute cost estimates of different conservation practices, based on needs of land users, maintenance requirements, or life expectancy of practices.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.05
+    },
+    {
+      "task": "Monitor projects during or after construction to ensure projects conform to design specifications.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
+    },
+    {
+      "task": "Plan and organize public events at the park.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Develop environmental educational programs and curricula for schools.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.77
+    },
+    {
+      "task": "Regulate grazing, such as by issuing permits and checking for compliance with standards, and help ranchers plan and organize grazing systems to manage, improve, protect, and maximize the use of rangelands.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.23
+    },
+    {
+      "task": "Coordinate with central government land managers and other agencies and organizations to manage and protect rangelands.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.01
+    },
+    {
+      "task": "Implement soil or water management techniques, such as nutrient management, erosion control, buffers, or filter strips, in accordance with conservation plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Advise land users, such as farmers or ranchers, on plans, problems, or alternative conservation solutions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Visit areas affected by erosion problems to identify causes or determine solutions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.95
+    },
+    {
+      "task": "Respond to complaints or questions on wetland jurisdiction, providing information or clarification.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
+    },
+    {
+      "task": "Develop or maintain working relationships with local government staff or board members.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Apply principles of specialized fields of science, such as agronomy, soil science, forestry, or agriculture, to achieve conservation objectives.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.48
+    },
+    {
+      "task": "Gather information from geographic information systems (GIS) databases or applications to formulate land use recommendations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
+    },
+    {
+      "task": "Compute design specifications for implementation of conservation practices, using survey or field information, technical guides or engineering manuals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.15
+    },
+    {
+      "task": "Participate on work teams to plan, develop, or implement programs or policies for improving environmental habitats, wetlands, or groundwater or soil resources.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
+    },
+    {
+      "task": "Conduct fact-finding or mediation sessions among government units, landowners, or other agencies to resolve disputes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.28
+    },
+    {
+      "task": "Revisit land users to view implemented land use practices or plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Conduct environmental impact studies to examine the ecological effects of pollutants, disease, human activities, nature, and climate change.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.48
+    },
+    {
+      "task": "Evaluate violations or problems discovered during inspections to determine appropriate regulatory actions or to provide advice on the development and prosecution of regulatory cases.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.66
+    },
+    {
+      "task": "Develop technical standards and specifications used to manage, protect, and improve the natural resources of range lands and related grazing lands.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.6
+    },
+    {
+      "task": "Plan, organize and direct activities of seasonal staff members.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Perform routine maintenance on park structures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.07
+    },
+    {
+      "task": "Prepare brochures and write newspaper articles.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.42
+    },
+    {
+      "task": "Construct historical, scientific, and nature visitor-center displays.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.59
+    },
+    {
+      "task": "Research stories regarding the area's natural history or environment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.55
+    },
+    {
+      "task": "Interview specialists in desired fields to obtain and develop data for park information programs.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.95
+    },
+    {
+      "task": "Compile and maintain official park photographic and information files.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.25
+    },
+    {
+      "task": "Take photographs and motion pictures for use in lectures and publications and to develop displays.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.14
+    },
+    {
+      "task": "Survey park to determine forest conditions and distribution and abundance of fauna and flora.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.85
+    },
+    {
+      "task": "Plan and develop audio-visual devices for public programs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.1
+    },
+    {
+      "task": "Measure and assess vegetation resources for biological assessment companies, environmental impact statements, and rangeland monitoring programs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.89
+    },
+    {
+      "task": "Maintain soil stability and vegetation for non-grazing uses, such as wildlife habitats and outdoor recreation.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.89
+    },
+    {
+      "task": "Mediate agreements among rangeland users and preservationists as to appropriate land use and management.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.71
+    },
+    {
+      "task": "Manage forage resources through fire, herbicide use, or revegetation to maintain a sustainable yield from the land.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.06
+    },
+    {
+      "task": "Study rangeland management practices and research range problems to provide sustained production of forage, livestock, and wildlife.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.66
+    },
+    {
+      "task": "Offer advice to rangeland users on water management, forage production methods, and control of brush.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.77
+    },
+    {
+      "task": "Plan and direct construction and maintenance of range improvements, such as fencing, corrals, stock-watering reservoirs, and soil-erosion control structures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.73
+    },
+    {
+      "task": "Assist with operations of general facilities, such as visitor centers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.25
+    },
+    {
+      "task": "Confer with park staff to determine subjects and schedules for park programs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.03
+    },
+    {
+      "task": "Perform emergency duties to protect human life, government property, and natural features of park.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.84
+    },
+    {
+      "task": "Review and implement environmental technical standards, guidelines, policies, and formal regulations that meet all appropriate requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Provide advice on proper standards and regulations or the development of policies, strategies, or codes of practice for environmental management.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.51
+    },
+    {
+      "task": "Analyze data to determine validity, quality, and scientific significance and to interpret correlations between human activities and environmental effects.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.53
+    },
+    {
+      "task": "Determine data collection methods to be employed in research projects or surveys.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.2
+    },
+    {
+      "task": "Develop the technical portions of legal documents, administrative orders, or consent decrees.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.47
+    },
+    {
+      "task": "Develop programs designed to obtain the most productive, non-damaging use of land.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.92
+    },
+    {
+      "task": "Prepare and present illustrated lectures and interpretive talks about park features.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Monitor effects of pollution or land degradation and recommend means of prevention or control.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Design or direct studies to obtain technical environmental information about planned projects.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.38
+    },
+    {
+      "task": "Develop methods to minimize the impact of production processes on the environment, based on the study and assessment of industrial production, environmental legislation, and physical, biological, and social environments.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.84
+    },
+    {
+      "task": "Plan or develop research models, using knowledge of mathematical and statistical concepts.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.84
+    },
+    {
+      "task": "Provide visitor services, such as explaining regulations, answering visitor requests, needs and complaints, and providing information about the park and surrounding areas.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.63
+    },
+    {
+      "task": "Conduct field trips to point out scientific, historic, and natural features of parks, forests, historic sites, or other attractions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
+    },
+    {
+      "task": "Tailor conservation plans to landowners' goals, such as livestock support, wildlife, or recreation.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.62
+    },
+    {
+      "task": "Study grazing patterns to determine number and kind of livestock that can be most profitably grazed and to determine the best grazing seasons.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.8
+    },
+    {
+      "task": "Conduct feasibility and cost-benefit studies for environmental remediation projects.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.65
+    },
+    {
+      "task": "Plan and implement revegetation of disturbed sites.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.38
+    },
+    {
+      "task": "Research policies, practices, or procedures for climate or environmental management.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Propose new or modified policies involving use of traditional and alternative fuels, transportation of goods, and other factors relating to climate and climate change.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
+    },
+    {
+      "task": "Analyze and distill climate-related research findings to inform legislators, regulatory agencies, or other stakeholders.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
+    },
+    {
+      "task": "Notify regulatory or permitting agencies of deviations from implemented remediation plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
+    },
+    {
+      "task": "Develop environmental restoration project schedules and budgets.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
+    },
+    {
+      "task": "Create diagrams to communicate environmental remediation planning, using geographic information systems (GIS), computer-aided design (CAD), or other mapping or diagramming software.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.22
+    },
+    {
+      "task": "Apply for permits required for the implementation of environmental remediation projects.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Review existing environmental remediation designs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.71
+    },
+    {
+      "task": "Supervise and provide technical guidance, training, or assistance to employees working in the field to restore habitats.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.18
+    },
+    {
+      "task": "Provide technical direction on environmental planning to energy engineers, biologists, geologists, or other professionals working to develop restoration plans or strategies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.41
+    },
+    {
+      "task": "Plan or supervise environmental studies to achieve compliance with environmental regulations in construction, modification, operation, acquisition, or divestiture of facilities such as power plants.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
+    },
+    {
+      "task": "Inspect active remediation sites to ensure compliance with environmental or safety policies, standards, or regulations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Plan environmental restoration projects, using biological databases, environmental strategies, and planning software.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.18
+    },
+    {
+      "task": "Identify short- and long-term impacts of environmental remediation activities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.8
+    },
+    {
+      "task": "Identify environmental mitigation alternatives, ensuring compliance with applicable standards, laws, or regulations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.9
+    },
+    {
+      "task": "Make legislative recommendations related to climate change or environmental management, based on climate change policies, principles, programs, practices, and processes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.27
+    },
+    {
+      "task": "Prepare study reports, memoranda, briefs, testimonies, or other written materials to inform government or environmental groups on environmental issues, such as climate change.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
+    },
+    {
+      "task": "Provide analytical support for policy briefs related to renewable energy, energy efficiency, or climate change.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.78
+    },
+    {
+      "task": "Supervise or train students, environmental technologists, technicians, or other related staff.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.39
+    },
+    {
+      "task": "Study forage plants and their growth requirements to determine varieties best suited to particular range.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.13
+    },
+    {
+      "task": "Develop methods for protecting range from fire and rodent damage and for controlling poisonous plants.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.35
+    },
+    {
+      "task": "Develop new and improved instruments and techniques for activities, such as range reseeding.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.88
+    },
+    {
+      "task": "Collect, synthesize, analyze, manage, and report environmental data, such as pollution emission measurements, atmospheric monitoring measurements, meteorological or mineralogical information, or soil or water samples.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.8
+    },
+    {
+      "task": "Communicate scientific or technical information to the public, organizations, or internal audiences through oral briefings, written documents, workshops, conferences, training sessions, or public hearings.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.06
+    },
+    {
+      "task": "Provide scientific or technical guidance, support, coordination, or oversight to governmental agencies, environmental programs, industry, or the public.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.72
     },
     {
       "task": "Process and review environmental permits, licenses, or related materials.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.64
     },
     {
-      "task": "Conduct applied research on environmental topics, including waste control and pollution abatement methods.",
-      "task_type": "Supplemental"
+      "task": "Conduct applied research on environmental topics, such as waste control or treatment or pollution abatement methods.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 2.99
     },
     {
-      "task": "Review existing policies or legislation to identify their environmental impacts.",
-      "task_type": "Core"
+      "task": "Review existing policies or legislation to identify environmental impacts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
     },
     {
-      "task": "Write reports or academic papers to communicate findings of climate-related studies and research.",
-      "task_type": "Core"
+      "task": "Promote initiatives to mitigate climate change with government or environmental groups.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
     },
     {
-      "task": "Promote initiatives to mitigate climate change in collaboration with government or environmental groups.",
-      "task_type": "Core"
+      "task": "Prepare grant applications to obtain funding for programs related to climate change, environmental management, or sustainability.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.55
     },
     {
-      "task": "Present climate-related information at public interest or governmental meetings.",
-      "task_type": "Core"
+      "task": "Gather and review climate-related studies from government agencies, research laboratories, and other organizations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
     },
     {
-      "task": "Prepare grant applications to obtain funding for climate change or environmental management programs.",
-      "task_type": "Core"
+      "task": "Develop, or contribute to the development of, educational or outreach programs on the environment or climate change.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
     },
     {
-      "task": "Gather and review climate-related studies from government agencies and research laboratories.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Develop educational or outreach programs on the environment or climate change.",
-      "task_type": "Core"
+      "task": "Provide care for park program animals.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.4
     }
   ],
   "technology_skills": [
@@ -1670,12 +2456,24 @@
       "weight": 0.7142857142857142
     },
     {
+      "name": "Autodesk AutoCAD",
+      "weight": 0.5714285714285714
+    },
+    {
       "name": "Email software",
       "weight": 0.5714285714285714
     },
     {
       "name": "Microsoft Outlook",
       "weight": 0.5714285714285714
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.42857142857142855
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.42857142857142855
     },
     {
       "name": "Geographic information system GIS software",
@@ -1686,11 +2484,39 @@
       "weight": 0.42857142857142855
     },
     {
+      "name": "Linux",
+      "weight": 0.42857142857142855
+    },
+    {
+      "name": "Microsoft Windows",
+      "weight": 0.42857142857142855
+    },
+    {
       "name": "Python",
       "weight": 0.42857142857142855
     },
     {
+      "name": "SAS",
+      "weight": 0.42857142857142855
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 0.42857142857142855
+    },
+    {
+      "name": "C++",
+      "weight": 0.2857142857142857
+    },
+    {
       "name": "ESRI ArcInfo",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "ESRI ArcView",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Facebook",
       "weight": 0.2857142857142857
     },
     {
@@ -1698,7 +2524,67 @@
       "weight": 0.2857142857142857
     },
     {
+      "name": "Microsoft Dynamics",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Oracle Java",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Perl",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "R",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Sun Microsystems Java",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "UNIX",
+      "weight": 0.2857142857142857
+    },
+    {
       "name": "ADMS pollution modeling software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Aquatic Plant Information Retrieval System APIRS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Atlassian JIRA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Autodesk AutoCAD Civil 3D",
       "weight": 0.14285714285714285
     },
     {
@@ -1706,11 +2592,303 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "BehavePlus",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Bentley MicroStation",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "C#",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CAP88-PC",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CERC EMIT",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Chemical management tracking software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Chemicals and Irrigation CANDI",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Clark Labs IDRISI Selva",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Community Climate System Model CCSM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Compass software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Corel CorelDraw Graphics Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CorridorDesigner",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CroPMan",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CropSyst Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "DQO ELIPGRID-PC",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Data mining software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "DataPipe EHS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Database software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Datasurge GEOPRO",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Debugging software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Delft GeoSystems MStab",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "ESRI ArcMap",
       "weight": 0.14285714285714285
     },
     {
+      "name": "ESRI software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ESSA Technologies Path Landscape Model",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ESSA TechnologiesTool for Exploratory Landscape Scenario Analyses TELSA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "EarthSoft EQuIS Geology",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Economic Input-Output Life Cycle Assessment EIO-LCA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ecotech WinAQMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ecotech WinCollect",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Emissions tracking software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FARSITE",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FEAT/Firemon integrated FFI",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Ferret",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fire Spread Probability FSPro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FlamMap",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Formula translation/translator FORTRAN",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fuel Characteristic Classification System FCCS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "GEO-SLOPE SEEP/W",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "GFA2D",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "GNU Image Manipulation Program GIMP",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Geographic resources analysis support system GRASS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Geomechanical design analysis GDA software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Git",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Golden Software Surfer",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Grid analysis and display system GrADS",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "HEC-RAS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "HYDRUS-2D",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hotspot",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "IWR-PLAN",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Interface definition language IDL",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Interstudio Geo-Tec B",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Laboratory information management system LIMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Lakes Environmental EcoRisk View",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Lakes Environmental Emissions View",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Lakes Environmental ISC-AERMOD View",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Lakes Environmental SLAB View",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Landscape Management System LMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Leica Geosystems ERDAS IMAGINE",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Link Microtek",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "MIRS Compliance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Material safety data sheet MSDS software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "MicroFocus GroupWise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Dynamics AX",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Dynamics CRM",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Great Plains Personal Data Keeper",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Visual Studio",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mitre Software GSLOPE",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "NCAR Command Language NCL",
       "weight": 0.14285714285714285
     },
     {
@@ -1726,7 +2904,151 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "NoSQL",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "North American Regional Climate Change Assessment Program NARCCAP data tables",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Online databases",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PRe Consultants SimaPro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Parbat",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Production Flow Analysis and Simplification Toolkit PFAST",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Productivity software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "RSAC Riparian Mapping Tool",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "RockWare ArcMap",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "STATISTICA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Salix Applied Earthcare Erosion Draw",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Satellite image databases",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Smart Data Solutions RS Solutions",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SmugMug Flickr",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SoundPLAN",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Spreadsheet software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "StataCorp Stata",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "State Soil Geographic STATSGO Database",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Statistical software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Structure query language SQL",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Studio of Analytical Models STANMOD",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Substance Flow Analysis STAN",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "TANKS",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "The Nature Conservancy Weed Information Management System WIMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Unidata Integrated Data Viewer IDV",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Unidata Network common data form NetCDF",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "United Nations Food and Agriculture Organization Livestock and Environment Toolbox LEAD",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "University of Arizona RangeView",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Viper Tools",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Water Soil and Hydro-Environmental Decision Support System WATERSHEDSS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Water resources databases",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "WinEPIC",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Wolfel IMMI",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Wolfram Research Mathematica",
       "weight": 0.14285714285714285
     }
   ],
@@ -1828,6 +3150,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Automated external defibrillators AED",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Automatic samplers",
       "weight": 0.14285714285714285
     },
@@ -1841,10 +3167,6 @@
     },
     {
       "name": "Boat trailers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Bomb samplers",
       "weight": 0.14285714285714285
     },
     {
@@ -1873,6 +3195,10 @@
     },
     {
       "name": "Chlorine meters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Claw hammers",
       "weight": 0.14285714285714285
     },
     {
@@ -1953,6 +3279,10 @@
     },
     {
       "name": "Electromagnetic field EMF meters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Electronic cash registers",
       "weight": 0.14285714285714285
     },
     {
@@ -2088,6 +3418,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Law enforcement handguns",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Lead air sampling kits",
       "weight": 0.14285714285714285
     },
@@ -2125,6 +3459,10 @@
     },
     {
       "name": "Mercury monitors",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mobile radios",
       "weight": 0.14285714285714285
     },
     {
@@ -2192,6 +3530,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Phillips screwdrivers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Photoionization detectors PID",
       "weight": 0.14285714285714285
     },
@@ -2201,6 +3543,10 @@
     },
     {
       "name": "Pocket personal computers PC",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Point of sale POS computer terminals",
       "weight": 0.14285714285714285
     },
     {
@@ -2285,6 +3631,10 @@
     },
     {
       "name": "Stormwater samplers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Straight screwdrivers",
       "weight": 0.14285714285714285
     },
     {

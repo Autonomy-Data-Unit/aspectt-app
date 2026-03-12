@@ -1544,72 +1544,238 @@
   ],
   "tasks": [
     {
-      "task": "Provide customer service by greeting and assisting customers and responding to inquiries and complaints.",
-      "task_type": "Core"
+      "task": "Provide customer service by greeting and assisting customers and responding to customer inquiries and complaints.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.7
     },
     {
-      "task": "Instruct staff on handling difficult and complicated sales and supervise their sales activities to ensure satisfactory service and quality goods.",
-      "task_type": "Core"
+      "task": "Instruct staff on how to handle difficult and complicated sales.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.3
     },
     {
-      "task": "Plan, coordinate, and evaluate advertising campaigns and sales promotions, including preparing merchandise displays.",
-      "task_type": "Supplemental"
+      "task": "Monitor sales activities to ensure that customers receive satisfactory service and quality goods.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.37
     },
     {
-      "task": "Confer with company officials to develop methods to increase sales, expand markets, and promote business.",
-      "task_type": "Core"
+      "task": "Establish credit policies and operating procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.11
     },
     {
-      "task": "Review inventory and sales records to prepare management reports and plan budgets, including establishing credit policies and authorizing payments.",
-      "task_type": "Core"
+      "task": "Confer with company officials to develop methods and procedures to increase sales, expand markets, and promote business.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.67
     },
     {
-      "task": "Examine merchandise for correct pricing, display, and functionality, and assess products for resale or storage.",
-      "task_type": "Core"
+      "task": "Plan and coordinate advertising campaigns and sales promotions and prepare merchandise displays and advertising copy.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.19
     },
     {
-      "task": "Estimate consumer demand to determine types and amounts of goods to be sold and formulate pricing policies based on profitability requirements.",
-      "task_type": "Supplemental"
+      "task": "Review inventory and sales records to prepare reports for management and budget departments.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.17
     },
     {
-      "task": "Keep records of employee work schedules and assign specific duties to staff while planning and preparing their work schedules.",
-      "task_type": "Core"
+      "task": "Plan and prepare work schedules and keep records of employees' work schedules and time cards.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.17
     },
     {
-      "task": "Direct and supervise employees engaged in sales, maintaining safety, health, and security rules.",
-      "task_type": "Core"
+      "task": "Examine merchandise to ensure that it is correctly priced and displayed and that it functions as advertised.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.38
     },
     {
-      "task": "Deliver sales presentations or solicit donations and sales over the telephone, responding to customer inquiries effectively.",
-      "task_type": "Core"
+      "task": "Estimate consumer demand and determine the types and amounts of goods to be sold.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.86
     },
     {
-      "task": "Record customer information and interactions, including names, addresses, purchases, and follow-up correspondence.",
-      "task_type": "Core"
+      "task": "Establish and implement policies, goals, objectives, and procedures for the department.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.13
     },
     {
-      "task": "Monitor suppliers and direct budget activities to ensure efficiency and effectiveness within budgetary limits.",
-      "task_type": "Core"
+      "task": "Examine products purchased for resale or received for storage to assess the condition of each product or item.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.04
     },
     {
-      "task": "Direct administrative activities related to product sales and services, overseeing departmental policies and objectives.",
-      "task_type": "Core"
+      "task": "Enforce safety, health, and security rules.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.02
     },
     {
-      "task": "Perform personnel functions such as hiring, training, or evaluating staff in sales or marketing.",
-      "task_type": "Core"
+      "task": "Keep records of purchases, sales, and requisitions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.19
     },
     {
-      "task": "Plan activities and reports concerning sales promotions that require coordination with other department managers.",
-      "task_type": "Core"
+      "task": "Inventory stock and reorder when inventory drops to a specified level.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.16
     },
     {
-      "task": "Review financial statements and sales activity reports to measure productivity and identify areas for improvement.",
-      "task_type": "Core"
+      "task": "Direct and supervise employees engaged in sales, inventory-taking, reconciling cash receipts, or in performing services for customers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.56
     },
     {
-      "task": "Implement sustainability initiatives and oversee merchandise layouts and displays to improve customer experience.",
-      "task_type": "Supplemental"
+      "task": "Assign employees to specific duties.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.27
+    },
+    {
+      "task": "Perform work activities of subordinates, such as cleaning and organizing shelves and displays and selling merchandise.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.18
+    },
+    {
+      "task": "Deliver prepared sales talks, reading from scripts that describe products or services, to persuade potential customers to purchase a product or service or to make a donation.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.42
+    },
+    {
+      "task": "Adjust sales scripts to better target the needs and interests of specific individuals.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.45
+    },
+    {
+      "task": "Obtain customer information such as name, address, and payment method, and enter orders into computers.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.66
+    },
+    {
+      "task": "Contact businesses or private individuals by telephone to solicit sales for goods or services, or to request donations for charitable causes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.75
+    },
+    {
+      "task": "Maintain records of contacts, accounts, and orders.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.56
+    },
+    {
+      "task": "Telephone or write letters to respond to correspondence from customers or to follow up initial sales contacts.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.3
+    },
+    {
+      "task": "Answer telephone calls from potential customers who have been solicited through advertisements.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.43
+    },
+    {
+      "task": "Schedule appointments for sales representatives to meet with prospective customers or for customers to attend sales presentations.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.67
+    },
+    {
+      "task": "Conduct client or market surveys to obtain information about potential customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.33
+    },
+    {
+      "task": "Obtain names and telephone numbers of potential customers from sources such as telephone directories, magazine reply cards, and lists purchased from other organizations.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.11
+    },
+    {
+      "task": "Monitor suppliers to ensure that they efficiently and effectively provide needed goods or services within budgetary limits.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 3.44
+    },
+    {
+      "task": "Direct or coordinate financial or budget activities to fund operations, maximize investments, or increase efficiency.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 3.9
+    },
+    {
+      "task": "Perform personnel functions, such as selection, training, or evaluation.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 3.79
+    },
+    {
+      "task": "Plan or direct activities, such as sales promotions, that require coordination with other department managers.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 3.83
+    },
+    {
+      "task": "Set prices or credit terms for goods or services, based on forecasts of customer demand.",
+      "task_type": "Supplemental",
+      "relevance": 0.05555555555555555,
+      "importance": 4.01
+    },
+    {
+      "task": "Recommend locations for new facilities, or oversee the remodeling or renovating of current facilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.05555555555555555,
+      "importance": 2.79
+    },
+    {
+      "task": "Review financial statements, sales or activity reports, or other performance data to measure productivity or goal achievement or to identify areas needing cost reduction or program improvement.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 4.18
+    },
+    {
+      "task": "Implement or oversee environmental management or sustainability programs addressing issues such as recycling, conservation, or waste management.",
+      "task_type": "Supplemental",
+      "relevance": 0.05555555555555555,
+      "importance": 3.1
+    },
+    {
+      "task": "Plan store layouts or design displays.",
+      "task_type": "Supplemental",
+      "relevance": 0.05555555555555555,
+      "importance": 2.92
+    },
+    {
+      "task": "Direct non-merchandising departments of businesses, such as advertising or purchasing.",
+      "task_type": "Supplemental",
+      "relevance": 0.05555555555555555,
+      "importance": 3.53
+    },
+    {
+      "task": "Direct and coordinate activities of businesses or departments concerned with the production, pricing, sales, or distribution of products.",
+      "task_type": "Core",
+      "relevance": 0.05555555555555555,
+      "importance": 4.14
     }
   ],
   "technology_skills": [
@@ -1646,7 +1812,23 @@
       "weight": 0.5555555555555556
     },
     {
+      "name": "Adobe Photoshop",
+      "weight": 0.5555555555555556
+    },
+    {
       "name": "Facebook",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Google Ads",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Google Analytics",
       "weight": 0.5555555555555556
     },
     {
@@ -1662,11 +1844,27 @@
       "weight": 0.5555555555555556
     },
     {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.5555555555555556
+    },
+    {
       "name": "Inventory management software",
       "weight": 0.5555555555555556
     },
     {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 0.5555555555555556
+    },
+    {
       "name": "LinkedIn",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "MicroStrategy",
       "weight": 0.5555555555555556
     },
     {
@@ -1686,11 +1884,47 @@
       "weight": 0.5555555555555556
     },
     {
+      "name": "Microsoft Visio",
+      "weight": 0.5555555555555556
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.5555555555555556
     },
     {
       "name": "Mozilla Firefox",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Oracle Fusion Applications",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Oracle Taleo",
       "weight": 0.5555555555555556
     },
     {
@@ -1702,11 +1936,27 @@
       "weight": 0.5555555555555556
     },
     {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.5555555555555556
+    },
+    {
       "name": "Sage 50 Accounting",
       "weight": 0.5555555555555556
     },
     {
       "name": "Social media sites",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.5555555555555556
+    },
+    {
+      "name": "Teradata Database",
       "weight": 0.5555555555555556
     },
     {
@@ -1718,6 +1968,14 @@
       "weight": 0.5
     },
     {
+      "name": "Adobe Illustrator",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.5
+    },
+    {
       "name": "Apple Safari",
       "weight": 0.5
     },
@@ -1726,11 +1984,63 @@
       "weight": 0.5
     },
     {
+      "name": "Bibase 4POS Retail",
+      "weight": 0.5
+    },
+    {
+      "name": "CAP Automation SellWise",
+      "weight": 0.5
+    },
+    {
+      "name": "Comcash ERP",
+      "weight": 0.5
+    },
+    {
+      "name": "CompuTant CounterPoint",
+      "weight": 0.5
+    },
+    {
+      "name": "CyberMatrix POS",
+      "weight": 0.5
+    },
+    {
       "name": "Data entry software",
       "weight": 0.5
     },
     {
+      "name": "Datasym SYMFINITE",
+      "weight": 0.5
+    },
+    {
+      "name": "EZ Software Solutions",
+      "weight": 0.5
+    },
+    {
+      "name": "Exact business software",
+      "weight": 0.5
+    },
+    {
+      "name": "Gift registry software",
+      "weight": 0.5
+    },
+    {
       "name": "Google Meet",
+      "weight": 0.5
+    },
+    {
+      "name": "Hagel Unitime Systems",
+      "weight": 0.5
+    },
+    {
+      "name": "Handheld computer device software",
+      "weight": 0.5
+    },
+    {
+      "name": "Infocorp Computer Solutions $mart System",
+      "weight": 0.5
+    },
+    {
+      "name": "Infocorp Softwear/POS",
       "weight": 0.5
     },
     {
@@ -1746,7 +2056,43 @@
       "weight": 0.5
     },
     {
+      "name": "Kronos Enterprise Workforce Management",
+      "weight": 0.5
+    },
+    {
+      "name": "LOB RetailPoint",
+      "weight": 0.5
+    },
+    {
+      "name": "Lathem Time PayClock EZ",
+      "weight": 0.5
+    },
+    {
+      "name": "Logisoft Positive Pos System",
+      "weight": 0.5
+    },
+    {
+      "name": "ManageMore Cellular Manager",
+      "weight": 0.5
+    },
+    {
+      "name": "Master Merchant Systems Music Store",
+      "weight": 0.5
+    },
+    {
+      "name": "MicroBiz",
+      "weight": 0.5
+    },
+    {
       "name": "Microsoft Edge",
+      "weight": 0.5
+    },
+    {
+      "name": "Millennium Software Atrex",
+      "weight": 0.5
+    },
+    {
+      "name": "Plexis Software Plexis POS",
       "weight": 0.5
     },
     {
@@ -1758,6 +2104,18 @@
       "weight": 0.5
     },
     {
+      "name": "Qualitech Solutions Dynamic Scheduling",
+      "weight": 0.5
+    },
+    {
+      "name": "RiscStation POSSum",
+      "weight": 0.5
+    },
+    {
+      "name": "SBS Keystroke",
+      "weight": 0.5
+    },
+    {
       "name": "Sage 50 Accounting Software",
       "weight": 0.5
     },
@@ -1766,11 +2124,291 @@
       "weight": 0.5
     },
     {
+      "name": "Semicron Systems",
+      "weight": 0.5
+    },
+    {
+      "name": "SmugMug Flickr",
+      "weight": 0.5
+    },
+    {
+      "name": "Softpedia ShopInvo",
+      "weight": 0.5
+    },
+    {
+      "name": "System3 POS software",
+      "weight": 0.5
+    },
+    {
+      "name": "The General Store",
+      "weight": 0.5
+    },
+    {
+      "name": "The Retail Solution",
+      "weight": 0.5
+    },
+    {
+      "name": "Time card software",
+      "weight": 0.5
+    },
+    {
+      "name": "TimeTrak Systems ClocTrack",
+      "weight": 0.5
+    },
+    {
+      "name": "TimeTrak Systems SchedTrak",
+      "weight": 0.5
+    },
+    {
+      "name": "True North Computer Retail Plus",
+      "weight": 0.5
+    },
+    {
+      "name": "VeriFone PC Charge Pro",
+      "weight": 0.5
+    },
+    {
+      "name": "Vigilant",
+      "weight": 0.5
+    },
+    {
+      "name": "Visual Retail Plus",
+      "weight": 0.5
+    },
+    {
+      "name": "WinMan SureSell",
+      "weight": 0.5
+    },
+    {
+      "name": "Acarda Sales Technologies Acarda Outbound",
+      "weight": 0.25
+    },
+    {
+      "name": "Automatic call distribution software",
+      "weight": 0.25
+    },
+    {
       "name": "Customer relationship management CRM software",
       "weight": 0.25
     },
     {
+      "name": "Database Systems Corp Telemation",
+      "weight": 0.25
+    },
+    {
+      "name": "Interactive voice response software",
+      "weight": 0.25
+    },
+    {
+      "name": "Remote access call center software",
+      "weight": 0.25
+    },
+    {
+      "name": "Softphone software",
+      "weight": 0.25
+    },
+    {
+      "name": "Zoom",
+      "weight": 0.25
+    },
+    {
+      "name": "ADP Workforce Now",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "AMG Teleran SalesInSync",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Act!",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "ActionWare",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Airtable",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Atlassian Confluence",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Atlassian JIRA",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Avidian Technologies Prophet",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Calendar and scheduling software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Citrix cloud computing software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Database software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Datawatch Monarch",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Deacom ERP",
+      "weight": 0.05555555555555555
+    },
+    {
       "name": "Dropbox",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "HEAT Software GoldMine",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "HubSpot software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Human resources software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Kronos Workforce Payroll",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Marketo Marketing Automation",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Maximizer Software Maximizer Enterprise",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "McAfee",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Microsoft FrontPage",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Microsoft OneNote",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Mozilla Thunderbird",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "NetSuite ERP",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "NetSuite NetCRM",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Personnel scheduling software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "PostgreSQL",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Realization Streamliner",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "SAP Crystal Reports",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Sage MAS 500",
       "weight": 0.05555555555555555
     },
     {
@@ -1778,11 +2416,39 @@
       "weight": 0.05555555555555555
     },
     {
+      "name": "Savant MobileRanger",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Screencastify",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "SeaMonkey",
+      "weight": 0.05555555555555555
+    },
+    {
       "name": "Slack",
       "weight": 0.05555555555555555
     },
     {
+      "name": "Software on Sailboats Desktop Sales Manager",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 0.05555555555555555
+    },
+    {
       "name": "Sugar CRM",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Vanguard Software Vanguard Sales Manager",
       "weight": 0.05555555555555555
     },
     {
@@ -1812,11 +2478,27 @@
       "weight": 0.5555555555555556
     },
     {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.5
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.5
+    },
+    {
       "name": "Barcode scanners",
       "weight": 0.5
     },
     {
       "name": "Cash registers",
+      "weight": 0.5
+    },
+    {
+      "name": "Hammer pliers",
+      "weight": 0.5
+    },
+    {
+      "name": "Ladders",
       "weight": 0.5
     },
     {
@@ -1840,6 +2522,10 @@
       "weight": 0.5
     },
     {
+      "name": "Screwdrivers",
+      "weight": 0.5
+    },
+    {
       "name": "Security cameras",
       "weight": 0.5
     },
@@ -1853,6 +2539,10 @@
     },
     {
       "name": "Telecheck processing terminals",
+      "weight": 0.5
+    },
+    {
+      "name": "Video cassette recorders VCR",
       "weight": 0.5
     },
     {
@@ -1889,6 +2579,14 @@
     },
     {
       "name": "Computer scanners",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Digital cameras",
+      "weight": 0.05555555555555555
+    },
+    {
+      "name": "Handtrucks",
       "weight": 0.05555555555555555
     },
     {

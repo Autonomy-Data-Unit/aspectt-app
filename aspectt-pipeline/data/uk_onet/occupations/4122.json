@@ -1544,92 +1544,688 @@
   ],
   "tasks": [
     {
-      "task": "Process and issue employee paychecks and statements of earnings and deductions, verifying attendance and hours worked to reconcile payroll discrepancies.",
-      "task_type": "Core"
+      "task": "Conduct verifications of employment.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.52
     },
     {
-      "task": "Compile employee time, production, and payroll data from timesheets and other records, ensuring accurate recordkeeping of employee information.",
-      "task_type": "Core"
+      "task": "Process and issue employee paychecks and statements of earnings and deductions.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.72
     },
     {
-      "task": "Keep informed about changes in tax and deduction laws, providing information to employees and managers on payroll and tax issues.",
-      "task_type": "Core"
+      "task": "Compile employee time, production, and payroll data from time sheets and other records.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.36
     },
     {
-      "task": "Prepare and balance period-end payroll reports, reconciling issued payrolls to bank statements and preparing payroll tax returns.",
-      "task_type": "Core"
+      "task": "Review time sheets, work charts, wage computation, and other information to detect and reconcile payroll discrepancies.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.61
     },
     {
-      "task": "Compute wages and deductions, entering data into computers, and maintaining records of invoices and supporting documents.",
-      "task_type": "Core"
+      "task": "Verify attendance, hours worked, and pay adjustments, and post information onto designated records.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.74
     },
     {
-      "task": "Examine and evaluate financial and information systems, ensuring compliance with laws and regulations, and recommending controls to ensure data integrity.",
-      "task_type": "Core"
+      "task": "Record employee information, such as exemptions, transfers, and resignations, to maintain and update payroll records.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.55
     },
     {
-      "task": "Prepare, examine, and analyze accounting records and financial statements to assess accuracy and compliance with standards.",
-      "task_type": "Core"
+      "task": "Issue and record adjustments to pay related to previous errors or retroactive increases.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.55
     },
     {
-      "task": "Audit payroll and personnel records, ensuring compliance with tax laws and preparing detailed reports on audit findings.",
-      "task_type": "Core"
+      "task": "Keep informed about changes in tax and deduction laws that apply to the payroll process.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.28
     },
     {
-      "task": "Analyze business operations, financial commitments, and obligations to provide advice on budget adjustments and projections of future expenses.",
-      "task_type": "Core"
+      "task": "Provide information to employees and managers on payroll matters, tax issues, benefit plans, and collective agreement provisions.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.01
     },
     {
-      "task": "Collect and analyze data to detect deficiencies, fraud, or non-compliance, and submit recommendations for operational improvements and financial activities.",
-      "task_type": "Core"
+      "task": "Complete time sheets showing employees' arrival and departure times.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.25
     },
     {
-      "task": "Prepare or assist in preparing simple to complex tax returns for individuals or small businesses, checking figures for accuracy and compliance.",
-      "task_type": "Core"
+      "task": "Distribute and collect timecards each pay period.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.61
     },
     {
-      "task": "Interview clients to obtain information on taxable income and conduct general office duties such as filing and answering telephones.",
-      "task_type": "Core"
+      "task": "Complete, verify, and process forms and documentation for administration of benefits, such as pension plans, and unemployment and medical insurance.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.08
+    },
+    {
+      "task": "Prepare and balance period-end reports, and reconcile issued payrolls to bank statements.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.62
+    },
+    {
+      "task": "Coordinate special programs, such as United Way campaigns, that involve payroll deductions.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.09
+    },
+    {
+      "task": "Process paperwork for new employees and enter employee information into the payroll system.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.66
+    },
+    {
+      "task": "Keep track of leave time, such as vacation, personal, and sick leave, for employees.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.42
+    },
+    {
+      "task": "Balance cash and payroll accounts.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.37
+    },
+    {
+      "task": "Train employees on organizations' timekeeping systems.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.81
+    },
+    {
+      "task": "Compute wages and deductions, and enter data into computers.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.69
+    },
+    {
+      "task": "Prepare and file payroll tax returns.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.69
+    },
+    {
+      "task": "Resolve discrepancies in accounting records.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.63
+    },
+    {
+      "task": "Compare previously prepared bank statements with canceled checks and reconcile discrepancies.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.15
+    },
+    {
+      "task": "Post stop-payment notices to prevent payment of protested checks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.42
+    },
+    {
+      "task": "Verify accuracy of billing data and revise any errors.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.86
+    },
+    {
+      "task": "Verify signatures and required information on checks.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.4
+    },
+    {
+      "task": "Prepare itemized statements, bills, or invoices and record amounts due for items purchased or services rendered.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.62
+    },
+    {
+      "task": "Contact customers to obtain or relay account information.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.29
+    },
+    {
+      "task": "Review documents, such as purchase orders, sales tickets, charge slips, or hospital records, to compute fees or charges due.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.46
+    },
+    {
+      "task": "Keep records of invoices and support documents.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.4
+    },
+    {
+      "task": "Route statements for mailing or over-the-counter delivery to customers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.86
+    },
+    {
+      "task": "Monitor equipment to ensure proper operation.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.51
+    },
+    {
+      "task": "Take orders for imprinted checks.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.11
+    },
+    {
+      "task": "Return checks to customers or retrieve checks returned to customers in error, adjusting accounts and answering inquiries about errors as necessary.",
+      "task_type": "Unclassified",
+      "relevance": 0.3333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Perform general administrative tasks, such as answering telephones, scheduling appointments, and ordering supplies or equipment.",
+      "task_type": "Unclassified",
+      "relevance": 0.3333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Encode and cancel checks, using bank machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.04
+    },
+    {
+      "task": "Answer inquiries regarding rates, routing, or procedures.",
+      "task_type": "Unclassified",
+      "relevance": 0.3333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Update manuals when rates, rules, or regulations are amended.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.92
+    },
+    {
+      "task": "Track accumulated hours and dollar amounts charged to each client job to calculate client fees for professional services, such as legal or accounting services.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.33
+    },
+    {
+      "task": "Consult sources, such as rate books, manuals, or insurance company representatives, to determine specific charges or information such as rules, regulations, or government tax and tariff information.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.21
+    },
+    {
+      "task": "Examine records and interview workers to ensure recording of transactions and compliance with laws and regulations.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.24
+    },
+    {
+      "task": "Prepare detailed reports on audit findings.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.58
+    },
+    {
+      "task": "Inspect cash on hand, notes receivable and payable, negotiable securities, and canceled checks to confirm records are accurate.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.25
+    },
+    {
+      "task": "Examine and evaluate financial and information systems, recommending controls to ensure system reliability and data integrity.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.3
+    },
+    {
+      "task": "Confer with company officials about financial and regulatory matters.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.3
+    },
+    {
+      "task": "Supervise auditing of establishments, and determine scope of investigation required.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.5
+    },
+    {
+      "task": "Inspect account books and accounting systems for efficiency, effectiveness, and use of accepted accounting procedures to record transactions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.5
+    },
+    {
+      "task": "Calculate costs of materials, overhead, and other expenses, based on estimates, quotations and price lists.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.14
+    },
+    {
+      "task": "Report to management about asset utilization and audit results, and recommend changes in operations and financial activities.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.55
+    },
+    {
+      "task": "Schedule appointments with clients.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.75
+    },
+    {
+      "task": "Comply with federal, state, and company policies, procedures, and regulations.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.57
+    },
+    {
+      "task": "Explain central and devolved government tax laws to individuals and companies.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.21
+    },
+    {
+      "task": "Classify, record, and summarize numerical and financial data to compile and keep financial records, using journals and ledgers or computers.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.17
+    },
+    {
+      "task": "Prepare adjusting journal entries.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.23
+    },
+    {
+      "task": "Prepare, examine, or analyze accounting records, financial statements, or other financial reports to assess accuracy, completeness, and conformance to reporting and procedural standards.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.24
+    },
+    {
+      "task": "Develop, maintain, or analyze budgets, preparing periodic reports that compare budgeted costs to actual costs.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Process invoices for payment.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Conduct pre-implementation audits to determine if systems and programs under development will work as planned.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.69
+    },
+    {
+      "task": "Direct activities of personnel engaged in filing, recording, compiling, and transmitting financial records.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.8
+    },
+    {
+      "task": "Advise clients in areas such as compensation, employee health care benefits, the design of accounting or data processing systems, or long-range tax or estate plans.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.11
+    },
+    {
+      "task": "Review taxpayer accounts, and conduct audits on-site, by correspondence, or by summoning taxpayer to office.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.22
+    },
+    {
+      "task": "Audit payroll and personnel records to determine unemployment insurance premiums, workers' compensation coverage, liabilities, and compliance with tax laws.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.47
+    },
+    {
+      "task": "Examine whether the organization's objectives are reflected in its management activities, and whether employees understand the objectives.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.69
+    },
+    {
+      "task": "Develop, implement, modify, and document recordkeeping and accounting systems, making use of current computer technology.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.99
+    },
+    {
+      "task": "Report to management regarding the finances of establishment.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.03
+    },
+    {
+      "task": "Analyze business operations, trends, costs, revenues, financial commitments, and obligations to project future revenues and expenses or to provide advice.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.03
+    },
+    {
+      "task": "Examine inventory to verify journal and ledger entries.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.14
+    },
+    {
+      "task": "Collect and analyze data to detect deficient controls, duplicated effort, extravagance, fraud, or non-compliance with laws, regulations, and management policies.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.5
+    },
+    {
+      "task": "Seek new ways to improve efficiency and increase profits.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.36
+    },
+    {
+      "task": "Compile statistical, financial, accounting, or auditing reports and tables pertaining to such matters as cash receipts, expenditures, accounts payable and receivable, and profits and losses.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.97
+    },
+    {
+      "task": "Access computerized financial information to answer general questions as well as those related to specific accounts.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.19
+    },
+    {
+      "task": "Code documents according to company procedures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.32
+    },
+    {
+      "task": "Operate 10-key calculators, typewriters, and copy machines to perform calculations and produce documents.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.47
+    },
+    {
+      "task": "Maintain inventory records.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.57
+    },
+    {
+      "task": "Monitor status of loans and accounts to ensure that payments are up to date.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.4
+    },
+    {
+      "task": "Receive, record, and bank cash, checks, and vouchers.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.46
+    },
+    {
+      "task": "Perform general office duties, such as filing, answering telephones, and handling routine correspondence.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.24
+    },
+    {
+      "task": "Perform financial calculations, such as amounts due, interest charges, balances, discounts, equity, and principal.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.32
+    },
+    {
+      "task": "Prepare or assist in preparing simple to complex tax returns for individuals or small businesses.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.5
+    },
+    {
+      "task": "Calculate form preparation fees according to return complexity and processing time required.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.05
+    },
+    {
+      "task": "Consult with customers to resolve complaints or verify financial or credit transactions.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Post or attach information to claim file.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.62
+    },
+    {
+      "task": "Calculate amount of claim.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.64
+    },
+    {
+      "task": "Prepare insurance claim forms or related documents, and review them for completeness.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.75
+    },
+    {
+      "task": "Review individual or commercial customer files to identify and select delinquent accounts for collection.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Prepare reports of findings and recommendations.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Call customers to collect payment on delinquent accounts.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Contact insured or other involved persons to obtain missing information.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.48
+    },
+    {
+      "task": "Prepare credit cards or charge account plates.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.0
+    },
+    {
+      "task": "Relay credit report information to subscribers by mail or by telephone.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.33
+    },
+    {
+      "task": "Examine city directories and public records to verify residence property ownership, bankruptcies, liens, arrest record, or unpaid taxes of applicants.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.39
+    },
+    {
+      "task": "Receive charge slips or credit applications by mail, or receive information from salespeople or merchants by telephone.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.94
+    },
+    {
+      "task": "Evaluate customers' computerized credit records and payment histories to decide whether to approve new credit, based on predetermined standards.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.61
+    },
+    {
+      "task": "Interview credit applicants by telephone or in person to obtain personal and financial data needed to complete credit report.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.02
+    },
+    {
+      "task": "Obtain information about potential creditors from banks, credit bureaus, and other credit services, and provide reciprocal information if requested.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.05
+    },
+    {
+      "task": "Transmit claims for payment or further investigation.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.61
     },
     {
       "task": "Organize or work with detailed office or warehouse records, using computers to enter, access, search or retrieve data.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.41
     },
     {
-      "task": "Process and record new insurance policies and claims, including examining documents for necessary changes.",
-      "task_type": "Core"
+      "task": "Process, prepare, and submit business or government forms, such as submitting applications for coverage to insurance carriers.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.45
     },
     {
-      "task": "Correspond with customers and confer with coworkers to answer inquiries or resolve account problems.",
-      "task_type": "Core"
+      "task": "Compose business correspondence for supervisors, managers, and professionals.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.69
     },
     {
-      "task": "Notify insurance agents and accounting departments of policy cancellations or changes in status.",
-      "task_type": "Core"
+      "task": "Transcribe data to worksheets, and enter data into computer for use in preparing documents and adjusting accounts.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.08
     },
     {
-      "task": "Calculate premiums, refunds, commissions, adjustments, and verify insurance policy data for accuracy.",
-      "task_type": "Core"
+      "task": "Correspond with insured or agent to obtain information or to inform them of account status or changes.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.29
     },
     {
-      "task": "Interview clients to obtain information needed for applications and provide customer service regarding claims.",
-      "task_type": "Core"
+      "task": "Keep records of customers' charges and payments.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.54
     },
     {
-      "task": "Prepare forms, such as receipts or documents, based on transaction requests from clients or stockholders.",
-      "task_type": "Core"
+      "task": "File, type, or operate standard office machines.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.06
     },
     {
-      "task": "Compile and analyze information about accounts, record customer deposits and payments, and issue receipts.",
-      "task_type": "Core"
+      "task": "Correspond with customers and confer with coworkers to answer inquiries, discuss market fluctuations, or resolve account problems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.6
     },
     {
-      "task": "Verify and examine accuracy of applications and related documents, and process loan applications to assist clients.",
-      "task_type": "Core"
+      "task": "Compile information about new accounts, enter account information into computers, and file related forms or other documents.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.57
     },
     {
-      "task": "Review and verify customer accounts for compliance with loan terms and timely payments.",
-      "task_type": "Core"
+      "task": "Prepare and type loan applications, closing documents, legal documents, letters, forms, government notices, and checks, using computers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Investigate and correct errors upon customers' request, according to customer and bank records.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.1
+    },
+    {
+      "task": "Duplicate records for distribution to branch offices.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 2.69
+    },
+    {
+      "task": "Perform clerical tasks, such as answering phones or distributing mail.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.01
+    },
+    {
+      "task": "Contact customers by mail, telephone, or in person concerning acceptance or rejection of applications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.44
+    },
+    {
+      "task": "Calculate, review, and correct errors on interest, principal, payment, and closing costs, using computers or calculators.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.35
+    },
+    {
+      "task": "File and maintain loan records.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.43
+    },
+    {
+      "task": "Review customer accounts to determine whether payments are made on time and that other loan terms are being followed.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.36
+    },
+    {
+      "task": "Prepare reports summarizing daily transactions and earnings for individual customer accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.65
+    },
+    {
+      "task": "Compute total holdings, dividends, interest, transfer taxes, brokerage fees, or commissions and allocate appropriate payments to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.8
     }
   ],
   "technology_skills": [
@@ -1652,6 +2248,10 @@
     {
       "name": "Microsoft Outlook",
       "weight": 2.1666666666666665
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 2.125
     },
     {
       "name": "Accounting software",
@@ -1694,6 +2294,10 @@
       "weight": 1.7083333333333333
     },
     {
+      "name": "IBM Cognos Impromptu",
+      "weight": 1.5833333333333333
+    },
+    {
       "name": "NetSuite ERP",
       "weight": 1.5833333333333333
     },
@@ -1730,6 +2334,14 @@
       "weight": 1.25
     },
     {
+      "name": "Human resource management software HRMS",
+      "weight": 1.25
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 1.25
+    },
+    {
       "name": "Oracle Fusion Applications",
       "weight": 1.25
     },
@@ -1742,7 +2354,43 @@
       "weight": 1.25
     },
     {
+      "name": "Sage HRMS",
+      "weight": 1.125
+    },
+    {
+      "name": "Ultimate Software UltiPro Workplace",
+      "weight": 1.125
+    },
+    {
+      "name": "WorkForce Software EmpCenter Time and Attendance",
+      "weight": 1.125
+    },
+    {
+      "name": "Workday software",
+      "weight": 1.125
+    },
+    {
+      "name": "MicroFocus GroupWise",
+      "weight": 1.0833333333333333
+    },
+    {
+      "name": "ADP Enterprise HR",
+      "weight": 1.0
+    },
+    {
       "name": "ADP PC/Payroll",
+      "weight": 1.0
+    },
+    {
+      "name": "ADP eTIME",
+      "weight": 1.0
+    },
+    {
+      "name": "API Navigator",
+      "weight": 1.0
+    },
+    {
+      "name": "Asure Software HCM",
       "weight": 1.0
     },
     {
@@ -1750,7 +2398,35 @@
       "weight": 1.0
     },
     {
+      "name": "Automated timekeeping software",
+      "weight": 1.0
+    },
+    {
       "name": "BMH Open4 Payroll",
+      "weight": 1.0
+    },
+    {
+      "name": "BSI ComplianceFactory",
+      "weight": 1.0
+    },
+    {
+      "name": "CyberShift Workforce Management 3G Time and Attendance",
+      "weight": 1.0
+    },
+    {
+      "name": "EBS On Line InstaPay",
+      "weight": 1.0
+    },
+    {
+      "name": "Galaxy Technologies TimeStar Enterprise",
+      "weight": 1.0
+    },
+    {
+      "name": "Human Resource MicroSystems HR Entre",
+      "weight": 1.0
+    },
+    {
+      "name": "Jantek Jupiter Time Attendance",
       "weight": 1.0
     },
     {
@@ -1758,11 +2434,67 @@
       "weight": 1.0
     },
     {
+      "name": "Kronos Workforce Timekeeper",
+      "weight": 1.0
+    },
+    {
+      "name": "Microsoft Great Plains Personal Data Keeper",
+      "weight": 1.0
+    },
+    {
+      "name": "Netscape Navigator",
+      "weight": 1.0
+    },
+    {
+      "name": "NuView EBS",
+      "weight": 1.0
+    },
+    {
       "name": "Oracle HRIS",
       "weight": 1.0
     },
     {
+      "name": "Oracle PeopleSoft Payroll for North America",
+      "weight": 1.0
+    },
+    {
+      "name": "PDS Vista",
+      "weight": 1.0
+    },
+    {
+      "name": "PayData Advanced HR",
+      "weight": 1.0
+    },
+    {
       "name": "Paychex payroll software",
+      "weight": 1.0
+    },
+    {
+      "name": "Penta software",
+      "weight": 1.0
+    },
+    {
+      "name": "RSM McGladrey Clear Pay",
+      "weight": 1.0
+    },
+    {
+      "name": "SAP Americas mySAP ERP Human Capital Management HCM",
+      "weight": 1.0
+    },
+    {
+      "name": "TimePlus Payroll",
+      "weight": 1.0
+    },
+    {
+      "name": "UNITIME",
+      "weight": 1.0
+    },
+    {
+      "name": "Virtual Software Virtual Timecard",
+      "weight": 1.0
+    },
+    {
+      "name": "isolved Time",
       "weight": 1.0
     },
     {
@@ -1778,6 +2510,34 @@
       "weight": 0.6666666666666666
     },
     {
+      "name": "Microsoft SharePoint",
+      "weight": 0.625
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.5833333333333333
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.5
+    },
+    {
+      "name": "Practice management software PMS",
+      "weight": 0.4583333333333333
+    },
+    {
+      "name": "Customer relationship management CRM software",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 0.41666666666666663
+    },
+    {
       "name": "ATX Total Accounting Office",
       "weight": 0.375
     },
@@ -1790,6 +2550,114 @@
       "weight": 0.375
     },
     {
+      "name": "Accuity EPICWare",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Aderant legal software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Automated billing software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "CAI Software Seasoft",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Check imaging software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Check processing software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Check sorting control software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "File management systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fiserv PEP+ reACH",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "HelpIT Systems addressIT",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "IPS of Boston DoubleCheck",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Image Deposit Exchange Check Station",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Image exchange networks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Image replacement document IRD printing software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Medical billing software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mitek Systems ImageNet Payments",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Optical character recognition OCR software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Positive pay software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "QuoteWerks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Remote deposit capture software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sage Medical Manager",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Thomson Reuters Elite Enterprise",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "VECTORsgi Check Management Solution",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "VECTORsgi Image Exchange Solution",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ATX Total Engagement Office",
+      "weight": 0.25
+    },
+    {
+      "name": "ATX Total Tax Office",
+      "weight": 0.25
+    },
+    {
       "name": "Accounts payable software",
       "weight": 0.25
     },
@@ -1798,7 +2666,71 @@
       "weight": 0.25
     },
     {
+      "name": "Accurate NXG",
+      "weight": 0.25
+    },
+    {
+      "name": "AcornSystems Corporate Performance Management",
+      "weight": 0.25
+    },
+    {
+      "name": "AdaptaSoft CyberPay",
+      "weight": 0.25
+    },
+    {
+      "name": "Asset management software",
+      "weight": 0.25
+    },
+    {
+      "name": "AuditWare financial reporting and auditing software",
+      "weight": 0.25
+    },
+    {
+      "name": "Automation Counselors municiPAL",
+      "weight": 0.25
+    },
+    {
+      "name": "Best MIP Fund Accounting",
+      "weight": 0.25
+    },
+    {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.25
+    },
+    {
+      "name": "Business performance management BPM software",
+      "weight": 0.25
+    },
+    {
       "name": "CCH ProSystem fx TAX",
+      "weight": 0.25
+    },
+    {
+      "name": "CCIS AccountAbility",
+      "weight": 0.25
+    },
+    {
+      "name": "CYMA IV Accounting for Windows",
+      "weight": 0.25
+    },
+    {
+      "name": "Cartesis ES Magnitude",
+      "weight": 0.25
+    },
+    {
+      "name": "Cost accounting software",
+      "weight": 0.25
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.25
+    },
+    {
+      "name": "Document management system software",
+      "weight": 0.25
+    },
+    {
+      "name": "FileMaker Pro",
       "weight": 0.25
     },
     {
@@ -1814,7 +2746,59 @@
       "weight": 0.25
     },
     {
+      "name": "Heron CrossTie General Ledger",
+      "weight": 0.25
+    },
+    {
+      "name": "Intellitax financial solutions software",
+      "weight": 0.25
+    },
+    {
+      "name": "Intrax ProcedureNet",
+      "weight": 0.25
+    },
+    {
+      "name": "Intuit ProSeries",
+      "weight": 0.25
+    },
+    {
       "name": "Intuit TurboTax",
+      "weight": 0.25
+    },
+    {
+      "name": "Iron Mountain Accutrac records management software",
+      "weight": 0.25
+    },
+    {
+      "name": "LexisNexis",
+      "weight": 0.25
+    },
+    {
+      "name": "MethodWare ProAudit Advisor",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft FRx",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.25
+    },
+    {
+      "name": "New Millennium Communications Genesis Accounting",
+      "weight": 0.25
+    },
+    {
+      "name": "OmniRIM Records Management Suite",
       "weight": 0.25
     },
     {
@@ -1822,11 +2806,435 @@
       "weight": 0.25
     },
     {
+      "name": "PROPHIX Enterprise",
+      "weight": 0.25
+    },
+    {
+      "name": "Paisley AutoAudit",
+      "weight": 0.25
+    },
+    {
+      "name": "Paisley Cardmap",
+      "weight": 0.25
+    },
+    {
+      "name": "Paisley Focus Control Assurance",
+      "weight": 0.25
+    },
+    {
+      "name": "Paisley IssueTrack",
+      "weight": 0.25
+    },
+    {
+      "name": "Paisley RiskNavigator",
+      "weight": 0.25
+    },
+    {
+      "name": "Pentana audit work system PAWS",
+      "weight": 0.25
+    },
+    {
+      "name": "RSM McGladrey Advanced Practice Solutions Paperless Audit",
+      "weight": 0.25
+    },
+    {
+      "name": "RSM McGladrey Auditor Assistant",
+      "weight": 0.25
+    },
+    {
+      "name": "Roundtable Software Advantage Accounting System",
+      "weight": 0.25
+    },
+    {
       "name": "SAP Business Objects",
       "weight": 0.25
     },
     {
+      "name": "SAP BusinessObjects Data Integrator",
+      "weight": 0.25
+    },
+    {
+      "name": "SAP Concur",
+      "weight": 0.25
+    },
+    {
+      "name": "Sage EDP Payroll Tax",
+      "weight": 0.25
+    },
+    {
+      "name": "Sage ERP Accpac",
+      "weight": 0.25
+    },
+    {
+      "name": "Sage MAS 200 ERP",
+      "weight": 0.25
+    },
+    {
+      "name": "Softrax Revenue Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Sync Essentials Trade Accountant",
+      "weight": 0.25
+    },
+    {
+      "name": "Tax compliance property tax management software",
+      "weight": 0.25
+    },
+    {
+      "name": "Tumbleweed SecureTransport",
+      "weight": 0.25
+    },
+    {
+      "name": "UA Business Software Professional Edition",
+      "weight": 0.25
+    },
+    {
+      "name": "Universal Tax Systems TaxWise",
+      "weight": 0.25
+    },
+    {
+      "name": "Yardi software",
+      "weight": 0.25
+    },
+    {
+      "name": "Billing software",
+      "weight": 0.20833333333333331
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.20833333333333331
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.20833333333333331
+    },
+    {
+      "name": "Account management software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "1099 ProsSoftware",
+      "weight": 0.125
+    },
+    {
+      "name": "ACCUCert",
+      "weight": 0.125
+    },
+    {
+      "name": "ACI TaskTracker",
+      "weight": 0.125
+    },
+    {
+      "name": "ACL Audit Exchange",
+      "weight": 0.125
+    },
+    {
+      "name": "ACL Business Assurance Analytics",
+      "weight": 0.125
+    },
+    {
+      "name": "ACS Technologies ACS Financial Suite",
+      "weight": 0.125
+    },
+    {
+      "name": "ADP Pay eXpert",
+      "weight": 0.125
+    },
+    {
+      "name": "ADP Super Report Writer",
+      "weight": 0.125
+    },
+    {
+      "name": "AMS Services AMS Sagitta",
+      "weight": 0.125
+    },
+    {
+      "name": "Abacus Tax",
+      "weight": 0.125
+    },
+    {
+      "name": "Accountants Templates JAZZ-It!",
+      "weight": 0.125
+    },
+    {
+      "name": "Accounting compliance software",
+      "weight": 0.125
+    },
+    {
+      "name": "Accounting fraud detection software",
+      "weight": 0.125
+    },
+    {
+      "name": "AcorynSystems Activity Based Costing/Management ABC/M",
+      "weight": 0.125
+    },
+    {
+      "name": "Act!",
+      "weight": 0.125
+    },
+    {
+      "name": "Activant Solutions Activant Prophet 21",
+      "weight": 0.125
+    },
+    {
+      "name": "Adaptive Planning",
+      "weight": 0.125
+    },
+    {
+      "name": "Advanced Management Systems Software for Wineries",
+      "weight": 0.125
+    },
+    {
+      "name": "Advanced Micro Systems 1099-Etc",
+      "weight": 0.125
+    },
+    {
+      "name": "Alteryx software",
+      "weight": 0.125
+    },
+    {
+      "name": "American HealthTech Financial",
+      "weight": 0.125
+    },
+    {
+      "name": "American Riviera Magtax",
+      "weight": 0.125
+    },
+    {
+      "name": "Arbutus Analyzer",
+      "weight": 0.125
+    },
+    {
+      "name": "Audit management software",
+      "weight": 0.125
+    },
+    {
+      "name": "Audit planning and control environment software",
+      "weight": 0.125
+    },
+    {
+      "name": "AuditWare CaseWare Examiner",
+      "weight": 0.125
+    },
+    {
+      "name": "Auditing software",
+      "weight": 0.125
+    },
+    {
+      "name": "Automated auditors fraud detector software",
+      "weight": 0.125
+    },
+    {
+      "name": "Avalara AvaTax ST",
+      "weight": 0.125
+    },
+    {
+      "name": "BLS Software Invoice!",
+      "weight": 0.125
+    },
+    {
+      "name": "BNA Corporate Tax Audit Analyzer",
+      "weight": 0.125
+    },
+    {
+      "name": "BNA Estate and Gift Tax Suite",
+      "weight": 0.125
+    },
+    {
+      "name": "BNA Income Tax Planning Solutions",
+      "weight": 0.125
+    },
+    {
+      "name": "BNA Sales and Use Tax Rates and Forms",
+      "weight": 0.125
+    },
+    {
+      "name": "Best Software CPAPayroll",
+      "weight": 0.125
+    },
+    {
+      "name": "Bi3 Audit Intelligence",
+      "weight": 0.125
+    },
+    {
+      "name": "Bi3 Financial Statement Fraud Analysis",
+      "weight": 0.125
+    },
+    {
+      "name": "BizBench",
+      "weight": 0.125
+    },
+    {
+      "name": "Blackbaud The Financial Edge",
+      "weight": 0.125
+    },
+    {
+      "name": "Brentmark Estate Planning Quickview",
+      "weight": 0.125
+    },
+    {
+      "name": "Budget monitoring systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Budgeting, forecasting, and planning software",
+      "weight": 0.125
+    },
+    {
+      "name": "Business Objects Data Integrator",
+      "weight": 0.125
+    },
+    {
+      "name": "Cammack Computations Inter-Est",
+      "weight": 0.125
+    },
+    {
+      "name": "Cartesis Magnitude iAnalysis",
+      "weight": 0.125
+    },
+    {
+      "name": "CaseWare International IDEA",
+      "weight": 0.125
+    },
+    {
+      "name": "CaseWare International IDEA SmartAnalyzer",
+      "weight": 0.125
+    },
+    {
+      "name": "CaseWare Working Papers",
+      "weight": 0.125
+    },
+    {
+      "name": "CashFlow Guardian",
+      "weight": 0.125
+    },
+    {
+      "name": "Cebos MQ1 Audit System",
+      "weight": 0.125
+    },
+    {
+      "name": "Choice Technologies PowerBill +",
+      "weight": 0.125
+    },
+    {
+      "name": "Client billing software",
+      "weight": 0.125
+    },
+    {
+      "name": "ComputerEase construction accounting software",
+      "weight": 0.125
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.125
+    },
+    {
+      "name": "Corporate Responsibility System Technologies Limited CRSTL Compliance Positioning System",
+      "weight": 0.125
+    },
+    {
+      "name": "Corporate Responsibility System Technologies Limited Compliance Positioning System",
+      "weight": 0.125
+    },
+    {
+      "name": "Creative Solutions CPA Depreciation",
+      "weight": 0.125
+    },
+    {
+      "name": "Creative Solutions UltraTax 1040",
+      "weight": 0.125
+    },
+    {
+      "name": "Creative Solutions UltraTax CS",
+      "weight": 0.125
+    },
+    {
+      "name": "Customer information control system CICS",
+      "weight": 0.125
+    },
+    {
+      "name": "D'Arcangelo Galileo",
+      "weight": 0.125
+    },
+    {
+      "name": "Data extraction software",
+      "weight": 0.125
+    },
+    {
+      "name": "Datagroup ElectroFile 1040",
+      "weight": 0.125
+    },
+    {
+      "name": "Datagroup ElectroFile ELF",
+      "weight": 0.125
+    },
+    {
+      "name": "Datagroup ElectroFile ST",
+      "weight": 0.125
+    },
+    {
+      "name": "Datair Employee Benefits Systems",
+      "weight": 0.125
+    },
+    {
+      "name": "Datavantage",
+      "weight": 0.125
+    },
+    {
+      "name": "Deltek Costpoint",
+      "weight": 0.125
+    },
+    {
+      "name": "Digital analysis tests and statistics DATAS for Excel",
+      "weight": 0.125
+    },
+    {
+      "name": "Digital analysis tests and statistics DATAS for SAS",
+      "weight": 0.125
+    },
+    {
+      "name": "Dropbox",
+      "weight": 0.125
+    },
+    {
+      "name": "Eko",
+      "weight": 0.125
+    },
+    {
+      "name": "Electronic ToolKit for Tax Preparers",
+      "weight": 0.125
+    },
+    {
       "name": "Enterprise resource planning ERP software",
+      "weight": 0.125
+    },
+    {
+      "name": "Estate planning software",
+      "weight": 0.125
+    },
+    {
+      "name": "Everest Software Advanced",
+      "weight": 0.125
+    },
+    {
+      "name": "Evron Computer Systems SAGE PFW (Platinum For Windows)",
+      "weight": 0.125
+    },
+    {
+      "name": "ExacTax PackageEX",
+      "weight": 0.125
+    },
+    {
+      "name": "Exact Software Macola ES",
+      "weight": 0.125
+    },
+    {
+      "name": "Extensity MPC",
       "weight": 0.125
     },
     {
@@ -1834,7 +3242,119 @@
       "weight": 0.125
     },
     {
+      "name": "FRx Software Microsoft Forecaster",
+      "weight": 0.125
+    },
+    {
+      "name": "FaceTime",
+      "weight": 0.125
+    },
+    {
+      "name": "Fifth Walk BillingTracker",
+      "weight": 0.125
+    },
+    {
+      "name": "Financial Competence",
+      "weight": 0.125
+    },
+    {
+      "name": "Financial compliance software",
+      "weight": 0.125
+    },
+    {
+      "name": "Fixed-assets depreciation software",
+      "weight": 0.125
+    },
+    {
+      "name": "FlexiFinancials FlexiLedger",
+      "weight": 0.125
+    },
+    {
+      "name": "Google Drive",
+      "weight": 0.125
+    },
+    {
+      "name": "Google Sheets",
+      "weight": 0.125
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.125
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.125
+    },
+    {
+      "name": "GreatTax",
+      "weight": 0.125
+    },
+    {
+      "name": "Greatland Corporation Winfiler",
+      "weight": 0.125
+    },
+    {
+      "name": "H&R Block Tax",
+      "weight": 0.125
+    },
+    {
+      "name": "HCSS HeavyBid",
+      "weight": 0.125
+    },
+    {
+      "name": "HCSS HeavyJob",
+      "weight": 0.125
+    },
+    {
+      "name": "HMS",
+      "weight": 0.125
+    },
+    {
+      "name": "Human resources management system HRMS",
+      "weight": 0.125
+    },
+    {
+      "name": "Hyperion Enterprise",
+      "weight": 0.125
+    },
+    {
+      "name": "IAD Audit Leverage",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM Cognos Business Intelligence",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM Cognos Planning",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM Power Systems software",
+      "weight": 0.125
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.125
+    },
+    {
+      "name": "IDMS Account Ability",
+      "weight": 0.125
+    },
+    {
       "name": "Income tax return preparation software",
+      "weight": 0.125
+    },
+    {
+      "name": "Infor Global Solutions Starbuilder",
+      "weight": 0.125
+    },
+    {
+      "name": "InformationActive ActiveData for Excel",
+      "weight": 0.125
+    },
+    {
+      "name": "Internal audit software",
       "weight": 0.125
     },
     {
@@ -1842,7 +3362,71 @@
       "weight": 0.125
     },
     {
+      "name": "Invoice software",
+      "weight": 0.125
+    },
+    {
+      "name": "KPB Associates TaxStream",
+      "weight": 0.125
+    },
+    {
+      "name": "Kirix ProffiPoint",
+      "weight": 0.125
+    },
+    {
+      "name": "Kleinrock Publishing",
+      "weight": 0.125
+    },
+    {
+      "name": "LaCerte 1040 Tax Analyzer",
+      "weight": 0.125
+    },
+    {
+      "name": "Laserfiche Avante",
+      "weight": 0.125
+    },
+    {
+      "name": "Lawson ERP",
+      "weight": 0.125
+    },
+    {
+      "name": "Lead Activity Analyzer",
+      "weight": 0.125
+    },
+    {
+      "name": "Lead Business Analyzer",
+      "weight": 0.125
+    },
+    {
+      "name": "Lilly Software Associates VISUAL Enterprise",
+      "weight": 0.125
+    },
+    {
+      "name": "Lumigent Entegra",
+      "weight": 0.125
+    },
+    {
+      "name": "M8 Client Billing",
+      "weight": 0.125
+    },
+    {
+      "name": "MRO Audit Tracker",
+      "weight": 0.125
+    },
+    {
+      "name": "Micronetics Xpert Write-up",
+      "weight": 0.125
+    },
+    {
       "name": "Microsoft Dynamics NAV",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Dynamics SL",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft OneNote",
       "weight": 0.125
     },
     {
@@ -1850,11 +3434,275 @@
       "weight": 0.125
     },
     {
+      "name": "Microsoft SQL Server",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Visual Basic.NET",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Works",
+      "weight": 0.125
+    },
+    {
+      "name": "Multiview Accounts Receivable",
+      "weight": 0.125
+    },
+    {
       "name": "NetSuite NetERP",
       "weight": 0.125
     },
     {
+      "name": "NewPortWave Year End Solutions",
+      "weight": 0.125
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.125
+    },
+    {
+      "name": "OSI TrustWise",
+      "weight": 0.125
+    },
+    {
+      "name": "Online analytical processing OLAP software",
+      "weight": 0.125
+    },
+    {
+      "name": "Open Systems TRAVERSE",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.125
+    },
+    {
       "name": "Oracle PeopleSoft Enterprise",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle Performance Management Suites",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.125
+    },
+    {
+      "name": "OutlookSoft",
+      "weight": 0.125
+    },
+    {
+      "name": "Palisade @Risk",
+      "weight": 0.125
+    },
+    {
+      "name": "Petz Enterprises V-Tax",
+      "weight": 0.125
+    },
+    {
+      "name": "Pleier Audit Management System",
+      "weight": 0.125
+    },
+    {
+      "name": "Presentation software",
+      "weight": 0.125
+    },
+    {
+      "name": "PricewaterhouseCoopers TeamMate",
+      "weight": 0.125
+    },
+    {
+      "name": "Pro Systems Client Write-Up System for Windows",
+      "weight": 0.125
+    },
+    {
+      "name": "Profit Developers Electronic File Interchange",
+      "weight": 0.125
+    },
+    {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.125
+    },
+    {
+      "name": "R",
+      "weight": 0.125
+    },
+    {
+      "name": "Records management software",
+      "weight": 0.125
+    },
+    {
+      "name": "Recovery audit software",
+      "weight": 0.125
+    },
+    {
+      "name": "Relational database software",
+      "weight": 0.125
+    },
+    {
+      "name": "Revelwood",
+      "weight": 0.125
+    },
+    {
+      "name": "SAP Business One",
+      "weight": 0.125
+    },
+    {
+      "name": "SAP BusinessObjects Crystal Reports",
+      "weight": 0.125
+    },
+    {
+      "name": "SAP Crystal Xcelsius",
+      "weight": 0.125
+    },
+    {
+      "name": "SAS",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage 100 Contractor",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage 100 ERP",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage 300 Construction and Real Estate",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage Active Planner",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage BusinessWorks",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage CPAAccounts Payable",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage CPAAccounts Receivable",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage CPAClient Checkbook",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage CPADocument Manager",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage HandiSoft HandiLedger",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage MAS 500",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage MAS 90 ERP",
+      "weight": 0.125
+    },
+    {
+      "name": "Sage Platinum for Windows PFW",
+      "weight": 0.125
+    },
+    {
+      "name": "Sageworks ProfitCents",
+      "weight": 0.125
+    },
+    {
+      "name": "Sales Tax Tools Sales Tax Researcher",
+      "weight": 0.125
+    },
+    {
+      "name": "Sampson Data Pattern Index software",
+      "weight": 0.125
+    },
+    {
+      "name": "Satori Group proCube",
+      "weight": 0.125
+    },
+    {
+      "name": "ScheduleVIEW",
+      "weight": 0.125
+    },
+    {
+      "name": "Skype",
+      "weight": 0.125
+    },
+    {
+      "name": "Solutions Technology & Software HR Premier",
+      "weight": 0.125
+    },
+    {
+      "name": "Star Software Fixed Asset Depreciation",
+      "weight": 0.125
+    },
+    {
+      "name": "Star Software Materiality Calculator",
+      "weight": 0.125
+    },
+    {
+      "name": "Statistical software",
+      "weight": 0.125
+    },
+    {
+      "name": "Summit Software Summit Biofuels Accounting",
+      "weight": 0.125
+    },
+    {
+      "name": "Sungard Relius",
+      "weight": 0.125
+    },
+    {
+      "name": "Swift",
+      "weight": 0.125
+    },
+    {
+      "name": "TechSmith Camtasia",
+      "weight": 0.125
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.125
+    },
+    {
+      "name": "Thomson Creative Solutions Engagement CS",
+      "weight": 0.125
+    },
+    {
+      "name": "Thomson Creative Solutions Financial Analysis CS",
+      "weight": 0.125
+    },
+    {
+      "name": "Thomson GoSystem MyTaxInfo",
+      "weight": 0.125
+    },
+    {
+      "name": "Thomson GoSystem Tax",
+      "weight": 0.125
+    },
+    {
+      "name": "Thomson PPC e-Tools Suite",
+      "weight": 0.125
+    },
+    {
+      "name": "Thomson Reuters Risk Management",
       "weight": 0.125
     },
     {
@@ -1866,6 +3714,54 @@
       "weight": 0.125
     },
     {
+      "name": "TimeValue software",
+      "weight": 0.125
+    },
+    {
+      "name": "TopCAATs",
+      "weight": 0.125
+    },
+    {
+      "name": "TrendTracker Compliance Solution",
+      "weight": 0.125
+    },
+    {
+      "name": "Tropics workers' compensation software",
+      "weight": 0.125
+    },
+    {
+      "name": "UNIX",
+      "weight": 0.125
+    },
+    {
+      "name": "Valiant Vantage",
+      "weight": 0.125
+    },
+    {
+      "name": "Web page creation and editing software",
+      "weight": 0.125
+    },
+    {
+      "name": "WizSoft WizRule",
+      "weight": 0.125
+    },
+    {
+      "name": "WizSoft WizWhy",
+      "weight": 0.125
+    },
+    {
+      "name": "Yardi Systems Yardi Enterprise",
+      "weight": 0.125
+    },
+    {
+      "name": "eXtensible Business Reporting Language XBRL",
+      "weight": 0.125
+    },
+    {
+      "name": "Alpha Software Alpha Five",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Automated financial software",
       "weight": 0.08333333333333333
     },
@@ -1874,7 +3770,127 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Automated underwriting software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Bloomberg Professional",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Claim processing system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Corporate Information Factory CIF",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Credit reporting software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "DCI iCore",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Encompass software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Equifax software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Experian software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fannie Mae Desktop Underwriter",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Financial accounting software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Financial needs analysis software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fiserv financial services software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "HEAT Software GoldMine",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Harland Financial Solutions DepositPro",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM Check Processing Control System CPSC",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IPS-Sendero Relationship Profitability Manager Catalyst",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "InSystems Calligo Enterprise",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Instant messaging software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Insurance rating software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Lending software systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Loan tracking software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Visual FoxPro",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Online trading software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Policy issuance system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Rockport Integrated Excel Underwriting",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Royal Alliance VISION2020 Core",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Software AG Underwriting Solution",
       "weight": 0.08333333333333333
     },
     {
@@ -1882,12 +3898,24 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "St. Paul Travelers e-CARMA",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Systems Union Group MIS DecisionWare",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Transaction processing software",
       "weight": 0.08333333333333333
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 2.125
+      "name": "WiredRed Software e/pop Basic",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Xactware Xactimate",
+      "weight": 0.08333333333333333
     }
   ],
   "tools_used": [
@@ -1908,6 +3936,10 @@
       "weight": 1.0
     },
     {
+      "name": "Laser facsimile machines",
+      "weight": 0.625
+    },
+    {
       "name": "Notebook computers",
       "weight": 0.5
     },
@@ -1916,7 +3948,91 @@
       "weight": 0.4583333333333333
     },
     {
+      "name": "Billing machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Bookkeeping machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Check and document signers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Check cancelling machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Check filing cabinets",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Check sorting machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Digital cameras",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Digital postal meters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Envelope opening machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Envelope sealing machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Envelope stuffers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Handheld calculators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Magnetic ink character recognition MICR encoding machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Magnetic ink character recognition MICR printers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Magnetic ink character recognition MICR readers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mechanical postal meters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microfilm cameras",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Paper collaters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Paper folders",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Photocopiers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Proof machines",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Shipping scales",
       "weight": 0.3333333333333333
     },
     {
@@ -1926,6 +4042,10 @@
     {
       "name": "Laptop computers",
       "weight": 0.20833333333333331
+    },
+    {
+      "name": "Copy machines",
+      "weight": 0.16666666666666666
     },
     {
       "name": "Printing calculators",
@@ -1944,11 +4064,47 @@
       "weight": 0.125
     },
     {
+      "name": "Ledger sheets",
+      "weight": 0.125
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.125
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.125
+    },
+    {
+      "name": "Receipt books",
+      "weight": 0.125
+    },
+    {
       "name": "Tablet computers",
       "weight": 0.125
     },
     {
+      "name": "Computer inkjet printers",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Computer laser printers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Credit card processing machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Dictation machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Document scanners",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Electric typewriters",
       "weight": 0.08333333333333333
     },
     {
@@ -1957,6 +4113,10 @@
     },
     {
       "name": "Multiline telephone systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Teller terminals",
       "weight": 0.08333333333333333
     }
   ],

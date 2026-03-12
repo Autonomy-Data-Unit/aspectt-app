@@ -1544,76 +1544,256 @@
   ],
   "tasks": [
     {
+      "task": "Obtain and record accurate patient history, including prior test results or information from physical examinations.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.63
+    },
+    {
+      "task": "Operate or oversee operation of radiologic or magnetic imaging equipment to produce images of the body for diagnostic purposes.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.73
+    },
+    {
+      "task": "Review and evaluate developed x-rays, video tape, or computer-generated information to determine if images are satisfactory for diagnostic purposes.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.89
+    },
+    {
+      "task": "Position patient on examining table and set up and adjust equipment to obtain optimum view of specific body area as requested by physician.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.94
+    },
+    {
+      "task": "Perform general administrative tasks, such as answering phones, scheduling patient appointments, or pulling and filing films.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.18
+    },
+    {
+      "task": "Assist with on-the-job training of new employees or students or provide input to supervisors regarding training performance.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.26
+    },
+    {
+      "task": "Complete quality control activities, monitor equipment operation, and report malfunctioning equipment to supervisor.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.14
+    },
+    {
+      "task": "Record, process, and maintain patient data or treatment records and prepare reports.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.58
+    },
+    {
+      "task": "Operate digital picture archiving communications systems.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.67
+    },
+    {
+      "task": "Explain procedures and observe patients to ensure safety and comfort during scan.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.91
+    },
+    {
+      "task": "Monitor patients' conditions and reactions, reporting abnormal signs to physician.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.92
+    },
+    {
+      "task": "Operate ultrasound equipment to produce and record images of the motion, shape, and composition of blood, organs, tissues, or bodily masses, such as fluid accumulations.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.83
+    },
+    {
+      "task": "Administer prescribed doses of radiation to specific body parts, using radiation therapy equipment according to established practices and standards.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.89
+    },
+    {
+      "task": "Perform supervisory duties, such as developing departmental operating budget, coordinating purchases of supplies or equipment, or preparing work schedules.",
+      "task_type": "Unclassified",
+      "relevance": 0.3333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Prepare stock radiopharmaceuticals, adhering to safety standards that minimize radiation exposure to workers and patients.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.74
+    },
+    {
+      "task": "Administer radiopharmaceuticals or radiation intravenously to detect or treat diseases, using radioisotope equipment, under direction of a physician.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.91
+    },
+    {
+      "task": "Key commands and data into computer to document and specify scan sequences, adjust transmitters and receivers, or photograph certain images.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.48
+    },
+    {
+      "task": "Operate optical systems to capture dynamic magnetic resonance imaging (MRI) images, such as functional brain imaging, real-time organ motion tracking, or musculoskeletal anatomy and trajectory visualization.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.06
+    },
+    {
+      "task": "Place and secure small, portable magnetic resonance imaging (MRI) scanners on body part to be imaged, such as arm, leg, or head.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.79
+    },
+    {
+      "task": "Process exposed radiographs using film processors or computer generated methods.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.77
+    },
+    {
+      "task": "Make exposures necessary for the requested procedures, rejecting and repeating work that does not meet established standards.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.73
+    },
+    {
+      "task": "Perform medical procedures, such as administering oxygen, inserting and removing airways, taking vital signs, or giving emergency treatment, such as first aid or cardiopulmonary resuscitation (CPR).",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.92
+    },
+    {
+      "task": "Operate fluoroscope to aid physician to view and guide wire or catheter through blood vessels to area of interest.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.43
+    },
+    {
+      "task": "Coordinate work with physicians or other healthcare team members, including providing assistance during invasive procedures.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.39
+    },
+    {
       "task": "Decide which images to include, looking for differences between healthy and pathological areas.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.82
     },
     {
-      "task": "Instruct medical staff or students in magnetic resonance imaging (MRI) procedures or equipment operation and assist with on-the-job training of new employees.",
-      "task_type": "Core"
+      "task": "Engage in research to develop new photographic procedures and materials.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.56
     },
     {
-      "task": "Operate magnetic resonance imaging (MRI) scanners and troubleshoot technical issues related to MRI equipment.",
-      "task_type": "Core"
+      "task": "Maintain stock and supplies, preparing supplies for special examinations and ordering supplies when necessary.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.91
     },
     {
-      "task": "Position patients on cradle with immobilization devices, if needed, and ensure appropriate placement for imaging.",
-      "task_type": "Core"
+      "task": "Attach physiological monitoring leads to patient's finger, chest, waist, or other body parts.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.06
     },
     {
-      "task": "Provide headphones or earplugs to patients to improve comfort during MRI scans and explain procedures to patients and families.",
-      "task_type": "Core"
+      "task": "Conduct screening interviews of patients to identify contraindications, such as ferrous objects, pregnancy, prosthetic heart valves, cardiac pacemakers, or tattoos.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 5.0
     },
     {
-      "task": "Select appropriate imaging techniques or coils to produce required images and conduct inventories to maintain stock of clinical supplies.",
-      "task_type": "Core"
+      "task": "Manipulate and enhance scanned or digital images to create desired effects, using computers and specialized software.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.68
     },
     {
-      "task": "Intravenously inject contrast dyes in accordance with scope of practice and perform screening interviews of patients to identify contraindications.",
-      "task_type": "Core"
+      "task": "Perform procedures, such as linear tomography, mammography, sonograms, joint and cyst aspirations, routine contrast studies, routine fluoroscopy, or examinations of the head, trunk, or extremities under supervision of physician.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.64
     },
     {
-      "task": "Write reports or notes to summarize testing procedures for physicians and record, process, and maintain patient data or treatment records.",
-      "task_type": "Core"
+      "task": "Set up examination rooms, ensuring that all necessary equipment is ready.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.39
     },
     {
-      "task": "Schedule patient treatment times and appointments, and conduct quality control checks on laboratory equipment or cameras.",
-      "task_type": "Core"
+      "task": "Process cardiac function studies, using computer.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.79
     },
     {
-      "task": "Monitor patients' conditions during treatment and report unusual reactions to physician, ensuring patient comfort and safety.",
-      "task_type": "Core"
+      "task": "Detect and map radiopharmaceuticals in patients' bodies, using a camera to produce photographic or computer images.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.86
     },
     {
-      "task": "Provide assistance in dressing or changing seriously ill or injured patients and comfort patients during exams, requesting medication if needed.",
-      "task_type": "Core"
+      "task": "Dispose of radioactive materials and store radiopharmaceuticals, following radiation safety procedures.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.72
     },
     {
-      "task": "Administer radiation to specific body parts using radiation therapy equipment, following established practices and standards.",
-      "task_type": "Core"
+      "task": "Assist in the preparation of sealed radioactive materials, such as cobalt, radium, cesium, or isotopes, for use in radiation treatments.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.76
     },
     {
-      "task": "Maintain records, reports, or files as required, including information such as radiation dosages and equipment settings.",
-      "task_type": "Core"
+      "task": "Store, sterilize, or prepare the special applicators containing the radioactive substance implanted by the physician.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.95
     },
     {
-      "task": "Test and check MRI equipment prior to use to ensure proper functioning and to assist physicians in complex procedures.",
-      "task_type": "Core"
+      "task": "Implement appropriate follow-up care plans.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.2
     },
     {
-      "task": "Prepare contrast material, radiopharmaceuticals, or anesthetic drugs under the direction of a radiologist, and educate patients on treatment reactions.",
-      "task_type": "Core"
+      "task": "Develop visual aids and charts for use in lectures or to present evidence in court.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.67
     },
     {
-      "task": "Position patients accurately for treatment according to prescription, and check radiation therapy equipment for proper operation.",
-      "task_type": "Core"
+      "task": "Review physicians' orders to confirm prescribed exams.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 5.0
     },
     {
-      "task": "Review physicians' orders to confirm prescribed exams and determine patients' x-ray needs by reading instructions from physicians.",
-      "task_type": "Core"
+      "task": "Use radiation safety measures and protection devices to comply with government regulations and to ensure safety of patients and staff.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.89
     },
     {
-      "task": "Calculate treatment dosages delivered during sessions and gather information on patients' illnesses to guide diagnostic procedures.",
-      "task_type": "Core"
+      "task": "Add radioactive substances to biological specimens, such as blood, urine, or feces, to determine therapeutic drug or hormone levels.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.41
     }
   ],
   "technology_skills": [
@@ -1670,6 +1850,22 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Adobe After Effects",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Adobe Photoshop",
       "weight": 0.3333333333333333
     },
@@ -1678,7 +1874,19 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Apple Final Cut Pro",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Appointment scheduling software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Beam analysis software",
       "weight": 0.3333333333333333
     },
     {
@@ -1710,6 +1918,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Facebook",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Film processor tracking and management software",
       "weight": 0.3333333333333333
     },
@@ -1722,6 +1934,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Genbook",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Google Drive",
       "weight": 0.3333333333333333
     },
@@ -1731,6 +1947,10 @@
     },
     {
       "name": "Information management subsystem software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Information systems integration software",
       "weight": 0.3333333333333333
     },
     {
@@ -1751,6 +1971,10 @@
     },
     {
       "name": "Medical software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Medovation RadRunner",
       "weight": 0.3333333333333333
     },
     {
@@ -1778,6 +2002,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "R",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Radiation dose calculation software",
       "weight": 0.3333333333333333
     },
@@ -1798,6 +2026,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Structured data entry software",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Sun Nuclear MapCHECK",
       "weight": 0.3333333333333333
     },
@@ -1810,7 +2042,31 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Twitter",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Virtual reality computed tomography CT imaging software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Virtual simulation software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "WeVideo",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Word processing software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "WordPress",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "YouTube",
       "weight": 0.3333333333333333
     }
   ],
@@ -1845,10 +2101,6 @@
     },
     {
       "name": "Electrocardiography EKG units",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Evacuated blood collection tubes",
       "weight": 0.6666666666666666
     },
     {
@@ -1893,10 +2145,6 @@
     },
     {
       "name": "Sphygmomanometers",
-      "weight": 0.6666666666666666
-    },
-    {
-      "name": "Subcutaneous hypodermic needles",
       "weight": 0.6666666666666666
     },
     {
@@ -1984,6 +2232,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Compression bands",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Computed tomography CT audio and visual intercommunication systems",
       "weight": 0.3333333333333333
     },
@@ -2000,11 +2252,31 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Cones",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Continuous-wave ultrasound equipment",
       "weight": 0.3333333333333333
     },
     {
       "name": "Crash carts",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cushions",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cylinders",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Darkroom thermometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Darkroom timers",
       "weight": 0.3333333333333333
     },
     {
@@ -2016,6 +2288,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Diaphragms",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Digital Imaging Communications in Medicine DICOM imaging equipment",
       "weight": 0.3333333333333333
     },
@@ -2024,7 +2300,31 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Digital cameras",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Digital pens",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Digital photo printers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Digital ratemeters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Digital still cameras",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Digital transmission densitometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dimmers",
       "weight": 0.3333333333333333
     },
     {
@@ -2048,6 +2348,18 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Dye sublimation printers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dynamic phantoms",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electric print dryers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Electrometers",
       "weight": 0.3333333333333333
     },
@@ -2057,6 +2369,14 @@
     },
     {
       "name": "Emergency contrast reaction kits",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Enema equipment",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Film cameras",
       "weight": 0.3333333333333333
     },
     {
@@ -2076,7 +2396,19 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Filters",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Finger film badges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Flash memory data storage devices",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Flatbed scanners",
       "weight": 0.3333333333333333
     },
     {
@@ -2085,6 +2417,10 @@
     },
     {
       "name": "Fluoroscopes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Force film washers",
       "weight": 0.3333333333333333
     },
     {
@@ -2100,7 +2436,15 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Graphics tablets",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Grids",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Heat guns",
       "weight": 0.3333333333333333
     },
     {
@@ -2113,6 +2457,10 @@
     },
     {
       "name": "Hypodermic needles",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Image enlargers",
       "weight": 0.3333333333333333
     },
     {
@@ -2137,14 +2485,6 @@
     },
     {
       "name": "Intensifying screens",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Intramuscular hypodermic needles",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Intramuscular needles",
       "weight": 0.3333333333333333
     },
     {
@@ -2184,11 +2524,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Laboratory water baths",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Lamp reflectors",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Lancets",
       "weight": 0.3333333333333333
     },
     {
+      "name": "Large format printers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Large-field gamma cameras",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Laser cameras",
       "weight": 0.3333333333333333
     },
     {
@@ -2216,10 +2572,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Macro lenses",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Magnetic resonance imaging MRI calibration devices",
       "weight": 0.3333333333333333
     },
@@ -2232,6 +2584,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Magnetic resonance imaging MRI compatible fire extinguishers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Magnetic resonance imaging MRI consoles",
       "weight": 0.3333333333333333
     },
@@ -2241,6 +2597,14 @@
     },
     {
       "name": "Magnetic resonance imaging MRI positioning sandbags",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Magnetic resonance imaging MRI printers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Magnifier loupes",
       "weight": 0.3333333333333333
     },
     {
@@ -2280,6 +2644,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Medical nasal cannulas",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Medical picture archiving computer systems PACS",
       "weight": 0.3333333333333333
     },
@@ -2304,6 +2672,14 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Metal laboratory tongs",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mobile adapters",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Mobile gamma cameras",
       "weight": 0.3333333333333333
     },
@@ -2320,7 +2696,19 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Negative proofers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Non-magnetic pulse oximeter units",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Optical distance indicators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Optical media printers",
       "weight": 0.3333333333333333
     },
     {
@@ -2392,6 +2780,14 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Polarizing lens filters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Portable densitometers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Portable film processors",
       "weight": 0.3333333333333333
     },
@@ -2417,6 +2813,10 @@
     },
     {
       "name": "Positron emission tomography/computed tomography PET/CT scanners",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Power drills",
       "weight": 0.3333333333333333
     },
     {
@@ -2476,7 +2876,23 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Rapid film changers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Rapid photo print washers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Reflected light meters",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Respiration monitors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ring flashes",
       "weight": 0.3333333333333333
     },
     {
@@ -2496,6 +2912,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Scan converters",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Scintillation crystal detectors",
       "weight": 0.3333333333333333
     },
@@ -2508,11 +2928,47 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Snoots",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Softboxes",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Solid state diode detectors",
       "weight": 0.3333333333333333
     },
     {
+      "name": "Sound blimps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Special effects projectors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Specimen collection containers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Spectrometers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Stationary x ray equipment",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Straps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Strip chart recorders",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Studio strobe flashes",
       "weight": 0.3333333333333333
     },
     {
@@ -2533,6 +2989,14 @@
     },
     {
       "name": "Tabletop film processors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Telemetry leads",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Telephoto lenses",
       "weight": 0.3333333333333333
     },
     {
@@ -2580,7 +3044,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Vacuum formers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Well counters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "White balancing lens filters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Wide angle lenses",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Wipe test counters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Wireless flash triggers",
       "weight": 0.3333333333333333
     },
     {
@@ -2617,6 +3101,10 @@
     },
     {
       "name": "X ray or fluoroscopy treatment planning simulators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Zoom lenses",
       "weight": 0.3333333333333333
     }
   ],

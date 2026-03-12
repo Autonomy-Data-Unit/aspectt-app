@@ -1545,203 +1545,1569 @@
   "tasks": [
     {
       "task": "Remove and replace worn or broken machine parts, using hand tools.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.98
     },
     {
-      "task": "Study blueprints, sketches, or models to determine layouts and machining requirements for workpieces.",
-      "task_type": "Core"
+      "task": "Study blueprints or layouts of metal workpieces to determine grinding procedures, and to plan machine setups and operational sequences.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.41
     },
     {
-      "task": "Compute dimensions, angles, and specifications using tools such as micrometers and scales, and adjust tools accordingly.",
-      "task_type": "Core"
+      "task": "Compute numbers, widths, and angles of cutting tools, micrometers, scales, and gauges, and adjust tools to produce specified cuts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.38
     },
     {
-      "task": "Inspect workpieces and dies using precision instruments to verify dimensions, surfaces, and specifications.",
-      "task_type": "Core"
+      "task": "Fit parts together in pre-assembly to ensure that dimensions are accurate.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
     },
     {
-      "task": "Set up, operate, and adjust various machining equipment, including lathes and drill presses, to fabricate parts to exact specifications.",
-      "task_type": "Core"
+      "task": "Place workpieces in electroplating solutions or apply pigments to surfaces of workpieces to highlight ridges and grooves.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.96
     },
     {
-      "task": "Grind, file, sand, and polish surfaces of parts to achieve finished dimensions and quality standards.",
-      "task_type": "Core"
+      "task": "Attach workpieces to grinding machines and form specified sections and repair cracks, using welding or brazing equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.05
     },
     {
-      "task": "Fit and assemble parts to create tools, jigs, gauges, and dies using machine tools or hand tools.",
-      "task_type": "Core"
+      "task": "Straighten workpieces and remove dents, using straightening presses and hammers.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.31
     },
     {
-      "task": "Cut, shape, and form metal parts using machines like lathes, power saws, and presses, according to specifications.",
-      "task_type": "Core"
+      "task": "Inspect dies to detect defects, assess wear, and verify specifications, using micrometers, steel gauge pins, and loupes.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
     },
     {
-      "task": "Repair, adjust, and maintain locks, safes, and vaults using hand tools and machining equipment.",
-      "task_type": "Core"
+      "task": "Turn valves to direct flow of coolant against cutting wheels and workpieces during grinding.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.36
     },
     {
-      "task": "Mark, measure, and scribe parts and materials for machining, following blueprints and specifications.",
-      "task_type": "Core"
+      "task": "Duplicate workpiece contours, using tracer attachments.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.0
+    },
+    {
+      "task": "Inspect, feel, and measure workpieces to ensure that surfaces and dimensions meet specifications.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.5
+    },
+    {
+      "task": "Set up and operate grinding or polishing machines to grind metal workpieces, such as dies, parts, and tools.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.35
+    },
+    {
+      "task": "Remove finished workpieces from machines and place them in boxes or on racks, setting aside pieces that are defective.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
+    },
+    {
+      "task": "File or finish surfaces of workpieces, using prescribed hand tools.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.17
+    },
+    {
+      "task": "Select and mount grinding wheels on machines, according to specifications, using hand tools and applying knowledge of abrasives and grinding procedures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.39
+    },
+    {
+      "task": "Monitor machine operations to determine whether adjustments are necessary, stopping machines when problems occur.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.54
+    },
+    {
+      "task": "Perform basic maintenance, such as cleaning and lubricating machine parts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
+    },
+    {
+      "task": "Mark identifying information such as colors or codes on patterns, parts, and templates to indicate assembly methods.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.09
+    },
+    {
+      "task": "Compute dimensions, areas, volumes, and weights.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.9
+    },
+    {
+      "task": "Set up, operate, and adjust a variety of woodworking machines such as bandsaws and lathes to cut and shape sections, parts, and patterns, according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.32
+    },
+    {
+      "task": "Correct patterns to compensate for defects in castings.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.37
+    },
+    {
+      "task": "Fit, fasten, and assemble wood parts together to form patterns, models, or sections, using glue, nails, dowels, bolts, and screws.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.55
+    },
+    {
+      "task": "Trim, smooth, and shape surfaces, and plane, shave, file, scrape, and sand models to attain specified shapes, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.43
+    },
+    {
+      "task": "Glue fillets along interior angles of patterns.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.04
+    },
+    {
+      "task": "Finish completed products or models with shellac, lacquer, wax, or paint.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.16
+    },
+    {
+      "task": "Collect and store patterns and lumber.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.47
+    },
+    {
+      "task": "Select lumber to be used for patterns.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.83
+    },
+    {
+      "task": "Repair broken or damaged patterns.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.07
+    },
+    {
+      "task": "Inventory equipment and supplies, ordering parts and tools as necessary.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.36
+    },
+    {
+      "task": "Estimate costs for patternmaking jobs.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.09
+    },
+    {
+      "task": "Divide patterns into sections according to shapes of castings to facilitate removal of patterns from molds.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.4
+    },
+    {
+      "task": "Issue patterns to designated machine operators.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.29
+    },
+    {
+      "task": "Lay out patterns on wood stock and draw outlines of units, sectional patterns, or full-scale mock-ups of products, based on blueprint specifications and sketches, and using marking and measuring devices.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.5
+    },
+    {
+      "task": "Mix finish ingredients to obtain desired colors or shades.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.04
+    },
+    {
+      "task": "Verify dimensions of completed patterns, using templates, straightedges, calipers, or protractors.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.4
+    },
+    {
+      "task": "Cut timber to the right size, and shape and trim parts of joints to ensure a snug fit, using hand tools, such as planes, chisels, or wood files.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.16
+    },
+    {
+      "task": "Draw up detailed specifications and discuss projects with customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.87
+    },
+    {
+      "task": "Produce or assemble components of articles, such as store fixtures, office equipment, cabinets, or high-grade furniture.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.52
+    },
+    {
+      "task": "Verify dimensions or check the quality or fit of pieces to ensure adherence to specifications.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.55
+    },
+    {
+      "task": "Set up or operate machines, including power saws, jointers, mortisers, tenoners, molders, or shapers, to cut, mold, or shape woodstock or wood substitutes.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.4
+    },
+    {
+      "task": "Measure and mark dimensions of parts on paper or lumber stock prior to cutting, following blueprints, to ensure a tight fit and quality product.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.42
+    },
+    {
+      "task": "Reinforce joints with nails or other fasteners to prepare articles for finishing.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.26
+    },
+    {
+      "task": "Attach parts or subassemblies together to form completed units, using glue, dowels, nails, screws, or clamps.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.39
+    },
+    {
+      "task": "Establish the specifications of articles to be constructed or repaired, or plan the methods or operations for shaping or assembling parts, based on blueprints, drawings, diagrams, or oral or written instructions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.4
+    },
+    {
+      "task": "Match materials for color, grain, or texture, giving attention to knots or other features of the wood.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.16
+    },
+    {
+      "task": "Dip, brush, or spray assembled articles with protective or decorative finishes, such as stain, varnish, paint, or lacquer.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.91
+    },
+    {
+      "task": "Trim, sand, or scrape surfaces or joints to prepare articles for finishing.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.18
+    },
+    {
+      "task": "Bore holes for insertion of screws or dowels, by hand or using boring machines.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.13
+    },
+    {
+      "task": "Install hardware, such as hinges, handles, catches, or drawer pulls, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.19
+    },
+    {
+      "task": "Repair or alter wooden furniture, cabinetry, fixtures, paneling, or other pieces.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.93
+    },
+    {
+      "task": "Apply Masonite, formica, or vinyl surfacing materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.63
+    },
+    {
+      "task": "Brush, spray, or hand-rub finishing ingredients, such as paint, oil, stain, or wax, onto and into wood grain and apply lacquer or other sealers.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.28
+    },
+    {
+      "task": "Estimate the amounts, types, or costs of needed materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.28
+    },
+    {
+      "task": "Distress surfaces with woodworking tools or abrasives before staining to create an antique appearance, or rub surfaces to bring out highlights and shadings.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.87
+    },
+    {
+      "task": "Paint metal surfaces electrostatically, or by using a spray gun or other painting equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.95
+    },
+    {
+      "task": "Recommend woods, colors, finishes, and furniture styles, using knowledge of wood products, fashions, and styles.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.11
+    },
+    {
+      "task": "Remove old finishes and damaged or deteriorated parts, using hand tools, stripping tools, sandpaper, steel wool, abrasives, solvents, or dip baths.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.17
+    },
+    {
+      "task": "Disassemble items to prepare them for finishing, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.85
+    },
+    {
+      "task": "Wash surfaces to prepare them for finish application.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.03
+    },
+    {
+      "task": "Remove accessories prior to finishing, and mask areas that should not be exposed to finishing processes or substances.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.2
+    },
+    {
+      "task": "Treat warped or stained surfaces to restore original contours and colors.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.08
+    },
+    {
+      "task": "Confer with customers to determine furniture colors or finishes.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.34
+    },
+    {
+      "task": "Remove excess solvent, using cloths soaked in paint thinner.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.01
+    },
+    {
+      "task": "Stencil, gild, emboss, mark, or paint designs or borders to reproduce the original appearance of restored pieces, or to decorate new pieces.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.86
+    },
+    {
+      "task": "Verify dimensions and contours of models during hand-forming processes, using templates and measuring devices.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.16
+    },
+    {
+      "task": "Examine furniture to determine the extent of damage or deterioration, and to decide on the best method for repair or restoration.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.92
+    },
+    {
+      "task": "Follow blueprints to produce specific designs.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.0
+    },
+    {
+      "task": "Fill and smooth cracks or depressions, remove marks and imperfections, and repair broken parts, using plastic or wood putty, glue, nails, or screws.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.26
+    },
+    {
+      "task": "Select appropriate finishing ingredients such as paint, stain, lacquer, shellac, or varnish, depending on factors such as wood hardness and surface type.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.06
+    },
+    {
+      "task": "Build jigs that can be used as guides for assembling oversized or special types of box shooks.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.72
+    },
+    {
+      "task": "Maintain pattern records for reference.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.82
+    },
+    {
+      "task": "Fabricate work aids such as scrapers or templates.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.51
+    },
+    {
+      "task": "Finish patterns or models with protective or decorative coatings such as shellac, lacquer, or wax.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.35
+    },
+    {
+      "task": "Construct wooden models, patterns, templates, full scale mock-ups, and molds for parts of products and production tools.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.12
+    },
+    {
+      "task": "Select wooden stock, determine layouts, and mark layouts of parts on stock, using precision equipment such as scribers, squares, and protractors.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.08
+    },
+    {
+      "task": "Fit, fasten, and assemble wood parts together to form patterns, models, or sections, using glue, nails, dowels, bolts, screws, and other fasteners.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.22
+    },
+    {
+      "task": "Measure and mark equipment, objects, or parts to ensure grinding and polishing standards are met.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.46
+    },
+    {
+      "task": "Apply solutions and chemicals to equipment, objects, or parts, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.57
+    },
+    {
+      "task": "Record product and processing data on specified forms.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.88
+    },
+    {
+      "task": "Transfer equipment, objects, or parts to specified work areas, using moving devices.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.43
+    },
+    {
+      "task": "Load and adjust workpieces onto equipment or work tables, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.15
+    },
+    {
+      "task": "Trim, scrape, or deburr objects or parts, using chisels, scrapers, and other hand tools and equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.42
+    },
+    {
+      "task": "Clean brass particles from files by drawing file cards through file grooves.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 1.55
+    },
+    {
+      "task": "Select files or other abrasives, according to materials, sizes and shapes of workpieces, amount of stock to be removed, finishes specified, and steps in finishing processes.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.03
+    },
+    {
+      "task": "Mark defects, such as knotholes, cracks, and splits, for repair.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.39
+    },
+    {
+      "task": "Set up and maintain master key systems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.32
+    },
+    {
+      "task": "Cut, shape, and form metal parts, using lathes, power saws, snips, power brakes and shears, files, and mallets.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.18
+    },
+    {
+      "task": "Set up and operate machines, such as lathes, drill presses, punch presses, or bandsaws, to fabricate prototypes or models.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.31
+    },
+    {
+      "task": "Drill, countersink, and ream holes in parts and assemblies for bolts, screws, and other fasteners, using power tools.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.05
+    },
+    {
+      "task": "Cut new or duplicate keys, using impressions or code key machines.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.75
+    },
+    {
+      "task": "Fit and assemble parts to make, repair, or modify dies, jigs, gauges, and tools, using machine tools, hand tools, or welders.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.12
+    },
+    {
+      "task": "Create computer models of patterns or parts, using modeling software.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.19
+    },
+    {
+      "task": "Use computer-aided design (CAD) and computer-aided manufacturing (CAM) software or hardware to fabricate model parts.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.81
+    },
+    {
+      "task": "Program computer numerical control (CNC) machines to fabricate model parts.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.27
+    },
+    {
+      "task": "Unlock cars and other vehicles.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.26
+    },
+    {
+      "task": "Install alarm and electronic access systems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.89
+    },
+    {
+      "task": "Install door hardware, such as locks and closers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.28
+    },
+    {
+      "task": "Lay out and mark reference points and dimensions on materials, using measuring instruments and drawing or scribing tools.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.5
+    },
+    {
+      "task": "Set pyrometer controls of heat-treating furnaces and feed or place parts, tools, or assemblies into furnaces to harden.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.6
+    },
+    {
+      "task": "Record specifications, production operations, and final dimensions of models for use in establishing operating standards and procedures.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.92
+    },
+    {
+      "task": "Insert new or repaired tumblers into locks to change combinations.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.58
+    },
+    {
+      "task": "Move picklocks in cylinders to open door locks without keys.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.57
+    },
+    {
+      "task": "Disassemble mechanical or electrical locking devices, and repair or replace worn tumblers, springs, and other parts, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.12
+    },
+    {
+      "task": "Repair and adjust safes, vault doors, and vault components, using hand tools, lathes, drill presses, and welding and acetylene cutting apparatus.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.96
+    },
+    {
+      "task": "Install safes, vault doors, and deposit boxes according to blueprints, using equipment such as power drills, taps, dies, truck cranes, and dollies.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.61
+    },
+    {
+      "task": "Open safe locks by drilling.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.44
+    },
+    {
+      "task": "Remove interior and exterior finishes on safes and vaults, and spray on new finishes.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 1.75
+    },
+    {
+      "task": "Study blueprints, sketches, models, or specifications to plan sequences of operations for fabricating tools, dies, or assemblies.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.19
+    },
+    {
+      "task": "Visualize and compute dimensions, sizes, shapes, and tolerances of assemblies, based on specifications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.21
+    },
+    {
+      "task": "Set up and operate conventional or computer numerically controlled machine tools such as lathes, milling machines, or grinders to cut, bore, grind, or otherwise shape parts to prescribed dimensions and finishes.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.37
+    },
+    {
+      "task": "File, grind, shim, and adjust different parts to properly fit them together.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.98
+    },
+    {
+      "task": "Conduct test runs with completed tools or dies to ensure that parts meet specifications, making adjustments as necessary.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.93
+    },
+    {
+      "task": "Inspect finished dies for smoothness, contour conformity, and defects.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.11
+    },
+    {
+      "task": "Smooth and polish flat and contoured surfaces of parts or tools, using scrapers, abrasive stones, files, emery cloths, or power grinders.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.95
+    },
+    {
+      "task": "Lift, position, and secure machined parts on surface plates or worktables, using hoists, vises, v-blocks, or angle plates.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.99
+    },
+    {
+      "task": "Measure, mark, and scribe metal or plastic stock to lay out machining, using instruments such as protractors, micrometers, scribes, or rulers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.94
+    },
+    {
+      "task": "Cut, shape, and trim blanks or blocks to specified lengths or shapes, using power saws, power shears, rules, and hand tools.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.7
+    },
+    {
+      "task": "Design jigs, fixtures, and templates for use as work aids in the fabrication of parts or products.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.77
+    },
+    {
+      "task": "Select metals to be used from a range of metals and alloys, based on properties such as hardness or heat tolerance.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.05
+    },
+    {
+      "task": "Set up and operate drill presses to drill and tap holes in parts for assembly.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.69
     },
     {
       "task": "Keep records of company locks and keys.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.17
     },
     {
-      "task": "Align, fit, and join parts, using bolts, screws, welding, or gluing.",
-      "task_type": "Core"
+      "task": "Align, fit, and join parts, using bolts and screws or by welding or gluing.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.9
     },
     {
-      "task": "Clean and finish patterns or templates using emery cloths, files, scrapers, or power grinders.",
-      "task_type": "Core"
+      "task": "Clean and finish patterns or templates, using emery cloths, files, scrapers, and power grinders.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.55
     },
     {
-      "task": "Select materials and design templates, patterns, or coreboxes according to work orders or sample parts.",
-      "task_type": "Supplemental"
+      "task": "Design and create templates, patterns, or coreboxes according to work orders, sample parts, or mockups.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.55
     },
     {
-      "task": "Assemble pattern sections using hand tools, bolts, screws, rivets, glue, or welding equipment.",
-      "task_type": "Core"
+      "task": "Assemble pattern sections, using hand tools, bolts, screws, rivets, glue, or welding equipment.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.84
     },
     {
-      "task": "Repair and rework templates and patterns, ensuring dimensions meet specifications.",
-      "task_type": "Core"
+      "task": "Repair and rework templates and patterns.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.85
     },
     {
-      "task": "Read and interpret blueprints or drawings, compute dimensions, and plan operational sequences.",
-      "task_type": "Core"
+      "task": "Lay out and draw or scribe patterns onto material, using compasses, protractors, rulers, scribes, or other instruments.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.19
     },
     {
-      "task": "Construct platforms, fixtures, and jigs for holding and placing patterns or workpieces.",
-      "task_type": "Core"
+      "task": "Construct platforms, fixtures, and jigs for holding and placing patterns.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.69
     },
     {
-      "task": "Set up and operate machine tools like milling machines, lathes, and grinders for machining operations.",
-      "task_type": "Core"
+      "task": "Mark identification numbers or symbols onto patterns or templates.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.49
     },
     {
-      "task": "Measure, examine, and test completed units for defects to ensure conformance to specifications.",
-      "task_type": "Core"
+      "task": "Apply plastic-impregnated fabrics or coats of sealing wax or lacquer to patterns used to produce plastic.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 2.94
     },
     {
-      "task": "Diagnose machine tool malfunctions and perform adjustments or repairs as necessary.",
-      "task_type": "Core"
+      "task": "Paint or lacquer patterns.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.06
     },
     {
-      "task": "Maintain machines in proper operational condition and perform minor maintenance tasks.",
-      "task_type": "Core"
+      "task": "Cut new or duplicate keys, using key cutting machines.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.52
     },
     {
-      "task": "Select and install cutting tools and align drill, cutter, or die fixtures according to specifications.",
-      "task_type": "Core"
+      "task": "Devise and construct tools, dies, molds, jigs, and fixtures, or modify existing tools and equipment.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.94
     },
     {
-      "task": "Set machine stops or guides and adjust to specified lengths, ensuring proper operation during machining.",
-      "task_type": "Core"
+      "task": "Assemble mechanical, electrical, and electronic components into models or prototypes, using hand tools, power tools, and fabricating machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.02
     },
     {
-      "task": "Monitor machine operations, adjusting controls to maintain accuracy during machining processes.",
-      "task_type": "Core"
+      "task": "Consult and confer with engineering personnel to discuss developmental problems and to recommend product modifications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.49
     },
     {
-      "task": "Verify workpiece alignment and adjust as necessary using measuring instruments.",
-      "task_type": "Core"
+      "task": "Rework or alter component model or parts as required to ensure that products meet standards.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.07
     },
     {
-      "task": "Design and prepare templates, and plan machining operations based on blueprints, applying shop mathematics.",
-      "task_type": "Core"
+      "task": "Program computerized numerical control machine tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.56
     },
     {
-      "task": "Fabricate metal structural parts, and mark dimensions and welding symbols on workpieces as needed.",
-      "task_type": "Core"
+      "task": "Measure, examine, or test completed units to check for defects and ensure conformance to specifications, using precision instruments, such as micrometers.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.62
     },
     {
-      "task": "Record operational data and production output, ensuring compliance with specifications throughout the process.",
-      "task_type": "Core"
+      "task": "Evaluate machining procedures and recommend changes or modifications for improved efficiency or adaptability.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.29
     },
     {
-      "task": "Select cutting tools and tooling instructions according to written specifications or knowledge of metal properties and shop mathematics.",
-      "task_type": "Core"
+      "task": "Dispose of scrap or waste material in accordance with company policies and environmental regulations.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.03
+    },
+    {
+      "task": "Set up, adjust, or operate basic or specialized machine tools used to perform precision machining operations.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.56
+    },
+    {
+      "task": "Maintain machine tools in proper operational condition.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.45
+    },
+    {
+      "task": "Prepare working sketches for the illustration of product appearance.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.88
+    },
+    {
+      "task": "Select the proper coolants and lubricants and start their flow.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.99
+    },
+    {
+      "task": "Compute data, such as gear dimensions or machine settings, applying knowledge of shop mathematics.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.88
+    },
+    {
+      "task": "Move controls or mount gears, cams, or templates in machines to set feed rates and cutting speeds, depths, and angles.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.8
+    },
+    {
+      "task": "Set machine stops or guides to specified lengths as indicated by scales, rules, or templates.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.05
+    },
+    {
+      "task": "Extract or lift jammed pieces from machines, using fingers, wire hooks, or lift bars.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.48
+    },
+    {
+      "task": "Instruct other workers in machine set-up and operation.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.68
+    },
+    {
+      "task": "Remove burrs, sharp edges, rust, or scale from workpieces, using files, hand grinders, wire brushes, or power tools.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.95
+    },
+    {
+      "task": "Install repaired parts into equipment or install new equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 4.11
+    },
+    {
+      "task": "Position, adjust, and secure stock material or workpieces against stops, on arbors, or in chucks, fixtures, or automatic feeding mechanisms, manually or using hoists.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.37
+    },
+    {
+      "task": "Align layout marks with dies or blades.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.49
+    },
+    {
+      "task": "Operate equipment to verify operational efficiency.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.33
+    },
+    {
+      "task": "Monitor the feed and speed of machines during the machining process.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.46
+    },
+    {
+      "task": "Test experimental models under simulated operating conditions, for purposes such as development, standardization, or feasibility of design.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.96
+    },
+    {
+      "task": "Set up or operate metalworking, brazing, heat-treating, welding, or cutting equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.94
+    },
+    {
+      "task": "Fit and assemble parts to make or repair machine tools.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.41
+    },
+    {
+      "task": "Align and secure holding fixtures, cutting tools, attachments, accessories, or materials onto machines.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.34
+    },
+    {
+      "task": "Confer with numerical control programmers to check and ensure that new programs or machinery will function properly and that output will meet specifications.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.33
+    },
+    {
+      "task": "Support metalworking projects from planning and fabrication through assembly, inspection, and testing, using knowledge of machine functions, metal properties, and mathematics.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 4.41
+    },
+    {
+      "task": "Establish work procedures for fabricating new structural products, using a variety of metalworking machines.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.86
+    },
+    {
+      "task": "Dismantle machines or equipment, using hand tools or power tools to examine parts for defects and replace defective parts where needed.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 4.03
+    },
+    {
+      "task": "Confer with engineering, supervisory, or manufacturing personnel to exchange technical information.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.02
+    },
+    {
+      "task": "Advise clients about the materials being used for finished products.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.56
+    },
+    {
+      "task": "Lay out, measure, and mark metal stock to display placement of cuts.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.02
+    },
+    {
+      "task": "Observe machine operation to detect workpiece defects or machine malfunctions, adjusting machines as necessary.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.22
+    },
+    {
+      "task": "Apply pigment to layout surfaces, using paint brushes.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 2.87
+    },
+    {
+      "task": "Plan locations and sequences of cutting, drilling, bending, rolling, punching, and welding operations, using compasses, protractors, dividers, and rules.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.4
+    },
+    {
+      "task": "Brace parts in position within hulls or ships for riveting or welding.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 4.09
+    },
+    {
+      "task": "Install doors, hatches, brackets, and clips.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 4.19
+    },
+    {
+      "task": "Lay out and fabricate metal structural parts such as plates, bulkheads, and frames.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.23
+    },
+    {
+      "task": "Select, align, and bolt positioning fixtures, stops, and specified dies to rams and anvils, forging rolls, or presses and hammers.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.84
+    },
+    {
+      "task": "Trim and compress finished forgings to specified tolerances.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.1
+    },
+    {
+      "task": "Sharpen cutting tools and drill bits, using bench grinders.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.53
+    },
+    {
+      "task": "Load workpieces, plastic material, or chemical solutions into machines.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.23
+    },
+    {
+      "task": "Start machines, monitor their operations, and record operational data.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.46
+    },
+    {
+      "task": "Position and move metal wires or workpieces through a series of dies that compress and shape stock to form die impressions.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.45
+    },
+    {
+      "task": "Set blade tensions, heights, and angles to perform prescribed cuts, using wrenches.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.41
+    },
+    {
+      "task": "Adjust ram strokes of presses to specified lengths, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 4.36
+    },
+    {
+      "task": "Install, adjust, and remove dies, synchronizing cams, forging hammers, and stop guides, using overhead cranes or other hoisting devices, and hand tools.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.3
+    },
+    {
+      "task": "Set up, operate, or tend presses and forging machines to perform hot or cold forging by flattening, straightening, bending, cutting, piercing, or other operations to taper, shape, or form metal.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.41
+    },
+    {
+      "task": "Move cutters or material manually or by turning handwheels, or engage automatic feeding mechanisms to mill workpieces to specifications.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.08
+    },
+    {
+      "task": "Mount attachments and tools, such as pantographs, engravers, or routers, to perform other operations, such as drilling or boring.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.08
+    },
+    {
+      "task": "Select and install cutting tools and other accessories according to specifications, using hand tools or power tools.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.32
+    },
+    {
+      "task": "Select cutting speeds, feed rates, and depths of cuts, applying knowledge of metal properties and shop mathematics.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.05
+    },
+    {
+      "task": "Repair, maintain, and replace parts on dies.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.9
+    },
+    {
+      "task": "Compute dimensions, tolerances, and angles of workpieces or machines according to specifications and knowledge of metal properties and shop mathematics.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.15
+    },
+    {
+      "task": "Move controls to set cutting specifications, to position cutting tools and workpieces in relation to each other, and to start machines.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.35
+    },
+    {
+      "task": "Study blueprints, layouts, sketches, or work orders to assess workpiece specifications and to determine tooling instructions, tools and materials needed, and sequences of operations.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.2
+    },
+    {
+      "task": "Replace defective blades or wheels, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.93
+    },
+    {
+      "task": "Operate tracing attachments to duplicate contours from templates or models.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 2.79
+    },
+    {
+      "task": "Compute unspecified dimensions and machine settings, using knowledge of metal properties and shop mathematics.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.14
+    },
+    {
+      "task": "Select cutting tools and tooling instructions, according to written specifications or knowledge of metal properties and shop mathematics.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.52
     },
     {
       "task": "Crank machines through cycles, stopping to adjust tool positions and machine controls to ensure specified timing, clearances, and tolerances.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.12
     },
     {
-      "task": "Lift and position workpieces manually or using hoists, and secure them in machines, using fasteners and hand tools.",
-      "task_type": "Core"
+      "task": "Lift metal stock or workpieces manually or using hoists, and position and secure them in machines, using fasteners and hand tools.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.73
     },
     {
-      "task": "Replace worn tools, and sharpen dull cutting tools and dies using bench grinders or cutter-grinding machines.",
-      "task_type": "Core"
+      "task": "Replace worn tools, and sharpen dull cutting tools and dies, using bench grinders or cutter-grinding machines.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.22
     },
     {
-      "task": "Direct coolant or lubricant flow over cutting areas and workpieces by turning valves and operating coolants system.",
-      "task_type": "Core"
+      "task": "Turn valves and direct flow of coolants or cutting oil over cutting areas.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.15
     },
     {
-      "task": "Program and operate computer numerical control machines or robots to perform machine functions on metal or plastic workpieces.",
-      "task_type": "Core"
+      "task": "Move machine controls to lower tools to workpieces and to engage automatic feeds.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.55
     },
     {
-      "task": "Verify conformance of machined work to specifications using measuring instruments such as calipers or micrometers.",
-      "task_type": "Core"
+      "task": "Position and secure workpieces on tables, using bolts, jigs, clamps, shims, or other holding devices.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.4
     },
     {
-      "task": "Study machining instructions, job orders, blueprints, or specifications to determine operational setups or tooling requirements.",
-      "task_type": "Core"
+      "task": "Use equipment designed to join sheet metal, such as spot welders.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.37
     },
     {
-      "task": "Set machine controls, speed, feed rates, and cutting tools according to machining instructions or knowledge of metal properties.",
-      "task_type": "Core"
+      "task": "Program computer numerical control machines.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.93
     },
     {
-      "task": "Monitor machine cycles and operations to detect problems or malfunctions and make necessary adjustments or repairs as needed.",
-      "task_type": "Core"
+      "task": "Refill, change, and monitor the level of fluids, such as oil and coolant, in machines.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.91
     },
     {
-      "task": "Adjust machine settings or tooling configurations based on product specifications or to correct errors in operation.",
-      "task_type": "Core"
+      "task": "Operate forklifts to deliver materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.57
     },
     {
-      "task": "Clean work areas, machines, and tooling using solvents or solutions and rags, and perform preventive maintenance as needed.",
-      "task_type": "Core"
+      "task": "Clean work area.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.85
     },
     {
-      "task": "Install, mount, and align tools or fixtures on machines using hand tools and measuring instruments to ensure correct operation.",
-      "task_type": "Core"
+      "task": "Maintain stocks of machine parts and machining tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.78
     },
     {
-      "task": "Lift and position workpieces, using hoists or cranes, and signal or assist other workers in material handling tasks.",
-      "task_type": "Core"
+      "task": "Repair or replace machine parts, using hand tools, or notify engineering personnel when corrective action is required.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.79
     },
     {
-      "task": "Install and change dies, machine screws, and sizing rings on machines that extrude thermoplastic or metal materials.",
-      "task_type": "Core"
+      "task": "Adjust air cylinders and setting stops to set traverse lengths and feed arm strokes.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.38
     },
     {
-      "task": "Insert control instructions into machine control units to start operation, and input part specifications as needed.",
-      "task_type": "Core"
+      "task": "Thread and hand-feed materials through machine cutters or abraders.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.52
     },
     {
-      "task": "Determine setup procedures and select machine dies and parts as per specified requirements to optimize production.",
-      "task_type": "Core"
+      "task": "Select, clean, and install spacers, rubber sleeves, or cutters on arbors.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.56
     },
     {
-      "task": "Prepare geometric layouts using computer-assisted drafting software or drafting instruments from graphic displays.",
-      "task_type": "Core"
+      "task": "Compute machine indexings and settings for specified dimensions and base reference points.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 4.31
     },
     {
-      "task": "Record production on schedule sheets and maintain an inventory of machine parts and materials.",
-      "task_type": "Core"
+      "task": "Move machine controls to index workpieces, and to adjust machines for pre-selected operational settings.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.37
     },
     {
-      "task": "Troubleshoot, maintain, or make minor repairs to equipment and replace broken or worn machine tools as necessary.",
-      "task_type": "Core"
+      "task": "Verify conformance of machined work to specifications, using measuring instruments, such as calipers, micrometers, or fixed or telescoping gauges.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.84
     },
     {
-      "task": "Examine, inspect, and measure raw materials and finished products using precision instruments to ensure specifications are met.",
-      "task_type": "Core"
+      "task": "Study machining instructions, job orders, or blueprints to determine dimensional or finish specifications, sequences of operations, setups, or tooling requirements.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.7
+    },
+    {
+      "task": "Select and set cutting speeds, feed rates, depths of cuts, and cutting tools, according to machining instructions or knowledge of metal properties.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.44
+    },
+    {
+      "task": "Adjust machine controls and change tool settings to keep dimensions within specified tolerances.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.34
+    },
+    {
+      "task": "Install holding fixtures, cams, gears, and stops to control stock and tool movement, using hand tools, power tools, and measuring instruments.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 3.61
+    },
+    {
+      "task": "Move toolholders manually or by turning handwheels, or engage automatic feeding mechanisms to feed tools to and along workpieces.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.18
+    },
+    {
+      "task": "Set and adjust machine controls according to product specifications, using knowledge of machine operation.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.24
+    },
+    {
+      "task": "Observe machine operations to detect any problems, making necessary adjustments to correct problems.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.41
+    },
+    {
+      "task": "Set up, operate, or tend grinding and related tools that remove excess material or burrs from surfaces, sharpen edges or corners, or buff, hone, or polish metal or plastic workpieces.",
+      "task_type": "Core",
+      "relevance": 0.0625,
+      "importance": 4.24
+    },
+    {
+      "task": "Preheat workpieces, using heating furnaces or hand torches.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.2
+    },
+    {
+      "task": "Plan sequences of operations, applying knowledge of physical properties of workpiece materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.0625,
+      "importance": 3.92
+    },
+    {
+      "task": "Calculate draft space and roll speed for each mill stand to plan rolling sequences and specified dimensions and tempers.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.11
+    },
+    {
+      "task": "Set distance points between rolls, guides, meters, and stops, according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.14
+    },
+    {
+      "task": "Install equipment such as guides, guards, gears, cooling equipment, and rolls, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.1
+    },
+    {
+      "task": "Record mill production on schedule sheets.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 3.8
+    },
+    {
+      "task": "Direct and train other workers to change rolls, operate mill equipment, remove coils and cobbles, and band and load material.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 3.7
+    },
+    {
+      "task": "Position, align, and secure arbors, spindles, coils, mandrels, dies, and slitting knives.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.02
+    },
+    {
+      "task": "Start operation of rolling and milling machines to flatten, temper, form, and reduce sheet metal sections and to produce steel strips.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.47
+    },
+    {
+      "task": "Select rolls, dies, roll stands, and chucks from data charts to form specified contours and to fabricate products.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 4.06
+    },
+    {
+      "task": "Read rolling orders, blueprints, and mill schedules to determine setup specifications, work sequences, product dimensions, and installation procedures.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.34
+    },
+    {
+      "task": "Adjust and correct machine set-ups to reduce thicknesses, reshape products, and eliminate product defects.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.56
+    },
+    {
+      "task": "Disassemble sizing mills removed from rolling lines, and sort and store parts.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.63
+    },
+    {
+      "task": "Remove scratches and polish roll surfaces, using polishing stones and electric buffers.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.75
+    },
+    {
+      "task": "Measure and examine extruded products to locate defects and to check for conformance to specifications, adjusting controls as necessary to alter products.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.56
+    },
+    {
+      "task": "Determine setup procedures and select machine dies and parts, according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.33
+    },
+    {
+      "task": "Test physical properties of products with testing devices such as acid-bath testers, burst testers, and impact testers.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.95
+    },
+    {
+      "task": "Load machine hoppers with mixed materials, using augers, or stuff rolls of plastic dough into machine cylinders.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.89
+    },
+    {
+      "task": "Weigh and mix pelletized, granular, or powdered thermoplastic materials and coloring pigments.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.96
+    },
+    {
+      "task": "Select nozzles, spacers, and wire guides, according to diameters and lengths of rods.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.37
+    },
+    {
+      "task": "Operate shearing mechanisms to cut rods to specified lengths.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.15
+    },
+    {
+      "task": "Adjust controls to draw or press metal into specified shapes and diameters.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.7
+    },
+    {
+      "task": "Signal and assist other workers to remove and position equipment, fill hoppers, and feed materials into machines.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 3.85
+    },
+    {
+      "task": "Reel extruded products into rolls of specified lengths and weights.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.28
+    },
+    {
+      "task": "Replace worn dies when products vary from specifications.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.7
+    },
+    {
+      "task": "Start machines and set controls to regulate vacuum, air pressure, sizing rings, and temperature, and to synchronize speed of extrusion.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.29
+    },
+    {
+      "task": "Change dies on extruding machines, according to production line changes.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.06
+    },
+    {
+      "task": "Install dies, machine screws, and sizing rings on machines that extrude thermoplastic or metal materials.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.16
+    },
+    {
+      "task": "Set up future jobs while machines are operating.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.09
+    },
+    {
+      "task": "Stack or load finished items, or place items on conveyor systems.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 3.92
+    },
+    {
+      "task": "Confer with supervisors or programmers to resolve machine malfunctions or production errors or to obtain approval to continue production.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.0
+    },
+    {
+      "task": "Set up and operate computer-controlled machines or robots to perform one or more machine functions on metal or plastic workpieces.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.68
+    },
+    {
+      "task": "Check to ensure that workpieces are properly lubricated and cooled during machine operation.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.45
+    },
+    {
+      "task": "Stop machines to remove finished workpieces or to change tooling, setup, or workpiece placement, according to required machining sequences.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.56
+    },
+    {
+      "task": "Adjust machine feed and speed, change cutting tools, or adjust machine controls when automatic programming is faulty or if machines malfunction.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.41
+    },
+    {
+      "task": "Mount, install, align, and secure tools, attachments, fixtures, and workpieces on machines, using hand tools and precision measuring instruments.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.63
+    },
+    {
+      "task": "Clean machines, tooling, or parts, using solvents or solutions and rags.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 3.82
+    },
+    {
+      "task": "Sort shop orders into groups to maximize materials utilization and minimize machine setup time.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 3.82
+    },
+    {
+      "task": "Prepare geometric layouts from graphic displays, using computer-assisted drafting software or drafting instruments and graph paper.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 3.78
+    },
+    {
+      "task": "Lay out and mark areas of parts to be shot peened and fill hoppers with shot.",
+      "task_type": "Supplemental",
+      "relevance": 0.043478260869565216,
+      "importance": 3.48
     }
   ],
   "technology_skills": [
@@ -1826,6 +3192,10 @@
       "weight": 0.20833333333333331
     },
     {
+      "name": "Intuit QuickBooks",
+      "weight": 0.20833333333333331
+    },
+    {
       "name": "CNC Mastercam",
       "weight": 0.19824016563146996
     },
@@ -1851,6 +3221,10 @@
     },
     {
       "name": "ANCA ToolRoom",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "IBM Lotus Notes",
       "weight": 0.16666666666666666
     },
     {
@@ -1922,6 +3296,10 @@
       "weight": 0.11490683229813664
     },
     {
+      "name": "IMSI TurboCAD",
+      "weight": 0.11490683229813664
+    },
+    {
       "name": "JETCAM",
       "weight": 0.11490683229813664
     },
@@ -1942,6 +3320,10 @@
       "weight": 0.11011904761904762
     },
     {
+      "name": "Extensible markup language XML",
+      "weight": 0.10597826086956522
+    },
+    {
       "name": "Kentech machine shop software",
       "weight": 0.10597826086956522
     },
@@ -1951,6 +3333,10 @@
     },
     {
       "name": "CGTech Vericut CNC",
+      "weight": 0.08695652173913043
+    },
+    {
+      "name": "FaceTime",
       "weight": 0.08695652173913043
     },
     {
@@ -1983,6 +3369,14 @@
     },
     {
       "name": "MAKER CAD/CAM Services DIEMAKER",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Marathon Data Systems ServiceCEO",
       "weight": 0.08333333333333333
     },
     {
@@ -2022,7 +3416,19 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "WH Software InstaCode",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "WH Software MasterKey",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "dESCO ESC",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "data M Software COPRA MetalBender",
       "weight": 0.08333333333333333
     },
     {
@@ -2035,6 +3441,10 @@
     },
     {
       "name": "GRZ Software MeshCAM",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "JobBOSS",
       "weight": 0.07142857142857142
     },
     {
@@ -2070,6 +3480,10 @@
       "weight": 0.0625
     },
     {
+      "name": "SWIVEL Software",
+      "weight": 0.0625
+    },
+    {
       "name": "Siemens Solid Edge",
       "weight": 0.0625
     },
@@ -2082,7 +3496,15 @@
       "weight": 0.0625
     },
     {
+      "name": "Enterprise application integration EAI software",
+      "weight": 0.047619047619047616
+    },
+    {
       "name": "3D Systems GibbsCAM",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Aptean Made2Manage",
       "weight": 0.043478260869565216
     },
     {
@@ -2142,6 +3564,14 @@
       "weight": 0.043478260869565216
     },
     {
+      "name": "Eko",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "ExtraTech Machine Tools Suite",
+      "weight": 0.043478260869565216
+    },
+    {
       "name": "FANUC CNC",
       "weight": 0.043478260869565216
     },
@@ -2174,6 +3604,10 @@
       "weight": 0.043478260869565216
     },
     {
+      "name": "HOMAG WoodWOP",
+      "weight": 0.043478260869565216
+    },
+    {
       "name": "Hypertherm ProNest",
       "weight": 0.043478260869565216
     },
@@ -2190,6 +3624,10 @@
       "weight": 0.043478260869565216
     },
     {
+      "name": "KCD cabinet design software",
+      "weight": 0.043478260869565216
+    },
+    {
       "name": "Kentech Kipware M CNC",
       "weight": 0.043478260869565216
     },
@@ -2199,6 +3637,14 @@
     },
     {
       "name": "Kentech Kipware X CNC",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Kentech PROTALK",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Kubotek KeyCreator Machinist",
       "weight": 0.043478260869565216
     },
     {
@@ -2290,11 +3736,27 @@
       "weight": 0.043478260869565216
     },
     {
+      "name": "Supervisory control and data acquisition SCADA software",
+      "weight": 0.043478260869565216
+    },
+    {
       "name": "Tebis computer aided design software",
       "weight": 0.043478260869565216
     },
     {
+      "name": "Technos Astra R-Nesting",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Technos Astra S-Nesting",
+      "weight": 0.043478260869565216
+    },
+    {
       "name": "TekSoft CAMWorks",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Top Systems T-FLEX CAM",
       "weight": 0.043478260869565216
     },
     {
@@ -2452,6 +3914,10 @@
       "weight": 0.3958333333333333
     },
     {
+      "name": "Wheeled forklifts",
+      "weight": 0.38693064182194614
+    },
+    {
       "name": "Desktop computers",
       "weight": 0.379787784679089
     },
@@ -2545,6 +4011,10 @@
     },
     {
       "name": "Combination squares",
+      "weight": 0.2708333333333333
+    },
+    {
+      "name": "Digital bench scales",
       "weight": 0.2708333333333333
     },
     {
@@ -3172,6 +4642,10 @@
       "weight": 0.125
     },
     {
+      "name": "Automatic tool changers",
+      "weight": 0.125
+    },
+    {
       "name": "Awls",
       "weight": 0.125
     },
@@ -3184,11 +4658,19 @@
       "weight": 0.125
     },
     {
+      "name": "Barrel tumblers",
+      "weight": 0.125
+    },
+    {
       "name": "Bastard flat files",
       "weight": 0.125
     },
     {
       "name": "Bench vises",
+      "weight": 0.125
+    },
+    {
+      "name": "Benchtop disk sanders",
       "weight": 0.125
     },
     {
@@ -3212,7 +4694,19 @@
       "weight": 0.125
     },
     {
+      "name": "Carpenters' hammers",
+      "weight": 0.125
+    },
+    {
       "name": "Center finders",
+      "weight": 0.125
+    },
+    {
+      "name": "Chop saws",
+      "weight": 0.125
+    },
+    {
+      "name": "Circular saws",
       "weight": 0.125
     },
     {
@@ -3224,7 +4718,11 @@
       "weight": 0.125
     },
     {
-      "name": "Combination planes",
+      "name": "Cold presses",
+      "weight": 0.125
+    },
+    {
+      "name": "Computer numerically control CNC spray painting machines",
       "weight": 0.125
     },
     {
@@ -3248,6 +4746,14 @@
       "weight": 0.125
     },
     {
+      "name": "Dipping tanks",
+      "weight": 0.125
+    },
+    {
+      "name": "Disk sanders",
+      "weight": 0.125
+    },
+    {
       "name": "Electric buffers",
       "weight": 0.125
     },
@@ -3260,7 +4766,19 @@
       "weight": 0.125
     },
     {
+      "name": "Electrostatic spray guns",
+      "weight": 0.125
+    },
+    {
+      "name": "Engraving tools",
+      "weight": 0.125
+    },
+    {
       "name": "Face shields",
+      "weight": 0.125
+    },
+    {
+      "name": "Finishing hammers",
       "weight": 0.125
     },
     {
@@ -3272,15 +4790,15 @@
       "weight": 0.125
     },
     {
-      "name": "Hand augers",
+      "name": "Hand sanding blocks",
       "weight": 0.125
     },
     {
-      "name": "Hand planers",
+      "name": "Heat guns",
       "weight": 0.125
     },
     {
-      "name": "Hand screw wood clamps",
+      "name": "Heated putty knives",
       "weight": 0.125
     },
     {
@@ -3288,7 +4806,19 @@
       "weight": 0.125
     },
     {
-      "name": "Jig saws",
+      "name": "Height setters",
+      "weight": 0.125
+    },
+    {
+      "name": "High pressure water sprayers",
+      "weight": 0.125
+    },
+    {
+      "name": "Hot presses",
+      "weight": 0.125
+    },
+    {
+      "name": "Lacquer booths",
       "weight": 0.125
     },
     {
@@ -3308,10 +4838,6 @@
       "weight": 0.125
     },
     {
-      "name": "Marking gauges",
-      "weight": 0.125
-    },
-    {
       "name": "Mechanical edge finders",
       "weight": 0.125
     },
@@ -3324,19 +4850,39 @@
       "weight": 0.125
     },
     {
+      "name": "Micro band saws",
+      "weight": 0.125
+    },
+    {
+      "name": "Micro mills",
+      "weight": 0.125
+    },
+    {
       "name": "Mill files",
       "weight": 0.125
     },
     {
-      "name": "Miter clamps",
+      "name": "Mini hammers",
       "weight": 0.125
     },
     {
-      "name": "Nail guns",
+      "name": "Mini lathes",
       "weight": 0.125
     },
     {
-      "name": "Nail punches",
+      "name": "Mini tweezers",
+      "weight": 0.125
+    },
+    {
+      "name": "Minipresses",
+      "weight": 0.125
+    },
+    {
+      "name": "Mop brushes",
+      "weight": 0.125
+    },
+    {
+      "name": "Multipurpose paintbrushes",
       "weight": 0.125
     },
     {
@@ -3352,15 +4898,27 @@
       "weight": 0.125
     },
     {
-      "name": "Overarm routers",
+      "name": "Paint agitators",
       "weight": 0.125
     },
     {
-      "name": "Panel routers",
+      "name": "Paint application brushes",
       "weight": 0.125
     },
     {
-      "name": "Panel saws",
+      "name": "Paint application rollers",
+      "weight": 0.125
+    },
+    {
+      "name": "Paint rollers",
+      "weight": 0.125
+    },
+    {
+      "name": "Paint scrapers",
+      "weight": 0.125
+    },
+    {
+      "name": "Paint spray guns",
       "weight": 0.125
     },
     {
@@ -3372,11 +4930,43 @@
       "weight": 0.125
     },
     {
-      "name": "Pneumatic nail guns",
+      "name": "Pen sanders",
       "weight": 0.125
     },
     {
-      "name": "Power nailing tools",
+      "name": "Pencil brushes",
+      "weight": 0.125
+    },
+    {
+      "name": "Pickup trucks",
+      "weight": 0.125
+    },
+    {
+      "name": "Pincers",
+      "weight": 0.125
+    },
+    {
+      "name": "Plumb bobs",
+      "weight": 0.125
+    },
+    {
+      "name": "Power paint mixers",
+      "weight": 0.125
+    },
+    {
+      "name": "Power paint sprayers",
+      "weight": 0.125
+    },
+    {
+      "name": "Power screwdrivers",
+      "weight": 0.125
+    },
+    {
+      "name": "Power screwguns",
+      "weight": 0.125
+    },
+    {
+      "name": "Powered screwdrivers",
       "weight": 0.125
     },
     {
@@ -3408,6 +4998,26 @@
       "weight": 0.125
     },
     {
+      "name": "Random orbital sanders",
+      "weight": 0.125
+    },
+    {
+      "name": "Reciprocating saws",
+      "weight": 0.125
+    },
+    {
+      "name": "Scrapers",
+      "weight": 0.125
+    },
+    {
+      "name": "Scratch awls",
+      "weight": 0.125
+    },
+    {
+      "name": "Scrubbing brushes",
+      "weight": 0.125
+    },
+    {
       "name": "Set squares",
       "weight": 0.125
     },
@@ -3420,7 +5030,27 @@
       "weight": 0.125
     },
     {
+      "name": "Slip joint pliers",
+      "weight": 0.125
+    },
+    {
       "name": "Socket sets",
+      "weight": 0.125
+    },
+    {
+      "name": "Soft mallets",
+      "weight": 0.125
+    },
+    {
+      "name": "Spray guns",
+      "weight": 0.125
+    },
+    {
+      "name": "Spring clamps",
+      "weight": 0.125
+    },
+    {
+      "name": "Stereolithography prototyping machines",
       "weight": 0.125
     },
     {
@@ -3436,14 +5066,6 @@
       "weight": 0.125
     },
     {
-      "name": "Table routers",
-      "weight": 0.125
-    },
-    {
-      "name": "Thickness planers",
-      "weight": 0.125
-    },
-    {
       "name": "Tool probes",
       "weight": 0.125
     },
@@ -3452,24 +5074,36 @@
       "weight": 0.125
     },
     {
+      "name": "Trammel points",
+      "weight": 0.125
+    },
+    {
       "name": "Vertical mills",
       "weight": 0.125
     },
     {
-      "name": "Wood files",
+      "name": "Viscosity cups",
       "weight": 0.125
     },
     {
-      "name": "Wood lathes",
+      "name": "Wedge clamps",
       "weight": 0.125
     },
     {
-      "name": "Woodturning lathes",
+      "name": "Wire cutting tools",
+      "weight": 0.125
+    },
+    {
+      "name": "Work vans",
       "weight": 0.125
     },
     {
       "name": "Injection molding machines",
       "weight": 0.11904761904761904
+    },
+    {
+      "name": "Buffers",
+      "weight": 0.11490683229813664
     },
     {
       "name": "Computer numerical controlled CNC milling machines",
@@ -3481,6 +5115,10 @@
     },
     {
       "name": "Grinders",
+      "weight": 0.11490683229813664
+    },
+    {
+      "name": "Laser printers",
       "weight": 0.11490683229813664
     },
     {
@@ -3528,6 +5166,10 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Finishers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Orbit polishers",
       "weight": 0.1111111111111111
     },
@@ -3560,11 +5202,19 @@
       "weight": 0.10597826086956522
     },
     {
+      "name": "Soft jaws",
+      "weight": 0.10597826086956522
+    },
+    {
       "name": "Tapping machines",
       "weight": 0.10597826086956522
     },
     {
       "name": "Abrasive cutoff saws",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Adjustable widemouth pliers",
       "weight": 0.08333333333333333
     },
     {
@@ -3584,7 +5234,23 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Bench drill presses",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Bent needlenose pliers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Borescopes",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Bridge cranes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Carpenters squares",
       "weight": 0.08333333333333333
     },
     {
@@ -3604,6 +5270,14 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Compound sine bars",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Computer inkjet printers",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Computer numerical control CNC turning centers",
       "weight": 0.08333333333333333
     },
@@ -3620,7 +5294,19 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Crowbars",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Crucible furnaces",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Cutting dies",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Deadblow hammers",
       "weight": 0.08333333333333333
     },
     {
@@ -3632,6 +5318,10 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Depth keys",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Diamond dressers",
       "weight": 0.08333333333333333
     },
@@ -3640,7 +5330,23 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Die maker's squares",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Die spotting presses",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Digital electrical frequency meters",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Digital oscilloscopes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Digital plotters",
       "weight": 0.08333333333333333
     },
     {
@@ -3648,7 +5354,23 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Drill point gauges",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Drying chambers",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Dust collectors",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Dust masks",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Ear plugs",
       "weight": 0.08333333333333333
     },
     {
@@ -3664,7 +5386,35 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Face cap removal pliers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Flat blade screwdrivers",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Flat smooth cut files",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Flathead screwdrivers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Foundry casting ladles",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Foundry flasks",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Furnace ladles",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fused deposition modeling FDM printers",
       "weight": 0.08333333333333333
     },
     {
@@ -3673,6 +5423,10 @@
     },
     {
       "name": "Gas powered brazing equipment",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Gating systems",
       "weight": 0.08333333333333333
     },
     {
@@ -3692,7 +5446,27 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Grit blasting cabinets",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hammer drills",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hand jacks",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Hand reamers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hand snips",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Handheld refractometers",
       "weight": 0.08333333333333333
     },
     {
@@ -3705,6 +5479,10 @@
     },
     {
       "name": "Height micrometers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Hex key sets",
       "weight": 0.08333333333333333
     },
     {
@@ -3721,6 +5499,22 @@
     },
     {
       "name": "Hydraulic punch presses",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Impressioning files",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Jewelers lathes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Jig borers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Jigsaws",
       "weight": 0.08333333333333333
     },
     {
@@ -3748,6 +5542,18 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Locksmith hammers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Long tweezers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Loupes",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Machinist squares",
       "weight": 0.08333333333333333
     },
@@ -3756,7 +5562,15 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Manual brake presses",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Manual lathes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Material moving dollies",
       "weight": 0.08333333333333333
     },
     {
@@ -3764,7 +5578,35 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Metal markers",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Metalworking scribers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoldering equipment",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Needle nose pliers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Nut driver sets",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Optical flats",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Parallel pin punches",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Phillips screwdrivers",
       "weight": 0.08333333333333333
     },
     {
@@ -3777,6 +5619,14 @@
     },
     {
       "name": "Portable welders",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Portable workshop cranes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Power brakes",
       "weight": 0.08333333333333333
     },
     {
@@ -3804,7 +5654,19 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Robertson screwdrivers",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Rotary surface grinders",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Selective layered sintering SLS printers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Shadowgraph optical comparators",
       "weight": 0.08333333333333333
     },
     {
@@ -3816,7 +5678,7 @@
       "weight": 0.08333333333333333
     },
     {
-      "name": "Signal generators",
+      "name": "Shrinkage rulers",
       "weight": 0.08333333333333333
     },
     {
@@ -3940,10 +5802,6 @@
       "weight": 0.08333333333333333
     },
     {
-      "name": "Wheatstone bridges",
-      "weight": 0.08333333333333333
-    },
-    {
       "name": "Wire cutters",
       "weight": 0.08333333333333333
     },
@@ -3965,10 +5823,6 @@
     },
     {
       "name": "Aviation snips",
-      "weight": 0.07142857142857142
-    },
-    {
-      "name": "Beverly shears",
       "weight": 0.07142857142857142
     },
     {
@@ -4060,6 +5914,10 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Drafting scales",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Drum lathes",
       "weight": 0.07142857142857142
     },
@@ -4076,11 +5934,19 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Face masks",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Flat files",
       "weight": 0.07142857142857142
     },
     {
       "name": "Flywheel lathes",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Full face shields",
       "weight": 0.07142857142857142
     },
     {
@@ -4140,6 +6006,10 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Ladders",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Lathe machines",
       "weight": 0.07142857142857142
     },
@@ -4160,7 +6030,15 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Magnetic retrievers",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Marking blocks",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Mechanical booms",
       "weight": 0.07142857142857142
     },
     {
@@ -4188,6 +6066,10 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Pillar drill machines",
       "weight": 0.07142857142857142
     },
@@ -4208,6 +6090,10 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Platforms",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Polishing machines",
       "weight": 0.07142857142857142
     },
@@ -4224,11 +6110,19 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Robotic loading equipment",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Sandblasters",
       "weight": 0.07142857142857142
     },
     {
       "name": "Screwdrivers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Self-contained breathing apparatus",
       "weight": 0.07142857142857142
     },
     {
@@ -4257,6 +6151,10 @@
     },
     {
       "name": "Square chisels",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Staging equipment",
       "weight": 0.07142857142857142
     },
     {
@@ -4304,6 +6202,10 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Drafting dividers",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Electric saws",
       "weight": 0.06666666666666667
     },
@@ -4333,6 +6235,10 @@
     },
     {
       "name": "Adjustable spanner wrenches",
+      "weight": 0.0625
+    },
+    {
+      "name": "Automatic conveyors",
       "weight": 0.0625
     },
     {
@@ -4405,6 +6311,10 @@
     },
     {
       "name": "Computer numerical control CNC milling machines",
+      "weight": 0.0625
+    },
+    {
+      "name": "Computerized microscopes",
       "weight": 0.0625
     },
     {
@@ -4900,10 +6810,6 @@
       "weight": 0.0625
     },
     {
-      "name": "Transit levels",
-      "weight": 0.0625
-    },
-    {
       "name": "Turret presses",
       "weight": 0.0625
     },
@@ -4976,10 +6882,6 @@
       "weight": 0.047619047619047616
     },
     {
-      "name": "Crop shears",
-      "weight": 0.047619047619047616
-    },
-    {
       "name": "Diameter gauges",
       "weight": 0.047619047619047616
     },
@@ -5009,10 +6911,6 @@
     },
     {
       "name": "Dummy blocks",
-      "weight": 0.047619047619047616
-    },
-    {
-      "name": "Dye water tank farm systems",
       "weight": 0.047619047619047616
     },
     {
@@ -5257,10 +7155,6 @@
     },
     {
       "name": "Comparators",
-      "weight": 0.043478260869565216
-    },
-    {
-      "name": "Computer numerical control CNC edge banders",
       "weight": 0.043478260869565216
     },
     {

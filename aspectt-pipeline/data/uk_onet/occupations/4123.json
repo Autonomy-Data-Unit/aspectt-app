@@ -1544,136 +1544,904 @@
   ],
   "tasks": [
     {
-      "task": "Balance currency, coin, and checks in cash drawers at ends of shifts and calculate daily transactions using computers or calculators.",
-      "task_type": "Core"
+      "task": "Balance currency, coin, and checks in cash drawers at ends of shifts and calculate daily transactions, using computers, calculators, or adding machines.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.81
     },
     {
-      "task": "Order a supply of cash to meet daily needs and monitor bank vaults to ensure cash balances are correct.",
-      "task_type": "Core"
+      "task": "Order a supply of cash to meet daily needs.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.32
     },
     {
-      "task": "Answer telephones, assist customers with their inquiries, and resolve problems or discrepancies concerning customers' accounts.",
-      "task_type": "Core"
+      "task": "Answer telephones and assist customers with their questions.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.56
     },
     {
-      "task": "Quote unit exchange rates, inform customers about foreign currency regulations, and compute transaction fees for currency exchanges.",
-      "task_type": "Supplemental"
+      "task": "Quote unit exchange rates, following daily international rate sheets or computer displays.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.31
     },
     {
-      "task": "Cash checks and pay out money after verifying signatures and ensuring accounts have sufficient funds.",
-      "task_type": "Core"
+      "task": "Inform customers about foreign currency regulations and compute transaction fees for currency exchanges.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.12
     },
     {
-      "task": "Receive and count daily inventories of cash, drafts, checks, and sort deposit slips and checks.",
-      "task_type": "Core"
+      "task": "Issue checks to bond owners in settlement of transactions.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.31
     },
     {
-      "task": "Compute financial fees, interest, and service charges, and prepare and verify cashier's checks.",
-      "task_type": "Core"
+      "task": "Compose, type, and mail customer statements and other correspondence related to issues such as discrepancies and outstanding unpaid items.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.75
     },
     {
-      "task": "Receive checks and cash for deposits, verify amounts, and check accuracy of deposit slips.",
-      "task_type": "Core"
+      "task": "Cash checks and pay out money after verifying that signatures are correct, that written and numerical amounts agree, and that accounts have sufficient funds.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.78
     },
     {
-      "task": "Monitor customer loans, process and maintain their records, and assist in compliance with national regulations.",
-      "task_type": "Supplemental"
+      "task": "Compute financial fees, interest, and service charges.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.96
     },
     {
-      "task": "Advise clients or respond to inquiries about financial matters in person or through various communication methods.",
-      "task_type": "Core"
+      "task": "Carry out special services for customers, such as ordering bank cards and checks.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.42
     },
     {
-      "task": "Prepare written documents to establish contracts with clients or communicate financial recommendations, including budget and debt plans.",
-      "task_type": "Core"
+      "task": "Count, verify, and post armored car deposits.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.55
     },
     {
-      "task": "Interview clients to gather financial information and assess their overall financial situations including debts and credit reports.",
-      "task_type": "Core"
+      "task": "Process and maintain records of customer loans.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.75
     },
     {
-      "task": "Negotiate with creditors on behalf of clients to arrange for payment adjustments, interest rate reductions, or flexible payment plans.",
-      "task_type": "Core"
+      "task": "Sort and file deposit slips and checks.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.4
     },
     {
-      "task": "Explain loan information, types, eligibility requirements, and other options to customers, ensuring clarity and understanding.",
-      "task_type": "Core"
+      "task": "Obtain and process information required for the provision of services, such as opening accounts, savings plans, and purchasing bonds.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.02
     },
     {
-      "task": "Work with clients to identify their financial goals and recommend strategies to meet them, such as borrowing or budgeting.",
-      "task_type": "Core"
+      "task": "Monitor bank vaults to ensure cash balances are correct.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.78
     },
     {
-      "task": "Count, verify, and post armored car deposits and maintain accurate records of customers' charges and payments.",
-      "task_type": "Core"
+      "task": "Prepare and verify cashier's checks.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.61
     },
     {
-      "task": "Estimate loan feasibility based on applicants' financial status and credit evaluations, and prepare applications for analyst review.",
-      "task_type": "Core"
+      "task": "Receive checks and cash for deposit, verify amounts, and check accuracy of deposit slips.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.79
     },
     {
-      "task": "Prepare and issue checks to bond owners in settlement of transactions and maintain compliance with related regulations.",
-      "task_type": "Supplemental"
+      "task": "Perform clerical tasks, such as typing, filing, and microfilm photography.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.96
     },
     {
-      "task": "Perform clerical tasks such as typing, filing, and general office support related to bank operations.",
-      "task_type": "Supplemental"
+      "task": "Examine checks for endorsements and to verify other information, such as dates, bank names, identification of the persons receiving payments, and the legality of the documents.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.67
+    },
+    {
+      "task": "Count currency, coins, and checks received, by hand or using currency-counting machine, to prepare them for deposit or shipment to branch banks or the Central government Reserve Bank.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.7
+    },
+    {
+      "task": "Identify transaction mistakes when debits and credits do not balance.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.54
+    },
+    {
+      "task": "Enter customers' transactions into computers to record transactions and issue computer-generated receipts.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.69
+    },
+    {
+      "task": "Arrange monies received in cash boxes and coin dispensers according to denomination.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.18
+    },
+    {
+      "task": "Process transactions, such as term deposits, retirement savings plan contributions, automated teller transactions, night deposits, and mail deposits.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.58
+    },
+    {
+      "task": "Receive mortgage, loan, or public utility bill payments, verifying payment dates and amounts due.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.16
+    },
+    {
+      "task": "Resolve problems or discrepancies concerning customers' accounts.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.61
+    },
+    {
+      "task": "Explain, promote, or sell products or services, such as travelers' checks, savings bonds, money orders, and cashier's checks, using computerized information about customers to tailor recommendations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.03
+    },
+    {
+      "task": "Cash money orders.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.75
+    },
+    {
+      "task": "Feed mail into postage canceling devices or hand stamp mail to cancel postage.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.78
+    },
+    {
+      "task": "Receive letters and parcels, and place mail into bags.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.34
+    },
+    {
+      "task": "Respond to complaints regarding mail theft, delivery problems, and lost or damaged mail, filling out forms and making appropriate referrals for investigation.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.32
+    },
+    {
+      "task": "Provide customers with assistance in filing claims for mail theft, or lost or damaged mail.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.09
+    },
+    {
+      "task": "Put undelivered parcels away, retrieve them when customers come to claim them, and complete any related documentation.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.34
+    },
+    {
+      "task": "Rent post office boxes to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.19
+    },
+    {
+      "task": "Sell and collect payment for products such as stamps, prepaid mail envelopes, and money orders.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.66
+    },
+    {
+      "task": "Sort incoming and outgoing mail, according to type and destination, by hand or by operating electronic mail-sorting and scanning devices.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.41
+    },
+    {
+      "task": "Complete forms regarding changes of address, or theft or loss of mail, or for special services such as registered or priority mail.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.44
+    },
+    {
+      "task": "Answer questions regarding mail regulations and procedures, postage rates, and post office boxes.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.28
+    },
+    {
+      "task": "Check mail to ensure correct postage and that packages and letters are in proper condition for mailing.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.48
+    },
+    {
+      "task": "Register, certify, and insure letters and parcels.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.45
+    },
+    {
+      "task": "Obtain signatures from recipients of registered or special delivery mail.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.32
+    },
+    {
+      "task": "Transport mail from one work station to another.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.2
+    },
+    {
+      "task": "Order retail items and other supplies for office use.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.74
+    },
+    {
+      "task": "Weigh letters and parcels, compute mailing costs based on type, weight, and destination, and affix correct postage.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.63
+    },
+    {
+      "task": "Advise clients or respond to inquiries about financial matters in person or via phone, email, Web site, or Internet chat.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.24
+    },
+    {
+      "task": "Teach courses or seminars on topics, such as budgeting, management of personal finances, or financial literacy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.76
+    },
+    {
+      "task": "Assist in selection of financial award candidates using electronic databases to certify loan eligibility.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Authorize or sign mail collection letters.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Calculate amount of debt and funds available to plan methods of payoff and to estimate time for debt liquidation.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with underwriters to resolve mortgage application problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Contact applicants or creditors to resolve questions about applications or to assist with completion of paperwork.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Contact borrowers with delinquent accounts to obtain payment in full or to negotiate repayment plans.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Counsel clients on personal and family financial problems, such as excessive spending or borrowing of funds.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Establish payment priorities according to credit terms and interest rates to reduce clients' overall costs.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform individuals and groups about the financial assistance available to college or university students.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Maintain and review account records, updating and recategorizing them according to status changes.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Match individuals' needs and eligibility with available financial aid programs to provide informed recommendations.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Review accounts to determine write-offs for collection agencies.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Review billing for accuracy.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Investigate missing checks, payment histories, held funds, returned checks, or other related issues to resolve client or creditor problems.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.47
+    },
+    {
+      "task": "Explain general financial topics to clients, such as credit report ratings, bankruptcy laws, consumer protection laws, wage attachments, or collection actions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.64
+    },
+    {
+      "task": "Disburse funds from client accounts to creditors.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.6
+    },
+    {
+      "task": "Calculate clients' available monthly income to meet debt obligations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.84
+    },
+    {
+      "task": "Create action plans to assist clients in obtaining permanent housing via rent or mortgage programs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.25
+    },
+    {
+      "task": "Conduct research to help clients avoid repossessions or foreclosures or remove levies or wage garnishments.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.71
+    },
+    {
+      "task": "Advise clients on housing matters, such as housing rental, homeownership, mortgage delinquency, or foreclosure prevention.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.33
+    },
+    {
+      "task": "Review changes to financial, family, or employment situations to determine whether changes to existing debt management plans, spending plans, or budgets are needed.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Refer clients to social service or community resources for needs beyond those of credit or debt counseling.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
+    },
+    {
+      "task": "Recommend strategies for clients to meet their financial goals, such as borrowing money through loans or loan programs, declaring bankruptcy, making budget adjustments, or enrolling in debt management plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.71
+    },
+    {
+      "task": "Recommend educational materials or resources to clients on matters, such as financial planning, budgeting, or credit.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Prioritize client debt repayment to avoid dire consequences, such as bankruptcy or foreclosure or to reduce overall costs, such as by paying high-interest or short-term loans first.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.72
+    },
+    {
+      "task": "Prepare written documents to establish contracts with or communicate financial recommendations to clients.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.48
+    },
+    {
+      "task": "Negotiate with creditors on behalf of clients to arrange for payment adjustments, interest rate reductions, time extensions, or payment plans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Maintain or update records of client account activity, including financial transactions, counseling session notes, correspondence, document images, or client inquiries.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
+    },
+    {
+      "task": "Explain loan information to clients, such as available loan types, eligibility requirements, or loan restrictions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.78
+    },
+    {
+      "task": "Explain services or policies to clients, such as debt management program rules, advantages and disadvantages of using services, or creditor concession policies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.79
+    },
+    {
+      "task": "Estimate time for debt repayment, given amount of debt, interest rates, and available funds.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.52
+    },
+    {
+      "task": "Create debt management plans, spending plans, or budgets to assist clients to meet financial goals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.76
+    },
+    {
+      "task": "Assess clients' overall financial situations by reviewing income, assets, debts, expenses, credit reports, or other financial information.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.72
+    },
+    {
+      "task": "Interview clients by telephone or in person to gather financial information.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.54
+    },
+    {
+      "task": "Approve loans within specified limits, and refer loan applications outside those limits to management for approval.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.4
+    },
+    {
+      "task": "Compute payment schedules.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.57
+    },
+    {
+      "task": "Market bank products to individuals and firms, promoting bank services that may meet customers' needs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Analyze potential loan markets and develop referral networks to locate prospects for loans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.75
+    },
+    {
+      "task": "Prepare reports to send to customers whose accounts are delinquent, and forward irreconcilable accounts for collector action.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.39
+    },
+    {
+      "task": "Work with clients to identify their financial goals and to find ways of reaching those goals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.97
+    },
+    {
+      "task": "Handle customer complaints and take appropriate action to resolve them.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.96
+    },
+    {
+      "task": "Submit applications to credit analysts for verification and recommendation.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Stay abreast of new types of loans and other financial services and products to better meet customers' needs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Review loan agreements to ensure that they are complete and accurate according to policy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Review and update credit and loan files.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
+    },
+    {
+      "task": "Obtain and compile copies of loan applicants' credit histories, corporate financial statements, and other financial information.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
+    },
+    {
+      "task": "Analyze applicants' financial status, credit, and property evaluations to determine feasibility of granting loans.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.57
+    },
+    {
+      "task": "Meet with applicants to obtain information for loan applications and to answer questions about the process.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.61
+    },
+    {
+      "task": "Plan or implement improvements to internal or external systems or processes.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Establish credit limits and grant extensions of credit on overdue accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.89
+    },
+    {
+      "task": "Maintain metrics, reports, process documentation, customer service logs, or training or safety records.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.7
+    },
+    {
+      "task": "Keep records of customers' charges and payments.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.54
+    },
+    {
+      "task": "Compile and analyze credit information gathered by investigation.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.4
+    },
+    {
+      "task": "Obtain information about potential creditors from banks, credit bureaus, and other credit services, and provide reciprocal information if requested.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.05
+    },
+    {
+      "task": "Organize or work with detailed office or warehouse records, using computers to enter, access, search or retrieve data.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.41
+    },
+    {
+      "task": "Provide customer service, such as limited instructions on proceeding with claims or referrals to auto repair facilities or local contractors.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.37
+    },
+    {
+      "task": "Correspond with insured or agent to obtain information or to inform them of account status or changes.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.29
+    },
+    {
+      "task": "Transcribe data to worksheets, and enter data into computer for use in preparing documents and adjusting accounts.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.08
+    },
+    {
+      "task": "Collect initial premiums and issue receipts.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.06
+    },
+    {
+      "task": "Interview clients and take their calls to provide customer service and obtain information on claims.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.91
+    },
+    {
+      "task": "Compose business correspondence for supervisors, managers, and professionals.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.69
+    },
+    {
+      "task": "Contact insured or other involved persons to obtain missing information.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.48
+    },
+    {
+      "task": "Prepare credit cards or charge account plates.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.0
+    },
+    {
+      "task": "Evaluate customers' computerized credit records and payment histories to decide whether to approve new credit, based on predetermined standards.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.61
     },
     {
       "task": "File sales slips in customers' ledgers for billing purposes.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.4
     },
     {
       "task": "Receive charge slips or credit applications by mail, or receive information from salespeople or merchants by telephone.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.94
     },
     {
-      "task": "Mail charge statements to customers and prepare reports summarizing daily transactions and earnings for customer accounts.",
-      "task_type": "Supplemental"
+      "task": "Mail charge statements to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.82
     },
     {
-      "task": "Consult with customers to resolve complaints or verify financial or credit transactions, and answer their inquiries regarding loans and transactions.",
-      "task_type": "Unclassified"
+      "task": "Call customers to collect payment on delinquent accounts.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
     },
     {
-      "task": "Review individual or commercial customer files, calculate, review, and correct errors on interest or payment amounts, and monitor customer accounts for compliance with loan terms.",
-      "task_type": "Core"
+      "task": "Transmit claims for payment or further investigation.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.61
     },
     {
-      "task": "Prepare forms, such as loan applications and legal documents, and compile information about new accounts while entering data into computers.",
-      "task_type": "Core"
+      "task": "Prepare reports of findings and recommendations.",
+      "task_type": "Unclassified",
+      "relevance": 0.08333333333333333,
+      "importance": 0.0
     },
     {
-      "task": "Interview loan applicants to obtain personal and financial data and assist them in completing applications.",
-      "task_type": "Core"
+      "task": "Plan, organize, or manage the work of subordinate staff to ensure that the work is accomplished in a manner consistent with organizational requirements.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.29
     },
     {
-      "task": "Verify ownership and examine accuracy of loan application and closing documents, and check applicants' credit and personal references.",
-      "task_type": "Core"
+      "task": "Prepare reports summarizing daily transactions and earnings for individual customer accounts.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.65
     },
     {
-      "task": "Present loan and repayment schedules to customers, and submit loan applications with recommendations for approval.",
-      "task_type": "Core"
+      "task": "Compute total holdings, dividends, interest, transfer taxes, brokerage fees, or commissions and allocate appropriate payments to customers.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.8
     },
     {
-      "task": "Collect and record customer deposits and fees, issue receipts, and perform teller duties as required.",
-      "task_type": "Core"
+      "task": "Monitor daily stock prices and compute fluctuations to determine the need for additional collateral to secure loans.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.03
     },
     {
-      "task": "Execute wire transfers of funds, and relay credit report information to subscribers.",
-      "task_type": "Core"
+      "task": "File, type, or operate standard office machines.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.06
     },
     {
-      "task": "Develop and document standard operating procedures for handling financial transactions and manage subordinate staff to ensure efficiency.",
-      "task_type": "Core"
+      "task": "Prepare forms, such as receipts, withdrawal orders, transmittal papers, or transfer confirmations, based on transaction requests from stockholders.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 3.49
     },
     {
-      "task": "Investigate and correct errors upon customers' request, maintain loan records, and provide guidance regarding financial services available.",
-      "task_type": "Core"
+      "task": "Calculate, review, and correct errors on interest, principal, payment, and closing costs, using computers or calculators.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.35
     },
     {
-      "task": "Document security transactions using computers or accounting ledgers and prepare insurance claim forms while reviewing them for completeness.",
-      "task_type": "Core"
+      "task": "Order property insurance or mortgage insurance policies to ensure protection against loss on mortgaged property.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.33
+    },
+    {
+      "task": "Submit loan applications with recommendation for underwriting approval.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.46
+    },
+    {
+      "task": "Schedule and conduct closings of mortgage transactions.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 4.0
+    },
+    {
+      "task": "File and maintain loan records.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.43
+    },
+    {
+      "task": "Contact credit bureaus, employers, and other sources to check applicants' credit and personal references.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.42
+    },
+    {
+      "task": "Check value of customer collateral to be held as loan security.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.41
+    },
+    {
+      "task": "Present loan and repayment schedules to customers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.24
+    },
+    {
+      "task": "Prepare and type loan applications, closing documents, legal documents, letters, forms, government notices, and checks, using computers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Record applications for loan and credit, loan information, and disbursements of funds, using computers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.51
+    },
+    {
+      "task": "Answer questions and advise customers regarding loans and transactions.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.32
+    },
+    {
+      "task": "Assemble and compile documents for loan closings, such as title abstracts, insurance forms, loan forms, and tax receipts.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.6
+    },
+    {
+      "task": "Interview loan applicants to obtain personal and financial data and to assist in completing applications.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Verify and examine information and accuracy of loan application and closing documents.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.63
+    },
+    {
+      "task": "Correspond with customers and confer with coworkers to answer inquiries, discuss market fluctuations, or resolve account problems.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.6
+    },
+    {
+      "task": "Schedule repairs for locks on safe-deposit boxes.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 3.2
+    },
+    {
+      "task": "Document security transactions, such as purchases, sales, conversions, redemptions, or payments, using computers, accounting ledgers, or certificate records.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.31
+    },
+    {
+      "task": "Perform clerical tasks, such as answering phones or distributing mail.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.01
+    },
+    {
+      "task": "Perform foreign currency transactions and sell traveler's checks.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 2.8
+    },
+    {
+      "task": "Review customer accounts to determine whether payments are made on time and that other loan terms are being followed.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.36
+    },
+    {
+      "task": "Issue initial and replacement safe-deposit keys to customers, and admit customers to vaults.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.06
+    },
+    {
+      "task": "Duplicate records for distribution to branch offices.",
+      "task_type": "Supplemental",
+      "relevance": 0.08333333333333333,
+      "importance": 2.69
+    },
+    {
+      "task": "Execute wire transfers of funds.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.08
+    },
+    {
+      "task": "Perform teller duties as required.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.61
+    },
+    {
+      "task": "Collect and record customer deposits and fees and issue receipts, using computers.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.55
+    },
+    {
+      "task": "Inform customers of procedures for applying for services, such as ATM cards, direct deposit of checks, and certificates of deposit.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.5
+    },
+    {
+      "task": "Interview customers to obtain information needed for opening accounts or renting safe-deposit boxes.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.34
+    },
+    {
+      "task": "Compile information about new accounts, enter account information into computers, and file related forms or other documents.",
+      "task_type": "Core",
+      "relevance": 0.08333333333333333,
+      "importance": 4.57
     }
   ],
   "technology_skills": [
@@ -1746,10 +2514,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Structured query language SQL",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Freddie Mac Loan Prospector",
       "weight": 0.2857142857142857
     },
@@ -1806,7 +2570,43 @@
       "weight": 0.2
     },
     {
+      "name": "Delivery operations information system DOIS",
+      "weight": 0.2
+    },
+    {
+      "name": "Electronic Time Clock ETC",
+      "weight": 0.2
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.2
+    },
+    {
+      "name": "NCR Advanced Store",
+      "weight": 0.2
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.2
+    },
+    {
+      "name": "Time and Attendance Collection System TACS",
+      "weight": 0.2
+    },
+    {
+      "name": "Account management software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Database software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Inventory management systems",
       "weight": 0.16666666666666666
     },
     {
@@ -1826,6 +2626,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Microsoft Visio",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "NetSuite ERP",
       "weight": 0.16666666666666666
     },
@@ -1835,6 +2639,14 @@
     },
     {
       "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Warehouse management system WMS",
       "weight": 0.16666666666666666
     },
     {
@@ -1854,6 +2666,22 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "CGI-AMS BureauLink Enterprise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CGI-AMS CACS Enterprise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CGI-AMS Strata",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "California Infinite LPS",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Calyx Point",
       "weight": 0.14285714285714285
     },
@@ -1863,6 +2691,10 @@
     },
     {
       "name": "Click1003 Online Mortgage Application",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Cooperative Processing Resources DMS Professional Suite",
       "weight": 0.14285714285714285
     },
     {
@@ -1879,6 +2711,22 @@
     },
     {
       "name": "Credit underwriting software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Delphi Discovery",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Dun and Bradstreet Global DecisionMaker",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Dynamic Loanledger",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ELM Resources ELM",
       "weight": 0.14285714285714285
     },
     {
@@ -1914,11 +2762,39 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Experian Quest",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Experian Retention Triggers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Experian Strategy Management",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Experian Transact SM",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "FAS Loan Service Plus",
       "weight": 0.14285714285714285
     },
     {
       "name": "Fair Isaac Application Risk Model Software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fair Isaac Capstone Decision Manager",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Fair Isaac Falcon ID",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FileMaker Pro",
       "weight": 0.14285714285714285
     },
     {
@@ -1934,15 +2810,35 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Financial aid management system FAM",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Harland Financial Solutions DecisionPro",
       "weight": 0.14285714285714285
     },
     {
       "name": "Harland Interlinq MortgageWare",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "IA Systems StreamLend",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ICCO CreditSoft",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Indus Lending Solutions",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Integra Destiny Loan Origination",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Integrant DebtLogic",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "LA PRO Loan Administrator Pro",
       "weight": 0.14285714285714285
     },
     {
@@ -1958,8 +2854,136 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Merlin Information Services databases",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV CreditEdge",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV Decisions",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV Financial Analyst",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV Risk Advisor",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Moody's KMV Risk Analyst",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Opportunity management system OMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Paragon Financial Services Paragon Financial System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Plimus Loan Artist",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Prime Debt Soft Debt Settlement",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Prime Debt Software Credit Repair",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "QuikDraw Loan Management System",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "RealBenefits Amortization Loan",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Technicost LOS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "The Mortgage Office Loan Origination",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "The Mortgage Office Loan Servicing",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "VueCentric MortgageDashboard",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "White Clarke North America Credit Adjudication and Lending Management",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Wolters Kluwer Financial Services ComplianceOne",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Zoom",
       "weight": 0.14285714285714285
+    },
+    {
+      "name": "eCredit Enterprise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "eOriginal eCore Business Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Argos Software ABECAS Insight FMS",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Automated expense reporting system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Automated financial software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Automated information system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Automated underwriting software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Billing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Bloomberg Professional",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Catalyst International CatalystConnect",
+      "weight": 0.08333333333333333
     },
     {
       "name": "Credit reporting software",
@@ -1967,6 +2991,22 @@
     },
     {
       "name": "Customer relationship management CRM software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "DCI iCore",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Encompass software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
       "weight": 0.08333333333333333
     },
     {
@@ -1978,7 +3018,51 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "FedEx Ship Manager",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Financial accounting software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Financial needs analysis software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Fiserv financial services software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Geometrix",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "HEAT Software GoldMine",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Harland Financial Solutions DepositPro",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IBM Check Processing Control System CPSC",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IMSure Solutions SHIPflex",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "IPS-Sendero Relationship Profitability Manager Catalyst",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "InSystems Calligo Enterprise",
       "weight": 0.08333333333333333
     },
     {
@@ -1986,7 +3070,111 @@
       "weight": 0.08333333333333333
     },
     {
-      "name": "Purchasing software",
+      "name": "Inventory control software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Lending software systems",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Loan tracking software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Manhattan Supply Chain Process Platform",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Medical procedure coding software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Microsoft Visual FoxPro",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Online trading software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Optimization software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Oracle E-Business Suite Logistics",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Oracle Inventory",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Policy issuance system software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Presentation software",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "RedPrairie DLx Warehouse",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Rockport Integrated Excel Underwriting",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAP APO",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAP BusinessObjects Crystal Reports",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SAP SCM",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "SSA Global Warehouse Management System WMS",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Scanlon Associates LogPak",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Sentai Pinpoint",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Software AG Underwriting Solution",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Swisslog WarehouseManager",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "TMW PowerSuite",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Transtek Compass ERP",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "WiredRed Software e/pop Basic",
       "weight": 0.08333333333333333
     }
   ],
@@ -2056,6 +3244,22 @@
       "weight": 0.25
     },
     {
+      "name": "Filmers",
+      "weight": 0.25
+    },
+    {
+      "name": "Journal printers",
+      "weight": 0.25
+    },
+    {
+      "name": "Microfilmers",
+      "weight": 0.25
+    },
+    {
+      "name": "Official check imprinters",
+      "weight": 0.25
+    },
+    {
       "name": "Online video terminals",
       "weight": 0.25
     },
@@ -2084,7 +3288,43 @@
       "weight": 0.2
     },
     {
+      "name": "Barcode sorters",
+      "weight": 0.2
+    },
+    {
+      "name": "Bin stackers",
+      "weight": 0.2
+    },
+    {
+      "name": "Doubles detectors",
+      "weight": 0.2
+    },
+    {
+      "name": "Electronic mail sorting devices",
+      "weight": 0.2
+    },
+    {
+      "name": "General purpose mail containers",
+      "weight": 0.2
+    },
+    {
       "name": "Hand stamps",
+      "weight": 0.2
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.2
+    },
+    {
+      "name": "Mail bags",
+      "weight": 0.2
+    },
+    {
+      "name": "Mail scales",
+      "weight": 0.2
+    },
+    {
+      "name": "Mail transport carts",
       "weight": 0.2
     },
     {
@@ -2096,7 +3336,35 @@
       "weight": 0.2
     },
     {
+      "name": "Packaging tape dispensers",
+      "weight": 0.2
+    },
+    {
+      "name": "Point of sale workstations",
+      "weight": 0.2
+    },
+    {
       "name": "Postage meters",
+      "weight": 0.2
+    },
+    {
+      "name": "Security device removers",
+      "weight": 0.2
+    },
+    {
+      "name": "Security devices",
+      "weight": 0.2
+    },
+    {
+      "name": "Sorting machines",
+      "weight": 0.2
+    },
+    {
+      "name": "Stamp cancelers",
+      "weight": 0.2
+    },
+    {
+      "name": "Warehouse dollies",
       "weight": 0.2
     },
     {
@@ -2104,7 +3372,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Printing calculators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Autodialers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Financial calculators",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Inkjet printers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Laser printers",
       "weight": 0.14285714285714285
     },
     {
@@ -2128,7 +3412,23 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Computer inkjet printers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Credit card processing machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Dictation machines",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Digital cameras",
       "weight": 0.08333333333333333
     },
     {
@@ -2136,11 +3436,35 @@
       "weight": 0.08333333333333333
     },
     {
+      "name": "Electric typewriters",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Multiline telephone systems",
       "weight": 0.08333333333333333
     },
     {
+      "name": "Personal protective equipment",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Photocopiers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Radio frequency handheld terminals",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Radio frequency identification RFID devices",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Radio frequency identification RFID scanners",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Wireless communication and satellite positioning tools",
       "weight": 0.08333333333333333
     }
   ],

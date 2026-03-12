@@ -1544,176 +1544,1108 @@
   ],
   "tasks": [
     {
-      "task": "Observe signal lights on switchboards, and dial or press buttons to make connections.",
-      "task_type": "Core"
+      "task": "Operate telephone switchboards and systems to advance and complete connections, including those for local, long distance, pay telephone, mobile, person-to-person, and emergency calls.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.45
+    },
+    {
+      "task": "Page individuals to inform them of telephone calls, using paging or interoffice communication equipment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.42
+    },
+    {
+      "task": "Keep records of calls placed and received, and of related toll charges.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.8
+    },
+    {
+      "task": "Perform clerical duties such as typing, proofreading, and sorting mail.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.03
+    },
+    {
+      "task": "Perform various data entry or word processing tasks, such as updating phone directories, typing or proofreading documents, or creating schedules.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.95
+    },
+    {
+      "task": "Convert video and audio recordings into digital formats for editing or archiving.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.62
+    },
+    {
+      "task": "Tear down equipment after event completion.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.9
+    },
+    {
+      "task": "Play and record broadcast programs, using automation systems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.24
+    },
+    {
+      "task": "Set up, test, and adjust recording equipment for recording sessions and live performances.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.56
+    },
+    {
+      "task": "Edit video for broadcast productions, including non-linear editing.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.72
+    },
+    {
+      "task": "Install broadcast equipment, troubleshoot equipment problems, and perform maintenance or minor repairs, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.02
+    },
+    {
+      "task": "Confer with directors, sound and lighting technicians, electricians, and other crew members to discuss assignments and determine filming sequences, desired effects, camera movements, and lighting requirements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.45
+    },
+    {
+      "task": "Adjust positions and controls of cameras, printers, and related equipment to change focus, exposure, and lighting.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.47
+    },
+    {
+      "task": "Use cameras in any of several different camera mounts, such as stationary, track-mounted, or crane-mounted.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Operate zoom lenses, changing images according to specifications and rehearsal instructions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.39
+    },
+    {
+      "task": "Install, adjust, and operate electronic equipment to record, edit, and transmit radio and television programs, motion pictures, video conferencing, or multimedia presentations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.69
+    },
+    {
+      "task": "Diagnose and resolve media system problems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.83
+    },
+    {
+      "task": "Keep logs of recordings.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.2
+    },
+    {
+      "task": "Record and edit audio material, such as movie soundtracks, using audio recording and editing equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.48
+    },
+    {
+      "task": "Synchronize and equalize prerecorded dialogue, music, and sound effects with visual action of motion pictures or television productions, using control consoles.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.88
+    },
+    {
+      "task": "Control audio equipment to regulate volume and sound quality during radio and television broadcasts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.95
+    },
+    {
+      "task": "Report equipment problems, ensure that repairs are made, and make emergency repairs to equipment when necessary and possible.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.52
+    },
+    {
+      "task": "Operate television or motion picture cameras to record scenes for television broadcasts, advertising, or motion pictures.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.73
+    },
+    {
+      "task": "Compose and frame each shot, applying the technical aspects of light, lenses, film, filters, and camera settings to achieve the effects sought by directors.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.79
+    },
+    {
+      "task": "Monitor strength, clarity, and reliability of incoming and outgoing signals, and adjust equipment as necessary to maintain quality broadcasts.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.43
+    },
+    {
+      "task": "Switch sources of video input from one camera or studio to another, from film to live programming, or from network to local programming.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.49
+    },
+    {
+      "task": "Design layouts of audio and video equipment and perform upgrades and maintenance.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.37
+    },
+    {
+      "task": "Control the lights and sound of events, such as live concerts, before and after performances, and during intermissions.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.58
+    },
+    {
+      "task": "Design and modify equipment to employer specifications.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.76
+    },
+    {
+      "task": "Set up, operate, and maintain broadcast station computers and networks.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.13
+    },
+    {
+      "task": "Select sources from which programming will be received or through which programming will be transmitted.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.04
+    },
+    {
+      "task": "Maintain programming logs as required by station management and the Central government Communications Commission.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.43
+    },
+    {
+      "task": "Operate and resupply printers and computers, changing print wheels or fluid cartridges, adding paper, and loading blank tapes, cards, or disks into equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.42
+    },
+    {
+      "task": "Print and make copies of work.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.16
+    },
+    {
+      "task": "Keep records of work performed.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "File and store completed documents on computer hard drive or disk, or maintain a computer filing system to store, retrieve, update, and delete documents.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.2
+    },
+    {
+      "task": "Transmit work electronically to other locations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.12
+    },
+    {
+      "task": "Direct and coordinate activities of assistants and other personnel during production.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.71
+    },
+    {
+      "task": "Set up and operate portable field transmission equipment outside the studio.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.48
+    },
+    {
+      "task": "Conduct training sessions on selection, use, and design of audio-visual materials and on operation of presentation equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.11
+    },
+    {
+      "task": "Complete forms for sales orders.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.37
     },
     {
       "task": "Answer incoming calls, greeting callers, providing information, transferring calls or taking messages as necessary.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.7
     },
     {
-      "task": "Relay or route written or verbal messages, and page individuals to inform them of telephone calls using communication equipment.",
-      "task_type": "Core"
+      "task": "Relay or route written or verbal messages.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.35
     },
     {
-      "task": "Operate telephone switchboards and systems to advance and complete connections for local, long distance, and emergency calls.",
-      "task_type": "Core"
+      "task": "Place telephone calls or arrange conference calls as instructed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.23
     },
     {
-      "task": "Record messages, suggesting wording for clarity, and keep records of calls placed and received, including related toll charges.",
-      "task_type": "Core"
+      "task": "Monitor alarm systems to ensure that secure conditions are maintained.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.57
     },
     {
-      "task": "Listen to customer requests, referring to directories to answer questions and provide telephone information, and update directory information.",
-      "task_type": "Core"
+      "task": "Contact security staff members when necessary, using radio-telephones.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.56
     },
     {
-      "task": "Perform clerical duties such as typing, proofreading, sorting mail, and managing calls while maintaining logs of recordings and pertinent data.",
-      "task_type": "Core"
+      "task": "Record messages, suggesting rewording for clarity or conciseness.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.47
     },
     {
-      "task": "Set up, test, adjust recording equipment for sessions and live performances, and tear down equipment after event completion.",
-      "task_type": "Core"
+      "task": "Stamp messages with time and date and file them appropriately.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.13
     },
     {
-      "task": "Install, adjust, and operate electronic equipment to record, edit, and transmit audio and video for radio and television.",
-      "task_type": "Core"
+      "task": "Answer simple questions about clients' businesses, using reference files.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.18
     },
     {
-      "task": "Compress, digitize, duplicate, and store audio and video data while monitoring strength and clarity of signals to maintain quality broadcasts.",
-      "task_type": "Core"
+      "task": "Listen to customer requests, referring to alphabetical or geographical directories to answer questions and provide telephone information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.22
     },
     {
-      "task": "Monitor and log transmitter readings and control audio equipment to regulate volume and sound quality during broadcasts, ensuring good signals.",
-      "task_type": "Core"
+      "task": "Update directory information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.12
     },
     {
-      "task": "Confer with producers and other crew members to discuss assignments and determine desired effects and camera movements during productions.",
-      "task_type": "Core"
+      "task": "Promote company products, services, and savings plans when appropriate.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.65
     },
     {
-      "task": "Select sources and preview scheduled programs to ensure signals are functioning and prepare for recording by setting up microphones.",
-      "task_type": "Core"
+      "task": "Provide relay service for users who are deaf or hard of hearing.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.82
     },
     {
-      "task": "Diagnose and resolve media system problems, report equipment issues and manage necessary repairs or maintenance for broadcast equipment.",
-      "task_type": "Core"
+      "task": "Interrupt busy lines if an emergency warrants.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.94
     },
     {
-      "task": "Use data entry devices to input and store data, maintain records of work performed, and ensure documents are filed and organized effectively.",
-      "task_type": "Core"
+      "task": "Monitor automated systems for placing collect calls and intervene for a callers needing assistance.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.19
     },
     {
-      "task": "Conduct training sessions on the use of audio-visual materials and equipment while providing assistance for users with special needs.",
-      "task_type": "Core"
+      "task": "Provide assistance for customers with special billing requests.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.88
     },
     {
-      "task": "Adjust positions and controls of cameras and related equipment for filming, and operate telecommunications systems to notify recipients of calls.",
-      "task_type": "Core"
+      "task": "Offer special assistance to persons such as those who are unable to dial or who are in emergency situations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.0
     },
     {
-      "task": "Monitor emergency and alarm systems, handle emergency calls, and ensure compliance with safety regulations in communication operations.",
-      "task_type": "Core"
+      "task": "Suggest and check alternate spellings, locations, or listing formats to customers lacking details or complete information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.12
     },
     {
-      "task": "Direct and coordinate activities of assistants and other personnel during production while providing special assistance during emergencies.",
-      "task_type": "Core"
+      "task": "Place orders, such as for equipment, supplies, or catering for meetings.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.35
     },
     {
-      "task": "Produce electronics drawings or graphics representing industrial control, instrumentation, or telecommunications networks, using CAD software.",
-      "task_type": "Core"
+      "task": "Perform various cash handling tasks, such as collecting payments, making bank deposits, or managing petty cash.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.23
     },
     {
-      "task": "Modify electrical prototypes, parts, or systems to correct functional deviations.",
-      "task_type": "Core"
+      "task": "Greet visitors, log them in and out of the facility, assign them security badges, and contact employee escorts.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.65
     },
     {
-      "task": "Integrate software or hardware components using microprocessor or control architecture.",
-      "task_type": "Core"
+      "task": "Monitor emergency and code alarms, make emergency announcements, or route emergency calls to the appropriate location.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.48
     },
     {
-      "task": "Procure parts and maintain inventory and documentation.",
-      "task_type": "Core"
+      "task": "Perform administrative tasks, such as accepting orders, scheduling appointments or meeting rooms, or sending and receiving faxes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.72
     },
     {
-      "task": "Research equipment or component needs, sources, prices, delivery times, or operational costs.",
-      "task_type": "Core"
+      "task": "Make commercial dubs.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.58
     },
     {
-      "task": "Specify or conduct quality control or quality assurance programs or procedures.",
-      "task_type": "Core"
+      "task": "Develop employee work schedules.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.99
+    },
+    {
+      "task": "Set up and perform live shots for broadcast.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
+    },
+    {
+      "task": "Read and analyze work orders and specifications to determine locations of subject material, work procedures, sequences of operations, and machine setups.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.27
+    },
+    {
+      "task": "Instruct camera operators regarding camera setups, angles, distances, movement, and variables and cues for starting and stopping filming.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.59
+    },
+    {
+      "task": "View films to resolve problems of exposure control, subject and camera movement, changes in subject distance, and related variables.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.06
+    },
+    {
+      "task": "Set up cameras, optical printers, and related equipment to produce photographs and special effects.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.98
+    },
+    {
+      "task": "Read charts and compute ratios to determine variables such as lighting, shutter angles, filter factors, and camera distances.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.91
+    },
+    {
+      "task": "Observe sets or locations for potential problems and to determine filming and lighting requirements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.33
+    },
+    {
+      "task": "Assemble studio sets and select and arrange cameras, film stock, audio, or lighting equipment to be used during filming.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.31
+    },
+    {
+      "task": "Stay current with new technologies in the field by reading trade magazines.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.72
+    },
+    {
+      "task": "Write new scripts for broadcasts.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.48
+    },
+    {
+      "task": "Design graphics for studio productions.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.42
+    },
+    {
+      "task": "Direct studio productions.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.02
+    },
+    {
+      "task": "Reserve audio-visual equipment and facilities, such as meeting rooms.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.38
+    },
+    {
+      "task": "Create musical instrument digital interface programs for music projects, commercials, or film postproduction.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.07
+    },
+    {
+      "task": "Reproduce and duplicate sound recordings from original recording media, using sound editing and duplication equipment.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.8
+    },
+    {
+      "task": "Discuss production requirements with clients.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.11
+    },
+    {
+      "task": "Locate and secure settings, properties, effects, and other production necessities.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.22
+    },
+    {
+      "task": "Produce rough and finished graphics and graphic designs.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.27
+    },
+    {
+      "task": "Obtain and preview musical performance programs prior to events to become familiar with the order and approximate times of pieces.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.13
+    },
+    {
+      "task": "Inform users of audio and videotaping service policies and procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.95
+    },
+    {
+      "task": "Determine formats, approaches, content, levels, and mediums to effectively meet objectives within budgetary constraints, using research, knowledge, and training.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.37
+    },
+    {
+      "task": "Maintain inventories of audio and videotapes and related supplies.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.13
+    },
+    {
+      "task": "Plan and develop pre-production ideas into outlines, scripts, story boards, and graphics, using own ideas or specifications of assignments.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.03
+    },
+    {
+      "task": "Obtain, set up, and load videotapes for scheduled productions or broadcasts.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.28
+    },
+    {
+      "task": "Construct and position properties, sets, lighting equipment, and other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.4
+    },
+    {
+      "task": "Analyze and maintain data logs for audio-visual activities.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.94
+    },
+    {
+      "task": "Prepare reports outlining past and future programs, including content.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.36
+    },
+    {
+      "task": "Organize and maintain compliance, license, and warranty information related to audio and video facilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.95
+    },
+    {
+      "task": "Develop manuals, texts, workbooks, or related materials for use in conjunction with production materials or for training.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.93
+    },
+    {
+      "task": "Schedule programming or read television programming logs to determine which programs are to be recorded or aired.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.09
+    },
+    {
+      "task": "Perform narration of productions or present announcements.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.03
+    },
+    {
+      "task": "Align antennae with receiving dishes to obtain the clearest signal for transmission of broadcasts from field locations.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.73
+    },
+    {
+      "task": "Manage schedules and set dates, times, and locations for meetings and appointments.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.89
+    },
+    {
+      "task": "Check completed work for spelling, grammar, punctuation, and format.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.31
+    },
+    {
+      "task": "Compute and verify totals on report forms, requisitions, or bills, using adding machine or calculator.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.96
+    },
+    {
+      "task": "Use data entry devices, such as optical scanners, to input data into computers for revision or editing.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.63
+    },
+    {
+      "task": "Work with technical material, preparing statistical reports, planning and typing statistical tables, and combining and rearranging material from different sources.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.66
+    },
+    {
+      "task": "Address envelopes or prepare envelope labels, using typewriter or computer.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.03
+    },
+    {
+      "task": "Adjust settings for format, page layout, line spacing, and other style requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.63
+    },
+    {
+      "task": "Search for specific sets of stored, typed characters to make changes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.83
+    },
+    {
+      "task": "Reformat documents, moving paragraphs or columns.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.66
+    },
+    {
+      "task": "Collate pages of reports and other documents.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.74
+    },
+    {
+      "task": "Electronically sort and compile text and numerical data, retrieving, updating, and merging documents as required.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.84
+    },
+    {
+      "task": "Complete accident reports when necessary.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Read maps and follow written or verbal geographic directions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.7
+    },
+    {
+      "task": "Verify the contents of inventory loads against shipping papers.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.76
+    },
+    {
+      "task": "Report facts concerning accidents or emergencies to hospital personnel or law enforcement officials.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.35
+    },
+    {
+      "task": "Earn and maintain appropriate certifications.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.92
+    },
+    {
+      "task": "Maintain records, such as vehicle logs, records of cargo, or billing statements, in accordance with regulations.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.41
+    },
+    {
+      "task": "Report any mechanical problems encountered with vehicles.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.79
+    },
+    {
+      "task": "Report delays, accidents, or other traffic and transportation situations to bases or other vehicles, using telephones or mobile two-way radios.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.73
+    },
+    {
+      "task": "Produce electronics drawings or other graphics representing industrial control, instrumentation, sensors, or analog or digital telecommunications networks, using computer-aided design (CAD) software.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.16
+    },
+    {
+      "task": "Modify electrical prototypes, parts, assemblies, or systems to correct functional deviations.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.45
+    },
+    {
+      "task": "Integrate software or hardware components, using computer, microprocessor, or control architecture.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.43
+    },
+    {
+      "task": "Procure parts and maintain inventory and related documentation.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.42
+    },
+    {
+      "task": "Participate in training or continuing education activities to stay abreast of engineering or industry advances.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.4
+    },
+    {
+      "task": "Research equipment or component needs, sources, competitive prices, delivery times, or ongoing operational costs.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.27
+    },
+    {
+      "task": "Specify, coordinate, or conduct quality control or quality assurance programs or procedures.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.21
+    },
+    {
+      "task": "Install or maintain electrical control systems, industrial automation systems, or electrical equipment, including control circuits, variable speed drives, or programmable logic controllers.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.15
+    },
+    {
+      "task": "Interpret test information to resolve design-related problems.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.83
+    },
+    {
+      "task": "Review, develop, or prepare maintenance standards.",
+      "task_type": "Unclassified",
+      "relevance": 0.1,
+      "importance": 0.0
     },
     {
       "task": "Supervise the installation or operation of electronic equipment or systems.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.6
     },
     {
-      "task": "Compile and maintain records about engineering schematics, equipment, or repairs performed.",
-      "task_type": "Core"
+      "task": "Compile and maintain records documenting engineering schematics, installed equipment, installation or operational problems, resources used, repairs, or corrective action performed.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.59
+    },
+    {
+      "task": "Provide user applications or engineering support or recommendations for new or existing equipment with regard to installation, upgrades, or enhancements.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.25
     },
     {
       "task": "Educate equipment operators on the proper use of equipment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.61
     },
     {
       "task": "Assemble electrical systems or prototypes, using hand tools or measuring instruments.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.97
     },
     {
-      "task": "Identify and resolve equipment malfunctions, working with manufacturers to procure replacement parts.",
-      "task_type": "Core"
+      "task": "Calculate design specifications or cost, material, and resource estimates, and prepare project schedules and budgets.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.61
     },
     {
-      "task": "Modify, maintain, or repair electronic equipment to ensure proper functioning.",
-      "task_type": "Core"
+      "task": "Replace defective components or parts, using hand tools and precision instruments.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.2
     },
     {
-      "task": "Review electrical engineering plans for adherence to design specifications and compliance with electrical codes.",
-      "task_type": "Core"
+      "task": "Set up and operate specialized or standard test equipment to diagnose, test, or analyze the performance of electronic components, assemblies, or systems.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.16
     },
     {
-      "task": "Read blueprints, wiring diagrams, or engineering instructions for assembling electronic units.",
-      "task_type": "Core"
+      "task": "Read blueprints, wiring diagrams, schematic drawings, or engineering instructions for assembling electronics units, applying knowledge of electronic theory and components.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.14
     },
     {
-      "task": "Drive vehicles or operate machines or equipment to complete work assignments or assist workers.",
-      "task_type": "Core"
+      "task": "Identify and resolve equipment malfunctions, working with manufacturers or field representatives as necessary to procure replacement parts.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.06
     },
     {
-      "task": "Monitor field work to ensure proper performance and material usage.",
-      "task_type": "Core"
+      "task": "Modify, maintain, or repair electronics equipment or systems to ensure proper functioning.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.38
     },
     {
-      "task": "Plan work assignments and equipment allocations to meet operational goals.",
-      "task_type": "Core"
+      "task": "Review electrical engineering plans to ensure adherence to design specifications and compliance with applicable electrical codes and standards.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.89
     },
     {
-      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
-      "task_type": "Unclassified"
+      "task": "Assemble, test, or maintain circuitry or electronic components, according to engineering instructions, technical manuals, or knowledge of electronics, using hand or power tools.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.8
+    },
+    {
+      "task": "Review existing electrical engineering criteria to identify necessary revisions, deletions, or amendments to outdated material.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.7
+    },
+    {
+      "task": "Maintain system logs or manuals to document testing or operation of equipment.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.63
+    },
+    {
+      "task": "Select electronics equipment, components, or systems to meet functional specifications.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.62
+    },
+    {
+      "task": "Communicate with dispatchers by radio, telephone, or computer to exchange information and receive requests for passenger service.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.58
+    },
+    {
+      "task": "Prepare and submit reports that may include the number of passengers or trips, hours worked, mileage driven fuel consumed, or fares received.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.66
+    },
+    {
+      "task": "Program lighting consoles or load automated lighting control systems onto consoles.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Load, unload, or position lighting equipment.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Patch or wire lights to dimmers or other electronic consoles.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Perform minor repairs or routine maintenance on lighting equipment, such as replacing lamps or damaged color filters.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Match light fixture settings, such as brightness and color, to lighting design plans.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Set up and focus light fixtures to meet requirements of television, theater, concerts, or other productions.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Test lighting equipment function and desired lighting effects.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Visit and assess structural and electrical layout of locations before setting up lighting equipment.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Install electrical cables or wire fixtures.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Notify supervisors when major lighting equipment repairs are needed.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Install color effects or image patterns, such as color filters, onto lighting fixtures.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Disassemble and store equipment after performances.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Consult with lighting director or production staff to determine lighting requirements.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Assess safety of wiring or equipment set-up to determine the risk of fire or electrical shock.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Operate manual or automated systems to control lighting throughout productions.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Dispatch personnel and vehicles in response to telephone or radio reports of emergencies.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Perform or schedule repairs or preventive maintenance of vehicles or other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.86
+    },
+    {
+      "task": "Maintain or verify records of time, materials, expenditures, or crew activities.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.9
+    },
+    {
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
+    },
+    {
+      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.89
+    },
+    {
+      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.11
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Recommend or implement personnel actions, such as employee selection, evaluation, rewards, or disciplinary actions.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.63
+    },
+    {
+      "task": "Monitor field work to ensure proper performance and use of materials.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Plan work assignments and equipment allocations to meet transportation, operations or production goals.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.07
+    },
+    {
+      "task": "Plan and establish schedules.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as flight or car attendants.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     },
     {
       "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
-      "task_type": "Unclassified"
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     },
     {
       "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
-      "task_type": "Unclassified"
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     },
     {
-      "task": "Resolve customer complaints regarding worker performance or services rendered.",
-      "task_type": "Unclassified"
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     },
     {
       "task": "Recruit and hire staff members.",
-      "task_type": "Unclassified"
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     },
     {
       "task": "Requisition necessary supplies, equipment, or services.",
-      "task_type": "Unclassified"
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     },
     {
-      "task": "Recommend and implement measures to improve worker motivation, work methods, or customer services.",
-      "task_type": "Unclassified"
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1746,15 +2678,87 @@
       "weight": 0.8916666666666666
     },
     {
+      "name": "Microsoft Access",
+      "weight": 0.7704941400063351
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.6666666666666666
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.6666666666666666
+    },
+    {
       "name": "Apple Final Cut Pro",
       "weight": 0.6666666666666666
+    },
+    {
+      "name": "Linux",
+      "weight": 0.6
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.5761904761904761
+    },
+    {
+      "name": "Autodesk AutoCAD",
+      "weight": 0.5047619047619047
+    },
+    {
+      "name": "Adobe After Effects",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.5
+    },
+    {
+      "name": "Adobe Premiere Pro",
+      "weight": 0.5
     },
     {
       "name": "Avid Technology audio visual editing software",
       "weight": 0.5
     },
     {
+      "name": "Cisco IOS",
+      "weight": 0.5
+    },
+    {
+      "name": "Computer aided design CAD software",
+      "weight": 0.43333333333333335
+    },
+    {
+      "name": "UNIX",
+      "weight": 0.43333333333333335
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.38257575757575757
+    },
+    {
+      "name": "Computer aided dispatch software",
+      "weight": 0.375
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.35
+    },
+    {
       "name": "Adobe Audition",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe Dreamweaver",
       "weight": 0.3333333333333333
     },
     {
@@ -1762,12 +2766,68 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Voice over internet protocol VoIP system software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.3142857142857143
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.30952380952380953
+    },
+    {
       "name": "Web browser software",
       "weight": 0.29711751662971175
     },
     {
+      "name": "Handheld computer device software",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.25
+    },
+    {
+      "name": "Video conference software",
+      "weight": 0.25
+    },
+    {
       "name": "Spreadsheet software",
       "weight": 0.225
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.17142857142857143
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.17142857142857143
+    },
+    {
+      "name": "Programmable logic controller PLC software",
+      "weight": 0.17142857142857143
+    },
+    {
+      "name": "Rockwell RSLogix",
+      "weight": 0.17142857142857143
+    },
+    {
+      "name": "Apple Final Cut Studio",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Apple iMovie",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.16666666666666666
     },
     {
       "name": "Audio editing software",
@@ -1782,7 +2842,19 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Blackboard software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Character generator software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cisco Webex",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Corel Ulead DVD Workshop",
       "weight": 0.16666666666666666
     },
     {
@@ -1790,11 +2862,47 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Git",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Google Drive",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Litchi",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Teams",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Musical instrument digital interface MIDI software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Oracle Java",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Perforce software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Real time operating system RTOS software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "TikTok",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Unity Technologies Unity",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "VMware",
       "weight": 0.16666666666666666
     },
     {
@@ -1810,8 +2918,316 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Zoom",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.14939024390243902
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Google Workspace software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.14015151515151514
+    },
+    {
+      "name": "Computerized inventory tracking software",
+      "weight": 0.125
+    },
+    {
+      "name": "Eko",
+      "weight": 0.125
+    },
+    {
       "name": "Internet browser software",
       "weight": 0.125
+    },
+    {
+      "name": "Recordkeeping software",
+      "weight": 0.125
+    },
+    {
+      "name": "AVEVA InTouch HMI",
+      "weight": 0.1
+    },
+    {
+      "name": "Adobe ActionScript",
+      "weight": 0.1
+    },
+    {
+      "name": "Agilent Advanced Design System ADS",
+      "weight": 0.1
+    },
+    {
+      "name": "BSVC",
+      "weight": 0.1
+    },
+    {
+      "name": "C",
+      "weight": 0.1
+    },
+    {
+      "name": "C++",
+      "weight": 0.1
+    },
+    {
+      "name": "Cadence OrCAD PSpice",
+      "weight": 0.1
+    },
+    {
+      "name": "Cadence PSpice",
+      "weight": 0.1
+    },
+    {
+      "name": "Circuit simulation software",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer aided software engineering CASE tools",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer-aided engineering CAE software",
+      "weight": 0.1
+    },
+    {
+      "name": "Dassault Systemes SolidWorks",
+      "weight": 0.1
+    },
+    {
+      "name": "Data acquisition software",
+      "weight": 0.1
+    },
+    {
+      "name": "Database software",
+      "weight": 0.1
+    },
+    {
+      "name": "Debugging software",
+      "weight": 0.1
+    },
+    {
+      "name": "EMA TimingDesigner",
+      "weight": 0.1
+    },
+    {
+      "name": "Eclipse IDE",
+      "weight": 0.1
+    },
+    {
+      "name": "Emulators",
+      "weight": 0.1
+    },
+    {
+      "name": "FlukeView Forms",
+      "weight": 0.1
+    },
+    {
+      "name": "GE Fanuc Automation VersaPro",
+      "weight": 0.1
+    },
+    {
+      "name": "GNU Octave",
+      "weight": 0.1
+    },
+    {
+      "name": "Gnuplot",
+      "weight": 0.1
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.1
+    },
+    {
+      "name": "HP InfoTech CodeVisionAVR",
+      "weight": 0.1
+    },
+    {
+      "name": "Human machine interface HMI software",
+      "weight": 0.1
+    },
+    {
+      "name": "JavaScript",
+      "weight": 0.1
+    },
+    {
+      "name": "Keysight Technologies Advanced Design System",
+      "weight": 0.1
+    },
+    {
+      "name": "KiCad",
+      "weight": 0.1
+    },
+    {
+      "name": "Logisim",
+      "weight": 0.1
+    },
+    {
+      "name": "Magellan Firmware",
+      "weight": 0.1
+    },
+    {
+      "name": "MathWorks Simulink",
+      "weight": 0.1
+    },
+    {
+      "name": "Mentor Graphics PADS",
+      "weight": 0.1
+    },
+    {
+      "name": "Microchip MPLAB Integrated Development Environment (IDE)",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Visual Basic.NET",
+      "weight": 0.1
+    },
+    {
+      "name": "National Instruments LabVIEW",
+      "weight": 0.1
+    },
+    {
+      "name": "National Instruments Multisim",
+      "weight": 0.1
+    },
+    {
+      "name": "OctTools",
+      "weight": 0.1
+    },
+    {
+      "name": "OrCAD Capture",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.1
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.1
+    },
+    {
+      "name": "PTC Creo Parametric",
+      "weight": 0.1
+    },
+    {
+      "name": "PTC Mathcad",
+      "weight": 0.1
+    },
+    {
+      "name": "Proportional integral derivative control PID software",
+      "weight": 0.1
+    },
+    {
+      "name": "Python",
+      "weight": 0.1
+    },
+    {
+      "name": "Rockwell RSView",
+      "weight": 0.1
+    },
+    {
+      "name": "Root cause analysis software",
+      "weight": 0.1
+    },
+    {
+      "name": "SPLAT!",
+      "weight": 0.1
+    },
+    {
+      "name": "Signal synthesizers",
+      "weight": 0.1
+    },
+    {
+      "name": "Simulation software",
+      "weight": 0.1
+    },
+    {
+      "name": "Spectrum Software Micro-Cap",
+      "weight": 0.1
+    },
+    {
+      "name": "Supervisory control and data acquisition SCADA software",
+      "weight": 0.1
+    },
+    {
+      "name": "Terminal emulation software",
+      "weight": 0.1
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 0.1
+    },
+    {
+      "name": "Transmission line simulators",
+      "weight": 0.1
+    },
+    {
+      "name": "Vector Software VectorCast",
+      "weight": 0.1
+    },
+    {
+      "name": "Wolfram Research Mathematica",
+      "weight": 0.1
+    },
+    {
+      "name": "ngspice",
+      "weight": 0.1
+    },
+    {
+      "name": "pMatlab",
+      "weight": 0.1
+    },
+    {
+      "name": "AOL MapQuest",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Global positioning system GPS software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "SAP Maintenance",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1820,8 +3236,16 @@
       "weight": 1.657398901911097
     },
     {
+      "name": "Laser facsimile machines",
+      "weight": 0.7678571428571428
+    },
+    {
       "name": "Desktop computers",
       "weight": 0.7645417590539542
+    },
+    {
+      "name": "Copy machines",
+      "weight": 0.6428571428571428
     },
     {
       "name": "Laptop computers",
@@ -1830,6 +3254,10 @@
     {
       "name": "Two way radios",
       "weight": 0.5054508499630451
+    },
+    {
+      "name": "Alarm system monitors",
+      "weight": 0.5
     },
     {
       "name": "Digital audio recorders",
@@ -1844,7 +3272,35 @@
       "weight": 0.5
     },
     {
+      "name": "Paging systems",
+      "weight": 0.5
+    },
+    {
+      "name": "Premise branch exchange PBX equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Telephone headsets",
+      "weight": 0.5
+    },
+    {
+      "name": "Telephone switchboards",
+      "weight": 0.5
+    },
+    {
+      "name": "Electric typewriters",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.34090909090909094
+    },
+    {
       "name": "Satellite linkup systems",
+      "weight": 0.34090909090909094
+    },
+    {
+      "name": "Vans",
       "weight": 0.34090909090909094
     },
     {
@@ -1892,8 +3348,28 @@
       "weight": 0.26666666666666666
     },
     {
+      "name": "Power drills",
+      "weight": 0.26666666666666666
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.26666666666666666
+    },
+    {
       "name": "Spectrum analyzers",
       "weight": 0.26666666666666666
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.26515151515151514
+    },
+    {
+      "name": "10-key calculators",
+      "weight": 0.25
+    },
+    {
+      "name": "Computer inkjet printers",
+      "weight": 0.25
     },
     {
       "name": "Intercom equipment",
@@ -1904,11 +3380,67 @@
       "weight": 0.25
     },
     {
+      "name": "Radiotelephones",
+      "weight": 0.25
+    },
+    {
+      "name": "Scanners",
+      "weight": 0.25
+    },
+    {
+      "name": "Secure voice equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Video surveillance monitors",
+      "weight": 0.25
+    },
+    {
       "name": "Voice over internet protocol VoIP systems",
       "weight": 0.25
     },
     {
+      "name": "Laser printers",
+      "weight": 0.225
+    },
+    {
+      "name": "Alarms",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Closed-circuit TV cameras",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Communications computers",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Mobile data computers",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Security cameras",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Smartphones",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Sport utility vehicles SUVs",
+      "weight": 0.2159090909090909
+    },
+    {
       "name": "Tablet computers",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Text messaging equipment",
       "weight": 0.2159090909090909
     },
     {
@@ -1917,6 +3449,10 @@
     },
     {
       "name": "Amplifiers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Assistive amplification systems",
       "weight": 0.16666666666666666
     },
     {
@@ -1948,11 +3484,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Automatic film processors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Batteries",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Cable compression crimp tools",
       "weight": 0.16666666666666666
     },
     {
       "name": "Cable testers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cassette players",
       "weight": 0.16666666666666666
     },
     {
@@ -1964,11 +3512,67 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Claw hammers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Compact disk CD burners or players",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Condenser microphones",
       "weight": 0.16666666666666666
     },
     {
+      "name": "DJI Go 4",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "DJI Pilot",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Digital camcorders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital delay pedals",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital light meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital samplers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital video disk DVD players",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Digital video disk DVD recorders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Directors' viewfinders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Disk storage systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Distortion analyzers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "DroneDeploy",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "DroneLogbook",
       "weight": 0.16666666666666666
     },
     {
@@ -1988,11 +3592,71 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "External monitors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Fixed wing unmanned aerial vehicles UAV",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Flash memory data storage devices",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Frame synchronizers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Gun solder irons",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Hex key sets",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Integrated receiver decoders IRD",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Integrated speaker systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Interactive whiteboards",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Iris rod wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Landing pad",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Laser pointers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Light boards",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Liquid crystal display LCD projection systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Loudspeaker sets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Man lifts",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Measuring tapes",
       "weight": 0.16666666666666666
     },
     {
@@ -2004,7 +3668,51 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Mobile mountings",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Modulators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Motion picture projectors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Movie production cameras",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Multi-rotor unmanned aerial vehicles UAV",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Multitrack tape recording machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Musical instrument digital interface MIDI sequencers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Network routers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Noise meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Noise reduction systems",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Non-linear editing systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Overhead display projectors",
       "weight": 0.16666666666666666
     },
     {
@@ -2020,7 +3728,51 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Plasma televisions",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Polarity checkers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Portable cranes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Portable speaker systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Portable video monitors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power generators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Precision nut drivers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pressure zone microphones",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Projection screens",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Real-time spectrum analyzers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Remotely controlled cameras",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Reverb devices",
       "weight": 0.16666666666666666
     },
     {
@@ -2028,7 +3780,51 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Robotic studio cameras",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Safety barriers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Satellite broadcasting trucks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Satellite receivers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Satellite vans",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Shelving equalizers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Signal transmitters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Slide projectors",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Sound boards",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sound effect generators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Step ladders",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Straight blade screwdrivers",
       "weight": 0.16666666666666666
     },
     {
@@ -2044,6 +3840,18 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Television signal generators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Torx driver sets",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vector scopes",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Video consoles",
       "weight": 0.16666666666666666
     },
@@ -2056,11 +3864,39 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Video positioning equipment",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Video servers",
       "weight": 0.16666666666666666
     },
     {
       "name": "Video teleconferencing systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Videocamera lens filters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Videocamera tripods",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Videoconferencing equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Videotape duplicating equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Videotape machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Vision mixers",
       "weight": 0.16666666666666666
     },
     {
@@ -2082,6 +3918,74 @@
     {
       "name": "Wireless transmitters",
       "weight": 0.16666666666666666
+    },
+    {
+      "name": "Zoom lenses",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Forklifts",
+      "weight": 0.14939024390243902
+    },
+    {
+      "name": "Desktop calculators",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Paper shredders",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Postage marking machines",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Postage meters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.14015151515151514
+    },
+    {
+      "name": "Delivery trucks",
+      "weight": 0.125
+    },
+    {
+      "name": "Delivery vans",
+      "weight": 0.125
+    },
+    {
+      "name": "Dollies",
+      "weight": 0.125
+    },
+    {
+      "name": "Electronic clipboards",
+      "weight": 0.125
+    },
+    {
+      "name": "Handheld computers",
+      "weight": 0.125
+    },
+    {
+      "name": "Jacks",
+      "weight": 0.125
+    },
+    {
+      "name": "Large goods vehicles LGV",
+      "weight": 0.125
+    },
+    {
+      "name": "Light trucks less than 3 tons",
+      "weight": 0.125
+    },
+    {
+      "name": "Pallet movers",
+      "weight": 0.125
+    },
+    {
+      "name": "Pickup trucks",
+      "weight": 0.125
     },
     {
       "name": "Protective face shields",
@@ -2121,6 +4025,10 @@
     },
     {
       "name": "Anti-static heel grounders",
+      "weight": 0.1
+    },
+    {
+      "name": "Binocular light compound microscopes",
       "weight": 0.1
     },
     {
@@ -2184,6 +4092,14 @@
       "weight": 0.1
     },
     {
+      "name": "Magnetic pickup tools",
+      "weight": 0.1
+    },
+    {
+      "name": "Metal-oxide varistors MOV",
+      "weight": 0.1
+    },
+    {
       "name": "Microcomputers",
       "weight": 0.1
     },
@@ -2197,6 +4113,10 @@
     },
     {
       "name": "Multimeters",
+      "weight": 0.1
+    },
+    {
+      "name": "Nanosecond universal counters",
       "weight": 0.1
     },
     {
@@ -2244,15 +4164,31 @@
       "weight": 0.1
     },
     {
-      "name": "Probe stations",
-      "weight": 0.1
-    },
-    {
       "name": "Programmable logic controllers PLC",
       "weight": 0.1
     },
     {
       "name": "Pulse generators",
+      "weight": 0.1
+    },
+    {
+      "name": "Q meters",
+      "weight": 0.1
+    },
+    {
+      "name": "Radio frequency RF amplifiers",
+      "weight": 0.1
+    },
+    {
+      "name": "Radio frequency RF signal generators",
+      "weight": 0.1
+    },
+    {
+      "name": "Radio frequency RF spectrum analyzers",
+      "weight": 0.1
+    },
+    {
+      "name": "Reflow ovens",
       "weight": 0.1
     },
     {
@@ -2276,6 +4212,14 @@
       "weight": 0.1
     },
     {
+      "name": "Stroboscopes",
+      "weight": 0.1
+    },
+    {
+      "name": "Tachometers",
+      "weight": 0.1
+    },
+    {
       "name": "Transformers",
       "weight": 0.1
     },
@@ -2292,14 +4236,6 @@
       "weight": 0.1
     },
     {
-      "name": "Welding goggles",
-      "weight": 0.1
-    },
-    {
-      "name": "Welding hoods",
-      "weight": 0.1
-    },
-    {
       "name": "Wire crimpers",
       "weight": 0.1
     },
@@ -2309,6 +4245,10 @@
     },
     {
       "name": "Wire strippers",
+      "weight": 0.1
+    },
+    {
+      "name": "Wire wrap guns",
       "weight": 0.1
     },
     {
@@ -2324,8 +4264,36 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Emergency first-aid kits",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "On-board data input terminals",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Portable fire extinguishers",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Radio frequency identification RFID devices",
       "weight": 0.09090909090909091
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Impact wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Micrometers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Pallet jacks",
+      "weight": 0.024390243902439025
     },
     {
       "name": "Personal digital assistants PDA",
@@ -2336,8 +4304,20 @@
       "weight": 0.024390243902439025
     },
     {
+      "name": "Ratchet wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Straight screwdrivers",
       "weight": 0.024390243902439025
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

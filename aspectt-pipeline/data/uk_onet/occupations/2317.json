@@ -1545,64 +1545,408 @@
   "tasks": [
     {
       "task": "Adapt teaching methods and instructional materials to meet students' varying needs, abilities, and interests.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.23
     },
     {
       "task": "Participate in publicity planning, community awareness efforts, and student recruitment.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.06
     },
     {
-      "task": "Confer with other staff members and professionals to plan and schedule lessons and discuss individual students' needs and progress.",
-      "task_type": "Core"
+      "task": "Confer with other staff members to plan and schedule lessons that promote learning, following approved curricula.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.16
+    },
+    {
+      "task": "Meet with other professionals to discuss individual students' needs and progress.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.37
     },
     {
       "task": "Attend professional meetings, conferences, and workshops to maintain and improve professional competence.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.2
     },
     {
       "task": "Prepare for assigned classes and show written evidence of preparation upon request of immediate supervisors.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.66
     },
     {
-      "task": "Prepare reports on students and activities as required by administration and maintain accurate student records.",
-      "task_type": "Core"
+      "task": "Prepare reports on students and activities as required by administration.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.61
     },
     {
       "task": "Select, order, and issue books, materials, and supplies for courses or projects.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.23
     },
     {
-      "task": "Attend staff meetings and serve on committees as required, while enforcing school and class rules to maintain order.",
-      "task_type": "Core"
+      "task": "Collaborate with other teachers and professionals in the development of instructional programs.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.46
     },
     {
-      "task": "Plan and supervise class projects, field trips, and activities, guiding students in learning from these experiences.",
-      "task_type": "Core"
+      "task": "Attend staff meetings and serve on committees, as required.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.43
     },
     {
-      "task": "Guide and counsel students with adjustment or academic problems, helping them explore learning opportunities and persevere.",
-      "task_type": "Core"
+      "task": "Plan and supervise class projects, field trips, visits by guest speakers, contests, or other experiential activities, and guide students in learning from those activities.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.09
     },
     {
-      "task": "Instruct students individually and in groups using various teaching methods, and prepare instructional objectives and outlines.",
-      "task_type": "Core"
+      "task": "Advise students on internships, prospective employers, and job placement services.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.03
     },
     {
-      "task": "Assess students' progress, monitor performance throughout tutoring sessions, and provide feedback to encourage improvement.",
-      "task_type": "Core"
+      "task": "Select and schedule class times to ensure maximum attendance.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.56
     },
     {
-      "task": "Organize tutoring environment to promote productivity and learning, and prepare and facilitate tutoring workshops or support sessions.",
-      "task_type": "Core"
+      "task": "Provide students with disabilities with assistive devices, supportive technology, and assistance accessing facilities, such as restrooms.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.91
     },
     {
-      "task": "Communicate students' progress to parents or guardians in written reports or meetings to discuss their children's educational priorities.",
-      "task_type": "Core"
+      "task": "Train and assist tutors and community literacy volunteers.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.49
+    },
+    {
+      "task": "Observe and evaluate the performance of other instructors.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.07
+    },
+    {
+      "task": "Observe and evaluate students' work to determine progress and make suggestions for improvement.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.39
+    },
+    {
+      "task": "Review instructional content, methods, and student evaluations to assess strengths and weaknesses, and to develop recommendations for course revision, development, or elimination.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.55
+    },
+    {
+      "task": "Confer with leaders of government and community groups to coordinate student training or to find opportunities for students to fulfill curriculum requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.07
+    },
+    {
+      "task": "Guide and counsel students with adjustment or academic problems or special academic interests.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.31
+    },
+    {
+      "task": "Establish and enforce rules for behavior and procedures for maintaining order among the students for whom they are responsible.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.94
+    },
+    {
+      "task": "Prepare objectives and outlines for courses of study, following curriculum guidelines or requirements of states and schools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.65
+    },
+    {
+      "task": "Maintain accurate and complete student records as required by laws or administrative policies.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.1
+    },
+    {
+      "task": "Prepare materials and classrooms for class activities.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.19
+    },
+    {
+      "task": "Establish clear objectives for all lessons, units, and projects and communicate those objectives to students.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.26
+    },
+    {
+      "task": "Conduct classes, workshops, and demonstrations to teach principles, techniques, or methods in subjects, such as basic English language skills, life skills, and workforce entry skills.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.09
+    },
+    {
+      "task": "Prepare students for further education by encouraging them to explore learning opportunities and to persevere with challenging tasks.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.19
+    },
+    {
+      "task": "Instruct students individually and in groups, using various teaching methods, such as lectures, discussions, and demonstrations.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.17
+    },
+    {
+      "task": "Provide information, guidance, and preparation for the General Equivalency Diploma (GED) examination.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.72
+    },
+    {
+      "task": "Prepare and administer written, oral, and performance tests and issue grades in accordance with performance.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.76
+    },
+    {
+      "task": "Use computers, audio-visual aids, and other equipment and materials to supplement presentations.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.65
+    },
+    {
+      "task": "Assign and grade class work and homework.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.15
+    },
+    {
+      "task": "Plan and conduct activities for a balanced program of instruction, demonstration, and work time that provides students with opportunities to observe, question, and investigate.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.15
+    },
+    {
+      "task": "Prepare and implement remedial programs for students requiring extra help.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.67
+    },
+    {
+      "task": "Register, orient, and assess new students according to standards and procedures.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.5
+    },
+    {
+      "task": "Observe students to determine qualifications, limitations, abilities, interests, and other individual characteristics.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.33
+    },
+    {
+      "task": "Communicate students' progress to students, parents, or teachers in written progress reports, in person, by phone, or by email.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.89
+    },
+    {
+      "task": "Answer students' questions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.67
+    },
+    {
+      "task": "Teach students study skills, note-taking skills, and test-taking strategies.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.45
+    },
+    {
+      "task": "Administer, proctor, or score academic or diagnostic assessments.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.92
+    },
+    {
+      "task": "Assess students' progress throughout tutoring sessions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.68
+    },
+    {
+      "task": "Collaborate with students, parents, teachers, school administrators, or counselors to determine student needs, develop tutoring plans, or assess student progress.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.15
+    },
+    {
+      "task": "Develop teaching or training materials, such as handouts, study materials, or quizzes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.43
+    },
+    {
+      "task": "Organize tutoring environment to promote productivity and learning.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.91
+    },
+    {
+      "task": "Identify, develop, or implement intervention strategies, tutoring plans, or individualized education plans (IEPs) for students.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.83
+    },
+    {
+      "task": "Prepare lesson plans or learning modules for tutoring sessions according to students' needs and goals.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.64
+    },
+    {
+      "task": "Provide feedback to students, using positive reinforcement techniques to encourage, motivate, or build confidence in students.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.86
+    },
+    {
+      "task": "Review class material with students by discussing text, working solutions to problems, or reviewing worksheets or other assignments.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.73
+    },
+    {
+      "task": "Distribute or collect tests or homework assignments.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.25
+    },
+    {
+      "task": "Distribute teaching materials, such as textbooks, workbooks, papers, and pencils, to students.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.2
+    },
+    {
+      "task": "Follow lesson plans designed by absent teachers.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.62
+    },
+    {
+      "task": "Organize and supervise games or other recreational activities.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.34
+    },
+    {
+      "task": "Restock teaching materials or supplies.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.58
+    },
+    {
+      "task": "Supervise students during activities outside the classroom, such as recess, lunch, and field trips.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.43
+    },
+    {
+      "task": "Take class attendance and maintain attendance records.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.53
+    },
+    {
+      "task": "Teach social skills to students, such as communication, conflict resolution, and etiquette.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.31
+    },
+    {
+      "task": "Prepare and facilitate tutoring workshops, collaborative projects, or academic support sessions for small groups of students.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.65
+    },
+    {
+      "task": "Participate in training and development sessions to improve tutoring practices or learn new tutoring techniques.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.18
+    },
+    {
+      "task": "Research or recommend textbooks, software, equipment, or other learning materials to complement tutoring.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.81
+    },
+    {
+      "task": "Conduct classes, workshops, and demonstrations, and provide individual instruction to teach topics and skills, such as cooking, dancing, writing, physical fitness, photography, personal finance, and flying.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.9
+    },
+    {
+      "task": "Instruct and monitor students in the use and care of equipment and materials to prevent injury and damage.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.85
+    },
+    {
+      "task": "Schedule tutoring appointments with students or their parents.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.95
+    },
+    {
+      "task": "Meet with parents and guardians to discuss their children's progress and to determine their priorities for their children.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.72
+    },
+    {
+      "task": "Organize and supervise games and other recreational activities to promote physical, mental, and social development.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.32
+    },
+    {
+      "task": "Write instructional articles on designated subjects.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.37
+    },
+    {
+      "task": "Travel to students' homes, libraries, or schools to conduct tutoring sessions.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.29
     }
   ],
   "technology_skills": [
     {
       "name": "Google Classroom",
+      "weight": 0.8
+    },
+    {
+      "name": "Microsoft Excel",
       "weight": 0.8
     },
     {
@@ -1626,6 +1970,10 @@
       "weight": 0.7
     },
     {
+      "name": "Adobe Photoshop",
+      "weight": 0.6
+    },
+    {
       "name": "Edmodo",
       "weight": 0.6
     },
@@ -1635,6 +1983,10 @@
     },
     {
       "name": "Educational software",
+      "weight": 0.6
+    },
+    {
+      "name": "Facebook",
       "weight": 0.6
     },
     {
@@ -1663,6 +2015,10 @@
     },
     {
       "name": "Learning management system LMS",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Publisher",
       "weight": 0.5
     },
     {
@@ -1702,11 +2058,27 @@
       "weight": 0.1
     },
     {
+      "name": "Adobe Acrobat",
+      "weight": 0.1
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.1
+    },
+    {
       "name": "Appointment scheduling software",
       "weight": 0.1
     },
     {
       "name": "Common Curriculum",
+      "weight": 0.1
+    },
+    {
+      "name": "Corel Paint Shop Pro",
+      "weight": 0.1
+    },
+    {
+      "name": "Database software",
       "weight": 0.1
     },
     {
@@ -1722,7 +2094,27 @@
       "weight": 0.1
     },
     {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.1
+    },
+    {
       "name": "Instructure Canvas",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Access",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Windows Movie Maker",
+      "weight": 0.1
+    },
+    {
+      "name": "Redrock Software TutorTrac",
       "weight": 0.1
     },
     {
@@ -1730,12 +2122,12 @@
       "weight": 0.1
     },
     {
-      "name": "YouTube",
+      "name": "Video editing software",
       "weight": 0.1
     },
     {
-      "name": "Microsoft Excel",
-      "weight": 0.8
+      "name": "YouTube",
+      "weight": 0.1
     }
   ],
   "tools_used": [
@@ -1750,6 +2142,10 @@
     {
       "name": "Personal computers",
       "weight": 0.7
+    },
+    {
+      "name": "Computer data input scanners",
+      "weight": 0.6
     },
     {
       "name": "Interactive whiteboards",
@@ -1772,6 +2168,18 @@
       "weight": 0.6
     },
     {
+      "name": "Video cassette recorders VCR",
+      "weight": 0.6
+    },
+    {
+      "name": "Digital video cameras",
+      "weight": 0.5
+    },
+    {
+      "name": "Digital video disk DVD players",
+      "weight": 0.5
+    },
+    {
       "name": "Television monitors",
       "weight": 0.5
     },
@@ -1784,7 +2192,43 @@
       "weight": 0.5
     },
     {
+      "name": "35 millimeter cameras",
+      "weight": 0.1
+    },
+    {
+      "name": "Acoustic guitars",
+      "weight": 0.1
+    },
+    {
+      "name": "Audio tape recorders or players",
+      "weight": 0.1
+    },
+    {
+      "name": "Compact disk CD players",
+      "weight": 0.1
+    },
+    {
       "name": "Computer laser printers",
+      "weight": 0.1
+    },
+    {
+      "name": "Data input scanners",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital cameras",
+      "weight": 0.1
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Passenger vehicles",
+      "weight": 0.1
+    },
+    {
+      "name": "Pianos",
       "weight": 0.1
     }
   ],

@@ -1545,71 +1545,483 @@
   "tasks": [
     {
       "task": "Recruit and hire agricultural workers.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.33
     },
     {
-      "task": "Direct and transport workers to appropriate work sites, and provide food, drinking water, and sanitation facilities to contracted workers.",
-      "task_type": "Core"
+      "task": "Direct and transport workers to appropriate work sites.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.12
     },
     {
-      "task": "Employ foremen to directly manage workers during recruitment, hiring, training, task assignments, and enforcement of work rules.",
-      "task_type": "Core"
+      "task": "Provide food, drinking water, and field sanitation facilities to contracted workers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.46
     },
     {
-      "task": "Supervise and monitor the work of contracted employees to ensure tasks are performed correctly.",
-      "task_type": "Core"
+      "task": "Employ foremen to deal directly with workers when recruiting, hiring, instructing, assigning tasks, and enforcing work rules.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.11
     },
     {
-      "task": "Pay wages of contracted farm laborers and verify employment records for accuracy.",
-      "task_type": "Core"
+      "task": "Supervise the work of contracted employees.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.07
     },
     {
-      "task": "Develop methods to monitor employee satisfaction, including grievance or complaint procedures, and advise management on these matters.",
-      "task_type": "Supplemental"
+      "task": "Furnish tools for employee use.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.02
     },
     {
-      "task": "Negotiate collective bargaining agreements and present the company's position during labor negotiations.",
-      "task_type": "Core"
+      "task": "Pay wages of contracted farm laborers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.48
     },
     {
-      "task": "Review employer practices for compliance with contractual agreements on wages, hours, and working conditions.",
-      "task_type": "Core"
+      "task": "Develop methods to monitor employee satisfaction with policies or working conditions, including grievance or complaint procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.92
     },
     {
-      "task": "Investigate and evaluate union complaints or arguments, and determine their viability.",
-      "task_type": "Core"
+      "task": "Develop employee health and safety policies.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.08
     },
     {
-      "task": "Counsel employees on personnel policies, benefits, and grievance procedures, ensuring clarity on employment regulations.",
-      "task_type": "Core"
+      "task": "Assess the impact of union proposals on company or government operations.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.54
     },
     {
-      "task": "Prepare and maintain personnel records related to recruitment, training, grievances, and performance evaluations.",
-      "task_type": "Core"
+      "task": "Assess risk levels associated with collective bargaining strategies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.81
     },
     {
-      "task": "Maintain current knowledge of labor laws, including Equal Employment Opportunity (EEO) and affirmative action guidelines.",
-      "task_type": "Core"
+      "task": "Present the position of the company or of labor during arbitration or other labor negotiations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.65
     },
     {
-      "task": "Plan and conduct orientations for new employees and develop recruiting strategies to meet staffing needs.",
-      "task_type": "Core"
+      "task": "Review employer practices or employee data to ensure compliance with contracts on matters such as wages, hours, or conditions of employment.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
     },
     {
-      "task": "Compile reports regarding employment activities and conduct analysis of employment-related data.",
-      "task_type": "Core"
+      "task": "Review and approve employee disciplinary actions, such as written reprimands, suspensions, or terminations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.36
     },
     {
-      "task": "Interview job applicants to verify qualifications and ensure they meet job requirements.",
-      "task_type": "Core"
+      "task": "Recommend collective bargaining strategies, goals, or objectives.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.0
     },
     {
-      "task": "Review employment applications and conduct reference checks to ensure candidate eligibility.",
-      "task_type": "Core"
+      "task": "Prepare evidence for disciplinary hearings, including preparing witnesses to testify.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.06
     },
     {
-      "task": "Administer employee benefit programs, including insurance and compensation plans, and ensure compliance with policies.",
-      "task_type": "Core"
+      "task": "Provide expert testimony in legal proceedings related to labor relations or labor contracts.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.17
+    },
+    {
+      "task": "Research case law or outcomes of previous case hearings.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.57
+    },
+    {
+      "task": "Select mediators or arbitrators for labor disputes or contract negotiations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.28
+    },
+    {
+      "task": "Propose resolutions for collective bargaining or other labor or contract negotiations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.17
+    },
+    {
+      "task": "Train managers or supervisors on topics related to labor relations, such as working conditions, safety, or equal opportunity practices.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.33
+    },
+    {
+      "task": "Schedule or coordinate the details of grievance hearings or other meetings.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.44
+    },
+    {
+      "task": "Develop and administer compensation programs, such as merit or incentive pay.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.25
+    },
+    {
+      "task": "Process, verify, and maintain personnel related documentation, including staffing, recruitment, training, grievances, performance evaluations, classifications, and employee leaves of absence.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.1
+    },
+    {
+      "task": "Prepare and submit required governmental reports or forms related to labor relations matters, such as equal employment opportunity (EEO) forms, new hire forms, or minority compensation reports.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.75
+    },
+    {
+      "task": "Negotiate collective bargaining agreements.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.67
+    },
+    {
+      "task": "Monitor company or workforce adherence to labor agreements.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.0
+    },
+    {
+      "task": "Mediate discussions between employer and employee representatives in attempt to reconcile differences.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.06
+    },
+    {
+      "task": "Investigate and evaluate union complaints or arguments to determine viability.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.43
+    },
+    {
+      "task": "Interpret contractual agreements for employers and employees engaged in collective bargaining or other labor relations processes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.11
+    },
+    {
+      "task": "Identify alternatives to proposals of unions, employees, companies, or government agencies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.59
+    },
+    {
+      "task": "Draft rules or regulations to govern collective bargaining activities in collaboration with company, government, or employee representatives.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.59
+    },
+    {
+      "task": "Draft contract proposals or counter-proposals for collective bargaining or other labor negotiations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.12
+    },
+    {
+      "task": "Call or meet with union, company, government, or other interested parties to discuss labor relations matters, such as contract negotiations or grievances.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.89
+    },
+    {
+      "task": "Advise management on matters related to the administration of contracts or employee discipline or grievance procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.46
+    },
+    {
+      "task": "Write letters related to labor relations activities, such as letters to amend collective bargaining agreements, letters of dispute or conciliation, or letters to seek clarification of contract terms.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.47
+    },
+    {
+      "task": "Advise managers and employees on central and devolved government employment regulations, collective agreements, benefit and compensation policies, personnel procedures, and classification programs.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.76
+    },
+    {
+      "task": "Ensure company compliance with central and devolved government laws, including reporting requirements.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.4
+    },
+    {
+      "task": "Evaluate job positions, determining classification, exempt or non-exempt status, and salary.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.9
+    },
+    {
+      "task": "Prepare badges, passes, and identification cards, and perform other security-related duties.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.38
+    },
+    {
+      "task": "Provide assistance in administering employee benefit programs and worker's compensation plans.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.88
+    },
+    {
+      "task": "Arrange for advertising or posting of job vacancies and notify eligible workers of position availability.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.75
+    },
+    {
+      "task": "Arrange for in-house and external training activities.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.94
+    },
+    {
+      "task": "Provide advice on the resolution of classification and salary complaints.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.3
+    },
+    {
+      "task": "Examine employee files to answer inquiries and provide information for personnel actions.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.67
+    },
+    {
+      "task": "Plan, develop, evaluate, improve, and communicate methods and techniques for selecting, promoting, compensating, evaluating, and training workers.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.9
+    },
+    {
+      "task": "Administer and score applicant and employee aptitude, personality, and interest assessment instruments.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.54
+    },
+    {
+      "task": "Prepare occupational classifications, job descriptions, and salary scales.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.9
+    },
+    {
+      "task": "Analyze organizational, occupational, and industrial data to facilitate organizational functions and provide technical information to business, industry, and government.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.25
+    },
+    {
+      "task": "Prepare research results for publication in form of journals, books, manuals, and film.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 1.83
+    },
+    {
+      "task": "Consult with, or serve as, technical liaison between business, industry, government, and union officials.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.9
+    },
+    {
+      "task": "Observe, interview, and survey employees and conduct focus group meetings to collect job, organizational, and occupational information.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.09
+    },
+    {
+      "task": "Plan and develop curricula and materials for training programs and conduct training.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.0
+    },
+    {
+      "task": "Assess need for and develop job analysis instruments and materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.18
+    },
+    {
+      "task": "Research job and worker requirements, structural and functional relationships among jobs and occupations, and occupational trends.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.9
+    },
+    {
+      "task": "Research employee benefit and health and safety practices, and recommend changes or modifications to existing policies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.07
+    },
+    {
+      "task": "Perform multifactor data and cost analyses that may be used in areas such as support of collective bargaining agreements.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.79
+    },
+    {
+      "task": "Develop, implement, administer, and evaluate personnel and labor relations programs, including performance appraisal, affirmative action, and employment equity programs.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.78
+    },
+    {
+      "task": "Negotiate collective agreements on behalf of employers or workers, and mediate labor disputes and grievances.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.29
+    },
+    {
+      "task": "Prepare reports, such as organization and flow charts and career path reports, to summarize job analysis and evaluation and compensation analysis information.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.89
+    },
+    {
+      "task": "Maintain current knowledge of Equal Employment Opportunity (EEO) and affirmative action guidelines and laws, such as the Americans with Disabilities Act (ADA).",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.44
+    },
+    {
+      "task": "Perform searches for qualified job candidates, using sources such as computer databases, networking, Internet recruiting resources, media advertisements, job fairs, recruiting firms, or employee referrals.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.86
+    },
+    {
+      "task": "Provide management with information or training related to interviewing, performance appraisals, counseling techniques, or documentation of performance issues.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.86
+    },
+    {
+      "task": "Review employment applications and job orders to match applicants with job requirements.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.18
+    },
+    {
+      "task": "Advise management on organizing, preparing, or implementing recruiting or retention programs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.73
+    },
+    {
+      "task": "Schedule or conduct new employee orientations.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.14
+    },
+    {
+      "task": "Select qualified job applicants or refer them to managers, making hiring recommendations when appropriate.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.16
+    },
+    {
+      "task": "Coordinate with outside staffing agencies to secure temporary employees, based on departmental needs.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.57
+    },
+    {
+      "task": "Interview job applicants to obtain information on work history, training, education, or job skills.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.89
+    },
+    {
+      "task": "Evaluate recruitment or selection criteria to ensure conformance to professional, statistical, or testing standards, recommending revisions, as needed.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 3.95
+    },
+    {
+      "task": "Inform job applicants of details such as duties and responsibilities, compensation, benefits, schedules, working conditions, or promotion opportunities.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.18
+    },
+    {
+      "task": "Hire employees and process hiring-related paperwork.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.5
+    },
+    {
+      "task": "Develop or implement recruiting strategies to meet current or anticipated staffing needs.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.71
+    },
+    {
+      "task": "Contact job applicants to inform them of the status of their applications.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.91
+    },
+    {
+      "task": "Confer with management to develop or implement personnel policies or procedures.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.99
+    },
+    {
+      "task": "Conduct reference or background checks on job applicants.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.28
+    },
+    {
+      "task": "Conduct exit interviews and ensure that necessary employment termination paperwork is completed.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.9
+    },
+    {
+      "task": "Analyze employment-related data and prepare required reports.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.81
+    },
+    {
+      "task": "Address employee relations issues, such as harassment allegations, work complaints, or other employee concerns.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.31
+    },
+    {
+      "task": "Review and evaluate applicant qualifications or eligibility for specified licensing, according to established guidelines and designated licensing codes.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 4.11
     }
   ],
   "technology_skills": [
@@ -1790,8 +2202,28 @@
       "weight": 0.34090909090909094
     },
     {
+      "name": "Bookkeeping software",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "E-Verify",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "Financial accounting software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.2909090909090909
+    },
+    {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.2909090909090909
+    },
+    {
+      "name": "Blackboard software",
+      "weight": 0.2909090909090909
     },
     {
       "name": "Google Drive",
@@ -1810,11 +2242,39 @@
       "weight": 0.2909090909090909
     },
     {
+      "name": "SmugMug Flickr",
+      "weight": 0.2909090909090909
+    },
+    {
       "name": "ADP Enterprise HR",
       "weight": 0.25
     },
     {
       "name": "ADP Enterprise eTIME",
+      "weight": 0.25
+    },
+    {
+      "name": "Actuarial Systems Corporation AIM",
+      "weight": 0.25
+    },
+    {
+      "name": "Actuarial Systems Corporation Compliance Testing System",
+      "weight": 0.25
+    },
+    {
+      "name": "Actuarial Systems Corporation DV Direct",
+      "weight": 0.25
+    },
+    {
+      "name": "Actuarial Systems Corporation Defined Benefit System",
+      "weight": 0.25
+    },
+    {
+      "name": "Actuarial Systems Corporation Document Generation and Management System",
+      "weight": 0.25
+    },
+    {
+      "name": "Apex Business Software iBenefits",
       "weight": 0.25
     },
     {
@@ -1826,11 +2286,83 @@
       "weight": 0.25
     },
     {
+      "name": "BEMAS PayDirect",
+      "weight": 0.25
+    },
+    {
+      "name": "Bargaining Power",
+      "weight": 0.25
+    },
+    {
+      "name": "BenAssist",
+      "weight": 0.25
+    },
+    {
+      "name": "Benaissance COBRApoint",
+      "weight": 0.25
+    },
+    {
+      "name": "BeneLink Connect",
+      "weight": 0.25
+    },
+    {
+      "name": "BeneXL Technologies Pension Administration System",
+      "weight": 0.25
+    },
+    {
+      "name": "Benefit Plan Systems Corporation The Plan Administrator",
+      "weight": 0.25
+    },
+    {
+      "name": "Benefit Software Fringe Facts",
+      "weight": 0.25
+    },
+    {
+      "name": "BenefitFocus HR in Touch",
+      "weight": 0.25
+    },
+    {
+      "name": "Benelogic",
+      "weight": 0.25
+    },
+    {
+      "name": "Blackboard Learn",
+      "weight": 0.25
+    },
+    {
+      "name": "Blackboard Learning System",
+      "weight": 0.25
+    },
+    {
+      "name": "Byrne Software Technologies Visual HCS",
+      "weight": 0.25
+    },
+    {
       "name": "Calendar and scheduling software",
       "weight": 0.25
     },
     {
+      "name": "Callidus TrueComp",
+      "weight": 0.25
+    },
+    {
       "name": "Ceridian Dayforce enterprise HCM",
+      "weight": 0.25
+    },
+    {
+      "name": "Clayton Wallis CompGeo Online Professional Forecast Library",
+      "weight": 0.25
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.25
+    },
+    {
+      "name": "DataPath dpiSuite",
+      "weight": 0.25
+    },
+    {
+      "name": "Ebenefits Solutions Benefits Management",
       "weight": 0.25
     },
     {
@@ -1846,11 +2378,103 @@
       "weight": 0.25
     },
     {
+      "name": "Halogen eCompensation",
+      "weight": 0.25
+    },
+    {
+      "name": "Humanic Design Employmee Self-Service",
+      "weight": 0.25
+    },
+    {
+      "name": "Humanic Design Human Resources Management System",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Cognos",
+      "weight": 0.25
+    },
+    {
+      "name": "Incentive management system software",
+      "weight": 0.25
+    },
+    {
+      "name": "InfinityHR",
+      "weight": 0.25
+    },
+    {
+      "name": "Internet Grievance System IGS",
+      "weight": 0.25
+    },
+    {
+      "name": "LaborSoft LaborForce Arbitration/Appeals Manager module",
+      "weight": 0.25
+    },
+    {
+      "name": "LaborSoft LaborForce Discipline Manager module",
+      "weight": 0.25
+    },
+    {
+      "name": "LaborSoft LaborForce EEO Claims Manager module",
+      "weight": 0.25
+    },
+    {
+      "name": "LaborSoft LaborForce Grievance Manager module",
+      "weight": 0.25
+    },
+    {
+      "name": "LaborSoft LaborForce Incident Tracking module",
+      "weight": 0.25
+    },
+    {
+      "name": "LaborSoft LaborForce Personnel Manager module",
+      "weight": 0.25
+    },
+    {
+      "name": "LaborSoft LaborForce Reporting/Dashboard Manager module",
+      "weight": 0.25
+    },
+    {
+      "name": "Lawson ERP",
+      "weight": 0.25
+    },
+    {
       "name": "Learning management system LMS",
       "weight": 0.25
     },
     {
+      "name": "Lynchval Systems Lvadmin",
+      "weight": 0.25
+    },
+    {
+      "name": "Lynchval Systems Lvval",
+      "weight": 0.25
+    },
+    {
+      "name": "Lynchval Systems Lvxact",
+      "weight": 0.25
+    },
+    {
+      "name": "Medical condition coding software",
+      "weight": 0.25
+    },
+    {
+      "name": "Medical procedure coding software",
+      "weight": 0.25
+    },
+    {
       "name": "Micropact entellitrak Labor Relations Edition",
+      "weight": 0.25
+    },
+    {
+      "name": "NPKTools Comp Analytics",
+      "weight": 0.25
+    },
+    {
+      "name": "NPKTools CompXpert",
+      "weight": 0.25
+    },
+    {
+      "name": "OnQue Technologies COBRA OnOne",
       "weight": 0.25
     },
     {
@@ -1882,7 +2506,75 @@
       "weight": 0.25
     },
     {
+      "name": "SBC Systems Benefits Workstation",
+      "weight": 0.25
+    },
+    {
+      "name": "Sage HRMS",
+      "weight": 0.25
+    },
+    {
+      "name": "Salary.com",
+      "weight": 0.25
+    },
+    {
+      "name": "Scanning software",
+      "weight": 0.25
+    },
+    {
+      "name": "ServiceNow",
+      "weight": 0.25
+    },
+    {
+      "name": "Stroud & Associates Employee Benefits Administration System",
+      "weight": 0.25
+    },
+    {
       "name": "Structured query language SQL",
+      "weight": 0.25
+    },
+    {
+      "name": "Survey Sense",
+      "weight": 0.25
+    },
+    {
+      "name": "Transcend Technologies Group benefitsCONNECT",
+      "weight": 0.25
+    },
+    {
+      "name": "Travis Software TravisFlex",
+      "weight": 0.25
+    },
+    {
+      "name": "VUE Benefits Manager",
+      "weight": 0.25
+    },
+    {
+      "name": "VUE Compensation Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Vebnet FIX&FLEX",
+      "weight": 0.25
+    },
+    {
+      "name": "Virtual Benefits Administrator",
+      "weight": 0.25
+    },
+    {
+      "name": "Vitech Systems Group V3 Benefits Administration System",
+      "weight": 0.25
+    },
+    {
+      "name": "Watson Wyatt CompQuest On-Line",
+      "weight": 0.25
+    },
+    {
+      "name": "Watson Wyatt Global Grading System",
+      "weight": 0.25
+    },
+    {
+      "name": "Watson Wyatt Reward",
       "weight": 0.25
     },
     {
@@ -1890,7 +2582,67 @@
       "weight": 0.25
     },
     {
+      "name": "Workscape Outsourced Employee Benefits Administration",
+      "weight": 0.25
+    },
+    {
+      "name": "Xactly Compel",
+      "weight": 0.25
+    },
+    {
+      "name": "AST Staff Matrix",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe Acrobat",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe Human Capital Application Solution Accelerator",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe LifeCycle Enterprise Suite",
+      "weight": 0.2
+    },
+    {
+      "name": "Airtable",
+      "weight": 0.2
+    },
+    {
+      "name": "Apple Final Cut Pro",
+      "weight": 0.2
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.2
+    },
+    {
       "name": "ApplicantPro iApplicants",
+      "weight": 0.2
+    },
+    {
+      "name": "Arbita OnePost",
+      "weight": 0.2
+    },
+    {
+      "name": "Arbita OneWorld",
       "weight": 0.2
     },
     {
@@ -1902,11 +2654,35 @@
       "weight": 0.2
     },
     {
+      "name": "BlackDog Recruiting",
+      "weight": 0.2
+    },
+    {
+      "name": "Blackdog",
+      "weight": 0.2
+    },
+    {
+      "name": "Bond International Adapt Staffing",
+      "weight": 0.2
+    },
+    {
+      "name": "Bond International Software Bond StaffSuite",
+      "weight": 0.2
+    },
+    {
       "name": "BrightMove Applicant Tracking System",
       "weight": 0.2
     },
     {
       "name": "Bullhorn Applicant Tracking System",
+      "weight": 0.2
+    },
+    {
+      "name": "COATSsql",
+      "weight": 0.2
+    },
+    {
+      "name": "CVTracer",
       "weight": 0.2
     },
     {
@@ -1922,7 +2698,71 @@
       "weight": 0.2
     },
     {
+      "name": "Cisco Webex",
+      "weight": 0.2
+    },
+    {
+      "name": "Cluen Encore",
+      "weight": 0.2
+    },
+    {
+      "name": "Cluen executive recruitment software",
+      "weight": 0.2
+    },
+    {
+      "name": "DGCC.com RecruitTrack",
+      "weight": 0.2
+    },
+    {
+      "name": "Data Frenzy",
+      "weight": 0.2
+    },
+    {
+      "name": "Data entry software",
+      "weight": 0.2
+    },
+    {
+      "name": "Drupal",
+      "weight": 0.2
+    },
+    {
+      "name": "ESRI ArcGIS software",
+      "weight": 0.2
+    },
+    {
       "name": "Ellucian Banner Human Resources",
+      "weight": 0.2
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.2
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.2
+    },
+    {
+      "name": "FaceTime",
+      "weight": 0.2
+    },
+    {
+      "name": "GoBackgrounds",
+      "weight": 0.2
+    },
+    {
+      "name": "Google",
+      "weight": 0.2
+    },
+    {
+      "name": "Google Ads",
+      "weight": 0.2
+    },
+    {
+      "name": "Google Analytics",
+      "weight": 0.2
+    },
+    {
+      "name": "Google Slides",
       "weight": 0.2
     },
     {
@@ -1930,7 +2770,39 @@
       "weight": 0.2
     },
     {
+      "name": "HireAbility ResumeParser",
+      "weight": 0.2
+    },
+    {
+      "name": "HireLogic PowerPlace",
+      "weight": 0.2
+    },
+    {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.2
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.2
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.2
+    },
+    {
       "name": "ICIMS",
+      "weight": 0.2
+    },
+    {
+      "name": "Industrial Code Recruitpoint.net",
+      "weight": 0.2
+    },
+    {
+      "name": "Intelius",
+      "weight": 0.2
+    },
+    {
+      "name": "Intelligent Algorithms InfoGIST Platinum Recruiter",
       "weight": 0.2
     },
     {
@@ -1942,7 +2814,47 @@
       "weight": 0.2
     },
     {
+      "name": "Kronos Workforce Payroll",
+      "weight": 0.2
+    },
+    {
       "name": "Lawson Human Resource Management",
+      "weight": 0.2
+    },
+    {
+      "name": "Loom",
+      "weight": 0.2
+    },
+    {
+      "name": "MEDITECH software",
+      "weight": 0.2
+    },
+    {
+      "name": "MPAY Millennium",
+      "weight": 0.2
+    },
+    {
+      "name": "Main Sequence Technologies PCRecruiter",
+      "weight": 0.2
+    },
+    {
+      "name": "Main Sequence Technologies PCRecruiter Resume Inhaler",
+      "weight": 0.2
+    },
+    {
+      "name": "Marketo Marketing Automation",
+      "weight": 0.2
+    },
+    {
+      "name": "Micro J Systems PcHunter",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
       "weight": 0.2
     },
     {
@@ -1954,7 +2866,59 @@
       "weight": 0.2
     },
     {
+      "name": "Online databases",
+      "weight": 0.2
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.2
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.2
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.2
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.2
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.2
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.2
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.2
+    },
+    {
       "name": "Oracle PeopleSoft Human Capital Management",
+      "weight": 0.2
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.2
+    },
+    {
+      "name": "Post Once",
+      "weight": 0.2
+    },
+    {
+      "name": "PostingPal",
+      "weight": 0.2
+    },
+    {
+      "name": "PowerPlace Professional",
+      "weight": 0.2
+    },
+    {
+      "name": "Qlik Tech QlikView",
       "weight": 0.2
     },
     {
@@ -1962,7 +2926,19 @@
       "weight": 0.2
     },
     {
+      "name": "RecruitTrack",
+      "weight": 0.2
+    },
+    {
       "name": "Recruitment management software",
+      "weight": 0.2
+    },
+    {
+      "name": "Recruitpoint.net",
+      "weight": 0.2
+    },
+    {
+      "name": "Resource Edge TalentHook Sphere",
       "weight": 0.2
     },
     {
@@ -1978,6 +2954,38 @@
       "weight": 0.2
     },
     {
+      "name": "ResumeRobot",
+      "weight": 0.2
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.2
+    },
+    {
+      "name": "Safari Software Products Safari",
+      "weight": 0.2
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.2
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.2
+    },
+    {
+      "name": "Sendouts Recruiting",
+      "weight": 0.2
+    },
+    {
+      "name": "Silk Road technology OpenHire",
+      "weight": 0.2
+    },
+    {
+      "name": "Skype",
+      "weight": 0.2
+    },
+    {
       "name": "Slack",
       "weight": 0.2
     },
@@ -1986,15 +2994,251 @@
       "weight": 0.2
     },
     {
+      "name": "Staffing Solutions Enterprises Staff Matrix",
+      "weight": 0.2
+    },
+    {
+      "name": "StaffingSoft Staffing Edition",
+      "weight": 0.2
+    },
+    {
+      "name": "StataCorp Stata",
+      "weight": 0.2
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.2
+    },
+    {
+      "name": "Talent Technology HireDesk",
+      "weight": 0.2
+    },
+    {
+      "name": "Talent Technology Resume Mirror",
+      "weight": 0.2
+    },
+    {
+      "name": "Talent Technology Talemetry",
+      "weight": 0.2
+    },
+    {
+      "name": "TalentHook",
+      "weight": 0.2
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.2
+    },
+    {
       "name": "Technomedia Hodes iQ",
       "weight": 0.2
+    },
+    {
+      "name": "TempWorks recruiting and staffing software",
+      "weight": 0.2
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.2
+    },
+    {
+      "name": "VCG Pointwing",
+      "weight": 0.2
+    },
+    {
+      "name": "Vendor management system software",
+      "weight": 0.2
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.2
+    },
+    {
+      "name": "Zoom",
+      "weight": 0.2
+    },
+    {
+      "name": "eQuest",
+      "weight": 0.2
+    },
+    {
+      "name": "ACT Discover",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "ACT WorkKeys",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Athena Software Penelope Case Management",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Blackboard Wimba",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Bloomz",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Career Cruising",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Career Dimensions Focus 2",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Career Zone",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Career decision-making programs",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Career management systems CMS",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Centers for Disease Control and Prevention CDC WONDER",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Centers for Disease Control and Prevention Epi Info",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Chat software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Coin Educational Products Climb K-5 Online",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Coin Educational Products Coin Jr.",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "College Central Network Career Services Central",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Common Curriculum",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computer-assisted career guidance software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computer-assisted live supervision",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computerized diagnostic programs",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computerized statistical packages",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Computerized testing programs",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Counseling software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Database application software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "EZAnalyze",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Google Classroom",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Instant messaging software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Intrado SchoolMessenger",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Kuder Navigator",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "LogMeIn GoToMeeting",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Moodle",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Naviance Succeed",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Orbius",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Padlet",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Palm Pal Transana",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Prezi",
+      "weight": 0.09090909090909091
     },
     {
       "name": "Productivity software",
       "weight": 0.09090909090909091
     },
     {
+      "name": "Schoology",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Screencastify",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Social Solutions ETO",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Student information systems SIS software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Web page design and editing software",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Yahoo! Email",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Zoomerang",
       "weight": 0.09090909090909091
     }
   ],
@@ -2052,6 +3296,14 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Digital video disk DVD players",
+      "weight": 0.2909090909090909
+    },
+    {
+      "name": "Liquid crystal display LCD projectors",
+      "weight": 0.2909090909090909
+    },
+    {
       "name": "Digital copiers",
       "weight": 0.25
     },
@@ -2068,6 +3320,10 @@
       "weight": 0.25
     },
     {
+      "name": "Mainframe computers",
+      "weight": 0.25
+    },
+    {
       "name": "Photocopiers",
       "weight": 0.25
     },
@@ -2080,7 +3336,15 @@
       "weight": 0.2
     },
     {
+      "name": "Digital audio recorders",
+      "weight": 0.2
+    },
+    {
       "name": "Multi-line telephone systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Video projectors",
       "weight": 0.2
     },
     {
@@ -2088,7 +3352,35 @@
       "weight": 0.2
     },
     {
+      "name": "Audio recorders",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Overhead display projectors",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Projection equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Video cassette recorders VCR",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Video recorders",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Videoconferencing equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Yahoo! Messenger",
       "weight": 0.09090909090909091
     }
   ],

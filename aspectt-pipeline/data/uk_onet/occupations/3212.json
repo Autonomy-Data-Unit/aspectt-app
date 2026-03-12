@@ -1544,44 +1544,124 @@
   ],
   "tasks": [
     {
-      "task": "Receive written prescription or refill requests, verify that information is complete and accurate, and enter prescription information into computer databases.",
-      "task_type": "Core"
+      "task": "Receive written prescription or refill requests and verify that information is complete and accurate.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.86
     },
     {
-      "task": "Mix pharmaceutical preparations, according to written prescriptions, and transfer medication from vials to sterile, disposable syringes using aseptic techniques.",
-      "task_type": "Core"
+      "task": "Mix pharmaceutical preparations, according to written prescriptions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.44
     },
     {
-      "task": "Restock intravenous (IV) supplies and add measured drugs or nutrients to IV solutions under sterile conditions to prepare IV packs.",
-      "task_type": "Supplemental"
+      "task": "Restock intravenous (IV) supplies and add measured drugs or nutrients to IV solutions under sterile conditions to prepare IV packs for various uses, such as chemotherapy medication.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.44
     },
     {
-      "task": "Receive and store incoming supplies, verify quantities against invoices, check for outdated medications, and inform supervisors of stock needs and shortages.",
-      "task_type": "Core"
+      "task": "Receive and store incoming supplies, verify quantities against invoices, check for outdated medications in current inventory, and inform supervisors of stock needs and shortages.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.6
     },
     {
-      "task": "Prepack bulk medicines, fill bottles with prescribed medications, price and file filled prescriptions, and type and affix labels.",
-      "task_type": "Core"
+      "task": "Prepack bulk medicines, fill bottles with prescribed medications, and type and affix labels.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.34
     },
     {
-      "task": "Operate cash registers to accept payment, compute charges for medication or equipment dispensed, and prepare medical insurance claim forms.",
-      "task_type": "Supplemental"
+      "task": "Maintain and merchandise home healthcare products or services.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.62
     },
     {
-      "task": "Maintain proper storage and security conditions for drugs, and assist customers by answering simple questions or referring them to the pharmacist.",
-      "task_type": "Core"
+      "task": "Price stock and mark items for sale.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.57
     },
     {
-      "task": "Clean and help maintain equipment or work areas and sterilize glassware according to prescribed methods.",
-      "task_type": "Core"
+      "task": "Deliver medications or pharmaceutical supplies to patients, nursing stations, or surgery.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.36
     },
     {
-      "task": "Order, label, and count stock of medications or supplies and monitor robotic machines that dispense medicine into labeled containers.",
-      "task_type": "Core"
+      "task": "Compute charges for medication or equipment dispensed to hospital patients and enter data in computer.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.71
     },
     {
-      "task": "Deliver medications or pharmaceutical supplies to patients, nursing stations, or surgeries, and answer telephones responding to questions or requests.",
-      "task_type": "Supplemental"
+      "task": "Operate cash registers to accept payment from customers.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.51
+    },
+    {
+      "task": "Prepare and process medical insurance claim forms and records.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.66
+    },
+    {
+      "task": "Maintain proper storage and security conditions for drugs.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.66
+    },
+    {
+      "task": "Transfer medication from vials to the appropriate number of sterile, disposable syringes, using aseptic techniques.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 4.47
+    },
+    {
+      "task": "Order, label, and count stock of medications, chemicals, or supplies and enter inventory data into computer.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.4
+    },
+    {
+      "task": "Establish or maintain patient profiles, including lists of medications taken by individual patients.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.71
+    },
+    {
+      "task": "Clean and help maintain equipment or work areas and sterilize glassware, according to prescribed methods.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.36
+    },
+    {
+      "task": "Price and file prescriptions that have been filled.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.44
+    },
+    {
+      "task": "Assist customers by answering simple questions, locating items, or referring them to the pharmacist for medication information.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.53
+    },
+    {
+      "task": "Answer telephones, responding to questions or requests.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.56
+    },
+    {
+      "task": "Enter prescription information into computer databases.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.75
     }
   ],
   "technology_skills": [
@@ -1615,10 +1695,6 @@
     },
     {
       "name": "MEDITECH software",
-      "weight": 0.5
-    },
-    {
-      "name": "Medical condition coding software",
       "weight": 0.5
     },
     {
@@ -1676,10 +1752,6 @@
   ],
   "tools_used": [
     {
-      "name": "Agar slides",
-      "weight": 0.5
-    },
-    {
       "name": "Autoclaves",
       "weight": 0.5
     },
@@ -1692,23 +1764,15 @@
       "weight": 0.5
     },
     {
-      "name": "Benchtop colloid mills",
-      "weight": 0.5
-    },
-    {
       "name": "Blending/agitating machines",
       "weight": 0.5
     },
     {
-      "name": "Bunsen burners",
+      "name": "Cash registers",
       "weight": 0.5
     },
     {
       "name": "Centrifuges",
-      "weight": 0.5
-    },
-    {
-      "name": "Colloid mills",
       "weight": 0.5
     },
     {
@@ -1744,23 +1808,15 @@
       "weight": 0.5
     },
     {
+      "name": "Flask washers",
+      "weight": 0.5
+    },
+    {
       "name": "Graduated cylinders",
       "weight": 0.5
     },
     {
-      "name": "Grinding and shearing colloid mills",
-      "weight": 0.5
-    },
-    {
       "name": "Horizontal and vertical flow hoods",
-      "weight": 0.5
-    },
-    {
-      "name": "Incubators",
-      "weight": 0.5
-    },
-    {
-      "name": "Intravenous IV infusion pumps",
       "weight": 0.5
     },
     {
@@ -1788,7 +1844,7 @@
       "weight": 0.5
     },
     {
-      "name": "Petri dishes",
+      "name": "Point of sale POS computer terminals",
       "weight": 0.5
     },
     {
@@ -1829,10 +1885,6 @@
     },
     {
       "name": "Total parenteral nutrition TPN compounders",
-      "weight": 0.5
-    },
-    {
-      "name": "Tube filling and crimping machines",
       "weight": 0.5
     },
     {

@@ -1544,44 +1544,580 @@
   ],
   "tasks": [
     {
+      "task": "Interpret drilling and testing information for personnel.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.67
+    },
+    {
+      "task": "Assist engineering and other personnel to solve operating problems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.99
+    },
+    {
       "task": "Confer with scientific, engineering, and technical personnel to resolve design, research, and testing problems.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Analyze and recommend chemical, biological, or other wastewater treatment methods to prepare water for industrial or domestic use.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Design or prepare plans for new transportation systems or parts of systems, such as highways, streets, bridges, or drainage structures.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.77
     },
     {
       "task": "Evaluate findings to develop, design, or test equipment or processes.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.47
+    },
+    {
+      "task": "Assign work to staff to obtain maximum utilization of personnel.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.97
+    },
+    {
+      "task": "Coordinate activities of workers engaged in research, planning, and development.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.65
+    },
+    {
+      "task": "Test machinery and equipment to ensure that it is safe and conforms to performance specifications.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.12
+    },
+    {
+      "task": "Supervise, train, and evaluate technicians, technologists, survey personnel, engineers, scientists or other mine personnel.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.76
+    },
+    {
+      "task": "Monitor production rates, and plan rework processes to improve production.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.09
+    },
+    {
+      "task": "Write technical reports for engineering and management personnel.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.62
+    },
+    {
+      "task": "Prepare technical reports for use by mining, engineering, and management personnel.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.38
+    },
+    {
+      "task": "Devise solutions to problems of land reclamation and water and air pollution, such as methods of storing excavated soil and returning exhausted mine sites to natural states.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.81
+    },
+    {
+      "task": "Analyze and recommend sludge treatment or disposal methods.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.5
+    },
+    {
+      "task": "Conduct environmental impact studies related to water and wastewater collection, treatment, or distribution.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.41
+    },
+    {
+      "task": "Perform hydraulic analyses of water supply systems or water distribution networks to model flow characteristics, test for pressure losses, or to identify opportunities to mitigate risks and improve operational efficiency.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.59
+    },
+    {
+      "task": "Oversee the construction of decentralized or on-site wastewater treatment systems, including reclaimed water facilities.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.63
+    },
+    {
+      "task": "Gather and analyze water use data to forecast water demand.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.44
+    },
+    {
+      "task": "Conduct feasibility studies for the construction of facilities, such as water supply systems, runoff collection networks, water and wastewater treatment plants, or wastewater collection systems.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.71
+    },
+    {
+      "task": "Analyze the efficiency of water delivery structures, such as dams, tainter gates, canals, pipes, penstocks, or cofferdams.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.27
+    },
+    {
+      "task": "Check construction plans, design calculations, or cost estimations to ensure completeness, accuracy, or conformity to engineering standards or practices.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.23
+    },
+    {
+      "task": "Conduct cost-benefit analyses for the construction of water supply systems, runoff collection networks, water and wastewater treatment plants, or wastewater collection systems.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.75
+    },
+    {
+      "task": "Analyze storm water or floodplain drainage systems to control erosion, stabilize river banks, repair channel streams, or design bridges.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.71
+    },
+    {
+      "task": "Perform mathematical modeling of underground or surface water resources, such as floodplains, ocean coastlines, streams, rivers, or wetlands.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.36
+    },
+    {
+      "task": "Perform hydrological analyses, using three-dimensional simulation software, to model the movement of water or forecast the dispersion of chemical pollutants in the water supply.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.6
     },
     {
       "task": "Analyze environmental impact statements for transportation projects.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.55
     },
     {
-      "task": "Conduct feasibility studies for the construction of water supply systems, wastewater treatment plants, or runoff collection networks.",
-      "task_type": "Core"
+      "task": "Conduct water quality studies to identify and characterize water pollutant sources.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.94
     },
     {
-      "task": "Inspect project sites to monitor progress and ensure conformance to design specifications and safety standards.",
-      "task_type": "Core"
+      "task": "Design or select equipment for use in wastewater processing to ensure compliance with government standards.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.95
     },
     {
-      "task": "Prepare schedules, reports, and estimates of the costs involved in developing and operating transportation projects.",
-      "task_type": "Core"
+      "task": "Develop plans for new water resources or water efficiency programs.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.6
     },
     {
-      "task": "Design energy-efficient or environmentally sound civil structures.",
-      "task_type": "Core"
+      "task": "Identify design alternatives for the development of new water resources.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.8
+    },
+    {
+      "task": "Provide technical support on water resource or treatment issues to government agencies.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.71
+    },
+    {
+      "task": "Review and critique proposals, plans, or designs related to water or wastewater treatment systems.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.3
+    },
+    {
+      "task": "Supervise the maintenance or repair of transportation systems or system components.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.5
+    },
+    {
+      "task": "Design or prepare plans for new transportation systems or parts of systems, such as airports, commuter trains, highways, streets, bridges, drainage structures, or roadway lighting.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.55
+    },
+    {
+      "task": "Write technical reports or publications related to water resources development or water use efficiency.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.58
+    },
+    {
+      "task": "Design water storage tanks or other water storage facilities.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.5
+    },
+    {
+      "task": "Analyze and recommend chemical, biological, or other wastewater treatment methods to prepare water for industrial or domestic use.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.89
+    },
+    {
+      "task": "Compute load and grade requirements, water flow rates, or material stress factors to determine design specifications.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.93
+    },
+    {
+      "task": "Design water runoff collection networks, water supply channels, or water supply system networks.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.78
+    },
+    {
+      "task": "Design water or wastewater lift stations, including water wells.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.76
+    },
+    {
+      "task": "Evaluate the operation and maintenance of water or wastewater systems to identify ways to improve their efficiency.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
+    },
+    {
+      "task": "Analyze survey reports, maps, drawings, blueprints, aerial photography, or other topographical or geologic data.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.68
     },
     {
       "task": "Plan and design transportation or hydraulic systems or structures, using computer-assisted design or drawing tools.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.88
+    },
+    {
+      "task": "Manage and direct the construction, operations, or maintenance activities at project site.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
+    },
+    {
+      "task": "Provide technical advice to industrial or managerial personnel regarding design, construction, program modifications, or structural repairs.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.72
+    },
+    {
+      "task": "Estimate transportation project costs.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.91
+    },
+    {
+      "task": "Supervise and monitor production processes to ensure efficient use of equipment, timely changes to specifications, and project completion within time frame and budget.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
+    },
+    {
+      "task": "Prepare reports, manuscripts, proposals, and technical manuals for use by other scientists and requestors, such as sponsors and customers.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.14
+    },
+    {
+      "task": "Evaluate construction project materials for compliance with environmental standards.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.26
+    },
+    {
+      "task": "Develop plans to deconstruct damaged or obsolete roadways or other transportation structures in a manner that is environmentally sound or prepares the land for sustainable development.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.85
+    },
+    {
+      "task": "Design transportation systems or structures with sustainable materials or products, such as porous pavement or bioretention structures.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.09
+    },
+    {
+      "task": "Design or engineer drainage, erosion, or sedimentation control systems for transportation projects.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.79
+    },
+    {
+      "task": "Identify environmental risks and develop risk management strategies for civil engineering projects.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.57
+    },
+    {
+      "task": "Direct engineering activities, ensuring compliance with environmental, safety, or other governmental regulations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.25
+    },
+    {
+      "task": "Develop or implement engineering solutions to clean up industrial accidents or other contaminated sites.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.86
+    },
+    {
+      "task": "Design or engineer systems to efficiently dispose of chemical, biological, or other toxic wastes.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.57
+    },
+    {
+      "task": "Design energy-efficient or environmentally sound civil structures.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.0
+    },
+    {
+      "task": "Design domestic or industrial water or wastewater treatment plants, including advanced facilities with sequencing batch reactors (SBR), membranes, lift stations, headworks, surge overflow basins, ultraviolet disinfection systems, aerobic digesters, sludge lagoons, or control buildings.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.19
+    },
+    {
+      "task": "Design pumping systems, pumping stations, pipelines, force mains, or sewers for the collection of wastewater.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.95
+    },
+    {
+      "task": "Design sludge treatment plants.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.45
+    },
+    {
+      "task": "Design water distribution systems for potable or non-potable water.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.95
+    },
+    {
+      "task": "Confer with contractors, utility companies, or government agencies to discuss plans, specifications, or work schedules.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
+    },
+    {
+      "task": "Visit suppliers of materials or users of products to gather specific information.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.55
+    },
+    {
+      "task": "Direct the surveying, staking, or laying-out of construction projects.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.19
+    },
+    {
+      "task": "Confer with customers to determine how to tailor materials to their needs.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.74
+    },
+    {
+      "task": "Inspect project sites to monitor progress and ensure conformance to design specifications and safety or sanitation standards.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
+    },
+    {
+      "task": "Recommend materials for reliable performance in various environments.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
+    },
+    {
+      "task": "Devise testing methods to evaluate the effects of various conditions on particular materials.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.81
+    },
+    {
+      "task": "Inspect completed transportation projects to ensure safety or compliance with applicable standards or regulations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.7
+    },
+    {
+      "task": "Conduct studies of traffic patterns or environmental conditions to identify engineering problems and assess potential project impact.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.07
+    },
+    {
+      "task": "Test soils or materials to determine the adequacy and strength of foundations, concrete, asphalt, or steel.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.21
+    },
+    {
+      "task": "Prepare or present public reports on topics such as bid proposals, deeds, environmental impact statements, or property and right-of-way descriptions.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.5
+    },
+    {
+      "task": "Estimate quantities and cost of materials, equipment, or labor to determine project feasibility.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.55
+    },
+    {
+      "task": "Write research papers for publication in scientific journals.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.52
+    },
+    {
+      "task": "Prepare project budgets, schedules, or specifications for labor or materials.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.71
+    },
+    {
+      "task": "Teach in colleges and universities.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.57
+    },
+    {
+      "task": "Plan alteration or modification of existing transportation structures to improve safety or function.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.09
+    },
+    {
+      "task": "Participate in contract bidding, negotiation, or administration.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.38
+    },
+    {
+      "task": "Model transportation scenarios to evaluate the impacts of activities such as new development or to identify possible solutions to transportation problems.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.45
+    },
+    {
+      "task": "Investigate traffic problems and recommend methods to improve traffic flow or safety.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.91
+    },
+    {
+      "task": "Prepare final project layout drawings that include details such as stress calculations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.94
+    },
+    {
+      "task": "Develop or assist in the development of transportation-related computer software or computer processes.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.0
+    },
+    {
+      "task": "Evaluate transportation systems or traffic control devices or lighting systems to determine need for modification or expansion.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.65
+    },
+    {
+      "task": "Prepare administrative, technical, or statistical reports on traffic-operation matters, such as accidents, safety measures, or pedestrian volume or practices.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.1
+    },
+    {
+      "task": "Review development plans to determine potential traffic impact.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.68
+    },
+    {
+      "task": "Present data, maps, or other information at construction-related public hearings or meetings.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
+    },
+    {
+      "task": "Present technical information at conferences.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.37
+    },
+    {
+      "task": "Analyze product failure data and laboratory test results to determine causes of problems and develop solutions.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.3
+    },
+    {
+      "task": "Monitor material performance, and evaluate its deterioration.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.16
+    },
+    {
+      "task": "Design and direct the testing or control of processing procedures.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.2
+    },
+    {
+      "task": "Evaluate technical specifications and economic factors relating to process or product design objectives.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.1
+    },
+    {
+      "task": "Design processing plants and equipment.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.18
+    },
+    {
+      "task": "Solve problems in a number of engineering fields, such as mechanical, chemical, electrical, civil, nuclear, and aerospace.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.65
+    },
+    {
+      "task": "Plan and evaluate new projects, consulting with other engineers and corporate executives, as necessary.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.8
+    },
+    {
+      "task": "Determine appropriate methods for fabricating and joining materials.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.05
+    },
+    {
+      "task": "Conduct training sessions on new material products, applications, or manufacturing methods for customers and their employees.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.56
+    },
+    {
+      "task": "Write for technical magazines, journals, and trade association publications.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.16
     }
   ],
   "technology_skills": [
@@ -1822,11 +2358,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Computer Modelling Group CMG STARS",
+      "name": "Computer aided design and drafting CADD software",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Computer aided design and drafting CADD software",
+      "name": "Eclipse IDE",
       "weight": 0.16666666666666666
     },
     {
@@ -1834,11 +2370,47 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Linux",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Visual Studio",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.16666666666666666
     },
     {
+      "name": "MySQL",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "SAS",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Site mapping software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Software development tools",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Statistical software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "TERRASCIENCES TerraStation",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "TIBCO Spotfire",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "VMware",
       "weight": 0.16666666666666666
     },
     {
@@ -1847,6 +2419,14 @@
     },
     {
       "name": "Adobe Acrobat",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Apache Subversion SVN",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Bash",
       "weight": 0.1111111111111111
     },
     {
@@ -1882,7 +2462,23 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Cartography software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Citilabs Cube",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Cost estimating software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Cubic Synchro Studio",
       "weight": 0.1111111111111111
     },
     {
@@ -1898,11 +2494,23 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "ESRI ArcView",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "ESRI software",
       "weight": 0.1111111111111111
     },
     {
       "name": "Eagle Point LANDCADD",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Eagle Point Site Design",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Extensible markup language XML",
       "weight": 0.1111111111111111
     },
     {
@@ -1926,7 +2534,43 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Intergraph MGE",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "KYPipe",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "MAYA Nastran",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "MWH Soft InfoSWMM",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "MapInfo",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Maplesoft Maple",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Materials Data Incorporated Jade",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Mathsoft Mathcad",
       "weight": 0.1111111111111111
     },
     {
@@ -1942,7 +2586,39 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Microsoft ActiveX",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Mozilla Firefox",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "NIWA Tideda",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Olympus Image Analysis",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "PTV Vissim",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Procore software",
       "weight": 0.1111111111111111
     },
     {
@@ -1951,6 +2627,14 @@
     },
     {
       "name": "SIDRA INTERSECTION",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Shell script",
       "weight": 0.1111111111111111
     },
     {
@@ -1966,6 +2650,10 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "The Gordian Group PROGEN Online",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Trafficware SimTraffic",
       "weight": 0.1111111111111111
     },
@@ -1978,6 +2666,14 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Trimble SketchUp Pro",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Trimble Terramodel",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Visual Solutions VisSIM",
       "weight": 0.1111111111111111
     },
@@ -1987,6 +2683,18 @@
     },
     {
       "name": "Wallingford Software InfoWorks WS",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Warehouse management system WMS",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "WinTR-55",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Wolfram Research Mathematica",
       "weight": 0.1111111111111111
     },
     {
@@ -2003,6 +2711,30 @@
     },
     {
       "name": "Finite element analysis software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Fused deposition modeling FDM rapid prototyping systems",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Image analysis systems",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "MTS Testworks",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft Visual Basic.NET",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "QMC CM4D",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Stereolithography SLA rapid prototyping systems",
       "weight": 0.07142857142857142
     }
   ],
@@ -2040,11 +2772,71 @@
       "weight": 0.2222222222222222
     },
     {
+      "name": "Accelerometers",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Ball mills",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Fume hoods",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Hydraulic presses",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Impact testers",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Linear variable differential transformers LVDT",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Muffle furnaces",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Optical compound microscopes",
+      "weight": 0.18253968253968253
+    },
+    {
       "name": "Safety glasses",
       "weight": 0.18253968253968253
     },
     {
+      "name": "Scanning electron microscopes SEM",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Servohydraulic test machines",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Spectrophotometers",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Stereo microscopes",
+      "weight": 0.18253968253968253
+    },
+    {
+      "name": "Tube furnaces",
+      "weight": 0.18253968253968253
+    },
+    {
       "name": "Clinometers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Color plotting printers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Combustible gas detectors",
       "weight": 0.16666666666666666
     },
     {
@@ -2056,6 +2848,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Geological hammers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Handheld calculators",
       "weight": 0.16666666666666666
     },
@@ -2064,11 +2860,43 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Stratum compasses",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Universal serial bus USB flash drives",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Anemometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Annealing ovens",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Atomic absorption AA spectroscopes",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Blueprint copiers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Blungers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Box furnaces",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Charge-coupled device CCD cameras",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Compasses",
       "weight": 0.1111111111111111
     },
     {
@@ -2076,7 +2904,91 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Cone viscometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Creep testing equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digital oscilloscopes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Digitizers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Dividers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Drafting scales",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Drafting triangles",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Dynamic actuators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electronic distance measuring devices",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Erosion testers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Field emission scanning electron microscopes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Fourier transform infrared FTIR spectrometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Function generators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Grinding spindles",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "High-speed cutoff saws",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Horizontal tube furnaces",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hot mounting presses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Inductively coupled plasma mass spectrometers ICP-MS",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Industrial computed tomography CT scanners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ion analyzers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Laboratory analytical balances",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Laboratory water purification systems",
       "weight": 0.1111111111111111
     },
     {
@@ -2088,7 +3000,59 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Laser interferometers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Laser levels",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Load cells",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Macrohardness testers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Manual grinders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Metallographic microscopes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microfilm readers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microscope digital cameras",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Mobile radios",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Multisample autoclaves",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Nitrogen furnaces",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Optical profilometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Petrographic microscopes",
       "weight": 0.1111111111111111
     },
     {
@@ -2096,7 +3060,87 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Planimeters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pore sizers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Precision levels",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Profilometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Programmable logic controllers PLC",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Protractors",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pulverizers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Radar guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rolling scales",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rotational viscometers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Safety goggles",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Salt spray chambers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scratch testers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sedigraphs",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Semi-microbalances",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Semiautomatic grinders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Shaker ball mills",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Slurry abrasion testers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sonic modulus testers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Static actuators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Steel rules",
       "weight": 0.1111111111111111
     },
     {
@@ -2112,7 +3156,19 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Swaging tools",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Theodolites",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Thermal spray torches",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Thickness gauges",
       "weight": 0.1111111111111111
     },
     {
@@ -2120,11 +3176,91 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Traffic counters",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Transit levels",
       "weight": 0.1111111111111111
     },
     {
+      "name": "Two way radios",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "UV exposure chambers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ultrasonic analyzers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ultrasonic cleaners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Vibratory polishers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "X ray diffractometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "X ray generators",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Abrasion testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Accelerated weathering machines",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Adhesion testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Ammeters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Analytical balances",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Atomic absorption AA spectrophotometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Attritors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Band saws",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Benchtop centrifuges",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Binocular compound microscopes",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Cement mixers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Charpy impact testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Colorimeters",
       "weight": 0.07142857142857142
     },
     {
@@ -2145,14 +3281,6 @@
     },
     {
       "name": "Coordinate measuring machines CMM",
-      "weight": 0.07142857142857142
-    },
-    {
-      "name": "Counter-current mixers",
-      "weight": 0.07142857142857142
-    },
-    {
-      "name": "Current versus voltage IV curve tracers",
       "weight": 0.07142857142857142
     },
     {
@@ -2196,10 +3324,6 @@
       "weight": 0.07142857142857142
     },
     {
-      "name": "Electrostatic separators",
-      "weight": 0.07142857142857142
-    },
-    {
       "name": "Energy dispersive x-ray spectrometers EDS",
       "weight": 0.07142857142857142
     },
@@ -2225,10 +3349,6 @@
     },
     {
       "name": "Flame photometers",
-      "weight": 0.07142857142857142
-    },
-    {
-      "name": "Flotation columns",
       "weight": 0.07142857142857142
     },
     {
@@ -2284,10 +3404,6 @@
       "weight": 0.07142857142857142
     },
     {
-      "name": "High tension separators",
-      "weight": 0.07142857142857142
-    },
-    {
       "name": "High-vacuum tensile testing chambers",
       "weight": 0.07142857142857142
     },
@@ -2309,10 +3425,6 @@
     },
     {
       "name": "Infrared monitors",
-      "weight": 0.07142857142857142
-    },
-    {
-      "name": "Isodynamic separators",
       "weight": 0.07142857142857142
     },
     {
@@ -2400,10 +3512,6 @@
       "weight": 0.07142857142857142
     },
     {
-      "name": "Melt spinners",
-      "weight": 0.07142857142857142
-    },
-    {
       "name": "Micromanipulators",
       "weight": 0.07142857142857142
     },
@@ -2448,10 +3556,6 @@
       "weight": 0.07142857142857142
     },
     {
-      "name": "Plasma-arc furnaces",
-      "weight": 0.07142857142857142
-    },
-    {
       "name": "Polarizing microscopes",
       "weight": 0.07142857142857142
     },
@@ -2469,10 +3573,6 @@
     },
     {
       "name": "Reflectometers",
-      "weight": 0.07142857142857142
-    },
-    {
-      "name": "Rod mills",
       "weight": 0.07142857142857142
     },
     {

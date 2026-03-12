@@ -1545,55 +1545,81 @@
   "tasks": [
     {
       "task": "Explain company personnel policies, benefits, and procedures to employees or job applicants.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.03
     },
     {
       "task": "Inform job applicants of their acceptance or rejection of employment.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.89
     },
     {
-      "task": "Process, verify, and maintain personnel related documentation, including staffing, recruitment, training, grievances, evaluations, and leaves of absence.",
-      "task_type": "Core"
+      "task": "Process, verify, and maintain personnel related documentation, including staffing, recruitment, training, grievances, performance evaluations, classifications, and employee leaves of absence.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.1
     },
     {
-      "task": "Administer and score applicant and employee assessment instruments for aptitude, personality, and interests.",
-      "task_type": "Supplemental"
+      "task": "Administer and score applicant and employee aptitude, personality, and interest assessment instruments.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.54
     },
     {
-      "task": "Prepare badges, passes, and identification cards, and perform security-related duties.",
-      "task_type": "Supplemental"
+      "task": "Prepare badges, passes, and identification cards, and perform other security-related duties.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.38
     },
     {
-      "task": "Assist in administering employee benefit programs and worker's compensation plans.",
-      "task_type": "Core"
+      "task": "Provide assistance in administering employee benefit programs and worker's compensation plans.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.88
     },
     {
-      "task": "Arrange for advertising job vacancies and notify eligible workers of position availability.",
-      "task_type": "Supplemental"
+      "task": "Arrange for advertising or posting of job vacancies and notify eligible workers of position availability.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.75
     },
     {
-      "task": "Select applicants meeting specified job requirements and refer them to hiring personnel.",
-      "task_type": "Supplemental"
+      "task": "Arrange for in-house and external training activities.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.94
     },
     {
-      "task": "Compile and prepare reports and documents pertaining to personnel activities and record data for each employee, including addresses, earnings, and performance.",
-      "task_type": "Core"
+      "task": "Request information from law enforcement officials, previous employers, and other references to determine applicants' employment acceptability.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.74
     },
     {
-      "task": "Search employee files to obtain information for authorized persons and examine files to answer inquiries for personnel actions.",
-      "task_type": "Core"
+      "task": "Interview job applicants to obtain and verify information used to screen and evaluate them.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.05
     },
     {
-      "task": "Answer questions regarding examinations, eligibility, salaries, benefits, and other relevant information.",
-      "task_type": "Core"
+      "task": "Answer questions regarding examinations, eligibility, salaries, benefits, and other pertinent information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.78
     },
     {
-      "task": "Process and review employment applications to evaluate applicants' qualifications or eligibility.",
-      "task_type": "Supplemental"
+      "task": "Process and review employment applications to evaluate qualifications or eligibility of applicants.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.98
     },
     {
-      "task": "Prepare for new employee orientations.",
-      "task_type": "Core"
+      "task": "Prepare and set up for new employee orientations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.78
     }
   ],
   "technology_skills": [
@@ -1610,7 +1636,19 @@
       "weight": 0.25
     },
     {
+      "name": "Blackboard Learn",
+      "weight": 0.25
+    },
+    {
+      "name": "Blackboard Learning System",
+      "weight": 0.25
+    },
+    {
       "name": "Calendar and scheduling software",
+      "weight": 0.25
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
       "weight": 0.25
     },
     {
@@ -1638,6 +1676,10 @@
       "weight": 0.25
     },
     {
+      "name": "FileMaker Pro",
+      "weight": 0.25
+    },
+    {
       "name": "Google Calendar",
       "weight": 0.25
     },
@@ -1651,6 +1693,10 @@
     },
     {
       "name": "Human resource management software HRMS",
+      "weight": 0.25
+    },
+    {
+      "name": "Learning management system LMS",
       "weight": 0.25
     },
     {
@@ -1675,6 +1721,22 @@
     },
     {
       "name": "Microsoft Outlook",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Visio",
       "weight": 0.25
     },
     {
@@ -1710,6 +1772,10 @@
       "weight": 0.25
     },
     {
+      "name": "Scanning software",
+      "weight": 0.25
+    },
+    {
       "name": "Ultimate Software UltiPro Workplace",
       "weight": 0.25
     },
@@ -1719,10 +1785,6 @@
     },
     {
       "name": "Workscape HR Service Center",
-      "weight": 0.25
-    },
-    {
-      "name": "Microsoft PowerPoint",
       "weight": 0.25
     }
   ],

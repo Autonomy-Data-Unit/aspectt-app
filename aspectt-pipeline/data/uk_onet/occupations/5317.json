@@ -1544,44 +1544,388 @@
   ],
   "tasks": [
     {
-      "task": "Read and interpret blueprints or specifications to determine glass size, shape, type, installation procedures, and material requirements.",
-      "task_type": "Core"
+      "task": "Read and interpret blueprints or specifications to determine size, shape, color, type, or thickness of glass, location of framing, installation procedures, or staging or scaffolding materials required.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.37
     },
     {
       "task": "Assemble, erect, or dismantle scaffolds, rigging, or hoisting equipment.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.97
     },
     {
-      "task": "Determine plumb of walls or ceilings using plumb lines and levels.",
-      "task_type": "Core"
+      "task": "Determine plumb of walls or ceilings, using plumb lines and levels.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.29
     },
     {
-      "task": "Measure, cut, fit, and press anti-glare adhesive film to glass, or spray glass with tinting solution.",
-      "task_type": "Supplemental"
+      "task": "Create patterns on glass by etching, sandblasting, or painting designs.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.2
     },
     {
-      "task": "Prepare glass for cutting by resting it on racks, brushing oil along cutting lines, or dipping tools in oil.",
-      "task_type": "Core"
+      "task": "Measure, cut, fit, and press anti-glare adhesive film to glass or spray glass with tinting solution to prevent light glare.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.32
     },
     {
-      "task": "Cut and attach mounting strips, moldings, or gaskets to prepare for mirror installation.",
-      "task_type": "Core"
+      "task": "Assemble and cement sections of stained glass together.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.22
     },
     {
-      "task": "Cut, fit, install, repair, or replace glass or substitutes in building interiors or exteriors.",
-      "task_type": "Core"
+      "task": "Move furniture to clear work sites and cover floors or furnishings with drop cloths.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.23
     },
     {
-      "task": "Pack spaces between moldings and glass with glazing compounds and trim excess material.",
-      "task_type": "Core"
+      "task": "Select the type or color of glass or mirror according to specifications.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.84
     },
     {
-      "task": "Fasten glass panes into frames, adding weather seals or putty around edges.",
-      "task_type": "Core"
+      "task": "Operate cranes or hoists with suction cups to lift large, heavy pieces of glass.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.15
     },
     {
-      "task": "Verify quality of finished workpieces by inspecting dimensions and testing in machinery.",
-      "task_type": "Core"
+      "task": "Pack spaces between moldings and glass with glazing compounds and trim excess material with glazing knives.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.99
+    },
+    {
+      "task": "Prepare glass for cutting by resting it on rack edges or against cutting tables and brushing thin layer of oil along cutting lines or dipping cutting tools in oil.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.61
+    },
+    {
+      "task": "Grind or polish glass, smoothing edges when necessary.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.8
+    },
+    {
+      "task": "Load and arrange glass or mirrors onto delivery trucks, using suction cups or cranes to lift glass.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.06
+    },
+    {
+      "task": "Confer with customers to determine project requirements or to provide cost estimates.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.87
+    },
+    {
+      "task": "Cut and attach mounting strips, metal or wood moldings, rubber gaskets, or metal clips to surfaces in preparation for mirror installation.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.99
+    },
+    {
+      "task": "Cut and remove broken glass prior to installing replacement glass.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.94
+    },
+    {
+      "task": "Install pre-assembled metal or wood frameworks for windows or doors to be fitted with glass panels, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.23
+    },
+    {
+      "task": "Measure mirrors and dimensions of areas to be covered to determine work procedures.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.05
+    },
+    {
+      "task": "Fasten glass panes into wood sashes or frames with clips, points, or moldings, adding weather seals or putty around pane edges to seal joints.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.77
+    },
+    {
+      "task": "Cut, fit, install, repair, or replace glass or glass substitutes, such as plastic or aluminum, in building interiors or exteriors or in furniture or other products.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.1
+    },
+    {
+      "task": "Secure mirrors in position, using mastic cement, putty, bolts, or screws.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.94
+    },
+    {
+      "task": "Set glass doors into frames and bolt metal hinges, handles, locks, or other hardware to attach doors to frames and walls.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.15
+    },
+    {
+      "task": "Score glass with cutters' wheels, breaking off excess glass by hand or with notched tools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.77
+    },
+    {
+      "task": "Drive trucks to installation sites and unload mirrors, glass equipment, or tools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.09
+    },
+    {
+      "task": "Move controls to adjust, start, or stop equipment during grinding and polishing processes.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.22
+    },
+    {
+      "task": "Remove completed workpieces from equipment or work tables, using hand tools, and place workpieces in containers.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.19
+    },
+    {
+      "task": "Select files or other abrasives, according to materials, sizes and shapes of workpieces, amount of stock to be removed, finishes specified, and steps in finishing processes.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.03
+    },
+    {
+      "task": "Measure and mark equipment, objects, or parts to ensure grinding and polishing standards are met.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.46
+    },
+    {
+      "task": "Verify quality of finished workpieces by inspecting them, comparing them to templates, measuring their dimensions, or testing them in working machinery.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.62
+    },
+    {
+      "task": "Trim, scrape, or deburr objects or parts, using chisels, scrapers, and other hand tools and equipment.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.42
+    },
+    {
+      "task": "Sharpen abrasive grinding tools, using machines and hand tools.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.54
+    },
+    {
+      "task": "Load and adjust workpieces onto equipment or work tables, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.15
+    },
+    {
+      "task": "Transfer equipment, objects, or parts to specified work areas, using moving devices.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.43
+    },
+    {
+      "task": "Apply solutions and chemicals to equipment, objects, or parts, using hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.57
+    },
+    {
+      "task": "Repair and maintain equipment, objects, or parts, using hand tools.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.08
+    },
+    {
+      "task": "File grooved, contoured, and irregular surfaces of metal objects, such as metalworking dies and machine parts, to conform to templates, other parts, layouts, or blueprint specifications.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.69
+    },
+    {
+      "task": "Clean brass particles from files by drawing file cards through file grooves.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 1.55
+    },
+    {
+      "task": "Mark defects, such as knotholes, cracks, and splits, for repair.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.39
+    },
+    {
+      "task": "Adjust guides and stops to control depths and widths of cuts.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.89
+    },
+    {
+      "task": "Position templates or measure materials to locate specified points of cuts or to obtain maximum yields, using rules, scales, or patterns.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.3
+    },
+    {
+      "task": "Cut, shape, and trim materials, such as textiles, food, glass, stone, and metal, using knives, scissors, and other hand tools, portable power tools, or bench-mounted tools.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.33
+    },
+    {
+      "task": "Separate materials or products according to size, weight, type, condition, color, or shade.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.21
+    },
+    {
+      "task": "Mark identification numbers, trademarks, grades, marketing data, sizes, or model numbers on products.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.24
+    },
+    {
+      "task": "Count or weigh and bundle items.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.8
+    },
+    {
+      "task": "Unroll, lay out, attach, or mount materials or items on cutting tables or machines.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.22
+    },
+    {
+      "task": "Fold or shape materials before or after cutting them.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.17
+    },
+    {
+      "task": "Clean, treat, buff, or polish finished items, using grinders, brushes, chisels, and cleaning solutions and polishing materials.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.7
+    },
+    {
+      "task": "Route items to provide cutouts for parts, using portable routers, grinders, and hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.63
+    },
+    {
+      "task": "Replace or sharpen dulled cutting tools such as saws.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.88
+    },
+    {
+      "task": "Lower table-mounted cutters such as knife blades, cutting wheels, or saws to cut items to specified sizes.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.99
+    },
+    {
+      "task": "Transport items to work or storage areas, using carts.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.31
+    },
+    {
+      "task": "Maintain supplies of tools, equipment, and materials, and order additional supplies as needed.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.0
+    },
+    {
+      "task": "Verify dimensions of products, using measuring instruments, such as calipers, vernier gauges, or protractors.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.6
+    },
+    {
+      "task": "Measure ingredients and mix molding, casting material, or sealing compounds to prescribed consistencies, according to formulas.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.72
+    },
+    {
+      "task": "Measure and cut products to specified dimensions, using measuring and cutting instruments.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.76
+    },
+    {
+      "task": "Read work orders or examine parts to determine parts or sections of products to be produced.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.09
+    },
+    {
+      "task": "Record manufacturing information, such as quantities, sizes, or types of goods produced.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.2
+    },
+    {
+      "task": "Cut lengths of tubing to specified sizes, using files or cutting wheels.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.7
+    },
+    {
+      "task": "Load sandblasting equipment with abrasives, attach nozzles to hoses, and turn valves to admit compressed air and activate jets.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.63
+    },
+    {
+      "task": "Operate and maintain finishing machines to grind, drill, sand, bevel, decorate, wash, or polish glass or glass products.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.97
+    },
+    {
+      "task": "Remove or add stencils during blasting to create differing cut depths, intricate designs, or rough, pitted finishes.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 3.61
+    },
+    {
+      "task": "Determine types and quantities of glass required to fabricate products.",
+      "task_type": "Supplemental",
+      "relevance": 0.06666666666666667,
+      "importance": 4.23
+    },
+    {
+      "task": "Smooth surfaces of finished pieces, using rubber scrapers and wet sponges.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.26
+    },
+    {
+      "task": "Heat glass to pliable stage, using gas flames or ovens and rotating glass to heat it uniformly.",
+      "task_type": "Core",
+      "relevance": 0.06666666666666667,
+      "importance": 4.53
     }
   ],
   "technology_skills": [
@@ -1595,6 +1939,14 @@
     },
     {
       "name": "American Glazing Software AGS WindowPricer",
+      "weight": 0.5
+    },
+    {
+      "name": "BidMaster",
+      "weight": 0.5
+    },
+    {
+      "name": "D-CALC FACADE 4000",
       "weight": 0.5
     },
     {
@@ -1630,6 +1982,22 @@
       "weight": 0.06666666666666667
     },
     {
+      "name": "Computer aided manufacturing CAM software",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Corel Paint Shop Pro",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Dassault Systemes SolidWorks",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Mastercam computer-aided design and manufacturing software",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Word processing software",
       "weight": 0.06666666666666667
     }
@@ -1645,6 +2013,10 @@
     },
     {
       "name": "Combination squares",
+      "weight": 0.6333333333333333
+    },
+    {
+      "name": "Desktop computers",
       "weight": 0.6333333333333333
     },
     {
@@ -1708,6 +2080,18 @@
       "weight": 0.5666666666666667
     },
     {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.5
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.5
+    },
+    {
+      "name": "Allen wrenches",
+      "weight": 0.5
+    },
+    {
       "name": "Automatic cutting tables",
       "weight": 0.5
     },
@@ -1717,6 +2101,14 @@
     },
     {
       "name": "Automatic vertical edging machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Aviation snips",
+      "weight": 0.5
+    },
+    {
+      "name": "Bastard files",
       "weight": 0.5
     },
     {
@@ -1736,7 +2128,15 @@
       "weight": 0.5
     },
     {
+      "name": "Claw hammers",
+      "weight": 0.5
+    },
+    {
       "name": "Cordless drills",
+      "weight": 0.5
+    },
+    {
+      "name": "Countersinks",
       "weight": 0.5
     },
     {
@@ -1748,7 +2148,7 @@
       "weight": 0.5
     },
     {
-      "name": "Drum sanders",
+      "name": "Duck-billed locking pliers",
       "weight": 0.5
     },
     {
@@ -1757,6 +2157,10 @@
     },
     {
       "name": "Electric drills",
+      "weight": 0.5
+    },
+    {
+      "name": "Flat head screwdrivers",
       "weight": 0.5
     },
     {
@@ -1772,11 +2176,19 @@
       "weight": 0.5
     },
     {
+      "name": "Glass dollies",
+      "weight": 0.5
+    },
+    {
       "name": "Glass drilling machines",
       "weight": 0.5
     },
     {
       "name": "Glass edgers",
+      "weight": 0.5
+    },
+    {
+      "name": "Glass gloves",
       "weight": 0.5
     },
     {
@@ -1789,6 +2201,10 @@
     },
     {
       "name": "Glass pliers",
+      "weight": 0.5
+    },
+    {
+      "name": "Glass routers",
       "weight": 0.5
     },
     {
@@ -1840,7 +2256,15 @@
       "weight": 0.5
     },
     {
+      "name": "Leg protectors",
+      "weight": 0.5
+    },
+    {
       "name": "Levels",
+      "weight": 0.5
+    },
+    {
+      "name": "Lifelines",
       "weight": 0.5
     },
     {
@@ -1848,7 +2272,19 @@
       "weight": 0.5
     },
     {
+      "name": "Locking pliers",
+      "weight": 0.5
+    },
+    {
       "name": "Metal cutting shears",
+      "weight": 0.5
+    },
+    {
+      "name": "Milling machines",
+      "weight": 0.5
+    },
+    {
+      "name": "Nibblers",
       "weight": 0.5
     },
     {
@@ -1856,7 +2292,19 @@
       "weight": 0.5
     },
     {
+      "name": "Nut drivers",
+      "weight": 0.5
+    },
+    {
+      "name": "Open end wrenches",
+      "weight": 0.5
+    },
+    {
       "name": "Overhead cranes",
+      "weight": 0.5
+    },
+    {
+      "name": "Phillips head screwdrivers",
       "weight": 0.5
     },
     {
@@ -1869,6 +2317,10 @@
     },
     {
       "name": "Point drivers",
+      "weight": 0.5
+    },
+    {
+      "name": "Portable air routers",
       "weight": 0.5
     },
     {
@@ -1888,11 +2340,23 @@
       "weight": 0.5
     },
     {
+      "name": "Protective sleeves",
+      "weight": 0.5
+    },
+    {
+      "name": "Pry bars",
+      "weight": 0.5
+    },
+    {
       "name": "Putty knives",
       "weight": 0.5
     },
     {
       "name": "Radial arm saws",
+      "weight": 0.5
+    },
+    {
+      "name": "Ratchet sets",
       "weight": 0.5
     },
     {
@@ -1904,11 +2368,31 @@
       "weight": 0.5
     },
     {
+      "name": "Riveting tools",
+      "weight": 0.5
+    },
+    {
+      "name": "Robertson screwdrivers",
+      "weight": 0.5
+    },
+    {
+      "name": "Round files",
+      "weight": 0.5
+    },
+    {
+      "name": "Rubber mallets",
+      "weight": 0.5
+    },
+    {
       "name": "Rulers",
       "weight": 0.5
     },
     {
       "name": "Saber saws",
+      "weight": 0.5
+    },
+    {
+      "name": "Safety lanyards",
       "weight": 0.5
     },
     {
@@ -1920,11 +2404,55 @@
       "weight": 0.5
     },
     {
+      "name": "Screwdrivers",
+      "weight": 0.5
+    },
+    {
       "name": "Self-propelled elevated work platforms",
       "weight": 0.5
     },
     {
+      "name": "Shackles",
+      "weight": 0.5
+    },
+    {
+      "name": "Shin protectors",
+      "weight": 0.5
+    },
+    {
+      "name": "Side cutters",
+      "weight": 0.5
+    },
+    {
+      "name": "Single-cut mill saw files",
+      "weight": 0.5
+    },
+    {
+      "name": "Sliding bevels",
+      "weight": 0.5
+    },
+    {
+      "name": "Slings",
+      "weight": 0.5
+    },
+    {
+      "name": "Soldering equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Spatulas",
+      "weight": 0.5
+    },
+    {
       "name": "Spirit levels",
+      "weight": 0.5
+    },
+    {
+      "name": "Spot-welding equipment",
+      "weight": 0.5
+    },
+    {
+      "name": "Spreader beams",
       "weight": 0.5
     },
     {
@@ -1936,7 +2464,23 @@
       "weight": 0.5
     },
     {
+      "name": "Swing stages",
+      "weight": 0.5
+    },
+    {
       "name": "Table saws",
+      "weight": 0.5
+    },
+    {
+      "name": "Telescoping measuring rods",
+      "weight": 0.5
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.5
+    },
+    {
+      "name": "Triangles",
       "weight": 0.5
     },
     {
@@ -1948,12 +2492,28 @@
       "weight": 0.5
     },
     {
+      "name": "Water blasting equipment",
+      "weight": 0.5
+    },
+    {
       "name": "Wheel cutters",
+      "weight": 0.5
+    },
+    {
+      "name": "Wood chisels",
       "weight": 0.5
     },
     {
       "name": "Dial calipers",
       "weight": 0.26666666666666666
+    },
+    {
+      "name": "Digital micrometers",
+      "weight": 0.24444444444444444
+    },
+    {
+      "name": "Flat cold chisels",
+      "weight": 0.2111111111111111
     },
     {
       "name": "Air compressors",
@@ -1968,7 +2528,31 @@
       "weight": 0.2
     },
     {
+      "name": "Cleaning scrapers",
+      "weight": 0.17777777777777776
+    },
+    {
+      "name": "Computer terminals",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Holding clamps",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Personal computers",
+      "weight": 0.13333333333333333
+    },
+    {
       "name": "Precision files",
+      "weight": 0.13333333333333333
+    },
+    {
+      "name": "Protective respirators",
       "weight": 0.13333333333333333
     },
     {
@@ -1992,6 +2576,10 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "File cards",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Orbit polishers",
       "weight": 0.1111111111111111
     },
@@ -2008,11 +2596,59 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Precision file sets",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Profile meters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Straight grinders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Awl sets",
+      "weight": 0.1
+    },
+    {
+      "name": "Bolt cutters",
+      "weight": 0.1
+    },
+    {
+      "name": "Carpet cutters",
+      "weight": 0.1
+    },
+    {
+      "name": "Carpet knives",
+      "weight": 0.1
+    },
+    {
+      "name": "Carpet trimmers",
+      "weight": 0.1
+    },
+    {
+      "name": "Cordless cutters",
+      "weight": 0.1
+    },
+    {
+      "name": "Cordless tile saws",
+      "weight": 0.1
+    },
+    {
       "name": "Cut-off saws",
       "weight": 0.1
     },
     {
+      "name": "Foam rubber cutter",
+      "weight": 0.1
+    },
+    {
       "name": "Glass cutting tools",
+      "weight": 0.1
+    },
+    {
+      "name": "Hand planers",
       "weight": 0.1
     },
     {
@@ -2024,12 +2660,92 @@
       "weight": 0.1
     },
     {
+      "name": "Heavy duty shears",
+      "weight": 0.1
+    },
+    {
+      "name": "Jab saws",
+      "weight": 0.1
+    },
+    {
       "name": "Layout squares",
+      "weight": 0.1
+    },
+    {
+      "name": "Loop pile carpet cutters",
+      "weight": 0.1
+    },
+    {
+      "name": "Mini hacksaws",
+      "weight": 0.1
+    },
+    {
+      "name": "Multipurpose hammers",
       "weight": 0.1
     },
     {
       "name": "Razor knives",
       "weight": 0.1
+    },
+    {
+      "name": "Rotary cutters",
+      "weight": 0.1
+    },
+    {
+      "name": "Rules",
+      "weight": 0.1
+    },
+    {
+      "name": "Stone hammers",
+      "weight": 0.1
+    },
+    {
+      "name": "Tack strip cutters",
+      "weight": 0.1
+    },
+    {
+      "name": "Tin snips",
+      "weight": 0.1
+    },
+    {
+      "name": "Tubing cutters",
+      "weight": 0.1
+    },
+    {
+      "name": "Utility saws",
+      "weight": 0.1
+    },
+    {
+      "name": "Wire cleaning brushes",
+      "weight": 0.1
+    },
+    {
+      "name": "Wire duct cutting tools",
+      "weight": 0.1
+    },
+    {
+      "name": "Adjustable hand wrenches",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Air cleaners",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Annealing ovens",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Band saws",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Belt conveyors",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Blow torches",
+      "weight": 0.06666666666666667
     },
     {
       "name": "C clamps",
@@ -2048,6 +2764,18 @@
       "weight": 0.06666666666666667
     },
     {
+      "name": "Conveyor feeding systems",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Criss-cross chisels",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Cup chisels",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Cutting wheels",
       "weight": 0.06666666666666667
     },
@@ -2056,7 +2784,19 @@
       "weight": 0.06666666666666667
     },
     {
+      "name": "Design stencils",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Digital scales",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Drying oven units",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Drying ovens",
       "weight": 0.06666666666666667
     },
     {
@@ -2064,7 +2804,23 @@
       "weight": 0.06666666666666667
     },
     {
+      "name": "Engine lathes",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Flat chisels",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Glass knives",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Granite saws",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Grease guns",
       "weight": 0.06666666666666667
     },
     {
@@ -2088,7 +2844,15 @@
       "weight": 0.06666666666666667
     },
     {
+      "name": "Handheld sprayers",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Hole cutters",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Industrial platform scales",
       "weight": 0.06666666666666667
     },
     {
@@ -2100,7 +2864,39 @@
       "weight": 0.06666666666666667
     },
     {
+      "name": "Lapping wheels",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Layout compasses",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Layout templates",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Lump hammers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Mold trimming knives",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Pneumatic chisels",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Pneumatic hammers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Point chisels",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Polariscopes",
       "weight": 0.06666666666666667
     },
     {
@@ -2132,11 +2928,75 @@
       "weight": 0.06666666666666667
     },
     {
+      "name": "Protractors",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Rasps",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Rondel chisels",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Rubbing stones",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Shears",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Spot welders",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Spray booths",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Spring scales",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Stone saws",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Tap sets",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Texturing brushes",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Thickness gauges",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Tile cutters",
       "weight": 0.06666666666666667
     },
     {
+      "name": "Tooth chisels",
+      "weight": 0.06666666666666667
+    },
+    {
       "name": "Trimming knives",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Tweezers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Vacuum pumps",
       "weight": 0.06666666666666667
     },
     {
@@ -2145,6 +3005,10 @@
     },
     {
       "name": "Vernier calipers",
+      "weight": 0.06666666666666667
+    },
+    {
+      "name": "Vixen files",
       "weight": 0.06666666666666667
     }
   ],

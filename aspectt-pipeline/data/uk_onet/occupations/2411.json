@@ -1544,48 +1544,568 @@
   ],
   "tasks": [
     {
-      "task": "Prepare written opinions and decisions regarding cases.",
-      "task_type": "Core"
+      "task": "Prepare written opinions and decisions.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.65
     },
     {
-      "task": "Rule on admissibility of evidence and methods of conducting testimony in court proceedings.",
-      "task_type": "Core"
+      "task": "Instruct juries on applicable laws, direct juries to deduce the facts from the evidence presented, and hear their verdicts.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.65
     },
     {
-      "task": "Preside over hearings and listen to allegations to determine if evidence supports the charges.",
-      "task_type": "Core"
+      "task": "Rule on admissibility of evidence and methods of conducting testimony.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.59
     },
     {
-      "task": "Interpret laws, regulations, rulings, and rules of procedure for individuals and businesses.",
-      "task_type": "Core"
+      "task": "Preside over hearings and listen to allegations made by plaintiffs to determine whether the evidence supports the charges.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.59
     },
     {
-      "task": "Research legal issues, analyze laws, and write opinions to prepare for hearings and determine conclusions.",
-      "task_type": "Core"
+      "task": "Interpret and enforce rules of procedure or establish new rules in situations where there are no procedures already established by law.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.41
     },
     {
-      "task": "Meet with clients, attorneys, and other professionals to discuss case details and legal transactions.",
-      "task_type": "Core"
+      "task": "Advise attorneys, juries, litigants, and court personnel regarding conduct, issues, and proceedings.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.55
     },
     {
-      "task": "Monitor and direct trial activities to ensure fair conduct and administration of justice.",
-      "task_type": "Core"
+      "task": "Conduct preliminary hearings to decide issues, such as whether there is reasonable and probable cause to hold defendants in felony cases.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.56
     },
     {
-      "task": "Conduct preliminary hearings to decide issues, such as whether there is probable cause to hold defendants.",
-      "task_type": "Supplemental"
+      "task": "Award compensation for damages to litigants in civil cases in relation to findings by juries or by the court.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.56
     },
     {
-      "task": "Advise litigants, juries, attorneys, and court personnel regarding conduct and legal proceedings.",
-      "task_type": "Core"
+      "task": "Settle disputes between opposing attorneys.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.16
     },
     {
-      "task": "Authorize payment of valid claims and determine methods of payment in civil cases.",
-      "task_type": "Core"
+      "task": "Supervise other judges, court officers, and the court's administrative staff.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.73
+    },
+    {
+      "task": "Impose restrictions upon parties in civil cases until trials can be held.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.82
+    },
+    {
+      "task": "Rule on custody and access disputes, and enforce court orders regarding custody and support of children.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.74
+    },
+    {
+      "task": "Grant divorces and divide assets between spouses.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.44
+    },
+    {
+      "task": "Participate in judicial tribunals to help resolve disputes.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.34
+    },
+    {
+      "task": "Perform wedding ceremonies.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 2.39
+    },
+    {
+      "task": "Review and evaluate data on documents, such as claim applications, birth or death certificates, or physician or employer records.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.37
+    },
+    {
+      "task": "Research and analyze laws, regulations, policies, and precedent decisions to prepare for hearings and to determine conclusions.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.52
+    },
+    {
+      "task": "Confer with individuals or organizations involved in cases to obtain relevant information.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.95
+    },
+    {
+      "task": "Recommend the acceptance or rejection of claims or compromise settlements according to laws, regulations, policies, and precedent decisions.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.34
+    },
+    {
+      "task": "Explain to claimants how they can appeal rulings that go against them.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.22
+    },
+    {
+      "task": "Monitor and direct the activities of trials and hearings to ensure that they are conducted fairly and that courts administer justice while safeguarding the legal rights of all involved parties.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.67
+    },
+    {
+      "task": "Authorize payment of valid claims and determine method of payment.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.59
+    },
+    {
+      "task": "Conduct hearings to review and decide claims regarding issues, such as social program eligibility, environmental protection, or enforcement of health and safety regulations.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.59
+    },
+    {
+      "task": "Determine existence and amount of liability according to current laws, administrative and judicial precedents, and available evidence.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.68
+    },
+    {
+      "task": "Issue subpoenas and administer oaths in preparation for formal hearings.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.75
+    },
+    {
+      "task": "Conduct studies of appeals procedures in field agencies to ensure adherence to legal requirements and to facilitate determination of cases.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.61
+    },
+    {
+      "task": "Provide information regarding the judicial system or other legal issues through the media and public speeches.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 2.94
+    },
+    {
+      "task": "Sentence defendants in criminal cases, on conviction by jury, according to applicable government statutes.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.78
+    },
+    {
+      "task": "Schedule hearings.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.12
+    },
+    {
+      "task": "Issue arrest warrants.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.32
+    },
+    {
+      "task": "Specialize in the negotiation and resolution of environmental conflicts involving issues such as natural resource allocation or regional development planning.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.4
+    },
+    {
+      "task": "Participate in court proceedings.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.6
+    },
+    {
+      "task": "Conduct initial meetings with disputants to outline the arbitration process, settle procedural matters, such as fees, or determine details, such as witness numbers or time requirements.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.0
+    },
+    {
+      "task": "Conduct hearings to obtain information or evidence relative to disposition of claims.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.61
+    },
+    {
+      "task": "Interview claimants, agents, or witnesses to obtain information about disputed issues.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 3.67
+    },
+    {
+      "task": "Organize or deliver public presentations about mediation to organizations, such as community agencies or schools.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.73
+    },
+    {
+      "task": "Prepare settlement agreements for disputants to sign.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.36
+    },
+    {
+      "task": "Confer with disputants to clarify issues, identify underlying concerns, and develop an understanding of their respective needs and interests.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.37
+    },
+    {
+      "task": "Use mediation techniques to facilitate communication between disputants, to further parties' understanding of different perspectives, and to guide parties toward mutual agreement.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.22
+    },
+    {
+      "task": "Apply relevant laws, regulations, policies, or precedents to reach conclusions.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.63
+    },
+    {
+      "task": "Set up appointments for parties to meet for mediation.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.76
+    },
+    {
+      "task": "Gather evidence to formulate defense or to initiate legal actions by such means as interviewing clients and witnesses to ascertain the facts of a case.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.4
+    },
+    {
+      "task": "Evaluate findings and develop strategies and arguments in preparation for presentation of cases.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.31
+    },
+    {
+      "task": "Help develop central and devolved government programs, draft and interpret laws and legislation, and establish enforcement procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.48
+    },
+    {
+      "task": "Probate wills and represent and advise executors and administrators of estates.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.9
+    },
+    {
+      "task": "Act as agent, trustee, guardian, or executor for businesses or individuals.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.74
+    },
+    {
+      "task": "Perform administrative and management functions related to the practice of law.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.63
+    },
+    {
+      "task": "Supervise legal assistants.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.01
+    },
+    {
+      "task": "Search for and examine public and other legal records to write opinions or establish ownership.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.7
+    },
+    {
+      "task": "Confer with colleagues with specialties in appropriate areas of legal issue to establish and verify bases for legal proceedings.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.84
+    },
+    {
+      "task": "Negotiate settlements of civil disputes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.02
+    },
+    {
+      "task": "Prepare legal briefs and opinions, and file appeals in central and devolved government courts of appeal.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.86
+    },
+    {
+      "task": "Study Constitution, statutes, decisions, regulations, and ordinances of quasi-judicial bodies to determine ramifications for cases.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.04
+    },
+    {
+      "task": "Negotiate contractual agreements.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.94
+    },
+    {
+      "task": "Present evidence to defend clients or prosecute defendants in criminal or civil litigation.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.29
+    },
+    {
+      "task": "Analyze the probable outcomes of cases, using knowledge of legal precedents.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.41
+    },
+    {
+      "task": "Select jurors, argue motions, meet with judges, and question witnesses during the course of a trial.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.34
+    },
+    {
+      "task": "Examine legal data to determine advisability of defending or prosecuting lawsuit.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.21
+    },
+    {
+      "task": "Prepare, draft, and review legal documents, such as wills, deeds, patent applications, mortgages, leases, and contracts.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.18
+    },
+    {
+      "task": "Present and summarize cases to judges and juries.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 4.36
+    },
+    {
+      "task": "Represent clients in court or before government agencies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.34
+    },
+    {
+      "task": "Advise clients concerning business transactions, claim liability, advisability of prosecuting or defending lawsuits, or legal rights and obligations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.27
+    },
+    {
+      "task": "Interpret laws, rulings and regulations for individuals and businesses.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.54
+    },
+    {
+      "task": "Participate in conferences or discussions between trial attorneys and judges.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.83
+    },
+    {
+      "task": "Confer with judges concerning legal questions, construction of documents, or granting of orders.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.64
+    },
+    {
+      "task": "Keep abreast of changes in the law and inform judges when cases are affected by such changes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.13
+    },
+    {
+      "task": "Communicate with counsel regarding case management or procedural requirements.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.39
+    },
+    {
+      "task": "Prepare for trial by performing tasks such as organizing exhibits.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.97
+    },
+    {
+      "task": "Arbitrate disputes between parties and assist in the real estate closing process, such as by reviewing title searches.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.99
+    },
+    {
+      "task": "File pleadings with court clerks.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.89
+    },
+    {
+      "task": "Meet with clients and other professionals to discuss details of cases.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.93
+    },
+    {
+      "task": "Attend court sessions to hear oral arguments or record necessary case information.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.98
+    },
+    {
+      "task": "Prepare briefs, legal memoranda, or statements of issues involved in cases, including appropriate suggestions or recommendations.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.85
+    },
+    {
+      "task": "Provide assistance to the public, such as directions to court offices.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.97
+    },
+    {
+      "task": "Maintain court docket.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.09
+    },
+    {
+      "task": "Supervise law students, volunteers, or other personnel assigned to the court.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.63
+    },
+    {
+      "task": "Respond to questions from judicial officers or court staff on general legal issues.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.25
+    },
+    {
+      "task": "Prepare periodic reports on court proceedings, as required.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.74
+    },
+    {
+      "task": "Perform courtroom duties, including calling calendars, administering oaths, and swearing in jury panels and witnesses.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.22
+    },
+    {
+      "task": "Maintain judges' law libraries by assembling or updating appropriate documents.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.29
+    },
+    {
+      "task": "Enter information into computerized court calendar, filing, or case management systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.62
+    },
+    {
+      "task": "Coordinate judges' meeting and appointment schedules.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.14
+    },
+    {
+      "task": "Verify that all files, complaints, or other papers are available and in the proper order.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.52
+    },
+    {
+      "task": "Review dockets of pending litigation to ensure adequate progress.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.51
+    },
+    {
+      "task": "Review complaints, petitions, motions, or pleadings that have been filed to determine issues involved or basis for relief.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.64
+    },
+    {
+      "task": "Prepare affidavits or other documents, such as legal correspondence, and organize and maintain documents in paper or electronic filing system.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.38
+    },
+    {
+      "task": "Confer with establishment officials, security departments, police, or postal officials to identify problems, provide information, or receive instructions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.58
+    },
+    {
+      "task": "Enforce courtroom rules of behavior and warn persons not to smoke or disturb court procedure.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.39
+    },
+    {
+      "task": "Direct and coordinate law office activity, including delivery of subpoenas.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.33
+    },
+    {
+      "task": "Write reports or case summaries to document investigations.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.8
+    },
+    {
+      "task": "Summarize pertinent legal or insurance details, or sections of statutes or case law from reference books for use in examinations or as proofs or ready reference.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.37
+    },
+    {
+      "task": "Call upon witnesses to testify at hearings.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.99
+    },
+    {
+      "task": "Obtain maps or drawings delineating properties from company title plants, county surveyors, or assessors' offices.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.2
     },
     {
       "task": "Prepare, edit, or review legal documents, including legislation, briefs, pleadings, appeals, wills, contracts, and real estate closing statements.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.32
     }
   ],
   "technology_skills": [
@@ -1630,6 +2150,10 @@
       "weight": 2.45
     },
     {
+      "name": "Microsoft Access",
+      "weight": 2.25
+    },
+    {
       "name": "Email software",
       "weight": 2.2
     },
@@ -1650,19 +2174,91 @@
       "weight": 2.0
     },
     {
+      "name": "SAP software",
+      "weight": 1.75
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 1.3
+    },
+    {
+      "name": "Hyland OnBase Enterprise Content Management",
+      "weight": 1.0
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 1.0
     },
     {
       "name": "Microsoft SharePoint",
       "weight": 0.7
     },
     {
+      "name": "Salesforce software",
+      "weight": 0.6
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.55
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.5
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.5
+    },
+    {
       "name": "Scheduling software",
       "weight": 0.5
     },
     {
+      "name": "Orion Law Management Systems Orion",
+      "weight": 0.45
+    },
+    {
+      "name": "AbacusNext HotDocs",
+      "weight": 0.35
+    },
+    {
+      "name": "Advanced Technologies Class Act",
+      "weight": 0.35
+    },
+    {
+      "name": "Bridgeway eCounsel",
+      "weight": 0.35
+    },
+    {
+      "name": "Canyon Solutions Jcats",
+      "weight": 0.35
+    },
+    {
+      "name": "Compugov DocketView",
+      "weight": 0.35
+    },
+    {
+      "name": "Corporate Focus Solium Shareworks",
+      "weight": 0.35
+    },
+    {
       "name": "Fastcase legal software",
+      "weight": 0.35
+    },
+    {
+      "name": "Iron Mountain Accutrac records management software",
+      "weight": 0.35
+    },
+    {
+      "name": "Justice Systems FullCourt Enterprise",
+      "weight": 0.35
+    },
+    {
+      "name": "Legal Files software",
+      "weight": 0.35
+    },
+    {
+      "name": "Levare Center Court",
       "weight": 0.35
     },
     {
@@ -1670,15 +2266,715 @@
       "weight": 0.35
     },
     {
+      "name": "Microsoft Project",
+      "weight": 0.35
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.35
+    },
+    {
+      "name": "Microsoft SharePoint Server",
+      "weight": 0.35
+    },
+    {
+      "name": "NetDocuments",
+      "weight": 0.35
+    },
+    {
+      "name": "Saga Practice Manager",
+      "weight": 0.35
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.35
+    },
+    {
+      "name": "Thomson Reuters Elite ProLaw",
+      "weight": 0.35
+    },
+    {
+      "name": "ADC Legal Systems Perfect Practice",
+      "weight": 0.25
+    },
+    {
+      "name": "ADERANT Expert Matter Center",
+      "weight": 0.25
+    },
+    {
+      "name": "Abacus Data Systems AbacusLaw",
+      "weight": 0.25
+    },
+    {
+      "name": "AdvantageLaw WinVantage",
+      "weight": 0.25
+    },
+    {
+      "name": "Anacomp CaseLogistix",
+      "weight": 0.25
+    },
+    {
+      "name": "Argosy Legal Systems Power Closer",
+      "weight": 0.25
+    },
+    {
+      "name": "BQE Software BillQuick",
+      "weight": 0.25
+    },
+    {
+      "name": "Best Case Solutions Best Case Bankruptcy",
+      "weight": 0.25
+    },
+    {
+      "name": "CT Summation iBlaze",
+      "weight": 0.25
+    },
+    {
+      "name": "CT hCue",
+      "weight": 0.25
+    },
+    {
+      "name": "Captaris Alchemy",
+      "weight": 0.25
+    },
+    {
+      "name": "Catalyst Repository Systems CatalystCR",
+      "weight": 0.25
+    },
+    {
+      "name": "Catalyst Repository Systems CatalystDR",
+      "weight": 0.25
+    },
+    {
+      "name": "Catalyst Repository Systems CatalystXE",
+      "weight": 0.25
+    },
+    {
+      "name": "Chesapeake Interlink Needles",
+      "weight": 0.25
+    },
+    {
+      "name": "Client Profiles Case Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Cobblestone Systems Contract Insight",
+      "weight": 0.25
+    },
+    {
+      "name": "CompuLaw Vision",
+      "weight": 0.25
+    },
+    {
+      "name": "Computer Sciences Corporation Legal Solutions Suite",
+      "weight": 0.25
+    },
+    {
+      "name": "Constellation Justice Systems CourtView",
+      "weight": 0.25
+    },
+    {
+      "name": "Convex FactLogic",
+      "weight": 0.25
+    },
+    {
+      "name": "Corporatek EnAct Platinum",
+      "weight": 0.25
+    },
+    {
+      "name": "Creative Data Solutions DuProcess",
+      "weight": 0.25
+    },
+    {
+      "name": "CrimeCog Technologies E*Justice",
+      "weight": 0.25
+    },
+    {
+      "name": "Crocodile Consulting Traffic Control",
+      "weight": 0.25
+    },
+    {
+      "name": "Customer Expressions i-Sight",
+      "weight": 0.25
+    },
+    {
+      "name": "DATAssimilate Systems DATAssimilator",
+      "weight": 0.25
+    },
+    {
+      "name": "DPS Software General Litigation",
+      "weight": 0.25
+    },
+    {
+      "name": "De Novo Systems De Novo CaseMgr",
+      "weight": 0.25
+    },
+    {
+      "name": "Diarymaster",
+      "weight": 0.25
+    },
+    {
+      "name": "Direct Hit Systems THREADS",
+      "weight": 0.25
+    },
+    {
+      "name": "ERP software",
+      "weight": 0.25
+    },
+    {
+      "name": "ESI Software ESILAW",
+      "weight": 0.25
+    },
+    {
+      "name": "Eclipse Legal Systems Proclaim",
+      "weight": 0.25
+    },
+    {
+      "name": "Economic Analysis Group EAG CaseTrack",
+      "weight": 0.25
+    },
+    {
+      "name": "Equative TimeLedger",
+      "weight": 0.25
+    },
+    {
+      "name": "FTI Ringtail Legal",
+      "weight": 0.25
+    },
+    {
+      "name": "Fund accounting software",
+      "weight": 0.25
+    },
+    {
+      "name": "Gavel & Gown Software Amicus Attorney",
+      "weight": 0.25
+    },
+    {
+      "name": "Genlex CaseAce",
+      "weight": 0.25
+    },
+    {
+      "name": "Google Analytics",
+      "weight": 0.25
+    },
+    {
+      "name": "HiPerSoft Practice Information Powertool",
+      "weight": 0.25
+    },
+    {
+      "name": "I-many Contract Management",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Federated Records Management",
+      "weight": 0.25
+    },
+    {
+      "name": "IDEA TrialPro",
+      "weight": 0.25
+    },
+    {
+      "name": "Immigrant Software Immigrant Professional",
+      "weight": 0.25
+    },
+    {
+      "name": "Interwoven RecordsManager",
+      "weight": 0.25
+    },
+    {
+      "name": "Juris",
+      "weight": 0.25
+    },
+    {
+      "name": "LT Online Corporation LAWTRAC",
+      "weight": 0.25
+    },
+    {
+      "name": "LawLogix Edge",
+      "weight": 0.25
+    },
+    {
+      "name": "Lawex TrialWorks",
+      "weight": 0.25
+    },
+    {
+      "name": "LegalEdge Law Firm Suite",
+      "weight": 0.25
+    },
+    {
+      "name": "LexisNexis Lexis Back Office",
+      "weight": 0.25
+    },
+    {
+      "name": "LexisNexis Lexis Front Office",
+      "weight": 0.25
+    },
+    {
+      "name": "LexisNexis PCLaw",
+      "weight": 0.25
+    },
+    {
+      "name": "LexisNexis Shepard's Citations Service",
+      "weight": 0.25
+    },
+    {
       "name": "LogMeIn GoToMeeting",
       "weight": 0.25
+    },
+    {
+      "name": "Lucid IQ CMP",
+      "weight": 0.25
+    },
+    {
+      "name": "MicroFocus GroupWise",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.25
+    },
+    {
+      "name": "Nolo Quicken Legal Business Pro",
+      "weight": 0.25
+    },
+    {
+      "name": "Nuance PaperPort Professional",
+      "weight": 0.25
+    },
+    {
+      "name": "OpenText eDOCS DM",
+      "weight": 0.25
+    },
+    {
+      "name": "PerfectLaw All-in-One Suite",
+      "weight": 0.25
+    },
+    {
+      "name": "Practice Technology Prevail",
+      "weight": 0.25
+    },
+    {
+      "name": "ProCAT Denoto",
+      "weight": 0.25
+    },
+    {
+      "name": "ProDoc",
+      "weight": 0.25
+    },
+    {
+      "name": "SMEsource BillingOrchard",
+      "weight": 0.25
+    },
+    {
+      "name": "SUSTAIN Justice Edition",
+      "weight": 0.25
+    },
+    {
+      "name": "Sage Timeslips",
+      "weight": 0.25
+    },
+    {
+      "name": "Selectica Contract Performance Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Software Technology Tabs3",
+      "weight": 0.25
+    },
+    {
+      "name": "Solution Specialties TRACKER",
+      "weight": 0.25
+    },
+    {
+      "name": "Synaptec LawBase Case Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Synergy International Systems Synergy CaseTrack",
+      "weight": 0.25
+    },
+    {
+      "name": "Tabs3 PracticeMaster",
+      "weight": 0.25
+    },
+    {
+      "name": "Technovation Software ImmigrationPro",
+      "weight": 0.25
+    },
+    {
+      "name": "Thomson West Cowles Estate Practice System",
+      "weight": 0.25
+    },
+    {
+      "name": "TimePro Legal Software TimePro",
+      "weight": 0.25
+    },
+    {
+      "name": "TimeSolv Legal",
+      "weight": 0.25
+    },
+    {
+      "name": "TopDogLegal",
+      "weight": 0.25
+    },
+    {
+      "name": "Upside Software UpsideContract",
+      "weight": 0.25
+    },
+    {
+      "name": "Verdict Systems Sanction",
+      "weight": 0.25
+    },
+    {
+      "name": "Virtual Case Management",
+      "weight": 0.25
+    },
+    {
+      "name": "Visionary Legal Technologies Visionary Professional",
+      "weight": 0.25
+    },
+    {
+      "name": "WealthCounsel WealthDocs",
+      "weight": 0.25
+    },
+    {
+      "name": "WebEx WebOffice",
+      "weight": 0.25
+    },
+    {
+      "name": "Woll2Woll InfoPower Studio",
+      "weight": 0.25
+    },
+    {
+      "name": "Wolters Kluwer Loislaw",
+      "weight": 0.25
+    },
+    {
+      "name": "World Software Corporation Worldox",
+      "weight": 0.25
+    },
+    {
+      "name": "WorthMORE Software CaseWORTH",
+      "weight": 0.25
+    },
+    {
+      "name": "eLawSoftware",
+      "weight": 0.25
+    },
+    {
+      "name": "inData TrialDirector",
+      "weight": 0.25
+    },
+    {
+      "name": "Google Workspace software",
+      "weight": 0.2
+    },
+    {
+      "name": "LexisNexis CourtLink Strategic Profiles",
+      "weight": 0.2
+    },
+    {
+      "name": "LexisNexis SmartLinx",
+      "weight": 0.2
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.2
+    },
+    {
+      "name": "Accounting software",
+      "weight": 0.1
+    },
+    {
+      "name": "Aderant CompuLaw",
+      "weight": 0.1
+    },
+    {
+      "name": "Appligent Citation FDFMerge",
+      "weight": 0.1
+    },
+    {
+      "name": "Blumbeg Drafting Libraries",
+      "weight": 0.1
+    },
+    {
+      "name": "Bowne JFS Litigator's Notebook",
+      "weight": 0.1
+    },
+    {
+      "name": "Case analysis software",
+      "weight": 0.1
+    },
+    {
+      "name": "Case management system software",
+      "weight": 0.1
+    },
+    {
+      "name": "CaseSoft DepPrep",
+      "weight": 0.1
+    },
+    {
+      "name": "CaseSoft TextMap",
+      "weight": 0.1
+    },
+    {
+      "name": "CaseSoft TimeMap",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer access catalog software",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer imaging software",
+      "weight": 0.1
+    },
+    {
+      "name": "Contact management software",
+      "weight": 0.1
     },
     {
       "name": "Court docket management software",
       "weight": 0.1
     },
     {
+      "name": "Customer relationship management CRM software",
+      "weight": 0.1
+    },
+    {
+      "name": "Database software",
+      "weight": 0.1
+    },
+    {
+      "name": "Dataflight Opticon",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital contract software",
+      "weight": 0.1
+    },
+    {
+      "name": "Document management system software",
+      "weight": 0.1
+    },
+    {
+      "name": "Dropbox",
+      "weight": 0.1
+    },
+    {
+      "name": "Electronic discovery software",
+      "weight": 0.1
+    },
+    {
+      "name": "Electronic transcription management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.1
+    },
+    {
+      "name": "File management software",
+      "weight": 0.1
+    },
+    {
+      "name": "FindForms",
+      "weight": 0.1
+    },
+    {
+      "name": "Fund Software ATIDS",
+      "weight": 0.1
+    },
+    {
+      "name": "GATORS ANYWHERE",
+      "weight": 0.1
+    },
+    {
+      "name": "Geographic information system GIS databases",
+      "weight": 0.1
+    },
+    {
+      "name": "Google Docs",
+      "weight": 0.1
+    },
+    {
+      "name": "Google Drive",
+      "weight": 0.1
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.1
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.1
+    },
+    {
+      "name": "Infocom JACS",
+      "weight": 0.1
+    },
+    {
+      "name": "Inmagic DB/TextWorks",
+      "weight": 0.1
+    },
+    {
+      "name": "IntelliPDF CURVES",
+      "weight": 0.1
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.1
+    },
+    {
+      "name": "LawManager",
+      "weight": 0.1
+    },
+    {
+      "name": "Legal document software",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Applied Discovery",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis CheckCite",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis CodeMaster",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Company Analyzer",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Concordance",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis File and Serve",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Lexis Advance",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Time Matters",
+      "weight": 0.1
+    },
+    {
+      "name": "LexisNexis Total Search",
+      "weight": 0.1
+    },
+    {
       "name": "Litigation support software",
+      "weight": 0.1
+    },
+    {
+      "name": "MicroStrategy",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.1
+    },
+    {
+      "name": "New Dawn Technologies JustWare Court",
+      "weight": 0.1
+    },
+    {
+      "name": "Nuance Power PDF",
+      "weight": 0.1
+    },
+    {
+      "name": "OmniRIM Records Management Suite",
+      "weight": 0.1
+    },
+    {
+      "name": "Online database search and retrieval software",
+      "weight": 0.1
+    },
+    {
+      "name": "Online public records search software",
+      "weight": 0.1
+    },
+    {
+      "name": "Online title search and property report software",
+      "weight": 0.1
+    },
+    {
+      "name": "Optical character recognition OCR software",
+      "weight": 0.1
+    },
+    {
+      "name": "Ovid SilverPlatter WebSPIRS",
+      "weight": 0.1
+    },
+    {
+      "name": "PDF Snake Easy Bates",
+      "weight": 0.1
+    },
+    {
+      "name": "PTS Solutions WinJuris Court Solutions",
+      "weight": 0.1
+    },
+    {
+      "name": "Practice management software PMS",
+      "weight": 0.1
+    },
+    {
+      "name": "ProForce Paralegal Pro-Pack",
+      "weight": 0.1
+    },
+    {
+      "name": "RamQuest Total Solution",
+      "weight": 0.1
+    },
+    {
+      "name": "Records management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Relational database software",
+      "weight": 0.1
+    },
+    {
+      "name": "Relativity e-Discovery",
+      "weight": 0.1
+    },
+    {
+      "name": "Software Technology PracticeMaster",
+      "weight": 0.1
+    },
+    {
+      "name": "Spreadsheet software",
+      "weight": 0.1
+    },
+    {
+      "name": "Statistics software",
+      "weight": 0.1
+    },
+    {
+      "name": "Summation Blaze",
+      "weight": 0.1
+    },
+    {
+      "name": "Sure Will Writer",
+      "weight": 0.1
+    },
+    {
+      "name": "Syscon Court Clerk",
+      "weight": 0.1
+    },
+    {
+      "name": "The Sackett Group MacPac for Legal",
+      "weight": 0.1
+    },
+    {
+      "name": "Thomson CompuMark SAEGIS",
       "weight": 0.1
     },
     {
@@ -1690,8 +2986,60 @@
       "weight": 0.1
     },
     {
+      "name": "Thomson Reuters WestlawNext",
+      "weight": 0.1
+    },
+    {
+      "name": "Thomson West FindLaw",
+      "weight": 0.1
+    },
+    {
+      "name": "Thomson West ProLaw",
+      "weight": 0.1
+    },
+    {
+      "name": "TrialWorks",
+      "weight": 0.1
+    },
+    {
+      "name": "Tumbleweed SecureTransport",
+      "weight": 0.1
+    },
+    {
+      "name": "Uniscribe",
+      "weight": 0.1
+    },
+    {
+      "name": "WordPerfect",
+      "weight": 0.1
+    },
+    {
       "name": "Zoom",
       "weight": 0.1
+    },
+    {
+      "name": "Zylab ZyImage",
+      "weight": 0.1
+    },
+    {
+      "name": "dtSearch",
+      "weight": 0.1
+    },
+    {
+      "name": "iManage document management software",
+      "weight": 0.1
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Microsoft Paint",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "iView Systems",
+      "weight": 0.07692307692307693
     }
   ],
   "tools_used": [
@@ -1740,10 +3088,6 @@
       "weight": 2.0
     },
     {
-      "name": "Gavels",
-      "weight": 2.0
-    },
-    {
       "name": "Videoconferencing equipment",
       "weight": 2.0
     },
@@ -1764,7 +3108,15 @@
       "weight": 0.5769230769230769
     },
     {
+      "name": "Compact disk CD recorders",
+      "weight": 0.25
+    },
+    {
       "name": "Digital photocopiers",
+      "weight": 0.25
+    },
+    {
+      "name": "Digital video disk DVD recorders",
       "weight": 0.25
     },
     {
@@ -1788,11 +3140,39 @@
       "weight": 0.25
     },
     {
+      "name": "Digital still cameras",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Digital video recording equipment",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "10-key calculators",
+      "weight": 0.1
+    },
+    {
+      "name": "35 millimeter cameras",
+      "weight": 0.1
+    },
+    {
+      "name": "Compact digital cameras",
+      "weight": 0.1
+    },
+    {
       "name": "Computer inkjet printers",
       "weight": 0.1
     },
     {
       "name": "Digital recording equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital video cameras",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital video disk DVD players",
       "weight": 0.1
     },
     {
@@ -1812,12 +3192,40 @@
       "weight": 0.1
     },
     {
+      "name": "Overhead data projectors",
+      "weight": 0.1
+    },
+    {
+      "name": "Passenger cars",
+      "weight": 0.1
+    },
+    {
       "name": "Photocopiers",
       "weight": 0.1
     },
     {
       "name": "Scanners",
       "weight": 0.1
+    },
+    {
+      "name": "Video surveillance systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Closed circuit television CCTV surveillance systems",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Remotely controlled cameras",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Surveillance cameras",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Video cassette recording equipment",
+      "weight": 0.07692307692307693
     }
   ],
   "detailed_work_activities": [

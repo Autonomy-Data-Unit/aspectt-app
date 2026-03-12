@@ -1544,8 +1544,232 @@
   ],
   "tasks": [
     {
-      "task": "Publish educational information for pharmacists, doctors, or patients.",
-      "task_type": "Supplemental"
+      "task": "Publish educational information for other pharmacists, doctors, or patients.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 2.8
+    },
+    {
+      "task": "Provide specialized services to help patients manage conditions, such as diabetes, asthma, smoking cessation, or high blood pressure.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.69
+    },
+    {
+      "task": "Assess the identity, strength, or purity of medications.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.71
+    },
+    {
+      "task": "Work in hospitals or clinics or for Health Management Organizations (HMOs), dispensing prescriptions, serving as a medical team consultant, or specializing in specific drug therapy areas, such as oncology or nuclear pharmacotherapy.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 4.01
+    },
+    {
+      "task": "Manage pharmacy operations, hiring or supervising staff, performing administrative duties, or buying or selling non-pharmaceutical merchandise.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.86
+    },
+    {
+      "task": "Plan, implement, or maintain procedures for mixing, packaging, or labeling pharmaceuticals, according to policy and legal requirements, to ensure quality, security, and proper disposal.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.21
+    },
+    {
+      "task": "Prepare sterile solutions or infusions for use in surgical procedures, emergency rooms, or patients' homes.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.84
+    },
+    {
+      "task": "Refer patients to other health professionals or agencies when appropriate.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.43
+    },
+    {
+      "task": "Compound and dispense medications as prescribed by doctors and dentists, by calculating, weighing, measuring, and mixing ingredients, or oversee these activities.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.14
+    },
+    {
+      "task": "Collaborate with other health care professionals to plan, monitor, review, or evaluate the quality or effectiveness of drugs or drug regimens, providing advice on drug applications or characteristics.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.25
+    },
+    {
+      "task": "Advise customers on the selection of medication brands, medical equipment, or healthcare supplies.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.98
+    },
+    {
+      "task": "Maintain records, such as pharmacy files, patient profiles, charge system files, inventories, control records for radioactive nuclei, or registries of poisons, narcotics, or controlled drugs.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.36
+    },
+    {
+      "task": "Order and purchase pharmaceutical supplies, medical supplies, or drugs, maintaining stock and storing and handling it properly.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.2
+    },
+    {
+      "task": "Analyze prescribing trends to monitor patient compliance and to prevent excessive usage or harmful interactions.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.43
+    },
+    {
+      "task": "Provide information and advice regarding drug interactions, side effects, dosage, and proper medication storage.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.68
+    },
+    {
+      "task": "Review prescriptions to assure accuracy, to ascertain the needed ingredients, and to evaluate their suitability.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.9
+    },
+    {
+      "task": "Offer health promotion or prevention activities, such as training people to use blood pressure devices or diabetes monitors.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.72
+    },
+    {
+      "task": "Contact insurance companies to resolve billing issues.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 4.06
+    },
+    {
+      "task": "Update or troubleshoot pharmacy information databases.",
+      "task_type": "Supplemental",
+      "relevance": 1.0,
+      "importance": 3.96
+    },
+    {
+      "task": "Teach pharmacy students serving as interns in preparation for their graduation or licensure.",
+      "task_type": "Core",
+      "relevance": 1.0,
+      "importance": 3.75
+    },
+    {
+      "task": "Maintain laboratory instruments to ensure proper working order and troubleshoot malfunctions when needed.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.91
+    },
+    {
+      "task": "Conduct quality control tests.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.93
+    },
+    {
+      "task": "Evaluate laboratory safety procedures to ensure compliance with standards or to make improvements as needed.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.67
+    },
+    {
+      "task": "Purchase laboratory supplies, such as chemicals, when supplies are low or near their expiration date.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.43
+    },
+    {
+      "task": "Analyze organic or inorganic compounds to determine chemical or physical properties, composition, structure, relationships, or reactions, using chromatography, spectroscopy, or spectrophotometry techniques.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.07
+    },
+    {
+      "task": "Develop, improve, or customize products, equipment, formulas, processes, or analytical methods.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.19
+    },
+    {
+      "task": "Compile and analyze test information to determine process or equipment operating efficiency or to diagnose malfunctions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.85
+    },
+    {
+      "task": "Confer with scientists or engineers to conduct analyses of research projects, interpret test results, or develop nonstandard tests.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.8
+    },
+    {
+      "task": "Direct, coordinate, or advise personnel in test procedures for analyzing components or physical properties of materials.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.61
+    },
+    {
+      "task": "Induce changes in composition of substances by introducing heat, light, energy, or chemical catalysts for quantitative or qualitative analysis.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.97
+    },
+    {
+      "task": "Write technical papers or reports or prepare standards and specifications for processes, facilities, products, or tests.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.92
+    },
+    {
+      "task": "Prepare test solutions, compounds, or reagents for laboratory personnel to conduct tests.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.91
+    },
+    {
+      "task": "Plan laboratory experiments to confirm feasibility of processes and techniques used in the production of materials with special characteristics.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.1
+    },
+    {
+      "task": "Supervise and monitor production processes to ensure efficient use of equipment, timely changes to specifications, and project completion within time frame and budget.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
+    },
+    {
+      "task": "Teach in colleges and universities.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.57
+    },
+    {
+      "task": "Confer with customers to determine how to tailor materials to their needs.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.74
+    },
+    {
+      "task": "Visit suppliers of materials or users of products to gather specific information.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.55
+    },
+    {
+      "task": "Write research papers for publication in scientific journals.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.52
     }
   ],
   "technology_skills": [
@@ -1578,7 +1802,27 @@
       "weight": 1.0
     },
     {
+      "name": "Epic Systems",
+      "weight": 1.0
+    },
+    {
+      "name": "Freedom MedTEACH",
+      "weight": 1.0
+    },
+    {
+      "name": "Healthprolink MedAtlas",
+      "weight": 1.0
+    },
+    {
+      "name": "Insurance claim processing software",
+      "weight": 1.0
+    },
+    {
       "name": "Label-making software",
+      "weight": 1.0
+    },
+    {
+      "name": "MEDITECH software",
       "weight": 1.0
     },
     {
@@ -1594,12 +1838,40 @@
       "weight": 1.0
     },
     {
+      "name": "Pyxis MedStation software",
+      "weight": 1.0
+    },
+    {
       "name": "Recordkeeping software",
+      "weight": 1.0
+    },
+    {
+      "name": "RxKinetics UD Labels for Windows",
       "weight": 1.0
     },
     {
       "name": "Spreadsheet software",
       "weight": 1.0
+    },
+    {
+      "name": "TPNassist",
+      "weight": 1.0
+    },
+    {
+      "name": "TTP LabTech comPOUND",
+      "weight": 1.0
+    },
+    {
+      "name": "eClinicalWorks EHR software",
+      "weight": 1.0
+    },
+    {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "R",
+      "weight": 0.4444444444444444
     },
     {
       "name": "Apple iWork",
@@ -1618,11 +1890,67 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "C",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "C++",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Conversion tools software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Digital imaging software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Internet browser software",
       "weight": 0.3333333333333333
     },
     {
+      "name": "ItemTracker",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "JDA Arthur KnowledgeBase database",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Logger software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "MSI Insight/Discover",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Microsoft Access",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Modeling software",
       "weight": 0.3333333333333333
     },
     {
@@ -1634,7 +1962,47 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Oracle Java",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "SAS JMP",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Statistical software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Structured query language SQL",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Email software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Maplesoft Maple",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Python",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Wolfram Research Mathematica",
       "weight": 0.1111111111111111
     }
   ],
@@ -1649,6 +2017,10 @@
     },
     {
       "name": "Ampoule filling machines",
+      "weight": 1.0
+    },
+    {
+      "name": "Area survey meters",
       "weight": 1.0
     },
     {
@@ -1676,7 +2048,15 @@
       "weight": 1.0
     },
     {
+      "name": "Geiger-Muller counters",
+      "weight": 1.0
+    },
+    {
       "name": "Glucometers",
+      "weight": 1.0
+    },
+    {
+      "name": "Hemacytometers",
       "weight": 1.0
     },
     {
@@ -1684,11 +2064,27 @@
       "weight": 1.0
     },
     {
+      "name": "Hospital beds",
+      "weight": 1.0
+    },
+    {
       "name": "Intravenous IV therapy equipment",
       "weight": 1.0
     },
     {
+      "name": "Label-making machines",
+      "weight": 1.0
+    },
+    {
       "name": "Laminar flow hoods",
+      "weight": 1.0
+    },
+    {
+      "name": "Lead shielded drawing stations",
+      "weight": 1.0
+    },
+    {
+      "name": "Lead transport shields",
       "weight": 1.0
     },
     {
@@ -1712,7 +2108,15 @@
       "weight": 1.0
     },
     {
+      "name": "Multiple channel well scintillation counters",
+      "weight": 1.0
+    },
+    {
       "name": "Needles",
+      "weight": 1.0
+    },
+    {
+      "name": "Ostomy products",
       "weight": 1.0
     },
     {
@@ -1721,6 +2125,26 @@
     },
     {
       "name": "Pestles",
+      "weight": 1.0
+    },
+    {
+      "name": "Radiation shields for syringes and vials",
+      "weight": 1.0
+    },
+    {
+      "name": "Radiochemical fume hood and filter systems",
+      "weight": 1.0
+    },
+    {
+      "name": "Radionucleide dose calibrators",
+      "weight": 1.0
+    },
+    {
+      "name": "Sealing machines",
+      "weight": 1.0
+    },
+    {
+      "name": "Single channel well scintillation counters",
       "weight": 1.0
     },
     {
@@ -1740,6 +2164,14 @@
       "weight": 1.0
     },
     {
+      "name": "Wheelchairs",
+      "weight": 1.0
+    },
+    {
+      "name": "Annealing ovens",
+      "weight": 0.4444444444444444
+    },
+    {
       "name": "Desktop computers",
       "weight": 0.4444444444444444
     },
@@ -1749,6 +2181,10 @@
     },
     {
       "name": "Fourier transform infrared FTIR spectrometers",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Freeze dryers",
       "weight": 0.4444444444444444
     },
     {
@@ -1764,11 +2200,23 @@
       "weight": 0.4444444444444444
     },
     {
+      "name": "Ion analyzers",
+      "weight": 0.4444444444444444
+    },
+    {
       "name": "Laptop computers",
       "weight": 0.4444444444444444
     },
     {
+      "name": "Potentiostats",
+      "weight": 0.4444444444444444
+    },
+    {
       "name": "Scanning electron microscopes SEM",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Scanning tunneling microscopes STM",
       "weight": 0.4444444444444444
     },
     {
@@ -1784,6 +2232,18 @@
       "weight": 0.4444444444444444
     },
     {
+      "name": "Air dryers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Airfree/waterfree solvent purification systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Alcohol lamps",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Analytical balances",
       "weight": 0.3333333333333333
     },
@@ -1792,7 +2252,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Automatic peptide synthesizers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Autotitrators",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Beakers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Benchtop lyophilizers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Box furnace ovens",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Bunsen burners",
       "weight": 0.3333333333333333
     },
     {
@@ -1800,7 +2280,99 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Capillary electrophoresis systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Carbon hydrogen nitrogen CHN elemental analyzers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Centrifugal evaporator concentrators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Chemical centrifuges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Closed cycle refrigerators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cold trap evaporators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Combustion furnaces",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Conductance meters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Conductivity detectors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Conductivity meters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cryogenic refrigerators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Cryostats",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Cuvettes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Deflagration spoons",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Densitometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Digital cameras",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Digital electrophoresis documentation and analysis systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Digital gel analyzer systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Diode lasers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dissolved oxygen meters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Distillation ovens",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Distilling units",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dye lasers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Electrochemical analyzers",
       "weight": 0.3333333333333333
     },
     {
@@ -1808,7 +2380,27 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Floor centrifuges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Flow injection analyzers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fluorescence microscopes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Fraction collectors",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Funnels",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Galvanostats",
       "weight": 0.3333333333333333
     },
     {
@@ -1824,11 +2416,47 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Grinder mills",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Helium-cadmium lasers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "High-performance liquid chromatographs",
       "weight": 0.3333333333333333
     },
     {
+      "name": "High-pressure high-temperature reactors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "High-pressure liquid chromatography systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "High-speed centrifuges",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Homogenizers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hot plates with magnetic stirrers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Hydrogenation apparatus",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Immersion probes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Inert atmosphere glove boxes",
       "weight": 0.3333333333333333
     },
     {
@@ -1840,7 +2468,59 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Ion selective electrode ISE meters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Karl Fischer titrators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Lab heat exchangers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Laboratory presses",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Laboratory vacuum pumps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Large-format plotters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Laser power meters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Laser printers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Liquid chromatographs LC",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Liquid scintillation counters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Luminescence spectrometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Magnetic susceptibility balances",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Magnetometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mainframe computers",
       "weight": 0.3333333333333333
     },
     {
@@ -1848,7 +2528,43 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Melting point apparatus",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mercury lamp photolysis systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Micro electrobalances",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microcentrifuges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microdistillation ovens",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microinjectors",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Micropipettes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microplate spectrophotometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microwave digestion systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mini synthesizers",
       "weight": 0.3333333333333333
     },
     {
@@ -1856,7 +2572,39 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Multiwell microplates",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Nanoscopes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Neodymium-doped yttrium aluminum garnet Nd:YAG lasers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Nitrogen lasers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Nuclear magnetic resonance NMR spectrometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oscillating disc rheometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oscilloscopes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oxygen bomb calorimeters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Particle size analyzers",
       "weight": 0.3333333333333333
     },
     {
@@ -1864,11 +2612,143 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Photochemical reactors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Picosecond lasers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Pipettes",
       "weight": 0.3333333333333333
     },
     {
+      "name": "Pipetting stations",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Plasticorders",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Polarimeters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Polarizing microscopes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Polarographic analyzers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Pressure sensors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Reagent pumps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Refrigerated circulators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Refrigerated high-speed centrifuges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Respirators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Respirometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Rotary evaporators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Shaking incubators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Shaking waterbaths",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Signal average storage scopes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Single crystal x ray diffractometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Solar simulators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Solvent recyclers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sonicators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Spectrometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Speed-vac concentrators",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Split-hinge furnaces",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Stereo zoom microscopes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Strip chart recorders",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Stripping analyzers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Syringe pumps",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tabletop centrifuges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tensile testers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Test tubes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Thermal cyclers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Thistle tubes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tissue culture plates",
       "weight": 0.3333333333333333
     },
     {
@@ -1880,12 +2760,124 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Tube magnetic mixers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tubular furnaces",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ultracentrifuges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Ultraviolet-visible spectrometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Vacuum ovens",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Water baths",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Well tissue culture plates",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "X ray diffraction equipment",
       "weight": 0.3333333333333333
     },
     {
       "name": "pH meters",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "Accelerometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Atomic absorption AA spectroscopes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Atomic force microscopes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ball mills",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Box furnaces",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Capacitance manometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Capillary rheometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Charge-coupled device CCD cameras",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Cone viscometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Contact angle goniometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Differential thermal analyzers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Dynamic light scattering equipment",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Dynamic mechanical analyzers DMA",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Extruding machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Field emission scanning electron microscopes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Gamma ray spectrometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Glove box systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Grinding spindles",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hydraulic presses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Industrial computed tomography CT scanners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Injection molding machines",
+      "weight": 0.1111111111111111
     },
     {
       "name": "Laboratory analytical balances",
@@ -1896,11 +2888,155 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Linear variable differential transformers LVDT",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Load cells",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Manual grinders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microcalorimeters",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microscope digital cameras",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Mobile mass spectrometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Muffle furnaces",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Multisample autoclaves",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Nanoscope atomic force microscopes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Optical compound microscopes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Optical profilometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Plate viscometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pore sizers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Profilometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Programmable logic controllers PLC",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Pulverizers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Quartz crystal microbalances",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Raman scattering spectroscopes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Rotational viscometers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Safety glasses",
       "weight": 0.1111111111111111
     },
     {
       "name": "Safety goggles",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Scanning probe microscopes SPM",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Screw injection molding machines",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Sedigraphs",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Semi-microbalances",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Semiautomatic grinders",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Shaker ball mills",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Stereo microscopes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Stylus profilometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Theta-theta diffractometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Titanium autoclaves",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Transmission electron microscopes TEM",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "UV exposure chambers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ultra microbalances",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ultrasonic analyzers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Ultrasonic cleaners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "X ray diffractometers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "X ray generators",
       "weight": 0.1111111111111111
     }
   ],

@@ -1544,84 +1544,400 @@
   ],
   "tasks": [
     {
-      "task": "Administer first aid treatment or life support care to sick or injured persons in prehospital settings, and perform emergency diagnostic and treatment procedures during ambulance rides.",
-      "task_type": "Unclassified"
+      "task": "Administer drugs, orally or by injection, or perform intravenous procedures.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Assess nature and extent of illness or injury to establish and prioritize medical procedures and observe, record, and report to physician the patient's condition or treatment provided.",
-      "task_type": "Unclassified"
+      "task": "Administer first aid treatment or life support care to sick or injured persons in prehospital settings.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Administer drugs, orally or by injection, and perform emergency pharmacological interventions and emergency invasive interventions before delivering patients to an acute care facility.",
-      "task_type": "Unclassified"
+      "task": "Instruct emergency medical response team about emergency interventions to ensure correct application of procedures.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Coordinate work with other emergency medical team members, police, or fire department personnel, and communicate with dispatchers or treatment center personnel to arrange further treatment.",
-      "task_type": "Unclassified"
+      "task": "Coordinate work with other emergency medical team members or police or fire department personnel.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Comfort and reassure patients to alleviate anxiety during medical emergencies and while transporting them to medical facilities.",
-      "task_type": "Unclassified"
+      "task": "Coordinate with treatment center personnel to obtain patients' vital statistics and medical history, to determine the circumstances of the emergency, and to administer emergency treatment.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Attend training classes to maintain certification, keep abreast of new developments, and maintain knowledge of first-aid procedures.",
-      "task_type": "Unclassified"
+      "task": "Comfort and reassure patients.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Drive ambulances or assist ambulance drivers in transporting sick, injured, or convalescent persons to specified locations.",
-      "task_type": "Core"
+      "task": "Attend training classes to maintain certification licensure, keep abreast of new developments in the field, or maintain existing knowledge.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Perform routine vehicle maintenance, such as regulating tire pressure and adding gasoline, oil, and water, and report any vehicle malfunctions or needed repairs.",
-      "task_type": "Core"
+      "task": "Assess nature and extent of illness or injury to establish and prioritize medical procedures.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Maintain vehicles and medical and communication equipment, and replenish first aid equipment and supplies to ensure readiness for emergencies.",
-      "task_type": "Core"
+      "task": "Perform emergency diagnostic and treatment procedures, such as stomach suction, airway management, or heart monitoring, during ambulance ride.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
     },
     {
-      "task": "Restraining or shackling violent patients as necessary to ensure safety during transport or treatment.",
-      "task_type": "Core"
+      "task": "Observe, record, and report to physician the patient's condition or injury, the treatment provided, and reactions to drugs or treatment.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
+    },
+    {
+      "task": "Maintain vehicles and medical and communication equipment, and replenish first aid equipment and supplies.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
+    },
+    {
+      "task": "Immobilize patient for placement on stretcher and ambulance transport, using backboard or other spinal immobilization device.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
+    },
+    {
+      "task": "Decontaminate ambulance interior following treatment of patient with infectious disease, and report case to proper authorities.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
+    },
+    {
+      "task": "Communicate with dispatchers or treatment center personnel to provide information about situation, to arrange reception of survivors, or to receive instructions for further treatment.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
+    },
+    {
+      "task": "Operate equipment, such as electrocardiograms (EKGs), external defibrillators, or bag valve mask resuscitators, in advanced life support environments.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
+    },
+    {
+      "task": "Perform emergency cardiac care, such as cardioversion and manual defibrillation.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
+    },
+    {
+      "task": "Perform emergency invasive intervention before delivering patient to an acute care facility.",
+      "task_type": "Unclassified",
+      "relevance": 0.5,
+      "importance": 0.0
+    },
+    {
+      "task": "Perform minor maintenance on emergency medical services vehicles, such as ambulances.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.97
+    },
+    {
+      "task": "Obey traffic laws and follow established traffic and transportation procedures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.83
+    },
+    {
+      "task": "Inspect and maintain vehicle supplies and equipment, such as gas, oil, water, tires, lights, or brakes, to ensure that vehicles are in proper working condition.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.72
+    },
+    {
+      "task": "Report any mechanical problems encountered with vehicles.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.79
+    },
+    {
+      "task": "Maintain records, such as vehicle logs, records of cargo, or billing statements, in accordance with regulations.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.41
+    },
+    {
+      "task": "Report delays, accidents, or other traffic and transportation situations to bases or other vehicles, using telephones or mobile two-way radios.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.73
+    },
+    {
+      "task": "Clean and wash rigs, ambulances, or equipment.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.96
+    },
+    {
+      "task": "Read maps and follow written or verbal geographic directions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.7
+    },
+    {
+      "task": "Provide passengers with assistance entering and exiting vehicles, and help them with any luggage.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Complete accident reports when necessary.",
+      "task_type": "Unclassified",
+      "relevance": 0.125,
+      "importance": 0.0
+    },
+    {
+      "task": "Restrain or shackle violent patients.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.36
+    },
+    {
+      "task": "Report facts concerning accidents or emergencies to hospital personnel or law enforcement officials.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.35
+    },
+    {
+      "task": "Drive ambulances or assist ambulance drivers in transporting sick, injured, or convalescent persons.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.47
+    },
+    {
+      "task": "Remove and replace soiled linens or equipment to maintain sanitary conditions.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.57
+    },
+    {
+      "task": "Place patients on stretchers, and load stretchers into ambulances, usually with assistance from other attendants.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.26
+    },
+    {
+      "task": "Accompany and assist emergency medical technicians on calls.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.19
+    },
+    {
+      "task": "Operate vehicles with specialized equipment, such as wheelchair lifts, to transport and secure passengers with special needs.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.75
+    },
+    {
+      "task": "Regulate heating, lighting, and ventilation systems for passenger comfort.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.19
+    },
+    {
+      "task": "Train new employees in areas such as safety procedures or equipment operation.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.51
+    },
+    {
+      "task": "Maintain a safe working environment by monitoring safety procedures and equipment.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.47
     },
     {
       "task": "Prepare and maintain work records and reports of information such as employee time and wages, daily receipts, or inspection results.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.07
     },
     {
-      "task": "Drive vehicles or operate machines or equipment to complete work assignments or to assist workers.",
-      "task_type": "Core"
+      "task": "Conduct staff meetings to relay general information or to address specific topics, such as safety.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.9
     },
     {
-      "task": "Dispatch personnel and vehicles in response to telephone or radio reports of emergencies.",
-      "task_type": "Core"
+      "task": "Read work orders or receive oral instructions to determine work assignments or material or equipment needs.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.13
     },
     {
-      "task": "Sort materials, such as metals, glass, wood, paper, or plastics, into appropriate containers for recycling.",
-      "task_type": "Core"
+      "task": "Requisition needed personnel, supplies, equipment, parts, or repair services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.89
     },
     {
       "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.91
+    },
+    {
+      "task": "Dispatch personnel and vehicles in response to telephone or radio reports of emergencies.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
+    },
+    {
+      "task": "Perform or schedule repairs or preventive maintenance of vehicles or other equipment.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.86
+    },
+    {
+      "task": "Drive vehicles or operate machines or equipment to complete work assignments or to assist workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.93
+    },
+    {
+      "task": "Recommend or implement personnel actions, such as employee selection, evaluation, rewards, or disciplinary actions.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.63
     },
     {
       "task": "Enforce safety rules and regulations.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
+    },
+    {
+      "task": "Plan work assignments and equipment allocations to meet transportation, operations or production goals.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.07
+    },
+    {
+      "task": "Resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.11
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Assist workers in tasks, such as loading vehicles.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Plan and establish schedules.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
     },
     {
       "task": "Monitor field work to ensure proper performance and use of materials.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.81
     },
     {
-      "task": "Record logs of recycled materials or waste chemicals removed from products.",
-      "task_type": "Supplemental"
+      "task": "Maintain equipment storage areas to ensure that inventory is protected.",
+      "task_type": "Core",
+      "relevance": 0.047619047619047616,
+      "importance": 4.48
     },
     {
-      "task": "Operate forklifts, pallet jacks, power lifts, or front-end loaders to load bales, bundles, or other heavy items onto trucks for shipping.",
-      "task_type": "Core"
+      "task": "Carry needed tools or supplies from storage or trucks and return them after use.",
+      "task_type": "Supplemental",
+      "relevance": 0.047619047619047616,
+      "importance": 3.58
     },
     {
-      "task": "Check conditions and weights of vessels to ensure cleanliness and compliance with loading procedures.",
-      "task_type": "Core"
+      "task": "Compute or estimate cash, payroll, transportation, personnel, or storage requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.024390243902439025,
+      "importance": 3.77
+    },
+    {
+      "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.96
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, equipment performance, work methods, or customer services.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.82
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Interpret transportation or tariff regulations, shipping orders, safety regulations, or company policies and procedures for workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.17
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1647,6 +1963,10 @@
     },
     {
       "name": "Epocrates",
+      "weight": 1.0
+    },
+    {
+      "name": "HyperTox",
       "weight": 1.0
     },
     {
@@ -1718,8 +2038,72 @@
       "weight": 0.34090909090909094
     },
     {
+      "name": "SAP software",
+      "weight": 0.3179300374422326
+    },
+    {
+      "name": "Warehouse management system WMS",
+      "weight": 0.30277852229071744
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.2928321678321678
+    },
+    {
       "name": "Word processing software",
       "weight": 0.27884615384615385
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.2646936396936397
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.25
+    },
+    {
+      "name": "Actsoft Comet Tracker",
+      "weight": 0.24029933481152993
+    },
+    {
+      "name": "Digital Dispatch",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Easy Dispatch",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "EventHelix WebTaxi",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "GPC Autocab",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Mobile Knowledge Cabmate",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "PC Dispatch",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Penchant Software dispatchOffice",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Piccolo Software PiccoloTaxi",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "TSS Wireless Fleet Management Suite",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "TranWare Enterprise Suite",
+      "weight": 0.2159090909090909
     },
     {
       "name": "Web browser software",
@@ -1734,11 +2118,31 @@
       "weight": 0.17261904761904762
     },
     {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.15384615384615385
+    },
+    {
       "name": "Mapping software",
       "weight": 0.14939024390243902
     },
     {
+      "name": "Work scheduling software",
+      "weight": 0.13969363969363968
+    },
+    {
+      "name": "Automatic routing software",
+      "weight": 0.125
+    },
+    {
+      "name": "Computer Directions Route Sales Tracker",
+      "weight": 0.125
+    },
+    {
       "name": "Computer aided dispatch software",
+      "weight": 0.125
+    },
+    {
+      "name": "Computerized inventory tracking software",
       "weight": 0.125
     },
     {
@@ -1746,7 +2150,23 @@
       "weight": 0.125
     },
     {
+      "name": "FreightDATA",
+      "weight": 0.125
+    },
+    {
+      "name": "GEOCOMtms A.Maze Planning",
+      "weight": 0.125
+    },
+    {
       "name": "Internet browser software",
+      "weight": 0.125
+    },
+    {
+      "name": "MobiTech Systems Route Sales Trakker",
+      "weight": 0.125
+    },
+    {
+      "name": "Package location and tracking software",
       "weight": 0.125
     },
     {
@@ -1754,19 +2174,91 @@
       "weight": 0.125
     },
     {
+      "name": "Regulussoft Route Accounting",
+      "weight": 0.125
+    },
+    {
       "name": "Route planning software",
       "weight": 0.125
+    },
+    {
+      "name": "Soft Essentials Vending Essentials",
+      "weight": 0.125
+    },
+    {
+      "name": "Vehicle location and tracking software",
+      "weight": 0.125
+    },
+    {
+      "name": "bMobile Technology Route Manager",
+      "weight": 0.125
+    },
+    {
+      "name": "bMobile Technology Sales",
+      "weight": 0.125
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.11646483597703111
+    },
+    {
+      "name": "AOL MapQuest",
+      "weight": 0.09090909090909091
     },
     {
       "name": "Global positioning system GPS software",
       "weight": 0.09090909090909091
     },
     {
+      "name": "Cargo tracking system software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "CompuWeigh GMS",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Email software",
       "weight": 0.07692307692307693
     },
     {
+      "name": "Employee scheduling software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Inventory control software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Linux",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Operational databases",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Sage ERP Accpac",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Time and attendance software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Apple Safari",
+      "weight": 0.047619047619047616
+    },
+    {
       "name": "Data entry software",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "FaceTime",
       "weight": 0.047619047619047616
     },
     {
@@ -1774,8 +2266,124 @@
       "weight": 0.047619047619047616
     },
     {
+      "name": "Handheld computer device software",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.047619047619047616
+    },
+    {
       "name": "Microsoft Edge",
       "weight": 0.047619047619047616
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Mozilla Firefox",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Accellos Real Dispatch",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Commercial vehicle operations CVO software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "@Road GeoManager",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Bill of lading software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "CAPE Systems CAPE PACK",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "CAPE Systems TRUCKFILL",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Coptimal Logics AutoLoad Pro",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Creative Systems Corporation Freight-Link System",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Fleet management systems",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "JDA Manugistics",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Load optimization software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "MagicLogic Optimization Cube-IQ",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Optimum Logistics LoadPlanner",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Proof of delivery POD software",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Softtruck CargoWiz",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Starre Enterprises Star Bill of Lading",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Strategic Business Systems Proof of Delivery",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "TOPS Engineering MaxLoad Pro",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "UPS Logistics Technologies Roadnet Transportation Suite",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "XATA XATANET",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -1806,6 +2414,10 @@
     {
       "name": "Rigid splints",
       "weight": 1.125
+    },
+    {
+      "name": "Pry bars",
+      "weight": 1.0769230769230769
     },
     {
       "name": "Adult Magill forceps",
@@ -1840,7 +2452,19 @@
       "weight": 1.0
     },
     {
+      "name": "Bulletproof vests",
+      "weight": 1.0
+    },
+    {
+      "name": "Cardboard splints",
+      "weight": 1.0
+    },
+    {
       "name": "Catheters",
+      "weight": 1.0
+    },
+    {
+      "name": "Center punches/glass hammers",
       "weight": 1.0
     },
     {
@@ -1848,15 +2472,7 @@
       "weight": 1.0
     },
     {
-      "name": "Cricothyrotomy kits",
-      "weight": 1.0
-    },
-    {
-      "name": "Curved adult blades",
-      "weight": 1.0
-    },
-    {
-      "name": "Curved pediatric blades",
+      "name": "Chock blocks",
       "weight": 1.0
     },
     {
@@ -1868,27 +2484,7 @@
       "weight": 1.0
     },
     {
-      "name": "Endotracheal ET tube holddown devices",
-      "weight": 1.0
-    },
-    {
-      "name": "Endotracheal ET tubes",
-      "weight": 1.0
-    },
-    {
       "name": "Epi-pens",
-      "weight": 1.0
-    },
-    {
-      "name": "Esophageal intubation detection devices",
-      "weight": 1.0
-    },
-    {
-      "name": "Esophageal tracheal airway devices",
-      "weight": 1.0
-    },
-    {
-      "name": "External pacers",
       "weight": 1.0
     },
     {
@@ -1932,10 +2528,6 @@
       "weight": 1.0
     },
     {
-      "name": "Intraosseous kits",
-      "weight": 1.0
-    },
-    {
       "name": "Intravenous IV cannulas",
       "weight": 1.0
     },
@@ -1945,10 +2537,6 @@
     },
     {
       "name": "Intravenous IV pumps",
-      "weight": 1.0
-    },
-    {
-      "name": "Laryngoscopes",
       "weight": 1.0
     },
     {
@@ -2020,10 +2608,6 @@
       "weight": 1.0
     },
     {
-      "name": "Pleural decompression kits",
-      "weight": 1.0
-    },
-    {
       "name": "Pneumatic anti-shock garments PASG",
       "weight": 1.0
     },
@@ -2049,6 +2633,10 @@
     },
     {
       "name": "Resuscitation devices",
+      "weight": 1.0
+    },
+    {
+      "name": "Ring cutters",
       "weight": 1.0
     },
     {
@@ -2081,14 +2669,6 @@
     },
     {
       "name": "Stair chairs",
-      "weight": 1.0
-    },
-    {
-      "name": "Straight adult blades",
-      "weight": 1.0
-    },
-    {
-      "name": "Straight pediatric blades",
       "weight": 1.0
     },
     {
@@ -2140,8 +2720,96 @@
       "weight": 0.7405490850612801
     },
     {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.34090909090909094
+    },
+    {
+      "name": "Vans",
+      "weight": 0.34090909090909094
+    },
+    {
+      "name": "Barcode scanners",
+      "weight": 0.2928321678321678
+    },
+    {
       "name": "Tablet computers",
       "weight": 0.2928321678321678
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.2646936396936397
+    },
+    {
+      "name": "Scanners",
+      "weight": 0.25
+    },
+    {
+      "name": "Dollies",
+      "weight": 0.24954212454212454
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.24954212454212454
+    },
+    {
+      "name": "Alarms",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Closed-circuit TV cameras",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Communications computers",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Credit card processing machines",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Mobile data computers",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Mobile electronic funds transfer point of sale EFTPOS equipment",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Mobile electronic funds transfer point of sale EFTPOS printers",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Security cameras",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Smartphones",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Sport utility vehicles SUVs",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Text messaging equipment",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Wheelchair lifts",
+      "weight": 0.2159090909090909
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.168997668997669
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.13969363969363968
+    },
+    {
+      "name": "Electronic clipboards",
+      "weight": 0.125
     },
     {
       "name": "Gurneys",
@@ -2149,6 +2817,10 @@
     },
     {
       "name": "Handheld computers",
+      "weight": 0.125
+    },
+    {
+      "name": "Laser printers",
       "weight": 0.125
     },
     {
@@ -2172,8 +2844,32 @@
       "weight": 0.125
     },
     {
+      "name": "Wheel blocks",
+      "weight": 0.125
+    },
+    {
+      "name": "Wheelchairs",
+      "weight": 0.125
+    },
+    {
+      "name": "Handheld calculators",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Handtrucks",
+      "weight": 0.12454212454212454
+    },
+    {
       "name": "Mobile radios",
       "weight": 0.12454212454212454
+    },
+    {
+      "name": "Utility knives",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.10131332082551595
     },
     {
       "name": "Laptop computers",
@@ -2184,7 +2880,19 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Digital surveillance camera systems",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Emergency exit doors",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Emergency first-aid kits",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "On-board data input terminals",
       "weight": 0.09090909090909091
     },
     {
@@ -2192,20 +2900,116 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Powered service doors",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Radio frequency identification RFID devices",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Snow chains",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Tire pressure gauges",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Wheelchair restraint systems",
       "weight": 0.09090909090909091
+    },
+    {
+      "name": "Cargo tiedown straps",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Data input scanners",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Elevating transfer vehicles ETV",
+      "weight": 0.07692307692307693
     },
     {
       "name": "Protective respirators",
       "weight": 0.07692307692307693
     },
     {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.07200929152148663
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.07200929152148663
+    },
+    {
+      "name": "Adjustable hand wrenches",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Channel lock pliers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Claw hanmers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Cordless drills",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Hex wrenches",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Paper shredders",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Power lifts",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Protective ear muffs",
+      "weight": 0.047619047619047616
+    },
+    {
       "name": "Safety glasses",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Slings",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Wire cutters",
       "weight": 0.047619047619047616
     },
     {
       "name": "Work vans",
       "weight": 0.047619047619047616
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Lug wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Personal digital assistants PDA",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.024390243902439025
     }
   ],
   "detailed_work_activities": [

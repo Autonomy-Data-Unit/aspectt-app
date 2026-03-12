@@ -1544,32 +1544,64 @@
   ],
   "tasks": [
     {
-      "task": "Examine eyes using observation, instruments, and pharmaceutical agents to determine visual acuity and diagnose diseases and abnormalities, such as glaucoma or color blindness.",
-      "task_type": "Core"
+      "task": "Examine eyes, using observation, instruments, and pharmaceutical agents, to determine visual acuity and perception, focus, and coordination and to diagnose diseases and other abnormalities, such as glaucoma or color blindness.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 5.0
     },
     {
-      "task": "Analyze test results and develop a treatment plan, prescribing eyeglasses, contact lenses, and other vision aids as needed.",
-      "task_type": "Core"
+      "task": "Analyze test results and develop a treatment plan.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.95
     },
     {
-      "task": "Educate and counsel patients on contact lens care, visual hygiene, lighting arrangements, and related safety factors.",
-      "task_type": "Core"
+      "task": "Prescribe, supply, fit and adjust eyeglasses, contact lenses, and other vision aids.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.81
     },
     {
-      "task": "Consult with and refer patients to ophthalmologists or other healthcare practitioners when additional medical treatment is necessary.",
-      "task_type": "Core"
+      "task": "Prescribe medications to treat eye diseases if state laws permit.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.81
     },
     {
-      "task": "Remove foreign bodies from the eye and provide pre- and post-operative care for patients undergoing eye surgeries like cataract and laser vision correction.",
-      "task_type": "Core"
+      "task": "Educate and counsel patients on contact lens care, visual hygiene, lighting arrangements, and safety factors.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.71
     },
     {
-      "task": "Prescribe medications and therapeutic procedures to treat eye diseases and conserve vision as permitted by law.",
-      "task_type": "Core"
+      "task": "Consult with and refer patients to ophthalmologist or other health care practitioner if additional medical treatment is determined necessary.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.52
     },
     {
-      "task": "Provide vision therapy and low-vision rehabilitation to assist patients with visual impairments.",
-      "task_type": "Core"
+      "task": "Remove foreign bodies from the eye.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.57
+    },
+    {
+      "task": "Provide patients undergoing eye surgeries, such as cataract and laser vision correction, with pre- and post-operative care.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.57
+    },
+    {
+      "task": "Prescribe therapeutic procedures to correct or conserve vision.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.38
+    },
+    {
+      "task": "Provide vision therapy and low-vision rehabilitation.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.1
     }
   ],
   "technology_skills": [
@@ -1614,7 +1646,19 @@
       "weight": 0.5
     },
     {
+      "name": "Intuit QuickBooks",
+      "weight": 0.5
+    },
+    {
+      "name": "MAX Systems Max-Gold7",
+      "weight": 0.5
+    },
+    {
       "name": "MediNotes Charting Plus",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft Access",
       "weight": 0.5
     },
     {
@@ -1623,6 +1667,10 @@
     },
     {
       "name": "Microsoft Excel",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft SQL Server",
       "weight": 0.5
     },
     {
@@ -1639,6 +1687,10 @@
     },
     {
       "name": "OfficeMate Software Solutions OfficeMate",
+      "weight": 0.5
+    },
+    {
+      "name": "Operational Data Store ODS software",
       "weight": 0.5
     },
     {
@@ -1748,6 +1800,10 @@
       "weight": 0.5
     },
     {
+      "name": "Half nylon gripping pliers",
+      "weight": 0.5
+    },
+    {
       "name": "Horizontal prism bars",
       "weight": 0.5
     },
@@ -1761,14 +1817,6 @@
     },
     {
       "name": "Keratometers",
-      "weight": 0.5
-    },
-    {
-      "name": "Lachrymal cannulae",
-      "weight": 0.5
-    },
-    {
-      "name": "Lachrymal dilators",
       "weight": 0.5
     },
     {
@@ -1816,6 +1864,10 @@
       "weight": 0.5
     },
     {
+      "name": "Optical screwdrivers",
+      "weight": 0.5
+    },
+    {
       "name": "Pediatric near point cards",
       "weight": 0.5
     },
@@ -1844,6 +1896,10 @@
       "weight": 0.5
     },
     {
+      "name": "Retinoscopy racks",
+      "weight": 0.5
+    },
+    {
       "name": "Scleral depressors",
       "weight": 0.5
     },
@@ -1860,11 +1916,23 @@
       "weight": 0.5
     },
     {
+      "name": "Snipe nose pliers",
+      "weight": 0.5
+    },
+    {
+      "name": "Sphygmomanometers",
+      "weight": 0.5
+    },
+    {
       "name": "Tonometers",
       "weight": 0.5
     },
     {
       "name": "Trial lens sets",
+      "weight": 0.5
+    },
+    {
+      "name": "Wide jaw angling pliers",
       "weight": 0.5
     },
     {

@@ -1544,104 +1544,1030 @@
   ],
   "tasks": [
     {
-      "task": "Develop and maintain an institution's registration, cataloging, and basic record-keeping systems, using computer databases.",
-      "task_type": "Core"
+      "task": "Organize archival records and develop classification systems to facilitate access to archival materials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.83
+    },
+    {
+      "task": "Direct activities of workers who assist in arranging, cataloguing, exhibiting, and maintaining collections of valuable materials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.48
+    },
+    {
+      "task": "Provide information from the institution's holdings to other curators and to the public.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.94
+    },
+    {
+      "task": "Negotiate and authorize purchase, sale, exchange, or loan of collections.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.84
+    },
+    {
+      "task": "Plan and conduct special research projects in area of interest or expertise.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.03
+    },
+    {
+      "task": "Confer with the board of directors to formulate and interpret policies, to determine budget requirements, and to plan overall operations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.52
+    },
+    {
+      "task": "Attend meetings, conventions, and civic events to promote use of institution's services, to seek financing, and to maintain community alliances.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.64
+    },
+    {
+      "task": "Schedule events and organize details, including refreshment, entertainment, decorations, and the collection of any fees.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.82
+    },
+    {
+      "task": "Write and review grant proposals, journal articles, institutional reports, and publicity materials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.76
+    },
+    {
+      "task": "Study, examine, and test acquisitions to authenticate their origin, composition, history, and to assess their current value.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.84
+    },
+    {
+      "task": "Arrange insurance coverage for objects on loan or for special exhibits and recommend changes in coverage for the entire collection.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.31
+    },
+    {
+      "task": "Establish specifications for reproductions and oversee their manufacture or select items from commercially available replica sources.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 2.46
     },
     {
       "task": "Create and maintain accessible, retrievable computer archives and databases, incorporating current advances in electronic information storage technology.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.6
     },
     {
-      "task": "Test programs or databases, correct errors, and make necessary modifications.",
-      "task_type": "Core"
+      "task": "Provide reference services and assistance for users needing archival materials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.77
+    },
+    {
+      "task": "Prepare archival records, such as document descriptions, to allow easy access to information.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.71
+    },
+    {
+      "task": "Train and supervise curatorial, fiscal, technical, research, and clerical staff, as well as volunteers or interns.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.63
+    },
+    {
+      "task": "Preserve records, documents, and objects, copying records to film, videotape, audiotape, disk, or computer formats as necessary.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.32
+    },
+    {
+      "task": "Establish and administer policy guidelines concerning public access and use of materials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.58
+    },
+    {
+      "task": "Locate new materials and direct their acquisition and display.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.93
+    },
+    {
+      "task": "Research and record the origins and historical significance of archival materials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.23
+    },
+    {
+      "task": "Specialize in an area of history or technology, researching topics or items relevant to collections to determine what should be retained or acquired.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.57
+    },
+    {
+      "task": "Coordinate educational and public outreach programs, such as tours, workshops, lectures, and classes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.87
+    },
+    {
+      "task": "Select and edit documents for publication and display, applying knowledge of subject, literary expression, and presentation techniques.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.1
+    },
+    {
+      "task": "Design, organize, or conduct tours, workshops, and instructional or educational sessions to acquaint individuals with an institution's facilities and materials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.76
+    },
+    {
+      "task": "Plan and organize the acquisition, storage, and exhibition of collections and related materials, including the selection of exhibition themes and designs, and develop or install exhibit materials.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.35
+    },
+    {
+      "task": "Inspect premises to assess the need for repairs and to ensure that climate and pest control issues are addressed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.81
+    },
+    {
+      "task": "Provide technical support to junior staff or clients.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.46
     },
     {
       "task": "Plan and install upgrades of database management system software to enhance database performance.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.86
     },
     {
-      "task": "Identify, evaluate, and recommend hardware or software technologies to achieve desired database performance.",
-      "task_type": "Core"
+      "task": "Identify, evaluate and recommend hardware or software technologies to achieve desired database performance.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.05
     },
     {
       "task": "Modify existing databases and database management systems or direct programmers and analysts to make changes.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.0
+    },
+    {
+      "task": "Develop standards and guidelines for the use and acquisition of software and to protect vulnerable information.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.43
+    },
+    {
+      "task": "Train users and answer questions.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.56
+    },
+    {
+      "task": "Revise company definition of data as defined in data dictionary.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.7
     },
     {
       "task": "Write and code logical and physical database descriptions and specify identifiers of database to management system, or direct others in coding descriptions.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.15
     },
     {
-      "task": "Test changes to database applications or systems.",
-      "task_type": "Core"
+      "task": "Identify and evaluate industry trends in database systems to serve as a source of information and advice for upper management.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.81
+    },
+    {
+      "task": "Select and enter codes to monitor database performance and to create production databases.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.13
+    },
+    {
+      "task": "Review procedures in database management system manuals to make changes to database.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.03
     },
     {
       "task": "Develop data models describing data elements and how they are used, following procedures and using pen, template, or computer software.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.14
+    },
+    {
+      "task": "Specify users and user access levels for each segment of database.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.8
+    },
+    {
+      "task": "Approve, schedule, plan, and supervise the installation and testing of new products and improvements to computer systems, such as the installation of new databases.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.45
+    },
+    {
+      "task": "Plan, coordinate, and implement security measures to safeguard information in computer files against accidental or unauthorized damage, modification or disclosure.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.93
+    },
+    {
+      "task": "Test programs or databases, correct errors, and make necessary modifications.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 3.68
+    },
+    {
+      "task": "Review workflow charts developed by programmer analyst to understand tasks computer will perform, such as updating records.",
+      "task_type": "Supplemental",
+      "relevance": 0.2,
+      "importance": 2.78
+    },
+    {
+      "task": "Maintain an inventory of parts for emergency repairs.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.99
+    },
+    {
+      "task": "Implement and provide technical support for voice services and equipment, such as private branch exchange, voice mail system, and telecom system.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.59
+    },
+    {
+      "task": "Research new technologies by attending seminars, reading trade articles, or taking classes, and implement or recommend the implementation of new technologies.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 2.99
+    },
+    {
+      "task": "Configure, monitor, and maintain email applications or virus protection software.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.97
+    },
+    {
+      "task": "Diagnose, troubleshoot, and resolve hardware, software, or other network and system problems, and replace defective components when necessary.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.08
+    },
+    {
+      "task": "Coordinate with vendors and with company personnel to facilitate purchases.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.12
+    },
+    {
+      "task": "Perform data backups and disaster recovery operations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.14
+    },
+    {
+      "task": "Recommend changes to improve systems and network configurations, and determine hardware or software requirements related to such changes.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.57
+    },
+    {
+      "task": "Maintain and administer computer networks and related computing environments, including computer hardware, systems software, applications software, and all configurations.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.27
+    },
+    {
+      "task": "Maintain logs related to network functions, as well as maintenance and repair records.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.27
+    },
+    {
+      "task": "Analyze equipment performance records to determine the need for repair or replacement.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.65
+    },
+    {
+      "task": "Gather data pertaining to customer needs, and use the information to identify, predict, interpret, and evaluate system and network requirements.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.17
+    },
+    {
+      "task": "Load computer tapes and disks, and install software and printer paper or forms.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.38
+    },
+    {
+      "task": "Monitor network performance to determine whether adjustments are needed and where changes will be needed in the future.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.77
+    },
+    {
+      "task": "Confer with network users about solutions to existing system problems.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.57
+    },
+    {
+      "task": "Design, configure, and test computer hardware, networking software and operating system software.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.56
+    },
+    {
+      "task": "Perform routine network startup and shutdown procedures, and maintain control records.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.41
+    },
+    {
+      "task": "Operate master consoles to monitor the performance of computer systems and networks and to coordinate computer network access and use.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.87
+    },
+    {
+      "task": "Plan, coordinate, and implement network security measures to protect data, software, and hardware.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.74
+    },
+    {
+      "task": "Collaborate with management or users to develop e-commerce strategies and to integrate these strategies with Web sites.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.55
+    },
+    {
+      "task": "Recommend and implement performance improvements.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.39
+    },
+    {
+      "task": "Renew domain name registrations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.67
+    },
+    {
+      "task": "Develop databases that support Web applications and Web sites.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.05
+    },
+    {
+      "task": "Write supporting code for Web applications or Web sites.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.58
+    },
+    {
+      "task": "Communicate with network personnel or Web site hosting agencies to address hardware or software issues affecting Web sites.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.57
+    },
+    {
+      "task": "Perform Web site tests according to planned schedules, or after any Web site or product revision.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.04
+    },
+    {
+      "task": "Select programming languages, design tools, or applications.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.17
+    },
+    {
+      "task": "Respond to user email inquiries, or set up automated systems to send responses.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.67
+    },
+    {
+      "task": "Develop or implement procedures for ongoing Web site revision.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.29
+    },
+    {
+      "task": "Establish appropriate server directory trees.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.47
+    },
+    {
+      "task": "Document technical factors such as server load, bandwidth, database performance, and browser and device types.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.35
+    },
+    {
+      "task": "Provide clear, detailed descriptions of Web site specifications, such as product features, activities, software, communication protocols, programming languages, and operating systems software and hardware.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.18
+    },
+    {
+      "task": "Monitor security system performance logs to identify problems and notify security specialists when problems occur.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.73
+    },
+    {
+      "task": "Create Web models or prototypes that include physical, interface, logical, or data models.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.19
+    },
+    {
+      "task": "Document test plans, testing procedures, or test results.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.54
+    },
+    {
+      "task": "Research, document, rate, or select alternatives for Web architecture or technologies.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.75
+    },
+    {
+      "task": "Install and configure hypertext transfer protocol (HTTP) servers and associated operating systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.94
+    },
+    {
+      "task": "Maintain understanding of current Web technologies or programming practices through continuing education, reading, or participation in professional conferences, workshops, or groups.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.83
+    },
+    {
+      "task": "Design and implement Web site security measures, such as firewalls and message encryption.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Incorporate technical considerations into Web site design plans, such as budgets, equipment, performance requirements, and legal issues including accessibility and privacy.",
+      "task_type": "Unclassified",
+      "relevance": 0.1111111111111111,
+      "importance": 0.0
+    },
+    {
+      "task": "Analyze user needs to determine technical requirements.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.79
+    },
+    {
+      "task": "Develop system interaction or sequence diagrams.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.73
+    },
+    {
+      "task": "Evaluate code to ensure that it is valid, is properly structured, meets industry standards, and is compatible with browsers, devices, or operating systems.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.09
+    },
+    {
+      "task": "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.59
+    },
+    {
+      "task": "Perform or direct Web site updates.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.0
+    },
+    {
+      "task": "Design, build, or maintain Web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.42
+    },
+    {
+      "task": "Back up files from Web sites to local directories for instant recovery in case of problems.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.35
+    },
+    {
+      "task": "Review records or reports pertaining to activities such as production, payroll, or shipping to verify details, monitor work activities, or evaluate performance.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.15
+    },
+    {
+      "task": "Prepare and issue work schedules, deadlines, and duty assignments for office or administrative staff.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.06
+    },
+    {
+      "task": "Interpret and communicate work procedures and company policies to staff.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.03
+    },
+    {
+      "task": "Recruit, interview, and select employees.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.04
+    },
+    {
+      "task": "Resolve customer complaints or answer customers' questions regarding policies and procedures.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.36
+    },
+    {
+      "task": "Supervise the work of office, administrative, or customer service employees to ensure adherence to quality standards, deadlines, and proper procedures, correcting errors or problems.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.4
+    },
+    {
+      "task": "Train or instruct employees in job duties or company policies or arrange for training to be provided.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.99
+    },
+    {
+      "task": "Evaluate employees' job performance and conformance to regulations and recommend appropriate personnel action.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.0
+    },
+    {
+      "task": "Research, compile, and prepare reports, manuals, correspondence, or other information required by management or governmental agencies.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.98
+    },
+    {
+      "task": "Discuss job performance problems with employees to identify causes and issues and to work on resolving problems.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.12
+    },
+    {
+      "task": "Implement corporate or departmental policies, procedures, and service standards in conjunction with management.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.97
+    },
+    {
+      "task": "Provide employees with guidance in handling difficult or complex problems or in resolving escalated complaints or disputes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.34
+    },
+    {
+      "task": "Maintain records pertaining to inventory, personnel, orders, supplies, or machine maintenance.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.68
+    },
+    {
+      "task": "Compute figures such as balances, totals, or commissions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.95
+    },
+    {
+      "task": "Coordinate activities with other supervisory personnel or with other work units or departments.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.88
+    },
+    {
+      "task": "Design, implement, or evaluate staff training and development programs, customer service initiatives, or performance measurement criteria.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.56
+    },
+    {
+      "task": "Plan layouts of stockrooms, warehouses, or other storage areas, considering turnover, size, weight, or related factors pertaining to items stored.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.38
+    },
+    {
+      "task": "Coordinate or perform activities associated with shipping, receiving, distribution, or transportation.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.22
+    },
+    {
+      "task": "Keep informed of provisions of labor-management agreements and their effects on departmental operations.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.43
+    },
+    {
+      "task": "Arrange for necessary maintenance or repair work.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 2.96
+    },
+    {
+      "task": "Plan for or coordinate office services, such as equipment or supply acquisition or organization, disposal of assets, relocation, parking, maintenance, or security services.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.07
+    },
+    {
+      "task": "Monitor inventory levels and requisition or purchase supplies as needed.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.14
+    },
+    {
+      "task": "Develop work schedules according to budgets and workloads.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.01
+    },
+    {
+      "task": "Participate in the work of subordinates to facilitate productivity or to overcome difficult aspects of work.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.85
+    },
+    {
+      "task": "Consult with managers or other personnel to resolve problems in areas such as equipment performance, output quality, or work schedules.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.63
+    },
+    {
+      "task": "Make recommendations to management concerning such issues as staffing decisions or procedural changes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.83
+    },
+    {
+      "task": "Develop or update procedures, policies, or standards.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.78
+    },
+    {
+      "task": "Analyze financial activities of establishments or departments and provide input into budget planning and preparation processes.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.93
+    },
+    {
+      "task": "Review project requests describing database user needs to estimate time and cost required to accomplish project.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.47
+    },
+    {
+      "task": "Collaborate with web development professionals, such as front-end or back-end developers, to complete the full scope of Web development projects.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Work as part of a project team to coordinate database development and determine project scope and limitations.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.9
     },
     {
       "task": "Establish and calculate optimum values for database parameters, using manuals and calculators.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.15
     },
     {
-      "task": "Perform Web site tests according to planned schedules or after any Web site or product revision, and correct problems based on customer feedback.",
-      "task_type": "Unclassified"
+      "task": "Develop methods for integrating different products so they work properly together, such as customizing commercial databases to fit specific needs.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.05
     },
     {
-      "task": "Perform or direct Web site updates, and develop or implement procedures for ongoing Web site revision.",
-      "task_type": "Unclassified"
+      "task": "Create core game features, including storylines, role-play mechanics, and character biographies for a new video game or game franchise.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.45
     },
     {
-      "task": "Maintain understanding of current Web technologies or programming practices through education, reading, or conferences.",
-      "task_type": "Unclassified"
+      "task": "Document all aspects of formal game design, using mock-up screenshots, sample menu layouts, gameplay flowcharts, and other graphical devices.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.22
     },
     {
-      "task": "Incorporate technical considerations into Web site design plans, such as budgets, performance requirements, or legal issues.",
-      "task_type": "Unclassified"
+      "task": "Collaborate with artists to achieve appropriate visual style.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.6
     },
     {
-      "task": "Develop system interaction or sequence diagrams and create Web models or prototypes that include physical or logical components.",
-      "task_type": "Unclassified"
+      "task": "Conduct user research to determine design requirements and analyze user feedback to improve design quality.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Create searchable indices for Web page content.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Write and edit technical documentation for digital interface products and designs, such as user manuals, testing protocols, and reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Research and apply innovative solutions for product design, visuals, and user experience to meet the needs of individual Web development projects.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Register Web sites with search engines to increase Web site traffic.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Identify problems uncovered by testing or customer feedback, and correct problems or refer problems to appropriate personnel for correction.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
+    },
+    {
+      "task": "Identify or maintain links to and from other Web sites and check links to ensure proper functioning.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
     },
     {
       "task": "Create and manage documentation, production schedules, prototyping goals, and communication plans in collaboration with production staff.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.2
     },
     {
-      "task": "Consult with stakeholders to define requirements for database systems and implement online features based on user needs.",
-      "task_type": "Core"
+      "task": "Direct and execute pre-production activities, such as creating moodboards or storyboards and establishing a project timeline.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
     },
     {
-      "task": "Create and enforce database development standards while verifying the structure, accuracy, and quality of database systems.",
-      "task_type": "Core"
+      "task": "Develop, validate, and document test routines and schedules to ensure that test cases mimic external interfaces and address all browser and device types.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
     },
     {
-      "task": "Develop and document database architectures and architectural strategies to address business requirements during design and implementation.",
-      "task_type": "Core"
+      "task": "Develop Web site maps, application models, image templates, or page templates that meet project goals, user needs, or industry standards.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
     },
     {
-      "task": "Test software systems or applications for enhancements and develop data extraction procedures from systems such as billing or claims.",
-      "task_type": "Core"
+      "task": "Develop new visual design concepts and modify concepts based on stakeholder feedback.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
     },
     {
-      "task": "Design databases to support business applications with a focus on scalability, security, performance, and reliability.",
-      "task_type": "Core"
+      "task": "Develop and document style guidelines for Web site content.",
+      "task_type": "Unclassified",
+      "relevance": 0.07692307692307693,
+      "importance": 0.0
     },
     {
-      "task": "Map data between source systems, data warehouses, and data marts, and implement business rules via stored procedures or middleware.",
-      "task_type": "Core"
+      "task": "Consult with multiple stakeholders to define requirements and implement online features.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.6
     },
     {
-      "task": "Provide technical support to junior staff or clients, and coordinate troubleshooting support for data warehouses as necessary.",
-      "task_type": "Core"
+      "task": "Select methods, techniques, or criteria for data warehousing evaluative procedures.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.59
     },
     {
-      "task": "Develop and maintain standards for design of data warehouse elements, including data architectures, models, tools, and databases.",
-      "task_type": "Core"
+      "task": "Verify the structure, accuracy, or quality of warehouse data.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.43
     },
     {
-      "task": "Write new programs or modify existing ones to meet customer requirements using current programming languages and technologies.",
-      "task_type": "Core"
+      "task": "Write new programs or modify existing programs to meet customer requirements, using current programming languages and technologies.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.91
+    },
+    {
+      "task": "Prepare functional or technical documentation for data warehouses.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.32
+    },
+    {
+      "task": "Provide or coordinate troubleshooting support for data warehouses.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.91
+    },
+    {
+      "task": "Review designs, codes, test plans, or documentation to ensure quality.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.64
+    },
+    {
+      "task": "Test software systems or applications for software enhancements or new products.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.15
+    },
+    {
+      "task": "Develop and document database architectures.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.52
+    },
+    {
+      "task": "Collaborate with system architects, software architects, design analysts, and others to understand business or industry requirements.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.48
+    },
+    {
+      "task": "Create and enforce database development standards.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.0
+    },
+    {
+      "task": "Demonstrate database technical functionality, such as performance, security and reliability.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.76
+    },
+    {
+      "task": "Design databases to support business applications, ensuring system scalability, security, performance, and reliability.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.4
+    },
+    {
+      "task": "Develop data models for applications, metadata tables, views or related database structures.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.1
+    },
+    {
+      "task": "Develop load-balancing processes to eliminate down time for backup processes.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.7
+    },
+    {
+      "task": "Develop or maintain archived procedures, procedural codes, or queries for applications.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.25
+    },
+    {
+      "task": "Document and communicate database schemas, using accepted notations.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.95
+    },
+    {
+      "task": "Identify and correct deviations from database development standards.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.57
+    },
+    {
+      "task": "Set up database clusters, backup, or recovery processes.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.85
+    },
+    {
+      "task": "Perform system analysis, data analysis or programming, using a variety of computer languages and procedures.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.83
+    },
+    {
+      "task": "Map data between source systems, data warehouses, and data marts.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.22
+    },
+    {
+      "task": "Implement business rules via stored procedures, middleware, or other technologies.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.55
+    },
+    {
+      "task": "Guide design discussions between development teams.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.0
+    },
+    {
+      "task": "Develop and implement data extraction procedures from other systems, such as administration, billing, or claims.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.13
+    },
+    {
+      "task": "Provide test specifications to quality assurance staff.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.05
+    },
+    {
+      "task": "Design, implement, or operate comprehensive data warehouse systems to balance optimization of data access with batch loading and resource utilization factors, according to customer requirements.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.86
+    },
+    {
+      "task": "Develop data warehouse process models, including sourcing, loading, transformation, and extraction.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.43
+    },
+    {
+      "task": "Create or implement metadata processes and frameworks.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.71
+    },
+    {
+      "task": "Create plans, test files, and scripts for data warehouse testing, ranging from unit to integration testing.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.61
+    },
+    {
+      "task": "Create supporting documentation, such as metadata and diagrams of entity relationships, business processes, and process flow.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.78
+    },
+    {
+      "task": "Design and implement warehouse database structures.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 4.09
+    },
+    {
+      "task": "Develop or maintain standards, such as organization, structure, or nomenclature, for the design of data warehouse elements, such as data architectures, models, tools, and databases.",
+      "task_type": "Core",
+      "relevance": 0.07692307692307693,
+      "importance": 3.95
     }
   ],
   "technology_skills": [
@@ -1674,6 +2600,10 @@
       "weight": 1.1974358974358974
     },
     {
+      "name": "Apple macOS",
+      "weight": 1.0585470085470086
+    },
+    {
       "name": "Linux",
       "weight": 1.0354700854700853
     },
@@ -1690,6 +2620,10 @@
       "weight": 1.0354700854700853
     },
     {
+      "name": "Adobe Acrobat",
+      "weight": 1.0316239316239315
+    },
+    {
       "name": "Microsoft Word",
       "weight": 1.0307692307692309
     },
@@ -1702,6 +2636,18 @@
       "weight": 0.9585470085470086
     },
     {
+      "name": "SAS",
+      "weight": 0.9585470085470086
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.8854700854700854
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.8854700854700854
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.8854700854700854
     },
@@ -1710,12 +2656,84 @@
       "weight": 0.8816239316239316
     },
     {
+      "name": "Blackboard software",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "IBM Domino",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "MicroStrategy",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "NetSuite ERP",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.8085470085470086
+    },
+    {
       "name": "Oracle Database",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "Oracle Fusion Applications",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "SAP Business Objects",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "SAP Crystal Reports",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.8085470085470086
+    },
+    {
+      "name": "Tableau",
       "weight": 0.8085470085470086
     },
     {
       "name": "R",
       "weight": 0.791880341880342
+    },
+    {
+      "name": "Advanced business application programming ABAP",
+      "weight": 0.7854700854700855
+    },
+    {
+      "name": "Atlassian JIRA",
+      "weight": 0.7854700854700855
     },
     {
       "name": "C",
@@ -1730,6 +2748,10 @@
       "weight": 0.7854700854700855
     },
     {
+      "name": "Job control language JCL",
+      "weight": 0.7854700854700855
+    },
+    {
       "name": "Microsoft SQL Server",
       "weight": 0.7854700854700855
     },
@@ -1738,8 +2760,144 @@
       "weight": 0.7854700854700855
     },
     {
+      "name": "Oracle Java",
+      "weight": 0.7854700854700855
+    },
+    {
+      "name": "Perforce Helix software",
+      "weight": 0.7854700854700855
+    },
+    {
+      "name": "Ruby on Rails",
+      "weight": 0.7854700854700855
+    },
+    {
       "name": "Structured query language SQL",
       "weight": 0.7854700854700855
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.7649572649572649
+    },
+    {
+      "name": "Adobe Illustrator",
+      "weight": 0.7649572649572649
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.7649572649572649
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.7316239316239317
+    },
+    {
+      "name": "Amazon DynamoDB",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Amazon Elastic Compute Cloud EC2",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Amazon Redshift",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Amazon Simple Storage Service S3",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Amazon Web Services AWS software",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Apache Cassandra",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Apache HTTP Server",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Apache Hadoop",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Apache Hive",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Apache Kafka",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Apache Pig",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Apache Solr",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Apache Spark",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Apache Subversion SVN",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Bash",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Common business oriented language COBOL",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Customer information control system CICS",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Eclipse IDE",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Git",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Hewlett Packard HP-UX",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "IBM InfoSphere DataStage",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "IBM WebSphere",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Integrated development environment IDE software",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "JavaScript",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "KornShell",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Microsoft .NET Framework",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Microsoft Azure software",
+      "weight": 0.7085470085470086
     },
     {
       "name": "Microsoft SQL Server Integration Services SSIS",
@@ -1750,7 +2908,27 @@
       "weight": 0.7085470085470086
     },
     {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Microsoft Visual Basic Scripting Edition VBScript",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "MongoDB",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Nagios",
+      "weight": 0.7085470085470086
+    },
+    {
       "name": "NoSQL",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
       "weight": 0.7085470085470086
     },
     {
@@ -1758,7 +2936,27 @@
       "weight": 0.7085470085470086
     },
     {
+      "name": "Oracle Solaris",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Oracle WebLogic Server",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "PHP",
+      "weight": 0.7085470085470086
+    },
+    {
       "name": "PostgreSQL",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Quest Erwin Data Modeler",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Red Hat Enterprise Linux",
       "weight": 0.7085470085470086
     },
     {
@@ -1770,11 +2968,231 @@
       "weight": 0.7085470085470086
     },
     {
+      "name": "Splunk Enterprise",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Teradata Database",
+      "weight": 0.7085470085470086
+    },
+    {
       "name": "Transact-SQL",
       "weight": 0.7085470085470086
     },
     {
+      "name": "UNIX",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "UNIX Shell",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Ubuntu",
+      "weight": 0.7085470085470086
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.6974358974358974
+    },
+    {
+      "name": "Oracle PeopleSoft",
+      "weight": 0.6974358974358974
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.688034188034188
+    },
+    {
+      "name": "Delphi Technology",
+      "weight": 0.6547008547008547
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.6418803418803419
+    },
+    {
+      "name": "AJAX",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Amazon Web Services AWS CloudFormation",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Ansible software",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Apache Ant",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Apache Groovy",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Apache Maven",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Apache Struts",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Apache Tomcat",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Atlassian Bamboo",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Atlassian Confluence",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Chef",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Cisco Webex",
+      "weight": 0.6316239316239316
+    },
+    {
       "name": "Django",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Docker",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Drupal",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "ESRI ArcGIS software",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Elasticsearch",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Enterprise JavaBeans",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Extensible hypertext markup language XHTML",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "GitHub",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Go",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Hewlett Packard LoadRunner",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Hibernate ORM",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "IBM Power Systems software",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "JavaScript Object Notation JSON",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Jupyter Notebook",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "LAMP Stack",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Microsoft ASP.NET",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Microsoft ASP.NET Core MVC",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Microsoft Active Server Pages ASP",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Microsoft ActiveX",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Microsoft PowerShell",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Microsoft Windows Server",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Node.js",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Oracle Fusion Middleware",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Oracle JDBC",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Oracle JavaServer Pages JSP",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Puppet",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Red Hat OpenShift",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Red Hat WildFly",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Ruby",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Skype",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Swift",
+      "weight": 0.6316239316239316
+    },
+    {
+      "name": "Wireshark",
       "weight": 0.6316239316239316
     },
     {
@@ -1782,36 +3200,932 @@
       "weight": 0.6316239316239316
     },
     {
+      "name": "Blackbaud The Raiser's Edge",
+      "weight": 0.6205128205128205
+    },
+    {
       "name": "Web browser software",
       "weight": 0.6
+    },
+    {
+      "name": "Oracle Eloqua",
+      "weight": 0.564957264957265
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.564957264957265
+    },
+    {
+      "name": "Epic Systems",
+      "weight": 0.5547008547008547
+    },
+    {
+      "name": "Geographic information system GIS software",
+      "weight": 0.5547008547008547
+    },
+    {
+      "name": "Citrix cloud computing software",
+      "weight": 0.5435897435897437
+    },
+    {
+      "name": "Human resource management software HRMS",
+      "weight": 0.5435897435897437
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.5435897435897437
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.5435897435897437
+    },
+    {
+      "name": "Oracle E-Business Suite Financials",
+      "weight": 0.5435897435897437
+    },
+    {
+      "name": "Oracle PeopleSoft Financials",
+      "weight": 0.5435897435897437
+    },
+    {
+      "name": "Scala",
+      "weight": 0.541880341880342
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 0.541880341880342
+    },
+    {
+      "name": "Unified modeling language UML",
+      "weight": 0.541880341880342
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.538034188034188
+    },
+    {
+      "name": "McAfee",
+      "weight": 0.5205128205128206
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.5205128205128206
+    },
+    {
+      "name": "StataCorp Stata",
+      "weight": 0.5205128205128206
+    },
+    {
+      "name": "VMware",
+      "weight": 0.5205128205128206
+    },
+    {
+      "name": "Veritas NetBackup",
+      "weight": 0.5205128205128206
+    },
+    {
+      "name": "Gallery Systems The Museum System",
+      "weight": 0.5
     },
     {
       "name": "Word processing software",
       "weight": 0.5
     },
     {
+      "name": "Marketo Marketing Automation",
+      "weight": 0.47777777777777775
+    },
+    {
+      "name": "Oracle Taleo",
+      "weight": 0.4666666666666667
+    },
+    {
+      "name": "Backbone.js",
+      "weight": 0.46495726495726497
+    },
+    {
       "name": "Cascading style sheets CSS",
       "weight": 0.46495726495726497
+    },
+    {
+      "name": "Ext JS",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "Google Analytics",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "Google Angular",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "Google Meet",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "IBM Informix",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "JUnit",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "Microsoft Visual Basic.NET",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "Microsoft Visual C# .NET",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "Selenium",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "Spring Boot",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "Spring Framework",
+      "weight": 0.46495726495726497
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.46111111111111114
+    },
+    {
+      "name": "Access management software",
+      "weight": 0.44358974358974357
+    },
+    {
+      "name": "Encryption software",
+      "weight": 0.44358974358974357
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.44358974358974357
+    },
+    {
+      "name": "SolarWinds",
+      "weight": 0.44358974358974357
+    },
+    {
+      "name": "Storage area network SAN software",
+      "weight": 0.44358974358974357
+    },
+    {
+      "name": "Virtual private networking VPN software",
+      "weight": 0.44358974358974357
+    },
+    {
+      "name": "Zabbix",
+      "weight": 0.44358974358974357
+    },
+    {
+      "name": "Adobe ActionScript",
+      "weight": 0.43162393162393164
+    },
+    {
+      "name": "Google Sites",
+      "weight": 0.43162393162393164
     },
     {
       "name": "Relational database management system software",
       "weight": 0.38803418803418804
     },
     {
+      "name": "Salesforce Visualforce",
+      "weight": 0.38803418803418804
+    },
+    {
+      "name": "LogMeIn GoToMeeting",
+      "weight": 0.3769230769230769
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.3769230769230769
+    },
+    {
+      "name": "Computer based training software",
+      "weight": 0.3666666666666667
+    },
+    {
+      "name": "Supervisory control and data acquisition SCADA software",
+      "weight": 0.3666666666666667
+    },
+    {
+      "name": "Google Docs",
+      "weight": 0.364957264957265
+    },
+    {
+      "name": "Google Drive",
+      "weight": 0.364957264957265
+    },
+    {
+      "name": "Apple Final Cut Pro",
+      "weight": 0.3611111111111111
+    },
+    {
+      "name": "Moodle",
+      "weight": 0.35470085470085466
+    },
+    {
+      "name": "Apache Sqoop",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "Greenplum Database",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "Informatica software",
+      "weight": 0.35384615384615387
+    },
+    {
       "name": "Microsoft Power BI",
       "weight": 0.35384615384615387
+    },
+    {
+      "name": "Oracle SQL Loader",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "Pentaho Kettle",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "SAP Adaptive Server Enterprise",
+      "weight": 0.35384615384615387
+    },
+    {
+      "name": "Objective C",
+      "weight": 0.3418803418803419
+    },
+    {
+      "name": "Dropbox",
+      "weight": 0.288034188034188
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.288034188034188
+    },
+    {
+      "name": "JamBoard",
+      "weight": 0.288034188034188
+    },
+    {
+      "name": "Screencastify",
+      "weight": 0.288034188034188
+    },
+    {
+      "name": "Slack",
+      "weight": 0.288034188034188
+    },
+    {
+      "name": "SmugMug Flickr",
+      "weight": 0.288034188034188
+    },
+    {
+      "name": "YouTube",
+      "weight": 0.288034188034188
+    },
+    {
+      "name": "ADO.NET",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "ASG Technologies ASG-Zeke",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Ab Initio",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Acronis Recovery Expert",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Apache Airflow",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Apache Mahout",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "BMC Software Change Manager",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "BMC Software Control-M",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "BMC Software Recovery Manager RMAN",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "CA Easytrieve Report Generator",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "CA IDMS",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Catalog navigation software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Cluster server software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Computer Associates Log Analyzer",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Concurrency control software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Couchbase Server",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "DOS shell script",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Data definition language DDL",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Data dictionary software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Data manipulation language DML",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Data mapping software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Data modeling software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Data transformation services DTS software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Data validation software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Database capacity planning software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Database cloning software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Database design software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Database security software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Database testing software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Deployment software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "EMC NetWorker",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Ellucian Banner ERP",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Embarcadero Technologies DBArtisan",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "HP DataProtector",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "IBM ADSTAR",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "IBM DB2",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "IBM Interactive System Productivity Facility ISPF",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "IBM Rational Data Architect",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Index tuning software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Informatica Big Data",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Informatica Corporation PowerCenter",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "LogMeIn GoToWebinar",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "MapR Converged Data Platform",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "MariaDB",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Micosoft SQL Server Analysis Services SSAS",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Object database management system ODBMS",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Oracle Application Express APEX",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Oracle Data Guard",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Oracle Designer",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Oracle Enterprise Manager",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Oracle Enterprise Manager Cloud Control",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Oracle Golden Gate",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Oracle Real Application Cluster RAC",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Oracle Reports",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Oracle SQL Developer",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Oracle SQL Plus",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Prolog",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Quest Central",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Quest SharePlex",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "ReCrystallize Crystal Reports",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Red Hat Ansible Engine",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Redgate SQL Server",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Restructured extended executor REXX",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "SAP PowerBuilder",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "SAP Replication Server",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Safe Software FME",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "SentryOne SQL Sentry",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Snowflake",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Storage management software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Systems and data disaster recovery software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Teradata Active Enterprise Data Warehouse",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Test data generator software",
+      "weight": 0.27692307692307694
+    },
+    {
+      "name": "Visual Paradigm DB Visual ARCHITECT",
+      "weight": 0.27692307692307694
     },
     {
       "name": "Microsoft Teams",
       "weight": 0.26666666666666666
     },
     {
+      "name": "Adobe After Effects",
+      "weight": 0.26495726495726496
+    },
+    {
+      "name": "Amazon Kinesis",
+      "weight": 0.26495726495726496
+    },
+    {
+      "name": "React",
+      "weight": 0.26495726495726496
+    },
+    {
+      "name": "Adlib Information Systems Adlib Archive",
+      "weight": 0.25
+    },
+    {
+      "name": "Adobe FreeHand MX",
+      "weight": 0.25
+    },
+    {
+      "name": "Adobe Premiere Pro",
+      "weight": 0.25
+    },
+    {
+      "name": "Archivists' Toolkit",
+      "weight": 0.25
+    },
+    {
+      "name": "Archon",
+      "weight": 0.25
+    },
+    {
+      "name": "Artsystems Collections",
+      "weight": 0.25
+    },
+    {
+      "name": "Corel Paint Shop Pro",
+      "weight": 0.25
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.25
+    },
+    {
+      "name": "Cuadra Associates STAR/Museums",
+      "weight": 0.25
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.25
+    },
+    {
+      "name": "DiMeMa CONTENTdm",
+      "weight": 0.25
+    },
+    {
+      "name": "Eloquent Systems Eloquent",
+      "weight": 0.25
+    },
+    {
+      "name": "Encoded archival system EAD",
+      "weight": 0.25
+    },
+    {
       "name": "Esri ArcGIS",
+      "weight": 0.25
+    },
+    {
+      "name": "Ex Libris Group DigiTool",
+      "weight": 0.25
+    },
+    {
+      "name": "Gallery Systems EmbARK",
+      "weight": 0.25
+    },
+    {
+      "name": "Geographic information system GIS systems",
+      "weight": 0.25
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.25
+    },
+    {
+      "name": "KE Software EMu",
+      "weight": 0.25
+    },
+    {
+      "name": "MINISIS MINT",
+      "weight": 0.25
+    },
+    {
+      "name": "Microsoft Paint",
+      "weight": 0.25
+    },
+    {
+      "name": "Omeka software",
+      "weight": 0.25
+    },
+    {
+      "name": "PREMIS",
+      "weight": 0.25
+    },
+    {
+      "name": "PastPerfect Software PastPerfect",
+      "weight": 0.25
+    },
+    {
+      "name": "Presentation software",
+      "weight": 0.25
+    },
+    {
+      "name": "Questor Systems ARGUS",
+      "weight": 0.25
+    },
+    {
+      "name": "Re:discovery Software Proficio",
+      "weight": 0.25
+    },
+    {
+      "name": "Scheduling software",
       "weight": 0.25
     },
     {
       "name": "Structure query language SQL",
       "weight": 0.25
+    },
+    {
+      "name": "Vernon Systems Limited Vernon CMS",
+      "weight": 0.25
+    },
+    {
+      "name": "Willoughby Associates MIMSY XG",
+      "weight": 0.25
+    },
+    {
+      "name": "Amazon Data Pipeline",
+      "weight": 0.2
+    },
+    {
+      "name": "Microsoft Azure Data Factory",
+      "weight": 0.2
+    },
+    {
+      "name": "Oracle Learning Management",
+      "weight": 0.2
+    },
+    {
+      "name": "PySpark",
+      "weight": 0.2
+    },
+    {
+      "name": "Adobe Flex",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Airtable",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Apple Cocoa",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Blink",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Bootstrap",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Common gateway interface CGI",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Extensible stylesheet language XSL",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Extensible stylesheet language transformations XSLT",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Figma",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "FlexBox",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Google Ads",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Google Android",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "HashiCorp Vagrant",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "HubSpot software",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "IBM Rational Rose XDE",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "InVision software",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Jekyll",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "JetBrains PhpStorm",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Kapwing",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "MarkLogic",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "MeteorJS",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Microsoft Commerce Server",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Microsoft Internet Information Services (IIS)",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Microsoft Visual InterDev",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Microsoft Visual SourceSafe",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Nunjucks",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Oracle Java 2 Platform Enterprise Edition J2EE",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "PhantomJS",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "RequireJS",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Screencast-O-Matic",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Sitecore CMS",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Travis",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "TypeScript",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Vue.js",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Zend Framework",
+      "weight": 0.18803418803418803
+    },
+    {
+      "name": "Active directory software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Adexa eGPS Suite",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Application management software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Automated installation software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Berkeley Internet Domain Name BIND",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Border Gateway Protocol BGP",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Cisco Systems CiscoWorks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Citrix XenApp",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Command interpreters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Computer system diagnostics software",
+      "weight": 0.16666666666666666
     },
     {
       "name": "Configuration management software",
@@ -1846,6 +4160,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Ethereal",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Firewall software",
       "weight": 0.16666666666666666
     },
@@ -1855,6 +4173,10 @@
     },
     {
       "name": "Hewlett-Packard HP Network Node Manager",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Honeypot",
       "weight": 0.16666666666666666
     },
     {
@@ -1874,7 +4196,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Lavalys Everest",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "LogMatrix NerveCenter",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mac HelpMate",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Management information base MIB software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Micromuse NetCool",
       "weight": 0.16666666666666666
     },
     {
@@ -1883,6 +4221,10 @@
     },
     {
       "name": "Microsoft Windows Sysprep",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft Windows Terminal Services Access Manager",
       "weight": 0.16666666666666666
     },
     {
@@ -1914,6 +4256,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Network documentation software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Network intrusion detection software",
       "weight": 0.16666666666666666
     },
@@ -1930,7 +4276,15 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Network shutdown software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Network traffic flow monitoring and analysis software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Network traffic probe software",
       "weight": 0.16666666666666666
     },
     {
@@ -1938,11 +4292,43 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Novell NetWare Management Station",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Online traffic calculator software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Open source routing protocols OSPF",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "OpenService Open NerveCenter",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Operating system process control software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Optical network management software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Oracle Net Manager",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Packet filter software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Packet tracing software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "ParentSquare",
       "weight": 0.16666666666666666
     },
     {
@@ -1951,6 +4337,14 @@
     },
     {
       "name": "Patch and update management software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Ping Identity",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Quest BigBrother",
       "weight": 0.16666666666666666
     },
     {
@@ -1963,6 +4357,10 @@
     },
     {
       "name": "Remote monitoring software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Requirements management software",
       "weight": 0.16666666666666666
     },
     {
@@ -1994,7 +4392,15 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Symantec Ghost Solution Suite",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "System and data disaster recovery software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Systems and applications migration software",
       "weight": 0.16666666666666666
     },
     {
@@ -2002,7 +4408,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "TKSoftware RCM software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Tcpdump",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Virtual local area network management software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Virtual network computing VNC software",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Voice over internet protocol VoIP system software",
       "weight": 0.16666666666666666
     },
     {
@@ -2042,6 +4464,14 @@
       "weight": 0.15384615384615385
     },
     {
+      "name": "Coglin Mill RODIN",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Flat File Checker",
+      "weight": 0.15384615384615385
+    },
+    {
       "name": "HiT Software Allora",
       "weight": 0.15384615384615385
     },
@@ -2051,6 +4481,10 @@
     },
     {
       "name": "Jitterbit",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Rapid-I RapidMiner",
       "weight": 0.15384615384615385
     },
     {
@@ -2078,6 +4512,18 @@
       "weight": 0.15384615384615385
     },
     {
+      "name": "WisdomForce DatabaseSync System",
+      "weight": 0.15384615384615385
+    },
+    {
+      "name": "Atlassian Bitbucket",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Atlassian HipChat",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Google Cloud software",
       "weight": 0.1111111111111111
     },
@@ -2094,11 +4540,35 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Jest",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Kubernetes",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microservices Architecture",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "RESTful API",
       "weight": 0.1111111111111111
     },
     {
+      "name": "React Redux",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Redis",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Syntactically awesome style sheets SASS",
       "weight": 0.1111111111111111
     },
     {
@@ -2114,11 +4584,147 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "webpack",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "ADP Workforce Now",
+      "weight": 0.1
+    },
+    {
+      "name": "Bookkeeping software",
+      "weight": 0.1
+    },
+    {
+      "name": "Contract management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Data entry software",
+      "weight": 0.1
+    },
+    {
+      "name": "Document management system software",
+      "weight": 0.1
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.1
+    },
+    {
+      "name": "HCSS HeavyBid",
+      "weight": 0.1
+    },
+    {
+      "name": "HCSS HeavyJob",
+      "weight": 0.1
+    },
+    {
+      "name": "Handheld computer device software",
+      "weight": 0.1
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.1
+    },
+    {
+      "name": "Loom",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.1
+    },
+    {
+      "name": "Mozilla Firefox",
+      "weight": 0.1
+    },
+    {
+      "name": "Padlet",
+      "weight": 0.1
+    },
+    {
+      "name": "Payroll software",
+      "weight": 0.1
+    },
+    {
+      "name": "Project management software",
+      "weight": 0.1
+    },
+    {
+      "name": "Quicken",
+      "weight": 0.1
+    },
+    {
+      "name": "Sage 50 Accounting",
+      "weight": 0.1
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.1
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.1
+    },
+    {
+      "name": "Yardi software",
+      "weight": 0.1
+    },
+    {
+      "name": "3D graphic design software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Adaptive Metadata Manager",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Adobe XD",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Apple iOS",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Application server software",
       "weight": 0.07692307692307693
     },
     {
+      "name": "Aster Data nCluster",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Autodesk 3ds Max",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Autodesk Maya",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Axure RP",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Balsamiq Studios Balsamiq Mockups",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "C shell",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "CA Technologies ERWin Data Modeler",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Chatbot software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Cisco IOS",
       "weight": 0.07692307692307693
     },
     {
@@ -2135,6 +4741,14 @@
     },
     {
       "name": "Embarcadero ER/Studio XE",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Graphical user interface GUI design software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "IBM AIX",
       "weight": 0.07692307692307693
     },
     {
@@ -2155,6 +4769,34 @@
     },
     {
       "name": "IBM Rational System Architect",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Infobright Community Edition ICE",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Intel Data Migration Software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "InterMine",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Interface Computers Data Loader",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Kalido Information Engine",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Lua",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Microsoft Expression Blend",
       "weight": 0.07692307692307693
     },
     {
@@ -2186,11 +4828,87 @@
       "weight": 0.07692307692307693
     },
     {
+      "name": "Oracle Recovery Manager",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Oracle Warehouse Builder",
       "weight": 0.07692307692307693
     },
     {
+      "name": "ParAccel Analytic Database",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Perforce software",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Perl shell",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Quest SQL Optimizer for Oracle",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "SAND",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "SAP IQ",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "SAP NetWeaver BW",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "SAS Data Integration Server",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "SAS Data Integration Studio",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Scheme",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "TIBCO Spotfire",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "TalendForge",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Teradata BTEQ",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Teradata FastExport",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Teradata FastLoad",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Teradata Parallel Transporter",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Teradata Tpump",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "UserZoom",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "WeVideo",
       "weight": 0.07692307692307693
     }
   ],
@@ -2212,6 +4930,10 @@
       "weight": 0.5205128205128206
     },
     {
+      "name": "Digitizers",
+      "weight": 0.5
+    },
+    {
       "name": "Notebook computers",
       "weight": 0.44358974358974357
     },
@@ -2224,11 +4946,39 @@
       "weight": 0.44358974358974357
     },
     {
+      "name": "Scanners",
+      "weight": 0.35
+    },
+    {
       "name": "Hard disk drives",
       "weight": 0.27692307692307694
     },
     {
+      "name": "Compact digital cameras",
+      "weight": 0.25
+    },
+    {
       "name": "Data input scanners",
+      "weight": 0.25
+    },
+    {
+      "name": "Digital cameras",
+      "weight": 0.25
+    },
+    {
+      "name": "Inkjet printers",
+      "weight": 0.25
+    },
+    {
+      "name": "Light meters",
+      "weight": 0.25
+    },
+    {
+      "name": "Slotted screwdrivers",
+      "weight": 0.25
+    },
+    {
+      "name": "Utility knives",
       "weight": 0.25
     },
     {
@@ -2252,15 +5002,99 @@
       "weight": 0.17692307692307693
     },
     {
+      "name": "Laser facsimile machines",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.17692307692307693
+    },
+    {
+      "name": "Cable verifiers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Communications analyzers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Computer tool kits",
       "weight": 0.16666666666666666
+    },
+    {
+      "name": "Network analyzers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Network switches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power meters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Protocol analyzers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Punchdown tools",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Wire crimpers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "10-key calculators",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.1
+    },
+    {
+      "name": "Liquid crystal display LCD projectors",
+      "weight": 0.1
+    },
+    {
+      "name": "Photocopiers",
+      "weight": 0.1
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Postal scales",
+      "weight": 0.1
+    },
+    {
+      "name": "Voice mail systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Audioconferencing systems",
+      "weight": 0.07692307692307693
     },
     {
       "name": "Computer servers",
       "weight": 0.07692307692307693
     },
     {
+      "name": "Copy machines",
+      "weight": 0.07692307692307693
+    },
+    {
       "name": "Data warehouse appliances",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Smart phones",
       "weight": 0.07692307692307693
     },
     {

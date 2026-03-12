@@ -1545,203 +1545,1599 @@
   "tasks": [
     {
       "task": "Check road or weather conditions to determine how routes will be affected.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.81
     },
     {
       "task": "Refuel trucks or add other fluids, such as oil or brake fluid.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.33
     },
     {
-      "task": "Organize schedules for refuse collection and make special pickups of recyclable materials.",
-      "task_type": "Supplemental"
+      "task": "Organize schedules for refuse collection.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.29
     },
     {
-      "task": "Clean trucks or compactor bodies after routes have been completed and inspect trucks to ensure safe operating condition.",
-      "task_type": "Core"
+      "task": "Clean trucks or compactor bodies after routes have been completed.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.61
     },
     {
-      "task": "Communicate with dispatchers concerning delays, unsafe sites, accidents, or maintenance problems.",
-      "task_type": "Core"
+      "task": "Tag garbage or recycling containers to inform customers of problems, such as excess garbage or inclusion of items that are not permitted.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.79
     },
     {
-      "task": "Dismount garbage trucks to collect garbage and operate automated devices that dump contents into truck bodies.",
-      "task_type": "Core"
+      "task": "Communicate with dispatchers concerning delays, unsafe sites, accidents, equipment breakdowns, or other maintenance problems.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.96
     },
     {
-      "task": "Drive trucks, following established routes through residential and business areas, and dump refuse at disposal sites.",
-      "task_type": "Core"
+      "task": "Dismount garbage trucks to collect garbage and remount trucks to ride to the next collection point.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.99
     },
     {
-      "task": "Conduct field inspections of biomass plants and oversee operations to ensure compliance with safety standards.",
-      "task_type": "Core"
+      "task": "Operate automated or semi-automated hoisting devices that raise refuse bins and dump contents into openings in truck bodies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.05
     },
     {
-      "task": "Manage operations at biofuels power generation facilities, including supervising production employees and developing budgets.",
-      "task_type": "Core"
+      "task": "Operate equipment that compresses collected refuse.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.98
     },
     {
-      "task": "Prepare and manage operational budgets for geothermal operations, and develop operating plans and schedules.",
-      "task_type": "Core"
+      "task": "Drive trucks, following established routes, through residential streets or alleys or through business or industrial areas.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.35
     },
     {
-      "task": "Document testing procedures and analyze quality control test results to provide feedback to production management.",
-      "task_type": "Core"
+      "task": "Fill out defective equipment reports.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.27
     },
     {
-      "task": "Create and implement inspection and testing criteria or procedures to ensure compliance with quality control standards.",
-      "task_type": "Core"
+      "task": "Inspect trucks prior to beginning routes to ensure safe operating condition.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.53
     },
     {
-      "task": "Communicate geothermal plant conditions to employees and provide training to improve safety or increase production of biofuels.",
-      "task_type": "Core"
+      "task": "Dump refuse or recyclable materials at disposal sites.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.32
     },
     {
-      "task": "Review logs or reports to ensure adequate production levels and monitor geothermal operations using programmable logic controllers.",
-      "task_type": "Core"
+      "task": "Make special pickups of recyclable materials, such as food scraps, used oil, discarded computers, or other electronic items.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.37
     },
     {
-      "task": "Direct the tracking of defects and oversee quality control systems to ensure their effectiveness and efficiency.",
-      "task_type": "Core"
+      "task": "Review logs, datasheets, or reports to ensure adequate production levels and safe production environments or to identify abnormalities with power production equipment or processes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
     },
     {
-      "task": "Inspect geothermal plant or injection well fields to verify proper equipment operations and identify opportunities for improvement.",
-      "task_type": "Core"
+      "task": "Compile and record operational data on forms or in log books.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
+    },
+    {
+      "task": "Review biomass operations performance specifications to ensure compliance with regulatory requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.52
+    },
+    {
+      "task": "Prepare reports on biomass plant operations, status, maintenance, and other information.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.54
+    },
+    {
+      "task": "Prepare and manage biomass plant budgets.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Plan and schedule plant activities, such as wood, waste, or refuse fuel deliveries, ash removal, and regular maintenance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.82
+    },
+    {
+      "task": "Operate controls to start, stop, or regulate biomass-fueled generators, generator units, boilers, engines, or auxiliary systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
+    },
+    {
+      "task": "Inspect biomass gasification processes, equipment, and facilities for ways to maximize capacity and minimize operating costs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.58
+    },
+    {
+      "task": "Evaluate power production or demand trends to identify opportunities for improved operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.6
+    },
+    {
+      "task": "Shut down and restart biomass power plants or equipment in emergency situations or for equipment maintenance, repairs, or replacements.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.11
+    },
+    {
+      "task": "Supervise biomass plant or substation operations, maintenance, repair, or testing activities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.12
+    },
+    {
+      "task": "Adjust equipment controls to generate specified amounts of electrical power.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.76
+    },
+    {
+      "task": "Direct or coordinate production, processing, distribution, or marketing activities of industrial organizations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Monitor and operate communications systems, such as mobile radios.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.29
+    },
+    {
+      "task": "Manage parts and supply inventories for biomass plants.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.4
+    },
+    {
+      "task": "Test, maintain, or repair electrical power distribution machinery or equipment, using hand tools, power tools, and testing devices.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.7
+    },
+    {
+      "task": "Conduct field inspections of biomass plants, stations, or substations to ensure normal and safe operating conditions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.87
+    },
+    {
+      "task": "Manage operations at biofuels power generation facilities, including production, shipping, maintenance, or quality assurance activities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.32
+    },
+    {
+      "task": "Adjust temperature, pressure, vacuum, level, flow rate, or transfer of biofuels to maintain processes at required levels.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.22
+    },
+    {
+      "task": "Approve proposals for the acquisition, replacement, or repair of biofuels processing equipment or the implementation of new production processes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.72
+    },
+    {
+      "task": "Conduct cost, material, and efficiency studies for biofuels production plants or operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
+    },
+    {
+      "task": "Monitor meters, flow gauges, or other real-time data to ensure proper operation of biofuels production equipment, implementing corrective measures as needed.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.22
+    },
+    {
+      "task": "Prepare and manage biofuels plant or unit budgets.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
+    },
+    {
+      "task": "Review logs, datasheets, or reports to ensure adequate production levels or to identify abnormalities with biofuels production equipment or processes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.25
+    },
+    {
+      "task": "Supervise production employees in the manufacturing of biofuels, such as biodiesel or ethanol.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.41
+    },
+    {
+      "task": "Monitor the operating status of biomass plants by observing control system parameters, distributed control systems, switchboard gauges, dials, or other indicators.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Perform or direct preventive or corrective containment or cleanup to protect the environment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Develop or implement policy evaluation procedures for hydroelectric generation activities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.6
+    },
+    {
+      "task": "Provide technical direction in the erection or commissioning of hydroelectric equipment or supporting electrical or mechanical systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
+    },
+    {
+      "task": "Develop budgets or approve expenditures for supplies, materials, or human resources, ensuring that materials, labor, or equipment are used efficiently to meet production targets.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
+    },
+    {
+      "task": "Manage safety programs at power generation facilities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.63
+    },
+    {
+      "task": "Conduct site audits to ensure adherence to safety and environmental regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop or enforce procedures for normal operation of manufacturing systems.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Implement operational and emergency procedures.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
     },
     {
       "task": "Maintain records to demonstrate compliance with safety and environmental laws, regulations, or policies.",
-      "task_type": "Unclassified"
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
     },
     {
-      "task": "Supervise subordinate employees and provide direction to ensure compliance with operational standards and regulations.",
-      "task_type": "Core"
+      "task": "Monitor permit requirements for updates.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
     },
     {
-      "task": "Perform or direct preventative maintenance on geothermal plant equipment.",
-      "task_type": "Core"
+      "task": "Optimize operational costs and productivity consistent with safety and environmental rules and regulations.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Prepare reports on operations and system productivity or efficiency.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Supervise subordinate employees.",
+      "task_type": "Unclassified",
+      "relevance": 0.14285714285714285,
+      "importance": 0.0
+    },
+    {
+      "task": "Direct operations, maintenance, or repair of hydroelectric power facilities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.48
+    },
+    {
+      "task": "Supervise or monitor hydroelectric facility operations to ensure that generation or mechanical equipment conform to applicable regulations or standards.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
+    },
+    {
+      "task": "Check hydroelectric operations for compliance with prescribed operating limits, such as loads, voltages, temperatures, lines, or equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.07
+    },
+    {
+      "task": "Create or enforce hydrostation voltage schedules.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
+    },
+    {
+      "task": "Develop or review budgets, annual plans, power contracts, power rates, standing operating procedures, power reviews, or engineering studies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.61
+    },
+    {
+      "task": "Identify and communicate power system emergencies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.23
+    },
+    {
+      "task": "Inspect hydroelectric facilities, including switchyards, control houses, or relay houses, for normal operation or adherence to safety standards.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.13
+    },
+    {
+      "task": "Maintain records of hydroelectric facility operations, maintenance, or repairs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.16
+    },
+    {
+      "task": "Operate energized high- or low-voltage hydroelectric power transmission system substations, according to procedures and safety requirements.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.06
+    },
+    {
+      "task": "Draw samples of biofuels products or secondary by-products for quality control testing.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
+    },
+    {
+      "task": "Plan or coordinate hydroelectric production operations to meet customer requirements.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
+    },
+    {
+      "task": "Plan or manage hydroelectric plant upgrades.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.79
+    },
+    {
+      "task": "Respond to problems related to ratepayers, water users, power users, government agencies, educational institutions, or other private or public power resource interests.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.62
+    },
+    {
+      "task": "Supervise hydropower plant equipment installations, upgrades, or maintenance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
+    },
+    {
+      "task": "Develop or implement projects to improve efficiency, economy, or effectiveness of hydroelectric plant operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.88
+    },
+    {
+      "task": "Confer with technical and supervisory personnel to report or resolve conditions affecting biofuels plant safety, operational efficiency, and product quality.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
+    },
+    {
+      "task": "Monitor or inspect hydroelectric equipment, such as hydro-turbines, generators, or control systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Monitor transportation and storage of flammable or other potentially dangerous feedstocks or products to ensure adherence to safety guidelines.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
+    },
+    {
+      "task": "Review statistical studies, technological advances, or regulatory standards and trends to stay abreast of issues in the field of quality control.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.63
+    },
+    {
+      "task": "Instruct vendors or contractors on quality guidelines, testing procedures, or ways to eliminate deficiencies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.52
+    },
+    {
+      "task": "Monitor development of new products to help identify possible problems for mass production.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Participate in the development of product specifications.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.08
+    },
+    {
+      "task": "Produce reports regarding nonconformance of products or processes, daily production quality, root cause analyses, or quality trends.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
+    },
+    {
+      "task": "Review and update standard operating procedures or quality assurance manuals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Review quality documentation necessary for regulatory submissions and inspections.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.24
+    },
+    {
+      "task": "Verify that raw materials, purchased parts or components, in-process samples, and finished products meet established testing and inspection standards.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.22
+    },
+    {
+      "task": "Audit and inspect subcontractor facilities including external laboratories.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.36
+    },
+    {
+      "task": "Collect and analyze production samples to evaluate quality.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.02
+    },
+    {
+      "task": "Coordinate the selection and implementation of quality control equipment, such as inspection gauges.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.61
+    },
+    {
+      "task": "Evaluate new testing and sampling methodologies or technologies to determine usefulness.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.27
+    },
+    {
+      "task": "Generate and maintain quality control operating budgets.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.56
+    },
+    {
+      "task": "Review and approve quality plans submitted by contractors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.24
+    },
+    {
+      "task": "Instruct staff in quality control and analytical procedures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.11
+    },
+    {
+      "task": "Review operations and confer with technical or administrative staff to resolve production or processing problems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Hire, train, evaluate, or discharge staff or resolve personnel grievances.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Stop production if serious product defects are present.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.61
+    },
+    {
+      "task": "Negotiate materials prices with suppliers.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.53
+    },
+    {
+      "task": "Maintain current knowledge of the quality control field, relying on current literature pertaining to materials use, technological advances, or statistical studies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.47
+    },
+    {
+      "task": "Coordinate or recommend procedures for facility or equipment maintenance or modification, including the replacement of machines.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.44
+    },
+    {
+      "task": "Review plans and confer with research or support staff to develop new products or processes.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.57
+    },
+    {
+      "task": "Develop or implement production tracking or quality control systems, analyzing production, quality control, maintenance, or other operational reports to detect production problems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.8
+    },
+    {
+      "task": "Set and monitor product standards, examining samples of raw products or directing testing during processing, to ensure finished products are of prescribed quality.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.01
+    },
+    {
+      "task": "Prepare and maintain production reports or personnel records.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.72
+    },
+    {
+      "task": "Initiate or coordinate inventory or cost control programs.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.28
+    },
+    {
+      "task": "Provide direction to employees to ensure compliance with biofuels plant safety, environmental, or operational standards and regulations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.3
+    },
+    {
+      "task": "Identify quality problems or areas for improvement and recommend solutions.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Review processing schedules or production orders to make decisions concerning inventory requirements, staffing requirements, work procedures, or duty assignments, considering budgetary limitations and time constraints.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.99
+    },
+    {
+      "task": "Identify critical points in the manufacturing process and specify sampling procedures to be used at these points.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.84
+    },
+    {
+      "task": "Record, review, or maintain daily logs, reports, maintenance, and other records associated with geothermal operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.85
+    },
+    {
+      "task": "Negotiate interconnection agreements with other utilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.16
+    },
+    {
+      "task": "Monitor geothermal operations, using programmable logic controllers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.77
+    },
+    {
+      "task": "Identify opportunities to improve plant electrical equipment, controls, or process control methodologies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.67
+    },
+    {
+      "task": "Identify and evaluate equipment, procedural, or conditional inefficiencies involving geothermal plant systems.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.01
+    },
+    {
+      "task": "Develop operating plans and schedules for geothermal operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.89
+    },
+    {
+      "task": "Document testing procedures, methodologies, or criteria.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.78
+    },
+    {
+      "task": "Develop or manage budgets for geothermal operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.93
+    },
+    {
+      "task": "Supervise employees in geothermal power plants or well fields.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.36
+    },
+    {
+      "task": "Oversee geothermal plant operations, maintenance, and repairs to ensure compliance with applicable standards or regulations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.34
+    },
+    {
+      "task": "Inspect geothermal plant or injection well fields to verify proper equipment operations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.95
+    },
+    {
+      "task": "Provide training to subordinate or new employees to improve biofuels plant safety or increase the production of biofuels.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Obtain permits for constructing, upgrading, or operating geothermal power plants.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.92
+    },
+    {
+      "task": "Prepare environmental permit applications or compliance reports.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.29
+    },
+    {
+      "task": "Troubleshoot and make minor repairs to geothermal plant instrumentation or electrical systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.46
+    },
+    {
+      "task": "Communicate geothermal plant conditions to employees.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.09
+    },
+    {
+      "task": "Direct the tracking of defects, test results, or other regularly reported quality control data.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.1
+    },
+    {
+      "task": "Create and implement inspection and testing criteria or procedures.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.78
+    },
+    {
+      "task": "Confer with marketing and sales departments to define client requirements and expectations.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.27
+    },
+    {
+      "task": "Communicate quality control information to all relevant organizational departments, outside vendors, or contractors.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.92
+    },
+    {
+      "task": "Analyze quality control test results and provide feedback and interpretation to production management or staff.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.23
+    },
+    {
+      "task": "Oversee workers including supervisors, inspectors, or laboratory workers engaged in testing activities.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.2
+    },
+    {
+      "task": "Direct product testing activities throughout production cycles.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.17
+    },
+    {
+      "task": "Conduct well field site assessments.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.77
+    },
+    {
+      "task": "Select and implement corrosion control or mitigation systems for geothermal plants.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.91
+    },
+    {
+      "task": "Perform or direct the performance of preventative maintenance on geothermal plant equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.0
+    },
+    {
+      "task": "Develop or implement marketing strategies.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.1
+    },
+    {
+      "task": "Maintain client databases.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.54
+    },
+    {
+      "task": "Direct facility maintenance or repair.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.81
+    },
+    {
+      "task": "Participate in continuing education classes to maintain current knowledge of industry.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.9
+    },
+    {
+      "task": "Establish regulatory priorities or budgets and allocate resources and workloads.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.77
+    },
+    {
+      "task": "Schedule guest appointments.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.63
+    },
+    {
+      "task": "Sell products, services, or memberships.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.09
+    },
+    {
+      "task": "Direct the preparation and submission of regulatory agency applications, reports, or correspondence.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.48
+    },
+    {
+      "task": "Formulate or implement regulatory affairs policies and procedures to ensure that regulatory compliance is maintained or enhanced.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.0
+    },
+    {
+      "task": "Provide regulatory guidance to departments or development project teams regarding design, development, evaluation, or marketing of products.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.3
+    },
+    {
+      "task": "Communicate regulatory information to multiple departments and ensure that information is interpreted correctly.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.13
+    },
+    {
+      "task": "Develop regulatory strategies and implementation plans for the preparation and submission of new products.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.74
+    },
+    {
+      "task": "Implement or monitor complaint processing systems to ensure effective and timely resolution of all complaint investigations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.83
+    },
+    {
+      "task": "Investigate product complaints and prepare documentation and submissions to appropriate regulatory agencies as necessary.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.47
+    },
+    {
+      "task": "Maintain current knowledge of relevant regulations, including proposed and final rules.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.09
+    },
+    {
+      "task": "Manage activities such as audits, regulatory agency inspections, or product recalls.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.19
+    },
+    {
+      "task": "Monitor emerging trends regarding industry regulations to determine potential impacts on organizational processes.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.41
+    },
+    {
+      "task": "Provide responses to regulatory agencies regarding product information or issues.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.43
+    },
+    {
+      "task": "Schedule staff or supervise scheduling.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.75
     },
     {
       "task": "Verify staff credentials, such as educational and certification requirements.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.76
     },
     {
-      "task": "Coordinate on-site activities for environmental cleanup or remediation projects to ensure compliance with environmental laws and standards.",
-      "task_type": "Core"
+      "task": "Coordinate on-site activities for environmental cleanup or remediation projects to ensure compliance with environmental laws, standards, regulations, or other requirements.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.38
     },
     {
-      "task": "Respond to customer inquiries or complaints regarding services provided.",
-      "task_type": "Core"
+      "task": "Respond to customer inquiries or complaints.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.69
     },
     {
-      "task": "Recruit, interview, or hire employees to fill necessary positions.",
-      "task_type": "Core"
+      "task": "Recruit, interview, or hire employees.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.08
     },
     {
-      "task": "Develop plans for the sustainable regeneration or revegetation of brownfield sites to ensure environmental protection and economic benefits.",
-      "task_type": "Core"
+      "task": "Develop or implement plans for revegetation of brownfield sites.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 2.67
     },
     {
-      "task": "Design or implement plans for environmental remediation, including water and soil quality improvements, and structural demolition.",
-      "task_type": "Core"
+      "task": "Design or implement plans for surface or ground water remediation.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.88
     },
     {
-      "task": "Coordinate the disposal of hazardous waste and monitor compliance with health, safety, or hygiene standards.",
-      "task_type": "Core"
+      "task": "Design or implement plans for structural demolition and debris removal.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.27
     },
     {
-      "task": "Conduct environmental restoration studies and feasibility or cost-benefit analyses for remediation projects.",
-      "task_type": "Core"
+      "task": "Design or implement measures to improve the water, air, and soil quality of military test sites, abandoned mine land, or other contaminated sites.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.8
     },
     {
-      "task": "Prepare or assist in the preparation of applications for environmental permits and review submissions for accuracy and compliance.",
-      "task_type": "Core"
+      "task": "Design or conduct environmental restoration studies.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.21
     },
     {
-      "task": "Develop relationships with regulatory agencies to analyze the potential impacts of proposed environmental policy regulations.",
-      "task_type": "Core"
+      "task": "Coordinate the disposal of hazardous waste.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.57
     },
     {
-      "task": "Evaluate compliance systems to ensure their effectiveness and report any violations to authorized agencies as necessary.",
-      "task_type": "Core"
+      "task": "Review all regulatory agency submission materials to ensure timeliness, accuracy, comprehensiveness, or compliance with regulatory standards.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.61
     },
     {
-      "task": "Inspect sites to assess environmental damage or monitor cleanup progress effectively.",
-      "task_type": "Core"
+      "task": "Conduct quantitative risk assessments for human health, environmental, or other risks.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.93
     },
     {
-      "task": "Negotiate contracts for services or materials needed for environmental remediation projects.",
-      "task_type": "Core"
+      "task": "Conduct feasibility or cost-benefit studies for environmental remediation projects.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.47
     },
     {
-      "task": "Conduct internal reviews or audits to ensure compliance with environmental standards and procedures.",
-      "task_type": "Core"
+      "task": "Develop or implement plans for the sustainable regeneration of brownfield sites to ensure regeneration of a wider area by providing environmental protection or economic and social benefits.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.5
     },
     {
-      "task": "Prepare reports to communicate the needs, status, or progress of environmental remediation and brownfield redevelopment projects.",
-      "task_type": "Core"
+      "task": "Inform staff of job responsibilities, performance expectations, client service standards, or corporate policies and guidelines.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.03
     },
     {
-      "task": "Provide training on compliance-related topics, regulations, or procedures for staff members.",
-      "task_type": "Core"
+      "task": "Train staff in the use or sale of products, programs, or activities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.97
     },
     {
-      "task": "Monitor compliance systems related to environmental standards and offer recommendations for improvements.",
-      "task_type": "Core"
+      "task": "Assess employee performance and suggest ways to improve work.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.06
+    },
+    {
+      "task": "Coordinate facility schedules to maximize usage and efficiency.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.38
+    },
+    {
+      "task": "Inventory products and order new supplies.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.05
+    },
+    {
+      "task": "Monitor operations to ensure compliance with applicable health, safety, or hygiene standards.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.16
+    },
+    {
+      "task": "Perform accounting duties, such as recording daily cash flow, preparing bank deposits, or generating financial statements.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.19
+    },
+    {
+      "task": "Represent organizations before domestic or international regulatory agencies on major policy matters or decisions regarding company products.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.36
+    },
+    {
+      "task": "Develop risk management strategies based on assessment of product, compliance, or operational risks.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 4.05
+    },
+    {
+      "task": "Review materials such as marketing literature or user manuals to ensure that regulatory agency requirements are met.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.95
+    },
+    {
+      "task": "Plan programs of events or schedules of activities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.36
+    },
+    {
+      "task": "Oversee internal reporting systems, such as corporate compliance hotlines.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.56
+    },
+    {
+      "task": "Administer first aid in emergency situations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.05
+    },
+    {
+      "task": "Assign tasks and work hours to staff.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.02
+    },
+    {
+      "task": "Calculate and record department expenses and revenue.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.19
+    },
+    {
+      "task": "Store and retrieve equipment, such as vehicles, radios, and ride components.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.78
+    },
+    {
+      "task": "Talk to coworkers using electronic devices, such as computers and radios.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.34
+    },
+    {
+      "task": "Talk to customers to convey information about events or activities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.14
+    },
+    {
+      "task": "Identify and apply for project funding.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.24
+    },
+    {
+      "task": "Identify environmental contamination sources.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.38
+    },
+    {
+      "task": "Direct the development or implementation of policies and procedures related to compliance throughout an organization.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.96
+    },
+    {
+      "task": "Keep informed regarding pending industry changes, trends, or best practices.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.0
+    },
+    {
+      "task": "Verify that all regulatory policies and procedures have been documented, implemented, and communicated.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.08
+    },
+    {
+      "task": "Discuss emerging compliance issues to ensure that management and employees are informed about compliance reporting systems, policies, and practices.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.37
+    },
+    {
+      "task": "Contribute to the development or implementation of business unit strategic and operating plans.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.48
+    },
+    {
+      "task": "Coordinate internal discoveries and depositions with legal department staff.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.44
+    },
+    {
+      "task": "Develop and maintain standard operating procedures or local working practices.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.74
+    },
+    {
+      "task": "Establish procedures or systems for publishing document submissions in hardcopy or electronic formats.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.78
+    },
+    {
+      "task": "Evaluate new software publishing systems and confer with regulatory agencies concerning news or updates on electronic publishing of submissions.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 2.56
+    },
+    {
+      "task": "Develop relationships with state or central government environmental regulatory agencies to learn about and analyze the potential impacts of proposed environmental policy regulations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.26
+    },
+    {
+      "task": "Evaluate regulatory affairs aspects that are specifically green, such as the use of toxic substances in packaging, carbon footprinting issues, or green policy implementation.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.12
+    },
+    {
+      "task": "Monitor regulatory affairs activities to ensure their alignment with corporate sustainability or green initiatives.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.47
+    },
+    {
+      "task": "Monitor regulatory affairs trends related to environmental issues.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.19
+    },
+    {
+      "task": "Advise technical professionals on the development or use of environmental compliance or reporting tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.83
+    },
+    {
+      "task": "Conduct environmental audits to ensure adherence to environmental standards.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.69
+    },
+    {
+      "task": "Direct environmental programs, such as air or water compliance, aboveground or underground storage tanks, spill prevention or control, hazardous waste or materials management, solid waste recycling, medical waste management, indoor air quality, integrated pest management, employee training, or disaster preparedness.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.38
+    },
+    {
+      "task": "Evaluate testing procedures to meet the specifications of environmental monitoring programs.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.63
+    },
+    {
+      "task": "Review or modify policies or operating guidelines to comply with changes to environmental standards or regulations.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.63
+    },
+    {
+      "task": "Track cost-containment strategies and programs to evaluate effectiveness.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.65
+    },
+    {
+      "task": "Use computer skills and software to manage Web sites or databases, publish newsletters, or provide webinars.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.36
+    },
+    {
+      "task": "Direct documentation efforts to ensure compliance with domestic and international regulations and standards.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.96
+    },
+    {
+      "task": "Estimate costs for environmental cleanup and remediation of land redevelopment projects.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.18
+    },
+    {
+      "task": "Plan or implement brownfield redevelopment projects to ensure safety, quality, and compliance with applicable standards or requirements.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.21
+    },
+    {
+      "task": "Provide employee training on compliance related topics, policies, or procedures.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.1
+    },
+    {
+      "task": "Report violations of compliance or regulatory standards to duly authorized enforcement agencies as appropriate or required.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.5
+    },
+    {
+      "task": "Provide assistance to internal or external auditors in compliance reviews.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.85
+    },
+    {
+      "task": "Prepare management reports regarding compliance operations and progress.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.02
+    },
+    {
+      "task": "Monitor compliance systems to ensure their effectiveness.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.97
+    },
+    {
+      "task": "Identify compliance issues that require follow-up or investigation.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.41
+    },
+    {
+      "task": "Disseminate written policies and procedures related to compliance activities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.03
+    },
+    {
+      "task": "File appropriate compliance reports with regulatory agencies.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.27
+    },
+    {
+      "task": "Design or implement improvements in communication, monitoring, or enforcement of compliance standards.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.92
+    },
+    {
+      "task": "Conduct periodic internal reviews or audits to ensure that compliance procedures are followed.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.0
+    },
+    {
+      "task": "Conduct or direct the internal investigation of compliance issues.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.11
+    },
+    {
+      "task": "Provide recommendations and solutions in crisis situations such as workplace violence, protests, and demonstrations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.05
+    },
+    {
+      "task": "Monitor and review paperwork procedures and systems to prevent error-related shortages.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.3
+    },
+    {
+      "task": "Inspect sites to assess environmental damage or monitor cleanup progress.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.76
+    },
+    {
+      "task": "Advise internal management or business partners on the implementation or operation of compliance programs.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.94
+    },
+    {
+      "task": "Collaborate with human resources departments to ensure the implementation of consistent disciplinary action strategies in cases of compliance standard violations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.76
+    },
+    {
+      "task": "Prepare or implement budgets and strategic, operational, purchasing, or maintenance plans.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.04
+    },
+    {
+      "task": "Consult with corporate attorneys as necessary to address difficult legal compliance issues.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.16
+    },
+    {
+      "task": "Verify that software technology is in place to adequately provide oversight and monitoring in all required areas.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.43
+    },
+    {
+      "task": "Serve as a confidential point of contact for employees to communicate with management, seek clarification on issues or dilemmas, or report irregularities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.09
+    },
+    {
+      "task": "Maintain documentation of compliance activities, such as complaints received or investigation outcomes.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.24
+    },
+    {
+      "task": "Supervise employees or subcontractors to ensure quality of work or adherence to safety regulations or policies.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.51
+    },
+    {
+      "task": "Lead or support negotiations involving tax agreements or abatements, power purchase agreements, land use, or interconnection agreements.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.04
+    },
+    {
+      "task": "Review or evaluate proposals or bids to make recommendations regarding awarding of contracts.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.62
+    },
+    {
+      "task": "Provide verbal or written project status reports to project teams, management, subcontractors, customers, or owners.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.81
+    },
+    {
+      "task": "Review civil design, engineering, or construction technical documentation to ensure compliance with applicable government or industrial codes, standards, requirements, or regulations.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.42
+    },
+    {
+      "task": "Prepare or assist in the preparation of applications for environmental, building, or other required permits.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.63
+    },
+    {
+      "task": "Review or evaluate environmental remediation project proposals.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.77
+    },
+    {
+      "task": "Review or evaluate designs for contaminant treatment or disposal facilities.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.06
+    },
+    {
+      "task": "Provide training on hazardous material or waste cleanup procedures and technologies.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 3.08
+    },
+    {
+      "task": "Provide expert witness testimony on issues such as soil, air, or water contamination and associated cleanup measures.",
+      "task_type": "Supplemental",
+      "relevance": 0.02564102564102564,
+      "importance": 2.57
+    },
+    {
+      "task": "Prepare reports or presentations to communicate brownfield redevelopment needs, status, or progress.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.77
+    },
+    {
+      "task": "Negotiate contracts for services or materials needed for environmental remediation.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.43
     },
     {
       "task": "Prepare and submit permit applications for demolition, cleanup, remediation, or construction projects.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.47
     },
     {
       "task": "Maintain records of decisions, actions, and progress related to environmental redevelopment projects.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Oversee the maintenance of wind field equipment or structures such as towers, transformers, or other site assets.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Provide technical support for the design, construction, or commissioning of wind farm projects.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Prepare wind field operational budgets and estimate costs associated with operations, including repairs or preventive maintenance.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.68
     },
     {
       "task": "Train or coordinate the training of employees in operations, safety, environmental issues, or technical issues.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Develop processes or procedures for wind operations, including transitioning from construction to commercial operations.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Track and maintain records for wind operations such as site performance, downtime, or parts usage.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.27
     },
     {
       "task": "Monitor compliance to operational, safety, or inventory control procedures, including physical security standards.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.81
     },
     {
-      "task": "Develop relationships and communicate with customers, site managers, land owners, authorities, or utility representatives.",
-      "task_type": "Core"
+      "task": "Identify potential for loss and develop strategies to eliminate it.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.05
     },
     {
-      "task": "Review, negotiate, or approve wind farm contracts and monitor the performance of project team members to provide feedback.",
-      "task_type": "Unclassified"
+      "task": "Administer systems and programs to reduce loss, maintain inventory control, or increase safety.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.29
     },
     {
-      "task": "Prepare and submit budget estimates, progress reports, or cost tracking reports to ensure adherence to quality standards.",
-      "task_type": "Unclassified"
+      "task": "Develop relationships and communicate with customers, site managers, developers, land owners, authorities, utility representatives, or residents.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.04
     },
     {
-      "task": "Plan, schedule, or coordinate project activities to meet deadlines and monitor project milestones and deliverables.",
-      "task_type": "Unclassified"
+      "task": "Estimate costs associated with operations, including repairs or preventive maintenance.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.99
     },
     {
-      "task": "Communicate with key stakeholders to determine project requirements and objectives and confer with personnel to identify problems.",
-      "task_type": "Unclassified"
+      "task": "Maintain operations records, such as work orders, site inspection forms, or other documentation.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 4.02
+    },
+    {
+      "task": "Manage warranty repair or replacement services.",
+      "task_type": "Core",
+      "relevance": 0.02564102564102564,
+      "importance": 3.61
+    },
+    {
+      "task": "Plan, schedule, or coordinate project activities to meet deadlines.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Submit project deliverables to clients, ensuring adherence to quality standards.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Schedule or facilitate project meetings.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Request and review project updates to ensure deadlines are met.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Report project status, such as budget, resources, technical issues, or customer satisfaction, to managers.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Recruit or hire project personnel.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Propose, review, or approve modifications to project plans.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Produce and distribute project documents.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Prepare and submit budget estimates, progress reports, or cost tracking reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Monitor the performance of project team members to provide performance feedback.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Negotiate with project stakeholders or suppliers to obtain resources or materials.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Monitor project milestones and deliverables.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Monitor costs incurred by project staff to identify budget issues.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Identify project needs such as resources, staff, or finances by reviewing project objectives and schedules.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Develop or update project plans including information such as objectives, technologies, schedules, funding, and staffing.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Create project status presentations for delivery to customers or project personnel.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Confer with project personnel to identify and resolve problems.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Communicate with key stakeholders to determine project requirements and objectives.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Assign duties or responsibilities to project personnel.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
+    },
+    {
+      "task": "Identify, review, or select vendors or consultants to meet project needs.",
+      "task_type": "Unclassified",
+      "relevance": 0.015873015873015872,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1798,8 +3194,16 @@
       "weight": 0.4542124542124542
     },
     {
+      "name": "Autodesk AutoCAD",
+      "weight": 0.33699633699633696
+    },
+    {
       "name": "Email software",
       "weight": 0.33699633699633696
+    },
+    {
+      "name": "Eko",
+      "weight": 0.32722832722832723
     },
     {
       "name": "Database software",
@@ -1814,19 +3218,75 @@
       "weight": 0.31135531135531136
     },
     {
+      "name": "Computer aided design CAD software",
+      "weight": 0.2857142857142857
+    },
+    {
       "name": "Microsoft SQL Server",
       "weight": 0.2857142857142857
+    },
+    {
+      "name": "Minitab",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Personnel scheduling software",
+      "weight": 0.2857142857142857
+    },
+    {
+      "name": "Payroll software",
+      "weight": 0.27564102564102566
     },
     {
       "name": "Microsoft Visio",
       "weight": 0.26129426129426125
     },
     {
+      "name": "AMCS Platform",
+      "weight": 0.25
+    },
+    {
+      "name": "Dossier software",
+      "weight": 0.25
+    },
+    {
+      "name": "Fleet management software",
+      "weight": 0.25
+    },
+    {
       "name": "Global positioning system GPS software",
       "weight": 0.25
     },
     {
+      "name": "Mileage logging software",
+      "weight": 0.25
+    },
+    {
+      "name": "Routeware software",
+      "weight": 0.25
+    },
+    {
+      "name": "Squeegee",
+      "weight": 0.25
+    },
+    {
+      "name": "WAM software",
+      "weight": 0.25
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.23565323565323565
+    },
+    {
+      "name": "Linux",
+      "weight": 0.21001221001221
+    },
+    {
       "name": "Oracle Database",
+      "weight": 0.21001221001221
+    },
+    {
+      "name": "YouTube",
       "weight": 0.21001221001221
     },
     {
@@ -1836,6 +3296,10 @@
     {
       "name": "Word processing software",
       "weight": 0.19413919413919412
+    },
+    {
+      "name": "Intuit QuickBooks",
+      "weight": 0.18437118437118435
     },
     {
       "name": "NetSuite ERP",
@@ -1850,16 +3314,40 @@
       "weight": 0.18437118437118435
     },
     {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.18437118437118435
+    },
+    {
       "name": "Enterprise resource planning ERP software",
       "weight": 0.16849816849816848
     },
     {
-      "name": "QUMAS quality management solution software",
+      "name": "MasterControl software",
+      "weight": 0.16849816849816848
+    },
+    {
+      "name": "SAP Business Objects",
       "weight": 0.16849816849816848
     },
     {
       "name": "Structure query language SQL",
       "weight": 0.16849816849816848
+    },
+    {
+      "name": "Adobe InDesign",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Adobe Photoshop",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "Atlassian JIRA",
+      "weight": 0.15873015873015872
+    },
+    {
+      "name": "JamBoard",
+      "weight": 0.15873015873015872
     },
     {
       "name": "Microsoft SharePoint",
@@ -1874,6 +3362,18 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "ASI DATAMYTE GageMetrics",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ASI DATAMYTE QDA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ASIDATAMYTE DataMetrics",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "AVEVA InTouch HMI",
       "weight": 0.14285714285714285
     },
@@ -1882,7 +3382,47 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Adobe After Effects",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Apache Kafka",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Apple Final Cut Pro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CAMA Software Quality Collaboration By Design QCBD",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "CEBOS MQ1 software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Citect IIM",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "CitectSCADA Reports",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Clockware",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computer integrated manufacturing CIM software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computer integrated manufacturing CIM time manager software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computer integrated manufacturing CIM warehouse shipping manager software",
       "weight": 0.14285714285714285
     },
     {
@@ -1894,7 +3434,43 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Data logging software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Employee performance management system",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "EtQ Reliance",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Exact Software JobBOSS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "FileMaker Pro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Financial planning software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Harrington Group HQMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Harrington Group caWeb",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hewlett Packard LoadRunner",
       "weight": 0.14285714285714285
     },
     {
@@ -1902,7 +3478,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "IBM Rational ClearQuest",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Illumina Laboratory Information Management System LIMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Industrial production manager and stock control software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Infinity QS ProFicient",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Infostat RIMBase",
       "weight": 0.14285714285714285
     },
     {
@@ -1922,7 +3514,59 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Landtec System Software LFG Pro",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Marel production system MPS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft Active Server Pages ASP",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Oracle Java",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PQ Systems CHARTrunner Lean",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PQ Systems GAGEpack",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PQ Systems MEASUREspy",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PQ Systems SQCpack",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "PTC Creo Parametric",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Pearson Education PHStat2",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Plant management software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "ProcessPro Premier",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Promium Element DataSystem LIMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Prosys Open Platform Communications unified architecture software",
       "weight": 0.14285714285714285
     },
     {
@@ -1930,7 +3574,31 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Scadex Technologies MAESTRO",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Schneider Electric CitectSCADA",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Selenium",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Sparta Systems TrackWise",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Statgraphics",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Statistical process control SPC software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Systat Software LISA.lims",
       "weight": 0.14285714285714285
     },
     {
@@ -1938,7 +3606,63 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "VMware",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Vivaldi Software Vivaldi Quality Management",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "WorkSchedule.net",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "WorkTech MAXIMO",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Airtable",
+      "weight": 0.06715506715506715
+    },
+    {
+      "name": "Google Workspace software",
+      "weight": 0.06715506715506715
+    },
+    {
+      "name": "Oracle Hyperion",
+      "weight": 0.06715506715506715
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.06715506715506715
+    },
+    {
+      "name": "Social media sites",
+      "weight": 0.06715506715506715
+    },
+    {
+      "name": "Tableau",
+      "weight": 0.06715506715506715
+    },
+    {
       "name": "ESRI ArcGIS software",
+      "weight": 0.05128205128205128
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.05128205128205128
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.05128205128205128
+    },
+    {
+      "name": "Oracle Primavera Systems",
+      "weight": 0.05128205128205128
+    },
+    {
+      "name": "Oracle Taleo",
       "weight": 0.05128205128205128
     },
     {
@@ -1950,11 +3674,279 @@
       "weight": 0.05128205128205128
     },
     {
+      "name": "Work scheduling software",
+      "weight": 0.05128205128205128
+    },
+    {
+      "name": "ADP Workforce Now",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Apple Keynote",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Atlassian Confluence",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Blackboard software",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Blink",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Cisco Webex",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Dropbox",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Evernote",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Flipgrid",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Google Docs",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Google Drive",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Google Meet",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Google Slides",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "GroupMe",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "IBM Cognos Impromptu",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "LinkedIn",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "LogMeIn GoToMeeting",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "LogMeIn GoToWebinar",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Loom",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Marketo Marketing Automation",
+      "weight": 0.04151404151404151
+    },
+    {
       "name": "Microsoft Dynamics",
       "weight": 0.04151404151404151
     },
     {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Microsoft Exchange",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Microsoft Teams",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Oracle Business Intelligence Enterprise Edition",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "SAP Crystal Reports",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "SAS",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "Slack",
+      "weight": 0.04151404151404151
+    },
+    {
+      "name": "80-20 Software Leaders4",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "ARC Logics Sword",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Adlib Express",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Agiliance Compliance Manager",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Aline GRC",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Analyse-it",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Apple Safari",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Archer Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Aris Global Register",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "AssurX CATSWeb",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Audit2 AdaptiveGRC",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Axentis Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Axway eSubmissions",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "BPS Compliance",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "BWise Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Business software applications",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "CMO Compliance Regulatory Compliance Solution",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Calendar management software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "ClienTrak!",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Compliance 360",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Compliance11 Supervisory Suite",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "ComplianceBridge Total Compliance",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Computerized diagnostic software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "ControlCase Compliance Manager",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Cura Software Solutions Cura for Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Data analysis software",
+      "weight": 0.02564102564102564
+    },
+    {
       "name": "Database management software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Datafarm S-Cubed",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Datafarm a-Pulse",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Datafarm eCTDGatekeeper",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Datafarm eCTDViewer",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Dialog DialogLink",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Document publishing software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "DoubleCheck GRC&T Platform",
       "weight": 0.02564102564102564
     },
     {
@@ -1966,7 +3958,195 @@
       "weight": 0.02564102564102564
     },
     {
+      "name": "Elite Software Elite Salon & Spa Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Enabl-u Technologies APIS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Enterprise application integration EAI software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Enterprise content management ECM software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Envision Salon",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "EtQ Environmental Health and Safety Software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "FRSGlobal RegPro",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Financial accounting software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Gensuite",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Google Ads",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Governance, risk, and compliance GRC software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Guideline Risk Technologies RUBI",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Hewlett-Packard HP OpenVMS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Horwath Software Magique",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "HubSpot software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Human resource information system (HRIS)",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Image Solutions ISIPublisher",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Image Solutions eCTDXpress",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Integrated development environment IDE software",
+      "weight": 0.02564102564102564
+    },
+    {
       "name": "Inventory tracking software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Keane SCORE",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "LRN Ethics and Compliance Alliance",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "LexisNexis",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Local area network LAN software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Lorenz DocuBridge",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Lorenz eValidator",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Lorenz labelBridge",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MIKAL SMS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Maptek Vulcan",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Methodware ERA",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MetricStream Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MetricStream Enterprise Compliance Platform",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MetricStream Regulatory Reporting",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MicroFit HealthWizard",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Microsoft Internet Explorer",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Microsoft PowerShell",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Microsoft SQL Server Reporting Services SSRS",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MineSight",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Modulo Risk Manager",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Mozilla Firefox",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MyComplianceOffice Compliance Operations Management System",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "MySQL",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Neill Technologies SpaBiz",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Neohapsis Certus GRC",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Oracle Enterprise Asset Management eAM",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Oracle Enterprise Governance, Risk, and Compliance Manager",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Oracle HRIS",
       "weight": 0.02564102564102564
     },
     {
@@ -1974,12 +4154,236 @@
       "weight": 0.02564102564102564
     },
     {
+      "name": "Point of sale POS software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "PostgreSQL",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "ProSolutions Software Transcend",
+      "weight": 0.02564102564102564
+    },
+    {
       "name": "Programmable logic controller PLC software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Protiviti Governance Portal",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Python",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "RVR Systems Compliance",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Reporting software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Resolve Legislative Compliance Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Risk management software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "SAP BEx Report Designer",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "SAP EHS Management",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Samarind RMS",
       "weight": 0.02564102564102564
     },
     {
       "name": "Scheduling software",
       "weight": 0.02564102564102564
+    },
+    {
+      "name": "Software development tools",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "StataCorp Stata",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Statistical analysis software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Sword Achiever Compliance Portal Dashboard",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Syntec Systems Insight",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Tanium software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Tax accounting software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Tax software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "The Garland Group RiskKey",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Thomson Reuters Paisley Enterprise GRC",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Time and payroll management software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Time reporting software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Total quality management TQM software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Twitter",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "WebEx WebOffice",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "Wide area network WAN software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "XML authoring software",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "policyIQ",
+      "weight": 0.02564102564102564
+    },
+    {
+      "name": "3M Post-it App",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Asana",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Atlassian Bamboo",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Autodesk AutoCAD Civil 3D",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Bentley MicroStation",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Git",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "GitHub",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Google Classroom",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Google Sites",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Management information systems MIS",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Microsoft Azure software",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Microsoft OneNote",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Moodle",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Nearpod",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Padlet",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Planview Clarizen",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Poll Everywhere",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Procore software",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Project management software",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Screencast-O-Matic",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Screencastify",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Skype",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Slido interaction software",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Smartsheet",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Trimble SketchUp Pro",
+      "weight": 0.015873015873015872
+    },
+    {
+      "name": "Zoom",
+      "weight": 0.015873015873015872
     }
   ],
   "tools_used": [
@@ -2096,10 +4500,6 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Automated microplate ELISA readers",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Ball valves",
       "weight": 0.14285714285714285
     },
@@ -2116,10 +4516,6 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Cellular assay equipment",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Circulating fluidized bed boilers",
       "weight": 0.14285714285714285
     },
@@ -2133,10 +4529,6 @@
     },
     {
       "name": "Cooling towers",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Dam water flow controls",
       "weight": 0.14285714285714285
     },
     {
@@ -2161,10 +4553,6 @@
     },
     {
       "name": "Electrical switch gear",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Electrophoresis equipment",
       "weight": 0.14285714285714285
     },
     {
@@ -2225,18 +4613,6 @@
     },
     {
       "name": "Heat recovery steam generators",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Hydraulic power generation equipment",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Hydroelectric power generator controls",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Impulse turbines",
       "weight": 0.14285714285714285
     },
     {
@@ -2325,10 +4701,6 @@
     },
     {
       "name": "Reaction flasks",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Reaction turbines",
       "weight": 0.14285714285714285
     },
     {
@@ -2444,10 +4816,6 @@
       "weight": 0.02564102564102564
     },
     {
-      "name": "Body fat calipers",
-      "weight": 0.02564102564102564
-    },
-    {
       "name": "Closed circuit television CCTV monitoring systems",
       "weight": 0.02564102564102564
     },
@@ -2492,15 +4860,7 @@
       "weight": 0.02564102564102564
     },
     {
-      "name": "Elliptical trainers",
-      "weight": 0.02564102564102564
-    },
-    {
       "name": "Emergency medical aid kits",
-      "weight": 0.02564102564102564
-    },
-    {
-      "name": "Exercise treadmills",
       "weight": 0.02564102564102564
     },
     {
@@ -2513,10 +4873,6 @@
     },
     {
       "name": "Fire alarm monitoring systems",
-      "weight": 0.02564102564102564
-    },
-    {
-      "name": "Free weights",
       "weight": 0.02564102564102564
     },
     {
@@ -2541,10 +4897,6 @@
     },
     {
       "name": "Infrared thermography cameras",
-      "weight": 0.02564102564102564
-    },
-    {
-      "name": "Lower body weight machines",
       "weight": 0.02564102564102564
     },
     {
@@ -2592,10 +4944,6 @@
       "weight": 0.02564102564102564
     },
     {
-      "name": "Pyranometers",
-      "weight": 0.02564102564102564
-    },
-    {
       "name": "Rigging equipment",
       "weight": 0.02564102564102564
     },
@@ -2612,10 +4960,6 @@
       "weight": 0.02564102564102564
     },
     {
-      "name": "Stationary exercise bicycles",
-      "weight": 0.02564102564102564
-    },
-    {
       "name": "Straight screwdrivers",
       "weight": 0.02564102564102564
     },
@@ -2629,10 +4973,6 @@
     },
     {
       "name": "Tower cranes",
-      "weight": 0.02564102564102564
-    },
-    {
-      "name": "Upper body weight machines",
       "weight": 0.02564102564102564
     },
     {

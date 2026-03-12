@@ -1545,47 +1545,111 @@
   "tasks": [
     {
       "task": "Provide information or refer individuals to public or private agencies or community services for assistance.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.64
+    },
+    {
+      "task": "Demonstrate use and care of equipment for tenant use.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.34
     },
     {
       "task": "Assess clients' cognitive abilities and physical and emotional needs to determine appropriate interventions.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.37
     },
     {
-      "task": "Assist clients with the preparation of forms, such as tax or rent forms and in planning food budgets.",
-      "task_type": "Supplemental"
+      "task": "Assist in planning food budgets, using charts or sample budgets.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.14
     },
     {
-      "task": "Assist in locating housing for displaced individuals and transport clients to shopping areas or appointments.",
-      "task_type": "Supplemental"
+      "task": "Assist clients with preparation of forms, such as tax or rent forms.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.05
     },
     {
-      "task": "Inform tenants of facilities, such as laundries or playgrounds and explain rules established by owner or management.",
-      "task_type": "Supplemental"
+      "task": "Assist in locating housing for displaced individuals.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.78
     },
     {
-      "task": "Keep records or prepare reports for owner or management concerning visits with clients and submit reports to superiors.",
-      "task_type": "Core"
+      "task": "Inform tenants of facilities, such as laundries or playgrounds.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.61
     },
     {
-      "task": "Interview individuals or family members to compile information on social, educational, or drug history.",
-      "task_type": "Core"
+      "task": "Observe clients' food selections and recommend alternate economical and nutritional food choices.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.9
     },
     {
-      "task": "Develop and implement behavioral management and care plans for clients and advise clients regarding food stamps or money management.",
-      "task_type": "Core"
+      "task": "Consult with supervisor concerning programs for individual families.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.5
     },
     {
-      "task": "Observe clients' food selections, recommend economical and nutritional food choices, and discuss meal preparation methods.",
-      "task_type": "Supplemental"
+      "task": "Observe and discuss meal preparation and suggest alternate methods of food preparation.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.87
     },
     {
-      "task": "Consult with supervisor concerning programs for individual families and oversee day-to-day activities of residents in institution.",
-      "task_type": "Supplemental"
+      "task": "Keep records or prepare reports for owner or management concerning visits with clients.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.98
     },
     {
-      "task": "Visit individuals in homes or attend group meetings to provide information on agency services and requirements.",
-      "task_type": "Core"
+      "task": "Explain rules established by owner or management, such as sanitation or maintenance requirements or parking regulations.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.02
+    },
+    {
+      "task": "Transport and accompany clients to shopping areas or to appointments, using automobile.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 2.83
+    },
+    {
+      "task": "Interview individuals or family members to compile information on social, educational, criminal, institutional, or drug history.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.75
+    },
+    {
+      "task": "Submit reports and review reports or problems with superior.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.94
+    },
+    {
+      "task": "Advise clients regarding food stamps, child care, food, money management, sanitation, or housekeeping.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.4
+    },
+    {
+      "task": "Visit individuals in homes or attend group meetings to provide information on agency services, requirements, or procedures.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.96
+    },
+    {
+      "task": "Develop and implement behavioral management and care plans for clients.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.14
     }
   ],
   "technology_skills": [
@@ -1595,10 +1659,6 @@
     },
     {
       "name": "Electronic medical record EMR software",
-      "weight": 0.125
-    },
-    {
-      "name": "MEDITECH software",
       "weight": 0.125
     },
     {
@@ -1623,14 +1683,6 @@
     },
     {
       "name": "Microsoft Word",
-      "weight": 0.125
-    },
-    {
-      "name": "Nuance Dragon NaturallySpeaking",
-      "weight": 0.125
-    },
-    {
-      "name": "PointClickCare healthcare software",
       "weight": 0.125
     },
     {

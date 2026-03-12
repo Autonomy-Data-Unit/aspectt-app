@@ -1544,108 +1544,844 @@
   ],
   "tasks": [
     {
-      "task": "Prepare information regarding design, structure specifications, materials, equipment, estimated costs, or construction time.",
-      "task_type": "Core"
+      "task": "Prepare information regarding design, structure specifications, materials, color, equipment, estimated costs, or construction time.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.4
     },
     {
-      "task": "Consult with clients to determine functional or spatial requirements of structures and meet with them to review architectural drawings.",
-      "task_type": "Core"
+      "task": "Consult with clients to determine functional or spatial requirements of structures.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.38
     },
     {
-      "task": "Design or plan construction of structures such as residences, office buildings, theaters, and factories, incorporating environmentally friendly practices.",
-      "task_type": "Core"
+      "task": "Design environmentally sound structural upgrades to existing buildings, such as natural lighting systems, green roofs, or rainwater collection systems.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.83
     },
     {
-      "task": "Gather information related to projects' environmental sustainability and operational efficiency, then perform predesign services like feasibility studies.",
-      "task_type": "Core"
+      "task": "Design structures that incorporate environmentally friendly building practices or concepts, such as Leadership in Energy and Environmental Design (LEED) standards.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.06
     },
     {
-      "task": "Create three-dimensional representations of designs and prepare scale drawings or architectural designs using computer-aided design (CAD) tools.",
-      "task_type": "Core"
+      "task": "Gather information related to projects' environmental sustainability or operational efficiency.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.95
     },
     {
-      "task": "Conduct periodic on-site observations of construction work and inspect proposed building sites to determine their suitability for construction.",
-      "task_type": "Core"
+      "task": "Perform predesign services, such as feasibility or environmental impact studies.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.35
     },
     {
-      "task": "Develop final construction plans that detail the structure's aesthetics and construction requirements and prepare contract documents for contractors.",
-      "task_type": "Core"
+      "task": "Plan or design structures such as residences, office buildings, theatres, factories, or other structural properties in accordance with environmental, safety, or other regulations.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.1
     },
     {
-      "task": "Monitor specialists' work and conduct inspections to ensure compliance with plans, including evaluating building structures and energy consumption systems.",
-      "task_type": "Core"
+      "task": "Inspect proposed building sites to determine suitability for construction.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.89
     },
     {
-      "task": "Assess the feasibility of land use proposals, recommend changes, and discuss land use project purposes with planning officials.",
-      "task_type": "Core"
+      "task": "Plan layouts of structural architectural projects.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.25
     },
     {
-      "task": "Conduct field investigations and analyze data affecting land use, monitoring construction for adherence to regulations and documenting project activities.",
-      "task_type": "Core"
+      "task": "Monitor the work of specialists, such as electrical engineers, mechanical engineers, interior designers, or sound specialists to ensure optimal form or function of designs or final structures.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.33
     },
     {
-      "task": "Review and evaluate environmental impact reports, ensuring compliance with safety regulations and mediating community disputes involving land use.",
-      "task_type": "Core"
+      "task": "Conduct periodic on-site observations of construction work to monitor compliance with plans.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.2
     },
     {
-      "task": "Prepare job specification sheets, develop marketing materials, and advocate sustainability projects to improve energy efficiency and minimize pollution.",
-      "task_type": "Core"
+      "task": "Develop marketing materials, proposals, or presentations to generate new work opportunities.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.57
     },
     {
-      "task": "Inspect properties for hazardous materials compliance, analyze fire safety systems, and review building plans for fire safety code adherence.",
-      "task_type": "Core"
+      "task": "Meet with clients to review or discuss architectural drawings.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.38
     },
     {
-      "task": " Develop plans for public transportation systems to reduce carbon output and identify opportunities for sustainability improvements in building operations.",
-      "task_type": "Core"
+      "task": "Direct activities of technicians engaged in preparing drawings or specification documents.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.0
     },
     {
-      "task": "Create, prepare, or requisition reports on land use data, illustrating geographic variables like population density.",
-      "task_type": "Core"
+      "task": "Prepare scale drawings or architectural designs, using computer-aided design or other tools.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.43
     },
     {
-      "task": "Identify and prioritize energy-saving measures, collecting and analyzing energy consumption data to provide recommendations.",
-      "task_type": "Core"
+      "task": "Prepare operating and maintenance manuals, studies, or reports.",
+      "task_type": "Supplemental",
+      "relevance": 0.5,
+      "importance": 2.55
     },
     {
-      "task": "Inspect new installations of energy-efficient equipment to verify compliance with specifications and monitor construction activities for environmental regulation adherence.",
-      "task_type": "Core"
+      "task": "Prepare contract documents for building contractors.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.1
     },
     {
-      "task": "Develop and maintain maps and databases to ensure accuracy in geographic information systems, checking for errors and making corrections.",
-      "task_type": "Core"
+      "task": "Integrate engineering elements into unified architectural designs.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 4.33
     },
     {
-      "task": "Educate customers about energy efficiency and answer queries on appliance costs or selections.",
-      "task_type": "Core"
+      "task": "Administer construction contracts.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.94
     },
     {
-      "task": "Prepare and maintain reports of investigation results, including records of convicted arsonists and arson suspects.",
-      "task_type": "Core"
+      "task": "Represent clients in obtaining bids or awarding construction contracts.",
+      "task_type": "Core",
+      "relevance": 0.5,
+      "importance": 3.71
     },
     {
-      "task": "Inspect and test properties and fire safety equipment to ensure compliance with applicable fire codes, ordinances, and regulations.",
-      "task_type": "Core"
+      "task": "Assess the feasibility of land use proposals and identify necessary changes.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.08
     },
     {
-      "task": "Participate in creating fire safety guidelines and develop fire prevention programs such as inspection reporting and hazardous materials management.",
-      "task_type": "Core"
+      "task": "Mediate community disputes or assist in developing alternative plans or recommendations for programs or projects.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.44
     },
     {
-      "task": "Communicate fire details and coordinate accountability among superiors and subordinate personnel using two-way radios.",
-      "task_type": "Core"
+      "task": "Coordinate work with economic consultants or architects during the formulation of plans or the design of large pieces of infrastructure.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.71
     },
     {
-      "task": "Assess the extent of fire and building conditions, including the danger to adjacent structures and water supply status.",
-      "task_type": "Core"
+      "task": "Review and evaluate environmental impact reports pertaining to private or public planning projects or programs.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.88
     },
     {
-      "task": "Perform administrative duties, such as maintaining records, preparing reports, and managing daily operations.",
-      "task_type": "Core"
+      "task": "Supervise or coordinate the work of urban planning technicians or technologists.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.83
     },
     {
-      "task": "Testify in legal cases related to fires, suspected arson, and false alarms, providing expert testimony as required.",
-      "task_type": "Core"
+      "task": "Determine the effects of regulatory limitations on land use projects.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.92
+    },
+    {
+      "task": "Research, compile, analyze and organize information from maps, reports, investigations, and books for use in reports and special projects.",
+      "task_type": "Unclassified",
+      "relevance": 0.3333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Investigate property availability for purposes of development.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.32
+    },
+    {
+      "task": "Discuss with planning officials the purpose of land use projects, such as transportation, conservation, residential, commercial, industrial, or community use.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.24
+    },
+    {
+      "task": "Hold public meetings with government officials, social scientists, lawyers, developers, the public, or special interest groups to formulate, develop, or address issues regarding land use or community plans.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.56
+    },
+    {
+      "task": "Respond to public inquiries and complaints.",
+      "task_type": "Unclassified",
+      "relevance": 0.3333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Prepare, maintain and update files and records, including land use data and statistics.",
+      "task_type": "Unclassified",
+      "relevance": 0.3333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Keep informed about economic or legal issues involved in zoning codes, building codes, or environmental regulations.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.16
+    },
+    {
+      "task": "Develop plans for public or alternative transportation systems for urban or regional locations to reduce carbon output associated with transportation.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.83
+    },
+    {
+      "task": "Conduct field investigations, surveys, impact studies, or other research to compile and analyze data on economic, social, regulatory, or physical factors affecting land use.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.29
+    },
+    {
+      "task": "Advocate sustainability to community groups, government agencies, the general public, or special interest groups.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.56
+    },
+    {
+      "task": "Evaluate proposals for infrastructure projects or other development for environmental impact or sustainability.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.28
+    },
+    {
+      "task": "Identify opportunities or develop plans for sustainability projects or programs to improve energy efficiency, minimize pollution or waste, or restore natural systems.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.79
+    },
+    {
+      "task": "Advise planning officials on project feasibility, cost-effectiveness, regulatory conformance, or possible alternatives.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.6
+    },
+    {
+      "task": "Create, prepare, or requisition graphic or narrative reports on land use data, including land area maps overlaid with geographic variables, such as population density.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.56
+    },
+    {
+      "task": "Recommend approval, denial, or conditional approval of proposals.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.32
+    },
+    {
+      "task": "Design, promote, or administer government plans or policies affecting land use, zoning, public utilities, community facilities, housing, or transportation.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.68
+    },
+    {
+      "task": "Prepare reports, using statistics, charts, and graphs, to illustrate planning studies in areas such as population, land use, or zoning.",
+      "task_type": "Unclassified",
+      "relevance": 0.3333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Prepare, develop and maintain maps and databases.",
+      "task_type": "Unclassified",
+      "relevance": 0.3333333333333333,
+      "importance": 0.0
+    },
+    {
+      "task": "Check all layers of maps to ensure accuracy, identifying and marking errors and making corrections.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.28
+    },
+    {
+      "task": "Develop project budgets by estimating the cost of project activities.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.82
+    },
+    {
+      "task": "Position and hold the vertical rods, or targets, that theodolite operators use for sighting to measure angles, distances, and elevations.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.29
+    },
+    {
+      "task": "Produce or update overlay maps to show information boundaries, water locations, or topographic features on various base maps or at different scales.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.1
+    },
+    {
+      "task": "Supervise or coordinate activities of workers engaged in surveying, plotting data, drafting maps, or producing blueprints, photostats, or photographs.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Set out and recover stakes, marks, or other monumentation.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Search for section corners, property irons, or survey points.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Record survey measurements or descriptive data, using notes, drawings, sketches, or inked tracings.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Prepare topographic or contour maps of land surveyed, including site features and other relevant information, such as charts, drawings, and survey notes.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Prepare cost estimates for mapping projects.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Perform calculations to determine earth curvature corrections, atmospheric impacts on measurements, traverse closures or adjustments, azimuths, level runs, or placement of markers.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Enter Global Positioning System (GPS) data, legal deeds, field notes, or land survey reports into geographic information system (GIS) workstations so that information can be transformed into graphic land descriptions, such as maps and drawings.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Conduct surveys to ascertain the locations of natural features and man-made structures on the Earth's surface, underground, and underwater, using electronic distance-measuring equipment, such as GPS, and other surveying instruments.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Collect information needed to carry out new surveys, using source maps, previous survey data, photographs, computer records, or other relevant information.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Adjust and operate surveying instruments such as prisms, theodolites, electronic distance measuring equipment, or electronic data collectors.",
+      "task_type": "Unclassified",
+      "relevance": 0.07142857142857142,
+      "importance": 0.0
+    },
+    {
+      "task": "Complete detailed source and method notes describing the location of routine or complex land parcels.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.42
+    },
+    {
+      "task": "Answer questions and provide information to the public or to staff members regarding assessment maps, surveys, boundaries, easements, property ownership, roads, zoning, or similar matters.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.83
+    },
+    {
+      "task": "Trim, align, and join prints to form photographic mosaics, maintaining scaled distances between reference points.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.48
+    },
+    {
+      "task": "Provide assistance in the development of methods and procedures for conducting field surveys.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.5
+    },
+    {
+      "task": "Trace contours or topographic details to generate maps that denote specific land or property locations or geographic attributes.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.66
+    },
+    {
+      "task": "Calculate latitudes, longitudes, angles, areas, or other information for mapmaking, using survey field notes or reference tables.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.69
+    },
+    {
+      "task": "Research and combine existing property information to describe property boundaries in relation to adjacent properties, taking into account parcel splits, combinations, or land boundary adjustments.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.76
+    },
+    {
+      "task": "Analyze aerial photographs to detect and interpret significant military, industrial, resource, or topographical data.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.89
+    },
+    {
+      "task": "Compare survey computations with applicable standards to determine adequacy of data.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.96
+    },
+    {
+      "task": "Operate and manage land-information computer systems, performing tasks such as storing data, making inquiries, and producing plots and reports.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.0
+    },
+    {
+      "task": "Compile information necessary to stake projects for construction, using engineering plans.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.04
+    },
+    {
+      "task": "Determine scales, line sizes, or colors to be used for hard copies of computerized maps, using plotters.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.06
+    },
+    {
+      "task": "Compare topographical features or contour lines with images from aerial photographs, old maps, or other reference materials to verify the accuracy of their identification.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.69
+    },
+    {
+      "task": "Negotiate with contractors on prices for new contracts or modifications to existing contracts.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.59
+    },
+    {
+      "task": "Estimate cost of completed work or of needed renovations or upgrades.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 2.7
+    },
+    {
+      "task": "Analyze energy bills, including utility rates or tariffs, to gather historical energy usage data.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.71
+    },
+    {
+      "task": "Inspect or evaluate building envelopes, mechanical systems, electrical systems, or process systems to determine the energy consumption of each system.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.34
+    },
+    {
+      "task": "Perform tests such as blower-door tests to locate air leaks.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.89
+    },
+    {
+      "task": "Measure energy usage with devices such as data loggers, universal data recorders, light meters, sling psychrometers, psychrometric charts, flue gas analyzers, amp probes, watt meters, volt meters, thermometers, or utility meters.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.04
+    },
+    {
+      "task": "Conduct materials test and analysis, using tools and equipment and applying engineering knowledge.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 4.04
+    },
+    {
+      "task": "Report maintenance problems occurring at project site to supervisor and negotiate changes to resolve system conflicts.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.37
+    },
+    {
+      "task": "Develop plans and estimate costs for installation of systems, utilization of facilities, or construction of structures.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 4.01
+    },
+    {
+      "task": "Plan and conduct field surveys to locate new sites and analyze details of project sites.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.68
+    },
+    {
+      "task": "Inspect project site and evaluate contractor work to detect design malfunctions and ensure conformance to design specifications and applicable codes.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 4.13
+    },
+    {
+      "task": "Confer with supervisor to determine project details such as plan preparation, acceptance testing, and evaluation of field conditions.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.88
+    },
+    {
+      "task": "Prepare reports and document project activities and data.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.84
+    },
+    {
+      "task": "Read and review project blueprints and structural specifications to determine dimensions of structure or system and material requirements.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.1
+    },
+    {
+      "task": "Calculate dimensions, square footage, profile and component specifications, and material quantities, using calculator or computer.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.24
+    },
+    {
+      "task": "Train, direct, or supervise other construction inspectors.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.57
+    },
+    {
+      "task": "Monitor installation of plumbing, wiring, equipment, or appliances to ensure that installation is performed properly and is in compliance with applicable regulations.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.23
+    },
+    {
+      "task": "Issue permits for construction, relocation, demolition, or occupancy.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.29
+    },
+    {
+      "task": "Measure dimensions and verify level, alignment, or elevation of structures or fixtures to ensure compliance to building plans and codes.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.9
+    },
+    {
+      "task": "Inspect and monitor construction sites to ensure adherence to safety standards, building codes, or specifications.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.1
+    },
+    {
+      "task": "Review and interpret plans, blueprints, site layouts, specifications, or construction methods to ensure compliance to legal requirements and safety regulations.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.48
+    },
+    {
+      "task": "Maintain daily logs and supplement inspection records with photographs.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.83
+    },
+    {
+      "task": "Inspect bridges, dams, highways, buildings, wiring, plumbing, electrical circuits, sewers, heating systems, or foundations during and after construction for structural quality, general safety, or conformance to specifications and codes.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.27
+    },
+    {
+      "task": "Examine lifting or conveying devices, such as elevators, escalators, moving sidewalks, hoists, inclined railways, ski lifts, or amusement rides to ensure safety and proper functioning.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 2.89
+    },
+    {
+      "task": "Prepare audit reports containing energy analysis results or recommendations for energy cost savings.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.41
+    },
+    {
+      "task": "Analyze proposed site factors and design maps, graphs, tracings, and diagrams to illustrate findings.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.85
+    },
+    {
+      "task": "Analyze technical feasibility of energy-saving measures, using knowledge of engineering, energy production, energy use, construction, maintenance, system operation, or process systems.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.21
+    },
+    {
+      "task": "Identify any health or safety issues related to planned weatherization projects.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.4
+    },
+    {
+      "task": "Approve building plans that meet required specifications.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.55
+    },
+    {
+      "task": "Calculate potential for energy savings.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.38
+    },
+    {
+      "task": "Confer with owners, violators, or authorities to explain regulations or recommend remedial actions.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.08
+    },
+    {
+      "task": "Conduct inspections, using survey instruments, metering devices, tape measures, or test equipment.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.71
+    },
+    {
+      "task": "Monitor construction activities to ensure that environmental regulations are not violated.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.5
+    },
+    {
+      "task": "Evaluate project details to ensure adherence to environmental regulations.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.23
+    },
+    {
+      "task": "Conduct environmental hazard inspections to identify or quantify problems, such as asbestos, poor air quality, water contamination, or other environmental hazards.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 2.77
+    },
+    {
+      "task": "Inspect newly installed energy-efficient equipment to ensure that it was installed properly and is performing according to specifications.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.85
+    },
+    {
+      "task": "Inspect facilities or installations to determine their environmental impact.",
+      "task_type": "Supplemental",
+      "relevance": 0.07142857142857142,
+      "importance": 3.0
+    },
+    {
+      "task": "Educate customers on energy efficiency or answer questions on topics such as the costs of running household appliances or the selection of energy-efficient appliances.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.89
+    },
+    {
+      "task": "Compare existing energy consumption levels to normative data.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.54
+    },
+    {
+      "task": "Recommend energy-efficient technologies or alternate energy sources.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.1
+    },
+    {
+      "task": "Prepare job specification sheets for home energy improvements, such as attic insulation, window retrofits, or heating system upgrades.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.88
+    },
+    {
+      "task": "Oversee installation of equipment such as water heater wraps, pipe insulation, weatherstripping, door sweeps, or low-flow showerheads to improve energy efficiency.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.29
+    },
+    {
+      "task": "Quantify energy consumption to establish baselines for energy use or need.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.67
+    },
+    {
+      "task": "Identify opportunities to improve the operation, maintenance, or energy efficiency of building or process systems.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.39
+    },
+    {
+      "task": "Identify and prioritize energy-saving measures.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.48
+    },
+    {
+      "task": "Collect and analyze field data related to energy usage.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.07
+    },
+    {
+      "task": "Determine patterns of building use to show annual or monthly needs for heating, cooling, lighting, or other energy needs.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 3.59
+    },
+    {
+      "task": "Examine commercial sites to determine the feasibility of installing equipment that allows building management systems to reduce electricity consumption during peak demand periods.",
+      "task_type": "Core",
+      "relevance": 0.07142857142857142,
+      "importance": 4.2
+    },
+    {
+      "task": "Develop or review fire exit plans.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 4.31
+    },
+    {
+      "task": "Conduct fire code compliance follow-ups to ensure that corrective actions have been taken in cases where violations were found.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 4.5
+    },
+    {
+      "task": "Inspect buildings to locate hazardous conditions and fire code violations, such as accumulations of combustible material, electrical wiring problems, and inadequate or non-functional fire exits.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 4.59
+    },
+    {
+      "task": "Coordinate efforts with other organizations, such as law enforcement agencies.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 4.29
+    },
+    {
+      "task": "Inspect and test fire protection or fire detection systems to verify that such systems are installed in accordance with appropriate laws, codes, ordinances, regulations, and standards.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 4.3
+    },
+    {
+      "task": "Supervise staff, training them, planning their work, and evaluating their performance.",
+      "task_type": "Supplemental",
+      "relevance": 0.045454545454545456,
+      "importance": 3.92
+    },
+    {
+      "task": "Perform administrative duties, such as compiling and maintaining records, completing forms, preparing reports, or composing correspondence.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 3.85
+    },
+    {
+      "task": "Supervise and participate in the inspection of properties to ensure that they are in compliance with applicable fire codes, ordinances, laws, regulations, and standards.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 3.63
+    },
+    {
+      "task": "Participate in creating fire safety guidelines and evacuation schemes for nonresidential buildings.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.02
+    },
+    {
+      "task": "Issue permits for public assemblies.",
+      "task_type": "Supplemental",
+      "relevance": 0.045454545454545456,
+      "importance": 3.96
+    },
+    {
+      "task": "Prepare and maintain reports of investigation results, and records of convicted arsonists and arson suspects.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 4.87
+    },
+    {
+      "task": "Recommend equipment modifications or new equipment purchases.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 3.67
+    },
+    {
+      "task": "Schedule employee work assignments and set work priorities.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.11
+    },
+    {
+      "task": "Develop and coordinate fire prevention programs, such as false alarm billing, fire inspection reporting, and hazardous materials management.",
+      "task_type": "Supplemental",
+      "relevance": 0.045454545454545456,
+      "importance": 3.82
+    },
+    {
+      "task": "Inspect and test new and existing fire protection systems, fire detection systems, and fire safety equipment to ensure that they are operating properly.",
+      "task_type": "Supplemental",
+      "relevance": 0.043478260869565216,
+      "importance": 4.11
+    },
+    {
+      "task": "Study and interpret fire safety codes to establish procedures for issuing permits to handle hazardous or flammable substances.",
+      "task_type": "Supplemental",
+      "relevance": 0.043478260869565216,
+      "importance": 3.83
+    },
+    {
+      "task": "Assess nature and extent of fire, condition of building, danger to adjacent buildings, and water supply status to determine crew or company requirements.",
+      "task_type": "Core",
+      "relevance": 0.043478260869565216,
+      "importance": 4.6
+    },
+    {
+      "task": "Maintain knowledge of fire laws and fire prevention techniques and tactics.",
+      "task_type": "Unclassified",
+      "relevance": 0.043478260869565216,
+      "importance": 0.0
+    },
+    {
+      "task": "Conduct fire exit drills to monitor and evaluate evacuation procedures.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 3.96
+    },
+    {
+      "task": "Recommend changes to fire prevention, inspection, and fire code endorsement procedures.",
+      "task_type": "Core",
+      "relevance": 0.045454545454545456,
+      "importance": 3.66
     }
   ],
   "technology_skills": [
@@ -1678,7 +2414,15 @@
       "weight": 1.0651232825145869
     },
     {
+      "name": "Adobe Photoshop",
+      "weight": 0.9761904761904762
+    },
+    {
       "name": "Bentley MicroStation",
+      "weight": 0.9761904761904762
+    },
+    {
+      "name": "Database software",
       "weight": 0.9761904761904762
     },
     {
@@ -1686,7 +2430,27 @@
       "weight": 0.9761904761904762
     },
     {
+      "name": "Adobe Illustrator",
+      "weight": 0.9047619047619048
+    },
+    {
+      "name": "Microsoft Project",
+      "weight": 0.9047619047619048
+    },
+    {
+      "name": "Oracle Primavera Systems",
+      "weight": 0.9047619047619048
+    },
+    {
       "name": "Adobe Acrobat",
+      "weight": 0.8333333333333333
+    },
+    {
+      "name": "Adobe Creative Cloud software",
+      "weight": 0.8333333333333333
+    },
+    {
+      "name": "Adobe InDesign",
       "weight": 0.8333333333333333
     },
     {
@@ -1722,7 +2486,19 @@
       "weight": 0.5714285714285714
     },
     {
+      "name": "Intuit QuickBooks",
+      "weight": 0.5714285714285714
+    },
+    {
+      "name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "weight": 0.5714285714285714
+    },
+    {
       "name": "Computer aided design CAD software",
+      "weight": 0.5476190476190476
+    },
+    {
+      "name": "SAP software",
       "weight": 0.5476190476190476
     },
     {
@@ -1742,6 +2518,58 @@
       "weight": 0.5196687370600414
     },
     {
+      "name": "1ST Pricing Window & Door Toolkit",
+      "weight": 0.5
+    },
+    {
+      "name": "Applied Search Technology CADFind",
+      "weight": 0.5
+    },
+    {
+      "name": "Artifice DesignWorkshop",
+      "weight": 0.5
+    },
+    {
+      "name": "AutoDesSys form Z",
+      "weight": 0.5
+    },
+    {
+      "name": "Autodesk Architectural Studio",
+      "weight": 0.5
+    },
+    {
+      "name": "AzTechSoft GPS2CAD",
+      "weight": 0.5
+    },
+    {
+      "name": "BQE Software ArchiOffice",
+      "weight": 0.5
+    },
+    {
+      "name": "BeamChek",
+      "weight": 0.5
+    },
+    {
+      "name": "Computer aided manufacturing CAM software",
+      "weight": 0.5
+    },
+    {
+      "name": "Craftsman CD Estimator",
+      "weight": 0.5
+    },
+    {
+      "name": "Drcauto Smart Architect LT Pro",
+      "weight": 0.5
+    },
+    {
+      "name": "FEMA EMMIE",
+      "weight": 0.5
+    },
+    {
+      "name": "FileNet P8",
+      "weight": 0.5
+    },
+    {
       "name": "Graphisoft ArchiCAD",
       "weight": 0.5
     },
@@ -1750,7 +2578,63 @@
       "weight": 0.5
     },
     {
+      "name": "Micro-Press MicroStation PowerDraft",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft PowerShell",
+      "weight": 0.5
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "weight": 0.5
+    },
+    {
+      "name": "MyFamilySoftware Instant Architect",
+      "weight": 0.5
+    },
+    {
       "name": "NavisWorks Jetstream",
+      "weight": 0.5
+    },
+    {
+      "name": "PostgreSQL",
+      "weight": 0.5
+    },
+    {
+      "name": "Qlik Tech QlikView",
+      "weight": 0.5
+    },
+    {
+      "name": "Quality Plans & Software HVAC Calculator",
+      "weight": 0.5
+    },
+    {
+      "name": "Quark enterprise publishing software",
+      "weight": 0.5
+    },
+    {
+      "name": "Quest Erwin Data Modeler",
+      "weight": 0.5
+    },
+    {
+      "name": "Roof Builder Tools",
+      "weight": 0.5
+    },
+    {
+      "name": "Turtle Creek Software Goldenseal",
+      "weight": 0.5
+    },
+    {
+      "name": "Turtle Creek Software Goldenseal (accounting feature)",
+      "weight": 0.5
+    },
+    {
+      "name": "Turtle Creek Software Goldenseal (calendar and scheduling feature)",
+      "weight": 0.5
+    },
+    {
+      "name": "Turtle Creek Software Goldenseal (time accounting feature)",
       "weight": 0.5
     },
     {
@@ -1758,12 +2642,28 @@
       "weight": 0.5
     },
     {
+      "name": "Virtual reality modeling language VRML software",
+      "weight": 0.5
+    },
+    {
+      "name": "Graphics software",
+      "weight": 0.47619047619047616
+    },
+    {
       "name": "Microsoft SharePoint",
+      "weight": 0.47619047619047616
+    },
+    {
+      "name": "Structured query language SQL",
       "weight": 0.47619047619047616
     },
     {
       "name": "Word processing software",
       "weight": 0.47619047619047616
+    },
+    {
+      "name": "Adobe FreeHand MX",
+      "weight": 0.40476190476190477
     },
     {
       "name": "Autodesk AutoCAD Map 3D",
@@ -1778,8 +2678,204 @@
       "weight": 0.40476190476190477
     },
     {
+      "name": "Geomechanical design analysis GDA software",
+      "weight": 0.40476190476190477
+    },
+    {
+      "name": "Hypertext markup language HTML",
+      "weight": 0.40476190476190477
+    },
+    {
+      "name": "Leica Geosystems ERDAS IMAGINE",
+      "weight": 0.40476190476190477
+    },
+    {
+      "name": "RockWare ArcMap",
+      "weight": 0.40476190476190477
+    },
+    {
+      "name": "dBASE",
+      "weight": 0.40476190476190477
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.37681159420289856
+    },
+    {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.37681159420289856
+    },
+    {
+      "name": "3D urban simulation modeling software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Accela KIVA DMS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Accela PERMITS Plus",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Accela Tidemark Advantage",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe Dreamweaver",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Caliper TransCAD",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Citilabs TRANPLAN",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "CommunityViz",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Corel CorelDraw Graphics Suite",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Criterion Planners INDEX",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dassault Systemes SolidWorks",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Data mining software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Desktop publishing software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ESRI What if?",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ESRI software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Extensible markup language XML",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "IBM Lotus Notes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ITC Integrated Land and Water Information System ILWIS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ITSpatial InterSCOPE",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Intergraph MGE",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Interwoven software",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Land management databases",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "Location allocation decision support system LADSS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "MultiGen Paradigm 3D GIS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oracle Database",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oracle Java",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "PlanGraphics Citywide GIS Utility",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Presentation software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "RhinoSoft FTP Voyager",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Sage Timeslips",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Scientific Software Group ModTech",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Software development tools",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Spatial decision support systems SDSS software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Street address databases",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tangible Media Group Luminous Table",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Telogis GeoBase",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Transportation planning software",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "UrbanSim",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "WorkTech MAXIMO",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "e-on VUE",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microsoft Visual Basic",
+      "weight": 0.21428571428571427
     },
     {
       "name": "Autodesk Land Desktop",
@@ -1794,7 +2890,87 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Microsoft Exchange",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Python",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Trimble Digital Fieldbook",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mapping software",
+      "weight": 0.11490683229813664
+    },
+    {
+      "name": "3D Nature LLC Visual Nature Studio",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "3D Nature LLC World Construction Set",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ACCA Manual J",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Abraxas Energy Consulting Metrix",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Adobe Acrobat Writer",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Arc Second PocketCAD",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Architectural Energy Corporation ENFORMA Building Diagnostics",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Architectural Energy Corporation REM/Rate",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Autodesk 3d Studio Viz",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Autodesk AutoCAD Blue Sky",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Autodesk CAiCE Visual Transportation",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Automated permit system software",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Bentley GEOPAK Civil Engineering Suite",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Bentley GeoPak Bridge",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "C++",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "CARIS HIPS",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "CARIS SIPS",
       "weight": 0.07142857142857142
     },
     {
@@ -1810,7 +2986,167 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Cool Roof Calculator",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Customer relationship management CRM software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Datalog with guidance DLWG software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "DesignBuilder Software DesignBuilder",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Desktop digital photogrammetry system DDPS",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Digital elevation model DEM software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Digital terrain modeling software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI ArcCatalog",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI ArcEditor",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI ArcGIS (analytical or scientific feature)",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI ArcGIS ArcPy",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI ArcGIS Spatial Analyst",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI ArcIMS",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI ArcSDE",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI ArcToolbox",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI ArcView 3D Analyst",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI MapObjects",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI Maplex",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "ESRI Personal Geodatabase",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "EffTec EffTrack",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Ekotrope RATER",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Elite Software Energy Audit",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Enercom Energy Depot for Business",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Enercom Energy Depot for Homes",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Energy Efficient Rehab Advisor",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "EnergyPlus",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Facility Energy Decision Systems FEDS",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Fielding Data Labs OptoMizer",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Foresoft CDS Cogo",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Foresoft CDS Model",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Fundamental Objects foAudits",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Global positioning system GPS software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Good Steward Software EnergyCAP",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Hexagon Geospatial Imagine Photogrammetry",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Hexagon Intergraph",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Home Energy Efficient Design HEED",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "IBM SPSS Statistics",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "IMAGINE OrthoBASE",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Inspection Depot Home Guide System",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "InterEnergy Software Building Energy Analyzer PRO",
       "weight": 0.07142857142857142
     },
     {
@@ -1818,12 +3154,264 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Itron Enterprise Energy Management EEM Suite",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "JavaScript",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Linux",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "MENSI 3Dipsos",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "MapInfo",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "MicroSurvey FieldGenius",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "MicroSurvey OfficeSync",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "MicroSurvey Star*Net",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "MicroSurveyCAD",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft .NET Framework",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft Dynamics",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft Visual Basic Scripting Edition VBScript",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft Visual Basic for Applications VBA",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Microsoft Visual FoxPro",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Mobile building inspection software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Modeling software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "MotorMaster+",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Muncy Plat Pronto",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Municipal geographic management software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "National Instruments LabVIEW",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "New construction inspection form software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "NorthWest Builders Network Plan Analyst",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Onset Computer Corporation HOBOware",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "OptaSoft Commercial Building Inspector",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "PCI Geomatics eCognition",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "PCI Geomatics software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Performance Systems Development TREAT",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Program for Energy Analysis of Residences PEAR",
       "weight": 0.07142857142857142
     },
     {
       "name": "Project management software",
       "weight": 0.07142857142857142
+    },
+    {
+      "name": "Psychrometric chart software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "QuarkXPress",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "QuickCogo",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Quicken",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "R",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "REScheck",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Real estate and tax software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Residential home inspection form software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Retrofit Energy Savings Estimation Model RESEM",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "SAS",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Salesforce software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "SiteComp Survey",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Snugg Home Snugg Pro",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Software libraries",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "TELEDYNE CARIS",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "TRS Software TomCADD",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "The MathWorks MATLAB",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "The Weatherization Assistant",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Trane TRACE",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Traverse PC",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Trimble GPS Pathfinder Office",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Trimble Geomatics Office",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Trimble TerraSync",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Trimble Terramodel",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Trimble Total Control",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Tripod Data Systems COGO",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Tripod Data Systems Foresight",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Tripod Data Systems software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Triton Elics International Isis",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "UNIX",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Vision Software",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Wolfram Research Mathematica",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Code database software",
+      "weight": 0.045454545454545456
     }
   ],
   "tools_used": [
@@ -1848,6 +3436,10 @@
       "weight": 0.7597402597402597
     },
     {
+      "name": "Two way radios",
+      "weight": 0.6625258799171843
+    },
+    {
       "name": "Triangles",
       "weight": 0.5714285714285714
     },
@@ -1868,6 +3460,10 @@
       "weight": 0.5
     },
     {
+      "name": "Arm drafting machines",
+      "weight": 0.5
+    },
+    {
       "name": "Compasses",
       "weight": 0.5
     },
@@ -1876,7 +3472,31 @@
       "weight": 0.5
     },
     {
+      "name": "Diazo copiers",
+      "weight": 0.5
+    },
+    {
       "name": "Dividers",
+      "weight": 0.5
+    },
+    {
+      "name": "Engineering copiers",
+      "weight": 0.5
+    },
+    {
+      "name": "Mat knives",
+      "weight": 0.5
+    },
+    {
+      "name": "Parallel bars",
+      "weight": 0.5
+    },
+    {
+      "name": "Precision knives",
+      "weight": 0.5
+    },
+    {
+      "name": "Track drafting machines",
       "weight": 0.5
     },
     {
@@ -1884,11 +3504,35 @@
       "weight": 0.47619047619047616
     },
     {
+      "name": "10-key calculators",
+      "weight": 0.40476190476190477
+    },
+    {
       "name": "Digitizers",
       "weight": 0.40476190476190477
     },
     {
+      "name": "35 millimeter cameras",
+      "weight": 0.3787878787878788
+    },
+    {
+      "name": "Digital camcorders",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Drafting scales",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Microfiche readers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Overhead projectors",
       "weight": 0.3333333333333333
     },
     {
@@ -1900,6 +3544,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Slide projectors",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Theodolites",
       "weight": 0.21428571428571427
     },
@@ -1908,15 +3556,35 @@
       "weight": 0.21428571428571427
     },
     {
+      "name": "Digital multimeters",
+      "weight": 0.18831168831168832
+    },
+    {
       "name": "Measuring tapes",
       "weight": 0.18831168831168832
+    },
+    {
+      "name": "Carbon monoxide detectors",
+      "weight": 0.14285714285714285
     },
     {
       "name": "Engineering scales",
       "weight": 0.14285714285714285
     },
     {
+      "name": "Handheld digital thermometers",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Levels",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Light meters",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Manometers",
       "weight": 0.14285714285714285
     },
     {
@@ -1928,6 +3596,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Programmable calculators",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Scanners",
       "weight": 0.14285714285714285
     },
@@ -1936,7 +3608,23 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Cordless drills",
+      "weight": 0.11688311688311688
+    },
+    {
+      "name": "Digital still cameras",
+      "weight": 0.11688311688311688
+    },
+    {
+      "name": "Digital video cameras",
+      "weight": 0.11688311688311688
+    },
+    {
       "name": "Distance measuring wheels",
+      "weight": 0.11688311688311688
+    },
+    {
+      "name": "Voltage testers",
       "weight": 0.11688311688311688
     },
     {
@@ -1944,7 +3632,51 @@
       "weight": 0.11490683229813664
     },
     {
+      "name": "Shovels",
+      "weight": 0.11490683229813664
+    },
+    {
+      "name": "Surface thermometers",
+      "weight": 0.11490683229813664
+    },
+    {
+      "name": "Claw hammers",
+      "weight": 0.08893280632411067
+    },
+    {
+      "name": "Pinch bars",
+      "weight": 0.08893280632411067
+    },
+    {
       "name": "3D laser scanning systems",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Air current testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Air sampling devices",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Air sampling pumps",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Air velocity and temperature meters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Airflow meters",
       "weight": 0.07142857142857142
     },
     {
@@ -1952,7 +3684,59 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Arc receptacle testers",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Architects' scales",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Asphalt thermometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Automatic levels",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Automatic optical pendulum leveling systems",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Blower doors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Blueprint machines",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Borescopes",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Carbon dioxide CO2 testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Circuit analyzers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Clamp-on multimeters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Clinometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Combustible gas detectors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Combustible gas monitors",
       "weight": 0.07142857142857142
     },
     {
@@ -1960,7 +3744,51 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Compression testing machines",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Computer data input scanners",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Computer scanners",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Computerized data collectors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Concrete strength measurers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Concrete testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Conductivity meters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Continuity testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Dataloggers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Digital infrared thermometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Distance meters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Draft gauges",
       "weight": 0.07142857142857142
     },
     {
@@ -1980,7 +3808,239 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Duct probe velometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Echosounders",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Electrical circuit testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Electrical circuit tracers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Electricity monitors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Electronic digital/bar-code leveling systems",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Electronic distance measuring devices",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Electronic distance measuring equipment",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Electronic hygrothermometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Electronic levels",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Electrotapes",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Engineers' transits",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Extensometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Fathometer sonar equipment",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Field data collectors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Flue gas analyzers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Force gauges",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Four wheel drive 4WD vehicles",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Gas leak detection devices",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Geodetic leveling rods",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Geological compasses",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Ground fault circuit interrupter GFCI testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Ground resistance testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Ground vibration sensing equipment",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Hand augers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Hand levels",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Hand-operated boring machines",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Handheld data collectors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Handheld thermometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Heating system combustion analyzers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Hygrometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Inclinometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Infrared cameras",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Infrared thermometer lasers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Insolation meters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Inspection mirrors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Insulation testers",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Laser distance measuring equipment",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Laser fiches",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Laser measuring devices",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Laser scanner coordinate capturing equipment",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Leveling bubbles",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Load cells",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Lock levels",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Magnetic field pipe locators",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Magnetic locators",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Mallets",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Map wheels",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Measuring chains",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Measuring rods",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Megohmeters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Metal cones",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Metal detectors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Moisture meters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Multibeam sonar equipment",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Multimeters",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Non-contact infrared thermometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Nuclear densometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Optical levels",
       "weight": 0.07142857142857142
     },
     {
@@ -2056,6 +4116,10 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Radon detection devices",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Ranger data collectors",
       "weight": 0.07142857142857142
     },
@@ -2065,6 +4129,14 @@
     },
     {
       "name": "Recording anemometers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Refrigerant leak detectors",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Refrigeration thermometers",
       "weight": 0.07142857142857142
     },
     {
@@ -2092,7 +4164,15 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Side scan sonars",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Sight targets",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Sling psychrometers",
       "weight": 0.07142857142857142
     },
     {
@@ -2101,6 +4181,14 @@
     },
     {
       "name": "Small-gauge surface drilling rigs",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Smoke generators",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Smoke pens",
       "weight": 0.07142857142857142
     },
     {
@@ -2152,11 +4240,19 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Stud locators",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Survey instrument control units",
       "weight": 0.07142857142857142
     },
     {
       "name": "Surveying rods",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "T-squares",
       "weight": 0.07142857142857142
     },
     {
@@ -2168,11 +4264,19 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Telescoping pole saws",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Tellurometers",
       "weight": 0.07142857142857142
     },
     {
       "name": "Temperature/humidity testers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Templates",
       "weight": 0.07142857142857142
     },
     {
@@ -2197,6 +4301,10 @@
     },
     {
       "name": "Tripods",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Ultrasonic leak detectors",
       "weight": 0.07142857142857142
     },
     {
@@ -2244,7 +4352,15 @@
       "weight": 0.07142857142857142
     },
     {
+      "name": "Wattmeters",
+      "weight": 0.07142857142857142
+    },
+    {
       "name": "Wearable mobile inspection computers",
+      "weight": 0.07142857142857142
+    },
+    {
+      "name": "Wheeled measuring devices",
       "weight": 0.07142857142857142
     },
     {
@@ -2276,11 +4392,35 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Battery analyzers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Battery powered smoke detectors",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Bit drivers",
       "weight": 0.045454545454545456
     },
     {
       "name": "Box end wrenches",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Camera flash attachments",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Camera lenses",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Camera positioning tripods",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Carpet cutters",
       "weight": 0.045454545454545456
     },
     {
@@ -2296,11 +4436,19 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Crowbars",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Decibel meters",
       "weight": 0.045454545454545456
     },
     {
       "name": "Digital anemometers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Digital audio recorders",
       "weight": 0.045454545454545456
     },
     {
@@ -2320,7 +4468,23 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Dry bulb thermometers",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Dust masks",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Emergency first aid kits",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Emergency lights",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Eye droppers",
       "weight": 0.045454545454545456
     },
     {
@@ -2328,7 +4492,51 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Fire detection systems",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Fire helmets",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Fire rakes",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Fire suppression sprinkler systems",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Firefighters' coats",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Firefighters' pants",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Firefighting hoods",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Flat cold chisels",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Flathead shovels",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Flood lighting",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Foam-water sprinkler systems",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Fuse pulling tools",
       "weight": 0.045454545454545456
     },
     {
@@ -2336,7 +4544,15 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Gasoline powered generators",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Ground fault testers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Hacksaws",
       "weight": 0.045454545454545456
     },
     {
@@ -2348,7 +4564,35 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Hard-wired smoke detectors",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "High powered flashlights",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "High pressure fire hoses",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Hoes",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Hydrant wrenches",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Hydrocarbon detectors",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Keyhole saws",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Laser facsimile machines",
       "weight": 0.045454545454545456
     },
     {
@@ -2372,7 +4616,15 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Magnifiers",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Masonry trowels",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Mobile radios",
       "weight": 0.045454545454545456
     },
     {
@@ -2380,7 +4632,31 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Multipurpose knives",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Passenger vehicles",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Pen knives",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Pencil magnets",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Phillips screwdrivers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Photographic meters",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Photographic rulers",
       "weight": 0.045454545454545456
     },
     {
@@ -2392,11 +4668,31 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Pocket knives",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Portable computers",
       "weight": 0.045454545454545456
     },
     {
+      "name": "Portable fire extinguishers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Portable spectroscopes",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Portable sump pumps",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Precision rulers",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Protective ear muffs",
       "weight": 0.045454545454545456
     },
     {
@@ -2428,6 +4724,10 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Steel-tine garden rakes",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Stepladders",
       "weight": 0.045454545454545456
     },
@@ -2444,6 +4744,10 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "Ultraviolet UV lights",
+      "weight": 0.045454545454545456
+    },
+    {
       "name": "Universal pipe cutters",
       "weight": 0.045454545454545456
     },
@@ -2453,6 +4757,18 @@
     },
     {
       "name": "Voltage indicators",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Water mist systems",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Water reservoirs",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Wet bulb thermometers",
       "weight": 0.045454545454545456
     },
     {
@@ -2472,7 +4788,79 @@
       "weight": 0.045454545454545456
     },
     {
+      "name": "X ray inspection equipment",
+      "weight": 0.045454545454545456
+    },
+    {
+      "name": "Aerial lifting apparatus",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Air bag lifting systems",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Air chisels",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Air purifying respirators",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "All terrain vehicles ATV",
+      "weight": 0.043478260869565216
+    },
+    {
       "name": "Aluminum ladders",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Body harnesses",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Carbon dioxide CO2 fire extinguishers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Ceiling hooks",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Chemical protection footwear",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Chemical protection gloves",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Dry chemical fire extinguishers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Equipment transport trailers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Extension ladders",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Fire resistant clothing",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Fire resistant gloves",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "First aid kits",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Gas-powered generators",
       "weight": 0.043478260869565216
     },
     {
@@ -2480,11 +4868,71 @@
       "weight": 0.043478260869565216
     },
     {
+      "name": "Hazardous materials protective suits",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Infrared thermometers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Life vests",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Lug wrenches",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Mobile data computers",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Multi-gas detectors",
+      "weight": 0.043478260869565216
+    },
+    {
       "name": "Navigation compasses",
       "weight": 0.043478260869565216
     },
     {
+      "name": "Passenger vans",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Portable centrifugual pumps",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Portable diaphragm pumps",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Portable low-pressure pumps",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Portable meteorological stations",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Portable pumps",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Power pumps",
+      "weight": 0.043478260869565216
+    },
+    {
       "name": "Power saws",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Pry bars",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Psychrometers",
       "weight": 0.043478260869565216
     },
     {
@@ -2496,15 +4944,47 @@
       "weight": 0.043478260869565216
     },
     {
+      "name": "Search cameras",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Self-rescue ropes",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Smoke ejectors",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Surveillance binoculars",
+      "weight": 0.043478260869565216
+    },
+    {
       "name": "Thermal imaging cameras",
       "weight": 0.043478260869565216
     },
     {
-      "name": "Tracked bulldozers",
+      "name": "Truck wheel chocks",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Truck-mounted winches",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Utility knives",
       "weight": 0.043478260869565216
     },
     {
       "name": "Ventilation fans",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Wind gauges",
+      "weight": 0.043478260869565216
+    },
+    {
+      "name": "Wrecking bars",
       "weight": 0.043478260869565216
     }
   ],

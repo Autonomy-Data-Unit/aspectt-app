@@ -1544,68 +1544,232 @@
   ],
   "tasks": [
     {
-      "task": "Inspect vehicles and check gas, oil, and water levels prior to departure, ensuring everything is in working order.",
-      "task_type": "Core"
+      "task": "Assist passengers, such as elderly or individuals with disabilities, on and off bus, ensure they are seated properly, help carry baggage, and answer questions about bus schedules or routes.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.34
     },
     {
-      "task": "Comply with traffic regulations to operate vehicles in a safe and courteous manner, ensuring smooth rides for passengers.",
-      "task_type": "Core"
+      "task": "Handle passenger emergencies or disruptions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.23
     },
     {
-      "task": "Assist passengers, including elderly or individuals with disabilities, on and off bus, ensure they are seated properly, and help with baggage.",
-      "task_type": "Core"
+      "task": "Record information, such as cash receipts and ticket fares, and maintain log book.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.09
     },
     {
-      "task": "Handle passenger emergencies, maintain order during trips, and direct emergency evacuation procedures as necessary.",
-      "task_type": "Core"
+      "task": "Collect tickets or cash fares from passengers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.26
     },
     {
-      "task": "Record information such as cash receipts, ticket fares, and maintain log books; prepare and submit reports on trips and fuel consumption.",
-      "task_type": "Core"
+      "task": "Maintain cleanliness of bus or motor coach.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.95
     },
     {
-      "task": "Collect tickets or cash fares from passengers and make change or issue receipts as necessary.",
-      "task_type": "Core"
+      "task": "Announce stops to passengers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.5
     },
     {
-      "task": "Maintain cleanliness of bus or motor coach by vacuuming interiors and washing exteriors.",
-      "task_type": "Core"
+      "task": "Read maps to plan bus routes.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.18
     },
     {
-      "task": "Announce stops to passengers and provide information regarding fares, schedules, and local areas.",
-      "task_type": "Core"
+      "task": "Report delinquent student behaviors to school administration.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.84
     },
     {
-      "task": "Drive vehicles over specified routes according to time schedules and comply with traffic regulations to ensure passenger safety.",
-      "task_type": "Core"
+      "task": "Report delays, accidents, or other traffic and transportation situations, using telephones or mobile two-way radios.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.17
     },
     {
-      "task": "Regulate heating, lighting, and ventilation systems for passenger comfort throughout the journey.",
-      "task_type": "Core"
+      "task": "Report any bus malfunctions or needed repairs.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.81
     },
     {
-      "task": "Report any bus malfunctions, delays, accidents, or other transportation situations to supervisors or dispatchers using radios.",
-      "task_type": "Core"
+      "task": "Park vehicles at loading areas so that passengers can board.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.54
     },
     {
-      "task": "Follow relevant safety regulations governing vehicle operation and ensure passengers adhere to safety rules.",
-      "task_type": "Core"
+      "task": "Read maps and follow written and verbal geographic directions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.14
     },
     {
-      "task": "Pick up and drop off students or passengers at regularly scheduled locations, following strict time schedules.",
-      "task_type": "Core"
+      "task": "Prepare and submit reports that may include the number of students or trips, hours worked, mileage, or fuel consumption.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.44
     },
     {
-      "task": "Test vehicle equipment to ensure proper operation and perform minor repairs when necessary.",
-      "task_type": "Core"
+      "task": "Pick up and drop off students at regularly scheduled neighborhood locations, following strict time schedules.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.78
     },
     {
-      "task": "Communicate with dispatchers to exchange information and receive requests for passenger service.",
-      "task_type": "Core"
+      "task": "Make minor repairs to vehicles.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.1
     },
     {
-      "task": "Read maps and follow geographic directions to plan bus routes and ensure timely arrivals.",
-      "task_type": "Core"
+      "task": "Maintain order among students during trips to ensure safety.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.54
+    },
+    {
+      "task": "Maintain knowledge of first-aid procedures.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.39
+    },
+    {
+      "task": "Follow safety rules as students board and exit buses or cross streets near bus stops.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.93
+    },
+    {
+      "task": "Escort small children across roads and highways.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.77
+    },
+    {
+      "task": "Drive gasoline, diesel, or electrically powered multi-passenger vehicles to transport students between neighborhoods, schools, and school activities.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.73
+    },
+    {
+      "task": "Drive vehicles over specified routes or to specified destinations according to time schedules, complying with traffic regulations to ensure that passengers have a smooth and safe ride.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.7
+    },
+    {
+      "task": "Check the condition of a vehicle's tires, brakes, windshield wipers, lights, oil, fuel, water, and safety equipment to ensure that everything is in working order.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.93
+    },
+    {
+      "task": "Advise passengers to be seated and orderly while on vehicles.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.19
+    },
+    {
+      "task": "Regulate heating, lighting, and ventilating systems for passenger comfort.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.12
+    },
+    {
+      "task": "Load and unload baggage in baggage compartments.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.69
+    },
+    {
+      "task": "Operate controls to open and close transit vehicle doors.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.83
+    },
+    {
+      "task": "Regulate vehicle speed and the time spent at each stop to maintain schedules.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.65
+    },
+    {
+      "task": "Attend meetings on driver and passenger safety to learn ways in which job performance might be affected.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.17
+    },
+    {
+      "task": "Greet passengers, provide information, and answer questions concerning fares, schedules, transfers, and routings.",
+      "task_type": "Core",
+      "relevance": 0.2,
+      "importance": 4.21
+    },
+    {
+      "task": "Pick up or meet passengers according to requests, appointments, or schedules.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.56
+    },
+    {
+      "task": "Communicate with dispatchers by radio, telephone, or computer to exchange information and receive requests for passenger service.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.58
+    },
+    {
+      "task": "Drive shuttle busses, limousines, company cars, or privately owned vehicles to transport passengers.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.67
+    },
+    {
+      "task": "Operate vehicles with specialized equipment, such as wheelchair lifts, to transport and secure passengers with special needs.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.75
+    },
+    {
+      "task": "Assist workers in tasks, such as loading vehicles.",
+      "task_type": "Unclassified",
+      "relevance": 0.024390243902439025,
+      "importance": 0.0
+    },
+    {
+      "task": "Drive vehicles or operate machines or equipment to complete work assignments or to assist workers.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.93
+    },
+    {
+      "task": "Examine, measure, or weigh cargo or materials to determine specific handling requirements.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 3.99
+    },
+    {
+      "task": "Confer with customers, supervisors, contractors, or other personnel to exchange information or to resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.08
+    },
+    {
+      "task": "Enforce safety rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.024390243902439025,
+      "importance": 4.51
     }
   ],
   "technology_skills": [
@@ -1614,8 +1778,16 @@
       "weight": 0.7971175166297118
     },
     {
+      "name": "AOL MapQuest",
+      "weight": 0.7575757575757576
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.7575757575757576
+    },
+    {
+      "name": "Microsoft MapPoint",
+      "weight": 0.3333333333333333
     },
     {
       "name": "Microsoft Office software",
@@ -1630,11 +1802,75 @@
       "weight": 0.1304508499630451
     },
     {
+      "name": "Actsoft Comet Tracker",
+      "weight": 0.11529933481152993
+    },
+    {
+      "name": "Digital Dispatch",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Easy Dispatch",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "EventHelix WebTaxi",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "GPC Autocab",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Global positioning system GPS software",
       "weight": 0.09090909090909091
     },
     {
+      "name": "Mobile Knowledge Cabmate",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "PC Dispatch",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Penchant Software dispatchOffice",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Piccolo Software PiccoloTaxi",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "TSS Wireless Fleet Management Suite",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "TranWare Enterprise Suite",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Accellos Real Dispatch",
+      "weight": 0.03954175905395418
+    },
+    {
       "name": "Commercial vehicle operations CVO software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Microsoft Access",
       "weight": 0.03954175905395418
     },
     {
@@ -1642,8 +1878,28 @@
       "weight": 0.03954175905395418
     },
     {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Microsoft Word",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.03954175905395418
+    },
+    {
       "name": "Scheduling software",
       "weight": 0.03954175905395418
+    },
+    {
+      "name": "@Road GeoManager",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Barcode software",
+      "weight": 0.024390243902439025
     },
     {
       "name": "Fleet management systems",
@@ -1654,20 +1910,28 @@
       "weight": 0.024390243902439025
     },
     {
+      "name": "UPS Logistics Technologies Roadnet Transportation Suite",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "XATA XATANET",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.015151515151515152
+    },
+    {
       "name": "Timekeeping software",
       "weight": 0.015151515151515152
     },
     {
       "name": "Work scheduling software",
       "weight": 0.015151515151515152
-    },
-    {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.03954175905395418
-    },
-    {
-      "name": "Microsoft Word",
-      "weight": 0.03954175905395418
     }
   ],
   "tools_used": [
@@ -1752,6 +2016,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Lube guns",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Minibuses",
       "weight": 0.3333333333333333
     },
@@ -1804,7 +2072,23 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Credit card processing machines",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Mobile data computers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Mobile electronic funds transfer point of sale EFTPOS equipment",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Mobile electronic funds transfer point of sale EFTPOS printers",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Satellite linkup systems",
       "weight": 0.09090909090909091
     },
     {
@@ -1816,12 +2100,80 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Text messaging equipment",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Vans",
       "weight": 0.09090909090909091
     },
     {
+      "name": "Desktop computers",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Personal computers",
+      "weight": 0.03954175905395418
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Grease guns",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Hand trucks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Hydraulic jacks",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Impact wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Lug wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
       "name": "Personal digital assistants PDA",
       "weight": 0.024390243902439025
+    },
+    {
+      "name": "Phillips head screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Ratchet wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Straight screwdrivers",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.024390243902439025
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Laptop computers",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Multi-line telephone systems",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.015151515151515152
     }
   ],
   "detailed_work_activities": [

@@ -1545,83 +1545,237 @@
   "tasks": [
     {
       "task": "Consolidate loads with a common destination to reduce costs to individual shippers.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.17
     },
     {
-      "task": "Verify proper packaging and labeling of exported goods and adherence of documentation to customs, insurance, or regulatory requirements.",
-      "task_type": "Core"
+      "task": "Verify proper packaging and labeling of exported goods.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.09
     },
     {
-      "task": "Calculate weight, volume, or cost of goods to be moved and compute amounts such as space availability or shipping charges.",
-      "task_type": "Core"
+      "task": "Estimate freight or postal rates and record shipment costs and weights.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.41
     },
     {
-      "task": "Prepare shipping documentation, such as bills of lading, invoices, and other shipping documents.",
-      "task_type": "Core"
+      "task": "Prepare manifests showing numbers of airplane passengers and baggage, mail, and freight weights, transmitting data to destinations.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.51
     },
     {
-      "task": "Inform clients of factors such as shipping options, timelines, transfers, or regulations affecting shipments, and advise on transportation and payment methods.",
-      "task_type": "Core"
+      "task": "Inform clients of factors such as shipping options, timelines, transfers, or regulations affecting shipments.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.52
     },
     {
-      "task": "Keep records of goods dispatched or received and ensure accuracy by comparing shipment contents with records.",
-      "task_type": "Core"
+      "task": "Keep records of all goods shipped, received, and stored.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.31
     },
     {
       "task": "Maintain current knowledge of relevant legislation, political situations, or other factors that could affect freight shipping.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.94
     },
     {
-      "task": "Monitor or record locations of goods in transit and track delivery progress of shipments.",
-      "task_type": "Core"
+      "task": "Track delivery progress of shipments.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.57
     },
     {
-      "task": "Negotiate shipping rates with freight carriers and arrange transport of goods with shipping or freight companies.",
-      "task_type": "Core"
+      "task": "Negotiate and arrange transport of goods with shipping or freight companies.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.86
     },
     {
-      "task": "Pay or arrange for payment of freight or insurance fees or other charges, and arrange insurance coverage for goods.",
-      "task_type": "Core"
+      "task": "Obtain or arrange cargo insurance.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.23
     },
     {
-      "task": "Prepare invoices or cost quotations for freight transportation and maintain records on incoming and outgoing shipments.",
-      "task_type": "Core"
+      "task": "Pay or arrange for payment of freight or insurance fees or other charges.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.32
     },
     {
-      "task": "Arrange for applicable duties, taxes, or paperwork for customs clearance and complete customs paperwork.",
-      "task_type": "Core"
+      "task": "Prepare invoices or cost quotations for freight transportation.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.42
     },
     {
-      "task": "Provide shipment status notification to exporters, consignees, or insurers and notify consignees or customers of freight arrival and arrange delivery.",
-      "task_type": "Core"
+      "task": "Pack, seal, label, or affix postage to prepare materials for shipping, using hand tools, power tools, or postage meter.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.0
     },
     {
-      "task": "Select shipment routes based on the nature of goods shipped, cost-effectiveness, or environmental factors.",
-      "task_type": "Core"
+      "task": "Recommend or arrange appropriate merchandise packing methods, according to climate, terrain, weight, nature of goods, or costs.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.45
     },
     {
-      "task": "Arrange delivery or storage of goods at destinations and arrange for special transport of sensitive cargoes.",
-      "task_type": "Core"
+      "task": "Verify adherence of documentation to customs, insurance, or regulatory requirements.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.05
     },
     {
-      "task": "Prepare manifests showing numbers of airplane passengers and weights, transmitting data to destinations.",
-      "task_type": "Supplemental"
+      "task": "Arrange delivery or storage of goods at destinations.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.37
+    },
+    {
+      "task": "Arrange for applicable duties, taxes, or paperwork for customs clearance.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.52
+    },
+    {
+      "task": "Provide detailed port information to importers or exporters.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.13
+    },
+    {
+      "task": "Refer exporters to experts in areas such as trade financing, international marketing, government export requirements, international banking, or marine insurance.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.45
+    },
+    {
+      "task": "Analyze shipping routes to determine how to minimize environmental impact.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.2
+    },
+    {
+      "task": "Arrange for transport, using a variety of modes, such as rail, short sea shipping, air, or roadways, to minimize carbon emissions or other environmental impacts.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.36
+    },
+    {
+      "task": "Check import or export documentation to determine cargo contents and use tariff coding system to classify goods according to fee or tariff group.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.28
+    },
+    {
+      "task": "Assist clients in obtaining insurance reimbursements.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.7
+    },
+    {
+      "task": "Arrange for special transport of sensitive cargoes, such as livestock, food, or medical supplies.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.53
+    },
+    {
+      "task": "Confer or correspond with establishment representatives to rectify problems, such as damages, shortages, or nonconformance to specifications.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.95
+    },
+    {
+      "task": "Advise clients on transportation and payment methods.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.47
+    },
+    {
+      "task": "Record shipment data, such as weight, charges, space availability, damages, or discrepancies, for reporting, accounting, or recordkeeping purposes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.96
+    },
+    {
+      "task": "Direct or participate in cargo loading to ensure completeness of load and even distribution of weight.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.64
+    },
+    {
+      "task": "Open cargo containers and unwrap contents, using steel cutters, crowbars, or other hand tools.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.51
+    },
+    {
+      "task": "Deliver or route materials to departments using handtruck, conveyor, or sorting bins.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.88
+    },
+    {
+      "task": "Requisition and store shipping materials and supplies to maintain inventory of stock.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.05
+    },
+    {
+      "task": "Assemble containers and crates used to transport items, such as machines or vehicles.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 2.96
+    },
+    {
+      "task": "Determine shipping methods, routes, or rates for materials to be shipped.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.78
+    },
+    {
+      "task": "Examine shipment contents and compare with records, such as manifests, invoices, or orders, to verify accuracy.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.22
     },
     {
       "task": "Coordinate and supervise activities of workers engaged in packing and shipping merchandise.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 3.23
     },
     {
-      "task": "Analyze shipping routes to minimize environmental impact and suggest solutions to minimize cost.",
-      "task_type": "Supplemental"
+      "task": "Provide shipment status notification to exporters, consignees, or insurers.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.11
     },
     {
-      "task": "Pack goods for shipping using tools such as staplers, strapping machines, and hammers and verify goods received against invoices.",
-      "task_type": "Supplemental"
+      "task": "Recommend shipping solutions to minimize cost or environmental impacts.",
+      "task_type": "Supplemental",
+      "relevance": 0.1111111111111111,
+      "importance": 4.34
     },
     {
-      "task": "Arrange for special deliveries or services, such as storage or inland transport, and maintain a supply of packing materials.",
-      "task_type": "Supplemental"
+      "task": "Determine method of shipment and prepare bills of lading, invoices, and other shipping documents.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 3.72
+    },
+    {
+      "task": "Reserve necessary space on ships, aircraft, trains, or trucks.",
+      "task_type": "Core",
+      "relevance": 0.1111111111111111,
+      "importance": 4.26
     }
   ],
   "technology_skills": [
@@ -1635,6 +1789,10 @@
     },
     {
       "name": "Microsoft Outlook",
+      "weight": 0.3222222222222222
+    },
+    {
+      "name": "Microsoft PowerPoint",
       "weight": 0.3222222222222222
     },
     {
@@ -1674,7 +1832,15 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "CEDAS Gateway",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "CargoWise ediEnterprise",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
       "weight": 0.1111111111111111
     },
     {
@@ -1682,7 +1848,23 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "IES Ecellerate",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Kewill Global Trade and Logistics",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Manufacturing resource planning MRP software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft OneNote",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Operating system software",
       "weight": 0.1111111111111111
     },
     {
@@ -1694,7 +1876,15 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Posting software",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "QuestaWeb TradeMaster QW",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "RedBerry Logistics",
       "weight": 0.1111111111111111
     },
     {
@@ -1703,6 +1893,10 @@
     },
     {
       "name": "Spreadsheet software",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Star Tec Software Hercules Export",
       "weight": 0.1111111111111111
     },
     {
@@ -1734,6 +1928,18 @@
       "weight": 0.1
     },
     {
+      "name": "Accuship Star System",
+      "weight": 0.1
+    },
+    {
+      "name": "Aestiva Purchase Order",
+      "weight": 0.1
+    },
+    {
+      "name": "Apple Safari",
+      "weight": 0.1
+    },
+    {
       "name": "Barcode labeling software",
       "weight": 0.1
     },
@@ -1742,7 +1948,19 @@
       "weight": 0.1
     },
     {
+      "name": "CMS Consultants WorldLink",
+      "weight": 0.1
+    },
+    {
+      "name": "Citrix cloud computing software",
+      "weight": 0.1
+    },
+    {
       "name": "DM2 Bills of Lading",
+      "weight": 0.1
+    },
+    {
+      "name": "Dydacomp Mail Order Manager",
       "weight": 0.1
     },
     {
@@ -1750,11 +1968,39 @@
       "weight": 0.1
     },
     {
+      "name": "Endicia Internet Postage",
+      "weight": 0.1
+    },
+    {
+      "name": "Enterprise Systems RFID Data Management",
+      "weight": 0.1
+    },
+    {
+      "name": "Exact MAX",
+      "weight": 0.1
+    },
+    {
       "name": "FedEx Ship Manager",
       "weight": 0.1
     },
     {
+      "name": "FileMaker Pro",
+      "weight": 0.1
+    },
+    {
       "name": "Freight+",
+      "weight": 0.1
+    },
+    {
+      "name": "Harvey Software CPS",
+      "weight": 0.1
+    },
+    {
+      "name": "IBM Notes",
+      "weight": 0.1
+    },
+    {
+      "name": "Infor ERP Visual",
       "weight": 0.1
     },
     {
@@ -1770,11 +2016,51 @@
       "weight": 0.1
     },
     {
+      "name": "Kewill Compliance Partner",
+      "weight": 0.1
+    },
+    {
       "name": "Kewill Javelin Distribution Ship",
       "weight": 0.1
     },
     {
+      "name": "Laser Substrates PostalXport",
+      "weight": 0.1
+    },
+    {
+      "name": "MSR Visual Exporter",
+      "weight": 0.1
+    },
+    {
+      "name": "MSR Visual Exporter Document Library",
+      "weight": 0.1
+    },
+    {
+      "name": "MSR Visual Exporter Enterprise Integrator",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Dynamics GP",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Edge",
+      "weight": 0.1
+    },
+    {
+      "name": "Mozilla Firefox",
+      "weight": 0.1
+    },
+    {
       "name": "Pitney Bowes ShipStream Manager",
+      "weight": 0.1
+    },
+    {
+      "name": "Precision TRA/X",
+      "weight": 0.1
+    },
+    {
+      "name": "Sage 50 Accounting",
       "weight": 0.1
     },
     {
@@ -1798,12 +2084,16 @@
       "weight": 0.1
     },
     {
+      "name": "Varsity ShipSoft Supply Chain Execution Suite",
+      "weight": 0.1
+    },
+    {
       "name": "Warehouse management system WMS",
       "weight": 0.1
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.3222222222222222
+      "name": "WindowBook Postal Package Partner",
+      "weight": 0.1
     }
   ],
   "tools_used": [
@@ -1824,11 +2114,27 @@
       "weight": 0.2111111111111111
     },
     {
+      "name": "Crow bars",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Electrical power unit",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Hammers",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Laptop computers",
       "weight": 0.1111111111111111
     },
     {
       "name": "Laser printers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Mobile air-conditioning units",
       "weight": 0.1111111111111111
     },
     {
@@ -1841,6 +2147,14 @@
     },
     {
       "name": "Radio frequency identification RFID scanners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Staple guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Steel cutters",
       "weight": 0.1111111111111111
     },
     {
@@ -1857,6 +2171,10 @@
     },
     {
       "name": "Two way radios",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Wheel chocks",
       "weight": 0.1111111111111111
     },
     {
@@ -1880,6 +2198,10 @@
       "weight": 0.1
     },
     {
+      "name": "High-speed/moving object scanning devices",
+      "weight": 0.1
+    },
+    {
       "name": "Notebook computers",
       "weight": 0.1
     },
@@ -1888,7 +2210,31 @@
       "weight": 0.1
     },
     {
+      "name": "Pillow packing machines",
+      "weight": 0.1
+    },
+    {
+      "name": "Pneumatic box staplers",
+      "weight": 0.1
+    },
+    {
+      "name": "Postage meters",
+      "weight": 0.1
+    },
+    {
       "name": "Radio frequency identification RFID devices",
+      "weight": 0.1
+    },
+    {
+      "name": "Reinforced tape dispensers",
+      "weight": 0.1
+    },
+    {
+      "name": "Shrink wrap packaging vacuums",
+      "weight": 0.1
+    },
+    {
+      "name": "Taping machines",
       "weight": 0.1
     }
   ],

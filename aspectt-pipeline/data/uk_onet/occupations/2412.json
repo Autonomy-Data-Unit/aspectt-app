@@ -1544,60 +1544,106 @@
   ],
   "tasks": [
     {
-      "task": "Advise clients concerning business transactions, claim liability, and legal rights and obligations.",
-      "task_type": "Core"
+      "task": "Advise clients concerning business transactions, claim liability, advisability of prosecuting or defending lawsuits, or legal rights and obligations.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.27
     },
     {
       "task": "Interpret laws, rulings and regulations for individuals and businesses.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.54
     },
     {
-      "task": "Prepare, draft, and review legal documents, such as wills, deeds, contracts, and leases.",
-      "task_type": "Core"
+      "task": "Prepare, draft, and review legal documents, such as wills, deeds, patent applications, mortgages, leases, and contracts.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.18
     },
     {
-      "task": "Perform administrative and management functions related to the practice of law.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Supervise legal assistants and confer with colleagues to establish and verify bases for legal proceedings.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Negotiate settlements of civil disputes and contractual agreements.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Examine legal data to determine the advisability of defending or prosecuting lawsuits.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Represent clients in court or before government agencies and present evidence in litigation.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Gather evidence and interview clients and witnesses to formulate defense or to initiate legal actions.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Evaluate findings and develop strategies and arguments in preparation for case presentations.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Study laws and regulations to determine ramifications for cases and analyze probable outcomes using legal precedents.",
-      "task_type": "Core"
+      "task": "Help develop central and devolved government programs, draft and interpret laws and legislation, and establish enforcement procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.48
     },
     {
       "task": "Probate wills and represent and advise executors and administrators of estates.",
-      "task_type": "Supplemental"
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.9
     },
     {
-      "task": "Assist in developing programs, draft laws, and establish enforcement procedures (not core to the role).",
-      "task_type": "Supplemental"
+      "task": "Act as agent, trustee, guardian, or executor for businesses or individuals.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.74
     },
     {
-      "task": "Present and summarize cases to judges and juries (not core to the role).",
-      "task_type": "Supplemental"
+      "task": "Perform administrative and management functions related to the practice of law.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.63
+    },
+    {
+      "task": "Supervise legal assistants.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.01
+    },
+    {
+      "task": "Search for and examine public and other legal records to write opinions or establish ownership.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.7
+    },
+    {
+      "task": "Confer with colleagues with specialties in appropriate areas of legal issue to establish and verify bases for legal proceedings.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.84
+    },
+    {
+      "task": "Negotiate settlements of civil disputes.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.02
+    },
+    {
+      "task": "Prepare legal briefs and opinions, and file appeals in central and devolved government courts of appeal.",
+      "task_type": "Supplemental",
+      "relevance": 0.25,
+      "importance": 3.86
+    },
+    {
+      "task": "Represent clients in court or before government agencies.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.34
+    },
+    {
+      "task": "Gather evidence to formulate defense or to initiate legal actions by such means as interviewing clients and witnesses to ascertain the facts of a case.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.4
+    },
+    {
+      "task": "Evaluate findings and develop strategies and arguments in preparation for presentation of cases.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.31
+    },
+    {
+      "task": "Analyze the probable outcomes of cases, using knowledge of legal precedents.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 4.41
+    },
+    {
+      "task": "Negotiate contractual agreements.",
+      "task_type": "Core",
+      "relevance": 0.25,
+      "importance": 3.94
     }
   ],
   "technology_skills": [
@@ -1799,6 +1845,10 @@
     },
     {
       "name": "Genlex CaseAce",
+      "weight": 0.25
+    },
+    {
+      "name": "Google Analytics",
       "weight": 0.25
     },
     {
@@ -2078,10 +2128,6 @@
       "weight": 0.25
     },
     {
-      "name": "Woll2Woll InfoPower Studio",
-      "weight": 0.25
-    },
-    {
       "name": "Wolters Kluwer Loislaw",
       "weight": 0.25
     },
@@ -2108,6 +2154,10 @@
   ],
   "tools_used": [
     {
+      "name": "Compact disk CD recorders",
+      "weight": 0.25
+    },
+    {
       "name": "Computer data input scanners",
       "weight": 0.25
     },
@@ -2120,6 +2170,10 @@
       "weight": 0.25
     },
     {
+      "name": "Digital video disk DVD recorders",
+      "weight": 0.25
+    },
+    {
       "name": "Laptop computers",
       "weight": 0.25
     },
@@ -2129,6 +2183,10 @@
     },
     {
       "name": "Optical character readers",
+      "weight": 0.25
+    },
+    {
+      "name": "Overhead projectors",
       "weight": 0.25
     },
     {

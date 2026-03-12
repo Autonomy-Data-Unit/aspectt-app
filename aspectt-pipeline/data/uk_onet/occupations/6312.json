@@ -1545,119 +1545,567 @@
   "tasks": [
     {
       "task": "Search for lost articles or for parents of lost children.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.45
     },
     {
       "task": "Provide customer assistance and information, such as giving directions or handling wheelchairs.",
-      "task_type": "Core"
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.97
     },
     {
-      "task": "Sell or collect admission tickets, passes, or facility memberships from patrons at entertainment events.",
-      "task_type": "Core"
+      "task": "Clean facilities.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.11
     },
     {
-      "task": "Clean facilities such as floors, locker rooms, or projection booths.",
-      "task_type": "Core"
+      "task": "Schedule or manage staff, such as volunteer usher corps.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.27
     },
     {
-      "task": "Issue ticket stubs, log tags, or matching tags for locating parked vehicles.",
-      "task_type": "Core"
+      "task": "Perform cash handling tasks, such as making change, balancing and recording cash drawer, or distributing tips.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.12
     },
     {
-      "task": "Explain and calculate parking charges, collect fees, and respond to customer complaints.",
-      "task_type": "Core"
+      "task": "Explain and calculate parking charges, collect fees from customers, and respond to customer complaints.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.01
     },
     {
-      "task": "Call emergency responders or provide motorist assistance, such as helping jump start a stalled vehicle.",
-      "task_type": "Core"
+      "task": "Call emergency responders or the proper authorities and provide motorist assistance, such as giving directions or helping jump start a stalled vehicle.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.32
     },
     {
-      "task": "Maintain a lost-and-found collection and assist patrons in finding their lost items.",
-      "task_type": "Core"
+      "task": "Maintain a lost-and-found collection.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.68
     },
     {
-      "task": "Perform regular maintenance tasks on equipment and inspect for proper functioning.",
-      "task_type": "Core"
+      "task": "Examine tickets or passes to verify authenticity, using criteria such as color or date issued.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.91
     },
     {
-      "task": "Park and retrieve automobiles for customers in parking lots or garages.",
-      "task_type": "Core"
+      "task": "Guide patrons to exits or provide other instructions or assistance in case of emergency.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.84
     },
     {
-      "task": "Monitor patrons' facility use to ensure compliance with rules and safety standards.",
-      "task_type": "Core"
+      "task": "Refuse admittance to undesirable persons or persons without tickets or passes.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.73
     },
     {
-      "task": "Inspect vehicles for damage and monitor traffic flow to assist pedestrians.",
-      "task_type": "Core"
+      "task": "Provide assistance with patrons' special needs, such as helping those with wheelchairs.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.9
     },
     {
-      "task": "Direct traffic movement or warn of hazards, using signs, flags, or hand signals.",
-      "task_type": "Core"
+      "task": "Maintain order and ensure adherence to safety rules.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.68
     },
     {
-      "task": "Inspect establishments housing animals for compliance with laws and issue citations as needed.",
-      "task_type": "Core"
+      "task": "Provide assistance to patrons by performing duties such as opening doors or carrying bags.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.89
     },
     {
-      "task": "Compile and present evidence for court actions and testifying in civil or criminal court proceedings.",
-      "task_type": "Core"
+      "task": "Greet customers and open their car doors.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.47
     },
     {
-      "task": "Respond to critical incidents, such as emergencies or safety hazards.",
-      "task_type": "Core"
+      "task": "Patrol parking areas to prevent vehicle damage and vehicle or property thefts.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.03
     },
     {
-      "task": "Educate the public about animal welfare and animal control laws and regulations.",
-      "task_type": "Core"
+      "task": "Direct motorists to parking areas or parking spaces, using hand signals or flashlights as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.79
     },
     {
-      "task": "Conduct investigations and report safety concerns to maintain a safe environment.",
-      "task_type": "Core"
+      "task": "Keep parking areas clean and orderly to ensure that space usage is maximized.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.8
     },
     {
-      "task": "Implement processes to reduce property or financial losses and improve safety procedures.",
-      "task_type": "Core"
+      "task": "Take numbered tags from customers, locate vehicles, and deliver vehicles, or provide customers with instructions for locating vehicles.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.54
     },
     {
-      "task": "Complete and maintain records of weather, beach conditions, emergency medical treatments, and other incident information.",
-      "task_type": "Core"
+      "task": "Open and close facilities according to rules and schedules.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.37
     },
     {
-      "task": "Inspect recreational equipment and facilities for safety hazards, cleanliness, or damage.",
-      "task_type": "Core"
+      "task": "Perform minor repairs, such as replacing worn sprockets, or notify maintenance personnel of the need for major repairs.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 3.97
     },
     {
-      "task": "Provide assistance with staff selection, training, and supervision, including training new or temporary staff.",
-      "task_type": "Supplemental"
+      "task": "Park and retrieve automobiles for customers in parking lots, storage garages, or new car lots.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.0
     },
     {
-      "task": "Patrol assigned areas by vehicle or on foot to enforce parking ordinances and ensure public compliance.",
-      "task_type": "Core"
+      "task": "Lift, position, and remove barricades to open or close parking areas.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.33
     },
     {
-      "task": "Monitor activities in assigned areas to detect hazards, disturbances, or safety infractions, including using communication devices to report.",
-      "task_type": "Core"
+      "task": "Report and document safety hazards, potentially hazardous conditions, and unsafe practices and procedures.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.46
     },
     {
-      "task": "Respond to and process inquiries, complaints, and reports concerning parking violations, issuing warnings or citations as necessary.",
-      "task_type": "Core"
+      "task": "Inspect vehicles to detect any damage.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.49
     },
     {
-      "task": "Investigate reports of animal attacks, animal cruelty, and damage to crops or property to determine causes and provide preventive advice.",
-      "task_type": "Core"
+      "task": "Store personal possessions for patrons, issue claim checks for articles stored, and return articles on receipt of checks.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.02
     },
     {
-      "task": "Provide advice or information to the public regarding parking regulations, wildlife conservation, and the location of points of interest.",
-      "task_type": "Core"
+      "task": "Monitor patrons' facility use to ensure that rules and regulations are followed, and safety and order are maintained.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.19
     },
     {
-      "task": "Prepare and maintain required records of parking enforcement activities, citations issued, and emergency calls.",
-      "task_type": "Core"
+      "task": "Activate emergency action plans and administer first aid, as necessary.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 4.33
     },
     {
-      "task": "Apprehend or evict trespassers or rule violators from the premises, and report disturbances or suspicious activities.",
-      "task_type": "Core"
+      "task": "Refer guest problems or complaints to supervisors.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.03
+    },
+    {
+      "task": "Check supplies to ensure adequate availability, and order new supplies when necessary.",
+      "task_type": "Core",
+      "relevance": 0.125,
+      "importance": 4.31
+    },
+    {
+      "task": "Escort customers to their vehicles to ensure their safety.",
+      "task_type": "Supplemental",
+      "relevance": 0.125,
+      "importance": 3.59
+    },
+    {
+      "task": "Implement or monitor processes to reduce property or financial losses.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.58
+    },
+    {
+      "task": "Stop speeding vehicles to warn drivers of traffic laws.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.21
+    },
+    {
+      "task": "Distribute traffic control signs and markers at designated points.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.28
+    },
+    {
+      "task": "Discuss traffic routing plans and control-point locations with superiors.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.78
+    },
+    {
+      "task": "Inform drivers of detour routes through construction sites.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.53
+    },
+    {
+      "task": "Collaborate with law enforcement agencies to report or investigate crimes.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.32
+    },
+    {
+      "task": "Direct work of contract security officers or other loss prevention agents.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.89
+    },
+    {
+      "task": "Direct traffic movement or warn of hazards, using signs, flags, lanterns, and hand signals.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.53
+    },
+    {
+      "task": "Learn the location and purpose of street traffic signs within assigned patrol areas.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 4.11
+    },
+    {
+      "task": "Record license numbers of vehicles disregarding traffic signals, and report infractions to appropriate authorities.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.98
+    },
+    {
+      "task": "Communicate traffic and crossing rules and other information to students and adults.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.55
+    },
+    {
+      "task": "Maintain documentation or reports on security-related incidents or investigations.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.52
+    },
+    {
+      "task": "Inspect buildings, equipment, or access points to determine security risks.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.39
+    },
+    {
+      "task": "Determine response requirements and relative priorities of situations, and dispatch units in accordance with established procedures.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.84
+    },
+    {
+      "task": "Monitor compliance with standard operating procedures for loss prevention, physical security, or risk management.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.4
+    },
+    {
+      "task": "Perform covert surveillance of areas susceptible to loss, such loading docks, distribution centers, or warehouses.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.38
+    },
+    {
+      "task": "Prepare written reports on investigations.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.34
+    },
+    {
+      "task": "Recommend new or improved processes or equipment to reduce risk exposure.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.91
+    },
+    {
+      "task": "Train establishment personnel in loss prevention activities.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.16
+    },
+    {
+      "task": "Verify proper functioning of physical security systems, such as closed-circuit televisions, alarms, sensor tag systems, or locks.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.51
+    },
+    {
+      "task": "Testify in civil or criminal court proceedings.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.28
+    },
+    {
+      "task": "Conduct employee background investigations and review reports with operational or human resources managers.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.89
+    },
+    {
+      "task": "Coordinate with risk management, human resources, or other departments to assist in company programs, investigations, or training.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.09
+    },
+    {
+      "task": "Identify and report safety concerns to maintain a safe shopping and working environment.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.44
+    },
+    {
+      "task": "Respond to critical incidents, such as catastrophic events, violent weather, or civil disorders.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.04
+    },
+    {
+      "task": "Compile and present evidence for court actions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.58
+    },
+    {
+      "task": "Issue warnings or citations and file reports as necessary.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.5
+    },
+    {
+      "task": "Enter and retrieve information pertaining to vehicle registration, identification, and status, using hand-held computers.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.31
+    },
+    {
+      "task": "Learn material and pass required tests for certification.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.39
+    },
+    {
+      "task": "Read and effectively interpret small-scale maps and information from a computer screen to determine locations and provide directions.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.63
+    },
+    {
+      "task": "Answer routine inquiries, and refer calls not requiring dispatches to appropriate departments and agencies.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.48
+    },
+    {
+      "task": "Write and submit reports that include data such as the number of passengers or trips, hours worked, mileage driven, or fuel consumed.",
+      "task_type": "Unclassified",
+      "relevance": 0.1,
+      "importance": 0.0
+    },
+    {
+      "task": "Perform traffic control duties such as setting up barricades and temporary signs, placing bags on parking meters to limit their use, or directing traffic.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.37
+    },
+    {
+      "task": "Make arrangements for illegally parked or abandoned vehicles to be towed, and direct tow-truck drivers to the correct vehicles.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.89
+    },
+    {
+      "task": "Patrol an assigned area by vehicle or on foot to ensure public compliance with existing parking ordinance.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.27
+    },
+    {
+      "task": "Write warnings and citations for illegally parked vehicles.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.25
+    },
+    {
+      "task": "Mark tires of parked vehicles with chalk and record time of marking, and return at regular intervals to ensure that parking time limits are not exceeded.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.94
+    },
+    {
+      "task": "Respond to and make radio dispatch calls regarding parking violations and complaints.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.18
+    },
+    {
+      "task": "Identify vehicles in violation of parking codes, checking with dispatchers when necessary to confirm identities or to determine whether vehicles need to be booted or towed.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.06
+    },
+    {
+      "task": "Perform simple vehicle maintenance procedures, such as checking oil and gas, and report mechanical problems to supervisors.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.11
+    },
+    {
+      "task": "Observe and report hazardous conditions, such as missing traffic signals or signs, and street markings that need to be repainted.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.07
+    },
+    {
+      "task": "Investigate and answer complaints regarding contested parking citations, determining their validity and routing them appropriately.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.83
+    },
+    {
+      "task": "Maintain assigned equipment and supplies, such as hand-held citation computers, citation books, rain gear, tire-marking chalk, and street cones.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.18
+    },
+    {
+      "task": "Provide information to the public regarding parking regulations and facilities, and the location of streets, buildings and points of interest.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.81
+    },
+    {
+      "task": "Appear in court at hearings regarding contested traffic citations.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 4.21
+    },
+    {
+      "task": "Provide assistance to motorists needing help with problems, such as flat tires, keys locked in cars, or dead batteries.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.48
+    },
+    {
+      "task": "Collect coins deposited in meters.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.72
+    },
+    {
+      "task": "Issue licenses, permits, or other documentation.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.17
+    },
+    {
+      "task": "Assign and review the work of subordinates.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.46
+    },
+    {
+      "task": "Wind parking meter clocks.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.54
+    },
+    {
+      "task": "Locate lost, stolen, and counterfeit parking permits, and take necessary enforcement action.",
+      "task_type": "Supplemental",
+      "relevance": 0.1,
+      "importance": 3.91
+    },
+    {
+      "task": "Prepare and maintain required records, including logs of parking enforcement activities, and records of contested citations.",
+      "task_type": "Core",
+      "relevance": 0.1,
+      "importance": 3.66
+    },
+    {
+      "task": "Schedule training or drills for emergencies, such as fires, bombs, and other threats.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.25
+    },
+    {
+      "task": "Write reports documenting observations made while on patrol.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.59
+    },
+    {
+      "task": "Order materials or supplies, such as keys, uniforms, and badges.",
+      "task_type": "Supplemental",
+      "relevance": 0.09090909090909091,
+      "importance": 4.3
+    },
+    {
+      "task": "Monitor closed-circuit television cameras.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.43
+    },
+    {
+      "task": "Call police or fire departments in cases of emergency, such as fire, bomb threats, and presence of unauthorized persons.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.44
+    },
+    {
+      "task": "Advise employees in handling problems or resolving complaints from customers, tenants, detainees, or other persons.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.5
+    },
+    {
+      "task": "Explain company policies and procedures to staff using oral or written communication.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.33
+    },
+    {
+      "task": "Investigate disturbances on the premises, such as security alarms, altercations, and suspicious activity.",
+      "task_type": "Core",
+      "relevance": 0.09090909090909091,
+      "importance": 4.77
+    },
+    {
+      "task": "Sell tickets and collect fees from customers.",
+      "task_type": "Core",
+      "relevance": 0.058823529411764705,
+      "importance": 4.13
+    },
+    {
+      "task": "Keep informed of shut-down and emergency evacuation procedures.",
+      "task_type": "Core",
+      "relevance": 0.058823529411764705,
+      "importance": 3.9
+    },
+    {
+      "task": "Monitor activities to ensure adherence to rules and safety procedures, or arrange for the removal of unruly patrons.",
+      "task_type": "Core",
+      "relevance": 0.058823529411764705,
+      "importance": 3.72
     }
   ],
   "technology_skills": [
@@ -1686,24 +2134,136 @@
       "weight": 0.75
     },
     {
+      "name": "Microsoft Access",
+      "weight": 0.49090909090909096
+    },
+    {
       "name": "Microsoft Windows",
       "weight": 0.45882352941176474
+    },
+    {
+      "name": "Facebook",
+      "weight": 0.3088235294117647
     },
     {
       "name": "Word processing software",
       "weight": 0.30000000000000004
     },
     {
+      "name": "Database software",
+      "weight": 0.25882352941176473
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.2159090909090909
+    },
+    {
       "name": "Geographic information system GIS systems",
       "weight": 0.2
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.2
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.2
+    },
+    {
+      "name": "Apple macOS",
+      "weight": 0.125
+    },
+    {
+      "name": "Audio calibration software",
+      "weight": 0.125
+    },
+    {
+      "name": "CorePark Valet",
+      "weight": 0.125
     },
     {
       "name": "Email software",
       "weight": 0.125
     },
     {
+      "name": "IBM Lotus 1-2-3",
+      "weight": 0.125
+    },
+    {
+      "name": "IntelliTrack DMS Check In-Out",
+      "weight": 0.125
+    },
+    {
+      "name": "Inventory tracking software",
+      "weight": 0.125
+    },
+    {
+      "name": "Microsoft Windows Mobile",
+      "weight": 0.125
+    },
+    {
       "name": "Payment processing software",
       "weight": 0.125
+    },
+    {
+      "name": "SMS Valet",
+      "weight": 0.125
+    },
+    {
+      "name": "SportSoft Equipment Manager",
+      "weight": 0.125
+    },
+    {
+      "name": "Ticket Alternative Express Entry",
+      "weight": 0.125
+    },
+    {
+      "name": "Ticket scanning software",
+      "weight": 0.125
+    },
+    {
+      "name": "911 system information databases",
+      "weight": 0.1
+    },
+    {
+      "name": "ARK Software Ark Shelter Software",
+      "weight": 0.1
+    },
+    {
+      "name": "Animal Shelter Manager",
+      "weight": 0.1
+    },
+    {
+      "name": "Aspect Loss Prevention Aspect EliteLP",
+      "weight": 0.1
+    },
+    {
+      "name": "CISCO Software ACS Animal Control System",
+      "weight": 0.1
+    },
+    {
+      "name": "Case management system software",
+      "weight": 0.1
+    },
+    {
+      "name": "Complus Data Innovations FastTrack",
+      "weight": 0.1
+    },
+    {
+      "name": "Computer aided dispatch software",
+      "weight": 0.1
+    },
+    {
+      "name": "Corel WordPerfect Office Suite",
+      "weight": 0.1
+    },
+    {
+      "name": "Customer relationship management CRM software",
+      "weight": 0.1
+    },
+    {
+      "name": "Epicor Loss Prevention",
+      "weight": 0.1
     },
     {
       "name": "Esri ArcGIS",
@@ -1718,7 +2278,19 @@
       "weight": 0.1
     },
     {
+      "name": "GroupMe",
+      "weight": 0.1
+    },
+    {
       "name": "Integrated Parking Solutions MApp",
+      "weight": 0.1
+    },
+    {
+      "name": "Intrado SchoolMessenger",
+      "weight": 0.1
+    },
+    {
+      "name": "Law enforcement information databases",
       "weight": 0.1
     },
     {
@@ -1726,7 +2298,51 @@
       "weight": 0.1
     },
     {
+      "name": "McAfee",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Publisher",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Visio",
+      "weight": 0.1
+    },
+    {
+      "name": "Multiple Options Animal Shelter Management System",
+      "weight": 0.1
+    },
+    {
+      "name": "National Crime Information Center (NCIC) database",
+      "weight": 0.1
+    },
+    {
+      "name": "National Law Enforcement Telecommunications System NLETS",
+      "weight": 0.1
+    },
+    {
+      "name": "NortonLifeLock cybersecurity software",
+      "weight": 0.1
+    },
+    {
       "name": "Operating system software",
+      "weight": 0.1
+    },
+    {
+      "name": "Payroll software",
+      "weight": 0.1
+    },
+    {
+      "name": "RescueConnection Software ShelterConntection",
+      "weight": 0.1
+    },
+    {
+      "name": "RoseRush Services Shelter Pro",
+      "weight": 0.1
+    },
+    {
+      "name": "Spillman Technologies Spillman Computer-Aided Dispatch",
       "weight": 0.1
     },
     {
@@ -1734,7 +2350,51 @@
       "weight": 0.1
     },
     {
+      "name": "Structured query language SQL",
+      "weight": 0.1
+    },
+    {
+      "name": "TRAX Animal Control and Dog Warden Officer Software",
+      "weight": 0.1
+    },
+    {
+      "name": "Ticket issuing software",
+      "weight": 0.1
+    },
+    {
+      "name": "Vehicle information databases",
+      "weight": 0.1
+    },
+    {
+      "name": "Visual Computer Solutions Crossing Guard Scheduling",
+      "weight": 0.1
+    },
+    {
+      "name": "Employee scheduling software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Oracle software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "SAP business and customer relations management software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Time and attendance software",
+      "weight": 0.09090909090909091
+    },
+    {
+      "name": "Adobe PageMaker",
+      "weight": 0.058823529411764705
+    },
+    {
       "name": "Calendar and scheduling software",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Microsoft Internet Explorer",
       "weight": 0.058823529411764705
     }
   ],
@@ -1764,11 +2424,15 @@
       "weight": 0.25882352941176473
     },
     {
+      "name": "Laser facsimile machines",
+      "weight": 0.25882352941176473
+    },
+    {
       "name": "Reflective vests",
       "weight": 0.225
     },
     {
-      "name": "Animal traps",
+      "name": "Computer data input scanners",
       "weight": 0.2
     },
     {
@@ -1792,16 +2456,20 @@
       "weight": 0.2
     },
     {
-      "name": "Tranquilizer guns",
-      "weight": 0.2
-    },
-    {
       "name": "First aid kits",
       "weight": 0.18382352941176472
     },
     {
       "name": "Handheld calculators",
       "weight": 0.1588235294117647
+    },
+    {
+      "name": "Allen wrenches",
+      "weight": 0.125
+    },
+    {
+      "name": "Automatic ticket dispensers",
+      "weight": 0.125
     },
     {
       "name": "Barrier gates",
@@ -1828,6 +2496,10 @@
       "weight": 0.125
     },
     {
+      "name": "Flathead screwdrivers",
+      "weight": 0.125
+    },
+    {
       "name": "Hand-held flashlights",
       "weight": 0.125
     },
@@ -1844,6 +2516,14 @@
       "weight": 0.125
     },
     {
+      "name": "Mallets",
+      "weight": 0.125
+    },
+    {
+      "name": "Multipurpose hammers",
+      "weight": 0.125
+    },
+    {
       "name": "Parking control cones",
       "weight": 0.125
     },
@@ -1856,7 +2536,31 @@
       "weight": 0.125
     },
     {
+      "name": "Phillips screwdrivers",
+      "weight": 0.125
+    },
+    {
+      "name": "Portable barricades",
+      "weight": 0.125
+    },
+    {
       "name": "Portable fire extinguishers",
+      "weight": 0.125
+    },
+    {
+      "name": "Portable hard drives",
+      "weight": 0.125
+    },
+    {
+      "name": "Precision nut drivers",
+      "weight": 0.125
+    },
+    {
+      "name": "Push brooms",
+      "weight": 0.125
+    },
+    {
+      "name": "Scissors",
       "weight": 0.125
     },
     {
@@ -1876,23 +2580,7 @@
       "weight": 0.1
     },
     {
-      "name": "All terrain vehicles ATV",
-      "weight": 0.1
-    },
-    {
-      "name": "Animal cages",
-      "weight": 0.1
-    },
-    {
-      "name": "Animal capture nets",
-      "weight": 0.1
-    },
-    {
-      "name": "Animal catch poles",
-      "weight": 0.1
-    },
-    {
-      "name": "Animal control shotguns",
+      "name": "Analog parking meters",
       "weight": 0.1
     },
     {
@@ -1904,11 +2592,15 @@
       "weight": 0.1
     },
     {
-      "name": "Base station radios",
+      "name": "Automatic call distributing ACD consoles",
       "weight": 0.1
     },
     {
-      "name": "Cat crates",
+      "name": "Barcode scanners",
+      "weight": 0.1
+    },
+    {
+      "name": "Base station radios",
       "weight": 0.1
     },
     {
@@ -1916,15 +2608,75 @@
       "weight": 0.1
     },
     {
+      "name": "Compact digital cameras",
+      "weight": 0.1
+    },
+    {
       "name": "Computer laser printers",
       "weight": 0.1
     },
     {
-      "name": "Dog muzzles",
+      "name": "Contact alarm systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Crimping pliers",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital camcorders",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital cameras",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital recording equipment",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital still cameras",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital video recorders DVR",
       "weight": 0.1
     },
     {
       "name": "Fire detection systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.1
+    },
+    {
+      "name": "Handheld data collectors",
+      "weight": 0.1
+    },
+    {
+      "name": "Handheld ticket writers",
+      "weight": 0.1
+    },
+    {
+      "name": "Intercom systems",
+      "weight": 0.1
+    },
+    {
+      "name": "License plate recognition LPR cameras",
+      "weight": 0.1
+    },
+    {
+      "name": "Mobile data computers",
+      "weight": 0.1
+    },
+    {
+      "name": "Mountain bicycles",
+      "weight": 0.1
+    },
+    {
+      "name": "Mountain bikes",
       "weight": 0.1
     },
     {
@@ -1941,6 +2693,22 @@
     },
     {
       "name": "Parking timers",
+      "weight": 0.1
+    },
+    {
+      "name": "Payment receipt printers",
+      "weight": 0.1
+    },
+    {
+      "name": "Public address PA systems",
+      "weight": 0.1
+    },
+    {
+      "name": "Radio scanners",
+      "weight": 0.1
+    },
+    {
+      "name": "Reflective gloves",
       "weight": 0.1
     },
     {
@@ -1964,11 +2732,23 @@
       "weight": 0.1
     },
     {
+      "name": "Switchboards",
+      "weight": 0.1
+    },
+    {
+      "name": "Telecommunication devices TDD",
+      "weight": 0.1
+    },
+    {
       "name": "Traffic cones",
       "weight": 0.1
     },
     {
       "name": "Warning flags",
+      "weight": 0.1
+    },
+    {
+      "name": "Warning whistles",
       "weight": 0.1
     },
     {
@@ -2000,11 +2780,27 @@
       "weight": 0.058823529411764705
     },
     {
+      "name": "Face masks",
+      "weight": 0.058823529411764705
+    },
+    {
       "name": "Hard hats",
       "weight": 0.058823529411764705
     },
     {
+      "name": "J-bars",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Loudspeakers",
+      "weight": 0.058823529411764705
+    },
+    {
       "name": "Material transport trucks",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Microphones",
       "weight": 0.058823529411764705
     },
     {
@@ -2013,6 +2809,22 @@
     },
     {
       "name": "Photocopying equipment",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Rope tows",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Ski lifts",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "T-bars",
+      "weight": 0.058823529411764705
+    },
+    {
+      "name": "Vacuum cleaners",
       "weight": 0.058823529411764705
     }
   ],

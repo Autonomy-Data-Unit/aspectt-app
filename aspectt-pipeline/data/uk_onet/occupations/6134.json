@@ -1544,64 +1544,610 @@
   ],
   "tasks": [
     {
-      "task": "Provide patients with cognitive, intellectual, or developmental disabilities with routine physical, emotional, or rehabilitation care under nursing or medical staff supervision.",
-      "task_type": "Core"
+      "task": "Provide patients with cognitive, intellectual, or developmental disabilities with routine physical, emotional, psychological, or rehabilitation care under the direction of nursing or medical staff.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.56
     },
     {
-      "task": "Communicate with patients to ascertain their feelings or need for assistance and provide emotional support or encouragement.",
-      "task_type": "Core"
+      "task": "Communicate with patients to ascertain feelings or need for assistance or social and emotional support.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.39
     },
     {
-      "task": "Prepare and serve meals, including food trays, and assist patients with eating or drinking when necessary.",
-      "task_type": "Core"
+      "task": "Prepare or serve food trays.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.32
     },
     {
-      "task": "Measure and record food and liquid intake, monitor vital signs, and report changes to medical or nursing staff.",
-      "task_type": "Core"
+      "task": "Position or hold patients in position for surgical preparation.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.6
     },
     {
-      "task": "Gather information from caregivers and healthcare staff about patient condition, treatment plans, and appropriate activities.",
-      "task_type": "Core"
+      "task": "Work as part of a team that may include psychiatrists, psychologists, psychiatric nurses, or social workers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.35
     },
     {
-      "task": "Provide assistance in daily living activities, such as bathing, dressing, grooming, and toileting.",
-      "task_type": "Core"
+      "task": "Measure and record food and liquid intake or urinary and fecal output, reporting changes to medical or nursing staff.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.58
     },
     {
-      "task": "Observe patients to detect symptoms that may require medical attention and document observations of their behavior or physical symptoms.",
-      "task_type": "Core"
+      "task": "Gather information from caregivers, nurses, or physicians about patient condition, treatment plans, or appropriate activities.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.37
     },
     {
-      "task": "Assist nurses or physicians in patient care, including tasks like administering medications and changing dressings under supervision.",
-      "task_type": "Core"
+      "task": "Feed patients or assist patients to eat or drink.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.64
     },
     {
-      "task": "Clean and disinfect patient areas, including rooms or bathrooms, and change bed linens to maintain hygiene.",
-      "task_type": "Core"
+      "task": "Document or otherwise report observations of patient behavior, complaints, or physical symptoms to nurses.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.52
     },
     {
-      "task": "Organize, supervise, or encourage patient participation in social and recreational activities to enhance mental health.",
-      "task_type": "Core"
+      "task": "Collect specimens, such as urine, feces, or sputum.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.9
     },
     {
-      "task": "Provide emotional support and instruction to families on caring for patients, including lifestyle adaptations and meal preparation according to dietary needs.",
-      "task_type": "Core"
+      "task": "Complete physical checks and monitor patients to detect unusual or harmful behavior and report observations to professional staff.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.47
     },
     {
-      "task": "Transport patients to treatment units or areas for medical care using suitable mobility aids like wheelchairs or stretchers.",
-      "task_type": "Core"
+      "task": "Clean and sanitize patient rooms, bathrooms, examination rooms, or other patient areas.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.13
     },
     {
-      "task": "Lift or assist patients in moving in and out of beds, baths, or wheelchairs, ensuring their comfort and safety.",
-      "task_type": "Core"
+      "task": "Change bed linens or make beds.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.25
     },
     {
-      "task": "Provide records of patient care, including progress notes and treatment reports, to supervisory staff.",
-      "task_type": "Core"
+      "task": "Assist nurses or physicians in the operation of medical equipment or provision of patient care.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.11
     },
     {
-      "task": "Restock patient rooms with hygiene items and ensure the availability of necessary supplies for patient care.",
-      "task_type": "Core"
+      "task": "Apply clean dressings, slings, stockings, or support bandages, under direction of nurse or physician.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.03
+    },
+    {
+      "task": "Answer patient call signals, signal lights, bells, or intercom systems to determine patients' needs.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.69
+    },
+    {
+      "task": "Administer medications or treatments, such as catheterizations, suppositories, irrigations, enemas, massages, or douches, as directed by a physician or nurse.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.13
+    },
+    {
+      "task": "Complete administrative tasks, such as entering orders into computer, answering telephone calls, or maintaining medical or facility information.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.08
+    },
+    {
+      "task": "Provide physical support to assist patients to perform daily living activities, such as getting out of bed, bathing, dressing, using the toilet, standing, walking, or exercising.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.52
+    },
+    {
+      "task": "Record height or weight of patients.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.07
+    },
+    {
+      "task": "Record vital signs, such as temperature, blood pressure, pulse, or respiration rate, as directed by medical or nursing staff.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Remind patients to take medications or nutritional supplements.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.46
+    },
+    {
+      "task": "Listen and provide emotional support and encouragement to psychiatric patients.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.57
+    },
+    {
+      "task": "Transport specimens, laboratory items, or pharmacy items, ensuring proper documentation and delivery to authorized personnel.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.64
+    },
+    {
+      "task": "Provide information, such as directions, visiting hours, or patient status information to visitors or callers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.39
+    },
+    {
+      "task": "Lift or assist others to lift patients to move them on or off beds, examination tables, surgical tables, or stretchers.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.41
+    },
+    {
+      "task": "Explain medical instructions to patients or family members.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.79
+    },
+    {
+      "task": "Exercise patients who are comatose, paralyzed, or have restricted mobility.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.21
+    },
+    {
+      "task": "Wash, groom, shave, or drape patients to prepare them for surgery, treatment, or examination.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.32
+    },
+    {
+      "task": "Undress, wash, and dress patients who are unable to do so for themselves.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.43
+    },
+    {
+      "task": "Turn or reposition bedridden patients.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.76
+    },
+    {
+      "task": "Transport patients to treatment units, testing units, operating rooms, or other areas, using wheelchairs, stretchers, or moveable beds.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.99
+    },
+    {
+      "task": "Supply, collect, or empty bedpans.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.41
+    },
+    {
+      "task": "Stock or issue medical supplies, such as dressing packs or treatment trays.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 3.97
+    },
+    {
+      "task": "Set up treating or testing equipment, such as oxygen tents, portable radiograph (x-ray) equipment, or overhead irrigation bottles, as directed by a physician or nurse.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Review patients' dietary restrictions, food allergies, and preferences to ensure patient receives appropriate diet.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.45
+    },
+    {
+      "task": "Restock patient rooms with personal hygiene items, such as towels, washcloths, soap, or toilet paper.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.14
+    },
+    {
+      "task": "Record and maintain patient information, such as vital signs, eating habits, behavior, progress notes, treatments, or discharge plans.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.33
+    },
+    {
+      "task": "Observe or examine patients to detect symptoms that may require medical attention, such as bruises, open wounds, or blood in urine.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.42
+    },
+    {
+      "task": "Organize, supervise, or encourage patient participation in social, educational, or recreational activities.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.24
+    },
+    {
+      "task": "Aid patients in becoming accustomed to hospital routines.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.2
+    },
+    {
+      "task": "Clean and disinfect rooms and furnishings to maintain a safe and orderly environment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.09
+    },
+    {
+      "task": "Perform nursing duties, such as administering medications, measuring vital signs, collecting specimens, or drawing blood samples.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.05
+    },
+    {
+      "task": "Serve meals or feed patients needing assistance or persuasion.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.16
+    },
+    {
+      "task": "Restrain or aid patients as necessary to prevent injury.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.44
+    },
+    {
+      "task": "Interview patients upon admission and record information.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.01
+    },
+    {
+      "task": "Provide patients with assistance in bathing, dressing, or grooming, demonstrating these skills as necessary.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.23
+    },
+    {
+      "task": "Participate in recreational activities with patients, including card games, sports, or television viewing.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.7
+    },
+    {
+      "task": "Maintain patients' restrictions to assigned areas.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.29
+    },
+    {
+      "task": "Accompany patients to and from wards for medical or dental treatments, shopping trips, or religious or recreational events.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.77
+    },
+    {
+      "task": "Provide patients and families with emotional support and instruction in areas such as caring for infants, preparing healthy meals, living independently, or adapting to disability or illness.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.9
+    },
+    {
+      "task": "Plan, purchase, prepare, or serve meals to patients or other family members, according to prescribed diets.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.04
+    },
+    {
+      "task": "Entertain, converse with, or read aloud to patients to keep them mentally healthy and alert.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.06
+    },
+    {
+      "task": "Maintain records of patient care, condition, progress, or problems to report and discuss observations with supervisor or case manager.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.46
+    },
+    {
+      "task": "Provide patients with help moving in and out of beds, baths, wheelchairs, or automobiles and with dressing and grooming.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.38
+    },
+    {
+      "task": "Check patients' pulse, temperature, and respiration.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.92
+    },
+    {
+      "task": "Direct patients in simple prescribed exercises or in the use of braces or artificial limbs.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.49
+    },
+    {
+      "task": "Care for children with disabilities or who have sick parents or parents with disabilities.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.95
+    },
+    {
+      "task": "Change dressings.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.6
+    },
+    {
+      "task": "Perform a variety of duties as requested by client, such as obtaining household supplies or running errands.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.71
+    },
+    {
+      "task": "Accompany clients to doctors' offices or on other trips outside the home, providing transportation, assistance, and companionship.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 3.76
+    },
+    {
+      "task": "Massage patients or apply preparations or treatments, such as liniment, alcohol rubs, or heat-lamp stimulation.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 3.31
+    },
+    {
+      "task": "Administer prescribed oral medications, under the written direction of physician or as directed by home care nurse or aide, and ensure patients take their medicine.",
+      "task_type": "Supplemental",
+      "relevance": 0.16666666666666666,
+      "importance": 4.27
+    },
+    {
+      "task": "Care for patients by changing bed linens, washing and ironing laundry, cleaning, or assisting with their personal care.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.16
+    },
+    {
+      "task": "Bathe patients.",
+      "task_type": "Core",
+      "relevance": 0.16666666666666666,
+      "importance": 4.29
+    },
+    {
+      "task": "Care for individuals or families during periods of incapacitation, family disruption, or convalescence, providing companionship, personal care, or help in adjusting to new lifestyles.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.39
+    },
+    {
+      "task": "Perform healthcare-related tasks, such as monitoring vital signs and medication, under the direction of registered nurses or physiotherapists.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.46
+    },
+    {
+      "task": "Administer bedside or personal care, such as ambulation or personal hygiene assistance.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.65
+    },
+    {
+      "task": "Prepare and maintain records of client progress and services performed, reporting changes in client condition to manager or supervisor.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.65
+    },
+    {
+      "task": "Perform housekeeping duties, such as cooking, cleaning, washing clothes or dishes, or running errands.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.19
+    },
+    {
+      "task": "Train family members to provide bedside care.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.56
+    },
+    {
+      "task": "Instruct or advise clients on issues, such as household cleanliness, utilities, hygiene, nutrition, or infant care.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
+    },
+    {
+      "task": "Participate in case reviews, consulting with the team caring for the client, to evaluate the client's needs and plan for continuing services.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.45
+    },
+    {
+      "task": "Transport clients to locations outside the home, such as to physicians' offices or on outings, using a motor vehicle.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.73
+    },
+    {
+      "task": "Provide clients with communication assistance, typing their correspondence or obtaining information for them.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.18
+    },
+    {
+      "task": "Plan, shop for, or prepare nutritious meals or assist families in planning, shopping for, or preparing nutritious meals.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.03
+    },
+    {
+      "task": "Provide staff with assistance in performing difficult or complicated duties.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Plan, direct, or supervise recreational and entertainment activities led by staff, such as sports, aquatics, games, or performing arts.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Investigate employee complaints and resolve problems following management rules and regulations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.13
+    },
+    {
+      "task": "Inform management about problems, such as employee disputes.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.97
+    },
+    {
+      "task": "Direct or coordinate the activities of workers, such as hotel staff or hair stylists.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.05
+    },
+    {
+      "task": "Arrange worker breaks to ensure services are adequately staffed throughout each shift.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.94
+    },
+    {
+      "task": "Serve as a point of contact between managerial staff and leaders of recreational or entertainment activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Requisition supplies and equipment necessary for workers to facilitate recreational or entertainment activities, such as safety harnesses, flash lights, or first aid kits.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Furnish customers with information on events or activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Observe and evaluate workers' appearance and performance to ensure quality service and compliance with specifications.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.11
+    },
+    {
+      "task": "Train workers in proper operational procedures and functions and explain company policies.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.55
+    },
+    {
+      "task": "Collaborate with staff members to plan or develop programs of events or schedules of activities.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Inform workers about interests or special needs of specific groups.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.79
+    },
+    {
+      "task": "Resolve customer complaints regarding worker performance or services rendered.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.3
+    },
+    {
+      "task": "Requisition necessary supplies, equipment, or services.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.71
+    },
+    {
+      "task": "Recruit and hire staff members.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.32
+    },
+    {
+      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.01
+    },
+    {
+      "task": "Direct marketing, advertising, or other customer recruitment efforts.",
+      "task_type": "Supplemental",
+      "relevance": 0.03571428571428571,
+      "importance": 3.41
+    },
+    {
+      "task": "Take disciplinary action to address performance problems.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.23
+    },
+    {
+      "task": "Inspect work areas or operating equipment to ensure conformance to established standards in areas such as cleanliness or maintenance.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.14
+    },
+    {
+      "task": "Assign work schedules, following work requirements, to ensure quality and timely delivery of service.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.36
+    },
+    {
+      "task": "Meet with managers or other supervisors to stay informed of changes affecting operations.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 4.41
+    },
+    {
+      "task": "Apply customer feedback to service improvement efforts.",
+      "task_type": "Core",
+      "relevance": 0.03571428571428571,
+      "importance": 3.93
+    },
+    {
+      "task": "Analyze and record personnel or operational data and write related activity reports.",
+      "task_type": "Unclassified",
+      "relevance": 0.03571428571428571,
+      "importance": 0.0
+    },
+    {
+      "task": "Recommend and implement measures to improve worker motivation, work methods, or customer services.",
+      "task_type": "Unclassified",
+      "relevance": 0.015151515151515152,
+      "importance": 0.0
     }
   ],
   "technology_skills": [
@@ -1646,6 +2192,10 @@
       "weight": 0.47619047619047616
     },
     {
+      "name": "Billing software",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Epic Systems",
       "weight": 0.3333333333333333
     },
@@ -1655,14 +2205,6 @@
     },
     {
       "name": "Health information database software",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Medical condition coding software",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Medical procedure coding software",
       "weight": 0.3333333333333333
     },
     {
@@ -1678,15 +2220,43 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "YouTube",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Word processing software",
       "weight": 0.30952380952380953
+    },
+    {
+      "name": "Enterprise resource planning ERP software",
+      "weight": 0.18181818181818182
     },
     {
       "name": "Microsoft Access",
       "weight": 0.18181818181818182
     },
     {
+      "name": "SAP software",
+      "weight": 0.18181818181818182
+    },
+    {
+      "name": "AIGHD OASIS",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Mi-Co software",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Microsoft Exchange",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Microsoft SharePoint",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Salesforce software",
       "weight": 0.16666666666666666
     },
     {
@@ -1698,8 +2268,44 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Computer reading software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Mi-Co Mi-Forms",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Spreadsheet software",
       "weight": 0.14285714285714285
+    },
+    {
+      "name": "Voltage SecureMail",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Inventory management systems",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Point of sale POS software",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Timekeeping software",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "Work scheduling software",
+      "weight": 0.08658008658008658
+    },
+    {
+      "name": "General ledger software",
+      "weight": 0.015151515151515152
+    },
+    {
+      "name": "Scheduling software",
+      "weight": 0.015151515151515152
     }
   ],
   "tools_used": [
@@ -2056,6 +2662,18 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Adjustable wrenches",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Alarm systems",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Automatic blood pressure machines",
       "weight": 0.14285714285714285
     },
@@ -2069,6 +2687,22 @@
     },
     {
       "name": "Blood pressure cuffs",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Braille printing software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Digital cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Digital video cameras",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Hammers",
       "weight": 0.14285714285714285
     },
     {
@@ -2088,11 +2722,27 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Mechanical vibrating massage devices",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Oxygen delivery equipment",
       "weight": 0.14285714285714285
     },
     {
+      "name": "Paging systems",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Patient lifting devices",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Screwdrivers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Speech synthesizers",
       "weight": 0.14285714285714285
     },
     {
@@ -2101,6 +2751,10 @@
     },
     {
       "name": "Telecommunication devices TDD",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Teletypewriters TTY",
       "weight": 0.14285714285714285
     },
     {
@@ -2114,6 +2768,10 @@
     {
       "name": "Upper-body prosthetic devices",
       "weight": 0.14285714285714285
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.08658008658008658
     }
   ],
   "detailed_work_activities": [

@@ -1544,48 +1544,262 @@
   ],
   "tasks": [
     {
-      "task": "Greet and register guests, and answer inquiries pertaining to hotel policies and services while resolving complaints.",
-      "task_type": "Core"
+      "task": "Greet and register guests.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.48
     },
     {
-      "task": "Monitor the revenue activity of the hotel or facility, collect payments, and record data pertaining to funds and expenditures.",
-      "task_type": "Core"
+      "task": "Interview and hire applicants.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.14
     },
     {
-      "task": "Book tickets for guests to local tours and attractions, and arrange for additional services such as deliveries and maintenance.",
-      "task_type": "Supplemental"
+      "task": "Answer inquiries pertaining to hotel policies and services, and resolve occupants' complaints.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.53
     },
     {
-      "task": "Organize and coordinate work of staff for meetings, schedule and plan details of events, and supervise in-house services.",
-      "task_type": "Core"
+      "task": "Monitor the revenue activity of the hotel or facility.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.47
     },
     {
-      "task": "Perform marketing and public relations activities, and confer with other managers to coordinate hotel activities.",
-      "task_type": "Core"
+      "task": "Collect payments and record data pertaining to funds and expenditures.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.06
     },
     {
-      "task": "Prepare required paperwork related to departmental functions, and manage and maintain lodging facilities.",
-      "task_type": "Core"
+      "task": "Book tickets for guests for local tours and attractions.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 2.7
     },
     {
-      "task": "Train staff members, assign duties to workers, and prepare employee work schedules.",
-      "task_type": "Core"
+      "task": "Provide assistance to staff members by inspecting rooms, setting tables, or doing laundry.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.77
     },
     {
-      "task": "Inspect guest rooms, public areas, and facilities for cleanliness and evaluate staff performance for adherence to policies.",
-      "task_type": "Core"
+      "task": "Meet with clients to schedule and plan details of conventions, banquets, receptions and other functions.",
+      "task_type": "Supplemental",
+      "relevance": 0.3333333333333333,
+      "importance": 4.43
     },
     {
-      "task": "Participate in financial activities such as setting room rates, establishing budgets, and managing costs.",
-      "task_type": "Core"
+      "task": "Organize and coordinate the work of staff and convention personnel for meetings to be held at a particular facility.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.93
     },
     {
-      "task": "Detect and resolve complaints about service or equipment, and implement policies and procedures for department operations.",
-      "task_type": "Core"
+      "task": "Perform marketing and public relations activities.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.96
     },
     {
-      "task": "Select and purchase new equipment and supplies, and recommend changes to improve service efficiency.",
-      "task_type": "Core"
+      "task": "Arrange telephone answering services, deliver mail and packages, or answer questions regarding locations for eating and entertainment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.54
+    },
+    {
+      "task": "Purchase supplies, and arrange for outside services, such as deliveries, laundry, maintenance and repair, and trash collection.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.12
+    },
+    {
+      "task": "Receive and process advance registration payments, mail letters of confirmation, or return checks when registrations cannot be accepted.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.16
+    },
+    {
+      "task": "Prepare required paperwork pertaining to departmental functions.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.02
+    },
+    {
+      "task": "Manage and maintain temporary or permanent lodging facilities.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.42
+    },
+    {
+      "task": "Assign duties to workers, and schedule shifts.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.23
+    },
+    {
+      "task": "Coordinate front-office activities of hotels or motels, and resolve problems.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.36
+    },
+    {
+      "task": "Inspect guest rooms, public areas, and grounds for cleanliness and appearance.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.3
+    },
+    {
+      "task": "Perform financial tasks, such as estimating costs and preparing and managing budgets.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 4.04
+    },
+    {
+      "task": "Observe and monitor staff performance to ensure efficient operations and adherence to facility's policies and procedures.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.38
+    },
+    {
+      "task": "Train staff members.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.41
+    },
+    {
+      "task": "Show, rent, or assign accommodations.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 3.97
+    },
+    {
+      "task": "Develop and implement policies and procedures for the operation of a department or establishment.",
+      "task_type": "Core",
+      "relevance": 0.3333333333333333,
+      "importance": 4.05
+    },
+    {
+      "task": "Perform grounds maintenance tasks, such as removing snow and mowing the lawn.",
+      "task_type": "Supplemental",
+      "relevance": 0.14285714285714285,
+      "importance": 3.63
+    },
+    {
+      "task": "Check and maintain equipment to ensure that it is in working order.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.18
+    },
+    {
+      "task": "Prepare reports on activity, personnel, and information, such as occupancy, hours worked, facility usage, work performed, and departmental expenses.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.03
+    },
+    {
+      "task": "Advise managers, desk clerks, or admitting personnel of rooms ready for occupancy.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.37
+    },
+    {
+      "task": "Supervise in-house services, such as laundries, maintenance and repair, dry cleaning, or valet services.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.42
+    },
+    {
+      "task": "Maintain required records of work hours, budgets, payrolls, and other information.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.16
+    },
+    {
+      "task": "Recommend changes that could improve service and increase operational efficiency.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.81
+    },
+    {
+      "task": "Recommend or arrange for additional services, such as painting, repair work, renovations, and the replacement of furnishings and equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.14
+    },
+    {
+      "task": "Issue supplies and equipment to workers.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.21
+    },
+    {
+      "task": "Confer with staff to resolve performance and personnel problems, and to discuss company policies.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.98
+    },
+    {
+      "task": "Coordinate activities with other departments to ensure that services are provided in an efficient and timely manner.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.12
+    },
+    {
+      "task": "Evaluate employee performance and recommend personnel actions, such as promotions, transfers, and dismissals.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 3.94
+    },
+    {
+      "task": "Inspect work performed to ensure that it meets specifications and established standards.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.36
+    },
+    {
+      "task": "Perform or assist with cleaning duties as necessary.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.35
+    },
+    {
+      "task": "Investigate complaints about service and equipment, and take corrective action.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.07
+    },
+    {
+      "task": "Inspect and evaluate the physical condition of facilities to determine the type of work required.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.27
+    },
+    {
+      "task": "Instruct staff in work policies and procedures, and the use and maintenance of equipment.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.05
+    },
+    {
+      "task": "Forecast necessary levels of staffing and stock at different times to facilitate effective scheduling and ordering.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.2
+    },
+    {
+      "task": "Inventory stock to ensure that supplies and equipment are available in adequate amounts.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.24
+    },
+    {
+      "task": "Select the most suitable cleaning materials for different types of linens, furniture, flooring, and surfaces.",
+      "task_type": "Core",
+      "relevance": 0.14285714285714285,
+      "importance": 4.39
     }
   ],
   "technology_skills": [
@@ -1610,7 +1824,15 @@
       "weight": 0.47619047619047616
     },
     {
+      "name": "Microsoft Access",
+      "weight": 0.47619047619047616
+    },
+    {
       "name": "Microsoft Outlook",
+      "weight": 0.47619047619047616
+    },
+    {
+      "name": "Microsoft PowerPoint",
       "weight": 0.47619047619047616
     },
     {
@@ -1650,6 +1872,22 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "INN-Client Server Systems ICSS Atrium",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "M-Tech Hotel Service Optimization System HotSOS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "MICROS Systems OPERA Enterprise Solution OES",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Oracle JD Edwards EnterpriseOne",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Payroll software",
       "weight": 0.3333333333333333
     },
@@ -1658,12 +1896,56 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "RedSky IT Entirety e-Booking",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Silverbyte Systems Optima Property Management System PMS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "TCS Hotel Software Guest Tracker",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "UniResMan",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "ePOS Business Solutions System 3 POS",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "iRez Systems Rezware XP7",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Computerized maintenance management system CMMS",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Facility use software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Help desk software",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Inventory tracking software",
       "weight": 0.14285714285714285
     },
     {
-      "name": "Microsoft PowerPoint",
-      "weight": 0.47619047619047616
+      "name": "Microsoft Project",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Operating system software",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "SAP software",
+      "weight": 0.14285714285714285
     }
   ],
   "tools_used": [
@@ -1764,6 +2046,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Industrial sewing machines",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Industrial vacuum cleaners",
       "weight": 0.14285714285714285
     },
@@ -1809,6 +2095,10 @@
     },
     {
       "name": "Squeegees",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Steam pressers",
       "weight": 0.14285714285714285
     },
     {
