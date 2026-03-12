@@ -83,10 +83,10 @@
 	}
 
 	.swatch.importance {
-		background: var(--color-primary);
+		background: var(--color-bar-importance);
 	}
 
 	.swatch.level {
-		background: var(--color-success);
+		background: var(--color-bar-level);
 	}
 </style>

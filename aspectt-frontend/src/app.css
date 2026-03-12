@@ -15,6 +15,8 @@
 	--color-border-hover: #d0d0d8;
 	--color-success: #3a8a6e;
 	--color-warning: #b8860b;
+	--color-bar-importance: var(--color-primary);
+	--color-bar-level: var(--color-accent);
 	--radius: 8px;
 	--radius-lg: 12px;
 	--shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.03);
@@ -168,11 +170,11 @@ a:hover {
 }
 
 .bar-fill.importance {
-	background: var(--color-primary);
+	background: var(--color-bar-importance);
 }
 
 .bar-fill.level {
-	background: var(--color-accent);
+	background: var(--color-bar-level);
 }
 
 .bar-value {
