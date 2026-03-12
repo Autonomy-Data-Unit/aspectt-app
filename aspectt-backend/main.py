@@ -132,6 +132,13 @@ for _occ_info in _occupation_index:
 
 _crosswalk = load_crosswalk()
 
+# Load element descriptions lookup
+_element_descriptions_path = DATA_DIR / "element_descriptions.json"
+_element_descriptions: dict[str, str] = {}
+if _element_descriptions_path.exists():
+    with open(_element_descriptions_path) as f:
+        _element_descriptions = json.load(f)
+
 # Build unique O*NET occupation list for autocomplete
 _onet_occupations: list[dict] = []
 _onet_seen: set[str] = set()
@@ -851,6 +858,12 @@ def get_stats():
             "emerging_tasks", "reported_job_titles", "education", "related_occupations",
         ],
     }
+
+
+@app.get("/api/element-descriptions")
+def get_element_descriptions():
+    """Get O*NET element descriptions lookup (element_id -> description)."""
+    return _element_descriptions
 
 
 # --- Static file serving (production) ---

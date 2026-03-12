@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { replaceState } from '$app/navigation';
-	import { getOccupation, type OccupationDetail } from '$lib/api/client';
+	import { getOccupation, getElementDescriptions, type OccupationDetail } from '$lib/api/client';
 	import RatedBars from '$lib/components/RatedBars.svelte';
 
 	let occ = $state<OccupationDetail | null>(null);
+	let descriptions = $state<Record<string, string>>({});
 	let loading = $state(true);
 	let error = $state('');
 	let activeSection = $state('tasks');
@@ -80,8 +81,8 @@
 		loading = true;
 		error = '';
 		activeSection = sectionFromHash();
-		getOccupation(code)
-			.then((data) => { occ = data; loading = false; })
+		Promise.all([getOccupation(code), getElementDescriptions()])
+			.then(([data, descs]) => { occ = data; descriptions = descs; loading = false; })
 			.catch((e) => { error = e.message; loading = false; });
 	});
 
@@ -218,7 +219,7 @@
 					<div class="card">
 						<h2>Skills ({occ.skills?.length ?? 0})</h2>
 						{#if occ.skills?.length}
-							<RatedBars items={sortedByImportance(occ.skills)} />
+							<RatedBars items={sortedByImportance(occ.skills)} {descriptions} />
 						{:else}<p class="muted">No skills data available</p>{/if}
 					</div>
 
@@ -226,7 +227,7 @@
 					<div class="card">
 						<h2>Abilities ({occ.abilities?.length ?? 0})</h2>
 						{#if occ.abilities?.length}
-							<RatedBars items={sortedByImportance(occ.abilities)} />
+							<RatedBars items={sortedByImportance(occ.abilities)} {descriptions} />
 						{:else}<p class="muted">No abilities data available</p>{/if}
 					</div>
 
@@ -234,7 +235,7 @@
 					<div class="card">
 						<h2>Knowledge ({occ.knowledge?.length ?? 0})</h2>
 						{#if occ.knowledge?.length}
-							<RatedBars items={sortedByImportance(occ.knowledge)} />
+							<RatedBars items={sortedByImportance(occ.knowledge)} {descriptions} />
 						{:else}<p class="muted">No knowledge data available</p>{/if}
 					</div>
 
@@ -266,7 +267,7 @@
 					<div class="card">
 						<h2>Work activities ({occ.work_activities?.length ?? 0})</h2>
 						{#if occ.work_activities?.length}
-							<RatedBars items={sortedByImportance(occ.work_activities)} />
+							<RatedBars items={sortedByImportance(occ.work_activities)} {descriptions} />
 						{:else}<p class="muted">No work activities data available</p>{/if}
 					</div>
 
@@ -294,7 +295,7 @@
 					<div class="card">
 						<h2>Work context ({occ.work_context?.length ?? 0})</h2>
 						{#if occ.work_context?.length}
-							<RatedBars items={occ.work_context} showLevel={false} />
+							<RatedBars items={occ.work_context} showLevel={false} {descriptions} />
 						{:else}<p class="muted">No work context data available</p>{/if}
 					</div>
 
@@ -302,7 +303,7 @@
 					<div class="card">
 						<h2>Work styles ({occ.work_styles?.length ?? 0})</h2>
 						{#if occ.work_styles?.length}
-							<RatedBars items={occ.work_styles} showLevel={false} />
+							<RatedBars items={occ.work_styles} showLevel={false} {descriptions} />
 						{:else}<p class="muted">No work styles data available</p>{/if}
 					</div>
 
@@ -316,7 +317,8 @@
 									{@const val = (interest as any).value_OI ?? 0}
 									<div class="interest-row">
 										<span class="interest-code" title={interest.element_name}>{interest.element_name[0]}</span>
-										<span class="interest-name">{interest.element_name}</span>
+										<span class="interest-name" class:has-desc={!!descriptions[interest.element_id]}
+										title={descriptions[interest.element_id] || ''}>{interest.element_name}</span>
 										<div class="interest-bar-track">
 											<div class="interest-bar-fill" style="width: {(val / 7) * 100}%"></div>
 										</div>
@@ -337,7 +339,8 @@
 								{#each valueItems.sort((a, b) => ((b as any).value_EX ?? 0) - ((a as any).value_EX ?? 0)) as wv}
 									{@const val = (wv as any).value_EX ?? 0}
 									<div class="interest-row">
-										<span class="interest-name wv-name">{wv.element_name}</span>
+										<span class="interest-name wv-name" class:has-desc={!!descriptions[wv.element_id]}
+									title={descriptions[wv.element_id] || ''}>{wv.element_name}</span>
 										<div class="interest-bar-track">
 											<div class="interest-bar-fill wv-fill" style="width: {(val / 7) * 100}%"></div>
 										</div>
@@ -537,6 +540,12 @@
 	.related-item:last-child { border-bottom: none; }
 	.related-item:hover { color: var(--color-accent); text-decoration: none; }
 	.related-code { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; color: var(--color-accent); flex: 0 0 50px; font-size: 0.8125rem; }
+
+	.has-desc {
+		text-decoration: underline dotted var(--color-border-hover);
+		text-underline-offset: 2px;
+		cursor: help;
+	}
 
 	.error { color: #e53e3e; text-align: center; padding: 1rem; }
 

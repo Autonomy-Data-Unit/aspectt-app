@@ -1,17 +1,19 @@
 <script lang="ts">
 	import type { RatedElement } from '$lib/api/client';
 
-	let { items, maxValue = 5, showLevel = true }: {
+	let { items, maxValue = 5, showLevel = true, descriptions = {} }: {
 		items: RatedElement[];
 		maxValue?: number;
 		showLevel?: boolean;
+		descriptions?: Record<string, string>;
 	} = $props();
 </script>
 
 <div class="rated-list">
 	{#each items as item}
 		<div class="bar-row">
-			<span class="bar-label" title={item.element_id}>{item.element_name}</span>
+			<span class="bar-label" class:has-desc={!!descriptions[item.element_id]}
+				title={descriptions[item.element_id] || item.element_id}>{item.element_name}</span>
 			<div class="bar-track">
 				{#if item.value_IM !== undefined}
 					<div
@@ -78,5 +80,11 @@
 
 	.swatch.level {
 		background: var(--color-success);
+	}
+
+	.bar-label.has-desc {
+		text-decoration: underline dotted var(--color-border-hover);
+		text-underline-offset: 2px;
+		cursor: help;
 	}
 </style>

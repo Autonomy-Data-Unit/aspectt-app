@@ -370,3 +370,14 @@ export async function getCrosswalk(params: {
 export async function getStats() {
 	return fetchJson<Stats>('/stats');
 }
+
+// --- Element Descriptions (singleton) ---
+
+let _elementDescriptions: Record<string, string> | null = null;
+
+export async function getElementDescriptions(): Promise<Record<string, string>> {
+	if (!_elementDescriptions) {
+		_elementDescriptions = await fetchJson<Record<string, string>>('/element-descriptions');
+	}
+	return _elementDescriptions;
+}
