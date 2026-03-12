@@ -232,7 +232,7 @@
 	.selected-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
 	.selected-tag {
 		display: flex; align-items: center; gap: 0.5rem;
-		padding: 0.4375rem 0.875rem; background: var(--color-accent-subtle); border: 1px solid rgba(61, 90, 128, 0.12); border-radius: 20px; font-size: 0.8125rem;
+		padding: 0.4375rem 0.875rem; background: var(--color-accent-subtle); border: 1px solid rgba(234, 184, 67, 0.12); border-radius: 20px; font-size: 0.8125rem;
 		transition: all var(--transition);
 	}
 	.tag-num { font-weight: 700; color: var(--color-accent); }

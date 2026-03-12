@@ -83,7 +83,7 @@
 	}
 
 	.swatch.importance {
-		background: var(--color-accent);
+		background: var(--color-primary);
 	}
 
 	.swatch.level {

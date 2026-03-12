@@ -3,10 +3,10 @@
 :root {
 	--color-primary: #333333;
 	--color-primary-light: #444444;
-	--color-accent: #3d5a80;
-	--color-accent-light: #4a6d96;
+	--color-accent: #c49a0c;
+	--color-accent-light: #d4a63a;
 	--color-accent-bright: #eab843;
-	--color-accent-subtle: rgba(61, 90, 128, 0.06);
+	--color-accent-subtle: rgba(234, 184, 67, 0.08);
 	--color-bg: #f8f8fa;
 	--color-surface: #ffffff;
 	--color-text: #1e1e2e;
@@ -98,7 +98,7 @@ a:hover {
 	letter-spacing: 0.04em;
 	background: var(--color-accent-subtle);
 	color: var(--color-accent);
-	border: 1px solid rgba(61, 90, 128, 0.12);
+	border: 1px solid rgba(234, 184, 67, 0.12);
 }
 
 .btn {
@@ -218,7 +218,7 @@ a:hover {
 
 .search-input:focus {
 	border-color: var(--color-accent);
-	box-shadow: 0 0 0 3px rgba(61, 90, 128, 0.1);
+	box-shadow: 0 0 0 3px rgba(234, 184, 67, 0.1);
 }
 
 .search-input::placeholder {

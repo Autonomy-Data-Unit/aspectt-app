@@ -78,7 +78,7 @@
 	.zone-badge {
 		flex-shrink: 0; min-width: 80px; text-align: center;
 		padding: 0.5rem 0.625rem; border-radius: var(--radius);
-		background: var(--color-primary); color: white;
+		background: var(--color-accent-bright); color: white;
 		font-weight: 700; font-size: 0.85rem;
 	}
 
