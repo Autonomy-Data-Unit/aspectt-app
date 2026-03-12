@@ -9,9 +9,10 @@
 	let descriptions = $state<Record<string, string>>({});
 	let loading = $state(true);
 	let error = $state('');
-	let activeSection = $state('tasks');
+	let activeSection = $state('summary');
 
 	const sections = [
+		{ id: 'summary', label: 'Summary' },
 		{ id: 'tasks', label: 'Tasks', desc: 'Specific duties and responsibilities typically performed by workers in this occupation.' },
 		{ id: 'skills', label: 'Skills', desc: 'Developed capacities that facilitate learning or the performance of activities across jobs, including foundational skills like reading and critical thinking, and cross-functional skills like problem solving and communication.' },
 		{ id: 'abilities', label: 'Abilities', desc: 'Enduring personal attributes that influence job performance, including cognitive, psychomotor, physical, and sensory capabilities.' },
@@ -72,9 +73,9 @@
 	const sectionIds = sections.map(s => s.id);
 
 	function sectionFromHash(): string {
-		if (typeof window === 'undefined') return 'tasks';
+		if (typeof window === 'undefined') return 'summary';
 		const hash = window.location.hash.replace('#', '');
-		return sectionIds.includes(hash) ? hash : 'tasks';
+		return sectionIds.includes(hash) ? hash : 'summary';
 	}
 
 	$effect(() => {
@@ -90,7 +91,8 @@
 	function setSection(id: string) {
 		activeSection = id;
 		if (typeof window !== 'undefined') {
-			replaceState(`${window.location.pathname}#${id}`, {});
+			const hash = id === 'summary' ? '' : `#${id}`;
+			replaceState(`${window.location.pathname}${hash}`, {});
 		}
 	}
 
@@ -174,7 +176,120 @@
 					<p class="section-desc">{sections.find(s => s.id === activeSection)?.desc}</p>
 				{/if}
 
-				{#if activeSection === 'tasks'}
+				{#if activeSection === 'summary'}
+					<div class="card">
+						<h2>Overview</h2>
+						{#if occ.job_zone}
+							<div class="job-zone">
+								<strong>Job zone {jobZoneDisplay(occ.job_zone)}:</strong> {jobZoneLabel(occ.job_zone)}
+							</div>
+						{/if}
+						{#if occ.alternate_titles?.length}
+							<div class="alt-titles">
+								<strong>Also known as:</strong>
+								{occ.alternate_titles.slice(0, 15).join(', ')}
+								{#if occ.alternate_titles.length > 15}
+									<span class="muted">and {occ.alternate_titles.length - 15} more</span>
+								{/if}
+							</div>
+						{/if}
+						{#if occ.reported_job_titles?.length}
+							<div class="alt-titles">
+								<strong>Reported job titles:</strong>
+								{occ.reported_job_titles.slice(0, 15).join(', ')}
+								{#if occ.reported_job_titles.length > 15}
+									<span class="muted">and {occ.reported_job_titles.length - 15} more</span>
+								{/if}
+							</div>
+						{/if}
+					</div>
+
+					{#if occ.skills?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Top skills</h2>
+								<button class="show-more-btn" onclick={() => setSection('skills')}>View all &rarr;</button>
+							</div>
+							<RatedBars items={sortedByImportance(occ.skills, 5)} {descriptions} />
+						</div>
+					{/if}
+
+					{#if occ.knowledge?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Top knowledge</h2>
+								<button class="show-more-btn" onclick={() => setSection('knowledge')}>View all &rarr;</button>
+							</div>
+							<RatedBars items={sortedByImportance(occ.knowledge, 5)} {descriptions} />
+						</div>
+					{/if}
+
+					{#if occ.tasks?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Key tasks</h2>
+								<button class="show-more-btn" onclick={() => setSection('tasks')}>View all &rarr;</button>
+							</div>
+							<ul class="task-list">
+								{#each occ.tasks.filter(t => t.task_type !== 'Supplemental').slice(0, 5) as task}
+									<li>{task.task}</li>
+								{/each}
+							</ul>
+						</div>
+					{/if}
+
+					{#if occ.technology_skills?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Top technology</h2>
+								<button class="show-more-btn" onclick={() => setSection('technology')}>View all &rarr;</button>
+							</div>
+							<div class="tech-grid">
+								{#each occ.technology_skills.slice(0, 12) as tech}
+									<span class="tech-tag">{tech.name}</span>
+								{/each}
+							</div>
+						</div>
+					{/if}
+
+					{#if occ.tools_used?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Top tools</h2>
+								<button class="show-more-btn" onclick={() => setSection('tools')}>View all &rarr;</button>
+							</div>
+							<div class="tech-grid">
+								{#each occ.tools_used.slice(0, 12) as tool}
+									<span class="tech-tag">{tool.name}</span>
+								{/each}
+							</div>
+						</div>
+					{/if}
+
+					{#if occ.source_occupations?.length}
+						<div class="card">
+							<div class="card-header">
+								<h2>Source occupations</h2>
+								<button class="show-more-btn" onclick={() => setSection('sources')}>View all &rarr;</button>
+							</div>
+							<p class="muted">Based on {occ.source_occupations.length} US O*NET occupations</p>
+							<div class="source-preview">
+								{#each occ.source_occupations.slice(0, 3) as src}
+									<a class="source-row" href="https://www.onetonline.org/link/summary/{src.onet_soc}" target="_blank" rel="noopener">
+										<span class="mono">{src.onet_soc}</span>
+										<span class="source-title">{src.onet_title}</span>
+									</a>
+								{/each}
+								{#if occ.source_occupations.length > 3}
+									<button class="show-all-btn" onclick={() => setSection('sources')}>
+										Show all {occ.source_occupations.length} sources
+									</button>
+								{/if}
+							</div>
+						</div>
+					{/if}
+
+				{:else if activeSection === 'tasks'}
 					{#if occ.emerging_tasks?.length}
 						<div class="card emerging-card">
 							<h2>Emerging tasks ({occ.emerging_tasks.length})</h2>
@@ -476,6 +591,33 @@
 
 	.job-zone { margin-bottom: 1rem; padding: 0.5rem 0.75rem; background: var(--color-bg); border-radius: var(--radius); font-size: 0.9rem; }
 	.alt-titles { margin-bottom: 1rem; font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.8; }
+
+	.card-header { display: flex; justify-content: space-between; align-items: center; }
+	.card-header h2 { flex: 1; }
+	.show-more-btn {
+		background: none; border: none; color: var(--color-accent); cursor: pointer;
+		font-size: 0.85rem; font-weight: 500; padding: 0.25rem 0.5rem;
+	}
+	.show-more-btn:hover { text-decoration: underline; }
+	.show-all-btn {
+		display: block; width: 100%; text-align: center; padding: 0.6rem;
+		margin-top: 0.75rem; background: var(--color-bg); border: 1px solid var(--color-border);
+		border-radius: var(--radius); cursor: pointer; font-size: 0.85rem; color: var(--color-accent);
+	}
+	.show-all-btn:hover { border-color: var(--color-accent); }
+
+	.source-preview { display: flex; flex-direction: column; margin-top: 0.5rem; }
+	.source-row {
+		display: flex; gap: 0.75rem; padding: 0.4rem 0; border-bottom: 1px solid var(--color-border);
+		color: var(--color-text); font-size: 0.9rem; align-items: center;
+	}
+	.source-row:last-child { border-bottom: none; }
+	.source-row:hover { color: var(--color-accent); text-decoration: none; }
+	.source-row .mono { color: var(--color-accent); flex: 0 0 auto; }
+	.source-row .source-title { flex: 1; }
+
+	.task-list { padding-left: 1.25rem; }
+	.task-list li { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.25rem; }
 
 	.section-desc { color: var(--color-text-secondary); font-size: 0.8125rem; line-height: 1.55; margin-bottom: 1rem; }
 
