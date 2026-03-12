@@ -183,6 +183,19 @@ for _code, _occ in _occupations.items():
             if _im and _name:
                 _element_index[_cat][_name].append((_code, _im))
 
+# Build element_name -> description lookup (via element_id)
+_element_name_to_desc: dict[str, str] = {}
+for _code, _occ in _occupations.items():
+    for _cat in ("skills", "abilities", "knowledge", "work_activities",
+                 "work_context", "work_styles"):
+        for _el in _occ.get(_cat, []):
+            _eid = _el.get("element_id", "")
+            _ename = _el.get("element_name", "")
+            if _eid and _ename and _ename not in _element_name_to_desc:
+                _desc = _element_descriptions.get(_eid, "")
+                if _desc:
+                    _element_name_to_desc[_ename] = _desc
+
 # Build unique tech skill names for browsing
 _all_tech_skills = sorted(set(
     ts["name"]
@@ -501,13 +514,17 @@ def search_by_skill(
     for code, occ in _occupations.items():
         for skill in occ.get("skills", []):
             if q_lower in skill.get("element_name", "").lower():
-                results.append({
+                item = {
                     "uk_soc_2020": code,
                     "title": occ["title"],
                     "skill_name": skill["element_name"],
                     "importance": skill.get("value_IM"),
                     "level": skill.get("value_LV"),
-                })
+                }
+                desc = _element_name_to_desc.get(skill["element_name"])
+                if desc:
+                    item["description"] = desc
+                results.append(item)
 
     results.sort(key=lambda x: x.get("importance") or 0, reverse=True)
     total = len(results)
@@ -690,11 +707,15 @@ def browse_descriptors(
     for name, entries in elements.items():
         values = [v for _, v in entries]
         avg_val = sum(values) / len(values) if values else 0
-        result.append({
+        item: dict = {
             "element_name": name,
             "occupation_count": len(entries),
             "average_importance": round(avg_val, 2),
-        })
+        }
+        desc = _element_name_to_desc.get(name)
+        if desc:
+            item["description"] = desc
+        result.append(item)
 
     result.sort(key=lambda x: x["average_importance"], reverse=True)
     total = len(result)

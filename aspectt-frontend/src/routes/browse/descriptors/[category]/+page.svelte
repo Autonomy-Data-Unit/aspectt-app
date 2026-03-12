@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { getDescriptors, getDescriptorOccupations, type DescriptorElement, type DescriptorOccupation } from '$lib/api/client';
+	import Tooltip from '$lib/components/Tooltip.svelte';
 
 	let elements = $state<DescriptorElement[]>([]);
 	let loading = $state(true);
@@ -72,7 +73,13 @@
 						class:active={selectedElement === el.element_name}
 						onclick={() => selectElement(el.element_name)}
 					>
-						<span class="el-name">{el.element_name}</span>
+						<span class="el-name">
+							{#if el.description}
+								<Tooltip text={el.description}>{el.element_name}</Tooltip>
+							{:else}
+								{el.element_name}
+							{/if}
+						</span>
 						<span class="el-meta">{el.occupation_count} occs, avg {el.average_importance.toFixed(1)}</span>
 					</button>
 				{/each}
@@ -82,6 +89,9 @@
 				{#if selectedElement}
 					<div class="card">
 						<h2>{selectedElement}</h2>
+						{#if elements.find(e => e.element_name === selectedElement)?.description}
+							<p class="element-desc">{elements.find(e => e.element_name === selectedElement)?.description}</p>
+						{/if}
 						<p class="detail-meta">
 							{elementTotal} occupations use this {categoryLabels[category]?.toLowerCase() ?? 'element'}
 						</p>
@@ -136,6 +146,7 @@
 	.element-item.active { background: var(--color-accent-subtle); color: var(--color-accent); font-weight: 600; }
 	.el-meta { font-size: 0.75rem; color: var(--color-text-secondary); }
 
+	.element-desc { font-size: 0.85rem; color: var(--color-text-secondary); line-height: 1.5; margin-bottom: 0.5rem; }
 	.detail-meta { font-size: 0.9rem; color: var(--color-text-secondary); margin-bottom: 1rem; }
 
 	.occ-list { display: flex; flex-direction: column; }

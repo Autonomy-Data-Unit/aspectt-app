@@ -1,7 +1,9 @@
 <script lang="ts">
+	import { page } from '$app/state';
+	import { untrack } from 'svelte';
 	import { searchTechSkills, type TechSearchResult } from '$lib/api/client';
 
-	let query = $state('');
+	let query = $state(page.url.searchParams.get('q') || '');
 	let results = $state<TechSearchResult[]>([]);
 	let matchingNames = $state<string[]>([]);
 	let total = $state(0);
@@ -9,6 +11,14 @@
 	let searched = $state(false);
 
 	let debounceTimer: ReturnType<typeof setTimeout>;
+
+	$effect(() => {
+		const q = page.url.searchParams.get('q');
+		if (q) {
+			query = q;
+			untrack(() => doSearch());
+		}
+	});
 
 	async function doSearch() {
 		if (!query.trim()) { results = []; matchingNames = []; total = 0; searched = false; return; }

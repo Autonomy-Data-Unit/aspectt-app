@@ -61,7 +61,13 @@
 							<a href="/browse/descriptors/abilities" onclick={closeMenus}>Abilities</a>
 							<a href="/browse/descriptors/knowledge" onclick={closeMenus}>Knowledge</a>
 							<a href="/browse/descriptors/work_activities" onclick={closeMenus}>Work activities</a>
+							<a href="/browse/descriptors/work_context" onclick={closeMenus}>Work context</a>
 							<a href="/browse/descriptors/work_styles" onclick={closeMenus}>Work styles</a>
+						</div>
+						<div class="dropdown-section">
+							<span class="dropdown-heading">By technology</span>
+							<a href="/browse/technology" onclick={closeMenus}>Technology</a>
+							<a href="/browse/tools" onclick={closeMenus}>Tools &amp; equipment</a>
 						</div>
 					</div>
 				{/if}
@@ -73,11 +79,20 @@
 				</button>
 				{#if searchOpen}
 					<div class="dropdown-menu">
-						<a href="/search" onclick={closeMenus}>Occupations</a>
-						<a href="/search/tasks" onclick={closeMenus}>Job duties</a>
-						<a href="/search/technology" onclick={closeMenus}>Technology</a>
-						<a href="/search/tools" onclick={closeMenus}>Tools</a>
-						<a href="/search/skills" onclick={closeMenus}>Skills</a>
+						<div class="dropdown-section">
+							<span class="dropdown-heading">By occupation</span>
+							<a href="/search" onclick={closeMenus}>Occupations</a>
+							<a href="/search/tasks" onclick={closeMenus}>Job duties</a>
+						</div>
+						<div class="dropdown-section">
+							<span class="dropdown-heading">By attribute</span>
+							<a href="/search/skills" onclick={closeMenus}>Skills</a>
+						</div>
+						<div class="dropdown-section">
+							<span class="dropdown-heading">By technology</span>
+							<a href="/search/technology" onclick={closeMenus}>Technology</a>
+							<a href="/search/tools" onclick={closeMenus}>Tools</a>
+						</div>
 					</div>
 				{/if}
 			</div>

@@ -1,8 +1,9 @@
 <script lang="ts">
 	import { searchBySkill } from '$lib/api/client';
+	import Tooltip from '$lib/components/Tooltip.svelte';
 
 	let query = $state('');
-	let results = $state<Array<{ uk_soc_2020: number; title: string; skill_name: string; importance: number; level: number }>>([]);
+	let results = $state<Array<{ uk_soc_2020: number; title: string; skill_name: string; importance: number; level: number; description?: string }>>([]);
 	let total = $state(0);
 	let loading = $state(false);
 	let searched = $state(false);
@@ -65,7 +66,13 @@
 						<a href="/occupation/{r.uk_soc_2020}" class="result-row">
 							<span class="occ-code">{r.uk_soc_2020}</span>
 							<span class="occ-title">{r.title}</span>
-							<span class="skill-name">{r.skill_name}</span>
+							<span class="skill-name">
+								{#if r.description}
+									<Tooltip text={r.description}>{r.skill_name}</Tooltip>
+								{:else}
+									{r.skill_name}
+								{/if}
+							</span>
 							<div class="bar-wrap">
 								<div class="bar-fill" style="width: {(r.importance / 5) * 100}%"></div>
 							</div>

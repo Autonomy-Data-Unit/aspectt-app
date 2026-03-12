@@ -144,6 +144,7 @@ export interface DescriptorElement {
 	element_name: string;
 	occupation_count: number;
 	average_importance: number;
+	description?: string;
 }
 
 export interface DescriptorOccupation {
@@ -281,6 +282,15 @@ export async function getTechSkillsBrowse(q = '', limit = 100, offset = 0) {
 	return fetchJson<{
 		total: number;
 		technology_skills: TechBrowseItem[];
+	}>(url);
+}
+
+export async function getToolsBrowse(q = '', limit = 100, offset = 0) {
+	let url = `/browse/tools-used?limit=${limit}&offset=${offset}`;
+	if (q) url += `&q=${encodeURIComponent(q)}`;
+	return fetchJson<{
+		total: number;
+		tools_used: TechBrowseItem[];
 	}>(url);
 }
 
