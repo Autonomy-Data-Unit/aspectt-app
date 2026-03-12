@@ -25,13 +25,17 @@
 
 <header>
 	<div class="container header-inner">
-		<a href="/" class="logo" onclick={closeMenus}>
-			<img src="/autonomy-logo.png" alt="Autonomy" class="logo-mark" />
-			<span class="logo-text">
-				ASPECTT
-				<span class="logo-sub">by the Autonomy Institute</span>
-			</span>
-		</a>
+		<div class="logo">
+			<a href="https://autonomy.work" class="logo-link" target="_blank" rel="noopener">
+				<img src="/autonomy-logo.png" alt="Autonomy" class="logo-mark" />
+			</a>
+			<a href="/" class="logo-link" onclick={closeMenus}>
+				<span class="logo-text">
+					ASPECTT
+					<span class="logo-sub">by the Autonomy Institute</span>
+				</span>
+			</a>
+		</div>
 		<button class="mobile-toggle" onclick={() => (menuOpen = !menuOpen)}>
 			{menuOpen ? '\u2715' : '\u2630'}
 		</button>
@@ -152,11 +156,17 @@
 		flex-shrink: 0;
 	}
 
-	.logo:hover {
+	.logo-link {
+		color: inherit;
+		display: flex;
+		align-items: center;
+	}
+
+	.logo-link:hover {
 		text-decoration: none;
 	}
 
-	.logo:hover .logo-mark {
+	.logo-link:hover .logo-mark {
 		opacity: 0.8;
 	}
 
