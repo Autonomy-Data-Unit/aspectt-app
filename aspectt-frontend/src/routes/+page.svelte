@@ -43,7 +43,7 @@
 		<p class="desc">
 			Skills, tasks, abilities, knowledge and technology data for {stats?.total_occupations ?? '...'} UK occupations, classified under SOC 2020.
 		</p>
-		<p class="credit">Made by the <a href="https://autonomy.work/adu/">Autonomy Data Unit</a>, part of the <a href="https://autonomy.work">Autonomy Institute</a>.</p>
+		<p class="credit">Made by the <a href="https://autonomy.work/adu/">Autonomy Data Unit</a> at the <a href="https://autonomy.work">Autonomy Institute</a>.</p>
 
 		<form class="search-box" onsubmit={handleSubmit}>
 			<input
