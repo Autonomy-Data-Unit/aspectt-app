@@ -10,21 +10,21 @@
 	let activeSection = $state('tasks');
 
 	const sections = [
-		{ id: 'tasks', label: 'Tasks' },
-		{ id: 'skills', label: 'Skills' },
-		{ id: 'abilities', label: 'Abilities' },
-		{ id: 'knowledge', label: 'Knowledge' },
-		{ id: 'technology', label: 'Technology' },
-		{ id: 'tools', label: 'Tools' },
-		{ id: 'activities', label: 'Work activities' },
-		{ id: 'detailed-activities', label: 'Detailed activities' },
-		{ id: 'context', label: 'Work context' },
-		{ id: 'styles', label: 'Work styles' },
-		{ id: 'interests', label: 'Interests' },
-		{ id: 'values', label: 'Work values' },
-		{ id: 'education', label: 'Education' },
-		{ id: 'related', label: 'Related' },
-		{ id: 'sources', label: 'Sources' },
+		{ id: 'tasks', label: 'Tasks', desc: 'Specific duties and responsibilities typically performed by workers in this occupation.' },
+		{ id: 'skills', label: 'Skills', desc: 'Developed capacities that facilitate learning or the performance of activities across jobs, including foundational skills like reading and critical thinking, and cross-functional skills like problem solving and communication.' },
+		{ id: 'abilities', label: 'Abilities', desc: 'Enduring personal attributes that influence job performance, including cognitive, psychomotor, physical, and sensory capabilities.' },
+		{ id: 'knowledge', label: 'Knowledge', desc: 'Organised sets of principles and facts relevant to this occupation, spanning domains such as business, science, engineering, and more.' },
+		{ id: 'technology', label: 'Technology', desc: 'Software, programming languages, and information technology tools commonly used in this occupation.' },
+		{ id: 'tools', label: 'Tools', desc: 'Machines, equipment, and physical tools essential to the performance of this occupation.' },
+		{ id: 'activities', label: 'Work activities', desc: 'General work activities common across many occupations, describing the broad types of job tasks performed.' },
+		{ id: 'detailed-activities', label: 'Detailed activities', desc: 'Specific work activities performed within this occupation, weighted by relevance.' },
+		{ id: 'context', label: 'Work context', desc: 'Physical and social factors that influence the nature of work, including interpersonal relationships, physical conditions, and structural characteristics of the job.' },
+		{ id: 'styles', label: 'Work styles', desc: 'Personal characteristics and work habits that can affect how well someone performs in this role.' },
+		{ id: 'interests', label: 'Interests', desc: "Occupational interest profile based on Holland's RIASEC model, indicating the types of work environments and activities best suited to this occupation." },
+		{ id: 'values', label: 'Work values', desc: 'Work needs and values that are most important and well-satisfied in this occupation.' },
+		{ id: 'education', label: 'Education', desc: 'Typical education level, training, and experience requirements for entry into this occupation.' },
+		{ id: 'related', label: 'Related', desc: 'Other occupations with similar skill, knowledge, and work activity profiles.' },
+		{ id: 'sources', label: 'Sources', desc: 'The US O*NET source occupations whose data was combined to create this UK occupation profile. Click any row to view it on O*NET Online.' },
 	];
 
 	const RIASEC_NAMES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional'];
@@ -168,6 +168,10 @@
 			</nav>
 
 			<div class="content">
+				{#if sections.find(s => s.id === activeSection)?.desc}
+					<p class="section-desc">{sections.find(s => s.id === activeSection)?.desc}</p>
+				{/if}
+
 				{#if activeSection === 'tasks'}
 					{#if occ.emerging_tasks?.length}
 						<div class="card emerging-card">
@@ -390,7 +394,6 @@
 					<div class="card">
 						<h2>Source occupations ({occ.source_occupations?.length ?? 0})</h2>
 						{#if occ.source_occupations?.length}
-							<p class="muted source-intro">The US O*NET occupations whose data contributes to this UK occupation. Click any row to view it on O*NET Online.</p>
 							<div class="source-list">
 								{#each occ.source_occupations as src}
 									{@const pct = src.weight * 100}
@@ -455,11 +458,12 @@
 	.job-zone { margin-bottom: 1rem; padding: 0.5rem 0.75rem; background: var(--color-bg); border-radius: var(--radius); font-size: 0.9rem; }
 	.alt-titles { margin-bottom: 1rem; font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.8; }
 
+	.section-desc { color: var(--color-text-secondary); font-size: 0.8125rem; line-height: 1.55; margin-bottom: 1rem; }
+
 	.mono { font-family: 'SF Mono', SFMono-Regular, ui-monospace, monospace; font-weight: 600; font-size: 0.8125rem; }
 	.muted { color: var(--color-text-secondary); font-size: 0.85rem; }
 
 	/* Source occupations */
-	.source-intro { margin-bottom: 0.75rem; }
 	.source-list { display: flex; flex-direction: column; gap: 0.5rem; }
 	.source-card {
 		display: block; padding: 0.875rem; border: 1px solid var(--color-border);
