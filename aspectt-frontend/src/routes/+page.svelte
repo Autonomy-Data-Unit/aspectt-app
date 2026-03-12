@@ -90,7 +90,7 @@
 			</a>
 			<a href="/browse/interests" class="nav-card">
 				<h3>Interests (RIASEC)</h3>
-				<p>Occupations grouped by Holland interest codes.</p>
+				<p>Occupations grouped by RIASEC interest codes.</p>
 			</a>
 			<a href="/browse/all" class="nav-card">
 				<h3>All occupations</h3>

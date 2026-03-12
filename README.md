@@ -146,7 +146,7 @@ Each occupation includes:
 - **Work activities** — general types of job behaviour
 - **Work context** — physical and social conditions of work
 - **Work styles** — personal characteristics relevant to performance
-- **Interests** — Holland (RIASEC) interest profiles
+- **Interests** — [RIASEC](https://en.wikipedia.org/wiki/Holland_Codes) interest profiles
 - **Work values** — what workers in the occupation tend to value
 - **Education** — typical preparation level required
 - **Related occupations** — links to similar UK SOC codes

@@ -94,7 +94,7 @@
 			<li><strong>Work activities</strong> &ndash; general types of job behaviour</li>
 			<li><strong>Work context</strong> &ndash; physical and social conditions of work</li>
 			<li><strong>Work styles</strong> &ndash; personal characteristics relevant to performance</li>
-			<li><strong>Interests</strong> &ndash; Holland (RIASEC) interest profiles</li>
+			<li><strong>Interests</strong> &ndash; <a href="https://en.wikipedia.org/wiki/Holland_Codes" target="_blank" rel="noopener">RIASEC</a> interest profiles</li>
 			<li><strong>Work values</strong> &ndash; what workers in the occupation tend to value</li>
 			<li><strong>Education</strong> &ndash; typical preparation level required</li>
 		</ul>

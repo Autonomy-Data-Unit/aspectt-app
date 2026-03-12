@@ -59,7 +59,7 @@
 <div class="container">
 	<h1 class="page-title">Browse by interests (RIASEC)</h1>
 	<p class="page-desc">
-		Holland's RIASEC model classifies occupations into six interest types. Select up to three to filter occupations.
+		The <a href="https://en.wikipedia.org/wiki/Holland_Codes" target="_blank" rel="noopener">RIASEC model</a> classifies occupations into six interest types. Select up to three to filter occupations.
 		Note: these interests are sourced from interviews with US workers and do not reflect UK workers' perspectives,
 		although there may of course be overlap.
 	</p>

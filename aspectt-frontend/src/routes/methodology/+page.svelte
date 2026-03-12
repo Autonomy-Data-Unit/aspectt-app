@@ -135,7 +135,7 @@
 					<tr><td>Work Activities</td><td>Rated</td><td>IM, LV</td><td>General types of job behaviours</td></tr>
 					<tr><td>Work Context</td><td>Rated</td><td>Various</td><td>Physical and social factors of the work environment</td></tr>
 					<tr><td>Work Styles</td><td>Rated</td><td>IM</td><td>Personal characteristics for job performance</td></tr>
-					<tr><td>Interests</td><td>Rated</td><td>OI (occupational interest)</td><td>Holland/RIASEC interest profiles</td></tr>
+					<tr><td>Interests</td><td>Rated</td><td>OI (occupational interest)</td><td>RIASEC interest profiles</td></tr>
 					<tr><td>Work Values</td><td>Rated</td><td>EX (extent)</td><td>Work aspects valued by workers</td></tr>
 					<tr><td>Tasks</td><td>Discrete</td><td>relevance, importance</td><td>Specific work activities performed</td></tr>
 					<tr><td>Technology Skills</td><td>Discrete</td><td>weight</td><td>Software and technologies used</td></tr>

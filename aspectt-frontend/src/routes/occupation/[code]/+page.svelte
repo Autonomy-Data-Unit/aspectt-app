@@ -23,7 +23,7 @@
 		{ id: 'detailed-activities', label: 'Detailed activities', desc: 'Specific work activities performed within this occupation, weighted by relevance.' },
 		{ id: 'context', label: 'Work context', desc: 'Physical and social factors that influence the nature of work, including interpersonal relationships, physical conditions, and structural characteristics of the job.' },
 		{ id: 'styles', label: 'Work styles', desc: 'Personal characteristics and work habits that can affect how well someone performs in this role.' },
-		{ id: 'interests', label: 'Interests', desc: "Occupational interest profile based on Holland's RIASEC model, indicating the types of work environments and activities best suited to this occupation." },
+		{ id: 'interests', label: 'Interests', desc: "Occupational interest profile based on the RIASEC model, indicating the types of work environments and activities best suited to this occupation." },
 		{ id: 'values', label: 'Work values', desc: 'Work needs and values that are most important and well-satisfied in this occupation.' },
 		{ id: 'education', label: 'Education', desc: 'Typical education level, training, and experience requirements for entry into this occupation.' },
 		{ id: 'related', label: 'Related', desc: 'Other occupations with similar skill, knowledge, and work activity profiles.' },
