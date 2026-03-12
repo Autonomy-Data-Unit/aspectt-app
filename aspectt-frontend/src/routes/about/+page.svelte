@@ -50,6 +50,7 @@
 
 	<div class="card">
 		<h2>Methodology</h2>
+		<p class="subtitle"><a href="/methodology">Full technical methodology &rarr;</a></p>
 		<p>
 			ASPECTT maps US O*NET occupations to UK SOC 2020 codes through a chain of crosswalks:
 		</p>
@@ -137,6 +138,17 @@
 
 	.card p:last-child {
 		margin-bottom: 0;
+	}
+
+	.subtitle {
+		font-size: 0.8125rem;
+		margin-top: -0.25rem;
+		margin-bottom: 1rem;
+	}
+
+	.subtitle a {
+		color: var(--color-accent);
+		font-weight: 500;
 	}
 
 	.crosswalk-chain {
