@@ -42,6 +42,7 @@
 		<p class="tagline">The UK's multidimensional occupations database</p>
 		<p class="desc">
 			Skills, tasks, abilities, knowledge and technology data for {stats?.total_occupations ?? '...'} UK occupations, classified under SOC 2020.
+			Derived from the US <a href="https://www.onetonline.org" target="_blank" rel="noopener">O*NET</a> database via a SOC&ndash;ISCO crosswalk.
 		</p>
 		<p class="credit">Made by the <a href="https://autonomy.work/adu/" target="_blank" rel="noopener">Autonomy Data Unit</a> at the <a href="https://autonomy.work" target="_blank" rel="noopener">Autonomy Institute</a>.</p>
 
