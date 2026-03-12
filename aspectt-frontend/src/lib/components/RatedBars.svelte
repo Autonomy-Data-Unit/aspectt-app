@@ -10,6 +10,13 @@
 	} = $props();
 </script>
 
+{#if items.length > 0 && showLevel}
+	<div class="legend">
+		<span class="legend-item"><span class="swatch importance"></span> Importance</span>
+		<span class="legend-item"><span class="swatch level"></span> Level</span>
+	</div>
+{/if}
+
 <div class="rated-list">
 	{#each items as item}
 		<div class="bar-row">
@@ -48,13 +55,6 @@
 	{/each}
 </div>
 
-{#if items.length > 0 && showLevel}
-	<div class="legend">
-		<span class="legend-item"><span class="swatch importance"></span> Importance</span>
-		<span class="legend-item"><span class="swatch level"></span> Level</span>
-	</div>
-{/if}
-
 <style>
 	.rated-list {
 		margin-top: 0.5rem;
@@ -64,7 +64,7 @@
 		display: flex;
 		gap: 1.5rem;
 		justify-content: flex-end;
-		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
 		font-size: 0.8rem;
 		color: var(--color-text-secondary);
 	}
