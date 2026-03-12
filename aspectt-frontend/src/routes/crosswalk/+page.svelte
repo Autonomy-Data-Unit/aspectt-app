@@ -16,6 +16,8 @@
 	let onetSearchTimeout: ReturnType<typeof setTimeout>;
 
 	function onUkSocInput() {
+		onetSocFilter = '';
+		onetSuggestions = [];
 		clearTimeout(ukSearchTimeout);
 		if (ukSocFilter.trim().length < 1) { ukSuggestions = []; return; }
 		ukSearchTimeout = setTimeout(async () => {
@@ -39,6 +41,8 @@
 	}
 
 	function onOnetSocInput() {
+		ukSocFilter = '';
+		ukSuggestions = [];
 		clearTimeout(onetSearchTimeout);
 		if (onetSocFilter.trim().length < 1) { onetSuggestions = []; return; }
 		onetSearchTimeout = setTimeout(async () => {
@@ -103,6 +107,7 @@
 
 	<div class="card">
 		<h2>Search crosswalk</h2>
+		<p class="filter-hint">Search by UK SOC to see its O*NET sources, or by O*NET SOC to see which UK occupations it maps to.</p>
 		<div class="filter-row">
 			<div class="filter-group filter-group-suggest">
 				<label for="uk-soc-input">UK SOC 2020 code</label>
@@ -173,6 +178,7 @@
 </div>
 
 <style>
+	.filter-hint { font-size: 0.85rem; color: var(--color-text-secondary); margin-bottom: 1rem; }
 	.filter-row { display: flex; gap: 1rem; flex-wrap: wrap; align-items: flex-end; }
 	.filter-group { display: flex; flex-direction: column; gap: 0.375rem; }
 	.filter-group-suggest { position: relative; }
