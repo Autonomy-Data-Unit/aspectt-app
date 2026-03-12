@@ -95,15 +95,15 @@ For occupations with very large item lists (>400 tech skills or >150 tasks), inp
 
 ### Models
 
-Each refinement task uses an independently configurable model. The defaults (set in `const.pct.py`) are:
+Each refinement task uses an independently configurable model (set in `const.pct.py`):
 
-| Task | Model | Rationale |
-|------|-------|-----------|
-| Technology skill filtering | `gpt-5-mini` | Simple relevance judgement |
-| Tool/equipment filtering | `gpt-5-mini` | Simple relevance judgement |
-| Task deduplication and filtering | `gpt-5-mini` | Requires semantic similarity understanding |
+| Task | Model |
+|------|-------|
+| Technology skill filtering | `gpt-5-mini` |
+| Tool/equipment filtering | `gpt-5-mini` |
+| Task deduplication and filtering | `gpt-5-mini` |
 
-At ~2,860 API calls across 410 occupations with data (~8M input tokens, ~4M output tokens), a full run costs under $5 with `gpt-5-mini`. All responses are cached with `adulib`, so re-runs are free.
+All LLM responses are cached with `adulib`.
 
 ## 5. Output Format
 

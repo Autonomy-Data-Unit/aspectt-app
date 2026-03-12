@@ -115,7 +115,7 @@
 		<p>For occupations with very large item lists (&gt;400 tech skills or &gt;150 tasks), input is split into chunks processed independently. After task chunking, a deterministic post-processing pass merges any cross-chunk duplicates using Jaccard word-overlap (threshold: 0.85).</p>
 
 		<h3>Models</h3>
-		<p>Each refinement task uses an independently configurable model. Technology and tool filtering (simple relevance judgements) use <code>gpt-5-mini</code>. Task deduplication and filtering, which requires semantic similarity understanding, also uses <code>gpt-5-mini</code> by default but can be upgraded to a stronger model if needed. At ~2,860 API calls across 410 occupations, a full run costs under $5. All responses are cached, so re-runs are free.</p>
+		<p>Each refinement task uses an independently configurable model. Technology and tool filtering use <code>gpt-5-mini</code>, as do task deduplication and filtering. All LLM responses are cached.</p>
 	</div>
 
 	<div class="card">
