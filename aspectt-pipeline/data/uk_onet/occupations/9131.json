@@ -1544,19 +1544,131 @@
   ],
   "tasks": [
     {
-      "task": "Operate and adjust controls on equipment to maintain cleaning standards and ensure the orderly condition of buildings.",
+      "task": "Clean and maintain tanks, filter beds, and other work areas, using hand tools and power tools.",
       "task_type": "Core"
     },
     {
-      "task": "Perform heavy cleaning duties including sweeping, mopping, scrubbing, or vacuuming floors, as well as cleaning offices, restrooms, and other common areas to meet health standards.",
+      "task": "Sweep, scrub, wax, or polish floors, using brooms, mops, or powered scrubbing and waxing machines.",
       "task_type": "Core"
     },
     {
-      "task": "Remove waste and clean up work areas, ensuring that trash is taken to disposal locations and that health and safety regulations are adhered to.",
+      "task": "Dust and polish furniture and fixtures, and clean rooms, hallways, and other work areas to meet health standards.",
       "task_type": "Core"
     },
     {
-      "task": "Perform cleaning and maintenance duties such as washing walls, cleaning floors, and removing rubbish to keep buildings in a clean and orderly condition.",
+      "task": "Clean windows, glass partitions, or mirrors using soapy water or other cleaners, sponges, or squeegees.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Empty wastebaskets, transport trash to disposal areas, and gather and empty trash.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Replenish supplies and maintain inventories of cleaning materials and equipment needed for cleaning and maintenance duties.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Observe and monitor equipment operation during the extraction process to detect any problems.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Prepare and keep records of actions taken, including maintenance and repair work, and communicate with supervisors.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Monitor building security and safety by performing tasks such as locking doors and checking electrical appliance use.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Clean and disinfect domestic basements, flood areas, and perform routine maintenance.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Inspect equipment or monitor operating conditions and make minor repairs as needed.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Perform routine maintenance and minor repairs on machines and cleaning equipment to ensure proper functioning and safe working conditions.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Clean and clear debris from various surfaces, including culverts, catch basins, and drainage systems.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Maintain clean work areas and equipment, including washing machines and vehicles.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Transfer materials and products to and from storage or work areas using trucks, hand trucks, or manually.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Record production and operational data to ensure accuracy in material processing and compliance with specifications.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Clean and maintain recycling collection equipment to ensure compliance with recycling requirements.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Sort materials, such as metals and plastics, into appropriate containers for recycling.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Inspect materials and products for defects to ensure conformance to specifications.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Operate equipment used in the cleaning and recycling processes, such as balers and automated refuse collection vehicles.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Load and unload items from machines and conveyors using hand tools and moving devices.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Dump, spread, and tamp materials like asphalt for repair work on pavements to ensure safety and usability of roadways.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Conduct employee training in equipment operations or work and safety procedures, and evaluate employee performance.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Enforce safety and sanitation regulations and recommend or implement measures to motivate employees and improve production methods.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Inspect materials, products, or equipment to detect defects or malfunctions, and observe work to ensure operators conform to standards.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Determine the sequence of machine operations and select the proper cutting tools needed to machine workpieces.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Plan and establish work schedules, assignments, and production sequences to meet production goals; and keep records of employee attendance and hours worked.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Read and analyze work orders, production schedules, and other records or reports to evaluate current production outputs and requirements.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Confer with management or other supervisors to coordinate operations and resolve worker problems, complaints, or grievances.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Maintain operations data, such as time and production records, and prepare management reports on production results.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Requisition materials, supplies, equipment parts, or repair services as needed for production.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Set up and adjust machines and equipment, and determine standards, budgets, and production goals based on company policies.",
       "task_type": "Core"
     }
   ],
@@ -1624,59 +1736,31 @@
     {
       "name": "Google Chrome",
       "weight": 0.04
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.8011989459815547
     }
   ],
   "tools_used": [
     {
-      "name": "Personal computers",
-      "weight": 1.7779587803500847
-    },
-    {
       "name": "Mobile radios",
       "weight": 0.9142857142857143
-    },
-    {
-      "name": "Desktop computers",
-      "weight": 0.9053397327310371
-    },
-    {
-      "name": "Handtrucks",
-      "weight": 0.38095238095238093
     },
     {
       "name": "Utility knives",
       "weight": 0.38095238095238093
     },
     {
-      "name": "Protective ear plugs",
-      "weight": 0.35757575757575755
-    },
-    {
-      "name": "Dirt shovels",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Pressure washers",
       "weight": 0.327020202020202
     },
     {
-      "name": "Safety goggles",
-      "weight": 0.325
-    },
-    {
-      "name": "Notebook computers",
-      "weight": 0.29
-    },
-    {
-      "name": "Safety glasses",
-      "weight": 0.2785281385281385
-    },
-    {
-      "name": "Safety gloves",
-      "weight": 0.27424242424242423
-    },
-    {
       "name": "Scrubbers",
+      "weight": 0.25
+    },
+    {
+      "name": "Step stools",
       "weight": 0.25
     },
     {
@@ -1692,6 +1776,10 @@
       "weight": 0.225
     },
     {
+      "name": "Step ladders",
+      "weight": 0.225
+    },
+    {
       "name": "Wet mops",
       "weight": 0.225
     },
@@ -1700,20 +1788,44 @@
       "weight": 0.20833333333333331
     },
     {
+      "name": "Pickup trucks",
+      "weight": 0.2
+    },
+    {
       "name": "Steel-toed safety boots",
       "weight": 0.2
+    },
+    {
+      "name": "Snow blowers",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Snowplows",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Steam cleaning equipment",
+      "weight": 0.19090909090909092
+    },
+    {
+      "name": "Picks",
+      "weight": 0.18181818181818182
     },
     {
       "name": "Shovels",
       "weight": 0.18181818181818182
     },
     {
-      "name": "Fall protection harnesses",
-      "weight": 0.17424242424242425
+      "name": "Extension ladders",
+      "weight": 0.14761904761904762
     },
     {
-      "name": "Multi-line telephone systems",
-      "weight": 0.17261904761904762
+      "name": "Dollies",
+      "weight": 0.13852813852813853
+    },
+    {
+      "name": "Scaffolding",
+      "weight": 0.13852813852813853
     },
     {
       "name": "Backpack vacuums",
@@ -1740,6 +1852,18 @@
       "weight": 0.125
     },
     {
+      "name": "Dusters",
+      "weight": 0.125
+    },
+    {
+      "name": "Floor burnishers",
+      "weight": 0.125
+    },
+    {
+      "name": "Floor scrubbing machines",
+      "weight": 0.125
+    },
+    {
       "name": "Housekeeping carts",
       "weight": 0.125
     },
@@ -1748,7 +1872,7 @@
       "weight": 0.125
     },
     {
-      "name": "Protective face shields",
+      "name": "Power floor buffers",
       "weight": 0.125
     },
     {
@@ -1792,8 +1916,32 @@
       "weight": 0.125
     },
     {
+      "name": "Carpet dirt extractors",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Steam cleaners",
       "weight": 0.1111111111111111
+    },
+    {
+      "name": "Dry mops",
+      "weight": 0.1
+    },
+    {
+      "name": "Equipment dollies",
+      "weight": 0.1
+    },
+    {
+      "name": "Floor buffers",
+      "weight": 0.1
+    },
+    {
+      "name": "Floor strippers",
+      "weight": 0.1
+    },
+    {
+      "name": "Floor waxers",
+      "weight": 0.1
     },
     {
       "name": "Hand trucks",
@@ -1801,6 +1949,14 @@
     },
     {
       "name": "Industrial vacuums",
+      "weight": 0.1
+    },
+    {
+      "name": "Power floor scrubbers",
+      "weight": 0.1
+    },
+    {
+      "name": "Ride-on industrial vacuum cleaners",
       "weight": 0.1
     },
     {
@@ -1820,10 +1976,6 @@
       "weight": 0.09090909090909091
     },
     {
-      "name": "Precision tape measures",
-      "weight": 0.09090909090909091
-    },
-    {
       "name": "Rakes",
       "weight": 0.09090909090909091
     },
@@ -1832,27 +1984,7 @@
       "weight": 0.09090909090909091
     },
     {
-      "name": "Spades",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Two way radios",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Two-wheel drive front end loaders",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Vans",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Water pumps",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Water trucks",
+      "name": "Tractor-mounted mowers",
       "weight": 0.09090909090909091
     },
     {
@@ -1860,15 +1992,11 @@
       "weight": 0.08333333333333333
     },
     {
-      "name": "Hand jacks",
-      "weight": 0.08333333333333333
-    },
-    {
       "name": "Platform ladders",
       "weight": 0.08333333333333333
     },
     {
-      "name": "Work vans",
+      "name": "Water hoses",
       "weight": 0.047619047619047616
     },
     {

@@ -1544,7 +1544,11 @@
   ],
   "tasks": [
     {
-      "task": "Adjust sales scripts to better target the needs and interests of specific individuals, conduct client or market surveys to gather information about potential customers, and schedule appointments for sales representatives or customers to meet or attend sales presentations.",
+      "task": "Adjust sales scripts to better target the needs and interests of specific individuals, and conduct client or market surveys to obtain information about potential customers.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Schedule appointments for sales representatives to meet with prospective customers or for customers to attend sales presentations.",
       "task_type": "Supplemental"
     },
     {
@@ -1552,68 +1556,36 @@
       "task_type": "Core"
     },
     {
-      "task": "Telephone or write letters to follow up on initial sales contacts and respond to correspondence from customers.",
+      "task": "Respond to correspondence from customers by telephone or letters and follow up initial sales contacts.",
       "task_type": "Core"
     },
     {
-      "task": "Answer telephone calls from potential customers solicited through advertisements, obtain customer information, and enter orders into computers, including names, addresses, billing information, product numbers, and specifications.",
+      "task": "Answer telephone calls from potential customers solicited through advertisements and explain products or services and prices.",
       "task_type": "Core"
     },
     {
-      "task": "Explain products or services, prices, and answer questions from customers, while also recommending merchandise or services that will meet customers' needs.",
+      "task": "Gather customer and order information and enter orders into computers, checking for correctness against previously obtained information.",
       "task_type": "Core"
     },
     {
-      "task": "Contact businesses or private individuals by telephone to solicit sales for goods or services or to request donations for charitable causes, delivering prepared sales talks to persuade purchases or donations.",
+      "task": "Contact businesses or individuals by telephone to solicit sales for goods or services or request donations for charitable causes, and deliver prepared sales talks.",
       "task_type": "Core"
     },
     {
-      "task": "Notify departments when supplies are low and check inventory records to determine merchandise availability.",
+      "task": "Inform customers of order information, such as unit prices, shipping dates, and any anticipated delays, and verify customer and order information for correctness.",
       "task_type": "Core"
     },
     {
-      "task": "Inform customers of order information, such as unit prices, shipping dates, and any anticipated delays.",
+      "task": "Compile data from records to prepare periodic reports and maintain files and control records to show correspondence activities.",
       "task_type": "Core"
     },
     {
-      "task": "Receive and respond to customer complaints, ensuring customer satisfaction and issue resolution.",
+      "task": "Compose letters in reply to customer inquiries regarding merchandise, damage claims, credit requests, and billing issues.",
       "task_type": "Core"
     },
     {
-      "task": "Verify customer and order information for correctness and review orders for completeness according to reporting procedures.",
+      "task": "Receive and respond to customer complaints, and recommend merchandise or services that will meet customers' needs.",
       "task_type": "Core"
-    },
-    {
-      "task": "Compose letters in reply to correspondence concerning merchandise requests, damage claims, credit information requests, delinquent accounts, incorrect billing, or unsatisfactory service, and route correspondence to other departments as necessary.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Prepare documents and correspondence, such as invoices, shipping documents, and service complaints, while maintaining accurate files and control records.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Gather records pertinent to specific problems, review them for completeness and accuracy, and compile data to prepare periodic reports.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Collect payment for merchandise, record transactions, and ensure proper recording and security of collected money.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Process orders for goods requested in correspondence, and confer with company personnel for feasibility and compliance with requests.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Attempt to sell additional merchandise or services to current customers by telephone or through visits, while adjusting inventory records to reflect product movement as needed.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Prepare records for shipment by certified mail, compute costs of records furnished to requesters, and write letters to obtain payment.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Present clear and concise explanations of governing rules and regulations, and ensure all correspondence is reviewed for format and accuracy before submission.",
-      "task_type": "Supplemental"
     }
   ],
   "technology_skills": [
@@ -1688,6 +1660,10 @@
     {
       "name": "Word processing software",
       "weight": 0.0625
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.3839285714285714
     }
   ],
   "tools_used": [

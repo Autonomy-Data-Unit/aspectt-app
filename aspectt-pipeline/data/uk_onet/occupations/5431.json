@@ -1544,55 +1544,43 @@
   ],
   "tasks": [
     {
-      "task": "Inspect meat products for defects, bruises or blemishes and remove them along with excess fat, cut and trim meat to prepare for packing, and prepare special cuts of meat ordered by customers. Use knives, cleavers, meat saws, and other equipment to perform these tasks, including separating meats and byproducts into specified containers and sealing them for storage.",
+      "task": "Record production and test data for each food product batch, such as ingredients used and test results.",
       "task_type": "Core"
     },
     {
-      "task": "Produce hamburger meat and meat trimmings, process primal parts into cuts that are ready for retail use, and grind meat into hamburger and into trimmings used to prepare sausages and other meat products. Cut, trim, skin, sort, and wash viscera of slaughtered animals.",
+      "task": "Produce hamburger meat and meat trimmings, and process primal parts into cuts ready for retail use.",
       "task_type": "Supplemental"
     },
     {
-      "task": "Receive, inspect, and store meat upon delivery to ensure meat quality, and record quantity of meat received and issued to cooks or keep records of meat sales. Estimate requirements and order or requisition meat supplies to maintain inventories.",
+      "task": "Inspect meat products for defects, bruises, or blemishes, and remove excess fat.",
       "task_type": "Core"
     },
     {
-      "task": "Activate machines to mix or stir ingredients, and then wrap, weigh, label, and price cuts of meat for sale. Prepare and place meat cuts and products in display counter to appear attractive and catch the shopper's eye.",
+      "task": "Cut, trim, bone, tie, and grind meats to prepare them in cooking form and for packing.",
       "task_type": "Core"
     },
     {
-      "task": "Clean, trim, slice, and section carcasses for future processing, and cure, smoke, tenderize, and preserve meat. Remove parts, such as skin, feathers, scales, or bones from carcass.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Supervise other butchers or meat cutters, and review work orders, specifications, or instructions to determine procedures and adjust the workflow to ensure production goals are met.",
+      "task": "Use knives, cleavers, and saws to perform routine cutting and trimming of meat, poultry, and seafood.",
       "task_type": "Core"
     },
     {
-      "task": "Observe gauges, thermometers, and equipment to ensure proper operation and product quality. Notify supervisors when malfunctions occur, keep records of production data, and perform routine maintenance on equipment.",
+      "task": "Prepare special cuts of meat ordered by customers and wrap, weigh, label, and price cuts of meat.",
       "task_type": "Core"
     },
     {
-      "task": "Shape, lace, and tie roasts, and perform cutting, trimming, boning, and grinding of meats, such as beef, pork, poultry, and fish to prepare them in cooking form.",
+      "task": "Clean, trim, slice, and section carcasses for future processing while removing parts like skin, feathers, or bones.",
       "task_type": "Core"
     },
     {
-      "task": "Conduct employee training in equipment operations or work and safety procedures. Confer with other supervisors to coordinate operations and activities within or between departments.",
+      "task": "Receive, inspect, and store meat upon delivery to ensure quality and maintain inventory by ordering supplies.",
       "task_type": "Core"
     },
     {
-      "task": "Notify or signal other workers to operate equipment or when processing is complete, and monitor the flow of materials and products through machinery to ensure proper processing.",
+      "task": "Supervise other butchers or meat cutters and direct and coordinate the activities of production workers.",
       "task_type": "Core"
     },
     {
-      "task": "Remove cooked materials or products from equipment and weigh meats, tagging containers for weight and contents as necessary.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Remove molds and components after production is complete. Remove defective or substandard materials or products as necessary.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Activate equipment such as grinders, canners, and molding presses to prepare or further process products, and clean equipment using hoses and cleaning solutions.",
+      "task": "Monitor equipment operations and maintain product quality by adjusting controls based on observed conditions.",
       "task_type": "Core"
     },
     {
@@ -1616,11 +1604,11 @@
       "task_type": "Core"
     },
     {
-      "task": "Recommend or implement measures to motivate employees and to improve production methods, equipment performance, product quality, or efficiency.",
+      "task": "Recommend or implement measures to motivate employees and improve production methods, equipment performance, product quality, or efficiency.",
       "task_type": "Core"
     },
     {
-      "task": "Determine standards, budgets, production goals, and rates based on company policies, equipment and labor availability, and workloads.",
+      "task": "Determine standards, budgets, production goals, and rates, based on company policies, equipment and labor availability, and workloads.",
       "task_type": "Core"
     },
     {
@@ -1628,7 +1616,7 @@
       "task_type": "Core"
     },
     {
-      "task": "Calculate labor and equipment requirements and production specifications using standard formulas.",
+      "task": "Calculate labor and equipment requirements and production specifications, using standard formulas.",
       "task_type": "Core"
     },
     {
@@ -1720,6 +1708,10 @@
     {
       "name": "Word processing software",
       "weight": 0.04
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.1511111111111111
     }
   ],
   "tools_used": [
@@ -1784,10 +1776,6 @@
       "weight": 0.41666666666666663
     },
     {
-      "name": "Protective ear plugs",
-      "weight": 0.3611111111111111
-    },
-    {
       "name": "Pressing machines",
       "weight": 0.35
     },
@@ -1836,10 +1824,6 @@
       "weight": 0.25
     },
     {
-      "name": "Bucket belt conveyors",
-      "weight": 0.25
-    },
-    {
       "name": "Butcher saws",
       "weight": 0.25
     },
@@ -1860,10 +1844,6 @@
       "weight": 0.25
     },
     {
-      "name": "Cooling tables",
-      "weight": 0.25
-    },
-    {
       "name": "Dehairing machines",
       "weight": 0.25
     },
@@ -1873,10 +1853,6 @@
     },
     {
       "name": "Electric meat grinders",
-      "weight": 0.25
-    },
-    {
-      "name": "Food cooling equipment",
       "weight": 0.25
     },
     {
@@ -1892,11 +1868,23 @@
       "weight": 0.25
     },
     {
-      "name": "Frozen block grinders",
+      "name": "Frozen food saws",
+      "weight": 0.25
+    },
+    {
+      "name": "Gamb sticks",
       "weight": 0.25
     },
     {
       "name": "Grinders",
+      "weight": 0.25
+    },
+    {
+      "name": "Hamburger patty makers",
+      "weight": 0.25
+    },
+    {
+      "name": "Hamburger presses",
       "weight": 0.25
     },
     {
@@ -1924,11 +1912,7 @@
       "weight": 0.25
     },
     {
-      "name": "Kitchen shears",
-      "weight": 0.25
-    },
-    {
-      "name": "Material conveyors",
+      "name": "Livestock shackles",
       "weight": 0.25
     },
     {
@@ -1972,11 +1956,23 @@
       "weight": 0.25
     },
     {
-      "name": "Sharpening steels",
+      "name": "Poultry shears",
       "weight": 0.25
     },
     {
-      "name": "Shrink wrap meat packing machines",
+      "name": "Pricing guns",
+      "weight": 0.25
+    },
+    {
+      "name": "Sausage linkers",
+      "weight": 0.25
+    },
+    {
+      "name": "Sausage machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Sharpening steels",
       "weight": 0.25
     },
     {
@@ -1988,12 +1984,60 @@
       "weight": 0.25
     },
     {
-      "name": "Vacuum package machines",
+      "name": "Slicing machines",
       "weight": 0.25
     },
     {
-      "name": "Whizzard knives",
-      "weight": 0.25
+      "name": "Food handling shovels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Food storage bins",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Material moving carts",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Portable fire extinguishers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Protective glasses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Blow torches",
+      "weight": 0.1
+    },
+    {
+      "name": "Digital bench scales",
+      "weight": 0.1
+    },
+    {
+      "name": "Precision rulers",
+      "weight": 0.1
+    },
+    {
+      "name": "Hard hats",
+      "weight": 0.04
+    },
+    {
+      "name": "Personal protective clothing",
+      "weight": 0.04
+    },
+    {
+      "name": "Respirators",
+      "weight": 0.04
+    },
+    {
+      "name": "Safety glasses",
+      "weight": 0.04
+    },
+    {
+      "name": "Safety shoes",
+      "weight": 0.04
     }
   ],
   "detailed_work_activities": [

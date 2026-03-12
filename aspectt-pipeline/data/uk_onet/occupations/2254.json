@@ -1544,7 +1544,75 @@
   ],
   "tasks": [
     {
-      "task": "Decide which images to include, looking for differences between healthy and pathological areas. Prepare and calibrate magnetic resonance imaging (MRI) equipment, conduct troubleshooting, and maintain equipment to ensure proper functioning. Conduct screening interviews of patients to identify contraindications and explain MRI procedures to patients, their representatives, or family members. Position patients accurately for imaging and treatment with appropriate equipment settings and adjust controls for optimum results. Ensure patient comfort by providing necessary support during procedures and monitoring patient reactions. Record, process, and maintain accurate patient data or treatment records, including radiation dosages and related information.",
+      "task": "Decide which images to include, looking for differences between healthy and pathological areas.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Instruct medical staff or students in magnetic resonance imaging (MRI) procedures or equipment operation and assist with on-the-job training of new employees.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Operate magnetic resonance imaging (MRI) scanners and troubleshoot technical issues related to MRI equipment.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Position patients on cradle with immobilization devices, if needed, and ensure appropriate placement for imaging.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Provide headphones or earplugs to patients to improve comfort during MRI scans and explain procedures to patients and families.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Select appropriate imaging techniques or coils to produce required images and conduct inventories to maintain stock of clinical supplies.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Intravenously inject contrast dyes in accordance with scope of practice and perform screening interviews of patients to identify contraindications.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Write reports or notes to summarize testing procedures for physicians and record, process, and maintain patient data or treatment records.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Schedule patient treatment times and appointments, and conduct quality control checks on laboratory equipment or cameras.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Monitor patients' conditions during treatment and report unusual reactions to physician, ensuring patient comfort and safety.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Provide assistance in dressing or changing seriously ill or injured patients and comfort patients during exams, requesting medication if needed.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Administer radiation to specific body parts using radiation therapy equipment, following established practices and standards.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Maintain records, reports, or files as required, including information such as radiation dosages and equipment settings.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Test and check MRI equipment prior to use to ensure proper functioning and to assist physicians in complex procedures.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Prepare contrast material, radiopharmaceuticals, or anesthetic drugs under the direction of a radiologist, and educate patients on treatment reactions.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Position patients accurately for treatment according to prescription, and check radiation therapy equipment for proper operation.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Review physicians' orders to confirm prescribed exams and determine patients' x-ray needs by reading instructions from physicians.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Calculate treatment dosages delivered during sessions and gather information on patients' illnesses to guide diagnostic procedures.",
       "task_type": "Core"
     }
   ],
@@ -1864,6 +1932,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Automatic film developing equipment",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Automatic x ray film processors",
       "weight": 0.3333333333333333
     },
@@ -1952,7 +2024,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Digital photo printers",
+      "name": "Digital ratemeters",
       "weight": 0.3333333333333333
     },
     {
@@ -1961,6 +2033,10 @@
     },
     {
       "name": "Dosimetry badges",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Dual channel spectrometer systems",
       "weight": 0.3333333333333333
     },
     {
@@ -1984,11 +2060,23 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Film cassettes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Film drying cabinets",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Film processing equipment",
       "weight": 0.3333333333333333
     },
     {
       "name": "Film scanners",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Finger film badges",
       "weight": 0.3333333333333333
     },
     {
@@ -2053,6 +2141,10 @@
     },
     {
       "name": "Intramuscular hypodermic needles",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Intramuscular needles",
       "weight": 0.3333333333333333
     },
     {
@@ -2152,10 +2244,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Magnetic resonance imaging MRI printers",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Medical diagnostic x ray equipment",
       "weight": 0.3333333333333333
     },
@@ -2189,10 +2277,6 @@
     },
     {
       "name": "Medical magnetic resonance imaging MRI patient tables",
-      "weight": 0.3333333333333333
-    },
-    {
-      "name": "Medical nasal cannulas",
       "weight": 0.3333333333333333
     },
     {
@@ -2233,6 +2317,10 @@
     },
     {
       "name": "Multi-monitor dosimetry systems",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Non-magnetic pulse oximeter units",
       "weight": 0.3333333333333333
     },
     {
@@ -2280,6 +2368,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Patient treatment area casts",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Peripheral intravenous catheters",
       "weight": 0.3333333333333333
     },
@@ -2289,6 +2381,18 @@
     },
     {
       "name": "Personal radiation monitors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Photoplethysmographs",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Plethysmographs",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Portable film processors",
       "weight": 0.3333333333333333
     },
     {
@@ -2368,6 +2472,10 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Radiation uptake detectors",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Respiration monitors",
       "weight": 0.3333333333333333
     },
@@ -2392,6 +2500,14 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Self-contained film processors",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Single positron emission computed tomography SPECT calibration phantoms",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Solid state diode detectors",
       "weight": 0.3333333333333333
     },
@@ -2413,6 +2529,10 @@
     },
     {
       "name": "Syringes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Tabletop film processors",
       "weight": 0.3333333333333333
     },
     {
@@ -2456,7 +2576,7 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Well counters",
+      "name": "Ultrasound video equipment",
       "weight": 0.3333333333333333
     },
     {

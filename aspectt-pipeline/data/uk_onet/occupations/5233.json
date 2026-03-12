@@ -1544,40 +1544,44 @@
   ],
   "tasks": [
     {
-      "task": "Bind new books using hand tools such as bone folders, knives, hammers, or brass binding tools, cut binder boards and cover material to specified dimensions, design custom bindings, form book bodies by folding and assembling signatures, imprint or emboss on covers, insert book bodies in devices to shape back edges, and perform highly skilled hand finishing operations like grooving or lettering.",
+      "task": "Bind new books, using hand tools such as bone folders and knives, and cut cover material to specified dimensions by hand or machine.",
       "task_type": "Supplemental"
     },
     {
-      "task": "Set up or operate glue and binding machines, fill glue reservoirs, adjust glue flow, monitor machine operations to detect malfunctions, read work orders and inspect workpieces to determine specifications and procedures, install or adjust machine devices for specified sizes, maintain machine parts, start and stop machine operations, lubricate, clean, or make minor repairs to machine parts, and produce finished books by wrapping, packing, and preparing for shipping.",
+      "task": "Set up or operate glue machines by filling reservoirs and adjusting glue flow, and set up or operate machines that perform binding operations.",
       "task_type": "Core"
     },
     {
-      "task": "Maintain production records and equipment, supervise assemblers, train workers on job procedures, determine work assignments and procedures, and perform general quality checks on products and parts.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Monitor painting operations by applying coatings such as paint to protect or decorate workpieces, perform visual inspections for quality conformance, clean and maintain tools using solvents and brushes, and examine finished surfaces to verify specifications, making retouches as necessary.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Prepare and clean surfaces of workpieces for coating, operate auxiliary machines or equipment used in coating or painting processes, and dispose of hazardous waste in an appropriate manner.",
+      "task": "Form book bodies by folding and sewing printed sheets and imprint designs on book covers using stamping machines.",
       "task_type": "Supplemental"
     },
     {
-      "task": "Train workers to operate bindery machines, provide assistance in production processes, record operational data and communicate production levels, and complete production reports to management.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Examine stitched or bound products for defects such as imperfect bindings and torn pages, determine paint flow and coating quality, and recycle or dispose of materials appropriately.",
+      "task": "Maintain records such as daily production records, monitor machine operations for malfunctions, and examine product samples for defects.",
       "task_type": "Core"
     },
     {
-      "task": "Trim edges of books, make adjustments to machines as necessary, and rotate through tasks required in the production process to ensure efficiency and quality in output.",
+      "task": "Prepare finished books for shipping, package products, and perform quality checks on finished items.",
       "task_type": "Core"
     },
     {
-      "task": "Use hands and brushes to apply coatings, perform repairs or restoration on damaged books, and integrate electronic or computational techniques for improving process effectiveness.",
-      "task_type": "Supplemental"
+      "task": "Train workers on job procedures and determine work assignments and procedures.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Clean equipment and work areas, lubricate machines, and perform minor repairs to keep machines in working condition.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Determine paint flow by performing visual inspections and monitor painting operations to identify flaws and make necessary adjustments.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Apply coatings to protect or decorate workpiece surfaces using spray guns or brushes and examine finished surfaces for defects.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Disassemble, clean, and reassemble sprayers or power equipment using solvents, and clean surfaces of workpieces in preparation for coating.",
+      "task_type": "Core"
     }
   ],
   "technology_skills": [
@@ -1644,6 +1648,10 @@
       "weight": 0.37896825396825395
     },
     {
+      "name": "Claw hammers",
+      "weight": 0.26785714285714285
+    },
+    {
       "name": "Desktop computers",
       "weight": 0.26785714285714285
     },
@@ -1676,14 +1684,6 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "High-volume low-pressure HVLP spray guns",
-      "weight": 0.14285714285714285
-    },
-    {
-      "name": "Pneumatic spray guns",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Protective ear muffs",
       "weight": 0.14285714285714285
     },
@@ -1696,6 +1696,26 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Squeegees",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Torque wrenches",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Welding hoods",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Welding torches",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Air-assisted spraying systems",
+      "weight": 0.125
+    },
+    {
       "name": "Automated paint mixing equipment",
       "weight": 0.125
     },
@@ -1704,15 +1724,31 @@
       "weight": 0.125
     },
     {
+      "name": "Electrically operated airless pumps",
+      "weight": 0.125
+    },
+    {
       "name": "Electrostatic paint systems",
       "weight": 0.125
     },
     {
-      "name": "Handcarts",
+      "name": "High volume low pressure HVLP spray guns",
       "weight": 0.125
     },
     {
-      "name": "High volume low pressure HVLP spray guns",
+      "name": "Infrared drying lamps",
+      "weight": 0.125
+    },
+    {
+      "name": "Low volume high pressure LVHP sprayers",
+      "weight": 0.125
+    },
+    {
+      "name": "Metal inert gas MIG welding equipment",
+      "weight": 0.125
+    },
+    {
+      "name": "Oxyacetylene welding equipment",
       "weight": 0.125
     },
     {
@@ -1725,6 +1761,10 @@
     },
     {
       "name": "Power paint mixers",
+      "weight": 0.125
+    },
+    {
+      "name": "Product coating machines",
       "weight": 0.125
     },
     {
@@ -1744,7 +1784,19 @@
       "weight": 0.125
     },
     {
-      "name": "Painting bridges",
+      "name": "Sand blasters",
+      "weight": 0.125
+    },
+    {
+      "name": "Sandblasters",
+      "weight": 0.125
+    },
+    {
+      "name": "Computer inkjet printers",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Computer laser printers",
       "weight": 0.1111111111111111
     }
   ],

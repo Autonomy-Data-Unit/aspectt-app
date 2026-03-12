@@ -1544,43 +1544,43 @@
   ],
   "tasks": [
     {
-      "task": "Inspect trucks prior to beginning routes to ensure safe operating condition, refuel trucks or add other fluids, check road or weather conditions to determine how routes will be affected, and communicate with dispatchers concerning delays, unsafe sites, accidents, equipment breakdowns, or other maintenance problems.",
+      "task": "Inspect trucks prior to beginning routes to ensure safe operating condition and refuel trucks or add fluids as necessary.",
       "task_type": "Core"
     },
     {
-      "task": "Drive trucks, following established routes, through residential streets or alleys or through business or industrial areas, collect refuse or recyclable materials, and dump them at disposal sites.",
+      "task": "Check road or weather conditions to determine how routes will be affected and communicate with dispatchers concerning any issues.",
       "task_type": "Core"
     },
     {
-      "task": "Clean trucks or compactor bodies after routes have been completed and fill out defective equipment reports.",
+      "task": "Drive trucks following established routes and operate equipment that compresses collected refuse.",
       "task_type": "Core"
     },
     {
-      "task": "Make special pickups of recyclable materials, such as food scraps, used oil, discarded computers, or other electronic items, and organize schedules for refuse collection.",
+      "task": "Dump refuse or recyclable materials at disposal sites and clean trucks after routes have been completed.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Make special pickups of recyclable materials and tag containers to inform customers of problems with collections.",
       "task_type": "Supplemental"
     },
     {
-      "task": "Tag garbage or recycling containers to inform customers of problems, such as excess garbage or inclusion of items that are not permitted, investigate incidents or violations, and issue notices and recommend corrective actions when infractions or problems are found.",
+      "task": "Examine practices at green building sites to assess adherence to standards and identify potential hazards related to recycled products.",
       "task_type": "Supplemental"
     },
     {
-      "task": "Train workers in safety procedures related to green jobs, such as the use of fall protection devices or maintenance of proper ventilation during wind turbine construction and verify availability or monitor use of safety equipment, such as hearing protection or respirators.",
+      "task": "Conduct visual inspections of emission control equipment and perform tests to identify hazards in recycled products.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Inspect agricultural commodities for compliance with health and safety regulations and prepare reports on findings and recommendations.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Conduct worker studies to determine whether specific disease instances are job-related and evaluate situations when workers refuse work due to dangers.",
       "task_type": "Core"
     },
     {
-      "task": "Collect data regarding potential hazards from new equipment or products linked to green practices and conduct worker studies to determine whether specific instances of disease or illness are job-related.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications and conduct inspections to ensure compliance with health and safety regulations.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Prepare, compile, and submit reports on work activities, operations, production, or work-related accidents and maintain logbooks of daily activities, including areas visited or activities performed.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Monitor field work to ensure proper performance and use of materials and resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task": "Inspect vehicles or other equipment for evidence of abuse or defects and ensure compliance with relevant rules or standards.",
       "task_type": "Core"
     }
   ],
@@ -1724,6 +1724,10 @@
       "weight": 0.25
     },
     {
+      "name": "Pneumatic collection garbage trucks",
+      "weight": 0.25
+    },
+    {
       "name": "Rear-loading garbage trucks",
       "weight": 0.25
     },
@@ -1732,11 +1736,23 @@
       "weight": 0.25
     },
     {
+      "name": "Shredder trucks",
+      "weight": 0.25
+    },
+    {
       "name": "Side-loading garbage trucks",
       "weight": 0.25
     },
     {
+      "name": "Digital video cameras",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Half-face respirators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Inspection lamps",
       "weight": 0.16666666666666666
     },
     {
@@ -1752,11 +1768,55 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Scaffolding",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Cargo trucks",
       "weight": 0.08333333333333333
     },
     {
+      "name": "Extension ladders",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Global positioning system GPS receivers",
+      "weight": 0.08333333333333333
+    },
+    {
       "name": "Hard hats",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Oil samplers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pelican samplers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Pipettes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Point-type samplers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Probe-type samplers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Syringes",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Tankcar samplers",
+      "weight": 0.08333333333333333
+    },
+    {
+      "name": "Truck probes",
       "weight": 0.08333333333333333
     },
     {
@@ -1768,12 +1828,12 @@
       "weight": 0.024390243902439025
     },
     {
-      "name": "Pallet jacks",
+      "name": "Hydraulic jacks",
       "weight": 0.024390243902439025
     },
     {
-      "name": "Photocopying equipment",
-      "weight": 0.015151515151515152
+      "name": "Pallet jacks",
+      "weight": 0.024390243902439025
     }
   ],
   "detailed_work_activities": [

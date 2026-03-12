@@ -1,0 +1,417 @@
+# ---
+# jupyter:
+#   kernelspec:
+#     display_name: Python 3
+#     language: python
+#     name: python3
+# ---
+
+# %%
+#|default_exp postprocess
+
+
+
+
+
+# %% [markdown]
+# # Post-Processing of Refined Data
+#
+# Deterministic post-processing fixes applied after LLM refinement.
+# Addresses known issues: nan task types, LLM artifacts in text,
+# US-specific terminology, wrong-domain tasks, and essential tech
+# skills wrongly removed.
+# 
+
+# %%
+#|export
+import logging
+import re
+
+logger = logging.getLogger(__name__)
+
+
+
+
+
+# %% [markdown]
+# ## 1.1 Fix "nan" task_type
+# 
+
+# %%
+#|export
+def _fix_nan_task_types(occ: dict) -> int:
+    """Replace nan/None/missing task_type with 'Unclassified'. Returns count of fixes."""
+    fixes = 0
+    for task in occ.get('tasks', []):
+        tt = task.get('task_type')
+        if tt is None or (isinstance(tt, str) and tt.lower() == 'nan'):
+            task['task_type'] = 'Unclassified'
+            fixes += 1
+    return fixes
+
+
+
+
+
+# %% [markdown]
+# ## 1.2 Remove LLM Artifacts from Task Text
+# 
+
+# %%
+#|export
+_LLM_ARTIFACT_PATTERNS = [
+    re.compile(r'^Remove (irrelevant |tasks)', re.IGNORECASE),
+    re.compile(r'\[REMOVED\]', re.IGNORECASE),
+    re.compile(r'\[REDACTED\]', re.IGNORECASE),
+]
+
+
+def _remove_llm_artifacts(occ: dict) -> int:
+    """Remove tasks that contain LLM refinement artifacts. Returns count removed."""
+    tasks = occ.get('tasks', [])
+    if not tasks:
+        return 0
+
+    clean = []
+    removed = 0
+    for task in tasks:
+        text = task.get('task', '').strip()
+        task_type = task.get('task_type', '')
+
+        # Remove empty/placeholder tasks
+        if not text or text == 'Not relevant.':
+            removed += 1
+            continue
+
+        # Remove tasks with [nan] prefix
+        if text.startswith('[nan]'):
+            removed += 1
+            continue
+
+        # Remove tasks with task_type "Irrelevant"
+        if isinstance(task_type, str) and task_type.lower() == 'irrelevant':
+            removed += 1
+            continue
+
+        # Remove tasks matching LLM artifact patterns
+        if any(p.search(text) for p in _LLM_ARTIFACT_PATTERNS):
+            removed += 1
+            continue
+
+        clean.append(task)
+
+    occ['tasks'] = clean
+    return removed
+
+
+
+
+
+# %% [markdown]
+# ## 1.3 Generic Tech Skill Whitelist
+# 
+
+# %%
+#|export
+GENERIC_TECH_WHITELIST = {
+    'Microsoft Office',
+    'Microsoft Excel',
+    'Microsoft Word',
+    'Microsoft Outlook',
+    'Microsoft PowerPoint',
+    'Web browser software',
+    'Electronic mail software',
+}
+
+
+def _restore_generic_tech(occ: dict, unrefined_occ: dict) -> int:
+    """Re-add whitelisted generic tech skills if they were wrongly removed. Returns count restored."""
+    refined_names = {ts.get('name', '') for ts in occ.get('technology_skills', [])}
+    unrefined_skills = unrefined_occ.get('technology_skills', [])
+
+    restored = 0
+    for ts in unrefined_skills:
+        name = ts.get('name', '')
+        if name in GENERIC_TECH_WHITELIST and name not in refined_names:
+            occ.setdefault('technology_skills', []).append(ts)
+            refined_names.add(name)
+            restored += 1
+
+    return restored
+
+
+
+
+
+# %% [markdown]
+# ## 1.4 US to UK Terminology Substitution
+# 
+
+# %%
+#|export
+# Order matters: longer/more specific patterns first
+_US_UK_TASK_SUBS = [
+    ('federal and state', 'central and devolved government'),
+    ('state and federal', 'central and devolved government'),
+    ('Federal and state', 'Central and devolved government'),
+    ('State and federal', 'Central and devolved government'),
+    ('Federal and State', 'Central and Devolved Government'),
+    # "federal" standalone (not part of already-replaced phrase)
+    ('federal law', 'national law'),
+    ('Federal law', 'National law'),
+    ('federal regulation', 'national regulation'),
+    ('Federal regulation', 'National regulation'),
+    ('federal funding', 'government funding'),
+    ('Federal funding', 'Government funding'),
+    ('federal requirement', 'national requirement'),
+    ('Federal requirement', 'National requirement'),
+    ('federal agencies', 'government agencies'),
+    ('Federal agencies', 'Government agencies'),
+    ('federal ', 'central government '),
+    ('Federal ', 'Central government '),
+    ('Medicare', 'NHS'),
+    ('Medicaid', 'NHS'),
+    (' OSHA ', ' HSE '),
+]
+
+_US_TECH_REMOVE_PATTERNS = ['FRESA', 'SEVIS', 'USDA']
+
+
+def _substitute_us_uk_terms(occ: dict) -> int:
+    """Apply US->UK term substitutions in tasks and remove US-specific tech. Returns count of changes."""
+    changes = 0
+
+    # Tasks: text substitution
+    for task in occ.get('tasks', []):
+        text = task.get('task', '')
+        new_text = text
+        for us, uk in _US_UK_TASK_SUBS:
+            if us in new_text:
+                new_text = new_text.replace(us, uk)
+        if new_text != text:
+            task['task'] = new_text
+            changes += 1
+
+    # Tech skills: remove US-specific entries
+    tech = occ.get('technology_skills', [])
+    if tech:
+        clean = []
+        for ts in tech:
+            name = ts.get('name', '')
+            if any(pat in name for pat in _US_TECH_REMOVE_PATTERNS):
+                changes += 1
+                continue
+            clean.append(ts)
+        occ['technology_skills'] = clean
+
+    return changes
+
+
+
+
+
+# %% [markdown]
+# ## 1.5 Remove Wrong-Domain Tasks
+# 
+
+# %%
+#|export
+_GAMBLING_KEYWORDS = re.compile(
+    r'\bgambling\b|\bcasino\b|\bjackpot\b|\bslot machine\b|\bpoker\b|\bgaming table\b|\bwager\b',
+    re.IGNORECASE,
+)
+_GAMBLING_TITLE_WORDS = re.compile(
+    r'\bgambling\b|\bbetting\b|\bcasino\b',
+    re.IGNORECASE,
+)
+
+_FIRE_KEYWORDS = re.compile(
+    r'\bfire suppression\b|\barson investigation\b|\bfire crew\b|\bfire station\b|\bfirefight',
+    re.IGNORECASE,
+)
+_FIRE_TITLE_WORDS = re.compile(
+    r'\bfire\b|\brescue\b|\bfirefight',
+    re.IGNORECASE,
+)
+
+
+def _remove_wrong_domain_tasks(occ: dict) -> int:
+    """Remove clearly wrong-domain tasks (gambling in non-gambling, fire in non-fire). Returns count removed."""
+    title = occ.get('title', '')
+    tasks = occ.get('tasks', [])
+    if not tasks:
+        return 0
+
+    removed = 0
+    clean = []
+    for task in tasks:
+        text = task.get('task', '')
+
+        # Gambling tasks in non-gambling occupations
+        if not _GAMBLING_TITLE_WORDS.search(title) and _GAMBLING_KEYWORDS.search(text):
+            removed += 1
+            continue
+
+        # Fire tasks in non-fire occupations
+        if not _FIRE_TITLE_WORDS.search(title) and _FIRE_KEYWORDS.search(text):
+            removed += 1
+            continue
+
+        clean.append(task)
+
+    occ['tasks'] = clean
+    return removed
+
+
+
+
+
+# %% [markdown]
+# ## Manual Overrides
+# 
+
+# %%
+#|export
+import json
+from pathlib import Path
+
+
+def apply_manual_overrides(
+    occupations: list[dict],
+    overrides_path: Path | None = None,
+) -> list[dict]:
+    """
+    Apply manual overrides from a JSON file as the final pipeline step.
+
+    Supported actions:
+    - remove_tasks_containing: remove tasks matching a regex pattern
+    - remove_tech_skills: remove tech skills by exact name
+    - set_flag: add a flag/reason to the occupation dict
+
+    Args:
+        occupations: List of occupation dicts (mutated in place).
+        overrides_path: Path to manual_overrides.json.
+
+    Returns:
+        The occupation list with overrides applied.
+    """
+    if overrides_path is None:
+        overrides_path = Path(__file__).parent.parent / 'manual_overrides.json'
+    if not overrides_path.exists():
+        return occupations
+
+    with open(overrides_path) as f:
+        data = json.load(f)
+
+    overrides = data.get('overrides', [])
+    if not overrides:
+        return occupations
+
+    # Build lookup
+    occ_lookup = {occ['uk_soc_2020']: occ for occ in occupations}
+    applied = 0
+
+    for override in overrides:
+        code = override['uk_soc_2020']
+        action = override['action']
+        occ = occ_lookup.get(code)
+        if not occ:
+            continue
+
+        if action == 'remove_tasks_containing':
+            pattern = re.compile(override['pattern'], re.IGNORECASE)
+            before = len(occ.get('tasks', []))
+            occ['tasks'] = [t for t in occ.get('tasks', []) if not pattern.search(t.get('task', ''))]
+            removed = before - len(occ['tasks'])
+            if removed:
+                logger.info(f"SOC {code}: removed {removed} tasks matching '{override['pattern']}'")
+                applied += removed
+
+        elif action == 'remove_tech_skills':
+            names_to_remove = set(override['names'])
+            before = len(occ.get('technology_skills', []))
+            occ['technology_skills'] = [
+                ts for ts in occ.get('technology_skills', [])
+                if ts.get('name', '') not in names_to_remove
+            ]
+            removed = before - len(occ['technology_skills'])
+            if removed:
+                logger.info(f"SOC {code}: removed {removed} tech skills")
+                applied += removed
+
+        elif action == 'set_flag':
+            occ[override['flag']] = override.get('reason', True)
+            applied += 1
+
+    if applied:
+        print(f"Manual overrides: {applied} changes applied from {overrides_path.name}")
+
+    return occupations
+
+
+
+
+
+# %% [markdown]
+# ## Dataset-Level Entry Point
+# 
+
+# %%
+#|export
+def postprocess_dataset(
+    occupations: list[dict],
+    unrefined_occupations: list[dict] | None = None,
+) -> list[dict]:
+    """
+    Apply deterministic post-processing fixes to refined occupation data.
+
+    Args:
+        occupations: List of refined occupation dicts (mutated in place).
+        unrefined_occupations: Optional list of unrefined occupation dicts
+            (needed for tech skill whitelist restoration).
+
+    Returns:
+        The post-processed list of occupation dicts.
+    """
+    # Build lookup for unrefined data
+    unrefined_lookup = {}
+    if unrefined_occupations:
+        for occ in unrefined_occupations:
+            unrefined_lookup[occ['uk_soc_2020']] = occ
+
+    total_nan_fixes = 0
+    total_artifacts = 0
+    total_tech_restored = 0
+    total_us_uk = 0
+    total_wrong_domain = 0
+
+    for occ in occupations:
+        code = occ.get('uk_soc_2020', 0)
+
+        # 1.1 Fix nan task_types
+        total_nan_fixes += _fix_nan_task_types(occ)
+
+        # 1.2 Remove LLM artifacts
+        total_artifacts += _remove_llm_artifacts(occ)
+
+        # 1.3 Restore generic tech skills
+        unrefined = unrefined_lookup.get(code)
+        if unrefined:
+            total_tech_restored += _restore_generic_tech(occ, unrefined)
+
+        # 1.4 US->UK terminology
+        total_us_uk += _substitute_us_uk_terms(occ)
+
+        # 1.5 Wrong-domain tasks
+        total_wrong_domain += _remove_wrong_domain_tasks(occ)
+
+    print(
+        f"Post-processing complete: "
+        f"{total_nan_fixes} nan task_types fixed, "
+        f"{total_artifacts} LLM artifacts removed, "
+        f"{total_tech_restored} generic tech skills restored, "
+        f"{total_us_uk} US->UK substitutions, "
+        f"{total_wrong_domain} wrong-domain tasks removed"
+    )
+
+    return occupations

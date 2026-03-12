@@ -1544,7 +1544,27 @@
   ],
   "tasks": [
     {
-      "task": "Service, clean, or supply restrooms, clean and polish furniture and fixtures, dust furniture, walls, machines, or equipment, clean windows, glass partitions, or mirrors using soapy water or other cleaners, sponges, or squeegees, gather and empty trash, and clean building floors by sweeping, mopping, scrubbing, or vacuuming.",
+      "task": "Service, clean, or supply restrooms.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Clean and polish furniture, fixtures, and equipment.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Monitor building security and safety by locking doors after operating hours and checking electrical appliance use.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Clean windows, glass partitions, or mirrors, using soapy water or other cleaners, sponges, or squeegees.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Dust furniture, walls, machines, or equipment.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Gather and empty trash and remove rubbish.",
       "task_type": "Core"
     },
     {
@@ -1552,7 +1572,7 @@
       "task_type": "Core"
     },
     {
-      "task": "Requisition supplies or equipment needed for cleaning and maintenance duties, notify managers concerning the need for major repairs or additions to building operating systems, and mix water and detergents or acids in containers to prepare cleaning solutions, according to specifications.",
+      "task": "Mix water and detergents or acids in containers to prepare cleaning solutions, according to specifications.",
       "task_type": "Core"
     },
     {
@@ -1560,27 +1580,27 @@
       "task_type": "Core"
     },
     {
-      "task": "Remove snow from sidewalks, driveways, or parking areas, using snowplows, snow blowers, or snow shovels, or spread snow-melting chemicals.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Clean chimneys, flues, and connecting pipes, using power or hand tools, and steam-clean or shampoo carpets.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Make adjustments or minor repairs to heating, cooling, ventilating, plumbing, or electrical systems, and spray insecticides or fumigants to prevent insect or rodent infestation.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Monitor building security and safety by performing tasks such as locking doors after operating hours or checking electrical appliance use to ensure that hazards are not created.",
+      "task": "Clean building floors by sweeping, mopping, scrubbing, or vacuuming.",
       "task_type": "Core"
     },
     {
-      "task": "Drive vans, industrial trucks, or other vehicles required to travel to, or to perform, cleaning work.",
+      "task": "Notify managers concerning the need for major repairs or additions to building operating systems.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Remove snow from sidewalks, driveways, or parking areas, using snowplows, snow blowers, or snow shovels.",
       "task_type": "Supplemental"
     },
     {
-      "task": "Set up, arrange, or remove decorations, tables, chairs, ladders, or scaffolding to prepare facilities for events, such as banquets or meetings.",
+      "task": "Steam-clean or shampoo carpets.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Make adjustments or minor repairs to heating, cooling, ventilating, plumbing, or electrical systems.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Set up and arrange decorations, tables, chairs, ladders, or scaffolding for events.",
       "task_type": "Supplemental"
     }
   ],
@@ -1591,6 +1611,18 @@
     },
     {
       "name": "Squeegee",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Excel",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Outlook",
+      "weight": 0.1
+    },
+    {
+      "name": "Microsoft Word",
       "weight": 0.1
     }
   ],

@@ -1544,43 +1544,71 @@
   ],
   "tasks": [
     {
-      "task": "Replace broken or missing masonry units in walls or floors. Clean excess mortar or grout from surface of marble, stone, or monument, using sponge, brush, water, or acid. Mix mortar or grout and apply it to marble slabs, stone, or foundation. Remove wedges, fill joints between stones, and finish joints using a trowel for an attractive finish. Inspect brickwork or structure to determine need for repair and interpret blueprints to determine specifications and calculate materials required. Lay brick to build chimneys and other structures, ensuring vertical and horizontal alignment using tools such as plumb bob and levels. Repair cracked or chipped areas of stone or marble, and remove rough spots from concrete, using a blowtorch and power grinder.",
+      "task": "Replace broken or missing masonry units in walls or floors.",
       "task_type": "Core"
     },
     {
-      "task": "Set stone or marble in place according to layout or pattern and shape, trim, and cut stone or marble preparatory to setting, using power tools and hand tools.",
+      "task": "Set vertical and horizontal alignment of structures using plumb bob, gauge line, and level.",
       "task_type": "Core"
     },
     {
-      "task": "Construct and install prefabricated masonry units, dig trenches for foundations using hand tools, and assemble, install, or maintain photovoltaic (PV) systems in accordance with codes, ensuring correct orientation and structural integrity. Perform routine maintenance on PV systems and test voltages to ensure functionality.",
+      "task": "Mix mortar or grout and apply it to marble slabs, stone, or foundations.",
       "task_type": "Core"
     },
     {
-      "task": "Lay out wall patterns or foundations, and calculate angles and courses to determine alignment for laying bricks, blocks, or tiles. Remove excess mortar with trowels, hand tools, and finish mortar joints for a uniform appearance.",
+      "task": "Remove wedges, fill joints between stones, and finish joints using a trowel or tuck pointer.",
       "task_type": "Core"
     },
     {
-      "task": "Perform tasks related to masonry and its installation, such as applying and smoothing mortar or mixtures, preparing site conditions, and cleaning working surfaces.",
+      "task": "Set stone or marble in place according to layout or pattern.",
       "task_type": "Core"
     },
     {
-      "task": "Drill holes in ornamental stone and anchor brackets in holes, shape and install anchor materials to bind building materials securely, and create strong construction for various applications in masonry.",
+      "task": "Clean excess mortar or grout from the surface of marble, stone, or monuments.",
       "task_type": "Core"
     },
     {
-      "task": "Layout, assemble, and install various types of fences, gates, and barriers, ensuring structural integrity and alignment. This includes digging postholes, setting posts in upright positions, and securing rails.",
+      "task": "Lay brick to build shells of chimneys and smokestacks or to line industrial installations.",
       "task_type": "Core"
     },
     {
-      "task": "Identify and remove hazardous materials during construction activities and decontaminate work areas, ensuring compliance with safety regulations.",
+      "task": "Shape, trim, and cut marble or stone using power saws, cutting equipment, and hand tools.",
       "task_type": "Core"
     },
     {
-      "task": "Check and maintain cleanliness of tools and work areas.",
+      "task": "Construct corners by fastening a corner pole or building a corner pyramid of bricks and guiding layers using a line.",
       "task_type": "Core"
     },
     {
-      "task": "Provide consultations with customers regarding masonry work, renovations, and project scopes.",
+      "task": "Interpret blueprints and drawings to determine specifications and calculate materials required.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Visually inspect and test photovoltaic (PV) modules or systems and compile records of performance and maintenance.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Install photovoltaic (PV) systems in accordance with codes and standards, using drawings and schematics.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Measure and analyze system performance and assess operating condition of photovoltaic (PV) systems.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Lay out wall patterns or foundations using straight edge, rule, or staked lines.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Remove burned or damaged brick or mortar using sledgehammers, crowbars, or chisels.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Examine brickwork to determine the need for repair.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Lay bricks, blocks, or tiles to build or repair structures or equipment.",
       "task_type": "Core"
     },
     {
@@ -1674,6 +1702,10 @@
     {
       "name": "Rubber mallets",
       "weight": 0.6166666666666667
+    },
+    {
+      "name": "Forklifts",
+      "weight": 0.6027777777777777
     },
     {
       "name": "Jackhammers",
@@ -1776,6 +1808,10 @@
       "weight": 0.45
     },
     {
+      "name": "Pipe cutters",
+      "weight": 0.4444444444444444
+    },
+    {
       "name": "Putty knives",
       "weight": 0.4444444444444444
     },
@@ -1802,6 +1838,18 @@
     {
       "name": "Sandblasters",
       "weight": 0.41666666666666663
+    },
+    {
+      "name": "Steam cleaning equipment",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Truck cranes",
+      "weight": 0.41666666666666663
+    },
+    {
+      "name": "Lifting spreaders",
+      "weight": 0.375
     },
     {
       "name": "Stone grinders",
@@ -1840,8 +1888,16 @@
       "weight": 0.3666666666666667
     },
     {
+      "name": "Skid steer loaders",
+      "weight": 0.325
+    },
+    {
       "name": "Sledgehammers",
       "weight": 0.3111111111111111
+    },
+    {
+      "name": "Dust collectors",
+      "weight": 0.29166666666666663
     },
     {
       "name": "Cordless drills",
@@ -1884,6 +1940,14 @@
       "weight": 0.2777777777777778
     },
     {
+      "name": "Work vans",
+      "weight": 0.2777777777777778
+    },
+    {
+      "name": "Cutting torches",
+      "weight": 0.25555555555555554
+    },
+    {
       "name": "12 pound sledge hammers",
       "weight": 0.25
     },
@@ -1897,6 +1961,10 @@
     },
     {
       "name": "Angle chisels",
+      "weight": 0.25
+    },
+    {
+      "name": "Boom lifts",
       "weight": 0.25
     },
     {
@@ -1936,6 +2004,14 @@
       "weight": 0.25
     },
     {
+      "name": "Dust and particulate respirators",
+      "weight": 0.25
+    },
+    {
+      "name": "Dust collection systems",
+      "weight": 0.25
+    },
+    {
       "name": "Electric mortar mixers",
       "weight": 0.25
     },
@@ -1948,7 +2024,15 @@
       "weight": 0.25
     },
     {
+      "name": "Forklift booms",
+      "weight": 0.25
+    },
+    {
       "name": "Full face shields",
+      "weight": 0.25
+    },
+    {
+      "name": "Gantry cranes",
       "weight": 0.25
     },
     {
@@ -1965,6 +2049,26 @@
     },
     {
       "name": "Hand held sprayers",
+      "weight": 0.25
+    },
+    {
+      "name": "Hand torches",
+      "weight": 0.25
+    },
+    {
+      "name": "Hand tracers",
+      "weight": 0.25
+    },
+    {
+      "name": "Heating torches",
+      "weight": 0.25
+    },
+    {
+      "name": "Horizontal shaft mixers",
+      "weight": 0.25
+    },
+    {
+      "name": "Hydraulic hoists",
       "weight": 0.25
     },
     {
@@ -1988,6 +2092,14 @@
       "weight": 0.25
     },
     {
+      "name": "Masonry forklifts",
+      "weight": 0.25
+    },
+    {
+      "name": "Masonry hard hats",
+      "weight": 0.25
+    },
+    {
       "name": "Masonry plumb bobs",
       "weight": 0.25
     },
@@ -2005,6 +2117,10 @@
     },
     {
       "name": "Mini grinders",
+      "weight": 0.25
+    },
+    {
+      "name": "Oxygen lances",
       "weight": 0.25
     },
     {
@@ -2028,7 +2144,23 @@
       "weight": 0.25
     },
     {
+      "name": "Polishing machines",
+      "weight": 0.25
+    },
+    {
+      "name": "Portable cranes",
+      "weight": 0.25
+    },
+    {
+      "name": "Power hoists",
+      "weight": 0.25
+    },
+    {
       "name": "Protective ear plugs",
+      "weight": 0.25
+    },
+    {
+      "name": "Rigging equipment",
       "weight": 0.25
     },
     {
@@ -2061,6 +2193,14 @@
     },
     {
       "name": "Stationary scaffolds",
+      "weight": 0.25
+    },
+    {
+      "name": "Steel wire stone brushes",
+      "weight": 0.25
+    },
+    {
+      "name": "Stone cleaning sponges",
       "weight": 0.25
     },
     {
@@ -2108,11 +2248,51 @@
       "weight": 0.25
     },
     {
+      "name": "Vacuum lifts",
+      "weight": 0.25
+    },
+    {
+      "name": "Vertical shaft mixers",
+      "weight": 0.25
+    },
+    {
+      "name": "Vixen files",
+      "weight": 0.25
+    },
+    {
       "name": "Wet stone saws",
       "weight": 0.25
     },
     {
+      "name": "Wet-dry vacuums",
+      "weight": 0.25
+    },
+    {
+      "name": "Wooden templates",
+      "weight": 0.25
+    },
+    {
       "name": "Adhesive trowels",
+      "weight": 0.2
+    },
+    {
+      "name": "Adjustable widemouth pliers",
+      "weight": 0.2
+    },
+    {
+      "name": "Air compressors",
+      "weight": 0.2
+    },
+    {
+      "name": "Block and tackle equipment",
+      "weight": 0.2
+    },
+    {
+      "name": "Bolt cutters",
+      "weight": 0.2
+    },
+    {
+      "name": "Bosun chairs",
       "weight": 0.2
     },
     {
@@ -2140,7 +2320,23 @@
       "weight": 0.2
     },
     {
+      "name": "C clamps",
+      "weight": 0.2
+    },
+    {
+      "name": "Carpenters' hammers",
+      "weight": 0.2
+    },
+    {
+      "name": "Chain blocks",
+      "weight": 0.2
+    },
+    {
       "name": "Chalk lines",
+      "weight": 0.2
+    },
+    {
+      "name": "Compasses",
       "weight": 0.2
     },
     {
@@ -2148,7 +2344,19 @@
       "weight": 0.2
     },
     {
+      "name": "Edgers",
+      "weight": 0.2
+    },
+    {
       "name": "Floats",
+      "weight": 0.2
+    },
+    {
+      "name": "Gas generators",
+      "weight": 0.2
+    },
+    {
+      "name": "Grease guns",
       "weight": 0.2
     },
     {
@@ -2164,7 +2372,19 @@
       "weight": 0.2
     },
     {
+      "name": "Hand sprayers",
+      "weight": 0.2
+    },
+    {
       "name": "Hard hats",
+      "weight": 0.2
+    },
+    {
+      "name": "Hoisting equipment",
+      "weight": 0.2
+    },
+    {
+      "name": "Jacks",
       "weight": 0.2
     },
     {
@@ -2184,6 +2404,14 @@
       "weight": 0.2
     },
     {
+      "name": "Outriggers",
+      "weight": 0.2
+    },
+    {
+      "name": "Pallet jacks",
+      "weight": 0.2
+    },
+    {
       "name": "Picks",
       "weight": 0.2
     },
@@ -2200,11 +2428,47 @@
       "weight": 0.2
     },
     {
+      "name": "Portable routers",
+      "weight": 0.2
+    },
+    {
+      "name": "Portable welding machines",
+      "weight": 0.2
+    },
+    {
       "name": "Power drills",
       "weight": 0.2
     },
     {
       "name": "Power grinders",
+      "weight": 0.2
+    },
+    {
+      "name": "Power joint cutters",
+      "weight": 0.2
+    },
+    {
+      "name": "Power screwguns",
+      "weight": 0.2
+    },
+    {
+      "name": "Power trowels",
+      "weight": 0.2
+    },
+    {
+      "name": "Power washers",
+      "weight": 0.2
+    },
+    {
+      "name": "Precision squares",
+      "weight": 0.2
+    },
+    {
+      "name": "Propane torches",
+      "weight": 0.2
+    },
+    {
+      "name": "Protractors",
       "weight": 0.2
     },
     {
@@ -2217,6 +2481,18 @@
     },
     {
       "name": "Refractory hammers",
+      "weight": 0.2
+    },
+    {
+      "name": "Rubbing stones",
+      "weight": 0.2
+    },
+    {
+      "name": "Screeds",
+      "weight": 0.2
+    },
+    {
+      "name": "Screw jacks",
       "weight": 0.2
     },
     {
@@ -2244,7 +2520,15 @@
       "weight": 0.2
     },
     {
+      "name": "Carpenters' levels",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Cold chisels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Combination squares",
       "weight": 0.16666666666666666
     },
     {
@@ -2256,7 +2540,43 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Drawknives",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Flat cold chisel",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hand augers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hand jacks",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hand saws",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "High-pressure water sprayers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pipe wrenches",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pneumatic scabbling tools",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Portable concrete mixers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Portable electric drills",
       "weight": 0.16666666666666666
     },
     {
@@ -2264,19 +2584,15 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Protective respirators",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Safety gloves",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Screwdrivers",
+      "name": "Shop vacuums",
       "weight": 0.16666666666666666
     },
     {
       "name": "Shovels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Spirit levels",
       "weight": 0.16666666666666666
     },
     {

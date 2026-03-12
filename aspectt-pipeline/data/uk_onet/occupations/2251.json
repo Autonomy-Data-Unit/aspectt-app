@@ -1544,76 +1544,8 @@
   ],
   "tasks": [
     {
-      "task": "Publish educational information for pharmacists, doctors, or patients, and offer health promotion or prevention activities, such as training people to use blood pressure devices or diabetes monitors.",
+      "task": "Publish educational information for pharmacists, doctors, or patients.",
       "task_type": "Supplemental"
-    },
-    {
-      "task": "Provide specialized services to help patients manage conditions, such as diabetes, asthma, smoking cessation, or high blood pressure, and refer patients to other health professionals or agencies when appropriate.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Assess the identity, strength, or purity of medications, review prescriptions to assure accuracy, ascertain the needed ingredients, and evaluate their suitability.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Work in hospitals or clinics, dispensing prescriptions, serving as a medical team consultant, or specializing in specific drug therapy areas, such as oncology or nuclear pharmacotherapy, and manage pharmacy operations, hiring or supervising staff and performing administrative duties.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Plan, implement, or maintain procedures for mixing, packaging, or labeling pharmaceuticals, according to policy and legal requirements, to ensure quality, security, and proper disposal, and maintain records such as pharmacy files, patient profiles, and inventories.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Prepare sterile solutions or infusions for use in surgical procedures, emergency rooms, or patients' homes, and compound and dispense medications as prescribed by doctors and dentists.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Collaborate with other health care professionals to plan, monitor, review, or evaluate the quality or effectiveness of drugs or drug regimens, providing advice on drug applications or characteristics, and analyze prescribing trends to monitor patient compliance and to prevent excessive usage or harmful interactions.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Advise customers on the selection of medication brands, medical equipment, or healthcare supplies, and provide information and advice regarding drug interactions, side effects, dosage, and proper medication storage.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Order and purchase pharmaceutical supplies, medical supplies, or drugs, maintaining stock and storing and handling it properly, and contact insurance companies to resolve billing issues.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Teach pharmacy students serving as interns in preparation for their graduation or licensure, and teach in colleges and universities.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Update or troubleshoot pharmacy information databases.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Maintain laboratory instruments to ensure proper working order and troubleshoot malfunctions when needed, conduct quality control tests, and evaluate laboratory safety procedures to ensure compliance with standards or to make improvements as needed.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Conduct qualitative and quantitative analyses of medications and analyze organic or inorganic compounds to determine properties, composition, and interactions, using techniques such as chromatography, spectroscopy, or spectrophotometry.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Develop, improve, or customize pharmaceutical products, equipment, and analytical methods, and monitor and evaluate production processes to ensure efficiency and compliance.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Compile and analyze information to diagnose malfunctions, including performing experiments and modeling to study the properties of materials and their responses to forces.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Prepare technical papers or reports for use by other professionals or for publication, and write research papers for scientific journals.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Confer with customers to determine how to tailor materials or medications to their needs.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Determine ways to strengthen or combine materials or develop new materials with specific properties, and conduct research on materials to enhance or develop new products.",
-      "task_type": "Core"
     }
   ],
   "technology_skills": [
@@ -1744,11 +1676,15 @@
       "weight": 1.0
     },
     {
+      "name": "Glucometers",
+      "weight": 1.0
+    },
+    {
       "name": "Horizontal air flow laminar hoods",
       "weight": 1.0
     },
     {
-      "name": "Label-making machines",
+      "name": "Intravenous IV therapy equipment",
       "weight": 1.0
     },
     {
@@ -1780,6 +1716,10 @@
       "weight": 1.0
     },
     {
+      "name": "Oxygen therapy equipment",
+      "weight": 1.0
+    },
+    {
       "name": "Pestles",
       "weight": 1.0
     },
@@ -1792,6 +1732,10 @@
       "weight": 1.0
     },
     {
+      "name": "Torsion balances",
+      "weight": 1.0
+    },
+    {
       "name": "Vertical air flow laminar hoods",
       "weight": 1.0
     },
@@ -1800,7 +1744,23 @@
       "weight": 0.4444444444444444
     },
     {
+      "name": "Differential scanning calorimeters",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Fourier transform infrared FTIR spectrometers",
+      "weight": 0.4444444444444444
+    },
+    {
       "name": "Fume hoods",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Gas chromatograph mass spectrometers GC-MS",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Inductively coupled plasma mass spectrometers ICP-MS",
       "weight": 0.4444444444444444
     },
     {
@@ -1808,7 +1768,27 @@
       "weight": 0.4444444444444444
     },
     {
+      "name": "Scanning electron microscopes SEM",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Spectrofluorimeters",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Spectrophotometers",
+      "weight": 0.4444444444444444
+    },
+    {
+      "name": "Thermal gravimetric analyzers",
+      "weight": 0.4444444444444444
+    },
+    {
       "name": "Analytical balances",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Atomic absorption AA spectrometers",
       "weight": 0.3333333333333333
     },
     {
@@ -1820,11 +1800,19 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Cuvettes",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Erlenmeyer flasks",
       "weight": 0.3333333333333333
     },
     {
       "name": "Funnels",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Gas chromatographs GC",
       "weight": 0.3333333333333333
     },
     {
@@ -1836,11 +1824,39 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "High-performance liquid chromatographs",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Homogenizers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Infrared IR spectrometers",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Inverted microscopes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Liquid chromatographs LC",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Mass spectrometers",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Micropipettes",
       "weight": 0.3333333333333333
     },
     {
       "name": "Monocular microscopes",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Nuclear magnetic resonance NMR spectrometers",
       "weight": 0.3333333333333333
     },
     {
@@ -1856,8 +1872,36 @@
       "weight": 0.3333333333333333
     },
     {
+      "name": "Titrators",
+      "weight": 0.3333333333333333
+    },
+    {
       "name": "Top-loading electronic balances",
       "weight": 0.3333333333333333
+    },
+    {
+      "name": "Water baths",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "pH meters",
+      "weight": 0.3333333333333333
+    },
+    {
+      "name": "Laboratory analytical balances",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Laboratory water purification systems",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Safety glasses",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Safety goggles",
+      "weight": 0.1111111111111111
     }
   ],
   "detailed_work_activities": [

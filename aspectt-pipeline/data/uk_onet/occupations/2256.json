@@ -1544,15 +1544,51 @@
   ],
   "tasks": [
     {
-      "task": "Complete and maintain necessary records related to patient care and treatment. Communicate client assessment findings and recommendations in oral and written forms, and document evaluations, treatment plans, case summaries, or progress reports for individual clients or client groups. Observe, analyze, and record patients' participation, reactions, and progress during treatment sessions, modifying treatment programs as needed. Develop individualized treatment plans based on assessment results, client interests, and therapy objectives. Obtain information from medical records, staff, and family members to assess patients' capabilities, needs, and interests. Train clients to use adaptive equipment, such as mobility devices, and teach independent living skills or techniques, such as managing medication and personal management. Advise patients about necessary treatments for prevention of future problems, and provide information regarding health risks or health promotion. Engage in consultations with treatment teams to plan and evaluate therapy programs, and conduct therapy sessions to improve patients' mental and physical well-being.",
+      "task": "Complete and maintain necessary records.",
       "task_type": "Core"
     },
     {
-      "task": "Administer treatments or therapies, such as hydrotherapy, using physical agents including air, heat, cold, water, sound, or ultraviolet light to catalyze the body to heal itself and perform mobilizations and high-velocity adjustments to joints or soft tissues, using principles of massage, stretching, or resistance.",
+      "task": "Communicate client assessment findings and recommendations in oral, written, audio, video, or other forms.",
       "task_type": "Core"
     },
     {
-      "task": "Order diagnostic imaging procedures, such as X-rays, and refer patients to other health professionals for these procedures as necessary.",
+      "task": "Confer with other professionals on client's treatment team to develop, coordinate, or integrate treatment plans.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Assess patients' psychological or emotional needs, making referral recommendations or assisting patients in managing test outcomes.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Develop individualized treatment plans incorporating therapeutic techniques to aid patient rehabilitation.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Monitor clients' progress and modify treatment programs as needed.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Diagnose diseases and deformities of the foot using medical histories, physical examinations and other diagnostic tools.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Educate patients about treatment options and provide advice on foot care techniques necessary for future problem prevention.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Perform administrative duties including hiring employees, ordering supplies, and keeping records.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Collaborate with other healthcare specialists to design and implement interdisciplinary treatment programs.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Administer treatments or therapies, such as homeopathy, hydrotherapy, and electrotherapy, using physical agents like heat, cold, and water to promote healing.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Order diagnostic imaging procedures like x-rays or ultrasounds, or refer patients to other health professionals for these procedures.",
       "task_type": "Core"
     },
     {
@@ -1560,35 +1596,47 @@
       "task_type": "Core"
     },
     {
-      "task": "Maintain and follow standard quality, safety, environmental, and infection control policies and procedures, and document patients' histories, including identifying data and previous medical or family histories.",
+      "task": "Perform mobilizations and adjustments to joints or soft tissues using principles like massage and stretching.",
       "task_type": "Core"
     },
     {
-      "task": "Collect medical histories and general health information from patients, and assess their general physical appearance to make diagnoses.",
+      "task": "Maintain compliance with standard quality, safety, environmental, and infection control policies and procedures.",
       "task_type": "Core"
     },
     {
-      "task": "Evaluate treatment outcomes and recommend new or altered treatments as necessary to further promote or maintain health.",
+      "task": "Maintain detailed records of health care plans and patient prognoses.",
       "task_type": "Core"
     },
     {
-      "task": "Develop individual treatment plans and educate patients about health care management and related topics such as nutrition and exercise.",
+      "task": "Educate patients on topics like nutrition, stretching, exercise, and relaxation techniques.",
       "task_type": "Core"
     },
     {
-      "task": "Diagnose health conditions based on symptoms, health histories, or other physiological measurements, and interpret clinical or diagnostic test results.",
+      "task": "Evaluate treatment outcomes and recommend new or adjusted treatments to promote or restore health.",
       "task_type": "Core"
     },
     {
-      "task": "Participate in clinical research projects and maintain detailed records of health care plans and prognoses.",
+      "task": "Assess patients' physical appearance, gather medical histories, and diagnose health conditions based on symptoms and test results.",
       "task_type": "Core"
     },
     {
-      "task": "Consult with other health professionals to provide optimal patient care, referring patients to traditional health care professionals as necessary.",
+      "task": "Develop individual treatment plans and strategies tailored to patients' needs.",
       "task_type": "Core"
     },
     {
-      "task": "Perform minor surgical procedures, such as removing warts or applying sutures, and treat minor cuts, abrasions, or contusions.",
+      "task": "Consult with other health professionals to coordinate patient care and provide optimal health services.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Document patients' histories and relevant health information to support diagnosis and treatment planning.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Prescribe medications or treatments based on patient needs under established regulatory guidelines.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Perform minor surgical procedures, including the removal of warts or moles and applying or removing sutures.",
       "task_type": "Supplemental"
     }
   ],
@@ -1808,10 +1856,6 @@
       "weight": 0.3333333333333333
     },
     {
-      "name": "Free weights",
-      "weight": 0.3333333333333333
-    },
-    {
       "name": "Resistive exercise bands",
       "weight": 0.3333333333333333
     },
@@ -1888,7 +1932,19 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Bailey-Lovie Acuity Chart",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Balance boards",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Bar magnifiers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Biofeedback equipment",
       "weight": 0.16666666666666666
     },
     {
@@ -1928,23 +1984,19 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Cast vacuums",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Cauterizing equipment",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Cervical chairs",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Cervical collars",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Cervical restoration traction systems",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Cervical traction devices",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Cryoprobes",
       "weight": 0.16666666666666666
     },
     {
@@ -1960,15 +2012,7 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Drop tables",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Electronic blood pressure units",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Electronic patient thermometers",
+      "name": "Electromyographs EMG",
       "weight": 0.16666666666666666
     },
     {
@@ -1980,11 +2024,7 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Exercise bicycles",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Eye occluders",
+      "name": "Flashlights",
       "weight": 0.16666666666666666
     },
     {
@@ -1992,11 +2032,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Functional capacity evaluation FCE systems",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Gait and transfer belts",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Hand dynamometers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Hyfrecators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Illuminated magnifiers",
       "weight": 0.16666666666666666
     },
     {
@@ -2048,6 +2100,10 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Medical x ray units",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Metatarsal spreaders",
       "weight": 0.16666666666666666
     },
@@ -2056,15 +2112,39 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Motorized flexion distraction tables",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Motorized wheelchairs",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Muscle stimulators",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Nail splitters",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Needle threaders",
+      "name": "Near vision acuity charts",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Neurological hammers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Neurological pinwheels",
       "weight": 0.16666666666666666
     },
     {
       "name": "Notebook computers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Nucleus knives",
       "weight": 0.16666666666666666
     },
     {
@@ -2112,7 +2192,19 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Powered surgical drills",
+      "name": "Portable x ray machines",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Pressure care garments",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Reflex hammers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Safety glasses",
       "weight": 0.16666666666666666
     },
     {
@@ -2132,6 +2224,22 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Stand magnifiers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Stationary x ray equipment",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Steam autoclaves",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Sterile gowns",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Straight hemostats",
       "weight": 0.16666666666666666
     },
@@ -2144,11 +2252,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Surgical bone mallets",
+      "name": "Surgical hand drills",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Surgical hand drills",
+      "name": "Surgical masks",
       "weight": 0.16666666666666666
     },
     {
@@ -2169,10 +2277,6 @@
     },
     {
       "name": "Suture scissors",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Tactile maps",
       "weight": 0.16666666666666666
     },
     {
@@ -2216,11 +2320,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Vibratory therapy equipment",
+      "name": "Upper extremity testing/strengthening systems",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Weights",
+      "name": "Vibratory therapy equipment",
       "weight": 0.16666666666666666
     },
     {
@@ -2232,15 +2336,31 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "X ray cassettes",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "X ray collimators",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Adson forceps",
       "weight": 0.125
     },
     {
-      "name": "Amblyoscopes",
+      "name": "Angle tip forceps",
+      "weight": 0.125
+    },
+    {
+      "name": "Autoclave sterilizers",
       "weight": 0.125
     },
     {
       "name": "Babinski hammers",
+      "weight": 0.125
+    },
+    {
+      "name": "Biohazard containers",
       "weight": 0.125
     },
     {
@@ -2252,19 +2372,19 @@
       "weight": 0.125
     },
     {
-      "name": "Dressing forceps",
-      "weight": 0.125
-    },
-    {
-      "name": "Dual head stethoscopes",
-      "weight": 0.125
-    },
-    {
-      "name": "Electrosurgical cauterization machines",
+      "name": "Buck neurological hammers",
       "weight": 0.125
     },
     {
       "name": "Foot rollers",
+      "weight": 0.125
+    },
+    {
+      "name": "Hand exercise balls",
+      "weight": 0.125
+    },
+    {
+      "name": "Hydrotherapy immersion baths",
       "weight": 0.125
     },
     {

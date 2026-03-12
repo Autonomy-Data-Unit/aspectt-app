@@ -1544,15 +1544,15 @@
   ],
   "tasks": [
     {
-      "task": "Guard facility entrances to screen visitors and ensure security.",
+      "task": "Guard facility entrances to screen visitors.",
       "task_type": "Core"
     },
     {
-      "task": "Conduct head counts and roll calls to ensure that each prisoner is present.",
+      "task": "Conduct head counts to ensure that each prisoner is present and take, receive, or check periodic inmate counts.",
       "task_type": "Core"
     },
     {
-      "task": "Supervise activities, such as searches, shakedowns, riot control, and institutional tours, while monitoring the conduct of prisoners.",
+      "task": "Supervise activities, such as searches, shakedowns, and riot control, while monitoring inmate conduct according to established procedures.",
       "task_type": "Core"
     },
     {
@@ -1560,7 +1560,7 @@
       "task_type": "Core"
     },
     {
-      "task": "Supervise or provide security for offenders performing tasks, and assign duties while providing necessary instructions.",
+      "task": "Supervise or provide security for offenders performing tasks, such as construction or food services, and assign duties to inmates, providing instructions as needed.",
       "task_type": "Core"
     },
     {
@@ -1568,47 +1568,35 @@
       "task_type": "Core"
     },
     {
-      "task": "Resolve problems between inmates, settle disputes, and counsel inmates regarding their questions and concerns.",
+      "task": "Resolve disputes between inmates and rate their behavior to promote acceptable attitudes.",
       "task_type": "Core"
     },
     {
-      "task": "Transfer or transport offenders on foot or by driving vehicles to various locations including courtrooms and hospitals.",
+      "task": "Transfer or transport offenders by foot or using vehicles, including driving passenger vehicles and trucks to other locations.",
       "task_type": "Core"
     },
     {
-      "task": "Examine and inspect incoming or outgoing mail and conditions of security devices to ensure conformance with regulations and prevent escapes.",
+      "task": "Examine incoming or outgoing mail and inspect for contraband to ensure compliance with regulations.",
       "task_type": "Core"
     },
     {
-      "task": "Record information regarding prisoner identification, charges, activities, and incidents while maintaining daily logs.",
+      "task": "Convey complaints from correctional officers or inmates to superiors and provide reports on inmate activities, disturbances, and work quality to supervisors.",
       "task_type": "Core"
     },
     {
-      "task": "Monitor the behavior of subordinates, ensuring professionalism towards inmates and compliance with institutional policies.",
+      "task": "Monitor the behavior of subordinates to ensure professionalism and compliance with institutional policies, rules, and regulations.",
       "task_type": "Core"
     },
     {
-      "task": "Respond to emergencies such as escapes, and maintain order and discipline within assigned areas by using appropriate restraints or security measures.",
+      "task": "Conduct evaluations of employees' performance and provide on-the-job training or instructions as needed.",
       "task_type": "Core"
     },
     {
-      "task": "Conduct fire, safety, and sanitation inspections to ensure a safe environment.",
+      "task": "Maintain security by inspecting conditions of locks, gates, and ensuring order and discipline within assigned areas.",
       "task_type": "Core"
     },
     {
-      "task": "Participate in required job training and conduct evaluations of employees' performance.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Convey correctional officers' or inmates' complaints to superiors and submit reports regarding the quality of work performed and unusual occurrences.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Supervise and coordinate the work of other correctional officers, ensuring safety and welfare of inmates.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Perform searches of inmates and their quarters to locate contraband items.",
+      "task": "Respond to emergencies, including escapes and participate in safety inspections.",
       "task_type": "Core"
     },
     {
@@ -1616,11 +1604,23 @@
       "task_type": "Core"
     },
     {
-      "task": "Investigate crimes that have occurred within the institution or assist police with investigations.",
-      "task_type": "Supplemental"
+      "task": "Counsel inmates and respond to their questions and legitimate requests.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Maintain records of prisoners' identification, charges, and document inmate disturbances while completing administrative paperwork.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Search prisoners and vehicles for contraband during shakedowns of cells and the quarters.",
+      "task_type": "Core"
     },
     {
       "task": "Sponsor inmate recreational activities, such as newspapers and self-help groups.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Investigate crimes that occur within an institution and assist police when necessary.",
       "task_type": "Supplemental"
     }
   ],
@@ -1676,6 +1676,10 @@
     {
       "name": "Word processing software",
       "weight": 1.0
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 2.0
     }
   ],
   "tools_used": [

@@ -1544,59 +1544,79 @@
   ],
   "tasks": [
     {
-      "task": "Collect fares or vouchers from passengers, make change, and record transactions on customer receipts or delivery records. Turn in receipts and money received from deliveries.",
+      "task": "Collect money from customers, make change, and record transactions on customer receipts.",
       "task_type": "Core"
     },
     {
-      "task": "Perform emergency repairs on vehicles, such as changing tires or installing light bulbs, and report any mechanical problems encountered with vehicles.",
+      "task": "Turn in receipts and money received from deliveries.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Perform emergency repairs, such as changing tires or installing light bulbs or spark plugs.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Use and maintain the tools or equipment found on commercial vehicles, such as weighing or measuring devices.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Drive vehicles under three tons to transport materials to and from specified destinations.",
       "task_type": "Core"
     },
     {
-      "task": "Use and maintain tools or equipment found on vehicles, such as weighing or measuring devices, and perform routine vehicle maintenance, such as regulating tire pressure and adding gasoline, oil, and water.",
+      "task": "Report delays, accidents, or other traffic and transportation situations to bases using telephones or radios.",
       "task_type": "Core"
     },
     {
-      "task": "Drive vehicles with capacities under three tons to transport passengers to and from specified destinations, including picking up or meeting passengers according to requests, and drop off at regularly scheduled neighborhood locations, following strict time schedules.",
+      "task": "Read maps and follow geographic directions.",
       "task_type": "Core"
     },
     {
-      "task": "Report delays, accidents, or other traffic and transportation situations to dispatchers or other vehicles using telephones or mobile two-way radios, and communicate with dispatchers to exchange information and receive requests for passenger service.",
+      "task": "Maintain records, such as vehicle logs, cargo records, or billing statements, in accordance with regulations.",
       "task_type": "Core"
     },
     {
-      "task": "Maintain records, such as vehicle logs and records of cargo, in accordance with regulations, and prepare and submit reports on work activities including the number of passengers, trips, or fares received.",
+      "task": "Inspect and maintain vehicle supplies and equipment to ensure vehicles are in proper working condition.",
       "task_type": "Core"
     },
     {
-      "task": "Provide passengers with information or advice about the local area or points of interest, and assist them entering and exiting vehicles, and help with any luggage.",
+      "task": "Obey traffic laws and ensure passengers follow safety regulations.",
       "task_type": "Core"
     },
     {
-      "task": "Obey traffic laws and follow established traffic and transportation procedures while ensuring that passengers follow safety regulations set forth for vehicle operation.",
+      "task": "Provide passengers with assistance entering and exiting vehicles, and help them with any luggage.",
       "task_type": "Core"
     },
     {
-      "task": "Inspect and maintain vehicle supplies and equipment, such as gas, oil, water, tires, lights, and brakes, to ensure that vehicles are in proper working condition and report any vehicle malfunctions or needed repairs.",
+      "task": "Pick up and drop off passengers at locations according to requests, appointments, or schedules.",
       "task_type": "Core"
     },
     {
-      "task": "Test vehicle equipment, such as lights, brakes, horns, or windshield wipers, to ensure proper operation and ensure passenger comfort by regulating heating, lighting, and ventilation systems.",
+      "task": "Communicate with dispatchers to exchange information and receive requests for passenger service.",
       "task_type": "Core"
     },
     {
-      "task": "Complete accident reports when necessary, and inform authorities or hospital personnel regarding accidents or emergencies as required.",
+      "task": "Test vehicle equipment to ensure proper operation, such as lights, brakes, and wipers.",
       "task_type": "Core"
     },
     {
-      "task": "Drive vehicles or operate machines to assist workers or complete work assignments and ensure that safety rules and regulations are enforced.",
+      "task": "Complete accident reports and report any vehicle malfunctions or needed repairs.",
       "task_type": "Core"
     },
     {
-      "task": "Drive and operate vehicles equipped with specialized equipment, such as wheelchair lifts, to secure and transport passengers with special needs.",
+      "task": "Drive ambulances or assist drivers in transporting sick, injured, or convalescent persons.",
       "task_type": "Core"
     },
     {
-      "task": "Perform errands for customers or employers, such as delivering or picking up mail and packages, and ensure a courteous and safe operation of vehicles.",
+      "task": "Maintain knowledge of first-aid procedures and administer first aid as necessary.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Identify and arrange to pick up specific customers or groups on a regular schedule.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Provide passengers with information about the local area, points of interest, hotels, or restaurants.",
       "task_type": "Core"
     }
   ],
@@ -1736,6 +1756,10 @@
     {
       "name": "Work scheduling software",
       "weight": 0.015151515151515152
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.03954175905395418
     }
   ],
   "tools_used": [

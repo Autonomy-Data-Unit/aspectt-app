@@ -15,6 +15,7 @@
 
 
 
+
 # %% [markdown]
 # # LLM Refinement of Translated Data
 #
@@ -31,6 +32,7 @@
 #
 # Rated data (skills, abilities, knowledge, etc.) is NOT refined -- weighted
 # averaging already handles the crosswalk noise smoothly for continuous scores.
+# 
 
 # %%
 #|export
@@ -50,8 +52,10 @@ logger = logging.getLogger(__name__)
 
 
 
+
 # %% [markdown]
 # ## Pydantic Response Models
+# 
 
 # %%
 #|export
@@ -79,8 +83,10 @@ class TaskRefineResponse(BaseModel):
 
 
 
+
 # %% [markdown]
 # ## System Prompts
+# 
 
 # %%
 #|export
@@ -118,6 +124,14 @@ close to the originals. Prefer the clearer/more general phrasing.
 2. Mark tasks clearly irrelevant to this occupation for removal. Be \
 CONSERVATIVE -- when in doubt, keep the task.
 
+IMPORTANT constraints:
+- Each merged task MUST be a single, clear sentence -- never a paragraph.
+- A merged task should combine at most 3 very similar original tasks.
+- Do NOT merge tasks just because they relate to the same broad topic area.
+- No task in your output should exceed 200 characters.
+- For occupations with many input tasks, aim to retain at least 10 distinct \
+tasks in the output.
+
 Every original task index must appear in exactly one merged task's \
 source_indices OR in removed_indices. Do not leave any index unaccounted for."""
 
@@ -126,8 +140,10 @@ source_indices OR in removed_indices. Do not leave any index unaccounted for."""
 
 
 
+
 # %% [markdown]
 # ## Prompt Builders
+# 
 
 # %%
 #|export
@@ -203,13 +219,15 @@ def _build_task_prompt(
 
 
 
+
 # %% [markdown]
 # ## Chunking Helpers
+# 
 
 # %%
 #|export
 TECH_CHUNK_SIZE = 400
-TOOL_CHUNK_SIZE = 400
+TOOL_CHUNK_SIZE = 200
 TASK_CHUNK_SIZE = 150
 JACCARD_DEDUP_THRESHOLD = 0.85
 
@@ -253,8 +271,10 @@ def _dedup_tasks_by_jaccard(tasks: list[dict], threshold: float = JACCARD_DEDUP_
 
 
 
+
 # %% [markdown]
 # ## Core Refinement Functions
+# 
 
 # %%
 #|export
@@ -387,13 +407,26 @@ async def _refine_task_chunk(
 
     result = TaskRefineResponse.model_validate_json(response)
 
-    # Build refined task list
+    # Build refined task list, splitting mega-merged blobs back to originals
     refined = []
     for mt in result.tasks:
-        refined.append({
-            'task': mt.task,
-            'task_type': mt.task_type,
-        })
+        if len(mt.task) > 300:
+            # Mega-merged blob detected — keep original individual tasks instead
+            logger.warning(
+                f"SOC {code}: merged task too long ({len(mt.task)} chars), "
+                f"keeping {len(mt.source_indices)} original tasks"
+            )
+            for idx in mt.source_indices:
+                if 0 <= idx < len(tasks):
+                    refined.append({
+                        'task': tasks[idx].get('task', ''),
+                        'task_type': tasks[idx].get('task_type', mt.task_type),
+                    })
+        else:
+            refined.append({
+                'task': mt.task,
+                'task_type': mt.task_type,
+            })
 
     return refined
 
@@ -427,8 +460,10 @@ async def _refine_tasks(
 
 
 
+
 # %% [markdown]
 # ## Per-Occupation Refinement
+# 
 
 # %%
 #|export
@@ -464,8 +499,10 @@ async def refine_occupation(occ: dict, model: str) -> dict:
 
 
 
+
 # %% [markdown]
 # ## Dataset-Level Entry Point
+# 
 
 # %%
 #|export

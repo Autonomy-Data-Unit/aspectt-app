@@ -1544,12 +1544,64 @@
   ],
   "tasks": [
     {
-      "task": "Schedule or dispatch workers, work crews, equipment, or service vehicles to appropriate locations according to customer requests or needs, using radios or telephones. Monitor personnel or equipment locations and utilization to coordinate service and schedules. Prepare daily work and run schedules. Record and maintain files or records of customer requests, work performed, charges, expenses, and inventory information. Relay work orders and messages to or from work crews, supervisors, or inspectors. Confer with customers or supervising personnel to address questions or service requests. Determine types or amounts of equipment, materials, or personnel required according to work orders. Maintain, monitor, and clean work areas to ensure compliance with safety regulations. Ensure a safe working environment by monitoring safety procedures and equipment.",
+      "task": "Schedule or dispatch workers, equipment, or vehicles to locations based on customer requests, using radios or telephones.",
       "task_type": "Core"
     },
     {
-      "task": "Record numbers of units handled or moved, using daily production sheets or work tickets, and maintain records on incoming and outgoing shipments involving inventory.",
+      "task": "Monitor personnel and equipment locations to coordinate services and schedules.",
       "task_type": "Core"
+    },
+    {
+      "task": "Prepare daily work and run schedules, and record and maintain files of customer requests and services performed.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Advise personnel about traffic problems, such as construction areas, accidents, or hazardous conditions.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Determine types or amounts of equipment, vehicles, materials, or personnel required according to specifications.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Relay work orders and information between work crews and supervisors, using telephones or two-way radios.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Examine and inspect stock items for damage or defects, reporting any findings to supervisors.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Collect samples for laboratory analysis or testing, and store them appropriately.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Weigh or measure materials, equipment, or products to maintain records using scales or measuring instruments.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Keep records of outgoing orders and manage stock for quality assurance, including disposal of defective stock.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Maintain a clean and safe working environment by monitoring safety procedures and equipment condition.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Provide training and direction to staff, and evaluate employee performance through appraisals.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Ensure accurate documentation of shipments, including comparing contents with records and reporting discrepancies.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Measure, weigh, and pack materials or products for shipping, ensuring they are labeled correctly.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Record numbers of units handled or moved using daily production sheets or work tickets.",
+      "task_type": "Supplemental"
     },
     {
       "task": "Read work orders or receive oral instructions to determine work assignments or material or equipment needs.",
@@ -1560,32 +1612,24 @@
       "task_type": "Supplemental"
     },
     {
-      "task": "Operate forklifts, pallet jacks, power lifts, or front-end loaders to load items onto trucks for shipping.",
+      "task": "Sort materials, such as metals, glass, wood, paper, or plastics, into appropriate containers for recycling.",
       "task_type": "Core"
     },
     {
-      "task": "Sort materials, such as metals, glass, wood, paper, or plastics, into appropriate containers for recycling, and prepare items for shipment.",
+      "task": "Operate forklifts, pallet jacks, power lifts, or front-end loaders to load bales, bundles, or heavy items onto trucks for shipping.",
       "task_type": "Core"
     },
     {
-      "task": "Clean recycling yard by sweeping, raking, picking up broken glass and loose paper debris, or moving barrels and bins, and inspect or lubricate recyclable collection equipment.",
+      "task": "Clean recycling yard by sweeping, raking, picking up broken glass, and moving barrels and bins.",
       "task_type": "Core"
     },
     {
-      "task": "Attach identifying tags to containers or mark them with identifying information.",
+      "task": "Collect and sort recyclable construction materials, such as concrete, drywall, plastics, or wood, into containers.",
       "task_type": "Supplemental"
     },
     {
-      "task": "Sort metals to separate high-grade metals, such as copper, brass, and aluminum, for recycling.",
+      "task": "Clean, inspect, or lubricate recyclable collection equipment and perform routine maintenance on recycling equipment.",
       "task_type": "Core"
-    },
-    {
-      "task": "Collect recyclable materials and deposit them into designated facilities or onto conveyor belts.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Record logs of recycled materials or waste chemicals removed from products.",
-      "task_type": "Supplemental"
     }
   ],
   "technology_skills": [
@@ -1872,6 +1916,10 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Hopper scales",
+      "weight": 0.14285714285714285
+    },
+    {
       "name": "Label printers",
       "weight": 0.14285714285714285
     },
@@ -1892,11 +1940,31 @@
       "weight": 0.14285714285714285
     },
     {
+      "name": "Dollies",
+      "weight": 0.12454212454212454
+    },
+    {
       "name": "Handheld calculators",
       "weight": 0.12454212454212454
     },
     {
       "name": "Handtrucks",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Laser facsimile machines",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Lift trucks",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Photocopying equipment",
+      "weight": 0.12454212454212454
+    },
+    {
+      "name": "Utility knives",
       "weight": 0.12454212454212454
     },
     {
@@ -1908,7 +1976,19 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Conveyor belts",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Copy machines",
+      "weight": 0.1111111111111111
+    },
+    {
       "name": "Handheld radio frequency RF scanners",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Laser scanners",
       "weight": 0.1111111111111111
     },
     {
@@ -1924,12 +2004,40 @@
       "weight": 0.1111111111111111
     },
     {
+      "name": "Radio frequency RF scanner guns",
+      "weight": 0.1111111111111111
+    },
+    {
+      "name": "Barcode printers",
+      "weight": 0.1
+    },
+    {
+      "name": "Handheld bar code scanners",
+      "weight": 0.1
+    },
+    {
+      "name": "Handheld scanners",
+      "weight": 0.1
+    },
+    {
       "name": "Notebook computers",
       "weight": 0.1
     },
     {
       "name": "Laptop computers",
       "weight": 0.07692307692307693
+    },
+    {
+      "name": "Recycling collection trucks",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Tractor-trailer trucks",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Work vans",
+      "weight": 0.047619047619047616
     }
   ],
   "detailed_work_activities": [

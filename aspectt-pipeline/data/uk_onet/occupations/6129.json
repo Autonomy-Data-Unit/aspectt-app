@@ -1544,83 +1544,7 @@
   ],
   "tasks": [
     {
-      "task": "Feed and water animals according to schedules and feeding instructions, and clean and disinfect pens, cages, yards, and hutches.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Administer prescribed medications and treatments, including anesthesia and vaccinations, and monitor animals' conditions to detect signs of illness, disease, or injury.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Provide general care for animals, including grooming, exercising, and administering emergency first aid or treatment to sick or injured animals.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Observe and monitor animal behavior and health, conducting examinations and maintaining records of their condition and treatment.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Prepare and sterilize instruments and treatment rooms for surgery, and assist in various medical procedures and laboratory tests.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Advise pet owners on health care and behavioral issues, and respond to inquiries regarding animal care and services.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Maintain and organize animal care facilities, including cleaning and disinfecting surgical equipment and work areas.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Supervise or train staff members and veterinary students, and coordinate activities of animal care personnel.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Collect samples for laboratory examination, including blood and tissue samples, and prepare them for processing.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Provide care and monitoring for animals recovering from surgery, and assist in euthanasia and disposal of remains as needed.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Record and manage inventories of medical supplies, equipment, and animal care products, and order supplies as necessary.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Build and maintain housing and enclosures for animals, ensuring they are secure and appropriate for the animals' needs.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Train animals for specific tasks and maintain their physical well-being through exercise and socialization activities.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Conduct specialized procedures when necessary, such as administering injections and preparing animals for breeding.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Clean and maintain animal care equipment and systems, ensuring they function properly and comply with health standards.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Manage and oversee the sale of pet supplies and related services to clients.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Engage in communication with clients regarding their pets' needs and provide updates on health and care requirements, including scheduling appointments for treatments and examinations.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Participate in activities related to animal rescue, breeding, and welfare, including finding homes for stray or unwanted animals.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Examine animals and perform assessments of their temperament and suitability for specific roles or training programs.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Observe and report on animals' progress in training and rehabilitation programs to ensure their well-being.",
+      "task": "Administer anesthesia to animals, monitor their responses, and adjust dosages under a veterinarian's direction.",
       "task_type": "Core"
     },
     {
@@ -1628,27 +1552,39 @@
       "task_type": "Core"
     },
     {
-      "task": "Prepare surgical equipment and pass instruments or materials to veterinarians during surgical procedures. Hold or restrain animals during veterinary procedures. Clean, maintain, and sterilize instruments or equipment. Administer medication, immunizations, or blood plasma to animals as prescribed by veterinarians. Provide emergency first aid to sick or injured animals. Monitor animals recovering from surgery and notify veterinarians of any unusual changes or symptoms. Assist veterinarians in examining animals to determine the nature of illnesses or injuries. Observe animals for signs of illness, injury, or unusual behavior, notifying veterinarians or managers as warranted.",
+      "task": "Prepare surgical equipment and pass instruments or materials to veterinarians during surgical procedures, and hold or restrain animals during procedures.",
       "task_type": "Core"
     },
     {
-      "task": "Perform routine laboratory tests or diagnostic tests, such as taking or developing x-rays. Collect laboratory specimens, such as blood, urine, or feces, for testing. Examine animals to detect behavioral changes or clinical symptoms that could indicate illness or injury. Prepare and maintain time or payroll reports, as well as details of personnel actions. Requisition necessary supplies, equipment, or services.",
+      "task": "Monitor animals recovering from surgery and notify veterinarians of any unusual changes or symptoms, and assist in examining animals to determine illnesses.",
       "task_type": "Core"
     },
     {
-      "task": "Clean and maintain kennels, animal holding areas, examination or operating rooms, or animal loading or unloading facilities to control the spread of disease. Place orders to restock inventory of hospital or laboratory supplies. Transport or arrange for transport of animals, equipment, food, animal feed, and other supplies to and from work sites. Train workers in proper operational procedures and functions and explain company policies.",
+      "task": "Clean, maintain, and sterilize instruments, equipment, and work areas to control the spread of disease.",
       "task_type": "Core"
     },
     {
-      "task": "Participate in continuing education to stay abreast of industry trends and developments.",
+      "task": "Administer medication, immunizations, or blood plasma to animals as prescribed, and provide emergency first aid to sick or injured animals.",
       "task_type": "Core"
     },
     {
-      "task": "Treat animal illnesses or injuries, following experience or instructions of veterinarians.",
+      "task": "Perform routine laboratory tests or diagnostic tests, such as taking or developing x-rays, and collect laboratory specimens for testing.",
       "task_type": "Core"
     },
     {
-      "task": "Assign tasks such as feeding and treatment of animals, and cleaning and maintenance of animal quarters.",
+      "task": "Examine animals to detect behavioral changes or clinical symptoms that indicate illness, injury, or unusual behavior, notifying veterinarians as necessary.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Transport or arrange for transport of animals, equipment, food, and other supplies to and from work sites, ensuring adequate restocking of inventory.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Treat animals' illnesses or injuries following veterinary instructions, and administer anesthetics during surgery under supervision.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Assign tasks such as feeding and treatment of animals and cleaning and maintenance of animal quarters.",
       "task_type": "Core"
     }
   ],
@@ -1800,23 +1736,55 @@
       "weight": 0.937012987012987
     },
     {
+      "name": "Dehorners",
+      "weight": 0.7075757575757575
+    },
+    {
+      "name": "Balling guns",
+      "weight": 0.6837662337662338
+    },
+    {
       "name": "Electronic animal scales",
       "weight": 0.6837662337662338
+    },
+    {
+      "name": "Hoof trimmers",
+      "weight": 0.5409090909090909
     },
     {
       "name": "Nebulizers",
       "weight": 0.5409090909090909
     },
     {
+      "name": "Pin brushes",
+      "weight": 0.5
+    },
+    {
+      "name": "Slicker brushes",
+      "weight": 0.5
+    },
+    {
       "name": "Animal vaccination syringes",
       "weight": 0.4575757575757576
+    },
+    {
+      "name": "Cattle chutes",
+      "weight": 0.45
     },
     {
       "name": "Tablet computers",
       "weight": 0.45
     },
     {
+      "name": "Animal nail clippers",
+      "weight": 0.39285714285714285
+    },
+    {
       "name": "Benchtop centrifuges",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Bite gloves",
       "weight": 0.39285714285714285
     },
     {
@@ -1828,11 +1796,31 @@
       "weight": 0.39285714285714285
     },
     {
+      "name": "Electric animal clippers",
+      "weight": 0.39285714285714285
+    },
+    {
       "name": "Evacuated blood collection tubes",
       "weight": 0.39285714285714285
     },
     {
       "name": "Handheld refractometers",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Intravenous IV administration sets",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Lead aprons",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Lead gloves",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Mechanical stethoscopes",
       "weight": 0.39285714285714285
     },
     {
@@ -1844,11 +1832,23 @@
       "weight": 0.39285714285714285
     },
     {
+      "name": "Muzzles",
+      "weight": 0.39285714285714285
+    },
+    {
       "name": "Optical compound microscopes",
       "weight": 0.39285714285714285
     },
     {
       "name": "Specimen collection containers",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Stationary veterinary x ray equipment",
+      "weight": 0.39285714285714285
+    },
+    {
+      "name": "Steam autoclaves",
       "weight": 0.39285714285714285
     },
     {
@@ -1865,6 +1865,18 @@
     },
     {
       "name": "Blood drawing syringes",
+      "weight": 0.2909090909090909
+    },
+    {
+      "name": "Castration equipment",
+      "weight": 0.2909090909090909
+    },
+    {
+      "name": "Dust and particulate respirators",
+      "weight": 0.2909090909090909
+    },
+    {
+      "name": "Nail trimmers",
       "weight": 0.2909090909090909
     },
     {
@@ -1888,7 +1900,15 @@
       "weight": 0.25
     },
     {
-      "name": "Aerosol nebulizers",
+      "name": "Adult stylets",
+      "weight": 0.25
+    },
+    {
+      "name": "Air purifying respirators",
+      "weight": 0.25
+    },
+    {
+      "name": "Airway suction units",
       "weight": 0.25
     },
     {
@@ -1900,11 +1920,91 @@
       "weight": 0.25
     },
     {
+      "name": "Animal capture nets",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal catching poles",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal clippers",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal crates",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal electrocardiograph ECG units",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal handling gloves",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal handling sleeves",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal harnesses",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal muzzles",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal nail files",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal nail grinders",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal nail trimmers",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal snares",
+      "weight": 0.25
+    },
+    {
+      "name": "Arterial line catheters",
+      "weight": 0.25
+    },
+    {
       "name": "Automated chemistry analyzers",
       "weight": 0.25
     },
     {
+      "name": "Automated diluters",
+      "weight": 0.25
+    },
+    {
+      "name": "Battery-powered portable suction units",
+      "weight": 0.25
+    },
+    {
+      "name": "Benchtop electronic toploading balances",
+      "weight": 0.25
+    },
+    {
       "name": "Binocular light compound microscopes",
+      "weight": 0.25
+    },
+    {
+      "name": "Bite sleeves",
+      "weight": 0.25
+    },
+    {
+      "name": "Bite suits",
+      "weight": 0.25
+    },
+    {
+      "name": "Bite tugs",
       "weight": 0.25
     },
     {
@@ -1920,11 +2020,67 @@
       "weight": 0.25
     },
     {
-      "name": "Coagulation analyzers",
+      "name": "Cordless animal trimmers",
       "weight": 0.25
     },
     {
-      "name": "Computed tomography CT scanners",
+      "name": "Dental explorers",
+      "weight": 0.25
+    },
+    {
+      "name": "Dental handpieces",
+      "weight": 0.25
+    },
+    {
+      "name": "Dental probes or explorers",
+      "weight": 0.25
+    },
+    {
+      "name": "Differential blood cell counters",
+      "weight": 0.25
+    },
+    {
+      "name": "Dog muzzles",
+      "weight": 0.25
+    },
+    {
+      "name": "Electrocardiography EKG units",
+      "weight": 0.25
+    },
+    {
+      "name": "Electronic blood cell counters",
+      "weight": 0.25
+    },
+    {
+      "name": "Electrosurgery units",
+      "weight": 0.25
+    },
+    {
+      "name": "Endotracheal ET tubes",
+      "weight": 0.25
+    },
+    {
+      "name": "Equine training harnesses",
+      "weight": 0.25
+    },
+    {
+      "name": "Gas sterilizers",
+      "weight": 0.25
+    },
+    {
+      "name": "General hardness GH test kits",
+      "weight": 0.25
+    },
+    {
+      "name": "Glucometers",
+      "weight": 0.25
+    },
+    {
+      "name": "Grooming combs",
+      "weight": 0.25
+    },
+    {
+      "name": "Grooming rakes",
       "weight": 0.25
     },
     {
@@ -1936,6 +2092,10 @@
       "weight": 0.25
     },
     {
+      "name": "Hoof picks",
+      "weight": 0.25
+    },
+    {
       "name": "Hypodermic needles",
       "weight": 0.25
     },
@@ -1944,11 +2104,167 @@
       "weight": 0.25
     },
     {
+      "name": "Intravenous IV cannulas",
+      "weight": 0.25
+    },
+    {
+      "name": "Intravenous IV pressure infusers",
+      "weight": 0.25
+    },
+    {
+      "name": "Intravenous IV pumps",
+      "weight": 0.25
+    },
+    {
+      "name": "Laboratory mechanical convection incubators",
+      "weight": 0.25
+    },
+    {
+      "name": "Laboratory scales",
+      "weight": 0.25
+    },
+    {
+      "name": "Laryngoscopes",
+      "weight": 0.25
+    },
+    {
+      "name": "Lead thyroid collars",
+      "weight": 0.25
+    },
+    {
+      "name": "Limb restraints",
+      "weight": 0.25
+    },
+    {
+      "name": "Long arm boards",
+      "weight": 0.25
+    },
+    {
+      "name": "Long leashes",
+      "weight": 0.25
+    },
+    {
+      "name": "Multiple dose syringes",
+      "weight": 0.25
+    },
+    {
+      "name": "Nitrate test kits",
+      "weight": 0.25
+    },
+    {
+      "name": "Nitrite test kits",
+      "weight": 0.25
+    },
+    {
+      "name": "Nose tongs",
+      "weight": 0.25
+    },
+    {
       "name": "Notebook computers",
       "weight": 0.25
     },
     {
-      "name": "Portable veterinary x ray equipment",
+      "name": "Obstetrical OB kits",
+      "weight": 0.25
+    },
+    {
+      "name": "One-way valve pocket masks",
+      "weight": 0.25
+    },
+    {
+      "name": "Ophthalmic tonometers",
+      "weight": 0.25
+    },
+    {
+      "name": "Ophthalmoscopes",
+      "weight": 0.25
+    },
+    {
+      "name": "Osmometers",
+      "weight": 0.25
+    },
+    {
+      "name": "Otoscopes",
+      "weight": 0.25
+    },
+    {
+      "name": "Oxygen administration equipment",
+      "weight": 0.25
+    },
+    {
+      "name": "Oxygen nasal cannulae",
+      "weight": 0.25
+    },
+    {
+      "name": "Periodontal curettes",
+      "weight": 0.25
+    },
+    {
+      "name": "Pet bathing brushes",
+      "weight": 0.25
+    },
+    {
+      "name": "Preload syringes",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective face shields",
+      "weight": 0.25
+    },
+    {
+      "name": "Pulse oximeters",
+      "weight": 0.25
+    },
+    {
+      "name": "Resuscitation devices",
+      "weight": 0.25
+    },
+    {
+      "name": "Rigid splints",
+      "weight": 0.25
+    },
+    {
+      "name": "Rope halters",
+      "weight": 0.25
+    },
+    {
+      "name": "Saline locks",
+      "weight": 0.25
+    },
+    {
+      "name": "Scalp vein needles",
+      "weight": 0.25
+    },
+    {
+      "name": "Semiautomated or automatic external defibrillators AED",
+      "weight": 0.25
+    },
+    {
+      "name": "Shedding blades",
+      "weight": 0.25
+    },
+    {
+      "name": "Short arm boards",
+      "weight": 0.25
+    },
+    {
+      "name": "Slings",
+      "weight": 0.25
+    },
+    {
+      "name": "Splints",
+      "weight": 0.25
+    },
+    {
+      "name": "Squeeze cages",
+      "weight": 0.25
+    },
+    {
+      "name": "Straight adult blades",
+      "weight": 0.25
+    },
+    {
+      "name": "Stretchers",
       "weight": 0.25
     },
     {
@@ -1968,11 +2284,7 @@
       "weight": 0.25
     },
     {
-      "name": "Ultrasonic instrument cleaners",
-      "weight": 0.25
-    },
-    {
-      "name": "Vacuum autoclaves",
+      "name": "Urinary catheters",
       "weight": 0.25
     },
     {
@@ -2012,7 +2324,43 @@
       "weight": 0.25
     },
     {
+      "name": "pH test kits",
+      "weight": 0.25
+    },
+    {
+      "name": "pH testers",
+      "weight": 0.25
+    },
+    {
+      "name": "Animal hair clippers",
+      "weight": 0.2
+    },
+    {
+      "name": "Animal hair trimmers",
+      "weight": 0.2
+    },
+    {
+      "name": "Insecticide sprayers",
+      "weight": 0.2
+    },
+    {
       "name": "Insemination syringes",
+      "weight": 0.2
+    },
+    {
+      "name": "Marine first aid equipment",
+      "weight": 0.2
+    },
+    {
+      "name": "Milking equipment sterilizers",
+      "weight": 0.2
+    },
+    {
+      "name": "Tranquilizer guns",
+      "weight": 0.2
+    },
+    {
+      "name": "Vacutainers",
       "weight": 0.2
     },
     {
@@ -2032,15 +2380,7 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Artificial vaginas",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "DNA typing kits",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Densimeters",
       "weight": 0.16666666666666666
     },
     {
@@ -2048,11 +2388,11 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Hormone testing kits",
+      "name": "Handheld computers",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Horse breeding chutes",
+      "name": "Hormone testing kits",
       "weight": 0.16666666666666666
     },
     {
@@ -2065,18 +2405,6 @@
     },
     {
       "name": "Laboratory dropping pipettes",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Laboratory water baths",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Lethal injection equipment",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Liquid nitrogen storage tank",
       "weight": 0.16666666666666666
     },
     {
@@ -2152,10 +2480,6 @@
       "weight": 0.14285714285714285
     },
     {
-      "name": "Pill counters",
-      "weight": 0.14285714285714285
-    },
-    {
       "name": "Urine analysis equipment",
       "weight": 0.14285714285714285
     },
@@ -2188,11 +2512,7 @@
       "weight": 0.09090909090909091
     },
     {
-      "name": "Handheld spray guns",
-      "weight": 0.09090909090909091
-    },
-    {
-      "name": "Milking equipment",
+      "name": "Laboratory test tubes",
       "weight": 0.09090909090909091
     },
     {

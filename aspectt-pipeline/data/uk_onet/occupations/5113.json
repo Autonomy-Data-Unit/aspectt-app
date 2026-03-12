@@ -1544,67 +1544,71 @@
   ],
   "tasks": [
     {
-      "task": "Mow or edge lawns and operate vehicles or powered equipment such as mowers, tractors, snow blowers, chainsaws, and hedge trimmers.",
+      "task": "Mow or edge lawns, using power mowers or edgers, and care for established lawns by mulching, aerating, weeding, or trimming around flower beds.",
       "task_type": "Core"
     },
     {
-      "task": "Supervise others engaged in tree trimming work, provide training to lower-level employees, and monitor project activities to ensure adherence to instructions and deadlines.",
+      "task": "Supervise and train workers engaged in tree trimming and landscaping activities, ensuring tasks are completed according to specifications and safety standards.",
       "task_type": "Core"
     },
     {
-      "task": "Climb trees using climbing hooks and belts or ladders to access work areas and perform tasks such as cutting away dead branches or pruning trees and shrubs to improve their appearance and health.",
+      "task": "Climb trees using climbing hooks, belts, or ladders to access work areas and cut away dead and excess branches using various tools.",
       "task_type": "Core"
     },
     {
-      "task": "Clean, sharpen, and lubricate tools and equipment, as well as perform maintenance and repairs on power tools and motorized equipment.",
+      "task": "Perform regular maintenance on tools and equipment by cleaning, sharpening, lubricating, and repairing them as necessary.",
       "task_type": "Core"
     },
     {
-      "task": "Inspect trees to determine the presence of diseases or pests and cable, brace, or tie trees and branches for support.",
+      "task": "Inspect trees to identify diseases or pests and recommend appropriate treatments or corrective work as needed.",
       "task_type": "Core"
     },
     {
-      "task": "Collect, load, and remove debris and refuse from tree trimming operations and clear sites, streets, and grounds of woody materials.",
+      "task": "Collect and remove debris and refuse from tree trimming operations, loading it onto trucks for disposal.",
       "task_type": "Core"
     },
     {
-      "task": "Provide information to the public regarding tree care, plant selection or care, and answer inquiries from customers regarding methods, materials, or price ranges.",
+      "task": "Cable, brace, tie, or stake trees and branches to provide support and improve growth or stability.",
       "task_type": "Core"
     },
     {
-      "task": "Plant, transplant, or remove trees and shrubs, and prepare beds for vegetation by digging, raking, and applying mulch or fertilizers as necessary.",
+      "task": "Plant seeds, bulbs, trees, or shrubs according to landscaping designs, and prepare soil by mixing fertilizers, herbicides, or insecticides.",
       "task_type": "Core"
     },
     {
-      "task": "Operate shredding, chipping, and other machinery to handle waste materials and prepare soil, including mixing chemicals and water for application.",
+      "task": "Water lawns, trees, and plants using sprinkler systems or hoses, and maintain irrigation systems year-round.",
       "task_type": "Core"
     },
     {
-      "task": "Train workers in tasks such as caring for turf or performing landscaping activities, and confer with managers to develop maintenance plans or estimates.",
+      "task": "Prepare service estimates based on labor, material, and machine costs, and answer inquiries from customers regarding landscaping services.",
       "task_type": "Core"
     },
     {
-      "task": "Monitor equipment to detect malfunctions and perform necessary adjustments, repairs, or maintenance.",
+      "task": "Plan, develop budgets for tree work, and confer with other supervisors to coordinate landscaping activities within different departments.",
       "task_type": "Core"
     },
     {
-      "task": "Establish and enforce operating procedures and work standards to ensure adequate performance and safety.",
+      "task": "Follow planned landscaping designs to determine where to lay sod, sow grass, or plant flowers, ensuring aesthetic outcomes.",
       "task_type": "Core"
     },
     {
-      "task": "Participate in the inspection, grading, harvesting, and post-harvest treatment of crops, and maintain records of work activity and project personnel.",
+      "task": "Direct activities of workers engaged in landscaping and maintain required records for projects, including work activity and staffing reports.",
       "task_type": "Core"
     },
     {
-      "task": "Schedule work for teams based on priorities, staff availability, and weather conditions.",
+      "task": "Investigate work-related complaints regarding landscaping and equipment performance, making necessary adjustments or changes.",
       "task_type": "Core"
     },
     {
-      "task": "Decorate gardens or landscaped areas according to design specifications, applying methods such as planting, trimming, or fertilizing.",
+      "task": "Decorate gardens with plants or stones, and remove unwanted materials from landscaped areas or grounds.",
       "task_type": "Core"
     },
     {
-      "task": "While providing care for vegetation, adjust irrigation methods, and maintain irrigation systems to ensure proper water usage.",
+      "task": "Monitor project activities to ensure adherence to timelines and operational procedures while training workers on horticultural tasks.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Maintain and repair walking paths, patios, or other outdoor structures as part of routine landscaping services.",
       "task_type": "Core"
     }
   ],
@@ -1644,6 +1648,10 @@
     {
       "name": "Work order software",
       "weight": 0.14285714285714285
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.43452380952380953
     }
   ],
   "tools_used": [
@@ -1666,10 +1674,6 @@
     {
       "name": "Measuring tapes",
       "weight": 0.6666666666666666
-    },
-    {
-      "name": "Adjustable widemouth pliers",
-      "weight": 0.5595238095238095
     },
     {
       "name": "Leaf rakes",
@@ -1708,10 +1712,6 @@
       "weight": 0.41666666666666663
     },
     {
-      "name": "Hacksaws",
-      "weight": 0.41666666666666663
-    },
-    {
       "name": "Hedge shears",
       "weight": 0.41666666666666663
     },
@@ -1720,27 +1720,11 @@
       "weight": 0.41666666666666663
     },
     {
-      "name": "Knife sharpeners",
-      "weight": 0.41666666666666663
-    },
-    {
       "name": "Pole pruners",
       "weight": 0.41666666666666663
     },
     {
-      "name": "Power drills",
-      "weight": 0.41666666666666663
-    },
-    {
-      "name": "Power saws",
-      "weight": 0.41666666666666663
-    },
-    {
       "name": "Pruning knives",
-      "weight": 0.41666666666666663
-    },
-    {
-      "name": "Rubber mallets",
       "weight": 0.41666666666666663
     },
     {
@@ -1796,35 +1780,11 @@
       "weight": 0.375
     },
     {
-      "name": "Land levelers",
-      "weight": 0.375
-    },
-    {
-      "name": "Land planes",
-      "weight": 0.375
-    },
-    {
       "name": "Utility vehicles",
       "weight": 0.375
     },
     {
-      "name": "Adjustable hand wrenches",
-      "weight": 0.30952380952380953
-    },
-    {
-      "name": "Claw hammers",
-      "weight": 0.30952380952380953
-    },
-    {
-      "name": "Desktop computers",
-      "weight": 0.30952380952380953
-    },
-    {
       "name": "Garden spades",
-      "weight": 0.30952380952380953
-    },
-    {
-      "name": "Grease guns",
       "weight": 0.30952380952380953
     },
     {
@@ -1832,19 +1792,7 @@
       "weight": 0.30952380952380953
     },
     {
-      "name": "Phillips head screwdrivers",
-      "weight": 0.30952380952380953
-    },
-    {
       "name": "Pressure washers",
-      "weight": 0.30952380952380953
-    },
-    {
-      "name": "Socket wrench sets",
-      "weight": 0.30952380952380953
-    },
-    {
-      "name": "Straight screwdrivers",
       "weight": 0.30952380952380953
     },
     {
@@ -1864,16 +1812,16 @@
       "weight": 0.29166666666666663
     },
     {
+      "name": "Farm tractors",
+      "weight": 0.26785714285714285
+    },
+    {
       "name": "Skid steer loaders",
       "weight": 0.26785714285714285
     },
     {
       "name": "Wheel loaders",
       "weight": 0.26785714285714285
-    },
-    {
-      "name": "Adjustable wrenches",
-      "weight": 0.25
     },
     {
       "name": "Aerial lift trucks",
@@ -1892,10 +1840,6 @@
       "weight": 0.25
     },
     {
-      "name": "Boom trucks",
-      "weight": 0.25
-    },
-    {
       "name": "Brush chippers",
       "weight": 0.25
     },
@@ -1905,10 +1849,6 @@
     },
     {
       "name": "Brush trucks",
-      "weight": 0.25
-    },
-    {
-      "name": "Bucket loaders",
       "weight": 0.25
     },
     {
@@ -1928,15 +1868,7 @@
       "weight": 0.25
     },
     {
-      "name": "Cordless power saws",
-      "weight": 0.25
-    },
-    {
       "name": "Cultivators",
-      "weight": 0.25
-    },
-    {
-      "name": "Dirt shovels",
       "weight": 0.25
     },
     {
@@ -1956,11 +1888,11 @@
       "weight": 0.25
     },
     {
-      "name": "Ground picks",
+      "name": "Gas hedge trimmers",
       "weight": 0.25
     },
     {
-      "name": "Hammers",
+      "name": "Ground picks",
       "weight": 0.25
     },
     {
@@ -1969,10 +1901,6 @@
     },
     {
       "name": "Hand spreaders",
-      "weight": 0.25
-    },
-    {
-      "name": "Handheld power drills",
       "weight": 0.25
     },
     {
@@ -2016,7 +1944,27 @@
       "weight": 0.25
     },
     {
+      "name": "Mist sprayers",
+      "weight": 0.25
+    },
+    {
+      "name": "Mulching forks",
+      "weight": 0.25
+    },
+    {
       "name": "Power pruners",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective ear muffs",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective masks",
+      "weight": 0.25
+    },
+    {
+      "name": "Protective safety glasses",
       "weight": 0.25
     },
     {
@@ -2025,6 +1973,14 @@
     },
     {
       "name": "Root pruners",
+      "weight": 0.25
+    },
+    {
+      "name": "Safety gloves",
+      "weight": 0.25
+    },
+    {
+      "name": "Scuffle hoes",
       "weight": 0.25
     },
     {
@@ -2048,10 +2004,6 @@
       "weight": 0.25
     },
     {
-      "name": "Tree climbing spikes",
-      "weight": 0.25
-    },
-    {
       "name": "Tree pruning saws",
       "weight": 0.25
     },
@@ -2060,7 +2012,15 @@
       "weight": 0.25
     },
     {
-      "name": "Tripod ladders",
+      "name": "Truck-mounted lifts",
+      "weight": 0.25
+    },
+    {
+      "name": "Wood chippers",
+      "weight": 0.25
+    },
+    {
+      "name": "Work gloves",
       "weight": 0.25
     },
     {
@@ -2080,7 +2040,15 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Budding knives",
+      "name": "Bulb planters",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Chain saw sharpeners",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Drip emitters",
       "weight": 0.16666666666666666
     },
     {
@@ -2092,11 +2060,23 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Field watering systems",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Fruit pruners",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Garden bow rakes",
       "weight": 0.16666666666666666
     },
     {
       "name": "Garden cultivators",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Garden hand seeders",
       "weight": 0.16666666666666666
     },
     {
@@ -2108,15 +2088,15 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Hand held sprayers",
+      "name": "Grafting knives",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Hand drills",
       "weight": 0.16666666666666666
     },
     {
       "name": "Hatchets",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Hay rakes",
       "weight": 0.16666666666666666
     },
     {
@@ -2128,27 +2108,15 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Laptop computers",
-      "weight": 0.16666666666666666
-    },
-    {
       "name": "Long arm pruners",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Measuring rules",
+      "name": "Mulch spreaders",
       "weight": 0.16666666666666666
     },
     {
-      "name": "Mole grips",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Paint application brushes",
-      "weight": 0.16666666666666666
-    },
-    {
-      "name": "Paint application sprayers",
+      "name": "Multipurpose tractors",
       "weight": 0.16666666666666666
     },
     {
@@ -2160,11 +2128,35 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Power blowers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Power hedge trimmers",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Pruning shears",
       "weight": 0.16666666666666666
     },
     {
+      "name": "Pruning sticks",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Reel mowers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Root pruning scissors",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rotary mowers",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Rotary spreaders",
       "weight": 0.16666666666666666
     },
     {
@@ -2176,7 +2168,15 @@
       "weight": 0.16666666666666666
     },
     {
+      "name": "Soil cultivators",
+      "weight": 0.16666666666666666
+    },
+    {
       "name": "Square point shovels",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Step ladders",
       "weight": 0.16666666666666666
     },
     {
@@ -2188,11 +2188,19 @@
       "weight": 0.16666666666666666
     },
     {
-      "name": "Chainsaws",
-      "weight": 0.14285714285714285
+      "name": "Tree calipers",
+      "weight": 0.16666666666666666
     },
     {
-      "name": "Cordless drills",
+      "name": "Tree planting bars",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Utility knives",
+      "weight": 0.16666666666666666
+    },
+    {
+      "name": "Chainsaws",
       "weight": 0.14285714285714285
     },
     {
@@ -2217,6 +2225,14 @@
     },
     {
       "name": "Lawn sprinklers",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Pitchforks",
+      "weight": 0.14285714285714285
+    },
+    {
+      "name": "Rototillers",
       "weight": 0.14285714285714285
     },
     {

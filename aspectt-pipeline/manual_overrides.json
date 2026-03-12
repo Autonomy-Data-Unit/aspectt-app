@@ -1,0 +1,26 @@
+{
+  "overrides": [
+    {
+      "uk_soc_2020": 5311,
+      "action": "remove_tasks_containing",
+      "pattern": "hydraulic analysis|water supply systems|environmental impact|transportation planning"
+    },
+    {
+      "uk_soc_2020": 5311,
+      "action": "remove_tech_skills",
+      "names": ["AutoCAD Civil 3D", "HydroCAD", "HEC-RAS", "StormCAD", "Bentley InRoads", "EPA Storm Water Management Model SWMM"]
+    },
+    {
+      "uk_soc_2020": 1161,
+      "action": "set_flag",
+      "flag": "insufficient_source_data",
+      "reason": "US O*NET military codes (55-xxxx) contain no data"
+    },
+    {
+      "uk_soc_2020": 9222,
+      "action": "set_flag",
+      "flag": "insufficient_source_data",
+      "reason": "Single source is 'All Other' residual O*NET code with no data"
+    }
+  ]
+}

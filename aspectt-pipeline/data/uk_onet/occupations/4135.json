@@ -1544,71 +1544,87 @@
   ],
   "tasks": [
     {
-      "task": "Classify and catalog items according to content and purpose; prepare, store, and retrieve classification and catalog information related to stored documents, using computers.",
+      "task": "Classify and catalog items according to content and purpose.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Register new patrons and issue borrower identification cards that permit patrons to borrow library materials.",
       "task_type": "Core"
     },
     {
-      "task": "Register new patrons, issue borrower identification cards, and enter and update patrons' records on computers.",
+      "task": "Locate library materials for patrons, including books, periodicals, and other items.",
       "task_type": "Core"
     },
     {
-      "task": "Locate library materials for patrons, including books, periodicals, and other media; answer routine inquiries and provide assistance to help patrons find and use library resources, such as reference materials, audio-visual equipment, and computers.",
+      "task": "Instruct patrons on how to use reference sources, card catalogs, and automated information systems.",
       "task_type": "Core"
     },
     {
-      "task": "Instruct patrons on how to use reference sources, card catalogs, and automated information systems; assist in preparing library statistics reports and maintaining records relating to circulation, materials, and equipment.",
+      "task": "Inspect returned books for condition and due-date status; compute any applicable fines.",
       "task_type": "Core"
     },
     {
-      "task": "Inspect returned books for condition and due-date status, compute any applicable fines, and collect fines; send out notices for lost or overdue books.",
+      "task": "Answer routine inquiries and refer patrons needing professional assistance to librarians.",
       "task_type": "Core"
     },
     {
-      "task": "Sort and shelve books, publications, and other items according to established procedures; process new materials for inclusion in library collections and check for damaged library materials, providing repairs or replacements as needed.",
+      "task": "Maintain records of items received, stored, issued, and returned, and file catalog cards accordingly.",
       "task_type": "Core"
     },
     {
-      "task": "Provide assistance to librarians in the maintenance of collections and in preparing book displays; schedule, supervise, and train clerical workers and volunteers in library tasks.",
+      "task": "Provide assistance in the maintenance of collections of books, periodicals, and audio-visual materials.",
       "task_type": "Core"
     },
     {
-      "task": "Deliver and retrieve items throughout the library by hand or using pushcarts; lend, reserve, and collect books and other materials at circulation desks; manage reserve materials and process interlibrary loans.",
+      "task": "Take action to deal with disruptive or problem patrons.",
       "task_type": "Core"
     },
     {
-      "task": "Maintain and troubleshoot library equipment, including computers and audio-visual equipment, and instruct patrons in proper use of such equipment.",
+      "task": "Send out notices and accept fine payments for lost or overdue library materials.",
       "task_type": "Core"
     },
     {
-      "task": "Prepare artifacts for storage and shipping, and provide assistance in the preparation and installation of displays and exhibits, ensuring artifacts' safety and reporting their status and condition.",
+      "task": "Enter and update patrons' records on computers and file information related to circulation processes.",
       "task_type": "Core"
     },
     {
-      "task": "Assist patrons and staff by locating materials, providing technical assistance, and answering questions related to library resources.",
+      "task": "Prepare, store, and retrieve classification and catalog information using computers.",
       "task_type": "Core"
     },
     {
-      "task": "Help organize and maintain periodicals and reference materials, and perform clerical activities such as sorting mail, answering phones, and filing.",
+      "task": "Conduct reference searches using printed materials and online databases.",
       "task_type": "Core"
     },
     {
-      "task": "Process and verify orders for materials requested, checking prices, figures, and preparing order slips as necessary.",
+      "task": "Help patrons find and use library resources, and provide technical assistance as needed.",
       "task_type": "Core"
     },
     {
-      "task": "Compile records and data to prepare reports related to library usage and activities, including cataloging and statistical tracking.",
+      "task": "Reserve, circulate, renew, and discharge books and other materials at circulation desks.",
       "task_type": "Core"
     },
     {
-      "task": "Repair damaged books and other media using appropriate techniques or prepare books to be sent to a bindery for repair.",
+      "task": "Repair and restore damaged library materials and replace when necessary.",
       "task_type": "Core"
     },
     {
-      "task": "Conduct reference searches, utilizing both physical and online resources, to assist patrons in their inquiries.",
+      "task": "Sort books, publications, and other items according to procedure and shelve them appropriately.",
       "task_type": "Core"
     },
     {
-      "task": "Manage complaints and issues from patrons, including disruptive behavior, and take necessary actions to ensure a productive library environment.",
+      "task": "Deliver and retrieve items throughout the library by hand or using pushcarts.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Compile data and create statistical reports on library usage, including library statistics reports.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Install, arrange, assemble, and prepare artifacts for exhibition, ensuring their safety.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Maintain and troubleshoot problems with library equipment and instruct patrons on its use.",
       "task_type": "Core"
     }
   ],
@@ -1764,6 +1780,14 @@
       "weight": 1.0
     },
     {
+      "name": "Laser printers",
+      "weight": 1.0
+    },
+    {
+      "name": "Multi function printers",
+      "weight": 1.0
+    },
+    {
       "name": "Personal computers",
       "weight": 0.6927521008403361
     },
@@ -1772,16 +1796,20 @@
       "weight": 0.5588235294117647
     },
     {
-      "name": "Vacuum cleaners",
-      "weight": 0.25
-    },
-    {
-      "name": "Video cassette recorders VCR",
-      "weight": 0.25
-    },
-    {
       "name": "Copy machines",
       "weight": 0.13392857142857142
+    },
+    {
+      "name": "Multiline telephone systems",
+      "weight": 0.13392857142857142
+    },
+    {
+      "name": "Computer laser printers",
+      "weight": 0.0625
+    },
+    {
+      "name": "Color inkjet printers",
+      "weight": 0.058823529411764705
     },
     {
       "name": "Tablet computers",

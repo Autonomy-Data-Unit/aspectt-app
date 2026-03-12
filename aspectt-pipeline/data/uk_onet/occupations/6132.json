@@ -1544,60 +1544,84 @@
   ],
   "tasks": [
     {
-      "task": "Administer first aid treatment or life support care to sick or injured persons in prehospital settings, including administering drugs orally or by injection, or performing intravenous procedures. Perform emergency diagnostic and treatment procedures during ambulance rides, and comfort and reassure patients. Assess the nature and extent of illness or injury to establish and prioritize medical procedures, and observe, record, and report to the physician the patient's condition, treatment provided, and reactions to drugs or treatment. Manage vehicle and ensure equipment is operational, performing minor maintenance, maintaining medical and communication equipment, and replenishing first aid supplies.",
+      "task": "Administer first aid treatment or life support care to sick or injured persons in prehospital settings, and perform emergency diagnostic and treatment procedures during ambulance rides.",
+      "task_type": "Unclassified"
+    },
+    {
+      "task": "Assess nature and extent of illness or injury to establish and prioritize medical procedures and observe, record, and report to physician the patient's condition or treatment provided.",
+      "task_type": "Unclassified"
+    },
+    {
+      "task": "Administer drugs, orally or by injection, and perform emergency pharmacological interventions and emergency invasive interventions before delivering patients to an acute care facility.",
+      "task_type": "Unclassified"
+    },
+    {
+      "task": "Coordinate work with other emergency medical team members, police, or fire department personnel, and communicate with dispatchers or treatment center personnel to arrange further treatment.",
+      "task_type": "Unclassified"
+    },
+    {
+      "task": "Comfort and reassure patients to alleviate anxiety during medical emergencies and while transporting them to medical facilities.",
+      "task_type": "Unclassified"
+    },
+    {
+      "task": "Attend training classes to maintain certification, keep abreast of new developments, and maintain knowledge of first-aid procedures.",
+      "task_type": "Unclassified"
+    },
+    {
+      "task": "Drive ambulances or assist ambulance drivers in transporting sick, injured, or convalescent persons to specified locations.",
       "task_type": "Core"
     },
     {
-      "task": "Operate vehicles or equipment to transport materials to and from transportation vehicles and loading docks, and prepare and maintain work records of information such as employee time and wages, daily receipts, or inspection results. Drive vehicles or operate machines or equipment to complete work assignments, and maintain or verify records of time, materials, expenditures, or crew activities.",
+      "task": "Perform routine vehicle maintenance, such as regulating tire pressure and adding gasoline, oil, and water, and report any vehicle malfunctions or needed repairs.",
       "task_type": "Core"
     },
     {
-      "task": "Conduct staff meetings to relay information, explain work tasks to new workers, and assign training activities. Supervise and coordinate the activities of workers or volunteers and resolve worker problems or collaborate with employees to assist in problem resolution.",
+      "task": "Maintain vehicles and medical and communication equipment, and replenish first aid equipment and supplies to ensure readiness for emergencies.",
       "task_type": "Core"
     },
     {
-      "task": "Monitor field work to ensure proper performance and compliance with safety rules and regulations, enforce safety measures, and interpret transportation regulations or company policies. Review orders, production schedules, or shipping notices to determine work sequences and material needs.",
+      "task": "Restraining or shackling violent patients as necessary to ensure safety during transport or treatment.",
       "task_type": "Core"
     },
     {
-      "task": "Record operating data such as products and quantities handled, conduct inspections of materials or equipment to ensure they are safe and in proper working condition, and recommend and implement personnel actions such as evaluations or disciplinary measures.",
+      "task": "Prepare and maintain work records and reports of information such as employee time and wages, daily receipts, or inspection results.",
       "task_type": "Core"
     },
     {
-      "task": "Sort recyclable materials into appropriate containers and collect recyclable materials for transport\uff0c ensuring compliance with community ordinances. Maintain equipment storage areas and oversee the cleaning and inspection of materials and equipment.",
+      "task": "Drive vehicles or operate machines or equipment to complete work assignments or to assist workers.",
       "task_type": "Core"
     },
     {
-      "task": "Prepare to load or unload materials by verifying load numbers and ensuring correct placement based on written or verbal instructions, and operate loading and unloading equipment to move freight or other materials to and from storage.",
+      "task": "Dispatch personnel and vehicles in response to telephone or radio reports of emergencies.",
       "task_type": "Core"
     },
     {
-      "task": "Dispatch personnel and vehicles in response to reports of emergencies and prepare reports on work activities, operations, or work-related accidents.",
+      "task": "Sort materials, such as metals, glass, wood, paper, or plastics, into appropriate containers for recycling.",
       "task_type": "Core"
     },
     {
-      "task": "Sort and manage the cleaning or recycling of materials, such as metals or hazardous waste, according to compliance standards. Also investigate and resolve violations of solid waste or recycling ordinances.",
+      "task": "Inspect or test materials, stock, vehicles, equipment, or facilities to ensure that they are safe, free of defects, and consistent with specifications.",
       "task_type": "Core"
     },
     {
-      "task": "Clean recycling yards or equipment, and perform routine maintenance or repairs on collection equipment as necessary.",
+      "task": "Enforce safety rules and regulations.",
       "task_type": "Core"
     },
     {
-      "task": "Assist workers in tasks such as loading and unloading materials as needed.",
-      "task_type": "nan"
+      "task": "Monitor field work to ensure proper performance and use of materials.",
+      "task_type": "Core"
     },
     {
-      "task": "Manage and coordinate routes or schedules for recycling collection or shipments, and collaborate with other personnel to optimize service and efficiency.",
-      "task_type": "nan"
+      "task": "Record logs of recycled materials or waste chemicals removed from products.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Collect materials, sort different types, and deposit recoverable materials or waste chemicals into designated areas.",
-      "task_type": "nan"
+      "task": "Operate forklifts, pallet jacks, power lifts, or front-end loaders to load bales, bundles, or other heavy items onto trucks for shipping.",
+      "task_type": "Core"
     },
     {
-      "task": "Monitor product movement and conduct evaluations to ensure constant product flow while collaborating with other workers.",
-      "task_type": "nan"
+      "task": "Check conditions and weights of vessels to ensure cleanliness and compliance with loading procedures.",
+      "task_type": "Core"
     }
   ],
   "technology_skills": [
@@ -1808,6 +1832,14 @@
       "weight": 1.0
     },
     {
+      "name": "Blood tubes",
+      "weight": 1.0
+    },
+    {
+      "name": "Bulb syringes",
+      "weight": 1.0
+    },
+    {
       "name": "Catheters",
       "weight": 1.0
     },
@@ -1893,6 +1925,10 @@
     },
     {
       "name": "Infusion sets",
+      "weight": 1.0
+    },
+    {
+      "name": "Interlink syringe cannulas",
       "weight": 1.0
     },
     {
@@ -2004,6 +2040,10 @@
       "weight": 1.0
     },
     {
+      "name": "Preload syringes",
+      "weight": 1.0
+    },
+    {
       "name": "Restraint belts",
       "weight": 1.0
     },
@@ -2017,6 +2057,10 @@
     },
     {
       "name": "Scalp vein needles",
+      "weight": 1.0
+    },
+    {
+      "name": "Scalpels",
       "weight": 1.0
     },
     {
@@ -2072,7 +2116,19 @@
       "weight": 1.0
     },
     {
+      "name": "Triage tags",
+      "weight": 1.0
+    },
+    {
       "name": "Valve mask resuscitators",
+      "weight": 1.0
+    },
+    {
+      "name": "Venoject needles",
+      "weight": 1.0
+    },
+    {
+      "name": "Vial access cannulas",
       "weight": 1.0
     },
     {
@@ -2086,10 +2142,6 @@
     {
       "name": "Tablet computers",
       "weight": 0.2928321678321678
-    },
-    {
-      "name": "Smartphones",
-      "weight": 0.2159090909090909
     },
     {
       "name": "Gurneys",
@@ -2136,8 +2188,24 @@
       "weight": 0.09090909090909091
     },
     {
+      "name": "Portable fire extinguishers",
+      "weight": 0.09090909090909091
+    },
+    {
       "name": "Wheelchair restraint systems",
       "weight": 0.09090909090909091
+    },
+    {
+      "name": "Protective respirators",
+      "weight": 0.07692307692307693
+    },
+    {
+      "name": "Safety glasses",
+      "weight": 0.047619047619047616
+    },
+    {
+      "name": "Work vans",
+      "weight": 0.047619047619047616
     }
   ],
   "detailed_work_activities": [

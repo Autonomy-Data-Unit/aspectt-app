@@ -1544,35 +1544,39 @@
   ],
   "tasks": [
     {
-      "task": "Collect cash payments from customers, provide change or charge purchases to customers' credit cards, and issue receipts, refunds, credits, or change due to customers. Exchange money, credit, tickets, or casino chips and ensure accurate records of monetary exchanges and transaction reconciliations. Count money and audit cash drawers at the beginning of shifts.",
+      "task": "Collect cash payments from customers, make change, and charge purchases to customers' credit cards, providing receipts.",
       "task_type": "Core"
     },
     {
-      "task": "Help customers by providing information, resolving their complaints, and directing them to the location of products. Answer customers' questions and provide information on procedures or policies. Greet customers entering establishments and assist with duties in other areas, such as monitoring fitting rooms or bagging customers' items.",
+      "task": "Maintain clean and orderly checkout areas, complete general cleaning duties, and monitor checkout stations for adequate cash availability.",
       "task_type": "Core"
     },
     {
-      "task": "Maintain clean and orderly checkout areas, complete general cleaning duties, and monitor checkout stations to ensure they have adequate cash available and are staffed appropriately. Keep accurate records and compile and maintain non-monetary reports and records related to transactions.",
+      "task": "Help customers find products, answer questions, and provide information on procedures or policies.",
       "task_type": "Core"
     },
     {
-      "task": "Establish or identify prices of goods, services, or admission, and tabulate bills using calculators, cash registers, or optical price scanners. Order stock, price items, stock shelves, and sort and reshelve returned items. Process merchandise returns and exchanges.",
+      "task": "Issue receipts, refunds, credits, or change due to customers and process merchandise returns and exchanges.",
       "task_type": "Core"
     },
     {
-      "task": "Count money, verify transactions, and calculate the total payments received during a time period. Reconcile daily summaries of transactions to balance books and compute totals of transactions.",
+      "task": "Greet customers entering establishments and assist with customer complaints and information requests.",
       "task_type": "Core"
     },
     {
-      "task": "Supervise others and provide on-the-job training when necessary. Monitor field work to ensure proper performance and use of materials, and resolve worker problems when they arise.",
-      "task_type": "Core"
+      "task": "Stock shelves, sort and reshelve returned items, and mark prices on items and shelves.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Maintain cage security according to rules and regulations. Clean casino areas and check identifications to verify the age of players.",
-      "task_type": "Core"
+      "task": "Calculate total payments received and reconcile these amounts with total sales during a time period.",
+      "task_type": "Supplemental"
     },
     {
-      "task": "Listen for jackpot alarm bells and issue payoffs to winners. Obtain customers' signatures on receipts when winnings exceed the amount held in a slot machine and furnish change persons with money at the start of each shift.",
+      "task": "Monitor worker performance and provide on-the-job training to ensure compliance with procedures.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Keep accurate records of monetary exchanges and reconcile daily summaries of transactions.",
       "task_type": "Core"
     }
   ],
@@ -1584,6 +1588,26 @@
     {
       "name": "Barcode software",
       "weight": 0.024390243902439025
+    },
+    {
+      "name": "Microsoft Excel",
+      "weight": 1.5395417590539542
+    },
+    {
+      "name": "Microsoft Outlook",
+      "weight": 1.0395417590539542
+    },
+    {
+      "name": "Web browser software",
+      "weight": 1.0395417590539542
+    },
+    {
+      "name": "Microsoft Word",
+      "weight": 0.2895417590539542
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.03954175905395418
     }
   ],
   "tools_used": [

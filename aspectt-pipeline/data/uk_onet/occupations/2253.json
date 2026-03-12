@@ -1544,71 +1544,87 @@
   ],
   "tasks": [
     {
-      "task": "Administer anesthetics, both general and local, to limit the amount of pain experienced by patients during procedures. This includes using masks, gloves, and safety glasses to protect both patients and staff from infectious diseases.",
+      "task": "Administer anesthetics to limit pain experienced by patients during procedures.",
       "task_type": "Core"
     },
     {
-      "task": "Measure and take impressions of patients' jaws and teeth to determine the shape and size of dental prostheses, and fit dental appliances in patients' mouths to alter the position and relationship of teeth and jaws to realign teeth.",
+      "task": "Measure and take impressions of patients' jaws and teeth to determine the shape and size of dental prostheses.",
       "task_type": "Core"
     },
     {
-      "task": "Repair, reline, or rebase dentures and replace missing teeth with permanent fixtures or removable appliances.",
+      "task": "Repair, reline, or rebase dentures and replace missing teeth with fixtures like implant-supported prostheses or dentures.",
       "task_type": "Core"
     },
     {
-      "task": "Restore function and aesthetics to traumatic injury survivors or individuals with diseases or congenital disabilities, and provide cosmetic treatments such as placing veneers or bleaching discolored teeth.",
+      "task": "Restore function and aesthetics for traumatic injury survivors or those with congenital disabilities or diseases.",
       "task_type": "Core"
     },
     {
-      "task": "Treat facial pain and jaw joint problems, and perform surgery on the mouth and jaws to resolve conditions such as cleft lip and palate, or to remove impacted and damaged teeth.",
+      "task": "Use bonding technology on teeth surfaces to change their shape or close gaps, and place veneers to conceal defects.",
       "task_type": "Core"
     },
     {
-      "task": "Collaborate with other professionals to plan treatment and advise patients on plans, preventive care, and the causes and treatment of dental problems.",
+      "task": "Evaluate wisdom teeth positions to identify current or potential problems and treat facial pain or jaw joint issues.",
       "task_type": "Core"
     },
     {
-      "task": "Perform surgery to prepare the mouth for dental implants, treat infections of the oral cavity, and address other conditions, including removal of tumors and abnormal growths.",
+      "task": "Collaborate with other professionals, such as restorative dentists and orthodontists, to plan treatments.",
       "task_type": "Core"
     },
     {
-      "task": "Evaluate the position of the wisdom teeth and diagnose diseases, injuries, or malformations of teeth and gums while examining patients using diagnostic equipment.",
+      "task": "Perform surgery to prepare the mouth for dental implants and treat conditions like cleft lip or palate.",
       "task_type": "Core"
     },
     {
-      "task": "Analyze or evaluate dental needs to determine changes or trends in patterns of dental disease, and study diagnostic records to develop treatment plans.",
+      "task": "Treat infections of the oral cavity and perform oral surgery for conditions affecting mouth and jaws.",
       "task_type": "Core"
     },
     {
-      "task": "Fill pulp chambers and canals with endodontic materials, treat problems affecting the oral mucosa, and provide emergency treatment for facial injuries.",
+      "task": "Restore form and function by reconstructing jaws and face using tissues from other body parts.",
       "task_type": "Core"
     },
     {
-      "task": "Design and fabricate dental prostheses or supervise dental technicians who construct these devices, including creating and fitting prosthodontic appliances such as bridges or dentures.",
+      "task": "Design and fabricate dental prostheses and appliances to alter positions of teeth and jaws or supervise their construction.",
       "task_type": "Core"
     },
     {
-      "task": "Provide patients with proposed treatment plans and cost estimates while managing business aspects of the practice, including employing staff and handling paperwork.",
+      "task": "Examine teeth, gums, and other tissues to evaluate dental health and diagnose diseases or abnormalities.",
       "task_type": "Core"
     },
     {
-      "task": "Instruct dental officers and technical assistants in orthodontic procedures and coordinate orthodontic services with other dental and medical services.",
+      "task": "Advise and instruct patients on preventive dental care and the causes and treatment of dental problems.",
       "task_type": "Core"
     },
     {
-      "task": "Perform minor cosmetic procedures and facial rejuvenation techniques as supplemental services, such as laser surgeries.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Plan and maintain dental health programs and produce or evaluate educational materials about dental health.",
+      "task": "Perform endodontic treatments, such as filling pulp chambers and treating pulp exposure with dental instruments.",
       "task_type": "Core"
     },
     {
-      "task": "Adjust dental appliances as necessary to produce and maintain normal function in patients, ensuring proper fitting and modifications are made.",
+      "task": "Eliminate irritating margins of fillings and correct occlusions using dental instruments and perform oral surgery on the jaw.",
       "task_type": "Core"
     },
     {
-      "task": "Provide fluoride treatments or sealants, clean or polish teeth to restore their natural color, and eliminate irritating margins of fillings or correct occlusions.",
+      "task": "Apply fluoride or sealants to teeth and bleach, clean, or polish teeth to restore their natural color.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Produce or evaluate dental health educational materials and plan dental health programs.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Prepare and maintain diagnostic treatment records and formulate treatment plans for patients.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Instruct and coordinate orthodontic procedures and services with other dental and medical professionals.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Study diagnostic records, including medical histories and X-rays, to develop patient treatment plans.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Analyze dental needs to identify trends in dental disease patterns and adjust treatment methods accordingly.",
       "task_type": "Core"
     }
   ],
@@ -2348,15 +2364,7 @@
       "weight": 0.5
     },
     {
-      "name": "Cold sterilizers",
-      "weight": 0.5
-    },
-    {
       "name": "College tweezers",
-      "weight": 0.5
-    },
-    {
-      "name": "Compass microsaws",
       "weight": 0.5
     },
     {
@@ -2437,10 +2445,6 @@
     },
     {
       "name": "Curved osteostomes",
-      "weight": 0.5
-    },
-    {
-      "name": "Daylight loader film processing systems",
       "weight": 0.5
     },
     {
@@ -2744,10 +2748,6 @@
       "weight": 0.5
     },
     {
-      "name": "Electrocardiography EKG monitors",
-      "weight": 0.5
-    },
-    {
       "name": "Electrosurgical units",
       "weight": 0.5
     },
@@ -2920,15 +2920,19 @@
       "weight": 0.5
     },
     {
-      "name": "Intravenous IV equipment",
-      "weight": 0.5
-    },
-    {
       "name": "Irrigating syringes",
       "weight": 0.5
     },
     {
       "name": "Jarabak pliers",
+      "weight": 0.5
+    },
+    {
+      "name": "Laser scanners",
+      "weight": 0.5
+    },
+    {
+      "name": "Left syndesmotomes",
       "weight": 0.5
     },
     {
@@ -2961,10 +2965,6 @@
     },
     {
       "name": "Luxating elevators",
-      "weight": 0.5
-    },
-    {
-      "name": "Manual film processing systems",
       "weight": 0.5
     },
     {
@@ -3160,10 +3160,6 @@
       "weight": 0.5
     },
     {
-      "name": "Pointing devices",
-      "weight": 0.5
-    },
-    {
       "name": "Porcelain crown pliers",
       "weight": 0.5
     },
@@ -3332,10 +3328,6 @@
       "weight": 0.5
     },
     {
-      "name": "Sphygmomanometers",
-      "weight": 0.5
-    },
-    {
       "name": "Spoon excavators",
       "weight": 0.5
     },
@@ -3425,18 +3417,6 @@
     },
     {
       "name": "Surgical scissors",
-      "weight": 0.5
-    },
-    {
-      "name": "Tablet computers",
-      "weight": 0.5
-    },
-    {
-      "name": "Thyroid collars",
-      "weight": 0.5
-    },
-    {
-      "name": "Thyroid shields",
       "weight": 0.5
     },
     {

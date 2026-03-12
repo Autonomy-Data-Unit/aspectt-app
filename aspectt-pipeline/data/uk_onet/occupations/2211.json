@@ -1544,7 +1544,7 @@
   ],
   "tasks": [
     {
-      "task": "Prescribe or administer medication, therapy, treatment, vaccination, and other specialized medical care to treat or prevent illness, disease, or injury. Refer patients to medical specialists or other practitioners when necessary.",
+      "task": "Prescribe or administer medication, therapy, and other specialized medical care to treat or prevent illness, disease, or injury.",
       "task_type": "Core"
     },
     {
@@ -1552,7 +1552,19 @@
       "task_type": "Core"
     },
     {
-      "task": "Advise patients, parents or guardians, and community members concerning diet, activity, hygiene, and disease prevention.",
+      "task": "Advise surgeon of a patient's risk status and recommend appropriate intervention to minimize risk.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Immunize patients to protect them from preventable diseases.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Refer patients to medical specialists or other practitioners when necessary.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Advise patients and community members concerning diet, activity, hygiene, and disease prevention.",
       "task_type": "Core"
     },
     {
@@ -1560,15 +1572,7 @@
       "task_type": "Core"
     },
     {
-      "task": "Make diagnoses for patients experiencing multiple illnesses or when the diagnosis is unclear, and analyze records, reports, test results, or examination information to diagnose medical conditions.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Monitor patients' conditions and progress, reevaluating treatments as necessary.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Manage and treat common health problems, serious, chronic, and complex illnesses in adolescents, adults, and the elderly, including providing long-term, comprehensive medical care.",
+      "task": "Make diagnoses when different illnesses occur together or in situations where the diagnosis may be obscure.",
       "task_type": "Core"
     },
     {
@@ -1576,184 +1580,152 @@
       "task_type": "Core"
     },
     {
-      "task": "Provide consulting services to other physicians and healthcare professionals regarding patient care and treatment.",
+      "task": "Monitor patients' conditions, progress, and reevaluate treatments as necessary.",
       "task_type": "Core"
     },
     {
-      "task": "Participate in continuing education activities and quality improvement initiatives to maintain knowledge and skills.",
+      "task": "Manage and treat common health problems and serious, chronic, or complex illnesses in all age groups.",
       "task_type": "Core"
     },
     {
-      "task": "Provide information about potential health hazards and interventions to the public and professionals to improve community health.",
+      "task": "Provide long-term, comprehensive medical care, including diagnosis and nonsurgical treatment of diseases for adult patients.",
       "task_type": "Core"
     },
     {
-      "task": "Evaluate and manage chronic pain conditions, and develop treatment plans for patients, including addressing behavioral causes of diseases.",
+      "task": "Analyze records, reports, and test results to diagnose medical conditions.",
       "task_type": "Core"
     },
     {
-      "task": "Administer anesthetics and analgesics for pain management prior to, during, or after surgery, and recognize or treat complications during procedures.",
+      "task": "Treat internal disorders such as hypertension, heart disease, diabetes, and lung or brain problems.",
       "task_type": "Core"
     },
     {
-      "task": "Coordinate work with other healthcare providers to ensure comprehensive patient care and implement health programs for prevention or treatment of injuries and illnesses.",
+      "task": "Train residents, medical students, and other healthcare professionals.",
       "task_type": "Core"
     },
     {
-      "task": "Supervise or coordinate the work of healthcare staff to ensure effective patient care delivery.",
+      "task": "Provide consulting services to other doctors and medical professionals regarding patient care.",
       "task_type": "Core"
     },
     {
-      "task": "Provide education and counseling on illness and injury prevention to patients and community members.",
+      "task": "Participate in continuing education activities to maintain and develop expertise in medical practice.",
       "task_type": "Core"
     },
     {
-      "task": "Operate on patients to remove, repair, or improve the functioning of diseased or injured body parts and systems. This includes performing surgeries for specific medical conditions.",
+      "task": "Analyze patient's medical history, medication allergies, physical condition, and examination results to verify operation's necessity and determine the best procedure.",
+      "task_type": "Unclassified"
+    },
+    {
+      "task": "Monitor patient's recovery, make follow-up visits, and use postoperative assessment techniques, such as blood and imaging tests.",
+      "task_type": "Unclassified"
+    },
+    {
+      "task": "Direct and coordinate activities of nurses, assistants, specialists, residents, and other medical staff in patient care.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Examine and diagnose diseases relating to the skin, hair, and nails, and provide appropriate treatment plans.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Describe preoperative and postoperative treatments and procedures to patients' parents or guardians.",
+      "task_type": "Unclassified"
+    },
+    {
+      "task": "Administer anesthetic or sedation during medical procedures, using local, intravenous, spinal, or caudal methods.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Conduct primary patient assessments, including obtaining medical history and using diagnostic tests.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Perform emergency resuscitations and stabilize patients in critical condition.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Refer patient to medical specialist or other practitioner when necessary and consult with other healthcare professionals.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Prepare and submit case reports or summaries to government or health agencies and document patients' medical histories.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Perform autopsies to determine causes of deaths.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Conduct research and present scientific findings.",
       "task_type": "Supplemental"
     },
     {
-      "task": "Conduct research to develop or test medications, treatments, or procedures to prevent or control diseases or injuries, including conducting epidemiological investigations.",
+      "task": "Educate physicians, students, and other personnel in medical laboratory professions.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Develop or adopt new tests or instruments to improve diagnosis of diseases.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Read current literature and participate in professional organizations to stay updated in pathology.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Manage medical laboratories and review cases by analyzing autopsies and laboratory findings.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Testify in depositions or trials as an expert witness.",
       "task_type": "Supplemental"
     },
     {
-      "task": "Develop and prescribe exercise programs and coordinate sports care activities with athletes and coaching staff.",
+      "task": "Diagnose or treat injuries, disorders, or diseases of the eye and eye structures, and perform ophthalmic surgeries.",
       "task_type": "Core"
     },
     {
-      "task": "Document or review comprehensive patient histories with attention to occupational or environmental risks.",
+      "task": "Perform comprehensive examinations of the visual system to assess ocular disorders and determine treatment plans.",
       "task_type": "Core"
     },
     {
-      "task": "Analyze patients' medical history, physical conditions, and examination results to verify the necessity of operations and determine the best procedures. Consult with other healthcare professionals to create treatment plans and recommendations for surgical procedures.",
+      "task": "Prescribe medications or treatment regimens to manage ophthalmic conditions.",
       "task_type": "Core"
     },
     {
-      "task": "Refer patients to medical specialists or other practitioners when necessary and provide consultation and surgical assistance to physicians and surgeons.",
+      "task": "Document examination results, treatment plans, and patients' outcomes.",
       "task_type": "Core"
     },
     {
-      "task": "Prepare and maintain case histories and patient records, including medical histories and examination results.",
+      "task": "Assess characteristics of patients' pain using standardized clinical measures and monitor effectiveness of pain management interventions.",
       "task_type": "Core"
     },
     {
-      "task": "Monitor patients' recovery, making follow-up visits and using postoperative assessment techniques including blood and imaging tests. Monitor patients' conditions, reevaluate treatments as necessary, and provide inpatient or outpatient medical management of various conditions.",
+      "task": "Develop comprehensive rehabilitation plans, including therapeutic exercise, counseling, and community reintegration.",
       "task_type": "Core"
     },
     {
-      "task": "Perform surgical procedures, including transplantation operations, and operate on patients to correct deformities, repair injuries, prevent and treat diseases, and provide medical and dermatological surgeries as needed. Follow established surgical techniques during operations and preserve patients' health during surgical and obstetrical procedures.",
+      "task": "Perform, order, or interpret diagnostic or clinical tests to aid in the diagnosis and treatment of diseases.",
       "task_type": "Core"
     },
     {
-      "task": "Provide anesthetic or sedation during medical procedures and manage anesthesiological services, including coordinating them with other medical activities. Position patients for maximum comfort and accessibility during surgery and monitor them before, during, and after anesthesia.",
+      "task": "Consult with other health care practitioners regarding tests or treatments and communicate findings to patients.",
       "task_type": "Core"
     },
     {
-      "task": "Discuss surgical procedures, risks, and treatment results with patients and inform parents or guardians of health issues and surgical procedures through various communication channels. Explain procedures and discuss test results or prescribed treatments with patients.",
+      "task": "Diagnose, treat, or provide continuous care to hospital inpatients and perform discharge planning.",
       "task_type": "Core"
     },
     {
-      "task": "Educate patients on management of their health and preventive measures while providing routine check-ups and assessing pain levels or treatment requirements.",
+      "task": "Coordinate care with multidisciplinary teams of health professionals to ensure optimal patient management.",
       "task_type": "Core"
     },
     {
-      "task": "Direct and coordinate the activities of medical staff, including nurses, specialists, and residents, to ensure quality patient care.",
+      "task": "Inform patients and families of diagnoses, treatment options, and prognosis, discussing benefits, risks, and costs.",
       "task_type": "Core"
     },
     {
-      "task": "Conduct physical examinations and diagnostic tests on patients to provide information on their medical condition. Use records, reports, and examination data to diagnose medical conditions, including those related to the skin, hair, and nails, as well as cardiovascular health.",
+      "task": "Participate in quality improvement projects or safety programs in the medical field.",
       "task_type": "Core"
-    },
-    {
-      "task": "Perform necessary tests or procedures, such as laboratory tests and imaging, to diagnose conditions and decide on treatment plans for patients.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Conduct research on medical techniques or patient management strategies to improve procedures and outcomes in patient care or treatment of diseases.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Train or supervise medical students, residents, or other health professionals on relevant skills and knowledge in practice.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Engage in self-directed learning and participate in continuing education activities to enhance knowledge and skills in medical practices.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Perform autopsies to determine causes of deaths and review cases by analyzing autopsies, laboratory findings, or case investigation reports.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Conduct research and present scientific findings; participate in neuroscience research activities; conduct clinical or laboratory-based research in ophthalmology; and develop or implement plans and procedures for ophthalmologic services.",
-      "task_type": "Supplemental"
-    },
-    {
-      "task": "Educate physicians, students, and other personnel in medical laboratory professions, and provide training to medical students or staff members.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Develop or adopt new tests or instruments to improve diagnosis of diseases; read current literature, talk with colleagues, or participate in professional organizations or conferences to keep abreast of developments in pathology; and monitor effectiveness of pain management interventions.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Diagnose or treat injuries, disorders, or diseases of the eye and eye structures, including performing comprehensive examinations of the visual system to determine the nature or extent of ocular disorders, prescribing ophthalmologic treatments, performing ophthalmic surgeries, and documenting examination results, treatment plans, and patients' outcomes.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Perform, order, or interpret the results of diagnostic or clinical tests, including those related to the ocular system, and analyze and interpret results from tests such as microbial or parasite tests, urine analyses, hormonal assays, and other diagnostic procedures.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Consult or coordinate with other rehabilitative professionals, including physical and occupational therapists, rehabilitation nurses, speech pathologists, neuropsychologists, behavioral psychologists, social workers, or medical technicians, and collaborate with multidisciplinary teams of health professionals to provide optimal patient care.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Prescribe physical therapy to relax the muscles and improve strength, develop comprehensive plans for immediate and long-term rehabilitation including therapeutic exercise, and assess characteristics of patients' pain and document them accordingly.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Examine patients to assess mobility, strength, communication, or cognition, and monitor effectiveness of pain management interventions, such as medication or spinal injections.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Admit patients for hospital stays, diagnose, treat or provide continuous care to hospital inpatients, and conduct discharge planning and discharge patients.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Communicate pathologic findings to surgeons or other physicians and coordinate neurological services with other health care team activities.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Prescribe medications or treatment regimens to hospital inpatients, and prescribe or administer medications, such as anti-epileptic drugs, determining the risks and benefits.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Refer patients to other health care practitioners as necessary, and identify and treat major neurological system diseases and disorders, such as central nervous system infection, cranio spinal trauma, dementia, and stroke.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Inform patients or families of neurological diagnoses and prognoses, or benefits, risks, and costs of various treatment plans and develop treatment plans based on diagnoses and on evaluation of factors, such as age and general health, or procedural risks and costs.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Document or evaluate patients' medical histories; communicate with other health care professionals regarding patients' conditions and care; and interview patients to obtain information about complaints, symptoms, medical histories, and family histories.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Diagnose diseases or study medical conditions, using techniques such as gross pathology, histology, cytology, clinical chemistry, immunology, and molecular biology, also involving examining microscopic samples to identify diseases or other abnormalities.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Analyze and interpret the results from tests to make informed decisions about patient care, including laboratory analyses of patients' blood or cerebrospinal fluid.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Participate in continuing education activities to maintain and expand competence, and engage in quality improvement projects or safety programs.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Testify in depositions or trials as an expert witness, and participate in professional organizations or conferences to keep abreast of developments in practice.",
-      "task_type": "Supplemental"
     }
   ],
   "technology_skills": [
@@ -2984,15 +2956,7 @@
       "weight": 0.4
     },
     {
-      "name": "Hudson drills",
-      "weight": 0.4
-    },
-    {
       "name": "Hysterectomy forceps",
-      "weight": 0.4
-    },
-    {
-      "name": "IMA retractors",
       "weight": 0.4
     },
     {
@@ -3004,47 +2968,7 @@
       "weight": 0.4
     },
     {
-      "name": "Intestinal forceps",
-      "weight": 0.4
-    },
-    {
-      "name": "Iontophoresis equipment",
-      "weight": 0.4
-    },
-    {
-      "name": "Irrigation tubing",
-      "weight": 0.4
-    },
-    {
-      "name": "Knee braces",
-      "weight": 0.4
-    },
-    {
-      "name": "Laparascopic graspers",
-      "weight": 0.4
-    },
-    {
       "name": "Laryngeal mask airways LMA",
-      "weight": 0.4
-    },
-    {
-      "name": "Laser dopplers",
-      "weight": 0.4
-    },
-    {
-      "name": "Lip retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Locking forceps",
-      "weight": 0.4
-    },
-    {
-      "name": "Lung retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Magill forceps",
       "weight": 0.4
     },
     {
@@ -3052,79 +2976,7 @@
       "weight": 0.4
     },
     {
-      "name": "Multipurpose electrotherapy units",
-      "weight": 0.4
-    },
-    {
-      "name": "Nasal forceps",
-      "weight": 0.4
-    },
-    {
       "name": "Neodymium-doped yttrium aluminum garnet Nd:YAG lasers",
-      "weight": 0.4
-    },
-    {
-      "name": "Nerve retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Occluding forceps",
-      "weight": 0.4
-    },
-    {
-      "name": "Operating room smoke evacuators",
-      "weight": 0.4
-    },
-    {
-      "name": "Ophthalmic retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Optical forceps",
-      "weight": 0.4
-    },
-    {
-      "name": "Optical urethrotomes",
-      "weight": 0.4
-    },
-    {
-      "name": "Oral retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Orthopedic forceps",
-      "weight": 0.4
-    },
-    {
-      "name": "Orthopedic retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Padgett dermatomes",
-      "weight": 0.4
-    },
-    {
-      "name": "Peak flow meters",
-      "weight": 0.4
-    },
-    {
-      "name": "Periosteotomes",
-      "weight": 0.4
-    },
-    {
-      "name": "Peripheral nerve stimulators",
-      "weight": 0.4
-    },
-    {
-      "name": "Phototherapy units",
-      "weight": 0.4
-    },
-    {
-      "name": "Plastic surgery retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Portable surgical microscopes",
       "weight": 0.4
     },
     {
@@ -3132,31 +2984,7 @@
       "weight": 0.4
     },
     {
-      "name": "Protective eye shields",
-      "weight": 0.4
-    },
-    {
-      "name": "Pylorus clamps",
-      "weight": 0.4
-    },
-    {
       "name": "Radiosurgical gamma knives",
-      "weight": 0.4
-    },
-    {
-      "name": "Rectal retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Rib spreaders",
-      "weight": 0.4
-    },
-    {
-      "name": "Rigid rake retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Rigid ureteroscopes",
       "weight": 0.4
     },
     {
@@ -3164,215 +2992,7 @@
       "weight": 0.4
     },
     {
-      "name": "Sequential compression devices",
-      "weight": 0.4
-    },
-    {
-      "name": "Shea drills",
-      "weight": 0.4
-    },
-    {
-      "name": "Skeeter drills",
-      "weight": 0.4
-    },
-    {
-      "name": "Skin retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Skin staplers",
-      "weight": 0.4
-    },
-    {
-      "name": "Spring clips",
-      "weight": 0.4
-    },
-    {
       "name": "Sterile drapes",
-      "weight": 0.4
-    },
-    {
-      "name": "Sternal retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Sternal saws",
-      "weight": 0.4
-    },
-    {
-      "name": "Stone extractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Strabismus scissors",
-      "weight": 0.4
-    },
-    {
-      "name": "Subclavian lines",
-      "weight": 0.4
-    },
-    {
-      "name": "Suction tips",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical aspirators",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical calipers",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical clamps",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical curettes",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical dilators",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical fiberoptic retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical forceps",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical hand drivers",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical hand saws",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical irrigation sets",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical mallets",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical masks",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical nerve stimulators",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical nippers",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical power drills",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical power saws",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical rasps or files",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical rulers",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical speculas",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical suture needles",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical taps",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical tourniquets",
-      "weight": 0.4
-    },
-    {
-      "name": "Surgical trocars",
-      "weight": 0.4
-    },
-    {
-      "name": "Tactile probes",
-      "weight": 0.4
-    },
-    {
-      "name": "Therapeutic diathermy machines",
-      "weight": 0.4
-    },
-    {
-      "name": "Therapeutic treadmills",
-      "weight": 0.4
-    },
-    {
-      "name": "Thoracic forceps",
-      "weight": 0.4
-    },
-    {
-      "name": "Thoracic retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Thoracic scissors",
-      "weight": 0.4
-    },
-    {
-      "name": "Thyroid forceps",
-      "weight": 0.4
-    },
-    {
-      "name": "Tissue retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Tonsil scissors",
-      "weight": 0.4
-    },
-    {
-      "name": "Tracheal retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Transcutaneous electric nerve stimulation TENS equipment",
-      "weight": 0.4
-    },
-    {
-      "name": "Tumor forceps",
-      "weight": 0.4
-    },
-    {
-      "name": "Urology retractors",
-      "weight": 0.4
-    },
-    {
-      "name": "Vascular clamps",
-      "weight": 0.4
-    },
-    {
-      "name": "Vascular clips",
-      "weight": 0.4
-    },
-    {
-      "name": "Vascular occluders",
-      "weight": 0.4
-    },
-    {
-      "name": "Vein retractors",
       "weight": 0.4
     },
     {
@@ -3380,47 +3000,11 @@
       "weight": 0.4
     },
     {
-      "name": "Vitrector sets",
-      "weight": 0.4
-    },
-    {
-      "name": "Wells Johnson aspirators",
-      "weight": 0.4
-    },
-    {
       "name": "Wood's lamps",
       "weight": 0.4
     },
     {
-      "name": "Zimmer dermatomes",
-      "weight": 0.4
-    },
-    {
-      "name": "Adjustable crutches",
-      "weight": 0.2
-    },
-    {
-      "name": "Adson forceps",
-      "weight": 0.2
-    },
-    {
-      "name": "Agility ladders",
-      "weight": 0.2
-    },
-    {
-      "name": "Albuminometers",
-      "weight": 0.2
-    },
-    {
-      "name": "Allis forceps",
-      "weight": 0.2
-    },
-    {
       "name": "Anaerobic specimen transport systems",
-      "weight": 0.2
-    },
-    {
-      "name": "Analytical balances",
       "weight": 0.2
     },
     {
@@ -3432,59 +3016,7 @@
       "weight": 0.2
     },
     {
-      "name": "Aspheric lens magnifiers",
-      "weight": 0.2
-    },
-    {
-      "name": "Aspiration guns",
-      "weight": 0.2
-    },
-    {
-      "name": "Audio evoked potential testers",
-      "weight": 0.2
-    },
-    {
-      "name": "Audio stimulators",
-      "weight": 0.2
-    },
-    {
-      "name": "Auditory function screeners",
-      "weight": 0.2
-    },
-    {
       "name": "Automated defibrillators",
-      "weight": 0.2
-    },
-    {
-      "name": "Automated immunoassay analyzers",
-      "weight": 0.2
-    },
-    {
-      "name": "Automated pipettes",
-      "weight": 0.2
-    },
-    {
-      "name": "Automated slide stainers",
-      "weight": 0.2
-    },
-    {
-      "name": "Automatic blood pressure cuffs",
-      "weight": 0.2
-    },
-    {
-      "name": "Autorefractors",
-      "weight": 0.2
-    },
-    {
-      "name": "Ayre's spatula",
-      "weight": 0.2
-    },
-    {
-      "name": "Babcock forceps",
-      "weight": 0.2
-    },
-    {
-      "name": "Babinski hammers",
       "weight": 0.2
     },
     {
@@ -3492,243 +3024,11 @@
       "weight": 0.2
     },
     {
-      "name": "Balance trainers",
-      "weight": 0.2
-    },
-    {
-      "name": "Bandage scissors",
-      "weight": 0.2
-    },
-    {
-      "name": "Beta vial shields",
-      "weight": 0.2
-    },
-    {
-      "name": "Binocular indirect ophthalmoscopes",
-      "weight": 0.2
-    },
-    {
-      "name": "Binocular light compound microscopes",
-      "weight": 0.2
-    },
-    {
-      "name": "Biofeedback equipment",
-      "weight": 0.2
-    },
-    {
-      "name": "Biofeedback units",
-      "weight": 0.2
-    },
-    {
-      "name": "Biopsy containers",
-      "weight": 0.2
-    },
-    {
       "name": "Biopsy needles",
       "weight": 0.2
     },
     {
-      "name": "Bipolar electrosurgical forceps",
-      "weight": 0.2
-    },
-    {
       "name": "Bipolar forceps",
-      "weight": 0.2
-    },
-    {
-      "name": "Bladder scanners",
-      "weight": 0.2
-    },
-    {
-      "name": "Blood agar plates",
-      "weight": 0.2
-    },
-    {
-      "name": "Blood culture incubators",
-      "weight": 0.2
-    },
-    {
-      "name": "Blood gas analyzers",
-      "weight": 0.2
-    },
-    {
-      "name": "Blood glucometers",
-      "weight": 0.2
-    },
-    {
-      "name": "Blood irradiators",
-      "weight": 0.2
-    },
-    {
-      "name": "Body fat analyzers",
-      "weight": 0.2
-    },
-    {
-      "name": "Bone marrow puncture needles",
-      "weight": 0.2
-    },
-    {
-      "name": "Breathing protection equipment",
-      "weight": 0.2
-    },
-    {
-      "name": "Calibrated vaporizers",
-      "weight": 0.2
-    },
-    {
-      "name": "Calorimeters",
-      "weight": 0.2
-    },
-    {
-      "name": "Cannula sets",
-      "weight": 0.2
-    },
-    {
-      "name": "Capillary tubes",
-      "weight": 0.2
-    },
-    {
-      "name": "Capnograph monitors",
-      "weight": 0.2
-    },
-    {
-      "name": "Carbon dioxide monitors",
-      "weight": 0.2
-    },
-    {
-      "name": "Cardiorespiratory monitors",
-      "weight": 0.2
-    },
-    {
-      "name": "Cast boots",
-      "weight": 0.2
-    },
-    {
-      "name": "Catheter trays",
-      "weight": 0.2
-    },
-    {
-      "name": "Cauterizers",
-      "weight": 0.2
-    },
-    {
-      "name": "Cauterizing equipment",
-      "weight": 0.2
-    },
-    {
-      "name": "Central venous catheters",
-      "weight": 0.2
-    },
-    {
-      "name": "Centrifuges",
-      "weight": 0.2
-    },
-    {
-      "name": "Cerebral oximeters",
-      "weight": 0.2
-    },
-    {
-      "name": "Chair cycles",
-      "weight": 0.2
-    },
-    {
-      "name": "Chalazion clamps",
-      "weight": 0.2
-    },
-    {
-      "name": "Chemical protective face shields",
-      "weight": 0.2
-    },
-    {
-      "name": "Chemiluminescent immunoassay analyzers",
-      "weight": 0.2
-    },
-    {
-      "name": "Chemistry analyzers",
-      "weight": 0.2
-    },
-    {
-      "name": "Clinical chemical systems",
-      "weight": 0.2
-    },
-    {
-      "name": "Clinical magnetic resonance imaging MRI scanners",
-      "weight": 0.2
-    },
-    {
-      "name": "Clot tubes",
-      "weight": 0.2
-    },
-    {
-      "name": "Coagulation analyzers",
-      "weight": 0.2
-    },
-    {
-      "name": "Cold biopsy forceps",
-      "weight": 0.2
-    },
-    {
-      "name": "Computed tomography CT equipment",
-      "weight": 0.2
-    },
-    {
-      "name": "Computed tomography CT scanners",
-      "weight": 0.2
-    },
-    {
-      "name": "Computed tomography CT systems",
-      "weight": 0.2
-    },
-    {
-      "name": "Cone-beam collimators",
-      "weight": 0.2
-    },
-    {
-      "name": "Conjunctival sac scissors",
-      "weight": 0.2
-    },
-    {
-      "name": "Continuous wave Doppler ultrasounds",
-      "weight": 0.2
-    },
-    {
-      "name": "Converging collimators",
-      "weight": 0.2
-    },
-    {
-      "name": "Corneal scissors",
-      "weight": 0.2
-    },
-    {
-      "name": "Corneal topographers",
-      "weight": 0.2
-    },
-    {
-      "name": "Cricothyrotomy equipment",
-      "weight": 0.2
-    },
-    {
-      "name": "Cryo tweezers",
-      "weight": 0.2
-    },
-    {
-      "name": "Cryoguns",
-      "weight": 0.2
-    },
-    {
-      "name": "Curved needle holders",
-      "weight": 0.2
-    },
-    {
-      "name": "Cystoscopes or cystourethroscopes",
-      "weight": 0.2
-    },
-    {
-      "name": "Cytobrushes",
-      "weight": 0.2
-    },
-    {
-      "name": "Debakey forceps",
       "weight": 0.2
     },
     {
@@ -3740,39 +3040,7 @@
       "weight": 0.2
     },
     {
-      "name": "Diagnostic exophthalmometers",
-      "weight": 0.2
-    },
-    {
-      "name": "Diagnostic ophthalmoscope sets",
-      "weight": 0.2
-    },
-    {
-      "name": "Diagnostic penlights",
-      "weight": 0.2
-    },
-    {
-      "name": "Diagnostic tuning forks",
-      "weight": 0.2
-    },
-    {
-      "name": "Dictaphones",
-      "weight": 0.2
-    },
-    {
       "name": "Digital anesthesia machines",
-      "weight": 0.2
-    },
-    {
-      "name": "Digital audio recorders",
-      "weight": 0.2
-    },
-    {
-      "name": "Digital handheld thermometers",
-      "weight": 0.2
-    },
-    {
-      "name": "Digital photomicroscopes",
       "weight": 0.2
     },
     {
@@ -3793,6 +3061,14 @@
     },
     {
       "name": "Electrical suction pumps",
+      "weight": 0.2
+    },
+    {
+      "name": "Electroconvulsive therapy ECT units",
+      "weight": 0.2
+    },
+    {
+      "name": "Emergency eye wash stations",
       "weight": 0.2
     },
     {
@@ -3824,6 +3100,22 @@
       "weight": 0.2
     },
     {
+      "name": "Eye surgery lasers",
+      "weight": 0.2
+    },
+    {
+      "name": "Eyewash fountains",
+      "weight": 0.2
+    },
+    {
+      "name": "FNAC needles",
+      "weight": 0.2
+    },
+    {
+      "name": "Fallopian tube forceps",
+      "weight": 0.2
+    },
+    {
       "name": "Fetal ultrasound monitors",
       "weight": 0.2
     },
@@ -3833,6 +3125,10 @@
     },
     {
       "name": "Fine biopsy needles",
+      "weight": 0.2
+    },
+    {
+      "name": "Fixation forceps",
       "weight": 0.2
     },
     {
@@ -3848,11 +3144,15 @@
       "weight": 0.2
     },
     {
-      "name": "Gas anesthesia administration machines",
+      "name": "Fluoroscopes",
       "weight": 0.2
     },
     {
-      "name": "Gastrostomy feeding tubes",
+      "name": "Fluoroscopic imaging systems",
+      "weight": 0.2
+    },
+    {
+      "name": "Gas anesthesia administration machines",
       "weight": 0.2
     },
     {
@@ -3864,7 +3164,7 @@
       "weight": 0.2
     },
     {
-      "name": "Heart rate monitors",
+      "name": "Hearing test equipment",
       "weight": 0.2
     },
     {
@@ -3916,7 +3216,19 @@
       "weight": 0.2
     },
     {
+      "name": "Iris forceps",
+      "weight": 0.2
+    },
+    {
       "name": "Irrigation-extraction cannulas",
+      "weight": 0.2
+    },
+    {
+      "name": "Kelly clamps",
+      "weight": 0.2
+    },
+    {
+      "name": "Kocher forceps",
       "weight": 0.2
     },
     {
@@ -3936,11 +3248,11 @@
       "weight": 0.2
     },
     {
-      "name": "Manual blood pressure cuffs",
+      "name": "Mayo scissors",
       "weight": 0.2
     },
     {
-      "name": "Mayo scissors",
+      "name": "Mayo stands",
       "weight": 0.2
     },
     {
@@ -3952,7 +3264,23 @@
       "weight": 0.2
     },
     {
+      "name": "Medical picture archiving computer systems PACS",
+      "weight": 0.2
+    },
+    {
       "name": "Medical positron emission tomography PET scanners",
+      "weight": 0.2
+    },
+    {
+      "name": "Medical protective masks",
+      "weight": 0.2
+    },
+    {
+      "name": "Medical scissors",
+      "weight": 0.2
+    },
+    {
+      "name": "Medical staplers",
       "weight": 0.2
     },
     {
@@ -3968,15 +3296,87 @@
       "weight": 0.2
     },
     {
-      "name": "Musculoskeletal ultrasound equipment",
+      "name": "Ophthalmic digital imaging systems",
       "weight": 0.2
     },
     {
-      "name": "Nebulizers",
+      "name": "Ophthalmic needle holders",
       "weight": 0.2
     },
     {
-      "name": "Portable nebulizers",
+      "name": "Ophthalmic slit lamps",
+      "weight": 0.2
+    },
+    {
+      "name": "Ophthalmic surgery forceps",
+      "weight": 0.2
+    },
+    {
+      "name": "Ophthalmic surgery retractors",
+      "weight": 0.2
+    },
+    {
+      "name": "Ophthalmic surgical scalpels",
+      "weight": 0.2
+    },
+    {
+      "name": "Opthalmoscopes",
+      "weight": 0.2
+    },
+    {
+      "name": "Optical biopsy forceps",
+      "weight": 0.2
+    },
+    {
+      "name": "Oxygen cylinders",
+      "weight": 0.2
+    },
+    {
+      "name": "Oxygen delivery concentrators",
+      "weight": 0.2
+    },
+    {
+      "name": "Pressure infusers",
+      "weight": 0.2
+    },
+    {
+      "name": "Pretracheal stethoscopes",
+      "weight": 0.2
+    },
+    {
+      "name": "Prostate treatment lasers",
+      "weight": 0.2
+    },
+    {
+      "name": "Pulsed Doppler ultrasounds",
+      "weight": 0.2
+    },
+    {
+      "name": "Queen square hammers",
+      "weight": 0.2
+    },
+    {
+      "name": "Radiation measurement phantoms",
+      "weight": 0.2
+    },
+    {
+      "name": "Radiation shielding gloves",
+      "weight": 0.2
+    },
+    {
+      "name": "Radio frequency generators",
+      "weight": 0.2
+    },
+    {
+      "name": "Renal endoscopes",
+      "weight": 0.2
+    },
+    {
+      "name": "Retinometers",
+      "weight": 0.2
+    },
+    {
+      "name": "Richardson retractors",
       "weight": 0.2
     },
     {
@@ -3984,7 +3384,91 @@
       "weight": 0.2
     },
     {
+      "name": "Safety glasses",
+      "weight": 0.2
+    },
+    {
+      "name": "Safety goggles",
+      "weight": 0.2
+    },
+    {
+      "name": "Scanning laser ophthalmoscopes",
+      "weight": 0.2
+    },
+    {
+      "name": "Scintillation probes",
+      "weight": 0.2
+    },
+    {
+      "name": "Semen analyzers",
+      "weight": 0.2
+    },
+    {
       "name": "Semiautomated or automatic external defibrillators AED",
+      "weight": 0.2
+    },
+    {
+      "name": "Serrated hemostats",
+      "weight": 0.2
+    },
+    {
+      "name": "Serrefine clamps",
+      "weight": 0.2
+    },
+    {
+      "name": "Single position emission computed tomography/computed tomography SPECT/CT imaging equipment",
+      "weight": 0.2
+    },
+    {
+      "name": "Single-photon emission computed tomography SPECT cameras",
+      "weight": 0.2
+    },
+    {
+      "name": "Skin hooks",
+      "weight": 0.2
+    },
+    {
+      "name": "Slant-hole collimators",
+      "weight": 0.2
+    },
+    {
+      "name": "Smartphones",
+      "weight": 0.2
+    },
+    {
+      "name": "Sonic therapy units",
+      "weight": 0.2
+    },
+    {
+      "name": "Specimen collection containers",
+      "weight": 0.2
+    },
+    {
+      "name": "Sputum traps",
+      "weight": 0.2
+    },
+    {
+      "name": "Sterile screw-cap cups",
+      "weight": 0.2
+    },
+    {
+      "name": "Sterile screw-cap glass tubes",
+      "weight": 0.2
+    },
+    {
+      "name": "Sterile screw-cap plastic tubes",
+      "weight": 0.2
+    },
+    {
+      "name": "Stone grasping forceps",
+      "weight": 0.2
+    },
+    {
+      "name": "Straight needle holders",
+      "weight": 0.2
+    },
+    {
+      "name": "Stress treadmill machines",
       "weight": 0.2
     },
     {
@@ -4004,6 +3488,14 @@
       "weight": 0.2
     },
     {
+      "name": "Surgical probes",
+      "weight": 0.2
+    },
+    {
+      "name": "Surgical staple removers",
+      "weight": 0.2
+    },
+    {
       "name": "Suture passers",
       "weight": 0.2
     },
@@ -4012,7 +3504,43 @@
       "weight": 0.2
     },
     {
+      "name": "Swab transports",
+      "weight": 0.2
+    },
+    {
       "name": "Swan Ganz artery catheters",
+      "weight": 0.2
+    },
+    {
+      "name": "Therapeutic ultrasound equipment",
+      "weight": 0.2
+    },
+    {
+      "name": "Tongue depressors",
+      "weight": 0.2
+    },
+    {
+      "name": "Tourniquet cuffs",
+      "weight": 0.2
+    },
+    {
+      "name": "Tracheostomy sets",
+      "weight": 0.2
+    },
+    {
+      "name": "Trephine biopsy needles",
+      "weight": 0.2
+    },
+    {
+      "name": "Trocars",
+      "weight": 0.2
+    },
+    {
+      "name": "Ultrasonic aspirators",
+      "weight": 0.2
+    },
+    {
+      "name": "Ultrasonic scalpels",
       "weight": 0.2
     },
     {
@@ -4020,7 +3548,31 @@
       "weight": 0.2
     },
     {
+      "name": "Ureteroscopes",
+      "weight": 0.2
+    },
+    {
+      "name": "Urethrotomes",
+      "weight": 0.2
+    },
+    {
+      "name": "Urodynamics analyzers",
+      "weight": 0.2
+    },
+    {
+      "name": "Uroflowmeters",
+      "weight": 0.2
+    },
+    {
+      "name": "Urological sheaths",
+      "weight": 0.2
+    },
+    {
       "name": "Uterine curettes",
+      "weight": 0.2
+    },
+    {
+      "name": "Uterine depressors",
       "weight": 0.2
     },
     {
@@ -4032,6 +3584,10 @@
       "weight": 0.2
     },
     {
+      "name": "Uterine sounds",
+      "weight": 0.2
+    },
+    {
       "name": "Vaginal specula",
       "weight": 0.2
     },
@@ -4040,7 +3596,19 @@
       "weight": 0.2
     },
     {
+      "name": "Vision test equipment",
+      "weight": 0.2
+    },
+    {
+      "name": "Vision testing displays",
+      "weight": 0.2
+    },
+    {
       "name": "X ray machines",
+      "weight": 0.2
+    },
+    {
+      "name": "simplifyMD Dermatology",
       "weight": 0.2
     }
   ],

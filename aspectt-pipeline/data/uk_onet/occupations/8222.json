@@ -1544,47 +1544,67 @@
   ],
   "tasks": [
     {
-      "task": "Drive gasoline- or electric-powered trucks or tractors to transport materials between loading, processing, and storage areas. Maneuver trucks into loading or unloading positions, following signals from loading crew and checking that vehicle and loading equipment are properly positioned.",
+      "task": "Move controls to drive gasoline- or electric-powered trucks and transport materials between loading, processing, and storage areas.",
       "task_type": "Core"
     },
     {
-      "task": "Operate or tend to material-moving machines, including automatic stacking, loading, or packaging machinery, to facilitate material handling.",
+      "task": "Operate or tend automatic stacking, loading, packaging, or cutting machines.",
       "task_type": "Supplemental"
     },
     {
-      "task": "Use lifting devices, such as forklifts or hoists, to load, unload, transport, or stack materials. Position lifting devices under or around loaded pallets or boxes and secure material for transport to designated areas. Manually or mechanically load or unload materials from transport vehicles.",
+      "task": "Move controls that operate lifting devices, such as forklifts, to load, unload, transport, or stack material.",
       "task_type": "Core"
     },
     {
-      "task": "Inspect product loads for accuracy and check conditions of trailers after contents have been unloaded to ensure no damage has occurred. Inspect and test materials and equipment to ensure they are safe and free from defects. Verify all load-related documentation for completeness and accuracy.",
+      "task": "Inspect product loads for accuracy and safely move them in the warehouse to ensure timely delivery.",
       "task_type": "Core"
     },
     {
-      "task": "Collect and verify delivery instructions, checking routes and general conditions to ensure timely and safe deliveries. Plan or adjust routes using navigation equipment to optimize fuel consumption and minimize emissions.",
+      "task": "Manually or mechanically load or unload materials from pallets, skids, or other transport vehicles.",
       "task_type": "Core"
     },
     {
-      "task": "Secure cargo for transport using ropes, chains, or other materials, ensuring that goods are properly wrapped and secured. Remove debris from loaded trailers and check loads to ensure cargo is secure.",
+      "task": "Perform routine maintenance on vehicles or auxiliary equipment, such as cleaning or lubricating.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Position lifting devices under loaded goods and secure materials for transport to designated areas.",
       "task_type": "Core"
     },
     {
-      "task": "Perform routine vehicle maintenance tasks, such as cleaning, checking fluid levels, changing tires, and completing minor repairs. Report vehicle defects or accidents.",
+      "task": "Report vehicle defects, accidents, or damages to the vehicles and ensure they are in good working order.",
       "task_type": "Core"
     },
     {
-      "task": "Provide directions to laborers, assist in packing goods for transport, and supervise loading/unloading activities to ensure efficient operation.",
+      "task": "Inspect loads to ensure cargo is secure and check load-related documentation for completeness and accuracy.",
       "task_type": "Core"
     },
     {
-      "task": "Drive trucks with capacities greater than 13 tons to transport various products, including livestock, and maintain logs of working hours and vehicle service status, in compliance with regulations.",
+      "task": "Drive trucks to weigh stations and along routes in compliance with regulations while planning or adjusting routes using GPS equipment.",
       "task_type": "Core"
     },
     {
-      "task": "Confer with customers, supervisors, or other personnel to resolve problems and get feedback on service. Check cargo handling requirements and enforce safety rules and regulations throughout operations.",
+      "task": "Maneuver trucks into positions for loading or unloading, following signals from the loading crew.",
       "task_type": "Core"
     },
     {
-      "task": "Provide training and demonstrate work tasks to new workers, reinforcing safety protocols and operational procedures.",
+      "task": "Enforce safety rules and regulations, and ensure compliance in handling materials.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Confer with customers, supervisors, and other personnel to exchange information or resolve issues.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Examine, measure, or weigh cargo to determine specific handling requirements and keep records of operations.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Train workers in safe operational procedures and explain company policies.",
+      "task_type": "Unclassified"
+    },
+    {
+      "task": "Dispatch personnel and vehicles in response to reports of emergencies or direct workers in material handling tasks.",
       "task_type": "Core"
     }
   ],
@@ -1664,6 +1684,10 @@
     {
       "name": "Work scheduling software",
       "weight": 0.015151515151515152
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.03954175905395418
     }
   ],
   "tools_used": [

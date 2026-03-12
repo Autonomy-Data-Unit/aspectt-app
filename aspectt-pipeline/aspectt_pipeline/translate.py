@@ -120,7 +120,7 @@ def translate_task_statements(
                 'uk_soc_title': uk_title,
                 'task_id': row['Task ID'],
                 'task': row['Task'],
-                'task_type': row['task_type'],
+                'task_type': row['task_type'] if pd.notna(row['task_type']) else 'Unclassified',
                 'relevance': row['weight'],
             }
             if task_ratings_df is not None and row.get('w_sum', 0) > 0:
@@ -608,9 +608,21 @@ def build_uk_dataset(
 
     # Optional LLM refinement of tasks, technology skills, and tools used
     if refine:
+        import copy
         from .refine import refine_dataset
+        from .postprocess import postprocess_dataset
+
+        # Keep unrefined copy for post-processing (tech skill whitelist restoration)
+        unrefined_occupations = copy.deepcopy(dataset['occupations'])
+
         print("Refining tasks, technology skills, and tools used with LLM...")
         dataset['occupations'] = refine_dataset(dataset['occupations'], model=refine_model)
+
+        print("Post-processing refined data...")
+        dataset['occupations'] = postprocess_dataset(dataset['occupations'], unrefined_occupations)
+
+        from .postprocess import apply_manual_overrides
+        dataset['occupations'] = apply_manual_overrides(dataset['occupations'])
 
     # Save full dataset
     print(f"Saving dataset to {output_dir}...")

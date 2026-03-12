@@ -1544,44 +1544,72 @@
   ],
   "tasks": [
     {
-      "task": "Inspect and maintain vehicle supplies and equipment, such as gas, oil, water, tires, lights, or brakes, to ensure that vehicles are in proper working condition. Report any vehicle malfunctions or needed repairs and perform routine maintenance, such as regulating tire pressure and adding fluids. Report delays, accidents, or other traffic and transportation situations using telephones or mobile two-way radios. Drive vehicles or operate machines or equipment to complete work assignments. Obey traffic laws and follow established traffic and transportation procedures. Communicate with dispatchers by radio, telephone, or computer to exchange information and receive requests for service. Check the condition of a vehicle's tires, brakes, lights, oil, fuel, and other safety equipment to ensure proper operation. Plan and follow the most efficient routes for delivering goods.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Read maps and follow written or verbal geographic directions to deliver and pick up messages, documents, packages, and other items between offices or departments and other establishments, traveling by foot, bicycle, motorcycle, or automobile. Verify the contents of inventory loads against shipping papers, load and unload vehicles correctly, and sort items to be delivered according to the delivery route. Deliver messages and items, and receive messages or materials to be delivered with accompanying instructions. Obtain signatures and payments, or arrange for recipients to make payments. Report facts concerning deliveries and confirm receipt.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Maintain records of deliveries, such as vehicle logs, records of cargo, or billing statements, in accordance with regulations. Record information, such as items delivered and recipients' responses. Present bills and receipts and collect payments for goods delivered or loaded. Record vehicle routes and prepare and submit reports that may include the number of trips, hours worked, or fuel consumed. Maintain knowledge of first-aid procedures to assist in emergencies or provide necessary assistance to travelers and guests with disabilities, ensuring a safe environment while meeting their needs.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Turn in receipts and money received from deliveries. Collect fares or vouchers from passengers and make change or issue receipts as necessary. Arrange to pick up particular customers or groups on a regular schedule, follow strict time schedules for pickups and drop-offs, and provide passengers with assistance entering and exiting vehicles, along with help with any luggage. Supply guests or travelers with directions, travel information, and other available services.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Maintain clean lobbies or entrance areas for travelers or guests. Perform minor maintenance on delivery vehicles and clean and wash vehicles as needed. Provide support for errands, such as delivering or picking up mail and packages, and follow relevant safety regulations and procedures to ensure compliance and safety for both passengers and themselves.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Perform emergency repairs, such as changing tires or installing light bulbs, fuses, tire chains, or spark plugs. Report any mechanical problems encountered with vehicles to appropriate personnel. Drive vehicles with capacities under three tons to transport materials to and from specified destinations, ensuring a prompt and safe delivery of goods. Perform minor vehicle repairs when necessary, including ensuring the vehicle is clean and properly equipped for its journey, with a focus on safe operation.",
-      "task_type": "Core"
-    },
-    {
-      "task": "Deliver messages and room service orders, and run errands for guests. Greet incoming guests and escort them to their rooms, while maintaining a welcoming atmosphere by providing relevant information about the local area, including points of interest, hotels, or restaurants.",
-      "task_type": "Core"
-    },
-    {
-      "task": "[nan] Perform general office or clerical work, such as filing materials, operating duplicating machines, or running errands. Compute and complete charge slips for services rendered and maintain records. Arrange for shipments of baggage, express mail, and parcels by providing weighing and billing services for various transportation needs throughout their duties. Write customer orders and sales contracts according to company guidelines while maintaining a professional and organized approach to the job.",
+      "task": "Turn in receipts and money received from deliveries.",
       "task_type": "Supplemental"
     },
     {
-      "task": "[nan] Turn on taximeters, provide passengers information about local events, and inform regular customers of new products or services, while continuing to gather customer feedback for service improvement efforts as needed. Communicate effectively with dispatchers and mechanics as well as other personnel in a variety of environments. Stay current on local regulations, and ensure all interactions meet established standards.",
-      "task_type": "Supplemental"
+      "task": "Inspect and maintain vehicle supplies and equipment to ensure that vehicles are in proper working condition.",
+      "task_type": "Core"
     },
     {
-      "task": "[nan] Direct or coordinate the activities of workers, such as loading or unloading materials, and assist in tasks as needed without leading any specific workforce.",
-      "task_type": "nan"
+      "task": "Report delays, accidents, or other traffic and transportation situations to bases or other vehicles, using telephones or mobile two-way radios.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Read maps and follow written or verbal geographic directions.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Maintain records, such as vehicle logs and billing statements, in accordance with regulations.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Load and unload trucks, vans, or automobiles, ensuring goods are loaded correctly and taking precautions with hazardous goods.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Present bills and receipts and collect payments for goods delivered or loaded.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Obey traffic laws and follow established traffic and transportation procedures to operate vehicles safely and courteously.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Deliver messages and items, such as newspapers, documents, and packages, to private homes and businesses.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Pick up and return items for laundry and valet service; assist travelers and guests with disabilities as needed.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Drive vehicles to transport materials to and from specified destinations, such as offices or transportation terminals.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Collect items to be delivered and sort items according to delivery routes.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Obtain signatures and payments, or arrange for recipients to make payments upon delivery.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Perform routine maintenance on delivery vehicles and report any vehicle malfunctions or needed repairs.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Communicate with dispatchers to exchange information and receive requests for service, using radio or telephone.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Provide passengers or customers with information or advice about local areas, services, and points of interest.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Maintain clean lobbies or entrance areas for travelers or guests.",
+      "task_type": "Core"
     }
   ],
   "technology_skills": [
@@ -1720,6 +1748,10 @@
     {
       "name": "Proof of delivery POD software",
       "weight": 0.024390243902439025
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 0.03954175905395418
     }
   ],
   "tools_used": [

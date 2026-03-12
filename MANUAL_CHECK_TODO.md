@@ -1,0 +1,466 @@
+# MANUAL_CHECK_TODO
+
+Systematic manual review of all 412 UK SOC 2020 occupations produced by the ASPECTT pipeline.
+For each occupation, check that refined tasks, technology skills, tools, and other data look correct.
+Compare refined vs unrefined data (in `data/uk_onet_unrefined/`) to check for over-filtering.
+
+Mark each occupation with:
+- `[x]` = reviewed, looks OK
+- `[!]` = reviewed, has issues (see flags and notes in MANUAL_CHECK_NOTES.md)
+
+Columns: SOC | Title | Sources | Tasks (unrefined->refined) | Tech (unrefined->refined) | Tools (unrefined->refined)
+
+## 1 -- Managers, Directors and Senior Officials
+
+- [!] 1111 Chief executives and senior officials -- 18 src, tasks 344->49, tech 416->55, tools 98->27 **US-TERMS(1)**
+- [!] 1112 Elected officers and representatives -- 1 src, tasks 30->29, tech 32->12, tools 4->4 **US-TERMS(1)**
+- [x] 1121 Production managers and directors in manufacturing -- 12 src, tasks 237->31, tech 233->49, tools 139->64
+- [!] 1122 Production managers and directors in construction -- 15 src, tasks 274->40, tech 337->71, tools 247->247 **MEGA-TASK(1x, max 1362 chars) | TOOLS-UNCHANGED(247)**
+- [!] 1123 Production managers and directors in mining and energy -- 25 src, tasks 472->35, tech 381->52, tools 524->471 **NAN-TYPE(8)**
+- [!] 1131 Financial managers and directors -- 6 src, tasks 136->26, tech 306->83, tools 38->18 **US-TERMS(1)**
+- [!] 1132 Marketing, sales and advertising directors -- 10 src, tasks 210->23, tech 360->42, tools 73->18 **LLM-ARTIFACT-IN-TASK**
+- [x] 1133 Public relations and communications directors -- 3 src, tasks 66->9, tech 106->55, tools 13->13
+- [x] 1134 Purchasing managers and directors -- 2 src, tasks 60->24, tech 148->82, tools 20->18
+- [!] 1135 Charitable organisation managers and directors -- 16 src, tasks 302->27, tech 410->61, tools 89->24 **MEGA-TASK(1x, max 1362 chars) | US-TERMS(1)**
+- [x] 1136 Human resource managers and directors -- 3 src, tasks 60->18, tech 245->67, tools 15->15
+- [!] 1137 Information technology directors -- 19 src, tasks 438->165, tech 1105->316, tools 170->81 **NAN-TYPE(2)**
+- [!] 1139 Functional managers and directors n.e.c. -- 41 src, tasks 796->86, tech 759->58, tools 293->31 **US-TERMS(1)**
+- [!] 1140 Directors in logistics, warehousing and transport -- 2 src, tasks 60->58, tech 148->102, tools 20->16 **NAN-TYPE(3)**
+- [x] 1150 Managers and directors in retail and wholesale -- 3 src, tasks 66->16, tech 178->57, tools 24->18
+- [!] 1161 Officers in armed forces -- 8 src, tasks 0->0, tech 0->0, tools 0->0 **NO-DATA**
+- [x] 1162 Senior police officers -- 20 src, tasks 395->56, tech 465->63, tools 202->23
+- [x] 1163 Senior officers in fire, ambulance, prison and related services -- 12 src, tasks 219->33, tech 287->26, tools 73->27
+- [x] 1171 Health services and public health managers and directors -- 7 src, tasks 140->10, tech 318->87, tools 52->38
+- [!] 1172 Social services managers and directors -- 2 src, tasks 33->9, tech 49->22, tools 9->9 **US-TERMS(1)**
+- [!] 1211 Managers and proprietors in agriculture and horticulture -- 4 src, tasks 91->23, tech 143->61, tools 490->461 **US-TERMS(1)**
+- [!] 1212 Managers and proprietors in forestry, fishing and related services -- 10 src, tasks 230->57, tech 144->70, tools 776->208 **NAN-TYPE(8) | US-TERMS(1)**
+- [x] 1221 Hotel and accommodation managers and proprietors -- 14 src, tasks 269->33, tech 309->31, tools 112->56
+- [x] 1222 Restaurant and catering establishment managers and proprietors -- 1 src, tasks 28->20, tech 39->35, tools 5->5
+- [!] 1223 Publicans and managers of licensed premises -- 16 src, tasks 299->12, tech 404->32, tools 84->30 **MEGA-TASK(1x, max 1740 chars) | GAMBLING-TASK**
+- [!] 1224 Leisure and sports managers and proprietors -- 14 src, tasks 268->32, tech 348->39, tools 226->25 **US-TERMS(1)**
+- [!] 1225 Travel agency managers and proprietors -- 12 src, tasks 219->33, tech 287->25, tools 73->20 **NAN-TYPE(1)**
+- [x] 1231 Health care practice managers -- 2 src, tasks 30->16, tech 82->40, tools 16->15
+- [x] 1232 Residential, day and domiciliary care managers and proprietors -- 4 src, tasks 68->24, tech 241->46, tools 24->13
+- [x] 1233 Early education and childcare services proprietors -- 6 src, tasks 89->76, tech 115->73, tools 21->20
+- [x] 1241 Managers in transport and distribution -- 19 src, tasks 378->41, tech 466->138, tools 237->78
+- [!] 1242 Managers in storage and warehousing -- 8 src, tasks 176->29, tech 236->83, tools 106->59 **NAN-TYPE(1)**
+- [x] 1243 Managers in logistics -- 2 src, tasks 60->22, tech 148->85, tools 20->20
+- [!] 1251 Property, housing and estate managers -- 44 src, tasks 813->91, tech 1009->86, tools 295->32 **NAN-TYPE(1)**
+- [x] 1252 Garage managers and proprietors -- 12 src, tasks 219->55, tech 287->32, tools 73->34
+- [x] 1253 Hairdressing and beauty salon managers and proprietors -- 12 src, tasks 219->24, tech 287->46, tools 73->15
+- [!] 1254 Waste disposal and environmental services managers -- 19 src, tasks 349->57, tech 366->59, tools 168->168 **NAN-TYPE(5) | TOOLS-UNCHANGED(168)**
+- [!] 1255 Managers and directors in the creative industries -- 28 src, tasks 478->32, tech 625->76, tools 106->47 **GAMBLING-TASK**
+- [x] 1256 Betting shop and gambling establishment managers -- 13 src, tasks 238->47, tech 288->32, tools 75->21
+- [!] 1257 Hire services managers and proprietors -- 13 src, tasks 238->41, tech 288->33, tools 75->28 **GAMBLING-TASK**
+- [!] 1258 Directors in consultancy services -- 18 src, tasks 338->37, tech 532->131, tools 83->20 **NAN-TYPE(1)**
+- [!] 1259 Managers and proprietors in other services n.e.c. -- 30 src, tasks 566->47, tech 523->86, tools 240->21 **NAN-TYPE(1) | US-TERMS(1)**
+## 2 -- Professional Occupations
+
+- [x] 2111 Chemical scientists -- 8 src, tasks 136->26, tech 245->89, tools 577->451
+- [x] 2112 Biological scientists -- 44 src, tasks 773->71, tech 729->76, tools 1628->656
+- [!] 2113 Biochemists and biomedical scientists -- 40 src, tasks 644->55, tech 622->138, tools 1482->627 **MEGA-TASK(1x, max 1440 chars)**
+- [!] 2114 Physical scientists -- 23 src, tasks 396->58, tech 746->160, tools 1283->828 **US-TERMS(1)**
+- [x] 2115 Social and humanities scientists -- 36 src, tasks 627->98, tech 823->126, tools 1041->58
+- [x] 2119 Natural and social science professionals n.e.c. -- 26 src, tasks 431->85, tech 672->81, tools 987->824
+- [!] 2121 Civil engineers -- 7 src, tasks 148->18, tech 207->105, tools 328->27 **US-TECH**
+- [!] 2122 Mechanical engineers (professional) -- 35 src, tasks 700->274, tech 861->554, tools 1539->954 **US-TECH**
+- [x] 2123 Electrical engineers -- 3 src, tasks 63->28, tech 173->85, tools 102->88
+- [!] 2124 Electronics engineers (professional) -- 3 src, tasks 59->10, tech 172->112, tools 63->63 **MEGA-TASK(1x, max 1017 chars) | TOOLS-UNCHANGED(63)**
+- [!] 2125 Production and process engineers -- 22 src, tasks 455->52, tech 788->280, tools 889->886 **MEGA-TASK(1x, max 1123 chars) | LLM-ARTIFACT-IN-TASK**
+- [!] 2126 Aerospace engineers -- 9 src, tasks 198->46, tech 363->210, tools 250->250 **TOOLS-UNCHANGED(250)**
+- [!] 2127 Engineering project managers and project engineers -- 29 src, tasks 619->85, tech 879->558, tools 1083->1083 **US-TECH | TOOLS-UNCHANGED(1083)**
+- [!] 2129 Engineering professionals n.e.c. -- 61 src, tasks 1140->131, tech 1498->247, tools 1808->24 **MEGA-TASK(6x, max 4757 chars) | NAN-TYPE(3) | LLM-ARTIFACT-IN-TASK | US-TERMS(1)**
+- [!] 2131 IT project managers -- 21 src, tasks 484->67, tech 1124->551, tools 170->104 **NAN-TYPE(9) | EMPTY-TASK**
+- [x] 2132 IT managers -- 22 src, tasks 467->52, tech 1141->396, tools 104->46
+- [!] 2133 IT business analysts, architects and systems designers -- 28 src, tasks 611->78, tech 1251->578, tools 187->54 **NAN-TYPE(4)**
+- [!] 2134 Programmers and software development professionals -- 29 src, tasks 624->88, tech 1378->300, tools 200->51 **MEGA-TASK(1x, max 1062 chars) | NAN-TYPE(5)**
+- [!] 2135 Cyber security professionals -- 17 src, tasks 373->45, tech 1009->208, tools 59->42 **MEGA-TASK(1x, max 1684 chars) | NAN-TYPE(2)**
+- [x] 2136 IT quality and testing professionals -- 17 src, tasks 373->81, tech 1009->319, tools 59->42
+- [x] 2137 IT network professionals -- 2 src, tasks 59->20, tech 302->141, tools 111->81
+- [!] 2139 Information technology professionals n.e.c. -- 29 src, tasks 621->118, tech 1346->1256, tools 204->65 **NAN-TYPE(21)**
+- [!] 2141 Web design professionals -- 21 src, tasks 460->46, tech 1131->148, tools 80->26 **MEGA-TASK(1x, max 1053 chars) | NAN-TYPE(4)**
+- [!] 2142 Graphic and multimedia designers -- 16 src, tasks 332->27, tech 593->88, tools 403->16 **MEGA-TASK(1x, max 1021 chars) | NAN-TYPE(1)**
+- [!] 2151 Conservation professionals -- 7 src, tasks 163->20, tech 177->27, tools 168->160 **MEGA-TASK(1x, max 1092 chars) | US-TERMS(1) | US-TECH**
+- [!] 2152 Environment professionals -- 22 src, tasks 453->79, tech 481->52, tools 451->35 **US-TERMS(1)**
+- [!] 2161 Research and development (R&D) managers -- 30 src, tasks 559->41, tech 794->37, tools 161->29 **NAN-TYPE(2)**
+- [!] 2162 Other researchers, unspecified discipline -- 51 src, tasks 1079->131, tech 625->253, tools 1310->558 **US-TECH**
+- [x] 2211 Generalist medical practitioners -- 23 src, tasks 378->53, tech 282->104, tools 695->467
+- [x] 2212 Specialist medical practitioners and consultants -- 52 src, tasks 805->101, tech 783->55, tools 2122->360
+- [x] 2221 Physiotherapists -- 2 src, tasks 49->11, tech 23->22, tools 144->141
+- [x] 2222 Occupational therapists -- 13 src, tasks 199->25, tech 159->32, tools 489->118
+- [!] 2223 Speech and language therapists -- 2 src, tasks 45->19, tech 52->42, tools 73->73 **TOOLS-UNCHANGED(73)**
+- [x] 2224 Psychotherapists and cognitive behaviour therapists -- 19 src, tasks 305->38, tech 254->86, tools 506->14
+- [x] 2225 Clinical psychologists -- 6 src, tasks 106->16, tech 115->115, tools 25->25
+- [x] 2226 Other psychologists -- 6 src, tasks 106->19, tech 115->105, tools 25->25
+- [!] 2229 Therapy professionals n.e.c. -- 68 src, tasks 1092->153, tech 869->81, tools 1935->333 **US-TERMS(1) | US-TECH**
+- [x] 2231 Midwifery nurses -- 5 src, tasks 101->22, tech 137->56, tools 148->130
+- [x] 2232 Registered community nurses -- 7 src, tasks 188->28, tech 96->68, tools 356->343
+- [x] 2233 Registered specialist nurses -- 7 src, tasks 188->39, tech 96->72, tools 356->344
+- [x] 2234 Registered nurse practitioners -- 7 src, tasks 188->39, tech 96->68, tools 356->353
+- [x] 2235 Registered mental health nurses -- 7 src, tasks 188->54, tech 96->73, tools 356->348
+- [x] 2236 Registered children's nurses -- 7 src, tasks 188->33, tech 96->75, tools 356->345
+- [!] 2237 Other registered nursing professionals -- 16 src, tasks 345->52, tech 291->57, tools 482->454 **NAN-TYPE(1)**
+- [x] 2240 Veterinarians -- 1 src, tasks 21->11, tech 20->20, tools 183->120
+- [x] 2251 Pharmacists -- 3 src, tasks 48->18, tech 120->22, tools 317->38
+- [x] 2252 Optometrists -- 1 src, tasks 10->8, tech 27->22, tools 62->53
+- [x] 2253 Dental practitioners -- 5 src, tasks 57->17, tech 84->72, tools 415->403
+- [!] 2254 Medical radiographers -- 6 src, tasks 141->1, tech 83->49, tools 287->188 **TASK-OVERFILTER(141->1)**
+- [x] 2255 Paramedics -- 4 src, tasks 53->17, tech 60->60, tools 223->117
+- [!] 2256 Podiatrists -- 13 src, tasks 199->12, tech 159->43, tools 489->150 **MEGA-TASK(1x, max 1145 chars)**
+- [!] 2259 Other health professionals n.e.c. -- 84 src, tasks 1410->141, tech 1007->159, tools 2834->532 **US-TECH**
+- [!] 2311 Higher education teaching professionals -- 40 src, tasks 919->81, tech 406->47, tools 627->52 **US-TECH**
+- [x] 2312 Further education teaching professionals -- 6 src, tasks 143->26, tech 183->38, tools 216->26
+- [x] 2313 Secondary education teaching professionals -- 1 src, tasks 32->16, tech 24->22, tools 23->23
+- [x] 2314 Primary education teaching professionals -- 4 src, tasks 144->21, tech 41->33, tools 40->32
+- [!] 2315 Nursery education teaching professionals -- 5 src, tasks 174->40, tech 109->42, tools 49->27 **NAN-TYPE(1) | US-TERMS(1)**
+- [!] 2316 Special and additional needs education teaching professionals -- 13 src, tasks 298->57, tech 173->51, tools 139->139 **TOOLS-UNCHANGED(139)**
+- [x] 2317 Teachers of English as a foreign language -- 5 src, tasks 104->32, tech 48->33, tools 36->12
+- [!] 2319 Teaching professionals n.e.c. -- 14 src, tasks 312->80, tech 291->60, tools 245->51 **US-TERMS(1)**
+- [!] 2321 Head teachers and principals -- 6 src, tasks 125->27, tech 231->62, tools 31->23 **US-TERMS(1)**
+- [!] 2322 Education managers -- 30 src, tasks 612->75, tech 491->62, tools 217->217 **MEGA-TASK(1x, max 1017 chars) | TOOLS-UNCHANGED(217)**
+- [!] 2323 Education advisers and school inspectors -- 1 src, tasks 30->13, tech 88->47, tools 18->16 **NAN-TYPE(7) | US-TERMS(1)**
+- [!] 2324 Early education and childcare services managers -- 14 src, tasks 255->47, tech 313->52, tools 77->28 **NAN-TYPE(2) | LLM-ARTIFACT-IN-TASK | US-TERMS(1)**
+- [!] 2329 Other educational professionals n.e.c -- 15 src, tasks 299->96, tech 543->74, tools 232->37 **US-TERMS(1)**
+- [x] 2411 Barristers and judges -- 11 src, tasks 160->21, tech 251->26, tools 69->31
+- [!] 2412 Solicitors and lawyers -- 1 src, tasks 22->20, tech 127->126, tools 12->9 **US-TERMS(1)**
+- [!] 2419 Legal professionals n.e.c. -- 26 src, tasks 436->41, tech 603->60, tools 142->35 **MEGA-TASK(2x, max 4903 chars)**
+- [!] 2421 Chartered and certified accountants -- 3 src, tasks 54->20, tech 302->61, tools 12->12 **US-TERMS(1)**
+- [!] 2422 Finance and investment analysts and advisers -- 20 src, tasks 412->86, tech 576->53, tools 211->25 **US-TERMS(1)**
+- [x] 2423 Taxation experts -- 4 src, tasks 75->8, tech 307->92, tools 16->16
+- [x] 2431 Management consultants and business analysts -- 14 src, tasks 282->30, tech 624->107, tools 30->25
+- [x] 2432 Marketing and commercial managers -- 6 src, tasks 122->32, tech 305->36, tools 15->15
+- [!] 2433 Actuaries, economists and statisticians -- 37 src, tasks 607->77, tech 973->122, tools 770->33 **NAN-TYPE(13) | US-TERMS(1)**
+- [!] 2434 Business and related research professionals -- 75 src, tasks 1509->108, tech 1848->196, tools 1763->217 **MEGA-TASK(3x, max 2520 chars) | NAN-TYPE(2)**
+- [!] 2435 Professional/Chartered company secretaries -- 9 src, tasks 171->22, tech 268->40, tools 37->23 **US-TERMS(1)**
+- [!] 2439 Business, research and administrative professionals n.e.c. -- 25 src, tasks 482->55, tech 629->123, tools 180->35 **MEGA-TASK(1x, max 1133 chars) | NAN-TYPE(7)**
+- [!] 2440 Business and financial project management professionals -- 41 src, tasks 735->60, tech 804->70, tools 181->43 **MEGA-TASK(1x, max 1098 chars) | NAN-TYPE(1) | LLM-ARTIFACT-IN-TASK**
+- [x] 2451 Architects -- 2 src, tasks 43->16, tech 80->37, tools 30->19
+- [!] 2452 Chartered architectural technologists, planning officers and consultants -- 8 src, tasks 193->23, tech 288->44, tools 493->80 **MEGA-TASK(1x, max 1281 chars) | WRONG-DOMAIN-FIRE-TASK**
+- [!] 2453 Quantity surveyors -- 32 src, tasks 647->126, tech 744->223, tools 1571->435 **NAN-TYPE(7) | US-TECH | WRONG-DOMAIN-FIRE-TASK**
+- [!] 2454 Chartered surveyors -- 9 src, tasks 198->62, tech 279->79, tools 548->110 **WRONG-DOMAIN-FIRE-TASK**
+- [!] 2455 Construction project managers and related professionals -- 11 src, tasks 264->34, tech 344->344, tools 501->154 **US-TECH**
+- [x] 2461 Social workers -- 11 src, tasks 154->23, tech 116->43, tools 45->37
+- [x] 2462 Probation officers -- 11 src, tasks 154->31, tech 116->30, tools 45->25
+- [x] 2463 Clergy -- 3 src, tasks 40->14, tech 21->15, tools 10->10
+- [x] 2464 Youth work professionals -- 11 src, tasks 154->23, tech 116->29, tools 45->29
+- [x] 2469 Welfare professionals n.e.c. -- 18 src, tasks 293->25, tech 150->28, tools 185->22
+- [x] 2471 Librarians -- 1 src, tasks 30->26, tech 83->35, tools 41->35
+- [x] 2472 Archivists, conservators and curators -- 10 src, tasks 190->21, tech 115->64, tools 355->38
+- [!] 2481 Quality control and planning engineers -- 42 src, tasks 865->134, tech 980->265, tools 1738->1203 **WRONG-DOMAIN-FIRE-TASK**
+- [!] 2482 Quality assurance and regulatory professionals -- 56 src, tasks 1024->108, tech 1302->118, tools 1488->22 **US-TERMS(1)**
+- [x] 2483 Environmental health professionals -- 10 src, tasks 165->31, tech 103->23, tools 286->221
+- [x] 2491 Newspaper, periodical and broadcast editors -- 2 src, tasks 51->19, tech 77->34, tools 23->22
+- [x] 2492 Newspaper and periodical broadcast journalists and reporters -- 2 src, tasks 51->9, tech 77->39, tools 23->21
+- [x] 2493 Public relations professionals -- 4 src, tasks 84->18, tech 133->75, tools 14->14
+- [x] 2494 Advertising accounts managers and creative directors -- 7 src, tasks 151->17, tech 269->113, tools 19->19
+## 3 -- Associate Professional Occupations
+
+- [!] 3111 Laboratory technicians -- 35 src, tasks 686->100, tech 597->83, tools 1764->718 **NAN-TYPE(3) | WRONG-DOMAIN-FIRE-TASK**
+- [x] 3112 Electrical and electronics technicians -- 17 src, tasks 309->46, tech 253->59, tools 530->202
+- [x] 3113 Engineering technicians -- 28 src, tasks 429->43, tech 533->273, tools 1041->710
+- [!] 3114 Building and civil engineering technicians -- 11 src, tasks 205->22, tech 246->38, tools 641->57 **NAN-TYPE(1) | WRONG-DOMAIN-FIRE-TASK**
+- [!] 3115 Quality assurance technicians -- 25 src, tasks 519->58, tech 444->45, tools 1078->510 **MEGA-TASK(1x, max 1068 chars) | NAN-TYPE(4)**
+- [x] 3116 Planning, process and production technicians -- 5 src, tasks 71->17, tech 110->102, tools 188->184
+- [!] 3119 Science, engineering and production technicians n.e.c. -- 28 src, tasks 568->74, tech 448->130, tools 1472->840 **WRONG-DOMAIN-FIRE-TASK**
+- [!] 3120 CAD, drawing and architectural technicians -- 14 src, tasks 299->42, tech 408->64, tools 670->170 **WRONG-DOMAIN-FIRE-TASK**
+- [x] 3131 IT technicians -- 20 src, tasks 448->39, tech 1123->479, tools 85->63
+- [!] 3132 IT user support technicians -- 12 src, tasks 257->34, tech 728->136, tools 67->67 **TOOLS-UNCHANGED(67)**
+- [!] 3133 Database administrators and web content technicians -- 10 src, tasks 220->28, tech 611->137, tools 66->19 **NAN-TYPE(3)**
+- [x] 3211 Dispensing opticians -- 1 src, tasks 21->13, tech 18->17, tools 39->37
+- [x] 3212 Pharmaceutical technicians -- 1 src, tasks 21->11, tech 22->22, tools 46->42
+- [!] 3213 Medical and dental technicians -- 39 src, tasks 668->76, tech 408->114, tools 1499->474 **MEGA-TASK(3x, max 1107 chars) | NAN-TYPE(2)**
+- [!] 3214 Complementary health associate professionals -- 39 src, tasks 600->36, tech 580->53, tools 1505->301 **MEGA-TASK(1x, max 1092 chars) | US-TECH**
+- [!] 3219 Health associate professionals n.e.c. -- 21 src, tasks 379->47, tech 242->59, tools 767->147 **US-TERMS(1)**
+- [x] 3221 Youth and community workers -- 2 src, tasks 19->8, tech 13->13, tools 11->11
+- [!] 3222 Child and early years officers -- 4 src, tasks 77->5, tech 37->26, tools 55->55 **MEGA-TASK(1x, max 1245 chars) | TOOLS-UNCHANGED(55)**
+- [x] 3223 Housing officers -- 1 src, tasks 19->10, tech 13->13, tools 11->11
+- [x] 3224 Counsellors -- 17 src, tasks 245->46, tech 180->69, tools 58->36
+- [x] 3229 Welfare and housing associate professionals n.e.c. -- 24 src, tasks 340->26, tech 226->34, tools 88->44
+- [x] 3231 Higher level teaching assistants -- 3 src, tasks 58->9, tech 31->27, tools 48->35
+- [x] 3232 Early education and childcare practitioners -- 8 src, tasks 156->9, tech 44->33, tools 72->53
+- [x] 3240 Veterinary nurses -- 2 src, tasks 59->12, tech 17->17, tools 196->175
+- [x] 3311 Non-commissioned officers and other ranks -- 24 src, tasks 187->35, tech 81->30, tools 478->133
+- [!] 3312 Police officers (sergeant and below) -- 18 src, tasks 180->25, tech 143->34, tools 310->99 **MEGA-TASK(1x, max 1342 chars)**
+- [x] 3313 Fire service officers (watch manager and below) -- 19 src, tasks 393->32, tech 444->53, tools 600->174
+- [x] 3314 Prison service officers (below principal officer) -- 2 src, tasks 50->20, tech 15->13, tools 40->40
+- [!] 3319 Protective service associate professionals n.e.c. -- 42 src, tasks 714->85, tech 618->40, tools 417->107 **MEGA-TASK(1x, max 1267 chars) | US-TERMS(1) | GAMBLING-TASK**
+- [x] 3411 Artists -- 20 src, tasks 295->33, tech 334->28, tools 474->73
+- [!] 3412 Authors, writers and translators -- 29 src, tasks 509->66, tech 712->78, tools 104->37 **LLM-ARTIFACT-IN-TASK**
+- [x] 3413 Actors, entertainers and presenters -- 21 src, tasks 348->51, tech 271->27, tools 240->64
+- [x] 3414 Dancers and choreographers -- 14 src, tasks 240->37, tech 81->42, tools 100->39
+- [!] 3415 Musicians -- 12 src, tasks 252->29, tech 320->54, tools 157->157 **TOOLS-UNCHANGED(157)**
+- [!] 3416 Arts officers, producers and directors -- 37 src, tasks 587->110, tech 635->73, tools 318->69 **NAN-TYPE(3)**
+- [!] 3417 Photographers, audio-visual and broadcasting equipment operators -- 26 src, tasks 423->74, tech 302->54, tools 359->52 **MEGA-TASK(2x, max 1308 chars) | LLM-ARTIFACT-IN-TASK**
+- [x] 3421 Interior designers -- 6 src, tasks 104->29, tech 107->51, tools 77->34
+- [x] 3422 Clothing, fashion and accessories designers -- 6 src, tasks 104->17, tech 107->51, tools 77->54
+- [!] 3429 Design occupations n.e.c. -- 27 src, tasks 506->80, tech 578->105, tools 438->69 **NAN-TYPE(2)**
+- [!] 3431 Sports players -- 1 src, tasks 9->5, tech 12->7, tools 94->61 **ESSENTIAL-TECH-REMOVED(3)**
+- [x] 3432 Sports coaches, instructors and officials -- 24 src, tasks 431->47, tech 499->68, tools 185->34
+- [x] 3433 Fitness and wellbeing instructors -- 8 src, tasks 171->11, tech 83->25, tools 148->63
+- [!] 3511 Aircraft pilots and air traffic controllers -- 6 src, tasks 112->26, tech 87->36, tools 162->119 **US-TERMS(1)**
+- [!] 3512 Ship and hovercraft officers -- 15 src, tasks 311->78, tech 621->59, tools 526->10 **NAN-TYPE(1) | US-TERMS(1)**
+- [!] 3520 Legal associate professionals -- 20 src, tasks 324->33, tech 496->273, tools 121->31 **US-TERMS(1)**
+- [x] 3531 Brokers -- 6 src, tasks 129->24, tech 186->29, tools 32->14
+- [x] 3532 Insurance underwriters -- 9 src, tasks 175->19, tech 325->65, tools 45->28
+- [!] 3533 Financial and accounting technicians -- 4 src, tasks 82->13, tech 329->109, tools 16->16 **MEGA-TASK(1x, max 1011 chars) | US-TERMS(1)**
+- [!] 3534 Financial accounts managers -- 21 src, tasks 440->64, tech 948->178, tools 64->34 **US-TERMS(1)**
+- [x] 3541 Estimators, valuers and assessors -- 46 src, tasks 940->84, tech 1081->72, tools 1871->27
+- [x] 3542 Importers and exporters -- 3 src, tasks 66->23, tech 79->44, tools 35->21
+- [x] 3543 Project support officers -- 13 src, tasks 242->38, tech 424->64, tools 50->31
+- [!] 3544 Data analysts -- 21 src, tasks 392->69, tech 716->370, tools 47->22 **US-TERMS(1)**
+- [!] 3549 Business associate professionals n.e.c. -- 115 src, tasks 2159->201, tech 2136->136, tools 1469->78 **MEGA-TASK(4x, max 1215 chars) | NAN-TYPE(6)**
+- [x] 3551 Buyers and procurement officers -- 9 src, tasks 162->24, tech 288->43, tools 52->22
+- [x] 3552 Business sales executives -- 32 src, tasks 599->70, tech 804->74, tools 98->15
+- [x] 3553 Merchandisers -- 18 src, tasks 333->26, tech 548->31, tools 98->26
+- [!] 3554 Advertising and marketing associate professionals -- 38 src, tasks 654->60, tech 759->72, tools 132->23 **MEGA-TASK(1x, max 1068 chars) | NAN-TYPE(3)**
+- [!] 3555 Estate agents and auctioneers -- 20 src, tasks 362->55, tech 601->63, tools 72->28 **NAN-TYPE(1) | LLM-ARTIFACT-IN-TASK | US-TERMS(1)**
+- [!] 3556 Sales accounts and business development managers -- 36 src, tasks 733->68, tech 912->79, tools 184->31 **US-TERMS(1)**
+- [!] 3557 Events managers and organisers -- 19 src, tasks 361->36, tech 410->32, tools 122->19 **US-TERMS(1)**
+- [!] 3560 Public services associate professionals -- 76 src, tasks 1481->145, tech 1416->177, tools 1613->593 **MEGA-TASK(4x, max 1326 chars) | NAN-TYPE(6) | US-TERMS(1)**
+- [!] 3571 Human resources and industrial relations officers -- 6 src, tasks 137->33, tech 316->96, tools 35->23 **US-TERMS(1)**
+- [!] 3572 Careers advisers and vocational guidance specialists -- 9 src, tasks 155->9, tech 312->25, tools 32->18 **MEGA-TASK(2x, max 1345 chars) | LLM-ARTIFACT-IN-TASK**
+- [x] 3573 Information technology trainers -- 1 src, tasks 20->19, tech 117->41, tools 6->6
+- [x] 3574 Other vocational and industrial trainers -- 3 src, tasks 58->19, tech 139->36, tools 77->75
+- [!] 3581 Inspectors of standards and regulations -- 45 src, tasks 930->77, tech 678->45, tools 1584->801 **NAN-TYPE(1) | WRONG-DOMAIN-FIRE-TASK**
+- [!] 3582 Health and safety managers and officers -- 58 src, tasks 1115->90, tech 1120->62, tools 1984->466 **MEGA-TASK(2x, max 5473 chars) | WRONG-DOMAIN-FIRE-TASK**
+## 4 -- Administrative and Secretarial Occupations
+
+- [!] 4111 National government administrative occupations -- 46 src, tasks 801->153, tech 800->59, tools 415->44 **US-TERMS(1)**
+- [x] 4112 Local government administrative occupations -- 30 src, tasks 501->49, tech 393->53, tools 259->21
+- [x] 4113 Officers of non-governmental organisations -- 18 src, tasks 242->145, tech 346->39, tools 87->37
+- [!] 4121 Credit controllers -- 4 src, tasks 96->6, tech 152->51, tools 19->19 **NAN-TYPE(1) | EMPTY-TASK**
+- [x] 4122 Book-keepers, payroll managers and wages clerks -- 12 src, tasks 215->27, tech 439->63, tools 50->17
+- [!] 4123 Bank and post office clerks -- 12 src, tasks 244->60, tech 307->78, tools 76->38 **NAN-TYPE(2)**
+- [x] 4124 Finance officers -- 8 src, tasks 127->9, tech 122->38, tools 25->23
+- [!] 4129 Financial administrative occupations n.e.c. -- 33 src, tasks 617->87, tech 602->82, tools 265->43 **MEGA-TASK(2x, max 2509 chars) | LLM-ARTIFACT-IN-TASK | GAMBLING-TASK**
+- [!] 4131 Records clerks and assistants -- 77 src, tasks 1326->144, tech 1150->126, tools 1383->36 **NAN-TYPE(2) | GAMBLING-TASK | WRONG-DOMAIN-FIRE-TASK**
+- [x] 4132 Pensions and insurance clerks and assistants -- 17 src, tasks 301->29, tech 451->74, tools 173->26
+- [x] 4133 Stock control clerks and assistants -- 17 src, tasks 271->34, tech 237->42, tools 221->38
+- [!] 4134 Transport and distribution clerks and assistants -- 7 src, tasks 145->7, tech 147->49, tools 141->36 **MEGA-TASK(5x, max 1438 chars)**
+- [x] 4135 Library clerks and assistants -- 8 src, tasks 139->17, tech 76->28, tools 333->15
+- [x] 4136 Human resources administrative occupations -- 1 src, tasks 19->5, tech 41->31, tools 9->9
+- [!] 4141 Office managers -- 31 src, tasks 598->59, tech 600->60, tools 252->30 **NAN-TYPE(1) | US-TERMS(1)**
+- [x] 4142 Office supervisors -- 6 src, tasks 142->16, tech 322->23, tools 38->16
+- [x] 4143 Customer service managers -- 1 src, tasks 28->16, tech 89->44, tools 14->14
+- [x] 4151 Sales administrators -- 6 src, tasks 79->9, tech 102->34, tools 40->22
+- [!] 4152 Data entry administrators -- 22 src, tasks 401->96, tech 865->39, tools 80->20 **MEGA-TASK(1x, max 1672 chars)**
+- [!] 4159 Other administrative occupations n.e.c. -- 32 src, tasks 440->64, tech 346->36, tools 126->13 **MEGA-TASK(3x, max 1473 chars)**
+- [x] 4211 Medical secretaries -- 3 src, tasks 48->16, tech 182->47, tools 16->16
+- [!] 4212 Legal secretaries -- 8 src, tasks 97->9, tech 171->46, tools 66->23 **MEGA-TASK(1x, max 1116 chars)**
+- [x] 4213 School secretaries -- 4 src, tasks 75->16, tech 152->25, tools 34->29
+- [x] 4214 Company secretaries and administrators -- 5 src, tasks 95->20, tech 182->45, tools 26->22
+- [x] 4215 Personal assistants and other secretaries -- 7 src, tasks 103->58, tech 209->34, tools 35->23
+- [x] 4216 Receptionists -- 3 src, tasks 56->18, tech 54->21, tools 32->23
+- [x] 4217 Typists and related keyboard occupations -- 6 src, tasks 123->38, tech 222->37, tools 37->27
+## 5 -- Skilled Trades Occupations
+
+- [!] 5111 Farmers -- 16 src, tasks 353->40, tech 224->32, tools 701->682 **MEGA-TASK(1x, max 1283 chars) | EMPTY-TASK**
+- [!] 5112 Horticultural trades -- 12 src, tasks 233->48, tech 72->36, tools 795->498 **WRONG-DOMAIN-FIRE-TASK**
+- [x] 5113 Gardeners and landscape gardeners -- 6 src, tasks 122->16, tech 20->9, tools 526->149
+- [x] 5114 Groundsmen and greenkeepers -- 3 src, tasks 69->12, tech 13->11, tools 295->124
+- [!] 5119 Agricultural and fishing trades n.e.c. -- 40 src, tasks 744->62, tech 347->36, tools 1391->623 **US-TERMS(1) | US-TECH**
+- [!] 5211 Sheet metal workers -- 13 src, tasks 209->19, tech 229->57, tools 626->485 **MEGA-TASK(1x, max 1513 chars)**
+- [x] 5212 Metal plate workers, smiths, moulders and related occupations -- 30 src, tasks 542->113, tech 213->120, tools 1401->635
+- [!] 5213 Welding trades -- 7 src, tasks 154->85, tech 55->16, tools 640->439 **WRONG-DOMAIN-FIRE-TASK**
+- [x] 5214 Pipe fitters -- 3 src, tasks 65->63, tech 62->31, tools 370->137
+- [x] 5221 Metal machining setters and setter-operators -- 24 src, tasks 427->78, tech 177->150, tools 962->734
+- [x] 5222 Tool makers, tool fitters and markers-out -- 6 src, tasks 92->24, tech 113->84, tools 312->229
+- [!] 5223 Metal working production and maintenance fitters and technicians -- 119 src, tasks 2181->345, tech 1269->577, tools 4310->2029 **MEGA-TASK(4x, max 1747 chars) | NAN-TYPE(1) | US-TERMS(1)**
+- [!] 5224 Precision instrument makers and repairers -- 5 src, tasks 72->3, tech 53->23, tools 180->172 **MEGA-TASK(3x, max 3330 chars) | TASK-OVERFILTER(72->3)**
+- [!] 5225 Air-conditioning and refrigeration installers and repairers -- 17 src, tasks 355->58, tech 358->56, tools 849->155 **NAN-TYPE(1)**
+- [x] 5231 Vehicle technicians, mechanics and electricians -- 27 src, tasks 568->61, tech 362->57, tools 1339->699
+- [x] 5232 Vehicle body builders and repairers -- 31 src, tasks 616->75, tech 401->75, tools 1606->809
+- [x] 5233 Vehicle paint technicians -- 6 src, tasks 100->9, tech 35->11, tools 351->30
+- [x] 5234 Aircraft maintenance and related trades -- 22 src, tasks 478->79, tech 346->72, tools 886->882
+- [x] 5235 Boat and ship builders and repairers -- 44 src, tasks 861->193, tech 448->147, tools 1738->1375
+- [!] 5236 Rail and rolling stock builders and repairers -- 27 src, tasks 509->58, tech 378->180, tools 1319->1206 **MEGA-TASK(1x, max 1350 chars)**
+- [!] 5241 Electricians and electrical fitters -- 27 src, tasks 449->54, tech 261->49, tools 935->607 **MEGA-TASK(2x, max 1190 chars)**
+- [!] 5242 Telecoms and related network installers and repairers -- 14 src, tasks 320->44, tech 275->98, tools 803->141 **MEGA-TASK(1x, max 1003 chars)**
+- [x] 5243 TV, video and audio servicers and repairers -- 17 src, tasks 339->62, tech 266->72, tools 500->210
+- [x] 5244 Computer system and equipment installers and servicers -- 10 src, tasks 220->31, tech 250->93, tools 349->182
+- [x] 5245 Security system installers and repairers -- 10 src, tasks 181->72, tech 247->85, tools 346->306
+- [x] 5246 Electrical service and maintenance mechanics and repairers -- 33 src, tasks 662->116, tech 337->67, tools 1442->1073
+- [x] 5249 Electrical and electronic trades n.e.c. -- 25 src, tasks 534->111, tech 424->367, tools 1039->789
+- [x] 5250 Skilled metal, electrical and electronic trades supervisors -- 15 src, tasks 269->37, tech 341->31, tools 242->195
+- [!] 5311 Steel erectors -- 6 src, tasks 119->3, tech 125->50, tools 204->183 **MEGA-TASK(3x, max 5172 chars) | TASK-OVERFILTER(119->3) | US-TECH**
+- [x] 5312 Stonemasons and related trades -- 6 src, tasks 84->11, tech 33->17, tools 323->304
+- [x] 5313 Bricklayers -- 10 src, tasks 153->11, tech 54->15, tools 521->199
+- [x] 5314 Roofers, roof tilers and slaters -- 12 src, tasks 234->39, tech 46->18, tools 493->145
+- [x] 5315 Plumbers and heating and ventilating installers and repairers -- 19 src, tasks 396->39, tech 406->50, tools 814->470
+- [x] 5316 Carpenters and joiners -- 11 src, tasks 197->37, tech 130->14, tools 608->339
+- [x] 5317 Glaziers, window fabricators and fitters -- 7 src, tasks 141->11, tech 18->12, tools 310->124
+- [!] 5319 Construction and building trades n.e.c. -- 29 src, tasks 549->55, tech 370->70, tools 1311->1159 **US-TECH**
+- [!] 5321 Plasterers -- 3 src, tasks 57->6, tech 29->17, tools 115->109 **MEGA-TASK(2x, max 1434 chars)**
+- [x] 5322 Floorers and wall tilers -- 9 src, tasks 150->42, tech 59->7, tools 550->169
+- [!] 5323 Painters and decorators -- 3 src, tasks 66->34, tech 27->11, tools 187->99 **NAN-TYPE(5)**
+- [x] 5330 Construction and building trades supervisors -- 3 src, tasks 50->25, tech 88->40, tools 182->180
+- [x] 5411 Upholsterers -- 2 src, tasks 42->16, tech 61->16, tools 65->58
+- [!] 5412 Footwear and leather working trades -- 27 src, tasks 421->47, tech 135->135, tools 1133->207 **MEGA-TASK(1x, max 1966 chars)**
+- [x] 5413 Tailors and dressmakers -- 10 src, tasks 155->27, tech 85->29, tools 200->110
+- [x] 5419 Textiles, garments and related trades n.e.c. -- 24 src, tasks 389->50, tech 177->35, tools 840->489
+- [x] 5421 Pre-press technicians -- 10 src, tasks 186->34, tech 395->47, tools 177->50
+- [x] 5422 Printers -- 5 src, tasks 103->103, tech 177->31, tools 173->55
+- [x] 5423 Print finishing and binding workers -- 14 src, tasks 266->27, tech 245->39, tools 434->114
+- [x] 5431 Butchers -- 10 src, tasks 162->25, tech 72->19, tools 347->68
+- [x] 5432 Bakers and flour confectioners -- 2 src, tasks 38->15, tech 75->19, tools 233->232
+- [x] 5433 Fishmongers and poultry dressers -- 4 src, tasks 56->17, tech 16->13, tools 156->72
+- [x] 5434 Chefs -- 2 src, tasks 47->21, tech 53->47, tools 94->82
+- [x] 5435 Cooks -- 8 src, tasks 126->34, tech 86->65, tools 374->217
+- [x] 5436 Catering and bar managers -- 19 src, tasks 345->65, tech 117->73, tools 311->250
+- [x] 5441 Glass and ceramics makers, decorators and finishers -- 46 src, tasks 863->91, tech 698->123, tools 1990->1281
+- [!] 5442 Furniture makers and other craft woodworkers -- 21 src, tasks 381->54, tech 156->16, tools 1164->746 **US-TERMS(1)**
+- [x] 5443 Florists -- 2 src, tasks 33->4, tech 16->14, tools 103->20
+- [!] 5449 Other skilled trades n.e.c. -- 83 src, tasks 1481->1481, tech 440->24, tools 3312->3312 **NAN-TYPE(8) | TOOLS-UNCHANGED(3312)**
+## 6 -- Caring, Leisure and Other Service Occupations
+
+- [!] 6111 Early education and childcare assistants -- 10 src, tasks 227->40, tech 49->30, tools 77->46 **NAN-TYPE(1)**
+- [x] 6112 Teaching assistants -- 3 src, tasks 58->10, tech 31->27, tools 48->48
+- [x] 6113 Educational support assistants -- 3 src, tasks 58->30, tech 31->29, tools 48->37
+- [x] 6114 Childminders -- 5 src, tasks 98->13, tech 23->15, tools 31->19
+- [!] 6116 Nannies and au pairs -- 5 src, tasks 98->1, tech 23->14, tools 31->27 **MEGA-TASK(1x, max 1842 chars) | TASK-OVERFILTER(98->1)**
+- [x] 6117 Playworkers -- 5 src, tasks 98->20, tech 23->14, tools 31->20
+- [x] 6121 Pest controllers -- 3 src, tasks 51->22, tech 24->17, tools 114->44
+- [x] 6129 Animal care services occupations n.e.c. -- 12 src, tasks 250->27, tech 90->33, tools 808->104
+- [x] 6131 Nursing auxiliaries and assistants -- 36 src, tasks 616->53, tech 339->78, tools 1116->244
+- [!] 6132 Ambulance staff (excluding paramedics) -- 16 src, tasks 242->14, tech 116->38, tools 268->96 **NAN-TYPE(4)**
+- [x] 6133 Dental nurses -- 11 src, tasks 163->19, tech 64->27, tools 361->77
+- [x] 6134 Houseparents and residential wardens -- 7 src, tasks 131->11, tech 49->24, tools 116->103
+- [x] 6135 Care workers and home carers -- 20 src, tasks 340->18, tech 92->30, tools 419->404
+- [x] 6136 Senior care workers -- 5 src, tasks 81->15, tech 37->16, tools 71->54
+- [!] 6137 Care escorts -- 13 src, tasks 201->2, tech 83->21, tools 142->61 **TASK-OVERFILTER(201->2)**
+- [x] 6138 Undertakers, mortuary and crematorium assistants -- 6 src, tasks 143->17, tech 58->35, tools 403->57
+- [!] 6211 Sports and leisure assistants -- 38 src, tasks 549->51, tech 125->21, tools 414->41 **GAMBLING-TASK**
+- [x] 6212 Travel agents -- 17 src, tasks 281->18, tech 465->55, tools 51->30
+- [!] 6213 Air travel assistants -- 8 src, tasks 125->18, tech 104->42, tools 99->13 **US-TERMS(1)**
+- [!] 6214 Rail travel assistants -- 12 src, tasks 184->25, tech 70->12, tools 162->28 **NAN-TYPE(1)**
+- [!] 6219 Leisure and travel service occupations n.e.c. -- 30 src, tasks 497->33, tech 198->55, tools 423->142 **MEGA-TASK(3x, max 2215 chars)**
+- [!] 6221 Hairdressers and barbers -- 5 src, tasks 95->15, tech 27->16, tools 61->61 **TOOLS-UNCHANGED(61)**
+- [!] 6222 Beauticians and related occupations -- 17 src, tasks 213->42, tech 60->25, tools 158->135 **NAN-TYPE(2)**
+- [!] 6231 Housekeepers and related occupations -- 14 src, tasks 211->17, tech 89->7, tools 279->279 **TOOLS-UNCHANGED(279)**
+- [x] 6232 Caretakers -- 7 src, tasks 128->22, tech 47->12, tools 139->71
+- [x] 6240 Cleaning and housekeeping managers and supervisors -- 23 src, tasks 404->41, tech 386->19, tools 176->64
+- [x] 6250 Bed and breakfast and guest house owners and proprietors -- 4 src, tasks 62->20, tech 39->18, tools 43->40
+- [x] 6311 Police community support officers -- 11 src, tasks 167->45, tech 58->23, tools 147->65
+- [x] 6312 Parking and civil enforcement occupations -- 16 src, tasks 262->26, tech 77->19, tools 234->46
+## 7 -- Sales and Customer Service Occupations
+
+- [!] 7111 Sales and retail assistants -- 11 src, tasks 219->25, tech 113->30, tools 218->102 **ESSENTIAL-TECH-REMOVED(3)**
+- [!] 7112 Retail cashiers and check-out operators -- 6 src, tasks 96->8, tech 53->2, tools 70->16 **TECH-OVERFILTER(53->2) | ESSENTIAL-TECH-REMOVED(5) | GAMBLING-TASK**
+- [x] 7113 Telephone salespersons -- 5 src, tasks 48->18, tech 42->18, tools 19->13
+- [x] 7114 Pharmacy and optical dispensing assistants -- 5 src, tasks 104->14, tech 126->36, tools 187->58
+- [!] 7115 Vehicle and parts salespersons and advisers -- 4 src, tasks 84->26, tech 93->30, tools 51->24 **GAMBLING-TASK**
+- [x] 7121 Collector salespersons and credit agents -- 12 src, tasks 178->27, tech 286->55, tools 33->10
+- [x] 7122 Debt, rent and other cash collectors -- 20 src, tasks 292->27, tech 222->39, tools 245->22
+- [!] 7123 Roundspersons and van salespersons -- 6 src, tasks 113->28, tech 25->11, tools 138->105 **ESSENTIAL-TECH-REMOVED(3)**
+- [x] 7124 Market and street traders and assistants -- 1 src, tasks 12->9, tech 6->6, tools 7->7
+- [x] 7125 Visual merchandisers and related occupations -- 8 src, tasks 120->16, tech 110->48, tools 90->49
+- [x] 7129 Sales related occupations n.e.c. -- 50 src, tasks 885->122, tech 1008->124, tools 221->55
+- [!] 7131 Shopkeepers and owners - retail and wholesale -- 34 src, tasks 613->65, tech 746->59, tools 140->28 **NAN-TYPE(1)**
+- [x] 7132 Sales supervisors - retail and wholesale -- 3 src, tasks 50->12, tech 210->44, tools 41->29
+- [!] 7211 Call and contact centre occupations -- 7 src, tasks 124->1, tech 180->35, tools 52->31 **MEGA-TASK(1x, max 1796 chars) | TASK-OVERFILTER(124->1)**
+- [x] 7212 Telephonists -- 4 src, tasks 64->7, tech 140->14, tools 44->14
+- [x] 7213 Communication operators -- 19 src, tasks 307->40, tech 229->24, tools 317->46
+- [x] 7214 Market research interviewers -- 1 src, tasks 16->9, tech 24->15, tools 9->8
+- [!] 7219 Customer service occupations n.e.c. -- 37 src, tasks 640->104, tech 646->49, tools 304->48 **NAN-TYPE(5) | US-TERMS(1)**
+- [x] 7220 Customer service supervisors -- 1 src, tasks 28->7, tech 89->37, tools 14->14
+## 8 -- Process, Plant and Machine Operatives
+
+- [x] 8111 Food, drink and tobacco process operatives -- 25 src, tasks 402->52, tech 184->33, tools 940->456
+- [x] 8112 Textile process operatives -- 47 src, tasks 842->151, tech 245->10, tools 1584->845
+- [!] 8113 Chemical and related process operatives -- 76 src, tasks 1349->241, tech 426->92, tools 2464->706 **NAN-TYPE(7)**
+- [!] 8114 Plastics process operatives -- 13 src, tasks 248->90, tech 43->20, tools 474->474 **TOOLS-UNCHANGED(474)**
+- [!] 8115 Metal making and treating process operatives -- 70 src, tasks 1303->254, tech 390->58, tools 2806->1882 **NAN-TYPE(2)**
+- [!] 8119 Process operatives n.e.c. -- 55 src, tasks 1003->114, tech 201->16, tools 2299->264 **MEGA-TASK(6x, max 2482 chars)**
+- [!] 8120 Metal working machine operatives -- 51 src, tasks 930->98, tech 335->20, tools 2673->689 **MEGA-TASK(2x, max 1283 chars)**
+- [!] 8131 Paper and wood machine operatives -- 41 src, tasks 779->104, tech 208->18, tools 1910->1250 **MEGA-TASK(1x, max 1762 chars)**
+- [!] 8132 Mining and quarry workers and related operatives -- 52 src, tasks 805->75, tech 211->46, tools 1705->681 **EMPTY-TASK**
+- [!] 8133 Energy plant operatives -- 26 src, tasks 509->84, tech 388->388, tools 803->803 **NAN-TYPE(4) | TOOLS-UNCHANGED(803)**
+- [x] 8134 Water and sewerage plant operatives -- 14 src, tasks 264->34, tech 301->75, tools 852->316
+- [x] 8135 Printing machine assistants -- 24 src, tasks 408->38, tech 362->53, tools 968->177
+- [!] 8139 Plant and machine operatives n.e.c. -- 151 src, tasks 2751->355, tech 865->204, tools 4782->3127 **MEGA-TASK(3x, max 1528 chars) | NAN-TYPE(3)**
+- [x] 8141 Assemblers (electrical and electronic products) -- 19 src, tasks 337->89, tech 202->27, tools 734->725
+- [x] 8142 Assemblers (vehicles and metal goods) -- 26 src, tasks 452->55, tech 163->44, tools 1032->541
+- [x] 8143 Routine inspectors and testers -- 14 src, tasks 246->48, tech 198->198, tools 767->217
+- [!] 8144 Weighers, graders and sorters -- 49 src, tasks 838->95, tech 328->22, tools 1737->835 **MEGA-TASK(2x, max 1154 chars) | NAN-TYPE(3)**
+- [!] 8145 Tyre, exhaust and windscreen fitters -- 11 src, tasks 229->18, tech 110->14, tools 882->449 **ESSENTIAL-TECH-REMOVED(5)**
+- [x] 8146 Sewing machinists -- 13 src, tasks 231->24, tech 73->18, tools 353->64
+- [!] 8149 Assemblers and routine operatives n.e.c. -- 38 src, tasks 663->88, tech 286->34, tools 1524->646 **WRONG-DOMAIN-FIRE-TASK**
+- [!] 8151 Scaffolders, stagers and riggers -- 24 src, tasks 418->42, tech 148->18, tools 985->313 **US-TERMS(1)**
+- [x] 8152 Road construction operatives -- 21 src, tasks 335->77, tech 99->19, tools 1207->217
+- [!] 8153 Rail construction and maintenance operatives -- 18 src, tasks 346->25, tech 311->74, tools 733->346 **MEGA-TASK(3x, max 1210 chars) | US-TECH**
+- [!] 8159 Construction operatives n.e.c. -- 78 src, tasks 1361->173, tech 817->82, tools 2990->1858 **MEGA-TASK(1x, max 1217 chars)**
+- [x] 8160 Production, factory and assembly supervisors -- 38 src, tasks 757->91, tech 141->36, tools 1332->962
+- [!] 8211 Heavy and large goods vehicle drivers -- 14 src, tasks 210->31, tech 87->21, tools 399->154 **US-TERMS(1)**
+- [x] 8212 Bus and coach drivers -- 7 src, tasks 108->20, tech 55->13, tools 81->38
+- [x] 8213 Taxi and cab drivers and chauffeurs -- 8 src, tasks 118->14, tech 73->34, tools 89->24
+- [!] 8214 Delivery drivers and couriers -- 11 src, tasks 150->10, tech 75->34, tools 118->27 **NAN-TYPE(1) | NAN-PREFIX-IN-TASK**
+- [x] 8215 Driving instructors -- 1 src, tasks 30->13, tech 22->9, tools 28->6
+- [x] 8219 Road transport drivers n.e.c. -- 17 src, tasks 267->28, tech 133->19, tools 313->76
+- [!] 8221 Crane drivers -- 17 src, tasks 235->49, tech 75->14, tools 491->438 **NAN-TYPE(5) | ESSENTIAL-TECH-REMOVED(5)**
+- [x] 8222 Fork-lift truck drivers -- 5 src, tasks 79->11, tech 65->19, tools 111->80
+- [x] 8229 Mobile machine drivers and operatives n.e.c. -- 28 src, tasks 400->71, tech 143->16, tools 1169->238
+- [!] 8231 Train and tram drivers -- 11 src, tasks 196->28, tech 71->22, tools 223->68 **NAN-TYPE(1)**
+- [!] 8232 Marine and waterways transport operatives -- 30 src, tasks 571->59, tech 185->25, tools 1663->818 **MEGA-TASK(1x, max 1018 chars)**
+- [!] 8233 Air transport operatives -- 16 src, tasks 288->28, tech 216->99, tools 332->90 **MEGA-TASK(1x, max 1039 chars)**
+- [x] 8234 Rail transport operatives -- 11 src, tasks 184->16, tech 72->45, tools 261->127
+- [!] 8239 Other drivers and transport operatives n.e.c. -- 57 src, tasks 918->88, tech 529->102, tools 1742->841 **MEGA-TASK(3x, max 1447 chars)**
+## 9 -- Elementary Occupations
+
+- [!] 9111 Farm workers -- 5 src, tasks 97->22, tech 47->31, tools 362->362 **TOOLS-UNCHANGED(362)**
+- [!] 9112 Forestry and related workers -- 20 src, tasks 344->37, tech 114->37, tools 855->411 **LLM-ARTIFACT-IN-TASK**
+- [x] 9119 Fishing and other elementary agriculture occupations n.e.c. -- 14 src, tasks 272->27, tech 86->33, tools 1138->169
+- [!] 9121 Groundworkers -- 10 src, tasks 174->20, tech 62->1, tools 755->137 **TECH-OVERFILTER(62->1) | ESSENTIAL-TECH-REMOVED(4)**
+- [!] 9129 Elementary construction occupations n.e.c. -- 66 src, tasks 1014->114, tech 348->16, tools 1801->1223 **MEGA-TASK(2x, max 1316 chars) | US-TERMS(1)**
+- [!] 9131 Industrial cleaning process occupations -- 23 src, tasks 336->4, tech 207->16, tools 666->64 **TASK-OVERFILTER(336->4)**
+- [!] 9132 Packers, bottlers, canners and fillers -- 4 src, tasks 61->2, tech 67->21, tools 165->58 **MEGA-TASK(1x, max 3838 chars) | NAN-TYPE(1) | TASK-OVERFILTER(61->2) | LLM-ARTIFACT-IN-TASK**
+- [x] 9139 Elementary process plant occupations n.e.c. -- 74 src, tasks 1199->85, tech 387->70, tools 2533->960
+- [!] 9211 Postal workers, mail sorters and messengers -- 23 src, tasks 317->22, tech 162->46, tools 201->65 **MEGA-TASK(1x, max 1233 chars) | NAN-TYPE(1)**
+- [!] 9219 Elementary administration occupations n.e.c. -- 14 src, tasks 221->27, tech 205->35, tools 230->33 **MEGA-TASK(1x, max 2040 chars)**
+- [!] 9221 Window cleaners -- 1 src, tasks 21->10, tech 7->2, tools 42->29 **ESSENTIAL-TECH-REMOVED(3)**
+- [!] 9222 Street cleaners -- 1 src, tasks 0->0, tech 0->0, tools 0->0 **NO-DATA**
+- [x] 9223 Cleaners and domestics -- 4 src, tasks 87->29, tech 25->8, tools 112->58
+- [x] 9224 Launderers, dry cleaners and pressers -- 5 src, tasks 96->15, tech 20->14, tools 112->71
+- [x] 9225 Refuse and salvage occupations -- 10 src, tasks 141->10, tech 86->24, tools 242->23
+- [!] 9226 Vehicle valeters and cleaners -- 10 src, tasks 174->20, tech 151->23, tools 284->56 **NAN-TYPE(1) | LLM-ARTIFACT-IN-TASK**
+- [x] 9229 Elementary cleaning occupations n.e.c. -- 5 src, tasks 83->14, tech 23->4, tools 130->28
+- [!] 9231 Security guards and related occupations -- 28 src, tasks 471->60, tech 226->55, tools 511->68 **WRONG-DOMAIN-FIRE-TASK**
+- [!] 9232 School midday and crossing patrol occupations -- 14 src, tasks 225->8, tech 82->31, tools 188->50 **MEGA-TASK(1x, max 1388 chars)**
+- [x] 9233 Exam invigilators -- 3 src, tasks 58->19, tech 31->26, tools 48->48
+- [x] 9241 Shelf fillers -- 1 src, tasks 30->5, tech 20->15, tools 58->27
+- [!] 9249 Elementary sales occupations n.e.c. -- 13 src, tasks 230->29, tech 54->15, tools 271->64 **MEGA-TASK(4x, max 1516 chars) | ESSENTIAL-TECH-REMOVED(3)**
+- [x] 9251 Elementary storage supervisors -- 10 src, tasks 170->11, tech 112->43, tools 213->42
+- [x] 9252 Warehouse operatives -- 17 src, tasks 305->22, tech 210->56, tools 416->106
+- [x] 9253 Delivery operatives -- 8 src, tasks 131->25, tech 40->17, tools 133->61
+- [x] 9259 Elementary storage occupations n.e.c. -- 11 src, tasks 188->24, tech 54->14, tools 455->429
+- [!] 9261 Bar and catering supervisors -- 15 src, tasks 259->50, tech 81->47, tools 323->323 **TOOLS-UNCHANGED(323)**
+- [x] 9262 Hospital porters -- 3 src, tasks 61->16, tech 18->12, tools 105->58
+- [!] 9263 Kitchen and catering assistants -- 9 src, tasks 163->39, tech 37->10, tools 215->131 **ESSENTIAL-TECH-REMOVED(4)**
+- [!] 9264 Waiters and waitresses -- 11 src, tasks 184->37, tech 78->21, tools 170->45 **NAN-TYPE(2)**
+- [x] 9265 Bar staff -- 6 src, tasks 87->10, tech 60->16, tools 312->21
+- [!] 9266 Coffee shop workers -- 4 src, tasks 89->12, tech 24->9, tools 139->54 **ESSENTIAL-TECH-REMOVED(4)**
+- [!] 9267 Leisure and theme park attendants -- 26 src, tasks 333->22, tech 111->12, tools 536->24 **NAN-TYPE(2) | ESSENTIAL-TECH-REMOVED(4)**
+- [!] 9269 Other elementary services occupations n.e.c. -- 64 src, tasks 959->91, tech 258->33, tools 1029->75 **NAN-TYPE(1)**
+
+---
+
+## Summary
+
+- **215** occupations OK
+- **197** occupations with issues
+
+## Flag Legend
+
+- **TASK-OVERFILTER**: Tasks reduced by >95% during LLM refinement
+- **TECH-OVERFILTER**: Tech skills reduced by >95% during LLM refinement
+- **ESSENTIAL-TECH-REMOVED**: 3+ essential generic tools (MS Office, etc.) wrongly removed
+- **TOOLS-UNCHANGED**: Tools not refined at all (>50 tools, 0 change)
+- **NO-DATA**: No discrete data in either refined or unrefined output
+- **MEGA-TASK**: Contains a task >1000 characters (likely improper LLM merging)
+- **NAN-TYPE(n)**: n tasks have task_type="nan" instead of Core/Supplemental
+- **US-TERMS**: Tasks contain US-specific terminology (federal, OSHA, etc.)
+- **US-TECH**: Tech skills contain US-specific tool names
+- **LLM-ARTIFACT-IN-TASK**: LLM refinement instructions leaked into task text
+- **EMPTY-TASK**: Contains a blank or placeholder task
+- **GAMBLING-TASK**: Contains gambling/casino tasks in non-gambling occupation
+- **WRONG-DOMAIN-FIRE-TASK**: Contains firefighting tasks in non-fire occupation
+- **NAN-PREFIX-IN-TASK**: Task text starts with literal [nan]

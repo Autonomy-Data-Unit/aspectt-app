@@ -1544,31 +1544,59 @@
   ],
   "tasks": [
     {
-      "task": "Operate telephone switchboards and systems to relay and complete incoming, outgoing, and interoffice calls, including local, long distance, emergency, and pay telephone calls. Answer and handle calls professionally, providing information to callers, transferring calls, taking messages, and assisting with special needs as required.",
+      "task": "Resolve customers' service or billing complaints by exchanging merchandise, refunding money, or adjusting bills.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Keep records of customer interactions, including inquiries, complaints, and actions taken.",
       "task_type": "Core"
     },
     {
-      "task": "Keep records of customer interactions, inquiries, and complaints, documenting details and actions taken, including responses to billing issues and messages recorded for clarity or conciseness. Maintain and update appointment calendars and directory information as necessary.",
+      "task": "Refer unresolved customer grievances to designated departments for further investigation.",
       "task_type": "Core"
     },
     {
-      "task": "Confer with customers by telephone or in person to provide information about products or services, resolve complaints, and refer unresolved grievances to appropriate departments for further investigation. Collect payments and process billing inquiries, including special billing requests.",
+      "task": "Determine charges for requested services, collect payments or deposits, and arrange for billing.",
       "task_type": "Core"
     },
     {
-      "task": "Perform various administrative tasks such as typing, data entry, scheduling appointments and meetings, managing mail and deliveries, and operating communication systems to ensure effective office operations and support staff.",
+      "task": "Operate telephone switchboards and systems to complete connections for calls, including emergency calls.",
       "task_type": "Core"
     },
     {
-      "task": "Provide information about the establishment, including the location of departments, available services, and assistance needed for specific inquiries. Greet visitors, determine their purpose, and direct or escort them accordingly.",
+      "task": "Provide information by accessing directories and listening to customer requests to answer questions.",
       "task_type": "Core"
     },
     {
-      "task": "Monitor emergency and security systems, making announcements or routing emergency calls as required. Maintain secure conditions and respond to emergency situations or alarms if they arise.",
+      "task": "Offer assistance to individuals unable to dial or those in emergency situations.",
       "task_type": "Core"
     },
     {
-      "task": "Suggest and check alternate spellings, locations, or listing formats for customers lacking complete information while also answering general inquiries about client businesses.",
+      "task": "Answer incoming calls, greeting callers and providing information or transferring calls as necessary.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Monitor and respond to emergency alarms, making appropriate announcements or routing calls.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Greet visitors, determine purpose of visit, and direct or escort them to specific destinations.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Operate communication systems, such as telephones, switchboards, or intercoms to relay messages.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Page individuals to inform them of telephone calls using paging or interoffice communication equipment.",
+      "task_type": "Core"
+    },
+    {
+      "task": "Provide assistance for customers with special billing requests or other customer inquiries.",
+      "task_type": "Supplemental"
+    },
+    {
+      "task": "Maintain and update directory information, records, or appointment calendars as needed.",
       "task_type": "Core"
     }
   ],
@@ -1628,6 +1656,14 @@
     {
       "name": "Web browser software",
       "weight": 0.1111111111111111
+    },
+    {
+      "name": "Microsoft Excel",
+      "weight": 1.1111111111111112
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "weight": 1.1111111111111112
     }
   ],
   "tools_used": [
