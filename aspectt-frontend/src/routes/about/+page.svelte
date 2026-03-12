@@ -75,6 +75,10 @@
 			crosswalk is provided by the US Bureau of Labor Statistics, and the UK SOC 2020 coding
 			index is published by the Office for National Statistics.
 		</p>
+		<p>
+			For full technical details including the LLM refinement step, weighting scheme, and data format,
+			see the <a href="/methodology">detailed methodology</a>.
+		</p>
 	</div>
 
 	<div class="card">
@@ -115,7 +119,7 @@
 	<div class="card">
 		<h2>Further reading</h2>
 		<ul class="link-list">
-			<li><a href="https://autonomy.work/wp-content/uploads/2022/01/Aspectt-occupational-tool.pdf" target="_blank" rel="noopener">ASPECTT methodology paper (PDF)</a></li>
+			<li><a href="https://autonomy.work/wp-content/uploads/2022/01/Aspectt-occupational-tool.pdf" target="_blank" rel="noopener">ASPECTT brochure (PDF)</a></li>
 			<li><a href="https://autonomy.work/adu/" target="_blank" rel="noopener">Autonomy Data Unit</a></li>
 			<li><a href="https://autonomy.work/" target="_blank" rel="noopener">Autonomy Institute</a></li>
 			<li><a href="/api">ASPECTT public API</a></li>
