@@ -186,20 +186,20 @@
 		line-height: 1.7;
 	}
 
+	.desc a, .credit a {
+		color: inherit;
+		text-decoration: underline;
+	}
+
+	.desc a:hover, .credit a:hover {
+		opacity: 0.8;
+	}
+
 	.credit {
 		font-size: 0.8rem;
 		opacity: 0.45;
 		margin-top: -1.5rem;
 		margin-bottom: 2rem;
-	}
-
-	.credit a {
-		color: inherit;
-		text-decoration: underline;
-	}
-
-	.credit a:hover {
-		opacity: 0.8;
 	}
 
 	.search-box {
