@@ -76,9 +76,9 @@
 	.zone-header:hover { background: var(--color-bg); }
 
 	.zone-badge {
-		flex-shrink: 0; width: 70px; text-align: center;
-		padding: 0.5rem; border-radius: var(--radius);
-		background: var(--color-accent); color: white;
+		flex-shrink: 0; min-width: 80px; text-align: center;
+		padding: 0.5rem 0.625rem; border-radius: var(--radius);
+		background: var(--color-primary); color: white;
 		font-weight: 700; font-size: 0.85rem;
 	}
 
